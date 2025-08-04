@@ -1,7 +1,8 @@
 {
   "permissions": {
     "allow": [
-      "WebFetch(domain:tinywow.com)"
+      "WebFetch(domain:tinywow.com)",
+      "Bash(pnpm run:*)"
     ],
     "deny": []
   }

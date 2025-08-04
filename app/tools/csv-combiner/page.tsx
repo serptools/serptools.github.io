@@ -226,7 +226,7 @@ export default function CSVCombinerPage() {
                       className="h-4 w-4"
                     />
                     <label htmlFor="includeHeaders" className="text-sm">
-                      Include headers from all files (uncheck to use only first file's header)
+                      Include headers from all files (uncheck to use only first file&apos;s header)
                     </label>
                   </div>
 
@@ -305,7 +305,7 @@ export default function CSVCombinerPage() {
                 <li>Click the upload area or drag and drop your CSV files</li>
                 <li>Upload multiple CSV files that you want to combine</li>
                 <li>Choose whether to include headers from all files or just the first one</li>
-                <li>Click "Combine Files" to merge all uploaded CSV files</li>
+                <li>Click &quot;Combine Files&quot; to merge all uploaded CSV files</li>
                 <li>Preview the combined data in the right panel</li>
                 <li>Download your combined CSV file</li>
               </ol>

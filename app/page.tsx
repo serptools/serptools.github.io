@@ -43,6 +43,7 @@ const tools = [
     href: "/tools/csv-combiner",
     tags: ["csv", "merge", "data"],
     isNew: true,
+    isPopular: false,
   },
   {
     id: "json-to-csv",
@@ -53,6 +54,7 @@ const tools = [
     href: "/tools/json-to-csv",
     tags: ["json", "csv", "convert"],
     isNew: true,
+    isPopular: true,
   },
   {
     id: "character-counter",
@@ -63,6 +65,7 @@ const tools = [
     href: "/tools/character-counter",
     tags: ["text", "count", "words"],
     isNew: true,
+    isPopular: true,
   },
 ];
 
@@ -230,7 +233,7 @@ export default function HomePage() {
                 Need a specific tool?
               </h2>
               <p className="mb-8 text-lg text-muted-foreground">
-                We're constantly adding new tools. Let us know what you need!
+                We&apos;re constantly adding new tools. Let us know what you need!
               </p>
               <Button size="lg" className="group">
                 Request a Tool
