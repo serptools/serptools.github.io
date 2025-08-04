@@ -8,8 +8,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Serp Apps",
-  description: "Collection of useful applications",
+  title: "SerpTools - Free Online Tools for Everyday Tasks",
+  description: "A collection of free, easy-to-use online tools including CSV combiner, JSON converter, character counter, and more. No signup required.",
 };
 
 export default function RootLayout({
