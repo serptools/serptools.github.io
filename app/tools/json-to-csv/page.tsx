@@ -25,11 +25,93 @@ export default function JSONToCSVPage() {
   const [csvOutput, setCsvOutput] = useState('');
   const [copied, setCopied] = useState(false);
   const [activeTab, setActiveTab] = useState('text');
+  const [error, setError] = useState('');
 
   const handleCopy = () => {
     navigator.clipboard.writeText(csvOutput);
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
+  };
+
+  const jsonToCSV = (jsonData: any[]): string => {
+    if (!jsonData || jsonData.length === 0) return '';
+    
+    // Get all unique keys from all objects
+    const allKeys = new Set<string>();
+    jsonData.forEach(obj => {
+      Object.keys(obj).forEach(key => allKeys.add(key));
+    });
+    
+    const headers = Array.from(allKeys);
+    
+    // Create CSV header
+    const csvHeader = headers.map(header => `"${header}"`).join(',');
+    
+    // Create CSV rows
+    const csvRows = jsonData.map(obj => {
+      return headers.map(header => {
+        const value = obj[header];
+        if (value === null || value === undefined) return '""';
+        if (typeof value === 'string') {
+          // Escape quotes and wrap in quotes
+          return `"${value.replace(/"/g, '""')}"`;
+        }
+        return `"${value}"`;
+      }).join(',');
+    });
+    
+    return [csvHeader, ...csvRows].join('\n');
+  };
+
+  const handleConvert = () => {
+    setError('');
+    setCsvOutput('');
+    
+    if (!jsonInput.trim()) {
+      setError('Please enter JSON data');
+      return;
+    }
+    
+    try {
+      const parsedJson = JSON.parse(jsonInput);
+      
+      if (!Array.isArray(parsedJson)) {
+        setError('JSON must be an array of objects');
+        return;
+      }
+      
+      const csv = jsonToCSV(parsedJson);
+      setCsvOutput(csv);
+    } catch (e) {
+      setError('Invalid JSON format. Please check your input.');
+    }
+  };
+
+  const handleDownload = () => {
+    if (!csvOutput) return;
+    
+    const blob = new Blob([csvOutput], { type: 'text/csv' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'data.csv';
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+  };
+
+  const handleFileUpload = (event: React.ChangeEvent<HTMLInputElement>) => {
+    const file = event.target.files?.[0];
+    if (!file) return;
+    
+    const reader = new FileReader();
+    reader.onload = (e) => {
+      const content = e.target?.result as string;
+      setJsonInput(content);
+      setActiveTab('text');
+    };
+    reader.readAsText(file);
   };
 
   // Sample data for demonstration
@@ -146,16 +228,30 @@ export default function JSONToCSVPage() {
                       
                       <TabsContent value="file" className="mt-0 h-full">
                         <div className="flex min-h-[420px] flex-col items-center justify-center rounded-lg border-2 border-dashed border-muted-foreground/25 bg-muted/30 p-8 text-center transition-colors hover:border-muted-foreground/50 hover:bg-muted/50">
-                          <div className="rounded-full bg-primary/10 p-4">
-                            <Upload className="h-8 w-8 text-primary" />
-                          </div>
-                          <p className="mt-4 text-sm font-medium">
-                            Drop your JSON file here
-                          </p>
-                          <p className="mt-1 text-xs text-muted-foreground">
-                            or click to browse from your computer
-                          </p>
-                          <Button variant="secondary" size="sm" className="mt-4">
+                          <input
+                            type="file"
+                            accept=".json"
+                            onChange={handleFileUpload}
+                            className="hidden"
+                            id="json-file-input"
+                          />
+                          <label htmlFor="json-file-input" className="cursor-pointer">
+                            <div className="rounded-full bg-primary/10 p-4">
+                              <Upload className="h-8 w-8 text-primary" />
+                            </div>
+                            <p className="mt-4 text-sm font-medium">
+                              Drop your JSON file here
+                            </p>
+                            <p className="mt-1 text-xs text-muted-foreground">
+                              or click to browse from your computer
+                            </p>
+                          </label>
+                          <Button 
+                            variant="secondary" 
+                            size="sm" 
+                            className="mt-4"
+                            onClick={() => document.getElementById('json-file-input')?.click()}
+                          >
                             Choose File
                           </Button>
                           <p className="mt-4 text-xs text-muted-foreground">
@@ -204,6 +300,7 @@ export default function JSONToCSVPage() {
                           variant="ghost" 
                           size="sm"
                           disabled={!csvOutput}
+                          onClick={handleDownload}
                           className="h-9 px-3"
                         >
                           <Download className="mr-1.5 h-3.5 w-3.5" />
@@ -226,7 +323,12 @@ export default function JSONToCSVPage() {
 
               {/* Convert Button */}
               <div className="border-t bg-gradient-to-r from-primary/5 via-primary/10 to-primary/5 p-6">
-                <Button className="w-full" size="lg">
+                {error && (
+                  <div className="mb-4 rounded-lg bg-destructive/10 border border-destructive/20 p-3 text-sm text-destructive">
+                    {error}
+                  </div>
+                )}
+                <Button className="w-full" size="lg" onClick={handleConvert}>
                   <Sparkles className="mr-2 h-5 w-5" />
                   Convert to CSV
                 </Button>
