@@ -68,20 +68,6 @@ export const tools: Tool[] = [
   // SVG Converters
   { id: 'jpg-to-svg', name: 'JPG to SVG', description: 'Convert JPG to vector SVG', category: 'convert', route: '/tools/jpg-to-svg', from: 'jpg', to: 'svg', isActive: true },
   
-  // Inactive/Placeholder Converters
-  { id: 'pdf-to-pdf', name: 'PDF to PDF', description: 'Optimize PDF files', category: 'compress', route: '/tools/pdf-to-pdf', from: 'pdf', to: 'pdf', isActive: false },
-  { id: 'pdf-to-svg', name: 'PDF to SVG', description: 'Convert PDF to SVG', category: 'convert', route: '/tools/pdf-to-svg', from: 'pdf', to: 'svg', isActive: false },
-  { id: 'pdf-to-tiff', name: 'PDF to TIFF', description: 'Convert PDF to TIFF', category: 'convert', route: '/tools/pdf-to-tiff', from: 'pdf', to: 'tiff', isActive: false },
-  { id: 'png-to-svg', name: 'PNG to SVG', description: 'Convert PNG to SVG', category: 'convert', route: '/tools/png-to-svg', from: 'png', to: 'svg', isActive: false },
-  { id: 'png-to-tiff', name: 'PNG to TIFF', description: 'Convert PNG to TIFF', category: 'convert', route: '/tools/png-to-tiff', from: 'png', to: 'tiff', isActive: false },
-  { id: 'jpeg-to-svg', name: 'JPEG to SVG', description: 'Convert JPEG to SVG', category: 'convert', route: '/tools/jpeg-to-svg', from: 'jpeg', to: 'svg', isActive: false },
-  { id: 'eps-to-jpg', name: 'EPS to JPG', description: 'Convert EPS to JPG', category: 'convert', route: '/tools/eps-to-jpg', from: 'eps', to: 'jpg', isActive: false },
-  { id: 'eps-to-png', name: 'EPS to PNG', description: 'Convert EPS to PNG', category: 'convert', route: '/tools/eps-to-png', from: 'eps', to: 'png', isActive: false },
-  { id: 'eps-to-pdf', name: 'EPS to PDF', description: 'Convert EPS to PDF', category: 'convert', route: '/tools/eps-to-pdf', from: 'eps', to: 'pdf', isActive: false },
-  { id: 'eps-to-svg', name: 'EPS to SVG', description: 'Convert EPS to SVG', category: 'convert', route: '/tools/eps-to-svg', from: 'eps', to: 'svg', isActive: false },
-  { id: 'dds-to-png', name: 'DDS to PNG', description: 'Convert DDS to PNG', category: 'convert', route: '/tools/dds-to-png', from: 'dds', to: 'png', isActive: false },
-  { id: 'avif-to-gif', name: 'AVIF to GIF', description: 'Convert AVIF to GIF', category: 'convert', route: '/tools/avif-to-gif', from: 'avif', to: 'gif', isActive: false },
-  
   // ===== COMPRESS TOOLS =====
   { id: 'png-to-png', name: 'PNG Optimizer', description: 'Compress and optimize PNG files', category: 'compress', route: '/tools/png-to-png', from: 'png', to: 'png', isActive: true },
   
