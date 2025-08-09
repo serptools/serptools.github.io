@@ -11,7 +11,7 @@ export async function encodeFromRGBA(
     : Object.assign(document.createElement("canvas"), { width: rgba.width, height: rgba.height });
 
   const ctx = canvas.getContext("2d")!;
-  ctx.putImageData(new ImageData(rgba.data, rgba.width, rgba.height), 0, 0);
+  ctx.putImageData(new ImageData(new Uint8ClampedArray(rgba.data), rgba.width, rgba.height), 0, 0);
 
   const mime =
     toExt === "jpg" || toExt === "jpeg" ? "image/jpeg" :
