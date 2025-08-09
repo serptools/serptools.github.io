@@ -82,7 +82,8 @@ export default function HeroConverter({
       "shake",
       "flip",
       "zoom",
-      "confetti"
+      "confetti",
+      "rejected"
     ];
     const randomEffect = effects[Math.floor(Math.random() * effects.length)];
     setDropEffect(randomEffect);
