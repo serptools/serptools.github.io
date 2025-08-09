@@ -1,10 +1,15 @@
-import HeroConverter from "@/components/HeroConverter";
+"use client";
 
-export const metadata = {
-  title: "JPEG to JPG — SERP Tools",
-  description: "Convert JPEG to JPG in your browser — fast, private, and free.",
-};
+import HeroConverter from "@/components/HeroConverter";
+import { Navbar } from "@/components/Navbar";
 
 export default function Page() {
-  return <HeroConverter from="jpeg" to="jpg" title="JPEG to JPG" />;
+  return (
+    <>
+      <Navbar />
+      <main className="min-h-screen bg-background">
+        <HeroConverter title="JPEG to JPG" subtitle="No upload. Just convert and download." from="jpeg" to="jpg" />
+      </main>
+    </>
+  );
 }

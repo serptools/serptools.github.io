@@ -1,10 +1,15 @@
-import HeroConverter from "@/components/HeroConverter";
+"use client";
 
-export const metadata = {
-  title: "JPG to PDF — SERP Tools",
-  description: "Convert JPG to PDF in your browser — fast, private, and free.",
-};
+import HeroConverter from "@/components/HeroConverter";
+import { Navbar } from "@/components/Navbar";
 
 export default function Page() {
-  return <HeroConverter from="jpg" to="pdf" title="JPG to PDF" />;
+  return (
+    <>
+      <Navbar />
+      <main className="min-h-screen bg-background">
+        <HeroConverter title="JPEG to PDF" subtitle="No upload. Just convert and download." from="jpeg" to="pdf" />
+      </main>
+    </>
+  );
 }

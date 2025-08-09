@@ -1,10 +1,15 @@
-import HeroConverter from "@/components/HeroConverter";
+"use client";
 
-export const metadata = {
-  title: "GIF to PNG — SERP Tools",
-  description: "Convert GIF to PNG in your browser — fast, private, and free.",
-};
+import HeroConverter from "@/components/HeroConverter";
+import { Navbar } from "@/components/Navbar";
 
 export default function Page() {
-  return <HeroConverter from="gif" to="png" title="GIF to PNG" />;
+  return (
+    <>
+      <Navbar />
+      <main className="min-h-screen bg-background">
+        <HeroConverter title="GIF to PNG" subtitle="No upload. Just convert and download." from="gif" to="png" />
+      </main>
+    </>
+  );
 }

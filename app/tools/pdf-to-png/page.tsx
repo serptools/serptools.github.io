@@ -1,10 +1,15 @@
-import HeroConverter from "@/components/HeroConverter";
+"use client";
 
-export const metadata = {
-  title: "PDF to PNG — SERP Tools",
-  description: "Convert PDF to PNG in your browser — fast, private, and free.",
-};
+import HeroConverter from "@/components/HeroConverter";
+import { Navbar } from "@/components/Navbar";
 
 export default function Page() {
-  return <HeroConverter from="pdf" to="png" title="PDF to PNG" />;
+  return (
+    <>
+      <Navbar />
+      <main className="min-h-screen bg-background">
+        <HeroConverter title="PDF to PNG" subtitle="No upload. Just convert and download." from="pdf" to="png" />
+      </main>
+    </>
+  );
 }

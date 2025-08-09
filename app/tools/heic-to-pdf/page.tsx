@@ -1,10 +1,15 @@
-import HeroConverter from "@/components/HeroConverter";
+"use client";
 
-export const metadata = {
-  title: "HEIC to PDF — SERP Tools",
-  description: "Convert HEIC to PDF in your browser — fast, private, and free.",
-};
+import HeroConverter from "@/components/HeroConverter";
+import { Navbar } from "@/components/Navbar";
 
 export default function Page() {
-  return <HeroConverter from="heic" to="pdf" title="HEIC to PDF" />;
+  return (
+    <>
+      <Navbar />
+      <main className="min-h-screen bg-background">
+        <HeroConverter title="HEIC to PDF" subtitle="No upload. Just convert and download." from="heic" to="pdf" />
+      </main>
+    </>
+  );
 }

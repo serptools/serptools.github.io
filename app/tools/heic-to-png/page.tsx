@@ -1,10 +1,15 @@
-import HeroConverter from "@/components/HeroConverter";
+"use client";
 
-export const metadata = {
-  title: "HEIC to PNG — SERP Tools",
-  description: "Convert HEIC to PNG in your browser — fast, private, and free.",
-};
+import HeroConverter from "@/components/HeroConverter";
+import { Navbar } from "@/components/Navbar";
 
 export default function Page() {
-  return <HeroConverter from="heic" to="png" title="HEIC to PNG" />;
+  return (
+    <>
+      <Navbar />
+      <main className="min-h-screen bg-background">
+        <HeroConverter title="HEIC to PNG" subtitle="No upload. Just convert and download." from="heic" to="png" />
+      </main>
+    </>
+  );
 }

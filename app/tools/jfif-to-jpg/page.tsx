@@ -1,10 +1,15 @@
-import HeroConverter from "@/components/HeroConverter";
+"use client";
 
-export const metadata = {
-  title: "JFIF to JPG — SERP Tools",
-  description: "Convert JFIF to JPG in your browser — fast, private, and free.",
-};
+import HeroConverter from "@/components/HeroConverter";
+import { Navbar } from "@/components/Navbar";
 
 export default function Page() {
-  return <HeroConverter from="jfif" to="jpg" title="JFIF to JPG" />;
+  return (
+    <>
+      <Navbar />
+      <main className="min-h-screen bg-background">
+        <HeroConverter title="JFIF to JPG" subtitle="No upload. Just convert and download." from="jfif" to="jpg" />
+      </main>
+    </>
+  );
 }

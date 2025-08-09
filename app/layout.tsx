@@ -8,7 +8,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "SerpTools - Free Online Tools for Everyday Tasks",
+  title: "SERP Tools - Free Online Tools for Everyday Tasks",
   description: "A collection of free, easy-to-use online tools including CSV combiner, JSON converter, character counter, and more. No signup required.",
 };
 

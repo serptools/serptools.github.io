@@ -102,6 +102,127 @@ const tools = [
     isNew: true,
     isPopular: false,
   },
+  {
+    id: "jpeg-to-png",
+    name: "JPEG to PNG",
+    description: "Convert JPEG images to PNG format with transparency support.",
+    category: "converter",
+    icon: Image,
+    href: "/tools/jpeg-to-png",
+    tags: ["jpeg", "png", "image", "convert"],
+    isNew: false,
+    isPopular: true,
+  },
+  {
+    id: "gif-to-png",
+    name: "GIF to PNG",
+    description: "Extract frames from animated GIFs as PNG images.",
+    category: "converter",
+    icon: Image,
+    href: "/tools/gif-to-png",
+    tags: ["gif", "png", "image", "convert", "animation"],
+    isNew: false,
+    isPopular: false,
+  },
+  {
+    id: "jpg-to-svg",
+    name: "JPG to SVG",
+    description: "Convert JPG images to scalable vector graphics format.",
+    category: "converter",
+    icon: FileImage,
+    href: "/tools/jpg-to-svg",
+    tags: ["jpg", "svg", "vector", "image", "convert"],
+    isNew: false,
+    isPopular: false,
+  },
+  {
+    id: "heic-to-jpeg",
+    name: "HEIC to JPEG",
+    description: "Convert iPhone HEIC photos to JPEG format privately.",
+    category: "converter",
+    icon: Image,
+    href: "/tools/heic-to-jpeg",
+    tags: ["heic", "jpeg", "image", "convert", "iphone"],
+    isNew: false,
+    isPopular: false,
+  },
+  {
+    id: "avif-to-png",
+    name: "AVIF to PNG",
+    description: "Convert modern AVIF images to PNG format.",
+    category: "converter",
+    icon: Image,
+    href: "/tools/avif-to-png",
+    tags: ["avif", "png", "image", "convert"],
+    isNew: true,
+    isPopular: false,
+  },
+  {
+    id: "jfif-to-jpg",
+    name: "JFIF to JPG",
+    description: "Convert JFIF format images to standard JPG files.",
+    category: "converter",
+    icon: Image,
+    href: "/tools/jfif-to-jpg",
+    tags: ["jfif", "jpg", "image", "convert"],
+    isNew: false,
+    isPopular: false,
+  },
+  {
+    id: "heic-to-pdf",
+    name: "HEIC to PDF",
+    description: "Convert HEIC images to PDF documents.",
+    category: "converter",
+    icon: FileImage,
+    href: "/tools/heic-to-pdf",
+    tags: ["heic", "pdf", "document", "convert"],
+    isNew: false,
+    isPopular: false,
+  },
+  {
+    id: "pdf-to-png",
+    name: "PDF to PNG",
+    description: "Convert PDF pages to high-quality PNG images.",
+    category: "converter",
+    icon: FileImage,
+    href: "/tools/pdf-to-png",
+    tags: ["pdf", "png", "image", "convert"],
+    isNew: false,
+    isPopular: true,
+  },
+  {
+    id: "jpeg-to-pdf",
+    name: "JPEG to PDF",
+    description: "Convert JPEG images to PDF documents.",
+    category: "converter",
+    icon: FileImage,
+    href: "/tools/jpeg-to-pdf",
+    tags: ["jpeg", "pdf", "document", "convert"],
+    isNew: false,
+    isPopular: false,
+  },
+  {
+    id: "heic-to-png",
+    name: "HEIC to PNG",
+    description: "Convert HEIC photos to PNG format with transparency.",
+    category: "converter",
+    icon: Image,
+    href: "/tools/heic-to-png",
+    tags: ["heic", "png", "image", "convert", "iphone"],
+    isNew: false,
+    isPopular: false,
+  },
+  {
+    id: "jpeg-to-jpg",
+    name: "JPEG to JPG",
+    description: "Optimize and convert JPEG images to JPG format.",
+    category: "converter",
+    icon: Image,
+    href: "/tools/jpeg-to-jpg",
+    tags: ["jpeg", "jpg", "image", "convert", "optimize"],
+    isNew: false,
+    isPopular: false,
+  },
 ];
 
 // Update category counts
@@ -116,6 +237,7 @@ categories.forEach(category => {
 export default function HomePage() {
   const [selectedCategory, setSelectedCategory] = useState("all");
   const [searchQuery, setSearchQuery] = useState("");
+  const [showFilters, setShowFilters] = useState(false);
 
   // Filter tools based on category and search
   const filteredTools = tools.filter(tool => {
@@ -137,16 +259,12 @@ export default function HomePage() {
             <div className="mx-auto max-w-2xl text-center">
               <Badge className="mb-4" variant="secondary">
                 <Sparkles className="mr-1 h-3 w-3" />
-                Free Online Tools
+                Finally...
               </Badge>
               <h1 className="mb-4 text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl">
-                Simple Tools for
-                <span className="text-primary"> Everyday Tasks</span>
+                Tools that work like you want them to
               </h1>
-              <p className="mb-8 text-lg text-muted-foreground">
-                A collection of free, easy-to-use online tools to help you work more efficiently. 
-                No signup required, no data stored.
-              </p>
+    
               
               {/* Search Bar */}
               <div className="relative mx-auto max-w-xl">
@@ -165,99 +283,48 @@ export default function HomePage() {
 
         {/* Main Content */}
         <section className="container py-12">
-          <div className="flex flex-col gap-8 lg:flex-row">
-            {/* Sidebar Categories */}
-            <aside className="w-full lg:w-64">
-              <div className="sticky top-20 space-y-2">
-                <h2 className="mb-4 text-sm font-semibold text-muted-foreground">CATEGORIES</h2>
-                {categories.map((category) => (
-                  <button
-                    key={category.id}
-                    onClick={() => setSelectedCategory(category.id)}
-                    className={`flex w-full items-center justify-between rounded-lg px-3 py-2 text-sm transition-colors ${
-                      selectedCategory === category.id
-                        ? "bg-primary text-primary-foreground"
-                        : "hover:bg-accent hover:text-accent-foreground"
-                    }`}
-                  >
-                    <span>{category.name}</span>
-                    <span className={`text-xs ${
-                      selectedCategory === category.id ? "opacity-70" : "text-muted-foreground"
-                    }`}>
-                      {category.count}
-                    </span>
-                  </button>
-                ))}
-              </div>
-            </aside>
-
-            {/* Tools Grid */}
-            <div className="flex-1">
-              <div className="mb-6 flex items-center justify-between">
-                <p className="text-sm text-muted-foreground">
-                  Showing {filteredTools.length} of {tools.length} tools
-                </p>
-                <Button variant="outline" size="sm">
-                  <Filter className="mr-2 h-4 w-4" />
-                  Filter
+          {/* Filter Bar */}
+          <div className="mb-8">
+            {/* Filter Categories - Always Visible */}
+            <div className="flex flex-wrap gap-2">
+              {categories.map((category) => (
+                <Button
+                  key={category.id}
+                  onClick={() => setSelectedCategory(category.id)}
+                  variant={selectedCategory === category.id ? "default" : "outline"}
+                  size="sm"
+                >
+                  {category.name}
+                  <span className="ml-2 text-xs opacity-70">
+                    ({category.count})
+                  </span>
                 </Button>
-              </div>
-
-              <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-                {filteredTools.map((tool) => {
-                  const Icon = tool.icon;
-                  return (
-                    <Link key={tool.id} href={tool.href}>
-                      <Card className="group h-full transition-all hover:shadow-lg hover:-translate-y-1">
-                        <CardHeader>
-                          <div className="mb-4 flex items-center justify-between">
-                            <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10">
-                              <Icon className="h-6 w-6 text-primary" />
-                            </div>
-                            <div className="flex gap-2">
-                              {tool.isNew && (
-                                <Badge variant="secondary" className="text-xs">
-                                  New
-                                </Badge>
-                              )}
-                              {tool.isPopular && (
-                                <Badge variant="outline" className="text-xs">
-                                  Popular
-                                </Badge>
-                              )}
-                            </div>
-                          </div>
-                          <CardTitle className="group-hover:text-primary">
-                            {tool.name}
-                          </CardTitle>
-                          <CardDescription className="line-clamp-2">
-                            {tool.description}
-                          </CardDescription>
-                        </CardHeader>
-                        <CardContent>
-                          <div className="flex flex-wrap gap-2">
-                            {tool.tags.map((tag) => (
-                              <Badge key={tag} variant="secondary" className="text-xs">
-                                {tag}
-                              </Badge>
-                            ))}
-                          </div>
-                        </CardContent>
-                      </Card>
-                    </Link>
-                  );
-                })}
-              </div>
-
-              {filteredTools.length === 0 && (
-                <div className="py-12 text-center">
-                  <p className="text-lg text-muted-foreground">
-                    No tools found matching your criteria.
-                  </p>
-                </div>
-              )}
+              ))}
             </div>
           </div>
+
+          {/* Tools Grid */}
+          <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+            {filteredTools.map((tool) => (
+              <Link key={tool.id} href={tool.href}>
+                <Card className="group h-full transition-all hover:shadow-lg hover:-translate-y-1">
+                  <CardHeader>
+                    <CardTitle className="text-lg group-hover:text-blue-600">
+                      {tool.name}
+                    </CardTitle>
+                  </CardHeader>
+                </Card>
+              </Link>
+            ))}
+          </div>
+
+          {filteredTools.length === 0 && (
+            <div className="py-12 text-center">
+              <p className="text-lg text-muted-foreground">
+                No tools found matching your criteria.
+              </p>
+            </div>
+          )}
         </section>
 
         {/* CTA Section */}

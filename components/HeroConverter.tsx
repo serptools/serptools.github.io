@@ -98,7 +98,7 @@ export default function HeroConverter({
         >
           <Button
             size="lg"
-            className="h-14 px-8 rounded-xl bg-red-600 hover:bg-red-700 text-white shadow-lg"
+            className="h-14 px-8 rounded-xl bg-blue-600 hover:bg-blue-700 text-white shadow-lg"
             onClick={onPick}
             disabled={busy}
           >

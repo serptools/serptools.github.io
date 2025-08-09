@@ -1,6 +1,6 @@
 import { readFileSync, writeFileSync } from "node:fs";
 
-const siteBase = "https://serptools.github.io/tools/";
+const siteBase = "https://SERP Tools.github.io/tools/";
 const manifest = JSON.parse(readFileSync("lib/tools/manifest.json", "utf8"));
 
 const enabled = manifest.filter(t => t.enabled !== false);

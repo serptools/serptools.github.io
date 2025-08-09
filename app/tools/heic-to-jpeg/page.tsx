@@ -1,10 +1,15 @@
-import HeroConverter from "@/components/HeroConverter";
+"use client";
 
-export const metadata = {
-  title: "HEIC to JPEG — SERP Tools",
-  description: "Convert HEIC to JPEG in your browser — fast, private, and free.",
-};
+import HeroConverter from "@/components/HeroConverter";
+import { Navbar } from "@/components/Navbar";
 
 export default function Page() {
-  return <HeroConverter from="heic" to="jpeg" title="HEIC to JPEG" />;
+  return (
+    <>
+      <Navbar />
+      <main className="min-h-screen bg-background">
+        <HeroConverter title="HEIC to JPEG" subtitle="No upload. Just convert and download." from="heic" to="jpeg" />
+      </main>
+    </>
+  );
 }

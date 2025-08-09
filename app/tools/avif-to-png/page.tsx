@@ -1,10 +1,15 @@
-import HeroConverter from "@/components/HeroConverter";
+"use client";
 
-export const metadata = {
-  title: "AVIF to PNG — SERP Tools",
-  description: "Convert AVIF to PNG in your browser — fast, private, and free.",
-};
+import HeroConverter from "@/components/HeroConverter";
+import { Navbar } from "@/components/Navbar";
 
 export default function Page() {
-  return <HeroConverter from="avif" to="png" title="AVIF to PNG" />;
+  return (
+    <>
+      <Navbar />
+      <main className="min-h-screen bg-background">
+        <HeroConverter title="AVIF to PNG" subtitle="No upload. Just convert and download." from="avif" to="png" />
+      </main>
+    </>
+  );
 }
