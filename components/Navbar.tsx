@@ -11,12 +11,7 @@ export function Navbar() {
   const [searchQuery, setSearchQuery] = useState("");
 
   const categories = [
-    "All Tools",
-    "Converters", 
-    "Combiners",
-    "Counters",
-    "Generators",
-    "Formatters"
+    
   ];
 
   return (

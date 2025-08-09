@@ -12,17 +12,20 @@ function toTitle(slug) {
   const [from, to] = slug.split("-to-");
   return `${(from||"").toUpperCase()} to ${(to||"").toUpperCase()}`;
 }
+
 const prev = readJSON("lib/tools/manifest.json", []);
 const bySlug = new Map(prev.map(x => [x.slug, x]));
-
 const entries = [];
+
 for (const dirent of readdirSync(TOOLS_DIR, { withFileTypes: true })) {
   if (!dirent.isDirectory()) continue;
   const slug = dirent.name;
-  if (["character-counter","csv-combiner","json-to-csv"].includes(slug)) continue;
+  if (["character-counter","csv-combiner","json-to-csv","page.tsx"].includes(slug)) continue;
+
   const toolDir = join(TOOLS_DIR, slug);
   const pageExists = existsSync(join(toolDir, "page.tsx")) || existsSync(join(toolDir, "page.jsx"));
   if (!pageExists) continue;
+
   const [from, to] = slug.split("-to-");
   if (!from || !to) continue;
 
@@ -51,6 +54,7 @@ for (const dirent of readdirSync(TOOLS_DIR, { withFileTypes: true })) {
     priority: prevMeta.priority ?? 0,
   });
 }
+
 entries.sort((a,b)=>a.slug.localeCompare(b.slug));
 writeFileSync("lib/tools/manifest.json", JSON.stringify(entries, null, 2));
 console.log(`Wrote lib/tools/manifest.json (${entries.length} tools)`);
