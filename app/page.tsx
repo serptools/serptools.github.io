@@ -18,7 +18,9 @@ import {
   Hash,
   Sparkles,
   ArrowRight,
-  Filter
+  Filter,
+  Image,
+  FileImage
 } from "lucide-react";
 import Link from "next/link";
 
@@ -66,6 +68,39 @@ const tools = [
     tags: ["text", "count", "words"],
     isNew: true,
     isPopular: true,
+  },
+  {
+    id: "heic-to-jpg",
+    name: "HEIC to JPG",
+    description: "Convert HEIC photos to JPG privately, in your browser.",
+    category: "converter",
+    icon: Image,
+    href: "/tools/heic-to-jpg",
+    tags: ["heic", "jpg", "image", "convert"],
+    isNew: true,
+    isPopular: false,
+  },
+  {
+    id: "pdf-to-jpg",
+    name: "PDF to JPG",
+    description: "Convert each PDF page into a JPG in your browser.",
+    category: "converter",
+    icon: FileImage,
+    href: "/tools/pdf-to-jpg",
+    tags: ["pdf", "jpg", "image", "convert"],
+    isNew: true,
+    isPopular: false,
+  },
+  {
+    id: "webp-to-png",
+    name: "WebP to PNG",
+    description: "Convert WebP images to PNG in your browser.",
+    category: "converter",
+    icon: Image,
+    href: "/tools/webp-to-png",
+    tags: ["webp", "png", "image", "convert"],
+    isNew: true,
+    isPopular: false,
   },
 ];
 
