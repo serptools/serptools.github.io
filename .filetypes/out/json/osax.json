@@ -1,0 +1,53 @@
+{
+  "slug": "osax",
+  "extension": "osax",
+  "name": "AppleScript Scripting Addition",
+  "category": "applescript-scripting-addition",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Open Scripting Architecture Extension (OSAX) file created for AppleScript, a language used to automate Mac OS X tasks; contains new commands and other terminology that extends the language; can add features such as mathematical functions and XML parsing.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "apple-script-editor",
+        "display_name": "Apple Script Editor"
+      }
+    ],
+    "windows": [
+      {
+        "software": "apple-script-editor",
+        "display_name": "Apple Script Editor"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-11-05",
+  "sources": [
+    {
+      "url": "osax.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

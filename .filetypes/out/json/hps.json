@@ -1,0 +1,125 @@
+{
+  "slug": "hps",
+  "extension": "hps",
+  "name": "HPL Script",
+  "category": "1.-hpl-script",
+  "developer_org": "frictional-games",
+  "popularity": {
+    "rating": 3.1,
+    "votes": 14,
+    "source": "fileinfo"
+  },
+  "summary": "Game script used by HPL, a Frictional Games game engine that is used for first-person horror games such as Amnesia: The Dark Descent and Penumbra: Black Plague; saved in a plain text format and contains functions that define events that occur in a game map, such as doors slamming, scream sounds, or other horror events.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "hpl-editor-suite",
+        "display_name": "HPL Editor Suite"
+      },
+      {
+        "software": "frictional-games-amnesia-the-dark-descent",
+        "display_name": "Frictional Games Amnesia: The Dark Descent"
+      },
+      {
+        "software": "frictional-games-penumbra-black-plague",
+        "display_name": "Frictional Games Penumbra: Black Plague"
+      },
+      {
+        "software": "apjjm-s-amnesia-lang-editor-tool",
+        "display_name": "Apjjm's Amnesia Lang Editor Tool"
+      },
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "vgmstream",
+        "display_name": "vgmstream"
+      },
+      {
+        "software": "nullsoft-winamp-with-the-vgmstream-plug-in",
+        "display_name": "Nullsoft Winamp with the vgmstream plug-in"
+      },
+      {
+        "software": "hp-digital-sender-administrator-software",
+        "display_name": "HP Digital Sender Administrator Software"
+      }
+    ],
+    "macos": [
+      {
+        "software": "frictional-games-amnesia-a-machine-for-pigs",
+        "display_name": "Frictional Games Amnesia: A Machine for Pigs"
+      },
+      {
+        "software": "hpl-editor-suite",
+        "display_name": "HPL Editor Suite"
+      },
+      {
+        "software": "frictional-games-amnesia-the-dark-descent",
+        "display_name": "Frictional Games Amnesia: The Dark Descent"
+      },
+      {
+        "software": "frictional-games-penumbra-black-plague",
+        "display_name": "Frictional Games Penumbra: Black Plague"
+      },
+      {
+        "software": "apjjm-s-amnesia-lang-editor-tool",
+        "display_name": "Apjjm's Amnesia Lang Editor Tool"
+      },
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "vgmstream",
+        "display_name": "vgmstream"
+      }
+    ],
+    "web": [
+      {
+        "software": "vgmstream-web",
+        "display_name": "vgmstream-web"
+      }
+    ],
+    "linux": [
+      {
+        "software": "vgmstream",
+        "display_name": "vgmstream"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-07-11",
+  "sources": [
+    {
+      "url": "hps.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

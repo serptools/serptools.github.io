@@ -1,0 +1,77 @@
+{
+  "slug": "sumocfg",
+  "extension": "sumocfg",
+  "name": "SUMO Configuration File",
+  "category": "sumo-configuration-file",
+  "developer_org": "eclipse",
+  "popularity": {
+    "rating": 4.1,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "A SUMOCFG file is a configuration file used by Eclipse SUMO, an open-source traffic simulator. It contains parameters for a traffic simulation in XML format, which includes references to .XML files that contain detailed information about the simulation. SUMOCFG files formerly used the .sumo.cfg file extension.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "eclipse-sumo",
+        "display_name": "Eclipse SUMO"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "eclipse-sumo",
+        "display_name": "Eclipse SUMO"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "eclipse-sumo",
+        "display_name": "Eclipse SUMO"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "SUMOCFG file icon",
+      "alt": "SUMOCFG file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/sumocfg-11490.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-08-03",
+  "sources": [
+    {
+      "url": "sumocfg.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

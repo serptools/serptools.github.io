@@ -1,0 +1,79 @@
+{
+  "slug": "wac",
+  "extension": "wac",
+  "name": "Inkling Sketch XML File",
+  "category": "inkling-sketch-xml-file",
+  "developer_org": "wacom",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 13,
+    "source": "fileinfo"
+  },
+  "summary": "Sketch file created by Inkling, a package made up of a pen, receiver, and Inkling Sketch Manager that captures paper sketches and converts them to digital sketches; contains a sketch, which consists of layers and pen strokes that can be manipulated, merged, and removed.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "wacom-inkling-sketch-manager",
+        "display_name": "Wacom Inkling Sketch Manager",
+        "status": "discontinued"
+      },
+      {
+        "software": "adobe-photoshop-2025",
+        "display_name": "Adobe Photoshop 2025"
+      },
+      {
+        "software": "adobe-illustrator-2025",
+        "display_name": "Adobe Illustrator 2025"
+      },
+      {
+        "software": "autodesk-sketchbook-pro",
+        "display_name": "Autodesk SketchBook Pro"
+      }
+    ],
+    "macos": [
+      {
+        "software": "wacom-inkling-sketch-manager",
+        "display_name": "Wacom Inkling Sketch Manager",
+        "status": "discontinued"
+      },
+      {
+        "software": "adobe-photoshop-2025",
+        "display_name": "Adobe Photoshop 2025"
+      },
+      {
+        "software": "adobe-illustrator-2025",
+        "display_name": "Adobe Illustrator 2025"
+      },
+      {
+        "software": "autodesk-sketchbook-pro",
+        "display_name": "Autodesk SketchBook Pro"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-09-29",
+  "sources": [
+    {
+      "url": "wac.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

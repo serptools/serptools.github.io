@@ -1,0 +1,67 @@
+{
+  "slug": "edb",
+  "extension": "edb",
+  "name": "Exchange Information Store Database",
+  "category": "1.-exchange-information-store-database",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 44,
+    "source": "fileinfo"
+  },
+  "summary": "An EDB file is a database created by Microsoft Exchange Server. It serves as the main repository for the mailbox data saved by Exchange. EDB files store both in-process and stored non-SMTP messages, formatted using a b-tree structure that includes a top-level node and many child nodes.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-exchange-server",
+        "display_name": "Microsoft Exchange Server"
+      },
+      {
+        "software": "stellar-repair-for-exchange",
+        "display_name": "Stellar Repair for Exchange"
+      },
+      {
+        "software": "aryson-edb-to-pst-converter",
+        "display_name": "Aryson EDB to PST Converter"
+      },
+      {
+        "software": "edbmails",
+        "display_name": "EdbMails"
+      },
+      {
+        "software": "regain-edb-to-pst-converter",
+        "display_name": "Regain EDB to PST Converter"
+      },
+      {
+        "software": "microsoft-windows",
+        "display_name": "Microsoft Windows"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-11-30",
+  "sources": [
+    {
+      "url": "edb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

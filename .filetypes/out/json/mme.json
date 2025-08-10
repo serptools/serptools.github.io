@@ -1,0 +1,69 @@
+{
+  "slug": "mme",
+  "extension": "mme",
+  "name": "Multi-Purpose Internet Mail",
+  "category": "multi-purpose-internet-mail",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "Message or file encoded so it can safely be sent over the Internet; commonly used for e-mail attachments so that the attached file does not get corrupted during the transfer.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "smith-micro-stuffit-deluxe",
+        "display_name": "Smith Micro StuffIt Deluxe",
+        "status": "discontinued"
+      },
+      {
+        "software": "corel-winzip",
+        "display_name": "Corel WinZip"
+      },
+      {
+        "software": "microsoft-outlook-365",
+        "display_name": "Microsoft Outlook 365"
+      }
+    ],
+    "macos": [
+      {
+        "software": "smith-micro-stuffit-deluxe-mac-16",
+        "display_name": "Smith Micro StuffIt Deluxe Mac 16",
+        "status": "discontinued"
+      },
+      {
+        "software": "microsoft-outlook-365",
+        "display_name": "Microsoft Outlook 365"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-01-06",
+  "sources": [
+    {
+      "url": "mme.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

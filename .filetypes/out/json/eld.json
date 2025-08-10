@@ -1,0 +1,53 @@
+{
+  "slug": "eld",
+  "extension": "eld",
+  "name": "Eulumdat Formatted Luminaire Data File",
+  "category": "eulumdat-formatted-luminaire-data-file",
+  "developer_org": "dial",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "An ELD file contains plain text luminaire (light fixture) data formatted for use with DIAL DIALux, a professional lighting planning application. It defines a light fixture's intensity, light distribution curve, size, and number of lamps. The data ELD files contain is saved in DIAL's proprietary Elumudat format.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "rename-.eld-extension-to-.ldt-then-open-in-a-program-that-supports-ldt-files",
+        "display_name": "Rename .eld extension to .ldt , then open in a program that supports LDT files"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "ELD file open in Microsoft Visual Studio Code",
+      "alt": "ELD file open in Microsoft Visual Studio Code",
+      "source_url": "https://fileinfo.com/img/ss/md/eld_9333.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-07-01",
+  "sources": [
+    {
+      "url": "eld.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

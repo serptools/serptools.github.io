@@ -1,0 +1,61 @@
+{
+  "slug": "sob",
+  "extension": "sob",
+  "name": "OpenOffice.org Impress Bitmap Styles File",
+  "category": "openoffice.org-impress-bitmap-styles-file",
+  "developer_org": "apache-software-foundation",
+  "popularity": {
+    "rating": 2.5,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Graphics file used by Impress, the graphics editing program included with the OpenOffice productivity suite; contains a fill pattern used for painting the background of an image with gravel, leaves, flowers, or other patterns.",
+  "standards": [],
+  "mime_types": [
+    "fill/area"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "openoffice-impress",
+        "display_name": "OpenOffice Impress"
+      }
+    ],
+    "macos": [
+      {
+        "software": "openoffice-impress",
+        "display_name": "OpenOffice Impress"
+      }
+    ],
+    "linux": [
+      {
+        "software": "openoffice-impress",
+        "display_name": "OpenOffice Impress"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-03-18",
+  "sources": [
+    {
+      "url": "sob.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

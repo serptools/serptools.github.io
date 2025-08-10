@@ -1,0 +1,47 @@
+{
+  "slug": "themepack",
+  "extension": "themepack",
+  "name": "Windows 7 Theme Pack",
+  "category": "windows-7-theme-pack",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 4.2,
+    "votes": 217,
+    "source": "fileinfo"
+  },
+  "summary": "System theme created for the Windows 7 operating system; saved in the .CAB format and includes desktop background images and interface customizations for window appearance, icons, cursors, sounds, screen savers, etc; can be saved and loaded using the Personalization Control Panel in Windows 7.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-windows-personalization-control-panel",
+        "display_name": "Microsoft Windows Personalization Control Panel"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-11-05",
+  "sources": [
+    {
+      "url": "themepack.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "gdg.autosave",
+  "extension": "gdg.autosave",
+  "name": "GDevelop Project Autosave File",
+  "category": "gdevelop-project-autosave-file",
+  "developer_org": "florian-rival",
+  "popularity": {
+    "rating": 2.3,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "A GDG.AUTOSAVE file is an autosaved version of a .GDG project file used by GDevelop, an open source program used to create games without programming knowledge. It contains the same information as the GDG file but is created when the project is open in the application. The file is used to automatically save your project in case of a program crash or other unintended termination of the program.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "gdevelop",
+        "display_name": "GDevelop"
+      }
+    ],
+    "macos": [
+      {
+        "software": "gdevelop",
+        "display_name": "GDevelop"
+      }
+    ],
+    "linux": [
+      {
+        "software": "gdevelop",
+        "display_name": "GDevelop"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2016-04-19",
+  "sources": [
+    {
+      "url": "gdg.autosave.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

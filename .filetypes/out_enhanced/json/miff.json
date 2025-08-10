@@ -1,0 +1,21 @@
+{
+  "slug": "miff",
+  "extension": "miff",
+  "name": "Magick Image",
+  "category": "magick-image",
+  "summary": "",
+  "developer_org": "imagemagick",
+  "developer_name": "ImageMagick",
+  "more_information": {
+    "description": [
+      "A MIFF file is saved in the platform-independent Magick Image File Format (MIFF) and consists of a header and binary image data section. The header section is made up of key = value combinations that describe the image in plain text. The binary image data section is formatted depending on the class defined in the header, which is either DirectClass or PseudoClass. Also, the data may be Zip compressed, BZip compressed, run length encoded, or uncompressed."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "miff.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

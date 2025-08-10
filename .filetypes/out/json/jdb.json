@@ -1,0 +1,47 @@
+{
+  "slug": "jdb",
+  "extension": "jdb",
+  "name": "Symantec Endpoint Protection Update File",
+  "category": "symantec-endpoint-protection-update-file",
+  "developer_org": "symantec",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "File used by Symantec Endpoint Protection (SEP), a program that protects computers against malware ; contains virus and spyware definition updates; used to periodically update malware definitions when new viruses and spyware are discovered.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "symantec-endpoint-protection",
+        "display_name": "Symantec Endpoint Protection"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-03-02",
+  "sources": [
+    {
+      "url": "jdb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

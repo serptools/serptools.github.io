@@ -1,0 +1,71 @@
+{
+  "slug": "hsb",
+  "extension": "hsb",
+  "name": "HALion Sound Bank File",
+  "category": "halion-sound-bank-file",
+  "developer_org": "steinberg-media-technologies",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Audio data file used by Steinberg HALion audio sampler and playback applications; contains a sound bank of audio samples for one or more instruments; used for distributing sound library packs and importing audio content for loops and other purposes.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "steinberg-halion",
+        "display_name": "Steinberg HALion"
+      },
+      {
+        "software": "steinberg-halion-player",
+        "display_name": "Steinberg HALion Player",
+        "status": "discontinued"
+      },
+      {
+        "software": "steinberg-cubase-with-halion-one-plug-in",
+        "display_name": "Steinberg Cubase with HALion One plug-in"
+      }
+    ],
+    "macos": [
+      {
+        "software": "steinberg-halion",
+        "display_name": "Steinberg HALion"
+      },
+      {
+        "software": "steinberg-halion-player",
+        "display_name": "Steinberg HALion Player",
+        "status": "discontinued"
+      },
+      {
+        "software": "steinberg-cubase-with-halion-one-plug-in",
+        "display_name": "Steinberg Cubase with HALion One plug-in"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-11-22",
+  "sources": [
+    {
+      "url": "hsb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

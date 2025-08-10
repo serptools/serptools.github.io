@@ -1,0 +1,71 @@
+{
+  "slug": "drmz",
+  "extension": "drmz",
+  "name": "Drumlin Fully Secure Mobile PDF File",
+  "category": "drumlin-fully-secure-mobile-pdf-file",
+  "developer_org": "drumlin-security",
+  "popularity": {
+    "rating": 4.4,
+    "votes": 12,
+    "source": "fileinfo"
+  },
+  "summary": "PDF file saved in a secure proprietary format that can be read on computers and mobile devices; created by Drumlin PDF Publisher and used by Javelin PDF Reader; assigned a unique authorization codes in order to protect its digital assets.",
+  "standards": [],
+  "mime_types": [
+    "reader/publisher"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "drumlin-security-javelin-pdf-reader",
+        "display_name": "Drumlin Security Javelin PDF Reader"
+      },
+      {
+        "software": "drumlin-security-drumlin-pdf-reader-and-publisher",
+        "display_name": "Drumlin Security Drumlin PDF Reader and Publisher"
+      }
+    ],
+    "macos": [
+      {
+        "software": "drumlin-security-javelin-pdf-reader",
+        "display_name": "Drumlin Security Javelin PDF Reader"
+      }
+    ],
+    "ios": [
+      {
+        "software": "drumlin-security-javelin-pdf-reader",
+        "display_name": "Drumlin Security Javelin PDF Reader"
+      }
+    ],
+    "android": [
+      {
+        "software": "drumlin-security-javelin-pdf-reader",
+        "display_name": "Drumlin Security Javelin PDF Reader"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2013-08-06",
+  "sources": [
+    {
+      "url": "drmz.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

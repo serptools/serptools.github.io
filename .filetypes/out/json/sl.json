@@ -1,0 +1,63 @@
+{
+  "slug": "sl",
+  "extension": "sl",
+  "name": "Software License File",
+  "category": "software-license-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.1,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "Text file containing software license information for a Unix program; usually installed in the /lib/ directory once the software has been registered; similar to a .LIC file used by Macintosh and Windows programs.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "linux": [
+      {
+        "software": "referenced-by-the-program-that-created-the-license-file",
+        "display_name": "Referenced by the program that created the license file"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "windows": [
+      {
+        "software": "referenced-by-the-program-that-created-the-license-file",
+        "display_name": "Referenced by the program that created the license file"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2007-05-21",
+  "sources": [
+    {
+      "url": "sl.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "ols",
+  "extension": "ols",
+  "name": "Microsoft Office List Shortcut",
+  "category": "microsoft-office-list-shortcut",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "An OLS file is a Microsoft Office List Shortcut created by Microsoft Publisher. It links to a mailing list recipient file, which could be saved in one of several formats accepted by Microsoft Publisher. Publisher uses OLS files to show existing mail merge recipient lists to users.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-publisher-365",
+        "display_name": "Microsoft Publisher 365"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-05-25",
+  "sources": [
+    {
+      "url": "ols.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

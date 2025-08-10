@@ -1,0 +1,59 @@
+{
+  "slug": "enlx",
+  "extension": "enlx",
+  "name": "Archived EndNote Library",
+  "category": "archived-endnote-library",
+  "developer_org": "clarivate",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "File created by contains all of the data from an EndNote library ( .ENL file) but saves it in a compressed format; can be used as an archival format, but more often used for transferring libraries between users over email.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "clarivate-endnote",
+        "display_name": "Clarivate EndNote"
+      }
+    ],
+    "macos": [
+      {
+        "software": "clarivate-endnote",
+        "display_name": "Clarivate EndNote"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "ENLX file icon",
+      "alt": "ENLX file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/enlx-7356.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-09-23",
+  "sources": [
+    {
+      "url": "enlx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "pxs",
+  "extension": "pxs",
+  "name": "Pixelmator Shape File",
+  "category": "pixelmator-shape-file",
+  "developer_org": "pixelmator-team",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "Shape file used by Pixelmator, a Mac OS X raster graphics editor; stores a collection of default and custom shapes, which can be inserted into a Pixelmator image ( .PXM file).",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "pixelmator-classic",
+        "display_name": "Pixelmator Classic"
+      }
+    ],
+    "windows": [
+      {
+        "software": "pixelmator-classic",
+        "display_name": "Pixelmator Classic"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "PXS file icon",
+      "alt": "PXS file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/pxs-9428.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-04-01",
+  "sources": [
+    {
+      "url": "pxs.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

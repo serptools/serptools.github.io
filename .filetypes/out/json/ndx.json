@@ -1,0 +1,65 @@
+{
+  "slug": "ndx",
+  "extension": "ndx",
+  "name": "dBASE Index (Legacy)",
+  "category": "1.-dbase-index-legacy",
+  "developer_org": "dbase",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 12,
+    "source": "fileinfo"
+  },
+  "summary": "An NDX file is an index file used by previous versions of dBASE, a popular database management system. It is associated with a database ( .DBF ) file and contains pointers to data stored in that database. In version IV of dBase, the .MDX format replaced the NDX format.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "dbase",
+        "display_name": "dBASE"
+      },
+      {
+        "software": "neat",
+        "display_name": "Neat"
+      },
+      {
+        "software": "nevron-software-mydraw",
+        "display_name": "Nevron Software MyDraw"
+      }
+    ],
+    "macos": [
+      {
+        "software": "neat",
+        "display_name": "Neat"
+      },
+      {
+        "software": "nevron-software-mydraw",
+        "display_name": "Nevron Software MyDraw"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-10-18",
+  "sources": [
+    {
+      "url": "ndx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

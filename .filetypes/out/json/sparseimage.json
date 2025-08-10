@@ -1,0 +1,61 @@
+{
+  "slug": "sparseimage",
+  "extension": "sparseimage",
+  "name": "Mac OS X Sparse Image",
+  "category": "mac-os-x-sparse-image",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "Disk image file type created with Apple's Disk Utility program (included with Mac OS X); similar to a standard Apple Disk Image ( .DMG ) file, but only takes up the amount of space of the data contained within the disk image.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "apple-disk-utility",
+        "display_name": "Apple Disk Utility"
+      },
+      {
+        "software": "apple-diskimagemounter",
+        "display_name": "Apple DiskImageMounter"
+      }
+    ],
+    "windows": [
+      {
+        "software": "apple-disk-utility",
+        "display_name": "Apple Disk Utility"
+      },
+      {
+        "software": "apple-diskimagemounter",
+        "display_name": "Apple DiskImageMounter"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2008-09-18",
+  "sources": [
+    {
+      "url": "sparseimage.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "rcg",
+  "extension": "rcg",
+  "name": "Recog Character Recognition Set",
+  "category": "recog-character-recognition-set",
+  "developer_org": "recog",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "Data file used by Recog, a program that learns and recognizes characters and symbols; contains character recognition data that enables Recog to identify mouse-drawn characters.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "recog",
+        "display_name": "Recog"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2008-06-25",
+  "sources": [
+    {
+      "url": "rcg.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "wtb",
+  "extension": "wtb",
+  "name": "Win-Test Binary Log",
+  "category": "win-test-binary-log",
+  "summary": "",
+  "developer_org": "win-test",
+  "developer_name": "Win-Test",
+  "more_information": {
+    "description": [
+      "In ham radio contests, radio operators attempt to contact as many other radio operators as they can within a given timeframe. They then log those operators' information in a contact logging program, such as Win-Test.",
+      "Before an operator using Win-Test begins a contest, they create a WTB file. The WTB file contains contest configuration settings, such as the operator's callsign, locator, and personal information, and the contest's name category, class, and mode. As the operator logs other operator's contact information, that information is also saved in the WTB file. The operator can then submit this file (or a converted version of it) to the contest's organizers, as a record of their performance.",
+      "NOTE: Win-Test 3 saves log files as WTB files. Win-Test 4 saves log files as .WT4 files."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "wtb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

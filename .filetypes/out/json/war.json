@@ -1,0 +1,93 @@
+{
+  "slug": "war",
+  "extension": "war",
+  "name": "Java Web Archive",
+  "category": "java-web-archive",
+  "developer_org": "oracle",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 47,
+    "source": "fileinfo"
+  },
+  "summary": "A WAR file is a compressed package containing Java-based web components and applications that are run on a web server. It is formatted the same way as a .JAR file, but includes additional information that tells the application server which Java servlet class to run.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "smith-micro-stuffit-deluxe",
+        "display_name": "Smith Micro StuffIt Deluxe",
+        "status": "discontinued"
+      },
+      {
+        "software": "rarlab-winrar",
+        "display_name": "RARLAB WinRAR"
+      },
+      {
+        "software": "estsoft-alzip",
+        "display_name": "ESTsoft ALZip"
+      },
+      {
+        "software": "apache-tomcat",
+        "display_name": "Apache Tomcat"
+      },
+      {
+        "software": "unrar",
+        "display_name": "unrar"
+      }
+    ],
+    "macos": [
+      {
+        "software": "corel-winzip-mac",
+        "display_name": "Corel WinZip Mac"
+      },
+      {
+        "software": "smith-micro-stuffit-deluxe-mac-16",
+        "display_name": "Smith Micro StuffIt Deluxe Mac 16",
+        "status": "discontinued"
+      },
+      {
+        "software": "apache-tomcat",
+        "display_name": "Apache Tomcat"
+      }
+    ],
+    "linux": [
+      {
+        "software": "apache-tomcat",
+        "display_name": "Apache Tomcat"
+      },
+      {
+        "software": "unrar",
+        "display_name": "unrar"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-11-22",
+  "sources": [
+    {
+      "url": "war.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

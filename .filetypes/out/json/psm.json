@@ -1,0 +1,86 @@
+{
+  "slug": "psm",
+  "extension": "psm",
+  "name": "Solid Edge Sheet Metal File",
+  "category": "1.-solid-edge-sheet-metal-file",
+  "developer_org": "siemens",
+  "popularity": {
+    "rating": 4.4,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "Sheet metal design created with Solid Edge, a CAD program used for creating 3D parts and assemblies; contains a 3D model that can be used to manufacture parts from sheet metal.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "siemens-solid-edge",
+        "display_name": "Siemens Solid Edge"
+      },
+      {
+        "software": "openmpt",
+        "display_name": "OpenMpt"
+      },
+      {
+        "software": "milkytracker",
+        "display_name": "MilkyTracker"
+      },
+      {
+        "software": "modplug-player",
+        "display_name": "MODPlug Player",
+        "status": "discontinued"
+      },
+      {
+        "software": "cocomodx",
+        "display_name": "CocoModX",
+        "status": "discontinued"
+      },
+      {
+        "software": "sisense-prism",
+        "display_name": "SiSense Prism"
+      }
+    ],
+    "macos": [
+      {
+        "software": "milkytracker",
+        "display_name": "MilkyTracker"
+      },
+      {
+        "software": "cocomodx",
+        "display_name": "CocoModX",
+        "status": "discontinued"
+      }
+    ],
+    "linux": [
+      {
+        "software": "milkytracker",
+        "display_name": "MilkyTracker"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2008-07-22",
+  "sources": [
+    {
+      "url": "psm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

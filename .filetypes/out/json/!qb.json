@@ -1,0 +1,59 @@
+{
+  "slug": "!qb",
+  "extension": "!qb",
+  "name": "qBittorrent Partial Download File",
+  "category": "qbittorrent-partial-download-file",
+  "developer_org": "qbittorrent",
+  "popularity": {
+    "rating": 3.1,
+    "votes": 14,
+    "source": "fileinfo"
+  },
+  "summary": "A !QB file is an incomplete download file created by qBittorrent, a Torrent client. qBittorrent appends the \".!qB\" extension to a file as it is being downloaded. The extension is removed when the download is complete. !QB files are similar to .!BT BitTorrent and .!UT uTorrent files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "qbittorrent",
+        "display_name": "qBittorrent"
+      }
+    ],
+    "macos": [
+      {
+        "software": "qbittorrent",
+        "display_name": "qBittorrent"
+      }
+    ],
+    "linux": [
+      {
+        "software": "qbittorrent",
+        "display_name": "qBittorrent"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2013-04-23",
+  "sources": [
+    {
+      "url": "!qb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

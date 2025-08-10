@@ -1,0 +1,47 @@
+{
+  "slug": "crysispsf",
+  "extension": "crysispsf",
+  "name": "Crysis Warhead Saved Game",
+  "category": "crysis-warhead-saved-game",
+  "developer_org": "crytek",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "Saved game created by Crysis Warhead, a first person shooter game developed by Crytek; saves the state of the game when a player reaches a certain checkpoint; saved automatically by the game and allows progress to be loaded if the player dies.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "crytek-crysis-warhead",
+        "display_name": "Crytek Crysis Warhead"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-04-06",
+  "sources": [
+    {
+      "url": "crysispsf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

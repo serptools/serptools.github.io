@@ -1,0 +1,69 @@
+{
+  "slug": "xpl",
+  "extension": "xpl",
+  "name": "LcdStudio Playlist File",
+  "category": "1.-lcdstudio-playlist-file",
+  "developer_org": "lcdstudio",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "File used by LcdStudio, a program that allows users to create programs that render computer performance data on an entire monitor screen; contains a list of .XDS design files to be played in an LcdStudio application; used to display dynamic visualizations from live computer performance data.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "lcdstudio",
+        "display_name": "LcdStudio"
+      }
+    ],
+    "macos": [
+      {
+        "software": "file-restore-from-backup...",
+        "display_name": "File → Restore from Backup..."
+      },
+      {
+        "software": "select-backup-file...",
+        "display_name": "Select Backup File..."
+      },
+      {
+        "software": "next",
+        "display_name": "Next"
+      },
+      {
+        "software": "import...",
+        "display_name": "Import..."
+      },
+      {
+        "software": "objective-development-little-snitch",
+        "display_name": "Objective Development Little Snitch"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-02-17",
+  "sources": [
+    {
+      "url": "xpl.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

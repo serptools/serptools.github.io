@@ -1,0 +1,111 @@
+{
+  "slug": "car",
+  "extension": "car",
+  "name": "Car Explorer Data File",
+  "category": "1.-car-explorer-data-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.2,
+    "votes": 37,
+    "source": "fileinfo"
+  },
+  "summary": "Data file used by Car Explorer, a program designed for viewing information about different car models; saved in the eXtensible Car Description (XCD) format, a standardized specification for storing automobile data; includes information such as make and model, year, price, physical dimensions, and related images.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "car-explorer",
+        "display_name": "Car Explorer"
+      },
+      {
+        "software": "sap-car",
+        "display_name": "SAP CAR"
+      },
+      {
+        "software": "sap-sapcar",
+        "display_name": "SAP SAPCAR"
+      },
+      {
+        "software": "qualcomm-brew-mp-sdk",
+        "display_name": "Qualcomm Brew MP SDK"
+      },
+      {
+        "software": "viva-media-gary-gadget-building-cars",
+        "display_name": "Viva Media Gary Gadget: Building Cars"
+      }
+    ],
+    "linux": [
+      {
+        "software": "sap-car",
+        "display_name": "SAP CAR"
+      },
+      {
+        "software": "sap-sapcar",
+        "display_name": "SAP SAPCAR"
+      },
+      {
+        "software": "qualcomm-brew-mp-sdk",
+        "display_name": "Qualcomm Brew MP SDK"
+      }
+    ],
+    "macos": [
+      {
+        "software": "asset-catalog-tinkerer",
+        "display_name": "Asset Catalog Tinkerer"
+      },
+      {
+        "software": "pragmatic-code-crunch",
+        "display_name": "Pragmatic Code Crunch"
+      },
+      {
+        "software": "themeengine",
+        "display_name": "ThemeEngine"
+      },
+      {
+        "software": "acextract",
+        "display_name": "acextract"
+      },
+      {
+        "software": "qualcomm-brew-mp-sdk",
+        "display_name": "Qualcomm Brew MP SDK"
+      },
+      {
+        "software": "viva-media-gary-gadget-building-cars",
+        "display_name": "Viva Media Gary Gadget: Building Cars"
+      }
+    ],
+    "ios": [
+      {
+        "software": "ios-asset-extractor",
+        "display_name": "iOS Asset Extractor"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-07-31",
+  "sources": [
+    {
+      "url": "car.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

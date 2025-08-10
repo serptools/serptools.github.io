@@ -1,0 +1,53 @@
+{
+  "slug": "bos",
+  "extension": "bos",
+  "name": "Build Options Specification File",
+  "category": "build-options-specification-file",
+  "developer_org": "ibm",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "A BOS file is a build options specification file used by clearmake, a utility that comes with Rational ClearCase used to build executable programs. It contains macro definitions and ClearCase special targets saved in plain text. BOS files are commonly used to store temporary macros (like CFLAGS=/Zi ) that should not be permanently included in the makefile.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "ibm-rational-clearcase",
+        "display_name": "IBM Rational ClearCase"
+      }
+    ],
+    "linux": [
+      {
+        "software": "ibm-rational-clearcase",
+        "display_name": "IBM Rational ClearCase"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-03-22",
+  "sources": [
+    {
+      "url": "bos.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

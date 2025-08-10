@@ -1,0 +1,51 @@
+{
+  "slug": "imz",
+  "extension": "imz",
+  "name": "WinImage Compressed Disk Image",
+  "category": "winimage-compressed-disk-image",
+  "developer_org": "gilles-vollant",
+  "popularity": {
+    "rating": 2.7,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "An IMZ file contains a compressed disk image created with WinImage, a disk image utility. It stores an exact copy of a physical disk, but is also compressed to save disk space. IMZ files can be mounted as a physical disk when opened with WinImage.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "winimage",
+        "display_name": "WinImage"
+      },
+      {
+        "software": "smart-projects-isobuster",
+        "display_name": "Smart Projects IsoBuster"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-03-07",
+  "sources": [
+    {
+      "url": "imz.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

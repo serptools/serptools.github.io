@@ -1,0 +1,51 @@
+{
+  "slug": "huh",
+  "extension": "huh",
+  "name": "HydroCAD Unit Hydrograph Definitions File",
+  "category": "hydrocad-unit-hydrograph-definitions-file",
+  "developer_org": "hydrocad-software-solutions",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "Definitions file used by HydroCAD, a CAD water drainage solutions program; contains unit hydrograph definitions that predict water runoff from short bursts of rainfall; stored in ASCII text format; represents one of several files in an overall HydroCAD project.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "hydrocad-software-solutions-hydrocad",
+        "display_name": "HydroCAD Software Solutions HydroCAD"
+      },
+      {
+        "software": "hydrocad-software-solutions-hydrocad-sampler",
+        "display_name": "HydroCAD Software Solutions HydroCAD Sampler"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-12-19",
+  "sources": [
+    {
+      "url": "huh.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

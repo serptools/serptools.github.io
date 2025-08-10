@@ -1,0 +1,47 @@
+{
+  "slug": "787",
+  "extension": "787",
+  "name": "AVTECH CCTV Video File",
+  "category": "avtech-cctv-video-file",
+  "developer_org": "avtech",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 16,
+    "source": "fileinfo"
+  },
+  "summary": "Video file recorded by an AVTECH closed circuit television (CCTV) system or a digital video recorder (DVR); saves the video in a proprietary format that can only be played back by the AVTECH software; used for reviewing and archiving security videos.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "avtech-video-server-e",
+        "display_name": "AVTECH Video Server E"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-01-10",
+  "sources": [
+    {
+      "url": "787.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

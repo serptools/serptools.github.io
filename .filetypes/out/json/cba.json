@@ -1,0 +1,53 @@
+{
+  "slug": "cba",
+  "extension": "cba",
+  "name": "Comic Book ACE Archive",
+  "category": "1.-comic-book-ace-archive",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "Digital comic book compressed with ACE compression ( .ACE files); contains a collection of images that represent pages in the comic book; used for distributing comic books and reading them with supporting e-readers.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "cdisplayex",
+        "display_name": "CDisplayEx"
+      },
+      {
+        "software": "crytek-cryengine-sdk",
+        "display_name": "Crytek CryENGINE SDK"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-01-23",
+  "sources": [
+    {
+      "url": "cba.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

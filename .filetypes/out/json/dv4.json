@@ -1,0 +1,47 @@
+{
+  "slug": "dv4",
+  "extension": "dv4",
+  "name": "Bosch Security Systems CCTV Video File",
+  "category": "bosch-security-systems-cctv-video-file",
+  "developer_org": "bosch-security-systems",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 38,
+    "source": "fileinfo"
+  },
+  "summary": "Recorded video file created by Bosch Security Systems closed-circuit television (CCTV) systems; stores video in a proprietary format; used for archiving and reviewing surveillance videos.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "bosch-security-systems-archive-player",
+        "display_name": "Bosch Security Systems Archive Player"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-07-22",
+  "sources": [
+    {
+      "url": "dv4.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

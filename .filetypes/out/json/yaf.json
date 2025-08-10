@@ -1,0 +1,47 @@
+{
+  "slug": "yaf",
+  "extension": "yaf",
+  "name": "Yuke's Audio Archive",
+  "category": "yuke-s-audio-archive",
+  "developer_org": "yuke-s",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "A YAF file is an archive included in a video game developed by Yuke's. It contains music played in the game. Several WWE SmackDown! Vs. Raw games contain YAF files, which are named music.yaf .",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "yaf-extractor",
+        "display_name": "YAF Extractor"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-02-27",
+  "sources": [
+    {
+      "url": "yaf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

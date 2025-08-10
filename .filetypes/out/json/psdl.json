@@ -1,0 +1,52 @@
+{
+  "slug": "psdl",
+  "extension": "psdl",
+  "name": "Midtown Madness 2 City File",
+  "category": "midtown-madness-2-city-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Game file used by Midtown Madness 2, an urban city racing game; saves the geometry for a city including the vertices and polygons of buildings, streets, and other objects; also contains references to the textures that are overlaid on the 3D objects.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-midtown-madness-2",
+        "display_name": "Microsoft Midtown Madness 2",
+        "status": "discontinued"
+      },
+      {
+        "software": "mm2-city-toolkit",
+        "display_name": "MM2 City Toolkit"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-06-17",
+  "sources": [
+    {
+      "url": "psdl.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

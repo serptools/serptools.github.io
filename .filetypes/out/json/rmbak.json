@@ -1,0 +1,48 @@
+{
+  "slug": "rmbak",
+  "extension": "rmbak",
+  "name": "Registry Mechanic Backup File",
+  "category": "registry-mechanic-backup-file",
+  "developer_org": "pc-tools",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "Backup file created by Registry Mechanic, a program used for optimizing the Windows registry and computer performance; stores a backup copy of important registry system files before they are modified.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "pc-tools-registry-mechanic",
+        "display_name": "PC Tools Registry Mechanic",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-11-03",
+  "sources": [
+    {
+      "url": "rmbak.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

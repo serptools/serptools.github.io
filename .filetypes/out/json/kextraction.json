@@ -1,0 +1,59 @@
+{
+  "slug": "kextraction",
+  "extension": "kextraction",
+  "name": "Keka Extraction Package",
+  "category": "keka-extraction-package",
+  "developer_org": "jorge-garcia-armero",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "A KEXTRACTION file is a placeholder file created by Keka file archiving software when the app extracts the contents of an archive. It is a temporary file meant to exist only during the extraction process. You will most likely only encounter the file if the extraction process was interrupted and did not finish.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "keka",
+        "display_name": "Keka"
+      }
+    ],
+    "windows": [
+      {
+        "software": "keka",
+        "display_name": "Keka"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "KEXTRACTION file icon",
+      "alt": "KEXTRACTION file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/kextraction-12432.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-11-30",
+  "sources": [
+    {
+      "url": "kextraction.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

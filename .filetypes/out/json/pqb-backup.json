@@ -1,0 +1,53 @@
+{
+  "slug": "pqb-backup",
+  "extension": "pqb-backup",
+  "name": "Pleco Chinese Dictionary Backup File",
+  "category": "pleco-chinese-dictionary-backup-file",
+  "developer_org": "pleco",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "Backup file used by Pleco Chinese Dictionary, a document reader, dictionary, and flashcard program for iOS that helps users learn Chinese; stores a backup of a flashcard database or user dictionary.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "ios": [
+      {
+        "software": "pleco-chinese-dictionary-3",
+        "display_name": "Pleco Chinese Dictionary 3"
+      }
+    ],
+    "windows": [
+      {
+        "software": "pleco-chinese-dictionary-3",
+        "display_name": "Pleco Chinese Dictionary 3"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-06-05",
+  "sources": [
+    {
+      "url": "pqb-backup.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

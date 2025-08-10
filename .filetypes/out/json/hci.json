@@ -1,0 +1,51 @@
+{
+  "slug": "hci",
+  "extension": "hci",
+  "name": "HydroCAD IDF Data File",
+  "category": "hydrocad-idf-data-file",
+  "developer_org": "hydrocad-software-solutions",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "Data file used by HydroCAD, a stormwater drainage solutions modeling program; contains Intensity-Duration-Frequency (IDF) data for the rainfall intensity over a specified period of time; used in conjunction with several other data files that comprise a HydroCAD project.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "hydrocad-software-solutions-hydrocad",
+        "display_name": "HydroCAD Software Solutions HydroCAD"
+      },
+      {
+        "software": "hydrocad-software-solutions-hydrocad-sampler",
+        "display_name": "HydroCAD Software Solutions HydroCAD Sampler"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-12-19",
+  "sources": [
+    {
+      "url": "hci.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

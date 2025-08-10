@@ -1,0 +1,59 @@
+{
+  "slug": "lvm",
+  "extension": "lvm",
+  "name": "LabVIEW Measurement File",
+  "category": "labview-measurement-file",
+  "developer_org": "national-instruments",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 10,
+    "source": "fileinfo"
+  },
+  "summary": "Measurement file used by LabVIEW, a graphical programming application used to develop test, measurement, and control applications using instrument hardware; contains one-dimensional data designed for small to medium-sized data sets.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "national-instruments-labview",
+        "display_name": "National Instruments LabVIEW"
+      }
+    ],
+    "macos": [
+      {
+        "software": "national-instruments-labview",
+        "display_name": "National Instruments LabVIEW"
+      }
+    ],
+    "linux": [
+      {
+        "software": "national-instruments-labview",
+        "display_name": "National Instruments LabVIEW"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-02-25",
+  "sources": [
+    {
+      "url": "lvm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

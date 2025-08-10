@@ -1,0 +1,22 @@
+{
+  "slug": "terx",
+  "extension": "terx",
+  "name": "RoadEng Terrain Design Document",
+  "category": "roadeng-terrain-design-document",
+  "summary": "",
+  "developer_org": "softree-technical-systems",
+  "developer_name": "Softree Technical Systems",
+  "more_information": {
+    "description": [
+      "Softree Technical Systems publishes several CAD programs used by civil engineers, forest engineers, and surveyors. For example, civil engineers can use Softree RoadEng to plan road, rail, or pipeline construction projects, and surveyors can use Softree TerrainTools (also included with RoadEng) to import geographic survey data and create topographic maps.",
+      "The terrain maps that Softree's CAD programs use are saved as TERX files. These files contain geographic features, points, formatting, and annotations. They can be viewed as 2D or 3D files. Typically, Softree users create TERX files in a program's Terrain module and then reference them in RoadEng's Location module ( .DSNX file) or another Terrain project."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "terx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

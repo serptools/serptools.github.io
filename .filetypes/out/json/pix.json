@@ -1,0 +1,129 @@
+{
+  "slug": "pix",
+  "extension": "pix",
+  "name": "PCI Geomatics Database File",
+  "category": "1.-pci-geomatics-database-file",
+  "developer_org": "pci-geomatics",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 11,
+    "source": "fileinfo"
+  },
+  "summary": "PCIDSK file (PCI Geomatics Database File) created by Geomatica, a geomatics program used for processing and analyzing geographic images; contains spatial information split across multiple image channels; often used for storing small to very large geospatial data sets, such as satellite images.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "pci-geomatics-geomatica",
+        "display_name": "PCI Geomatics Geomatica"
+      },
+      {
+        "software": "esri-arcgis-for-desktop",
+        "display_name": "ESRI ArcGIS for Desktop"
+      },
+      {
+        "software": "safe-software-fme-desktop",
+        "display_name": "Safe Software FME Desktop"
+      },
+      {
+        "software": "gdal",
+        "display_name": "GDAL"
+      },
+      {
+        "software": "brl-cad",
+        "display_name": "BRL-CAD"
+      },
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      },
+      {
+        "software": "canvas-gfx-canvas-x-pro",
+        "display_name": "Canvas GFX Canvas X Pro"
+      },
+      {
+        "software": "acd-systems-acdsee-photo-studio",
+        "display_name": "ACD Systems ACDSee Photo Studio"
+      },
+      {
+        "software": "coreldraw-graphics-suite-2024",
+        "display_name": "CorelDRAW Graphics Suite 2024"
+      },
+      {
+        "software": "gimp",
+        "display_name": "GIMP"
+      }
+    ],
+    "macos": [
+      {
+        "software": "gdal",
+        "display_name": "GDAL"
+      },
+      {
+        "software": "brl-cad",
+        "display_name": "BRL-CAD"
+      },
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      },
+      {
+        "software": "gimp",
+        "display_name": "GIMP"
+      }
+    ],
+    "linux": [
+      {
+        "software": "gdal",
+        "display_name": "GDAL"
+      },
+      {
+        "software": "brl-cad",
+        "display_name": "BRL-CAD"
+      },
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      },
+      {
+        "software": "gimp",
+        "display_name": "GIMP"
+      }
+    ],
+    "web": [
+      {
+        "software": "tom-s-editor",
+        "display_name": "Tom's Editor"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-01-04",
+  "sources": [
+    {
+      "url": "pix.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

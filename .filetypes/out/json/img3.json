@@ -1,0 +1,69 @@
+{
+  "slug": "img3",
+  "extension": "img3",
+  "name": "iPhone IMG3 File",
+  "category": "iphone-img3-file",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "System file used by iPhones and iPods; contains an encrypted image that is used for loading core system software and data; can be found within iPhone software update ( .IPSW ) files; sometimes edited by users for creating \"jailbroken\" iPhones.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "image3decrypt",
+        "display_name": "image3decrypt"
+      },
+      {
+        "software": "xpwn",
+        "display_name": "xpwn"
+      }
+    ],
+    "ios": [
+      {
+        "software": "apple-ios",
+        "display_name": "Apple iOS"
+      }
+    ],
+    "macos": [
+      {
+        "software": "xpwn",
+        "display_name": "xpwn"
+      }
+    ],
+    "linux": [
+      {
+        "software": "xpwn",
+        "display_name": "xpwn"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-05-21",
+  "sources": [
+    {
+      "url": "img3.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

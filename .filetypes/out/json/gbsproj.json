@@ -1,0 +1,82 @@
+{
+  "slug": "gbsproj",
+  "extension": "gbsproj",
+  "name": "GB Studio Project File",
+  "category": "gb-studio-project-file",
+  "developer_org": "chris-maltby",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "A GBSPROJ file is a project file created by GB Studio, a program used to create custom Game Boy video games. It contains JSON-formatted information about a game project. For example, GBSPROJ files list a project's name, author, and included scenes. GB Studio uses the information that GBSPROJ files contain to open the described game project.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "gb-studio",
+        "display_name": "GB Studio"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "gb-studio",
+        "display_name": "GB Studio"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "gb-studio",
+        "display_name": "GB Studio"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "GBSPROJ file icon",
+      "alt": "GBSPROJ file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/gbsproj-13616.png"
+    },
+    {
+      "caption": "GBSPROJ file open in GB Studio",
+      "alt": "GBSPROJ file open in GB Studio",
+      "source_url": "https://fileinfo.com/img/ss/md/gbsproj_13616.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-12-22",
+  "sources": [
+    {
+      "url": "gbsproj.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

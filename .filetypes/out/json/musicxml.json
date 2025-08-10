@@ -1,0 +1,106 @@
+{
+  "slug": "musicxml",
+  "extension": "musicxml",
+  "name": "MusicXML File",
+  "category": "musicxml-file",
+  "developer_org": "w3c-music-notation-community",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "A MUSICXML file is a music score saved in the MusicXML format, a format supported by many score notation applications. It contains score information, including notes, pitch, duration, instruments, lyrics, and work title organized into XML elements. Various applications support MUSICXML files, such as MuseScore, MakeMusic Finale, and Avid Sibelius.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "musescore",
+        "display_name": "MuseScore"
+      },
+      {
+        "software": "myriad-melody-assistant",
+        "display_name": "Myriad Melody Assistant"
+      },
+      {
+        "software": "makemusic-finale",
+        "display_name": "MakeMusic Finale"
+      },
+      {
+        "software": "avid-sibelius",
+        "display_name": "Avid Sibelius"
+      },
+      {
+        "software": "steinberg-dorico",
+        "display_name": "Steinberg Dorico"
+      }
+    ],
+    "macos": [
+      {
+        "software": "musescore",
+        "display_name": "MuseScore"
+      },
+      {
+        "software": "myriad-melody-assistant",
+        "display_name": "Myriad Melody Assistant"
+      },
+      {
+        "software": "makemusic-finale",
+        "display_name": "MakeMusic Finale"
+      },
+      {
+        "software": "avid-sibelius",
+        "display_name": "Avid Sibelius"
+      },
+      {
+        "software": "steinberg-dorico",
+        "display_name": "Steinberg Dorico"
+      }
+    ],
+    "linux": [
+      {
+        "software": "musescore",
+        "display_name": "MuseScore"
+      },
+      {
+        "software": "myriad-melody-assistant",
+        "display_name": "Myriad Melody Assistant"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "MUSICXML file icon",
+      "alt": "MUSICXML file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/musicxml-12667.png"
+    },
+    {
+      "caption": "MUSICXML file open in MuseScore 3.6",
+      "alt": "MUSICXML file open in MuseScore 3.6",
+      "source_url": "https://fileinfo.com/img/ss/md/musicxml_12667.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-04-28",
+  "sources": [
+    {
+      "url": "musicxml.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

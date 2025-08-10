@@ -1,0 +1,57 @@
+{
+  "slug": "bmp",
+  "extension": "bmp",
+  "name": "Bitmap Image",
+  "summary": "A BMP file is an image saved in the Bitmap (BMP) raster image format developed by Microsoft. It contains uncompressed image data that supports monochrome and color images at variable color bit depths and image metadata . Users commonly save digital photos as BMP files.",
+  "developer": "Microsoft",
+  "developer_slug": "microsoft",
+  "category": "Raster Image Files",
+  "category_slug": "raster-image-files",
+  "rating": 3.8,
+  "votes": 455,
+  "last_updated": "April 19, 2022",
+  "more_information": {
+    "content": [
+      "Microsoft developed the BMP format, also known as the Device Independent Bitmap (DIB) format, to save images that appear consistent across different devices. The BMP format begins with a file header, including the bitmap identifier, file size, width, height, data compression method (optional), color options, and bitmap data starting point. After the header, the format stores raw pixel image data and optional ICC Color Profile data.",
+      "NOTE: Since BMP files are uncompressed, they may be large. Therefore, the JPEG and PNG image formats are common alternatives to the BMP format for saving and transferring digital images."
+    ],
+    "screenshot": {
+      "url": "https://fileinfo.com/img/ss/sm/bmp_13.png",
+      "srcset": "https://fileinfo.com/img/ss/md/bmp_13.png 760w, https://fileinfo.com/img/ss/sm/bmp_13.png 380w",
+      "alt": "Screenshot of a .bmp file in Microsoft Photos 2021",
+      "width": "380",
+      "height": "253",
+      "caption": "BMP file open in Microsoft Photos 2021"
+    }
+  },
+  "how_to_open": {
+    "instructions": [
+      "You can open BMP files with various programs, including Microsoft Photos , which is bundled with Windows, and Apple Preview or Apple Photos , which are both bundled with macOS.",
+      "A large number of other image and graphics applications can be used to open BMP files:",
+      "NOTE: Many of these programs can also export images as BMP files."
+    ],
+    "programs": [
+      {
+        "name": "Adobe Photoshop",
+        "url": "../software/adobe/photoshop.html"
+      },
+      {
+        "name": "Adobe Illustrator",
+        "url": "../software/adobe/photoshop.html"
+      },
+      {
+        "name": "CorelDRAW",
+        "url": "../software/corel/coreldraw_graphics_suite.html"
+      },
+      {
+        "name": "ACD Systems Canvas",
+        "url": "../software/acd_systems/canvas.html"
+      }
+    ]
+  },
+  "scraped_at": "2025-08-09T21:58:54.740150",
+  "source": {
+    "url": "https://fileinfo.com/extension/bmp",
+    "file": "bmp.html"
+  }
+}

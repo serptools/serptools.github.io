@@ -1,0 +1,67 @@
+{
+  "slug": "dcd",
+  "extension": "dcd",
+  "name": "DesignCAD Drawing",
+  "category": "1.-designcad-drawing",
+  "developer_org": "imsi-design",
+  "popularity": {
+    "rating": 3.1,
+    "votes": 11,
+    "source": "fileinfo"
+  },
+  "summary": "2D or 3D drawing created with DesignCAD, a basic CAD program developed by IMSI/Design; used for creating architectural and mechanical drawings; may be designed from scratch or built from preloaded designs included with the software.",
+  "standards": [],
+  "mime_types": [
+    "imsi/design"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "imsi-turbocad-pro",
+        "display_name": "IMSI TurboCAD Pro"
+      },
+      {
+        "software": "imsi-designcad",
+        "display_name": "IMSI DesignCAD"
+      },
+      {
+        "software": "imsi-turbocad-deluxe",
+        "display_name": "IMSI TurboCAD Deluxe"
+      },
+      {
+        "software": "cosect-discryptor",
+        "display_name": "COSECT DisCryptor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "imsi-turbocad-deluxe",
+        "display_name": "IMSI TurboCAD Deluxe"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2008-05-19",
+  "sources": [
+    {
+      "url": "dcd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

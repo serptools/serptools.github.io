@@ -1,0 +1,75 @@
+{
+  "slug": "mddata",
+  "extension": "mddata",
+  "name": "iPhone Backup File",
+  "category": "iphone-backup-file",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "iPhone backup file created by iTunes, a digital media player; may store data such as contacts, SMS messages, applications, and notes; used for restoring iPhone states through iTunes.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "apple-itunes",
+        "display_name": "Apple iTunes",
+        "status": "discontinued"
+      },
+      {
+        "software": "mozilla-firefox-with-sqlite-manager-plug-in",
+        "display_name": "Mozilla Firefox with SQLite Manager plug-in"
+      }
+    ],
+    "ios": [
+      {
+        "software": "palmdatabase.db3-iphone-.mddata-viewer",
+        "display_name": "PalmDatabase.db3 / IPhone .mddata Viewer"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-itunes",
+        "display_name": "Apple iTunes",
+        "status": "discontinued"
+      },
+      {
+        "software": "mozilla-firefox-with-sqlite-manager-plug-in",
+        "display_name": "Mozilla Firefox with SQLite Manager plug-in"
+      }
+    ],
+    "linux": [
+      {
+        "software": "mozilla-firefox-with-sqlite-manager-plug-in",
+        "display_name": "Mozilla Firefox with SQLite Manager plug-in"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-11-19",
+  "sources": [
+    {
+      "url": "mddata.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

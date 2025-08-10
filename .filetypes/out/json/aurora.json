@@ -1,0 +1,49 @@
+{
+  "slug": "aurora",
+  "extension": "aurora",
+  "name": "Aurora Ransomware Encrypted File",
+  "category": "aurora-ransomware-encrypted-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "An AURORA file is a file encrypted by the Aurora Virus, a trojan horse utilized by cybercriminals. It contains a user's file, such as a .WMV , .MP4 , .XLSX , or .PDF file, encrypted with the 2048 bit RSA key. AURORA files became prevalent in 2018 and are similar to .LOCKY and .ODIN files.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "system-restore",
+        "display_name": "System Restore"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-06-08",
+  "sources": [
+    {
+      "url": "aurora.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

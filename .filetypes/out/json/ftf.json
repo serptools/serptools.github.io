@@ -1,0 +1,51 @@
+{
+  "slug": "ftf",
+  "extension": "ftf",
+  "name": "FlashTool Firmware File",
+  "category": "flashtool-firmware-file",
+  "developer_org": "sony",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 18,
+    "source": "fileinfo"
+  },
+  "summary": "An FTF file is a firmware file used to flash updates on to a Sony Xperia smartphone or tablet using programs such as FlashTool or XperiFirm. It contains ROM firmware that can be flashed on to Sony Xperia devices to update the operating system (OS).",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "flashtool",
+        "display_name": "FlashTool"
+      },
+      {
+        "software": "xperifirm",
+        "display_name": "XperiFirm"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-01-09",
+  "sources": [
+    {
+      "url": "ftf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

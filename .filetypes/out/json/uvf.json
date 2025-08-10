@@ -1,0 +1,49 @@
+{
+  "slug": "uvf",
+  "extension": "uvf",
+  "name": "Uncertain Value Format",
+  "category": "uncertain-value-format",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "Extension to the .CSV (comma separated value) file format; used for handling uncertain values by Netica, a Bayesian network development software program that manages uncertainty in business, engineering, medicine, or ecology",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "norsys-netica",
+        "display_name": "Norsys Netica"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2006",
+  "sources": [
+    {
+      "url": "uvf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

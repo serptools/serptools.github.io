@@ -1,0 +1,53 @@
+{
+  "slug": "e48",
+  "extension": "e48",
+  "name": "Emu48 Save State",
+  "category": "emu48-save-state",
+  "developer_org": "s-bastien-carlier",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "An E48 file is a save state created by Emu48, a classic HP graphing calculator emulator . It can be used to load a user's saved Emu48 session. E48 files can be opened only if you possess a corresponding Emu48 calculator ROM.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "emu48",
+        "display_name": "Emu48"
+      }
+    ],
+    "android": [
+      {
+        "software": "emu48-for-android",
+        "display_name": "Emu48 for Android"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-11-01",
+  "sources": [
+    {
+      "url": "e48.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

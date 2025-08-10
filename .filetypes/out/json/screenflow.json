@@ -1,0 +1,59 @@
+{
+  "slug": "screenflow",
+  "extension": "screenflow",
+  "name": "ScreenFlow Document",
+  "category": "screenflow-document",
+  "developer_org": "telestream",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "Screen recording project created by ScreenFlow, a desktop screencasting application for Mac OS X; stores a bundle of project files and includes the captured .SCC video file; used for saving and resuming screencasting projects.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "telestream-screenflow",
+        "display_name": "Telestream ScreenFlow"
+      }
+    ],
+    "windows": [
+      {
+        "software": "telestream-screenflow",
+        "display_name": "Telestream ScreenFlow"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "SCREENFLOW file icon",
+      "alt": "SCREENFLOW file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/screenflow-6176.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-04-11",
+  "sources": [
+    {
+      "url": "screenflow.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

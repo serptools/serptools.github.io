@@ -1,0 +1,60 @@
+{
+  "slug": "autoplay",
+  "extension": "autoplay",
+  "name": "AutoPlay Media Studio Project",
+  "category": "autoplay-media-studio-project",
+  "developer_org": "indigo-rose",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 17,
+    "source": "fileinfo"
+  },
+  "summary": "An AUTOPLAY file is a project created by Indigo Rose AutoPlay Media Studio, a Windows-based software tool for creating interactive applications such as CD/DVD menus, multimedia presentations, training programs, and lightweight games. It contains the core project data in XML format, including the application's interface layout and the actions or events that occur when a user interacts with different elements of the application. AUTOPLAY files store references to multimedia files used in the project; they do not contain the actual media files.",
+  "standards": [],
+  "mime_types": [
+    "cd/dvd"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "indigo-rose-autoplay-media-studio",
+        "display_name": "Indigo Rose AutoPlay Media Studio"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "AUTOPLAY file icon",
+      "alt": "AUTOPLAY file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/autoplay-6421.png"
+    },
+    {
+      "caption": "AUTOPLAY file open in Indigo Rose AutoPlay Media Studio 9",
+      "alt": "AUTOPLAY file open in Indigo Rose AutoPlay Media Studio 9",
+      "source_url": "https://fileinfo.com/img/ss/md/autoplay_6421.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2025-07-17",
+  "sources": [
+    {
+      "url": "autoplay.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

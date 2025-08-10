@@ -1,0 +1,59 @@
+{
+  "slug": "lockmypix",
+  "extension": "lockmypix",
+  "name": "LockMyPix Vault",
+  "category": "lockmypix-vault",
+  "developer_org": "fourchars",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "A LOCKMYPIX file is an encrypted vault created by fourchars LockMyPix, a mobile app used to protect private photos, videos, and documents. It contains users’ sensitive content that they have added to the app. LOCKMYPIX files are similar to folders, acting as a single, secure unit that contains content inaccessible without the correct password or authentication method, such as face recognition or a fingerprint.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "android": [
+      {
+        "software": "fourchars-lockmypix",
+        "display_name": "fourchars LockMyPix"
+      }
+    ],
+    "ios": [
+      {
+        "software": "fourchars-lockmypix",
+        "display_name": "fourchars LockMyPix"
+      }
+    ],
+    "windows": [
+      {
+        "software": "fourchars-lockmypix",
+        "display_name": "fourchars LockMyPix"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2025-06-11",
+  "sources": [
+    {
+      "url": "lockmypix.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

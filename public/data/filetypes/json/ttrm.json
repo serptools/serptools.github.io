@@ -1,0 +1,22 @@
+{
+  "slug": "ttrm",
+  "extension": "ttrm",
+  "name": "TETR.IO Multiplayer Replay",
+  "category": "tetr.io-multiplayer-replay",
+  "summary": "",
+  "developer_org": "osk",
+  "developer_name": "osk",
+  "more_information": {
+    "description": [
+      "TETR.IO allows players to play a variant of Tetris either solo or against an opponent. After finishing a multiplayer game, a player can select SAVE REPLAY to save a replay of that game. The replay is saved as a TTRM file.",
+      "Each TTRM file contains JSON-formatted plain text data. This data specifies the users who played the game, the game's seed, the game's settings, and the inputs made during the game."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "ttrm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

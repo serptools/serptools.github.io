@@ -1,0 +1,63 @@
+{
+  "slug": "cbds",
+  "extension": "cbds",
+  "name": "Comic Book DS File",
+  "category": "comic-book-ds-file",
+  "developer_org": "nicom00k",
+  "popularity": {
+    "rating": 4.5,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "File used by Comic Book DS, a comic book reading application for the Nintendo DS portable game system; contains images, text, and pagination data for the comic book; used to store manga and other comics.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "pictods",
+        "display_name": "PictoDS"
+      },
+      {
+        "software": "rarlab-winrar",
+        "display_name": "RARLAB WinRAR"
+      }
+    ],
+    "macos": [
+      {
+        "software": "pictods",
+        "display_name": "PictoDS"
+      }
+    ],
+    "linux": [
+      {
+        "software": "pictods",
+        "display_name": "PictoDS"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-06-08",
+  "sources": [
+    {
+      "url": "cbds.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

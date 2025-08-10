@@ -1,0 +1,62 @@
+{
+  "slug": "3dw",
+  "extension": "3dw",
+  "name": "Studio Store Visualizer 3D Environment File",
+  "category": "1.-studio-store-visualizer-3d-environment-file",
+  "developer_org": "esko",
+  "popularity": {
+    "rating": 2.4,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "A 3DW file contains a 3D environment created by Esko Studio Store Visualizer, a module that can be added to Esko Studio to visualize product designs in retail store environments. It stores information about a 3D retail environment, which includes lighting, floor, aisles, and shelving information.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "esko-studio-store-visualizer",
+        "display_name": "Esko Studio Store Visualizer"
+      },
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      },
+      {
+        "software": "containment-breach-room-editor",
+        "display_name": "Containment Breach Room Editor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "esko-studio-store-visualizer",
+        "display_name": "Esko Studio Store Visualizer"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-03-14",
+  "sources": [
+    {
+      "url": "3dw.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

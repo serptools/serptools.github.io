@@ -1,0 +1,59 @@
+{
+  "slug": "mdj",
+  "extension": "mdj",
+  "name": "StarUML Model File",
+  "category": "staruml-model-file",
+  "developer_org": "mklab",
+  "popularity": {
+    "rating": 3.1,
+    "votes": 22,
+    "source": "fileinfo"
+  },
+  "summary": "Model file created and used by StarUML, a software modeling application; contains project information, which includes the project type and classes added to the project diagram; stored in JSON format.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "mklab-staruml",
+        "display_name": "MKLab StarUML"
+      }
+    ],
+    "macos": [
+      {
+        "software": "mklab-staruml",
+        "display_name": "MKLab StarUML"
+      }
+    ],
+    "linux": [
+      {
+        "software": "mklab-staruml",
+        "display_name": "MKLab StarUML"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-04-13",
+  "sources": [
+    {
+      "url": "mdj.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

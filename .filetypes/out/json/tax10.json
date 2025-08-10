@@ -1,0 +1,53 @@
+{
+  "slug": "tax10",
+  "extension": "tax10",
+  "name": "TurboTax 2010 Tax Return File",
+  "category": "turbotax-2010-tax-return-file",
+  "developer_org": "intuit",
+  "popularity": {
+    "rating": 1.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "Tax return file created with TurboTax 2010 tax preparation software; contains U.S. federal tax forms for the 2010 tax year and data entered by the user; may also include state tax forms and related data if a state version has been downloaded.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "intuit-turbotax",
+        "display_name": "Intuit TurboTax"
+      }
+    ],
+    "macos": [
+      {
+        "software": "intuit-turbotax",
+        "display_name": "Intuit TurboTax"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-01-08",
+  "sources": [
+    {
+      "url": "tax10.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

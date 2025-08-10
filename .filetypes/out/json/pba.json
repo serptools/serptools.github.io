@@ -1,0 +1,63 @@
+{
+  "slug": "pba",
+  "extension": "pba",
+  "name": "PowerBackup Archive",
+  "category": "1.-powerbackup-archive",
+  "developer_org": "cyberlink",
+  "popularity": {
+    "rating": 1.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "Backup file created by CyberLink PowerBackup backup and recovery software; contains backed up files and folders and can be used for restoring the data in the event it becomes lost or corrupted; can be created using a scheduled job that is defined through the PowerBackup interface.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "cyberlink-powerbackup",
+        "display_name": "CyberLink PowerBackup"
+      },
+      {
+        "software": "apache-openoffice",
+        "display_name": "Apache OpenOffice"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apache-openoffice",
+        "display_name": "Apache OpenOffice"
+      }
+    ],
+    "linux": [
+      {
+        "software": "apache-openoffice",
+        "display_name": "Apache OpenOffice"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-05-09",
+  "sources": [
+    {
+      "url": "pba.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

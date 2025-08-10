@@ -1,0 +1,241 @@
+{
+  "slug": "tar.zip",
+  "extension": "tar.zip",
+  "name": "Zipped Tar Archive",
+  "category": "zipped-tar-archive",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 2.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "A TAR.ZIP file is a Unix Tape Archive ( .TAR file) compressed with the Zip algorithm. It contains one or more files packaged together to reduce their size, making them easier to store or transfer. Various utilities may compress TAR files as TAR.ZIP files, but users may also compress TAR archives as .ZIP files and then manually rename them from .zip to .tar.zip .",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-file-explorer",
+        "display_name": "Microsoft File Explorer"
+      },
+      {
+        "software": "corel-winzip",
+        "display_name": "Corel WinZip"
+      },
+      {
+        "software": "rarlab-winrar",
+        "display_name": "RARLAB WinRAR"
+      },
+      {
+        "software": "peazip",
+        "display_name": "PeaZip"
+      },
+      {
+        "software": "conexware-powerarchiver",
+        "display_name": "ConeXWare PowerArchiver"
+      },
+      {
+        "software": "smith-micro-stuffit-deluxe",
+        "display_name": "Smith Micro StuffIt Deluxe",
+        "status": "discontinued"
+      },
+      {
+        "software": "7-zip",
+        "display_name": "7-Zip"
+      },
+      {
+        "software": "b1-free-archiver",
+        "display_name": "B1 Free Archiver",
+        "pricing": "free"
+      },
+      {
+        "software": "apple-archive-utility",
+        "display_name": "Apple Archive Utility"
+      },
+      {
+        "software": "incredible-bee-archiver",
+        "display_name": "Incredible Bee Archiver"
+      },
+      {
+        "software": "the-unarchiver",
+        "display_name": "The Unarchiver"
+      },
+      {
+        "software": "keka",
+        "display_name": "Keka"
+      },
+      {
+        "software": "funzip",
+        "display_name": "funzip"
+      },
+      {
+        "software": "p7zip",
+        "display_name": "p7zip"
+      },
+      {
+        "software": "file-roller",
+        "display_name": "File Roller"
+      },
+      {
+        "software": "123apps-archive-extractor",
+        "display_name": "123apps Archive Extractor"
+      },
+      {
+        "software": "apple-files",
+        "display_name": "Apple Files"
+      },
+      {
+        "software": "pengui-zhao-zip-rar-file-extractor",
+        "display_name": "Pengui Zhao Zip & RAR File Extractor"
+      },
+      {
+        "software": "comcsoft-corporation-izip",
+        "display_name": "ComcSoft Corporation iZip"
+      },
+      {
+        "software": "rarlab-rar",
+        "display_name": "RARLAB RAR"
+      },
+      {
+        "software": "zdevs-zarchiver",
+        "display_name": "ZDevs ZArchiver"
+      }
+    ],
+    "macos": [
+      {
+        "software": "corel-winzip-mac",
+        "display_name": "Corel WinZip Mac"
+      },
+      {
+        "software": "smith-micro-stuffit-deluxe-mac-16",
+        "display_name": "Smith Micro StuffIt Deluxe Mac 16",
+        "status": "discontinued"
+      },
+      {
+        "software": "apple-archive-utility",
+        "display_name": "Apple Archive Utility"
+      },
+      {
+        "software": "incredible-bee-archiver",
+        "display_name": "Incredible Bee Archiver"
+      },
+      {
+        "software": "the-unarchiver",
+        "display_name": "The Unarchiver"
+      },
+      {
+        "software": "b1-free-archiver",
+        "display_name": "B1 Free Archiver",
+        "pricing": "free"
+      },
+      {
+        "software": "keka",
+        "display_name": "Keka"
+      }
+    ],
+    "ios": [
+      {
+        "software": "corel-winzip-for-ios",
+        "display_name": "Corel WinZip for iOS"
+      },
+      {
+        "software": "apple-files",
+        "display_name": "Apple Files"
+      },
+      {
+        "software": "pengui-zhao-zip-rar-file-extractor",
+        "display_name": "Pengui Zhao Zip & RAR File Extractor"
+      },
+      {
+        "software": "comcsoft-corporation-izip",
+        "display_name": "ComcSoft Corporation iZip"
+      }
+    ],
+    "android": [
+      {
+        "software": "corel-winzip-for-android",
+        "display_name": "Corel WinZip for Android"
+      },
+      {
+        "software": "rarlab-rar",
+        "display_name": "RARLAB RAR"
+      },
+      {
+        "software": "zdevs-zarchiver",
+        "display_name": "ZDevs ZArchiver"
+      }
+    ],
+    "chromeos": [
+      {
+        "software": "chrome-os",
+        "display_name": "Chrome OS"
+      }
+    ],
+    "linux": [
+      {
+        "software": "funzip",
+        "display_name": "funzip"
+      },
+      {
+        "software": "p7zip",
+        "display_name": "p7zip"
+      },
+      {
+        "software": "b1-free-archiver",
+        "display_name": "B1 Free Archiver",
+        "pricing": "free"
+      },
+      {
+        "software": "file-roller",
+        "display_name": "File Roller"
+      },
+      {
+        "software": "peazip",
+        "display_name": "PeaZip"
+      }
+    ],
+    "web": [
+      {
+        "software": "123apps-archive-extractor",
+        "display_name": "123apps Archive Extractor"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "TAR.ZIP file icon",
+      "alt": "TAR.ZIP file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/tar.zip-13728.png"
+    },
+    {
+      "caption": "TAR.ZIP file open in Microsoft File Explorer",
+      "alt": "TAR.ZIP file open in Microsoft File Explorer",
+      "source_url": "https://fileinfo.com/img/ss/md/tar_zip_13728.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2024-08-08",
+  "sources": [
+    {
+      "url": "tar.zip.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

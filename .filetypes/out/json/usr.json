@@ -1,0 +1,81 @@
+{
+  "slug": "usr",
+  "extension": "usr",
+  "name": "SmartMusic Custom File",
+  "category": "1.-smartmusic-custom-file",
+  "developer_org": "makemusic",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 23,
+    "source": "fileinfo"
+  },
+  "summary": "Music file used by SmartMusic, a band, orchestra, and vocal music practice application; contains a customization of a SmartMusic Title; custom changes include altering tempos and cutting measures.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "makemusic-smartmusic",
+        "display_name": "MakeMusic SmartMusic"
+      },
+      {
+        "software": "filemaker-pro-advanced",
+        "display_name": "FileMaker Pro Advanced"
+      },
+      {
+        "software": "gpsbabel",
+        "display_name": "GPSBabel"
+      }
+    ],
+    "macos": [
+      {
+        "software": "makemusic-smartmusic",
+        "display_name": "MakeMusic SmartMusic"
+      },
+      {
+        "software": "filemaker-pro-advanced",
+        "display_name": "FileMaker Pro Advanced"
+      },
+      {
+        "software": "gpsbabel",
+        "display_name": "GPSBabel"
+      }
+    ],
+    "linux": [
+      {
+        "software": "gpsbabel",
+        "display_name": "GPSBabel"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "USR file icon",
+      "alt": "USR file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/usr-9091.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2013-11-21",
+  "sources": [
+    {
+      "url": "usr.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

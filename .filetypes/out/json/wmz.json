@@ -1,0 +1,97 @@
+{
+  "slug": "wmz",
+  "extension": "wmz",
+  "name": "Windows Media Player Skin Package",
+  "category": "1.-windows-media-player-skin-package",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 65,
+    "source": "fileinfo"
+  },
+  "summary": "A WMZ file is a pre-installed or custom skin that changes the appearance of the Windows Media Player interface, often to match a certain theme. It contains a combination of graphics and JScript code that defines the look and behavior of each skin element. WMZ files are compressed using ZIP compression.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-windows-media-player",
+        "display_name": "Microsoft Windows Media Player"
+      },
+      {
+        "software": "skindoc",
+        "display_name": "SkinDoc"
+      },
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "corel-winzip",
+        "display_name": "Corel WinZip"
+      },
+      {
+        "software": "7-zip",
+        "display_name": "7-Zip"
+      },
+      {
+        "software": "peazip",
+        "display_name": "PeaZip"
+      },
+      {
+        "software": "smith-micro-stuffit-deluxe",
+        "display_name": "Smith Micro StuffIt Deluxe",
+        "status": "discontinued"
+      },
+      {
+        "software": "apple-archive-utility",
+        "display_name": "Apple Archive Utility"
+      }
+    ],
+    "macos": [
+      {
+        "software": "corel-winzip-mac",
+        "display_name": "Corel Winzip Mac"
+      },
+      {
+        "software": "smith-micro-stuffit-deluxe-mac-16",
+        "display_name": "Smith Micro StuffIt Deluxe Mac 16",
+        "status": "discontinued"
+      },
+      {
+        "software": "apple-archive-utility",
+        "display_name": "Apple Archive Utility"
+      }
+    ],
+    "linux": [
+      {
+        "software": "peazip",
+        "display_name": "PeaZip"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-07-08",
+  "sources": [
+    {
+      "url": "wmz.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

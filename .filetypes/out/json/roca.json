@@ -1,0 +1,47 @@
+{
+  "slug": "roca",
+  "extension": "roca",
+  "name": "RIB office Compressed Archive",
+  "category": "rib-office-compressed-archive",
+  "developer_org": "rib-software",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "Data file created by RIB office, a project management application for planners and engineers; stores a compressed archive of the office project management data; includes schedules, drawings, employee information, contract data, contacts, and invoices; used for archiving snapshots of the database.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "rib-office",
+        "display_name": "RIB office"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-09-18",
+  "sources": [
+    {
+      "url": "roca.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

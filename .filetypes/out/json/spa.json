@@ -1,0 +1,77 @@
+{
+  "slug": "spa",
+  "extension": "spa",
+  "name": "MikuMikuDance Sphere Mapping File",
+  "category": "1.-mikumikudance-sphere-mapping-file",
+  "developer_org": "mikumikudance",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "3D model effects file used by MikuMikuDance, a dance and rhythm synchronization game; saved as a .BMP image but uses the \".spa\" extension instead; used for adding a shiny look to 3D model features such as hair or clothes.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "mikumikudance",
+        "display_name": "MikuMikuDance"
+      },
+      {
+        "software": "spotify",
+        "display_name": "Spotify"
+      },
+      {
+        "software": "7-zip",
+        "display_name": "7-Zip"
+      },
+      {
+        "software": "apple-archive-utility",
+        "display_name": "Apple Archive Utility"
+      },
+      {
+        "software": "anritsu-master-software-tools",
+        "display_name": "Anritsu Master Software Tools"
+      },
+      {
+        "software": "mkds-course-modifier",
+        "display_name": "MKDS Course Modifier"
+      }
+    ],
+    "macos": [
+      {
+        "software": "spotify",
+        "display_name": "Spotify"
+      },
+      {
+        "software": "apple-archive-utility",
+        "display_name": "Apple Archive Utility"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-04-03",
+  "sources": [
+    {
+      "url": "spa.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "plst",
+  "extension": "plst",
+  "name": "SmartMusic Playlist",
+  "category": "smartmusic-playlist",
+  "developer_org": "makemusic",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Music playlist created by SmartMusic, a program used for practicing orchestra and band music; saves a playlist of accompaniments and compositions; can be used for saving practice session lists.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "makemusic-smartmusic",
+        "display_name": "MakeMusic SmartMusic"
+      }
+    ],
+    "macos": [
+      {
+        "software": "makemusic-smartmusic",
+        "display_name": "MakeMusic SmartMusic"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "PLST file icon",
+      "alt": "PLST file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/plst-7793.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2013-11-21",
+  "sources": [
+    {
+      "url": "plst.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

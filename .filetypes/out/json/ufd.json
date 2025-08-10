@@ -1,0 +1,55 @@
+{
+  "slug": "ufd",
+  "extension": "ufd",
+  "name": "Universal Forensic Extraction Device Data",
+  "category": "universal-forensic-extraction-device-data",
+  "developer_org": "cellebrite",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "A UFD file contains data extracted from a smartphone or other device using Cellebrite UFED or Cellebrite Physical Analyzer. For example, a UFD file may contain a copy of all the messages, pictures, and videos stored on a phone. Digital forensics professionals use UFD files to examine, report on, and share a device's contents.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "cellebrite-physical-analyzer",
+        "display_name": "Cellebrite Physical Analyzer"
+      },
+      {
+        "software": "mobiledit-forensic-express",
+        "display_name": "MOBILedit Forensic Express"
+      },
+      {
+        "software": "oxygen-forensics-detective",
+        "display_name": "Oxygen Forensics Detective"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-08-05",
+  "sources": [
+    {
+      "url": "ufd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

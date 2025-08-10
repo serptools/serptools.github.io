@@ -1,0 +1,81 @@
+{
+  "slug": "apm",
+  "extension": "apm",
+  "name": "Aldus Placeable Metafile Image",
+  "category": "aldus-placeable-metafile-image",
+  "developer_org": "aldus-corporation",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 27,
+    "source": "fileinfo"
+  },
+  "summary": "An APM file is a vector image file saved in the Aldus Placeable Metafile format. It contains a list of commands that, when executed by an image viewer or placement program, draw an image. APM files are similar to .WMF files, which use the same format as APM files but a different file header .",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "gimp",
+        "display_name": "GIMP"
+      },
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      },
+      {
+        "software": "wmapmf.exe",
+        "display_name": "wmapmf.exe"
+      }
+    ],
+    "macos": [
+      {
+        "software": "gimp",
+        "display_name": "GIMP"
+      },
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      }
+    ],
+    "linux": [
+      {
+        "software": "gimp",
+        "display_name": "GIMP"
+      },
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "APM file icon",
+      "alt": "APM file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/apm-4167.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-10-17",
+  "sources": [
+    {
+      "url": "apm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

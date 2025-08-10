@@ -1,0 +1,73 @@
+{
+  "slug": "genbank",
+  "extension": "genbank",
+  "name": "GenBank Data File",
+  "category": "genbank-data-file",
+  "developer_org": "national-center-for-biotechnology-information",
+  "popularity": {
+    "rating": 2.8,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Sequence file format used to store DNA and protein sequences; stores information for one or more sequences; also contains metadata such as annotations, comments, and references.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "ios": [
+      {
+        "software": "heracle-biosoft-dna-baser",
+        "display_name": "Heracle BioSoft DNA Baser"
+      },
+      {
+        "software": "genome-compiler",
+        "display_name": "Genome Compiler",
+        "status": "discontinued"
+      }
+    ],
+    "windows": [
+      {
+        "software": "genome-compiler",
+        "display_name": "Genome Compiler",
+        "status": "discontinued"
+      }
+    ],
+    "macos": [
+      {
+        "software": "genome-compiler",
+        "display_name": "Genome Compiler",
+        "status": "discontinued"
+      }
+    ],
+    "web": [
+      {
+        "software": "genome-compiler",
+        "display_name": "Genome Compiler",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-03-09",
+  "sources": [
+    {
+      "url": "genbank.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

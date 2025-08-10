@@ -1,0 +1,63 @@
+{
+  "slug": "sea",
+  "extension": "sea",
+  "name": "Self-Extracting Archive",
+  "category": "self-extracting-archive",
+  "developer_org": "smith-micro",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 18,
+    "source": "fileinfo"
+  },
+  "summary": "Compressed file archive that uncompresses itself when opened; often created with StuffIt SEA Maker, part of Stuffit Deluxe for Mac OS X; may also be created by various Mac OS Classic utilities, including StuffIt, Disk Doubler, or Compact Pro.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "smith-micro-stuffit-deluxe",
+        "display_name": "Smith Micro StuffIt Deluxe",
+        "status": "discontinued"
+      },
+      {
+        "software": "the-unarchiver",
+        "display_name": "The Unarchiver"
+      }
+    ],
+    "macos": [
+      {
+        "software": "smith-micro-stuffit-deluxe-mac-16",
+        "display_name": "Smith Micro StuffIt Deluxe Mac 16",
+        "status": "discontinued"
+      },
+      {
+        "software": "the-unarchiver",
+        "display_name": "The Unarchiver"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-03-16",
+  "sources": [
+    {
+      "url": "sea.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

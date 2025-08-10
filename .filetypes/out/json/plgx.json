@@ -1,0 +1,61 @@
+{
+  "slug": "plgx",
+  "extension": "plgx",
+  "name": "KeePass 2.x Plugin",
+  "category": "keepass-2.x-plugin",
+  "developer_org": "dominik-reichl",
+  "popularity": {
+    "rating": 4.2,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "A PLGX file is a plug-in used by KeePass, a free password manager. It is used to add an additional feature to KeePass. PLGX files are used by KeePass versions 2 and later.",
+  "standards": [],
+  "mime_types": [
+    "keepass.info/plugins.html"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "keepass",
+        "display_name": "KeePass"
+      }
+    ],
+    "macos": [
+      {
+        "software": "keepass",
+        "display_name": "KeePass"
+      }
+    ],
+    "linux": [
+      {
+        "software": "keepass",
+        "display_name": "KeePass"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-08-30",
+  "sources": [
+    {
+      "url": "plgx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

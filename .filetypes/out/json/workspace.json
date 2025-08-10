@@ -1,0 +1,91 @@
+{
+  "slug": "workspace",
+  "extension": "workspace",
+  "name": "Code::Blocks Workspace File",
+  "category": "1.-code-blocks-workspace-file",
+  "developer_org": "code-blocks",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 13,
+    "source": "fileinfo"
+  },
+  "summary": "Developer workspace file created by Code::Blocks, a free, cross platform application for C++ development; saved using XML formatting and stores the list of opened projects; used for saving grouped projects together.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "code-blocks",
+        "display_name": "Code::Blocks"
+      },
+      {
+        "software": "user-application-data-adobe-bridge-workspaces",
+        "display_name": "[user]\\​Application Data\\​Adobe\\​Bridge\\​Workspaces\\​"
+      },
+      {
+        "software": "user-application-data-adobe-bridge",
+        "display_name": "[user]\\​Application Data\\​Adobe\\​Bridge\\​"
+      },
+      {
+        "software": "adobe-bridge-2023",
+        "display_name": "Adobe Bridge 2023"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "code-blocks",
+        "display_name": "Code::Blocks"
+      },
+      {
+        "software": "user-library-application-support-adobe-bridge-workspaces",
+        "display_name": "[user]/​Library/​Application Support/​Adobe/​Bridge/​Workspaces/​"
+      },
+      {
+        "software": "user-library-application-support-adobe-bridge",
+        "display_name": "[user]/​Library/​Application Support/​Adobe/​Bridge/​"
+      },
+      {
+        "software": "adobe-bridge-2023",
+        "display_name": "Adobe Bridge 2023"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "code-blocks",
+        "display_name": "Code::Blocks"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-04-11",
+  "sources": [
+    {
+      "url": "workspace.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

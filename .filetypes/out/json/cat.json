@@ -1,0 +1,51 @@
+{
+  "slug": "cat",
+  "extension": "cat",
+  "name": "Windows Catalog File",
+  "category": "1.-windows-catalog-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 58,
+    "source": "fileinfo"
+  },
+  "summary": "File used by the Windows operating system; specifies that a group of files are from a verifiable source; used for security purposes and contains a digital signature , the catalog version, and an effective date; often used for verifying new software update files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-windows",
+        "display_name": "Microsoft Windows"
+      },
+      {
+        "software": "elcomsoft-advanced-disk-catalog",
+        "display_name": "Elcomsoft Advanced Disk Catalog"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-11-18",
+  "sources": [
+    {
+      "url": "cat.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

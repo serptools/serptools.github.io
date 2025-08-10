@@ -1,0 +1,55 @@
+{
+  "slug": "acd-bak",
+  "extension": "acd-bak",
+  "name": "MAGIX ACID Project Backup File",
+  "category": "magix-acid-project-backup-file",
+  "developer_org": "magix",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 10,
+    "source": "fileinfo"
+  },
+  "summary": "Backup file created by MAGIX ACID Pro, Music Studio, or Xpress; stores a backup copy of the currently open .ACD project; saves the real-time copy of the project while editing a music compilation.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "magix-acid-pro-11",
+        "display_name": "MAGIX ACID Pro 11"
+      },
+      {
+        "software": "magix-acid-music-studio-11",
+        "display_name": "MAGIX ACID Music Studio 11"
+      },
+      {
+        "software": "sony-acid-xpress",
+        "display_name": "Sony ACID Xpress"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2016-09-13",
+  "sources": [
+    {
+      "url": "acd-bak.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

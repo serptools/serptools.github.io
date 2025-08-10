@@ -1,0 +1,49 @@
+{
+  "slug": "r2u",
+  "extension": "r2u",
+  "name": "R2U Ransomware Encrypted File",
+  "category": "r2u-ransomware-encrypted-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "A file with the .r2u extension has been maliciously encrypted by R2U ransomware . It contains an image, document, video, or other file the ransomware is holding hostage. Because the file is encrypted, you cannot open it.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "system-restore",
+        "display_name": "System Restore"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-08-26",
+  "sources": [
+    {
+      "url": "r2u.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

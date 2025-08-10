@@ -1,0 +1,47 @@
+{
+  "slug": "wmx",
+  "extension": "wmx",
+  "name": "Windows Media Redirector File",
+  "category": "windows-media-redirector-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 2.9,
+    "votes": 17,
+    "source": "fileinfo"
+  },
+  "summary": "Shortcut file used by Windows Media Player, the default multimedia player for Windows; saves a shortcut to a Windows Media Audio ( .WMA ) or Windows Media Video ( .WMV ) file; stores the location of the media file, but doesn't include the actual audio or video data itself.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-windows-media-player",
+        "display_name": "Microsoft Windows Media Player"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-08-18",
+  "sources": [
+    {
+      "url": "wmx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "slug": "cir",
+  "extension": "cir",
+  "name": "Micro-Cap Schematic",
+  "category": "micro-cap-schematic",
+  "developer_org": "spectrum-software",
+  "popularity": {
+    "rating": 4.5,
+    "votes": 11,
+    "source": "fileinfo"
+  },
+  "summary": "A CIR file is a schematic created by Micro-Cap, an integrated schematic editor and simulator used by electronics engineers. It contains plain text data used to show a circuit diagram in Micro-Cap. CIR files can also be opened in any text editor to view the plain text data they contain.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "micro-cap",
+        "display_name": "Micro-Cap"
+      },
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "github-atom",
+        "display_name": "GitHub Atom",
+        "status": "discontinued"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      }
+    ],
+    "chromeos": [
+      {
+        "software": "google-chrome-text",
+        "display_name": "Google Chrome Text"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "github-atom",
+        "display_name": "GitHub Atom",
+        "status": "discontinued"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      },
+      {
+        "software": "github-atom",
+        "display_name": "GitHub Atom",
+        "status": "discontinued"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "CIR file open in Micro-Cap 12",
+      "alt": "CIR file open in Micro-Cap 12",
+      "source_url": "https://fileinfo.com/img/ss/md/cir_11935.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-02-22",
+  "sources": [
+    {
+      "url": "cir.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

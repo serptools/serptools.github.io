@@ -1,0 +1,85 @@
+{
+  "slug": "kss",
+  "extension": "kss",
+  "name": "KSS-Paint Image",
+  "category": "kss-paint-image",
+  "developer_org": "kss",
+  "popularity": {
+    "rating": 1.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "A KSS file is a raster image created by KSS-Paint, a graphics program for Atari computers. It contains an 8-bit, 160 x 160 pixel image. KSS images can be comprised of up to four colors.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "piotr-fusik-recoil",
+        "display_name": "Piotr Fusik RECOIL"
+      },
+      {
+        "software": "tom-s-editor",
+        "display_name": "Tom's Editor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "piotr-fusik-recoil",
+        "display_name": "Piotr Fusik RECOIL"
+      }
+    ],
+    "linux": [
+      {
+        "software": "piotr-fusik-recoil",
+        "display_name": "Piotr Fusik RECOIL"
+      }
+    ],
+    "web": [
+      {
+        "software": "piotr-fusik-recoil",
+        "display_name": "Piotr Fusik RECOIL"
+      },
+      {
+        "software": "tom-s-editor",
+        "display_name": "Tom's Editor"
+      }
+    ],
+    "android": [
+      {
+        "software": "piotr-fusik-recoil",
+        "display_name": "Piotr Fusik RECOIL"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "KSS file open in Piotr Fusik RECOIL",
+      "alt": "KSS file open in Piotr Fusik RECOIL",
+      "source_url": "https://fileinfo.com/img/ss/md/kss_12996.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-11-14",
+  "sources": [
+    {
+      "url": "kss.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

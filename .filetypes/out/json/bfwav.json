@@ -1,0 +1,73 @@
+{
+  "slug": "bfwav",
+  "extension": "bfwav",
+  "name": "BFWAV Audio",
+  "category": "bfwav-audio",
+  "developer_org": "nintendo",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "A BFWAV file is an audio file saved in the Binary caFe WAVe (BFWAV) format used by various Nintendo Wii U and Switch games. It is similar to a .WAV file and consists of an INFO and DATA section that stores information about the sound and the actual sound data. BFWAV files may contain a sound effect or background music that is looped during gameplay.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "vgmstream",
+        "display_name": "vgmstream"
+      },
+      {
+        "software": "foobar2000-with-vgmstream-plug-in",
+        "display_name": "Foobar2000 with vgmstream plug-in"
+      },
+      {
+        "software": "nullsoft-winamp-with-vgmstream-plug-in",
+        "display_name": "Nullsoft Winamp with vgmstream plug-in"
+      }
+    ],
+    "web": [
+      {
+        "software": "vgmstream-web",
+        "display_name": "vgmstream-web"
+      }
+    ],
+    "macos": [
+      {
+        "software": "vgmstream",
+        "display_name": "vgmstream"
+      }
+    ],
+    "linux": [
+      {
+        "software": "vgmstream",
+        "display_name": "vgmstream"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-11-09",
+  "sources": [
+    {
+      "url": "bfwav.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

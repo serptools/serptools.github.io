@@ -1,0 +1,89 @@
+{
+  "slug": "cub",
+  "extension": "cub",
+  "name": "Analysis Services Cube File",
+  "category": "1.-analysis-services-cube-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 19,
+    "source": "fileinfo"
+  },
+  "summary": "Data file created by Analysis Services, a component of Microsoft SQL Server; stores a \"cube,\" which is a collection of structured data exported from a data source; includes the data schema as well as the data itself; often used for performing Online Analytical Processing (OLAP) analysis.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-excel-365",
+        "display_name": "Microsoft Excel 365"
+      },
+      {
+        "software": "microsoft-sql-server-2019",
+        "display_name": "Microsoft SQL Server 2019"
+      },
+      {
+        "software": "nwchem",
+        "display_name": "NWChem"
+      },
+      {
+        "software": "avogadro",
+        "display_name": "Avogadro"
+      },
+      {
+        "software": "quickbms",
+        "display_name": "QuickBMS"
+      }
+    ],
+    "linux": [
+      {
+        "software": "usgs-isis",
+        "display_name": "USGS ISIS"
+      },
+      {
+        "software": "nwchem",
+        "display_name": "NWChem"
+      },
+      {
+        "software": "avogadro",
+        "display_name": "Avogadro"
+      }
+    ],
+    "macos": [
+      {
+        "software": "nwchem",
+        "display_name": "NWChem"
+      },
+      {
+        "software": "avogadro",
+        "display_name": "Avogadro"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-04-05",
+  "sources": [
+    {
+      "url": "cub.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

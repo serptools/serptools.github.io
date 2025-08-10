@@ -1,0 +1,22 @@
+{
+  "slug": "tini",
+  "extension": "tini",
+  "name": "Chrome OS Crostini Backup",
+  "category": "chrome-os-crostini-backup",
+  "summary": "",
+  "developer_org": "google",
+  "developer_name": "Google",
+  "more_information": {
+    "description": [
+      "In Chrome OS, Linux developers and enthusiasts can use the operating system's Turn on Linux setting to create a Linux container. This container is known as Crostini. Crostini allows Linux users to install and open Linux apps in Chrome OS, so they can develop using Linux tools and open Linux-specific files.",
+      "All a Crostini user's Linux files are either marked as Shared with Linux or stored in a user's Linux files directory. If a Chrome OS user wants to back up their Linux files, they can do so by selecting the Linux (Beta) → Back up and restore setting from Chrome OS's Settings menu. When a Crostini user backs up their Linux files, Chrome saves the backup as a TINI file. TINI files are useful if a developer wants to restore their Crostini environment in the event of an accidental data loss, or they want to transfer their Crostini environment to another Chrome OS device."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "tini.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

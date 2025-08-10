@@ -1,0 +1,58 @@
+{
+  "slug": "growlticket",
+  "extension": "growlticket",
+  "name": "Growl Notification File",
+  "category": "growl-notification-file",
+  "developer_org": "growl-team",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "Stores notification settings used by Growl, a notification program for Mac OS X; gives information to a specific program about what alerts and messages should be displayed to the user.",
+  "standards": [],
+  "mime_types": [
+    "library/application",
+    "support/growl"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "growl",
+        "display_name": "Growl",
+        "status": "discontinued"
+      }
+    ],
+    "windows": [
+      {
+        "software": "growl",
+        "display_name": "Growl",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2008-11-11",
+  "sources": [
+    {
+      "url": "growlticket.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "slug": "tgq",
+  "extension": "tgq",
+  "name": "Electronic Arts TGQ Video File",
+  "category": "electronic-arts-tgq-video-file",
+  "developer_org": "electronic-arts",
+  "popularity": {
+    "rating": 1.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "A TGQ file is a video file used by various Sega Saturn and Windows video games developed by Electronic Arts. It contains audio data and video data encoded with the TGQ codec . TGQ files are primarily used to play title and logo sequences and in-game cutscenes.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      }
+    ],
+    "macos": [
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      }
+    ],
+    "linux": [
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-09-04",
+  "sources": [
+    {
+      "url": "tgq.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

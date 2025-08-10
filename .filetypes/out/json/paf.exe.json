@@ -1,0 +1,55 @@
+{
+  "slug": "paf.exe",
+  "extension": "paf.exe",
+  "name": "PortableApps.com Program File",
+  "category": "portableapps.com-program-file",
+  "developer_org": "the-portableapps.com-project",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 67,
+    "source": "fileinfo"
+  },
+  "summary": "A PAF.EXE file is a program file used by the PortableApps.com Platform, a Windows program used to transfer and run programs between computers and portable devices while maintaining program history. It contains all program executable files as well as program history and settings.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "rare-ideas-portableapps.com-platform",
+        "display_name": "Rare Ideas PortableApps.com Platform"
+      },
+      {
+        "software": "nullsoft-nsis",
+        "display_name": "Nullsoft NSIS"
+      },
+      {
+        "software": "excelsior-installer",
+        "display_name": "Excelsior Installer"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-06-06",
+  "sources": [
+    {
+      "url": "paf.exe.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

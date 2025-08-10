@@ -1,0 +1,59 @@
+{
+  "slug": "ashdisc",
+  "extension": "ashdisc",
+  "name": "Ashampoo Burning Studio Image",
+  "category": "ashampoo-burning-studio-image",
+  "developer_org": "ashampoo",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 12,
+    "source": "fileinfo"
+  },
+  "summary": "Disc image file created by Ashampoo Burning Studio, a program used to burn audio, video, and data discs; stores all data for the disc as well as the table of contents; used for ripping and archiving data into a file which can be edited and burned.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "ashampoo-burning-studio",
+        "display_name": "Ashampoo Burning Studio"
+      },
+      {
+        "software": "ezb-systems-ultraiso",
+        "display_name": "EZB Systems UltraISO"
+      },
+      {
+        "software": "poweriso",
+        "display_name": "PowerISO"
+      },
+      {
+        "software": "winarchiver",
+        "display_name": "WinArchiver"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-05-31",
+  "sources": [
+    {
+      "url": "ashdisc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

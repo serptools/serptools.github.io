@@ -1,0 +1,33 @@
+{
+  "slug": "cuid",
+  "extension": "cuid",
+  "name": "Baidu SDK File",
+  "category": "baidu-sdk-file",
+  "summary": "",
+  "developer_org": "baidu",
+  "developer_name": "Baidu",
+  "more_information": {
+    "description": [
+      "Baidu is a Chinese technology company that is, essentially, China's answer to Google. In 2013 and 2014, some Android-based smartphone users began discovering new baidu folders on their phones, even though they had not installed any apps created by Baidu. Collaboratively, these users discovered that the baidu folder and the baidu.cuid file contained within it were created by apps that used Baidu's software development kit to interact with Baidu services, in much the same way that apps use Facebook or Google's SDKs to interact with those services.",
+      "However, because Baidu is a Chinese-owned company that has ties to China's government, many non-Chinese users felt uncomfortable using apps that could, at least theoretically, send their device and location data to Baidu. This led many users to delete the apps that created the baidu folder and baidu.cuid file from their phones.",
+      "NOTE: Apps that use the Baidu SDK also often create .CUID2 files on users' devices."
+    ]
+  },
+  "common_filenames": [
+    {
+      "filename": "baidu.cuid",
+      "description": "baidu.cuid - The CUID file that appears within the baidu folder on users' smartphones."
+    },
+    {
+      "filename": "baidu",
+      "description": "baidu.cuid - The CUID file that appears within the baidu folder on users' smartphones."
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "cuid.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

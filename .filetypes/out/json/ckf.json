@@ -1,0 +1,47 @@
+{
+  "slug": "ckf",
+  "extension": "ckf",
+  "name": "Casio Keyboard File",
+  "category": "casio-keyboard-file",
+  "developer_org": "casio",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "Song file used by Casio electronic keyboards, such as the WK-3200; saves a tone or song that can be used to make music on the keyboard; can be uploaded to the keyboard using Casio's Music Data Management Software.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "casio-music-data-management-software",
+        "display_name": "Casio Music Data Management Software"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-09-20",
+  "sources": [
+    {
+      "url": "ckf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

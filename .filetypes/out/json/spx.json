@@ -1,0 +1,100 @@
+{
+  "slug": "spx",
+  "extension": "spx",
+  "name": "Ogg Vorbis Speex File",
+  "category": "1.-ogg-vorbis-speex-file",
+  "developer_org": "xiph.org",
+  "popularity": {
+    "rating": 2.7,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "An SPX file is an audio file saved in the Ogg Vorbis container format and encoded with the Speex Audio codec . It supports voice compression at 2 to 44 kbps and supports 8 kHz, 16 kHz, and 32 kHz compression in the same bitstream. SPX files typically store voice recordings for video games and podcasts, but may also store other audio content, such as music or sound effects.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "foobar2000",
+        "display_name": "foobar2000"
+      },
+      {
+        "software": "coolutils-total-audio-converter",
+        "display_name": "CoolUtils Total Audio Converter"
+      },
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      },
+      {
+        "software": "balarad-embird",
+        "display_name": "BALARAD Embird"
+      }
+    ],
+    "macos": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "apple-system-information",
+        "display_name": "Apple System Information"
+      }
+    ],
+    "linux": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      }
+    ],
+    "web": [
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "SPX file icon",
+      "alt": "SPX file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/spx-4581.png"
+    },
+    {
+      "caption": "SPX file open in VideoLAN VLC media player 3.0.12",
+      "alt": "SPX file open in VideoLAN VLC media player 3.0.12",
+      "source_url": "https://fileinfo.com/img/ss/md/spx_4581.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-09-24",
+  "sources": [
+    {
+      "url": "spx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "slug": "ptk",
+  "extension": "ptk",
+  "name": "Quicken Online Financial Data File",
+  "category": "1.-quicken-online-financial-data-file",
+  "developer_org": "intuit",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Older file type used to store Quicken financial information; can be used to import data from online banks or financial institutions into Quicken; most online banks now export data as .QIF files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "intuit-quicken",
+        "display_name": "Intuit Quicken"
+      },
+      {
+        "software": "mediatek-sistemas-puntotek",
+        "display_name": "Mediatek Sistemas Puntotek"
+      }
+    ],
+    "macos": [
+      {
+        "software": "intuit-quicken",
+        "display_name": "Intuit Quicken"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-01-27",
+  "sources": [
+    {
+      "url": "ptk.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

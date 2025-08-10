@@ -1,0 +1,37 @@
+{
+  "slug": "gz",
+  "extension": "gz",
+  "name": "Gnu Zipped Archive",
+  "summary": "A GZ file is an archive file compressed by the standard GNU zip (gzip) compression algorithm. It typically contains a single compressed file but may also store multiple compressed files. gzip is primarily used on Unix operating systems for file compression.",
+  "developer": "The GNU Project",
+  "developer_slug": "the-gnu-project",
+  "category": "Compressed Files",
+  "category_slug": "compressed-files",
+  "rating": 3.7,
+  "votes": 540,
+  "last_updated": "March 7, 2022",
+  "more_information": {
+    "content": [
+      "Jean-loup Gailly and Mark Adler initially developed the Gzip format and released the gzip program on October 31, 1992. Today, the format and program are still used in Unix systems to reduce file sizes for transportation or storage purposes. Also, GNU Project now develops gzip.",
+      "GZ files often store .TAR archives that contain multiple files, such as video, image, audio, and backup files. TAR files compressed with gzip compression typically have a .tar.gz or .tgz file extension and are known as \"tarballs.\" You must first decompress these files then expand them with a TAR utility."
+    ],
+    "screenshot": {
+      "url": "https://fileinfo.com/img/ss/sm/gz_33.png",
+      "srcset": "https://fileinfo.com/img/ss/md/gz_33.png 760w, https://fileinfo.com/img/ss/sm/gz_33.png 380w",
+      "alt": "Screenshot of a .gz file in 7-Zip 19",
+      "width": "380",
+      "height": "253",
+      "caption": "GZ file open in 7-Zip 19"
+    }
+  },
+  "how_to_open": {
+    "instructions": [
+      "You can open GZ files with the GNU zip (gzip) compression utility. You can also decompress GZ files and extract their files with other decompression utilities, such as Corel WinZip (Windows and macOS), Smith Micro Stuffit Deluxe (Windows and macOS), 7-Zip (Windows), and Apple Archive Utility (bundled with macOS)."
+    ]
+  },
+  "scraped_at": "2025-08-09T21:58:54.881465",
+  "source": {
+    "url": "https://fileinfo.com/extension/gz",
+    "file": "gz.html"
+  }
+}

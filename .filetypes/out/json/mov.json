@@ -1,0 +1,200 @@
+{
+  "slug": "mov",
+  "extension": "mov",
+  "name": "Apple QuickTime Movie",
+  "category": "apple-quicktime-movie",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 811,
+    "source": "fileinfo"
+  },
+  "summary": "A MOV file is one of the most common video file types, often storing a movie, TV show, short video clip, or home movie. It is saved in the QuickTime File Format (QTFF), a multimedia container format developed by Apple. Video editors often save video as MOV files due to their support for high-quality video.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      },
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "microsoft-media-player",
+        "display_name": "Microsoft Media Player"
+      },
+      {
+        "software": "microsoft-windows-media-player",
+        "display_name": "Microsoft Windows Media Player"
+      },
+      {
+        "software": "roxio-creator-nxt-pro-9",
+        "display_name": "Roxio Creator NXT Pro 9"
+      },
+      {
+        "software": "cyberlink-powerdvd-21",
+        "display_name": "CyberLink PowerDVD 21"
+      },
+      {
+        "software": "xilisoft-video-converter-ultimate",
+        "display_name": "Xilisoft Video Converter Ultimate"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "axilesoft-acg-player",
+        "display_name": "Axilesoft ACG Player"
+      },
+      {
+        "software": "adobe-premiere-rush",
+        "display_name": "Adobe Premiere Rush"
+      },
+      {
+        "software": "apple-quicktime-player",
+        "display_name": "Apple QuickTime Player"
+      },
+      {
+        "software": "eltima-elmedia-player",
+        "display_name": "Eltima Elmedia Player"
+      },
+      {
+        "software": "roxio-toast-20",
+        "display_name": "Roxio Toast 20"
+      },
+      {
+        "software": "roxio-popcorn",
+        "display_name": "Roxio Popcorn"
+      },
+      {
+        "software": "google-drive",
+        "display_name": "Google Drive"
+      },
+      {
+        "software": "olimsoft-oplayer",
+        "display_name": "olimsoft OPlayer"
+      },
+      {
+        "software": "videolan-vlc-for-mobile",
+        "display_name": "VideoLAN VLC for Mobile"
+      },
+      {
+        "software": "j2-interactive-mx-player",
+        "display_name": "J2 Interactive MX Player"
+      }
+    ],
+    "android": [
+      {
+        "software": "videolabs-vlc-for-android",
+        "display_name": "Videolabs VLC for Android"
+      },
+      {
+        "software": "j2-interactive-mx-player",
+        "display_name": "J2 Interactive MX Player"
+      },
+      {
+        "software": "google-drive",
+        "display_name": "Google Drive"
+      },
+      {
+        "software": "adobe-premiere-rush",
+        "display_name": "Adobe Premiere Rush"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-quicktime-player",
+        "display_name": "Apple QuickTime Player"
+      },
+      {
+        "software": "eltima-elmedia-player",
+        "display_name": "Eltima Elmedia Player"
+      },
+      {
+        "software": "roxio-toast-20",
+        "display_name": "Roxio Toast 20"
+      },
+      {
+        "software": "roxio-popcorn",
+        "display_name": "Roxio Popcorn"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "adobe-premiere-rush",
+        "display_name": "Adobe Premiere Rush"
+      }
+    ],
+    "linux": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      }
+    ],
+    "web": [
+      {
+        "software": "google-drive",
+        "display_name": "Google Drive"
+      }
+    ],
+    "ios": [
+      {
+        "software": "olimsoft-oplayer",
+        "display_name": "olimsoft OPlayer"
+      },
+      {
+        "software": "videolan-vlc-for-mobile",
+        "display_name": "VideoLAN VLC for Mobile"
+      },
+      {
+        "software": "google-drive",
+        "display_name": "Google Drive"
+      },
+      {
+        "software": "adobe-premiere-rush",
+        "display_name": "Adobe Premiere Rush"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "MOV file icon",
+      "alt": "MOV file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/mov-64.png"
+    },
+    {
+      "caption": "MOV file open in Apple QuickTime Player",
+      "alt": "MOV file open in Apple QuickTime Player",
+      "source_url": "https://fileinfo.com/img/ss/md/mov_64-2.jpg"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2025-07-26",
+  "sources": [
+    {
+      "url": "mov.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

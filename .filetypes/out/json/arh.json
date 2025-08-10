@@ -1,0 +1,51 @@
+{
+  "slug": "arh",
+  "extension": "arh",
+  "name": "ProTool Compressed Project File",
+  "category": "1.-protool-compressed-project-file",
+  "developer_org": "siemens",
+  "popularity": {
+    "rating": 2.2,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "File created by ProTool, a program used to configure and monitor machine processes; stores all project settings in a compressed archive; used for reducing the amount of storage space needed to save all project data.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "siemens-protool",
+        "display_name": "Siemens ProTool"
+      },
+      {
+        "software": "arheostratigraf",
+        "display_name": "ArheoStratigraf"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-03-08",
+  "sources": [
+    {
+      "url": "arh.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

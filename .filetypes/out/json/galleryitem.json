@@ -1,0 +1,71 @@
+{
+  "slug": "galleryitem",
+  "extension": "galleryitem",
+  "name": "SMART Notebook Gallery Item File",
+  "category": "smart-notebook-gallery-item-file",
+  "developer_org": "smart-technologies",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Gallery document file used by SMART Technologies' classroom management and whiteboard software; contains one or more gallery items from a teacher's classroom database; may include clip art images, video, audio, .NOTEBOOK files, or other types of content; used for exporting gallery documents and sharing them over email or the Internet.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "smart-technologies-notebook",
+        "display_name": "SMART Technologies Notebook"
+      },
+      {
+        "software": "smart-technologies-smart-board-software",
+        "display_name": "SMART Technologies SMART Board software"
+      }
+    ],
+    "macos": [
+      {
+        "software": "smart-technologies-notebook",
+        "display_name": "SMART Technologies Notebook"
+      },
+      {
+        "software": "smart-technologies-smart-board-software",
+        "display_name": "SMART Technologies SMART Board software"
+      }
+    ],
+    "linux": [
+      {
+        "software": "smart-technologies-notebook",
+        "display_name": "SMART Technologies Notebook"
+      },
+      {
+        "software": "smart-technologies-smart-board-software",
+        "display_name": "SMART Technologies SMART Board software"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-09-07",
+  "sources": [
+    {
+      "url": "galleryitem.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

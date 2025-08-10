@@ -1,0 +1,65 @@
+{
+  "slug": "nv",
+  "extension": "nv",
+  "name": "NewViews Database File",
+  "category": "1.-newviews-database-file",
+  "developer_org": "q.w.-page-associates",
+  "popularity": {
+    "rating": 2.9,
+    "votes": 17,
+    "source": "fileinfo"
+  },
+  "summary": "Database file created by NewViews for DOS (also referred to as NV1), a DOS program used for business accounting; can include payroll, tax, expense, income, and other accounting information; used for storing and tracking company finances.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "q.w.-page-newviews-for-dos",
+        "display_name": "Q.W. Page NewViews for DOS"
+      },
+      {
+        "software": "mame",
+        "display_name": "MAME"
+      },
+      {
+        "software": "extramame",
+        "display_name": "ExtraMAME"
+      }
+    ],
+    "macos": [
+      {
+        "software": "macmame",
+        "display_name": "MacMAME"
+      },
+      {
+        "software": "mame-os-x",
+        "display_name": "MAME OS X"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-03-01",
+  "sources": [
+    {
+      "url": "nv.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

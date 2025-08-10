@@ -1,0 +1,59 @@
+{
+  "slug": "xlw",
+  "extension": "xlw",
+  "name": "Microsoft Excel Workspace",
+  "category": "1.-microsoft-excel-workspace",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 2.3,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "An XLW file is a workspace file created by Microsoft Excel, a spreadsheets application. It contains the screen locations of one or more workbooks, as well as references to the workbook files. XLW files are used to restore the layout when working simultaneously on multiple workbooks.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-excel-365",
+        "display_name": "Microsoft Excel 365"
+      }
+    ],
+    "macos": [
+      {
+        "software": "microsoft-excel-365",
+        "display_name": "Microsoft Excel 365"
+      }
+    ],
+    "web": [
+      {
+        "software": "microsoft-excel-365",
+        "display_name": "Microsoft Excel 365"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-02-12",
+  "sources": [
+    {
+      "url": "xlw.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

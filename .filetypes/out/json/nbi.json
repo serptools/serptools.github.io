@@ -1,0 +1,47 @@
+{
+  "slug": "nbi",
+  "extension": "nbi",
+  "name": "Nero BackItUp Information File",
+  "category": "nero-backitup-information-file",
+  "developer_org": "nero",
+  "popularity": {
+    "rating": 2.6,
+    "votes": 12,
+    "source": "fileinfo"
+  },
+  "summary": "File created by BackItUp (formerly BackItUp & Burn), a program used to compress and backup files; contains information about files that have been backed up; used in conjunction with .NBA files to restore from a backed up archive.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "nero-backitup",
+        "display_name": "Nero BackItUp"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-07-28",
+  "sources": [
+    {
+      "url": "nbi.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

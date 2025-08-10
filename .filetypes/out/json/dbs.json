@@ -1,0 +1,61 @@
+{
+  "slug": "dbs",
+  "extension": "dbs",
+  "name": "SQLBase Database File",
+  "category": "1.-sqlbase-database-file",
+  "developer_org": "unify",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 14,
+    "source": "fileinfo"
+  },
+  "summary": "Database file created by SQLBase, an embedded database solution for business applications; stores structured data and tracks changes to the data in a \".log\" file; often used for storing data for small desktop programs or mobile applications.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "gupta-sqlbase",
+        "display_name": "Gupta SQLBase"
+      },
+      {
+        "software": "gambit",
+        "display_name": "GAMBIT"
+      }
+    ],
+    "linux": [
+      {
+        "software": "gupta-sqlbase",
+        "display_name": "Gupta SQLBase"
+      },
+      {
+        "software": "gambit",
+        "display_name": "GAMBIT"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-03-01",
+  "sources": [
+    {
+      "url": "dbs.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

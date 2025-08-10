@@ -1,0 +1,55 @@
+{
+  "slug": "agd",
+  "extension": "agd",
+  "name": "AgileGraph Data File",
+  "category": "1.-agilegraph-data-file",
+  "developer_org": "agilegraph",
+  "popularity": {
+    "rating": 2.8,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "Data file created by AgileGraph, a program that imports and visualizes data from a variety of sources including Microsoft Excel and .CSV files; contains raw imported data that can be filtered by AgileGraph; may be displayed as charts, graphs, or tables within the program.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "agilegraph",
+        "display_name": "AgileGraph"
+      },
+      {
+        "software": "oracle-agile-plm",
+        "display_name": "Oracle Agile PLM"
+      },
+      {
+        "software": "agile-advantage",
+        "display_name": "Agile Advantage"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-12-16",
+  "sources": [
+    {
+      "url": "agd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "svg",
+  "extension": "svg",
+  "name": "Scalable Vector Graphic",
+  "summary": "An SVG file is an image saved in the Scalable Vector Graphic format. The vector graphic it contains can be scaled to any size without losing quality. For this reason, digital illustrators often save logos, charts, and other graphics intended to be shown at a variety of sizes as SVG files.",
+  "developer": "W3C",
+  "developer_slug": "w3c",
+  "category": "Vector Image Files",
+  "category_slug": "vector-image-files",
+  "rating": 4.3,
+  "votes": 410,
+  "last_updated": "May 18, 2023",
+  "more_information": {
+    "content": [
+      "The World Wide Web Consortium (W3C) developed the SVG format and released its initial version in 2001. Since then, W3C has released several updates to the SVG format, including SVG 1.1, SVG Tiny 1.2, and SVG 2.0.",
+      "Unlike .JPG , .PNG , and other raster image files, SVG images are not comprised of pixels . Instead, SVG images are defined using XML-like text that describes how the image should appear. For example, when opened in a text editor, an SVG file might look like this:",
+      "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 93 107\"> <path d='M74,74a42,42 0,1,0-57,0l28,29a42,41 0,0,0 0-57' fill='#00a3dc' fill-rule='evenodd'/> </svg>",
+      "Because the image an SVG file describes is defined using text-based paths, rather than pixels, it can be scaled up or down without losing any quality. This is why digital illustrators save logos and icons, which need to be shown or printed at a variety of sizes, as SVG files.",
+      "Web developers also often publish SVG files on webpages, since the graphics they contain will look good at any resolution, and search engines can read the text the files contain (which may help with search engine page ranking). These developers can also modify SVG images using CSS and scripting languages (such as JavaScript ) if needed.",
+      "Various vector graphics editors allow you to save graphics as SVG files. Some popular vector graphics editors that can create SVG files include:",
+      "NOTE: If you need to reduce an SVG's file size (for example, to make it easier to share online), you can export it as an .SVGZ file. This compresses the image with gzip compression, reducing its file size by 50 to 80 percent."
+    ],
+    "screenshot": {
+      "url": "https://fileinfo.com/img/ss/sm/svg_399.png",
+      "srcset": "https://fileinfo.com/img/ss/md/svg_399.png 760w, https://fileinfo.com/img/ss/sm/svg_399.png 380w",
+      "alt": "Screenshot of a .svg file in Adobe Illustrator",
+      "width": "380",
+      "height": "253",
+      "caption": "SVG file open in Adobe Illustrator"
+    }
+  },
+  "how_to_open": {
+    "instructions": [
+      "You can open an SVG file and edit the image it contains with Adobe Illustrator , CorelDRAW , Inkscape , and several other vector graphics editors.",
+      "If you just want to view the image your SVG file contains, you can open it by dragging it into your web browser (or selecting File → Open... ). Google Chrome , Microsoft Edge , Apple Safari , and Mozilla Firefox can all display SVG images.",
+      "Advanced users may want to open their SVG file in a text editor, such as Microsoft Notepad or Apple TextEdit , to view or edit the XML-style text the file contains. However, most users are better off opening an SVG file in a vector graphics editor or web browser."
+    ]
+  },
+  "scraped_at": "2025-08-09T21:58:54.749808",
+  "source": {
+    "url": "https://fileinfo.com/extension/svg",
+    "file": "svg.html"
+  }
+}

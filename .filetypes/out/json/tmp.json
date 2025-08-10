@@ -1,0 +1,84 @@
+{
+  "slug": "tmp",
+  "extension": "tmp",
+  "name": "Temporary File",
+  "category": "1.-temporary-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 1052,
+    "source": "fileinfo"
+  },
+  "summary": "A TMP file is a temporary backup, cache , or other data file created automatically by a software program. It is sometimes created as an invisible file and is often deleted when the program is closed. TMP files may also be created to contain information temporarily while a new file is being generated.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-word-365",
+        "display_name": "Microsoft Word 365"
+      },
+      {
+        "software": "microsoft-internet-explorer",
+        "display_name": "Microsoft Internet Explorer",
+        "status": "discontinued"
+      },
+      {
+        "software": "apple-safari",
+        "display_name": "Apple Safari"
+      },
+      {
+        "software": "mozilla-firefox",
+        "display_name": "Mozilla Firefox"
+      },
+      {
+        "software": "makemusic-finale",
+        "display_name": "MakeMusic Finale"
+      }
+    ],
+    "macos": [
+      {
+        "software": "microsoft-word-365",
+        "display_name": "Microsoft Word 365"
+      },
+      {
+        "software": "apple-safari",
+        "display_name": "Apple Safari"
+      },
+      {
+        "software": "mozilla-firefox",
+        "display_name": "Mozilla Firefox"
+      },
+      {
+        "software": "makemusic-finale",
+        "display_name": "MakeMusic Finale"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-03-02",
+  "sources": [
+    {
+      "url": "tmp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

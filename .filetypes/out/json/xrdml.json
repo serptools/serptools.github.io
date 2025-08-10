@@ -1,0 +1,47 @@
+{
+  "slug": "xrdml",
+  "extension": "xrdml",
+  "name": "XRDML Data File",
+  "category": "xrdml-data-file",
+  "developer_org": "panalytical",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 11,
+    "source": "fileinfo"
+  },
+  "summary": "File format used to store X-ray powder diffraction measurement data collected by PANalytical XRD instruments such as Data Collector and X'Pert Powder; also contains any information required to reproduce the measurement data, which includes the instrument type and settings.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "panalytical-data-collector",
+        "display_name": "PANalytical Data Collector"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2016-02-22",
+  "sources": [
+    {
+      "url": "xrdml.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

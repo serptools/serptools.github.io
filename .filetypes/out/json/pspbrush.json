@@ -1,0 +1,76 @@
+{
+  "slug": "pspbrush",
+  "extension": "pspbrush",
+  "name": "PaintShop Pro Brush File",
+  "category": "paintshop-pro-brush-file",
+  "developer_org": "corel",
+  "popularity": {
+    "rating": 2.8,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "A PSPBRUSH file contains a paintbrush created by PaintShop Pro, a raster graphics editor for Windows. It stores a brush, which is an image or shape that users can repeatedly paint on the canvas. PSPBRUSH files may be packaged with PaintShop Pro or a custom brush created by the user.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "corel-paintshop-pro-2023",
+        "display_name": "Corel PaintShop Pro 2023"
+      },
+      {
+        "software": "coreldraw-graphics-suite-2024",
+        "display_name": "CorelDRAW Graphics Suite 2024"
+      },
+      {
+        "software": "corel-painter-2023",
+        "display_name": "Corel Painter 2023"
+      }
+    ],
+    "macos": [
+      {
+        "software": "coreldraw-graphics-suite-2024",
+        "display_name": "CorelDRAW Graphics Suite 2024"
+      },
+      {
+        "software": "corel-painter-2023",
+        "display_name": "Corel Painter 2023"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "PSPBRUSH file icon",
+      "alt": "PSPBRUSH file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/pspbrush-5755.png"
+    },
+    {
+      "caption": "PSPBRUSH file open in Corel PaintShop Pro 2023",
+      "alt": "PSPBRUSH file open in Corel PaintShop Pro 2023",
+      "source_url": "https://fileinfo.com/img/ss/md/pspbrush_5755.jpg"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-11-17",
+  "sources": [
+    {
+      "url": "pspbrush.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

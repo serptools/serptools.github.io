@@ -1,0 +1,53 @@
+{
+  "slug": "vncloc",
+  "extension": "vncloc",
+  "name": "Screen Sharing VNC Internet Location",
+  "category": "screen-sharing-vnc-internet-location",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Connection file created by Screen Sharing, a remote desktop control program included with Mac OS X; saved in an XML format and contains the connection URL for the remote computer; used as a shortcut for re-opening a screen sharing session; created by selecting Connection → Save As... in the Screen Sharing application menu while a sharing session is open.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "apple-screen-sharing",
+        "display_name": "Apple Screen Sharing"
+      }
+    ],
+    "windows": [
+      {
+        "software": "apple-screen-sharing",
+        "display_name": "Apple Screen Sharing"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-12-14",
+  "sources": [
+    {
+      "url": "vncloc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

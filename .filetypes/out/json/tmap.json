@@ -1,0 +1,104 @@
+{
+  "slug": "tmap",
+  "extension": "tmap",
+  "name": "TissUUmaps Project",
+  "category": "tissuumaps-project",
+  "developer_org": "tissuumaps-team",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "A TMAP file is a project file created by TissUUmaps, a tissue analysis tool. It contains JSON-formatted data that specifies a project's included image layers, markers, regions, and settings. Users can create TMAP files by saving projects in TissUUmaps or exporting them from other tissue-related programs.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "tissuumaps",
+        "display_name": "TissUUmaps"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "github-atom",
+        "display_name": "GitHub Atom",
+        "status": "discontinued"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "tissuumaps",
+        "display_name": "TissUUmaps"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "github-atom",
+        "display_name": "GitHub Atom",
+        "status": "discontinued"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "tissuumaps",
+        "display_name": "TissUUmaps"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "github-atom",
+        "display_name": "GitHub Atom",
+        "status": "discontinued"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "TMAP file open in Microsoft Visual Studio Code",
+      "alt": "TMAP file open in Microsoft Visual Studio Code",
+      "source_url": "https://fileinfo.com/img/ss/md/tmap_13016.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-11-22",
+  "sources": [
+    {
+      "url": "tmap.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

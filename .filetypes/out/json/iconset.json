@@ -1,0 +1,69 @@
+{
+  "slug": "iconset",
+  "extension": "iconset",
+  "name": "Mac OS X Icon Set Folder",
+  "category": "mac-os-x-icon-set-folder",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Folder used by various programs when developing OS X applications; contains a set of icons, often .PNG files, that are used by developers to create high-resolution .ICNS files for an application.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "apple-xcode",
+        "display_name": "Apple Xcode"
+      },
+      {
+        "software": "apple-terminal",
+        "display_name": "Apple Terminal"
+      },
+      {
+        "software": "iconset-generator",
+        "display_name": "Iconset Generator"
+      }
+    ],
+    "windows": [
+      {
+        "software": "apple-xcode",
+        "display_name": "Apple Xcode"
+      },
+      {
+        "software": "apple-terminal",
+        "display_name": "Apple Terminal"
+      },
+      {
+        "software": "iconset-generator",
+        "display_name": "Iconset Generator"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-09-04",
+  "sources": [
+    {
+      "url": "iconset.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

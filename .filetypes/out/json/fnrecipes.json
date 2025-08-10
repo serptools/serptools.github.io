@@ -1,0 +1,53 @@
+{
+  "slug": "fnrecipes",
+  "extension": "fnrecipes",
+  "name": "Food Network Recipe File",
+  "category": "food-network-recipe-file",
+  "developer_org": "nova-development",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "File created by Food Network Recipe Manager, an application used to organize cooking recipes; saves a collection of recipes and may include the recipe name, ingredients, cooking instructions, and notes; allows recipes to be saved and shared.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "nova-development-food-network-recipe-manager",
+        "display_name": "Nova Development Food Network Recipe Manager"
+      }
+    ],
+    "macos": [
+      {
+        "software": "nova-development-food-network-recipe-manager",
+        "display_name": "Nova Development Food Network Recipe Manager"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-08-02",
+  "sources": [
+    {
+      "url": "fnrecipes.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

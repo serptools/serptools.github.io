@@ -1,0 +1,75 @@
+{
+  "slug": "ndb",
+  "extension": "ndb",
+  "name": "ClamAV Extended Signature File",
+  "category": "1.-clamav-extended-signature-file",
+  "developer_org": "sourcefire",
+  "popularity": {
+    "rating": 2.5,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "File used by ClamAV, an open source antivirus program; contains a signature for a malware program in the following format: MalwareName:TargetType:Offset:HexSignature",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "clamwin",
+        "display_name": "ClamWin"
+      },
+      {
+        "software": "clamxav",
+        "display_name": "ClamXav"
+      },
+      {
+        "software": "sourcefire-clamav",
+        "display_name": "Sourcefire ClamAV"
+      },
+      {
+        "software": "nevron-software-mydraw",
+        "display_name": "Nevron Software MyDraw"
+      }
+    ],
+    "macos": [
+      {
+        "software": "clamxav",
+        "display_name": "ClamXav"
+      },
+      {
+        "software": "nevron-software-mydraw",
+        "display_name": "Nevron Software MyDraw"
+      }
+    ],
+    "linux": [
+      {
+        "software": "sourcefire-clamav",
+        "display_name": "Sourcefire ClamAV"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-04-15",
+  "sources": [
+    {
+      "url": "ndb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

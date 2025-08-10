@@ -1,0 +1,77 @@
+{
+  "slug": "dt2",
+  "extension": "dt2",
+  "name": "Windows Live Messenger Emoticon Image File",
+  "category": "1.-windows-live-messenger-emoticon-image-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 2.8,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "Image file used by Windows Live Messenger, a program used for online chatting; contains an emoticon image in .GIF or .PNG format; used for inserting emoticons into online chat windows; may be renamed with a \".gif\" or \".png\" extension and opened in an image viewer.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-windows-live-messenger",
+        "display_name": "Microsoft Windows Live Messenger"
+      },
+      {
+        "software": "safe-software-fme-desktop",
+        "display_name": "Safe Software FME Desktop"
+      },
+      {
+        "software": "esri-arcgis-for-desktop",
+        "display_name": "ESRI ArcGIS for Desktop"
+      },
+      {
+        "software": "pitney-bowes-mapinfo",
+        "display_name": "Pitney Bowes MapInfo"
+      },
+      {
+        "software": "blue-marble-geographics-global-mapper",
+        "display_name": "Blue Marble Geographics Global Mapper"
+      },
+      {
+        "software": "tatukgis-viewer",
+        "display_name": "TatukGIS Viewer"
+      },
+      {
+        "software": "esri-arcgis-desktop",
+        "display_name": "ESRI ArcGIS Desktop"
+      }
+    ],
+    "linux": [
+      {
+        "software": "esri-arcgis-desktop",
+        "display_name": "ESRI ArcGIS Desktop"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-06-05",
+  "sources": [
+    {
+      "url": "dt2.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

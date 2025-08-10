@@ -1,0 +1,67 @@
+{
+  "slug": "animeexport",
+  "extension": "animeexport",
+  "name": "Anime Studio Export Profile Document",
+  "category": "anime-studio-export-profile-document",
+  "developer_org": "smith-micro",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "An ANIMEEXPORT file is a profile document created with Anime Studio 11 and later, a drawing and animation program. It contains a configuration for a batch export job in Anime Studio. ANIMEEXPORT files are useful for sharing export settings with other users and for future repeated batch exports.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "lost-marble-moho-debut",
+        "display_name": "Lost Marble Moho Debut"
+      },
+      {
+        "software": "lost-marble-moho-pro",
+        "display_name": "Lost Marble Moho Pro"
+      }
+    ],
+    "macos": [
+      {
+        "software": "lost-marble-moho-debut",
+        "display_name": "Lost Marble Moho Debut"
+      },
+      {
+        "software": "lost-marble-moho-pro",
+        "display_name": "Lost Marble Moho Pro"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "ANIMEEXPORT file icon",
+      "alt": "ANIMEEXPORT file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/animeexport-10874.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-03-01",
+  "sources": [
+    {
+      "url": "animeexport.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

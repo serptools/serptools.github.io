@@ -1,0 +1,59 @@
+{
+  "slug": "extr",
+  "extension": "extr",
+  "name": "COW App Extractor File",
+  "category": "cow-app-extractor-file",
+  "developer_org": "ixi-international",
+  "popularity": {
+    "rating": 1.2,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "An EXTR file is an encrypted folder used by COW, which is an operating system for select mobile devices based on Linux that was discontinued before being released to the public. It contains a program and a Main.py script that stores instructions for where the COW system installer should install the program. EXTR files are downloaded to a mobile device from the COW App Store and then decrypted and opened automatically by the COW system when installing the downloaded program.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "not-meant-to-be-opened",
+        "display_name": "Not meant to be opened"
+      }
+    ],
+    "macos": [
+      {
+        "software": "not-meant-to-be-opened",
+        "display_name": "Not meant to be opened"
+      }
+    ],
+    "linux": [
+      {
+        "software": "not-meant-to-be-opened",
+        "display_name": "Not meant to be opened"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-07-07",
+  "sources": [
+    {
+      "url": "extr.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "p4d",
+  "extension": "p4d",
+  "name": "Pix4D Project",
+  "category": "pix4d-project",
+  "developer_org": "pix4d",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "A P4D file is a project created by Pix4Dmapper Pro, a photogammetry program used to convert images into 2D maps and 3D models. It contains images, coordinate systems, processing options, ground control points (GCPs), and other project information. P4D files are stored in XML format.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "pix4dmapper-pro",
+        "display_name": "Pix4Dmapper Pro"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-07-20",
+  "sources": [
+    {
+      "url": "p4d.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

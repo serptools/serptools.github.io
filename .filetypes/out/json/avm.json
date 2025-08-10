@@ -1,0 +1,53 @@
+{
+  "slug": "avm",
+  "extension": "avm",
+  "name": "Anime Music Video",
+  "category": "anime-music-video",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 2.3,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "An AVM file a video file saved in the Anime Music Video format. It is a low-resolution compressed media format primary used by Chinese mobile devices.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "callum-hollywood-amv-studio",
+        "display_name": "Callum Hollywood AMV Studio"
+      },
+      {
+        "software": "amv-marker",
+        "display_name": "AMV Marker"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2016-05-02",
+  "sources": [
+    {
+      "url": "avm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

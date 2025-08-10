@@ -1,0 +1,53 @@
+{
+  "slug": "shk",
+  "extension": "shk",
+  "name": "ShrinkIt Archive",
+  "category": "shrinkit-archive",
+  "developer_org": "andy-nicholas",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "An SHK file is a compressed archive created using the ShrinkIt tool, a compression utility specifically designed for the Apple II computer system in the 1980s. It contains one or more files or directories that have been compressed in the ShrinkIt (SHK) format (similar to the standard LZW compression format used on the Apple II), which was widely used to distribute software, games, and data files among Apple II users.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "gs-shrinkit",
+        "display_name": "GS-ShrinkIt"
+      }
+    ],
+    "windows": [
+      {
+        "software": "gs-shrinkit",
+        "display_name": "GS-ShrinkIt"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2024-08-30",
+  "sources": [
+    {
+      "url": "shk.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "slug": "helpcfg",
+  "extension": "helpcfg",
+  "name": "Adobe Community Help Configuration File",
+  "category": "adobe-community-help-configuration-file",
+  "developer_org": "adobe",
+  "popularity": {
+    "rating": 1.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "A HELPCFG file is an online help configuration file used by Adobe Creative Suite and Creative Cloud applications, such as Adobe Acrobat and Adobe Premiere Pro. It contains XML-formatted text used to retrieve help content from Adobe's web servers . HELPCFG files are installed and updated by the Adobe Community Help Client, Adobe Help Manager, and Adobe Help Center.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "adobe-help-manager",
+        "display_name": "Adobe Help Manager"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "adobe-help-manager",
+        "display_name": "Adobe Help Manager"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "HELPCFG file open in GitHub Atom",
+      "alt": "HELPCFG file open in GitHub Atom",
+      "source_url": "https://fileinfo.com/img/ss/md/helpcfg_11940.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-02-24",
+  "sources": [
+    {
+      "url": "helpcfg.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

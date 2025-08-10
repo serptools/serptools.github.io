@@ -1,0 +1,59 @@
+{
+  "slug": "tapestry",
+  "extension": "tapestry",
+  "name": "Tapestry Connector",
+  "category": "tapestry-connector",
+  "developer_org": "the-iconfactory",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "A TAPESTRY file is a connector file used by The Iconfactory Tapestry, a content feed aggregator for iOS and iPadOS. It contains information describing a feed and instructions for how Tapestry can load it. Users can install TAPESTRY connectors in Tapestry to add supported apps and services from which the app can pull feeds.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "ios": [
+      {
+        "software": "the-iconfactory-tapestry",
+        "display_name": "The Iconfactory Tapestry"
+      }
+    ],
+    "windows": [
+      {
+        "software": "the-iconfactory-tapestry",
+        "display_name": "The Iconfactory Tapestry"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "TAPESTRY file open in The Iconfactory Tapestry 1.1",
+      "alt": "TAPESTRY file open in The Iconfactory Tapestry 1.1",
+      "source_url": "https://fileinfo.com/img/ss/md/tapestry_13808.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2025-04-30",
+  "sources": [
+    {
+      "url": "tapestry.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "usm",
+  "extension": "usm",
+  "name": "USM Game Video",
+  "category": "usm-game-video",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 52,
+    "source": "fileinfo"
+  },
+  "summary": "A USM file is a video file included in a console video game. It contains a cutscene played during gameplay. Most notably, Persona 4 and Persona 5 include USM cutscenes.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "vgmtoolbox",
+        "display_name": "VGMToolbox"
+      },
+      {
+        "software": "utf_tab-suite",
+        "display_name": "utf_tab suite"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-11-19",
+  "sources": [
+    {
+      "url": "usm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

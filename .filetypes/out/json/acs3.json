@@ -1,0 +1,49 @@
+{
+  "slug": "acs3",
+  "extension": "acs3",
+  "name": "AIMP Skin File",
+  "category": "aimp-skin-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 31,
+    "source": "fileinfo"
+  },
+  "summary": "An ACS3 file is a skin file used by version 3 of AIMP, a Windows music player. It contains a skin that can be applied to the player's interface . ACS3 files include layout information for panels, containers, border colors, text colors, and fonts.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "aimp",
+        "display_name": "AIMP"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-05-05",
+  "sources": [
+    {
+      "url": "acs3.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

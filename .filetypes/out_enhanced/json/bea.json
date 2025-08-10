@@ -1,0 +1,36 @@
+{
+  "slug": "bea",
+  "extension": "bea",
+  "name": "Bezel Engine Archive",
+  "category": "bezel-engine-archive",
+  "summary": "",
+  "developer_org": "nintendo",
+  "developer_name": "Nintendo",
+  "more_information": {
+    "screenshot": {
+      "url": "https://fileinfo.com/img/ss/sm/bea_12311.png",
+      "alt": "Screenshot of a .bea file in Bezel Engine Archive Editor",
+      "caption": "BEA file open in Bezel Engine Archive Editor"
+    },
+    "description": [
+      "The NintendoWare Bezel Engine is a game engine Nintendo developed and released to make Switch video game development easier for third-party developers. However, both official Nintendo games and third-party games use the Bezel Engine.",
+      "Games that use the Bezel Engine store their game assets, such as 3D models, 2D images, and sounds, in BEA archives. For example, the Switch version of Super Mario Party contains 456 BEA archives, each of which includes a subset of the game's models, sound effects, and other assets. Each game's BEA archives are found in the game's Archive folder.",
+      "Most gamers will never encounter a BEA file. However, those interested in examining Switch games' structure or modding the games may encounter BEA archives while browsing Bezel Engine games' data.",
+      "NOTE: BEA files created for use in a Switch program always include the abbreviation nxonnx32 or nx in their filename, while BEA files created to test a Switch program in Windows always include either the nxonwin32 or nxonwin64 abbreviation."
+    ]
+  },
+  "images": [
+    {
+      "url": "https://fileinfo.com/img/ss/sm/bea_12311.png",
+      "alt": "Screenshot of a .bea file in Bezel Engine Archive Editor",
+      "caption": "BEA file open in Bezel Engine Archive Editor"
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "bea.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

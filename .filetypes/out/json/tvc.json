@@ -1,0 +1,86 @@
+{
+  "slug": "tvc",
+  "extension": "tvc",
+  "name": "TeamViewer Configuration File",
+  "category": "1.-teamviewer-configuration-file",
+  "developer_org": "teamviewer",
+  "popularity": {
+    "rating": 3.2,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "Configuration file referenced by TeamViewer, an application that enables users to remotely control desktop computers; contains configuration data such as your ID and your partner's ID so you can control their computer or transfer files.",
+  "standards": [],
+  "mime_types": [
+    "imsi/design"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "teamviewer-for-windows",
+        "display_name": "TeamViewer for Windows"
+      },
+      {
+        "software": "teamviewer-remote-control",
+        "display_name": "TeamViewer: Remote Control"
+      },
+      {
+        "software": "teamviewer-for-remote-control",
+        "display_name": "TeamViewer for Remote Control"
+      },
+      {
+        "software": "imsi-turbo-view-convert",
+        "display_name": "IMSI Turbo View & Convert",
+        "status": "discontinued"
+      }
+    ],
+    "macos": [
+      {
+        "software": "teamviewer-for-mac",
+        "display_name": "TeamViewer for Mac"
+      }
+    ],
+    "linux": [
+      {
+        "software": "teamviewer-for-linux",
+        "display_name": "TeamViewer for Linux"
+      }
+    ],
+    "ios": [
+      {
+        "software": "teamviewer-remote-control",
+        "display_name": "TeamViewer: Remote Control"
+      }
+    ],
+    "android": [
+      {
+        "software": "teamviewer-for-remote-control",
+        "display_name": "TeamViewer for Remote Control"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2016-02-16",
+  "sources": [
+    {
+      "url": "tvc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

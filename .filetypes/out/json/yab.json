@@ -1,0 +1,55 @@
+{
+  "slug": "yab",
+  "extension": "yab",
+  "name": "Yabasic Source Code",
+  "category": "yabasic-source-code",
+  "developer_org": "yabasic",
+  "popularity": {
+    "rating": 2.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "Source code written by Yabasic (Yet another Basic) programming software; implements common and simple elements of the basic language, including goto/gosub commands and various types of loops; supports user-defined libraries and subroutines; Yabasic programs are capable of monochrome line graphics and printing.",
+  "standards": [],
+  "mime_types": [
+    "goto/gosub"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "yabasic",
+        "display_name": "Yabasic"
+      }
+    ],
+    "linux": [
+      {
+        "software": "yabasic",
+        "display_name": "Yabasic"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2007-02-16",
+  "sources": [
+    {
+      "url": "yab.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

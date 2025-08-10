@@ -1,0 +1,98 @@
+{
+  "slug": "ear",
+  "extension": "ear",
+  "name": "Java Enterprise Archive File",
+  "category": "1.-java-enterprise-archive-file",
+  "developer_org": "oracle",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 26,
+    "source": "fileinfo"
+  },
+  "summary": "An EAR file is an application archive used by Java EE (Enterprise Edition), a platform used for programming server-side software such as web applications. It contains .JAR and .WAR files, which together comprise a Java EE application package. EAR files are used for running the application on a Java EE-enabled server, such as GlassFish Server or Geronimo.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "oracle-glassfish-server",
+        "display_name": "Oracle GlassFish Server"
+      },
+      {
+        "software": "apache-geronimo",
+        "display_name": "Apache Geronimo"
+      },
+      {
+        "software": "7-zip",
+        "display_name": "7-Zip"
+      },
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      }
+    ],
+    "web": [
+      {
+        "software": "ibm-websphere-application-server",
+        "display_name": "IBM WebSphere Application Server"
+      },
+      {
+        "software": "oracle-glassfish-server",
+        "display_name": "Oracle GlassFish Server"
+      },
+      {
+        "software": "apache-geronimo",
+        "display_name": "Apache Geronimo"
+      },
+      {
+        "software": "7-zip",
+        "display_name": "7-Zip"
+      }
+    ],
+    "macos": [
+      {
+        "software": "oracle-glassfish-server",
+        "display_name": "Oracle GlassFish Server"
+      },
+      {
+        "software": "apache-geronimo",
+        "display_name": "Apache Geronimo"
+      }
+    ],
+    "linux": [
+      {
+        "software": "oracle-glassfish-server",
+        "display_name": "Oracle GlassFish Server"
+      },
+      {
+        "software": "apache-geronimo",
+        "display_name": "Apache Geronimo"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-03-22",
+  "sources": [
+    {
+      "url": "ear.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

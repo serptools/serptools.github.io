@@ -1,0 +1,23 @@
+{
+  "slug": "esm",
+  "extension": "esm",
+  "name": "Elder Scrolls or Fallout 4 Master File",
+  "category": "elder-scrolls-or-fallout-4-master-file",
+  "summary": "",
+  "developer_org": "bethesda-softworks",
+  "developer_name": "Bethesda Softworks",
+  "more_information": {
+    "description": [
+      "Bethesda introduced the ESM file type as part of 2002's The Elder Scrolls III: Morrowind. Various Bethesda games contain ESM files, as do official expansion packs and unofficial plug-ins created and distributed by game modders. (Modders also use .ESP files to modify Elder Scrolls IV, Elder Scrolls V, and Fallout 4.)",
+      "You can find ESM files in the Data sub-directory of a game's parent directory (the directory in which the game's .EXE file is located). For example, Elder Scrolls IV: Oblivion's primary ESM file, which is named Oblivion.esm , is located in the game's /​Oblivion/​Data folder.",
+      "NOTE: The .ESL file type is a \"lighter\" version of the ESM file type. It was introduced with the Fallout 4 patch 1.10 in August 2017 and is limited to 4096 records."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "esm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "pptmhtml",
+  "extension": "pptmhtml",
+  "name": "Microsoft PowerPoint MIME HTML Presentation",
+  "category": "microsoft-powerpoint-mime-html-presentation",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 11,
+    "source": "fileinfo"
+  },
+  "summary": "A PPTMHTML file is an archived Multipurpose Internet Mail Extensions (MIME) HTML presentation saved by earlier versions of Microsoft PowerPoint, a program used to create slide shows. It contains HTML code that represents the presentation in the same format as the original .PPT file. PPTMHTML files are used for viewing the published version of a presentation in a web browser.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "no-longer-supported-by-microsoft-powerpoint",
+        "display_name": "No longer supported by Microsoft PowerPoint"
+      }
+    ],
+    "macos": [
+      {
+        "software": "no-longer-supported-by-microsoft-powerpoint",
+        "display_name": "No longer supported by Microsoft PowerPoint"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "PPTMHTML file icon",
+      "alt": "PPTMHTML file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/pptmhtml-5223.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-02-08",
+  "sources": [
+    {
+      "url": "pptmhtml.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

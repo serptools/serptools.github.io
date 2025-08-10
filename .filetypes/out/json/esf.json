@@ -1,0 +1,61 @@
+{
+  "slug": "esf",
+  "extension": "esf",
+  "name": "Password Manager Container File",
+  "category": "1.-password-manager-container-file",
+  "developer_org": "steganos",
+  "popularity": {
+    "rating": 3.1,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "Encrypted container file that stores passwords created by Privacy Suite or Password Manager, security programs developed by Steganos; allows users to access all of their online accounts with one password.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "steganos-password-manager",
+        "display_name": "Steganos Password Manager"
+      },
+      {
+        "software": "steganos-privacy-suite",
+        "display_name": "Steganos Privacy Suite"
+      },
+      {
+        "software": "etc-eos-family-software",
+        "display_name": "ETC Eos Family Software"
+      }
+    ],
+    "macos": [
+      {
+        "software": "etc-eos-family-software",
+        "display_name": "ETC Eos Family Software"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-03-04",
+  "sources": [
+    {
+      "url": "esf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

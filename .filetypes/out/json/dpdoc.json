@@ -1,0 +1,64 @@
+{
+  "slug": "dpdoc",
+  "extension": "dpdoc",
+  "name": "Digital Performer Project",
+  "category": "digital-performer-project",
+  "developer_org": "motu",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "A DPDOC file is a project file created by MOTU Digital Performer, an audio editing and production program. It organizes and links to the audio files included in a Digital Performer audio project. In Digital Performer, DPDOC files appear primarily as timelines comprised of one or more audio tracks.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "motu-digital-performer",
+        "display_name": "MOTU Digital Performer"
+      }
+    ],
+    "macos": [
+      {
+        "software": "motu-digital-performer",
+        "display_name": "MOTU Digital Performer"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "DPDOC file icon",
+      "alt": "DPDOC file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/dpdoc-11815.png"
+    },
+    {
+      "caption": "DPDOC file open in MOTU Digital Performer",
+      "alt": "DPDOC file open in MOTU Digital Performer",
+      "source_url": "https://fileinfo.com/img/ss/md/dpdoc_11815.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-04-17",
+  "sources": [
+    {
+      "url": "dpdoc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

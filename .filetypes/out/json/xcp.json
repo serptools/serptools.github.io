@@ -1,0 +1,47 @@
+{
+  "slug": "xcp",
+  "extension": "xcp",
+  "name": "Xbox Content Package",
+  "category": "xbox-content-package",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "An XCP file is an Xbox Content Package. It contains a demo, full game, or other content downloaded from the Xbox Games Store (previously known as the Xbox Live Marketplace). XCP files are compressed and encrypted , to prevent players from extracting or modifying their contents.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "xcp-unpack",
+        "display_name": "XCP Unpack"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-08-07",
+  "sources": [
+    {
+      "url": "xcp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

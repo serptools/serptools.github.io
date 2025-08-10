@@ -1,0 +1,71 @@
+{
+  "slug": "bme",
+  "extension": "bme",
+  "name": "BeatMania 7-Key Song File",
+  "category": "beatmania-7-key-song-file",
+  "developer_org": "konami",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Song file used by BeatMania, a rhythm video game that uses a DJ interface as the controller; similar to a .BMS file, but designed for BeatMania controllers with 7 keys rather than 5 keys.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "stepmania",
+        "display_name": "StepMania"
+      },
+      {
+        "software": "project-outfox",
+        "display_name": "Project Outfox"
+      }
+    ],
+    "macos": [
+      {
+        "software": "stepmania",
+        "display_name": "StepMania"
+      },
+      {
+        "software": "project-outfox",
+        "display_name": "Project Outfox"
+      }
+    ],
+    "linux": [
+      {
+        "software": "stepmania",
+        "display_name": "StepMania"
+      },
+      {
+        "software": "project-outfox",
+        "display_name": "Project Outfox"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2008-09-01",
+  "sources": [
+    {
+      "url": "bme.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

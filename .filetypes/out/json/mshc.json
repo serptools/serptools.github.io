@@ -1,0 +1,51 @@
+{
+  "slug": "mshc",
+  "extension": "mshc",
+  "name": "Microsoft Help Container File",
+  "category": "microsoft-help-container-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "Help package created in the MS Help Viewer 1.x format, which replaces the MS Help 2.x ( .HXS ) and MS Help 1.x ( .CHM ) formats; stores help content such as .HTML files, images, and written text; saved in a compressed .ZIP format.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "the-helpware-group-far",
+        "display_name": "The Helpware Group FAR"
+      },
+      {
+        "software": "microsoft-file-explorer",
+        "display_name": "Microsoft File Explorer"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-08-13",
+  "sources": [
+    {
+      "url": "mshc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "slug": "caction",
+  "extension": "caction",
+  "name": "Automator Converter Action",
+  "category": "automator-converter-action",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 20,
+    "source": "fileinfo"
+  },
+  "summary": "Conversion action performed by Automator, an Apple OS X program; bridges actions whose types of provided data ( AMProvides property) and accepted data ( AMAccepts ) do not match; installed in the same system directories ACTION files are located, e.g., /​System/​Library/​Automator folder ; users are usually unaware of this file because Automator converts between actions automatically and does not display the conversion actions.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "apple-automator",
+        "display_name": "Apple Automator"
+      },
+      {
+        "software": "apple-xcode",
+        "display_name": "Apple Xcode"
+      }
+    ],
+    "windows": [
+      {
+        "software": "apple-automator",
+        "display_name": "Apple Automator"
+      },
+      {
+        "software": "apple-xcode",
+        "display_name": "Apple Xcode"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "CACTION file icon",
+      "alt": "CACTION file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/caction-8801.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-08-25",
+  "sources": [
+    {
+      "url": "caction.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

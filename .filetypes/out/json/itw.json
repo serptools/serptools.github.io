@@ -1,0 +1,53 @@
+{
+  "slug": "itw",
+  "extension": "itw",
+  "name": "InTouch With Database",
+  "category": "intouch-with-database",
+  "developer_org": "prairie-group",
+  "popularity": {
+    "rating": 4.1,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "Proprietary database format used by InTouch With, a free-form database application for the Mac OS; customized for storing names and addresses and printing envelopes and labels.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "prairie-group-intouch-with",
+        "display_name": "Prairie Group InTouch With"
+      }
+    ],
+    "windows": [
+      {
+        "software": "prairie-group-intouch-with",
+        "display_name": "Prairie Group InTouch With"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2007-06-26",
+  "sources": [
+    {
+      "url": "itw.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

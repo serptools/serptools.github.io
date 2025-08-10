@@ -1,0 +1,53 @@
+{
+  "slug": "s2mh",
+  "extension": "s2mh",
+  "name": "StarCraft 2 Map Header File",
+  "category": "starcraft-2-map-header-file",
+  "developer_org": "blizzard-entertainment",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "Settings file used by StarCraft II: Wings of Liberty, a game where players compete in outer space as the Protoss, Zerg, and Terran races; contains properties for a StarCraft II map ( .SC2MAP file), as well as gameplay settings; used for storing the map conditions of a StarCraft II game played online.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "blizzard-starcraft-2",
+        "display_name": "Blizzard StarCraft 2"
+      }
+    ],
+    "macos": [
+      {
+        "software": "blizzard-starcraft-2",
+        "display_name": "Blizzard StarCraft 2"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-08-18",
+  "sources": [
+    {
+      "url": "s2mh.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "slug": "cci",
+  "extension": "cci",
+  "name": "Cerbios Compressed ISO",
+  "category": "1.-cerbios-compressed-iso",
+  "developer_org": "team-resurgent",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 14,
+    "source": "fileinfo"
+  },
+  "summary": "A CCI file is a disk image of a video game for the original Xbox console. It contains a copy of an original Xbox game, compressed to remove padding and other unnecessary data. Gamers create CCI files using Repackinator, an Xbox .ISO management tool.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "team-resurgent-repackinator",
+        "display_name": "Team Resurgent Repackinator"
+      },
+      {
+        "software": "lime3ds",
+        "display_name": "Lime3DS"
+      },
+      {
+        "software": "piotr-fusik-recoil",
+        "display_name": "Piotr Fusik RECOIL"
+      }
+    ],
+    "macos": [
+      {
+        "software": "team-resurgent-repackinator",
+        "display_name": "Team Resurgent Repackinator"
+      },
+      {
+        "software": "lime3ds",
+        "display_name": "Lime3DS"
+      },
+      {
+        "software": "piotr-fusik-recoil",
+        "display_name": "Piotr Fusik RECOIL"
+      }
+    ],
+    "linux": [
+      {
+        "software": "team-resurgent-repackinator",
+        "display_name": "Team Resurgent Repackinator"
+      },
+      {
+        "software": "lime3ds",
+        "display_name": "Lime3DS"
+      },
+      {
+        "software": "piotr-fusik-recoil",
+        "display_name": "Piotr Fusik RECOIL"
+      }
+    ],
+    "android": [
+      {
+        "software": "lime3ds",
+        "display_name": "Lime3DS"
+      },
+      {
+        "software": "piotr-fusik-recoil",
+        "display_name": "Piotr Fusik RECOIL"
+      }
+    ],
+    "web": [
+      {
+        "software": "piotr-fusik-recoil",
+        "display_name": "Piotr Fusik RECOIL"
+      },
+      {
+        "software": "tom-s-editor",
+        "display_name": "Tom's Editor"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-01-05",
+  "sources": [
+    {
+      "url": "cci.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

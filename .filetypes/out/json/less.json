@@ -1,0 +1,81 @@
+{
+  "slug": "less",
+  "extension": "less",
+  "name": "LESS Style Sheet",
+  "category": "less-style-sheet",
+  "developer_org": "alexis-sellier",
+  "popularity": {
+    "rating": 2.4,
+    "votes": 15,
+    "source": "fileinfo"
+  },
+  "summary": "Webpage style sheet used by LESS, a dynamic style sheet language that extends standard CSS with features such as variables, mixins, operations, and functions; requires the LESS JavaScript library ( less.js ) to be included in the head section of the HTML page in order for styles in referenced LESS files to be processed.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "less",
+        "display_name": "LESS"
+      },
+      {
+        "software": "adobe-dreamweaver-2021",
+        "display_name": "Adobe Dreamweaver 2021"
+      },
+      {
+        "software": "codekit",
+        "display_name": "CodeKit"
+      }
+    ],
+    "android": [
+      {
+        "software": "file-viewer-for-android",
+        "display_name": "File Viewer for Android"
+      }
+    ],
+    "macos": [
+      {
+        "software": "less",
+        "display_name": "LESS"
+      },
+      {
+        "software": "codekit",
+        "display_name": "CodeKit"
+      },
+      {
+        "software": "adobe-dreamweaver-2021",
+        "display_name": "Adobe Dreamweaver 2021"
+      }
+    ],
+    "linux": [
+      {
+        "software": "less",
+        "display_name": "LESS"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-08-21",
+  "sources": [
+    {
+      "url": "less.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "l3dw",
+  "extension": "l3dw",
+  "name": "Studio Store Visualizer External Library File",
+  "category": "studio-store-visualizer-external-library-file",
+  "developer_org": "esko",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "An L3DW file contains an external library created by Esko Studio Store Visualizer, a module that can be added to Esko Studio to visualize product designs in retail store environments. It stores one or more 3D models or assemblies that are referenced by a .VTPR project.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "esko-studio-store-visualizer",
+        "display_name": "Esko Studio Store Visualizer"
+      }
+    ],
+    "macos": [
+      {
+        "software": "esko-studio-store-visualizer",
+        "display_name": "Esko Studio Store Visualizer"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-03-06",
+  "sources": [
+    {
+      "url": "l3dw.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

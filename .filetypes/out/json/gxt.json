@@ -1,0 +1,75 @@
+{
+  "slug": "gxt",
+  "extension": "gxt",
+  "name": "Grand Theft Auto Text File",
+  "category": "1.-grand-theft-auto-text-file",
+  "developer_org": "rockstar-games",
+  "popularity": {
+    "rating": 4.4,
+    "votes": 252,
+    "source": "fileinfo"
+  },
+  "summary": "File used by Grand Theft Auto (GTA), a game where players steal cars and complete missions; contains text that is displayed during gameplay; often included with GTA mods and may be translated into multiple languages.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "rockstar-games-grand-theft-auto",
+        "display_name": "Rockstar Games Grand Theft Auto"
+      },
+      {
+        "software": "x-gxt-editor",
+        "display_name": "X GXT Editor"
+      },
+      {
+        "software": "gta-vice-city-gxt-editor",
+        "display_name": "GTA: Vice City GXT Editor"
+      },
+      {
+        "software": "itu-gims",
+        "display_name": "ITU GIMS"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-09-22",
+  "sources": [
+    {
+      "url": "gxt.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

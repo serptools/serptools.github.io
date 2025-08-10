@@ -1,0 +1,63 @@
+{
+  "slug": "oggu",
+  "extension": "oggu",
+  "name": "Origin Unicode Graph File",
+  "category": "origin-unicode-graph-file",
+  "developer_org": "originlab",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "An OGGU file contains a graph created by Origin 2018 and later, a data analysis and graphing application used by scientists and engineers in different fields around the world. It stores a graph generated from imported data, such as a column, bar, pie, line, symbol, waterfall, 3D, polar, or statistical graph. OGG files also store metadata about the graph, such as the title and colors.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "originlab-origin",
+        "display_name": "OriginLab Origin"
+      },
+      {
+        "software": "originlab-origin-viewer",
+        "display_name": "OriginLab Origin Viewer"
+      }
+    ],
+    "macos": [
+      {
+        "software": "originlab-origin-viewer",
+        "display_name": "OriginLab Origin Viewer"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "OGGU file icon",
+      "alt": "OGGU file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/oggu-10837.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-02-01",
+  "sources": [
+    {
+      "url": "oggu.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

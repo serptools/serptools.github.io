@@ -1,0 +1,23 @@
+{
+  "slug": "id",
+  "extension": "id",
+  "name": "Lotus Notes User ID File",
+  "category": "lotus-notes-user-id-file",
+  "summary": "",
+  "developer_org": "ibm",
+  "developer_name": "IBM",
+  "more_information": {
+    "description": [
+      "User IDs are required to login to IBM Lotus Notes. A Notes ID may be required to access a Domino server. They typically expire after one year and therefore must be renewed on an annual basis.",
+      "You can view the information stored in your ID file by selecting File → Security → User Security in the Lotus Notes program. Since ID files store sensitive information, they should be stored in a safe place and locked.",
+      "If your ID is lost or you forget your password, you may be able to recover your ID but only if your administrator set up recovery information for your ID. You can verify this by selecting Mail Recovery ID in the \"Security Basics\" panel of the \"User Security\" dialog box. If the button is not present, your administrator did not set up recovery information for your ID and you will not be able to recover your ID."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "id.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "ewc2",
+  "extension": "ewc2",
+  "name": "EDIUS Waveform Cache",
+  "category": "edius-waveform-cache",
+  "developer_org": "grass-valley",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "An EWC2 file is a waveform cache file created by Grass Valley EDIUS, a non-linear video editing software. It contains a visual representation of an audio track included in an EDIUS video editing project. EWC2 files are often created in the same directory as the audio file they represent.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "grass-valley-edius",
+        "display_name": "Grass Valley EDIUS"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-08-20",
+  "sources": [
+    {
+      "url": "ewc2.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

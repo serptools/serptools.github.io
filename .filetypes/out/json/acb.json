@@ -1,0 +1,99 @@
+{
+  "slug": "acb",
+  "extension": "acb",
+  "name": "Adobe Photoshop Color Book File",
+  "category": "1.-adobe-photoshop-color-book-file",
+  "developer_org": "adobe-systems",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 18,
+    "source": "fileinfo"
+  },
+  "summary": "An ACB file is a custom colors file used by Photoshop, an image-editing program. It contains color records, which include color names, color codes, RGB and CMYK components, lightness, and chrominance. ACB files also contain header information for the book version, title, description, color count, and other file information.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "adobe-photoshop-2025",
+        "display_name": "Adobe Photoshop 2025"
+      },
+      {
+        "software": "adobe-indesign-2023",
+        "display_name": "Adobe InDesign 2023"
+      },
+      {
+        "software": "adobe-illustrator-2025",
+        "display_name": "Adobe Illustrator 2025"
+      },
+      {
+        "software": "acb2xml",
+        "display_name": "ACB2XML"
+      },
+      {
+        "software": "vgmtoolbox",
+        "display_name": "VGMToolbox"
+      },
+      {
+        "software": "autodesk-autocad-2025",
+        "display_name": "Autodesk AutoCAD 2025"
+      },
+      {
+        "software": "aol-desktop-for-windows",
+        "display_name": "AOL Desktop for Windows"
+      }
+    ],
+    "macos": [
+      {
+        "software": "adobe-photoshop-2025",
+        "display_name": "Adobe Photoshop 2025"
+      },
+      {
+        "software": "adobe-indesign-2023",
+        "display_name": "Adobe InDesign 2023"
+      },
+      {
+        "software": "adobe-illustrator-2025",
+        "display_name": "Adobe Illustrator 2025"
+      },
+      {
+        "software": "autodesk-autocad-2025",
+        "display_name": "Autodesk AutoCAD 2025"
+      },
+      {
+        "software": "aol-desktop-for-mac",
+        "display_name": "AOL Desktop for Mac"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "ACB file icon",
+      "alt": "ACB file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/acb-5158.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-12-04",
+  "sources": [
+    {
+      "url": "acb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

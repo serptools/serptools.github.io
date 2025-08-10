@@ -1,0 +1,57 @@
+{
+  "slug": "ctz",
+  "extension": "ctz",
+  "name": "Cherrytree Password-protected XML Document",
+  "category": "cherrytree-password-protected-xml-document",
+  "developer_org": "giuspen",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "A CTZ file is a document created by Cherrytree, a note-taking application. It stores document data, which may include text, tables, objects, and images, compressed with Zip compression. CTZ files are protected with a password and cannot be viewed without the password entered.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "giuspen-cherrytree",
+        "display_name": "giuspen Cherrytree"
+      },
+      {
+        "software": "7-zip",
+        "display_name": "7-Zip"
+      }
+    ],
+    "linux": [
+      {
+        "software": "giuspen-cherrytree",
+        "display_name": "giuspen Cherrytree"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-04-23",
+  "sources": [
+    {
+      "url": "ctz.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

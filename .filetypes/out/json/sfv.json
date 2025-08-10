@@ -1,0 +1,115 @@
+{
+  "slug": "sfv",
+  "extension": "sfv",
+  "name": "Simple File Verification File",
+  "category": "simple-file-verification-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 95,
+    "source": "fileinfo"
+  },
+  "summary": "An SFV file is a plain text file used to verify other files' integrity. It contains one or more filenames and associated CRC32 checksums , which are unique combinations of letters and numbers produced by a checksum utility. Using an SFV file and a checksum utility, users can determine whether any files referenced in the SFV file have been corrupted or otherwise modified. SFV files most commonly accompany files transferred via CDs, DVDs, or USB drives.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "quicksfv",
+        "display_name": "QuickSFV"
+      },
+      {
+        "software": "code-sector-teracopy",
+        "display_name": "Code Sector TeraCopy"
+      },
+      {
+        "software": "traction-sfv-checker",
+        "display_name": "Traction SFV Checker"
+      },
+      {
+        "software": "moosfv",
+        "display_name": "MooSFV"
+      },
+      {
+        "software": "rapidcrc",
+        "display_name": "RapidCRC"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "supersfv",
+        "display_name": "SuperSFV"
+      },
+      {
+        "software": "checksum+",
+        "display_name": "checkSum+"
+      },
+      {
+        "software": "check-sfv",
+        "display_name": "Check SFV"
+      }
+    ],
+    "macos": [
+      {
+        "software": "supersfv",
+        "display_name": "SuperSFV"
+      },
+      {
+        "software": "checksum+",
+        "display_name": "checkSum+"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "quicksfv",
+        "display_name": "QuickSFV"
+      },
+      {
+        "software": "check-sfv",
+        "display_name": "Check SFV"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "SFV file open in Traction SFV Checker 2.04",
+      "alt": "SFV file open in Traction SFV Checker 2.04",
+      "source_url": "https://fileinfo.com/img/ss/md/sfv_518.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-03-24",
+  "sources": [
+    {
+      "url": "sfv.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

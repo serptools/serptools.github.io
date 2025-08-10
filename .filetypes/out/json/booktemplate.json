@@ -1,0 +1,65 @@
+{
+  "slug": "booktemplate",
+  "extension": "booktemplate",
+  "name": "iBooks Author Document Template",
+  "category": "1.-ibooks-author-document-template",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "Book design template created by iBooks Author, a digital book authoring application; includes design presets for the page layout, text settings, and other book properties; used as the starting point for a book project ( .BOOK file).",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "apple-ibooks-author",
+        "display_name": "Apple iBooks Author",
+        "status": "discontinued"
+      },
+      {
+        "software": "blurb-booksmart",
+        "display_name": "Blurb BookSmart",
+        "status": "discontinued"
+      }
+    ],
+    "windows": [
+      {
+        "software": "apple-ibooks-author",
+        "display_name": "Apple iBooks Author",
+        "status": "discontinued"
+      },
+      {
+        "software": "blurb-booksmart",
+        "display_name": "Blurb BookSmart",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-01-24",
+  "sources": [
+    {
+      "url": "booktemplate.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

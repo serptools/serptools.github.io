@@ -1,0 +1,78 @@
+{
+  "slug": "lrs",
+  "extension": "lrs",
+  "name": "Librie Reader Source File",
+  "category": "1.-librie-reader-source-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "File used to generate an eBook for the Sony Portable Reader, an eBook reading device; contains source data used to create a Sony \"BroadBand eBook\" (BBeB); saved in an XML format that describes eBook properties and contents.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "calibre",
+        "display_name": "Calibre"
+      },
+      {
+        "software": "bookdesigner",
+        "display_name": "BookDesigner",
+        "status": "discontinued"
+      },
+      {
+        "software": "makelrf",
+        "display_name": "Makelrf"
+      },
+      {
+        "software": "canon-book-creator",
+        "display_name": "Canon Book Creator"
+      },
+      {
+        "software": "check-point-full-disk-encryption",
+        "display_name": "Check Point Full Disk Encryption"
+      }
+    ],
+    "macos": [
+      {
+        "software": "calibre",
+        "display_name": "Calibre"
+      }
+    ],
+    "linux": [
+      {
+        "software": "calibre",
+        "display_name": "Calibre"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-12-23",
+  "sources": [
+    {
+      "url": "lrs.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

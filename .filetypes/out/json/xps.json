@@ -1,0 +1,133 @@
+{
+  "slug": "xps",
+  "extension": "xps",
+  "name": "XML Paper Specification File",
+  "category": "xml-paper-specification-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 263,
+    "source": "fileinfo"
+  },
+  "summary": "An XPS file is a document that contains fixed page layout information written in the XPS page description language. The file defines a document's layout, appearance, and printing information. XPS files are similar to .PDF files, but saved in Microsoft’s proprietary XPS format.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "microsoft-xps-viewer",
+        "display_name": "Microsoft XPS Viewer"
+      },
+      {
+        "software": "microsoft-reader",
+        "display_name": "Microsoft Reader"
+      },
+      {
+        "software": "xps-annotator",
+        "display_name": "XPS Annotator",
+        "status": "discontinued"
+      },
+      {
+        "software": "nixps-view",
+        "display_name": "NiXPS View"
+      },
+      {
+        "software": "nixps-edit",
+        "display_name": "NiXPS Edit"
+      },
+      {
+        "software": "kde-okular",
+        "display_name": "KDE Okular"
+      },
+      {
+        "software": "mupdf",
+        "display_name": "MuPDF"
+      },
+      {
+        "software": "google-drive",
+        "display_name": "Google Drive"
+      }
+    ],
+    "android": [
+      {
+        "software": "file-viewer-for-android",
+        "display_name": "File Viewer for Android"
+      },
+      {
+        "software": "google-drive",
+        "display_name": "Google Drive"
+      }
+    ],
+    "macos": [
+      {
+        "software": "nixps-view",
+        "display_name": "NiXPS View"
+      },
+      {
+        "software": "nixps-edit",
+        "display_name": "NiXPS Edit"
+      }
+    ],
+    "linux": [
+      {
+        "software": "kde-okular",
+        "display_name": "KDE Okular"
+      },
+      {
+        "software": "mupdf",
+        "display_name": "MuPDF"
+      }
+    ],
+    "web": [
+      {
+        "software": "google-drive",
+        "display_name": "Google Drive"
+      }
+    ],
+    "ios": [
+      {
+        "software": "google-drive",
+        "display_name": "Google Drive"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "XPS file icon",
+      "alt": "XPS file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/xps-2602.png"
+    },
+    {
+      "caption": "XPS file open in Microsoft XPS Viewer",
+      "alt": "XPS file open in Microsoft XPS Viewer",
+      "source_url": "https://fileinfo.com/img/ss/md/xps_2602.jpg"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-04-27",
+  "sources": [
+    {
+      "url": "xps.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "slug": "bul",
+  "extension": "bul",
+  "name": "I4 Bullseye Data File",
+  "category": "i4-bullseye-data-file",
+  "developer_org": "nsr-physiome-project",
+  "popularity": {
+    "rating": 2.3,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "A BUL file is a data file saved in the I4 Bullseye data format. It contains static and dynamic cardiac data that is represented in 2D and 3D representations. BUL files can be opened by the I4 and JSim programs developed by the National Simulation Resource (NSR) Physiome Project.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "nsr-physiome-project-i4",
+        "display_name": "NSR Physiome Project I4"
+      },
+      {
+        "software": "nsr-physiome-project-jsim",
+        "display_name": "NSR Physiome Project JSim"
+      }
+    ],
+    "macos": [
+      {
+        "software": "nsr-physiome-project-jsim",
+        "display_name": "NSR Physiome Project JSim"
+      }
+    ],
+    "linux": [
+      {
+        "software": "nsr-physiome-project-jsim",
+        "display_name": "NSR Physiome Project JSim"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-05-12",
+  "sources": [
+    {
+      "url": "bul.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

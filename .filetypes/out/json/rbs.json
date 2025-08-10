@@ -1,0 +1,115 @@
+{
+  "slug": "rbs",
+  "extension": "rbs",
+  "name": "Windows Installer Rollback Script",
+  "category": "1.-windows-installer-rollback-script",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 11,
+    "source": "fileinfo"
+  },
+  "summary": "Script created during a software installation run by Windows Installer; contains a set of instructions used to restore the pre-installation system state if the installation does not complete; if the installation is successful, the file is deleted automatically.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-windows-installer",
+        "display_name": "Microsoft Windows Installer"
+      },
+      {
+        "software": "microsoft-windows-media-player",
+        "display_name": "Microsoft Windows Media Player"
+      },
+      {
+        "software": "nullsoft-winamp",
+        "display_name": "Nullsoft Winamp"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "audio-player",
+        "display_name": "audio player"
+      },
+      {
+        "software": "apple-quicktime-player",
+        "display_name": "Apple QuickTime Player"
+      },
+      {
+        "software": "apple-itunes",
+        "display_name": "Apple iTunes",
+        "status": "discontinued"
+      },
+      {
+        "software": "propellerhead-rebirth",
+        "display_name": "Propellerhead Rebirth"
+      },
+      {
+        "software": "image-line-fl-studio",
+        "display_name": "Image-Line FL Studio"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-quicktime-player",
+        "display_name": "Apple QuickTime Player"
+      },
+      {
+        "software": "apple-itunes",
+        "display_name": "Apple iTunes",
+        "status": "discontinued"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "audio-player",
+        "display_name": "audio player"
+      },
+      {
+        "software": "propellerhead-rebirth",
+        "display_name": "Propellerhead Rebirth"
+      }
+    ],
+    "linux": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "audio-player",
+        "display_name": "audio player"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-03-09",
+  "sources": [
+    {
+      "url": "rbs.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

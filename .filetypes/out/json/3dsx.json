@@ -1,0 +1,59 @@
+{
+  "slug": "3dsx",
+  "extension": "3dsx",
+  "name": "Nintendo 3DS Homebrew Launcher File",
+  "category": "nintendo-3ds-homebrew-launcher-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 4.2,
+    "votes": 51,
+    "source": "fileinfo"
+  },
+  "summary": "A 3DSX file is a homebrew application meant to be opened on a Nintendo 3DS using the homebrew launcher. It contains executable code that runs an unofficial 3DS app. 3DSX files are opened using Nintendo 3DS software exploits, such as soundhax and browserhax, that give players access to the homebrew launcher.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-file-explorer",
+        "display_name": "Microsoft File Explorer"
+      },
+      {
+        "software": "apple-finder",
+        "display_name": "Apple Finder"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-finder",
+        "display_name": "Apple Finder"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-06-14",
+  "sources": [
+    {
+      "url": "3dsx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

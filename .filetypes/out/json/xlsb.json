@@ -1,0 +1,88 @@
+{
+  "slug": "xlsb",
+  "extension": "xlsb",
+  "name": "Microsoft Excel Binary Spreadsheet",
+  "category": "microsoft-excel-binary-spreadsheet",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 108,
+    "source": "fileinfo"
+  },
+  "summary": "An XLSB file is a spreadsheet workbook created by Microsoft Excel, a program used to create and edit spreadsheets. It contains one or more spreadsheets with cells arranged by a grid of rows and columns, and may include charts, graphs, and formatting. XLSB files are saved in a binary format.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-excel-365",
+        "display_name": "Microsoft Excel 365"
+      },
+      {
+        "software": "openoffice-calc",
+        "display_name": "OpenOffice Calc"
+      },
+      {
+        "software": "microsoft-word-365",
+        "display_name": "Microsoft Word 365"
+      }
+    ],
+    "macos": [
+      {
+        "software": "microsoft-excel-365",
+        "display_name": "Microsoft Excel 365"
+      },
+      {
+        "software": "openoffice-calc",
+        "display_name": "OpenOffice Calc"
+      }
+    ],
+    "linux": [
+      {
+        "software": "openoffice-calc",
+        "display_name": "OpenOffice Calc"
+      }
+    ],
+    "web": [
+      {
+        "software": "microsoft-word-365",
+        "display_name": "Microsoft Word 365"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "XLSB file icon",
+      "alt": "XLSB file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/xlsb-1761.png"
+    },
+    {
+      "caption": "XLSB file open in Microsoft Excel 365",
+      "alt": "XLSB file open in Microsoft Excel 365",
+      "source_url": "https://fileinfo.com/img/ss/md/xlsb_1761.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-03-18",
+  "sources": [
+    {
+      "url": "xlsb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "slug": "sxf",
+  "extension": "sxf",
+  "name": "Secure eXchange Format File",
+  "category": "secure-exchange-format-file",
+  "developer_org": "topographic-service-of-the-russian-armed-forces",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "An SXF file is a GIS data file saved in the Secure eXchange Format. It contains data about one or more objects mapped using a GIS application. SXF files are always read-only .",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "panorama-group-gis-panorama",
+        "display_name": "Panorama Group GIS Panorama"
+      },
+      {
+        "software": "safe-software-fme-desktop",
+        "display_name": "Safe Software FME Desktop"
+      },
+      {
+        "software": "pci-geomatics-catalyst-professional",
+        "display_name": "PCI Geomatics CATALYST Professional"
+      }
+    ],
+    "linux": [
+      {
+        "software": "panorama-group-gis-panorama",
+        "display_name": "Panorama Group GIS Panorama"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-01-27",
+  "sources": [
+    {
+      "url": "sxf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

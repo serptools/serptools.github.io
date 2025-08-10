@@ -1,0 +1,41 @@
+{
+  "slug": "tnz",
+  "extension": "tnz",
+  "name": "OpenToonz Scene",
+  "category": "opentoonz-scene",
+  "summary": "",
+  "developer_org": "dwango",
+  "developer_name": "Dwango",
+  "more_information": {
+    "screenshot": {
+      "url": "https://fileinfo.com/img/ss/sm/tnz_13030.jpg",
+      "alt": "Screenshot of a .tnz file in Dwango OpenToonz",
+      "caption": "TNZ file open in Dwango OpenToonz"
+    },
+    "description": [
+      "Animators use OpenToonz to create 2D animated scenes. Originally known as Toonz, the program became open-source in 2016 and was renamed to OpenToonz.",
+      "OpenToonz saves animators' scene-creation projects as TNZ files. These files are plain text files that specify a scene's settings, included assets, and animations. By default, OpenToonz saves TNZ files in its scenes directory.",
+      "Notably, TNZ files do not contain a copy of the assets used in a scene. Instead, they contain references to where those assets are stored. If you move the assets a TNZ file references, or the TNZ file itself, you may have trouble opening the file in OpenToonz.",
+      "NOTE: OpenToonz saves backups of users' TNZ files as TNZ.BAK files. To use these files, remove .bak from their extension."
+    ]
+  },
+  "images": [
+    {
+      "url": "https://fileinfo.com/img/ss/sm/tnz_13030.jpg",
+      "alt": "Screenshot of a .tnz file in Dwango OpenToonz",
+      "caption": "TNZ file open in Dwango OpenToonz"
+    },
+    {
+      "url": "https://fileinfo.com/img/ss/sm/tnz_13030-2.png",
+      "alt": "TNZ file open in Apple TextEdit",
+      "caption": "TNZ file open in Apple TextEdit"
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "tnz.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

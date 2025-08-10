@@ -1,0 +1,47 @@
+{
+  "slug": "slb",
+  "extension": "slb",
+  "name": "AutoCAD Slide Library",
+  "category": "autocad-slide-library",
+  "developer_org": "autodesk",
+  "popularity": {
+    "rating": 2.2,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Slide library created by the \"slidelib\" utility, which is included with the AutoCAD software installation; contains a collection of slides ( .SLD ) files; used to display slideshows of CAD designs.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "autodesk-autocad-2025",
+        "display_name": "Autodesk AutoCAD 2025"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-04-14",
+  "sources": [
+    {
+      "url": "slb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

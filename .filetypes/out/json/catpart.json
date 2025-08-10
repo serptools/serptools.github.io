@@ -1,0 +1,93 @@
+{
+  "slug": "catpart",
+  "extension": "catpart",
+  "name": "CATIA V5 Part File",
+  "category": "catia-v5-part-file",
+  "developer_org": "dassault-systemes",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 24,
+    "source": "fileinfo"
+  },
+  "summary": "A CATPART file is a 3D model created by CATIA V5, a 3D CAD manufacturing application. It contains a part model, including the three-dimensional geometry and structure data. CATPART files can be combined with other parts into a .CATPRODUCT assembly file.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "ptc-onshape",
+        "display_name": "PTC Onshape"
+      },
+      {
+        "software": "dassault-systemes-catia",
+        "display_name": "Dassault Systemes CATIA"
+      },
+      {
+        "software": "autodesk-inventor-2022",
+        "display_name": "Autodesk Inventor 2022"
+      },
+      {
+        "software": "autodesk-fusion-360",
+        "display_name": "Autodesk Fusion 360"
+      },
+      {
+        "software": "okino-computer-graphics-polytrans",
+        "display_name": "Okino Computer Graphics PolyTrans"
+      }
+    ],
+    "macos": [
+      {
+        "software": "autodesk-fusion-360",
+        "display_name": "Autodesk Fusion 360"
+      }
+    ],
+    "linux": [
+      {
+        "software": "dassault-systemes-catia",
+        "display_name": "Dassault Systemes CATIA"
+      }
+    ],
+    "web": [
+      {
+        "software": "autodesk-fusion-360",
+        "display_name": "Autodesk Fusion 360"
+      }
+    ],
+    "ios": [
+      {
+        "software": "autodesk-fusion-360",
+        "display_name": "Autodesk Fusion 360"
+      }
+    ],
+    "android": [
+      {
+        "software": "autodesk-fusion-360",
+        "display_name": "Autodesk Fusion 360"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-03-25",
+  "sources": [
+    {
+      "url": "catpart.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

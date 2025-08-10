@@ -1,0 +1,53 @@
+{
+  "slug": "nd",
+  "extension": "nd",
+  "name": "QuickBooks Network Data File",
+  "category": "quickbooks-network-data-file",
+  "developer_org": "intuit",
+  "popularity": {
+    "rating": 2.8,
+    "votes": 11,
+    "source": "fileinfo"
+  },
+  "summary": "Configuration file used by QuickBooks financial accounting software; allows network access to a QuickBooks company file; created when the company file is opened.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "intuit-quickbooks-pro",
+        "display_name": "Intuit QuickBooks Pro"
+      }
+    ],
+    "macos": [
+      {
+        "software": "intuit-quickbooks-for-mac",
+        "display_name": "Intuit QuickBooks for Mac"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-04-09",
+  "sources": [
+    {
+      "url": "nd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "slug": "dcb",
+  "extension": "dcb",
+  "name": "Concordance Database File",
+  "category": "concordance-database-file",
+  "developer_org": "lexisnexis",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "Database file created by Concordance, a litigation document management program; saves the database structure but does not save the actual data records; acts as the database \"project file\" because the database loads when it is opened.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-07-18",
+  "sources": [
+    {
+      "url": "dcb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

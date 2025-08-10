@@ -1,0 +1,59 @@
+{
+  "slug": "ecsbx",
+  "extension": "ecsbx",
+  "name": "Error-Correcting SeqBox Container File",
+  "category": "error-correcting-seqbox-container-file",
+  "developer_org": "darren-ldl",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "An ECSBX file is an archive saved in the Error-Correcting SeqBox Container format (ECSBX). It is created by blockyarchive, which is a utility used to create, rescue, and handle archives of system files in cases in which data becomes corrupted or lost. ECSBX files are similar to .SBX SeqBox (Sequenced Box) archives but include error-correcting capabilities not available in the SBX format.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "blockyarchive",
+        "display_name": "blockyarchive"
+      }
+    ],
+    "macos": [
+      {
+        "software": "blockyarchive",
+        "display_name": "blockyarchive"
+      }
+    ],
+    "linux": [
+      {
+        "software": "blockyarchive",
+        "display_name": "blockyarchive"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-05-20",
+  "sources": [
+    {
+      "url": "ecsbx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

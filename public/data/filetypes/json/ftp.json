@@ -1,0 +1,22 @@
+{
+  "slug": "ftp",
+  "extension": "ftp",
+  "name": "FlashFXP XML File",
+  "category": "flashfxp-xml-file",
+  "summary": "",
+  "developer_org": "opensight-software",
+  "developer_name": "OpenSight Software",
+  "more_information": {
+    "description": [
+      "FTP files save all the information about a site added in FlashFXP. The information includes the FTP site name, connection type, address, login type, file transfer rules, username, and password.",
+      "You can import an FTP file in FlashFXP by selecting Sites → Import Sites... , choosing the \"FlashFXP XML (*ftp)\" format from the dropdown menu, navigating to the FTP file, and clicking Import ."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "ftp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

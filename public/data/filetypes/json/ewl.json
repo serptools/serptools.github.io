@@ -1,0 +1,23 @@
+{
+  "slug": "ewl",
+  "extension": "ewl",
+  "name": "EclipseCrossword Word List File",
+  "category": "eclipsecrossword-word-list-file",
+  "summary": "",
+  "developer_org": "green-eclipse",
+  "developer_name": "Green Eclipse",
+  "more_information": {
+    "description": [
+      "Each word contained in an EWL file is followed by a colon, a space, and then a matching clue. Every word and clue pair is stored on a separate line. An example of an EWL file:",
+      "DOG: Canine SHOE: Footwear GREEN: Color",
+      "You can open EWL files in EclipseCrossword. However, the program is only available for Windows. If you come across an EWL file in macOS you can open the EWL file with a text editor since the file is stored in plain text."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "ewl.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

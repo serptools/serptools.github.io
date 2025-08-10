@@ -1,0 +1,132 @@
+{
+  "slug": "act",
+  "extension": "act",
+  "name": "ADPCM Compressed Audio",
+  "category": "1.-adpcm-compressed-audio",
+  "developer_org": "actions-semiconductor",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 31,
+    "source": "fileinfo"
+  },
+  "summary": "An ACT file is an audio file recorded by a Chinese MP3 player, MP4 player, or voice recorder. It typically contains a voice memo or a song recorded off the radio. ACT files are compressed using Adaptive Differential Pulse Code Modulation (ADPCM) and have a bitrate of 8 kbit/s.",
+  "standards": [],
+  "mime_types": [
+    "act/cut",
+    "act/tubes",
+    "act/weld",
+    "cad/cam",
+    "kbit/s"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "logipole-konvertor",
+        "display_name": "Logipole Konvertor"
+      },
+      {
+        "software": "sox",
+        "display_name": "SoX"
+      },
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      },
+      {
+        "software": "alma-act-cut-3d",
+        "display_name": "Alma act/cut 3D"
+      },
+      {
+        "software": "alma-act-weld",
+        "display_name": "Alma act/weld"
+      },
+      {
+        "software": "alma-act-tubes",
+        "display_name": "Alma act/tubes"
+      },
+      {
+        "software": "adobe-photoshop-2025",
+        "display_name": "Adobe Photoshop 2025"
+      },
+      {
+        "software": "adobe-illustrator-2025",
+        "display_name": "Adobe Illustrator 2025"
+      },
+      {
+        "software": "invisionsoft-ds-game-maker",
+        "display_name": "Invisionsoft DS Game Maker"
+      },
+      {
+        "software": "eclipse-entertainment-genesis3d",
+        "display_name": "Eclipse Entertainment Genesis3D"
+      },
+      {
+        "software": "caligari-truespace",
+        "display_name": "Caligari trueSpace"
+      },
+      {
+        "software": "chumbalum-soft-milkshape-3d",
+        "display_name": "chUmbaLum sOft MilkShape 3D"
+      },
+      {
+        "software": "autodesk-3ds-max-2023",
+        "display_name": "Autodesk 3ds Max 2023"
+      },
+      {
+        "software": "microsoft-visual-foxpro",
+        "display_name": "Microsoft Visual FoxPro",
+        "status": "discontinued"
+      }
+    ],
+    "linux": [
+      {
+        "software": "sox",
+        "display_name": "SoX"
+      }
+    ],
+    "web": [
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      }
+    ],
+    "macos": [
+      {
+        "software": "adobe-photoshop-2025",
+        "display_name": "Adobe Photoshop 2025"
+      },
+      {
+        "software": "adobe-illustrator-2025",
+        "display_name": "Adobe Illustrator 2025"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-04-13",
+  "sources": [
+    {
+      "url": "act.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

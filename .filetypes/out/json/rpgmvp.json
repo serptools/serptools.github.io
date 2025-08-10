@@ -1,0 +1,63 @@
+{
+  "slug": "rpgmvp",
+  "extension": "rpgmvp",
+  "name": "RPG Maker MV Encrypted PNG File",
+  "category": "rpg-maker-mv-encrypted-png-file",
+  "developer_org": "enterbrain",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 47,
+    "source": "fileinfo"
+  },
+  "summary": "An RPGMVP file is a .PNG image that has been encrypted by RPG Maker MV, a program used to create role-playing games (RPG). It contains a PNG image resource for an element in the game, such as the appearance of a character or object. RPGMVP files are encrypted by RPG Maker MV when deploying a project as an executable package to be played by other users.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "petschko-rpg-maker-mv-decrypter",
+        "display_name": "Petschko RPG-Maker-MV-Decrypter"
+      },
+      {
+        "software": "petschkos-rpg-maker-mv-file-decrypter",
+        "display_name": "Petschkos RPG-Maker MV-File Decrypter"
+      }
+    ],
+    "linux": [
+      {
+        "software": "petschko-rpg-maker-mv-decrypter",
+        "display_name": "Petschko RPG-Maker-MV-Decrypter"
+      }
+    ],
+    "web": [
+      {
+        "software": "petschkos-rpg-maker-mv-file-decrypter",
+        "display_name": "Petschkos RPG-Maker MV-File Decrypter"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-04-15",
+  "sources": [
+    {
+      "url": "rpgmvp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

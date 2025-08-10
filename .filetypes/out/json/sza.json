@@ -1,0 +1,51 @@
+{
+  "slug": "sza",
+  "extension": "sza",
+  "name": "HiCAD Drawing File",
+  "category": "hicad-drawing-file",
+  "developer_org": "isd-software",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "An SZA file contains a CAD drawing created by ISD Software HiCAD, a program used to design 2D or 3D drawings for engineering-related industries. It may store a 2D or 3D model, which includes one or more parts or assemblies. SZA files allow users to close drawings and re-open them to modify them again.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "isd-software-hicad",
+        "display_name": "ISD Software HiCAD"
+      },
+      {
+        "software": "isd-software-hicad-viewer",
+        "display_name": "ISD Software HiCAD Viewer"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-05-21",
+  "sources": [
+    {
+      "url": "sza.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

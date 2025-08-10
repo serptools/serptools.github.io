@@ -1,0 +1,47 @@
+{
+  "slug": "rtwsh",
+  "extension": "rtwsh",
+  "name": "Radiotracker Wishlist File",
+  "category": "radiotracker-wishlist-file",
+  "developer_org": "audials",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "Music wishlist created by Audials Radiotracker, a program used for recording online radio station streams; contains a list of artists and songs that the user would like to find playing on an Internet radio station; uses a simple XML format.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "audials-radiotracker",
+        "display_name": "Audials Radiotracker"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2016-03-09",
+  "sources": [
+    {
+      "url": "rtwsh.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

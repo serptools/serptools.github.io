@@ -1,0 +1,77 @@
+{
+  "slug": "pkz",
+  "extension": "pkz",
+  "name": "Video Game Package",
+  "category": "1.-video-game-package",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 4.2,
+    "votes": 12,
+    "source": "fileinfo"
+  },
+  "summary": "A PKZ file is an archive used by video games such as Spider-Man: Edge of Time and Bee Movie Game. It may include graphics, textures, sounds, voice clips, and other game data. PKZ files are typically used by Xbox 360 and PlayStation 3 versions of video games.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "quickbms",
+        "display_name": "QuickBMS"
+      },
+      {
+        "software": "file-save-as-pkz...",
+        "display_name": "File → Save As PKZ..."
+      },
+      {
+        "software": "ok",
+        "display_name": "OK"
+      },
+      {
+        "software": "cisco-packet-tracer",
+        "display_name": "Cisco Packet Tracer"
+      }
+    ],
+    "macos": [
+      {
+        "software": "cisco-packet-tracer",
+        "display_name": "Cisco Packet Tracer"
+      }
+    ],
+    "linux": [
+      {
+        "software": "cisco-packet-tracer",
+        "display_name": "Cisco Packet Tracer"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-05-08",
+  "sources": [
+    {
+      "url": "pkz.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

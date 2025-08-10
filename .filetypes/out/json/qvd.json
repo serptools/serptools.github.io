@@ -1,0 +1,48 @@
+{
+  "slug": "qvd",
+  "extension": "qvd",
+  "name": "QlikView Data File",
+  "category": "qlikview-data-file",
+  "developer_org": "qliktech-international",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "Database file used by QlikView, a business intelligence tool; saves an uncompressed \"RAM image\" representation of a QlikView table as it was stored in memory when open in QlikView; allows the database to be opened and loaded into memory quickly.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "qliktech-international-qlikview",
+        "display_name": "QlikTech International QlikView",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-04-19",
+  "sources": [
+    {
+      "url": "qvd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

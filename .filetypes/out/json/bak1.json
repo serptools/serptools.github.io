@@ -1,0 +1,59 @@
+{
+  "slug": "bak1",
+  "extension": "bak1",
+  "name": "Starbound Backup File",
+  "category": "starbound-backup-file",
+  "developer_org": "chucklefish",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "A BAK1 file is a backup file used by Starbound, a 2D space exploration game. It stores backup information for the game, such as details about a player character or spaceship. BAK1 files are helpful for recovering information in the event of a computer crash or corrupt PLAYER or SHIPWORLD file.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "chucklefish-starbound",
+        "display_name": "Chucklefish Starbound"
+      }
+    ],
+    "macos": [
+      {
+        "software": "chucklefish-starbound",
+        "display_name": "Chucklefish Starbound"
+      }
+    ],
+    "linux": [
+      {
+        "software": "chucklefish-starbound",
+        "display_name": "Chucklefish Starbound"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-05-22",
+  "sources": [
+    {
+      "url": "bak1.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

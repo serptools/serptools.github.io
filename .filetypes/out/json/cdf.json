@@ -1,0 +1,175 @@
+{
+  "slug": "cdf",
+  "extension": "cdf",
+  "name": "Computable Document Format File (Legacy)",
+  "category": "1.-computable-document-format-file-legacy",
+  "developer_org": "wolfram-research",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 55,
+    "source": "fileinfo"
+  },
+  "summary": "A CDF file is an interactive document saved in the Computable Document Format (CDF), a document standard developed by Wolfram Research. It may contain text, visual elements, such as interactive graphs or images, Wolfram Language input or output, and page formatting information. Wolfram discontinued the CDF format in 2021 in favor of the interactive Mathematica Notebook ( .NB ) format.",
+  "standards": [],
+  "mime_types": [
+    "cable/pipe",
+    "generator/transmitter",
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "wolfram-research-player",
+        "display_name": "Wolfram Research Player"
+      },
+      {
+        "software": "wolfram-research-mathematica",
+        "display_name": "Wolfram Research Mathematica"
+      },
+      {
+        "software": "crytek-cryengine-sdk",
+        "display_name": "Crytek CryENGINE SDK"
+      },
+      {
+        "software": "gsfc-cdf-software",
+        "display_name": "GSFC CDF software"
+      },
+      {
+        "software": "the-mathworks-matlab-with-cdf-patch",
+        "display_name": "The MathWorks MATLAB with CDF Patch"
+      },
+      {
+        "software": "weisang-flexpro",
+        "display_name": "Weisang FlexPro"
+      },
+      {
+        "software": "bsmart-consulting-nominal-small-business-accounting",
+        "display_name": "bsmArt Consulting Nominal Small Business Accounting"
+      },
+      {
+        "software": "unidata-netcdf",
+        "display_name": "Unidata netCDF"
+      },
+      {
+        "software": "ncview",
+        "display_name": "NcView"
+      },
+      {
+        "software": "affymetrix-tiling-analysis-software",
+        "display_name": "Affymetrix Tiling Analysis Software"
+      },
+      {
+        "software": "vsn-genstat",
+        "display_name": "VSN GenStat"
+      },
+      {
+        "software": "rmaexpress",
+        "display_name": "RMAExpress"
+      },
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      },
+      {
+        "software": "ecmg-filematica",
+        "display_name": "ECMG FileMatica"
+      },
+      {
+        "software": "netscape-navigator-with-netcaster-support",
+        "display_name": "Netscape Navigator with Netcaster support"
+      },
+      {
+        "software": "c.scope-pc-toolkit",
+        "display_name": "C.Scope PC Toolkit"
+      }
+    ],
+    "macos": [
+      {
+        "software": "wolfram-research-player",
+        "display_name": "Wolfram Research Player"
+      },
+      {
+        "software": "wolfram-research-mathematica",
+        "display_name": "Wolfram Research Mathematica"
+      },
+      {
+        "software": "gsfc-cdf-software",
+        "display_name": "GSFC CDF software"
+      },
+      {
+        "software": "netscape-navigator-with-netcaster-support",
+        "display_name": "Netscape Navigator with Netcaster support"
+      }
+    ],
+    "linux": [
+      {
+        "software": "wolfram-research-player",
+        "display_name": "Wolfram Research Player"
+      },
+      {
+        "software": "wolfram-research-mathematica",
+        "display_name": "Wolfram Research Mathematica"
+      },
+      {
+        "software": "gsfc-cdf-software",
+        "display_name": "GSFC CDF software"
+      },
+      {
+        "software": "istp-cdf-skeleton-editor",
+        "display_name": "ISTP CDF Skeleton Editor"
+      },
+      {
+        "software": "ncview",
+        "display_name": "NcView"
+      }
+    ],
+    "ios": [
+      {
+        "software": "c.scope-relay",
+        "display_name": "C.Scope Relay"
+      }
+    ],
+    "android": [
+      {
+        "software": "c.scope-relay",
+        "display_name": "C.Scope Relay"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "CDF file icon",
+      "alt": "CDF file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/cdf-6685.png"
+    },
+    {
+      "caption": "CDF file open in Wolfram Research Mathematica 14",
+      "alt": "CDF file open in Wolfram Research Mathematica 14",
+      "source_url": "https://fileinfo.com/img/ss/md/cdf_6685.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2024-04-17",
+  "sources": [
+    {
+      "url": "cdf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "slug": "fm",
+  "extension": "fm",
+  "name": "FrameMaker Document",
+  "category": "1.-framemaker-document",
+  "developer_org": "adobe-systems",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 22,
+    "source": "fileinfo"
+  },
+  "summary": "An FM file is a document created with Adobe FrameMaker, an application used to author, enrich, manage, and publish technical documentation. It stores information about the structure of a page that is set to be published for print or the web. FM files may store pages that are meant to be individually published or published as part of a FrameMaker book ( .BOOK file).",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "adobe-framemaker",
+        "display_name": "Adobe FrameMaker"
+      },
+      {
+        "software": ".fp7",
+        "display_name": ".FP7"
+      },
+      {
+        "software": ".fmp12",
+        "display_name": ".FMP12"
+      },
+      {
+        "software": "filemaker-pro-advanced",
+        "display_name": "FileMaker Pro Advanced"
+      },
+      {
+        "software": "autodesk-featurecam",
+        "display_name": "Autodesk FeatureCAM"
+      }
+    ],
+    "macos": [
+      {
+        "software": "adobe-framemaker",
+        "display_name": "Adobe FrameMaker"
+      },
+      {
+        "software": "filemaker-pro-advanced",
+        "display_name": "FileMaker Pro Advanced"
+      }
+    ],
+    "linux": [
+      {
+        "software": "adobe-framemaker",
+        "display_name": "Adobe FrameMaker"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "FM file icon",
+      "alt": "FM file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/fm-407.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-10-18",
+  "sources": [
+    {
+      "url": "fm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

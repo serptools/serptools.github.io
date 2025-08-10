@@ -1,0 +1,46 @@
+{
+  "slug": "cfg",
+  "extension": "cfg",
+  "name": "Configuration File",
+  "category": "configuration-file",
+  "summary": "",
+  "developer_org": "elecbyte",
+  "developer_name": "Elecbyte",
+  "more_information": {
+    "description": [
+      "Generic configuration files are often named \" config.cfg \". Text-based CFG files often contain one variable and value per line in the following format:",
+      "var1=low var2=med var3=high",
+      "To test if a program automatically generates a default CFG file, move the configuration file out of the default directory when the program is not running. Then open the program and check the directory to see if a new CFG file has been created. Also, a CFG file can sometimes be moved or deleted to revert to a program's default settings.",
+      "NOTE: Linux configuration files typically use the .CONF extension rather than CFG."
+    ]
+  },
+  "common_filenames": [
+    {
+      "filename": "celestia.cfg",
+      "description": "celestia.cfg - The name of Celestia's configuration file."
+    },
+    {
+      "filename": "celestia.cfg",
+      "description": "celestia.cfg - The name of Celestia's configuration file."
+    }
+  ],
+  "images": [
+    {
+      "url": "https://fileinfo.com/img/ss/sm/cfg_6571.png",
+      "alt": "Screenshot of a .cfg file in Microsoft Visual Studio Code",
+      "caption": "CFG file open in Microsoft Visual Studio Code"
+    },
+    {
+      "url": "https://fileinfo.com/img/ss/sm/cfg_11589.png",
+      "alt": "Screenshot of a .cfg file in Microsoft Notepad",
+      "caption": "CFG file open in Microsoft Notepad"
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "cfg.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

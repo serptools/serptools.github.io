@@ -1,0 +1,59 @@
+{
+  "slug": "vbox-prev",
+  "extension": "vbox-prev",
+  "name": "Oracle VM VirtualBox Settings Backup File",
+  "category": "oracle-vm-virtualbox-settings-backup-file",
+  "developer_org": "oracle",
+  "popularity": {
+    "rating": 4.2,
+    "votes": 12,
+    "source": "fileinfo"
+  },
+  "summary": "Backup file created by Oracle VM VirtualBox, a program used for virtualizing guest operating systems; stores a backup of the previous state of a .VBOX file; created in the same directory as the VBOX file and can be used to restore previous settings.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "oracle-vm-virtualbox",
+        "display_name": "Oracle VM VirtualBox"
+      }
+    ],
+    "macos": [
+      {
+        "software": "oracle-vm-virtualbox",
+        "display_name": "Oracle VM VirtualBox"
+      }
+    ],
+    "linux": [
+      {
+        "software": "oracle-vm-virtualbox",
+        "display_name": "Oracle VM VirtualBox"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-04-15",
+  "sources": [
+    {
+      "url": "vbox-prev.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

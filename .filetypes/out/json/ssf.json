@@ -1,0 +1,132 @@
+{
+  "slug": "ssf",
+  "extension": "ssf",
+  "name": "Trimble Standard Storage Format File",
+  "category": "1.-trimble-standard-storage-format-file",
+  "developer_org": "trimble-navigation",
+  "popularity": {
+    "rating": 4.1,
+    "votes": 72,
+    "source": "fileinfo"
+  },
+  "summary": "An SSF file is data file used by Trimble GIS mapping software applications, which are used with GPS devices to collect field data. It contains GPS position data recorded from a Trimble device. SSF files are used to log GPS data and create custom coordinate systems.",
+  "standards": [],
+  "mime_types": [
+    "n/a",
+    "ssf/dsf",
+    "vitamin/caig"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "trimble-navigation-gps-pathfinder-office",
+        "display_name": "Trimble Navigation GPS Pathfinder Office",
+        "status": "discontinued"
+      },
+      {
+        "software": "trimble-navigation-gps-pathfinder-tools-sdk",
+        "display_name": "Trimble Navigation GPS Pathfinder Tools SDK"
+      },
+      {
+        "software": "esri-arcgis-for-desktop-with-trimble-gps-analyst-plug-in",
+        "display_name": "ESRI ArcGIS for Desktop with Trimble GPS Analyst plug-in"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "directvobsub",
+        "display_name": "DirectVobSub"
+      },
+      {
+        "software": "sogou-pinyin-method",
+        "display_name": "Sogou Pinyin Method"
+      },
+      {
+        "software": "audio-overload",
+        "display_name": "Audio Overload"
+      },
+      {
+        "software": "nullsoft-winamp-with-chipamp-plug-in",
+        "display_name": "Nullsoft Winamp with Chipamp plug-in"
+      },
+      {
+        "software": "foobar2000-with-ssf-dsf-decoder-plug-in",
+        "display_name": "foobar2000 with SSF/DSF Decoder plug-in"
+      },
+      {
+        "software": "vitamin-caig-zxtune",
+        "display_name": "Vitamin/CAIG ZXTune"
+      }
+    ],
+    "macos": [
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "sogou-pinyin-method",
+        "display_name": "Sogou Pinyin Method"
+      },
+      {
+        "software": "audio-overload",
+        "display_name": "Audio Overload"
+      },
+      {
+        "software": "vitamin-caig-zxtune",
+        "display_name": "Vitamin/CAIG ZXTune"
+      }
+    ],
+    "linux": [
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "audio-overload",
+        "display_name": "Audio Overload"
+      },
+      {
+        "software": "vitamin-caig-zxtune",
+        "display_name": "Vitamin/CAIG ZXTune"
+      }
+    ],
+    "ios": [
+      {
+        "software": "modizer",
+        "display_name": "Modizer"
+      }
+    ],
+    "android": [
+      {
+        "software": "vitamin-caig-zxtune",
+        "display_name": "Vitamin/CAIG ZXTune"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-06-29",
+  "sources": [
+    {
+      "url": "ssf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

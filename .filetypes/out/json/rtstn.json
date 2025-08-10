@@ -1,0 +1,51 @@
+{
+  "slug": "rtstn",
+  "extension": "rtstn",
+  "name": "Audials Station File",
+  "category": "audials-station-file",
+  "developer_org": "audials",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "File created by Audials Internet stream recording software; saves information about an Internet radio station, including the URL, bitrate, genre, and the maximum allowed listeners; uses a simple XML format.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "audials-radiotracker",
+        "display_name": "Audials Radiotracker"
+      },
+      {
+        "software": "audials-one-2022",
+        "display_name": "Audials One 2022"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2016-03-09",
+  "sources": [
+    {
+      "url": "rtstn.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "slug": "mvd",
+  "extension": "mvd",
+  "name": "Movie Studio Movie",
+  "category": "1.-movie-studio-movie",
+  "developer_org": "magix",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "An MVD file is a movie created with MAGIX Movie Studio and Video Pro X, movie editing applications. It contains references to video and audio files, movie edit points, and detected scenes (and may also include a variety of custom effects). Movie Studio and Video Pro X users often import MVD files into .MVP projects, then export them to common video formats, upload them online, or burn them to a DVD or Blu-ray disc.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "magix-movie-studio",
+        "display_name": "MAGIX Movie Studio"
+      },
+      {
+        "software": "magix-video-pro-x",
+        "display_name": "MAGIX Video Pro X"
+      },
+      {
+        "software": "matchware-mindview",
+        "display_name": "MatchWare MindView"
+      }
+    ],
+    "macos": [
+      {
+        "software": "matchware-mindview",
+        "display_name": "MatchWare MindView"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-11-09",
+  "sources": [
+    {
+      "url": "mvd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

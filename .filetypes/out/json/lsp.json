@@ -1,0 +1,110 @@
+{
+  "slug": "lsp",
+  "extension": "lsp",
+  "name": "Lisp Program Source Code File",
+  "category": "1.-lisp-program-source-code-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 22,
+    "source": "fileinfo"
+  },
+  "summary": "Source code file written in Lisp, a programming language that includes variations such as Common Lisp and Scheme; stores plain text program code that can be executed with a Lisp interpreter; may be a application component or an entire program.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "clozure-cl",
+        "display_name": "Clozure CL"
+      },
+      {
+        "software": "lispworks",
+        "display_name": "LispWorks"
+      },
+      {
+        "software": "ufasoft-lisp-studio",
+        "display_name": "Ufasoft Lisp Studio"
+      },
+      {
+        "software": "autodesk-autocad-2025",
+        "display_name": "Autodesk AutoCAD 2025"
+      },
+      {
+        "software": "cmucl",
+        "display_name": "CMUCL"
+      },
+      {
+        "software": "gnu-clisp",
+        "display_name": "GNU CLISP"
+      },
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      }
+    ],
+    "macos": [
+      {
+        "software": "macromates-textmate",
+        "display_name": "MacroMates TextMate"
+      },
+      {
+        "software": "clozure-cl",
+        "display_name": "Clozure CL"
+      },
+      {
+        "software": "lispworks",
+        "display_name": "LispWorks"
+      },
+      {
+        "software": "cmucl",
+        "display_name": "CMUCL"
+      }
+    ],
+    "linux": [
+      {
+        "software": "lispworks",
+        "display_name": "LispWorks"
+      },
+      {
+        "software": "gnu-clisp",
+        "display_name": "GNU CLISP"
+      },
+      {
+        "software": "clozure-cl",
+        "display_name": "Clozure CL"
+      },
+      {
+        "software": "cmucl",
+        "display_name": "CMUCL"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-02-02",
+  "sources": [
+    {
+      "url": "lsp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

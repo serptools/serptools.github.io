@@ -1,0 +1,94 @@
+{
+  "slug": "wdp",
+  "extension": "wdp",
+  "name": "Windows Media Photo File",
+  "category": "1.-windows-media-photo-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.2,
+    "votes": 15,
+    "source": "fileinfo"
+  },
+  "summary": "Compressed raster image format developed by Microsoft; similar to the .JPG format, but uses a higher degree of compression and supports both lossy and lossless compression; used primarily for high-resolution digital photographs; can be used with several Microsoft products including Windows Photo Viewer, Windows Live Movie Maker (WLMM), and Microsoft Word.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-windows-photo-viewer",
+        "display_name": "Microsoft Windows Photo Viewer"
+      },
+      {
+        "software": "microsoft-windows-live-movie-maker",
+        "display_name": "Microsoft Windows Live Movie Maker",
+        "status": "discontinued"
+      },
+      {
+        "software": "corel-paintshop-pro-2023",
+        "display_name": "Corel PaintShop Pro 2023"
+      },
+      {
+        "software": "adobe-photoshop-with-hd-photo-plugin",
+        "display_name": "Adobe Photoshop with HD Photo plugin"
+      },
+      {
+        "software": "alchemy-mindworks-graphic-workshop-professional",
+        "display_name": "Alchemy Mindworks Graphic Workshop Professional"
+      },
+      {
+        "software": "axel-rietschin-fastpictureviewer",
+        "display_name": "Axel Rietschin FastPictureViewer"
+      },
+      {
+        "software": "dotpdn-paint.net",
+        "display_name": "dotPDN paint.net"
+      },
+      {
+        "software": "coolutils-total-image-converter",
+        "display_name": "CoolUtils Total Image Converter"
+      },
+      {
+        "software": "irfanview",
+        "display_name": "IrfanView"
+      },
+      {
+        "software": "autodesk-autocad-electrical-2022",
+        "display_name": "Autodesk AutoCAD Electrical 2022"
+      },
+      {
+        "software": "pc-soft-windev",
+        "display_name": "PC SOFT WinDev"
+      }
+    ],
+    "macos": [
+      {
+        "software": "adobe-photoshop-with-hd-photo-plugin",
+        "display_name": "Adobe Photoshop with HD Photo plugin"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-11-09",
+  "sources": [
+    {
+      "url": "wdp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

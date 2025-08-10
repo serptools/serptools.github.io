@@ -1,0 +1,121 @@
+{
+  "slug": "tmx",
+  "extension": "tmx",
+  "name": "Translation Memory Exchange File",
+  "category": "1.-translation-memory-exchange-file",
+  "developer_org": "localization-industry-standards-association",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 17,
+    "source": "fileinfo"
+  },
+  "summary": "File created in the Translation Memory Exchange (TMX) format, an open XML standard used for exchanging translation memory (TM) data created by Computer Aided Translation (CAT) and localization applications; may save words or phrases that have been translated from one language to another; used for transferring the translation memory between different tools and vendors.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "sdl-trados-studio",
+        "display_name": "SDL Trados Studio"
+      },
+      {
+        "software": "maxprograms-swordfish",
+        "display_name": "Maxprograms Swordfish"
+      },
+      {
+        "software": "omegat",
+        "display_name": "OmegaT"
+      },
+      {
+        "software": "wordfast-pro",
+        "display_name": "Wordfast Pro"
+      },
+      {
+        "software": "tiled",
+        "display_name": "Tiled"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "nottiled",
+        "display_name": "NotTiled"
+      }
+    ],
+    "macos": [
+      {
+        "software": "maxprograms-swordfish",
+        "display_name": "Maxprograms Swordfish"
+      },
+      {
+        "software": "omegat",
+        "display_name": "OmegaT"
+      },
+      {
+        "software": "wordfast-pro",
+        "display_name": "Wordfast Pro"
+      },
+      {
+        "software": "tiled",
+        "display_name": "Tiled"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "maxprograms-swordfish",
+        "display_name": "Maxprograms Swordfish"
+      },
+      {
+        "software": "omegat",
+        "display_name": "OmegaT"
+      },
+      {
+        "software": "wordfast-pro",
+        "display_name": "Wordfast Pro"
+      },
+      {
+        "software": "tiled",
+        "display_name": "Tiled"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "android": [
+      {
+        "software": "nottiled",
+        "display_name": "NotTiled"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-05-06",
+  "sources": [
+    {
+      "url": "tmx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

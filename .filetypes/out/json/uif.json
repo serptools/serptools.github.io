@@ -1,0 +1,64 @@
+{
+  "slug": "uif",
+  "extension": "uif",
+  "name": "Universal Image Format Disc Image",
+  "category": "universal-image-format-disc-image",
+  "developer_org": "magiciso",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 43,
+    "source": "fileinfo"
+  },
+  "summary": "Compressed disc image format created by MagicISO, a program for creating, editing, and extracting disc image files; can be encrypted and password-protected; also supports backing up multi-session CD/DVD, Audio-CD, VCD, SVCD, and DVD-Video formats.",
+  "standards": [],
+  "mime_types": [
+    "cd/dvd"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "magiciso",
+        "display_name": "MagicISO",
+        "status": "discontinued"
+      },
+      {
+        "software": "poweriso",
+        "display_name": "PowerISO"
+      },
+      {
+        "software": "uif2iso",
+        "display_name": "UIF2ISO"
+      }
+    ],
+    "macos": [
+      {
+        "software": "uif2iso4mac",
+        "display_name": "uif2iso4mac"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2008-06-20",
+  "sources": [
+    {
+      "url": "uif.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

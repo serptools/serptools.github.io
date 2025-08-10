@@ -1,0 +1,53 @@
+{
+  "slug": "pyxel",
+  "extension": "pyxel",
+  "name": "Pyxel Image Document",
+  "category": "pyxel-image-document",
+  "developer_org": "daniel-kvarfordt",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "Image file created and used by Pyxel Edit, a pixel art drawing application that can create images and animations; contains a pixel image with one or more image layers made up of tiles.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "pyxel-edit",
+        "display_name": "Pyxel Edit"
+      }
+    ],
+    "macos": [
+      {
+        "software": "pyxel-edit",
+        "display_name": "Pyxel Edit"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-11-23",
+  "sources": [
+    {
+      "url": "pyxel.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

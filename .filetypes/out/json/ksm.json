@@ -1,0 +1,55 @@
+{
+  "slug": "ksm",
+  "extension": "ksm",
+  "name": "Pfaff Embroidery Design File",
+  "category": "1.-pfaff-embroidery-design-file",
+  "developer_org": "pfaff",
+  "popularity": {
+    "rating": 2.8,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Stitch design file used by some Pfaff embroidery machines; contains a stitch pattern that can be automatically sewn by the machine; can be viewed and edited with the design software bundled with the embroiderer or with Embird Studio.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "balarad-embird-studio",
+        "display_name": "BALARAD Embird Studio"
+      },
+      {
+        "software": "nullsoft-winamp-with-in_ken-plug-in",
+        "display_name": "Nullsoft Winamp with IN_KEN plug-in"
+      },
+      {
+        "software": "in_ken-winamp-plug-in",
+        "display_name": "IN_KEN Winamp plug-in"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-09-11",
+  "sources": [
+    {
+      "url": "ksm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "slug": "cts",
+  "extension": "cts",
+  "name": "CrazyTalk Script File",
+  "category": "1.-crazytalk-script-file",
+  "developer_org": "reallusion",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 10,
+    "source": "fileinfo"
+  },
+  "summary": "File used by CrazyTalk, a program used for 3D facial animation; stores an audio clip as well as facial motion data that controls the lip-sync and facial expressions for the audio; used for inserting pre-recorded voice and facial motion clips into the animation timeline.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "reallusion-crazytalk",
+        "display_name": "Reallusion CrazyTalk"
+      },
+      {
+        "software": "reallusion-cartoon-animator",
+        "display_name": "Reallusion Cartoon Animator"
+      },
+      {
+        "software": "reallusion-iclone",
+        "display_name": "Reallusion iClone"
+      },
+      {
+        "software": "treesheets",
+        "display_name": "TreeSheets"
+      }
+    ],
+    "macos": [
+      {
+        "software": "reallusion-cartoon-animator",
+        "display_name": "Reallusion Cartoon Animator"
+      },
+      {
+        "software": "treesheets",
+        "display_name": "TreeSheets"
+      }
+    ],
+    "linux": [
+      {
+        "software": "treesheets",
+        "display_name": "TreeSheets"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-10-01",
+  "sources": [
+    {
+      "url": "cts.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

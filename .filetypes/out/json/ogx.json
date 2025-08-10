@@ -1,0 +1,81 @@
+{
+  "slug": "ogx",
+  "extension": "ogx",
+  "name": "Ogg Vorbis Multiplexed Media File",
+  "category": "ogg-vorbis-multiplexed-media-file",
+  "developer_org": "xiph.org",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 27,
+    "source": "fileinfo"
+  },
+  "summary": "Multiplexed media file saved in the Ogg Vorbis container format; similar to an .OGG file, but can include multiple media streams encoded with different codecs; used for storing compressed audio and video data.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "foobar2000",
+        "display_name": "Foobar2000"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "microsoft-windows-media-player-with-directshow-filter",
+        "display_name": "Microsoft Windows Media Player with DirectShow filter"
+      },
+      {
+        "software": "apple-quicktime-player-with-xiphqt-plugin",
+        "display_name": "Apple QuickTime Player with XiphQT plugin"
+      }
+    ],
+    "macos": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "apple-quicktime-player-with-xiphqt-plugin",
+        "display_name": "Apple QuickTime Player with XiphQT plugin"
+      }
+    ],
+    "linux": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "OGX file icon",
+      "alt": "OGX file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/ogx-4580.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-08-24",
+  "sources": [
+    {
+      "url": "ogx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

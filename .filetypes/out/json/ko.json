@@ -1,0 +1,61 @@
+{
+  "slug": "ko",
+  "extension": "ko",
+  "name": "Linux Kernel Module File",
+  "category": "linux-kernel-module-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 42,
+    "source": "fileinfo"
+  },
+  "summary": "Module file used by the Linux kernel , the central component of the Linux operating system; contains program code that extends the functionality of the Linux kernel, such as code for a computer device driver; can be loaded without restarting the operating system; may have other required module dependencies that must be loaded first.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "linux": [
+      {
+        "software": "linux-insmod",
+        "display_name": "Linux insmod"
+      },
+      {
+        "software": "freebsd-kldload",
+        "display_name": "FreeBSD kldload",
+        "pricing": "free"
+      }
+    ],
+    "windows": [
+      {
+        "software": "freebsd-kldload",
+        "display_name": "FreeBSD kldload",
+        "pricing": "free"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-05-03",
+  "sources": [
+    {
+      "url": "ko.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

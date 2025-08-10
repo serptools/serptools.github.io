@@ -1,0 +1,31 @@
+{
+  "slug": "cfg",
+  "extension": "cfg",
+  "name": "Configuration File",
+  "summary": "A CFG file is a generic preference file that stores settings and configuration information. It is used by various programs, which means different CFG files may store data in different formats. CFG files typically should not be opened manually but may be saved in a text format that can be viewed in a text editor.",
+  "developer": "N/A",
+  "developer_slug": "n-a",
+  "category": "Settings Files",
+  "category_slug": "settings-files",
+  "rating": 4.2,
+  "votes": 929,
+  "last_updated": "August 24, 2016",
+  "more_information": {
+    "content": [
+      "Generic configuration files are often named \" config.cfg \". Text-based CFG files often contain one variable and value per line in the following format:",
+      "var1=low var2=med var3=high",
+      "To test if a program automatically generates a default CFG file, move the configuration file out of the default directory when the program is not running. Then open the program and check the directory to see if a new CFG file has been created. Also, a CFG file can sometimes be moved or deleted to revert to a program's default settings.",
+      "NOTE: Linux configuration files typically use the .CONF extension rather than CFG."
+    ]
+  },
+  "how_to_open": {
+    "instructions": [
+      "Windows users can open and edit celestia.cfg with Celestia Config Manager, a program designed specifically to allow Celestia users to manage their settings. Other users who want to open and edit celestia.cfg can do so with any text editor. Note, however, that editing celestia.cfg improperly can cause Celestia to function incorrectly."
+    ]
+  },
+  "scraped_at": "2025-08-09T21:58:55.269190",
+  "source": {
+    "url": "https://fileinfo.com/extension/cfg",
+    "file": "cfg.html"
+  }
+}

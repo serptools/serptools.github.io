@@ -1,0 +1,75 @@
+{
+  "slug": "linea",
+  "extension": "linea",
+  "name": "Linea Sketch Drawing",
+  "category": "linea-sketch-drawing",
+  "developer_org": "the-iconfactory",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "A LINEA file is a drawing created by Linea Sketch, an illustration app available for iOS. It is a Zip-compressed archive that contains all of the drawing's data and associated files, such as a thumbnail image, .PNG images of the drawing's layers, and metadata . LINEA files can also be opened in Linea Link, a LINEA file viewer for macOS.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "change-extension-to-.zip-and-view-constituent-files-with-any-archive-utility",
+        "display_name": "Change extension to .zip and view constituent files with any archive utility"
+      },
+      {
+        "software": "linea-link",
+        "display_name": "Linea Link"
+      },
+      {
+        "software": "linea-sketch",
+        "display_name": "Linea Sketch"
+      }
+    ],
+    "windows": [
+      {
+        "software": "change-extension-to-.zip-and-view-constituent-files-with-any-archive-utility",
+        "display_name": "Change extension to .zip and view constituent files with any archive utility"
+      },
+      {
+        "software": "linea-link",
+        "display_name": "Linea Link"
+      },
+      {
+        "software": "linea-sketch",
+        "display_name": "Linea Sketch"
+      }
+    ],
+    "ios": [
+      {
+        "software": "linea-sketch",
+        "display_name": "Linea Sketch"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-08-03",
+  "sources": [
+    {
+      "url": "linea.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

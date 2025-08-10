@@ -1,0 +1,79 @@
+{
+  "slug": "tlz",
+  "extension": "tlz",
+  "name": "Tar LZMA Compressed File",
+  "category": "tar-lzma-compressed-file",
+  "developer_org": "lzip",
+  "popularity": {
+    "rating": 2.7,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "Tar ( .TAR ) archive that has been compressed with Lzip ( .LZ ) file compression; uses the Lempel-Ziv-Markov chain-Algorithm (LZMA); most commonly used on Unix systems, but supported by Lzip on Windows and Macintosh systems as well.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "lzip",
+        "display_name": "Lzip"
+      },
+      {
+        "software": "7-zip",
+        "display_name": "7-Zip"
+      },
+      {
+        "software": "sixty-five-7zx",
+        "display_name": "Sixty Five 7zX"
+      },
+      {
+        "software": "tukaani-lzma-utils",
+        "display_name": "Tukaani LZMA Utils"
+      }
+    ],
+    "macos": [
+      {
+        "software": "lzip",
+        "display_name": "Lzip"
+      },
+      {
+        "software": "sixty-five-7zx",
+        "display_name": "Sixty Five 7zX"
+      }
+    ],
+    "linux": [
+      {
+        "software": "lzip",
+        "display_name": "Lzip"
+      },
+      {
+        "software": "tukaani-lzma-utils",
+        "display_name": "Tukaani LZMA Utils"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-10-20",
+  "sources": [
+    {
+      "url": "tlz.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

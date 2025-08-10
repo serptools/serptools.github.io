@@ -1,0 +1,106 @@
+{
+  "slug": "sms",
+  "extension": "sms",
+  "name": "Sega Master System ROM",
+  "category": "1.-sega-master-system-rom",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 19,
+    "source": "fileinfo"
+  },
+  "summary": "ROM image of an original Sega Master System (SMS) video game; contains the same data stored on the actual game cartridge; can be played on a Mac or PC using SMS emulation software.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "fusion",
+        "display_name": "Fusion"
+      },
+      {
+        "software": "freezesms",
+        "display_name": "FreezeSMS",
+        "pricing": "free"
+      },
+      {
+        "software": "mess",
+        "display_name": "MESS"
+      },
+      {
+        "software": "meka",
+        "display_name": "Meka"
+      },
+      {
+        "software": "smsplus",
+        "display_name": "SMSPLUS"
+      },
+      {
+        "software": "sms-plus",
+        "display_name": "SMS Plus"
+      },
+      {
+        "software": "mastergear",
+        "display_name": "MasterGear"
+      },
+      {
+        "software": "fj-software-myphoneexplorer",
+        "display_name": "FJ Software MyPhoneExplorer"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "macmess",
+        "display_name": "MacMESS"
+      },
+      {
+        "software": "sms-plus",
+        "display_name": "SMS Plus"
+      },
+      {
+        "software": "mastergear",
+        "display_name": "MasterGear"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "mastergear",
+        "display_name": "MasterGear"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-05-21",
+  "sources": [
+    {
+      "url": "sms.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

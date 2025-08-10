@@ -1,0 +1,64 @@
+{
+  "slug": "frc",
+  "extension": "frc",
+  "name": "Mandelbrot Explorer Color Settings File",
+  "category": "1.-mandelbrot-explorer-color-settings-file",
+  "developer_org": "j-r-oakley",
+  "popularity": {
+    "rating": 2.6,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Color settings file created by Mandelbrot Explorer, a visualization program for Mandelbrot Set and Julia Set fractal images; stores a color scheme that can be overlaid onto a generated fractal graphic; supports black and white, grayscale, and color patterns.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "mandelbrot-explorer",
+        "display_name": "Mandelbrot Explorer"
+      },
+      {
+        "software": "fs-recorder",
+        "display_name": "FS Recorder",
+        "status": "discontinued"
+      },
+      {
+        "software": "frc-editor",
+        "display_name": "FRC Editor"
+      },
+      {
+        "software": "convertit",
+        "display_name": "ConvertIt"
+      },
+      {
+        "software": "recordertoolbox",
+        "display_name": "RecorderToolBox"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-06-08",
+  "sources": [
+    {
+      "url": "frc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

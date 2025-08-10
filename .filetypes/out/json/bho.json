@@ -1,0 +1,47 @@
+{
+  "slug": "bho",
+  "extension": "bho",
+  "name": "Behold Organize File",
+  "category": "behold-organize-file",
+  "developer_org": "louis-kessler",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "File created by Behold, a program used for viewing genealogy data; references GEDCOM ( .GED ) files and specifies family and genealogy display formatting information; used for presenting family trees and other genealogies in different ways.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "behold",
+        "display_name": "Behold"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-08-20",
+  "sources": [
+    {
+      "url": "bho.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

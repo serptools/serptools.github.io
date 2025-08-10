@@ -1,0 +1,53 @@
+{
+  "slug": "stip",
+  "extension": "stip",
+  "name": "SampleTank User Preset Instrument",
+  "category": "sampletank-user-preset-instrument",
+  "developer_org": "ik-multimedia",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "Preset instrument created by SampleTank, a sound sample creation program; contains user presets for different \"Parent Sound\" sound samples; based on a SampleTank Instrument unit, which consists of an .STH , .STI , and .STW file, and must remain in the same folder as these three files; opened through the application, not manually.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "ik-multimedia-sampletank",
+        "display_name": "IK Multimedia SampleTank"
+      }
+    ],
+    "macos": [
+      {
+        "software": "ik-multimedia-sampletank",
+        "display_name": "IK Multimedia SampleTank"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-07-14",
+  "sources": [
+    {
+      "url": "stip.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

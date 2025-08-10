@@ -1,0 +1,47 @@
+{
+  "slug": "lvivt",
+  "extension": "lvivt",
+  "name": "Lvivtotoro Encrypted Game File",
+  "category": "lvivtotoro-encrypted-game-file",
+  "developer_org": "lvivtotoro",
+  "popularity": {
+    "rating": 2.3,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "Encoded game executable created for games developed by Livivtotoro; stores an .EXE file in an encoded format that can be decoded using Lvivtotoro's decompiler.exe program.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "lvivtotoro-decompiler",
+        "display_name": "Lvivtotoro Decompiler"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-07-06",
+  "sources": [
+    {
+      "url": "lvivt.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

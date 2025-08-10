@@ -1,0 +1,23 @@
+{
+  "slug": "ctz",
+  "extension": "ctz",
+  "name": "Cherrytree Password-protected XML Document",
+  "category": "cherrytree-password-protected-xml-document",
+  "summary": "",
+  "developer_org": "giuspen",
+  "developer_name": "giuspen",
+  "more_information": {
+    "description": [
+      "Users typically save Cherrytree documents as .CTB files but if they protect them with a password, the documents are saved as .CTX files. Cherrytree users may also save documents in XML format as .CTD files. Password-protected CTD files are saved as CTZ files. CTD and CTZ files are useful for saving documents that are smaller in size than CTB and CTX files.",
+      "CTZ files are commonly opened by Cherrytree, but they may also be opened by 7-Zip in Windows. If a user opens it in 7-Zip, the password must still be entered before the file can be opened.",
+      "NOTE: Cherrytree is developed by giuspen, a portmanteau of Giuseppe Penone."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "ctz.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

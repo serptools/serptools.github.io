@@ -1,0 +1,63 @@
+{
+  "slug": "qss",
+  "extension": "qss",
+  "name": "Qt Style Sheet",
+  "category": "qt-style-sheet",
+  "developer_org": "qt-group",
+  "popularity": {
+    "rating": 4.1,
+    "votes": 11,
+    "source": "fileinfo"
+  },
+  "summary": "Style sheet file used by Qt (pronounced \"cute\") programs; contains definitions for the look and feel of GUI elements, including fonts, sizes, colors, layouts, and mouse-over behaviors; stores a library of styles that can be incorporated into a user interface.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "qt-sdk",
+        "display_name": "Qt SDK"
+      },
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      }
+    ],
+    "macos": [
+      {
+        "software": "qt-sdk",
+        "display_name": "Qt SDK"
+      }
+    ],
+    "linux": [
+      {
+        "software": "qt-sdk",
+        "display_name": "Qt SDK"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-10-14",
+  "sources": [
+    {
+      "url": "qss.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

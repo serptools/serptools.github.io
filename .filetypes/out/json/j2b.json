@@ -1,0 +1,85 @@
+{
+  "slug": "j2b",
+  "extension": "j2b",
+  "name": "Jazz Jackrabbit 2 Music",
+  "category": "jazz-jackrabbit-2-music",
+  "developer_org": "epic-games",
+  "popularity": {
+    "rating": 1.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "A J2B file is an audio module used by Jazz Jackrabbit 2, a video game developed by Epic Games. It contains a song played in the game. Jazz Jackrabbit 2 uses a version of the Galaxy Music System, an audio engine used by several Epic games, to play J2B files.",
+  "standards": [],
+  "mime_types": [
+    "vitamin/caig"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "openmpt",
+        "display_name": "OpenMPT"
+      },
+      {
+        "software": "vitamin-caig-zxtune",
+        "display_name": "Vitamin/CAIG ZXTune"
+      },
+      {
+        "software": "modizer",
+        "display_name": "Modizer"
+      }
+    ],
+    "android": [
+      {
+        "software": "xmp-mod-player-for-android",
+        "display_name": "Xmp Mod Player for Android"
+      },
+      {
+        "software": "vitamin-caig-zxtune",
+        "display_name": "Vitamin/CAIG ZXTune"
+      }
+    ],
+    "macos": [
+      {
+        "software": "vitamin-caig-zxtune",
+        "display_name": "Vitamin/CAIG ZXTune"
+      }
+    ],
+    "linux": [
+      {
+        "software": "vitamin-caig-zxtune",
+        "display_name": "Vitamin/CAIG ZXTune"
+      }
+    ],
+    "ios": [
+      {
+        "software": "modizer",
+        "display_name": "Modizer"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-05-23",
+  "sources": [
+    {
+      "url": "j2b.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

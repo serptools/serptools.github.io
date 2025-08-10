@@ -1,0 +1,53 @@
+{
+  "slug": "arxml",
+  "extension": "arxml",
+  "name": "AUTOSAR XML File",
+  "category": "autosar-xml-file",
+  "developer_org": "autosar",
+  "popularity": {
+    "rating": 4.1,
+    "votes": 12,
+    "source": "fileinfo"
+  },
+  "summary": "An ARXML file is a configuration file saved in AUTOSAR XML (ARXML) format. It is used by AUTOSAR, an initiative of automotive manufacturers and suppliers formed in 2003 to establish software architecture for automotive electronic control units (ECUs). ARXML files contain configuration and specification information in XML format for an ECU, which is used to control components of an engine to make sure an engine achieves optimal performance.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "ibm-rational-rhapsody",
+        "display_name": "IBM Rational Rhapsody"
+      }
+    ],
+    "linux": [
+      {
+        "software": "ibm-rational-rhapsody",
+        "display_name": "IBM Rational Rhapsody"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-03-16",
+  "sources": [
+    {
+      "url": "arxml.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

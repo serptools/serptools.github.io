@@ -1,0 +1,28 @@
+{
+  "slug": "dbb",
+  "extension": "dbb",
+  "name": "Skype User Information File",
+  "category": "skype-user-information-file",
+  "summary": "",
+  "developer_org": "skype",
+  "developer_name": "Skype",
+  "more_information": {
+    "description": [
+      "Niklas Zennström, Janus Friis, Priit Kasesalu, Toivo Annus, Ahti Heinla, and Jaan Tallinn initially developed and released Skype in 2003. Several companies have acquired and sold the technology through the years, with Microsoft currently maintaining the telecommunications software (and introducing the DB format to replace DBB files).",
+      "While recent versions of Skype no longer use the DBB format, you may still encounter the files if you previously used older versions of Skype. If you have an older version of Skype installed on your computer, you can find your DBB file in one of the following locations (depending on the Windows version you are using):"
+    ]
+  },
+  "common_filenames": [
+    {
+      "filename": "chatmsg256.dbb",
+      "description": "chatmsg256.dbb - Filename of the DBB file that stores a Skype user's information."
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "dbb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

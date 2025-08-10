@@ -1,0 +1,127 @@
+{
+  "slug": "mng",
+  "extension": "mng",
+  "name": "Multiple-Image Network Graphic",
+  "category": "1.-multiple-image-network-graphic",
+  "developer_org": "png-development-group",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 29,
+    "source": "fileinfo"
+  },
+  "summary": "An MNG file is an animated image saved in the Multiple-Image Network Graphics (MNG) file format. It contains multiple .PNG images that are shown in sequence to convey motion or animation. MNG files are similar to animated .GIF files, but use higher compression and support full alpha (multi-level transparency).",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "gimp",
+        "display_name": "GIMP"
+      },
+      {
+        "software": "imagemagick",
+        "display_name": "ImageMagick"
+      },
+      {
+        "software": "irfanview",
+        "display_name": "IrfanView"
+      },
+      {
+        "software": "mngplay",
+        "display_name": "mngplay"
+      },
+      {
+        "software": "mplayer",
+        "display_name": "MPlayer"
+      },
+      {
+        "software": "gwenview",
+        "display_name": "Gwenview"
+      },
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      },
+      {
+        "software": "transfer-to-a-yamaha-psr-floppy-disk",
+        "display_name": "Transfer to a Yamaha PSR floppy disk"
+      }
+    ],
+    "android": [
+      {
+        "software": "file-viewer-for-android",
+        "display_name": "File Viewer for Android"
+      }
+    ],
+    "macos": [
+      {
+        "software": "gimp",
+        "display_name": "GIMP"
+      },
+      {
+        "software": "imagemagick",
+        "display_name": "ImageMagick"
+      },
+      {
+        "software": "mngplay",
+        "display_name": "mngplay"
+      },
+      {
+        "software": "mplayer",
+        "display_name": "MPlayer"
+      },
+      {
+        "software": "transfer-to-a-yamaha-psr-floppy-disk",
+        "display_name": "Transfer to a Yamaha PSR floppy disk"
+      }
+    ],
+    "linux": [
+      {
+        "software": "gimp",
+        "display_name": "GIMP"
+      },
+      {
+        "software": "gwenview",
+        "display_name": "Gwenview"
+      },
+      {
+        "software": "imagemagick",
+        "display_name": "ImageMagick"
+      },
+      {
+        "software": "mplayer",
+        "display_name": "MPlayer"
+      }
+    ],
+    "web": [
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-08-20",
+  "sources": [
+    {
+      "url": "mng.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "csz",
+  "extension": "csz",
+  "name": "Cornerstone Document Template",
+  "category": "cornerstone-document-template",
+  "developer_org": "idexx",
+  "popularity": {
+    "rating": 2.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "A CSZ file is a document template created by IDEXX Cornerstone, a veterinary administrative management application. It contains a default document layout that includes various elements, such as text input fields, checkboxes, tables, images, and bookmarks. CSZ files are primarily used to create medical notes and client correspondence with similar formatting.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "idexx-cornerstone",
+        "display_name": "IDEXX Cornerstone"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-10-22",
+  "sources": [
+    {
+      "url": "csz.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

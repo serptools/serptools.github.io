@@ -1,0 +1,89 @@
+{
+  "slug": "fdb",
+  "extension": "fdb",
+  "name": "Portfolio Catalog",
+  "category": "1.-portfolio-catalog",
+  "developer_org": "extensis",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 33,
+    "source": "fileinfo"
+  },
+  "summary": "An FDB file is a database of images created by Extensis Portfolio, a digital asset management application. It contains a thumbnail image and metadata for each file stored in the catalog. Examples of metadata stored include file name, created and modified date, and keywords.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "extensis-portfolio",
+        "display_name": "Extensis Portfolio"
+      },
+      {
+        "software": "microsoft-dynamics-nav-or-navision",
+        "display_name": "Microsoft Dynamics NAV or Navision"
+      },
+      {
+        "software": "nova-development-art-explosion",
+        "display_name": "Nova Development Art Explosion"
+      },
+      {
+        "software": "firebird",
+        "display_name": "Firebird"
+      },
+      {
+        "software": "legacy-family-tree",
+        "display_name": "Legacy Family Tree"
+      }
+    ],
+    "macos": [
+      {
+        "software": "extensis-portfolio",
+        "display_name": "Extensis Portfolio"
+      },
+      {
+        "software": "nova-development-art-explosion",
+        "display_name": "Nova Development Art Explosion"
+      },
+      {
+        "software": "firebird",
+        "display_name": "Firebird"
+      }
+    ],
+    "web": [
+      {
+        "software": "extensis-portfolio-browser",
+        "display_name": "Extensis Portfolio Browser"
+      }
+    ],
+    "linux": [
+      {
+        "software": "firebird",
+        "display_name": "Firebird"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-10-18",
+  "sources": [
+    {
+      "url": "fdb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

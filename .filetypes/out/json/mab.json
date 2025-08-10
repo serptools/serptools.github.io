@@ -1,0 +1,95 @@
+{
+  "slug": "mab",
+  "extension": "mab",
+  "name": "Mozilla Address Book",
+  "category": "mozilla-address-book",
+  "developer_org": "mozilla",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 11,
+    "source": "fileinfo"
+  },
+  "summary": "Address book format used by Thunderbird and SeaMonkey, as well as the older Netscape and Mozilla mail programs; contains contact information, such as names, email addresses, and phone numbers; used for managing personal and business contacts.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "mozilla-thunderbird",
+        "display_name": "Mozilla Thunderbird"
+      },
+      {
+        "software": "mozilla-seamonkey",
+        "display_name": "Mozilla SeaMonkey"
+      },
+      {
+        "software": "libreoffice",
+        "display_name": "LibreOffice"
+      },
+      {
+        "software": "apache-openoffice",
+        "display_name": "Apache OpenOffice"
+      }
+    ],
+    "macos": [
+      {
+        "software": "mozilla-thunderbird",
+        "display_name": "Mozilla Thunderbird"
+      },
+      {
+        "software": "mozilla-seamonkey",
+        "display_name": "Mozilla SeaMonkey"
+      },
+      {
+        "software": "libreoffice",
+        "display_name": "LibreOffice"
+      },
+      {
+        "software": "apache-openoffice",
+        "display_name": "Apache OpenOffice"
+      }
+    ],
+    "linux": [
+      {
+        "software": "mozilla-thunderbird",
+        "display_name": "Mozilla Thunderbird"
+      },
+      {
+        "software": "mozilla-seamonkey",
+        "display_name": "Mozilla SeaMonkey"
+      },
+      {
+        "software": "libreoffice",
+        "display_name": "LibreOffice"
+      },
+      {
+        "software": "apache-openoffice",
+        "display_name": "Apache OpenOffice"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-03-18",
+  "sources": [
+    {
+      "url": "mab.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

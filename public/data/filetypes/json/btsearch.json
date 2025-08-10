@@ -1,0 +1,22 @@
+{
+  "slug": "btsearch",
+  "extension": "btsearch",
+  "name": "BitTorrent Search Engine File",
+  "category": "bittorrent-search-engine-file",
+  "summary": "",
+  "developer_org": "bittorrent",
+  "developer_name": "BitTorrent",
+  "more_information": {
+    "description": [
+      "Once a BTSEARCH file has been imported into BitTorrent or uTorrent, you can select the added search engine from the search box on the user interface. Additionally, you can view the installed search engines by selecting Options → Preferences → Advanced → UI Extras .",
+      "NOTE: The BTSEARCH format is based on the OpenSearch description document, but only supports a subset of the specification. The Mac version of uTorrent does not support BTSEARCH files."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "btsearch.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

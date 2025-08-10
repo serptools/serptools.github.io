@@ -1,0 +1,65 @@
+{
+  "slug": "mobileconfig",
+  "extension": "mobileconfig",
+  "name": "Apple Mobile Configuration File",
+  "category": "apple-mobile-configuration-file",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 219,
+    "source": "fileinfo"
+  },
+  "summary": "A MOBILECONFIG file is a configuration file created for devices running iOS, macOS, watchOS, or tvOS. It contains device setup information, such as password policies, access permissions, and proxy connection information, as well as VPN , email, and calendar settings. MOBILECONFIG files are commonly used to deploy and register Apple device configurations within enterprise and school networks.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "apple-configurator-2",
+        "display_name": "Apple Configurator 2"
+      }
+    ],
+    "ios": [
+      {
+        "software": "ios-settings",
+        "display_name": "iOS Settings"
+      }
+    ],
+    "windows": [
+      {
+        "software": "apple-configurator-2",
+        "display_name": "Apple Configurator 2"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "MOBILECONFIG file icon",
+      "alt": "MOBILECONFIG file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/mobileconfig-5100.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-12-17",
+  "sources": [
+    {
+      "url": "mobileconfig.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

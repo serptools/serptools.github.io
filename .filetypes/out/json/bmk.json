@@ -1,0 +1,80 @@
+{
+  "slug": "bmk",
+  "extension": "bmk",
+  "name": "BillMinder Backup File",
+  "category": "1.-billminder-backup-file",
+  "developer_org": "return7",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 17,
+    "source": "fileinfo"
+  },
+  "summary": "Backup file created by BillMinder, a personal bill reminder application for iOS devices; saves an encrypted backup that contains a snapshot of a user's data; enables the bill reminder information to be restored in the application.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "ios": [
+      {
+        "software": "return7-billminder",
+        "display_name": "return7 BillMinder"
+      }
+    ],
+    "windows": [
+      {
+        "software": "return7-billminder",
+        "display_name": "return7 BillMinder"
+      },
+      {
+        "software": "microsoft-windows-help",
+        "display_name": "Microsoft Windows Help",
+        "status": "discontinued"
+      },
+      {
+        "software": "cyberlink-powerdvd-21",
+        "display_name": "CyberLink PowerDVD 21"
+      },
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-08-10",
+  "sources": [
+    {
+      "url": "bmk.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

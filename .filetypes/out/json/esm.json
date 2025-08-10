@@ -1,0 +1,75 @@
+{
+  "slug": "esm",
+  "extension": "esm",
+  "name": "Elder Scrolls or Fallout 4 Master File",
+  "category": "1.-elder-scrolls-or-fallout-4-master-file",
+  "developer_org": "bethesda-softworks",
+  "popularity": {
+    "rating": 4.3,
+    "votes": 19,
+    "source": "fileinfo"
+  },
+  "summary": "An ESM file is a game data file used by select Bethesda Softworks video games, such as The Elder Scrolls IV: Oblivion, The Elder Scrolls V: Skyrim, or Fallout 4. It contains multiple records that describe various kinds of game data, such as characters, in-game items, world environments, and settings.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "bethesda-softworks-the-elder-scrolls-5-skyrim",
+        "display_name": "Bethesda Softworks The Elder Scrolls 5: Skyrim"
+      },
+      {
+        "software": "bethesda-softworks-the-elder-scrolls-5-skyrim-se",
+        "display_name": "Bethesda Softworks The Elder Scrolls 5: Skyrim SE"
+      },
+      {
+        "software": "bethesda-softworks-the-elder-scrolls-4-oblivion",
+        "display_name": "Bethesda Softworks The Elder Scrolls 4: Oblivion"
+      },
+      {
+        "software": "bethesda-softworks-fallout-4",
+        "display_name": "Bethesda Softworks Fallout 4"
+      },
+      {
+        "software": "bethesda-softworks-creation-kit",
+        "display_name": "Bethesda Softworks Creation Kit"
+      },
+      {
+        "software": "the-elder-scrolls-construction-set",
+        "display_name": "The Elder Scrolls Construction Set"
+      },
+      {
+        "software": "bethesda-softworks-fallout-3",
+        "display_name": "Bethesda Softworks Fallout 3"
+      },
+      {
+        "software": "bethesda-softworks-geck",
+        "display_name": "Bethesda Softworks GECK"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-01-07",
+  "sources": [
+    {
+      "url": "esm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

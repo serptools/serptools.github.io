@@ -1,0 +1,47 @@
+{
+  "slug": "mfe",
+  "extension": "mfe",
+  "name": "MobileFrame Enterprise Data File",
+  "category": "mobileframe-enterprise-data-file",
+  "developer_org": "mobileframe",
+  "popularity": {
+    "rating": 1.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "File used by MobileFrame Desktop, a administration tool for the MobileFrame mobile application environment; contains all data and dependencies for a single record in the MobileFrame system; used for packaging records into standalone packages.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "mobileframe-desktop",
+        "display_name": "MobileFrame Desktop"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-02-07",
+  "sources": [
+    {
+      "url": "mfe.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "slug": "pgi",
+  "extension": "pgi",
+  "name": "Video Recording File",
+  "category": "video-recording-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "File created by various video recording devices, including those from Panasonic, JVC, and Canon; contains timestamp, duration, and title information for recorded videos; typically found with .MOD and .MOI files.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "jvc-dvr-software",
+        "display_name": "JVC DVR Software"
+      },
+      {
+        "software": "panasonic-dvr-software",
+        "display_name": "Panasonic DVR Software"
+      },
+      {
+        "software": "canon-dvr-software",
+        "display_name": "Canon DVR Software"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-02-15",
+  "sources": [
+    {
+      "url": "pgi.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

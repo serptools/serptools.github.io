@@ -1,0 +1,28 @@
+{
+  "slug": "db",
+  "extension": "db",
+  "name": "Mobile Device Database",
+  "summary": "Mobile devices, such as Android and iOS mobile phones, store a variety of information in DB database files. For example, a DB file may contain your contacts, your SMS information, or other device or application data. DB files are commonly saved in a SQLite database format, but they are also commonly locked or encrypted , so you cannot access or edit their data.",
+  "developer": "N/A",
+  "developer_slug": "n-a",
+  "category": "Database Files",
+  "category_slug": "database-files",
+  "rating": 4.0,
+  "votes": 1765,
+  "last_updated": "April 19, 2022",
+  "more_information": {
+    "content": [
+      "One example DB file is sms.db , an iOS support file that stores your text messages. It is located in a device's /​private/​var/​mobile/​Library/​SMS/​ directory. Another example is consolidated.db , an iOS file that contains your tracked location information."
+    ]
+  },
+  "how_to_open": {
+    "instructions": [
+      "DB files stored on a mobile device are generally not meant to be opened or edited, since they are support files used by the device or an application."
+    ]
+  },
+  "scraped_at": "2025-08-09T21:58:55.110300",
+  "source": {
+    "url": "https://fileinfo.com/extension/db",
+    "file": "db.html"
+  }
+}

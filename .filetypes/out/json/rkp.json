@@ -1,0 +1,47 @@
+{
+  "slug": "rkp",
+  "extension": "rkp",
+  "name": "Rockchip MP4 Player Game",
+  "category": "rockchip-mp4-player-game",
+  "developer_org": "rockchip",
+  "popularity": {
+    "rating": 2.3,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "Game developed for a Rockchip portable MP4 player, such as the Rockchip 2606 or 2608; can only be played on a Rockchip player if the correct firmware is installed.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "transfer-to-a-rockchip-mp4-player",
+        "display_name": "Transfer to a Rockchip MP4 Player"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-08-01",
+  "sources": [
+    {
+      "url": "rkp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

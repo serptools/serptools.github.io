@@ -1,0 +1,55 @@
+{
+  "slug": "savedsearch",
+  "extension": "savedsearch",
+  "name": "Spotlight Saved Search",
+  "category": "spotlight-saved-search",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "Search saved using Apple's Spotlight program, included with Mac OS X 10.4 and later; saved as a \"Smart Folder,\" which dynamically updates based on the search parameters saved with the folder.",
+  "standards": [],
+  "mime_types": [
+    "user/library"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "apple-finder",
+        "display_name": "Apple Finder"
+      }
+    ],
+    "windows": [
+      {
+        "software": "apple-finder",
+        "display_name": "Apple Finder"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2008-04-22",
+  "sources": [
+    {
+      "url": "savedsearch.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

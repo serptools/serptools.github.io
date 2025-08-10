@@ -1,0 +1,55 @@
+{
+  "slug": "slbk",
+  "extension": "slbk",
+  "name": "Smart Launcher Home Screen Backup",
+  "category": "smart-launcher-home-screen-backup",
+  "developer_org": "smart-launcher-team",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "An SLBK file is a home screen layout created using Smart Launcher, a home screen replacement app for Android. It contains data Smart Launcher uses to load and display a custom home screen.",
+  "standards": [],
+  "mime_types": [
+    "and/or"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "android": [
+      {
+        "software": "smart-launcher",
+        "display_name": "Smart Launcher"
+      }
+    ],
+    "windows": [
+      {
+        "software": "smart-launcher",
+        "display_name": "Smart Launcher"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-12-13",
+  "sources": [
+    {
+      "url": "slbk.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

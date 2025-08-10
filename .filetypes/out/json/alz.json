@@ -1,0 +1,57 @@
+{
+  "slug": "alz",
+  "extension": "alz",
+  "name": "ALZip Archive",
+  "category": "alzip-archive",
+  "developer_org": "estsoft",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 24,
+    "source": "fileinfo"
+  },
+  "summary": "Proprietary compressed file format developed by ESTsoft; uses an algorithm similar to .ZIP compression, but is optimized for compressing large archives; also supports self-extracting and spanned archives.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "estsoft-alzip",
+        "display_name": "ESTsoft ALZip"
+      },
+      {
+        "software": "the-unarchiver",
+        "display_name": "The Unarchiver"
+      }
+    ],
+    "macos": [
+      {
+        "software": "the-unarchiver",
+        "display_name": "The Unarchiver"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2006-12-30",
+  "sources": [
+    {
+      "url": "alz.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

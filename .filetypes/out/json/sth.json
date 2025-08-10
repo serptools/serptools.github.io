@@ -1,0 +1,62 @@
+{
+  "slug": "sth",
+  "extension": "sth",
+  "name": "Lotus Domino Stash File",
+  "category": "1.-lotus-domino-stash-file",
+  "developer_org": "ibm",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "Secure file that stores the password for a Lotus Domino key ring ( .KYR ) file; generated automatically when the server key ring is created; saved with the same name as the key ring file; should be saved in both the Notes data directory of the client machine and the Domino directory of the server.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "ibm-domino",
+        "display_name": "IBM Domino",
+        "status": "discontinued"
+      },
+      {
+        "software": "ibm-lotus-notes",
+        "display_name": "IBM Lotus Notes"
+      },
+      {
+        "software": "ik-multimedia-sampletank",
+        "display_name": "IK Multimedia SampleTank"
+      }
+    ],
+    "macos": [
+      {
+        "software": "ik-multimedia-sampletank",
+        "display_name": "IK Multimedia SampleTank"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2008-12-09",
+  "sources": [
+    {
+      "url": "sth.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

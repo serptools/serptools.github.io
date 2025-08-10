@@ -1,0 +1,23 @@
+{
+  "slug": "onetoc2",
+  "extension": "onetoc2",
+  "name": "Microsoft OneNote Table of Contents",
+  "category": "microsoft-onenote-table-of-contents",
+  "summary": "",
+  "developer_org": "microsoft",
+  "developer_name": "Microsoft",
+  "more_information": {
+    "description": [
+      "OneNote 2007 to 2016 create a new ONETOC2 file whenever you create a new notebook. The app then updates the ONETOC2 file whenever you create or re-order notebook sections. This ensures sections remain ordered the same way the next time you open that notebook.",
+      "If you delete a ONETOC2 file (or it otherwise goes missing), none of the associated notebook's actual contents will be affected. However, the next time you open that notebook, OneNote will list its sections in alphabetical order. You can re-order the notebook's sections as you see fit, and OneNote will save those settings in a regenerated ONETOC2 file.",
+      "NOTE: Gorillized Outline, a OneNote-like app for macOS and iOS, also creates ONETOC2 files."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "onetoc2.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

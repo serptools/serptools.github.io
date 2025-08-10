@@ -1,0 +1,129 @@
+{
+  "slug": "widget",
+  "extension": "widget",
+  "name": "Microsoft Windows Mobile Widget",
+  "category": "1.-microsoft-windows-mobile-widget",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 35,
+    "source": "fileinfo"
+  },
+  "summary": "HTML-based widget used by Windows Mobile, an operating system for PDAs , digital phones, and other mobile devices; contains an archive of files in a compressed Zip format; may store .HTML , .XML , .CSS , and .JS files, as well as other Web-based files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-windows-mobile-sdk",
+        "display_name": "Microsoft Windows Mobile SDK"
+      },
+      {
+        "software": "microsoft-visual-studio-with-windows-mobile-developer-tool-kit-plug-in",
+        "display_name": "Microsoft Visual Studio with Windows Mobile Developer Tool Kit plug-in"
+      },
+      {
+        "software": "xml",
+        "display_name": "XML"
+      },
+      {
+        "software": ".plist",
+        "display_name": ".PLIST"
+      },
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      },
+      {
+        "software": "microsoft-file-explorer",
+        "display_name": "Microsoft File Explorer"
+      },
+      {
+        "software": "corel-winzip",
+        "display_name": "Corel WinZip"
+      },
+      {
+        "software": "apple-archive-utility",
+        "display_name": "Apple Archive Utility"
+      },
+      {
+        "software": "funzip",
+        "display_name": "funzip"
+      },
+      {
+        "software": "p7zip",
+        "display_name": "p7zip"
+      },
+      {
+        "software": "hybridjava-compiler",
+        "display_name": "HybridJava Compiler"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "Text editor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      },
+      {
+        "software": "apple-archive-utility",
+        "display_name": "Apple Archive Utility"
+      },
+      {
+        "software": "hybridjava-compiler",
+        "display_name": "HybridJava Compiler"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "Text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "funzip",
+        "display_name": "funzip"
+      },
+      {
+        "software": "p7zip",
+        "display_name": "p7zip"
+      },
+      {
+        "software": "hybridjava-compiler",
+        "display_name": "HybridJava Compiler"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "Text editor"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-07-15",
+  "sources": [
+    {
+      "url": "widget.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

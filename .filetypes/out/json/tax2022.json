@@ -1,0 +1,74 @@
+{
+  "slug": "tax2022",
+  "extension": "tax2022",
+  "name": "TurboTax 2022 Tax Return",
+  "category": "turbotax-2022-tax-return",
+  "developer_org": "intuit",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "A TAX2022 file is a United States tax return created by Intuit TurboTax, an application for preparing and filing tax returns for U.S. residents. It stores tax return information for the 2022 tax year, which includes a federal IRS tax form, one or more state forms, and personal information the user entered. Typically, users save their tax returns as TAX2022 files with the 2022 desktop version of TurboTax, but they may also export and download a TAX2022 file from the 2022 online version of TurboTax.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "intuit-turbotax",
+        "display_name": "Intuit TurboTax"
+      },
+      {
+        "software": "intuit-turbotax-online",
+        "display_name": "Intuit TurboTax Online"
+      }
+    ],
+    "macos": [
+      {
+        "software": "intuit-turbotax",
+        "display_name": "Intuit TurboTax"
+      }
+    ],
+    "web": [
+      {
+        "software": "intuit-turbotax-online",
+        "display_name": "Intuit TurboTax Online"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "TAX2022 file icon",
+      "alt": "TAX2022 file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/tax2022-13051.png"
+    },
+    {
+      "caption": "TAX2022 file open in Intuit TurboTax 2022",
+      "alt": "TAX2022 file open in Intuit TurboTax 2022",
+      "source_url": "https://fileinfo.com/img/ss/md/tax2022_13051.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2024-02-22",
+  "sources": [
+    {
+      "url": "tax2022.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "qbm",
+  "extension": "qbm",
+  "name": "QuickBooks Portable Company File",
+  "category": "quickbooks-portable-company-file",
+  "developer_org": "intuit",
+  "popularity": {
+    "rating": 3.2,
+    "votes": 13,
+    "source": "fileinfo"
+  },
+  "summary": "File created by QuickBooks, a program that allows businesses to track their finances; contains a compacted version of company financial data only; used to temporarily move company financial data through email or using a small capacity external storage device.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "intuit-quickbooks-pro",
+        "display_name": "Intuit QuickBooks Pro"
+      }
+    ],
+    "macos": [
+      {
+        "software": "intuit-quickbooks-for-mac",
+        "display_name": "Intuit QuickBooks for Mac"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-11-06",
+  "sources": [
+    {
+      "url": "qbm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

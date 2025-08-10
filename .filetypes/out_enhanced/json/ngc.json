@@ -1,0 +1,21 @@
+{
+  "slug": "ngc",
+  "extension": "ngc",
+  "name": "Xilinx Generated Netlist File",
+  "category": "xilinx-generated-netlist-file",
+  "summary": "",
+  "developer_org": "n-a",
+  "developer_name": "N/A",
+  "more_information": {
+    "description": [
+      "NGC files are generated using Xilinx Synthesis Technology (XST), an application included with the Xilinx ISE suite that synthesizes Hardware Description Language (HDL) designs into Xilinx-specific netlists. Example input HDL file format include Verilog ( .V ) files and VHDL ( .VHD ) files."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "ngc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

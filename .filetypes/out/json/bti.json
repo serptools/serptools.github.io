@@ -1,0 +1,51 @@
+{
+  "slug": "bti",
+  "extension": "bti",
+  "name": "Nintendo Texture File",
+  "category": "nintendo-texture-file",
+  "developer_org": "nintendo",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 10,
+    "source": "fileinfo"
+  },
+  "summary": "Texture file used by Nintendo GameCube, Wii and Nintendo DS games such as Zelda and Mario series games; sometimes altered by the modding community to change the look of virtual characters or the environment.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "mkds-course-modifier",
+        "display_name": "MKDS Course Modifier"
+      },
+      {
+        "software": "wiimms-szs-tools",
+        "display_name": "Wiimms SZS Tools"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2016-10-31",
+  "sources": [
+    {
+      "url": "bti.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

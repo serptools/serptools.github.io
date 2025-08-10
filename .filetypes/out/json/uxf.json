@@ -1,0 +1,71 @@
+{
+  "slug": "uxf",
+  "extension": "uxf",
+  "name": "UML eXchange Format",
+  "category": "uml-exchange-format",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 2.8,
+    "votes": 11,
+    "source": "fileinfo"
+  },
+  "summary": "A UXF file is a model interchange file saved in the UML eXchange Format (UXF). It contains Unified Modeling Language (UML) elements in XML format that make up a diagram. UML files are commonly used in the software engineering field to visualize the structure of an application or system.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "umlet",
+        "display_name": "UMLet"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "UXF file open in UMLet 14.2",
+      "alt": "UXF file open in UMLet 14.2",
+      "source_url": "https://fileinfo.com/img/ss/md/uxf_10711.jpg"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-09-20",
+  "sources": [
+    {
+      "url": "uxf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

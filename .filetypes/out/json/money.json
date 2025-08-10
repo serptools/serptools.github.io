@@ -1,0 +1,53 @@
+{
+  "slug": "money",
+  "extension": "money",
+  "name": "Money Data File",
+  "category": "money-data-file",
+  "developer_org": "jumsoft",
+  "popularity": {
+    "rating": 2.5,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Data file created by Money, a personal finance tracking application; stores financial information for bank accounts, investments, credit cards, and other accounts; can include transactions manually entered by the user or downloaded from a financial institution.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "jumsoft-money",
+        "display_name": "Jumsoft Money"
+      }
+    ],
+    "windows": [
+      {
+        "software": "jumsoft-money",
+        "display_name": "Jumsoft Money"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-08-02",
+  "sources": [
+    {
+      "url": "money.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "slug": "ds",
+  "extension": "ds",
+  "name": "DAZ Studio 1/2 Script",
+  "category": "1.-daz-studio-1-2-script",
+  "developer_org": "daz-productions",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 78,
+    "source": "fileinfo"
+  },
+  "summary": "A DS file is a plain text script used by DAZ 3D DAZ Studio, a 3D modeling application. It contains instructions that automate a DAZ Studio task or extend the program's capabilities. For example, a DS file might be used as a macro for quickly applying character morphs or model presets, or for working with import and export files.",
+  "standards": [],
+  "mime_types": [
+    "1/2"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "daz-3d-daz-studio-4",
+        "display_name": "DAZ 3D DAZ Studio 4"
+      },
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "lmms",
+        "display_name": "LMMS"
+      },
+      {
+        "software": "furcadia",
+        "display_name": "Furcadia"
+      },
+      {
+        "software": "referenced-by-twain-compatible-scanning-software",
+        "display_name": "Referenced by TWAIN-compatible scanning software"
+      }
+    ],
+    "macos": [
+      {
+        "software": "daz-3d-daz-studio-4",
+        "display_name": "DAZ 3D DAZ Studio 4"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "referenced-by-twain-compatible-scanning-software",
+        "display_name": "Referenced by TWAIN-compatible scanning software"
+      }
+    ],
+    "linux": [
+      {
+        "software": "lmms",
+        "display_name": "LMMS"
+      },
+      {
+        "software": "referenced-by-twain-compatible-scanning-software",
+        "display_name": "Referenced by TWAIN-compatible scanning software"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "DS file open in Microsoft Visual Studio Code",
+      "alt": "DS file open in Microsoft Visual Studio Code",
+      "source_url": "https://fileinfo.com/img/ss/md/ds_7403.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-04-22",
+  "sources": [
+    {
+      "url": "ds.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

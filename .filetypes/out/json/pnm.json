@@ -1,0 +1,117 @@
+{
+  "slug": "pnm",
+  "extension": "pnm",
+  "name": "Portable Any Map Image",
+  "category": "portable-any-map-image",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 2.5,
+    "votes": 10,
+    "source": "fileinfo"
+  },
+  "summary": "Bitmap image created in the Portable Any Map format, which was designed to handle several types of portable monochrome, grayscale, and color images; may include raster graphic data in a .PBM , .PGM , or .PPM format; may be stored using binary data or ASCII text.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "newera-graphics-converter-pro",
+        "display_name": "Newera Graphics Converter Pro"
+      },
+      {
+        "software": "imagemagick",
+        "display_name": "ImageMagick"
+      },
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      },
+      {
+        "software": "gimp",
+        "display_name": "GIMP"
+      },
+      {
+        "software": "adobe-photoshop-2025",
+        "display_name": "Adobe Photoshop 2025"
+      },
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      }
+    ],
+    "macos": [
+      {
+        "software": "imagemagick",
+        "display_name": "ImageMagick"
+      },
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      },
+      {
+        "software": "gimp",
+        "display_name": "GIMP"
+      },
+      {
+        "software": "adobe-photoshop-2025",
+        "display_name": "Adobe Photoshop 2025"
+      }
+    ],
+    "linux": [
+      {
+        "software": "imagemagick",
+        "display_name": "ImageMagick"
+      },
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      },
+      {
+        "software": "gimp",
+        "display_name": "GIMP"
+      }
+    ],
+    "web": [
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "PNM file icon",
+      "alt": "PNM file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/pnm-4976.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2016-08-25",
+  "sources": [
+    {
+      "url": "pnm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

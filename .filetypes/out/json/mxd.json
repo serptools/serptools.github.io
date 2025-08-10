@@ -1,0 +1,51 @@
+{
+  "slug": "mxd",
+  "extension": "mxd",
+  "name": "ArcGIS Map Document",
+  "category": "arcgis-map-document",
+  "developer_org": "esri",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 16,
+    "source": "fileinfo"
+  },
+  "summary": "An MXD file is a map file format used by ESRI ArcGIS mapping software. It is saved in a compound format that includes the map description, layout elements, layers, and embedded objects saved in the map.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "esri-arcgis-for-desktop",
+        "display_name": "ESRI ArcGIS for Desktop"
+      },
+      {
+        "software": "esri-arcgis-pro",
+        "display_name": "ESRI ArcGIS Pro"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-10-26",
+  "sources": [
+    {
+      "url": "mxd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

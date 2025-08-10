@@ -1,0 +1,59 @@
+{
+  "slug": "nlogo",
+  "extension": "nlogo",
+  "name": "NetLogo Model File",
+  "category": "netlogo-model-file",
+  "developer_org": "netlogo",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "Model created by NetLogo, a program used for modeling and simulating natural and social phenomena; saves the initial parameters of the simulation as well as source code and interactive buttons that drive the simulation.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "netlogo",
+        "display_name": "NetLogo"
+      }
+    ],
+    "macos": [
+      {
+        "software": "netlogo",
+        "display_name": "NetLogo"
+      }
+    ],
+    "linux": [
+      {
+        "software": "netlogo",
+        "display_name": "NetLogo"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-07-31",
+  "sources": [
+    {
+      "url": "nlogo.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

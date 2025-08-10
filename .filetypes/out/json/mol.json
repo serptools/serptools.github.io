@@ -1,0 +1,77 @@
+{
+  "slug": "mol",
+  "extension": "mol",
+  "name": "MDL Molfile",
+  "category": "mdl-molfile",
+  "developer_org": "symyx-technologies",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 12,
+    "source": "fileinfo"
+  },
+  "summary": "Molecular data file created in the MDL Molfile format, a chemical file format; contains plain text information and stores information about atoms and bonds; often used as a standard exchange format for molecular information.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "avogadro",
+        "display_name": "Avogadro"
+      },
+      {
+        "software": "iqmol",
+        "display_name": "IQmol"
+      }
+    ],
+    "macos": [
+      {
+        "software": "avogadro",
+        "display_name": "Avogadro"
+      },
+      {
+        "software": "iqmol",
+        "display_name": "IQmol"
+      }
+    ],
+    "linux": [
+      {
+        "software": "avogadro",
+        "display_name": "Avogadro"
+      },
+      {
+        "software": "iqmol",
+        "display_name": "IQmol"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "MOL file icon",
+      "alt": "MOL file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/mol-7020.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-06-10",
+  "sources": [
+    {
+      "url": "mol.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

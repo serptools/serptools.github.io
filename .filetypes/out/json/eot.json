@@ -1,0 +1,59 @@
+{
+  "slug": "eot",
+  "extension": "eot",
+  "name": "Embedded OpenType Font",
+  "category": "embedded-opentype-font",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 2.9,
+    "votes": 36,
+    "source": "fileinfo"
+  },
+  "summary": "An EOT file is an OpenType ( .OTF ) font meant to be embedded in a document, such as a webpage or PowerPoint presentation. EOT files are typically created and embedded using Microsoft Web Embedding Fonts Tool (WEFT). They are saved along with the associated document and not meant to be opened manually.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "eotinfo",
+        "display_name": "eotinfo"
+      }
+    ],
+    "macos": [
+      {
+        "software": "eotinfo",
+        "display_name": "eotinfo"
+      }
+    ],
+    "linux": [
+      {
+        "software": "eotinfo",
+        "display_name": "eotinfo"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-07-27",
+  "sources": [
+    {
+      "url": "eot.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

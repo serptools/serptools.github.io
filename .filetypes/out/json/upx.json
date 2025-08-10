@@ -1,0 +1,57 @@
+{
+  "slug": "upx",
+  "extension": "upx",
+  "name": "Ultimate Packer for eXecutables File",
+  "category": "ultimate-packer-for-executables-file",
+  "developer_org": "markus-oberhumer",
+  "popularity": {
+    "rating": 2.7,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "File created by Ultimate Packer for eXecutables (UPX), a program used to compress executable files; contains a packed executable file, such as an .EXE file, that has compressed at a high ratio; used to reduce the file size of executables for transport via email or external media.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "ultimate-packer-for-executables",
+        "display_name": "Ultimate Packer for eXecutables"
+      },
+      {
+        "software": "peazip",
+        "display_name": "PeaZip"
+      }
+    ],
+    "linux": [
+      {
+        "software": "ultimate-packer-for-executables",
+        "display_name": "Ultimate Packer for eXecutables"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-12-28",
+  "sources": [
+    {
+      "url": "upx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

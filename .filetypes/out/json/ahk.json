@@ -1,0 +1,73 @@
+{
+  "slug": "ahk",
+  "extension": "ahk",
+  "name": "AutoHotkey Script",
+  "category": "autohotkey-script",
+  "developer_org": "autohotkey",
+  "popularity": {
+    "rating": 4.3,
+    "votes": 148,
+    "source": "fileinfo"
+  },
+  "summary": "An AHK file is a script created with AutoHotkey, a program used to automate tasks in Windows. It is saved as a plain text file and contains lines of code that can be executed by AutoHotkey (AutoHotkey.exe).",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "autohotkey",
+        "display_name": "AutoHotkey"
+      },
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      }
+    ],
+    "android": [
+      {
+        "software": "file-viewer-for-android",
+        "display_name": "File Viewer for Android"
+      }
+    ],
+    "web": [
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "AHK file open in Microsoft Notepad",
+      "alt": "AHK file open in Microsoft Notepad",
+      "source_url": "https://fileinfo.com/img/ss/md/ahk_3683.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-01-09",
+  "sources": [
+    {
+      "url": "ahk.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

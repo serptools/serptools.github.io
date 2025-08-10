@@ -1,0 +1,52 @@
+{
+  "slug": "wlmp",
+  "extension": "wlmp",
+  "name": "Windows Live Movie Maker Project",
+  "category": "windows-live-movie-maker-project",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 627,
+    "source": "fileinfo"
+  },
+  "summary": "A WLMP file is a movie project created by Windows Live Movie Maker, a program that allows users to create movies and slideshows. It contains paths to video, movie transitions, images, music, and effects featured in the movie project. WLMP files do not contain the actual content that appears in the movie project, only links to the content.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-windows-live-movie-maker",
+        "display_name": "Microsoft Windows Live Movie Maker",
+        "status": "discontinued"
+      },
+      {
+        "software": "nero-video",
+        "display_name": "Nero Video"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-09-27",
+  "sources": [
+    {
+      "url": "wlmp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

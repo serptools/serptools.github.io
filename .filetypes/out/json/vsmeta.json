@@ -1,0 +1,53 @@
+{
+  "slug": "vsmeta",
+  "extension": "vsmeta",
+  "name": "Video Station Metadata File",
+  "category": "video-station-metadata-file",
+  "developer_org": "synology",
+  "popularity": {
+    "rating": 2.7,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "A VSMETA file is a metadata file created by Synology Video Station. It is a binary file that contains identifying information, such as a title and description, for a video that can be accessed in Video Station. Video Station creates a VSMETA file when a user manually overwrites a video's Video Station metadata.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "web": [
+      {
+        "software": "synology-video-station",
+        "display_name": "Synology Video Station"
+      }
+    ],
+    "windows": [
+      {
+        "software": "synology-video-station",
+        "display_name": "Synology Video Station"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-09-13",
+  "sources": [
+    {
+      "url": "vsmeta.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

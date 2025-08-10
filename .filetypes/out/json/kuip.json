@@ -1,0 +1,47 @@
+{
+  "slug": "kuip",
+  "extension": "kuip",
+  "name": "Kingsoft Office Personalization File",
+  "category": "kingsoft-office-personalization-file",
+  "developer_org": "kingsoft",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "Personalization file used by WPS Office (previously known as Kingsoft Office), an office suite which includes the Writer, Spreadsheets, and Presentation applications; contains information used to configure the application's user interface, which includes the theme, style, and functionality.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "kingsoft-wps-office",
+        "display_name": "Kingsoft WPS Office"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-08-04",
+  "sources": [
+    {
+      "url": "kuip.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

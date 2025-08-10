@@ -1,0 +1,92 @@
+{
+  "slug": "tnef",
+  "extension": "tnef",
+  "name": "Transport Neutral Encapsulation Format",
+  "category": "transport-neutral-encapsulation-format",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "A TNEF file is an email attachment saved in Microsoft's Transport Neutral Encapsulation Format (TNEF). Microsoft Outlook and Microsoft Exchange Server may generate TNEF files when sending rich text format messages or messages that contain attachments. More commonly, TNEF files use the filename Winmail.dat .",
+  "standards": [],
+  "mime_types": [
+    "application/ms-tnef"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-outlook-365",
+        "display_name": "Microsoft Outlook 365"
+      },
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      },
+      {
+        "software": "tnef-s-enough",
+        "display_name": "TNEF's Enough"
+      },
+      {
+        "software": "kmail",
+        "display_name": "KMail"
+      },
+      {
+        "software": "ktnef",
+        "display_name": "KTNEF"
+      }
+    ],
+    "macos": [
+      {
+        "software": "microsoft-outlook-365",
+        "display_name": "Microsoft Outlook 365"
+      },
+      {
+        "software": "tnef-s-enough",
+        "display_name": "TNEF's Enough"
+      }
+    ],
+    "linux": [
+      {
+        "software": "kmail",
+        "display_name": "KMail"
+      },
+      {
+        "software": "ktnef",
+        "display_name": "KTNEF"
+      }
+    ],
+    "ios": [
+      {
+        "software": "tnef-s-enough",
+        "display_name": "TNEF's Enough"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-01-25",
+  "sources": [
+    {
+      "url": "tnef.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

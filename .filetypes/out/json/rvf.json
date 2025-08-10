@@ -1,0 +1,53 @@
+{
+  "slug": "rvf",
+  "extension": "rvf",
+  "name": "RichView Format File",
+  "category": "richview-format-file",
+  "developer_org": "sergey-tkachenko",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "An RVF file is a TRichView document saved in the RichView format (RVF), which supports \" rich text .\" It may contain text, images, bullets, hotspots (bullets with hypertext link), tables, and style templates. RVF files may be saved in text or binary (more compact) format using the RVFOptions component in TRichView.",
+  "standards": [],
+  "mime_types": [
+    "delphi/c"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "trichview",
+        "display_name": "TRichView"
+      },
+      {
+        "software": "aignesberger-am-notebook",
+        "display_name": "Aignesberger AM-Notebook"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2016-07-18",
+  "sources": [
+    {
+      "url": "rvf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

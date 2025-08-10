@@ -1,0 +1,47 @@
+{
+  "slug": "oms",
+  "extension": "oms",
+  "name": "HP Printer Substrate Presets Package File",
+  "category": "hp-printer-substrate-presets-package-file",
+  "developer_org": "hp",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "An OMS file is a substrate presets package used by HP printers, such as Latex and Scitex series printers. It contains an ICC profile and printing presets, such as color calibration targets, total ink volume, drying time, and gloss enhancer volume. OMS files are used to share presets that configure the process of printing onto different materials, such as paper, textiles, parchment, and plastic.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "web": [
+      {
+        "software": "hp-printer-embedded-web-server-see-entry",
+        "display_name": "HP printer embedded web server (see entry)"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-04-05",
+  "sources": [
+    {
+      "url": "oms.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

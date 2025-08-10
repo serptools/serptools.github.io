@@ -1,0 +1,47 @@
+{
+  "slug": "tpu",
+  "extension": "tpu",
+  "name": "Turbo Pascal Unit",
+  "category": "turbo-pascal-unit",
+  "developer_org": "borland",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "A TPU file is a Turbo Pascal unit. It contains a compiled program module that Turbo Pascal developers can import into a Turbo Pascal program, via the uses keyword. Saving a module as a TPU file allows developers to reuse the functions and procedures that module contains in multiple programs.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "borland-turbo-pascal",
+        "display_name": "Borland Turbo Pascal"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-04-25",
+  "sources": [
+    {
+      "url": "tpu.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

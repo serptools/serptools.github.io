@@ -1,0 +1,53 @@
+{
+  "slug": "eip",
+  "extension": "eip",
+  "name": "Enhanced Image Package File",
+  "category": "enhanced-image-package-file",
+  "developer_org": "phase-one",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "An EIP file is a raster image created by Capture One, a professional photo-editing application often used in conjunction with Phase One digital cameras. It is a Zip-compressed file that contains a RAW image, as well as custom settings, .ICC profiles, and .LCC profiles.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "phase-one-capture-one",
+        "display_name": "Phase One Capture One"
+      }
+    ],
+    "macos": [
+      {
+        "software": "phase-one-capture-one",
+        "display_name": "Phase One Capture One"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-09-18",
+  "sources": [
+    {
+      "url": "eip.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

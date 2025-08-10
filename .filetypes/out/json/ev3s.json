@@ -1,0 +1,53 @@
+{
+  "slug": "ev3s",
+  "extension": "ev3s",
+  "name": "LEGO MINDSTORMS EV3 Shared File",
+  "category": "lego-mindstorms-ev3-shared-file",
+  "developer_org": "the-lego-group",
+  "popularity": {
+    "rating": 4.1,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "An EV3S file is a shared file that is an .EV3P program exported from LEGO MINDSTORMS EV3, a LEGO robot creation program. It stores the same information as an EV3P program, including My Block commands that tell the robot what functions to perform, but in the shareable EV3S format designed for LEGO MINDSTORMS EV3 users to share programs with other users.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "lego-mindstorms-ev3",
+        "display_name": "LEGO MINDSTORMS EV3"
+      }
+    ],
+    "macos": [
+      {
+        "software": "lego-mindstorms-ev3",
+        "display_name": "LEGO MINDSTORMS EV3"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2024-03-19",
+  "sources": [
+    {
+      "url": "ev3s.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

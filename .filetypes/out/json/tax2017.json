@@ -1,0 +1,74 @@
+{
+  "slug": "tax2017",
+  "extension": "tax2017",
+  "name": "TurboTax 2017 Tax Return",
+  "category": "turbotax-2017-tax-return",
+  "developer_org": "intuit",
+  "popularity": {
+    "rating": 3.2,
+    "votes": 13,
+    "source": "fileinfo"
+  },
+  "summary": "A TAX2017 file is a United States tax return created with the 2017 version of Intuit TurboTax. It contains information about a user's tax return, which includes personal information, federal IRS tax forms, and one or more state forms for the 2017 tax year. TAX2017 files may be encrypted if saved with password protection since they store sensitive personal and financial data.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "intuit-turbotax",
+        "display_name": "Intuit TurboTax"
+      },
+      {
+        "software": "intuit-turbotax-online",
+        "display_name": "Intuit TurboTax Online"
+      }
+    ],
+    "macos": [
+      {
+        "software": "intuit-turbotax",
+        "display_name": "Intuit TurboTax"
+      }
+    ],
+    "web": [
+      {
+        "software": "intuit-turbotax-online",
+        "display_name": "Intuit TurboTax Online"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "TAX2017 file icon",
+      "alt": "TAX2017 file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/tax2017-10816.png"
+    },
+    {
+      "caption": "TAX2017 file open in Intuit TurboTax 2017",
+      "alt": "TAX2017 file open in Intuit TurboTax 2017",
+      "source_url": "https://fileinfo.com/img/ss/md/tax2017_10816.jpg"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-01-17",
+  "sources": [
+    {
+      "url": "tax2017.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

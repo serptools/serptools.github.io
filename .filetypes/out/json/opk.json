@@ -1,0 +1,56 @@
+{
+  "slug": "opk",
+  "extension": "opk",
+  "name": "GCW Zero Open Package",
+  "category": "gcw-zero-open-package",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 12,
+    "source": "fileinfo"
+  },
+  "summary": "An OPK file is a package used to distribute apps to GCW Zero, a Linux-based open source handheld video game. It stores information about an app, such as the app title, description, icon, launch metadata , and manual. OPK files are compressed to save space, which allows them to be more easily transferred.",
+  "standards": [],
+  "mime_types": [
+    "a320/a330",
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "linux": [
+      {
+        "software": "gcw-zero-manager",
+        "display_name": "GCW Zero Manager"
+      }
+    ],
+    "windows": [
+      {
+        "software": "gcw-zero-manager",
+        "display_name": "GCW Zero Manager"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-04-13",
+  "sources": [
+    {
+      "url": "opk.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

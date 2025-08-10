@@ -1,0 +1,67 @@
+{
+  "slug": "ghx",
+  "extension": "ghx",
+  "name": "Grasshopper XML Definition",
+  "category": "grasshopper-xml-definition",
+  "developer_org": "robert-mcneel-associates",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "A GHX file is a geometry-generating program created using Grasshopper, a visual programming environment included with McNeel Rhino. It is used to automatically create or shape a Rhino model ( .3DM file). GHX files are XML versions of .GH files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "mcneel-rhino",
+        "display_name": "McNeel Rhino"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "mcneel-rhino",
+        "display_name": "McNeel Rhino"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "GHX file open in Microsoft Visual Studio Code",
+      "alt": "GHX file open in Microsoft Visual Studio Code",
+      "source_url": "https://fileinfo.com/img/ss/md/ghx_12212.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-07-23",
+  "sources": [
+    {
+      "url": "ghx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

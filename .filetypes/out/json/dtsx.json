@@ -1,0 +1,47 @@
+{
+  "slug": "dtsx",
+  "extension": "dtsx",
+  "name": "DTS Settings File",
+  "category": "dts-settings-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 4.2,
+    "votes": 12,
+    "source": "fileinfo"
+  },
+  "summary": "Data Transformation Services (DTS) file used by SQL Server, an RDBMS (relational database management system) application; specifies settings for migrating data between databases; allows the integration of external data sources.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-sql-server-2019",
+        "display_name": "Microsoft SQL Server 2019"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-05-05",
+  "sources": [
+    {
+      "url": "dtsx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

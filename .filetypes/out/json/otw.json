@@ -1,0 +1,47 @@
+{
+  "slug": "otw",
+  "extension": "otw",
+  "name": "Origin Workbook Template",
+  "category": "origin-workbook-template",
+  "developer_org": "originlab",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "An OTW file is a workbook template created by Origin, a data analysis and graphing application used by various scientists and engineers. It contains the layout settings for one or more worksheets, which include the number of rows and columns, theme, and added notations. OTW files are used to create .OGW workbooks.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "originlab-origin",
+        "display_name": "OriginLab Origin"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-02-01",
+  "sources": [
+    {
+      "url": "otw.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

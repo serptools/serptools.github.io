@@ -1,0 +1,67 @@
+{
+  "slug": "graphmlz",
+  "extension": "graphmlz",
+  "name": "Zip Compressed GraphML File",
+  "category": "zip-compressed-graphml-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "GraphML file ( .GRAPHML ) compressed with .ZIP compression; contains a graph comprised of nodes and edges as well as their properties; used for reducing the file size of standard GraphML files for sharing and storage.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "yworks-yed-graph-editor",
+        "display_name": "yWorks yEd Graph Editor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "yworks-yed-graph-editor",
+        "display_name": "yWorks yEd Graph Editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "yworks-yed-graph-editor",
+        "display_name": "yWorks yEd Graph Editor"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "GRAPHMLZ file icon",
+      "alt": "GRAPHMLZ file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/graphmlz-7297.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-09-25",
+  "sources": [
+    {
+      "url": "graphmlz.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

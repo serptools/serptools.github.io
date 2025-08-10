@@ -1,0 +1,79 @@
+{
+  "slug": "qtm",
+  "extension": "qtm",
+  "name": "Apple QuickTime Movie",
+  "category": "apple-quicktime-movie",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 2.8,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "A QTM file is a video saved in Apple's QuickTime File Format (QTFF). It likely contains a movie or short video clip. QTM files are uncommon; QuickTime movies are more commonly saved as .MOV or .QT files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "apple-quicktime-player",
+        "display_name": "Apple QuickTime Player"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "videolan-vlc-for-mobile",
+        "display_name": "VideoLAN VLC for Mobile"
+      }
+    ],
+    "android": [
+      {
+        "software": "videolabs-vlc-for-android",
+        "display_name": "Videolabs VLC for Android"
+      }
+    ],
+    "macos": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      }
+    ],
+    "linux": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      }
+    ],
+    "ios": [
+      {
+        "software": "videolan-vlc-for-mobile",
+        "display_name": "VideoLAN VLC for Mobile"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-09-13",
+  "sources": [
+    {
+      "url": "qtm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

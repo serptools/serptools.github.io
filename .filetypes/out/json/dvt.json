@@ -1,0 +1,51 @@
+{
+  "slug": "dvt",
+  "extension": "dvt",
+  "name": "Digital Video Transcript",
+  "category": "digital-video-transcript",
+  "developer_org": "indata",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "A DVT file is a digital video transcript created and used by IPRO TrialDirector or inData DepoView, which are legal deposition transcription programs. It contains a deposition transcript and a video clip associated with that transcript. DVT files are often used to show deposition clips and transcripts to juries.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "ipro-trialdirector",
+        "display_name": "IPRO TrialDirector"
+      },
+      {
+        "software": "indata-depoview",
+        "display_name": "inData DepoView"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-10-28",
+  "sources": [
+    {
+      "url": "dvt.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "slug": "pjpg",
+  "extension": "pjpg",
+  "name": "Progressive JPEG Image",
+  "category": "progressive-jpeg-image",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 12,
+    "source": "fileinfo"
+  },
+  "summary": "A PJPG file is a raster image saved in the Progressive JPEG (PJPEG) format, which stores multiple layers, or \"scans,\" of an image rendered by a web browser to provide the user a glimpse of the image as it loads. While more common in the late 1990s and early 2000s (due to its use by Microsoft Internet Explorer ), PJPG files are rare now, and PJPEG images are typically saved with the .jpg extension ( .JPG files). Users can open a PJPG file by renaming the .pjpg extension to .jpg , then opening it with a program that supports JPEG images, such as Microsoft Photos in Windows or Apple Preview in macOS.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "image-viewer",
+        "display_name": "image viewer"
+      },
+      {
+        "software": "microsoft-internet-explorer",
+        "display_name": "Microsoft Internet Explorer",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "PJPG file open in Apple Preview 11",
+      "alt": "PJPG file open in Apple Preview 11",
+      "source_url": "https://fileinfo.com/img/ss/md/pjpg_6125.jpg"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-05-17",
+  "sources": [
+    {
+      "url": "pjpg.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

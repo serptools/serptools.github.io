@@ -1,0 +1,123 @@
+{
+  "slug": "asf",
+  "extension": "asf",
+  "name": "Advanced Systems Format File",
+  "category": "advanced-systems-format-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 189,
+    "source": "fileinfo"
+  },
+  "summary": "An ASF file is a multimedia file stored in the Advanced Systems Format (ASF), a proprietary video and audio container format. It may store only audio data or video and audio data, along with optional metadata, such as title, author, and bibliographic copyright data. Microsoft developed ASF files primarily for streaming media online.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "microsoft-media-player",
+        "display_name": "Microsoft Media Player"
+      },
+      {
+        "software": "microsoft-movies-tv",
+        "display_name": "Microsoft Movies & TV"
+      },
+      {
+        "software": "microsoft-windows-media-player",
+        "display_name": "Microsoft Windows Media Player"
+      },
+      {
+        "software": "nullsoft-winamp",
+        "display_name": "Nullsoft Winamp"
+      },
+      {
+        "software": "cyberlink-powerproducer-6",
+        "display_name": "CyberLink PowerProducer 6"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "applian-replay-converter",
+        "display_name": "Applian Replay Converter"
+      },
+      {
+        "software": "nch-wavepad",
+        "display_name": "NCH WavePad"
+      },
+      {
+        "software": "shedworx-smart-converter",
+        "display_name": "ShedWorx Smart Converter"
+      },
+      {
+        "software": "pentaloop-playerxtreme-media-player",
+        "display_name": "PentaLoop PlayerXtreme Media Player"
+      }
+    ],
+    "macos": [
+      {
+        "software": "aiseesoft-mac-video-converter-ultimate",
+        "display_name": "Aiseesoft Mac Video Converter Ultimate"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "shedworx-smart-converter",
+        "display_name": "ShedWorx Smart Converter"
+      },
+      {
+        "software": "nch-wavepad",
+        "display_name": "NCH WavePad"
+      }
+    ],
+    "linux": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      }
+    ],
+    "ios": [
+      {
+        "software": "pentaloop-playerxtreme-media-player",
+        "display_name": "PentaLoop PlayerXtreme Media Player"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "ASF file open in VideoLAN VLC media player",
+      "alt": "ASF file open in VideoLAN VLC media player",
+      "source_url": "https://fileinfo.com/img/ss/md/asf_6.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-12-06",
+  "sources": [
+    {
+      "url": "asf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "vsz",
+  "extension": "vsz",
+  "name": "Visual Studio Wizard File",
+  "category": "visual-studio-wizard-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "File used by Visual Studio, a software development program; saves specifications for a wizard, which guides the user through a series of questions to complete a task; used for building custom wizards that add functionality to Visual Studio and the software development process.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-visual-studio-2022",
+        "display_name": "Microsoft Visual Studio 2022"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-12-05",
+  "sources": [
+    {
+      "url": "vsz.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

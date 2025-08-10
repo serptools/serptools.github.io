@@ -1,0 +1,22 @@
+{
+  "slug": "wlx",
+  "extension": "wlx",
+  "name": "Windows Live Mesh Sync File",
+  "category": "windows-live-mesh-sync-file",
+  "summary": "",
+  "developer_org": "verity-software-house",
+  "developer_name": "Verity Software House",
+  "more_information": {
+    "description": [
+      "WLX filenames are created by appending the \".wlx\" suffix to the files that need to be synchronized. For example, if myimage.png needs to be synchronized from a remote location, Live Mesh creates a temporary file named myimage.png.wlx in the local directory. When synchronization is complete (when the file is downloaded), Live Mesh removes the WLX file.",
+      "NOTE: Live Mesh was discontinued in 2013 and is now Microsoft OneDrive."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "wlx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

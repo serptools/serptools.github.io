@@ -1,0 +1,79 @@
+{
+  "slug": "rbc",
+  "extension": "rbc",
+  "name": "Rembo-C Script",
+  "category": "1.-rembo-c-script",
+  "developer_org": "ibm",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "Script written in Rembo-C, a scripting language that uses syntax similar to C; often used for automating server management operations; requires a Rembo installation on the server to run, but can be edited in a text editor.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "rembo-toolkit",
+        "display_name": "Rembo Toolkit"
+      },
+      {
+        "software": "ibm-tivoli-provisioning-manager-formerly-rembo-auto-deploy",
+        "display_name": "IBM Tivoli Provisioning Manager (formerly Rembo Auto-Deploy)"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "emc-insignia-retrospect-or-retrospect-express",
+        "display_name": "EMC Insignia Retrospect or Retrospect Express"
+      }
+    ],
+    "linux": [
+      {
+        "software": "rembo-toolkit",
+        "display_name": "Rembo Toolkit"
+      },
+      {
+        "software": "ibm-tivoli-provisioning-manager-formerly-rembo-auto-deploy",
+        "display_name": "IBM Tivoli Provisioning Manager (formerly Rembo Auto-Deploy)"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "emc-insignia-retrospect-or-retrospect-express",
+        "display_name": "EMC Insignia Retrospect or Retrospect Express"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2007-11-26",
+  "sources": [
+    {
+      "url": "rbc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "dtb",
+  "extension": "dtb",
+  "name": "Device Tree Blob File",
+  "category": "device-tree-blob-file",
+  "developer_org": "devicetree",
+  "popularity": {
+    "rating": 4.3,
+    "votes": 16,
+    "source": "fileinfo"
+  },
+  "summary": "A DTB file is a device tree (or devicetree) blob file used by the Linux kernel . It contains binary data that describes a computer's hardware . DTB files allow operating systems to manage a computer's components by telling the operating system what hardware the computer includes.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "linux": [
+      {
+        "software": "linux",
+        "display_name": "Linux"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-05-13",
+  "sources": [
+    {
+      "url": "dtb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

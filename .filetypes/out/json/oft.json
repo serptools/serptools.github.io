@@ -1,0 +1,73 @@
+{
+  "slug": "oft",
+  "extension": "oft",
+  "name": "Outlook File Template",
+  "category": "outlook-file-template",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 24,
+    "source": "fileinfo"
+  },
+  "summary": "An OFT file is an email template created by Microsoft Outlook, a popular email client for Windows. It contains an email message, which may include a message and pre-formatted layout that can be used for creating custom messages with a similar appearance. OFT files may also be saved as an Outlook \"form,\" which includes a script that runs when the file is opened.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "microsoft-outlook-365",
+        "display_name": "Microsoft Outlook 365"
+      },
+      {
+        "software": "aryson-oft-converter",
+        "display_name": "Aryson OFT Converter"
+      }
+    ],
+    "android": [
+      {
+        "software": "file-viewer-for-android",
+        "display_name": "File Viewer for Android"
+      }
+    ],
+    "macos": [
+      {
+        "software": "aryson-oft-converter",
+        "display_name": "Aryson OFT Converter"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "OFT file icon",
+      "alt": "OFT file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/oft-479.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-03-18",
+  "sources": [
+    {
+      "url": "oft.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

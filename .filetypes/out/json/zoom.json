@@ -1,0 +1,59 @@
+{
+  "slug": "zoom",
+  "extension": "zoom",
+  "name": "Zoom Recording File",
+  "category": "zoom-recording-file",
+  "developer_org": "zoom-video-communications",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 11,
+    "source": "fileinfo"
+  },
+  "summary": "A ZOOM file is a Zoom meeting recording that has not yet been converted to an .MP4 file. It contains video, audio, or text data recorded through Zoom. ZOOM files are typically named double_click_to_convert_##.zoom .",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "zoom-communications-zoom",
+        "display_name": "Zoom Communications Zoom"
+      }
+    ],
+    "macos": [
+      {
+        "software": "zoom-communications-zoom",
+        "display_name": "Zoom Communications Zoom"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "ZOOM file icon",
+      "alt": "ZOOM file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/zoom-12158.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-06-29",
+  "sources": [
+    {
+      "url": "zoom.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

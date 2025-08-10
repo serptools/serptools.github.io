@@ -1,0 +1,47 @@
+{
+  "slug": "sdlxliff",
+  "extension": "sdlxliff",
+  "name": "SDL Trados XLIFF Localization File",
+  "category": "sdl-trados-xliff-localization-file",
+  "developer_org": "sdl",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "File created by SDL Trados, a program used for translation; based on the open XLIFF (XML Localization Interchange File Format) standard, but contains some proprietary extensions; can be converted to the .TTX format in SDL Trados to exchange the data in a more commonly used translation format.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "sdl-trados-studio",
+        "display_name": "SDL Trados Studio"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-09-12",
+  "sources": [
+    {
+      "url": "sdlxliff.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

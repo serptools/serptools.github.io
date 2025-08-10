@@ -1,0 +1,63 @@
+{
+  "slug": "tax2012",
+  "extension": "tax2012",
+  "name": "TurboTax 2012 Tax Return",
+  "category": "turbotax-2012-tax-return",
+  "developer_org": "intuit",
+  "popularity": {
+    "rating": 4.3,
+    "votes": 11,
+    "source": "fileinfo"
+  },
+  "summary": "Tax return created with TurboTax 2012, a United States tax preparation program; contains federal and often state tax forms, along with user data entered through TurboTax; stores your progress when completing a tax return and allows you to pause and resume your tax return at a later time.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "intuit-turbotax",
+        "display_name": "Intuit TurboTax"
+      },
+      {
+        "software": "intuit-turbotax-online",
+        "display_name": "Intuit TurboTax Online"
+      }
+    ],
+    "macos": [
+      {
+        "software": "intuit-turbotax",
+        "display_name": "Intuit TurboTax"
+      }
+    ],
+    "web": [
+      {
+        "software": "intuit-turbotax-online",
+        "display_name": "Intuit TurboTax Online"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2016-12-05",
+  "sources": [
+    {
+      "url": "tax2012.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

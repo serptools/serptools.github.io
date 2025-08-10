@@ -1,0 +1,165 @@
+{
+  "slug": "bzip2",
+  "extension": "bzip2",
+  "name": "Bzip2 Compressed Archive",
+  "category": "bzip2-compressed-archive",
+  "developer_org": "bzip",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "Compressed archive containing one or more files that have been compressed using the bzip2 compression algorithm; typically reduced to 10-15% of the original file size; bzip2 is a standard file compression program included with many Unix/Linux distributions.",
+  "standards": [],
+  "mime_types": [
+    "unix/linux"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "smith-micro-stuffit-deluxe",
+        "display_name": "Smith Micro StuffIt Deluxe",
+        "status": "discontinued"
+      },
+      {
+        "software": "rarlab-winrar",
+        "display_name": "RARLAB WinRAR"
+      },
+      {
+        "software": "bzip2",
+        "display_name": "bzip2"
+      },
+      {
+        "software": "b1-free-archiver",
+        "display_name": "B1 Free Archiver",
+        "pricing": "free"
+      },
+      {
+        "software": "apple-archive-utility",
+        "display_name": "Apple Archive Utility"
+      },
+      {
+        "software": "the-unarchiver",
+        "display_name": "The Unarchiver"
+      },
+      {
+        "software": "keka",
+        "display_name": "Keka"
+      },
+      {
+        "software": "zip-file-unarchiver",
+        "display_name": "Zip File Unarchiver"
+      },
+      {
+        "software": "bunzip2",
+        "display_name": "bunzip2"
+      },
+      {
+        "software": "b1-online-archiver",
+        "display_name": "B1 Online Archiver"
+      },
+      {
+        "software": "rarlab-rar",
+        "display_name": "RARLAB RAR"
+      }
+    ],
+    "macos": [
+      {
+        "software": "smith-micro-stuffit-deluxe-mac-16",
+        "display_name": "Smith Micro StuffIt Deluxe Mac 16",
+        "status": "discontinued"
+      },
+      {
+        "software": "apple-archive-utility",
+        "display_name": "Apple Archive Utility"
+      },
+      {
+        "software": "the-unarchiver",
+        "display_name": "The Unarchiver"
+      },
+      {
+        "software": "keka",
+        "display_name": "Keka"
+      },
+      {
+        "software": "zip-file-unarchiver",
+        "display_name": "Zip File Unarchiver"
+      },
+      {
+        "software": "b1-free-archiver",
+        "display_name": "B1 Free Archiver",
+        "pricing": "free"
+      }
+    ],
+    "android": [
+      {
+        "software": "file-viewer-for-android",
+        "display_name": "File Viewer for Android"
+      },
+      {
+        "software": "rarlab-rar",
+        "display_name": "RARLAB RAR"
+      },
+      {
+        "software": "b1-free-archiver",
+        "display_name": "B1 Free Archiver",
+        "pricing": "free"
+      }
+    ],
+    "linux": [
+      {
+        "software": "bzip2",
+        "display_name": "bzip2"
+      },
+      {
+        "software": "bunzip2",
+        "display_name": "bunzip2"
+      },
+      {
+        "software": "b1-free-archiver",
+        "display_name": "B1 Free Archiver",
+        "pricing": "free"
+      }
+    ],
+    "web": [
+      {
+        "software": "b1-online-archiver",
+        "display_name": "B1 Online Archiver"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "BZIP2 file icon",
+      "alt": "BZIP2 file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/bzip2-2885.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-07-02",
+  "sources": [
+    {
+      "url": "bzip2.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

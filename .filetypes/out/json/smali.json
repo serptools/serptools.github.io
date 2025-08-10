@@ -1,0 +1,65 @@
+{
+  "slug": "smali",
+  "extension": "smali",
+  "name": "Android Smali Assembly Language File",
+  "category": "android-smali-assembly-language-file",
+  "developer_org": "google",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 17,
+    "source": "fileinfo"
+  },
+  "summary": "Developer file written in Smali, the assembly language used by the Android Dalvik Virtual Machine; usually created by decompiling .DEX (Dalvik Executable) files, which are the executables included in Android apps ( .APK files); usually used for low-level inspection of an Android app's contents, or for hacking Android apps.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "notepad++",
+        "display_name": "Notepad++"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-09-26",
+  "sources": [
+    {
+      "url": "smali.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "nc1",
+  "extension": "nc1",
+  "name": "Mastercam Numerical Control File",
+  "category": "mastercam-numerical-control-file",
+  "developer_org": "cnc-software",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "An NC1 file is a numerical control file created by Mastercam, a suite of CAD programs used for designing and manufacturing components. It contains instructions for directing a machine tool, such as a laser cutter, nester, welder, or drill, during production. NC1 files are the same as .NC files but with a different extension.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "cnc-software-mastercam",
+        "display_name": "CNC Software Mastercam"
+      },
+      {
+        "software": "fastcam-drawing-editor",
+        "display_name": "FastCAM Drawing Editor"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-03-10",
+  "sources": [
+    {
+      "url": "nc1.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

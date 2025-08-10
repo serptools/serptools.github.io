@@ -1,0 +1,47 @@
+{
+  "slug": "addon",
+  "extension": "addon",
+  "name": "CFS Console Add-on",
+  "category": "cfs-console-add-on",
+  "developer_org": "zaplots",
+  "popularity": {
+    "rating": 2.5,
+    "votes": 10,
+    "source": "fileinfo"
+  },
+  "summary": "An ADDON file is an add-on for Zaplots CFS Console, a console app used to install and run Zaplots software. It contains a feature that can be added to CFS Console. ADDON files are installed using .AOIS (Add-on Installer Settings) files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "zaplots-cfs-console",
+        "display_name": "Zaplots CFS Console"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-08-03",
+  "sources": [
+    {
+      "url": "addon.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

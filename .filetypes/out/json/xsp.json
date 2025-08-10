@@ -1,0 +1,83 @@
+{
+  "slug": "xsp",
+  "extension": "xsp",
+  "name": "Kodi Smart Playlist File",
+  "category": "kodi-smart-playlist-file",
+  "developer_org": "xbmc-foundation",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "Song or video playlist used by Kodi, a free software multimedia player; may contain a list of specific audio and video files to play, or may store criteria for the types of media to play (e.g., play Rock music or all 90s music); can specify songs, albums, movies, TV shows, and other types of media.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "kodi",
+        "display_name": "Kodi"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "kodi",
+        "display_name": "Kodi"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "kodi",
+        "display_name": "Kodi"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "ios": [
+      {
+        "software": "kodi",
+        "display_name": "Kodi"
+      }
+    ],
+    "android": [
+      {
+        "software": "kodi",
+        "display_name": "Kodi"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-01-21",
+  "sources": [
+    {
+      "url": "xsp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

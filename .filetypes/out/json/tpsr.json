@@ -1,0 +1,59 @@
+{
+  "slug": "tpsr",
+  "extension": "tpsr",
+  "name": "TeamViewer Pilot Session Report File",
+  "category": "teamviewer-pilot-session-report-file",
+  "developer_org": "teamviewer",
+  "popularity": {
+    "rating": 4.2,
+    "votes": 18,
+    "source": "fileinfo"
+  },
+  "summary": "A TPSR file stores a connection protocol created after a TeamViewer Pilot connection conducted through the desktop version of TeamViewer. It is a Zip-compressed archive that contains a .JSON data file and one or more .PNG screenshots of the connection when annotations are added.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "teamviewer-for-windows",
+        "display_name": "TeamViewer for Windows"
+      }
+    ],
+    "macos": [
+      {
+        "software": "teamviewer-for-mac",
+        "display_name": "TeamViewer for Mac"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "TPSR file icon",
+      "alt": "TPSR file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/tpsr-11828.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-12-29",
+  "sources": [
+    {
+      "url": "tpsr.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

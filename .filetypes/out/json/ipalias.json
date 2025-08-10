@@ -1,0 +1,55 @@
+{
+  "slug": "ipalias",
+  "extension": "ipalias",
+  "name": "iPhoto Alias File",
+  "category": "iphoto-alias-file",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "File created by iPhoto, a photo editor and organizer; created to assist applications that are older, 3rd party, or non-updated to link to the original photo file; hidden in the iPhoto library; not meant to be opened by the user and should not be deleted.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "apple-iphoto-9.6",
+        "display_name": "Apple iPhoto 9.6",
+        "status": "discontinued"
+      }
+    ],
+    "windows": [
+      {
+        "software": "apple-iphoto-9.6",
+        "display_name": "Apple iPhoto 9.6",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-07-30",
+  "sources": [
+    {
+      "url": "ipalias.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

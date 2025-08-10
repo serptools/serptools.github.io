@@ -1,0 +1,38 @@
+{
+  "slug": "swift",
+  "extension": "swift",
+  "name": "Swift Source Code File",
+  "summary": "A SWIFT file contains source code written in the Swift programming language . It is likely part of a Swift app development project. For example, SWIFT files may be referenced in an .XCODEPROJ file or included in a .SWIFTPM file.",
+  "developer": "Apple",
+  "developer_slug": "apple",
+  "category": "Developer Files",
+  "category_slug": "developer-files",
+  "rating": 3.9,
+  "votes": 28,
+  "last_updated": "November 14, 2022",
+  "more_information": {
+    "content": [
+      "Swift is a programming language that developers use to create apps for Apple devices, such as MacBooks and iPhones. Primarily, developers create Swift apps using Apple Xcode, an IDE for macOS, or Swift Playgrounds, an iPad and Mac app for novice Swift developers.",
+      "As developers create Swift apps, they save the source code they write in SWIFT files. In Xcode development projects, SWIFT files are saved within the project's directory structure and referenced within the project's XCODEPROJ file. In Swift Playgrounds development projects, SWIFT files are saved within the project's SWIFTPM file.",
+      "NOTE: Apple introduced the Swift language with iOS 8 and macOS Yosemite."
+    ],
+    "screenshot": {
+      "url": "https://fileinfo.com/img/ss/sm/swift_9517.png",
+      "srcset": "https://fileinfo.com/img/ss/md/swift_9517.png 760w, https://fileinfo.com/img/ss/sm/swift_9517.png 380w",
+      "alt": "Screenshot of a .swift file in Microsoft Visual Studio Code",
+      "width": "380",
+      "height": "253",
+      "caption": "SWIFT file open in Microsoft Visual Studio Code"
+    }
+  },
+  "how_to_open": {
+    "instructions": [
+      "SWIFT files are meant to be opened and edited with Apple Xcode (Mac) or Apple Swift Playgrounds (iOS), which contain features tailored specifically for Swift development. However, you can open and edit a SWIFT file with any source code or text editor, including Microsoft Visual Studio Code (multiplatform) and GitHub Atom (multiplatform)."
+    ]
+  },
+  "scraped_at": "2025-08-09T21:58:55.033002",
+  "source": {
+    "url": "https://fileinfo.com/extension/swift",
+    "file": "swift.html"
+  }
+}

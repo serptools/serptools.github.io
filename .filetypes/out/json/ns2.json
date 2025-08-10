@@ -1,0 +1,61 @@
+{
+  "slug": "ns2",
+  "extension": "ns2",
+  "name": "Lotus Notes 2 Database",
+  "category": "lotus-notes-2-database",
+  "developer_org": "ibm",
+  "popularity": {
+    "rating": 2.5,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Data file created by Lotus Notes 2.x; contains contact list, notebook, calendar, and other information; used to store contact information and to collaborate with other Lotus Notes users.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "ibm-lotus-notes-2-or-later",
+        "display_name": "IBM Lotus Notes 2 or later"
+      },
+      {
+        "software": "lotus-domino",
+        "display_name": "Lotus Domino"
+      }
+    ],
+    "macos": [
+      {
+        "software": "ibm-lotus-notes-2-or-later",
+        "display_name": "IBM Lotus Notes 2 or later"
+      },
+      {
+        "software": "lotus-domino",
+        "display_name": "Lotus Domino"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-02-03",
+  "sources": [
+    {
+      "url": "ns2.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

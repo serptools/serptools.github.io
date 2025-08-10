@@ -1,0 +1,70 @@
+{
+  "slug": "mbr",
+  "extension": "mbr",
+  "name": "Master Boot Record File",
+  "category": "1.-master-boot-record-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 18,
+    "source": "fileinfo"
+  },
+  "summary": "System file used by Linux operating systems; contains the master boot record, which is used to startup, or bootstrap, the operating system; used for saving or distributing the MBR data.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "linux": [
+      {
+        "software": "canonical-wubi",
+        "display_name": "Canonical Wubi",
+        "status": "discontinued"
+      },
+      {
+        "software": "gnu-grub",
+        "display_name": "GNU GRUB"
+      }
+    ],
+    "windows": [
+      {
+        "software": "canonical-wubi",
+        "display_name": "Canonical Wubi",
+        "status": "discontinued"
+      },
+      {
+        "software": "gnu-grub",
+        "display_name": "GNU GRUB"
+      },
+      {
+        "software": "microsoft-zune",
+        "display_name": "Microsoft Zune",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-01-07",
+  "sources": [
+    {
+      "url": "mbr.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

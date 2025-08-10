@@ -1,0 +1,53 @@
+{
+  "slug": "rxe",
+  "extension": "rxe",
+  "name": "Lego Mindstorms NXT Executable Program",
+  "category": "lego-mindstorms-nxt-executable-program",
+  "developer_org": "the-lego-group",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 16,
+    "source": "fileinfo"
+  },
+  "summary": "Program written for a Lego Mindstorms NXT robot, a programmable robot developed by LEGO; contains instructions that can be executed by an NXT robot; may control the robot's motors as well as the touch, sound, light, and ultrasonic sensors.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "lego-mindstorms-nxt-software",
+        "display_name": "LEGO Mindstorms NXT Software"
+      }
+    ],
+    "macos": [
+      {
+        "software": "lego-mindstorms-nxt-software",
+        "display_name": "LEGO Mindstorms NXT Software"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-01-02",
+  "sources": [
+    {
+      "url": "rxe.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

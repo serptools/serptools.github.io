@@ -1,0 +1,105 @@
+{
+  "slug": "phyphox",
+  "extension": "phyphox",
+  "name": "phyphox Experiment",
+  "category": "phyphox-experiment",
+  "developer_org": "rwth-aachen-university",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "A PHYPHOX file is a custom experiment created for use with phyphox. It contains XML data that defines the experiment's name, inputs, outputs, views, data analysis procedures, and data output formats. You can create PHYPHOX files in the web-based pyhphox Experiment Editor.",
+  "standards": [],
+  "mime_types": [
+    "download/transfer"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "phyphox-experiment-editor",
+        "display_name": "phyphox Experiment Editor"
+      },
+      {
+        "software": "phyphox",
+        "display_name": "phyphox"
+      }
+    ],
+    "chromeos": [
+      {
+        "software": "google-chrome-text",
+        "display_name": "Google Chrome Text"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "web": [
+      {
+        "software": "phyphox-experiment-editor",
+        "display_name": "phyphox Experiment Editor"
+      }
+    ],
+    "ios": [
+      {
+        "software": "phyphox",
+        "display_name": "phyphox"
+      }
+    ],
+    "android": [
+      {
+        "software": "phyphox",
+        "display_name": "phyphox"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "PHYPHOX file open in phyphox Experiment Editor",
+      "alt": "PHYPHOX file open in phyphox Experiment Editor",
+      "source_url": "https://fileinfo.com/img/ss/md/phyphox_12628.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-03-29",
+  "sources": [
+    {
+      "url": "phyphox.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

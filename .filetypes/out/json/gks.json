@@ -1,0 +1,51 @@
+{
+  "slug": "gks",
+  "extension": "gks",
+  "name": "Graphics Kernel System File",
+  "category": "graphics-kernel-system-file",
+  "developer_org": "international-organization-for-standardization",
+  "popularity": {
+    "rating": 2.3,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "Vector graphics file format defined by the International Organization for Standards (ISO) in 1977; contains 2D or 3D graphical data used for charts or other plots; designed as a cross-platform graphics format.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "modpath",
+        "display_name": "MODPATH"
+      },
+      {
+        "software": "gflash-with-the-ncar-gks-package",
+        "display_name": "GFLASH with the NCAR GKS Package"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-05-18",
+  "sources": [
+    {
+      "url": "gks.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

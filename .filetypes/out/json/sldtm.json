@@ -1,0 +1,47 @@
+{
+  "slug": "sldtm",
+  "extension": "sldtm",
+  "name": "SDL Translation Memory File",
+  "category": "sdl-translation-memory-file",
+  "developer_org": "sdl",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "Data file created by SDL Trados Studio language translation software; stores a \"translation memory,\" which is a linguistic database that saves translation data as a user translates written information; includes \"100% matches\" as well as \"fuzzy matches.\"",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "sdl-trados-studio",
+        "display_name": "SDL Trados Studio"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-01-31",
+  "sources": [
+    {
+      "url": "sldtm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

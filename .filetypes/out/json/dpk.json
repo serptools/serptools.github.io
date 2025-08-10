@@ -1,0 +1,61 @@
+{
+  "slug": "dpk",
+  "extension": "dpk",
+  "name": "Delphi Package",
+  "category": "delphi-package",
+  "developer_org": "embarcadero-technologies",
+  "popularity": {
+    "rating": 2.5,
+    "votes": 12,
+    "source": "fileinfo"
+  },
+  "summary": "File used by Delphi Windows development software; may store a package for extending Delphi applications (runtime packages) or the Delphi IDE itself (designtime packages); often contains a reusable development component such as a user interface component.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "embarcadero-delphi",
+        "display_name": "Embarcadero Delphi"
+      },
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      }
+    ],
+    "web": [
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-04-24",
+  "sources": [
+    {
+      "url": "dpk.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

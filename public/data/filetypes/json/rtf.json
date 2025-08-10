@@ -1,0 +1,60 @@
+{
+  "slug": "rtf",
+  "extension": "rtf",
+  "name": "Rich Text Format File",
+  "summary": "An RTF file is a text document that supports font styling known as \" rich text .\" Examples include bold, italicized, and underlined text, as well as different typefaces and font sizes. Rich text files also support page formatting options, such as custom line spacing, tab width, and document margins. Modern versions of the RTF format can also contain images, such as .JPG and .PNG files.",
+  "developer": "Microsoft",
+  "developer_slug": "microsoft",
+  "category": "Text Files",
+  "category_slug": "text-files",
+  "rating": 3.5,
+  "votes": 529,
+  "last_updated": "April 6, 2023",
+  "more_information": {
+    "content": [
+      "Microsoft introduced the Rich Text Format (RTF) in 1987 as an alternative to the standard plain text format. Over the next few decades, the company made several incremental updates to the format, such as adding embedded image support. While Microsoft stopped updating the RTF format in 2008, most word processors still support rich text files.",
+      "Since RTF is widely-supported, it is an ideal choice for those who need to transfer and edit documents across multiple operating systems and devices. For example, if you use a Windows PC at work but a Mac at home, you can save a Microsoft WordPad document as an RTF file on your work computer, email the file to yourself, and then open it in Apple TextEdit at home.",
+      "NOTE: You may encounter minor formatting discrepancies when opening an RTF file created by one program in another. These changes can be attributed to the different versions of the RTF format that various programs support."
+    ],
+    "screenshot": {
+      "url": "https://fileinfo.com/img/ss/sm/rtf_93.png",
+      "srcset": "https://fileinfo.com/img/ss/md/rtf_93.png 760w, https://fileinfo.com/img/ss/sm/rtf_93.png 380w",
+      "alt": "Screenshot of a .rtf file in Microsoft WordPad",
+      "width": "380",
+      "height": "253",
+      "caption": "RTF file open in Microsoft WordPad"
+    }
+  },
+  "how_to_open": {
+    "instructions": [
+      "You can open an RTF file with most word processing programs, including:"
+    ],
+    "programs": [
+      {
+        "name": "Microsoft WordPad",
+        "url": "../software/microsoft/wordpad.html"
+      },
+      {
+        "name": "Apple TextEdit",
+        "url": "../software/apple/textedit.html"
+      },
+      {
+        "name": "Microsoft Word",
+        "url": "../software/microsoft/word.html"
+      },
+      {
+        "name": "OpenOffice Writer",
+        "url": "../software/apache/openoffice.html"
+      },
+      {
+        "name": "Google Docs",
+        "url": "../software/google/docs.html"
+      }
+    ]
+  },
+  "scraped_at": "2025-08-09T21:58:54.632662",
+  "source": {
+    "url": "https://fileinfo.com/extension/rtf",
+    "file": "rtf.html"
+  }
+}

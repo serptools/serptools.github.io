@@ -1,0 +1,93 @@
+{
+  "slug": "r21",
+  "extension": "r21",
+  "name": "WinRAR Split Archive Part 21",
+  "category": "winrar-split-archive-part-21",
+  "developer_org": "eugene-roshal",
+  "popularity": {
+    "rating": 2.2,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "File created as part of a multi-volume compressed .RAR archive; stores part 21 of a compressed, split archive; used for reconstructing an original file with the other split archive parts.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "rarlab-winrar",
+        "display_name": "RARLAB WinRAR"
+      },
+      {
+        "software": "smith-micro-stuffit-deluxe",
+        "display_name": "Smith Micro StuffIt Deluxe",
+        "status": "discontinued"
+      },
+      {
+        "software": "corel-winzip",
+        "display_name": "Corel WinZip"
+      },
+      {
+        "software": "7-zip",
+        "display_name": "7-Zip"
+      },
+      {
+        "software": "zipeg",
+        "display_name": "Zipeg"
+      },
+      {
+        "software": "incredible-bee-archiver",
+        "display_name": "Incredible Bee Archiver"
+      },
+      {
+        "software": "unrar",
+        "display_name": "unrar"
+      }
+    ],
+    "macos": [
+      {
+        "software": "smith-micro-stuffit-deluxe-mac-16",
+        "display_name": "Smith Micro StuffIt Deluxe Mac 16",
+        "status": "discontinued"
+      },
+      {
+        "software": "incredible-bee-archiver",
+        "display_name": "Incredible Bee Archiver"
+      },
+      {
+        "software": "zipeg",
+        "display_name": "Zipeg"
+      }
+    ],
+    "linux": [
+      {
+        "software": "unrar",
+        "display_name": "unrar"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-05-16",
+  "sources": [
+    {
+      "url": "r21.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

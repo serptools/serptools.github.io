@@ -1,0 +1,59 @@
+{
+  "slug": "mscz_saving",
+  "extension": "mscz_saving",
+  "name": "MuseScore Compressed Score Saving File",
+  "category": "musescore-compressed-score-saving-file",
+  "developer_org": "the-musescore-team",
+  "popularity": {
+    "rating": 1.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "An MSCZ_SAVING file is a temporary file MuseScore creates while saving a score that replaces an .MSCZ file to prevent data loss due to an app crash. It contains information about the new music score including notes, instruments, time and key signatures, and metadata . Once MuseScore completes the save process, the app removes the _saving extension from .mscz_saving , replacing the MSCZ file.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "musescore",
+        "display_name": "MuseScore"
+      }
+    ],
+    "macos": [
+      {
+        "software": "musescore",
+        "display_name": "MuseScore"
+      }
+    ],
+    "linux": [
+      {
+        "software": "musescore",
+        "display_name": "MuseScore"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2024-06-20",
+  "sources": [
+    {
+      "url": "mscz_saving.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

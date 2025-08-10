@@ -1,0 +1,67 @@
+{
+  "slug": "onetoc2",
+  "extension": "onetoc2",
+  "name": "Microsoft OneNote Table of Contents",
+  "category": "microsoft-onenote-table-of-contents",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 20,
+    "source": "fileinfo"
+  },
+  "summary": "A ONETOC2 file is a table of contents used to organize a Microsoft OneNote notebook ( .ONE file). It contains a record of the sections the notebook contains and the order in which a user has arranged them. ONETOC2 files are not meant to be opened by users.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-onenote-365",
+        "display_name": "Microsoft OneNote 365"
+      },
+      {
+        "software": "gorillized-outline",
+        "display_name": "Gorillized Outline"
+      }
+    ],
+    "macos": [
+      {
+        "software": "microsoft-onenote-365",
+        "display_name": "Microsoft OneNote 365"
+      },
+      {
+        "software": "gorillized-outline",
+        "display_name": "Gorillized Outline"
+      }
+    ],
+    "ios": [
+      {
+        "software": "gorillized-outline",
+        "display_name": "Gorillized Outline"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-07-17",
+  "sources": [
+    {
+      "url": "onetoc2.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

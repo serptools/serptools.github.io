@@ -1,0 +1,69 @@
+{
+  "slug": "flam3",
+  "extension": "flam3",
+  "name": "Fractal Flames File",
+  "category": "fractal-flames-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Data file containing parameters used for auto-generating fractal images and animations called \"flames;\" can be used as an alternative to the more common .FLAME extension; saved in an XML format and must be rendered by a software program before viewing the resulting image or animation.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "apophysis",
+        "display_name": "Apophysis"
+      },
+      {
+        "software": "oxidizer",
+        "display_name": "Oxidizer"
+      },
+      {
+        "software": "qosmic",
+        "display_name": "Qosmic"
+      }
+    ],
+    "macos": [
+      {
+        "software": "oxidizer",
+        "display_name": "Oxidizer"
+      }
+    ],
+    "linux": [
+      {
+        "software": "qosmic",
+        "display_name": "Qosmic"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-06-12",
+  "sources": [
+    {
+      "url": "flam3.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

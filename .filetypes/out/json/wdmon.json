@@ -1,0 +1,64 @@
+{
+  "slug": "wdmon",
+  "extension": "wdmon",
+  "name": "Wireless Diagnostics Monitor File",
+  "category": "wireless-diagnostics-monitor-file",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "A WDMON file contains Wi-Fi performance scan results captured by Wireless Diagnostics, an app bundled with macOS used to analyze a user's network performance. It stores information about the connection of a network to the Internet, which includes the data transfer rate and signal quality, over a specified period of time.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "apple-wireless-diagnostics",
+        "display_name": "Apple Wireless Diagnostics"
+      }
+    ],
+    "windows": [
+      {
+        "software": "apple-wireless-diagnostics",
+        "display_name": "Apple Wireless Diagnostics"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "WDMON file icon",
+      "alt": "WDMON file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/wdmon-11563.png"
+    },
+    {
+      "caption": "WDMON file open in Apple Wireless Diagnostics 1",
+      "alt": "WDMON file open in Apple Wireless Diagnostics 1",
+      "source_url": "https://fileinfo.com/img/ss/md/wdmon_11563.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-07-15",
+  "sources": [
+    {
+      "url": "wdmon.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

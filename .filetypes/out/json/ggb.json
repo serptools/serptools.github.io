@@ -1,0 +1,83 @@
+{
+  "slug": "ggb",
+  "extension": "ggb",
+  "name": "GeoGebra Worksheet",
+  "category": "geogebra-worksheet",
+  "developer_org": "internatonal-geogebra-institute",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 152,
+    "source": "fileinfo"
+  },
+  "summary": "A GGB file is a math worksheet created and used by GeoGebra, a free, multi-platform mathematics education program. It contains the data used to load a manipulable graph in GeoGebra. GGB files are Zip-compressed archives , which are comprised of an .XML file, .JS file, and .PNG file.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "geogebra-suite",
+        "display_name": "GeoGebra Suite"
+      }
+    ],
+    "macos": [
+      {
+        "software": "geogebra-suite",
+        "display_name": "GeoGebra Suite"
+      }
+    ],
+    "linux": [
+      {
+        "software": "geogebra-suite",
+        "display_name": "GeoGebra Suite"
+      }
+    ],
+    "web": [
+      {
+        "software": "geogebra-suite",
+        "display_name": "GeoGebra Suite"
+      }
+    ],
+    "ios": [
+      {
+        "software": "geogebra-suite",
+        "display_name": "GeoGebra Suite"
+      }
+    ],
+    "android": [
+      {
+        "software": "geogebra-suite",
+        "display_name": "GeoGebra Suite"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "GGB file open in GeoGebra Classic 6",
+      "alt": "GGB file open in GeoGebra Classic 6",
+      "source_url": "https://fileinfo.com/img/ss/md/ggb_3339.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-04-30",
+  "sources": [
+    {
+      "url": "ggb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

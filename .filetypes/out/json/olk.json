@@ -1,0 +1,51 @@
+{
+  "slug": "olk",
+  "extension": "olk",
+  "name": "Outlook Address Book File",
+  "category": "outlook-address-book-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 4.1,
+    "votes": 21,
+    "source": "fileinfo"
+  },
+  "summary": "Address book created by Microsoft Outlook, an email application; may contain contact information for people and organizations; can store names, phone numbers, addresses, titles, organization data, and other contact information; used for saving and loading contacts.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-outlook-365",
+        "display_name": "Microsoft Outlook 365"
+      },
+      {
+        "software": "microsoft-word-365",
+        "display_name": "Microsoft Word 365"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-05-24",
+  "sources": [
+    {
+      "url": "olk.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

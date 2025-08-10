@@ -1,0 +1,124 @@
+{
+  "slug": "mcmeta",
+  "extension": "mcmeta",
+  "name": "Minecraft Java Edition Resource Pack Configuration File",
+  "category": "minecraft-java-edition-resource-pack-configuration-file",
+  "developer_org": "mojang",
+  "popularity": {
+    "rating": 4.4,
+    "votes": 1291,
+    "source": "fileinfo"
+  },
+  "summary": "An MCMETA file is a custom resource pack configuration file used by Minecraft (Java Edition). It contains either information Minecraft uses to load a resource pack and show it on the Select Resource Packs menu or information used to modify a Minecraft texture. MCMETA files are written using JSON .",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "mojang-minecraft",
+        "display_name": "Mojang Minecraft"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "github-atom",
+        "display_name": "GitHub Atom",
+        "status": "discontinued"
+      },
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      }
+    ],
+    "macos": [
+      {
+        "software": "mojang-minecraft",
+        "display_name": "Mojang Minecraft"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "github-atom",
+        "display_name": "GitHub Atom",
+        "status": "discontinued"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "mojang-minecraft",
+        "display_name": "Mojang Minecraft"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "github-atom",
+        "display_name": "GitHub Atom",
+        "status": "discontinued"
+      },
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "MCMETA file open in GitHub Atom",
+      "alt": "MCMETA file open in GitHub Atom",
+      "source_url": "https://fileinfo.com/img/ss/md/mcmeta_8794.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-04-03",
+  "sources": [
+    {
+      "url": "mcmeta.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

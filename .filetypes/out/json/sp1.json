@@ -1,0 +1,47 @@
+{
+  "slug": "sp1",
+  "extension": "sp1",
+  "name": "Windows XP Service Pack 1 Identification File",
+  "category": "windows-xp-service-pack-1-identification-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 2.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "An SP1 file is an identification file included in Windows XP Service Pack 1 (SP1). Windows XP checks for an SP1 file to verify Service Pack 1 before installation. The Professional and Home editions of Service Pack 1 both use SP1 files, which have slightly different filenames.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "windows-xp",
+        "display_name": "Windows XP"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-05-01",
+  "sources": [
+    {
+      "url": "sp1.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

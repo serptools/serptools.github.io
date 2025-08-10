@@ -1,0 +1,47 @@
+{
+  "slug": "ahi",
+  "extension": "ahi",
+  "name": "Dynamics AX Online Help Index File",
+  "category": "dynamics-ax-online-help-index-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "Index of help data ( .AHD ) files used by Microsoft Dynamics AX, a business management program; provides faster access to help documentation and search capabilities for Dynamics AX online help.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-dynamics-ax",
+        "display_name": "Microsoft Dynamics AX"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2008-08-29",
+  "sources": [
+    {
+      "url": "ahi.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

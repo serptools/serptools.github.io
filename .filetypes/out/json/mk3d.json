@@ -1,0 +1,51 @@
+{
+  "slug": "mk3d",
+  "extension": "mk3d",
+  "name": "Matroska 3D Video File",
+  "category": "matroska-3d-video-file",
+  "developer_org": "matroska",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "Stereoscopic 3D video file created in the Matroska 3D (MK3D) format, which is used for storing 3D content; uses the standard .MKV container but includes a StereoMode field for the specific format of the enclosed 3D video (e.g., side by side (left eye is first), top-bottom (right eye is first), etc.).",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "cyberlink-powerdvd-21",
+        "display_name": "CyberLink PowerDVD 21"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-03-27",
+  "sources": [
+    {
+      "url": "mk3d.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

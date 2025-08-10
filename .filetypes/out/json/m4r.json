@@ -1,0 +1,127 @@
+{
+  "slug": "m4r",
+  "extension": "m4r",
+  "name": "iPhone Ringtone",
+  "category": "iphone-ringtone",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 72,
+    "source": "fileinfo"
+  },
+  "summary": "An M4R file is a custom iPhone ringtone that plays back during an incoming call. It is similar to an .M4A file as it stores audio data encoded with the Advanced Audio Coding (AAC) codec in the MPEG-4 Part 14 (MP4) multimedia container format. Before Apple discontinued iTunes, iPhone users often downloaded M4R files from the media player and then transferred them to an iPhone when the phone was synced with the computer via iTunes.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "microsoft-media-player",
+        "display_name": "Microsoft Media Player"
+      },
+      {
+        "software": "microsoft-windows-media-player",
+        "display_name": "Microsoft Windows Media Player"
+      },
+      {
+        "software": "foobar2000",
+        "display_name": "Foobar2000"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "microsoft-groove-music",
+        "display_name": "Microsoft Groove Music",
+        "status": "discontinued"
+      },
+      {
+        "software": "apple-music",
+        "display_name": "Apple Music"
+      },
+      {
+        "software": "apple-quicktime-player",
+        "display_name": "Apple QuickTime Player"
+      },
+      {
+        "software": "apple-itunes",
+        "display_name": "Apple iTunes",
+        "status": "discontinued"
+      },
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-music",
+        "display_name": "Apple Music"
+      },
+      {
+        "software": "apple-quicktime-player",
+        "display_name": "Apple QuickTime Player"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "apple-itunes",
+        "display_name": "Apple iTunes",
+        "status": "discontinued"
+      }
+    ],
+    "linux": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      }
+    ],
+    "web": [
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "M4R file icon",
+      "alt": "M4R file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/m4r-2594.png"
+    },
+    {
+      "caption": "M4R file open in VideoLAN VLC media player 3",
+      "alt": "M4R file open in VideoLAN VLC media player 3",
+      "source_url": "https://fileinfo.com/img/ss/md/m4r_2594.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2024-04-12",
+  "sources": [
+    {
+      "url": "m4r.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

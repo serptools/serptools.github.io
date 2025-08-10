@@ -1,0 +1,55 @@
+{
+  "slug": "jcrypt",
+  "extension": "jcrypt",
+  "name": "JCRYPT File",
+  "category": "jcrypt-file",
+  "developer_org": "jmasters",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "File encrypted with JCRYPT, a Web-based service used for encrypting and decrypting files; used random data manipulation algorithms to secure the contents of the files so that they are not readable unless decrypted.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "web": [
+      {
+        "software": "jmasters-jcrypt",
+        "display_name": "JMasters JCRYPT",
+        "status": "discontinued"
+      }
+    ],
+    "windows": [
+      {
+        "software": "jmasters-jcrypt",
+        "display_name": "JMasters JCRYPT",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-12-13",
+  "sources": [
+    {
+      "url": "jcrypt.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

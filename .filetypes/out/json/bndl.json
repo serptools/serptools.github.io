@@ -1,0 +1,57 @@
+{
+  "slug": "bndl",
+  "extension": "bndl",
+  "name": "Game Data Bundle File",
+  "category": "game-data-bundle-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 34,
+    "source": "fileinfo"
+  },
+  "summary": "File extension used for bundle files, which are data archives used in some applications or computer games, notably the Need For Speed: Most Wanted racing game titles; in the Need For Speed title, BNDL files include audio streams and other game sounds such as engine and siren sounds and other sound effects.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "need-for-speed-most-wanted",
+        "display_name": "Need For Speed Most Wanted"
+      },
+      {
+        "software": "nfshp-bundle-explorer",
+        "display_name": "NFSHP bundle explorer"
+      },
+      {
+        "software": "ea-layer-3-decoder",
+        "display_name": "EA Layer 3 Decoder"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2013-07-10",
+  "sources": [
+    {
+      "url": "bndl.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

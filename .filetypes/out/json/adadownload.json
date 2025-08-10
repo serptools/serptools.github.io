@@ -1,0 +1,53 @@
+{
+  "slug": "adadownload",
+  "extension": "adadownload",
+  "name": "Adobe Download Assistant Partial Download File",
+  "category": "adobe-download-assistant-partial-download-file",
+  "developer_org": "adobe-systems",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 21,
+    "source": "fileinfo"
+  },
+  "summary": "Partially downloaded file created by Adobe Download Assistant, a program that helps users download Adobe software products; saves the contents of a file (typically a software installer) as it's being downloaded by the program.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "adobe-download-assistant",
+        "display_name": "Adobe Download Assistant"
+      }
+    ],
+    "macos": [
+      {
+        "software": "adobe-download-assistant",
+        "display_name": "Adobe Download Assistant"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-07-11",
+  "sources": [
+    {
+      "url": "adadownload.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

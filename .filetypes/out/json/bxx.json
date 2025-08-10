@@ -1,0 +1,53 @@
+{
+  "slug": "bxx",
+  "extension": "bxx",
+  "name": "BS Contact Parameter File",
+  "category": "bs-contact-parameter-file",
+  "developer_org": "bitmanagement-software",
+  "popularity": {
+    "rating": 3.1,
+    "votes": 14,
+    "source": "fileinfo"
+  },
+  "summary": "Parameter file used by BS Contact, a Web browser plug-in or standalone viewer that enables multi-user 3D collaborative and social environments leveraging DirectX and OpenGL ; contains parameters for layout and connection information in text format.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "bitmanagement-software-bs-contact",
+        "display_name": "Bitmanagement Software BS Contact"
+      }
+    ],
+    "linux": [
+      {
+        "software": "bitmanagement-software-bs-contact",
+        "display_name": "Bitmanagement Software BS Contact"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-01-04",
+  "sources": [
+    {
+      "url": "bxx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

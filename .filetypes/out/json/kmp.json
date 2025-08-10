@@ -1,0 +1,75 @@
+{
+  "slug": "kmp",
+  "extension": "kmp",
+  "name": "Mario Kart Wii Course Description File",
+  "category": "1.-mario-kart-wii-course-description-file",
+  "developer_org": "nintendo",
+  "popularity": {
+    "rating": 4.1,
+    "votes": 17,
+    "source": "fileinfo"
+  },
+  "summary": "Course file used by the Mario Kart Wii, a Nintendo video game; contains course data divided into different sections, each describing different aspects of the course; includes start positions of racers, check points, camera positions, re-spawning positions, object positions, and other stage information.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "kmp-modifier",
+        "display_name": "KMP Modifier"
+      },
+      {
+        "software": "vulcanus2-kmp-cloud",
+        "display_name": "Vulcanus2 KMP Cloud"
+      },
+      {
+        "software": "lorenzi-s-kmp-editor",
+        "display_name": "Lorenzi's KMP Editor"
+      },
+      {
+        "software": "wiimms-szs-tools",
+        "display_name": "Wiimms SZS Tools"
+      },
+      {
+        "software": "kmp3d",
+        "display_name": "KMP3D"
+      },
+      {
+        "software": "fmj-software-awave-studio",
+        "display_name": "FMJ-Software Awave Studio"
+      },
+      {
+        "software": "wave-xtractor",
+        "display_name": "WAVE Xtractor"
+      },
+      {
+        "software": "korg-pa-manager",
+        "display_name": "KORG PA Manager"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-06-26",
+  "sources": [
+    {
+      "url": "kmp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "itc2",
+  "extension": "itc2",
+  "name": "iTunes Cover Flow Data File 2",
+  "category": "itunes-cover-flow-data-file-2",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 34,
+    "source": "fileinfo"
+  },
+  "summary": "File used by iTunes, a digital music player; contains an image and metadata associated with a music album; cannot be opened directly since the album image is stored in an encrypted format.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "apple-itunes",
+        "display_name": "Apple iTunes",
+        "status": "discontinued"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-itunes",
+        "display_name": "Apple iTunes",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-01-12",
+  "sources": [
+    {
+      "url": "itc2.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "kmz",
+  "extension": "kmz",
+  "name": "Google Earth Placemark File",
+  "category": "google-earth-placemark-file",
+  "summary": "",
+  "developer_org": "google",
+  "developer_name": "Google",
+  "more_information": {
+    "screenshot": {
+      "url": "https://fileinfo.com/img/ss/sm/kmz_1297.png",
+      "alt": "Screenshot of a .kmz file in Google Earth Pro 7.3",
+      "caption": "KMZ file open in Google Earth Pro 7.3"
+    },
+    "description": [
+      "Google designed KMZ files to reduce the space taken up by KML files to make them easier to distribute and share with multiple users. Common uses for KMZ files include sharing placemarks or tours with users via email or when publishing on a webpage.",
+      "Various programs may create KMZ files, but Google Earth Pro primarily creates the files. To create a KMZ file with Google Earth Pro, select File → Save → Save Place As... , then choose \"Kmz\" from the dropdown menu.",
+      "NOTE: 3D models included in KMZ files are accompanied by location data. The application opening the file references this data to place the model on the map at a specific location. This data helps you better understand the appearance of the building in the area."
+    ]
+  },
+  "images": [
+    {
+      "url": "https://fileinfo.com/img/ss/sm/kmz_1297.png",
+      "alt": "Screenshot of a .kmz file in Google Earth Pro 7.3",
+      "caption": "KMZ file open in Google Earth Pro 7.3"
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "kmz.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

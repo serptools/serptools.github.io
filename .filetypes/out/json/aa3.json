@@ -1,0 +1,82 @@
+{
+  "slug": "aa3",
+  "extension": "aa3",
+  "name": "ATRAC Audio File",
+  "category": "atrac-audio-file",
+  "developer_org": "sony",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 16,
+    "source": "fileinfo"
+  },
+  "summary": "An AA3 file is an audio file compressed with Sony's ATRAC (Adaptive Transform Acoustic Coding) compression technology. It contains a music track in a quality similar to CD audio and does not include any copy protection or digital rights management (DRM). Sony ceased ATRAC in 2008, but several audio players, including MAGIX Sound Forge and Sony ACID Xpress, still support AA3 files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "magix-sound-forge-pro-17",
+        "display_name": "MAGIX Sound Forge Pro 17"
+      },
+      {
+        "software": "magix-vegas-pro-21",
+        "display_name": "MAGIX VEGAS Pro 21"
+      },
+      {
+        "software": "magix-acid-pro-11",
+        "display_name": "MAGIX ACID Pro 11"
+      },
+      {
+        "software": "sony-acid-xpress",
+        "display_name": "Sony ACID Xpress"
+      },
+      {
+        "software": "magix-acid-music-studio-11",
+        "display_name": "MAGIX ACID Music Studio 11"
+      },
+      {
+        "software": "sony-sonicstage",
+        "display_name": "Sony SonicStage",
+        "status": "discontinued"
+      },
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      }
+    ],
+    "web": [
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-10-25",
+  "sources": [
+    {
+      "url": "aa3.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

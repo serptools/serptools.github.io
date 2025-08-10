@@ -1,0 +1,142 @@
+{
+  "slug": "sr",
+  "extension": "sr",
+  "name": "Sun Raster Graphic",
+  "category": "1.-sun-raster-graphic",
+  "developer_org": "sun-microsystems",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "An SR file is a Sun Raster Graphic. It is saved in a proprietary image format used by SunOS (now Solaris) workstations. However, you can open an SR file in many common image viewers and editors.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      },
+      {
+        "software": "imagemagick",
+        "display_name": "ImageMagick"
+      },
+      {
+        "software": "gimp",
+        "display_name": "GIMP"
+      },
+      {
+        "software": "qview",
+        "display_name": "qView"
+      },
+      {
+        "software": "netpbm",
+        "display_name": "Netpbm"
+      },
+      {
+        "software": "libreoffice",
+        "display_name": "LibreOffice"
+      },
+      {
+        "software": "acd-systems-acdsee-photo-studio",
+        "display_name": "ACD Systems ACDSee Photo Studio"
+      },
+      {
+        "software": "offzip",
+        "display_name": "offzip"
+      },
+      {
+        "software": "quickbms",
+        "display_name": "QuickBMS"
+      }
+    ],
+    "macos": [
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      },
+      {
+        "software": "imagemagick",
+        "display_name": "ImageMagick"
+      },
+      {
+        "software": "gimp",
+        "display_name": "GIMP"
+      },
+      {
+        "software": "qview",
+        "display_name": "qView"
+      },
+      {
+        "software": "netpbm",
+        "display_name": "Netpbm"
+      },
+      {
+        "software": "libreoffice",
+        "display_name": "LibreOffice"
+      }
+    ],
+    "linux": [
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      },
+      {
+        "software": "imagemagick",
+        "display_name": "ImageMagick"
+      },
+      {
+        "software": "gimp",
+        "display_name": "GIMP"
+      },
+      {
+        "software": "qview",
+        "display_name": "qView"
+      },
+      {
+        "software": "netpbm",
+        "display_name": "Netpbm"
+      },
+      {
+        "software": "libreoffice",
+        "display_name": "LibreOffice"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "SR file icon",
+      "alt": "SR file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/sr-1999.png"
+    },
+    {
+      "caption": "SR file open in XnViewMP",
+      "alt": "SR file open in XnViewMP",
+      "source_url": "https://fileinfo.com/img/ss/md/sr_1999.jpg"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-07-12",
+  "sources": [
+    {
+      "url": "sr.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

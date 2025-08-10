@@ -1,0 +1,91 @@
+{
+  "slug": "cr",
+  "extension": "cr",
+  "name": "Crystal Source Code",
+  "category": "crystal-source-code",
+  "developer_org": "manas-technology-solutions",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "A CR file is a source code file written in the Crystal programming language. It contains code that is meant to be compiled using the Crystal compiler. CR files can be opened and edited in any source code editor.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "github-atom",
+        "display_name": "GitHub Atom",
+        "status": "discontinued"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "crystal-online-playgrounds",
+        "display_name": "Crystal Online Playgrounds"
+      }
+    ],
+    "macos": [
+      {
+        "software": "gnu-emacs",
+        "display_name": "GNU Emacs"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "github-atom",
+        "display_name": "GitHub Atom",
+        "status": "discontinued"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "web": [
+      {
+        "software": "crystal-online-playgrounds",
+        "display_name": "Crystal Online Playgrounds"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "CR file open in Microsoft Visual Studio Code with Crystal Language extension",
+      "alt": "CR file open in Microsoft Visual Studio Code with Crystal Language extension",
+      "source_url": "https://fileinfo.com/img/ss/md/cr_12145.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-06-16",
+  "sources": [
+    {
+      "url": "cr.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

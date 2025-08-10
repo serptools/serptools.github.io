@@ -1,0 +1,53 @@
+{
+  "slug": "aro",
+  "extension": "aro",
+  "name": "SteelArrow Web Application File",
+  "category": "steelarrow-web-application-file",
+  "developer_org": "tomahawk-technologies",
+  "popularity": {
+    "rating": 4.3,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "An ARO file is a webpage that includes SteelArrow code. It usually contains mostly HTML with a small portion of SteelArrow tags and scripts. ARO files are processed on the server before being sent to a user's web browser, similar to .PHP or .ASP pages.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "windows-server-with-tomahawk-technologies-steelarrow",
+        "display_name": "Windows Server with Tomahawk Technologies SteelArrow"
+      }
+    ],
+    "web": [
+      {
+        "software": "web-browser",
+        "display_name": "web browser"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-01-11",
+  "sources": [
+    {
+      "url": "aro.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

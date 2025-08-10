@@ -1,0 +1,92 @@
+{
+  "slug": "slang",
+  "extension": "slang",
+  "name": "Slang Source Code",
+  "category": "slang-source-code",
+  "developer_org": "scratchware",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "A SLANG file contains source code written in the Scratchware Language (Slang). Typically, this source code comprises a simple Slang program. Most commonly, developers create SLANG files with Dialect, Slang's integrated development environment ( IDE ).",
+  "standards": [],
+  "mime_types": [
+    "path/to",
+    "your/file.slang"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "scratchware-dialect",
+        "display_name": "Scratchware Dialect"
+      },
+      {
+        "software": "scratchware-language",
+        "display_name": "Scratchware Language"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "scratchware-language",
+        "display_name": "Scratchware Language"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "SLANG file icon",
+      "alt": "SLANG file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/slang-13489.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-09-13",
+  "sources": [
+    {
+      "url": "slang.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

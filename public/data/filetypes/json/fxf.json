@@ -1,0 +1,22 @@
+{
+  "slug": "fxf",
+  "extension": "fxf",
+  "name": "BigFix Action File",
+  "category": "bigfix-action-file",
+  "summary": "",
+  "developer_org": "ibm",
+  "developer_name": "IBM",
+  "more_information": {
+    "description": [
+      "FXF files are typically 5K to 20K in size. Files over 20K may cause the error \"Unable to send to socket during POST operation\" and should be reduced. Some examples of BigFix action files include Analysis 147.fxf , Fixlet 146.fxf , and Action 148.fxf .",
+      "NOTE: IBM sold BigFix to HCL in 2019."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "fxf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

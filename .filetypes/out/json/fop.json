@@ -1,0 +1,47 @@
+{
+  "slug": "fop",
+  "extension": "fop",
+  "name": "InfoZoom Protected Data File",
+  "category": "infozoom-protected-data-file",
+  "developer_org": "humanit",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "Locked data file exported by InfoZoom, a data visualization program; contains table data and information about the table structure, data formats, permissions, etc.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "humanit-infozoom",
+        "display_name": "humanIT InfoZoom"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2007-11-09",
+  "sources": [
+    {
+      "url": "fop.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

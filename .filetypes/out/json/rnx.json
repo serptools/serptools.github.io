@@ -1,0 +1,55 @@
+{
+  "slug": "rnx",
+  "extension": "rnx",
+  "name": "RealPlayer Settings File",
+  "category": "realplayer-settings-file",
+  "developer_org": "realnetworks",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "An RNX file is a settings file created by RealPlayer, an audio and video playback program. It contains exported settings, such as favorites or presets, in XML format, and are used to share favorites and presets with other RealPlayer users.",
+  "standards": [],
+  "mime_types": [
+    "20/20"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "realnetworks-realplayer-20-20",
+        "display_name": "RealNetworks RealPlayer 20/20"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "RNX file icon",
+      "alt": "RNX file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/rnx-4671.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-09-24",
+  "sources": [
+    {
+      "url": "rnx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

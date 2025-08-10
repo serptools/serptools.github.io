@@ -1,0 +1,92 @@
+{
+  "slug": "pdn",
+  "extension": "pdn",
+  "name": "paint.net Image",
+  "category": "1.-paint.net-image",
+  "developer_org": "rick-brewster",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 61,
+    "source": "fileinfo"
+  },
+  "summary": "A PDN file is a bitmap image created by paint.net, a free image-editing program for Windows. It contains an image as well as a record of the layers, effects, text, and other items applied to that image. PDN files are similar to Adobe Photoshop Documents ( .PSD files).",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "dotpdn-paint.net",
+        "display_name": "dotPDN paint.net"
+      },
+      {
+        "software": "chasys-draw-ies",
+        "display_name": "Chasys Draw IES"
+      },
+      {
+        "software": "dragon-draughts",
+        "display_name": "Dragon Draughts"
+      },
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "PDN file open in paint.net",
+      "alt": "PDN file open in paint.net",
+      "source_url": "https://fileinfo.com/img/ss/md/pdn_3476.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-05-26",
+  "sources": [
+    {
+      "url": "pdn.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

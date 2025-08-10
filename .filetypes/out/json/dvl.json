@@ -1,0 +1,53 @@
+{
+  "slug": "dvl",
+  "extension": "dvl",
+  "name": "Dalim Virtual Library File",
+  "category": "dalim-virtual-library-file",
+  "developer_org": "dalim",
+  "popularity": {
+    "rating": 1.9,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "A DVL file is a digital publication format similar to .PDF . It is a proprietary format used by Dalim Virtual Library (DVL) for iOS. A DVL file contains one or more pages that may include both text and images. The format also supports links, bookmarks, videos, and slideshows.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "ios": [
+      {
+        "software": "dalim-virtual-library",
+        "display_name": "Dalim Virtual Library"
+      }
+    ],
+    "windows": [
+      {
+        "software": "dalim-virtual-library",
+        "display_name": "Dalim Virtual Library"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-04-16",
+  "sources": [
+    {
+      "url": "dvl.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

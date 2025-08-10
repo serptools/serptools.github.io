@@ -1,0 +1,70 @@
+{
+  "slug": "bsdiff",
+  "extension": "bsdiff",
+  "name": "BSDiff Patch File",
+  "category": "bsdiff-patch-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 1.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "Patch format used to update video game ROMs and produce patches for binary files; contains the differences that are to be applied to a source file in order to create a target file.",
+  "standards": [],
+  "mime_types": [
+    "bsdiff/bspatch",
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "bsdiff-bspatch",
+        "display_name": "bsdiff/bspatch"
+      },
+      {
+        "software": "multipatch",
+        "display_name": "MultiPatch"
+      }
+    ],
+    "macos": [
+      {
+        "software": "multipatch",
+        "display_name": "MultiPatch"
+      },
+      {
+        "software": "bsdiff-bspatch",
+        "display_name": "bsdiff/bspatch"
+      }
+    ],
+    "linux": [
+      {
+        "software": "bsdiff-bspatch",
+        "display_name": "bsdiff/bspatch"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-12-22",
+  "sources": [
+    {
+      "url": "bsdiff.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

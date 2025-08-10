@@ -1,0 +1,51 @@
+{
+  "slug": "ixa",
+  "extension": "ixa",
+  "name": "Ulead Disc Image format",
+  "category": "ulead-disc-image-format",
+  "developer_org": "corel",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "DVD disc image file created with Ulead disc authoring software; saved in a proprietary format readable only by Ulead applications, such as DVD Workshop, DVD Movie Factory, and Copy.Now.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "ulead-moviefactory-or-dvd-workshop",
+        "display_name": "Ulead MovieFactory or DVD Workshop"
+      },
+      {
+        "software": "ulead-disc-image-recorder",
+        "display_name": "Ulead Disc Image Recorder"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2007-09-18",
+  "sources": [
+    {
+      "url": "ixa.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

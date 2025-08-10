@@ -1,0 +1,65 @@
+{
+  "slug": "ntx",
+  "extension": "ntx",
+  "name": "theWord Encrypted New Testament Text Module",
+  "category": "1.-theword-encrypted-new-testament-text-module",
+  "developer_org": "theword-bible-software",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "File used by theWord Bible software; contains a copy of the New Testament and incorporates encryption, unlike the plain text formatting used by theWord's .NT format; helps distribution by protecting digital copies of the New Testament.",
+  "standards": [],
+  "mime_types": [
+    "dbf/ntx"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "theword",
+        "display_name": "theWord"
+      },
+      {
+        "software": "clipper",
+        "display_name": "Clipper"
+      },
+      {
+        "software": "ezindex",
+        "display_name": "EZIndex"
+      },
+      {
+        "software": "dbase",
+        "display_name": "dBase"
+      },
+      {
+        "software": "dbf-ntx-reader",
+        "display_name": "Dbf/Ntx Reader"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-05-03",
+  "sources": [
+    {
+      "url": "ntx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

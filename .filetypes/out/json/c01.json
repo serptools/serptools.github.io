@@ -1,0 +1,89 @@
+{
+  "slug": "c01",
+  "extension": "c01",
+  "name": "WinAce Split Archive Part 1 File",
+  "category": "1.-winace-split-archive-part-1-file",
+  "developer_org": "e-merge",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "First part of a compressed archive created by WinAce; split into several parts in order to fit on smaller media, such as floppy disks; saved with other parts of the archive that have file extensions C02, C03, etc; may also be preceded by a .C00 file.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "e-merge-winace",
+        "display_name": "E-merge WinAce",
+        "status": "discontinued"
+      },
+      {
+        "software": ".aiff",
+        "display_name": ".AIFF"
+      },
+      {
+        "software": ".wav",
+        "display_name": ".WAV"
+      },
+      {
+        "software": ".ogg",
+        "display_name": ".OGG"
+      },
+      {
+        "software": ".flac",
+        "display_name": ".FLAC",
+        "pricing": "free"
+      },
+      {
+        "software": ".mp3",
+        "display_name": ".MP3"
+      },
+      {
+        "software": ".m4a",
+        "display_name": ".M4A"
+      },
+      {
+        "software": "sox",
+        "display_name": "SOX"
+      }
+    ],
+    "macos": [
+      {
+        "software": "sox",
+        "display_name": "SOX"
+      }
+    ],
+    "linux": [
+      {
+        "software": "sox",
+        "display_name": "SOX"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-07-29",
+  "sources": [
+    {
+      "url": "c01.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

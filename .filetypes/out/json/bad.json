@@ -1,0 +1,47 @@
+{
+  "slug": "bad",
+  "extension": "bad",
+  "name": "Exchange Badmail File",
+  "category": "exchange-badmail-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 26,
+    "source": "fileinfo"
+  },
+  "summary": "E-mail message that could not be delivered by Microsoft Exchange Server; includes the message sender, message recipient(s), subject, and body, just like the original message.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-exchange-server",
+        "display_name": "Microsoft Exchange Server"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-01-13",
+  "sources": [
+    {
+      "url": "bad.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

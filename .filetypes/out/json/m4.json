@@ -1,0 +1,79 @@
+{
+  "slug": "m4",
+  "extension": "m4",
+  "name": "Macro Processor Library",
+  "category": "macro-processor-library",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 14,
+    "source": "fileinfo"
+  },
+  "summary": "File written for m4, a Unix macro processor that is included with many Unix and Linux distributions; contains macros in addition to other text, but the macros are expanded when processed by m4; often used for setting up configuration files.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "m4",
+        "display_name": "m4"
+      }
+    ],
+    "macos": [
+      {
+        "software": "macromates-textmate",
+        "display_name": "MacroMates TextMate"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "m4",
+        "display_name": "m4"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "M4 file icon",
+      "alt": "M4 file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/m4-1092.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-08-24",
+  "sources": [
+    {
+      "url": "m4.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

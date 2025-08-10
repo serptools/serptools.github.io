@@ -1,0 +1,53 @@
+{
+  "slug": "cty",
+  "extension": "cty",
+  "name": "SimCity City File",
+  "category": "simcity-city-file",
+  "developer_org": "maxis",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "City data file used by early versions of SimCity; contains city layouts and objects (buildings, roads, trees, etc.) as well as settings, such as the starting amount of money for the city; used as a starting point for building a city.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "maxis-simcity-or-simcity-2000",
+        "display_name": "Maxis SimCity or SimCity 2000"
+      }
+    ],
+    "macos": [
+      {
+        "software": "maxis-simcity-or-simcity-2000",
+        "display_name": "Maxis SimCity or SimCity 2000"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2008-01-04",
+  "sources": [
+    {
+      "url": "cty.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

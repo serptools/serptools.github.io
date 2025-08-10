@@ -1,0 +1,53 @@
+{
+  "slug": "exo",
+  "extension": "exo",
+  "name": "YouTube Video Chunk",
+  "category": "youtube-video-chunk",
+  "developer_org": "google",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 300,
+    "source": "fileinfo"
+  },
+  "summary": "An EXO file is a video segment created by YouTube for Android. It contains a portion of a video that a user downloaded for offline playback. EXO files are encrypted , and they can be played only in certain versions of YouTube for Android.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "android": [
+      {
+        "software": "youtube",
+        "display_name": "YouTube"
+      }
+    ],
+    "windows": [
+      {
+        "software": "youtube",
+        "display_name": "YouTube"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-05-09",
+  "sources": [
+    {
+      "url": "exo.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

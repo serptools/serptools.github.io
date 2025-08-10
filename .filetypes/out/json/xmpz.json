@@ -1,0 +1,59 @@
+{
+  "slug": "xmpz",
+  "extension": "xmpz",
+  "name": "Miradi XML Project File",
+  "category": "miradi-xml-project-file",
+  "developer_org": "benetech",
+  "popularity": {
+    "rating": 1.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "Project file created with Miradi, a program used for environmental conservation planning purposes; similar to an .MPZ file, but is saved in an XML format; contains project data, such as environmental threats, targets, and planning information.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "benetech-miradi",
+        "display_name": "Benetech Miradi"
+      }
+    ],
+    "macos": [
+      {
+        "software": "benetech-miradi",
+        "display_name": "Benetech Miradi"
+      }
+    ],
+    "linux": [
+      {
+        "software": "benetech-miradi",
+        "display_name": "Benetech Miradi"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-11-27",
+  "sources": [
+    {
+      "url": "xmpz.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

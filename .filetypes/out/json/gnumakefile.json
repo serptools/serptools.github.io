@@ -1,0 +1,71 @@
+{
+  "slug": "gnumakefile",
+  "extension": "gnumakefile",
+  "name": "GNU Makefile",
+  "category": "gnu-makefile",
+  "developer_org": "gnu",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "File used by the GNU Make utility, a tool designed to build libraries and programs by executing source code, or makefiles; contains a list of commands that direct the shell it's running; other makefile extensions include .MAKEFILE and .MK ; its commands are shell-specific, not universal.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "gnu-make",
+        "display_name": "GNU Make"
+      },
+      {
+        "software": "sublime-text",
+        "display_name": "Sublime Text"
+      }
+    ],
+    "macos": [
+      {
+        "software": "gnu-make",
+        "display_name": "GNU Make"
+      },
+      {
+        "software": "sublime-text",
+        "display_name": "Sublime Text"
+      }
+    ],
+    "linux": [
+      {
+        "software": "gnu-make",
+        "display_name": "GNU Make"
+      },
+      {
+        "software": "sublime-text",
+        "display_name": "Sublime Text"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2013-08-14",
+  "sources": [
+    {
+      "url": "gnumakefile.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "g3d",
+  "extension": "g3d",
+  "name": "GOM 3D File",
+  "category": "gom-3d-file",
+  "developer_org": "gom",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "CAD file created by an ATOS optical 3D scanner, a device that uses optical methods to digitally construct the geometry of a real-world object; supports data such as meshes and point clouds; used for visualization and dimensional analysis.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "gom-inspect",
+        "display_name": "GOM Inspect"
+      },
+      {
+        "software": "geomagic-studio",
+        "display_name": "Geomagic Studio"
+      },
+      {
+        "software": "dassault-systemes-catia",
+        "display_name": "Dassault Systemes CATIA"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-09-12",
+  "sources": [
+    {
+      "url": "g3d.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

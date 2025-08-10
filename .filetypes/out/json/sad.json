@@ -1,0 +1,57 @@
+{
+  "slug": "sad",
+  "extension": "sad",
+  "name": "Black & White Audio File",
+  "category": "black-white-audio-file",
+  "developer_org": "lionhead-studios",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 10,
+    "source": "fileinfo"
+  },
+  "summary": "Sound file format used by Black & White, a real-time strategy game; contains sound effects and other audio used within the game; may be opened by various audio playback programs.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "ios": [
+      {
+        "software": "lionhead-studios-black-and-white",
+        "display_name": "Lionhead Studios Black and White"
+      },
+      {
+        "software": "dragon-unpacker",
+        "display_name": "Dragon UnPACKer"
+      }
+    ],
+    "windows": [
+      {
+        "software": "dragon-unpacker",
+        "display_name": "Dragon UnPACKer"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-05-11",
+  "sources": [
+    {
+      "url": "sad.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "slug": "wbf1",
+  "extension": "wbf1",
+  "name": "Wii Backup File System File",
+  "category": "wii-backup-file-system-file",
+  "developer_org": "waninkoko",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "A WBF1 file is the second part of a Wii game disk image created using Wiimms WBFS Tool, Wii Backup Manager, or another Nintendo Wii-related program. It contains a portion of a game that was too large to fit into a single .WBFS file. A WBF1 file must be paired with its corresponding WBFS file to be played on the Nintendo Wii or a Wii emulator.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "wbfs-manager",
+        "display_name": "WBFS Manager"
+      },
+      {
+        "software": "wiijmanager",
+        "display_name": "WiiJManager"
+      },
+      {
+        "software": "wii-backup-manager",
+        "display_name": "Wii Backup Manager"
+      },
+      {
+        "software": "wii-unscrambler",
+        "display_name": "Wii Unscrambler"
+      },
+      {
+        "software": "dolphin",
+        "display_name": "Dolphin"
+      },
+      {
+        "software": "wiimms-wbfs-tool",
+        "display_name": "Wiimms WBFS Tool"
+      },
+      {
+        "software": "wiithon",
+        "display_name": "Wiithon"
+      }
+    ],
+    "android": [
+      {
+        "software": "dolphin-emulator-for-android",
+        "display_name": "Dolphin Emulator for Android"
+      }
+    ],
+    "macos": [
+      {
+        "software": "wiimms-wbfs-tool",
+        "display_name": "Wiimms WBFS Tool"
+      },
+      {
+        "software": "wiijmanager",
+        "display_name": "WiiJManager"
+      },
+      {
+        "software": "dolphin",
+        "display_name": "Dolphin"
+      }
+    ],
+    "linux": [
+      {
+        "software": "wiimms-wbfs-tool",
+        "display_name": "Wiimms WBFS Tool"
+      },
+      {
+        "software": "wiijmanager",
+        "display_name": "WiiJManager"
+      },
+      {
+        "software": "dolphin",
+        "display_name": "Dolphin"
+      },
+      {
+        "software": "wiithon",
+        "display_name": "Wiithon"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-01-08",
+  "sources": [
+    {
+      "url": "wbf1.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

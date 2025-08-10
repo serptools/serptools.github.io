@@ -1,0 +1,51 @@
+{
+  "slug": "arch00",
+  "extension": "arch00",
+  "name": "F.E.A.R. Game Archive",
+  "category": "f.e.a.r.-game-archive",
+  "developer_org": "sierra",
+  "popularity": {
+    "rating": 4.4,
+    "votes": 14,
+    "source": "fileinfo"
+  },
+  "summary": "Data archive format used by F.E.A.R. (First Encounter Assault Recon), a first-person shooter video game; includes game data referenced by the F.E.A.R. and required for the program to run; typically should not be opened manually, but can be modified using a third-party archive tool.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "referenced-by-sierra-f.e.a.r",
+        "display_name": "Referenced by Sierra F.E.A.R"
+      },
+      {
+        "software": "edit-with-arche-noah-arch-file-tool",
+        "display_name": "Edit with Arche Noah arch-file tool"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2007-12-10",
+  "sources": [
+    {
+      "url": "arch00.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

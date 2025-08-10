@@ -1,0 +1,107 @@
+{
+  "slug": "rmd",
+  "extension": "rmd",
+  "name": "R Markdown File",
+  "category": "1.-r-markdown-file",
+  "developer_org": "the-r-project-for-statistical-computing",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 18,
+    "source": "fileinfo"
+  },
+  "summary": "An RMD file is an R Markdown file created using RStudio, an open-source Integrated Development Environment ( IDE ) for the R programming language. It contains YAML metadata , Markdown-formatted plain text , and chunks of R code that, when rendered using RStudio, combine to form a sophisticated data analysis document.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "r",
+        "display_name": "R"
+      },
+      {
+        "software": "rstudio",
+        "display_name": "RStudio"
+      },
+      {
+        "software": "thomson-reuters-reference-manager",
+        "display_name": "Thomson Reuters Reference Manager",
+        "status": "discontinued"
+      },
+      {
+        "software": "realnetworks-realplayer-cloud",
+        "display_name": "RealNetworks RealPlayer Cloud"
+      },
+      {
+        "software": "redcine-x",
+        "display_name": "REDCINE-X"
+      },
+      {
+        "software": "adobe-premiere-pro-2023",
+        "display_name": "Adobe Premiere Pro 2023"
+      }
+    ],
+    "macos": [
+      {
+        "software": "r",
+        "display_name": "R"
+      },
+      {
+        "software": "rstudio",
+        "display_name": "RStudio"
+      },
+      {
+        "software": "redcine-x",
+        "display_name": "REDCINE-X"
+      },
+      {
+        "software": "adobe-premiere-pro-2023",
+        "display_name": "Adobe Premiere Pro 2023"
+      }
+    ],
+    "linux": [
+      {
+        "software": "r",
+        "display_name": "R"
+      },
+      {
+        "software": "rstudio",
+        "display_name": "RStudio"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "RMD file icon",
+      "alt": "RMD file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/rmd-10016.png"
+    },
+    {
+      "caption": "RMD file open in Atom",
+      "alt": "RMD file open in Atom",
+      "source_url": "https://fileinfo.com/img/ss/md/rmd_10016.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-07-07",
+  "sources": [
+    {
+      "url": "rmd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

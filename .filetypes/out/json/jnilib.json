@@ -1,0 +1,59 @@
+{
+  "slug": "jnilib",
+  "extension": "jnilib",
+  "name": "JNI Library",
+  "category": "jni-library",
+  "developer_org": "oracle",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "Developer library used by JNI (Java Native Interface), a framework that allows Java to integrate with other programming languages; contains functions or methods that provide the invocation interface between the programming languages.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "oracle-jni",
+        "display_name": "Oracle JNI"
+      }
+    ],
+    "macos": [
+      {
+        "software": "oracle-jni",
+        "display_name": "Oracle JNI"
+      }
+    ],
+    "linux": [
+      {
+        "software": "oracle-jni",
+        "display_name": "Oracle JNI"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-10-01",
+  "sources": [
+    {
+      "url": "jnilib.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "slug": "image",
+  "extension": "image",
+  "name": "Apple Disk Image",
+  "category": "1.-apple-disk-image",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.1,
+    "votes": 26,
+    "source": "fileinfo"
+  },
+  "summary": "File containing exact copy of data from a Mac-formatted disk; can be mounted on the desktop like a CD or other disk; used by Disk Copy and ShrinkWrap.",
+  "standards": [],
+  "mime_types": [
+    "n/a",
+    "squeak.js.org/run"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "apple-disk-utility",
+        "display_name": "Apple Disk Utility"
+      },
+      {
+        "software": "roxio-toast-20",
+        "display_name": "Roxio Toast 20"
+      },
+      {
+        "software": "roxio-popcorn",
+        "display_name": "Roxio Popcorn"
+      },
+      {
+        "software": "disk-copy",
+        "display_name": "Disk Copy"
+      },
+      {
+        "software": "shrinkwrap",
+        "display_name": "ShrinkWrap"
+      },
+      {
+        "software": "openqwaq",
+        "display_name": "OpenQwaq"
+      },
+      {
+        "software": "squeak",
+        "display_name": "Squeak"
+      }
+    ],
+    "windows": [
+      {
+        "software": "apple-disk-utility",
+        "display_name": "Apple Disk Utility"
+      },
+      {
+        "software": "roxio-toast-20",
+        "display_name": "Roxio Toast 20"
+      },
+      {
+        "software": "roxio-popcorn",
+        "display_name": "Roxio Popcorn"
+      },
+      {
+        "software": "disk-copy",
+        "display_name": "Disk Copy"
+      },
+      {
+        "software": "shrinkwrap",
+        "display_name": "ShrinkWrap"
+      },
+      {
+        "software": "openqwaq",
+        "display_name": "OpenQwaq"
+      },
+      {
+        "software": "squeak",
+        "display_name": "Squeak"
+      }
+    ],
+    "linux": [
+      {
+        "software": "openqwaq",
+        "display_name": "OpenQwaq"
+      },
+      {
+        "software": "squeak",
+        "display_name": "Squeak"
+      }
+    ],
+    "web": [
+      {
+        "software": "squeakjs",
+        "display_name": "SqueakJS"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "IMAGE file icon",
+      "alt": "IMAGE file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/image-964.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2006",
+  "sources": [
+    {
+      "url": "image.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

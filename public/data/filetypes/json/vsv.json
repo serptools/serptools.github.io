@@ -1,0 +1,22 @@
+{
+  "slug": "vsv",
+  "extension": "vsv",
+  "name": "Virtual Machine Saved State File",
+  "category": "virtual-machine-saved-state-file",
+  "summary": "",
+  "developer_org": "microsoft",
+  "developer_name": "Microsoft",
+  "more_information": {
+    "description": [
+      "VSV files are not opened directly by the user. They are referenced by .VMC files, which include a reference to the latest saved state file.",
+      "NOTE: Since VSV files save the current state of the RAM for the VM, their file size is exactly the same size as the amount of RAM allocated to the VM. For example, if you allocate 512MB of RAM to a VM, the VSV file size will be 512MB."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "vsv.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

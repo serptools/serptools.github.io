@@ -1,0 +1,27 @@
+{
+  "slug": "nvm",
+  "extension": "nvm",
+  "name": "PlayStation 2 BIOS Configuration File",
+  "category": "playstation-2-bios-configuration-file",
+  "summary": "",
+  "developer_org": "n-a",
+  "developer_name": "N/A",
+  "more_information": {
+    "description": [
+      "NOTE: BIOS are necessary in order to emulate a PlayStation2 on a PC. In order to use programs such as PSX2, you must transfer the BIOS folder from your own PS2 to your PC."
+    ]
+  },
+  "common_filenames": [
+    {
+      "filename": "scphXXXXX.nvm",
+      "description": "scphXXXXX.nvm - File appears like this with the 5 digit X's replaced by the version of your BIOS."
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "nvm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

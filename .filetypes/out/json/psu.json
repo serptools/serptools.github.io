@@ -1,0 +1,58 @@
+{
+  "slug": "psu",
+  "extension": "psu",
+  "name": "PSU Designer Document",
+  "category": "1.-psu-designer-document",
+  "developer_org": "duncan-amplification",
+  "popularity": {
+    "rating": 2.8,
+    "votes": 12,
+    "source": "fileinfo"
+  },
+  "summary": "CAD file created by PSU Designer (PSUD), a program used for designing power supplies for tube amplifiers; saves the design schematic, which may include rectifiers, filters, and other components; can be simulated in the software.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "duncan-amplification-psu-designer",
+        "display_name": "Duncan Amplification PSU Designer"
+      },
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      },
+      {
+        "software": "mymc",
+        "display_name": "mymc"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-07-14",
+  "sources": [
+    {
+      "url": "psu.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

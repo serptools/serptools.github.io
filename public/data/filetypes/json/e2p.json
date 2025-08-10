@@ -1,0 +1,22 @@
+{
+  "slug": "e2p",
+  "extension": "e2p",
+  "name": "PonyProg Device File",
+  "category": "ponyprog-device-file",
+  "summary": "",
+  "developer_org": "claudio-lanconelli",
+  "developer_name": "Claudio Lanconelli",
+  "more_information": {
+    "description": [
+      "The E2P file is the main file used by PonyProg to store serial device information. PonyProg creates the E2P file when you select File → Save Device File . You can also save device information in a .BIN , .HEX , .CSM , .MOT , .ROM , or .EEP file.",
+      "PonyProg allows you to program serial devices like Microwire, Microchip PIC micro, Atmel AVR, and SPI eeprom. It is used in consumer, automotive, telecommunication, and industrial applications with nonvolatile memory storage."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "e2p.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

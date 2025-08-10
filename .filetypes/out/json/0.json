@@ -1,0 +1,116 @@
+{
+  "slug": "0",
+  "extension": "0",
+  "name": "Shared Library Link File",
+  "category": "1.-shared-library-link-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 774,
+    "source": "fileinfo"
+  },
+  "summary": "A 0 file is a link file used by Linux operating systems. It contains a reference to a particular version of the library, which may have an extension such as \".0.0.0\" or \".0.0.1,\" depending on the library version. 0 files allow multiple versions of library files to exist while only one of them is referenced and used by the operating system's dynamic library loader.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "linux": [
+      {
+        "software": "linux-dynamic-link-loader",
+        "display_name": "Linux dynamic link loader"
+      },
+      {
+        "software": "github-atom",
+        "display_name": "Github Atom",
+        "status": "discontinued"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "windows": [
+      {
+        "software": "pegar",
+        "display_name": "PEGAR"
+      },
+      {
+        "software": "pegar-archivos",
+        "display_name": "Pegar Archivos"
+      },
+      {
+        "software": "dr.-software-hacha",
+        "display_name": "Dr. Software Hacha"
+      },
+      {
+        "software": "transfer-to-an-m3-ds-real-flash-cartridge",
+        "display_name": "Transfer to an M3 DS Real flash cartridge"
+      },
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "github-atom",
+        "display_name": "Github Atom",
+        "status": "discontinued"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "web": [
+      {
+        "software": "shunyweb-savegames-converter",
+        "display_name": "Shunyweb Savegames Converter"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "github-atom",
+        "display_name": "Github Atom",
+        "status": "discontinued"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "android": [
+      {
+        "software": "google-android",
+        "display_name": "Google Android"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2016-10-26",
+  "sources": [
+    {
+      "url": "0.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

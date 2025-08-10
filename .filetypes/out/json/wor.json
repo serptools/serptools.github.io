@@ -1,0 +1,47 @@
+{
+  "slug": "wor",
+  "extension": "wor",
+  "name": "MapInfo Workspace File",
+  "category": "mapinfo-workspace-file",
+  "developer_org": "pitney-bowes-software",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "Map workspace file used by MapInfo mapping and geographic analysis software; contains a visual map of an area that can be browsed and zoomed using MapInfo software; typically includes information about locations within the map, such as population and demographic data.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "pitney-bowes-mapinfo",
+        "display_name": "Pitney Bowes MapInfo"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-01-17",
+  "sources": [
+    {
+      "url": "wor.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "slug": "awc",
+  "extension": "awc",
+  "name": "Emulex AWC Firmware Update File",
+  "category": "1.-emulex-awc-firmware-update-file",
+  "developer_org": "emulex",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 13,
+    "source": "fileinfo"
+  },
+  "summary": "Firmware update file for an Emulex networking device, such as a router or switch; updates the kernel, components, and the POST code.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "emulex-lputil",
+        "display_name": "Emulex lputil"
+      },
+      {
+        "software": "emulex-lputilnt",
+        "display_name": "Emulex lputilnt"
+      },
+      {
+        "software": "emulex-lp6dutil",
+        "display_name": "Emulex lp6dutil"
+      },
+      {
+        "software": "openiv",
+        "display_name": "OpenIV"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2008-03-13",
+  "sources": [
+    {
+      "url": "awc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "aggr",
+  "extension": "aggr",
+  "name": "Adobe Captivate Aggregate File",
+  "category": "adobe-captivate-aggregate-file",
+  "developer_org": "adobe-systems",
+  "popularity": {
+    "rating": 2.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "File created by Adobe Captivate, a screen recording and multimedia publishing application; contains an aggregate of multiple .CPTX or .CP Captivate projects that were published as .SWF files; used for combining projects together into a single .SWF or standalone .EXE deliverable.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "adobe-captivate",
+        "display_name": "Adobe Captivate"
+      }
+    ],
+    "macos": [
+      {
+        "software": "adobe-captivate",
+        "display_name": "Adobe Captivate"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-01-12",
+  "sources": [
+    {
+      "url": "aggr.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

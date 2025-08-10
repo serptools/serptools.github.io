@@ -1,0 +1,53 @@
+{
+  "slug": "fxconfig",
+  "extension": "fxconfig",
+  "name": "FX File Explorer Settings",
+  "category": "fx-file-explorer-settings",
+  "developer_org": "nextapp",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "An FXCONFIG file is a configuration file used by FX File Explorer, a third-party file manager for Android devices. It contains a list of a user's settings, bookmarks, and other configuration information.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "android": [
+      {
+        "software": "fx-file-explorer",
+        "display_name": "FX File Explorer"
+      }
+    ],
+    "windows": [
+      {
+        "software": "fx-file-explorer",
+        "display_name": "FX File Explorer"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-04-27",
+  "sources": [
+    {
+      "url": "fxconfig.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

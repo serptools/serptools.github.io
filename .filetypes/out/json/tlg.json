@@ -1,0 +1,53 @@
+{
+  "slug": "tlg",
+  "extension": "tlg",
+  "name": "QuickBooks Transaction Log File",
+  "category": "quickbooks-transaction-log-file",
+  "developer_org": "intuit",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Log file created by QuickBooks, a program used to track personal and company finances; contains a log of all pending uncommitted transactions to a .QBW file; tracks data changes since the last time a proper backup has been created.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "intuit-quickbooks-pro",
+        "display_name": "Intuit QuickBooks Pro"
+      }
+    ],
+    "macos": [
+      {
+        "software": "intuit-quickbooks-for-mac",
+        "display_name": "Intuit QuickBooks for Mac"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-01-15",
+  "sources": [
+    {
+      "url": "tlg.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

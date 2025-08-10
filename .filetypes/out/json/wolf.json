@@ -1,0 +1,55 @@
+{
+  "slug": "wolf",
+  "extension": "wolf",
+  "name": "Wolf RPG Editor Game Data Archive",
+  "category": "wolf-rpg-editor-game-data-archive",
+  "developer_org": "smokingwolf",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 17,
+    "source": "fileinfo"
+  },
+  "summary": "A WOLF file is an archive created by Wolf RPG Editor, a Japanese program used to create complex role-playing games (RPGs). It may contain one or more game resource folders and files that have been encrypted by Wolf RPG Editor and packaged with a game. WOLF files typically include .OGG sound effects, .JPG background images, map files, or .PNG character images.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "games-created-by-wolf-rpg-editor",
+        "display_name": "Games created by Wolf RPG Editor"
+      },
+      {
+        "software": "dxextract",
+        "display_name": "DXExtract"
+      },
+      {
+        "software": "wolfdec",
+        "display_name": "WolfDec"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-08-02",
+  "sources": [
+    {
+      "url": "wolf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

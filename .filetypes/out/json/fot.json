@@ -1,0 +1,49 @@
+{
+  "slug": "fot",
+  "extension": "fot",
+  "name": "Font Resource File",
+  "category": "font-resource-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 16,
+    "source": "fileinfo"
+  },
+  "summary": "Font file used by Windows and applications that support TrueType fonts ( .TTF files); contains font information and is used to install and configure an associated TrueType font; often used by application installers when installing fonts.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-windows",
+        "display_name": "Microsoft Windows"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-05-10",
+  "sources": [
+    {
+      "url": "fot.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

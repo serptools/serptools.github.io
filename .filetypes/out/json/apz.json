@@ -1,0 +1,60 @@
+{
+  "slug": "apz",
+  "extension": "apz",
+  "name": "Autoplay Media Studio Exported Project",
+  "category": "autoplay-media-studio-exported-project",
+  "developer_org": "indigo-rose",
+  "popularity": {
+    "rating": 4.3,
+    "votes": 10,
+    "source": "fileinfo"
+  },
+  "summary": "An APZ file is a project file exported by AutoPlay Media Studio, a Windows application used to create multimedia software, such as CD/DVD menus, interactive tutorials, and simple utilities. It contains all the contents of an AutoPlay project, including the .AUTOPLAY project file, media assets (including images, videos, and .BTN buttons), scripts , and other related resources in a Zip-compressed archive format.",
+  "standards": [],
+  "mime_types": [
+    "cd/dvd"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "indigo-rose-autoplay-media-studio",
+        "display_name": "Indigo Rose AutoPlay Media Studio"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "APZ file icon",
+      "alt": "APZ file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/apz-3161.png"
+    },
+    {
+      "caption": "APZ file open in Indigo Rose Autoplay Media Studio 9",
+      "alt": "APZ file open in Indigo Rose Autoplay Media Studio 9",
+      "source_url": "https://fileinfo.com/img/ss/md/apz_3161.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2025-07-17",
+  "sources": [
+    {
+      "url": "apz.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

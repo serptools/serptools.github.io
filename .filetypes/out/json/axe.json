@@ -1,0 +1,52 @@
+{
+  "slug": "axe",
+  "extension": "axe",
+  "name": "AutoRoute Map File",
+  "category": "1.-autoroute-map-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.2,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "Locations file created by Microsoft AutoRoute, a map navigation and trip planning program for Eastern and Western Europe; contains \"pushpins,\" which are Points of Interest (POI) on the map; can also contain navigation data.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      },
+      {
+        "software": "codalogic-lmx",
+        "display_name": "Codalogic LMX"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-04-03",
+  "sources": [
+    {
+      "url": "axe.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

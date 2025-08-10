@@ -1,0 +1,71 @@
+{
+  "slug": "avp",
+  "extension": "avp",
+  "name": "Avid Project File",
+  "category": "1.-avid-project-file",
+  "developer_org": "avid-technology",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Project file created by Avid Technology's professional video editing applications; contains references to video and audio clips, as well as the edits such as transitions and effects; used for saving projects for motion pictures.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "avid-media-composer",
+        "display_name": "Avid Media Composer"
+      },
+      {
+        "software": "avid-xpress",
+        "display_name": "Avid Xpress",
+        "status": "discontinued"
+      },
+      {
+        "software": "avira-antivirus-pro",
+        "display_name": "Avira Antivirus Pro"
+      }
+    ],
+    "macos": [
+      {
+        "software": "avid-media-composer",
+        "display_name": "Avid Media Composer"
+      },
+      {
+        "software": "avid-xpress",
+        "display_name": "Avid Xpress",
+        "status": "discontinued"
+      },
+      {
+        "software": "avira-antivirus-pro",
+        "display_name": "Avira Antivirus Pro"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2013-11-03",
+  "sources": [
+    {
+      "url": "avp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

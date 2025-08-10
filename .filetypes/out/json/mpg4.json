@@ -1,0 +1,83 @@
+{
+  "slug": "mpg4",
+  "extension": "mpg4",
+  "name": "MPEG-4 Video File",
+  "category": "mpeg-4-video-file",
+  "developer_org": "moving-picture-experts-group",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 15,
+    "source": "fileinfo"
+  },
+  "summary": "Video file that uses MPEG-4 compression, a standard developed by the Moving Picture Experts Group (MPEG); much less common than the .MP4 extension.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "movie-player",
+        "display_name": "movie player"
+      },
+      {
+        "software": "apple-quicktime-player",
+        "display_name": "Apple QuickTime Player"
+      },
+      {
+        "software": "mplayer",
+        "display_name": "MPlayer"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-quicktime-player",
+        "display_name": "Apple QuickTime Player"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "movie-player",
+        "display_name": "movie player"
+      }
+    ],
+    "linux": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "mplayer",
+        "display_name": "MPlayer"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2016-02-04",
+  "sources": [
+    {
+      "url": "mpg4.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

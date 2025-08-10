@@ -1,0 +1,53 @@
+{
+  "slug": "izzy",
+  "extension": "izzy",
+  "name": "Isadora Project",
+  "category": "isadora-project",
+  "developer_org": "troikatronix",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Media project saved by Isadora; contains a graphic programming environment for managing digital media, such as video, audio, and MIDI data.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "troikatronix-isadora",
+        "display_name": "TroikaTronix Isadora"
+      }
+    ],
+    "macos": [
+      {
+        "software": "troikatronix-isadora",
+        "display_name": "TroikaTronix Isadora"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2007-01-29",
+  "sources": [
+    {
+      "url": "izzy.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

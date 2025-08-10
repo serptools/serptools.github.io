@@ -1,0 +1,47 @@
+{
+  "slug": "wtb",
+  "extension": "wtb",
+  "name": "Win-Test Binary Log",
+  "category": "win-test-binary-log",
+  "developer_org": "win-test",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "A WTB file is a log file created by Win-Test, an international ham radio contest application. It contains contest configuration settings and a log of all radio operators a user contacted during a contest. Contest coordinators can use WTB files to check the veracity of a contest participant's results.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "win-test",
+        "display_name": "Win-Test"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-10-05",
+  "sources": [
+    {
+      "url": "wtb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

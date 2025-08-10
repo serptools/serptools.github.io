@@ -1,0 +1,57 @@
+{
+  "slug": "rfd",
+  "extension": "rfd",
+  "name": "Recogniform Form Designer File",
+  "category": "1.-recogniform-form-designer-file",
+  "developer_org": "recogniform-technologies",
+  "popularity": {
+    "rating": 2.8,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "File created by Recogniform document recognition software; contains the page layout structure, text, and other formatting information; used for scanning and storing digital copies of paper forms.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "recogniform-form-designer",
+        "display_name": "Recogniform Form Designer"
+      },
+      {
+        "software": "dragon-unpacker",
+        "display_name": "Dragon UnPACKer"
+      }
+    ],
+    "ios": [
+      {
+        "software": "westwood-studios-emperor-battle-for-dune",
+        "display_name": "Westwood Studios Emperor: Battle for Dune"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-07-01",
+  "sources": [
+    {
+      "url": "rfd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

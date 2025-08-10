@@ -1,0 +1,53 @@
+{
+  "slug": "ook",
+  "extension": "ook",
+  "name": "Arachne Batch Script",
+  "category": "arachne-batch-script",
+  "developer_org": "arachne",
+  "popularity": {
+    "rating": 2.7,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "File used by Arachne, a DOS-based Web browser also now supported for Linux; uses the same format as a .BAT file and saves scripted commands that are used to open DOS programs from the Web browser.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "arachne",
+        "display_name": "Arachne"
+      }
+    ],
+    "linux": [
+      {
+        "software": "arachne",
+        "display_name": "Arachne"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-08-22",
+  "sources": [
+    {
+      "url": "ook.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

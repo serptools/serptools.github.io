@@ -1,0 +1,26 @@
+{
+  "slug": "rem",
+  "extension": "rem",
+  "name": "BlackBerry Encrypted Media",
+  "category": "blackberry-encrypted-media",
+  "summary": "",
+  "developer_org": "research-in-motion",
+  "developer_name": "Research In Motion",
+  "more_information": {
+    "description": [
+      "When a BlackBerry smartphone user has enabled media file encryption, their phone automatically encrypts any .JPG , .MP3 , and other media files stored on their memory card. After doing so, the phone adds the .rem extension to those files' names, to denote they are encrypted.",
+      "If a user attempts to manually transfer these files to another device (such as a computer) and open them, they typically will not be able to do so, because the files are encrypted. Instead, a user should transfer their REM files to their computer using BlackBerry Desktop Manager, which decrypts the files during the transfer process, or decrypt their media files on their phone before attempting to transfer them.",
+      "If you still have access to the BlackBerry phone on which your REM files were created, you can decrypt the files on your phone by:",
+      "(While the above steps work on most BlackBerry phones, encryption settings may reside in different places on different phones.)",
+      "Then, you can use the unencrypted files as you would normally (e.g. you can email them to yourself from your phone, download them, and open them). In some cases, you may have to manually remove the .rem extension from the files' names to use them.",
+      "NOTE: Typically, REM encryption is device-specific. Thus, you cannot decrypt REM files created by one phone on a different phone (unless they are password-encrypted instead)."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "rem.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

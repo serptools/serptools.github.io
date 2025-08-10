@@ -1,0 +1,75 @@
+{
+  "slug": "rlib",
+  "extension": "rlib",
+  "name": "Static Rust Library",
+  "category": "static-rust-library",
+  "developer_org": "the-rust-team",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "An RLIB file is a static code library used by Rust programs. It contains compiled Rust functions that a Rust program can access and use. Each RLIB file also contains rustc-specific metadata that allows the Rust compiler to understand the functions the file contains.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "rust",
+        "display_name": "Rust"
+      },
+      {
+        "software": "objdump--d-command",
+        "display_name": "Objdump -d command"
+      },
+      {
+        "software": "unix-archiver-ar",
+        "display_name": "Unix archiver (ar)"
+      }
+    ],
+    "macos": [
+      {
+        "software": "rust",
+        "display_name": "Rust"
+      }
+    ],
+    "linux": [
+      {
+        "software": "rust",
+        "display_name": "Rust"
+      },
+      {
+        "software": "objdump--d-command",
+        "display_name": "Objdump -d command"
+      },
+      {
+        "software": "unix-archiver-ar",
+        "display_name": "Unix archiver (ar)"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-12-09",
+  "sources": [
+    {
+      "url": "rlib.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

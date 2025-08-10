@@ -1,0 +1,67 @@
+{
+  "slug": "a78",
+  "extension": "a78",
+  "name": "Atari 7800 ROM",
+  "category": "atari-7800-rom",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "An A78 file is a game ROM file used by Atari 7800 emulators , which can play Atari 7800 games as if they were run on the original system. It contains an exact copy of game data from the original game cartridge, which is used by an emulator to play the game.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "mess",
+        "display_name": "MESS"
+      },
+      {
+        "software": "emu7800",
+        "display_name": "Emu7800"
+      },
+      {
+        "software": "prosystem-emulator",
+        "display_name": "ProSystem Emulator"
+      },
+      {
+        "software": "openemu",
+        "display_name": "OpenEmu"
+      }
+    ],
+    "macos": [
+      {
+        "software": "openemu",
+        "display_name": "OpenEmu"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-03-13",
+  "sources": [
+    {
+      "url": "a78.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

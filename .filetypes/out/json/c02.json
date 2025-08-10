@@ -1,0 +1,48 @@
+{
+  "slug": "c02",
+  "extension": "c02",
+  "name": "WinAce Split Archive Part 1 File",
+  "category": "winace-split-archive-part-1-file",
+  "developer_org": "e-merge",
+  "popularity": {
+    "rating": 2.7,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "A C02 file is the second part of a compressed archive that has been split by E-merge WinAce, a file compression utility for Windows. It stores one segment of an archive that may contain one or more files compressed with WinAce.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "e-merge-winace",
+        "display_name": "E-merge WinAce",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-12-09",
+  "sources": [
+    {
+      "url": "c02.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

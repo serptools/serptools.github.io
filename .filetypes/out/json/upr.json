@@ -1,0 +1,63 @@
+{
+  "slug": "upr",
+  "extension": "upr",
+  "name": "Fractal Parameters File",
+  "category": "1.-fractal-parameters-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Data file used by fractal math and art programs such as Apophysis and Ultra Fractal; saved in a plain text format and contains the parameters used to generate a fractal image; often used for flame fractals; also used for sharing fractal sets with others.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "ultra-fractal",
+        "display_name": "Ultra Fractal"
+      },
+      {
+        "software": "apophysis",
+        "display_name": "Apophysis"
+      },
+      {
+        "software": "filemaker-pro-advanced",
+        "display_name": "FileMaker Pro Advanced"
+      }
+    ],
+    "macos": [
+      {
+        "software": "filemaker-pro-advanced",
+        "display_name": "FileMaker Pro Advanced"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-12-22",
+  "sources": [
+    {
+      "url": "upr.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

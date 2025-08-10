@@ -1,0 +1,51 @@
+{
+  "slug": "csm",
+  "extension": "csm",
+  "name": "Steam Game Backup File",
+  "category": "1.-steam-game-backup-file",
+  "developer_org": "valve",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 12,
+    "source": "fileinfo"
+  },
+  "summary": "Backup file used by Steam, a digital distribution service used to access games and software; contains the backup data of a game played with Steam; similar to a .CSD and .SIS file.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "valve-steam",
+        "display_name": "Valve Steam"
+      },
+      {
+        "software": "autodesk-3ds-max-2023",
+        "display_name": "Autodesk 3ds Max 2023"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-10-19",
+  "sources": [
+    {
+      "url": "csm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

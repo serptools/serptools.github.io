@@ -1,0 +1,76 @@
+{
+  "slug": "hif",
+  "extension": "hif",
+  "name": "High Efficiency Image Format",
+  "category": "1.-high-efficiency-image-format",
+  "developer_org": "moving-picture-experts-group",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 10,
+    "source": "fileinfo"
+  },
+  "summary": "An HIF file contains one or more images saved in the High Efficiency Image Format (HEIF). It stores a single image or sequence of images exported by an image editor or captured by select Sony and Canon digital cameras, such as the 1DX Mark III and EOS R5. HIF files also contain metadata that describes each image.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-photos-with-heif-image-extensions-and-hevc-video-extensions-packages-installed",
+        "display_name": "Microsoft Photos with HEIF Image Extensions and HEVC Video Extensions packages installed"
+      },
+      {
+        "software": "apple-preview",
+        "display_name": "Apple Preview"
+      },
+      {
+        "software": "intuit-quicken",
+        "display_name": "Intuit Quicken"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-preview",
+        "display_name": "Apple Preview"
+      },
+      {
+        "software": "intuit-quicken",
+        "display_name": "Intuit Quicken"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "HIF file icon",
+      "alt": "HIF file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/hif-12659.png"
+    },
+    {
+      "caption": "HIF file open in Apple Preview 11",
+      "alt": "HIF file open in Apple Preview 11",
+      "source_url": "https://fileinfo.com/img/ss/md/hif_12659.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-04-25",
+  "sources": [
+    {
+      "url": "hif.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

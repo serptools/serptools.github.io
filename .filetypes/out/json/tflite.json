@@ -1,0 +1,65 @@
+{
+  "slug": "tflite",
+  "extension": "tflite",
+  "name": "TensorFlow Lite Model",
+  "category": "tensorflow-lite-model",
+  "developer_org": "tensorflow",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "A TFLITE file is a machine learning model used by TensorFlow Lite, an app that runs machine learning models on mobile devices, microcontrollers, and embedded systems. The model a TFLITE file contains may be used for image classification, object detection, text classification, or another type of machine learning task. TensorFlow Lite users create TFLITE files with TensorFlow Lite Model Maker or TensorFlow Lite Converter.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "linux": [
+      {
+        "software": "tensorflow-lite",
+        "display_name": "TensorFlow Lite"
+      }
+    ],
+    "windows": [
+      {
+        "software": "tensorflow-lite",
+        "display_name": "TensorFlow Lite"
+      }
+    ],
+    "ios": [
+      {
+        "software": "tensorflow-lite",
+        "display_name": "TensorFlow Lite"
+      }
+    ],
+    "android": [
+      {
+        "software": "tensorflow-lite",
+        "display_name": "TensorFlow Lite"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-04-06",
+  "sources": [
+    {
+      "url": "tflite.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

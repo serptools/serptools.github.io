@@ -1,0 +1,63 @@
+{
+  "slug": "mud",
+  "extension": "mud",
+  "name": "Mudbox 3D Scene File",
+  "category": "1.-mudbox-3d-scene-file",
+  "developer_org": "autodesk",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "3D image created by Mudbox, a 3D digital sculpting and painting application; saves a 3D model with textures and lighting information; can include multiple sculpt and paint layers; can also incorporate models ( .OBJ , and .FBX ) created in other 3D software tools such as Maya.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "autodesk-mudbox-2022",
+        "display_name": "Autodesk Mudbox 2022"
+      },
+      {
+        "software": "lightbox-education-textease-studio-ct",
+        "display_name": "Lightbox Education Textease Studio CT"
+      }
+    ],
+    "macos": [
+      {
+        "software": "autodesk-mudbox-2022",
+        "display_name": "Autodesk Mudbox 2022"
+      }
+    ],
+    "linux": [
+      {
+        "software": "autodesk-mudbox-2022",
+        "display_name": "Autodesk Mudbox 2022"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-06-04",
+  "sources": [
+    {
+      "url": "mud.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

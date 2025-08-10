@@ -1,0 +1,55 @@
+{
+  "slug": "dtf",
+  "extension": "dtf",
+  "name": "Domino Temporary File",
+  "category": "domino-temporary-file",
+  "developer_org": "ibm",
+  "popularity": {
+    "rating": 2.4,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "File created by Lotus Domino, an enterprise-level application used for business processes and collaboration; stores temporary data used by the server's update task; deleted when the update task has completed.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "ibm-domino",
+        "display_name": "IBM Domino",
+        "status": "discontinued"
+      }
+    ],
+    "linux": [
+      {
+        "software": "ibm-domino",
+        "display_name": "IBM Domino",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-05-11",
+  "sources": [
+    {
+      "url": "dtf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

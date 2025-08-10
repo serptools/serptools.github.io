@@ -1,0 +1,21 @@
+{
+  "slug": "mvg",
+  "extension": "mvg",
+  "name": "Magick Vector Graphics File",
+  "category": "magick-vector-graphics-file",
+  "summary": "",
+  "developer_org": "imagemagick",
+  "developer_name": "ImageMagick",
+  "more_information": {
+    "description": [
+      "The MVG language is used by ImageMagick as a way to draw graphics from the command line, from an MVG file, or when converting .SVG graphics. The MVG syntax does not have any containers or sets of image commands like the SVG format and ignores any white space between commands, which allows multiple commands per line. When the SVG file is converted to the MVG file, a simplified sequence of MVG drawing commands are produced."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "mvg.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

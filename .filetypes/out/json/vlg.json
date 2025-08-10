@@ -1,0 +1,47 @@
+{
+  "slug": "vlg",
+  "extension": "vlg",
+  "name": "VentaFax Logbook File",
+  "category": "ventafax-logbook-file",
+  "developer_org": "venta-association",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "File used by VentaFax, a program that allows users to send and receive faxes on a computer; contains a log of faxes that have been sent and received; used to maintain a history of faxes.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "venta-association-ventafax",
+        "display_name": "Venta Association VentaFax"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-01-20",
+  "sources": [
+    {
+      "url": "vlg.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

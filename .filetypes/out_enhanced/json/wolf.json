@@ -1,0 +1,35 @@
+{
+  "slug": "wolf",
+  "extension": "wolf",
+  "name": "Wolf RPG Editor Game Data Archive",
+  "category": "wolf-rpg-editor-game-data-archive",
+  "summary": "",
+  "developer_org": "smokingwolf",
+  "developer_name": "SmokingWOLF",
+  "more_information": {
+    "description": [
+      "WOLF archives are distributed with games created by Wolf RPG Editor if the game developers choose to encrypt the game resource files packaged with the game. To create a WOLF archive in Wolf RPG Editor that contains all the game resources, follow these steps: Select File → Create Game Data . Choose \"Encrypt entire Data folder\" in the \"Encryption Settings.\" Click OK . To create WOLF archives for select game resource folders in Wolf RPG Editor, follow these steps: Select File → Create Game Data . Choose \"Encrypt some folders\" in the \"Encryption Settings.\" Select the folders. Click OK . If the game developer selects \"No Encryption\" in the \"Encryption Settings,\" a \"Data\" folder will be packaged with the game. Since WOLF archives are encrypted, they are not meant to be opened by the end-user, only referenced by the game with which they are packaged. They are encrypted to preserve the resources required to play the game. If the resource files in the archive are altered the gameplay will be changed and possibly broken. NOTE: However, some gamers enjoy modifying gameplay and may use various decryption programs, such as DXExtract or WolfDec, to extract the resources and modify them.",
+      "To create WOLF archives for select game resource folders in Wolf RPG Editor, follow these steps: Select File → Create Game Data . Choose \"Encrypt some folders\" in the \"Encryption Settings.\" Select the folders. Click OK . If the game developer selects \"No Encryption\" in the \"Encryption Settings,\" a \"Data\" folder will be packaged with the game. Since WOLF archives are encrypted, they are not meant to be opened by the end-user, only referenced by the game with which they are packaged. They are encrypted to preserve the resources required to play the game. If the resource files in the archive are altered the gameplay will be changed and possibly broken. NOTE: However, some gamers enjoy modifying gameplay and may use various decryption programs, such as DXExtract or WolfDec, to extract the resources and modify them.",
+      "If the game developer selects \"No Encryption\" in the \"Encryption Settings,\" a \"Data\" folder will be packaged with the game.",
+      "Since WOLF archives are encrypted, they are not meant to be opened by the end-user, only referenced by the game with which they are packaged. They are encrypted to preserve the resources required to play the game. If the resource files in the archive are altered the gameplay will be changed and possibly broken.",
+      "NOTE: However, some gamers enjoy modifying gameplay and may use various decryption programs, such as DXExtract or WolfDec, to extract the resources and modify them."
+    ]
+  },
+  "common_filenames": [
+    {
+      "filename": "Data.wolf",
+      "description": "Data.wolf - Default name given to a WOLF archive by Wolf RPG Editor if the entire game resources are encrypted. The archive is located in the same folder with the Game.exe file."
+    },
+    {
+      "filename": "Game.exe",
+      "description": "Data.wolf - Default name given to a WOLF archive by Wolf RPG Editor if the entire game resources are encrypted. The archive is located in the same folder with the Game.exe file."
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "wolf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

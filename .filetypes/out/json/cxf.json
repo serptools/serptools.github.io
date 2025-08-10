@@ -1,0 +1,75 @@
+{
+  "slug": "cxf",
+  "extension": "cxf",
+  "name": "Picasa Collage File",
+  "category": "1.-picasa-collage-file",
+  "developer_org": "google",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 17,
+    "source": "fileinfo"
+  },
+  "summary": "File created by Picasa, a free image editor and image sharing program developed by Google; created alongside the .JPG image when the user saves a collage; stores paths to the images that were used to create the collage, as well as the positions of the images in the collage.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "google-picasa",
+        "display_name": "Google Picasa",
+        "status": "discontinued"
+      },
+      {
+        "software": "cxeditor",
+        "display_name": "CXeditor",
+        "status": "discontinued"
+      },
+      {
+        "software": "cas-scifinder",
+        "display_name": "CAS SciFinder"
+      },
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      }
+    ],
+    "macos": [
+      {
+        "software": "google-picasa",
+        "display_name": "Google Picasa",
+        "status": "discontinued"
+      }
+    ],
+    "linux": [
+      {
+        "software": "cuttlefish",
+        "display_name": "Cuttlefish"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-10-02",
+  "sources": [
+    {
+      "url": "cxf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

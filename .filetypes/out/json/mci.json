@@ -1,0 +1,63 @@
+{
+  "slug": "mci",
+  "extension": "mci",
+  "name": "Media Control Interface File",
+  "category": "media-control-interface-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 1.8,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "An MCI file is a configuration file used by the Media Control Interface (MCI), a system introduced in Microsoft Windows 3.1 that helps control multimedia hardware and software. It contains information that provides a command-based interface for allowing programs to control media devices, such as CD players, MIDI instruments, and video playback systems, without needing to interact directly with each device’s drivers.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "mimic",
+        "display_name": "Mimic"
+      },
+      {
+        "software": "sjgplay",
+        "display_name": "SJGPlay"
+      },
+      {
+        "software": "vb-amp-pro",
+        "display_name": "VB-Amp Pro"
+      },
+      {
+        "software": "wincdg",
+        "display_name": "WinCDG"
+      },
+      {
+        "software": "wincron",
+        "display_name": "WinCron"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2025-04-23",
+  "sources": [
+    {
+      "url": "mci.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

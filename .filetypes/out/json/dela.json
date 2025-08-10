@@ -1,0 +1,86 @@
+{
+  "slug": "dela",
+  "extension": "dela",
+  "name": "Dictionnaires Electroniques du LADL",
+  "category": "dictionnaires-electroniques-du-ladl",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "A DELA file is a corpus saved in the Dictionnaires Electroniques du LADL format. It contains a plain text list of words or other lexical entries, as well as associated linguistic metadata . Linguists and computer scientists can import DELA files into corpus processing applications to analyze the datasets they contain.",
+  "standards": [],
+  "mime_types": [
+    "n/a",
+    "unitex/gramlab"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "unitex-gramlab",
+        "display_name": "Unitex/GramLab"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "unitex-gramlab",
+        "display_name": "Unitex/GramLab"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "unitex-gramlab",
+        "display_name": "Unitex/GramLab"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-06-02",
+  "sources": [
+    {
+      "url": "dela.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "basex",
+  "extension": "basex",
+  "name": "BaseX Data File",
+  "category": "basex-data-file",
+  "developer_org": "basex-team",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "File used by BaseX, an XML database engine used for storing and managing structured XML data; may be used for the main database table file ( tbl.basex ) or as a file extension for a BaseX configuration file.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "basex",
+        "display_name": "BaseX"
+      }
+    ],
+    "macos": [
+      {
+        "software": "basex",
+        "display_name": "BaseX"
+      }
+    ],
+    "linux": [
+      {
+        "software": "basex",
+        "display_name": "BaseX"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-12-03",
+  "sources": [
+    {
+      "url": "basex.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

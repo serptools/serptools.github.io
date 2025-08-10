@@ -1,0 +1,25 @@
+{
+  "slug": "zks",
+  "extension": "zks",
+  "name": "Pathfinder Kingmaker Game Save File",
+  "category": "pathfinder-kingmaker-game-save-file",
+  "summary": "",
+  "developer_org": "owlcat-games",
+  "developer_name": "Owlcat Games",
+  "more_information": {
+    "description": [
+      "You most likely will only encounter ZKS files if you are looking to move or modify Pathfinder Kingmaker save files. The ZKS files are not meant to be manually opened, instead, the files are referenced by the game to load game progress.",
+      "Although ZKS files are not meant to be manually opened, you can open and extract information from the files by changing the file extension from .zks to .zip . A Zip-decompression utility, such as Microsoft File Explorer or Corel WinZip, can be used to extract the contents ( player.json , party.json , etc.), from the .ZIP archives. Be careful when modifying the contents since the edits could cause the game save data to become corrupt.",
+      "After making edits to the contents, save the modified files, and compress the files into a ZIP archive. Then, change the .zip file extension to .zks and place the file back in the original save location.",
+      "ZKS files are created and saved by Pathfinder Kingmaker in the following directory:",
+      "C:\\​Users\\​[username]\\​AppData\\​LocalLow\\​OwlcatGames\\​Pathfinder Kingmaker\\​Saved Games"
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "zks.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

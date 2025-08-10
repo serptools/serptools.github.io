@@ -1,0 +1,75 @@
+{
+  "slug": "woz",
+  "extension": "woz",
+  "name": "Apple II Disk Image",
+  "category": "apple-ii-disk-image",
+  "developer_org": "john-k.-morris",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "A WOZ file is a disk image saved in the WOZ binary format, which contains program data in the same structure as an Apple II, or Apple ][, floppy disk . It also stores metadata about the disk image, such as the disk name, publisher, language, and system requirements. WOZ files are typically used for Apple II games, utilities, and educational programs.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "mame",
+        "display_name": "MAME"
+      },
+      {
+        "software": "microm8",
+        "display_name": "microM8"
+      },
+      {
+        "software": "openemulator",
+        "display_name": "OpenEmulator"
+      }
+    ],
+    "macos": [
+      {
+        "software": "openemulator",
+        "display_name": "OpenEmulator"
+      },
+      {
+        "software": "microm8",
+        "display_name": "microM8"
+      }
+    ],
+    "linux": [
+      {
+        "software": "mame",
+        "display_name": "MAME"
+      },
+      {
+        "software": "microm8",
+        "display_name": "microM8"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-10-17",
+  "sources": [
+    {
+      "url": "woz.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

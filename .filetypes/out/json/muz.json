@@ -1,0 +1,63 @@
+{
+  "slug": "muz",
+  "extension": "muz",
+  "name": "MUZ Audio File",
+  "category": "muz-audio-file",
+  "developer_org": "hover",
+  "popularity": {
+    "rating": 2.8,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "A MUZ file is a video game music file used by older DOS and Windows games such as Hover, a hovercraft racing game. It contains music played by the game but is not a common format used for game audio. MUZ files are saved to the SOUNDS\\​MUSIC\\​ directory of the game installation.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "hover",
+        "display_name": "Hover"
+      },
+      {
+        "software": "audacity",
+        "display_name": "Audacity"
+      }
+    ],
+    "macos": [
+      {
+        "software": "audacity",
+        "display_name": "Audacity"
+      }
+    ],
+    "linux": [
+      {
+        "software": "audacity",
+        "display_name": "Audacity"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-08-24",
+  "sources": [
+    {
+      "url": "muz.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

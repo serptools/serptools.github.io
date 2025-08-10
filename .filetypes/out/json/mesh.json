@@ -1,0 +1,104 @@
+{
+  "slug": "mesh",
+  "extension": "mesh",
+  "name": "3D Mesh Model",
+  "category": "1.-3d-mesh-model",
+  "developer_org": "medit",
+  "popularity": {
+    "rating": 4.1,
+    "votes": 76,
+    "source": "fileinfo"
+  },
+  "summary": "3D model format that stores objects as 3D \"mesh\" files; creates a digital representation of geometric models by using a collection of polygons to form the surface of each object.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "medit-for-windows",
+        "display_name": "Medit for Windows"
+      },
+      {
+        "software": "tetgen",
+        "display_name": "TetGen"
+      },
+      {
+        "software": "godot-engine",
+        "display_name": "Godot Engine"
+      },
+      {
+        "software": "microsoft-directx-sdk",
+        "display_name": "Microsoft DirectX SDK",
+        "status": "discontinued"
+      },
+      {
+        "software": "ogre",
+        "display_name": "OGRE"
+      },
+      {
+        "software": "ogre-meshy",
+        "display_name": "Ogre Meshy"
+      },
+      {
+        "software": "ogre-mesh-viewer",
+        "display_name": "Ogre Mesh Viewer"
+      }
+    ],
+    "macos": [
+      {
+        "software": "medit-for-mac-os-x",
+        "display_name": "Medit for Mac OS X"
+      },
+      {
+        "software": "godot-engine",
+        "display_name": "Godot Engine"
+      },
+      {
+        "software": "ogre",
+        "display_name": "OGRE"
+      }
+    ],
+    "linux": [
+      {
+        "software": "medit-for-linux",
+        "display_name": "Medit for Linux"
+      },
+      {
+        "software": "tetgen",
+        "display_name": "TetGen"
+      },
+      {
+        "software": "godot-engine",
+        "display_name": "Godot Engine"
+      },
+      {
+        "software": "ogre",
+        "display_name": "OGRE"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2007-05-25",
+  "sources": [
+    {
+      "url": "mesh.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "pass",
+  "extension": "pass",
+  "name": "Wallet Pass Source Directory",
+  "category": "wallet-pass-source-directory",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "A PASS file is a directory that contains all the source files for an Apple Wallet pass. Developers create PASS directories and add files to them in Apple Xcode . They then use the PASS directory to build a distributable Apple Wallet pass ( .PKPASS file).",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "apple-xcode",
+        "display_name": "Apple Xcode"
+      }
+    ],
+    "windows": [
+      {
+        "software": "apple-xcode",
+        "display_name": "Apple Xcode"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-09-23",
+  "sources": [
+    {
+      "url": "pass.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "slug": "h264",
+  "extension": "h264",
+  "name": "H.264 Encoded Video File",
+  "category": "h.264-encoded-video-file",
+  "developer_org": "itu-t-and-mpeg",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 169,
+    "source": "fileinfo"
+  },
+  "summary": "An H264 file is a video file encoded with H.264 compression, which is a popular format for high-definition video. It is often used as the video format for AVCHD camcorders, HDTV, Blu-ray, and HD DVD. H264 generally refers to a video file that is an .MP4 file.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "roxio-creator-nxt-pro-9",
+        "display_name": "Roxio Creator NXT Pro 9"
+      },
+      {
+        "software": "corel-videostudio-2023",
+        "display_name": "Corel VideoStudio 2023"
+      },
+      {
+        "software": "cyberlink-powerdvd-21",
+        "display_name": "CyberLink PowerDVD 21"
+      },
+      {
+        "software": "roxio-toast-20",
+        "display_name": "Roxio Toast 20"
+      }
+    ],
+    "macos": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "roxio-toast-20",
+        "display_name": "Roxio Toast 20"
+      }
+    ],
+    "linux": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "H264 file open in VideoLAN VLC media player",
+      "alt": "H264 file open in VideoLAN VLC media player",
+      "source_url": "https://fileinfo.com/img/ss/md/h264_6601.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-04-04",
+  "sources": [
+    {
+      "url": "h264.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

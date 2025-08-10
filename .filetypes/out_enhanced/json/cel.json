@@ -1,0 +1,23 @@
+{
+  "slug": "cel",
+  "extension": "cel",
+  "name": "Affymetrix Probe Results File",
+  "category": "affymetrix-probe-results-file",
+  "summary": "",
+  "developer_org": "autodesk",
+  "developer_name": "Autodesk",
+  "more_information": {
+    "description": [
+      "An Affymetrix GeneChip is a biological chip that contains a microarray which is valid for one experiment. To create these chips, a glass or silicon slide is arrayed with probes, which report expression levels (intensities) as perfect match (PM) and mismatch (MM) values, based on whether they are complementary to the original DNA sample. These values may be used for studying DNA alterations, called single-nucleotide polymorphisms (SNPs), which are used in human and animal disease research.",
+      "The CEL file format has multiple versions, which use different formatting. For example, version 3 uses ASCII text formatting while version 4 uses a binary format.",
+      "NOTE: CEL files require a corresponding .CDF file, which is the dictionary for the raw probe-level data stored in the CEL file. MATLAB has a built-in function called affyread that can be used to read CEL files in the Windows version of the software."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "cel.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

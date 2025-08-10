@@ -1,0 +1,59 @@
+{
+  "slug": "db-journal",
+  "extension": "db-journal",
+  "name": "SQLite Rollback Journal File",
+  "category": "sqlite-rollback-journal-file",
+  "developer_org": "sqlite",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 111,
+    "source": "fileinfo"
+  },
+  "summary": "A DB-JOURNAL file is a temporary database file created by SQLite database management systems during a transaction between an application and a database. It contains a rollback journal, which is a temporary database that stores the most recent state of the database. DB-JOURNAL files are used to restore a database in case the application using the database crashes while executing a transaction.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "not-meant-to-be-opened",
+        "display_name": "Not meant to be opened"
+      }
+    ],
+    "macos": [
+      {
+        "software": "not-meant-to-be-opened",
+        "display_name": "Not meant to be opened"
+      }
+    ],
+    "linux": [
+      {
+        "software": "not-meant-to-be-opened",
+        "display_name": "Not meant to be opened"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-01-26",
+  "sources": [
+    {
+      "url": "db-journal.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

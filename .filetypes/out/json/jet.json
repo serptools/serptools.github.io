@@ -1,0 +1,101 @@
+{
+  "slug": "jet",
+  "extension": "jet",
+  "name": "The Jackbox Party Pack Settings",
+  "category": "1.-the-jackbox-party-pack-settings",
+  "developer_org": "jackbox-games",
+  "popularity": {
+    "rating": 4.7,
+    "votes": 10,
+    "source": "fileinfo"
+  },
+  "summary": "A JET file is a settings file used by The Jackbox Party Pack series of video games. It contains JSON- or XML-formatted text that defines settings for a specific Party Pack party game. For example, in The Jackbox Party Pack 2, the game Earwax uses a JET file named EarwaxAudio.jet to retrieve and play audio files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "the-jackbox-party-pack",
+        "display_name": "The Jackbox Party Pack"
+      },
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      },
+      {
+        "software": "microsoft-access-365",
+        "display_name": "Microsoft Access 365"
+      }
+    ],
+    "macos": [
+      {
+        "software": "the-jackbox-party-pack",
+        "display_name": "The Jackbox Party Pack"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "the-jackbox-party-pack",
+        "display_name": "The Jackbox Party Pack"
+      },
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "JET file open in Microsoft Visual Studio Code",
+      "alt": "JET file open in Microsoft Visual Studio Code",
+      "source_url": "https://fileinfo.com/img/ss/md/jet_12784.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-08-08",
+  "sources": [
+    {
+      "url": "jet.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

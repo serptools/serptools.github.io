@@ -1,0 +1,47 @@
+{
+  "slug": "fxc",
+  "extension": "fxc",
+  "name": "FilePackager Configuration",
+  "category": "filepackager-configuration",
+  "developer_org": "dimdata",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "Configuration file used by FilePackager, a program used for creating self-extracting archives; may contain references to files to be included in the archive, file associations, registry alterations, and commands for setting up desktop and Windows program menu shortcuts.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "dimdata-filepackager",
+        "display_name": "DIMDATA FilePackager"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-04-26",
+  "sources": [
+    {
+      "url": "fxc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

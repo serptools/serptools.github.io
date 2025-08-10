@@ -1,0 +1,118 @@
+{
+  "slug": "fsh",
+  "extension": "fsh",
+  "name": "Fragment Shader File",
+  "category": "fragment-shader-file",
+  "developer_org": "opengl",
+  "popularity": {
+    "rating": 4.3,
+    "votes": 52,
+    "source": "fileinfo"
+  },
+  "summary": "An FSH file contains fragment shading properties in the OpenGL Shading Language (GLSL). It stores fragment shading code run by a GPU to render 3D graphics with color, shadows, and other effects. FSH files may also be saved as .FRAG files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "opengl-sdk",
+        "display_name": "OpenGL SDK"
+      },
+      {
+        "software": "microsoft-visual-studio-2022",
+        "display_name": "Microsoft Visual Studio 2022"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "amd-gpu-shaderanalyzer",
+        "display_name": "AMD GPU ShaderAnalyzer",
+        "status": "discontinued"
+      },
+      {
+        "software": "apple-xcode",
+        "display_name": "Apple Xcode"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "apple-opengl-shader-builder",
+        "display_name": "Apple OpenGL Shader Builder",
+        "status": "discontinued"
+      },
+      {
+        "software": "gedit",
+        "display_name": "gedit"
+      }
+    ],
+    "macos": [
+      {
+        "software": "opengl-sdk",
+        "display_name": "OpenGL SDK"
+      },
+      {
+        "software": "apple-xcode",
+        "display_name": "Apple Xcode"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "apple-opengl-shader-builder",
+        "display_name": "Apple OpenGL Shader Builder",
+        "status": "discontinued"
+      }
+    ],
+    "linux": [
+      {
+        "software": "opengl-sdk",
+        "display_name": "OpenGL SDK"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "gedit",
+        "display_name": "gedit"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-09-23",
+  "sources": [
+    {
+      "url": "fsh.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

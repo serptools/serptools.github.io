@@ -1,0 +1,22 @@
+{
+  "slug": "update",
+  "extension": "update",
+  "name": "ISAPI Update File",
+  "category": "isapi-update-file",
+  "summary": "",
+  "developer_org": "eggcentric",
+  "developer_name": "EggCentric",
+  "more_information": {
+    "description": [
+      "The ISAPI loader requires all updatable DLL files to be renamed with the extension RUN. When discovering a new UPDATE file, it finishes current Web server requests, holds new Web server requests, changes the existing RUN file to use the extension BACKUP, renames the UPDATE file to RUN, reloads the new RUN file, and then resumes Web server operations normally.",
+      "ISAPI, which stands for Internet Server Application Programming Interface, enables two components in IIS, extensions and filters. Extensions are applications that run on IIS, and filters are extensions to the IIS web server functionality."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "update.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

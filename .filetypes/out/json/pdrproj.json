@@ -1,0 +1,69 @@
+{
+  "slug": "pdrproj",
+  "extension": "pdrproj",
+  "name": "PowerDirector for Mobile Project",
+  "category": "powerdirector-for-mobile-project",
+  "developer_org": "cyberlink",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "A PDRPROJ file is a video editing project created by the mobile version of CyberLink PowerDirector, which is available for Android and iOS tablets. It contains data and metadata used to load a project, including the project's video, audio, and effect layers, in PowerDirector for mobile. From within PowerDirector for mobile, users can upload PDRPROJ files to the CyberLink Cloud, from which they can import the files into PowerDirector for Windows and macOS.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "cyberlink-powerdirector-365",
+        "display_name": "CyberLink PowerDirector 365"
+      },
+      {
+        "software": "cyberlink-powerdirector",
+        "display_name": "CyberLink PowerDirector"
+      }
+    ],
+    "macos": [
+      {
+        "software": "cyberlink-powerdirector-365",
+        "display_name": "CyberLink PowerDirector 365"
+      }
+    ],
+    "ios": [
+      {
+        "software": "cyberlink-powerdirector",
+        "display_name": "CyberLink PowerDirector"
+      }
+    ],
+    "android": [
+      {
+        "software": "cyberlink-powerdirector",
+        "display_name": "CyberLink PowerDirector"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-04-07",
+  "sources": [
+    {
+      "url": "pdrproj.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

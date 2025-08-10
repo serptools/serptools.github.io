@@ -1,0 +1,103 @@
+{
+  "slug": "off",
+  "extension": "off",
+  "name": "Object File Format",
+  "category": "object-file-format",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "ASCII based format used for describing 3D objects; defines collections of planar polygons and vertices that create the object's surface.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "meshlab",
+        "display_name": "MeshLab"
+      },
+      {
+        "software": "glc_player",
+        "display_name": "GLC_Player"
+      },
+      {
+        "software": "roffview",
+        "display_name": "RoffView"
+      },
+      {
+        "software": "blaze3d",
+        "display_name": "Blaze3D"
+      },
+      {
+        "software": "online-3d-viewer",
+        "display_name": "Online 3D Viewer"
+      }
+    ],
+    "macos": [
+      {
+        "software": "meshlab",
+        "display_name": "MeshLab"
+      },
+      {
+        "software": "glc_player",
+        "display_name": "GLC_Player"
+      },
+      {
+        "software": "roffview",
+        "display_name": "RoffView"
+      }
+    ],
+    "linux": [
+      {
+        "software": "meshlab",
+        "display_name": "MeshLab"
+      },
+      {
+        "software": "glc_player",
+        "display_name": "GLC_Player"
+      },
+      {
+        "software": "roffview",
+        "display_name": "RoffView"
+      },
+      {
+        "software": "blaze3d",
+        "display_name": "Blaze3D"
+      }
+    ],
+    "web": [
+      {
+        "software": "online-3d-viewer",
+        "display_name": "Online 3D Viewer"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-08-24",
+  "sources": [
+    {
+      "url": "off.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

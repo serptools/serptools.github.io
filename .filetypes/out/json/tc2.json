@@ -1,0 +1,59 @@
+{
+  "slug": "tc2",
+  "extension": "tc2",
+  "name": "TurboCAD 2D Mac Drawing",
+  "category": "turbocad-2d-mac-drawing",
+  "developer_org": "imsi",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "Two-dimensional drawing created by the Mac version of TurboCAD, a CAD program used for drafting mechanical and architectural designs; stores drawn shapes, styles, text, and other graphics; commonly used for drafting building floor plans.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "imsi-turbocad-deluxe",
+        "display_name": "IMSI TurboCAD Deluxe"
+      }
+    ],
+    "windows": [
+      {
+        "software": "imsi-turbocad-deluxe",
+        "display_name": "IMSI TurboCAD Deluxe"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "TC2 file icon",
+      "alt": "TC2 file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/tc2-4983.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-10-18",
+  "sources": [
+    {
+      "url": "tc2.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "slug": "mds",
+  "extension": "mds",
+  "name": "Media Descriptor Sidecar File",
+  "category": "1.-media-descriptor-sidecar-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 4.1,
+    "votes": 112,
+    "source": "fileinfo"
+  },
+  "summary": "An MDS file is an information file that describes the formatting of a CD or DVD. It includes header information, which defines the tracks on the disc and the way the data is organized. MDS files are recorded by disc imaging programs and recognized by standard CD and DVD players.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "alcohol-120",
+        "display_name": "Alcohol 120%"
+      },
+      {
+        "software": "cyberlink-powerdvd-21",
+        "display_name": "CyberLink PowerDVD 21"
+      },
+      {
+        "software": "smart-projects-isobuster",
+        "display_name": "Smart Projects IsoBuster"
+      },
+      {
+        "software": "winmount-international-winmount",
+        "display_name": "WinMount International WinMount"
+      },
+      {
+        "software": "lightning-uk-imgburn",
+        "display_name": "Lightning UK! ImgBurn"
+      },
+      {
+        "software": "ezb-systems-ultraiso",
+        "display_name": "EZB Systems UltraISO"
+      },
+      {
+        "software": "dt-soft-daemon-tools",
+        "display_name": "DT Soft DAEMON Tools"
+      },
+      {
+        "software": "magiciso",
+        "display_name": "MagicISO",
+        "status": "discontinued"
+      },
+      {
+        "software": "smartbear-testcomplete",
+        "display_name": "SmartBear TestComplete"
+      },
+      {
+        "software": "blender",
+        "display_name": "Blender"
+      },
+      {
+        "software": "rtcw-et-blender-model-tools",
+        "display_name": "RtCW:ET Blender Model Tools"
+      },
+      {
+        "software": "bethesda-softworks-return-to-castle-wolfenstein",
+        "display_name": "Bethesda Softworks Return to Castle Wolfenstein"
+      },
+      {
+        "software": "bethesda-softworks-wolfenstein-enemy-territory",
+        "display_name": "Bethesda Softworks Wolfenstein: Enemy Territory"
+      }
+    ],
+    "macos": [
+      {
+        "software": "blender",
+        "display_name": "Blender"
+      },
+      {
+        "software": "rtcw-et-blender-model-tools",
+        "display_name": "RtCW:ET Blender Model Tools"
+      }
+    ],
+    "linux": [
+      {
+        "software": "blender",
+        "display_name": "Blender"
+      },
+      {
+        "software": "rtcw-et-blender-model-tools",
+        "display_name": "RtCW:ET Blender Model Tools"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-11-09",
+  "sources": [
+    {
+      "url": "mds.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

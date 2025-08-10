@@ -1,0 +1,155 @@
+{
+  "slug": "sav",
+  "extension": "sav",
+  "name": "Nintendo DS Save File",
+  "category": "1.-nintendo-ds-save-file",
+  "developer_org": "nintendo",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 502,
+    "source": "fileinfo"
+  },
+  "summary": "A SAV file is a saved game used by Nintendo DS portable game system emulators such as DeSmuME and NO$GBA. It stores the state of the current game progress and includes game information such as the character name, experience points, completed levels, and in-game resources. Users may transfer SAV files from Nintendo DS devices or create them with emulators to preserve saved game progress.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "no-gba",
+        "display_name": "NO$GBA"
+      },
+      {
+        "software": "ideas-emulator",
+        "display_name": "iDeaS Emulator"
+      },
+      {
+        "software": "desmume",
+        "display_name": "DeSmuME"
+      },
+      {
+        "software": "hxd",
+        "display_name": "HxD"
+      },
+      {
+        "software": "open-with-the-game-that-created-the-file-or-a-supported-emulator",
+        "display_name": "Open with the game that created the file or a supported emulator"
+      },
+      {
+        "software": "ibm-spss",
+        "display_name": "IBM SPSS"
+      },
+      {
+        "software": "gibbed-s-mass-effect-3-save-editor",
+        "display_name": "Gibbed's Mass Effect 3 Save Editor"
+      },
+      {
+        "software": "electronic-arts-mass-effect-3",
+        "display_name": "Electronic Arts Mass Effect 3"
+      },
+      {
+        "software": "bethesda-softworks-fallout-2",
+        "display_name": "Bethesda Softworks Fallout 2"
+      },
+      {
+        "software": "rarlab-winrar",
+        "display_name": "RARLAB WinRAR"
+      },
+      {
+        "software": "dolphin",
+        "display_name": "Dolphin"
+      },
+      {
+        "software": "epic-games-fortnite",
+        "display_name": "Epic Games Fortnite"
+      },
+      {
+        "software": "clientsettings-editor",
+        "display_name": "ClientSettings Editor"
+      },
+      {
+        "software": "satisfactory-save-editor",
+        "display_name": "Satisfactory Save Editor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "desmume",
+        "display_name": "DeSmuME"
+      },
+      {
+        "software": "ibm-spss",
+        "display_name": "IBM SPSS"
+      },
+      {
+        "software": "parallels-desktop-for-mac-20",
+        "display_name": "Parallels Desktop for Mac 20"
+      },
+      {
+        "software": "dolphin",
+        "display_name": "Dolphin"
+      },
+      {
+        "software": "epic-games-fortnite",
+        "display_name": "Epic Games Fortnite"
+      }
+    ],
+    "linux": [
+      {
+        "software": "desmume",
+        "display_name": "DeSmuME"
+      },
+      {
+        "software": "ibm-spss",
+        "display_name": "IBM SPSS"
+      },
+      {
+        "software": "dolphin",
+        "display_name": "Dolphin"
+      }
+    ],
+    "ios": [
+      {
+        "software": "coffee-stain-studios-satisfactory",
+        "display_name": "Coffee Stain Studios Satisfactory"
+      }
+    ],
+    "web": [
+      {
+        "software": "satisfactory-calculator-interactive-map",
+        "display_name": "Satisfactory Calculator Interactive Map"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "SAV file open in DeSmuME 0.9",
+      "alt": "SAV file open in DeSmuME 0.9",
+      "source_url": "https://fileinfo.com/img/ss/md/sav_4909.jpg"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-06-22",
+  "sources": [
+    {
+      "url": "sav.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

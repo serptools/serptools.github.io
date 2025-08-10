@@ -1,0 +1,112 @@
+{
+  "slug": "vp3",
+  "extension": "vp3",
+  "name": "On2 Streaming Video File",
+  "category": "1.-on2-streaming-video-file",
+  "developer_org": "on2-technologies",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 16,
+    "source": "fileinfo"
+  },
+  "summary": "Streaming video file compressed on-demand using the VP3 video codec; contains compressed video at variable compression rates; used to send the highest video quality possible given bandwidth adjustments and fluctuations.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "microsoft-windows-media-player",
+        "display_name": "Microsoft Windows Media Player"
+      },
+      {
+        "software": "apple-quicktime-player",
+        "display_name": "Apple QuickTime Player"
+      },
+      {
+        "software": "metadata",
+        "display_name": "metadata"
+      },
+      {
+        "software": "bernina-artlink",
+        "display_name": "BERNINA ARTlink"
+      },
+      {
+        "software": "wings-systems-my-editor",
+        "display_name": "Wings Systems my editor"
+      },
+      {
+        "software": "wilcom-truesizer",
+        "display_name": "Wilcom TrueSizer",
+        "status": "discontinued"
+      },
+      {
+        "software": "premier+-embroidery",
+        "display_name": "PREMIER+ Embroidery"
+      },
+      {
+        "software": "embroidery-viewer-and-converter",
+        "display_name": "Embroidery Viewer and Converter"
+      },
+      {
+        "software": "embroidermodder-team-embroidery-viewer",
+        "display_name": "Embroidermodder Team Embroidery Viewer"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-quicktime-player",
+        "display_name": "Apple QuickTime Player"
+      },
+      {
+        "software": "premier+-embroidery",
+        "display_name": "PREMIER+ Embroidery"
+      }
+    ],
+    "chromeos": [
+      {
+        "software": "google-chrome-with-embroidery-viewer-and-converter-plugin",
+        "display_name": "Google Chrome with Embroidery Viewer and Converter plugin"
+      }
+    ],
+    "web": [
+      {
+        "software": "embroidery-viewer-and-converter",
+        "display_name": "Embroidery Viewer and Converter"
+      }
+    ],
+    "android": [
+      {
+        "software": "embroidermodder-team-embroidery-viewer",
+        "display_name": "Embroidermodder Team Embroidery Viewer"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-03-27",
+  "sources": [
+    {
+      "url": "vp3.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

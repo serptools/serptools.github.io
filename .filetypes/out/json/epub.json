@@ -1,0 +1,160 @@
+{
+  "slug": "epub",
+  "extension": "epub",
+  "name": "EPUB eBook",
+  "category": "epub-ebook",
+  "developer_org": "idpf",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 743,
+    "source": "fileinfo"
+  },
+  "summary": "An EPUB file is a digital book (eBook) saved in the open Electronic Publication (EPUB) format, a standard digital publication format that publishers and consumers use to distribute eBooks. Many users encounter EPUB files when downloading eBooks (such as books, magazines, scientific publications, etc.). You can open an EPUB file with eReader apps, such as Calibre and Apple Books, and devices.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "calibre",
+        "display_name": "Calibre"
+      },
+      {
+        "software": "adobe-digital-editions",
+        "display_name": "Adobe Digital Editions"
+      },
+      {
+        "software": "comic-book-reader",
+        "display_name": "Comic Book Reader"
+      },
+      {
+        "software": "icecream-ebook-reader",
+        "display_name": "Icecream Ebook Reader"
+      },
+      {
+        "software": "aryson-epub-converter",
+        "display_name": "Aryson EPUB Converter"
+      },
+      {
+        "software": "apple-books",
+        "display_name": "Apple Books"
+      },
+      {
+        "software": "sixty-four-kitabu",
+        "display_name": "Sixty Four Kitabu",
+        "status": "discontinued"
+      },
+      {
+        "software": "kde-okular",
+        "display_name": "KDE Okular"
+      },
+      {
+        "software": "google-play-books",
+        "display_name": "Google Play Books"
+      },
+      {
+        "software": "moon+-reader",
+        "display_name": "Moon+ Reader"
+      }
+    ],
+    "android": [
+      {
+        "software": "file-viewer-for-android",
+        "display_name": "File Viewer for Android"
+      },
+      {
+        "software": "google-play-books",
+        "display_name": "Google Play Books"
+      },
+      {
+        "software": "adobe-digital-editions",
+        "display_name": "Adobe Digital Editions"
+      },
+      {
+        "software": "moon+-reader",
+        "display_name": "Moon+ Reader"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-books",
+        "display_name": "Apple Books"
+      },
+      {
+        "software": "calibre",
+        "display_name": "Calibre"
+      },
+      {
+        "software": "adobe-digital-editions",
+        "display_name": "Adobe Digital Editions"
+      },
+      {
+        "software": "sixty-four-kitabu",
+        "display_name": "Sixty Four Kitabu",
+        "status": "discontinued"
+      },
+      {
+        "software": "aryson-epub-converter",
+        "display_name": "Aryson EPUB Converter"
+      }
+    ],
+    "linux": [
+      {
+        "software": "calibre",
+        "display_name": "Calibre"
+      },
+      {
+        "software": "kde-okular",
+        "display_name": "KDE Okular"
+      }
+    ],
+    "ios": [
+      {
+        "software": "apple-books",
+        "display_name": "Apple Books"
+      },
+      {
+        "software": "adobe-digital-editions",
+        "display_name": "Adobe Digital Editions"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "EPUB file icon",
+      "alt": "EPUB file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/epub-3541.png"
+    },
+    {
+      "caption": "EPUB file open in Apple Books 5",
+      "alt": "EPUB file open in Apple Books 5",
+      "source_url": "https://fileinfo.com/img/ss/md/epub_3541.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2024-07-16",
+  "sources": [
+    {
+      "url": "epub.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

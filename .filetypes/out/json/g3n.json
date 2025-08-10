@@ -1,0 +1,87 @@
+{
+  "slug": "g3n",
+  "extension": "g3n",
+  "name": "Zetafax Fax Image",
+  "category": "zetafax-fax-image",
+  "developer_org": "equisys",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "A G3N file is a fax image created by Zetafax fax software. It contains a copy of a faxed document, saved as a .TIFF image. Zetafax fax images may also be saved with the .G3F extension.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "equisys-zetafax",
+        "display_name": "Equisys Zetafax"
+      },
+      {
+        "software": "microsoft-photos",
+        "display_name": "Microsoft Photos"
+      },
+      {
+        "software": "gimp",
+        "display_name": "GIMP"
+      },
+      {
+        "software": "image-viewer",
+        "display_name": "image viewer"
+      },
+      {
+        "software": "apple-preview",
+        "display_name": "Apple Preview"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-preview",
+        "display_name": "Apple Preview"
+      },
+      {
+        "software": "gimp",
+        "display_name": "GIMP"
+      },
+      {
+        "software": "image-viewer",
+        "display_name": "image viewer"
+      }
+    ],
+    "linux": [
+      {
+        "software": "gimp",
+        "display_name": "GIMP"
+      },
+      {
+        "software": "image-viewer",
+        "display_name": "image viewer"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-12-22",
+  "sources": [
+    {
+      "url": "g3n.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

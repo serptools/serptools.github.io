@@ -1,0 +1,59 @@
+{
+  "slug": "fz",
+  "extension": "fz",
+  "name": "Fritzing Project File",
+  "category": "fritzing-project-file",
+  "developer_org": "fritzing",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 18,
+    "source": "fileinfo"
+  },
+  "summary": "An FZ file is a project file created by Fritzing, an open-source electronics prototyping and design application. It contains a digital representation of a printed circuit board (PCB). FZ files can be opened in Fritzing and exported from Fritzing as sharable, compressed .FZZ files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "fritzing",
+        "display_name": "Fritzing"
+      }
+    ],
+    "macos": [
+      {
+        "software": "fritzing",
+        "display_name": "Fritzing"
+      }
+    ],
+    "linux": [
+      {
+        "software": "fritzing",
+        "display_name": "Fritzing"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-05-20",
+  "sources": [
+    {
+      "url": "fz.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

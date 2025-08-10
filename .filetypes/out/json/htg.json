@@ -1,0 +1,51 @@
+{
+  "slug": "htg",
+  "extension": "htg",
+  "name": "HackTheGame Mission Pack",
+  "category": "hackthegame-mission-pack",
+  "developer_org": "chaozz-software",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "File used by HackTheGame, a text-based simulation where players complete assignments as a computer hacker; contains hacking mission text, data, and instructions written in a plain text format.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "chaozz-hackthegame",
+        "display_name": "Chaozz HackTheGame"
+      },
+      {
+        "software": "chaozz-missionpack-creator",
+        "display_name": "Chaozz MissionPack Creator"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-03-16",
+  "sources": [
+    {
+      "url": "htg.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

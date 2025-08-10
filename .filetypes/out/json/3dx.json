@@ -1,0 +1,53 @@
+{
+  "slug": "3dx",
+  "extension": "3dx",
+  "name": "Rhino 3D Model File",
+  "category": "rhino-3d-model-file",
+  "developer_org": "robert-mcneel-associates",
+  "popularity": {
+    "rating": 2.7,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "A 3DX file is a 3D model created by McNeel Rhino, a computer-aided design ( CAD ) program used for modeling complex surfaces and shapes. It stores 3D geometry data, including object structure, surface details, and modeling data. 3DX files are valuable for prototyping, rendering, and manufacturing workflows in various professional design fields.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "mcneel-rhino",
+        "display_name": "McNeel Rhino"
+      }
+    ],
+    "macos": [
+      {
+        "software": "mcneel-rhino",
+        "display_name": "McNeel Rhino"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2025-03-06",
+  "sources": [
+    {
+      "url": "3dx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

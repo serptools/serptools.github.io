@@ -1,0 +1,25 @@
+{
+  "slug": "3dw",
+  "extension": "3dw",
+  "name": "Studio Store Visualizer 3D Environment File",
+  "category": "studio-store-visualizer-3d-environment-file",
+  "summary": "",
+  "developer_org": "leadwerks",
+  "developer_name": "Leadwerks",
+  "more_information": {
+    "description": [
+      "3DW files are linked to .VTPR project files. When a VTPR file is opened in Studio Store Visualizer, the program loads the information in the 3DW file. The VTPR file and the linked 3DW file should be located in the same folder. VTPR files are saved by default in the following location:",
+      "~/​Documents/​Store Visualizer <version>/​Projects",
+      "VTPR templates are located in the following location:",
+      "~/​Documents/​Store Visualizer <version>/​Templates",
+      "If you share a VTPR file with another user, you must include the linked 3DW file and any linked .L3DW external library files, or else you will not be able to visualize the product in the 3D environment."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "3dw.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

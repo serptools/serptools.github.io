@@ -1,0 +1,53 @@
+{
+  "slug": "help",
+  "extension": "help",
+  "name": "Mac OS X Help Book",
+  "category": "mac-os-x-help-book",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 1.6,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "File used by Help Viewer, a help documentation viewer included with Mac OS X; contains a bundle of documents, which may include HTML and CSS files as well as indexing information; commonly used for Mac OS X application help documentation.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "apple-help-viewer",
+        "display_name": "Apple Help Viewer"
+      }
+    ],
+    "windows": [
+      {
+        "software": "apple-help-viewer",
+        "display_name": "Apple Help Viewer"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-04-07",
+  "sources": [
+    {
+      "url": "help.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

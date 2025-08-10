@@ -1,0 +1,97 @@
+{
+  "slug": "ckan",
+  "extension": "ckan",
+  "name": "Comprehensive Kerbal Archive Network Mod Metadata",
+  "category": "comprehensive-kerbal-archive-network-mod-metadata",
+  "developer_org": "ksp-ckan",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "A CKAN file is a metadata file used by the Comprehensive Kerbal Archive Network (CKAN), a repository for Kerbal Space Program mods. It describes a mod, including the mod's name, purpose, and download location. CKAN files are plain text files that contain data written in the JSON format.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "ckan",
+        "display_name": "CKAN"
+      },
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      }
+    ],
+    "macos": [
+      {
+        "software": "ckan",
+        "display_name": "CKAN"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "ckan",
+        "display_name": "CKAN"
+      },
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "CKAN file open in Microsoft Visual Studio Code",
+      "alt": "CKAN file open in Microsoft Visual Studio Code",
+      "source_url": "https://fileinfo.com/img/ss/md/ckan_12917.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-09-27",
+  "sources": [
+    {
+      "url": "ckan.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "favoritemetadata",
+  "extension": "favoritemetadata",
+  "name": "Transmit Favorites Data File",
+  "category": "transmit-favorites-data-file",
+  "developer_org": "panic",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "File created by Transmit FTP and SFTP software for Mac; saves favorites information, which specifies remote site login information; saved in the ~/​Library/​Application Support/​Transmit/​Metadata/​ directory.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "panic-transmit",
+        "display_name": "Panic Transmit"
+      }
+    ],
+    "windows": [
+      {
+        "software": "panic-transmit",
+        "display_name": "Panic Transmit"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-06-06",
+  "sources": [
+    {
+      "url": "favoritemetadata.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "slug": "z01",
+  "extension": "z01",
+  "name": "First Split Zip File",
+  "category": "first-split-zip-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.1,
+    "votes": 79,
+    "source": "fileinfo"
+  },
+  "summary": "A Z01 file is the first of multiple files that make up a split archive created with select file compression utilities, such as Corel WinZip and WinRAR. It contains one or more files that have been compressed with Zip compression to save space.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "corel-winzip",
+        "display_name": "Corel WinZip"
+      },
+      {
+        "software": "rarlab-winrar",
+        "display_name": "RARLAB WinRAR"
+      },
+      {
+        "software": "smith-micro-stuffit-deluxe",
+        "display_name": "Smith Micro StuffIt Deluxe",
+        "status": "discontinued"
+      },
+      {
+        "software": "conexware-powerarchiver",
+        "display_name": "ConeXware PowerArchiver"
+      },
+      {
+        "software": "the-unarchiver",
+        "display_name": "The Unarchiver"
+      }
+    ],
+    "macos": [
+      {
+        "software": "smith-micro-stuffit-deluxe-mac-16",
+        "display_name": "Smith Micro StuffIt Deluxe Mac 16",
+        "status": "discontinued"
+      },
+      {
+        "software": "the-unarchiver",
+        "display_name": "The Unarchiver"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-11-21",
+  "sources": [
+    {
+      "url": "z01.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

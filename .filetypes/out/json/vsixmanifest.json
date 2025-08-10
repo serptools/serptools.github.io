@@ -1,0 +1,81 @@
+{
+  "slug": "vsixmanifest",
+  "extension": "vsixmanifest",
+  "name": "Visual Studio Extension Manifest",
+  "category": "visual-studio-extension-manifest",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 1.4,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "A VSIXMANIFST file is a metadata file included in a Microsoft Visual Studio or Visual Studio Code extension ( .VSIX file). It contains information used to identify and install the extension. VSIXMANIFEST files are XML files, whose structure conforms to Microsoft's VSX schema .",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-visual-studio-2022",
+        "display_name": "Microsoft Visual Studio 2022"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "VSIXMANIFEST file open in Microsoft Visual Studio Code",
+      "alt": "VSIXMANIFEST file open in Microsoft Visual Studio Code",
+      "source_url": "https://fileinfo.com/img/ss/md/vsixmanifest_9025.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-01-10",
+  "sources": [
+    {
+      "url": "vsixmanifest.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

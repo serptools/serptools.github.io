@@ -1,0 +1,53 @@
+{
+  "slug": "89z",
+  "extension": "89z",
+  "name": "TI-89 Program",
+  "category": "ti-89-program",
+  "developer_org": "texas-instruments",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "An 89Z file is a program that can be run on a Texas Instruments TI-89 graphing calculator. Typically, it contains a utility or video game. Users install 89Z files using Texas Instruments TI Connect.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "texas-instruments-ti-connect",
+        "display_name": "Texas Instruments TI Connect"
+      }
+    ],
+    "macos": [
+      {
+        "software": "texas-instruments-ti-connect",
+        "display_name": "Texas Instruments TI Connect"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-08-29",
+  "sources": [
+    {
+      "url": "89z.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

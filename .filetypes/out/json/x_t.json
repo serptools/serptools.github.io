@@ -1,0 +1,109 @@
+{
+  "slug": "x_t",
+  "extension": "x_t",
+  "name": "Parasolid Model Part File",
+  "category": "parasolid-model-part-file",
+  "developer_org": "siemens-plm-software",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 47,
+    "source": "fileinfo"
+  },
+  "summary": "An X_T file is a model part file created by Parasolid, a CAD geometric modeling program. It contains 3D model data such as geometry, topology, and color. X_T files are designed as a standard export format for sharing Parasolid CAD models.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "ptc-onshape",
+        "display_name": "PTC Onshape"
+      },
+      {
+        "software": "siemens-plm-software-parasolid",
+        "display_name": "Siemens PLM Software Parasolid"
+      },
+      {
+        "software": "autodesk-fusion-360",
+        "display_name": "Autodesk Fusion 360"
+      },
+      {
+        "software": "kubotek-keycreator",
+        "display_name": "Kubotek KeyCreator"
+      },
+      {
+        "software": "okino-computer-graphics-polytrans",
+        "display_name": "Okino Computer Graphics PolyTrans"
+      },
+      {
+        "software": "cadsofttools-cst-cad-navigator",
+        "display_name": "CADSoftTools CST CAD Navigator"
+      }
+    ],
+    "macos": [
+      {
+        "software": "siemens-plm-software-parasolid",
+        "display_name": "Siemens PLM Software Parasolid"
+      },
+      {
+        "software": "autodesk-fusion-360",
+        "display_name": "Autodesk Fusion 360"
+      },
+      {
+        "software": "cadsofttools-cst-cad-navigator",
+        "display_name": "CADSoftTools CST CAD Navigator"
+      }
+    ],
+    "linux": [
+      {
+        "software": "siemens-plm-software-parasolid",
+        "display_name": "Siemens PLM Software Parasolid"
+      },
+      {
+        "software": "cadsofttools-cst-cad-navigator",
+        "display_name": "CADSoftTools CST CAD Navigator"
+      }
+    ],
+    "web": [
+      {
+        "software": "autodesk-fusion-360",
+        "display_name": "Autodesk Fusion 360"
+      }
+    ],
+    "ios": [
+      {
+        "software": "autodesk-fusion-360",
+        "display_name": "Autodesk Fusion 360"
+      }
+    ],
+    "android": [
+      {
+        "software": "autodesk-fusion-360",
+        "display_name": "Autodesk Fusion 360"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-02-08",
+  "sources": [
+    {
+      "url": "x_t.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

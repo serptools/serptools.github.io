@@ -1,0 +1,153 @@
+{
+  "slug": "mml",
+  "extension": "mml",
+  "name": "FrameMaker Maker Markup Language File",
+  "category": "1.-framemaker-maker-markup-language-file",
+  "developer_org": "adobe-systems",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 20,
+    "source": "fileinfo"
+  },
+  "summary": "File created using the Adobe Maker Markup Language (MML); used by Adobe FrameMaker, a program used to produce and publish large structured documents; contains formatting instructions for page layout, graphics, text, and other page properties.",
+  "standards": [],
+  "mime_types": [
+    "math/mathml",
+    "www.w3.org/1998"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "adobe-framemaker",
+        "display_name": "Adobe FrameMaker"
+      },
+      {
+        "software": "openoffice-math",
+        "display_name": "OpenOffice Math"
+      },
+      {
+        "software": "libreoffice",
+        "display_name": "LibreOffice"
+      },
+      {
+        "software": "wolfram-research-mathematica",
+        "display_name": "Wolfram Research Mathematica"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "github-atom",
+        "display_name": "GitHub Atom",
+        "status": "discontinued"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "avanquest-mymaillist-addressbook",
+        "display_name": "Avanquest MyMailList & AddressBook"
+      },
+      {
+        "software": "microsoft-office-365",
+        "display_name": "Microsoft Office 365"
+      },
+      {
+        "software": "cartocss",
+        "display_name": "CartoCSS"
+      }
+    ],
+    "macos": [
+      {
+        "software": "adobe-framemaker",
+        "display_name": "Adobe FrameMaker"
+      },
+      {
+        "software": "openoffice-math",
+        "display_name": "OpenOffice Math"
+      },
+      {
+        "software": "libreoffice",
+        "display_name": "LibreOffice"
+      },
+      {
+        "software": "wolfram-research-mathematica",
+        "display_name": "Wolfram Research Mathematica"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "github-atom",
+        "display_name": "GitHub Atom",
+        "status": "discontinued"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "cartocss",
+        "display_name": "CartoCSS"
+      }
+    ],
+    "linux": [
+      {
+        "software": "openoffice-math",
+        "display_name": "OpenOffice Math"
+      },
+      {
+        "software": "libreoffice",
+        "display_name": "LibreOffice"
+      },
+      {
+        "software": "wolfram-research-mathematica",
+        "display_name": "Wolfram Research Mathematica"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "github-atom",
+        "display_name": "GitHub Atom",
+        "status": "discontinued"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "cartocss",
+        "display_name": "CartoCSS"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-02-15",
+  "sources": [
+    {
+      "url": "mml.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

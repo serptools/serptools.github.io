@@ -1,0 +1,65 @@
+{
+  "slug": "ctt",
+  "extension": "ctt",
+  "name": "Messenger Contact List",
+  "category": "messenger-contact-list",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "Stores a list of contacts and groups used by the MSN/Live Messenger instant messaging program; saved as a text file and formatted in XML ; can be exported from MSN Messenger and imported by another user.",
+  "standards": [],
+  "mime_types": [
+    "msn/live"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-windows-live-messenger",
+        "display_name": "Microsoft Windows Live Messenger"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "microsoft-messenger",
+        "display_name": "Microsoft Messenger",
+        "status": "discontinued"
+      }
+    ],
+    "macos": [
+      {
+        "software": "microsoft-messenger",
+        "display_name": "Microsoft Messenger",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-09-30",
+  "sources": [
+    {
+      "url": "ctt.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

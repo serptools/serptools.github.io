@@ -1,0 +1,55 @@
+{
+  "slug": "mato",
+  "extension": "mato",
+  "name": "Atomic Combat Saved Game",
+  "category": "atomic-combat-saved-game",
+  "developer_org": "mojiferous-industries",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Game saved by Atomic Combat, a military strategy/guessing game similar to Battleship; saves game progress so that the gameplay can be resumed at a later time.",
+  "standards": [],
+  "mime_types": [
+    "strategy/guessing"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "mojiferous-atomic-combat",
+        "display_name": "Mojiferous Atomic Combat"
+      }
+    ],
+    "windows": [
+      {
+        "software": "mojiferous-atomic-combat",
+        "display_name": "Mojiferous Atomic Combat"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-12-17",
+  "sources": [
+    {
+      "url": "mato.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

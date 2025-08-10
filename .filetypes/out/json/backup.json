@@ -1,0 +1,59 @@
+{
+  "slug": "backup",
+  "extension": "backup",
+  "name": "Android Backup",
+  "category": "1.-android-backup",
+  "developer_org": "google",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 160,
+    "source": "fileinfo"
+  },
+  "summary": "A BACKUP file contains a backup created by various Android phones and tablets. It stores user information, such as contacts and user files, and is useful for archiving save points from your mobile device so the data can be restored if a problem occurs with the device. The BACKUP format has been replaced by the .AB format.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "android": [
+      {
+        "software": "google-android",
+        "display_name": "Google Android"
+      }
+    ],
+    "windows": [
+      {
+        "software": "garmin-basecamp",
+        "display_name": "Garmin BaseCamp"
+      }
+    ],
+    "macos": [
+      {
+        "software": "garmin-basecamp",
+        "display_name": "Garmin BaseCamp"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-03-01",
+  "sources": [
+    {
+      "url": "backup.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "slug": "avifs",
+  "extension": "avifs",
+  "name": "AVIF Image Sequence",
+  "category": "avif-image-sequence",
+  "developer_org": "alliance-for-open-media",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "An AVIFS file is an AVIF Image Sequence. It contains a series of .AVIF images that comprise an animation. AVIFS files are similar to animated .GIF s and .MP4 files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "qview",
+        "display_name": "qView"
+      },
+      {
+        "software": "libavif",
+        "display_name": "libavif"
+      },
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      }
+    ],
+    "macos": [
+      {
+        "software": "qview",
+        "display_name": "qView"
+      },
+      {
+        "software": "libavif",
+        "display_name": "libavif"
+      }
+    ],
+    "linux": [
+      {
+        "software": "qview",
+        "display_name": "qView"
+      },
+      {
+        "software": "libavif",
+        "display_name": "libavif"
+      }
+    ],
+    "web": [
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "AVIFS file icon",
+      "alt": "AVIFS file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/avifs-12679.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-05-19",
+  "sources": [
+    {
+      "url": "avifs.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

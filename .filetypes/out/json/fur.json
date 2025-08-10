@@ -1,0 +1,65 @@
+{
+  "slug": "fur",
+  "extension": "fur",
+  "name": "Furnace Module",
+  "category": "furnace-module",
+  "developer_org": "tildearrow",
+  "popularity": {
+    "rating": 4.5,
+    "votes": 10,
+    "source": "fileinfo"
+  },
+  "summary": "A FUR file is an audio module created by tildearrow Furnace, a multiplatform chiptune tracker. It contains a song that is meant to be played with a retro sound chip or video game console. These songs are typically comprised of multiple audio channels, which contain a series of notes and effects applied to those notes.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "tildearrow-furnace",
+        "display_name": "tildearrow Furnace"
+      }
+    ],
+    "macos": [
+      {
+        "software": "tildearrow-furnace",
+        "display_name": "tildearrow Furnace"
+      }
+    ],
+    "linux": [
+      {
+        "software": "tildearrow-furnace",
+        "display_name": "tildearrow Furnace"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "FUR file open in Furnace",
+      "alt": "FUR file open in Furnace",
+      "source_url": "https://fileinfo.com/img/ss/md/fur_13313.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-05-15",
+  "sources": [
+    {
+      "url": "fur.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

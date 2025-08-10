@@ -1,0 +1,95 @@
+{
+  "slug": "pdw",
+  "extension": "pdw",
+  "name": "pDRAW32 DNA File",
+  "category": "1.-pdraw32-dna-file",
+  "developer_org": "acaclone-software",
+  "popularity": {
+    "rating": 1.7,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "DNA file saved in the pDRAW32 format, which is used by molecular biology software; contains sequence data as well as the DNA name and coordinates for genetic elements on DNA plots.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "acaclone-pdraw32",
+        "display_name": "AcaClone pDRAW32"
+      },
+      {
+        "software": "gsl-biotech-snapgene",
+        "display_name": "GSL Biotech SnapGene"
+      },
+      {
+        "software": "gsl-biotech-snapgene-viewer",
+        "display_name": "GSL Biotech SnapGene Viewer"
+      },
+      {
+        "software": "genome-compiler",
+        "display_name": "Genome Compiler",
+        "status": "discontinued"
+      },
+      {
+        "software": "microsoft-word-with-prontodoc-for-word-plug-in",
+        "display_name": "Microsoft Word with ProntoDoc for Word plug-in"
+      }
+    ],
+    "macos": [
+      {
+        "software": "acaclone-pdraw32",
+        "display_name": "AcaClone pDRAW32"
+      },
+      {
+        "software": "gsl-biotech-snapgene",
+        "display_name": "GSL Biotech SnapGene"
+      },
+      {
+        "software": "gsl-biotech-snapgene-viewer",
+        "display_name": "GSL Biotech SnapGene Viewer"
+      },
+      {
+        "software": "genome-compiler",
+        "display_name": "Genome Compiler",
+        "status": "discontinued"
+      }
+    ],
+    "linux": [
+      {
+        "software": "acaclone-pdraw32",
+        "display_name": "AcaClone pDRAW32"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "PDW file icon",
+      "alt": "PDW file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/pdw-10082.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-10-19",
+  "sources": [
+    {
+      "url": "pdw.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

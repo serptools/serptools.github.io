@@ -1,0 +1,22 @@
+{
+  "slug": "appcache",
+  "extension": "appcache",
+  "name": "HTML5 Cache Manifest File",
+  "category": "html5-cache-manifest-file",
+  "summary": "",
+  "developer_org": "n-a",
+  "developer_name": "N/A",
+  "more_information": {
+    "description": [
+      "APPCACHE files are created to allow web applications to run without an Internet connection, reduce the server load, and hasten webpage load time.",
+      "The APPCACHE file consists of four optional sections: CACHE - Lists all resources that need to be downloaded and locally stored. NETWORK - Lists all URLs that are loaded via Internet and won't be cached. FALLBACK - Lists replacements for network URLs that are used if the web browser is offline. SETTINGS - Determines settings for application cache behavior."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "appcache.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "opb",
+  "extension": "opb",
+  "name": "Outplayed Backup File",
+  "category": "outplayed-backup-file",
+  "developer_org": "overwolf",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "An OPB file is a backup file created by Overwolf Outplayed, a video-capturing app for gamers. It contains a copy of a user's Outplayed videos, settings, and other data. Users can create and restore OPB files from the Storage screen of Outplayed's Settings menu.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "overwolf-outplayed",
+        "display_name": "Overwolf Outplayed"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "OPB file open in Overwolf Outplayed",
+      "alt": "OPB file open in Overwolf Outplayed",
+      "source_url": "https://fileinfo.com/img/ss/md/opb_13608.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-12-19",
+  "sources": [
+    {
+      "url": "opb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

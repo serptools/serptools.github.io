@@ -1,0 +1,47 @@
+{
+  "slug": "sn1",
+  "extension": "sn1",
+  "name": "Drive Snapshot Backup Continuation 1",
+  "category": "drive-snapshot-backup-continuation-1",
+  "developer_org": "tom-ehlert",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "An SN1 file is a continuation file created by Drive Snapshot, a backup utility for Windows. It contains the second part of a backup disk image , which Drive Snapshot has split into multiple files. An SN1 file must be paired with its accompanying .SNA file to access the data they contain.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "tom-ehlert-drive-snapshot",
+        "display_name": "Tom Ehlert Drive Snapshot"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-05-17",
+  "sources": [
+    {
+      "url": "sn1.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

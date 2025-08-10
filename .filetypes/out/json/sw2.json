@@ -1,0 +1,51 @@
+{
+  "slug": "sw2",
+  "extension": "sw2",
+  "name": "Softwrap License File",
+  "category": "softwrap-license-file",
+  "developer_org": "softwrap",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "License control file created by Softwrap, a software DRM program often used for e-commerce applications; stores the software license that authorizes a program to be used by a specific user or group.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "softwrap-api",
+        "display_name": "Softwrap API"
+      },
+      {
+        "software": "referenced-by-the-program-the-license-is-created-for",
+        "display_name": "Referenced by the program the license is created for"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2008-02-10",
+  "sources": [
+    {
+      "url": "sw2.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

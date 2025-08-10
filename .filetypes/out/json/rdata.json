@@ -1,0 +1,75 @@
+{
+  "slug": "rdata",
+  "extension": "rdata",
+  "name": "R Workspace File",
+  "category": "r-workspace-file",
+  "developer_org": "the-r-project-for-statistical-computing",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 29,
+    "source": "fileinfo"
+  },
+  "summary": "File created by R, a statistical computation and graphing program developed by The R Project for Statistical Computing; saves a workspace, which includes the function and value objects created during an open session in R; used for storing a working environment that can be extended or modified later.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "r",
+        "display_name": "R"
+      },
+      {
+        "software": "rstudio",
+        "display_name": "RStudio"
+      },
+      {
+        "software": "safe-software-fme-desktop",
+        "display_name": "Safe Software FME Desktop"
+      }
+    ],
+    "macos": [
+      {
+        "software": "r",
+        "display_name": "R"
+      },
+      {
+        "software": "rstudio",
+        "display_name": "RStudio"
+      }
+    ],
+    "linux": [
+      {
+        "software": "r",
+        "display_name": "R"
+      },
+      {
+        "software": "rstudio",
+        "display_name": "RStudio"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-06-11",
+  "sources": [
+    {
+      "url": "rdata.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "img2",
+  "extension": "img2",
+  "name": "iPhone Firmware Image",
+  "category": "iphone-firmware-image",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "An IMG2 file is an encrypted iPhone OS 1.1.x system firmware image for an Apple iPhone device. It stores core system software and data that Apple packages in iPhone software update ( .IPSW ) files users install on their devices when applying an update. Apple replaced IMG2 files with .IMG3 files to store iPhone 2.0 system firmware.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "ios": [
+      {
+        "software": "apple-ios",
+        "display_name": "Apple iOS"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-12-29",
+  "sources": [
+    {
+      "url": "img2.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "slug": "drpm",
+  "extension": "drpm",
+  "name": "Delta RPM File",
+  "category": "delta-rpm-file",
+  "developer_org": "the-fedora-project",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "File used by Linux operating systems for installing software; similar to an .RPM file, but is significantly smaller in file size because it only includes the files required since a prior RPM package was installed.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "linux": [
+      {
+        "software": "the-fedora-project-presto",
+        "display_name": "The Fedora Project Presto"
+      },
+      {
+        "software": "yast",
+        "display_name": "YaST"
+      }
+    ],
+    "windows": [
+      {
+        "software": "the-fedora-project-presto",
+        "display_name": "The Fedora Project Presto"
+      },
+      {
+        "software": "yast",
+        "display_name": "YaST"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-10-19",
+  "sources": [
+    {
+      "url": "drpm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

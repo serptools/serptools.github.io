@@ -1,0 +1,22 @@
+{
+  "slug": "lip",
+  "extension": "lip",
+  "name": "Clip Studio Paint File",
+  "category": "clip-studio-paint-file",
+  "summary": "",
+  "developer_org": "bohemia-interactive",
+  "developer_name": "Bohemia Interactive",
+  "more_information": {
+    "description": [
+      "LIP files are similar to .PSD files used by Adobe Photoshop as they are used as a project file which allows you to resume your work at a later time. The LIP file also supports RGB , CMYK , and HSV color, layer masks, filters, and other effects.",
+      "The LIP file was replaced by the .CLIP file when Clip Studio Paint moved from the Clip Studio Paint format to the Clip Studio format in version 1.5.4. The newer format in CLIP files allows for quicker load and save times as it is a lighter format than the old Clip Studio Paint format in LIP files. You can still save your images as LIP files in Clip Studio Paint version 1.5.4 or later, however, the LIP file will no longer be able to be opened in versions 1.4.4 and earlier after it is edited in versions 1.5.4 and later."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "lip.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "printerexport",
+  "extension": "printerexport",
+  "name": "Windows Printer Migration File",
+  "category": "windows-printer-migration-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "File used the Windows Printer Migration wizard ( Printbrm.exe ), a utility used to transfer printer settings between copies of Windows; can store print queues, printer settings, printer ports, and language monitors; used for printer server configuration.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-windows-printer-migration",
+        "display_name": "Microsoft Windows Printer Migration"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-01-18",
+  "sources": [
+    {
+      "url": "printerexport.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

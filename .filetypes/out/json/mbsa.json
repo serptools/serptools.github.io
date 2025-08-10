@@ -1,0 +1,50 @@
+{
+  "slug": "mbsa",
+  "extension": "mbsa",
+  "name": "Microsoft Baseline Security Analyzer File",
+  "category": "microsoft-baseline-security-analyzer-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "File created by Microsoft Baseline Security Analyzer (MBSA), a program used for identifying critical updates for Windows computers; contains results, or a report, from a scan of the system and includes pass/fail status, needed critical updates, and other scan results; allows the report to be saved and reviewed during security audits.",
+  "standards": [],
+  "mime_types": [
+    "pass/fail"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-baseline-security-analyzer",
+        "display_name": "Microsoft Baseline Security Analyzer",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2013-05-28",
+  "sources": [
+    {
+      "url": "mbsa.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

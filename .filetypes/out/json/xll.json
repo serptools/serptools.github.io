@@ -1,0 +1,61 @@
+{
+  "slug": "xll",
+  "extension": "xll",
+  "name": "Microsoft Excel Add-in",
+  "category": "microsoft-excel-add-in",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 37,
+    "source": "fileinfo"
+  },
+  "summary": "An XLL file is an add-in used by Microsoft Excel, a popular spreadsheet application. It contains extra functions, templates, or other tools that enhance the capabilities of Excel. Examples of add-ins include custom chart generators and template managers.",
+  "standards": [],
+  "mime_types": [
+    "c/c"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-excel-365",
+        "display_name": "Microsoft Excel 365"
+      }
+    ],
+    "macos": [
+      {
+        "software": "microsoft-excel-365",
+        "display_name": "Microsoft Excel 365"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "XLL file icon",
+      "alt": "XLL file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/xll-292.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-05-04",
+  "sources": [
+    {
+      "url": "xll.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "slug": "brr",
+  "extension": "brr",
+  "name": "SNES Sample File",
+  "category": "snes-sample-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 2.9,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "A BRR file is a sound sample file used by Super Nintendo Entertainment System (SNES) games. It stores instruments and voices in a compressed format which are used to make up .SPC SNES soundtrack files.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "addmusick",
+        "display_name": "AddmusicK"
+      },
+      {
+        "software": "brr-player",
+        "display_name": "BRR Player"
+      },
+      {
+        "software": "brr-tools",
+        "display_name": "BRR tools"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2016-06-24",
+  "sources": [
+    {
+      "url": "brr.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

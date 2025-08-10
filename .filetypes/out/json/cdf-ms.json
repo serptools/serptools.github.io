@@ -1,0 +1,47 @@
+{
+  "slug": "cdf-ms",
+  "extension": "cdf-ms",
+  "name": "ClickOnce Compiled Manifest File",
+  "category": "clickonce-compiled-manifest-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 28,
+    "source": "fileinfo"
+  },
+  "summary": "Application support file used by software programs deployed by ClickOnce, a Microsoft technology allowing Windows programs to be run by clicking a link in a webpage; contains properties that are used for running the application.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-clickonce",
+        "display_name": "Microsoft ClickOnce"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-12-20",
+  "sources": [
+    {
+      "url": "cdf-ms.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

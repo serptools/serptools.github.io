@@ -1,0 +1,51 @@
+{
+  "slug": "tvm",
+  "extension": "tvm",
+  "name": "TV3D Model",
+  "category": "1.-tv3d-model",
+  "developer_org": "truevision3d",
+  "popularity": {
+    "rating": 3.2,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "TVM is a 3D model format used by TV3D SDK, a 3D game and application development environment. Each TVM file contains a 3D model, comprised of lights, materials, alpha blending, stages, and shaders properties.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "truevision3d-tv3d-sdk",
+        "display_name": "Truevision3D TV3D SDK"
+      },
+      {
+        "software": "vivendi-universal-tribes-vengeance",
+        "display_name": "Vivendi Universal Tribes: Vengeance"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-03-22",
+  "sources": [
+    {
+      "url": "tvm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

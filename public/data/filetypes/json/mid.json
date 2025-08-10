@@ -1,0 +1,28 @@
+{
+  "slug": "mid",
+  "extension": "mid",
+  "name": "MIDI File",
+  "category": "midi-file",
+  "summary": "",
+  "developer_org": "n-a",
+  "developer_name": "N/A",
+  "more_information": {
+    "description": [
+      "MID files are used to encode MIDI data into a standard format that is interoperable between different types of software programs and hardware devices. They may also contain controller data for a device. For example, a MID file can be used to change instruments on a MIDI hardware device or modify sustain pedal information.",
+      "MID files contain attributes of music data rather than music data itself. They can be played back using software instruments that interpret this data."
+    ]
+  },
+  "common_filenames": [
+    {
+      "filename": "notes.mid",
+      "description": "notes.mid - The standard filename used to store guitar rhythm data for a specific song"
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "mid.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

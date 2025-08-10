@@ -1,0 +1,47 @@
+{
+  "slug": "ftp",
+  "extension": "ftp",
+  "name": "FlashFXP XML File",
+  "category": "flashfxp-xml-file",
+  "developer_org": "opensight-software",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 20,
+    "source": "fileinfo"
+  },
+  "summary": "An FTP file contains a site exported from FlashFXP, a Windows FTP client. It stores XML -formatted information about an FTP site configured in FlashFXP. FTP files are used for sharing sites with other users and for backing up sites.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "opensight-flashfxp",
+        "display_name": "OpenSight FlashFXP"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-06-22",
+  "sources": [
+    {
+      "url": "ftp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

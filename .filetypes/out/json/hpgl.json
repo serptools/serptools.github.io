@@ -1,0 +1,127 @@
+{
+  "slug": "hpgl",
+  "extension": "hpgl",
+  "name": "HP Graphics Language Plotter File",
+  "category": "hp-graphics-language-plotter-file",
+  "developer_org": "hewlett-packard",
+  "popularity": {
+    "rating": 3.2,
+    "votes": 13,
+    "source": "fileinfo"
+  },
+  "summary": "Printer instruction file based on the plotter language developed by Hewlett-Packard; used for sending information to plotter printers, which draw images using lines instead of dots like an ordinary laser or inkjet printer.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "ideamk-hpgl-viewer",
+        "display_name": "ideaMK HPGL Viewer"
+      },
+      {
+        "software": "coreldraw-graphics-suite-2024",
+        "display_name": "CorelDRAW Graphics Suite 2024"
+      },
+      {
+        "software": "corel-paintshop-pro-2023",
+        "display_name": "Corel PaintShop Pro 2023"
+      },
+      {
+        "software": "canvas-gfx-canvas-x-pro",
+        "display_name": "Canvas GFX Canvas X Pro"
+      },
+      {
+        "software": "cadsofttools-abviewer",
+        "display_name": "CADSoftTools ABViewer"
+      },
+      {
+        "software": "lemkesoft-cadintosh",
+        "display_name": "Lemkesoft CADintosh"
+      },
+      {
+        "software": "lemkesoft-graphicconverter",
+        "display_name": "Lemkesoft GraphicConverter"
+      },
+      {
+        "software": "vhf-interservice-cenon",
+        "display_name": "vhf interservice Cenon"
+      },
+      {
+        "software": "hp2xx",
+        "display_name": "hp2xx"
+      }
+    ],
+    "macos": [
+      {
+        "software": "artsoft-mach",
+        "display_name": "ArtSoft Mach"
+      },
+      {
+        "software": "ideamk-hpgl-viewer",
+        "display_name": "ideaMK HPGL Viewer"
+      },
+      {
+        "software": "coreldraw-graphics-suite-2024",
+        "display_name": "CorelDRAW Graphics Suite 2024"
+      },
+      {
+        "software": "corel-paintshop-pro-2023",
+        "display_name": "Corel PaintShop Pro 2023"
+      },
+      {
+        "software": "canvas-gfx-canvas-x-pro",
+        "display_name": "Canvas GFX Canvas X Pro"
+      },
+      {
+        "software": "cadsofttools-abviewer",
+        "display_name": "CADSoftTools ABViewer"
+      },
+      {
+        "software": "lemkesoft-cadintosh",
+        "display_name": "Lemkesoft CADintosh"
+      },
+      {
+        "software": "lemkesoft-graphicconverter",
+        "display_name": "Lemkesoft GraphicConverter"
+      },
+      {
+        "software": "vhf-interservice-cenon",
+        "display_name": "vhf interservice Cenon"
+      }
+    ],
+    "linux": [
+      {
+        "software": "vhf-interservice-cenon",
+        "display_name": "vhf interservice Cenon"
+      },
+      {
+        "software": "hp2xx",
+        "display_name": "hp2xx"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-12-07",
+  "sources": [
+    {
+      "url": "hpgl.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

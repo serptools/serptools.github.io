@@ -1,0 +1,23 @@
+{
+  "slug": "jss",
+  "extension": "jss",
+  "name": "JavaScript Style Sheet File",
+  "category": "javascript-style-sheet-file",
+  "summary": "",
+  "developer_org": "freedom-scientific",
+  "developer_name": "Freedom Scientific",
+  "more_information": {
+    "description": [
+      "The JSS files must be parsed and converted to the .CSS format before they can be used with a webpage. Therefore, you need to use the jss program as shown in the following command, which converts styles.jss to styles.css :",
+      "jss styles.jss styles.css",
+      "NOTE: JSS files use the inherit-class: , inherit-id: , and inherit-tag: syntax in CSS definitions to provide for inheritance."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "jss.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

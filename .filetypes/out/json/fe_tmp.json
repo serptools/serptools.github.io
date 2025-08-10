@@ -1,0 +1,53 @@
+{
+  "slug": "fe_tmp",
+  "extension": "fe_tmp",
+  "name": "Mi File Explorer Temporary File",
+  "category": "mi-file-explorer-temporary-file",
+  "developer_org": "xiaomi",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "An FE_TMP file is a temporary file created by Mi File Explorer, a file manager for Xiaomi smartphones. Mi File Explorer creates a new FE_TMP file whenever a user moves, copies, or deletes a file. In most cases, Mi File Explorer automatically deletes FE_TMP files after completing the related file operation. If Mi File Explorer fails to delete an FE_TMP file, it can cause the user's phone to believe their SD card is invalid.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "android": [
+      {
+        "software": "xiaomi-mi-file-explorer",
+        "display_name": "Xiaomi Mi File Explorer"
+      }
+    ],
+    "windows": [
+      {
+        "software": "xiaomi-mi-file-explorer",
+        "display_name": "Xiaomi Mi File Explorer"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-11-20",
+  "sources": [
+    {
+      "url": "fe_tmp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

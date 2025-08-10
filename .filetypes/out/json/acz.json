@@ -1,0 +1,47 @@
+{
+  "slug": "acz",
+  "extension": "acz",
+  "name": "AppCraft Project",
+  "category": "appcraft-project",
+  "developer_org": "beyondapp",
+  "popularity": {
+    "rating": 3.2,
+    "votes": 10,
+    "source": "fileinfo"
+  },
+  "summary": "An ACZ file is a project created and used by AppCraft, an iOS application designed to help users learn basic programming skills. It contains exported project data, such as scene(s) settings, objects, control settings, and images, that can be shared between AppCraft users.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "ios": [
+      {
+        "software": "beyondapp-appcraft-for-ios",
+        "display_name": "BeyondApp AppCraft for iOS"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-03-22",
+  "sources": [
+    {
+      "url": "acz.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

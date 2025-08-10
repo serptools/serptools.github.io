@@ -1,0 +1,47 @@
+{
+  "slug": "gvimrc",
+  "extension": "gvimrc",
+  "name": "GVim Runtime Configuration File",
+  "category": "gvim-runtime-configuration-file",
+  "developer_org": "gvim",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "File used by Gvim, a graphical version of the Vim text editor for the desktop; specifies default settings for the editor, such as the font, colors, the window size, and tab widths; similar to a .VIMRC file but can contain additional configuration options specific to Gvim.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "gvim",
+        "display_name": "gVim"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-11-20",
+  "sources": [
+    {
+      "url": "gvimrc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

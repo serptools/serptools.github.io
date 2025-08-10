@@ -1,0 +1,59 @@
+{
+  "slug": "raw.xxx",
+  "extension": "raw.xxx",
+  "name": "In-Process Dolphin Virtual SD Card",
+  "category": "in-process-dolphin-virtual-sd-card",
+  "developer_org": "dolphin-team",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "A RAW.XXX file is a virtual SD card currently being written to by Dolphin, a video game console emulator . You may encounter RAW.XXX cards when Dolphin is saving data (such as a saved game) to your virtual SD card. Typically, RAW.XXX files are named sd.raw.xxx .",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "dolphin",
+        "display_name": "Dolphin"
+      }
+    ],
+    "macos": [
+      {
+        "software": "dolphin",
+        "display_name": "Dolphin"
+      }
+    ],
+    "linux": [
+      {
+        "software": "dolphin",
+        "display_name": "Dolphin"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-06-28",
+  "sources": [
+    {
+      "url": "raw.xxx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

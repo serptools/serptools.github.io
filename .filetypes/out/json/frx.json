@@ -1,0 +1,52 @@
+{
+  "slug": "frx",
+  "extension": "frx",
+  "name": "Visual Basic Binary Form File",
+  "category": "1.-visual-basic-binary-form-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 27,
+    "source": "fileinfo"
+  },
+  "summary": "Stores the binary information for a Visual Basic form, such as icons and graphics; similar to a .FRM file, but saves only binary data for forms created with Visual Basic; sometimes may be manually deleted if no binary data is saved.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-visual-basic-6",
+        "display_name": "Microsoft Visual Basic 6"
+      },
+      {
+        "software": "microsoft-visual-foxpro",
+        "display_name": "Microsoft Visual FoxPro",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2006-12-20",
+  "sources": [
+    {
+      "url": "frx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

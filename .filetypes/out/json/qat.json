@@ -1,0 +1,53 @@
+{
+  "slug": "qat",
+  "extension": "qat",
+  "name": "Microsoft Office Quick Access Toolbar File",
+  "category": "microsoft-office-quick-access-toolbar-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 2.8,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "Customization file used by Microsoft Office, a document production suite; contains XML code that customizes ribbons in Microsoft Office; includes code that defines custom commands, groups, groups, tabs, etc. that make up the Microsoft Office UI .",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-office-365",
+        "display_name": "Microsoft Office 365"
+      }
+    ],
+    "macos": [
+      {
+        "software": "microsoft-office-365",
+        "display_name": "Microsoft Office 365"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-01-21",
+  "sources": [
+    {
+      "url": "qat.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

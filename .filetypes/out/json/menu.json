@@ -1,0 +1,93 @@
+{
+  "slug": "menu",
+  "extension": "menu",
+  "name": "Quake 3 Engine Menu File",
+  "category": "1.-quake-3-engine-menu-file",
+  "developer_org": "id-software",
+  "popularity": {
+    "rating": 4.3,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "Menu file used by id Tech 3 (Quake III engine) games; specifies the layout and properties for the game menus and the HUD (Head-Up Display) interface; saved in a plain-text format; commonly stored within .PK3 game packages.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "id-software-quake-3",
+        "display_name": "id Software Quake 3"
+      },
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "microsoft-wordpad",
+        "display_name": "Microsoft WordPad"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "vi",
+        "display_name": "Vi"
+      }
+    ],
+    "macos": [
+      {
+        "software": "gnu-emacs",
+        "display_name": "GNU Emacs"
+      },
+      {
+        "software": "id-software-quake-3",
+        "display_name": "id Software Quake 3"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "vi",
+        "display_name": "Vi"
+      },
+      {
+        "software": "apple-macos",
+        "display_name": "Apple macOS"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-05-24",
+  "sources": [
+    {
+      "url": "menu.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

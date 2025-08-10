@@ -1,0 +1,65 @@
+{
+  "slug": "asvf",
+  "extension": "asvf",
+  "name": "Asphyre Sphinx Archive File",
+  "category": "asphyre-sphinx-archive-file",
+  "developer_org": "afterwarp-development",
+  "popularity": {
+    "rating": 3.2,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Compressed file created to store data used by Asphyre Sphinx, a framework for developing 2D/3D video games; contains fonts, images, and other media intended for developing games; common files found in ASVF files include .JPEG and .XML files.",
+  "standards": [],
+  "mime_types": [
+    "2d/3d",
+    "freepascal/lazarus"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "afterwarp-development-asphyre-sphinx",
+        "display_name": "Afterwarp Development Asphyre Sphinx",
+        "status": "discontinued"
+      }
+    ],
+    "macos": [
+      {
+        "software": "afterwarp-development-asphyre-sphinx",
+        "display_name": "Afterwarp Development Asphyre Sphinx",
+        "status": "discontinued"
+      }
+    ],
+    "linux": [
+      {
+        "software": "afterwarp-development-asphyre-sphinx",
+        "display_name": "Afterwarp Development Asphyre Sphinx",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-08-10",
+  "sources": [
+    {
+      "url": "asvf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

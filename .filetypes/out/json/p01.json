@@ -1,0 +1,75 @@
+{
+  "slug": "p01",
+  "extension": "p01",
+  "name": "Toast CD Image",
+  "category": "1.-toast-cd-image",
+  "developer_org": "roxio",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 11,
+    "source": "fileinfo"
+  },
+  "summary": "A P01 file is a CD disc image created by Roxio Toast, a disc-burning software for macOS. It stores a complete digital copy of the original CD, including data and structure, so a user can reproduce the disc's contents for backing up or copying and reproducing purposes.",
+  "standards": [],
+  "mime_types": [
+    "cd/dvd"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "ezb-systems-ultraiso",
+        "display_name": "EZB Systems UltraISO"
+      },
+      {
+        "software": "smart-projects-isobuster",
+        "display_name": "Smart Projects IsoBuster"
+      },
+      {
+        "software": "poweriso",
+        "display_name": "PowerISO"
+      },
+      {
+        "software": "roxio-toast-20",
+        "display_name": "Roxio Toast 20"
+      },
+      {
+        "software": "gear-software-gear-pro",
+        "display_name": "GEAR Software GEAR PRO"
+      },
+      {
+        "software": "quickpar",
+        "display_name": "QuickPar"
+      }
+    ],
+    "macos": [
+      {
+        "software": "roxio-toast-20",
+        "display_name": "Roxio Toast 20"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2024-10-31",
+  "sources": [
+    {
+      "url": "p01.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

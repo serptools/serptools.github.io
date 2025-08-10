@@ -1,0 +1,60 @@
+{
+  "slug": "crypt15",
+  "extension": "crypt15",
+  "name": "WhatsApp Encrypted Database File",
+  "category": "whatsapp-encrypted-database-file",
+  "developer_org": "whatsapp",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 125,
+    "source": "fileinfo"
+  },
+  "summary": "A CRYPT15 file is an encrypted database backup created by the Android version of WhatsApp Messenger. It contains messages a user has sent and received through WhatsApp and is encrypted with 256-bit AES encryption for security purposes.",
+  "standards": [],
+  "mime_types": [
+    "com.whatsapp/files",
+    "data/data"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "whatsapp-crypt-tools",
+        "display_name": "WhatsApp Crypt Tools"
+      },
+      {
+        "software": "whatsapp-messenger",
+        "display_name": "WhatsApp Messenger"
+      }
+    ],
+    "android": [
+      {
+        "software": "whatsapp-messenger",
+        "display_name": "WhatsApp Messenger"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-09-27",
+  "sources": [
+    {
+      "url": "crypt15.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "slug": "yobj",
+  "extension": "yobj",
+  "name": "Yuke's 3D Object",
+  "category": "yuke-s-3d-object",
+  "developer_org": "yuke-s",
+  "popularity": {
+    "rating": 4.3,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "A YOBJ file is a 3D model used in a video game developed by Yuke's. It contains mesh data, bones, shaders, and information used to apply textures to the model. It does not contain the textures themselves. YOBJ files are most prominently used in the WWE 2K series.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "tekken57-x-rey",
+        "display_name": "tekken57 X-Rey"
+      },
+      {
+        "software": "reshape",
+        "display_name": "reShape"
+      },
+      {
+        "software": "autodesk-3ds-max-2023",
+        "display_name": "Autodesk 3ds Max 2023"
+      },
+      {
+        "software": "yobj-3ds-max-importer",
+        "display_name": "YOBJ 3ds Max Importer"
+      },
+      {
+        "software": "2k-sports-wwe-2k19",
+        "display_name": "2K Sports WWE 2K19"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-11-21",
+  "sources": [
+    {
+      "url": "yobj.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

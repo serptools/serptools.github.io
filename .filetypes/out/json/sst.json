@@ -1,0 +1,77 @@
+{
+  "slug": "sst",
+  "extension": "sst",
+  "name": "Serialized Certificate Store File",
+  "category": "1.-serialized-certificate-store-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 11,
+    "source": "fileinfo"
+  },
+  "summary": "Digital certificate downloaded from a Certificate Authority (CA); installed as a root certificate on Windows computers and is used to validate the identities of websites and software programs; typically saved in a folder along with other .PFX certificate files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-certificate-manager",
+        "display_name": "Microsoft Certificate Manager"
+      },
+      {
+        "software": "tilted-mill-entertainment-children-of-the-nile",
+        "display_name": "Tilted Mill Entertainment Children of the Nile"
+      },
+      {
+        "software": "sst-tool",
+        "display_name": "SST-tool"
+      },
+      {
+        "software": "artec-3d-artec-studio",
+        "display_name": "Artec 3D Artec Studio"
+      }
+    ],
+    "ios": [
+      {
+        "software": "stainless-steel-studios-empire-earth",
+        "display_name": "Stainless Steel Studios Empire Earth"
+      }
+    ],
+    "macos": [
+      {
+        "software": "sst-tool",
+        "display_name": "SST-tool"
+      }
+    ],
+    "linux": [
+      {
+        "software": "sst-tool",
+        "display_name": "SST-tool"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-09-14",
+  "sources": [
+    {
+      "url": "sst.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

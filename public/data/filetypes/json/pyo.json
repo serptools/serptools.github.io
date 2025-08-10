@@ -1,0 +1,22 @@
+{
+  "slug": "pyo",
+  "extension": "pyo",
+  "name": "Python Optimized Code",
+  "category": "python-optimized-code",
+  "summary": "",
+  "developer_org": "python-software-foundation",
+  "developer_name": "Python Software Foundation",
+  "more_information": {
+    "description": [
+      "Optimization flags in Python are command-line options used to modify how the Python interpreter compiles and runs code. They primarily affect performance, debugging information, and error handling. The most common optimization flags are:",
+      "Python used PYO files in versions of Python up to 3.5, but they have since been deprecated. Modern Python versions handle optimization differently, storing all compiled bytecode as PYC files within the __pycache__ directory and applying optimizations based on file naming conventions. If working with an older Python project, you may still encounter PYO files, but newer projects use PYC files for optimized execution."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "pyo.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

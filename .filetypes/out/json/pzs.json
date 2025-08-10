@@ -1,0 +1,57 @@
+{
+  "slug": "pzs",
+  "extension": "pzs",
+  "name": "PhotoSuite Slide Show File",
+  "category": "photosuite-slide-show-file",
+  "developer_org": "sonic-solutions",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "Slide Show created by PhotoSuite, an image editor and organizer; contains slide images assembled by the user that appear based on the user-customized settings.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "roxio-creator-nxt-pro-9",
+        "display_name": "Roxio Creator NXT Pro 9"
+      },
+      {
+        "software": "roxio-photoshow",
+        "display_name": "Roxio PhotoShow"
+      }
+    ],
+    "macos": [
+      {
+        "software": "roxio-photoshow",
+        "display_name": "Roxio PhotoShow"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2013-08-29",
+  "sources": [
+    {
+      "url": "pzs.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

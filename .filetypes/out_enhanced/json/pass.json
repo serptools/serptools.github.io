@@ -1,0 +1,23 @@
+{
+  "slug": "pass",
+  "extension": "pass",
+  "name": "Wallet Pass Source Directory",
+  "category": "wallet-pass-source-directory",
+  "summary": "",
+  "developer_org": "apple",
+  "developer_name": "Apple",
+  "more_information": {
+    "description": [
+      "Apple Xcode is an IDE developers use primarily to create and update iOS and macOS apps. Developers can also use Xcode to create distributable Apple Wallet passes. The first step in creating a pass is to create a directory that holds all the pass's source files. This directory always uses the .pass extension.",
+      "PASS directories contain the following files:",
+      "After they've finished developing their pass, developers build the pass and package it into a signed bundle. This bundle is what is distributed to Apple Wallet users, in the form of a PKPASS file."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "pass.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

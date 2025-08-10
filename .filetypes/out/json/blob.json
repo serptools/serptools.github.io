@@ -1,0 +1,59 @@
+{
+  "slug": "blob",
+  "extension": "blob",
+  "name": "Valve Steam Archive",
+  "category": "valve-steam-archive",
+  "developer_org": "valve",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 50,
+    "source": "fileinfo"
+  },
+  "summary": "Data file referenced by Valve Corporation's Steam, an online software distribution program; stores user registry information for the Steam client in the file ClientRegistry.blob , as well as application update information in the file AppUpdateStats.blob .",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "valve-steam",
+        "display_name": "Valve Steam"
+      }
+    ],
+    "macos": [
+      {
+        "software": "valve-steam",
+        "display_name": "Valve Steam"
+      }
+    ],
+    "linux": [
+      {
+        "software": "valve-steam",
+        "display_name": "Valve Steam"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-09-02",
+  "sources": [
+    {
+      "url": "blob.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  "slug": "vhd",
+  "extension": "vhd",
+  "name": "Virtual PC Virtual Hard Disk",
+  "category": "1.-virtual-pc-virtual-hard-disk",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 109,
+    "source": "fileinfo"
+  },
+  "summary": "A VHD file contains a virtual hard disk image used by Microsoft Windows Virtual PC, a Windows virtualization program. It stores the contents of a hard disk of a virtual machine (VM), which may include disk partitions, a file system, files, and folders. VHD files may be used to install multiple operating systems on a single computer, test software programs, or run older applications.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "microsoft-file-explorer",
+        "display_name": "Microsoft File Explorer"
+      },
+      {
+        "software": "microsoft-virtual-server",
+        "display_name": "Microsoft Virtual Server"
+      },
+      {
+        "software": "microsoft-windows-server",
+        "display_name": "Microsoft Windows Server"
+      },
+      {
+        "software": "microsoft-windows-virtual-pc",
+        "display_name": "Microsoft Windows Virtual PC",
+        "status": "discontinued"
+      },
+      {
+        "software": "oracle-vm-virtualbox",
+        "display_name": "Oracle VM VirtualBox"
+      },
+      {
+        "software": "vmware-workstation",
+        "display_name": "VMWare Workstation"
+      },
+      {
+        "software": "vmware-workstation-player",
+        "display_name": "VMware Workstation Player"
+      },
+      {
+        "software": "qemu",
+        "display_name": "QEMU"
+      },
+      {
+        "software": "smart-projects-isobuster",
+        "display_name": "Smart Projects IsoBuster"
+      },
+      {
+        "software": "7-zip",
+        "display_name": "7-Zip"
+      },
+      {
+        "software": "aryson-vhd-recovery",
+        "display_name": "Aryson VHD Recovery"
+      },
+      {
+        "software": "vmware-fusion",
+        "display_name": "VMware Fusion"
+      },
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      },
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      },
+      {
+        "software": "limbo-pc-emulator",
+        "display_name": "Limbo PC Emulator"
+      },
+      {
+        "software": "xilinx-ise-design-suite",
+        "display_name": "Xilinx ISE Design Suite"
+      },
+      {
+        "software": "mentor-graphics-modelsim",
+        "display_name": "Mentor Graphics ModelSim"
+      },
+      {
+        "software": "green-mountain-directvhdl",
+        "display_name": "Green Mountain DirectVHDL"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "oracle-vm-virtualbox",
+        "display_name": "Oracle VM VirtualBox"
+      },
+      {
+        "software": "vmware-fusion",
+        "display_name": "VMware Fusion"
+      },
+      {
+        "software": "qemu",
+        "display_name": "QEMU"
+      },
+      {
+        "software": "green-mountain-directvhdl",
+        "display_name": "Green Mountain DirectVHDL"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "oracle-vm-virtualbox",
+        "display_name": "Oracle VM VirtualBox"
+      },
+      {
+        "software": "vmware-workstation",
+        "display_name": "VMWare Workstation"
+      },
+      {
+        "software": "vmware-workstation-player",
+        "display_name": "VMware Workstation Player"
+      },
+      {
+        "software": "qemu",
+        "display_name": "QEMU"
+      },
+      {
+        "software": "xilinx-ise-design-suite",
+        "display_name": "Xilinx ISE Design Suite"
+      },
+      {
+        "software": "mentor-graphics-modelsim",
+        "display_name": "Mentor Graphics ModelSim"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "web": [
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      }
+    ],
+    "android": [
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      },
+      {
+        "software": "limbo-pc-emulator",
+        "display_name": "Limbo PC Emulator"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-06-30",
+  "sources": [
+    {
+      "url": "vhd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

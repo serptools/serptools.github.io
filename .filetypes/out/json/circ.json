@@ -1,0 +1,49 @@
+{
+  "slug": "circ",
+  "extension": "circ",
+  "name": "Logisim Circuit File",
+  "category": "logisim-circuit-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 10,
+    "source": "fileinfo"
+  },
+  "summary": "Circuit file created and used by Logisim, a graphical tool for designing and simulating logic circuits; contains circuit data in XML format; includes names and placement coordinates of wiring, gates, and plexers.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "logisim",
+        "display_name": "Logisim"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-12-21",
+  "sources": [
+    {
+      "url": "circ.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

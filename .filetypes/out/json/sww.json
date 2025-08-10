@@ -1,0 +1,55 @@
+{
+  "slug": "sww",
+  "extension": "sww",
+  "name": "Anno Saved Game",
+  "category": "anno-saved-game",
+  "developer_org": "ubisoft-entertainment",
+  "popularity": {
+    "rating": 2.3,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "Saved game file created by Anno 1404 and Anno 2070 futuristic real-time strategy games; stores a player's state of the game and includes completed levels and other achievements; not opened manually by the user from the Windows Explorer, but instead opened through the game's interface under the list of saved games.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "ubisoft-anno-2070",
+        "display_name": "Ubisoft Anno 2070"
+      },
+      {
+        "software": "ubisoft-anno-1404",
+        "display_name": "Ubisoft Anno 1404"
+      },
+      {
+        "software": "rda-explorer",
+        "display_name": "RDA Explorer"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-02-22",
+  "sources": [
+    {
+      "url": "sww.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

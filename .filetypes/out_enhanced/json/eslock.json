@@ -1,0 +1,22 @@
+{
+  "slug": "eslock",
+  "extension": "eslock",
+  "name": "ES File Explorer File Manager Encrypted File",
+  "category": "es-file-explorer-file-manager-encrypted-file",
+  "summary": "",
+  "developer_org": "es-app-group",
+  "developer_name": "ES APP Group",
+  "more_information": {
+    "description": [
+      "When you lock a file with the app, the file is renamed to a set of numbers and letters and given the \"eslock\" file extension, which appears similar to asd496gfr04.eslock . You can open the ESLOCK file with the correct password but only through the app in which it was created.",
+      "ES File Explorer File Manager uses AES 256-bit encryption to encrypt your data. If you encrypt your files but forget your password ES File Explorer File Manager will not allow you to open the file. You can use the ESLock File Recovery app to decrypt your locked files without using the password."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "eslock.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

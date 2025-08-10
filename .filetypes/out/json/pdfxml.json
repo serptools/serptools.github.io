@@ -1,0 +1,53 @@
+{
+  "slug": "pdfxml",
+  "extension": "pdfxml",
+  "name": "Adobe PDFXML Document",
+  "category": "adobe-pdfxml-document",
+  "developer_org": "adobe-systems",
+  "popularity": {
+    "rating": 4.2,
+    "votes": 95,
+    "source": "fileinfo"
+  },
+  "summary": "File saved in the PDFXML format, an XML representation of a .PDF file that was developed as part of the Mars Project at Adobe Labs, but was later discontinued; allows interchange of PDF content between applications using XML.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "adobe-acrobat-dc",
+        "display_name": "Adobe Acrobat DC"
+      }
+    ],
+    "macos": [
+      {
+        "software": "adobe-acrobat-dc",
+        "display_name": "Adobe Acrobat DC"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-11-16",
+  "sources": [
+    {
+      "url": "pdfxml.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "slug": "x_b",
+  "extension": "x_b",
+  "name": "Parasolid Model Part File",
+  "category": "parasolid-model-part-file",
+  "developer_org": "siemens-plm-software",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 26,
+    "source": "fileinfo"
+  },
+  "summary": "File created by Parasolid, a program for CAD geometric modeling; contains data such as geometry, topology, and color; designed as a standard exchange format for sharing CAD models; saved in binary format and may be imported or exported by other common CAD programs.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "ptc-onshape",
+        "display_name": "PTC Onshape"
+      },
+      {
+        "software": "siemens-plm-software-parasolid",
+        "display_name": "Siemens PLM Software Parasolid"
+      },
+      {
+        "software": "autodesk-fusion-360",
+        "display_name": "Autodesk Fusion 360"
+      },
+      {
+        "software": "okino-computer-graphics-polytrans",
+        "display_name": "Okino Computer Graphics PolyTrans"
+      },
+      {
+        "software": "cadsofttools-cst-cad-navigator",
+        "display_name": "CADSoftTools CST CAD Navigator"
+      }
+    ],
+    "macos": [
+      {
+        "software": "siemens-plm-software-parasolid",
+        "display_name": "Siemens PLM Software Parasolid"
+      },
+      {
+        "software": "autodesk-fusion-360",
+        "display_name": "Autodesk Fusion 360"
+      },
+      {
+        "software": "cadsofttools-cst-cad-navigator",
+        "display_name": "CADSoftTools CST CAD Navigator"
+      }
+    ],
+    "linux": [
+      {
+        "software": "siemens-plm-software-parasolid",
+        "display_name": "Siemens PLM Software Parasolid"
+      },
+      {
+        "software": "cadsofttools-cst-cad-navigator",
+        "display_name": "CADSoftTools CST CAD Navigator"
+      }
+    ],
+    "web": [
+      {
+        "software": "autodesk-fusion-360",
+        "display_name": "Autodesk Fusion 360"
+      }
+    ],
+    "ios": [
+      {
+        "software": "autodesk-fusion-360",
+        "display_name": "Autodesk Fusion 360"
+      }
+    ],
+    "android": [
+      {
+        "software": "autodesk-fusion-360",
+        "display_name": "Autodesk Fusion 360"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-03-25",
+  "sources": [
+    {
+      "url": "x_b.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

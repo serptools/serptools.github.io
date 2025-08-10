@@ -1,0 +1,83 @@
+{
+  "slug": "cit",
+  "extension": "cit",
+  "name": "Cite Report Project",
+  "category": "1.-cite-report-project",
+  "developer_org": "in8",
+  "popularity": {
+    "rating": 4.2,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "A CIT file is a report writing project created by In8 Cite, a citation-based investigative report writing application. It contains a report and a catalog of the supporting documentation and evidence cited in that report. CIT files are created and used primarily by criminal investigators.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "in8-cite",
+        "display_name": "In8 Cite"
+      },
+      {
+        "software": ".jpg",
+        "display_name": ".JPG"
+      },
+      {
+        "software": ".png",
+        "display_name": ".PNG"
+      },
+      {
+        "software": ".gif",
+        "display_name": ".GIF"
+      },
+      {
+        "software": ".tiff",
+        "display_name": ".TIFF"
+      },
+      {
+        "software": ".bmp",
+        "display_name": ".BMP"
+      },
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      }
+    ],
+    "macos": [
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      }
+    ],
+    "linux": [
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-11-29",
+  "sources": [
+    {
+      "url": "cit.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

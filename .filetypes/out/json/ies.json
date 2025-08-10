@@ -1,0 +1,101 @@
+{
+  "slug": "ies",
+  "extension": "ies",
+  "name": "IES Photometric Data File",
+  "category": "ies-photometric-data-file",
+  "developer_org": "illuminating-engineering-society",
+  "popularity": {
+    "rating": 3.1,
+    "votes": 16,
+    "source": "fileinfo"
+  },
+  "summary": "An IES file is a plain text file that contains measurements of light and light quantities. It is saved in a format specified by the Illuminating Engineering Society (IES). Building designers and civil engineers use IES files to simulate lighting systems while designing buildings, roadways, parks, and other structures.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "autodesk-revit-lt-2022",
+        "display_name": "Autodesk Revit LT 2022"
+      },
+      {
+        "software": "autodesk-autocad-2025",
+        "display_name": "Autodesk AutoCAD 2025"
+      },
+      {
+        "software": "acuity-brands-lighting-visual-lighting",
+        "display_name": "Acuity Brands Lighting Visual Lighting"
+      },
+      {
+        "software": "oxytech-litestar-4d-open",
+        "display_name": "OxyTech LITESTAR 4D Open"
+      },
+      {
+        "software": "meduza-photometric-toolset",
+        "display_name": "Meduza Photometric Toolset"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "acuity-brands-lighting-visual-photometric-tool",
+        "display_name": "Acuity Brands Lighting Visual Photometric Tool"
+      },
+      {
+        "software": "eulumdat-tools-ies-to-elumdat-converter",
+        "display_name": "Eulumdat Tools IES to ELUMDAT Converter"
+      }
+    ],
+    "macos": [
+      {
+        "software": "autodesk-autocad-2025",
+        "display_name": "Autodesk AutoCAD 2025"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "web": [
+      {
+        "software": "acuity-brands-lighting-visual-photometric-tool",
+        "display_name": "Acuity Brands Lighting Visual Photometric Tool"
+      },
+      {
+        "software": "eulumdat-tools-ies-to-elumdat-converter",
+        "display_name": "Eulumdat Tools IES to ELUMDAT Converter"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "IES file open in Apple TextEdit",
+      "alt": "IES file open in Apple TextEdit",
+      "source_url": "https://fileinfo.com/img/ss/md/ies_4722.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-04-13",
+  "sources": [
+    {
+      "url": "ies.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

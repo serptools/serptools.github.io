@@ -1,0 +1,51 @@
+{
+  "slug": "snippet",
+  "extension": "snippet",
+  "name": "Visual Studio IntelliSense Code Snippet",
+  "category": "visual-studio-intellisense-code-snippet",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "Section of programming code saved in XML format; code snippets can be saved from Visual Basic, Visual C#, and Visual J projects; they can be edited using the Code Snippet Editor and managed using the Code Snippets Manager.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-visual-studio-2022",
+        "display_name": "Microsoft Visual Studio 2022"
+      },
+      {
+        "software": "microsoft-code-snippet-editor",
+        "display_name": "Microsoft Code Snippet Editor"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2007-04-05",
+  "sources": [
+    {
+      "url": "snippet.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

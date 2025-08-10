@@ -1,0 +1,63 @@
+{
+  "slug": "ogwu",
+  "extension": "ogwu",
+  "name": "Origin Unicode Workbook File",
+  "category": "origin-unicode-workbook-file",
+  "developer_org": "originlab",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "An OGWU file is a workbook file created by Origin 2018 and later, a data analysis and graphing application used by various scientists and engineers. It contains one or more worksheets, which include data organized into rows and columns, and added notations. OGW files also store metadata about the workbook theme, column designation, and spreadsheet cell notation.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "originlab-origin",
+        "display_name": "OriginLab Origin"
+      },
+      {
+        "software": "originlab-origin-viewer",
+        "display_name": "OriginLab Origin Viewer"
+      }
+    ],
+    "macos": [
+      {
+        "software": "originlab-origin-viewer",
+        "display_name": "OriginLab Origin Viewer"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "OGWU file icon",
+      "alt": "OGWU file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/ogwu-10833.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-02-01",
+  "sources": [
+    {
+      "url": "ogwu.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

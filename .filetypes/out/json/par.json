@@ -1,0 +1,91 @@
+{
+  "slug": "par",
+  "extension": "par",
+  "name": "FMS Aircraft Parameters File",
+  "category": "1.-fms-aircraft-parameters-file",
+  "developer_org": "fms",
+  "popularity": {
+    "rating": 4.1,
+    "votes": 154,
+    "source": "fileinfo"
+  },
+  "summary": "A PAR file is an aircraft parameters file used by FMS (Flying-Model-Simulator), a flight simulation game for Windows. It saves the airplane geometry and physics properties such as mass, center of gravity, and inertia moments. PAR files are used for creating custom aircraft to fly in the game.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "fms",
+        "display_name": "FMS"
+      },
+      {
+        "software": "parchive",
+        "display_name": "parchive"
+      },
+      {
+        "software": "quickpar",
+        "display_name": "QuickPar"
+      },
+      {
+        "software": "pypar2",
+        "display_name": "PyPar2"
+      },
+      {
+        "software": "siemens-solid-edge",
+        "display_name": "Siemens Solid Edge"
+      },
+      {
+        "software": "dedicated-micros-netvu-observer",
+        "display_name": "Dedicated Micros NetVu ObserVer"
+      },
+      {
+        "software": "dedicated-micros-netvu-investigator",
+        "display_name": "Dedicated Micros NetVu Investigator"
+      }
+    ],
+    "macos": [
+      {
+        "software": "macpar-deluxe",
+        "display_name": "MacPAR Deluxe"
+      },
+      {
+        "software": "dedicated-micros-netvu-investigator",
+        "display_name": "Dedicated Micros NetVu Investigator"
+      }
+    ],
+    "linux": [
+      {
+        "software": "parchive",
+        "display_name": "parchive"
+      },
+      {
+        "software": "pypar2",
+        "display_name": "PyPar2"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2016-10-04",
+  "sources": [
+    {
+      "url": "par.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

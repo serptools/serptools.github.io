@@ -1,0 +1,92 @@
+{
+  "slug": "wdb",
+  "extension": "wdb",
+  "name": "Microsoft Works Database",
+  "category": "1.-microsoft-works-database",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 20,
+    "source": "fileinfo"
+  },
+  "summary": "Database created with the Microsoft Works database program; similar to an Access Database ( .MDB file), but with more limitations; uses a proprietary data format that cannot be opened by MS Access.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-works",
+        "display_name": "Microsoft Works",
+        "status": "discontinued"
+      },
+      {
+        "software": "codealchemists-works-database-converter",
+        "display_name": "CodeAlchemists Works Database Converter"
+      },
+      {
+        "software": "libreoffice",
+        "display_name": "LibreOffice"
+      },
+      {
+        "software": "lawbox-llc-wdb-viewer-pro",
+        "display_name": "LawBox LLC WDB Viewer Pro"
+      },
+      {
+        "software": "blizzard-world-of-warcraft",
+        "display_name": "Blizzard World of Warcraft"
+      },
+      {
+        "software": "mindscape-lego-island",
+        "display_name": "Mindscape LEGO Island"
+      },
+      {
+        "software": "wdbripper",
+        "display_name": "WDBRipper"
+      }
+    ],
+    "macos": [
+      {
+        "software": "lawbox-llc-wdb-viewer-pro",
+        "display_name": "LawBox LLC WDB Viewer Pro"
+      },
+      {
+        "software": "libreoffice",
+        "display_name": "LibreOffice"
+      },
+      {
+        "software": "blizzard-world-of-warcraft",
+        "display_name": "Blizzard World of Warcraft"
+      }
+    ],
+    "linux": [
+      {
+        "software": "libreoffice",
+        "display_name": "LibreOffice"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-12-13",
+  "sources": [
+    {
+      "url": "wdb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

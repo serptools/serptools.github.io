@@ -1,0 +1,47 @@
+{
+  "slug": "pk8",
+  "extension": "pk8",
+  "name": "Generation 8 Pokémon Save File",
+  "category": "generation-8-pok-mon-save-file",
+  "developer_org": "nintendo",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 10,
+    "source": "fileinfo"
+  },
+  "summary": "A PK8 file contains a Pokémon caught in Pokémon Sword, Pokémon Shield, or another 8th generation Pokémon game for the Nintendo Switch. It specifies the Pokémon's species, experience, stats, attacks, owner, and other data. Pokémon hackers use PK8 files to copy, modify, and transfer Pokémon between 8th generation Pokémon games.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "pkhex",
+        "display_name": "PKHeX"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-01-18",
+  "sources": [
+    {
+      "url": "pk8.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

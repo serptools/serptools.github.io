@@ -1,0 +1,103 @@
+{
+  "slug": "bvh",
+  "extension": "bvh",
+  "name": "Biovision Hierarchy Animation File",
+  "category": "biovision-hierarchy-animation-file",
+  "developer_org": "biovision",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 10,
+    "source": "fileinfo"
+  },
+  "summary": "ASCII file that contains motion capture data for three-dimensional characters; used by 3ds Max's Character Studio and other 3D animation programs to import rotational joint data; developed by Biovision as a standard format to save biped character motion data.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "autodesk-3ds-max-2023",
+        "display_name": "Autodesk 3ds Max 2023"
+      },
+      {
+        "software": "autodesk-maya-2023",
+        "display_name": "Autodesk Maya 2023"
+      },
+      {
+        "software": "bondware-poser",
+        "display_name": "Bondware Poser"
+      },
+      {
+        "software": "daz-3d-daz-studio-4",
+        "display_name": "DAZ 3D DAZ Studio 4"
+      },
+      {
+        "software": "pmg-messiahstudio",
+        "display_name": "pmG messiahStudio"
+      },
+      {
+        "software": "blender",
+        "display_name": "Blender"
+      },
+      {
+        "software": "qavimator",
+        "display_name": "QAvimator"
+      }
+    ],
+    "macos": [
+      {
+        "software": "bondware-poser",
+        "display_name": "Bondware Poser"
+      },
+      {
+        "software": "autodesk-maya-2023",
+        "display_name": "Autodesk Maya 2023"
+      },
+      {
+        "software": "daz-3d-daz-studio-4",
+        "display_name": "DAZ 3D DAZ Studio 4"
+      },
+      {
+        "software": "pmg-messiahstudio",
+        "display_name": "pmG messiahStudio"
+      },
+      {
+        "software": "blender",
+        "display_name": "Blender"
+      }
+    ],
+    "linux": [
+      {
+        "software": "autodesk-maya-2023",
+        "display_name": "Autodesk Maya 2023"
+      },
+      {
+        "software": "blender",
+        "display_name": "Blender"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-04-15",
+  "sources": [
+    {
+      "url": "bvh.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

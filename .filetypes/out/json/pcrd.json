@@ -1,0 +1,47 @@
+{
+  "slug": "pcrd",
+  "extension": "pcrd",
+  "name": "CFX PCR Analysis",
+  "category": "cfx-pcr-analysis",
+  "developer_org": "bio-rad",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "A PCRD file is a polymerase chain reaction (PCR) analysis created by a Bio-Rad real-time PCR machine. It contains data recorded during the PCR process, which can be visualized in graph, chart, and tabular formats. Depending on what version of Bio-Rad software created a PCRD file, it may be saved in the XML format or as an encrypted archive.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "bio-rad-cfx-manager",
+        "display_name": "Bio-Rad CFX Manager"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-01-04",
+  "sources": [
+    {
+      "url": "pcrd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "slug": "pxl",
+  "extension": "pxl",
+  "name": "Pocket Excel File",
+  "category": "1.-pocket-excel-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "File created by Pocket Excel, a spreadsheet program used on Pocket PC mobile devices; contains data stored as a grid of rows and columns; can be converted into an Excel .XLS file.",
+  "standards": [],
+  "mime_types": [
+    "97/2000"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "spreadce",
+        "display_name": "SpreadCE"
+      },
+      {
+        "software": "microsoft-activesync",
+        "display_name": "Microsoft ActiveSync"
+      },
+      {
+        "software": "planamesa-neooffice",
+        "display_name": "Planamesa NeoOffice",
+        "status": "discontinued"
+      },
+      {
+        "software": "print-yourfile.pxl",
+        "display_name": "print YourFile.pxl"
+      },
+      {
+        "software": "lpr-yourfile.pxl",
+        "display_name": "lpr YourFile.pxl"
+      },
+      {
+        "software": "ghostscript-ghostpcl",
+        "display_name": "Ghostscript GhostPCL"
+      },
+      {
+        "software": "coolutils-pcl-viewer",
+        "display_name": "CoolUtils PCL Viewer"
+      },
+      {
+        "software": "ibrickr",
+        "display_name": "iBrickr"
+      }
+    ],
+    "macos": [
+      {
+        "software": "planamesa-neooffice",
+        "display_name": "Planamesa NeoOffice",
+        "status": "discontinued"
+      },
+      {
+        "software": "ghostscript-ghostpcl",
+        "display_name": "Ghostscript GhostPCL"
+      },
+      {
+        "software": "breezy",
+        "display_name": "Breezy"
+      }
+    ],
+    "linux": [
+      {
+        "software": "ghostscript-ghostpcl",
+        "display_name": "Ghostscript GhostPCL"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-09-09",
+  "sources": [
+    {
+      "url": "pxl.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

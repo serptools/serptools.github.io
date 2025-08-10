@@ -1,0 +1,144 @@
+{
+  "slug": "prc",
+  "extension": "prc",
+  "name": "Product Representation Compact File",
+  "category": "1.-product-representation-compact-file",
+  "developer_org": "adobe-systems",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 45,
+    "source": "fileinfo"
+  },
+  "summary": "A PRC file is a 3D model saved in the Product Representation Compact (PRC) format. It contains a 3D representation of a mechanical product or assembly. Previous versions of Adobe Acrobat allowed users to convert many 3D model file types to the PRC format, so the models could be embedded in .PDF files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "adobe-acrobat-dc",
+        "display_name": "Adobe Acrobat DC"
+      },
+      {
+        "software": "adobe-acrobat-reader-dc",
+        "display_name": "Adobe Acrobat Reader DC"
+      },
+      {
+        "software": "foxit-reader",
+        "display_name": "Foxit Reader"
+      },
+      {
+        "software": "amazon-kindle-for-pc",
+        "display_name": "Amazon Kindle for PC"
+      },
+      {
+        "software": "geometer-plus-fbreader",
+        "display_name": "Geometer Plus FBReader"
+      },
+      {
+        "software": "bookdesigner",
+        "display_name": "BookDesigner",
+        "status": "discontinued"
+      },
+      {
+        "software": "cool-reader",
+        "display_name": "Cool Reader"
+      },
+      {
+        "software": "mbp-reader",
+        "display_name": "MBP reader"
+      },
+      {
+        "software": "palm-desktop",
+        "display_name": "Palm Desktop"
+      },
+      {
+        "software": "paracobnet",
+        "display_name": "paracobNET"
+      },
+      {
+        "software": "corel-presentations-2021",
+        "display_name": "Corel Presentations 2021"
+      }
+    ],
+    "macos": [
+      {
+        "software": "adobe-acrobat-dc",
+        "display_name": "Adobe Acrobat DC"
+      },
+      {
+        "software": "adobe-acrobat-reader-dc",
+        "display_name": "Adobe Acrobat Reader DC"
+      },
+      {
+        "software": "amazon-kindle-for-mac",
+        "display_name": "Amazon Kindle for Mac"
+      },
+      {
+        "software": "geometer-plus-fbreader",
+        "display_name": "Geometer Plus FBReader"
+      },
+      {
+        "software": "palm-desktop",
+        "display_name": "Palm Desktop"
+      }
+    ],
+    "linux": [
+      {
+        "software": "adobe-acrobat-dc",
+        "display_name": "Adobe Acrobat DC"
+      },
+      {
+        "software": "adobe-acrobat-reader-dc",
+        "display_name": "Adobe Acrobat Reader DC"
+      },
+      {
+        "software": "geometer-plus-fbreader",
+        "display_name": "Geometer Plus FBReader"
+      },
+      {
+        "software": "cool-reader",
+        "display_name": "Cool Reader"
+      },
+      {
+        "software": "mbp-reader",
+        "display_name": "MBP reader"
+      }
+    ],
+    "android": [
+      {
+        "software": "cool-reader",
+        "display_name": "Cool Reader"
+      }
+    ],
+    "web": [
+      {
+        "software": "smash-ultimate-tools",
+        "display_name": "Smash Ultimate Tools"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-01-26",
+  "sources": [
+    {
+      "url": "prc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

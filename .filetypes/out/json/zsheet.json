@@ -1,0 +1,73 @@
+{
+  "slug": "zsheet",
+  "extension": "zsheet",
+  "name": "Zolo Sheet Shortcut",
+  "category": "zolo-sheet-shortcut",
+  "developer_org": "zolo",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "A ZSHEET file is a shortcut used to open a Zoho Sheet spreadsheet. It was created by Zoho Docs Sync, Zoho WorkDrive Sync, or Zoho WorkDrive True Sync, when a user synced their cloud Zoho files to their PC. ZSHEET files contain only a shortcut to a spreadsheet; they do not contain the spreadsheet itself.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "zoho-workdrive-sync",
+        "display_name": "Zoho WorkDrive Sync"
+      },
+      {
+        "software": "zoho-workdrive-truesync",
+        "display_name": "Zoho WorkDrive TrueSync"
+      }
+    ],
+    "macos": [
+      {
+        "software": "zoho-workdrive-sync",
+        "display_name": "Zoho WorkDrive Sync"
+      },
+      {
+        "software": "zoho-workdrive-truesync",
+        "display_name": "Zoho WorkDrive TrueSync"
+      }
+    ],
+    "linux": [
+      {
+        "software": "zoho-workdrive-sync",
+        "display_name": "Zoho WorkDrive Sync"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "ZSHEET file icon",
+      "alt": "ZSHEET file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/zsheet-13347.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-05-26",
+  "sources": [
+    {
+      "url": "zsheet.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

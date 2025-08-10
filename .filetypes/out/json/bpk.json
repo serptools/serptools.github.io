@@ -1,0 +1,77 @@
+{
+  "slug": "bpk",
+  "extension": "bpk",
+  "name": "Nero SecurDisc Public Key File",
+  "category": "1.-nero-securdisc-public-key-file",
+  "developer_org": "nero",
+  "popularity": {
+    "rating": 4.2,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Disc key file created by Nero products, including BackItUp & Burn and Burning ROM; contains a public key that can be used to verify the source and contents of a burned disc; typically distributed by the author of the disc so users can verify that the disc is authentic.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "nero-2022",
+        "display_name": "Nero 2022"
+      },
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      },
+      {
+        "software": "restore-app-data-to-bluestacks",
+        "display_name": "Restore app data to BlueStacks"
+      },
+      {
+        "software": "next",
+        "display_name": "Next"
+      },
+      {
+        "software": "restore",
+        "display_name": "Restore"
+      },
+      {
+        "software": "bluestacks",
+        "display_name": "BlueStacks"
+      }
+    ],
+    "web": [
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-09-07",
+  "sources": [
+    {
+      "url": "bpk.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

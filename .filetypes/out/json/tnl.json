@@ -1,0 +1,51 @@
+{
+  "slug": "tnl",
+  "extension": "tnl",
+  "name": "Super Mario Maker Course Thumbnail",
+  "category": "super-mario-maker-course-thumbnail",
+  "developer_org": "nintendo",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "A TNL file is a thumbnail image created by Super Mario Maker, a game for the Wii U. It is used to show a thumbnail of an associated course in-game. Each course's TNL files are stored in that course's directory, alongside the course's .CDT and .BWV files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "remove-proprietary-8-byte-header-open-as-you-would-any-jpg-file",
+        "display_name": "Remove proprietary 8-byte header; open as you would any JPG file"
+      },
+      {
+        "software": "tnl_conv.py",
+        "display_name": "tnl_conv.py"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-09-08",
+  "sources": [
+    {
+      "url": "tnl.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "npf",
+  "extension": "npf",
+  "name": "NTI Partition File",
+  "category": "nti-partition-file",
+  "developer_org": "nti",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Backup file created by NTI Backup Now, NTI Backup NOW!, and NTI DriveBackup!; contains a backup of a full hard drive or a hard drive partition; can be used for creating backup discs; enables users to restore drive backups in the event of data loss.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "nti-backup-now",
+        "display_name": "NTI Backup Now"
+      },
+      {
+        "software": "nti-drivebackup",
+        "display_name": "NTI DriveBackup!"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-04-19",
+  "sources": [
+    {
+      "url": "npf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "f64",
+  "extension": "f64",
+  "name": "Raw 64-Bit Audio File",
+  "category": "raw-64-bit-audio-file",
+  "summary": "",
+  "developer_org": "n-a",
+  "developer_name": "N/A",
+  "more_information": {
+    "description": [
+      "Since F64 files are raw, they only contain sound data and no additional header information or metadata typically included with common audio formats, such as .MP3 or .OGG . Additionally, F64 files are similar to .F32 files but store more raw data, allowing for a wider dynamic range of sound and greater accuracy. Because they contain more data, F64 files are significantly larger in size than F32 files"
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "f64.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

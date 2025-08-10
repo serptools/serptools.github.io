@@ -1,0 +1,64 @@
+{
+  "slug": "qtz",
+  "extension": "qtz",
+  "name": "Quartz Composer File",
+  "category": "quartz-composer-file",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 2.6,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "Animation created with Quartz Composer, a development tool created by Apple for processing and rendering graphical data; may include 2D images, 3D objects, textures, audio, MIDI data, and 2D and 3D effects.",
+  "standards": [],
+  "mime_types": [
+    "developer/applications",
+    "system/library"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "apple-quartz-composer",
+        "display_name": "Apple Quartz Composer"
+      },
+      {
+        "software": "apple-quicktime-player",
+        "display_name": "Apple QuickTime Player"
+      }
+    ],
+    "windows": [
+      {
+        "software": "apple-quartz-composer",
+        "display_name": "Apple Quartz Composer"
+      },
+      {
+        "software": "apple-quicktime-player",
+        "display_name": "Apple QuickTime Player"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2007-12-13",
+  "sources": [
+    {
+      "url": "qtz.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

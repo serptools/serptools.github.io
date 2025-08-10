@@ -1,0 +1,65 @@
+{
+  "slug": "mcaddon",
+  "extension": "mcaddon",
+  "name": "Minecraft Pack Addon File",
+  "category": "minecraft-pack-addon-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 4.3,
+    "votes": 486,
+    "source": "fileinfo"
+  },
+  "summary": "An MCADDON file contains .MCPACK or .MCWORLD files that modify Minecraft (Bedrock Edition), a popular block-building game. It stores one or more MCPACK or MCWORLD files that are compressed with Zip compression. MCADDON files are used to distribute add-ons to other Minecraft users.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "mojang-minecraft-for-windows",
+        "display_name": "Mojang Minecraft for Windows"
+      },
+      {
+        "software": "mojang-minecraft",
+        "display_name": "Mojang Minecraft"
+      }
+    ],
+    "ios": [
+      {
+        "software": "mojang-minecraft",
+        "display_name": "Mojang Minecraft"
+      }
+    ],
+    "android": [
+      {
+        "software": "mojang-minecraft",
+        "display_name": "Mojang Minecraft"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-02-14",
+  "sources": [
+    {
+      "url": "mcaddon.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "xba",
+  "extension": "xba",
+  "name": "OpenOffice Basic Module File",
+  "category": "openoffice-basic-module-file",
+  "developer_org": "oracle",
+  "popularity": {
+    "rating": 2.8,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Application library or macro used by OpenOffice, an open-source productivity suite; contains the functionality for the component and is written in the OpenOffice.org Basic programming language; used for storing the source code for software add-on components.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "apache-openoffice",
+        "display_name": "Apache OpenOffice"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apache-openoffice",
+        "display_name": "Apache OpenOffice"
+      }
+    ],
+    "linux": [
+      {
+        "software": "apache-openoffice",
+        "display_name": "Apache OpenOffice"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-03-18",
+  "sources": [
+    {
+      "url": "xba.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

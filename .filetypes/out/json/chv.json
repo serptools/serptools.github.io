@@ -1,0 +1,47 @@
+{
+  "slug": "chv",
+  "extension": "chv",
+  "name": "ChView Interactive Star Map File",
+  "category": "chview-interactive-star-map-file",
+  "developer_org": "chgroup",
+  "popularity": {
+    "rating": 2.8,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Data file created by ChView, a program used for browsing interactive star maps; stores the locations of stars in a 3D space and can also contain connectors between the stars; also includes star properties such as the name, constellation, spectra, mass, and other information; used for saving and sharing star maps.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "chview",
+        "display_name": "ChView"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-03-22",
+  "sources": [
+    {
+      "url": "chv.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

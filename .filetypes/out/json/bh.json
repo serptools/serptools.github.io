@@ -1,0 +1,76 @@
+{
+  "slug": "bh",
+  "extension": "bh",
+  "name": "BlakHole Archive",
+  "category": "blakhole-archive",
+  "developer_org": "ziptv",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 33,
+    "source": "fileinfo"
+  },
+  "summary": "A BH file is an archive that contains one or more files compressed with proprietary BlakHole (BH) compression. Users typically compress files as BH archives to save space, but they may also protect them with encryption and passwords if they contain sensitive information.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "conexware-powerarchiver",
+        "display_name": "ConeXware PowerArchiver"
+      },
+      {
+        "software": "linos-ls-archiver",
+        "display_name": "Linos LS Archiver"
+      },
+      {
+        "software": "estsoft-alzip",
+        "display_name": "ESTsoft ALZip"
+      },
+      {
+        "software": "izarc",
+        "display_name": "IZArc"
+      }
+    ],
+    "macos": [
+      {
+        "software": "conexware-powerarchiver",
+        "display_name": "ConeXware PowerArchiver"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "BH file icon",
+      "alt": "BH file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/bh-317.png"
+    },
+    {
+      "caption": "BH file open in ConeXware PowerArchiver 2022",
+      "alt": "BH file open in ConeXware PowerArchiver 2022",
+      "source_url": "https://fileinfo.com/img/ss/md/bh_317.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-09-14",
+  "sources": [
+    {
+      "url": "bh.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

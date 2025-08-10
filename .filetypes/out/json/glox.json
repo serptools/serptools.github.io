@@ -1,0 +1,55 @@
+{
+  "slug": "glox",
+  "extension": "glox",
+  "name": "Microsoft Office SmartArt Graphics Layout File",
+  "category": "microsoft-office-smartart-graphics-layout-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "A GLOX file is a graphics file used by Microsoft Office productivity applications for conveying information and ideas in presentations, charts, and documents. It contains the layout and styles for a graphic and includes placeholders for inserting text. GLOX files use Open XML formatting, which is the same format used for .DOCX , .XLSX , and .PPTX files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-word-365",
+        "display_name": "Microsoft Word 365"
+      },
+      {
+        "software": "microsoft-powerpoint-365",
+        "display_name": "Microsoft PowerPoint 365"
+      },
+      {
+        "software": "microsoft-excel-365",
+        "display_name": "Microsoft Excel 365"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-02-22",
+  "sources": [
+    {
+      "url": "glox.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

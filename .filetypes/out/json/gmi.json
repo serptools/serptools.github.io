@@ -1,0 +1,93 @@
+{
+  "slug": "gmi",
+  "extension": "gmi",
+  "name": "Gemtext Document",
+  "category": "gemtext-document",
+  "developer_org": "solderpunk",
+  "popularity": {
+    "rating": 4.3,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "A GMI file is a Gemtext document. It contains text that is meant to be served over the internet and translated into a webpage using the Gemini protocol . The text GMI files contain is written in the Gemtext markup language .",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "lagrange",
+        "display_name": "Lagrange"
+      },
+      {
+        "software": "geminaut",
+        "display_name": "Geminaut"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "lagrange",
+        "display_name": "Lagrange"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "lagrange",
+        "display_name": "Lagrange"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "GMI file open in Microsoft Visual Studio Code",
+      "alt": "GMI file open in Microsoft Visual Studio Code",
+      "source_url": "https://fileinfo.com/img/ss/md/gmi_13284.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-04-27",
+  "sources": [
+    {
+      "url": "gmi.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

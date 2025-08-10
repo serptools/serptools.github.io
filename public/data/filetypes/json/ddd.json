@@ -1,0 +1,29 @@
+{
+  "slug": "ddd",
+  "extension": "ddd",
+  "name": "Alpha Five Data Dictionary File",
+  "category": "alpha-five-data-dictionary-file",
+  "summary": "",
+  "developer_org": "dream-design-entertainment",
+  "developer_name": "Dream Design Entertainment",
+  "more_information": {
+    "description": [
+      "An example of the relationship between DBF, DDD, and DDM files: Let's say we created a field rule in the DBF file called \"Rule.\" A record is then created in the DDD file with Rule in the name field, FRUL in the type field (because it's a field rule), and code in the memo field that references the actual code in the DDM file.",
+      "For every table you create in Alpha Five, a DDM, DDD, and .DDX file will be created. These files make up the table data dictionary for a DBF file. The dictionary stores queries, saved utility settings, and layouts. It's referenced by Alpha Five to overcome limitations of the DBF file. DDD files should be kept with the DDM and DDX Data Dictionary files in order for Alpha to find all of the elements and their pieces.",
+      "NOTE: In 2013, Alpha Five became Alpha Anywhere."
+    ]
+  },
+  "common_filenames": [
+    {
+      "filename": "[Name of your table].ddd",
+      "description": "[Name of your table].ddd - When a table is created, the DDD file will be created with the same name as your table."
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "ddd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

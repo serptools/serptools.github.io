@@ -1,0 +1,53 @@
+{
+  "slug": "ufs",
+  "extension": "ufs",
+  "name": "FreeBSD Unix File System File",
+  "category": "freebsd-unix-file-system-file",
+  "developer_org": "the-freebsd-project",
+  "popularity": {
+    "rating": 1.4,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "Unix file system file created for PC-BSD, a Unix operating system based on FreeBSD; stores the entire disk or a portion of a disk, including files, directories, and the file system structure; used to clone file systems for PC-BSD network installations.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "linux": [
+      {
+        "software": "ixsystems-pc-bsd",
+        "display_name": "iXsystems PC-BSD"
+      }
+    ],
+    "windows": [
+      {
+        "software": "ixsystems-pc-bsd",
+        "display_name": "iXsystems PC-BSD"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-04-12",
+  "sources": [
+    {
+      "url": "ufs.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

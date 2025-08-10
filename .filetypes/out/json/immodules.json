@@ -1,0 +1,61 @@
+{
+  "slug": "immodules",
+  "extension": "immodules",
+  "name": "GTK+ Module File",
+  "category": "gtk+-module-file",
+  "developer_org": "gnome-project",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "An IMMODULES file is a module configuration file used by applications built with the GTK+ (GIMP Toolkit) framework, which is a library used to create graphical user interfaces ( GUIs ) on Linux and other Unix-like systems. It contains information about input method modules, which are components that allow users to enter complex characters, such as Chinese or Japanese text, via different input methods.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "linux": [
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "gtk",
+        "display_name": "GTK"
+      }
+    ],
+    "windows": [
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "gtk",
+        "display_name": "GTK"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2025-06-04",
+  "sources": [
+    {
+      "url": "immodules.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

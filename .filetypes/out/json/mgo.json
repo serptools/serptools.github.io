@@ -1,0 +1,48 @@
+{
+  "slug": "mgo",
+  "extension": "mgo",
+  "name": "MacGourmet Recipe File",
+  "category": "macgourmet-recipe-file",
+  "developer_org": "mariner-software",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "Recipe file created by MacGourmet, a program used to organize personal cookbook recipes; stores recipe information in an XML format, such as ingredients, cooking instructions, and an image of the finished recipe; used for exporting individual recipes from a cookbook and sharing with others.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "mariner-macgourmet-deluxe",
+        "display_name": "Mariner MacGourmet Deluxe",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2016-06-20",
+  "sources": [
+    {
+      "url": "mgo.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

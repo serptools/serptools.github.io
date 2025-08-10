@@ -1,0 +1,55 @@
+{
+  "slug": "dgb",
+  "extension": "dgb",
+  "name": "FlashCAD Drawing Database",
+  "category": "flashcad-drawing-database",
+  "developer_org": "digitarch",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "Database of drawings created with FlashCAD, a 2D and 3D CAD program; saved in a proprietary format that stores design data created with FlashCAD and other Digitarch software; can be viewed on Windows using the free DGB Vista3D program.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "digitarch-flashcad",
+        "display_name": "Digitarch FlashCAD"
+      },
+      {
+        "software": "digitarch-bravo-3d",
+        "display_name": "Digitarch Bravo 3D"
+      },
+      {
+        "software": "digitarch-vista3d",
+        "display_name": "Digitarch Vista3D"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-06-24",
+  "sources": [
+    {
+      "url": "dgb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

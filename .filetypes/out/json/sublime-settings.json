@@ -1,0 +1,59 @@
+{
+  "slug": "sublime-settings",
+  "extension": "sublime-settings",
+  "name": "Sublime Text Settings File",
+  "category": "sublime-text-settings-file",
+  "developer_org": "jon-skinner",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "Settings file used by Sublime Text, a text editor used primarily to edit source code; contains settings that describe how a file type, such as a .CSS file, is edited in Sublime Text.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "sublime-text",
+        "display_name": "Sublime Text"
+      }
+    ],
+    "macos": [
+      {
+        "software": "sublime-text",
+        "display_name": "Sublime Text"
+      }
+    ],
+    "linux": [
+      {
+        "software": "sublime-text",
+        "display_name": "Sublime Text"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-10-06",
+  "sources": [
+    {
+      "url": "sublime-settings.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

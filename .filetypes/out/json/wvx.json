@@ -1,0 +1,51 @@
+{
+  "slug": "wvx",
+  "extension": "wvx",
+  "name": "Windows Media Video Redirector",
+  "category": "windows-media-video-redirector",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 21,
+    "source": "fileinfo"
+  },
+  "summary": "File used by Windows Media Player, Microsoft's default player for Windows; saves a link to a .WMV video file, but doesn't contain the audio data itself; used as a video file shortcut.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-windows-media-player",
+        "display_name": "Microsoft Windows Media Player"
+      },
+      {
+        "software": "gretech-gom-player",
+        "display_name": "GRETECH GOM Player"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-08-23",
+  "sources": [
+    {
+      "url": "wvx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

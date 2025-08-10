@@ -1,0 +1,72 @@
+{
+  "slug": "cfs",
+  "extension": "cfs",
+  "name": "Lucene Compound Index File",
+  "category": "1.-lucene-compound-index-file",
+  "developer_org": "apache",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 12,
+    "source": "fileinfo"
+  },
+  "summary": "File used by Lucene, a text search engine library written in Java; used for saving multiple index files into a single compound archive; enables easier management of the index but may perform slightly slower.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "lucene",
+        "display_name": "Lucene"
+      },
+      {
+        "software": "pismo-technic-pismo-file-mount-audit-package",
+        "display_name": "Pismo Technic Pismo File Mount Audit Package"
+      },
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      },
+      {
+        "software": "zaplots-cfs-console",
+        "display_name": "Zaplots CFS Console"
+      }
+    ],
+    "macos": [
+      {
+        "software": "lucene",
+        "display_name": "Lucene"
+      }
+    ],
+    "linux": [
+      {
+        "software": "lucene",
+        "display_name": "Lucene"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-09-20",
+  "sources": [
+    {
+      "url": "cfs.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "mai",
+  "extension": "mai",
+  "name": "Microsoft Mail File",
+  "category": "microsoft-mail-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "Single mail file processed by Microsoft Mail, Microsoft's mail server program; contains actual message data and may be referenced by one or more mailbag record ( .MBG ) files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-mail",
+        "display_name": "Microsoft Mail"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-07-30",
+  "sources": [
+    {
+      "url": "mai.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "slug": "ogm",
+  "extension": "ogm",
+  "name": "Ogg Media File",
+  "category": "1.-ogg-media-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 13,
+    "source": "fileinfo"
+  },
+  "summary": "Compressed video file that uses an altered form of Xiph.Org's Ogg file container format; supports playback of video content that incorporates DirectShow filters; created as an extension to the Ogg specification so that Windows Media Player (older versions) and other programs could easily play Ogg video and audio files.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "mpui",
+        "display_name": "MPUI"
+      },
+      {
+        "software": "mplayer",
+        "display_name": "MPlayer"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "nch-prism",
+        "display_name": "NCH Prism"
+      },
+      {
+        "software": "mpv",
+        "display_name": "mpv"
+      },
+      {
+        "software": "totem",
+        "display_name": "Totem"
+      },
+      {
+        "software": "originlab-origin",
+        "display_name": "OriginLab Origin"
+      },
+      {
+        "software": "originlab-origin-viewer",
+        "display_name": "OriginLab Origin Viewer"
+      }
+    ],
+    "macos": [
+      {
+        "software": "mplayer",
+        "display_name": "MPlayer"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "mpv",
+        "display_name": "mpv"
+      },
+      {
+        "software": "originlab-origin-viewer",
+        "display_name": "OriginLab Origin Viewer"
+      }
+    ],
+    "linux": [
+      {
+        "software": "totem",
+        "display_name": "Totem"
+      },
+      {
+        "software": "mplayer",
+        "display_name": "MPlayer"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "mpv",
+        "display_name": "mpv"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "OGM file icon",
+      "alt": "OGM file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/ogm-1365.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-02-28",
+  "sources": [
+    {
+      "url": "ogm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

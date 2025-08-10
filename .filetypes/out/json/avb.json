@@ -1,0 +1,68 @@
+{
+  "slug": "avb",
+  "extension": "avb",
+  "name": "Avid Bin File",
+  "category": "1.-avid-bin-file",
+  "developer_org": "avid",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "Library or \"bin\" of files used by an Avid video-editing project; stores references to media clips, sub-clips, sequences, titles, effects, EQ templates, etc.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "avid-media-composer",
+        "display_name": "Avid Media Composer"
+      },
+      {
+        "software": "avid-xpress",
+        "display_name": "Avid Xpress",
+        "status": "discontinued"
+      },
+      {
+        "software": "microsoft-comic-chat-2.5",
+        "display_name": "Microsoft Comic Chat 2.5",
+        "status": "discontinued"
+      }
+    ],
+    "macos": [
+      {
+        "software": "avid-media-composer",
+        "display_name": "Avid Media Composer"
+      },
+      {
+        "software": "avid-xpress",
+        "display_name": "Avid Xpress",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-05-10",
+  "sources": [
+    {
+      "url": "avb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

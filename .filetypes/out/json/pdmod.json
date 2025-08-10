@@ -1,0 +1,57 @@
+{
+  "slug": "pdmod",
+  "extension": "pdmod",
+  "name": "Payday Modification Archive",
+  "category": "payday-modification-archive",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "A PDMOD file is a modification archive used by Payday games, such as Payday 2 and Payday: The Heist. It contains a Payday game modification, which is used to replace a model, sound, or texture that appears in the Payday game. PDMOD files may also be used to overwrite Payday programming.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "overkill-software-payday-2",
+        "display_name": "Overkill Software Payday 2"
+      },
+      {
+        "software": "overkill-software-payday-the-heist",
+        "display_name": "Overkill Software Payday: The Heist"
+      },
+      {
+        "software": "payday-bundle-modder",
+        "display_name": "PAYDAY Bundle Modder"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-03-14",
+  "sources": [
+    {
+      "url": "pdmod.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

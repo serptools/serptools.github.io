@@ -1,0 +1,47 @@
+{
+  "slug": "wwu",
+  "extension": "wwu",
+  "name": "Wwise Work Unit",
+  "category": "wwise-work-unit",
+  "developer_org": "audiokinetic",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "XML file that represents a \"Work Unit\" in Wwise, a complete audio authoring tool designed for sound designers and audio programmers; an example of a Work Unit is a search query which finds sound objects that match the parameters of the query.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "audiokinetic-wwise",
+        "display_name": "Audiokinetic Wwise"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2007-03-27",
+  "sources": [
+    {
+      "url": "wwu.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

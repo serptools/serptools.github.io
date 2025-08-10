@@ -1,0 +1,73 @@
+{
+  "slug": "rnd",
+  "extension": "rnd",
+  "name": "PGP Random Seed File",
+  "category": "1.-pgp-random-seed-file",
+  "developer_org": "pgp",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 22,
+    "source": "fileinfo"
+  },
+  "summary": "Random seed file used by PGP (Pretty Good Privacy) encryption software; may be used for generating random numbers; typically named \"randseed.rnd\" and saved in the \"Application Data\\PGP Corporation\\PGP\" directory.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "pgp-software",
+        "display_name": "PGP software"
+      },
+      {
+        "software": "vmware-software",
+        "display_name": "VMWare software"
+      },
+      {
+        "software": "putty",
+        "display_name": "PuTTY"
+      }
+    ],
+    "macos": [
+      {
+        "software": "pgp-software",
+        "display_name": "PGP software"
+      }
+    ],
+    "linux": [
+      {
+        "software": "vmware-software",
+        "display_name": "VMWare software"
+      },
+      {
+        "software": "putty",
+        "display_name": "PuTTY"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2008-09-15",
+  "sources": [
+    {
+      "url": "rnd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

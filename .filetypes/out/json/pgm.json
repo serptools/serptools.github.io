@@ -1,0 +1,174 @@
+{
+  "slug": "pgm",
+  "extension": "pgm",
+  "name": "Portable Gray Map Image",
+  "category": "1.-portable-gray-map-image",
+  "developer_org": "jef-poskanzer",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 48,
+    "source": "fileinfo"
+  },
+  "summary": "A PGM file is a grayscale image file saved in the portable gray map (PGM) format and encoded with one or two bytes (8 or 16 bits) per pixel. It contains header information and a grid of numbers representing different shades of gray, from black (0) to white (up to 65,536). PGM files are typically stored in ASCII text format but also have a binary representation.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "gimp",
+        "display_name": "GIMP"
+      },
+      {
+        "software": "corel-paintshop-pro-2023",
+        "display_name": "Corel PaintShop Pro 2023"
+      },
+      {
+        "software": "canvas-gfx-canvas-x-pro",
+        "display_name": "Canvas GFX Canvas X Pro"
+      },
+      {
+        "software": "acd-systems-acdsee-photo-studio",
+        "display_name": "ACD Systems ACDSee Photo Studio"
+      },
+      {
+        "software": "inkscape",
+        "display_name": "Inkscape"
+      },
+      {
+        "software": "netpbm",
+        "display_name": "Netpbm"
+      },
+      {
+        "software": "adobe-photoshop-with-cartapgm-plug-in",
+        "display_name": "Adobe Photoshop with CartaPGM plug-in"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "apple-preview",
+        "display_name": "Apple Preview"
+      },
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      },
+      {
+        "software": "mpc-maid",
+        "display_name": "MPC Maid"
+      },
+      {
+        "software": "midicase.com-mpc-editor",
+        "display_name": "Midicase.com MPC Editor"
+      },
+      {
+        "software": "native-instruments-maschine-2",
+        "display_name": "Native Instruments Maschine 2"
+      }
+    ],
+    "android": [
+      {
+        "software": "file-viewer-for-android",
+        "display_name": "File Viewer for Android"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-preview",
+        "display_name": "Apple Preview"
+      },
+      {
+        "software": "gimp",
+        "display_name": "GIMP"
+      },
+      {
+        "software": "inkscape",
+        "display_name": "Inkscape"
+      },
+      {
+        "software": "netpbm",
+        "display_name": "Netpbm"
+      },
+      {
+        "software": "adobe-photoshop-with-cartapgm-plug-in",
+        "display_name": "Adobe Photoshop with CartaPGM plug-in"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "mpc-maid",
+        "display_name": "MPC Maid"
+      },
+      {
+        "software": "native-instruments-maschine-2",
+        "display_name": "Native Instruments Maschine 2"
+      }
+    ],
+    "linux": [
+      {
+        "software": "gimp",
+        "display_name": "GIMP"
+      },
+      {
+        "software": "inkscape",
+        "display_name": "Inkscape"
+      },
+      {
+        "software": "netpbm",
+        "display_name": "Netpbm"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "web": [
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "PGM file icon",
+      "alt": "PGM file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/pgm-76.png"
+    },
+    {
+      "caption": "PGM file open in Apple Preview 11",
+      "alt": "PGM file open in Apple Preview 11",
+      "source_url": "https://fileinfo.com/img/ss/md/pgm_76.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-05-17",
+  "sources": [
+    {
+      "url": "pgm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "slug": "f4f",
+  "extension": "f4f",
+  "name": "Flash Video Fragment",
+  "category": "flash-video-fragment",
+  "developer_org": "adobe-systems",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 11,
+    "source": "fileinfo"
+  },
+  "summary": "An F4F file is a portion of a Flash Video ( .FLV ) file, created by Adobe Media Server. Adobe Media Server breaks FLV files into sets of F4F files before sending them to client devices. This allows users to stream video content more efficiently.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "adobe-media-server",
+        "display_name": "Adobe Media Server"
+      },
+      {
+        "software": "k-s-v-scripts-adobehds",
+        "display_name": "K-S-V Scripts AdobeHDS"
+      }
+    ],
+    "linux": [
+      {
+        "software": "adobe-media-server",
+        "display_name": "Adobe Media Server"
+      },
+      {
+        "software": "k-s-v-scripts-adobehds",
+        "display_name": "K-S-V Scripts AdobeHDS"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-06-22",
+  "sources": [
+    {
+      "url": "f4f.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

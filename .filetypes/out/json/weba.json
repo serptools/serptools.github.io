@@ -1,0 +1,137 @@
+{
+  "slug": "weba",
+  "extension": "weba",
+  "name": "WebM Audio File",
+  "category": "webm-audio-file",
+  "developer_org": "google",
+  "popularity": {
+    "rating": 4.2,
+    "votes": 14,
+    "source": "fileinfo"
+  },
+  "summary": "A WEBA file is an audio-only .WEBM file. It contains audio that was likely extracted from a WEBM video. WEBA files are compressed using either the Ogg Vorbis or Opus audio formats.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "eltima-elmedia-player",
+        "display_name": "Eltima Elmedia Player"
+      },
+      {
+        "software": "microsoft-edge",
+        "display_name": "Microsoft Edge"
+      },
+      {
+        "software": "mozilla-firefox",
+        "display_name": "Mozilla Firefox"
+      },
+      {
+        "software": "opera",
+        "display_name": "Opera"
+      },
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      },
+      {
+        "software": "videolan-vlc-for-mobile",
+        "display_name": "VideoLAN VLC for Mobile"
+      },
+      {
+        "software": "olimsoft-oplayer",
+        "display_name": "olimsoft OPlayer"
+      }
+    ],
+    "chromeos": [
+      {
+        "software": "google-chrome",
+        "display_name": "Google Chrome"
+      }
+    ],
+    "android": [
+      {
+        "software": "videolabs-vlc-for-android",
+        "display_name": "Videolabs VLC for Android"
+      }
+    ],
+    "macos": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "eltima-elmedia-player",
+        "display_name": "Eltima Elmedia Player"
+      },
+      {
+        "software": "mozilla-firefox",
+        "display_name": "Mozilla Firefox"
+      },
+      {
+        "software": "opera",
+        "display_name": "Opera"
+      },
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      }
+    ],
+    "linux": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "mozilla-firefox",
+        "display_name": "Mozilla Firefox"
+      },
+      {
+        "software": "opera",
+        "display_name": "Opera"
+      },
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      }
+    ],
+    "ios": [
+      {
+        "software": "videolan-vlc-for-mobile",
+        "display_name": "VideoLAN VLC for Mobile"
+      },
+      {
+        "software": "olimsoft-oplayer",
+        "display_name": "olimsoft OPlayer"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-06-29",
+  "sources": [
+    {
+      "url": "weba.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

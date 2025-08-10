@@ -1,0 +1,53 @@
+{
+  "slug": "xvm",
+  "extension": "xvm",
+  "name": "VMware Console Configuration File",
+  "category": "vmware-console-configuration-file",
+  "developer_org": "vmware",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "Settings file used by VMware virtualization software; contains connection information used for connecting to a remote VMware server; stores parameters such as the connection port, login options, and the remote .VMX file to load; used for starting remote console sessions.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "vmware-workstation",
+        "display_name": "VMware Workstation"
+      }
+    ],
+    "linux": [
+      {
+        "software": "vmware-workstation",
+        "display_name": "VMware Workstation"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-10-20",
+  "sources": [
+    {
+      "url": "xvm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "slug": "tardist",
+  "extension": "tardist",
+  "name": "TAR Distribution Archive",
+  "category": "tar-distribution-archive",
+  "developer_org": "sgi",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "Archive created for distributing and installing software on Unix-based IRIX systems sold by SGI; often referenced on a webpage and used for installing the software when the link to the file is clicked; similar to the .TAR format and can be opened by some TAR utilities.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "linux": [
+      {
+        "software": "sgi-software-manager",
+        "display_name": "SGI Software Manager"
+      },
+      {
+        "software": "gnu-tar",
+        "display_name": "GNU Tar"
+      }
+    ],
+    "windows": [
+      {
+        "software": "sgi-software-manager",
+        "display_name": "SGI Software Manager"
+      },
+      {
+        "software": "gnu-tar",
+        "display_name": "GNU Tar"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-07-01",
+  "sources": [
+    {
+      "url": "tardist.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

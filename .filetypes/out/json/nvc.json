@@ -1,0 +1,57 @@
+{
+  "slug": "nvc",
+  "extension": "nvc",
+  "name": "NeroVision Express Project File",
+  "category": "1.-nerovision-express-project-file",
+  "developer_org": "nero",
+  "popularity": {
+    "rating": 3.1,
+    "votes": 20,
+    "source": "fileinfo"
+  },
+  "summary": "Video project saved by NeroVision Express (NVE) video-editing software; may also be a slideshow created by NeroVision Express that can be exported as video file; can be burned to a DVD when completed.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "nero-video",
+        "display_name": "Nero Video"
+      },
+      {
+        "software": "nikon-capture",
+        "display_name": "Nikon Capture"
+      }
+    ],
+    "macos": [
+      {
+        "software": "nikon-capture",
+        "display_name": "Nikon Capture"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-07-28",
+  "sources": [
+    {
+      "url": "nvc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

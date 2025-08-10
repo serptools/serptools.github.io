@@ -1,0 +1,63 @@
+{
+  "slug": "xmv",
+  "extension": "xmv",
+  "name": "Xbox Media Video File",
+  "category": "xbox-media-video-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 14,
+    "source": "fileinfo"
+  },
+  "summary": "Video file used by some games for the Xbox console system; uses a format developed by Microsoft specifically for playback on the Xbox; typically converted from a .WMV file to the XMV format using xmvtool , a program included with the Xbox software development kit provided by Microsoft.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      }
+    ],
+    "macos": [
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      }
+    ],
+    "linux": [
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2013-01-09",
+  "sources": [
+    {
+      "url": "xmv.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

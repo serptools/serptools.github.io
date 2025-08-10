@@ -1,0 +1,115 @@
+{
+  "slug": "thk",
+  "extension": "thk",
+  "name": "Symthink Document",
+  "category": "symthink-document",
+  "developer_org": "thomas-ford",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "A THK file is a brainstorming document created by Symthink, a now-discontinued online idea organization app. It contains a list of questions, statements, and sources related to a central idea. THK files store JSON-formatted data.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "github-atom",
+        "display_name": "GitHub Atom",
+        "status": "discontinued"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      },
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      }
+    ],
+    "macos": [
+      {
+        "software": "gnu-emacs",
+        "display_name": "GNU Emacs"
+      },
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "github-atom",
+        "display_name": "GitHub Atom",
+        "status": "discontinued"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      }
+    ],
+    "chromeos": [
+      {
+        "software": "google-chrome-text",
+        "display_name": "Google Chrome Text"
+      }
+    ],
+    "web": [
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "THK file open in Symthink",
+      "alt": "THK file open in Symthink",
+      "source_url": "https://fileinfo.com/img/ss/md/thk_12920.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-09-28",
+  "sources": [
+    {
+      "url": "thk.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

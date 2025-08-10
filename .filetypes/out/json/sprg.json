@@ -1,0 +1,53 @@
+{
+  "slug": "sprg",
+  "extension": "sprg",
+  "name": "Synclavier Program File",
+  "category": "synclavier-program-file",
+  "developer_org": "synclavier-digital",
+  "popularity": {
+    "rating": 2.5,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "An SPRG file contains a compiled and executable program created by SynclavierX, a digital synthesizer application for Mac. It can be opened in SynclavierX to play a musical composition.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "synclavier-digital-synclavierx",
+        "display_name": "Synclavier Digital SynclavierX"
+      }
+    ],
+    "windows": [
+      {
+        "software": "synclavier-digital-synclavierx",
+        "display_name": "Synclavier Digital SynclavierX"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-10-11",
+  "sources": [
+    {
+      "url": "sprg.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

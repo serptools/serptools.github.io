@@ -1,0 +1,47 @@
+{
+  "slug": "mchelp",
+  "extension": "mchelp",
+  "name": "MadCap DotNet Help File",
+  "category": "madcap-dotnet-help-file",
+  "developer_org": "madcap-software",
+  "popularity": {
+    "rating": 2.3,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "An MCHELP file contains help documentation created by MadCap Flare that is designed to assist Microsoft Visual Studio developers. It is saved in the DotNet Help output format which supports .NET applications and is developed by MadCap Software. MCHELP files can be viewed with MadCap Help Viewer, which is typically distributed with the MCHELP file.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "madcap-help-viewer",
+        "display_name": "MadCap Help Viewer"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-04-30",
+  "sources": [
+    {
+      "url": "mchelp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

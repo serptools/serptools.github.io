@@ -1,0 +1,64 @@
+{
+  "slug": "acorn",
+  "extension": "acorn",
+  "name": "Acorn Image",
+  "category": "acorn-image",
+  "developer_org": "flying-meat",
+  "popularity": {
+    "rating": 2.5,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "An ACORN file is a raster image created by Flying Meat Acorn, an image editor for macOS. It contains an image, as well as a record of any additions and edits made to that image. ACORN files are similar to .PSD files and other layer-based images.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "flying-meat-acorn",
+        "display_name": "Flying Meat Acorn"
+      }
+    ],
+    "windows": [
+      {
+        "software": "flying-meat-acorn",
+        "display_name": "Flying Meat Acorn"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "ACORN file icon",
+      "alt": "ACORN file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/acorn-8082.png"
+    },
+    {
+      "caption": "ACORN file open in Flying Meat Acorn",
+      "alt": "ACORN file open in Flying Meat Acorn",
+      "source_url": "https://fileinfo.com/img/ss/md/acorn_8082.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-06-09",
+  "sources": [
+    {
+      "url": "acorn.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

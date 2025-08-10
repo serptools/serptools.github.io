@@ -1,0 +1,123 @@
+{
+  "slug": "mss",
+  "extension": "mss",
+  "name": "Microprocessor Software Specification File",
+  "category": "1.-microprocessor-software-specification-file",
+  "developer_org": "xilinx",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "File used by Xilinx Platform Studio (XPS), a program used to design software for microprocessors; specifies the input/output devices, interrupt handler routines, and other software features for a microprocessor.",
+  "standards": [],
+  "mime_types": [
+    "input/output"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "xilinx-platform-studio",
+        "display_name": "Xilinx Platform Studio"
+      },
+      {
+        "software": "msb-myscreensaver-builder",
+        "display_name": "MSB MyScreenSaver Builder"
+      },
+      {
+        "software": "mapbox-studio-classic",
+        "display_name": "Mapbox Studio Classic"
+      },
+      {
+        "software": "tilemill",
+        "display_name": "TileMill"
+      },
+      {
+        "software": "kosmtik",
+        "display_name": "Kosmtik"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "musescore",
+        "display_name": "MuseScore"
+      }
+    ],
+    "macos": [
+      {
+        "software": "mapbox-studio-classic",
+        "display_name": "Mapbox Studio Classic"
+      },
+      {
+        "software": "tilemill",
+        "display_name": "TileMill"
+      },
+      {
+        "software": "kosmtik",
+        "display_name": "Kosmtik"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "musescore",
+        "display_name": "MuseScore"
+      }
+    ],
+    "linux": [
+      {
+        "software": "mapbox-studio-classic",
+        "display_name": "Mapbox Studio Classic"
+      },
+      {
+        "software": "tilemill",
+        "display_name": "TileMill"
+      },
+      {
+        "software": "kosmtik",
+        "display_name": "Kosmtik"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "musescore",
+        "display_name": "MuseScore"
+      }
+    ],
+    "web": [
+      {
+        "software": "musescore",
+        "display_name": "MuseScore"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-04-28",
+  "sources": [
+    {
+      "url": "mss.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "sf3",
+  "extension": "sf3",
+  "name": "Scaffold Experiment",
+  "category": "scaffold-experiment",
+  "developer_org": "proteome-software",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "An SF3 file is a record of a mass spectrometry analysis recorded using Scaffold, a program used to identify proteins and peptides. It contains a variety of data retrieved while conducting a protein and peptide identification experiment using mass spectrometry. You can open SF3 files in the paid version of Scaffold or in the free Scaffold Viewer.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "proteome-software-scaffold",
+        "display_name": "Proteome Software Scaffold"
+      }
+    ],
+    "macos": [
+      {
+        "software": "proteome-software-scaffold",
+        "display_name": "Proteome Software Scaffold"
+      }
+    ],
+    "linux": [
+      {
+        "software": "proteome-software-scaffold",
+        "display_name": "Proteome Software Scaffold"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-01-03",
+  "sources": [
+    {
+      "url": "sf3.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

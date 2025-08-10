@@ -1,0 +1,63 @@
+{
+  "slug": "dc",
+  "extension": "dc",
+  "name": "DesignCAD Design File",
+  "category": "designcad-design-file",
+  "developer_org": "imsi-design",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 12,
+    "source": "fileinfo"
+  },
+  "summary": "3D design created with IMSI DesignCAD, a basic CAD software program; used for creating three-dimensional models, including wireframe and solid objects; may also be animated within the DesignCAD program.",
+  "standards": [],
+  "mime_types": [
+    "imsi/design"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "imsi-turbocad-pro",
+        "display_name": "IMSI TurboCAD Pro"
+      },
+      {
+        "software": "imsi-designcad",
+        "display_name": "IMSI DesignCAD"
+      },
+      {
+        "software": "imsi-turbocad-deluxe",
+        "display_name": "IMSI TurboCAD Deluxe"
+      }
+    ],
+    "macos": [
+      {
+        "software": "imsi-turbocad-deluxe",
+        "display_name": "IMSI TurboCAD Deluxe"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2008-05-19",
+  "sources": [
+    {
+      "url": "dc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "slug": "dbm",
+  "extension": "dbm",
+  "name": "ColdFusion Server File",
+  "category": "1.-coldfusion-server-file",
+  "developer_org": "adobe-systems",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 11,
+    "source": "fileinfo"
+  },
+  "summary": "Web page written in DBML (Database Markup Language), the predecessor to Adobe's CFML (ColdFusion Markup Language); executed by a web server running ColdFusion, which generates HTML that is sent to a user's computer; similar to a .ASP or .PHP file, but requires ColdFusion to be run.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "adobe-coldfusion",
+        "display_name": "Adobe ColdFusion"
+      },
+      {
+        "software": "adobe-coldfusion-builder",
+        "display_name": "Adobe ColdFusion Builder"
+      },
+      {
+        "software": "microsoft-internet-explorer",
+        "display_name": "Microsoft Internet Explorer",
+        "status": "discontinued"
+      },
+      {
+        "software": "mozilla-firefox",
+        "display_name": "Mozilla Firefox"
+      },
+      {
+        "software": "apple-safari",
+        "display_name": "Apple Safari"
+      },
+      {
+        "software": "daz-3d-daz-studio-4",
+        "display_name": "DAZ 3D DAZ Studio 4"
+      }
+    ],
+    "macos": [
+      {
+        "software": "macromates-textmate",
+        "display_name": "MacroMates TextMate"
+      },
+      {
+        "software": "adobe-coldfusion",
+        "display_name": "Adobe ColdFusion"
+      },
+      {
+        "software": "adobe-coldfusion-builder",
+        "display_name": "Adobe ColdFusion Builder"
+      },
+      {
+        "software": "apple-safari",
+        "display_name": "Apple Safari"
+      },
+      {
+        "software": "mozilla-firefox",
+        "display_name": "Mozilla Firefox"
+      },
+      {
+        "software": "daz-3d-daz-studio-4",
+        "display_name": "DAZ 3D DAZ Studio 4"
+      }
+    ],
+    "linux": [
+      {
+        "software": "mozilla-firefox",
+        "display_name": "Mozilla Firefox"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "DBM file icon",
+      "alt": "DBM file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/dbm-2260.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-02-03",
+  "sources": [
+    {
+      "url": "dbm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

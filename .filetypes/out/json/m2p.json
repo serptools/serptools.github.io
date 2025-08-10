@@ -1,0 +1,109 @@
+{
+  "slug": "m2p",
+  "extension": "m2p",
+  "name": "MPEG-2 Program Stream File",
+  "category": "1.-mpeg-2-program-stream-file",
+  "developer_org": "moving-picture-experts-group",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 31,
+    "source": "fileinfo"
+  },
+  "summary": "Video container format that supports MPEG-2 audio and video compression; similar to an MPEG-1 file, but also supports interlaced video and more audio channels; commonly used for streaming digital video.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "roxio-creator-nxt-pro-9",
+        "display_name": "Roxio Creator NXT Pro 9"
+      },
+      {
+        "software": "microsoft-windows-media-player",
+        "display_name": "Microsoft Windows Media Player"
+      },
+      {
+        "software": "media-player-classic",
+        "display_name": "Media Player Classic"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "elecard-mpeg-player",
+        "display_name": "Elecard MPEG Player"
+      },
+      {
+        "software": "apple-quicktime-player",
+        "display_name": "Apple QuickTime Player"
+      },
+      {
+        "software": "roxio-toast-20",
+        "display_name": "Roxio Toast 20"
+      },
+      {
+        "software": "squared-5-mpeg-streamclip",
+        "display_name": "Squared 5 MPEG Streamclip"
+      },
+      {
+        "software": "pentaloop-playerxtreme-media-player",
+        "display_name": "PentaLoop PlayerXtreme Media Player"
+      },
+      {
+        "software": "maxthon",
+        "display_name": "Maxthon"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-quicktime-player",
+        "display_name": "Apple QuickTime Player"
+      },
+      {
+        "software": "roxio-toast-20",
+        "display_name": "Roxio Toast 20"
+      },
+      {
+        "software": "squared-5-mpeg-streamclip",
+        "display_name": "Squared 5 MPEG Streamclip"
+      }
+    ],
+    "ios": [
+      {
+        "software": "pentaloop-playerxtreme-media-player",
+        "display_name": "PentaLoop PlayerXtreme Media Player"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "M2P file icon",
+      "alt": "M2P file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/m2p-4715.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-07-17",
+  "sources": [
+    {
+      "url": "m2p.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

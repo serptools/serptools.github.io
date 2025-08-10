@@ -1,0 +1,47 @@
+{
+  "slug": "mcx-8",
+  "extension": "mcx-8",
+  "name": "Mastercam X8 Model",
+  "category": "mastercam-x8-model",
+  "developer_org": "cnc-software",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "An MCX-8 file is a 3D model created by Mastercam X8, a computer-aided design ( CAD ) and computer-aided manufacturing (CAM) application. It is a representation of a mechanical part, which machinists use to produce a physical copy of that part. You can open MCX-8 files in Mastercam. From within Mastercam, you can convert MCX-8 files to .IGS or .SPT files, for use in other CAD and CAM applications.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "cnc-software-mastercam",
+        "display_name": "CNC Software Mastercam"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-09-23",
+  "sources": [
+    {
+      "url": "mcx-8.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

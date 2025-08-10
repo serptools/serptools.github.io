@@ -1,0 +1,55 @@
+{
+  "slug": "rsc",
+  "extension": "rsc",
+  "name": "Symbian Application Compiled Resource File",
+  "category": "symbian-application-compiled-resource-file",
+  "developer_org": "nokia",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 11,
+    "source": "fileinfo"
+  },
+  "summary": "An RSC file is a compiled resource file used by applications of Symbian OS, an open-source operating system designed for touchscreen devices, mobile devices, and smartphones. It contains resources that are compiled from .RSS files into a binary format.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "nokia-carbide.c++",
+        "display_name": "Nokia Carbide.c++"
+      },
+      {
+        "software": "nokia-wrt-plug-ins",
+        "display_name": "Nokia WRT plug-ins"
+      },
+      {
+        "software": "nokia-symbian-rcomp",
+        "display_name": "Nokia Symbian rcomp"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-06-09",
+  "sources": [
+    {
+      "url": "rsc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

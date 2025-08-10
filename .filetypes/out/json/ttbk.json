@@ -1,0 +1,47 @@
+{
+  "slug": "ttbk",
+  "extension": "ttbk",
+  "name": "Canadian TurboTax 2010 Backup File",
+  "category": "canadian-turbotax-2010-backup-file",
+  "developer_org": "intuit-canada",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "Backup of a tax return created with Intuit Canada TurboTax 2010; generated automatically when a .TT10 tax return file is saved; located in the same directory as the original file and has the same filename, except for the file extension.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "intuit-canada-turbotax",
+        "display_name": "Intuit Canada TurboTax"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-03-16",
+  "sources": [
+    {
+      "url": "ttbk.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

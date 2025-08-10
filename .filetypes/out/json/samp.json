@@ -1,0 +1,59 @@
+{
+  "slug": "samp",
+  "extension": "samp",
+  "name": "Nintendo ADPCM Sound Sample File",
+  "category": "nintendo-adpcm-sound-sample-file",
+  "developer_org": "nintendo",
+  "popularity": {
+    "rating": 2.7,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "A SAMP file is a sound file used by Nintendo GameCube and Wii games, such as Skies of Arcadia Legends and Paper Mario: The Thousand-Year Door. It contains compressed sample data, which includes the sample rate and loop information, encoded using the Nintendo ADPCM codec . SAMP files are typically used for music that loops in the background during gameplay but may also be used for sound effects or character voice-overs.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "audacity",
+        "display_name": "Audacity"
+      }
+    ],
+    "macos": [
+      {
+        "software": "audacity",
+        "display_name": "Audacity"
+      }
+    ],
+    "linux": [
+      {
+        "software": "audacity",
+        "display_name": "Audacity"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-12-12",
+  "sources": [
+    {
+      "url": "samp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

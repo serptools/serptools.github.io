@@ -1,0 +1,59 @@
+{
+  "slug": "cxarchive",
+  "extension": "cxarchive",
+  "name": "CrossOver Bottle Archive",
+  "category": "crossover-bottle-archive",
+  "developer_org": "codeweavers",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 24,
+    "source": "fileinfo"
+  },
+  "summary": "Archive file created by CrossOver, a program used to emulate Windows programs on Mac and Linux; contains multiple, consolidated files that build \"bottles\" used by CrossOver; should not be deleted.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "codeweavers-crossover",
+        "display_name": "CodeWeavers CrossOver"
+      }
+    ],
+    "windows": [
+      {
+        "software": "codeweavers-crossover",
+        "display_name": "CodeWeavers CrossOver"
+      }
+    ],
+    "linux": [
+      {
+        "software": "codeweavers-crossover",
+        "display_name": "CodeWeavers CrossOver"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2013-10-03",
+  "sources": [
+    {
+      "url": "cxarchive.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "azw1",
+  "extension": "azw1",
+  "name": "Amazon Topaz eBook",
+  "category": "amazon-topaz-ebook",
+  "developer_org": "amazon",
+  "popularity": {
+    "rating": 2.7,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "eBook file used by Amazon Kindle devices and the Amazon Kindle desktop software; stores an eBook in the Kindle Topaz format ( .TPZ format); used for storing downloaded eBooks from Amazon's 3G Whispernet network.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "amazon-kindle-for-pc",
+        "display_name": "Amazon Kindle for PC"
+      }
+    ],
+    "macos": [
+      {
+        "software": "amazon-kindle-for-mac",
+        "display_name": "Amazon Kindle for Mac"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-02-16",
+  "sources": [
+    {
+      "url": "azw1.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

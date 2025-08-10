@@ -1,0 +1,71 @@
+{
+  "slug": "hpk",
+  "extension": "hpk",
+  "name": "Tropico Game Archive",
+  "category": "1.-tropico-game-archive",
+  "developer_org": "poptop-software",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Game archive used by Tropico, a game where players build and maintain the island of Tropico as El Presidente, the ruler; may contain a variety of game data, including music (i.e., music.hpk ), maps, and other content.",
+  "standards": [],
+  "mime_types": [
+    "http/2",
+    "os/2"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "poptop-tropico",
+        "display_name": "PopTop Tropico"
+      },
+      {
+        "software": "hpk-archiver",
+        "display_name": "HPK Archiver",
+        "status": "discontinued"
+      },
+      {
+        "software": "hpack",
+        "display_name": "HPACK"
+      }
+    ],
+    "macos": [
+      {
+        "software": "hpack",
+        "display_name": "HPACK"
+      }
+    ],
+    "linux": [
+      {
+        "software": "hpack",
+        "display_name": "HPACK"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2013-02-18",
+  "sources": [
+    {
+      "url": "hpk.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

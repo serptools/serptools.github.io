@@ -1,0 +1,142 @@
+{
+  "slug": "au",
+  "extension": "au",
+  "name": "Audacity Audio File",
+  "category": "1.-audacity-audio-file",
+  "developer_org": "audacity",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 28,
+    "source": "fileinfo"
+  },
+  "summary": "An AU file is an audio file created by Audacity, a free, cross-platform audio editor. It is saved in a proprietary audio format used only by Audacity. AU files are part of Audacity projects, which are saved as .AUP files.",
+  "standards": [],
+  "mime_types": [
+    "20/20",
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "audacity",
+        "display_name": "Audacity"
+      },
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "nullsoft-winamp",
+        "display_name": "Nullsoft Winamp"
+      },
+      {
+        "software": "microsoft-windows-media-player",
+        "display_name": "Microsoft Windows Media Player"
+      },
+      {
+        "software": "realnetworks-realplayer-20-20",
+        "display_name": "RealNetworks RealPlayer 20/20"
+      },
+      {
+        "software": "adobe-audition-2023",
+        "display_name": "Adobe Audition 2023"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "apple-quicktime-player",
+        "display_name": "Apple QuickTime Player"
+      },
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      },
+      {
+        "software": "realnetworks-realtimes-video-maker",
+        "display_name": "RealNetworks RealTimes: Video Maker"
+      },
+      {
+        "software": "realnetworks-realtimes-video-maker",
+        "display_name": "RealNetworks RealTimes Video Maker"
+      }
+    ],
+    "macos": [
+      {
+        "software": "audacity",
+        "display_name": "Audacity"
+      },
+      {
+        "software": "apple-quicktime-player",
+        "display_name": "Apple QuickTime Player"
+      },
+      {
+        "software": "adobe-audition-2023",
+        "display_name": "Adobe Audition 2023"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      }
+    ],
+    "linux": [
+      {
+        "software": "audacity",
+        "display_name": "Audacity"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      }
+    ],
+    "web": [
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      }
+    ],
+    "ios": [
+      {
+        "software": "realnetworks-realtimes-video-maker",
+        "display_name": "RealNetworks RealTimes: Video Maker"
+      }
+    ],
+    "android": [
+      {
+        "software": "realnetworks-realtimes-video-maker",
+        "display_name": "RealNetworks RealTimes Video Maker"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "AU file icon",
+      "alt": "AU file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/au-7699.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-03-19",
+  "sources": [
+    {
+      "url": "au.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

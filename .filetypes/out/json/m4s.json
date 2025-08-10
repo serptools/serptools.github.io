@@ -1,0 +1,59 @@
+{
+  "slug": "m4s",
+  "extension": "m4s",
+  "name": "MPEG-DASH Video Segment",
+  "category": "mpeg-dash-video-segment",
+  "developer_org": "moving-picture-experts-group",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 12,
+    "source": "fileinfo"
+  },
+  "summary": "An M4S file is a segment of a video streamed using the MPEG-DASH video streaming technique. It contains binary data that represents a video segment. M4S files that are the first segment of a video also contain initialization data, which allows media players to recognize and begin playing the video.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      }
+    ],
+    "macos": [
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      }
+    ],
+    "linux": [
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-05-06",
+  "sources": [
+    {
+      "url": "m4s.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

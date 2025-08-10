@@ -1,0 +1,50 @@
+{
+  "slug": "jbx",
+  "extension": "jbx",
+  "name": "Microsoft Play It! Music File",
+  "category": "microsoft-play-it-music-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 1.7,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "A JBX file is a song created in Microsoft Play It!, an electronic musical keyboard program included in Microsoft Plus! for Kids!. It contains data that can be used to play a song and/or sound effects in Microsoft Play It!. JBX files cannot be opened by other programs.",
+  "standards": [],
+  "mime_types": [
+    "and/or"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-plus-for-kids",
+        "display_name": "Microsoft Plus! for Kids!",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-03-29",
+  "sources": [
+    {
+      "url": "jbx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

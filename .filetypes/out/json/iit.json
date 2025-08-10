@@ -1,0 +1,47 @@
+{
+  "slug": "iit",
+  "extension": "iit",
+  "name": "Install Creator Project File",
+  "category": "install-creator-project-file",
+  "developer_org": "clickteam",
+  "popularity": {
+    "rating": 2.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "File used by Install Creator, a program that allows users to make Windows program installers; contains installation settings, such as destination directory, installation file names, and Windows Start Menu location; used by Install Creator to create a Windows installer with the specified properties.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "clickteam-install-creator",
+        "display_name": "Clickteam Install Creator"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-01-31",
+  "sources": [
+    {
+      "url": "iit.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

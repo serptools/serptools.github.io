@@ -1,0 +1,53 @@
+{
+  "slug": "lrx",
+  "extension": "lrx",
+  "name": "Sony Portable Reader File",
+  "category": "sony-portable-reader-file",
+  "developer_org": "sony",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "File used by the Sony Portable Reader, a mobile device that allows users to read eBooks; contains data for a Sony \"BroadBand eBook\" (BBeB), such as the images, text, and pagination data; saved in an encrypted binary file that includes a header, a specified number of objects, and an object index.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "sony-reader-library",
+        "display_name": "Sony Reader Library"
+      }
+    ],
+    "macos": [
+      {
+        "software": "sony-reader-library",
+        "display_name": "Sony Reader Library"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-12-23",
+  "sources": [
+    {
+      "url": "lrx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

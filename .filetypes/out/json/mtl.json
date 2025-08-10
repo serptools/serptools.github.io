@@ -1,0 +1,124 @@
+{
+  "slug": "mtl",
+  "extension": "mtl",
+  "name": "OBJ Material Template Library File",
+  "category": "obj-material-template-library-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 58,
+    "source": "fileinfo"
+  },
+  "summary": "An MTL file is a material settings file used by 3D object editing applications, such as Adobe Photoshop and Autodesk Maya. It is stored alongside an .OBJ file and describes how a program should apply textures to that object. MTL files contain the names of the texture bitmap files to apply to an object as well as the 3D coordinates at which to apply them.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "adobe-photoshop-2025",
+        "display_name": "Adobe Photoshop 2025"
+      },
+      {
+        "software": "autodesk-maya-2023",
+        "display_name": "Autodesk Maya 2023"
+      },
+      {
+        "software": "meshlab",
+        "display_name": "MeshLab"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "imsi-turbocad-deluxe",
+        "display_name": "IMSI TurboCAD Deluxe"
+      },
+      {
+        "software": "cheetah3d",
+        "display_name": "Cheetah3D"
+      }
+    ],
+    "macos": [
+      {
+        "software": "adobe-photoshop-2025",
+        "display_name": "Adobe Photoshop 2025"
+      },
+      {
+        "software": "autodesk-maya-2023",
+        "display_name": "Autodesk Maya 2023"
+      },
+      {
+        "software": "imsi-turbocad-deluxe",
+        "display_name": "IMSI TurboCAD Deluxe"
+      },
+      {
+        "software": "cheetah3d",
+        "display_name": "Cheetah3D"
+      },
+      {
+        "software": "meshlab",
+        "display_name": "MeshLab"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "adobe-photoshop-2025",
+        "display_name": "Adobe Photoshop 2025"
+      },
+      {
+        "software": "autodesk-maya-2023",
+        "display_name": "Autodesk Maya 2023"
+      },
+      {
+        "software": "meshlab",
+        "display_name": "MeshLab"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "MTL file icon",
+      "alt": "MTL file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/mtl-5348.png"
+    },
+    {
+      "caption": "MTL file open in Atom",
+      "alt": "MTL file open in Atom",
+      "source_url": "https://fileinfo.com/img/ss/md/mtl_5348.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-06-26",
+  "sources": [
+    {
+      "url": "mtl.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "slug": "xgmml",
+  "extension": "xgmml",
+  "name": "XGMML Graph File",
+  "category": "xgmml-graph-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 2.3,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "File created in the XGMML (eXtensible Graph Markup and Modeling Language) format, an XML format used for describing structured graphs; describes nodes and vertices that comprise a graph; based on the .GML (Graph Modeling Language) format and is used for exchanging data between graph applications.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "yworks-yed-graph-editor",
+        "display_name": "yWorks yEd Graph Editor"
+      },
+      {
+        "software": "cytoscape",
+        "display_name": "Cytoscape"
+      }
+    ],
+    "macos": [
+      {
+        "software": "yworks-yed-graph-editor",
+        "display_name": "yWorks yEd Graph Editor"
+      },
+      {
+        "software": "cytoscape",
+        "display_name": "Cytoscape"
+      }
+    ],
+    "linux": [
+      {
+        "software": "yworks-yed-graph-editor",
+        "display_name": "yWorks yEd Graph Editor"
+      },
+      {
+        "software": "cytoscape",
+        "display_name": "Cytoscape"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-01-24",
+  "sources": [
+    {
+      "url": "xgmml.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

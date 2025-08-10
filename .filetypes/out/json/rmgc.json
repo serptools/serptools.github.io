@@ -1,0 +1,67 @@
+{
+  "slug": "rmgc",
+  "extension": "rmgc",
+  "name": "RootsMagic Data File",
+  "category": "rootsmagic-data-file",
+  "developer_org": "rootsmagic-inc.",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "An RMGC file is a family history database created by RootsMagic or RootsMagic Essentials, genealogy programs that allow users to track and share their family trees. It contains an SQLite-formatted database that stores information about a user's family. RMGC files store family members' names, ages, birth dates, death dates, and relationships with other family members, as well as other information.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "rootsmagic-essentials",
+        "display_name": "RootsMagic Essentials"
+      },
+      {
+        "software": "rootsmagic",
+        "display_name": "RootsMagic"
+      }
+    ],
+    "macos": [
+      {
+        "software": "rootsmagic-essentials",
+        "display_name": "RootsMagic Essentials"
+      },
+      {
+        "software": "rootsmagic",
+        "display_name": "RootsMagic"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "RMGC file open in RootsMagic Essentials",
+      "alt": "RMGC file open in RootsMagic Essentials",
+      "source_url": "https://fileinfo.com/img/ss/md/rmgc_11596.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-09-15",
+  "sources": [
+    {
+      "url": "rmgc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

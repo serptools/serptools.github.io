@@ -1,0 +1,47 @@
+{
+  "slug": "odx",
+  "extension": "odx",
+  "name": "BizTalk Server Orchestration File",
+  "category": "biztalk-server-orchestration-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Business process orchestration diagram created with Microsoft BizTalk Server; used for creating a visual representation of executable business processes; can be exported by the user and imported by a developer as a starting point for implementing an orchestration.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-biztalk-server",
+        "display_name": "Microsoft BizTalk Server"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2007-10-08",
+  "sources": [
+    {
+      "url": "odx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

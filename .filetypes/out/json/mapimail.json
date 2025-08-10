@@ -1,0 +1,49 @@
+{
+  "slug": "mapimail",
+  "extension": "mapimail",
+  "name": "Send To Mail Recipient",
+  "category": "send-to-mail-recipient",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 12,
+    "source": "fileinfo"
+  },
+  "summary": "Enables the \"Send To→Mail Recipient\" option when right-clicking a file or folder in Windows; opens the default mail program and attaches the file to a new message.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-windows",
+        "display_name": "Microsoft Windows"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2006",
+  "sources": [
+    {
+      "url": "mapimail.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

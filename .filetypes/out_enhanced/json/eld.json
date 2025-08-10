@@ -1,0 +1,34 @@
+{
+  "slug": "eld",
+  "extension": "eld",
+  "name": "Eulumdat Formatted Luminaire Data File",
+  "category": "eulumdat-formatted-luminaire-data-file",
+  "summary": "",
+  "developer_org": "dial",
+  "developer_name": "DIAL",
+  "more_information": {
+    "screenshot": {
+      "url": "https://fileinfo.com/img/ss/sm/eld_9333.png",
+      "alt": "Screenshot of a .eld file in Microsoft Visual Studio Code",
+      "caption": "ELD file open in Microsoft Visual Studio Code"
+    },
+    "description": [
+      "DIALux allows lighting designers to model how the light installations included in a house, office building, neighborhood, or other environment will behave. To simulate a light source, designers import an Elumudat-format data file that describes the light source's characteristics and behavior. Lighting installation manufacturers often create these data files and provide them to lighting designers, for use in DIALux.",
+      "On rare occasions, Elumudat data files may be saved with the .eld extension. More commonly, these files are saved with the .LDT extension. Most programs that use Elumudat-format files do not recognize the .eld extension. Therefore, you should likely rename your ELD file to use the .ldt extension, so you can open it more easily."
+    ]
+  },
+  "images": [
+    {
+      "url": "https://fileinfo.com/img/ss/sm/eld_9333.png",
+      "alt": "Screenshot of a .eld file in Microsoft Visual Studio Code",
+      "caption": "ELD file open in Microsoft Visual Studio Code"
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "eld.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "wxs",
+  "extension": "wxs",
+  "name": "WiX Source File",
+  "category": "wix-source-file",
+  "summary": "",
+  "developer_org": "outercurve-foundation",
+  "developer_name": "Outercurve Foundation",
+  "more_information": {
+    "description": [
+      "WXS files must be written in WiX schema or else they will not compile. The <Wix> element is a top-level container in the WXS file, it can include the following children:",
+      "There can only be one <PatchCreation> , <Product> , <Module> , or <Patch> section element for each WXS file or else the linking process will be broken. There can be an unlimited amount of Fragments .",
+      "NOTE: WiX Source files are preprocessed and compiled into .WIXOBJ files by the Candle tool in the WiX Toolset."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "wxs.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

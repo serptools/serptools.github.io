@@ -1,0 +1,57 @@
+{
+  "slug": "kno",
+  "extension": "kno",
+  "name": "DigIN Serialized Break Model",
+  "category": "1.-digin-serialized-break-model",
+  "developer_org": "evresearch",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "A KNO file is a data file created by DigIN, a program used for information management and knowledge discovery. It contains a \"break model,\" which classifies the information from a set of digital resources (documents, webpages, etc.) into a structure that allows patterns, relationships, and origins of data to be discovered. KNO files organize data by content, context, and structure, using a figure referred to as a Borromean ring.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "evresearch-digin-kno-how",
+        "display_name": "EvREsearch DigIN Kno-How"
+      },
+      {
+        "software": "supermemo-world-supermemo-18",
+        "display_name": "SuperMemo World SuperMemo 18"
+      }
+    ],
+    "macos": [
+      {
+        "software": "evresearch-digin-kno-how",
+        "display_name": "EvREsearch DigIN Kno-How"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-01-15",
+  "sources": [
+    {
+      "url": "kno.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

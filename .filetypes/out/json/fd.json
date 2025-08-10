@@ -1,0 +1,93 @@
+{
+  "slug": "fd",
+  "extension": "fd",
+  "name": "LaTeX Font Definition File",
+  "category": "1.-latex-font-definition-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 10,
+    "source": "fileinfo"
+  },
+  "summary": "File used by LaTeX, a typesetting system used to create formatted documents; contains a font declaration that maps LaTeX font properties to TeX font specifications; used to describe how LaTeX font attributes are translated into TeX fonts.",
+  "standards": [],
+  "mime_types": [
+    "lyx/mac",
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "latexeditor",
+        "display_name": "LaTeXEditor"
+      },
+      {
+        "software": "lyx",
+        "display_name": "Lyx"
+      },
+      {
+        "software": "jlatexeditor",
+        "display_name": "JLatexEditor"
+      },
+      {
+        "software": "auctex",
+        "display_name": "AUCTEX"
+      },
+      {
+        "software": "data-access-visual-dataflex",
+        "display_name": "Data Access Visual DataFlex"
+      }
+    ],
+    "macos": [
+      {
+        "software": "lyx-mac",
+        "display_name": "LyX/Mac"
+      },
+      {
+        "software": "auctex",
+        "display_name": "AUCTEX"
+      }
+    ],
+    "linux": [
+      {
+        "software": "lyx",
+        "display_name": "Lyx"
+      },
+      {
+        "software": "jlatexeditor",
+        "display_name": "JLatexEditor"
+      }
+    ],
+    "android": [
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-03-24",
+  "sources": [
+    {
+      "url": "fd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

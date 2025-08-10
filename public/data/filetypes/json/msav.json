@@ -1,0 +1,36 @@
+{
+  "slug": "msav",
+  "extension": "msav",
+  "name": "Mindustry Save File",
+  "category": "mindustry-save-file",
+  "summary": "",
+  "developer_org": "anuke",
+  "developer_name": "Anuke",
+  "more_information": {
+    "screenshot": {
+      "url": "https://fileinfo.com/img/ss/sm/msav_13536.jpg",
+      "alt": "Screenshot of a .msav file in Mindustry",
+      "caption": "MSAV file open in Mindustry"
+    },
+    "description": [
+      "In Mindustry, players create and defend industrial factories from AI enemies and (in multiplayer games) other players. The game features campaign and custom game modes, in which players can save their progress, and a Map Editor, in which players can create, edit, save, and load custom game maps.",
+      "Mindustry saves both saved games and custom maps as MSAV files. By default, Mindustry stores MSAV files that contain saved games in its saves directory, and it stores MSAV files that contain custom maps in its maps directory.",
+      "MSAV files that contain saved games typically use filenames that are either a number (e.g., 1.msav ) or the sector of the campaign map on which they were saved (e.g. sector-serpulo-18.msav ). MSAV files that contain custom maps are typically named for the map they contain.",
+      "NOTE: Mindustry also creates backup saved game files, which use the .msav-backup.msav extension."
+    ]
+  },
+  "images": [
+    {
+      "url": "https://fileinfo.com/img/ss/sm/msav_13536.jpg",
+      "alt": "Screenshot of a .msav file in Mindustry",
+      "caption": "MSAV file open in Mindustry"
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "msav.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

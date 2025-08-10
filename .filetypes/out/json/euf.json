@@ -1,0 +1,47 @@
+{
+  "slug": "euf",
+  "extension": "euf",
+  "name": "Private Character Editor File",
+  "category": "private-character-editor-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "File created by Microsoft Private Character Editor, an accessory program included with Windows; saves a font character set, which contains custom glyphs, or characters bitmaps, edited by the user; can be used in conjunction with Microsoft's Character Map program to type custom characters in Windows.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-private-character-editor",
+        "display_name": "Microsoft Private Character Editor"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-10-29",
+  "sources": [
+    {
+      "url": "euf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

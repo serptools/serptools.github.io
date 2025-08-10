@@ -1,0 +1,25 @@
+{
+  "slug": "chd",
+  "extension": "chd",
+  "name": "Compressed Hunks of Data File",
+  "category": "compressed-hunks-of-data-file",
+  "summary": "",
+  "developer_org": "the-mame-team",
+  "developer_name": "The MAME Team",
+  "more_information": {
+    "description": [
+      "CHD is one of several compression formats utilized in the retro gaming community. The compression method reduces the size of game data dumped from physical storage devices, such as arcade game machines, cartridges, and CD-ROMs.",
+      "The CHD compression format was initially developed by The MAME Team to store arcade game disk images that could be emulated by MAME (Multiple Arcade Machine Emulator) software. These CHD files are used in conjunction with their corresponding game .ROM file to load an arcade game.",
+      "Some MAME CHD files have large file sizes because the hard disk contents they were created from were also large. Therefore, even though CHD files are compressed, they may still take up large amounts of disk space.",
+      "Eventually, retro gamers began utilizing the CHD format to store the contents of games dumped from CD-ROM games for various consoles, such as Sega Dreamcast and 3DO. In these cases, the CHD files store the contents of the .CUE and .BIN files dumped from the CD-ROM game.",
+      "NOTE: You can create CHD files from dumped CUE files with the chdman command-line program developed by The MAME Team."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "chd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

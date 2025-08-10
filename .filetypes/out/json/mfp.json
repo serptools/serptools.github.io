@@ -1,0 +1,61 @@
+{
+  "slug": "mfp",
+  "extension": "mfp",
+  "name": "MediaFACE Project File",
+  "category": "1.-mediaface-project-file",
+  "developer_org": "neato",
+  "popularity": {
+    "rating": 4.1,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "An MFP file is a custom disc or case label created with with MediaFACE label design software. MFP files are typically created from a template ( .MFT ) file and formatted for a specific label printing sheet. Each MFP file may include both images and text.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "neato-mediaface",
+        "display_name": "NEATO MediaFACE"
+      },
+      {
+        "software": "mobileframe-desktop",
+        "display_name": "MobileFrame Desktop"
+      },
+      {
+        "software": "transfer-to-and-print-with-linked-markforged-3d-printer",
+        "display_name": "Transfer to and print with linked Markforged 3D printer"
+      }
+    ],
+    "macos": [
+      {
+        "software": "macromedia-flashpaper",
+        "display_name": "Macromedia FlashPaper"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-03-23",
+  "sources": [
+    {
+      "url": "mfp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

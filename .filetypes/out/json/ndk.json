@@ -1,0 +1,47 @@
+{
+  "slug": "ndk",
+  "extension": "ndk",
+  "name": "Lotus Notes Design Elements File",
+  "category": "lotus-notes-design-elements-file",
+  "developer_org": "ibm",
+  "popularity": {
+    "rating": 2.8,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Contains Lotus Notes design elements, which are used to create and customize the interface for Lotus users; \"DESKTOP6.NDK\" contains design elements, while \"CACHE.NDK\" stores recently used elements.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "ibm-lotus-notes-and-domino-designer",
+        "display_name": "IBM Lotus Notes and Domino Designer"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2008-03-05",
+  "sources": [
+    {
+      "url": "ndk.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

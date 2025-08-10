@@ -1,0 +1,53 @@
+{
+  "slug": "dso",
+  "extension": "dso",
+  "name": "DAZ Studio Object File",
+  "category": "daz-studio-object-file",
+  "developer_org": "daz-productions",
+  "popularity": {
+    "rating": 2.3,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "3D object file created by DAZ Studio, a program used for character modeling; stores the geometry for objects in a 3D scene; referenced by the .DAZ scene file, which is used to save and load the 3D scene; may also be saved with .DSD and .DSV files, which are also referenced in the DAZ scene file.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "daz-3d-daz-studio-4",
+        "display_name": "DAZ 3D DAZ Studio 4"
+      }
+    ],
+    "macos": [
+      {
+        "software": "daz-3d-daz-studio-4",
+        "display_name": "DAZ 3D DAZ Studio 4"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-02-28",
+  "sources": [
+    {
+      "url": "dso.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

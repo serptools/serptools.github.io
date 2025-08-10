@@ -1,0 +1,53 @@
+{
+  "slug": "bidule",
+  "extension": "bidule",
+  "name": "Bidule Layout File",
+  "category": "bidule-layout-file",
+  "developer_org": "plogue",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Sound layout file created by Bidule, a modular music generation program; stores the visual layout of sound components and their connections; may include digital MIDI devices, mixers, filters, effects, and other sound components.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "plogue-bidule",
+        "display_name": "Plogue Bidule"
+      }
+    ],
+    "macos": [
+      {
+        "software": "plogue-bidule",
+        "display_name": "Plogue Bidule"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-04-26",
+  "sources": [
+    {
+      "url": "bidule.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

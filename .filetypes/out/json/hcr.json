@@ -1,0 +1,69 @@
+{
+  "slug": "hcr",
+  "extension": "hcr",
+  "name": "Half-Fold Card File",
+  "category": "1.-half-fold-card-file",
+  "developer_org": "broderbund",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "File created by Broderbund PrintMaster and American Greetings Creatacard programs, which allow users to create customized greeting cards, scrapbook pages, labels, banners, and posters; contains layout and image data for a half-fold card design.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "broderbund-printmaster-2020",
+        "display_name": "Broderbund PrintMaster 2020"
+      },
+      {
+        "software": "broderbund-creatacard",
+        "display_name": "Broderbund Creatacard"
+      },
+      {
+        "software": "hydrocad-software-solutions-hydrocad",
+        "display_name": "HydroCAD Software Solutions HydroCAD"
+      },
+      {
+        "software": "hydrocad-software-solutions-hydrocad-sampler",
+        "display_name": "HydroCAD Software Solutions HydroCAD Sampler"
+      }
+    ],
+    "macos": [
+      {
+        "software": "broderbund-printmaster-2020",
+        "display_name": "Broderbund PrintMaster 2020"
+      },
+      {
+        "software": "broderbund-creatacard",
+        "display_name": "Broderbund Creatacard"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-12-28",
+  "sources": [
+    {
+      "url": "hcr.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

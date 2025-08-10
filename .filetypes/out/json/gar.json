@@ -1,0 +1,55 @@
+{
+  "slug": "gar",
+  "extension": "gar",
+  "name": "Farming Simulator Game Archive File",
+  "category": "1.-farming-simulator-game-archive-file",
+  "developer_org": "giants-software",
+  "popularity": {
+    "rating": 4.1,
+    "votes": 25,
+    "source": "fileinfo"
+  },
+  "summary": "Game data file used by Farming Simulator, a game in which players plant and harvest crops as well as manage equipment and cattle; contains game content and is often seen with the filename DataS.gar .",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "giants-farming-simulator",
+        "display_name": "GIANTS Farming Simulator"
+      },
+      {
+        "software": "nsa-ghidra",
+        "display_name": "NSA Ghidra"
+      },
+      {
+        "software": "gridgain",
+        "display_name": "GridGain"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-05-30",
+  "sources": [
+    {
+      "url": "gar.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

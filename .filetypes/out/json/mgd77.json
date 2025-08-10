@@ -1,0 +1,59 @@
+{
+  "slug": "mgd77",
+  "extension": "mgd77",
+  "name": "MGD77 Data File",
+  "category": "mgd77-data-file",
+  "developer_org": "national-geophysical-data-center",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "Data file saved in the Marine Geophysical Data Exchange (MGD77) format; contains geophysical data in ASCII text format; includes the survey ID, date, magnetics data, timezone, observed gravity, latitude and longitude coordinates, and water depth.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "geomapapp",
+        "display_name": "GeoMapApp"
+      }
+    ],
+    "macos": [
+      {
+        "software": "geomapapp",
+        "display_name": "GeoMapApp"
+      }
+    ],
+    "linux": [
+      {
+        "software": "geomapapp",
+        "display_name": "GeoMapApp"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-10-09",
+  "sources": [
+    {
+      "url": "mgd77.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

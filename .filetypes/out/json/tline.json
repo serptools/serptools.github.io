@@ -1,0 +1,91 @@
+{
+  "slug": "tline",
+  "extension": "tline",
+  "name": "TimelineOnline Data File",
+  "category": "timelineonline-data-file",
+  "developer_org": "zsnout",
+  "popularity": {
+    "rating": 2.6,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "A TLINE file is a data file exported by zSnout TimelineOnline, an online program used to create timelines of events. It contains information about one or more events and dates in plain text, with each event separated by a line break.",
+  "standards": [],
+  "mime_types": [
+    "export/share"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "zsnout-timelineonline",
+        "display_name": "zSnout TimelineOnline",
+        "status": "discontinued"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "web": [
+      {
+        "software": "zsnout-timelineonline",
+        "display_name": "zSnout TimelineOnline",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "TLINE file icon",
+      "alt": "TLINE file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/tline-11538.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-06-04",
+  "sources": [
+    {
+      "url": "tline.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

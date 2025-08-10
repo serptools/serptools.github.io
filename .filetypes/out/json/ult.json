@@ -1,0 +1,141 @@
+{
+  "slug": "ult",
+  "extension": "ult",
+  "name": "Ultra Tracker Module",
+  "category": "ultra-tracker-module",
+  "developer_org": "gravis",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "A ULT file is an audio module created by Ultra Tracker, a music tracker for MS-DOS. It stores data required to synthesize music, including tracks, notes, durations, instrument properties, and playback effects. ULT files do not contain raw sound recordings like standard audio files but instead, reference pre-recorded samples and sequencing data to produce music.",
+  "standards": [],
+  "mime_types": [
+    "vitamin/caig"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "nullsoft-winamp",
+        "display_name": "Nullsoft Winamp"
+      },
+      {
+        "software": "openmpt",
+        "display_name": "OpenMPT"
+      },
+      {
+        "software": "schism-tracker",
+        "display_name": "Schism Tracker"
+      },
+      {
+        "software": "mikmod",
+        "display_name": "MikMod"
+      },
+      {
+        "software": "vitamin-caig-zxtune",
+        "display_name": "Vitamin/CAIG ZXTune"
+      },
+      {
+        "software": "cocomodx",
+        "display_name": "CocoModX",
+        "status": "discontinued"
+      },
+      {
+        "software": "videolan-vlc-for-mobile",
+        "display_name": "VideoLAN VLC for Mobile"
+      }
+    ],
+    "android": [
+      {
+        "software": "videolabs-vlc-for-android",
+        "display_name": "Videolabs VLC for Android"
+      },
+      {
+        "software": "vitamin-caig-zxtune",
+        "display_name": "Vitamin/CAIG ZXTune"
+      }
+    ],
+    "macos": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "mikmod",
+        "display_name": "MikMod"
+      },
+      {
+        "software": "cocomodx",
+        "display_name": "CocoModX",
+        "status": "discontinued"
+      },
+      {
+        "software": "schism-tracker",
+        "display_name": "Schism Tracker"
+      },
+      {
+        "software": "vitamin-caig-zxtune",
+        "display_name": "Vitamin/CAIG ZXTune"
+      }
+    ],
+    "linux": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "schism-tracker",
+        "display_name": "Schism Tracker"
+      },
+      {
+        "software": "mikmod",
+        "display_name": "MikMod"
+      },
+      {
+        "software": "vitamin-caig-zxtune",
+        "display_name": "Vitamin/CAIG ZXTune"
+      }
+    ],
+    "ios": [
+      {
+        "software": "videolan-vlc-for-mobile",
+        "display_name": "VideoLAN VLC for Mobile"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "ULT file open in VideoLAN VLC media player",
+      "alt": "ULT file open in VideoLAN VLC media player",
+      "source_url": "https://fileinfo.com/img/ss/md/ult_1830.jpg"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2025-02-27",
+  "sources": [
+    {
+      "url": "ult.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

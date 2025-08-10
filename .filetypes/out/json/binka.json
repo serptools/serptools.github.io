@@ -1,0 +1,75 @@
+{
+  "slug": "binka",
+  "extension": "binka",
+  "name": "Bink Audio",
+  "category": "bink-audio",
+  "developer_org": "rad-game-tools",
+  "popularity": {
+    "rating": 3.1,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "A BINKA file is an audio file saved in the Bink container format developed by RAD Game Tools. It contains music meant to be played in a video game. Notably, the console versions of Minecraft use music saved as BINKA files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "the-rad-video-tools",
+        "display_name": "The RAD Video Tools"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "the-bink-video-player",
+        "display_name": "The Bink Video Player"
+      }
+    ],
+    "macos": [
+      {
+        "software": "the-bink-video-player",
+        "display_name": "The Bink Video Player"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      }
+    ],
+    "linux": [
+      {
+        "software": "the-bink-video-player",
+        "display_name": "The Bink Video Player"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-08-31",
+  "sources": [
+    {
+      "url": "binka.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "slug": "cob",
+  "extension": "cob",
+  "name": "COBOL Source Code File",
+  "category": "cobol-source-code-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 2.7,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "Source code file written in COBOL, an older programming language used for developing business, finance, and administrative applications; still used by many enterprise business applications.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "ibm-cobol",
+        "display_name": "IBM COBOL"
+      },
+      {
+        "software": "gnucobol",
+        "display_name": "GnuCOBOL"
+      },
+      {
+        "software": "alchemy-solutions-netcobol",
+        "display_name": "Alchemy Solutions NetCOBOL"
+      },
+      {
+        "software": "tinycobol",
+        "display_name": "TinyCOBOL"
+      }
+    ],
+    "macos": [
+      {
+        "software": "gnucobol",
+        "display_name": "GnuCOBOL"
+      }
+    ],
+    "linux": [
+      {
+        "software": "tinycobol",
+        "display_name": "TinyCOBOL"
+      },
+      {
+        "software": "gnucobol",
+        "display_name": "GnuCOBOL"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-09-18",
+  "sources": [
+    {
+      "url": "cob.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

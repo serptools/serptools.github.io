@@ -1,0 +1,71 @@
+{
+  "slug": "gcm",
+  "extension": "gcm",
+  "name": "GameCube ROM File",
+  "category": "gamecube-rom-file",
+  "developer_org": "nintendo",
+  "popularity": {
+    "rating": 4.4,
+    "votes": 25,
+    "source": "fileinfo"
+  },
+  "summary": "A GCM file contains a Nintendo GameCube game ROM . It stores the exact contents dumped from a GameCube disc, which a gamer loads in a GameCube emulator , such as Dolphin or GCEmu, on a computer to play the game.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "dolphin",
+        "display_name": "Dolphin"
+      },
+      {
+        "software": "dolwin",
+        "display_name": "Dolwin"
+      },
+      {
+        "software": "gcemu",
+        "display_name": "GCEmu"
+      },
+      {
+        "software": "whinecube",
+        "display_name": "WhineCube"
+      }
+    ],
+    "macos": [
+      {
+        "software": "dolphin",
+        "display_name": "Dolphin"
+      }
+    ],
+    "linux": [
+      {
+        "software": "dolphin",
+        "display_name": "Dolphin"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-07-08",
+  "sources": [
+    {
+      "url": "gcm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

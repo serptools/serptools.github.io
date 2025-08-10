@@ -1,0 +1,47 @@
+{
+  "slug": "xslic",
+  "extension": "xslic",
+  "name": "XenServer License File",
+  "category": "xenserver-license-file",
+  "developer_org": "citrix",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Software license file used by XenClient, an administration application for XenServer virtualization software; contains a key that registers the XenServer software; includes the expiry date, product code, number of licensed sockets, and other product information.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "citrix-xencenter",
+        "display_name": "Citrix XenCenter"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-09-02",
+  "sources": [
+    {
+      "url": "xslic.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

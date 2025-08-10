@@ -1,0 +1,51 @@
+{
+  "slug": "ipl",
+  "extension": "ipl",
+  "name": "GTA Item Placement File",
+  "category": "gta-item-placement-file",
+  "developer_org": "rockstar-games",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 42,
+    "source": "fileinfo"
+  },
+  "summary": "Game file used by some Grand Theft Auto (GTA) games such as GTA III and GTA: Vice City; saves item placement information within a map and may include objects, spawn points, weapon locations, and custom zone information; saved in a text format and can be edited with a text editor.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "rockstar-games-grand-theft-auto-3",
+        "display_name": "Rockstar Games Grand Theft Auto 3"
+      },
+      {
+        "software": "rockstar-games-grand-theft-auto-vice-city",
+        "display_name": "Rockstar Games Grand Theft Auto: Vice City"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-09-20",
+  "sources": [
+    {
+      "url": "ipl.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

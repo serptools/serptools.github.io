@@ -1,0 +1,57 @@
+{
+  "slug": "rum",
+  "extension": "rum",
+  "name": "Bink Video Subtitle File",
+  "category": "bink-video-subtitle-file",
+  "developer_org": "rad-game-tools",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Small file that contains information about subtitle frames in Bink video ( .BIK ) files; typically saved along with a corresponding BIK file; used by some video games that include Bink video clips.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "rad-game-tools-rad-video-tools",
+        "display_name": "RAD Game Tools RAD Video Tools"
+      },
+      {
+        "software": "rad-game-tools-bink-video-player",
+        "display_name": "RAD Game Tools Bink Video Player"
+      }
+    ],
+    "macos": [
+      {
+        "software": "rad-game-tools-bink-video-player",
+        "display_name": "RAD Game Tools Bink Video Player"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2008-02-21",
+  "sources": [
+    {
+      "url": "rum.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

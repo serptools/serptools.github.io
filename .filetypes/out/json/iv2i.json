@@ -1,0 +1,47 @@
+{
+  "slug": "iv2i",
+  "extension": "iv2i",
+  "name": "Norton Ghost Incremental Virtual Volume Image",
+  "category": "norton-ghost-incremental-virtual-volume-image",
+  "developer_org": "symantec",
+  "popularity": {
+    "rating": 4.5,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Incremental backup created with Norton Ghost; typically created on a regular basis after the initial volume backup ( .V2I ) file has been saved; can be restored to another volume using Norton Ghost backup software.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "symantec-ghost-solution-suite",
+        "display_name": "Symantec Ghost Solution Suite"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-06-04",
+  "sources": [
+    {
+      "url": "iv2i.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

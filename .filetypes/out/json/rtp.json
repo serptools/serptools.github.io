@@ -1,0 +1,57 @@
+{
+  "slug": "rtp",
+  "extension": "rtp",
+  "name": "Gromacs Residue Topology Parameter File",
+  "category": "1.-gromacs-residue-topology-parameter-file",
+  "developer_org": "gromacs",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "An RTP file is a molecular data file used by Gromacs, a program used for simulating molecular dynamics. It saves residue information, which represents the base parts of a molecule and may contain atoms, bonds, angles, dihedrals, and impropers. RTP files are used as a data file for molecular analysis.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "gromacs",
+        "display_name": "Gromacs"
+      },
+      {
+        "software": "earlier-versions-of-intuit-turbotax",
+        "display_name": "Earlier versions of Intuit TurboTax"
+      }
+    ],
+    "windows": [
+      {
+        "software": "earlier-versions-of-intuit-turbotax",
+        "display_name": "Earlier versions of Intuit TurboTax"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-06-19",
+  "sources": [
+    {
+      "url": "rtp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

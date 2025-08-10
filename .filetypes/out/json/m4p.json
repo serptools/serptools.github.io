@@ -1,0 +1,72 @@
+{
+  "slug": "m4p",
+  "extension": "m4p",
+  "name": "iTunes Music Store Audio File",
+  "category": "itunes-music-store-audio-file",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 17,
+    "source": "fileinfo"
+  },
+  "summary": "Protected .AAC audio file downloaded from the iTunes Music Store; incorporates Apple Computer's \"Fairplay\" DRM copy protection, which limits the number of computers the file can be played on.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "apple-itunes",
+        "display_name": "Apple iTunes",
+        "status": "discontinued"
+      },
+      {
+        "software": "apple-music",
+        "display_name": "Apple Music"
+      },
+      {
+        "software": "apple-quicktime-player",
+        "display_name": "Apple QuickTime Player"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-music",
+        "display_name": "Apple Music"
+      },
+      {
+        "software": "apple-quicktime-player",
+        "display_name": "Apple QuickTime Player"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "M4P file icon",
+      "alt": "M4P file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/m4p-1274.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-08-31",
+  "sources": [
+    {
+      "url": "m4p.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

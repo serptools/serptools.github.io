@@ -1,0 +1,91 @@
+{
+  "slug": "sbs",
+  "extension": "sbs",
+  "name": "Substance Package",
+  "category": "1.-substance-package",
+  "developer_org": "allegorithmic",
+  "popularity": {
+    "rating": 3.2,
+    "votes": 12,
+    "source": "fileinfo"
+  },
+  "summary": "An SBS file contains a substance package created by Allegorithmic Substance Designer, a program used to create materials for use in 3D content, such as animations, special effects, and video games. It stores a graph with nodes that visually represent the properties of the 3D material. SBS files also include all the resources that make up the 3D material.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "allegorithmic-substance-designer",
+        "display_name": "Allegorithmic Substance Designer"
+      },
+      {
+        "software": "allegorithmic-substance-player",
+        "display_name": "Allegorithmic Substance Player"
+      },
+      {
+        "software": "ibm-spss",
+        "display_name": "IBM SPSS"
+      },
+      {
+        "software": "availasoft-secure-backup-system",
+        "display_name": "AvailaSoft Secure Backup System",
+        "status": "discontinued"
+      }
+    ],
+    "macos": [
+      {
+        "software": "allegorithmic-substance-designer",
+        "display_name": "Allegorithmic Substance Designer"
+      },
+      {
+        "software": "allegorithmic-substance-player",
+        "display_name": "Allegorithmic Substance Player"
+      }
+    ],
+    "linux": [
+      {
+        "software": "allegorithmic-substance-designer",
+        "display_name": "Allegorithmic Substance Designer"
+      },
+      {
+        "software": "allegorithmic-substance-player",
+        "display_name": "Allegorithmic Substance Player"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "SBS file icon",
+      "alt": "SBS file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/sbs-11060.png"
+    },
+    {
+      "caption": "SBS file open in Allegorithmic Substance Designer 2018",
+      "alt": "SBS file open in Allegorithmic Substance Designer 2018",
+      "source_url": "https://fileinfo.com/img/ss/md/sbs_11060.jpg"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-08-02",
+  "sources": [
+    {
+      "url": "sbs.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "ebrf",
+  "extension": "ebrf",
+  "name": "Electronic Braille Ready Format",
+  "category": "electronic-braille-ready-format",
+  "developer_org": "american-printing-house-for-the-blind",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "An EBRF file is a braille document saved in the Electronic Braille Ready Format (eBRF). It is a .ZIP archive that contains one or more .XHTML files, a .CSS file, and an images folder. EBRF files are used to show braille documents, including integrated tactile graphics, on multiline braille displays.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "rename-to-use-f-.zip-f-extension-extract-files-using-any-zip-decompression-utility",
+        "display_name": "Rename to use [f].zip[/f] extension; extract files using any Zip-decompression utility"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-01-24",
+  "sources": [
+    {
+      "url": "ebrf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

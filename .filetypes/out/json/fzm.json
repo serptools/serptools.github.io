@@ -1,0 +1,59 @@
+{
+  "slug": "fzm",
+  "extension": "fzm",
+  "name": "Fritzing Module File",
+  "category": "fritzing-module-file",
+  "developer_org": "fritzing",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "An FZM file is a module file created and used by Fritzing, an open-source application used to design electronic circuits. It stores information that describes a collection of parts that function as one unit in Fritzing.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "fritzing",
+        "display_name": "Fritzing"
+      }
+    ],
+    "macos": [
+      {
+        "software": "fritzing",
+        "display_name": "Fritzing"
+      }
+    ],
+    "linux": [
+      {
+        "software": "fritzing",
+        "display_name": "Fritzing"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-01-23",
+  "sources": [
+    {
+      "url": "fzm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

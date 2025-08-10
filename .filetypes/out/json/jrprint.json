@@ -1,0 +1,71 @@
+{
+  "slug": "jrprint",
+  "extension": "jrprint",
+  "name": "JasperReports Print File",
+  "category": "jasperreports-print-file",
+  "developer_org": "jaspersoft",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 17,
+    "source": "fileinfo"
+  },
+  "summary": "File created by JasperReports, an open source programming library in Java used for creating reports; contains all report content such as headers, footers, page layout, text, and images; used in conjunction with a .JASPER file to \"fill\" a report with data from a data source.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "jaspersoft-jasperreports",
+        "display_name": "Jaspersoft JasperReports"
+      },
+      {
+        "software": "jaspersoft-ireport",
+        "display_name": "Jaspersoft iReport"
+      }
+    ],
+    "macos": [
+      {
+        "software": "jaspersoft-jasperreports",
+        "display_name": "Jaspersoft JasperReports"
+      },
+      {
+        "software": "jaspersoft-ireport",
+        "display_name": "Jaspersoft iReport"
+      }
+    ],
+    "linux": [
+      {
+        "software": "jaspersoft-jasperreports",
+        "display_name": "Jaspersoft JasperReports"
+      },
+      {
+        "software": "jaspersoft-ireport",
+        "display_name": "Jaspersoft iReport"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-12-21",
+  "sources": [
+    {
+      "url": "jrprint.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

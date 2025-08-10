@@ -1,0 +1,48 @@
+{
+  "slug": "mgs",
+  "extension": "mgs",
+  "name": "MGCSoft Vector Shapes File",
+  "category": "mgcsoft-vector-shapes-file",
+  "developer_org": "mgcsoft",
+  "popularity": {
+    "rating": 1.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "Vector graphics file created by MGCSoft Equation Illustrator, a program used to create technical drawings and format mathematical equations; contains vector-based shapes that can be added to a drawing; used for storing reusable graphics.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "mgcsoft-equation-illustrator",
+        "display_name": "MGCSoft Equation Illustrator",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-06-17",
+  "sources": [
+    {
+      "url": "mgs.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

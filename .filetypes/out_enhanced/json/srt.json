@@ -1,0 +1,51 @@
+{
+  "slug": "srt",
+  "extension": "srt",
+  "name": "SubRip Subtitle File",
+  "category": "subrip-subtitle-file",
+  "summary": "",
+  "developer_org": "n-a",
+  "developer_name": "N/A",
+  "more_information": {
+    "screenshot": {
+      "url": "https://fileinfo.com/img/ss/sm/srt_682.png",
+      "alt": "Screenshot of a .srt file in GitHub Atom",
+      "caption": "SRT file open in GitHub Atom"
+    },
+    "description": [
+      "Subtitle text and timing information saved in the SubRip format appear similar to the following:",
+      "1 00:00:03,400 → 00:00:06,177 In this lesson, we're going to be talking about finance. And",
+      "2 00:00:06,177 → 00:00:10,009 one of the most important aspects of finance is interest.",
+      "Media players load each segment of an SRT file in order, showing each segment's text during the time that text is associated with. Timecodes in SRT files are written in the HH:MM:SS,MIL format. Thus, the first line of text shown above would appear on-screen at 3.004 seconds and disappear at 6.00177 seconds.",
+      "Display coordinates may appear after each segment's end timecode. If a segment contains no display coordinates, its text will appear in the bottom center of your display."
+    ]
+  },
+  "common_filenames": [
+    {
+      "filename": "[moviename].eng.srt",
+      "description": "[moviename].eng.srt - Subtitle filenames often include a reference to the included subtitles' language. For example, an SRT file whose name includes .eng likely includes English subtitles, while an SRT file whose name includes .ger likely includes German subtitles."
+    },
+    {
+      "filename": ".eng",
+      "description": "[moviename].eng.srt - Subtitle filenames often include a reference to the included subtitles' language. For example, an SRT file whose name includes .eng likely includes English subtitles, while an SRT file whose name includes .ger likely includes German subtitles."
+    },
+    {
+      "filename": ".ger",
+      "description": "[moviename].eng.srt - Subtitle filenames often include a reference to the included subtitles' language. For example, an SRT file whose name includes .eng likely includes English subtitles, while an SRT file whose name includes .ger likely includes German subtitles."
+    }
+  ],
+  "images": [
+    {
+      "url": "https://fileinfo.com/img/ss/sm/srt_682.png",
+      "alt": "Screenshot of a .srt file in GitHub Atom",
+      "caption": "SRT file open in GitHub Atom"
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "srt.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

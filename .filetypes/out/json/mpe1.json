@@ -1,0 +1,47 @@
+{
+  "slug": "mpe1",
+  "extension": "mpe1",
+  "name": "MediaPortal 1 Extension",
+  "category": "mediaportal-1-extension",
+  "developer_org": "the-mediaportal-team",
+  "popularity": {
+    "rating": 1.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "An MPE1 file is a plug-in or skin for MediaPortal 1, a media center available for Windows. It can be used to either add a feature to MediaPortal 1 or re-skin the program's user interface (UI). Many MPE1 files are available for download in the Plugins & Skins section of team-mediaportal.com.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "mediaportal-extensions-manager",
+        "display_name": "MediaPortal Extensions Manager"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-01-03",
+  "sources": [
+    {
+      "url": "mpe1.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

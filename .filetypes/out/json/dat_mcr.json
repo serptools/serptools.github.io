@@ -1,0 +1,59 @@
+{
+  "slug": "dat_mcr",
+  "extension": "dat_mcr",
+  "name": "Minecraft Level.dat Backup File",
+  "category": "minecraft-level.dat-backup-file",
+  "developer_org": "mojang",
+  "popularity": {
+    "rating": 4.3,
+    "votes": 49,
+    "source": "fileinfo"
+  },
+  "summary": "File created by Minecraft, an open-ended 3D construction game; saves a backup of the level.dat file when the newer version of the game updates from the older \"Region\" ( .MCR ) format to the newer \"Anvil\" ( .MCA ) format.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "mojang-minecraft",
+        "display_name": "Mojang Minecraft"
+      }
+    ],
+    "macos": [
+      {
+        "software": "mojang-minecraft",
+        "display_name": "Mojang Minecraft"
+      }
+    ],
+    "linux": [
+      {
+        "software": "mojang-minecraft",
+        "display_name": "Mojang Minecraft"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-11-02",
+  "sources": [
+    {
+      "url": "dat_mcr.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

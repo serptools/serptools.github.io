@@ -1,0 +1,39 @@
+{
+  "slug": "bpmn",
+  "extension": "bpmn",
+  "name": "Business Process Model and Notation",
+  "category": "business-process-model-and-notation",
+  "summary": "",
+  "developer_org": "camunda",
+  "developer_name": "Camunda",
+  "more_information": {
+    "screenshot": {
+      "url": "https://fileinfo.com/img/ss/sm/bpmn_13303.png",
+      "alt": "Screenshot of a .bpmn file in Camunda BPMN Editor",
+      "caption": "BPMN file open in Camunda BPMN Editor"
+    },
+    "description": [
+      "BPMN Editor is a diagram creation and editing tool that allows you to create flowcharts and process diagrams. You can then export these diagrams as .SVG files or use bpmn-js, a BPMN rendering toolkit, to embed the diagrams in a webpage or application.",
+      "Primarily, users access BPMN Editor from the website demo.bpmn.io . After using BPMN editor to create a diagram, you can save that diagram as a local BPMN file. This allows you to re-open and continue editing the diagram you've created at a later time, or embed your BPMN file within a webpage or application."
+    ]
+  },
+  "images": [
+    {
+      "url": "https://fileinfo.com/img/ss/sm/bpmn_13303.png",
+      "alt": "Screenshot of a .bpmn file in Camunda BPMN Editor",
+      "caption": "BPMN file open in Camunda BPMN Editor"
+    },
+    {
+      "url": "https://fileinfo.com/img/ss/sm/bpmn_13303-2.png",
+      "alt": "BPMN file open in Microsoft Visual Studio Code",
+      "caption": "BPMN file open in Microsoft Visual Studio Code"
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "bpmn.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "wp",
+  "extension": "wp",
+  "name": "WordPerfect Document",
+  "category": "wordperfect-document",
+  "developer_org": "corel",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Word processing document created by Corel WordPerfect, a popular word processor for Windows; may contain text, images, forms, and other data.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "corel-wordperfect-2021",
+        "display_name": "Corel WordPerfect 2021"
+      },
+      {
+        "software": "planamesa-neooffice",
+        "display_name": "Planamesa NeoOffice",
+        "status": "discontinued"
+      }
+    ],
+    "macos": [
+      {
+        "software": "planamesa-neooffice",
+        "display_name": "Planamesa NeoOffice",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2007-02-17",
+  "sources": [
+    {
+      "url": "wp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

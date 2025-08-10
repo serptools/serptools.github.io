@@ -1,0 +1,53 @@
+{
+  "slug": "apnx",
+  "extension": "apnx",
+  "name": "Amazon Page Number Index File",
+  "category": "amazon-page-number-index-file",
+  "developer_org": "amazon",
+  "popularity": {
+    "rating": 4.2,
+    "votes": 20,
+    "source": "fileinfo"
+  },
+  "summary": "Pagination file used by Amazon Kindle devices starting with the 3.1 firmware version; maps page numbers of the digital book to the page numbers of the original print book; allows Kindle readers to see page numbers; saved on the device and not meant to be opened or edited manually.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "amazon-kindle-for-pc",
+        "display_name": "Amazon Kindle for PC"
+      }
+    ],
+    "macos": [
+      {
+        "software": "amazon-kindle-for-mac",
+        "display_name": "Amazon Kindle for Mac"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-08-17",
+  "sources": [
+    {
+      "url": "apnx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

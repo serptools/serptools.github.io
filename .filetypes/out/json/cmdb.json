@@ -1,0 +1,47 @@
+{
+  "slug": "cmdb",
+  "extension": "cmdb",
+  "name": "Ansys CFD Mesh",
+  "category": "ansys-cfd-mesh",
+  "developer_org": "ansys",
+  "popularity": {
+    "rating": 4.3,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "A CMDB file is a mesh file created by Ansys Computational Fluid Dynamics (CFD) software. It contains a 3D model used to simulate a fluid's interaction with a real-world object or system. CMDB files were most commonly used by ANSYS CFX, but current versions of CFX cannot open CMDB files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "ansys-cfx",
+        "display_name": "Ansys CFX"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-11-05",
+  "sources": [
+    {
+      "url": "cmdb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

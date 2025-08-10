@@ -1,0 +1,57 @@
+{
+  "slug": "opt",
+  "extension": "opt",
+  "name": "Opterecenja File",
+  "category": "1.-opterecenja-file",
+  "developer_org": "zeljko-finzgar",
+  "popularity": {
+    "rating": 4.3,
+    "votes": 12,
+    "source": "fileinfo"
+  },
+  "summary": "File saved by Opterecenja, a program used for creating construction project plans based on weather elements such as snow and wind; saves various parameters used for producing output values; used for calculating structural load, which can also be plotted visually in the software.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "opterecenja",
+        "display_name": "Opterecenja"
+      },
+      {
+        "software": "referenced-by-various-programs",
+        "display_name": "Referenced by various programs"
+      },
+      {
+        "software": "agility",
+        "display_name": "AGiliTy"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-07-15",
+  "sources": [
+    {
+      "url": "opt.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

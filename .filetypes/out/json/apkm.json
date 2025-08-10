@@ -1,0 +1,53 @@
+{
+  "slug": "apkm",
+  "extension": "apkm",
+  "name": "Android App Bundle Mirror",
+  "category": "android-app-bundle-mirror",
+  "developer_org": "apkmirror",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 21,
+    "source": "fileinfo"
+  },
+  "summary": "An APKM file is an Android app bundle created for use with APKMirror Installer, an alternative Android app installer. It is similar to an .AAB file, in that it contains a number of .APK files used to install an Android app. APKM files, however, can be installed only using APKMirror Installer.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "android": [
+      {
+        "software": "apkmirror-installer",
+        "display_name": "APKMirror Installer"
+      }
+    ],
+    "windows": [
+      {
+        "software": "apkmirror-installer",
+        "display_name": "APKMirror Installer"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-09-18",
+  "sources": [
+    {
+      "url": "apkm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

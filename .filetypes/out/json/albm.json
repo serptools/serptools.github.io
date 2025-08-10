@@ -1,0 +1,47 @@
+{
+  "slug": "albm",
+  "extension": "albm",
+  "name": "HP Photo Printing Software Album File",
+  "category": "hp-photo-printing-software-album-file",
+  "developer_org": "hp",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "File used by older versions of HP Photo Printing software, which can be used to create and organize digital picture albums; contains a collection of pictures in a proprietary format; may be converted into more common image formats using Konvertor.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "hp-photo-printing-software",
+        "display_name": "HP Photo Printing Software"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-01-15",
+  "sources": [
+    {
+      "url": "albm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

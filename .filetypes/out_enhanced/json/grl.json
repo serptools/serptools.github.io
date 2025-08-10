@@ -1,0 +1,21 @@
+{
+  "slug": "grl",
+  "extension": "grl",
+  "name": "Windows Update Status File",
+  "category": "windows-update-status-file",
+  "summary": "",
+  "developer_org": "microsoft",
+  "developer_name": "Microsoft",
+  "more_information": {
+    "description": [
+      "NOTE: If a Window Update produces a \"0x80073712\" error code, you may need to delete the pending.grl and pending.xml files. Then the update should run successfully."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "grl.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "fif",
+  "extension": "fif",
+  "name": "Fractal Image File",
+  "category": "fractal-image-file",
+  "developer_org": "interwoven-systems",
+  "popularity": {
+    "rating": 2.6,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "Graphics file format developed by MediaBin, who was acquired by Interwoven Systems; stores an image with fractals, which are smaller graphics that can be repeated within an image and resized without losing image quality; used for fill textures or other repeatable patterns; also used to create high-definition prints.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "adobe-photoshop-with-genuine-fractals-plug-in",
+        "display_name": "Adobe Photoshop with Genuine Fractals plug-in"
+      }
+    ],
+    "macos": [
+      {
+        "software": "adobe-photoshop-with-genuine-fractals-plug-in",
+        "display_name": "Adobe Photoshop with Genuine Fractals plug-in"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-04-12",
+  "sources": [
+    {
+      "url": "fif.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

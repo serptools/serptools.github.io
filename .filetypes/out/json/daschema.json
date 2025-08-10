@@ -1,0 +1,51 @@
+{
+  "slug": "daschema",
+  "extension": "daschema",
+  "name": "RemObjects Data Abstract Schema File",
+  "category": "remobjects-data-abstract-schema-file",
+  "developer_org": "remobjects",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "Database file created by Data Abstract, a database development software included with the RemObjects SDK; uses XML formattting and saves the schema of the database; edited using the Data Abstract Schema Modeler, a program that is part of Data Abstract.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "remobjects-sdk",
+        "display_name": "RemObjects SDK"
+      },
+      {
+        "software": "remobjects-data-abstract",
+        "display_name": "RemObjects Data Abstract"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-11-22",
+  "sources": [
+    {
+      "url": "daschema.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

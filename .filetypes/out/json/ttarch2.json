@@ -1,0 +1,51 @@
+{
+  "slug": "ttarch2",
+  "extension": "ttarch2",
+  "name": "Telltale Games Archive Version 2",
+  "category": "telltale-games-archive-version-2",
+  "developer_org": "telltale-games",
+  "popularity": {
+    "rating": 2.8,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "A TTARCH2 file is an archive included in a Telltale Games video game. It contains game assets, such as sounds, music, and graphics. TTARCH2 files are used in newer Telltale games, while .TTARCH files are used in older Telltale games.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "quick-and-easy-software-telltale-explorer",
+        "display_name": "Quick and Easy Software Telltale Explorer"
+      },
+      {
+        "software": "telltale-ttarch-files-extractor",
+        "display_name": "Telltale TTARCH Files Extractor"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-01-24",
+  "sources": [
+    {
+      "url": "ttarch2.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "slug": "cxp",
+  "extension": "cxp",
+  "name": "CX-Programmer Project File",
+  "category": "1.-cx-programmer-project-file",
+  "developer_org": "omron",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 14,
+    "source": "fileinfo"
+  },
+  "summary": "Project file created by CX-Programmer, a program used for programming OMRON PLCs (programmable logic controllers); saves user programs and parameters; stored in a compressed format and is the compressed version of a .CXT file.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "omron-cx-one",
+        "display_name": "OMRON CX-One"
+      }
+    ],
+    "ios": [
+      {
+        "software": "applied-biosystems-fmat-8100-hts-system",
+        "display_name": "Applied Biosystems FMAT 8100 HTS System",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-03-05",
+  "sources": [
+    {
+      "url": "cxp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

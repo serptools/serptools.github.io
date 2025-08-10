@@ -1,0 +1,140 @@
+{
+  "slug": "deb",
+  "extension": "deb",
+  "name": "Debian Software Package",
+  "category": "debian-software-package",
+  "developer_org": "debian-project",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 453,
+    "source": "fileinfo"
+  },
+  "summary": "A DEB file is a software package used by the Debian Linux distribution and its variants, such as Ubuntu. DEB files are used primarily to install or update Unix applications. Each DEB file is a standard Unix archive that contains two .TAR archives: one for installer control information and another for installable data.",
+  "standards": [],
+  "mime_types": [
+    "path/to"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "7-zip",
+        "display_name": "7-Zip"
+      },
+      {
+        "software": "izarc",
+        "display_name": "IZArc"
+      },
+      {
+        "software": "b1-free-archiver",
+        "display_name": "B1 Free Archiver",
+        "pricing": "free"
+      },
+      {
+        "software": "peazip",
+        "display_name": "PeaZip"
+      },
+      {
+        "software": "ifunbox",
+        "display_name": "iFunbox"
+      },
+      {
+        "software": "debian-package-management-system",
+        "display_name": "Debian package management system"
+      },
+      {
+        "software": "apt",
+        "display_name": "APT"
+      },
+      {
+        "software": "synaptic-package-manager",
+        "display_name": "Synaptic Package Manager"
+      },
+      {
+        "software": "alien",
+        "display_name": "Alien"
+      },
+      {
+        "software": "cydia",
+        "display_name": "Cydia"
+      }
+    ],
+    "macos": [
+      {
+        "software": "b1-free-archiver",
+        "display_name": "B1 Free Archiver",
+        "pricing": "free"
+      },
+      {
+        "software": "ifunbox",
+        "display_name": "iFunbox"
+      }
+    ],
+    "linux": [
+      {
+        "software": "debian-package-management-system",
+        "display_name": "Debian package management system"
+      },
+      {
+        "software": "apt",
+        "display_name": "APT"
+      },
+      {
+        "software": "synaptic-package-manager",
+        "display_name": "Synaptic Package Manager"
+      },
+      {
+        "software": "b1-free-archiver",
+        "display_name": "B1 Free Archiver",
+        "pricing": "free"
+      },
+      {
+        "software": "peazip",
+        "display_name": "PeaZip"
+      },
+      {
+        "software": "alien",
+        "display_name": "Alien"
+      }
+    ],
+    "ios": [
+      {
+        "software": "cydia",
+        "display_name": "Cydia"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "DEB file open in File Viewer Plus 4",
+      "alt": "DEB file open in File Viewer Plus 4",
+      "source_url": "https://fileinfo.com/img/ss/md/deb_1949.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-02-02",
+  "sources": [
+    {
+      "url": "deb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

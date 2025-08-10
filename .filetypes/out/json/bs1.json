@@ -1,0 +1,47 @@
+{
+  "slug": "bs1",
+  "extension": "bs1",
+  "name": "VirtualBus Vehicle Configuration File",
+  "category": "virtualbus-vehicle-configuration-file",
+  "developer_org": "virtualbus",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "Game file used by VirtualBus, a free bus driving simulation game; contains configuration parameters for the 3D bus driven by the player; stores settings such as the vehicle colors, tire specifications, and the models used by each bus segment.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "virtualbus",
+        "display_name": "VirtualBus"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-07-21",
+  "sources": [
+    {
+      "url": "bs1.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

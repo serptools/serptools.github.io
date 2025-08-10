@@ -1,0 +1,24 @@
+{
+  "slug": "tpu",
+  "extension": "tpu",
+  "name": "Turbo Pascal Unit",
+  "category": "turbo-pascal-unit",
+  "summary": "",
+  "developer_org": "borland",
+  "developer_name": "Borland",
+  "more_information": {
+    "description": [
+      "Turbo Pascal is a development kit for the Pascal programming language. It includes an IDE and a compiler that allow developers to develop, compile, and run Pascal programs.",
+      "Versions 4 and later of Turbo Pascal allow developers to compile program modules into TPU files. Typically, these modules contain common functions and procedures that a developer wants to include in multiple programs. Storing these functions and procedures in a single TPU file, rather than rewriting them in each program, makes maintaining and troubleshooting them easier.",
+      "Each TPU file is built from a corresponding .PAS file. These PAS files start with the unit keyword; they are typically named similarly to their TPU counterparts.",
+      "NOTE: Different versions of Turbo Pascal use differently-formatted TPU files. Therefore, TPU files created using one version of Turbo Pascal may not function correctly in other versions."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "tpu.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

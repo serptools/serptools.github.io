@@ -1,0 +1,105 @@
+{
+  "slug": "aud",
+  "extension": "aud",
+  "name": "Westwood Studios Audio",
+  "category": "westwood-studios-audio",
+  "developer_org": "westwood-studios",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 16,
+    "source": "fileinfo"
+  },
+  "summary": "An AUD file is an audio file used in a video game developed by Westwood Studios. It contains music, dialogue, or a sound effect played in the game. Most notably, several games in Westwood Studios' Command & Conquer series use AUD files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "vgmstream",
+        "display_name": "vgmstream"
+      },
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      },
+      {
+        "software": "videolan-vlc-for-mobile",
+        "display_name": "VideoLAN VLC for Mobile"
+      }
+    ],
+    "web": [
+      {
+        "software": "vgmstream-web",
+        "display_name": "vgmstream-web"
+      },
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      }
+    ],
+    "android": [
+      {
+        "software": "videolabs-vlc-for-android",
+        "display_name": "Videolabs VLC for Android"
+      }
+    ],
+    "macos": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "vgmstream",
+        "display_name": "vgmstream"
+      }
+    ],
+    "linux": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "vgmstream",
+        "display_name": "vgmstream"
+      }
+    ],
+    "ios": [
+      {
+        "software": "videolan-vlc-for-mobile",
+        "display_name": "VideoLAN VLC for Mobile"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-11-10",
+  "sources": [
+    {
+      "url": "aud.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

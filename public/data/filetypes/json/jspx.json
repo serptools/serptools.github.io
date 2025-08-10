@@ -1,0 +1,35 @@
+{
+  "slug": "jspx",
+  "extension": "jspx",
+  "name": "XML Jakarta Server Page",
+  "category": "xml-jakarta-server-page",
+  "summary": "",
+  "developer_org": "eclipse-foundation",
+  "developer_name": "Eclipse Foundation",
+  "more_information": {
+    "screenshot": {
+      "url": "https://fileinfo.com/img/ss/sm/jspx_740.png",
+      "alt": "Screenshot of a .jspx file in Microsoft Visual Studio Code",
+      "caption": "JSPX file open in Microsoft Visual Studio Code"
+    },
+    "description": [
+      "Jakarta Server Pages is a standard and set of technologies that developers use to create dynamically-generated webpages. Developers write these webpages using Java code, HTML , and sometimes, XML.",
+      "JSPs that contain XML are saved as JSPX files. Any web server that includes a JSP-compatible servlet container, such as Apache Tomcat or Jetty, can render a JSPX file as a webpage in users' web browsers. You can also use the Java Virtual Machine to run a JSPX file in any web browser that supports Java Server Pages.",
+      "NOTE: JSPX files were formerly known as XML JavaServer Pages. The Eclipse Foundation rebranded Java Enterprise Edition as Jakarta Enterprise Edition in 2018."
+    ]
+  },
+  "images": [
+    {
+      "url": "https://fileinfo.com/img/ss/sm/jspx_740.png",
+      "alt": "Screenshot of a .jspx file in Microsoft Visual Studio Code",
+      "caption": "JSPX file open in Microsoft Visual Studio Code"
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "jspx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

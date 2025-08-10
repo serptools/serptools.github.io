@@ -1,0 +1,47 @@
+{
+  "slug": "fct",
+  "extension": "fct",
+  "name": "FolderClone Task List",
+  "category": "folderclone-task-list",
+  "developer_org": "salty-brine-software",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "File created by FolderClone, a program used for backup, synchronization, and replication of files; saves a list of synchronization or replication tasks, each of which can run manually or on a scheduled basis.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "salty-brine-folderclone",
+        "display_name": "Salty Brine FolderClone"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-05-30",
+  "sources": [
+    {
+      "url": "fct.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

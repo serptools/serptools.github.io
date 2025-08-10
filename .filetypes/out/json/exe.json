@@ -1,0 +1,122 @@
+{
+  "slug": "exe",
+  "extension": "exe",
+  "name": "Windows Executable File",
+  "category": "windows-executable-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 4.1,
+    "votes": 6832,
+    "source": "fileinfo"
+  },
+  "summary": "An EXE file is an executable program that runs in Microsoft Windows. It contains an application, like notepad.exe or msedge.exe , that opens when you double-click the file. Some EXE files, such as installers downloaded from the internet, will install a program on your Windows computer when opened.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-windows",
+        "display_name": "Microsoft Windows"
+      },
+      {
+        "software": "7-zip",
+        "display_name": "7-Zip"
+      },
+      {
+        "software": "rarlab-winrar",
+        "display_name": "RARLAB WinRAR"
+      },
+      {
+        "software": "parallels-desktop-for-mac-with-microsoft-windows-installed",
+        "display_name": "Parallels Desktop for Mac with Microsoft Windows installed"
+      },
+      {
+        "software": "vmware-fusion-with-microsoft-windows-installed",
+        "display_name": "VMware Fusion with Microsoft Windows installed"
+      },
+      {
+        "software": "oracle-vm-virtualbox-with-microsoft-windows-installed",
+        "display_name": "Oracle VM VirtualBox with Microsoft Windows installed"
+      },
+      {
+        "software": "codeweavers-crossover",
+        "display_name": "CodeWeavers CrossOver"
+      },
+      {
+        "software": "wine",
+        "display_name": "Wine"
+      },
+      {
+        "software": "kronenberg-winebottler",
+        "display_name": "Kronenberg WineBottler"
+      },
+      {
+        "software": "xamarin-mono",
+        "display_name": "Xamarin Mono"
+      },
+      {
+        "software": "turing-software-utm",
+        "display_name": "Turing Software UTM"
+      },
+      {
+        "software": "winehq",
+        "display_name": "WineHQ"
+      },
+      {
+        "software": "rarlab-rar",
+        "display_name": "RARLAB RAR"
+      }
+    ],
+    "ios": [
+      {
+        "software": "turing-software-utm",
+        "display_name": "Turing Software UTM"
+      }
+    ],
+    "android": [
+      {
+        "software": "winehq",
+        "display_name": "WineHQ"
+      },
+      {
+        "software": "rarlab-rar",
+        "display_name": "RARLAB RAR"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "EXE file icon",
+      "alt": "EXE file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/exe-29.png"
+    },
+    {
+      "caption": "EXE file open in Microsoft Windows 11",
+      "alt": "EXE file open in Microsoft Windows 11",
+      "source_url": "https://fileinfo.com/img/ss/md/exe_29.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-11-30",
+  "sources": [
+    {
+      "url": "exe.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

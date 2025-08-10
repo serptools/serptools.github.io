@@ -1,0 +1,53 @@
+{
+  "slug": "wrypt",
+  "extension": "wrypt",
+  "name": "Panwrypter Depleted Storage Volume File",
+  "category": "panwrypter-depleted-storage-volume-file",
+  "developer_org": "entropic",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "A WRYPT file is a depleted storage volume file created by Panwrypter, a program used to secure digital files and protect them from unauthorized users, including cyber criminals. It contains depleted data for a file or folder located at a specific site that has been protected with Panwrypter.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "entropic-panwrypter",
+        "display_name": "Entropic Panwrypter"
+      }
+    ],
+    "windows": [
+      {
+        "software": "entropic-panwrypter",
+        "display_name": "Entropic Panwrypter"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-04-26",
+  "sources": [
+    {
+      "url": "wrypt.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

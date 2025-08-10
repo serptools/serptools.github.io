@@ -1,0 +1,83 @@
+{
+  "slug": "psk",
+  "extension": "psk",
+  "name": "Unreal Engine Skeletal Mesh",
+  "category": "unreal-engine-skeletal-mesh",
+  "developer_org": "epic-games",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 12,
+    "source": "fileinfo"
+  },
+  "summary": "A PSK file is a mesh file used to create a 3D model in version 3 and below of Epic Games Unreal Engine. Developers import PSK files into Unreal Engine and combine them with .PSA files, which contain data used to animate a model.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "epic-games-unreal-engine",
+        "display_name": "Epic Games Unreal Engine"
+      },
+      {
+        "software": "autodesk-maya-with-psk-import-add-on",
+        "display_name": "Autodesk Maya with PSK import add-on"
+      },
+      {
+        "software": "autodesk-3ds-max-with-psk-import-add-on",
+        "display_name": "Autodesk 3ds Max with PSK import add-on"
+      },
+      {
+        "software": "blender-with-psk-import-add-on",
+        "display_name": "Blender with PSK import add-on"
+      }
+    ],
+    "macos": [
+      {
+        "software": "epic-games-unreal-engine",
+        "display_name": "Epic Games Unreal Engine"
+      },
+      {
+        "software": "autodesk-maya-with-psk-import-add-on",
+        "display_name": "Autodesk Maya with PSK import add-on"
+      },
+      {
+        "software": "blender-with-psk-import-add-on",
+        "display_name": "Blender with PSK import add-on"
+      }
+    ],
+    "linux": [
+      {
+        "software": "autodesk-maya-with-psk-import-add-on",
+        "display_name": "Autodesk Maya with PSK import add-on"
+      },
+      {
+        "software": "blender-with-psk-import-add-on",
+        "display_name": "Blender with PSK import add-on"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-11-10",
+  "sources": [
+    {
+      "url": "psk.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

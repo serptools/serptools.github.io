@@ -1,0 +1,47 @@
+{
+  "slug": "gfb",
+  "extension": "gfb",
+  "name": "GIFBlast Compressed Image File",
+  "category": "gifblast-compressed-image-file",
+  "developer_org": "gifblast",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Standard .GIF image compressed further by GIFBlast, an lossless image compression utility; reduces the file size of an already compressed GIF image by applying an additional compression algorithm.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "gifblast",
+        "display_name": "GIFBlast"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-06-11",
+  "sources": [
+    {
+      "url": "gfb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

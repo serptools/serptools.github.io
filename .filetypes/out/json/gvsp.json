@@ -1,0 +1,53 @@
+{
+  "slug": "gvsp",
+  "extension": "gvsp",
+  "name": "Geocortex Viewer for Silverlight Project",
+  "category": "geocortex-viewer-for-silverlight-project",
+  "developer_org": "latitude-graphics",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "A GVSP file contains a project created by Geocortex Viewer for Silverlight, a GIS program used to enhance ArcGIS software for web-GIS users. It stores a project, which includes a map with plotted coordinates and drawn lines, areas, points, and text. GVSP files also contain the layer symbolization and layer drawing order of the map.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "geocortex-viewer-for-silverlight",
+        "display_name": "Geocortex Viewer for Silverlight"
+      }
+    ],
+    "macos": [
+      {
+        "software": "geocortex-viewer-for-silverlight",
+        "display_name": "Geocortex Viewer for Silverlight"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-09-20",
+  "sources": [
+    {
+      "url": "gvsp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

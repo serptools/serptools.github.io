@@ -1,0 +1,63 @@
+{
+  "slug": "dazip",
+  "extension": "dazip",
+  "name": "Dragon Age: Origins Game File",
+  "category": "dragon-age-origins-game-file",
+  "developer_org": "bioware",
+  "popularity": {
+    "rating": 4.1,
+    "votes": 21,
+    "source": "fileinfo"
+  },
+  "summary": "Compressed game archive used by Dragon Age: Origins, a dark heroic fantasy game developed by BioWare and published by Electronic Arts (EA); contains a package of exported resources (called Encapsulated Resource Files, or .ERF files) that can be installed into the game; used for adding game content, such as new adventures, battles, creatures, and stories.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "electronic-arts-dragon-age-origins",
+        "display_name": "Electronic Arts Dragon Age: Origins"
+      },
+      {
+        "software": "bioware-dragon-age-toolset",
+        "display_name": "BioWare Dragon Age Toolset"
+      },
+      {
+        "software": "corel-winzip",
+        "display_name": "Corel WinZip"
+      },
+      {
+        "software": "rarlab-winrar",
+        "display_name": "RARLAB WinRAR"
+      },
+      {
+        "software": "7-zip",
+        "display_name": "7-Zip"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-08-16",
+  "sources": [
+    {
+      "url": "dazip.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

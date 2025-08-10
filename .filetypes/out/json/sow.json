@@ -1,0 +1,78 @@
+{
+  "slug": "sow",
+  "extension": "sow",
+  "name": "Descent ARJ Game Data Archive",
+  "category": "descent-arj-game-data-archive",
+  "developer_org": "interplay-productions",
+  "popularity": {
+    "rating": 1.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "A SOW file is an .ARJ archive that contains game data used by Descent or Descent 2. For example, a SOW file contains .HOG , .PIG , .HAM , and .256 files. SOW files are stored on the games' game discs.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "interplay-productions-descent",
+        "display_name": "Interplay Productions Descent"
+      },
+      {
+        "software": "interplay-productions-descent-2",
+        "display_name": "Interplay Productions Descent 2"
+      },
+      {
+        "software": "arj-software-arj32",
+        "display_name": "ARJ Software ARJ32"
+      },
+      {
+        "software": "rarlab-winrar",
+        "display_name": "RARLAB WinRAR"
+      },
+      {
+        "software": "7-zip",
+        "display_name": "7-Zip"
+      },
+      {
+        "software": "smith-micro-stuffit-deluxe",
+        "display_name": "Smith Micro StuffIt Deluxe",
+        "status": "discontinued"
+      },
+      {
+        "software": "archive-manager",
+        "display_name": "Archive Manager"
+      }
+    ],
+    "linux": [
+      {
+        "software": "archive-manager",
+        "display_name": "Archive Manager"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-08-24",
+  "sources": [
+    {
+      "url": "sow.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

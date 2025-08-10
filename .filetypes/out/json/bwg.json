@@ -1,0 +1,47 @@
+{
+  "slug": "bwg",
+  "extension": "bwg",
+  "name": "BrainWave Generator Audio File",
+  "category": "brainwave-generator-audio-file",
+  "developer_org": "noromaa-solutions",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Audio file used by BrainWave Generator (BWG), a program that uses sound and visual stimulation to try and help users relax, meditate, and focus better; saves audio in the form of a \"binaural beat,\" which attempts to change brain frequencies toward a desired state.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "noromaa-solutions-brainwave-generator",
+        "display_name": "Noromaa Solutions BrainWave Generator"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-10-23",
+  "sources": [
+    {
+      "url": "bwg.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

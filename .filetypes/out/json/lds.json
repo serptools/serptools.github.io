@@ -1,0 +1,65 @@
+{
+  "slug": "lds",
+  "extension": "lds",
+  "name": "Binutils LD Linker Script",
+  "category": "1.-binutils-ld-linker-script",
+  "developer_org": "the-gnu-project",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Script written for ld , a Linux command line utility used for structuring the format of Linux executables (also known as \"object\" files) based on input files; specifies a list of sections of the output file and includes the size and memory location of each section; written in the \"linker command language.\"",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "linux": [
+      {
+        "software": "gnu-binutils",
+        "display_name": "GNU Binutils"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "ld-decode",
+        "display_name": "ld-decode"
+      }
+    ],
+    "windows": [
+      {
+        "software": "gnu-binutils",
+        "display_name": "GNU Binutils"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-09-19",
+  "sources": [
+    {
+      "url": "lds.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

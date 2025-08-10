@@ -1,0 +1,67 @@
+{
+  "slug": "lsf",
+  "extension": "lsf",
+  "name": "Logos Library System File",
+  "category": "1.-logos-library-system-file",
+  "developer_org": "logos-bible-software",
+  "popularity": {
+    "rating": 3.2,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "Data file used by Libronix Digital Library System (DLS), a program used by other applications for digital book management; saved alongside a .LIX file, both of which must be present to read the book.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "logos-bible-software",
+        "display_name": "Logos Bible Software"
+      },
+      {
+        "software": "libronix-digital-library-system",
+        "display_name": "Libronix Digital Library System",
+        "status": "discontinued"
+      },
+      {
+        "software": "microsoft-windows-media-player",
+        "display_name": "Microsoft Windows Media Player"
+      }
+    ],
+    "macos": [
+      {
+        "software": "logos-bible-software",
+        "display_name": "Logos Bible Software"
+      },
+      {
+        "software": "libronix-digital-library-system",
+        "display_name": "Libronix Digital Library System",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-08-12",
+  "sources": [
+    {
+      "url": "lsf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

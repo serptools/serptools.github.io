@@ -1,0 +1,65 @@
+{
+  "slug": "au3",
+  "extension": "au3",
+  "name": "AutoIt v3 Script",
+  "category": "autoit-v3-script",
+  "developer_org": "autoit",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 48,
+    "source": "fileinfo"
+  },
+  "summary": "Automated script created with AutoIt v3, a freeware scripting program that uses a programming language similar to BASIC ; designed for automating commands within Windows and for other general scripting purposes.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "autoit",
+        "display_name": "AutoIt"
+      },
+      {
+        "software": "scite4autoit3",
+        "display_name": "SciTE4AutoIt3"
+      },
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      }
+    ],
+    "web": [
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-10-22",
+  "sources": [
+    {
+      "url": "au3.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

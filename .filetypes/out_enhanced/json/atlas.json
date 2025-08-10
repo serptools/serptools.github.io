@@ -1,0 +1,22 @@
+{
+  "slug": "atlas",
+  "extension": "atlas",
+  "name": "Texture Atlas Skin File",
+  "category": "texture-atlas-skin-file",
+  "summary": "",
+  "developer_org": "n-a",
+  "developer_name": "N/A",
+  "more_information": {
+    "description": [
+      "The ATLAS file is one of 3 files that make up a texture atlas, which is used to reduce the number of separate image files used for the UI elements in the game. The following three files are required in libGDX to create a skin for UI elements in a game:",
+      "NOTE: The ATLAS, PNG, and .JSON files that make up a texture atlas should be located in the same folder of the game assets with the same name."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "atlas.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

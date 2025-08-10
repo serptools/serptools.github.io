@@ -1,0 +1,47 @@
+{
+  "slug": "emf",
+  "extension": "emf",
+  "name": "Enhanced Windows Metafile",
+  "category": "enhanced-windows-metafile",
+  "summary": "",
+  "developer_org": "jasspa",
+  "developer_name": "Jasspa",
+  "more_information": {
+    "screenshot": {
+      "url": "https://fileinfo.com/img/ss/sm/emf_464.png",
+      "alt": "Screenshot of a .emf file in Adobe Illustrator 2020",
+      "caption": "EMF file open in Adobe Illustrator 2020"
+    },
+    "description": [
+      "EMF was developed and released in 1992 with Windows NT 3.1 to improve the WMF format, which was introduced in Windows 3.0 in 1990. Two of the main improvements over WMF are 1)support for 32-bit data (WMF is limited to 16-bit) and 2)its device-independence, meaning the graphic looks the same regardless of the device on which it is viewed. Microsoft later added this capability to the WMF format in Windows 2000.",
+      "EMF is a vector format but also supports bitmap data. It can be scaled and output at a higher definition, which is especially useful when modifying graphics in an image editor and printing high-quality images.",
+      "Image data contained in EMF files are stored in a sequence of metafile record structures. Each of these records stores drawing commands, object definitions, and configuration settings.",
+      "Both the EMF and WMF formats are similar to the more common Scalable Vector Graphics ( .SVG ) and Encapsulated PostScript ( .EPS ) formats. Microsoft continues to revise the EMF and WMF formats.",
+      "NOTE: Microsoft developed the .EMZ and .WMZ formats to reduce the file sizes of EMF and WMF files and make it easier to transfer the graphics between applications. These formats utilize gzip compression to compress the files."
+    ]
+  },
+  "common_filenames": [
+    {
+      "filename": "mouse.emf",
+      "description": "mouse.emf - Mouse interaction macros."
+    },
+    {
+      "filename": "mouse.emf",
+      "description": "mouse.emf - Mouse interaction macros."
+    }
+  ],
+  "images": [
+    {
+      "url": "https://fileinfo.com/img/ss/sm/emf_464.png",
+      "alt": "Screenshot of a .emf file in Adobe Illustrator 2020",
+      "caption": "EMF file open in Adobe Illustrator 2020"
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "emf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "slug": "vag",
+  "extension": "vag",
+  "name": "PlayStation Compressed Audio",
+  "category": "playstation-compressed-audio",
+  "developer_org": "sony",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 24,
+    "source": "fileinfo"
+  },
+  "summary": "A VAG file contains sound effects, music, or other audio played in a PlayStation (PS1), PlayStation 2 (PS2), PlayStation 3 (PS3), PlayStation 4 (PS4), or PlayStation Portable (PSP) console or video game. The audio is saved in a 4-bit, ADPCM (Adaptive Differential Pulse Code Modulation) compressed format.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "fmj-software-awave-studio",
+        "display_name": "FMJ-Software Awave Studio"
+      },
+      {
+        "software": "mfaudio",
+        "display_name": "MFAudio"
+      },
+      {
+        "software": "vgmstream",
+        "display_name": "vgmstream"
+      },
+      {
+        "software": "vag2wav",
+        "display_name": "vag2wav"
+      }
+    ],
+    "web": [
+      {
+        "software": "vgmstream-web",
+        "display_name": "vgmstream-web"
+      }
+    ],
+    "macos": [
+      {
+        "software": "vgmstream",
+        "display_name": "vgmstream"
+      },
+      {
+        "software": "vag2wav",
+        "display_name": "vag2wav"
+      }
+    ],
+    "linux": [
+      {
+        "software": "vgmstream",
+        "display_name": "vgmstream"
+      },
+      {
+        "software": "vag2wav",
+        "display_name": "vag2wav"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-07-20",
+  "sources": [
+    {
+      "url": "vag.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

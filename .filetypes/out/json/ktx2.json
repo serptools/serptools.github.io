@@ -1,0 +1,59 @@
+{
+  "slug": "ktx2",
+  "extension": "ktx2",
+  "name": "Khronos Texture 2.0",
+  "category": "khronos-texture-2.0",
+  "developer_org": "khronos-group",
+  "popularity": {
+    "rating": 2.7,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "A KTX2 file stores GPU texture data in the Khronos Texture 2.0 (KTX2) container format. It contains image data for a texture asset compressed with Basis Universal (BasisU) supercompression that can be transcoded to different formats depending on the support provided by the target devices. KTX2 files also include parameters required for loading stored textures into 3D APIs , such as Vulkan and OpenGL .",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "khronos-group-ktx-software",
+        "display_name": "Khronos Group KTX Software"
+      }
+    ],
+    "macos": [
+      {
+        "software": "khronos-group-ktx-software",
+        "display_name": "Khronos Group KTX Software"
+      }
+    ],
+    "linux": [
+      {
+        "software": "khronos-group-ktx-software",
+        "display_name": "Khronos Group KTX Software"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-08-18",
+  "sources": [
+    {
+      "url": "ktx2.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

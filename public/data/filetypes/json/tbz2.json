@@ -1,0 +1,22 @@
+{
+  "slug": "tbz2",
+  "extension": "tbz2",
+  "name": "Bzip2-Compressed TAR File",
+  "category": "bzip2-compressed-tar-file",
+  "summary": "",
+  "developer_org": "n-a",
+  "developer_name": "N/A",
+  "more_information": {
+    "description": [
+      "Linux (and other Unix-like systems) users often package multiple related files together into a single TAR archive, for backup and distribution purposes. To make these archives easier to distribute, users sometimes compress them using various compression utilities.",
+      "Bzip2 is a common, free compression utility. TAR files compressed using bzip2 are often renamed to use the .tbz2 extension. This denotes that the files are bzip2-compressed (like other .BZ2 files) and contain a TAR archive."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "tbz2.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

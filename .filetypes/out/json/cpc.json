@@ -1,0 +1,88 @@
+{
+  "slug": "cpc",
+  "extension": "cpc",
+  "name": "CPC Compressed Image File",
+  "category": "cpc-compressed-image-file",
+  "developer_org": "cartesian-products",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "Bitmap image compressed using the Cartesian Perceptual Compression (CPC) algorithm; designed for compressing 1-bit raster images, such as black-and-white photographs and line art; often used for compressing monochrome design layouts, legal documents, and other types of scanned text files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "cartesian-products-cpc-tool",
+        "display_name": "Cartesian Products CPC Tool"
+      },
+      {
+        "software": "microsoft-internet-explorer-with-cartesian-products-cpc-view-ax-plugin",
+        "display_name": "Microsoft Internet Explorer with Cartesian Products CPC View ax plugin",
+        "status": "discontinued"
+      },
+      {
+        "software": "mozilla-firefox-with-cpc-lite-pi-plugin",
+        "display_name": "Mozilla Firefox with CPC Lite pi plugin"
+      },
+      {
+        "software": "lizardtech-document-express",
+        "display_name": "LizardTech Document Express"
+      },
+      {
+        "software": "apple-safari-with-cartesian-products-copycat-plugin",
+        "display_name": "Apple Safari with Cartesian Products CoPyCat plugin"
+      },
+      {
+        "software": "mozilla-firefox-with-cartesian-products-copycat-plugin",
+        "display_name": "Mozilla Firefox with Cartesian Products CoPyCat plugin"
+      }
+    ],
+    "macos": [
+      {
+        "software": "cartesian-products-cpc-tool",
+        "display_name": "Cartesian Products CPC Tool"
+      },
+      {
+        "software": "apple-safari-with-cartesian-products-copycat-plugin",
+        "display_name": "Apple Safari with Cartesian Products CoPyCat plugin"
+      }
+    ],
+    "linux": [
+      {
+        "software": "cartesian-products-cpc-tool",
+        "display_name": "Cartesian Products CPC Tool"
+      },
+      {
+        "software": "mozilla-firefox-with-cartesian-products-copycat-plugin",
+        "display_name": "Mozilla Firefox with Cartesian Products CoPyCat plugin"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-05-14",
+  "sources": [
+    {
+      "url": "cpc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

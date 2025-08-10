@@ -1,0 +1,35 @@
+{
+  "slug": "ma",
+  "extension": "ma",
+  "name": "Maya ASCII Scene",
+  "category": "maya-ascii-scene",
+  "summary": "",
+  "developer_org": "autodesk",
+  "developer_name": "Autodesk",
+  "more_information": {
+    "screenshot": {
+      "url": "https://fileinfo.com/img/ss/sm/ma_1715.png",
+      "alt": "Screenshot of a .ma file in Autodesk Maya 2022",
+      "caption": "MA file open in Autodesk Maya 2022"
+    },
+    "description": [
+      "Autodesk Maya is a program that animators use to create 3D scenes for movies and video games. These scenes are saved as MA or MB files. MA files are saved in Maya's mayaAscii format, which is a plain text format. As a result, you can open an MA file in any text editor (in addition to being able to open it in Maya). This can be useful if your MA file has become corrupted, and you want to manually review or edit the text your file contains.",
+      "One drawback to saving scenes as MA files is that, because they typically contain incredibly long lists of settings and commands, the files can become quite large. For example, a \"simple\" MA scene may contain over a million lines of text and have a file size of 91 MB. This is why Autodesk created the MB file format, which allows users to save their scenes as smaller, binary files. The tradeoff is that users cannot manually edit MB files' data in a text editor.",
+      "NOTE: Maya was originally developed by Alias Wavefront. Autodesk acquired Alias Wavefront in 2006."
+    ]
+  },
+  "images": [
+    {
+      "url": "https://fileinfo.com/img/ss/sm/ma_1715.png",
+      "alt": "Screenshot of a .ma file in Autodesk Maya 2022",
+      "caption": "MA file open in Autodesk Maya 2022"
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "ma.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

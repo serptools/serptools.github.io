@@ -1,0 +1,105 @@
+{
+  "slug": "fxb",
+  "extension": "fxb",
+  "name": "FX Bank File",
+  "category": "fx-bank-file",
+  "developer_org": "steinberg",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 18,
+    "source": "fileinfo"
+  },
+  "summary": "An FXB file is a soundbank used by audio-mixing applications that support Virtual Studio Technology (VST). It contains presets that allow Digital Audio Workstations ( DAWs ) to produce additional sound effects, which are loaded within VST plug-ins . FXB files are used to install multiple presets, while .FXP (FX Preset) files are used to install individual presets.",
+  "standards": [],
+  "mime_types": [
+    "fxb/fxp"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "steinberg-cubase",
+        "display_name": "Steinberg Cubase"
+      },
+      {
+        "software": "steinberg-halion",
+        "display_name": "Steinberg HALion"
+      },
+      {
+        "software": "ableton-live",
+        "display_name": "Ableton Live"
+      },
+      {
+        "software": "image-line-fl-studio",
+        "display_name": "Image-Line FL Studio"
+      },
+      {
+        "software": "lennar-digital-sylenth1",
+        "display_name": "Lennar Digital Sylenth1"
+      },
+      {
+        "software": "cockos-reaper",
+        "display_name": "Cockos REAPER"
+      },
+      {
+        "software": "lmms",
+        "display_name": "LMMS"
+      }
+    ],
+    "macos": [
+      {
+        "software": "steinberg-cubase",
+        "display_name": "Steinberg Cubase"
+      },
+      {
+        "software": "steinberg-halion",
+        "display_name": "Steinberg HALion"
+      },
+      {
+        "software": "ableton-live",
+        "display_name": "Ableton Live"
+      },
+      {
+        "software": "image-line-fl-studio",
+        "display_name": "Image-Line FL Studio"
+      },
+      {
+        "software": "lennar-digital-sylenth1",
+        "display_name": "Lennar Digital Sylenth1"
+      },
+      {
+        "software": "lmms",
+        "display_name": "LMMS"
+      }
+    ],
+    "linux": [
+      {
+        "software": "lmms",
+        "display_name": "LMMS"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-03-09",
+  "sources": [
+    {
+      "url": "fxb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "wmd",
+  "extension": "wmd",
+  "name": "Windows Media Download Package",
+  "category": "windows-media-download-package",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.1,
+    "votes": 11,
+    "source": "fileinfo"
+  },
+  "summary": "Zip compressed file used by Windows Media Player; may store multimedia content, playlists, and borders (custom interfaces); used as a format for downloading audio and video over the Internet.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-windows-media-player",
+        "display_name": "Microsoft Windows Media Player"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-08-18",
+  "sources": [
+    {
+      "url": "wmd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

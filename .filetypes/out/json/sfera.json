@@ -1,0 +1,59 @@
+{
+  "slug": "sfera",
+  "extension": "sfera",
+  "name": "Sfera 360° File",
+  "category": "sfera-360-file",
+  "developer_org": "ama",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "A SFERA file is a photo created by AMA Photo 360° by Sfera, a photo and sound capture application. It contains a 360° panorama photo and recorded audio. SFERA files can be shared on Facebook or through messages and email.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "sfera-viewer",
+        "display_name": "Sfera Viewer"
+      },
+      {
+        "software": "ama-photo-360-by-sfera",
+        "display_name": "AMA Photo 360° by Sfera",
+        "status": "discontinued"
+      }
+    ],
+    "android": [
+      {
+        "software": "ama-photo-360-by-sfera",
+        "display_name": "AMA Photo 360° by Sfera",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-02-22",
+  "sources": [
+    {
+      "url": "sfera.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

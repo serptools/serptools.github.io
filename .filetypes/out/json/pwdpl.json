@@ -1,0 +1,53 @@
+{
+  "slug": "pwdpl",
+  "extension": "pwdpl",
+  "name": "Password Pad Lite Document",
+  "category": "password-pad-lite-document",
+  "developer_org": "tan-thor-jen",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "Password-protected document created by Password Pad Lite, a text editor that incorporates \"lite\" encryption ; stores encrypted document content so that the document can only be viewed with the correct password ; used for saving sensitive personal information.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "password-pad",
+        "display_name": "Password Pad"
+      }
+    ],
+    "windows": [
+      {
+        "software": "password-pad",
+        "display_name": "Password Pad"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-07-06",
+  "sources": [
+    {
+      "url": "pwdpl.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

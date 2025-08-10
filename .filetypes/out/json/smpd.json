@@ -1,0 +1,59 @@
+{
+  "slug": "smpd",
+  "extension": "smpd",
+  "name": "Sc2gears Mouse Print Data File",
+  "category": "sc2gears-mouse-print-data-file",
+  "developer_org": "andr-s-belicza",
+  "popularity": {
+    "rating": 2.8,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "File created by Sc2gears, a program used for analyzing .SC2REPLAY replay files created from the real-time strategy game StarCraft 2; contains mouse movement data recorded in real-time during a game; used for printing a mouse movement graph and for calculating mouse movement statistics in Sc2gears.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "sc2gears",
+        "display_name": "Sc2gears"
+      }
+    ],
+    "macos": [
+      {
+        "software": "sc2gears",
+        "display_name": "Sc2gears"
+      }
+    ],
+    "linux": [
+      {
+        "software": "sc2gears",
+        "display_name": "Sc2gears"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-11-04",
+  "sources": [
+    {
+      "url": "smpd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

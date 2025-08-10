@@ -1,0 +1,70 @@
+{
+  "slug": "mtx",
+  "extension": "mtx",
+  "name": "MetaStream Scene File",
+  "category": "1.-metastream-scene-file",
+  "developer_org": "viewpoint",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 11,
+    "source": "fileinfo"
+  },
+  "summary": "Three-dimensional scene saved in the MetaStream ASCII text format; uses XML-style tags to store information about the scene, such as global scene options, object (instance) hierarchies, camera locations, and animation data.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "imsi-turbocad-pro",
+        "display_name": "IMSI TurboCAD Pro"
+      },
+      {
+        "software": "viewpoint-media-player",
+        "display_name": "Viewpoint Media Player"
+      },
+      {
+        "software": "imsi-turbocad-deluxe",
+        "display_name": "IMSI TurboCAD Deluxe"
+      },
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      }
+    ],
+    "macos": [
+      {
+        "software": "imsi-turbocad-deluxe",
+        "display_name": "IMSI TurboCAD Deluxe"
+      },
+      {
+        "software": "viewpoint-media-player",
+        "display_name": "Viewpoint Media Player"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2008-05-20",
+  "sources": [
+    {
+      "url": "mtx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

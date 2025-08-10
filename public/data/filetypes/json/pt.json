@@ -1,0 +1,22 @@
+{
+  "slug": "pt",
+  "extension": "pt",
+  "name": "PyTorch Model",
+  "category": "pytorch-model",
+  "summary": "",
+  "developer_org": "the-panther-team",
+  "developer_name": "The Panther Team",
+  "more_information": {
+    "description": [
+      "PyTorch is a Python-based machine learning library that developers use to create machine learning models. Developers save PyTorch models using the torch.save(model, PATH) command, in files that use either the .pt or .PTH extension.",
+      "Developers and data scientists can then import their PT files into a relevant application to perform a task. For example, some natural language processing applications allow developers to import a PT file and use it for sequence prediction and to generate sequence-to-sequence models."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "pt.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "dmg",
+  "extension": "dmg",
+  "name": "Apple Disk Image",
+  "category": "apple-disk-image",
+  "summary": "",
+  "developer_org": "apple",
+  "developer_name": "Apple",
+  "more_information": {
+    "screenshot": {
+      "url": "https://fileinfo.com/img/ss/sm/dmg_24.png",
+      "alt": "Screenshot of a .dmg file in macOS Big Sur (11.5.2)",
+      "caption": "DMG file open in macOS Big Sur (11.5.2)"
+    },
+    "description": [
+      "The DMG format is one of several file types software developers utilize to distribute macOS applications outside of Apple's App Store. Other options include .APP files compressed in a .ZIP archive, .PKG files, and .IMG files (more common in Mac OS Classic and replaced by DMG files).",
+      "DMG is a prevalent distribution format because it maintains the disk image's integrity via checksums . When opening a DMG file to begin the installation process, the DiskImageMounter utility bundled with macOS verifies the checksum to ensure the disk image has not been modified or corrupted during the distribution. This process is valuable for developers and end-users to make sure they install an untampered application.",
+      "NOTE: In rare cases, Mac users may package files instead of macOS apps in a DMG file for transfer purposes. In these cases, the DMG file functions as a virtual flash drive recipients can mount to retrieve the stored files."
+    ]
+  },
+  "images": [
+    {
+      "url": "https://fileinfo.com/img/ss/sm/dmg_24.png",
+      "alt": "Screenshot of a .dmg file in macOS Big Sur (11.5.2)",
+      "caption": "DMG file open in macOS Big Sur (11.5.2)"
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "dmg.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

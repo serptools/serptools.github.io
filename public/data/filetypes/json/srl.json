@@ -1,0 +1,29 @@
+{
+  "slug": "srl",
+  "extension": "srl",
+  "name": "Nintendo DS ROM",
+  "category": "nintendo-ds-rom",
+  "summary": "",
+  "developer_org": "n-a",
+  "developer_name": "N/A",
+  "more_information": {
+    "description": [
+      "The Wii U's Virtual Console feature allows gamers to download and play old Nintendo video games on their Wii Us. When a gamer downloads a Nintendo DS game, it is saved as an SRL file. The SRL file format is Nintendo's official format for Nintendo DS ROMs.",
+      "The Wii U stores SRL files in its rom.zip folder. Enterprising gamers have been able to extract SRL files from their Wii Us and use them to play Nintendo DS games on their PCs, using DS emulators. Any emulator that can load an .NDS file can also load an SRL file, provided you change the SRL file's extension to .nds ."
+    ]
+  },
+  "images": [
+    {
+      "url": "https://fileinfo.com/img/ss/sm/srl_12193.png",
+      "alt": "Screenshot of a .srl file in Apple TextEdit 1.16",
+      "caption": "SRL file open in Apple TextEdit 1.16"
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "srl.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "slug": "reglnk",
+  "extension": "reglnk",
+  "name": "Registry Editor Shortcut File",
+  "category": "registry-editor-shortcut-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 1.8,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "A REGLNK file contains a shortcut to a registry key. It stores the shortcut in .INI format and allows users to quickly jump to the location of a registry key using Registry Editor, a program bundled with Windows that allows users to edit registry keys.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-registry-editor",
+        "display_name": "Microsoft Registry Editor"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-07-10",
+  "sources": [
+    {
+      "url": "reglnk.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

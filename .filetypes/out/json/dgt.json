@@ -1,0 +1,81 @@
+{
+  "slug": "dgt",
+  "extension": "dgt",
+  "name": "DST Thumbnail File",
+  "category": "dst-thumbnail-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 16,
+    "source": "fileinfo"
+  },
+  "summary": "File created by some embroidery design programs; saves a thumbnail image for a corresponding .DST embroidery design file; enables the DST design to be previewed without having compatible DST software.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-paint",
+        "display_name": "Microsoft Paint"
+      },
+      {
+        "software": "image-viewer",
+        "display_name": "image viewer"
+      },
+      {
+        "software": "apple-preview",
+        "display_name": "Apple Preview"
+      },
+      {
+        "software": "gimp",
+        "display_name": "GIMP"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-preview",
+        "display_name": "Apple Preview"
+      },
+      {
+        "software": "image-viewer",
+        "display_name": "image viewer"
+      }
+    ],
+    "linux": [
+      {
+        "software": "gimp",
+        "display_name": "GIMP"
+      },
+      {
+        "software": "image-viewer",
+        "display_name": "image viewer"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-10-09",
+  "sources": [
+    {
+      "url": "dgt.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

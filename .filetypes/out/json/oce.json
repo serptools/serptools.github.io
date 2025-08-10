@@ -1,0 +1,55 @@
+{
+  "slug": "oce",
+  "extension": "oce",
+  "name": "Open Catalog Extension Connection File",
+  "category": "open-catalog-extension-connection-file",
+  "developer_org": "oracle",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Database connection file used by the Hyperion Intelligence database management system ( DBMS ); defines the connection software, type of database, username, password, host, data retrieval method, and optional database name.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "oracle-business-intelligence-suite",
+        "display_name": "Oracle Business Intelligence Suite"
+      },
+      {
+        "software": "hyperion-intelligence",
+        "display_name": "Hyperion Intelligence"
+      },
+      {
+        "software": "brio-intelligence",
+        "display_name": "Brio Intelligence"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-11-12",
+  "sources": [
+    {
+      "url": "oce.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "slug": "gxf",
+  "extension": "gxf",
+  "name": "General eXchange Format File",
+  "category": "1.-general-exchange-format-file",
+  "developer_org": "grass-valley-group",
+  "popularity": {
+    "rating": 2.8,
+    "votes": 12,
+    "source": "fileinfo"
+  },
+  "summary": "General eXchange format used to transfer audiovisual clips between television program storage systems; may contain video, audio, time code, and metadata .",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "general-cadd-pro",
+        "display_name": "General CADD Pro"
+      }
+    ],
+    "macos": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      }
+    ],
+    "linux": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "GXF file icon",
+      "alt": "GXF file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/gxf-10139.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-12-21",
+  "sources": [
+    {
+      "url": "gxf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

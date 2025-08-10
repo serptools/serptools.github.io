@@ -1,0 +1,161 @@
+{
+  "slug": "ptx",
+  "extension": "ptx",
+  "name": "Pro Tools Session File",
+  "category": "1.-pro-tools-session-file",
+  "developer_org": "avid-technology",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 23,
+    "source": "fileinfo"
+  },
+  "summary": "Session file format introduced with Pro Tools 10 digital audio workstation (DAW) software; supports audio, MIDI, and software instrument tracks, as well as effects, mixing settings, and other edits; stores references to audio files but not the audio files themselves.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "avid-pro-tools",
+        "display_name": "Avid Pro Tools"
+      },
+      {
+        "software": "west-reallegal-e-transcript-viewer",
+        "display_name": "West RealLegal E-Transcript Viewer"
+      },
+      {
+        "software": "west-e-transcript-bundle-viewer",
+        "display_name": "West E-Transcript Bundle Viewer"
+      },
+      {
+        "software": "west-reallegal-e-transcript-manager",
+        "display_name": "West RealLegal E-Transcript Manager"
+      },
+      {
+        "software": "west-publisher",
+        "display_name": "West Publisher",
+        "status": "discontinued"
+      },
+      {
+        "software": "west-reallegal-e-transcript-reporter-edition",
+        "display_name": "West RealLegal E-Transcript Reporter Edition"
+      },
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      },
+      {
+        "software": "microsoft-photos",
+        "display_name": "Microsoft Photos"
+      },
+      {
+        "software": "ufraw",
+        "display_name": "UFRaw"
+      },
+      {
+        "software": "corel-paintshop-pro-2023",
+        "display_name": "Corel PaintShop Pro 2023"
+      },
+      {
+        "software": "plants-vs.-zombies-2-hacking-tools",
+        "display_name": "Plants vs. Zombies 2 Hacking Tools"
+      }
+    ],
+    "macos": [
+      {
+        "software": "avid-pro-tools",
+        "display_name": "Avid Pro Tools"
+      },
+      {
+        "software": "west-reallegal-e-transcript-viewer",
+        "display_name": "West RealLegal E-Transcript Viewer"
+      },
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      },
+      {
+        "software": "ufraw",
+        "display_name": "UFRaw"
+      },
+      {
+        "software": "macphun-colorstrokes",
+        "display_name": "MacPhun ColorStrokes",
+        "status": "discontinued"
+      }
+    ],
+    "linux": [
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      },
+      {
+        "software": "ufraw-unidentified-flying-raw",
+        "display_name": "UFRaw (Unidentified Flying Raw)"
+      },
+      {
+        "software": "the-gimp-with-ufraw-plugin",
+        "display_name": "The GIMP with UFRaw plugin"
+      }
+    ],
+    "web": [
+      {
+        "software": "tom-s-editor",
+        "display_name": "Tom's Editor"
+      },
+      {
+        "software": "pentax-photo-browser-or-photo-laboratory",
+        "display_name": "Pentax Photo Browser or Photo Laboratory"
+      },
+      {
+        "software": "pentax-photo-browser-or-photo",
+        "display_name": "Pentax Photo Browser or Photo"
+      }
+    ],
+    "ios": [
+      {
+        "software": "popcap-games-plants-vs.-zombies-2",
+        "display_name": "PopCap Games Plants Vs. Zombies 2"
+      }
+    ],
+    "android": [
+      {
+        "software": "popcap-games-plants-vs.-zombies-2",
+        "display_name": "PopCap Games Plants Vs. Zombies 2"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "PTX file icon",
+      "alt": "PTX file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/ptx-8664.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-04-11",
+  "sources": [
+    {
+      "url": "ptx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

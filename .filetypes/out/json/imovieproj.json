@@ -1,0 +1,53 @@
+{
+  "slug": "imovieproj",
+  "extension": "imovieproj",
+  "name": "iMovie Project File",
+  "category": "imovie-project-file",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 2.9,
+    "votes": 12,
+    "source": "fileinfo"
+  },
+  "summary": "An IMOVIEPROJ file is a video-editing project created by versions 5 and 6 of Apple iMovie, a video editor for macOS and iOS devices. It contains video and audio clips, timeline information, special effects, transitions, text overlays, and chapter markers for exporting to a DVD. Apple replaced IMOVIEPROJ files with .RCPROJECT files in 2007 when it released iMovie '08.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "apple-imovie-versions-5-and-6",
+        "display_name": "Apple iMovie (versions 5 and 6)"
+      }
+    ],
+    "windows": [
+      {
+        "software": "apple-imovie-versions-5-and-6",
+        "display_name": "Apple iMovie (versions 5 and 6)"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-10-25",
+  "sources": [
+    {
+      "url": "imovieproj.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

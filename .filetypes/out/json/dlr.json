@@ -1,0 +1,51 @@
+{
+  "slug": "dlr",
+  "extension": "dlr",
+  "name": "finalRender Plugin",
+  "category": "finalrender-plugin",
+  "developer_org": "cebas-visual-technology",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "Plugin created by finalRender for Autodesk 3ds Max, a 3D modeling program for games, films and other motion graphics entertainment; contains features like shadow and atmosphere effects referenced by Autodesk 3ds Max.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "cebas-visual-technology-finalrender",
+        "display_name": "cebas Visual Technology finalRender"
+      },
+      {
+        "software": "autodesk-3ds-max-2023",
+        "display_name": "Autodesk 3ds Max 2023"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2013-12-02",
+  "sources": [
+    {
+      "url": "dlr.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "t3x",
+  "extension": "t3x",
+  "name": "TYPO3 Compressed Extension",
+  "category": "typo3-compressed-extension",
+  "developer_org": "typo3",
+  "popularity": {
+    "rating": 2.8,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Adds extra functions and capabilities to TYPO3, a Web content management framework; TYPO3 extensions are saved in a compressed \"exchange\" format and can be downloaded from the Internet; they can be enabled and disabled using the Extension Manager (EM) included with TYPO 3.5 and later.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "typo3-extension-manager",
+        "display_name": "TYPO3 Extension Manager"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-10-17",
+  "sources": [
+    {
+      "url": "t3x.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

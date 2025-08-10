@@ -1,0 +1,59 @@
+{
+  "slug": "xlam",
+  "extension": "xlam",
+  "name": "Microsoft Excel Macro-Enabled Add-In",
+  "category": "microsoft-excel-macro-enabled-add-in",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 20,
+    "source": "fileinfo"
+  },
+  "summary": "An XLAM file is a macro-enabled add-in used by Microsoft Excel, a spreadsheet application included in the Microsoft Office suite. It is used to add additional commands and features to Excel. Some XLAM files are developed by Microsoft, while others are created by third-party developers and Excel users.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-excel-365",
+        "display_name": "Microsoft Excel 365"
+      }
+    ],
+    "macos": [
+      {
+        "software": "microsoft-excel-365",
+        "display_name": "Microsoft Excel 365"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "XLAM file icon",
+      "alt": "XLAM file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/xlam-1762.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-01-29",
+  "sources": [
+    {
+      "url": "xlam.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

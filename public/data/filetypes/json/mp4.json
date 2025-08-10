@@ -1,0 +1,63 @@
+{
+  "slug": "mp4",
+  "extension": "mp4",
+  "name": "MPEG-4 Video",
+  "summary": "An MP4 file stores a video in the widely used MPEG-4 Part 14 (MP4) multimedia container format. It typically contains video and audio data (and related metadata ) but may also store subtitles and still images. Since MP4 is a standard format, you can open MP4 files with most media players, including Microsoft Media Player and Apple QuickTime Player .",
+  "developer": "Moving Picture Experts Group",
+  "developer_slug": "moving-picture-experts-group",
+  "category": "Video Files",
+  "category_slug": "video-files",
+  "rating": 3.9,
+  "votes": 2992,
+  "last_updated": "January 4, 2024",
+  "more_information": {
+    "content": [
+      "In the late 1990s, the ISO and IEC organizations commissioned the Moving Picture Experts Group (MPEG) to develop an international standard for audio and video coding formats. This initiative resulted in the formation of the MP4 format, which MPEG released in 2001 and subsequently updated in 2003 with version 2 of the format.",
+      "Since its release, MP4 has become one of the most common formats for storing and sharing video. The format's popularity is partially due to its ability to save videos at smaller file sizes than most other formats without much loss in quality. This advantage made MP4 an excellent option for exporting videos and sharing them online.",
+      "The MP4 format is an extension of the QuickTime File Format (QTFF), used in .MOV and .QT video files. It is a container format that supports different data streams, including video, audio, subtitles, and metadata, with each stream encoded by different codecs , as detailed below:",
+      "Furthermore, the MP4 container supports both lossless and lossy codecs. For example, MP4 supports the lossless MPEG-4 SLS and lossy AAC audio codecs.",
+      "However, MP4 only supports lossy video codecs, which compress video data at varying levels. For example, the popular H.264 video codec featured in many MP4 files uses lossy compression to significantly reduce video data stream sizes, which is helpful when sharing MP4 files online (e.g., uploading videos to YouTube and Vimeo).",
+      "NOTE: MP4 files that store only audio data typically use the .m4a extension ( .M4A files)."
+    ],
+    "screenshot": {
+      "url": "https://fileinfo.com/img/ss/sm/mp4_60.jpg",
+      "srcset": "https://fileinfo.com/img/ss/md/mp4_60.jpg 760w, https://fileinfo.com/img/ss/sm/mp4_60.jpg 380w",
+      "alt": "Screenshot of a .mp4 file in Microsoft Media Player 11",
+      "width": "380",
+      "height": "253",
+      "caption": "MP4 file open in Microsoft Media Player 11"
+    }
+  },
+  "how_to_open": {
+    "instructions": [
+      "You can open and play an MP4 file with most media players. For example, you can open an MP4 file in Windows with the bundled Microsoft Movies & TV and Media Player apps.",
+      "On a Mac, you can open an MP4 file with the bundled Apple QuickTime Player . You can also play MP4 files with the cross-platform VLC media player or in a web browser, such as Google Chrome or Microsoft Edge .",
+      "Additionally, you can double-tap MP4 files on iOS and Android devices to play them with their platforms' default media players. However, if you are looking for more advanced playback options, you can open MP4 files with VLC for iOS or VLC for Android .",
+      "MP4 file open in Adobe Premiere Pro 2023 Many video editors allow you to import and edit MP4 videos. Some options include: Blackmagic Design DaVinci Resolve (cross-platform) Adobe Premiere Pro (Windows, Mac) Corel VideoStudio (Windows) Apple Final Cut Pro (Mac)",
+      "Many video editors allow you to import and edit MP4 videos. Some options include:"
+    ],
+    "programs": [
+      {
+        "name": "Blackmagic Design DaVinci Resolve",
+        "url": "../software/blackmagic_design/davinci_resolve.html"
+      },
+      {
+        "name": "Adobe Premiere Pro",
+        "url": "../software/adobe/premiere_pro.html"
+      },
+      {
+        "name": "Corel VideoStudio",
+        "url": "../software/corel/videostudio.html"
+      },
+      {
+        "name": "Apple Final Cut Pro",
+        "url": "../software/apple/final_cut_pro.html"
+      }
+    ]
+  },
+  "scraped_at": "2025-08-09T21:58:54.764953",
+  "source": {
+    "url": "https://fileinfo.com/extension/mp4",
+    "file": "mp4.html"
+  }
+}

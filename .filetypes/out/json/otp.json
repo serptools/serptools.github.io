@@ -1,0 +1,112 @@
+{
+  "slug": "otp",
+  "extension": "otp",
+  "name": "OpenDocument Presentation Template",
+  "category": "1.-opendocument-presentation-template",
+  "developer_org": "oasis",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 24,
+    "source": "fileinfo"
+  },
+  "summary": "An OTP file is a presentation template created by Impress, a presentation program included with Apache OpenOffice (formerly known as OpenOffice.org). It contains a presentation, which includes a master slide as well as a content slide with text, images, shapes, multimedia content, transition effects, and other slide elements. Impress users create OTP files to duplicate .ODP presentations with similar appearance and content.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "openoffice-impress",
+        "display_name": "OpenOffice Impress"
+      },
+      {
+        "software": "libreoffice",
+        "display_name": "LibreOffice"
+      },
+      {
+        "software": "planamesa-neooffice",
+        "display_name": "Planamesa NeoOffice",
+        "status": "discontinued"
+      },
+      {
+        "software": "collabora-office",
+        "display_name": "Collabora Office"
+      },
+      {
+        "software": "originlab-origin",
+        "display_name": "OriginLab Origin"
+      }
+    ],
+    "macos": [
+      {
+        "software": "openoffice-impress",
+        "display_name": "OpenOffice Impress"
+      },
+      {
+        "software": "planamesa-neooffice",
+        "display_name": "Planamesa NeoOffice",
+        "status": "discontinued"
+      },
+      {
+        "software": "libreoffice",
+        "display_name": "LibreOffice"
+      }
+    ],
+    "linux": [
+      {
+        "software": "openoffice-impress",
+        "display_name": "OpenOffice Impress"
+      },
+      {
+        "software": "libreoffice",
+        "display_name": "LibreOffice"
+      }
+    ],
+    "ios": [
+      {
+        "software": "collabora-office",
+        "display_name": "Collabora Office"
+      }
+    ],
+    "android": [
+      {
+        "software": "collabora-office",
+        "display_name": "Collabora Office"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "OTP file icon",
+      "alt": "OTP file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/otp-722.png"
+    },
+    {
+      "caption": "OTP file open in Apache OpenOffice Impress 4",
+      "alt": "OTP file open in Apache OpenOffice Impress 4",
+      "source_url": "https://fileinfo.com/img/ss/md/otp_722.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-06-22",
+  "sources": [
+    {
+      "url": "otp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

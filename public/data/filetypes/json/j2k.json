@@ -1,0 +1,35 @@
+{
+  "slug": "j2k",
+  "extension": "j2k",
+  "name": "JPEG 2000 Image",
+  "category": "jpeg-2000-image",
+  "summary": "",
+  "developer_org": "joint-photographic-experts-group",
+  "developer_name": "Joint Photographic Experts Group",
+  "more_information": {
+    "screenshot": {
+      "url": "https://fileinfo.com/img/ss/sm/j2k_610.jpg",
+      "alt": "Screenshot of a .j2k file in Apple Preview 11",
+      "caption": "J2K file open in Apple Preview 11"
+    },
+    "description": [
+      "The Joint Photographic Experts Group ( JPEG ) committee created the JPEG 2000 format in 2000 to replace the JPEG format. However, few applications and platforms adopted the format, and the JPEG format is still overwhelmingly favored.",
+      "There are several differences between J2K files and JPG files. For example, J2K files use wavelet compression instead of the Discrete Cosine Transform (DCT) compression used by standard .JPEG images. Also, J2K files store metadata that describes the image in the XML standard instead of the Exchangeable Image File Format ( EXIF ).",
+      "NOTE: JPEG 2000 images may be saved with file extensions other than .j2k . Other common extensions include .jp2 ( .JP2 files) and .jpx ( .JPX files)."
+    ]
+  },
+  "images": [
+    {
+      "url": "https://fileinfo.com/img/ss/sm/j2k_610.jpg",
+      "alt": "Screenshot of a .j2k file in Apple Preview 11",
+      "caption": "J2K file open in Apple Preview 11"
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "j2k.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

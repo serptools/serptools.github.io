@@ -1,0 +1,47 @@
+{
+  "slug": "fb!",
+  "extension": "fb!",
+  "name": "FlashGet Incomplete Download File",
+  "category": "flashget-incomplete-download-file",
+  "developer_org": "flashget",
+  "popularity": {
+    "rating": 4.1,
+    "votes": 15,
+    "source": "fileinfo"
+  },
+  "summary": "Temporary file created by FlashGet, a download manager program for Windows; stores the incomplete contents of a file as it is downloaded; managed automatically by the software and can be used to resume incomplete downloads.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "flashget",
+        "display_name": "FlashGet"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-04-19",
+  "sources": [
+    {
+      "url": "fb!.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "advs",
+  "extension": "advs",
+  "name": "Adobe Device Central Device Set",
+  "category": "adobe-device-central-device-set",
+  "developer_org": "adobe-systems",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "Data file created by Adobe Device Central, a program used for testing and deploying Flash content to mobile devices; saves information about a group of mobile devices (phones, tablets, etc.) that are being targeted for Flash application deployment; can be shared between a team of developers.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "adobe-device-central",
+        "display_name": "Adobe Device Central"
+      }
+    ],
+    "macos": [
+      {
+        "software": "adobe-device-central",
+        "display_name": "Adobe Device Central"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-07-06",
+  "sources": [
+    {
+      "url": "advs.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

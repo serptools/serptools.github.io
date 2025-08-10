@@ -1,0 +1,47 @@
+{
+  "slug": "mv_",
+  "extension": "mv_",
+  "name": "Movie Studio Project Backup",
+  "category": "movie-studio-project-backup",
+  "developer_org": "magix",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "An MV_ file is a backup movie file created by MAGIX Movie Studio, a program for editing home movies. It contains a backup of an .MVP movie file that Movie Studio automatically creates at regular intervals. Movie Studio loads MV_ files to restore movies if the MVP projects become corrupt.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "magix-movie-studio",
+        "display_name": "MAGIX Movie Studio"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-11-09",
+  "sources": [
+    {
+      "url": "mv_.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

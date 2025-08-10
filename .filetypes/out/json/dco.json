@@ -1,0 +1,48 @@
+{
+  "slug": "dco",
+  "extension": "dco",
+  "name": "Safetica Free Encrypted Virtual Disk Archive",
+  "category": "safetica-free-encrypted-virtual-disk-archive",
+  "developer_org": "safetica-technologies",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "File created by Safetica Free, a program used for securely encrypting personal and business data; stores a virtual disk in an encrypted format and can be securely stored on external devices such as USB keys; similar to a .DCF file, which is used for encrypted file archives.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "safetica-free",
+        "display_name": "Safetica Free",
+        "pricing": "free"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-05-25",
+  "sources": [
+    {
+      "url": "dco.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

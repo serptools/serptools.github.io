@@ -1,0 +1,47 @@
+{
+  "slug": "mflink",
+  "extension": "mflink",
+  "name": "M-Files Desktop Shortcut",
+  "category": "m-files-desktop-shortcut",
+  "developer_org": "m-files-corporation",
+  "popularity": {
+    "rating": 1.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "An MFLINK file is a desktop shortcut, or \"link,\" created by M-Files Desktop, which is the primary user interface for the M-Files electronic content management (ECM) system. It contains data about a file stored in an organization's M-Files vault. Double-clicking an MFLINK file opens the related file in M-Files Desktop (provided you have the credentials necessary to open the file).",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "m-files-desktop",
+        "display_name": "M-Files Desktop"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-07-21",
+  "sources": [
+    {
+      "url": "mflink.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

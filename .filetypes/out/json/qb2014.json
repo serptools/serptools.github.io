@@ -1,0 +1,47 @@
+{
+  "slug": "qb2014",
+  "extension": "qb2014",
+  "name": "QuickBooks 2014 File",
+  "category": "quickbooks-2014-file",
+  "developer_org": "intuit",
+  "popularity": {
+    "rating": 3.1,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "File created by QuickBooks for Mac, a financial management application; contains financial data for a company including employee profiles, payroll information, and customer data; can generate tax forms, invoices, financial reports, and more.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "intuit-quickbooks-for-mac",
+        "display_name": "Intuit QuickBooks for Mac"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-01-30",
+  "sources": [
+    {
+      "url": "qb2014.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

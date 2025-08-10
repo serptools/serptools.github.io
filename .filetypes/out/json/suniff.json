@@ -1,0 +1,63 @@
+{
+  "slug": "suniff",
+  "extension": "suniff",
+  "name": "Sun TAAC IFF Image",
+  "category": "sun-taac-iff-image",
+  "developer_org": "sun-microsystems",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "A SUNIFF file is a raster image saved in the Sun TAAC Image File Format (SUNIFF). It contains a paletted, full RGB or RGBA image. SUNIFF files are uncompressed.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      },
+      {
+        "software": "logipole-konvertor",
+        "display_name": "Logipole Konvertor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      }
+    ],
+    "linux": [
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-08-18",
+  "sources": [
+    {
+      "url": "suniff.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

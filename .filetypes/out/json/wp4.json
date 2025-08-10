@@ -1,0 +1,47 @@
+{
+  "slug": "wp4",
+  "extension": "wp4",
+  "name": "WordPerfect 4 Document",
+  "category": "wordperfect-4-document",
+  "developer_org": "corel",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "Word processing document created by WordPerfect 4.x for DOS, the first version to include automatic paragraph numbering; overtook WordStar as the most popular word processor for the DOS platform.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "corel-wordperfect-2021",
+        "display_name": "Corel WordPerfect 2021"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-03-25",
+  "sources": [
+    {
+      "url": "wp4.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

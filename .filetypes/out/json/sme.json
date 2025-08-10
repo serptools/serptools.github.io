@@ -1,0 +1,75 @@
+{
+  "slug": "sme",
+  "extension": "sme",
+  "name": "Samsung Mobile Backup File",
+  "category": "1.-samsung-mobile-backup-file",
+  "developer_org": "samsung",
+  "popularity": {
+    "rating": 2.8,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "An SME file is a backup file created by Samsung backup programs, such as Kies and Smart Switch. It stores an archive of backup data for your mobile phone, which includes short text (SMS) messages and memos. SME files are similar to .SBU backup files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "samsung-kies",
+        "display_name": "Samsung Kies"
+      },
+      {
+        "software": "samsung-smart-switch",
+        "display_name": "Samsung Smart Switch"
+      },
+      {
+        "software": "samsung-smart-switch-mobile",
+        "display_name": "Samsung Smart Switch Mobile"
+      },
+      {
+        "software": "smart-soft-smartencryptor",
+        "display_name": "Smart Soft SmartEncryptor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "samsung-kies",
+        "display_name": "Samsung Kies"
+      },
+      {
+        "software": "samsung-smart-switch",
+        "display_name": "Samsung Smart Switch"
+      }
+    ],
+    "android": [
+      {
+        "software": "samsung-smart-switch-mobile",
+        "display_name": "Samsung Smart Switch Mobile"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-05-31",
+  "sources": [
+    {
+      "url": "sme.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

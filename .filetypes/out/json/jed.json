@@ -1,0 +1,53 @@
+{
+  "slug": "jed",
+  "extension": "jed",
+  "name": "Xilinx JEDEC Programming File",
+  "category": "xilinx-jedec-programming-file",
+  "developer_org": "xilinx",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "Xilinx JEDEC (Joint Electron Device Engineering Council) project file; used for programming computer hardware devices, such as microprocessors ; must be lowercase (.jed, not .JED ) in order to be recognized by Xilinx iMPACT.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "xilinx-ise-design-suite",
+        "display_name": "Xilinx ISE Design Suite"
+      }
+    ],
+    "linux": [
+      {
+        "software": "xilinx-ise-design-suite",
+        "display_name": "Xilinx ISE Design Suite"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2013-09-03",
+  "sources": [
+    {
+      "url": "jed.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

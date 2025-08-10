@@ -1,0 +1,51 @@
+{
+  "slug": "tfil",
+  "extension": "tfil",
+  "name": "Blizzard Software Update File",
+  "category": "blizzard-software-update-file",
+  "developer_org": "blizzard-entertainment",
+  "popularity": {
+    "rating": 4.1,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "Update file used by Blizzard games such as World of Warcraft and Diablo III; contains information used for patching the game software and required for the game to patch and update properly; saved in a binary format in the root directory of the game installation.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "blizzard-world-of-warcraft",
+        "display_name": "Blizzard World of Warcraft"
+      },
+      {
+        "software": "blizzard-diablo-3",
+        "display_name": "Blizzard Diablo 3"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-04-24",
+  "sources": [
+    {
+      "url": "tfil.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

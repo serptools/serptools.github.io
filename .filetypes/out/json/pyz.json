@@ -1,0 +1,59 @@
+{
+  "slug": "pyz",
+  "extension": "pyz",
+  "name": "Python Application Zip File",
+  "category": "python-application-zip-file",
+  "developer_org": "python-software-foundation",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "A PYZ file is an executable Python application stored in a compressed or uncompressed .ZIP archive. It contains a .PY script (likely named __main__.py ) and may also include Python modules, libraries, and resource files. Users package and share Python applications as PYZ files to share with others who can securely run them across different platforms without installation.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "python-software-foundation-python",
+        "display_name": "Python Software Foundation Python"
+      }
+    ],
+    "macos": [
+      {
+        "software": "python-software-foundation-python",
+        "display_name": "Python Software Foundation Python"
+      }
+    ],
+    "linux": [
+      {
+        "software": "python-software-foundation-python",
+        "display_name": "Python Software Foundation Python"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2024-08-28",
+  "sources": [
+    {
+      "url": "pyz.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

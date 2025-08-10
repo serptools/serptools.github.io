@@ -1,0 +1,60 @@
+{
+  "slug": "bca",
+  "extension": "bca",
+  "name": "BCArchive Encrypted Archive",
+  "category": "bcarchive-encrypted-archive",
+  "developer_org": "jetico",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "A BCA file is an encrypted , compressed archive created by Jetico BCArchive. It contains one or more files, such as a group of documents, images, and/or videos, that a user has chosen to store in the archive. BCA files can be opened and edited in BCArchive, provided you know the password or public key used to create them.",
+  "standards": [],
+  "mime_types": [
+    "and/or"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "jetico-bcarchive",
+        "display_name": "Jetico BCArchive"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "BCA file icon",
+      "alt": "BCA file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/bca-12343.png"
+    },
+    {
+      "caption": "BCA file open in Jetico BCArchive",
+      "alt": "BCA file open in Jetico BCArchive",
+      "source_url": "https://fileinfo.com/img/ss/md/bca_12343.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-10-01",
+  "sources": [
+    {
+      "url": "bca.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

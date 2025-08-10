@@ -1,0 +1,95 @@
+{
+  "slug": "toml",
+  "extension": "toml",
+  "name": "TOML Configuration File",
+  "category": "toml-configuration-file",
+  "developer_org": "tom-preston-werner",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 28,
+    "source": "fileinfo"
+  },
+  "summary": "A TOML file is a settings file saved in the TOML (Tom's Obvious, Minimal Language) format. Various programs use TOML files to load configuration settings. For example, Minecraft Forge, a popular Minecraft modding program, loads settings from TOML files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      }
+    ],
+    "macos": [
+      {
+        "software": "gnu-emacs",
+        "display_name": "GNU Emacs"
+      },
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "TOML file open in Microsoft Visual Studio Code",
+      "alt": "TOML file open in Microsoft Visual Studio Code",
+      "source_url": "https://fileinfo.com/img/ss/md/toml_11514.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-12-28",
+  "sources": [
+    {
+      "url": "toml.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

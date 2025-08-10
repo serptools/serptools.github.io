@@ -1,0 +1,59 @@
+{
+  "slug": "iwi",
+  "extension": "iwi",
+  "name": "Infinity Ward Texture File",
+  "category": "infinity-ward-texture-file",
+  "developer_org": "activision",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 18,
+    "source": "fileinfo"
+  },
+  "summary": "Graphics file used by the Infinity Ward game engine, which was used for some Call of Duty and James Bond first-person shooter games; stores textures for game models; used for overlaying graphics on NPCs, weapons, buildings, terrain, and other objects.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "activision-call-of-duty-black-ops",
+        "display_name": "Activision Call of Duty: Black Ops"
+      },
+      {
+        "software": "activision-call-of-duty-world-at-war",
+        "display_name": "Activision Call of Duty: World at War"
+      },
+      {
+        "software": "activision-call-of-duty-4-modern-warfare",
+        "display_name": "Activision Call of Duty 4: Modern Warfare"
+      },
+      {
+        "software": "activision-call-of-duty-modern-warfare-2",
+        "display_name": "Activision Call of Duty: Modern Warfare 2"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-09-21",
+  "sources": [
+    {
+      "url": "iwi.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

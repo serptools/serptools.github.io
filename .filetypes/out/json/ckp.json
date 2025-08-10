@@ -1,0 +1,47 @@
+{
+  "slug": "ckp",
+  "extension": "ckp",
+  "name": "SQL Server Checkpoint File",
+  "category": "sql-server-checkpoint-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 2.7,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "Database file created by SQL Server, a relational database application; created by SQL Server when performing a restore so that the restore operation can be restarted if a failure occurs; stores database log information that is written during the restore.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-sql-server-2019",
+        "display_name": "Microsoft SQL Server 2019"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-09-20",
+  "sources": [
+    {
+      "url": "ckp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

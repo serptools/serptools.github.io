@@ -1,0 +1,51 @@
+{
+  "slug": "san",
+  "extension": "san",
+  "name": "Smush Animation File",
+  "category": "smush-animation-file",
+  "developer_org": "lucasarts",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "A SAN file is an animation saved in the Smush Animation (SAN) format, a video format used in various LucasArts games. It contains full motion video which is pre-recorded video used as a narration technique for displaying action scenes in the game.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "san-player",
+        "display_name": "SAN Player"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2016-10-05",
+  "sources": [
+    {
+      "url": "san.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

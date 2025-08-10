@@ -1,0 +1,22 @@
+{
+  "slug": "ci",
+  "extension": "ci",
+  "name": "Windows Content Indexer Catalog File",
+  "category": "windows-content-indexer-catalog-file",
+  "summary": "",
+  "developer_org": "the-mathworks",
+  "developer_name": "The MathWorks",
+  "more_information": {
+    "description": [
+      "CI files commonly be found in user or system directories within a folder called \\​catalog.wci\\​ . They shouldn't be manually opened or edited, since they are system level files.",
+      "CI files are created by the Windows Search service (formerly Indexing Service), which is the program C:\\​Windows\\​System32\\​cisvc.exe . This service can be turned off using the Windows Features window, which can be located by typing \"Windows Search\" in the Windows Start menu search box. However, once turned off, Windows Search is no longer available in the Windows Explorer or from the Start menu."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "ci.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

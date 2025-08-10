@@ -1,0 +1,49 @@
+{
+  "slug": "p21",
+  "extension": "p21",
+  "name": "Express STEP Data Model File",
+  "category": "express-step-data-model-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "3D model format used for three-dimensional product data representation and exchange; saved in an ACSII text format specified by ISO 10303-21; used primarily for industrial automation systems and integration purposes.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "lksoft-jsdai-for-eclipse",
+        "display_name": "LKSoft JSDAI for Eclipse"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2008-11-22",
+  "sources": [
+    {
+      "url": "p21.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

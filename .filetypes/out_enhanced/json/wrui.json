@@ -1,0 +1,22 @@
+{
+  "slug": "wrui",
+  "extension": "wrui",
+  "name": "WRUI Ransomware Encrypted File",
+  "category": "wrui-ransomware-encrypted-file",
+  "summary": "",
+  "developer_org": "n-a",
+  "developer_name": "N/A",
+  "more_information": {
+    "description": [
+      "In April 2021, some PC users began reporting that their computers had been infected by ransomware that came packaged within the B6F6.exe and MicrosoftToolkit.exe executables . The executables contained several viruses, one of which encrypted many of the users' files and renamed the files to use the .wrui extension.",
+      "WRUI ransomware is a variant of STOP ransomware, which is one of the most common types of ransomware. Other variants of STOP ransomware append users' files with the .STOP , .DJVU , .rumba , .gero , or .CADQ extensions. All variants of STOP ransomware produce ransom messages named _readme.txt in affected folders, which contain instructions a user is meant to follow to decrypt their files."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "wrui.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

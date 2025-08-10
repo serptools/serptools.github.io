@@ -1,0 +1,47 @@
+{
+  "slug": "orc",
+  "extension": "orc",
+  "name": "Voyetra Digital Orchestrator File",
+  "category": "voyetra-digital-orchestrator-file",
+  "developer_org": "voyetra",
+  "popularity": {
+    "rating": 1.0,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Song file created by Voyetra Digital Orchestrator, a music production application; can include multiple tracks and supports MIDI instruments and imported audio data; used for saving musical compositions.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "voyetra-digital-orchestrator",
+        "display_name": "Voyetra Digital Orchestrator"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-08-22",
+  "sources": [
+    {
+      "url": "orc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

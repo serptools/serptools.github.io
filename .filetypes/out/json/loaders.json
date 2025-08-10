@@ -1,0 +1,55 @@
+{
+  "slug": "loaders",
+  "extension": "loaders",
+  "name": "GTK+ Loaders File",
+  "category": "gtk+-loaders-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "Program support file used by applications that use GTK+ (the GIMP Toolkit), a framework used for creating multi-platform GUIs ; contains data used in the process of loading and updating GTK+ components.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "linux": [
+      {
+        "software": "gtk",
+        "display_name": "GTK"
+      }
+    ],
+    "windows": [
+      {
+        "software": "gtk",
+        "display_name": "GTK"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-08-09",
+  "sources": [
+    {
+      "url": "loaders.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

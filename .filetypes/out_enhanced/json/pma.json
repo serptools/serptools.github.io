@@ -1,0 +1,23 @@
+{
+  "slug": "pma",
+  "extension": "pma",
+  "name": "Windows NT Performance Monitor Analytics",
+  "category": "windows-nt-performance-monitor-analytics",
+  "summary": "",
+  "developer_org": "microsoft",
+  "developer_name": "Microsoft",
+  "more_information": {
+    "description": [
+      "Windows Performance Monitor is a Microsoft Management Console component that allows system administrators to monitor and report on system performance. Application developers can use Performance Monitor's performance tracking framework to automatically gather usage and crash report data for an application, provided you allow the app to track and record your usage data.",
+      "For example, when you install Google Chrome on Windows, you are presented with the option to Automatically send usage statistics and crash reports to Google. If you enable this feature, Chrome will periodically create PMA files and send the data they contain to Google.",
+      "While Chromium-based web browsers, like Chrome, are the most popular applications that create PMA files, other applications also create them. For example, Microsoft Visual Studio Code creates PMA files that log crash report data. PMA files are often located in an app's AppData/​Local/​DeveloperName/​AppName/​User Data or C:/​Program Files (x86)/​DeveloperName/​AppName/​Application/​SetupMetrics directories, or the shared AppData/​Local/​Temp directory."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "pma.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

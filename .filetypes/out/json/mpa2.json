@@ -1,0 +1,59 @@
+{
+  "slug": "mpa2",
+  "extension": "mpa2",
+  "name": "MPEG-2 Audio Stream",
+  "category": "mpeg-2-audio-stream",
+  "developer_org": "moving-picture-experts-group",
+  "popularity": {
+    "rating": 1.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "An MPA2 file is an audio file encoded using MPEG-1 Layer II encoding. It contains audio that likely corresponds to an associated .MPV2 video. Moviemakers pair MPA2 and MPV2 files in video-editing applications to create movies.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      }
+    ],
+    "macos": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      }
+    ],
+    "linux": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-11-09",
+  "sources": [
+    {
+      "url": "mpa2.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

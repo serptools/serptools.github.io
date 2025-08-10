@@ -1,0 +1,53 @@
+{
+  "slug": "unt",
+  "extension": "unt",
+  "name": "AutoCAD Unit Definition File",
+  "category": "autocad-unit-definition-file",
+  "developer_org": "autodesk",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "Settings file used by AutoCAD, a CAD productivity application used for drafting 2D and 3D designs; contains unit definitions and scales, such as conversions between miles and kilometers or Fahrenheit and Celsius; ensures that the proper units, scales, and unit conversions are used within a drawing.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "autodesk-autocad-2025",
+        "display_name": "Autodesk AutoCAD 2025"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "UNT file icon",
+      "alt": "UNT file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/unt-5310.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-09-08",
+  "sources": [
+    {
+      "url": "unt.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

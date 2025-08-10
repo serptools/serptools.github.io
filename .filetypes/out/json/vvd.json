@@ -1,0 +1,55 @@
+{
+  "slug": "vvd",
+  "extension": "vvd",
+  "name": "Vivid 3D Scanner Element File",
+  "category": "vivid-3d-scanner-element-file",
+  "developer_org": "konica-minolta",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 17,
+    "source": "fileinfo"
+  },
+  "summary": "3D image created using Minolta's Vivid 3D Scanner; generated from multiple scans that are combined into a single 3D mesh; can be opened and edited with Minolta's Polygon Editing Tool (PET) as well as various other third-party programs.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "konica-minolta-polygon-editing-tool-pet",
+        "display_name": "Konica Minolta Polygon Editing Tool (PET)"
+      },
+      {
+        "software": "okino-computer-graphics-polytrans-with-minolta-geometry-import-converter",
+        "display_name": "Okino Computer Graphics PolyTrans with Minolta Geometry Import Converter"
+      },
+      {
+        "software": "polyworks-modeler-with-imalign-plugin",
+        "display_name": "Polyworks Modeler with IMAlign Plugin"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-05-10",
+  "sources": [
+    {
+      "url": "vvd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

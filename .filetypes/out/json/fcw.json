@@ -1,0 +1,61 @@
+{
+  "slug": "fcw",
+  "extension": "fcw",
+  "name": "FastCAD Windows Drawing",
+  "category": "fastcad-windows-drawing",
+  "developer_org": "evolution-computing",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 13,
+    "source": "fileinfo"
+  },
+  "summary": "An FCW file is a 2D or 3D design created with FastCAD for Windows, a professional 3D modeling and rendering program. It may include three-dimensional objects with colors or texture mapping.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "evolution-computing-fastcad",
+        "display_name": "Evolution Computing FastCAD"
+      },
+      {
+        "software": "imsi-turbocad-pro",
+        "display_name": "IMSI TurboCAD Pro"
+      },
+      {
+        "software": "imsi-turbocad-deluxe",
+        "display_name": "IMSI TurboCAD Deluxe"
+      }
+    ],
+    "macos": [
+      {
+        "software": "imsi-turbocad-deluxe",
+        "display_name": "IMSI TurboCAD Deluxe"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-06-16",
+  "sources": [
+    {
+      "url": "fcw.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

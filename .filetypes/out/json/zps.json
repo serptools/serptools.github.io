@@ -1,0 +1,71 @@
+{
+  "slug": "zps",
+  "extension": "zps",
+  "name": "Zebra Portable Safe File",
+  "category": "1.-zebra-portable-safe-file",
+  "developer_org": "zebra-digital-assets",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "Encrypted archive created by ZPS Explorer, a program used for securely sharing files; contains one or more files (documents, pictures, etc.) that the user wants to protect and share; incorporates encryption, but uses a private key owned by the archive's creator rather than passwords.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "zebra-digital-assets-zps-explorer",
+        "display_name": "Zebra Digital Assets ZPS Explorer"
+      },
+      {
+        "software": ".jpg",
+        "display_name": ".JPG"
+      },
+      {
+        "software": ".png",
+        "display_name": ".PNG"
+      },
+      {
+        "software": ".avif",
+        "display_name": ".AVIF"
+      },
+      {
+        "software": ".jxl",
+        "display_name": ".JXL"
+      },
+      {
+        "software": ".pdf",
+        "display_name": ".PDF"
+      },
+      {
+        "software": "zoner-photo-studio-x",
+        "display_name": "Zoner Photo Studio X"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-10-25",
+  "sources": [
+    {
+      "url": "zps.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

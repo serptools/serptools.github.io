@@ -1,0 +1,85 @@
+{
+  "slug": "szs",
+  "extension": "szs",
+  "name": "Wii Game Data File",
+  "category": "1.-wii-game-data-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 48,
+    "source": "fileinfo"
+  },
+  "summary": "Data file used by games for the Nintendo Wii; most commonly known for storing 3D model and texture data for the Wii game Mario Kart, but also used by other games for the same kinds of data as well as other types of data; sometimes modified by the homebrew and modding communities to create custom Mario Kart graphics.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "ctools",
+        "display_name": "CTools"
+      },
+      {
+        "software": "szs-modifier",
+        "display_name": "SZS Modifier"
+      },
+      {
+        "software": "wiimms-szs-tools",
+        "display_name": "Wiimms SZS Tools"
+      },
+      {
+        "software": "brawlbox",
+        "display_name": "BrawlBox"
+      },
+      {
+        "software": "switch-toolbox",
+        "display_name": "Switch-Toolbox"
+      },
+      {
+        "software": "sarc-tool",
+        "display_name": "SARC Tool"
+      },
+      {
+        "software": "szstools",
+        "display_name": "szstools"
+      }
+    ],
+    "macos": [
+      {
+        "software": "wiimms-szs-tools",
+        "display_name": "Wiimms SZS Tools"
+      }
+    ],
+    "linux": [
+      {
+        "software": "wiimms-szs-tools",
+        "display_name": "Wiimms SZS Tools"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-12-23",
+  "sources": [
+    {
+      "url": "szs.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

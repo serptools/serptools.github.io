@@ -1,0 +1,53 @@
+{
+  "slug": "xlmv",
+  "extension": "xlmv",
+  "name": "Xunlei Movie File",
+  "category": "xunlei-movie-file",
+  "developer_org": "thunder-network-technologies",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "Video file used by Xunlei, a Chinese Internet download manager also referred to as \"Thunder;\" used by the Xunlei Movie digital movie service, which provides online movies for video playback in the Xunlei software; saves the video in a proprietary format.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "thunder",
+        "display_name": "Thunder"
+      }
+    ],
+    "macos": [
+      {
+        "software": "thunder",
+        "display_name": "Thunder"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-01-09",
+  "sources": [
+    {
+      "url": "xlmv.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

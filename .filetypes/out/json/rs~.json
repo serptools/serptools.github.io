@@ -1,0 +1,101 @@
+{
+  "slug": "rs~",
+  "extension": "rs~",
+  "name": "Rust Source Code Development File",
+  "category": "rust-source-code-development-file",
+  "developer_org": "rust-foundation",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "An RS~ file contains Rust source code similar to an .RS file, but developers use it during the development stage to signify to themselves and others that the source code is not ready to be compiled. Rust developers then remove the ~ from the .rs~ file extension when they are ready to compile the source code with the Rust rustc compiler to machine code to run as a program on the target platform.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "rust",
+        "display_name": "Rust"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "sublime-text",
+        "display_name": "Sublime Text"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "rust",
+        "display_name": "Rust"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "sublime-text",
+        "display_name": "Sublime Text"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "rust",
+        "display_name": "Rust"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "sublime-text",
+        "display_name": "Sublime Text"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "RS~ file open in Microsoft Visual Studio Code 1.85",
+      "alt": "RS~ file open in Microsoft Visual Studio Code 1.85",
+      "source_url": "https://fileinfo.com/img/ss/md/rs~_13655.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2024-02-19",
+  "sources": [
+    {
+      "url": "rs~.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

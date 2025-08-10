@@ -1,0 +1,23 @@
+{
+  "slug": "bmg",
+  "extension": "bmg",
+  "name": "Nintendo Message File",
+  "category": "nintendo-message-file",
+  "summary": "",
+  "developer_org": "nintendo",
+  "developer_name": "Nintendo",
+  "more_information": {
+    "description": [
+      "You will most likely only encounter BMG files if you are looking to modify messages that appear in the Nintendo game and are navigating the game resource files of a Nintendo game that has been dumped from the original disc or cartridge. BMG files dumped from Wii games are typically stored in a Wii Game Data .SZS file.",
+      "For example, BMG files for Mario Kart Wii are found in the /​messages/​ directory in the SZS file, which is located in the /​Scene/​UI game directory.",
+      "Depending on the game the BMG file is extracted from, you can open and modify BMG files with various programs. Some of these include MKDS Course Modifier, Wiimms SZS Tools, SZS Modifier, and CTools Pack."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "bmg.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

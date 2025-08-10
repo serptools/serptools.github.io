@@ -1,0 +1,53 @@
+{
+  "slug": "timber",
+  "extension": "timber",
+  "name": "Timberborn Saved Game or Map",
+  "category": "timberborn-saved-game-or-map",
+  "developer_org": "mechanistry",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "A TIMBER file is a saved game or map used by Mechanistry Timberborn, a city-building video game. It is a .ZIP file that contains a .JSON file that describes the saved game or map. Players often share TIMBER files with each other online, to distribute custom game maps.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "mechanistry-timberborn",
+        "display_name": "Mechanistry Timberborn"
+      }
+    ],
+    "macos": [
+      {
+        "software": "mechanistry-timberborn",
+        "display_name": "Mechanistry Timberborn"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-11-07",
+  "sources": [
+    {
+      "url": "timber.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

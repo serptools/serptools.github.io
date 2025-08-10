@@ -1,0 +1,47 @@
+{
+  "slug": "jtv",
+  "extension": "jtv",
+  "name": "JRiver TV File",
+  "category": "jriver-tv-file",
+  "developer_org": "jriver",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "Video recording created by JRiver Media Center, a multimedia playback and online streaming application; stores captured video such as Internet television programs; saved in a proprietary format, which can be played back in Media Center.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "jriver-media-center",
+        "display_name": "JRiver Media Center"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-01-15",
+  "sources": [
+    {
+      "url": "jtv.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "slug": "its",
+  "extension": "its",
+  "name": "Impulse Tracker Sample",
+  "category": "1.-impulse-tracker-sample",
+  "developer_org": "jeffrey-lim",
+  "popularity": {
+    "rating": 2.8,
+    "votes": 10,
+    "source": "fileinfo"
+  },
+  "summary": "An ITS file is a sample used by Impulse Tracker, an audio-tracking program. It contains a PCM sample of a sound effect, voice, etc., in the Impulse Tracker Sample (ITS) format. ITS files also store sample metadata , such as the sample name and format version in which it is saved.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "impulse-tracker",
+        "display_name": "Impulse Tracker",
+        "status": "discontinued"
+      },
+      {
+        "software": "cocomodx",
+        "display_name": "CocoModX",
+        "status": "discontinued"
+      },
+      {
+        "software": "microsoft-windows",
+        "display_name": "Microsoft Windows"
+      }
+    ],
+    "macos": [
+      {
+        "software": "cocomodx",
+        "display_name": "CocoModX",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-03-30",
+  "sources": [
+    {
+      "url": "its.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

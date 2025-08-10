@@ -1,0 +1,48 @@
+{
+  "slug": "mnx",
+  "extension": "mnx",
+  "name": "Visual FoxPro Menu",
+  "category": "visual-foxpro-menu",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 2.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "An MNX file is a custom menu file created by Microsoft Visual FoxPro, a database management system. It contains information that defines the layout and functionality of a custom menu system, specifying items, commands, and submenus that users interact with in a FoxPro application. MNX files allow developers to configure customized menus based on the application's requirements.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-visual-foxpro",
+        "display_name": "Microsoft Visual FoxPro",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2024-10-09",
+  "sources": [
+    {
+      "url": "mnx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

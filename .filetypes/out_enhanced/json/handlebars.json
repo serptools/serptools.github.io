@@ -1,0 +1,24 @@
+{
+  "slug": "handlebars",
+  "extension": "handlebars",
+  "name": "Handlebars Template",
+  "category": "handlebars-template",
+  "summary": "",
+  "developer_org": "n-a",
+  "developer_name": "N/A",
+  "more_information": {
+    "description": [
+      "A Handlebars expression is the basic unit of the template and appears like this: {{contents}} .",
+      "To deliver a HANDLEBARS file to the browser, include it in the script tag:",
+      "<script id=\"entry-template\" type=\"text/x-handlebars-template\"> template content </script>",
+      "NOTE: Handlebars is a JavaScript library that helps developers create templates that bind data, which creates cleaner, more efficient code."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "handlebars.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

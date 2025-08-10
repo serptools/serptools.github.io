@@ -1,0 +1,49 @@
+{
+  "slug": "kk",
+  "extension": "kk",
+  "name": "SyncCrypt Ransomware Encrypted File",
+  "category": "synccrypt-ransomware-encrypted-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "A file with the .kk extension has been renamed and encrypted by SyncCrypt ransomware . It contains a document, image, archive, database, or other type of file the ransomware is holding hostage. The .kk extension is added to the file's normal extension, producing a compound extension like .docx.kk .",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "system-restore",
+        "display_name": "System Restore"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-03-02",
+  "sources": [
+    {
+      "url": "kk.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

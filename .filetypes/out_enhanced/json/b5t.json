@@ -1,0 +1,22 @@
+{
+  "slug": "b5t",
+  "extension": "b5t",
+  "name": "BlindWrite 5 Disc Track Information File",
+  "category": "blindwrite-5-disc-track-information-file",
+  "summary": "",
+  "developer_org": "vso-software",
+  "developer_name": "VSO Software",
+  "more_information": {
+    "description": [
+      "Users of B5T files are typically individuals who want to back up or clone discs with BlindWrite for personal use. For example, a person who works with software, games, music, or video discs and wants to preserve their data may encounter B5T files.",
+      "B5T files are usually saved alongside a related .B5I file, which stores the main image data of the disc. Compared to the B5I file, the B5T file is relatively small because it only stores metadata about the disc tracks, such as their start and end points, rather than the actual content. Together, these files provide all the information BlindWrite needs to create a precise copy of the original disc."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "b5t.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "slug": "mobi",
+  "extension": "mobi",
+  "name": "Mobipocket eBook",
+  "category": "mobipocket-ebook",
+  "developer_org": "amazon",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 141,
+    "source": "fileinfo"
+  },
+  "summary": "A MOBI file is a digital book (eBook) saved in the proprietary MOBI format. It contains binary data that makes up an eBook (a book, magazine, scientific publication, etc.) and may incorporate DRM copyright protection to prevent copying or unauthorized viewing. Various eReaders, tablets, and software, including Calibre and Geometer Plus FBReader , support MOBI files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "amazon-kindle-for-pc",
+        "display_name": "Amazon Kindle for PC"
+      },
+      {
+        "software": "amazon-kindle-previewer",
+        "display_name": "Amazon Kindle Previewer"
+      },
+      {
+        "software": "calibre",
+        "display_name": "Calibre"
+      },
+      {
+        "software": "geometer-plus-fbreader",
+        "display_name": "Geometer Plus FBReader"
+      },
+      {
+        "software": "bookdesigner",
+        "display_name": "BookDesigner",
+        "status": "discontinued"
+      },
+      {
+        "software": "cool-reader",
+        "display_name": "Cool Reader"
+      },
+      {
+        "software": "mbp-reader",
+        "display_name": "MBP reader"
+      },
+      {
+        "software": "icecream-ebook-reader",
+        "display_name": "Icecream Ebook Reader"
+      },
+      {
+        "software": "patisoftware-thelibrarian",
+        "display_name": "PatiSoftware theLibrarian"
+      }
+    ],
+    "macos": [
+      {
+        "software": "amazon-kindle-for-mac",
+        "display_name": "Amazon Kindle for Mac"
+      },
+      {
+        "software": "amazon-kindle-previewer",
+        "display_name": "Amazon Kindle Previewer"
+      },
+      {
+        "software": "calibre",
+        "display_name": "Calibre"
+      },
+      {
+        "software": "geometer-plus-fbreader",
+        "display_name": "Geometer Plus FBReader"
+      },
+      {
+        "software": "patisoftware-thelibrarian",
+        "display_name": "PatiSoftware theLibrarian"
+      }
+    ],
+    "android": [
+      {
+        "software": "file-viewer-for-android",
+        "display_name": "File Viewer for Android"
+      },
+      {
+        "software": "cool-reader",
+        "display_name": "Cool Reader"
+      }
+    ],
+    "linux": [
+      {
+        "software": "calibre",
+        "display_name": "Calibre"
+      },
+      {
+        "software": "geometer-plus-fbreader",
+        "display_name": "Geometer Plus FBReader"
+      },
+      {
+        "software": "cool-reader",
+        "display_name": "Cool Reader"
+      },
+      {
+        "software": "mbp-reader",
+        "display_name": "MBP reader"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "MOBI file icon",
+      "alt": "MOBI file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/mobi-2909.png"
+    },
+    {
+      "caption": "MOBI file open in Calibre 3",
+      "alt": "MOBI file open in Calibre 3",
+      "source_url": "https://fileinfo.com/img/ss/md/mobi_2909.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-06-09",
+  "sources": [
+    {
+      "url": "mobi.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "dmtemplate",
+  "extension": "dmtemplate",
+  "name": "Direct Mail Template",
+  "category": "direct-mail-template",
+  "developer_org": "e3-software",
+  "popularity": {
+    "rating": 2.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "Email template used by Direct Mail, an email marketing program used for sending advertisements; stores the graphics, layout, and text for an email; used for producing professional looking emails.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "e3-software-direct-mail",
+        "display_name": "e3 Software Direct Mail"
+      }
+    ],
+    "windows": [
+      {
+        "software": "e3-software-direct-mail",
+        "display_name": "e3 Software Direct Mail"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-09-06",
+  "sources": [
+    {
+      "url": "dmtemplate.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

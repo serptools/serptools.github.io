@@ -1,0 +1,63 @@
+{
+  "slug": "g41",
+  "extension": "g41",
+  "name": "Commodore 1541 Disk Image",
+  "category": "commodore-1541-disk-image",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 2.3,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "Disk image file used by Commodore 64 emulation software; saves data in the same format as a floppy disk used by the Commodore 1541 floppy disk drive, which supported 5.25\" disks and was used with some older Commodore 64 systems; uses GCR (Group Code Recording) methods to save the data.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "ccs64",
+        "display_name": "CCS64"
+      },
+      {
+        "software": "winvice",
+        "display_name": "WinVICE"
+      },
+      {
+        "software": "vice",
+        "display_name": "VICE"
+      }
+    ],
+    "macos": [
+      {
+        "software": "vice",
+        "display_name": "VICE"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-09-21",
+  "sources": [
+    {
+      "url": "g41.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

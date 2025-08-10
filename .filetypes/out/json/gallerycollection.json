@@ -1,0 +1,71 @@
+{
+  "slug": "gallerycollection",
+  "extension": "gallerycollection",
+  "name": "SMART Notebook Gallery Collection File",
+  "category": "smart-notebook-gallery-collection-file",
+  "developer_org": "smart-technologies",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "Document collection file used by SMART Technologies' whiteboard and classroom management applications; contains a document set, which can include clip art, multimedia content, lesson activities, and .NOTEBOOK files; used for distributing packages of classroom lesson content over the Internet.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "smart-technologies-notebook",
+        "display_name": "SMART Technologies Notebook"
+      },
+      {
+        "software": "smart-technologies-smart-board-software",
+        "display_name": "SMART Technologies SMART Board software"
+      }
+    ],
+    "macos": [
+      {
+        "software": "smart-technologies-notebook",
+        "display_name": "SMART Technologies Notebook"
+      },
+      {
+        "software": "smart-technologies-smart-board-software",
+        "display_name": "SMART Technologies SMART Board software"
+      }
+    ],
+    "linux": [
+      {
+        "software": "smart-technologies-notebook",
+        "display_name": "SMART Technologies Notebook"
+      },
+      {
+        "software": "smart-technologies-smart-board-software",
+        "display_name": "SMART Technologies SMART Board software"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-09-07",
+  "sources": [
+    {
+      "url": "gallerycollection.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

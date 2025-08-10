@@ -1,0 +1,53 @@
+{
+  "slug": "cul",
+  "extension": "cul",
+  "name": "Windows Cursor Library",
+  "category": "windows-cursor-library",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "Library of Windows cursors created by cursor editing programs such as Axialis CursorWorkshop or CursorArts IconForge; contains a collection of .CUR files bundled together in a single archive; used for storing similar cursor images together for Windows themes.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "axialis-cursorworkshop",
+        "display_name": "Axialis CursorWorkshop"
+      },
+      {
+        "software": "cursorarts-iconforge",
+        "display_name": "CursorArts IconForge"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-08-12",
+  "sources": [
+    {
+      "url": "cul.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "3dmf",
+  "extension": "3dmf",
+  "name": "QuickDraw 3D Metafile",
+  "category": "quickdraw-3d-metafile",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "A 3DMF file is a 3D image created using the Apple QuickDraw 3D (QD3D) API. It contains a representation of an individual object or an entire 3D scene. 3DMF files could previously be opened in several 3D image-viewing and editing applications, but are now not widely supported.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "quesa",
+        "display_name": "Quesa"
+      }
+    ],
+    "macos": [
+      {
+        "software": "quesa",
+        "display_name": "Quesa"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-05-06",
+  "sources": [
+    {
+      "url": "3dmf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "lud",
+  "extension": "lud",
+  "name": "Lingvo User Dictionary File",
+  "category": "lingvo-user-dictionary-file",
+  "summary": "",
+  "developer_org": "abbyy",
+  "developer_name": "ABBYY",
+  "more_information": {
+    "description": [
+      "To create an LUD file, select Tools → Create/Edit Entry... and choose \"<Create...>\" from the \"Dictionary\" drop down menu. Next, name your dictionary, choose the source and target language, and click OK .",
+      "You can also create an LUD file from a DSL file. First create a .TXT file, add your content, and then rename the file extension to \".dsl.\" You can then use the DSL Compiler, which is included with Lingvo Dictionary, to compile the DSL file into an LUD file. .LSD files can also be created from DSL files but are not editable like LUD files."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "lud.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

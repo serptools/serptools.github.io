@@ -1,0 +1,85 @@
+{
+  "slug": "jnlp",
+  "extension": "jnlp",
+  "name": "Java Web Start File",
+  "category": "java-web-start-file",
+  "developer_org": "oracle",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 572,
+    "source": "fileinfo"
+  },
+  "summary": "A JNLP file is a Java Web Start (JWS) file, saved in the Java Network Launching Protocol (JNLP) format. It contains XML information used to launch and manage a Java program ( .JAR file) over a network. This information includes the remote address from which to download the program and the initial class to run.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "web": [
+      {
+        "software": "oracle-java-web-start",
+        "display_name": "Oracle Java Web Start",
+        "status": "discontinued"
+      },
+      {
+        "software": "karakun-openwebstart",
+        "display_name": "Karakun OpenWebStart"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "windows": [
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "JNLP file icon",
+      "alt": "JNLP file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/jnlp-1858.png"
+    },
+    {
+      "caption": "JNLP file open in Microsoft Visual Studio Code",
+      "alt": "JNLP file open in Microsoft Visual Studio Code",
+      "source_url": "https://fileinfo.com/img/ss/md/jnlp_1858.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-04-18",
+  "sources": [
+    {
+      "url": "jnlp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "slug": "html",
+  "extension": "html",
+  "name": "Hypertext Markup Language File",
+  "category": "hypertext-markup-language-file",
+  "summary": "",
+  "developer_org": "whatwg",
+  "developer_name": "WHATWG",
+  "more_information": {
+    "screenshot": {
+      "url": "https://fileinfo.com/img/ss/sm/html_36.png",
+      "alt": "Screenshot of a .html file in Adobe Dreamweaver 2021",
+      "caption": "HTML file open in Adobe Dreamweaver 2021"
+    },
+    "description": [
+      "HTML was introduced in 1991 by Tim Berners-Lee and other CERN engineers as a way for web browsers to interpret and display webpages. Since its release, it has become a standard in web development and has gone through multiple revisions, which include HTML 2 (1995), HTML 3 (January 1997), HTML 4 (December 1997), and HTML 5 (2014).",
+      "The Web Hypertext Application Technology Working Group (WHATWG) develops and advances HTML. The group was founded in 2004 and consists of major browser developers, including Google, Microsoft, Apple, and Mozilla.",
+      "The markup language features HTML elements that make up the structure of webpages. Typically, each element includes an opening tag enclosed in angle brackets ( <tag> ) and a closing tag enclosed in angle brackets but with a forward slash preceding the tag ( </tag> ).",
+      "Some examples of basic elements include:",
+      "Over time, other web technologies, such as Cascading Style Sheets ( CSS ) and JavaScript , have been introduced to enhance webpages. You will most likely find CSS or JavaScript code or references to .CSS or .JS files in modern HTML webpages.",
+      "Web developers often create and edit HTML files, then upload them to web servers that web browsers parse when a user visits webpages. If you are an average Internet user, you most likely will not see the HTML source code since your web browser parses it in the background.",
+      "However, you can still view the HTML of a webpage with a web browser by following these steps specific to the browser:",
+      "NOTE: Most pages within static websites have an .html extension, while pages within dynamic websites may have a .php or .asp extension."
+    ]
+  },
+  "common_filenames": [
+    {
+      "filename": "index.html",
+      "description": "index.html - The main, or index, HTML file that's loaded when a client web browser requests a web server directory. For example, when http://www.sampledomain.com/ is requested, the web server loads http://www.sampledomain.com/index.html by default, unless it is configured to use a different file."
+    },
+    {
+      "filename": "default.html",
+      "description": "default.html - The index file often used by Windows web servers such as Microsoft IIS."
+    }
+  ],
+  "images": [
+    {
+      "url": "https://fileinfo.com/img/ss/sm/html_36.png",
+      "alt": "Screenshot of a .html file in Adobe Dreamweaver 2021",
+      "caption": "HTML file open in Adobe Dreamweaver 2021"
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "html.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

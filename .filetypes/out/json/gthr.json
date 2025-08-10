@@ -1,0 +1,51 @@
+{
+  "slug": "gthr",
+  "extension": "gthr",
+  "name": "Gather Log File",
+  "category": "gather-log-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 1.8,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Text file that contains a log of data collected by a Microsoft logging utility; created by Windows Search, Microsoft Exchange, and SharePoint Portal Server after each file indexing process.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-gthrlog.vbs",
+        "display_name": "Microsoft Gthrlog.vbs"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2008-12-30",
+  "sources": [
+    {
+      "url": "gthr.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

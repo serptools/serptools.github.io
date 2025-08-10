@@ -1,0 +1,37 @@
+{
+  "slug": "rst",
+  "extension": "rst",
+  "name": "reStructuredText File",
+  "category": "restructuredtext-file",
+  "summary": "",
+  "developer_org": "clark-labs",
+  "developer_name": "Clark Labs",
+  "more_information": {
+    "screenshot": {
+      "url": "https://fileinfo.com/img/ss/sm/rst_2806.png",
+      "alt": "Screenshot of a .rst file in GitHub Atom",
+      "caption": "RST file open in GitHub Atom"
+    },
+    "description": [
+      "reStructuredText is a file format and markup language that software developers and technical writers use to produce technical documentation for Python-based software programs. When processed using the Python Docutils tool or another documentation-processing program, the markup symbols that reStructuredText (RST) files contain are transformed into text formatting.",
+      "For example, to add a bulleted list to an RST file, an author would write the following:",
+      "- Bulleted list item - Bulleted list item - Bulleted list item",
+      "When processed by a documentation-processing program, the above text would be shown as:",
+      "RST files can also contain symbols used to indicate that text should be bolded (** **), italicized (* *), or transformed into a section header (=====) or sub-header (-----). They may also include links to images and URLs ."
+    ]
+  },
+  "images": [
+    {
+      "url": "https://fileinfo.com/img/ss/sm/rst_2806.png",
+      "alt": "Screenshot of a .rst file in GitHub Atom",
+      "caption": "RST file open in GitHub Atom"
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "rst.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

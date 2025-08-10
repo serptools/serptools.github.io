@@ -1,0 +1,55 @@
+{
+  "slug": "flatpak",
+  "extension": "flatpak",
+  "name": "Linux Flatpak Application Bundle",
+  "category": "linux-flatpak-application-bundle",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 4.3,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "A FLATPAK file is an application bundle used to distribute and install an app on a Linux-based platform. It stores the build of an app in the Flatpak container format, which allows it to be distributed to and installed on various distributions of the Linux operating system.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "linux": [
+      {
+        "software": "flatpak",
+        "display_name": "Flatpak"
+      }
+    ],
+    "windows": [
+      {
+        "software": "flatpak",
+        "display_name": "Flatpak"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-06-11",
+  "sources": [
+    {
+      "url": "flatpak.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

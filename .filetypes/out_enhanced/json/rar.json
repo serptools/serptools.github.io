@@ -1,0 +1,35 @@
+{
+  "slug": "rar",
+  "extension": "rar",
+  "name": "WinRAR Compressed Archive",
+  "category": "winrar-compressed-archive",
+  "summary": "",
+  "developer_org": "eugene-roshal",
+  "developer_name": "Eugene Roshal",
+  "more_information": {
+    "screenshot": {
+      "url": "https://fileinfo.com/img/ss/sm/rar_91.png",
+      "alt": "Screenshot of a .rar file in RARLAB WinRAR 7",
+      "caption": "RAR file open in RARLAB WinRAR 7"
+    },
+    "description": [
+      "Eugene Roshal developed the RAR format (which stands for \"Roshal ARchive\") and introduced it in 1993 with the release of the WinRAR compression program. Since its introduction, the format has become a standard compression format with .ZIP and 7Z. While WinRAR typically creates RAR files, various utilities may compress (and extract) them.",
+      "Typically, RAR files store a collection of files or large files, such as a camera raw or video file. For example, a co-worker may compress some large videos in a RAR file, attach it to an email, and send it to you. Another example is that you might download 3D CAD files compressed in a RAR archive from a CAD website.",
+      "NOTE: The RAR compressor may also create spanned (or multi-volume) archives split across several compressed files. These files typically have file extensions from .r00 to .r99 , or they may all have the standard .rar extension."
+    ]
+  },
+  "images": [
+    {
+      "url": "https://fileinfo.com/img/ss/sm/rar_91.png",
+      "alt": "Screenshot of a .rar file in RARLAB WinRAR 7",
+      "caption": "RAR file open in RARLAB WinRAR 7"
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "rar.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

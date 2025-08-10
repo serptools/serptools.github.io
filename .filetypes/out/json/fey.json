@@ -1,0 +1,59 @@
+{
+  "slug": "fey",
+  "extension": "fey",
+  "name": "FCS Express Layout File",
+  "category": "fcs-express-layout-file",
+  "developer_org": "de-novo-software",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "A FEY file contains a layout of one or more pages created by FCS Express, a program used to analyze flow and image cytometry data.. It stores text, plots, graphics, and printer settings.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "de-novo-fcs-express",
+        "display_name": "De Novo FCS Express"
+      },
+      {
+        "software": "de-novo-free-fcs-express-reader",
+        "display_name": "De Novo Free FCS Express Reader",
+        "pricing": "free"
+      }
+    ],
+    "macos": [
+      {
+        "software": "de-novo-free-fcs-express-reader",
+        "display_name": "De Novo Free FCS Express Reader",
+        "pricing": "free"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-06-30",
+  "sources": [
+    {
+      "url": "fey.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

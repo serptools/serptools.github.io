@@ -1,0 +1,71 @@
+{
+  "slug": "bashrc",
+  "extension": "bashrc",
+  "name": "Bash Non-Interactive Login Shell File",
+  "category": "bash-non-interactive-login-shell-file",
+  "developer_org": "the-gnu-project",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 12,
+    "source": "fileinfo"
+  },
+  "summary": "Shell file used by Linux and Mac OS X terminal applications; contains setup instructions for the shell, such as declarations for environment variables and default scripts to run; often used for setting user command prompt preferences as well as paths for common directories and program executables.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "apple-terminal",
+        "display_name": "Apple Terminal"
+      },
+      {
+        "software": "macromates-textmate",
+        "display_name": "MacroMates TextMate"
+      },
+      {
+        "software": "gnu-bash",
+        "display_name": "GNU Bash"
+      }
+    ],
+    "windows": [
+      {
+        "software": "apple-terminal",
+        "display_name": "Apple Terminal"
+      },
+      {
+        "software": "gnu-bash",
+        "display_name": "GNU Bash"
+      }
+    ],
+    "linux": [
+      {
+        "software": "gnu-bash",
+        "display_name": "GNU Bash"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-08-18",
+  "sources": [
+    {
+      "url": "bashrc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

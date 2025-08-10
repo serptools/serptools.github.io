@@ -1,0 +1,53 @@
+{
+  "slug": "egp",
+  "extension": "egp",
+  "name": "Easy Grade Pro Gradebook File",
+  "category": "easy-grade-pro-gradebook-file",
+  "developer_org": "edline",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "File created by Easy Grade Pro, a program that allows teachers to store and track grade information for their classes and subjects; contains classes, student names, IDs, attendance, assignments, test scores, and grades.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "edline-easy-grade-pro",
+        "display_name": "Edline Easy Grade Pro"
+      }
+    ],
+    "macos": [
+      {
+        "software": "edline-easy-grade-pro",
+        "display_name": "Edline Easy Grade Pro"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-02-10",
+  "sources": [
+    {
+      "url": "egp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

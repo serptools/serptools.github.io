@@ -1,0 +1,127 @@
+{
+  "slug": "bif",
+  "extension": "bif",
+  "name": "Boot Information File",
+  "category": "1.-boot-information-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 46,
+    "source": "fileinfo"
+  },
+  "summary": "Contains information used to boot a computer from a disc, such as a CD or DVD; created MagicISO, UltraISO, and other disc authoring programs; enables the creation of bootable CDs and DVDs and can be used by multiple discs.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "magiciso",
+        "display_name": "MagicISO",
+        "status": "discontinued"
+      },
+      {
+        "software": "ezb-systems-ultraiso",
+        "display_name": "EZB Systems UltraISO"
+      },
+      {
+        "software": "acronis-disk-director",
+        "display_name": "Acronis Disk Director",
+        "status": "discontinued"
+      },
+      {
+        "software": "acronis-true-image",
+        "display_name": "Acronis True Image"
+      },
+      {
+        "software": "cd-projekt-the-witcher",
+        "display_name": "CD Projekt The Witcher"
+      },
+      {
+        "software": "winbiff",
+        "display_name": "WinBiff"
+      },
+      {
+        "software": "bifrip",
+        "display_name": "BIFRip"
+      },
+      {
+        "software": "unbif",
+        "display_name": "UnBIF"
+      },
+      {
+        "software": "openslide",
+        "display_name": "OpenSlide"
+      },
+      {
+        "software": "imagej",
+        "display_name": "ImageJ"
+      },
+      {
+        "software": "netscope-viewer",
+        "display_name": "NetScope Viewer"
+      },
+      {
+        "software": "autodesk-maya-2023",
+        "display_name": "Autodesk Maya 2023"
+      }
+    ],
+    "macos": [
+      {
+        "software": "belight-get-backup",
+        "display_name": "BeLight Get Backup"
+      },
+      {
+        "software": "openslide",
+        "display_name": "OpenSlide"
+      },
+      {
+        "software": "imagej",
+        "display_name": "ImageJ"
+      },
+      {
+        "software": "autodesk-maya-2023",
+        "display_name": "Autodesk Maya 2023"
+      }
+    ],
+    "linux": [
+      {
+        "software": "openslide",
+        "display_name": "OpenSlide"
+      },
+      {
+        "software": "imagej",
+        "display_name": "ImageJ"
+      },
+      {
+        "software": "autodesk-maya-2023",
+        "display_name": "Autodesk Maya 2023"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2016-01-29",
+  "sources": [
+    {
+      "url": "bif.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

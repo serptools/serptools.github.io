@@ -1,0 +1,50 @@
+{
+  "slug": "pkg.tar.xz",
+  "extension": "pkg.tar.xz",
+  "name": "Arch Linux Software Package",
+  "category": "arch-linux-software-package",
+  "developer_org": "arch-linux-team",
+  "popularity": {
+    "rating": 4.2,
+    "votes": 17,
+    "source": "fileinfo"
+  },
+  "summary": "A PKG.TAR.XZ file is a package file used by pacman, a package manager included with Arch Linux. It contains a software program and installation instructions pacman uses to install that program.",
+  "standards": [],
+  "mime_types": [
+    "package/yourpackagename.pkg.tar.xz",
+    "path/to"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "linux": [
+      {
+        "software": "arch-linux",
+        "display_name": "Arch Linux"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-10-28",
+  "sources": [
+    {
+      "url": "pkg.tar.xz.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "ndll",
+  "extension": "ndll",
+  "name": "Neko Library",
+  "category": "neko-library",
+  "developer_org": "nicolas-cannasse",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "An NDLL file is a code library used by Neko, a high-level dynamically typed programming language. It contains one or more common functions used by Neko programs. NDLL files are similar to .DLL and .SO files, except they are used only by Neko.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "neko",
+        "display_name": "Neko"
+      }
+    ],
+    "macos": [
+      {
+        "software": "neko",
+        "display_name": "Neko"
+      }
+    ],
+    "linux": [
+      {
+        "software": "neko",
+        "display_name": "Neko"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-04-12",
+  "sources": [
+    {
+      "url": "ndll.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

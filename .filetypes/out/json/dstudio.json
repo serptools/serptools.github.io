@@ -1,0 +1,47 @@
+{
+  "slug": "dstudio",
+  "extension": "dstudio",
+  "name": "DownloadStudio Incomplete Download",
+  "category": "downloadstudio-incomplete-download",
+  "developer_org": "conceiva",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "Incomplete file partially downloaded with DownloadStudio, a download manager for Windows; may be used to resume a download if the file transfer stopped; after the download is complete, the \".dstudio\" extension is removed, leaving only the original file extension.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "conceiva-downloadstudio",
+        "display_name": "Conceiva DownloadStudio"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2008-11-22",
+  "sources": [
+    {
+      "url": "dstudio.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

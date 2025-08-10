@@ -1,0 +1,53 @@
+{
+  "slug": "hfs",
+  "extension": "hfs",
+  "name": "HFS Disk Image File",
+  "category": "hfs-disk-image-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 21,
+    "source": "fileinfo"
+  },
+  "summary": "Disk image file created in the Hierarchical System Format (HFS), the file system format used by Mac computers; contains files and folders as they would be stored by a Mac computer; can be opened by 7-Zip on PCs.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "7-zip",
+        "display_name": "7-Zip"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-06-12",
+  "sources": [
+    {
+      "url": "hfs.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

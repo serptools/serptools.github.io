@@ -1,0 +1,23 @@
+{
+  "slug": "data",
+  "extension": "data",
+  "name": "Analysis Studio Offline Data File",
+  "category": "analysis-studio-offline-data-file",
+  "summary": "",
+  "developer_org": "appricon",
+  "developer_name": "Appricon",
+  "more_information": {
+    "description": [
+      "DATA files may contain data from multiple data sources, such as Microsoft Access and SQL Server databases. They are paired with a corresponding .STP file, which contains the project data schema and object information.",
+      "Due to their tab-delimited format, DATA files may be imported into Microsoft Excel once their header information is stripped.",
+      "NOTE: Appricon no longer develops Analysis Studio."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "data.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

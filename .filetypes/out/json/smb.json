@@ -1,0 +1,87 @@
+{
+  "slug": "smb",
+  "extension": "smb",
+  "name": "Autodesk Shape Manager Binary File",
+  "category": "autodesk-shape-manager-binary-file",
+  "developer_org": "autodesk",
+  "popularity": {
+    "rating": 4.3,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "An SMB file contains a CAD 3D model saved in the Autodesk Shape Manager (ASM) format. It stores 3D geometry and structure information of the part, which includes holes, pockets, and slots. SMB files can be transferred between various Autodesk applications, such as AutoCAD, Fusion 360, and FeatureCAM, without losing any model fidelity.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "autodesk-autocad-2025",
+        "display_name": "Autodesk AutoCAD 2025"
+      },
+      {
+        "software": "autodesk-fusion-360",
+        "display_name": "Autodesk Fusion 360"
+      },
+      {
+        "software": "autodesk-featurecam",
+        "display_name": "Autodesk FeatureCAM"
+      },
+      {
+        "software": "autodesk-moldflow-adviser",
+        "display_name": "Autodesk Moldflow Adviser"
+      }
+    ],
+    "macos": [
+      {
+        "software": "autodesk-autocad-2025",
+        "display_name": "Autodesk AutoCAD 2025"
+      },
+      {
+        "software": "autodesk-fusion-360",
+        "display_name": "Autodesk Fusion 360"
+      }
+    ],
+    "web": [
+      {
+        "software": "autodesk-fusion-360",
+        "display_name": "Autodesk Fusion 360"
+      }
+    ],
+    "ios": [
+      {
+        "software": "autodesk-fusion-360",
+        "display_name": "Autodesk Fusion 360"
+      }
+    ],
+    "android": [
+      {
+        "software": "autodesk-fusion-360",
+        "display_name": "Autodesk Fusion 360"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-12-11",
+  "sources": [
+    {
+      "url": "smb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

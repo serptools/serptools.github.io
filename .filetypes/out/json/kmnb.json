@@ -1,0 +1,53 @@
+{
+  "slug": "kmnb",
+  "extension": "kmnb",
+  "name": "Keep My Notes Backup File",
+  "category": "keep-my-notes-backup-file",
+  "developer_org": "kitetech",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 12,
+    "source": "fileinfo"
+  },
+  "summary": "A KMNB file is a backup file created by Keep My Notes, a notepad and memo app for Android devices. It contains a backup of one or more notes or checklists created using Keep My Notes. KMNB files allow users to save copies of their notes and transfer them between Android devices.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "android": [
+      {
+        "software": "keep-my-notes",
+        "display_name": "Keep My Notes"
+      }
+    ],
+    "windows": [
+      {
+        "software": "keep-my-notes",
+        "display_name": "Keep My Notes"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-04-15",
+  "sources": [
+    {
+      "url": "kmnb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

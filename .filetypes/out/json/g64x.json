@@ -1,0 +1,47 @@
+{
+  "slug": "g64x",
+  "extension": "g64x",
+  "name": "Genetec Video File",
+  "category": "genetec-video-file",
+  "developer_org": "genetec",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 10,
+    "source": "fileinfo"
+  },
+  "summary": "A G64X file is a video file saved in the Genetec video format, which is used to share or archive video recorded by Genetec's Security Center software. It stores H.264 encoded surveillance video from a police body camera or building security camera. G64X files can be played by the Genetec Video Player (replaced Portable Archive Player) included with Security Center.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "genetec-security-center",
+        "display_name": "Genetec Security Center"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-11-21",
+  "sources": [
+    {
+      "url": "g64x.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "pfx",
+  "extension": "pfx",
+  "name": "PKCS #12 Certificate File",
+  "category": "pkcs-12-certificate-file",
+  "summary": "",
+  "developer_org": "softkey-pfs",
+  "developer_name": "SoftKey PFS",
+  "more_information": {
+    "description": [
+      "RSA Laboratories developed and maintains the PKCS #12 format, which is the \"Personal Information Exchange Syntax Standard\" in the family of Public Key Cryptography Standards (PKCS). The digital certificates saved in the PKCS #12 format verify the authenticity of a computer, web server, application, etc., so users can trust their security and reliability. Frequently, web administrators purchase X.509 digital certificates from a certificate authority (CA), such as DigiCert or IdenTrust, then install them on a web server to validate the security and identity of the website it hosts.",
+      "CAs often send certificates in the PKCS #12 format (PFX files) to the requesting parties. For example, a CA may send a software publisher certificate (SPC) in an encrypted PFX file to a software publisher who enters the password to retrieve the digital certificate and keys to digitally sign their software for authentication purposes before distributing it.",
+      "You can also generate PFX files with programs to authenticate applications, devices, and people. For example, a person may generate a PFX file with Adobe Acrobat to store their digital certificate to authenticate themselves to complete highly sensitive business transactions. Other programs that generate PFX files include the cross-platform OpenSSL command-line tool and the Microsoft Management Console in Windows.",
+      "NOTE: You may also see security certificates and keys in the PKCS #12 format saved as .P12 files."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "pfx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

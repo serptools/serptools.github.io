@@ -1,0 +1,67 @@
+{
+  "slug": "ff",
+  "extension": "ff",
+  "name": "Call of Duty 4 Fast File",
+  "category": "1.-call-of-duty-4-fast-file",
+  "developer_org": "activision",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 281,
+    "source": "fileinfo"
+  },
+  "summary": "Game data file used by Call of Duty (CoD) first-person shooter games, including Call of Duty 4: Modern Warfare and Call of Duty: Black Ops; saves various game data that are loaded during gameplay.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "activision-call-of-duty-4-modern-warfare",
+        "display_name": "Activision Call of Duty 4: Modern Warfare"
+      },
+      {
+        "software": "activision-call-of-duty-black-ops",
+        "display_name": "Activision Call of Duty: Black Ops"
+      }
+    ],
+    "macos": [
+      {
+        "software": "activision-call-of-duty-4-modern-warfare",
+        "display_name": "Activision Call of Duty 4: Modern Warfare"
+      },
+      {
+        "software": "activision-call-of-duty-black-ops",
+        "display_name": "Activision Call of Duty: Black Ops"
+      }
+    ],
+    "linux": [
+      {
+        "software": "farbfeld",
+        "display_name": "farbfeld"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-01-16",
+  "sources": [
+    {
+      "url": "ff.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

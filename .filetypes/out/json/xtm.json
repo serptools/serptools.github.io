@@ -1,0 +1,67 @@
+{
+  "slug": "xtm",
+  "extension": "xtm",
+  "name": "CmapTools Exported Topic Map",
+  "category": "1.-cmaptools-exported-topic-map",
+  "developer_org": "ihmc",
+  "popularity": {
+    "rating": 4.2,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "Concept map created by CmapTools, a program used for visualizing organized knowledge; consists of graphical and textual data that can be displayed within CmapTools; does not include layout, style, or background image information.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "ihmc-cmaptools",
+        "display_name": "IHMC CmapTools"
+      },
+      {
+        "software": "xtremsplit",
+        "display_name": "Xtremsplit"
+      }
+    ],
+    "macos": [
+      {
+        "software": "ihmc-cmaptools",
+        "display_name": "IHMC CmapTools"
+      }
+    ],
+    "linux": [
+      {
+        "software": "ihmc-cmaptools",
+        "display_name": "IHMC CmapTools"
+      },
+      {
+        "software": "xtremsplit",
+        "display_name": "Xtremsplit"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-12-14",
+  "sources": [
+    {
+      "url": "xtm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "sapk",
+  "extension": "sapk",
+  "name": "SICK AppPool Application",
+  "category": "sick-apppool-application",
+  "developer_org": "sick",
+  "popularity": {
+    "rating": 2.8,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "An SAPK file is a custom application meant to be installed on one or more SICK industrial sensors. It was created using SICK AppSpace and likely downloaded using SICK AppPool.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "web": [
+      {
+        "software": "sick-apppool",
+        "display_name": "SICK AppPool"
+      }
+    ],
+    "windows": [
+      {
+        "software": "sick-apppool",
+        "display_name": "SICK AppPool"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-08-16",
+  "sources": [
+    {
+      "url": "sapk.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

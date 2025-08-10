@@ -1,0 +1,53 @@
+{
+  "slug": "mbz",
+  "extension": "mbz",
+  "name": "Moodle Backup FIle",
+  "category": "moodle-backup-file",
+  "developer_org": "moodle",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 10,
+    "source": "fileinfo"
+  },
+  "summary": "An MBZ file contains a backup learning course created by Moodle, an open source learning platform used by many schools and universities. It contains the contents of a course, which includes the structure and settings, Zip-compressed in an archive. MBZ files are typically used by teachers for preserving courses.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "web": [
+      {
+        "software": "moodle",
+        "display_name": "Moodle"
+      }
+    ],
+    "windows": [
+      {
+        "software": "moodle",
+        "display_name": "Moodle"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-03-04",
+  "sources": [
+    {
+      "url": "mbz.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

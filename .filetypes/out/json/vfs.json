@@ -1,0 +1,79 @@
+{
+  "slug": "vfs",
+  "extension": "vfs",
+  "name": "Virtual File System Index",
+  "category": "1.-virtual-file-system-index",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 2.8,
+    "votes": 61,
+    "source": "fileinfo"
+  },
+  "summary": "A VFS file contains an index of directories and files stored on a hard drive or other media device. It is used to create a virtual file system , which can speed up browsing and searching for files.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "linux": [
+      {
+        "software": "mount",
+        "display_name": "mount"
+      }
+    ],
+    "windows": [
+      {
+        "software": "mount",
+        "display_name": "mount"
+      },
+      {
+        "software": "venta-association-ventafax",
+        "display_name": "Venta Association VentaFax"
+      },
+      {
+        "software": "explaindio",
+        "display_name": "Explaindio"
+      },
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      }
+    ],
+    "macos": [
+      {
+        "software": "explaindio",
+        "display_name": "Explaindio"
+      },
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-09-29",
+  "sources": [
+    {
+      "url": "vfs.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

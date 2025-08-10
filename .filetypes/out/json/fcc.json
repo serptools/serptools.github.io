@@ -1,0 +1,50 @@
+{
+  "slug": "fcc",
+  "extension": "fcc",
+  "name": "Forms Credential Collector File",
+  "category": "forms-credential-collector-file",
+  "developer_org": "netegrity",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "Contains authentication settings for logging in a user to the Netegrity SiteMinder Policy Server; written in a simple markup language that includes HTML and some custom notation.",
+  "standards": [],
+  "mime_types": [
+    "forms/login.fcc",
+    "webservername/siteminderagent"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "netegrity-siteminder",
+        "display_name": "Netegrity SiteMinder"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2007-05-26",
+  "sources": [
+    {
+      "url": "fcc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

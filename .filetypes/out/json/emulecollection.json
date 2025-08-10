@@ -1,0 +1,65 @@
+{
+  "slug": "emulecollection",
+  "extension": "emulecollection",
+  "name": "eMule Data File",
+  "category": "emule-data-file",
+  "developer_org": "emule",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "Data file used by eMule, a peer-to-peer online file sharing program; contains a sequence of lines of text identifying ed2k (eDonkey Network) links to files; text lines include an ed2k link prefix, the file name, the file size, and a hash code to help recover corrupted files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "emule",
+        "display_name": "eMule"
+      },
+      {
+        "software": "emule-plus",
+        "display_name": "eMule Plus"
+      },
+      {
+        "software": "emule-xtreme",
+        "display_name": "eMule Xtreme"
+      },
+      {
+        "software": "amule",
+        "display_name": "aMule"
+      }
+    ],
+    "macos": [
+      {
+        "software": "amule",
+        "display_name": "aMule"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-12-19",
+  "sources": [
+    {
+      "url": "emulecollection.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

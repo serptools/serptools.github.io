@@ -1,0 +1,55 @@
+{
+  "slug": "chs",
+  "extension": "chs",
+  "name": "Windows Chinese Noise-Word List File",
+  "category": "1.-windows-chinese-noise-word-list-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 2.6,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "System file used by Index Server, a component of the Windows operating system used for searching; saved in a plain text format and contains a list of noise words, which are keywords that are excluded from the search indexing process; located in the C:\\​Windows\\​System32\\​ directory and has the filename NOISE.CHS ; used for the Chinese (CHS) noise-word list in Windows.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-windows",
+        "display_name": "Microsoft Windows"
+      },
+      {
+        "software": "adobe-acrobat-dc",
+        "display_name": "Adobe Acrobat DC"
+      },
+      {
+        "software": "adobe-acrobat-reader-dc",
+        "display_name": "Adobe Acrobat Reader DC"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-11-07",
+  "sources": [
+    {
+      "url": "chs.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

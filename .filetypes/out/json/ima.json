@@ -1,0 +1,92 @@
+{
+  "slug": "ima",
+  "extension": "ima",
+  "name": "Disk Image",
+  "category": "1.-disk-image",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "An IMA file contains a disk image of a floppy disk, hard drive, CD, or virtual hard drive (VHD). It stores the disk image as raw, unformatted binary data that can be mounted by various disk utility programs, such as WinImage, Nero, UltraISO, and MagicISO, in order for it to be readable by a computer.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "winimage",
+        "display_name": "WinImage"
+      },
+      {
+        "software": "nero-2022",
+        "display_name": "Nero 2022"
+      },
+      {
+        "software": "ezb-systems-ultraiso",
+        "display_name": "EZB Systems UltraISO"
+      },
+      {
+        "software": "smart-projects-isobuster",
+        "display_name": "Smart Projects IsoBuster"
+      },
+      {
+        "software": "magiciso",
+        "display_name": "MagicISO",
+        "status": "discontinued"
+      },
+      {
+        "software": "swiftpage-act",
+        "display_name": "Swiftpage Act!"
+      },
+      {
+        "software": "audacity",
+        "display_name": "Audacity"
+      }
+    ],
+    "macos": [
+      {
+        "software": "audacity",
+        "display_name": "Audacity"
+      }
+    ],
+    "linux": [
+      {
+        "software": "audacity",
+        "display_name": "Audacity"
+      }
+    ],
+    "web": [
+      {
+        "software": "convertio",
+        "display_name": "Convertio"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-03-07",
+  "sources": [
+    {
+      "url": "ima.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "slug": "yuv",
+  "extension": "yuv",
+  "name": "YUV Video File",
+  "category": "1.-yuv-video-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 43,
+    "source": "fileinfo"
+  },
+  "summary": "A YUV file is a video file encoded in the YUV format. It stores a sequence of YUV images as a single video file and may be saved in YUV 4:2:0, 4:2:2, 4:4:4 formats. YUV video files may be decoded by MPEG-4 and H.264 decoders.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "mplayerx",
+        "display_name": "MPlayerX"
+      },
+      {
+        "software": "mplayer",
+        "display_name": "MPlayer"
+      },
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      }
+    ],
+    "windows": [
+      {
+        "software": "mplayerx",
+        "display_name": "MPlayerX"
+      },
+      {
+        "software": "mplayer",
+        "display_name": "MPlayer"
+      },
+      {
+        "software": "elecard-yuv-viewer",
+        "display_name": "Elecard YUV Viewer"
+      },
+      {
+        "software": "imagemagick",
+        "display_name": "ImageMagick"
+      },
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      }
+    ],
+    "linux": [
+      {
+        "software": "mplayer",
+        "display_name": "MPlayer"
+      },
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2016-08-18",
+  "sources": [
+    {
+      "url": "yuv.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

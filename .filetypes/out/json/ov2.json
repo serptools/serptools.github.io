@@ -1,0 +1,77 @@
+{
+  "slug": "ov2",
+  "extension": "ov2",
+  "name": "TomTom Points of Interest Database",
+  "category": "tomtom-points-of-interest-database",
+  "developer_org": "tomtom",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 13,
+    "source": "fileinfo"
+  },
+  "summary": "An OV2 file is a point of interest (POI) database used by a TomTom GPS device, such as the TomTom GO or TomTom Bridge. It contains a list of noteworthy locations and associated GPS coordinates. After importing an OV2 file into a supported TomTom device, users can select the locations that OV2 file contains from My Places .",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "tomtom-home",
+        "display_name": "TomTom HOME"
+      },
+      {
+        "software": "tomtom-mydrive",
+        "display_name": "TomTom MyDrive"
+      },
+      {
+        "software": "poi-editor",
+        "display_name": "POI Editor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "tomtom-home",
+        "display_name": "TomTom HOME"
+      }
+    ],
+    "web": [
+      {
+        "software": "tomtom-mydrive",
+        "display_name": "TomTom MyDrive"
+      },
+      {
+        "software": "poi-editor",
+        "display_name": "POI Editor"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "OV2 file open in POI Editor",
+      "alt": "OV2 file open in POI Editor",
+      "source_url": "https://fileinfo.com/img/ss/md/ov2_1585.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-10-12",
+  "sources": [
+    {
+      "url": "ov2.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

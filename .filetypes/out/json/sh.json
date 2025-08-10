@@ -1,0 +1,164 @@
+{
+  "slug": "sh",
+  "extension": "sh",
+  "name": "Bash Shell Script",
+  "category": "1.-bash-shell-script",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 214,
+    "source": "fileinfo"
+  },
+  "summary": "An SH file is a script that can be run with the Bash Unix shell . It contains instructions written in the Bash command language. Users can execute the commands an SH file contains by calling the file in a Bash shell.",
+  "standards": [],
+  "mime_types": [
+    "bin/bash",
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "gvim",
+        "display_name": "gVim"
+      },
+      {
+        "software": "notepad++",
+        "display_name": "Notepad++"
+      },
+      {
+        "software": "gnu-bash",
+        "display_name": "GNU Bash"
+      },
+      {
+        "software": "cygwin",
+        "display_name": "Cygwin"
+      },
+      {
+        "software": "git-bash",
+        "display_name": "Git BASH"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "apple-terminal",
+        "display_name": "Apple Terminal"
+      },
+      {
+        "software": "iterm",
+        "display_name": "iTerm"
+      },
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      },
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      },
+      {
+        "software": "termux",
+        "display_name": "Termux"
+      },
+      {
+        "software": "zipzag",
+        "display_name": "ZipZag"
+      },
+      {
+        "software": "unshar",
+        "display_name": "unshar"
+      }
+    ],
+    "macos": [
+      {
+        "software": "macvim",
+        "display_name": "MacVim"
+      },
+      {
+        "software": "apple-terminal",
+        "display_name": "Apple Terminal"
+      },
+      {
+        "software": "iterm",
+        "display_name": "iTerm"
+      },
+      {
+        "software": "gnu-bash",
+        "display_name": "GNU Bash"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "android": [
+      {
+        "software": "file-viewer-for-android",
+        "display_name": "File Viewer for Android"
+      },
+      {
+        "software": "termux",
+        "display_name": "Termux"
+      }
+    ],
+    "linux": [
+      {
+        "software": "gnu-bash",
+        "display_name": "GNU Bash"
+      },
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "unshar",
+        "display_name": "unshar"
+      }
+    ],
+    "web": [
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "SH file open in Microsoft Visual Studio Code",
+      "alt": "SH file open in Microsoft Visual Studio Code",
+      "source_url": "https://fileinfo.com/img/ss/md/sh_1517.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-09-06",
+  "sources": [
+    {
+      "url": "sh.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

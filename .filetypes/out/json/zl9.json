@@ -1,0 +1,47 @@
+{
+  "slug": "zl9",
+  "extension": "zl9",
+  "name": "ZoneAlarm Quarantined EXE File",
+  "category": "zonealarm-quarantined-exe-file",
+  "developer_org": "zonealarm",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 42,
+    "source": "fileinfo"
+  },
+  "summary": "Quarantined .EXE file renamed by ZoneAlarm Antivirus, an antivirus program; contains the exact contents of an executable file, but with the extension renamed to \".zl9;\" used to quarantine potentially harmful executable files discovered in email attachments.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "zonealarm-antivirus",
+        "display_name": "ZoneAlarm Antivirus"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-07-09",
+  "sources": [
+    {
+      "url": "zl9.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

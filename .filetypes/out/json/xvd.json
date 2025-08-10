@@ -1,0 +1,49 @@
+{
+  "slug": "xvd",
+  "extension": "xvd",
+  "name": "Xbox Virtual Disk",
+  "category": "xbox-virtual-disk",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 92,
+    "source": "fileinfo"
+  },
+  "summary": "Software package wrapper format used by Xbox One to store secured data such as system images/data; may also store console update, system, and settings information.",
+  "standards": [],
+  "mime_types": [
+    "images/data"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "xvdtool",
+        "display_name": "xvdtool"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-12-01",
+  "sources": [
+    {
+      "url": "xvd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

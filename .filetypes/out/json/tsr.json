@@ -1,0 +1,66 @@
+{
+  "slug": "tsr",
+  "extension": "tsr",
+  "name": "Tracker Status Report",
+  "category": "1.-tracker-status-report",
+  "developer_org": "subsite-electronics",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "A TSR file is a Tracker Status report used by Subsite Electronics software that specializes in horizontal directional drilling (HDD) guidance systems for installing and maintaining underground pipe and cable. It contains an as-built report on the status of the HDD of pipes and cable, which includes water lines, gas lines, and other crossings.",
+  "standards": [],
+  "mime_types": [
+    "42/wg",
+    "iso/tc",
+    "tiff/ep"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "ios": [
+      {
+        "software": "subsite-electronics-tsr-mobile",
+        "display_name": "Subsite Electronics TSR Mobile"
+      }
+    ],
+    "windows": [
+      {
+        "software": "subsite-electronics-tsr-mobile",
+        "display_name": "Subsite Electronics TSR Mobile"
+      },
+      {
+        "software": "no-commercial-software-is-available-yet",
+        "display_name": "No commercial software is available yet",
+        "pricing": "paid"
+      },
+      {
+        "software": "mato-total-station-communication-software",
+        "display_name": "MATO Total Station Communication Software"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2016-07-29",
+  "sources": [
+    {
+      "url": "tsr.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

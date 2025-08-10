@@ -1,0 +1,55 @@
+{
+  "slug": "scripa",
+  "extension": "scripa",
+  "name": "Scarlet IPA Backup",
+  "category": "scarlet-ipa-backup",
+  "developer_org": "meg-enterprises",
+  "popularity": {
+    "rating": 4.3,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "A SCRIPA file is an iOS app backup created by Scarlet, an App Store alternative for iOS devices. It contains an .IPA (iOS application) file and a user's app data. Scarlet users can create SCRIPA files to back up their app settings or game progress alongside an app's IPA file.",
+  "standards": [],
+  "mime_types": [
+    "backup/restore"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "ios": [
+      {
+        "software": "scarlet",
+        "display_name": "Scarlet"
+      }
+    ],
+    "windows": [
+      {
+        "software": "scarlet",
+        "display_name": "Scarlet"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-04-25",
+  "sources": [
+    {
+      "url": "scripa.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

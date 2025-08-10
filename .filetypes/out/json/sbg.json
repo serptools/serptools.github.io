@@ -1,0 +1,59 @@
+{
+  "slug": "sbg",
+  "extension": "sbg",
+  "name": "SBaGen Binaural Beat File",
+  "category": "sbagen-binaural-beat-file",
+  "developer_org": "jim-peters",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 10,
+    "source": "fileinfo"
+  },
+  "summary": "Audio file created by SBaGen, a program used to create binaural beats; contains a stereo audio file recorded using binaural techniques; used to simulate a mood or feeling when played back with stereo headphones.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "sbagen",
+        "display_name": "SBaGen"
+      }
+    ],
+    "macos": [
+      {
+        "software": "sbagen",
+        "display_name": "SBaGen"
+      }
+    ],
+    "linux": [
+      {
+        "software": "sbagen",
+        "display_name": "SBaGen"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-04-19",
+  "sources": [
+    {
+      "url": "sbg.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

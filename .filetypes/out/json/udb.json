@@ -1,0 +1,47 @@
+{
+  "slug": "udb",
+  "extension": "udb",
+  "name": "Dynamics AX User Database File",
+  "category": "dynamics-ax-user-database-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 12,
+    "source": "fileinfo"
+  },
+  "summary": "Database file used by Microsoft AX business management software; contains a list of users, the Component Object Model (COM), and the Application Object Server (AOS); also includes database connections and the types of connections.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-dynamics-ax",
+        "display_name": "Microsoft Dynamics AX"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2008-08-29",
+  "sources": [
+    {
+      "url": "udb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

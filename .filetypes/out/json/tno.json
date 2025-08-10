@@ -1,0 +1,53 @@
+{
+  "slug": "tno",
+  "extension": "tno",
+  "name": "TI-Nspire Operating System File",
+  "category": "ti-nspire-operating-system-file",
+  "developer_org": "texas-instruments",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "A TNO file is an update file used by the Texas Instruments TI-Nspire handheld graphing calculator. It contains one or more updates for the calculator's operating system . To apply a TNO file to a TI-Nspire, use the calculator's associated desktop software.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "texas-instruments-ti-nspire-software",
+        "display_name": "Texas Instruments TI-Nspire Software"
+      }
+    ],
+    "macos": [
+      {
+        "software": "texas-instruments-ti-nspire-software",
+        "display_name": "Texas Instruments TI-Nspire Software"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-10-02",
+  "sources": [
+    {
+      "url": "tno.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

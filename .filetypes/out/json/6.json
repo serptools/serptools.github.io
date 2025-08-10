@@ -1,0 +1,75 @@
+{
+  "slug": "6",
+  "extension": "6",
+  "name": "Unix Section 6 Manual Page",
+  "category": "unix-section-6-manual-page",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "A 6 file contains a manual page (man page) accessible via the Unix man utility. It describes a game or other niche program available in a Unix-based operating system . 6 files are named for the program they describe.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "man",
+        "display_name": "man"
+      },
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      }
+    ],
+    "macos": [
+      {
+        "software": "gnu-emacs",
+        "display_name": "GNU Emacs"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "man",
+        "display_name": "man"
+      },
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-02-24",
+  "sources": [
+    {
+      "url": "6.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

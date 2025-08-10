@@ -1,0 +1,51 @@
+{
+  "slug": "dset",
+  "extension": "dset",
+  "name": "Kratos Dataset File",
+  "category": "kratos-dataset-file",
+  "developer_org": "kratos-analytical",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "A DSET file is a data file created by Kratos Vision, a software program used to analyze X-ray photoelectron spectroscopy (XPS) data. It contains an XPS dataset recorded by Kratos Analytical instruments. DSET files include information about the element being analyzed, such as sensitivity factor and peak position.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "kratos-analytical-vision",
+        "display_name": "Kratos Analytical Vision"
+      },
+      {
+        "software": "casaxps",
+        "display_name": "CasaXPS"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-12-05",
+  "sources": [
+    {
+      "url": "dset.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "fgsf",
+  "extension": "fgsf",
+  "name": "Files by Google Safe Folder Encrypted File",
+  "category": "files-by-google-safe-folder-encrypted-file",
+  "developer_org": "google",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "An FGSF file is a file that has been encrypted and renamed by Files by Google, a file management app for Android and ChromeOS devices. It was encrypted and renamed when moved to Files by Google's Safe folder. Typically, an FGSF file contains a sensitive document, photo, or video that a user wanted to protect from others who might use their device.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "android": [
+      {
+        "software": "files-by-google",
+        "display_name": "Files by Google"
+      }
+    ],
+    "windows": [
+      {
+        "software": "files-by-google",
+        "display_name": "Files by Google"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-06-17",
+  "sources": [
+    {
+      "url": "fgsf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "slug": "fx",
+  "extension": "fx",
+  "name": "Direct3D Effects File",
+  "category": "1.-direct3d-effects-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 4.2,
+    "votes": 35,
+    "source": "fileinfo"
+  },
+  "summary": "Effects file created for Direct3D, a part of Microsoft DirectX that is used to define the appearance of 3D objects; contains plain text effects properties structured into three sections: variables, functions, and techniques; written using Microsoft's High Level Shader Language (see also .HLSL files).",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-visual-studio-2022",
+        "display_name": "Microsoft Visual Studio 2022"
+      },
+      {
+        "software": "microsoft-effectedit",
+        "display_name": "Microsoft EffectEdit"
+      },
+      {
+        "software": "microsoft-dxviewer",
+        "display_name": "Microsoft Dxviewer"
+      },
+      {
+        "software": "microsoft-fxc",
+        "display_name": "Microsoft FXC"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "microsoft-windows",
+        "display_name": "Microsoft Windows"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-10-23",
+  "sources": [
+    {
+      "url": "fx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "mfil",
+  "extension": "mfil",
+  "name": "Blizzard Software Update File",
+  "category": "blizzard-software-update-file",
+  "developer_org": "blizzard-entertainment",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 10,
+    "source": "fileinfo"
+  },
+  "summary": "File used by Blizzard games such as World of Warcraft and Diablo III; saved in a plain text format and contains information used for updating and patching the game software; references URLs for downloads and game updates.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "blizzard-world-of-warcraft",
+        "display_name": "Blizzard World of Warcraft"
+      },
+      {
+        "software": "blizzard-diablo-3",
+        "display_name": "Blizzard Diablo 3"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-04-24",
+  "sources": [
+    {
+      "url": "mfil.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

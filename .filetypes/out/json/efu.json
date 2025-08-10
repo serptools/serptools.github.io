@@ -1,0 +1,51 @@
+{
+  "slug": "efu",
+  "extension": "efu",
+  "name": "Encryptafile Public Key File",
+  "category": "1.-encryptafile-public-key-file",
+  "developer_org": "xenosystems",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "Public Key used to authenticate an encrypted Encryptafile ( .EFL ) file; contains a hexadecimal representation of the public key; made available to the public and used along with the Private Key ( .EFR ) file to verify a digitally signed file.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "xenosystems-encryptafile",
+        "display_name": "XenoSystems Encryptafile"
+      },
+      {
+        "software": "everything",
+        "display_name": "Everything"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-05-25",
+  "sources": [
+    {
+      "url": "efu.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

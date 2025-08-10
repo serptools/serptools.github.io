@@ -1,0 +1,51 @@
+{
+  "slug": "sbres",
+  "extension": "sbres",
+  "name": "Small Basic LitDev Resource File",
+  "category": "small-basic-litdev-resource-file",
+  "developer_org": "litdev",
+  "popularity": {
+    "rating": 2.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "An SBRES file is a resource file created by LitDev, an extension for the Microsoft Small Basic programming language. It contains binary data used to add resources to a Small Basic program. SBRES files are typically named for the program they are used with. For example, a Small Basic program named ExampleApp.exe may use an SBRES file named ExampleApp.sbres .",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-small-basic",
+        "display_name": "Microsoft Small Basic"
+      },
+      {
+        "software": "litdev",
+        "display_name": "LitDev"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-03-15",
+  "sources": [
+    {
+      "url": "sbres.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

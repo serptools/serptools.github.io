@@ -1,0 +1,108 @@
+{
+  "slug": "flatpakrepo",
+  "extension": "flatpakrepo",
+  "name": "Linux Flatpak Repository",
+  "category": "linux-flatpak-repository",
+  "developer_org": "flatpak",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "A FLATPAKREPO file is a text file used to download a repository via the Linux-based Flatpak app distribution system. It contains metadata about a Flatpak repository, including the repository's name and the location from which it can be downloaded. Flatpak users use FLATPAKREPO files to add repositories from the Linux command line .",
+  "standards": [],
+  "mime_types": [
+    "dl.flathub.org/repo"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "github-atom",
+        "display_name": "GitHub Atom",
+        "status": "discontinued"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "flatpak",
+        "display_name": "Flatpak"
+      }
+    ],
+    "web": [
+      {
+        "software": "web-browser",
+        "display_name": "web browser"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "github-atom",
+        "display_name": "GitHub Atom",
+        "status": "discontinued"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "flatpak",
+        "display_name": "Flatpak"
+      },
+      {
+        "software": "github-atom",
+        "display_name": "GitHub Atom",
+        "status": "discontinued"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "FLATPAKREPO file open in GitHub Atom",
+      "alt": "FLATPAKREPO file open in GitHub Atom",
+      "source_url": "https://fileinfo.com/img/ss/md/flatpakrepo_11682.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-09-28",
+  "sources": [
+    {
+      "url": "flatpakrepo.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

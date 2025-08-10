@@ -1,0 +1,53 @@
+{
+  "slug": "tbd",
+  "extension": "tbd",
+  "name": "Visual Studio Toolbox Data File",
+  "category": "1.-visual-studio-toolbox-data-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "File created by Microsoft Visual Studio, a Windows software development application; cache referenced by Visual Studio's tool function to optimize the load time; contains metadata for the current visual appearance and the original visual appearance, for when you select Reset Toolbox ; not meant to be manually opened.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-visual-studio-2022",
+        "display_name": "Microsoft Visual Studio 2022"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-xcode",
+        "display_name": "Apple Xcode"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2013-10-30",
+  "sources": [
+    {
+      "url": "tbd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "slug": "lwv",
+  "extension": "lwv",
+  "name": "Linguistically Enhanced Sound File",
+  "category": "linguistically-enhanced-sound-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Audio file, similar to a .WAV file, that has been enhanced with the Microsoft Linguistic Information Sound Editing Tool (LISET); typically has modified phonemes that give the voice in the audio file greater articulation.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-agent",
+        "display_name": "Microsoft Agent",
+        "status": "discontinued"
+      },
+      {
+        "software": "microsoft-linguistic-information-sound-editing-tool",
+        "display_name": "Microsoft Linguistic Information Sound Editing Tool"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2008-04-11",
+  "sources": [
+    {
+      "url": "lwv.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

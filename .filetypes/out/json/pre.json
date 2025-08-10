@@ -1,0 +1,61 @@
+{
+  "slug": "pre",
+  "extension": "pre",
+  "name": "Lotus Freelance Graphics File",
+  "category": "1.-lotus-freelance-graphics-file",
+  "developer_org": "ibm",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "Slide show created with Lotus Freelance Graphics, a program used for creating presentations; contains presentation slides and their layouts, images, and text; used for giving oral presentations.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-powerpoint-365",
+        "display_name": "Microsoft PowerPoint 365"
+      },
+      {
+        "software": "corel-presentations-2021",
+        "display_name": "Corel Presentations 2021"
+      },
+      {
+        "software": "eyelink-1000-host-application",
+        "display_name": "EyeLink 1000 Host Application"
+      }
+    ],
+    "macos": [
+      {
+        "software": "microsoft-powerpoint-365",
+        "display_name": "Microsoft PowerPoint 365"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-02-08",
+  "sources": [
+    {
+      "url": "pre.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

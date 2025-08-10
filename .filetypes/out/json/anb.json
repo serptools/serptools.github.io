@@ -1,0 +1,51 @@
+{
+  "slug": "anb",
+  "extension": "anb",
+  "name": "Analyst's Notebook Chart",
+  "category": "analyst-s-notebook-chart",
+  "developer_org": "ibm",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "An ANB file is an analytical chart created by IBM i2 Analyst's Notebook, a data analysis program. It contains a diagram that explains how different pieces of information are connected to each other. ANB files are comprised of entities, which represent pieces of information, links, which show that entities are connected, and properties, which describe an entity or link in more detail.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "ibm-i2-analyst-s-notebook",
+        "display_name": "IBM i2 Analyst's Notebook"
+      },
+      {
+        "software": "ibm-i2-chart-reader",
+        "display_name": "IBM i2 Chart Reader"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-06-25",
+  "sources": [
+    {
+      "url": "anb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

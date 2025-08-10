@@ -1,0 +1,52 @@
+{
+  "slug": "aps",
+  "extension": "aps",
+  "name": "Visual C++ Resource File",
+  "category": "1.-visual-c++-resource-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 2.6,
+    "votes": 33,
+    "source": "fileinfo"
+  },
+  "summary": "File created by Microsoft Visual C++, a software development application; stores the binary representation of a resource included with the project; enables the application to load resources more quickly.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-visual-studio-2022",
+        "display_name": "Microsoft Visual Studio 2022"
+      },
+      {
+        "software": "ams-greeting-card-studio",
+        "display_name": "AMS Greeting Card Studio",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-02-21",
+  "sources": [
+    {
+      "url": "aps.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

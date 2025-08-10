@@ -1,0 +1,23 @@
+{
+  "slug": "lds",
+  "extension": "lds",
+  "name": "Binutils LD Linker Script",
+  "category": "binutils-ld-linker-script",
+  "summary": "",
+  "developer_org": "domesday86",
+  "developer_name": "Domesday86",
+  "more_information": {
+    "description": [
+      "Linking is part of the compilation process when building source code files into an output executable file. The ld command is often used as the last part of the compilation process to build the final executable.",
+      "An example of a linker script is vmlinux.lds , which is located in the arch/​[processor type]/​kernel/​ directory. This file is used as the linker script during Linux kernel compilation.",
+      "NOTE: The ld program is part of GNU's Binutils."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "lds.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

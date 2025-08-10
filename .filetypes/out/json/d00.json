@@ -1,0 +1,52 @@
+{
+  "slug": "d00",
+  "extension": "d00",
+  "name": "VirtualDrive Disc Image Part File",
+  "category": "1.-virtualdrive-disc-image-part-file",
+  "developer_org": "farstone-technology",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 14,
+    "source": "fileinfo"
+  },
+  "summary": "Partial disc image file created by VirtualDrive, a disc imaging and burning application; saves one part of an overall disc image where other parts use the extensions \".d01,\" \".d02,\" etc.; used when the size limit of a disc image is exceeded so that the volume is split across multiple files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      },
+      {
+        "software": "nullsoft-winamp-with-adplug-or-ganbatte-plug-in",
+        "display_name": "Nullsoft Winamp with AdPlug or Ganbatte! plug-in"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-08-04",
+  "sources": [
+    {
+      "url": "d00.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

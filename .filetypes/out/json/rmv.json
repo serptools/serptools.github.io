@@ -1,0 +1,51 @@
+{
+  "slug": "rmv",
+  "extension": "rmv",
+  "name": "RadMovie Video",
+  "category": "radmovie-video",
+  "developer_org": "radical-entertainment",
+  "popularity": {
+    "rating": 2.2,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "An RMV file is a video used by a Radical Entertainment video game, such as The Simpsons: Hit & Run and The Incredible Hulk: Ultimate Destruction. It contains a cutscene or other video played in the game.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "radical-entertainment-the-simpsons-hit-run",
+        "display_name": "Radical Entertainment The Simpsons: Hit & Run"
+      },
+      {
+        "software": "radical-entertainment-the-incredible-hulk-ultimate-destruction",
+        "display_name": "Radical Entertainment The Incredible Hulk: Ultimate Destruction"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-08-24",
+  "sources": [
+    {
+      "url": "rmv.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "slug": "sidn",
+  "extension": "sidn",
+  "name": "iTunes Authorization Data File",
+  "category": "itunes-authorization-data-file",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "File used by iTunes, a multimedia playback program; contains information referenced by Windows to play purchased songs for a specific user account; similar to .SIDB and .SIDD files; not meant to be opened manually by the user.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "apple-itunes",
+        "display_name": "Apple iTunes",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2013-11-01",
+  "sources": [
+    {
+      "url": "sidn.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

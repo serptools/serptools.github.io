@@ -1,0 +1,96 @@
+{
+  "slug": "sff",
+  "extension": "sff",
+  "name": "M.U.G.E.N Sprite File",
+  "category": "1.-m.u.g.e.n-sprite-file",
+  "developer_org": "elecbyte",
+  "popularity": {
+    "rating": 4.3,
+    "votes": 52,
+    "source": "fileinfo"
+  },
+  "summary": "Graphics file used by M.U.G.E.N, a freeware 2D fighting game engine; stores sprites, which are graphics that store the animation states for a fighter or other animated object; can store sprites for jumping, kicking, punching, running, or other movements.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "elecbyte-m.u.g.e.n",
+        "display_name": "Elecbyte M.U.G.E.N"
+      },
+      {
+        "software": "virtualltek-systems-fighter-factory-ultimate",
+        "display_name": "VirtuallTek Systems Fighter Factory Ultimate"
+      },
+      {
+        "software": "the-mathworks-matlab",
+        "display_name": "The MathWorks MATLAB"
+      },
+      {
+        "software": "454-life-sciences-gs-data-analysis-software",
+        "display_name": "454 Life Sciences GS Data Analysis Software"
+      },
+      {
+        "software": "lead-technologies-leadtools-imaging-sdk",
+        "display_name": "LEAD Technologies LEADTOOLS Imaging SDK"
+      },
+      {
+        "software": "newera-graphics-converter-pro",
+        "display_name": "Newera Graphics Converter Pro"
+      },
+      {
+        "software": "irfanview",
+        "display_name": "IrfanView"
+      },
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      }
+    ],
+    "ios": [
+      {
+        "software": "heracle-biosoft-sff-workbench",
+        "display_name": "Heracle BioSoft SFF Workbench",
+        "status": "discontinued"
+      }
+    ],
+    "macos": [
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      }
+    ],
+    "linux": [
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2013-01-16",
+  "sources": [
+    {
+      "url": "sff.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

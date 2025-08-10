@@ -1,0 +1,47 @@
+{
+  "slug": "ps1xml",
+  "extension": "ps1xml",
+  "name": "Windows PowerShell Display Configuration File",
+  "category": "windows-powershell-display-configuration-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "Configuration file used by Windows PowerShell, a shell program included with Windows 7; contains XML definitions for how output is displayed within the console; used for formatting directory listings, help pages, registry information, and other output.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-windows-powershell",
+        "display_name": "Microsoft Windows PowerShell"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-10-18",
+  "sources": [
+    {
+      "url": "ps1xml.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

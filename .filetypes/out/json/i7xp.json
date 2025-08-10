@@ -1,0 +1,70 @@
+{
+  "slug": "i7xp",
+  "extension": "i7xp",
+  "name": "Inform 7 Extension Project",
+  "category": "inform-7-extension-project",
+  "developer_org": "graham-nelson",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "An I7XP file is an archive created by Inform, an IDE for creating Interactive Fiction (IF) programs used by Z-code interpreters, such as Zoom or Frotz. It stores the extension project contents, which includes various files in \"Build,\" \"Index,\" and \"Source\" folders, along with a .PLIST file.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "inform",
+        "display_name": "Inform"
+      }
+    ],
+    "macos": [
+      {
+        "software": "inform",
+        "display_name": "Inform"
+      }
+    ],
+    "linux": [
+      {
+        "software": "inform",
+        "display_name": "Inform"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "I7XP file icon",
+      "alt": "I7XP file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/i7xp-11770.png"
+    },
+    {
+      "caption": "I7XP file open in Inform 7",
+      "alt": "I7XP file open in Inform 7",
+      "source_url": "https://fileinfo.com/img/ss/md/i7xp_11770.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-11-18",
+  "sources": [
+    {
+      "url": "i7xp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "rod",
+  "extension": "rod",
+  "name": "RIB office Database File",
+  "category": "1.-rib-office-database-file",
+  "developer_org": "rib-software",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Database file used by RIB office, a project management application for planners and engineers in building construction, civil engineering, and road construction; stores all office data in the Progress ObjectStore database format; used as the backend format for saving RIB office data.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "rib-office",
+        "display_name": "RIB office"
+      },
+      {
+        "software": "actuate-e.report-designer",
+        "display_name": "Actuate e.Report Designer"
+      },
+      {
+        "software": "nethar-ancestry",
+        "display_name": "Nethar Ancestry"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-09-18",
+  "sources": [
+    {
+      "url": "rod.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

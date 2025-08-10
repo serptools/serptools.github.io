@@ -1,0 +1,104 @@
+{
+  "slug": "alx",
+  "extension": "alx",
+  "name": "BlackBerry Application Loader XML File",
+  "category": "1.-blackberry-application-loader-xml-file",
+  "developer_org": "research-in-motion",
+  "popularity": {
+    "rating": 4.3,
+    "votes": 10,
+    "source": "fileinfo"
+  },
+  "summary": "File used by BlackBerry Desktop Manager, a program used for synchronizing and managing data for BlackBerry mobile devices; contains XML application description data, including name, ID, description, loader version, vendor, copyright, language, and file set; used for loading applications onto a BlackBerry smartphone .",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "research-in-motion-blackberry-desktop-manager",
+        "display_name": "Research In Motion BlackBerry Desktop Manager"
+      },
+      {
+        "software": "rim-blackberry-java-development-environment",
+        "display_name": "RIM BlackBerry Java Development Environment"
+      },
+      {
+        "software": "eclipse-ide-for-java-developers",
+        "display_name": "Eclipse IDE for Java Developers"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "microsoft-activex-control-pad",
+        "display_name": "Microsoft ActiveX Control Pad"
+      },
+      {
+        "software": "microsoft-internet-explorer",
+        "display_name": "Microsoft Internet Explorer",
+        "status": "discontinued"
+      },
+      {
+        "software": "alpha-software-alpha-anywhere",
+        "display_name": "Alpha Software Alpha Anywhere"
+      }
+    ],
+    "macos": [
+      {
+        "software": "research-in-motion-blackberry-desktop-manager",
+        "display_name": "Research In Motion BlackBerry Desktop Manager"
+      },
+      {
+        "software": "rim-blackberry-java-development-environment",
+        "display_name": "RIM BlackBerry Java Development Environment"
+      },
+      {
+        "software": "eclipse-ide-for-java-developers",
+        "display_name": "Eclipse IDE for Java Developers"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "rim-blackberry-java-development-environment",
+        "display_name": "RIM BlackBerry Java Development Environment"
+      },
+      {
+        "software": "eclipse-ide-for-java-developers",
+        "display_name": "Eclipse IDE for Java Developers"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-05-13",
+  "sources": [
+    {
+      "url": "alx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "slug": "pwi",
+  "extension": "pwi",
+  "name": "Pocket Word Document",
+  "category": "pocket-word-document",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.1,
+    "votes": 17,
+    "source": "fileinfo"
+  },
+  "summary": "Document created by Microsoft Word for Windows Mobile edition, a word processing program also referred to as \"Pocket Word;\" created on Pocket PC PDAs running the Windows Mobile operating system; similar to a Word ( .DOC ) document, but does not support features such as headers, footers, and comments.",
+  "standards": [],
+  "mime_types": [
+    "inkwriter/note"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-outlook-365",
+        "display_name": "Microsoft Outlook 365"
+      },
+      {
+        "software": "microsoft-word-365",
+        "display_name": "Microsoft Word 365"
+      },
+      {
+        "software": "microsoft-onenote-365",
+        "display_name": "Microsoft OneNote 365"
+      }
+    ],
+    "macos": [
+      {
+        "software": "microsoft-word-365",
+        "display_name": "Microsoft Word 365"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-06-04",
+  "sources": [
+    {
+      "url": "pwi.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

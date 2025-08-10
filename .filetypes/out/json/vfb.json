@@ -1,0 +1,61 @@
+{
+  "slug": "vfb",
+  "extension": "vfb",
+  "name": "FontLab Studio Font File",
+  "category": "fontlab-studio-font-file",
+  "developer_org": "fontlab",
+  "popularity": {
+    "rating": 4.1,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "Font file created by FontLab Studio, a font authoring program; contains a designed font, which includes the glyphs that make up the alphabet and other symbols; stores the font in a vector format so that the glyphs can be scaled without losing quality.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "fontlab-studio",
+        "display_name": "FontLab Studio"
+      },
+      {
+        "software": "fontlab-fontographer",
+        "display_name": "FontLab Fontographer",
+        "status": "discontinued"
+      },
+      {
+        "software": "fontlab-typetool",
+        "display_name": "FontLab TypeTool",
+        "status": "discontinued"
+      },
+      {
+        "software": "fontlab-transtype-pro",
+        "display_name": "FontLab TransType Pro"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2013-03-28",
+  "sources": [
+    {
+      "url": "vfb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

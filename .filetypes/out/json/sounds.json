@@ -1,0 +1,83 @@
+{
+  "slug": "sounds",
+  "extension": "sounds",
+  "name": "Quake 3 Engine Sound Definition File",
+  "category": "quake-3-engine-sound-definition-file",
+  "developer_org": "id-software",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "Sound definition file used by games developed for id Tech 3, which is often known as the Quake III engine; defines the properties for one or more sounds, such as an sound ID and a reference to a .WAV file; stored in a plain-text format.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "id-software-quake-3",
+        "display_name": "id Software Quake 3"
+      },
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "microsoft-wordpad",
+        "display_name": "Microsoft WordPad"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      }
+    ],
+    "macos": [
+      {
+        "software": "id-software-quake-3",
+        "display_name": "id Software Quake 3"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "id-software-quake-3",
+        "display_name": "id Software Quake 3"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-05-24",
+  "sources": [
+    {
+      "url": "sounds.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

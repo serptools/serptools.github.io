@@ -1,0 +1,47 @@
+{
+  "slug": "s02",
+  "extension": "s02",
+  "name": "ZipSplitter Part 3 File",
+  "category": "zipsplitter-part-3-file",
+  "developer_org": "lithops",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "An S02 file is the third part of a file that was split using ZipSplitter, a program used to split files to reduce their size for easier portability. It contains a segment of a larger file, such as a .ZIP or .MOV file, that is one part of several other parts. S02 files can be restored by ZipSplitter, along with the other parts ( .S00 , .S01 , etc.) by double-clicking the .EXE file included with the split archive.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "lithops-software-zipsplitter",
+        "display_name": "Lithops Software ZipSplitter"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-02-18",
+  "sources": [
+    {
+      "url": "s02.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

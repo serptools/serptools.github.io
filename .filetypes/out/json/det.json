@@ -1,0 +1,47 @@
+{
+  "slug": "det",
+  "extension": "det",
+  "name": "Sage ACT! 5 Email Message",
+  "category": "sage-act-5-email-message",
+  "developer_org": "the-sage-group",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "Proprietary email message format used by ACT!, a contact management program; contains a single email message without any attachments.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "swiftpage-act",
+        "display_name": "Swiftpage Act!"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-07-09",
+  "sources": [
+    {
+      "url": "det.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

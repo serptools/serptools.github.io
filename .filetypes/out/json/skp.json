@@ -1,0 +1,114 @@
+{
+  "slug": "skp",
+  "extension": "skp",
+  "name": "SketchUp Document",
+  "category": "sketchup-document",
+  "developer_org": "trimble",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 243,
+    "source": "fileinfo"
+  },
+  "summary": "An SKP file is a three-dimensional (3D) model created by SketchUp, an easy-to-use 3D design program. It contains a model comprising wireframes, shades, edge effects, and textures. SKP files may also include components users can insert into other SketchUp documents.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "trimble-sketchup",
+        "display_name": "Trimble SketchUp"
+      },
+      {
+        "software": "trimble-sketchup-viewer",
+        "display_name": "Trimble SketchUp Viewer"
+      },
+      {
+        "software": "imsi-turbocad-pro",
+        "display_name": "IMSI TurboCAD Pro"
+      },
+      {
+        "software": "okino-computer-graphics-polytrans",
+        "display_name": "Okino Computer Graphics PolyTrans"
+      },
+      {
+        "software": "acca-edificius",
+        "display_name": "ACCA Edificius"
+      },
+      {
+        "software": "imsi-turbocad-deluxe",
+        "display_name": "IMSI TurboCAD Deluxe"
+      },
+      {
+        "software": "trimble-3d-warehouse",
+        "display_name": "Trimble 3D Warehouse"
+      }
+    ],
+    "macos": [
+      {
+        "software": "trimble-sketchup",
+        "display_name": "Trimble SketchUp"
+      },
+      {
+        "software": "trimble-sketchup-viewer",
+        "display_name": "Trimble SketchUp Viewer"
+      },
+      {
+        "software": "imsi-turbocad-deluxe",
+        "display_name": "IMSI TurboCAD Deluxe"
+      }
+    ],
+    "web": [
+      {
+        "software": "trimble-3d-warehouse",
+        "display_name": "Trimble 3D Warehouse"
+      }
+    ],
+    "ios": [
+      {
+        "software": "trimble-sketchup-viewer",
+        "display_name": "Trimble SketchUp Viewer"
+      }
+    ],
+    "android": [
+      {
+        "software": "trimble-sketchup-viewer",
+        "display_name": "Trimble SketchUp Viewer"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "SKP file icon",
+      "alt": "SKP file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/skp-2059.png"
+    },
+    {
+      "caption": "SKP file open in Trimble SketchUp 2022",
+      "alt": "SKP file open in Trimble SketchUp 2022",
+      "source_url": "https://fileinfo.com/img/ss/md/skp_2059.jpg"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-06-17",
+  "sources": [
+    {
+      "url": "skp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

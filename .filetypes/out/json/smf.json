@@ -1,0 +1,130 @@
+{
+  "slug": "smf",
+  "extension": "smf",
+  "name": "StarMath Formula File",
+  "category": "1.-starmath-formula-file",
+  "developer_org": "oracle",
+  "popularity": {
+    "rating": 4.1,
+    "votes": 27,
+    "source": "fileinfo"
+  },
+  "summary": "Math formula created by OpenOffice Math and other variants of the office suite, such as LibreOffice Math; stores the syntax and formatting of a mathematical equation or expression; replaced with the newer .ODF format, but is still supported by Apache OpenOffice.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "openoffice-math",
+        "display_name": "OpenOffice Math"
+      },
+      {
+        "software": "libreoffice",
+        "display_name": "LibreOffice"
+      },
+      {
+        "software": "planamesa-neooffice",
+        "display_name": "Planamesa NeoOffice",
+        "status": "discontinued"
+      },
+      {
+        "software": "image-line-fl-studio",
+        "display_name": "Image-Line FL Studio"
+      },
+      {
+        "software": "steinberg-cubase",
+        "display_name": "Steinberg Cubase"
+      },
+      {
+        "software": "ableton-live",
+        "display_name": "Ableton Live"
+      },
+      {
+        "software": "serif-drawplus",
+        "display_name": "Serif DrawPlus"
+      },
+      {
+        "software": "serif-pageplus",
+        "display_name": "Serif PagePlus",
+        "status": "discontinued"
+      },
+      {
+        "software": "appspeed-skinmagic-toolkit",
+        "display_name": "Appspeed SkinMagic Toolkit"
+      }
+    ],
+    "macos": [
+      {
+        "software": "openoffice-math",
+        "display_name": "OpenOffice Math"
+      },
+      {
+        "software": "planamesa-neooffice",
+        "display_name": "Planamesa NeoOffice",
+        "status": "discontinued"
+      },
+      {
+        "software": "libreoffice",
+        "display_name": "LibreOffice"
+      },
+      {
+        "software": "image-line-fl-studio",
+        "display_name": "Image-Line FL Studio"
+      },
+      {
+        "software": "steinberg-cubase",
+        "display_name": "Steinberg Cubase"
+      },
+      {
+        "software": "ableton-live",
+        "display_name": "Ableton Live"
+      }
+    ],
+    "linux": [
+      {
+        "software": "openoffice-math",
+        "display_name": "OpenOffice Math"
+      },
+      {
+        "software": "libreoffice",
+        "display_name": "LibreOffice"
+      }
+    ],
+    "android": [
+      {
+        "software": "rushikesh-kamewar-shortcut-maker",
+        "display_name": "Rushikesh Kamewar Shortcut Maker"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "SMF file icon",
+      "alt": "SMF file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/smf-6498.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-05-01",
+  "sources": [
+    {
+      "url": "smf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

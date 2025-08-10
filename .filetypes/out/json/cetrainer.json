@@ -1,0 +1,67 @@
+{
+  "slug": "cetrainer",
+  "extension": "cetrainer",
+  "name": "Cheat Engine Trainer File",
+  "category": "cheat-engine-trainer-file",
+  "developer_org": "cheat-engine",
+  "popularity": {
+    "rating": 4.2,
+    "votes": 49,
+    "source": "fileinfo"
+  },
+  "summary": "A CETRAINER file is a Cheat Engine Trainer file created by Cheat Engine, an open source program used to create \"cheats,\" or modifications, to Windows-based games. It contains a \"trainer\" generated from tables in a Cheat Engine CT file, which is used to run during a game or application to modify data or to patch files to allow cheating. CETRAINER files may be saved in XML format or encrypted with XOR encryption and compressed with Zlib-compression.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "cheat-engine",
+        "display_name": "Cheat Engine"
+      },
+      {
+        "software": "cetrainer-decrypter",
+        "display_name": "CEtrainer-decrypter"
+      }
+    ],
+    "macos": [
+      {
+        "software": "cheat-engine",
+        "display_name": "Cheat Engine"
+      },
+      {
+        "software": "cetrainer-decrypter",
+        "display_name": "CEtrainer-decrypter"
+      }
+    ],
+    "linux": [
+      {
+        "software": "cetrainer-decrypter",
+        "display_name": "CEtrainer-decrypter"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-11-30",
+  "sources": [
+    {
+      "url": "cetrainer.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

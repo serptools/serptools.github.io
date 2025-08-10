@@ -1,0 +1,49 @@
+{
+  "slug": "paradise",
+  "extension": "paradise",
+  "name": "Paradise Ransomware Encrypted File",
+  "category": "paradise-ransomware-encrypted-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 2.7,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "A PARADISE file is a file that has been encrypted by Paradise ransomware , which is malware distributed by cybercriminals. It contains a file, such as a .JPG , .DOCX , .XLSX , .MP4 , or .MP3 file, that has been renamed and encrypted by the virus. PARADISE files can be decrypted for free using the Emsisoft Decryptor for Paradise utility.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "emsisoft-decryptor-for-paradise",
+        "display_name": "Emsisoft Decryptor for Paradise"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-03-01",
+  "sources": [
+    {
+      "url": "paradise.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

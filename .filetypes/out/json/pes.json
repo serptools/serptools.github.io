@@ -1,0 +1,134 @@
+{
+  "slug": "pes",
+  "extension": "pes",
+  "name": "Brother PE Embroidery Format",
+  "category": "1.-brother-pe-embroidery-format",
+  "developer_org": "brother-international-corporation",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 149,
+    "source": "fileinfo"
+  },
+  "summary": "A PES file is a computer-aided manufacturing (CAM) file that contains embroidery instructions for a sewing machine to stitch a pattern onto a piece of fabric. It stores codes such as \"stop,\" \"jump,\" and \"trim\" that make up instructions that direct the sewing machine. PES files also include information about the embroidery design, such as colors in the design from the supported Brother color palette and stitch density and length.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "balarad-embird-studio",
+        "display_name": "BALARAD Embird Studio"
+      },
+      {
+        "software": "buzz-tools-buzzxplore",
+        "display_name": "Buzz Tools BuzzXplore"
+      },
+      {
+        "software": "bernina-artlink",
+        "display_name": "BERNINA ARTlink"
+      },
+      {
+        "software": "s-s-computing-sewwhat",
+        "display_name": "S & S Computing SewWhat!"
+      },
+      {
+        "software": "premier+-embroidery",
+        "display_name": "PREMIER+ Embroidery"
+      },
+      {
+        "software": "matthias-arndt-stitchbuddy",
+        "display_name": "Matthias Arndt StitchBuddy"
+      },
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      },
+      {
+        "software": "embroidery-viewer-and-converter",
+        "display_name": "Embroidery Viewer and Converter"
+      },
+      {
+        "software": "embroidermodder-team-embroidery-viewer",
+        "display_name": "Embroidermodder Team Embroidery Viewer"
+      }
+    ],
+    "chromeos": [
+      {
+        "software": "google-chrome-with-embroidery-viewer-and-converter-plugin",
+        "display_name": "Google Chrome with Embroidery Viewer and Converter plugin"
+      }
+    ],
+    "android": [
+      {
+        "software": "david-olsen-touch-embroidery-for-android",
+        "display_name": "David Olsen Touch Embroidery for Android"
+      },
+      {
+        "software": "embroidermodder-team-embroidery-viewer",
+        "display_name": "Embroidermodder Team Embroidery Viewer"
+      }
+    ],
+    "macos": [
+      {
+        "software": "premier+-embroidery",
+        "display_name": "PREMIER+ Embroidery"
+      },
+      {
+        "software": "matthias-arndt-stitchbuddy",
+        "display_name": "Matthias Arndt StitchBuddy"
+      }
+    ],
+    "web": [
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      },
+      {
+        "software": "embroidery-viewer-and-converter",
+        "display_name": "Embroidery Viewer and Converter"
+      },
+      {
+        "software": "codeandweb-physicseditor",
+        "display_name": "CodeAndWeb PhysicsEditor"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "PES file icon",
+      "alt": "PES file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/pes-1096.png"
+    },
+    {
+      "caption": "PES file open in Buzz Tools BuzzXplore 4",
+      "alt": "PES file open in Buzz Tools BuzzXplore 4",
+      "source_url": "https://fileinfo.com/img/ss/md/pes_1096.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-04-23",
+  "sources": [
+    {
+      "url": "pes.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

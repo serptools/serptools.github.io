@@ -1,0 +1,61 @@
+{
+  "slug": "dtshd",
+  "extension": "dtshd",
+  "name": "DTS-HD Master Audio File",
+  "category": "dts-hd-master-audio-file",
+  "developer_org": "dts",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Audio file used to author Blu-ray and HD DVD discs; contains audio data stored in either a lossless or lossy format; used in conjunction with video data to author a Blu-ray disc surround sound for movies.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "dts-hd-master-audio-suite",
+        "display_name": "DTS-HD Master Audio Suite"
+      },
+      {
+        "software": "dts-surround-audio-suite",
+        "display_name": "DTS Surround Audio Suite"
+      }
+    ],
+    "macos": [
+      {
+        "software": "dts-hd-master-audio-suite",
+        "display_name": "DTS-HD Master Audio Suite"
+      },
+      {
+        "software": "dts-surround-audio-suite",
+        "display_name": "DTS Surround Audio Suite"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-01-19",
+  "sources": [
+    {
+      "url": "dtshd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

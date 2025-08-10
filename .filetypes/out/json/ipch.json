@@ -1,0 +1,47 @@
+{
+  "slug": "ipch",
+  "extension": "ipch",
+  "name": "Intellisense Precompiled Header File",
+  "category": "intellisense-precompiled-header-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 11,
+    "source": "fileinfo"
+  },
+  "summary": "Developer file used by Microsoft Visual C++, an IDE used for Windows C++ programming; contains precompiled header information used by Intellisense, Microsoft's code assistance module used for code hinting, documentation, and autocompletion while the programmer types source code.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-visual-studio-2022",
+        "display_name": "Microsoft Visual Studio 2022"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-04-13",
+  "sources": [
+    {
+      "url": "ipch.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

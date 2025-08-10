@@ -1,0 +1,115 @@
+{
+  "slug": "paf",
+  "extension": "paf",
+  "name": "Portable Application Installer File",
+  "category": "1.-portable-application-installer-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 26,
+    "source": "fileinfo"
+  },
+  "summary": "Installer for a portable application stored on a USB flash drive; can be installed and run on any Windows computer from the USB drive; includes software such as Firefox Portable, OpenOffice.org Portable, 7-Zip Portable, as well as many other games, programs, and utilities.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "run-from-usb-flash-drive",
+        "display_name": "Run from USB flash drive"
+      },
+      {
+        "software": "familysearch-personal-ancestral-file",
+        "display_name": "FamilySearch Personal Ancestral File"
+      },
+      {
+        "software": "rootsmagic",
+        "display_name": "RootsMagic"
+      },
+      {
+        "software": "incline-software-ancestral-quest",
+        "display_name": "Incline Software Ancestral Quest"
+      },
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "nullsoft-winamp",
+        "display_name": "Nullsoft Winamp"
+      },
+      {
+        "software": "steinberg-wavelab",
+        "display_name": "Steinberg WaveLab"
+      },
+      {
+        "software": "cockos-reaper",
+        "display_name": "Cockos REAPER"
+      },
+      {
+        "software": "fmj-software-awave-studio",
+        "display_name": "FMJ-Software Awave Studio"
+      },
+      {
+        "software": "fmj-software-awave-audio",
+        "display_name": "FMJ-Software Awave Audio"
+      },
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      }
+    ],
+    "macos": [
+      {
+        "software": "incline-software-ancestral-quest",
+        "display_name": "Incline Software Ancestral Quest"
+      },
+      {
+        "software": "nullsoft-winamp",
+        "display_name": "Nullsoft Winamp"
+      },
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      }
+    ],
+    "web": [
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      }
+    ],
+    "linux": [
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2007-09-21",
+  "sources": [
+    {
+      "url": "paf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "slug": "ircp",
+  "extension": "ircp",
+  "name": "SpeedGrade IRIDAS Composite File",
+  "category": "speedgrade-iridas-composite-file",
+  "developer_org": "adobe-systems",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "An IRCP file contains a project created by Adobe SpeedGrade, a color grading application used in video production. It stores a timeline of video clips as well as color settings and masks to be applied to each clip.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "adobe-speedgrade",
+        "display_name": "Adobe SpeedGrade",
+        "status": "discontinued"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "adobe-speedgrade",
+        "display_name": "Adobe SpeedGrade",
+        "status": "discontinued"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "IRCP file icon",
+      "alt": "IRCP file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/ircp-7678.png"
+    },
+    {
+      "caption": "IRCP file open in Adobe SpeedGrade CC 2015",
+      "alt": "IRCP file open in Adobe SpeedGrade CC 2015",
+      "source_url": "https://fileinfo.com/img/ss/md/ircp_7678.jpg"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-01-20",
+  "sources": [
+    {
+      "url": "ircp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "slug": "msf",
+  "extension": "msf",
+  "name": "Mail Summary File",
+  "category": "1.-mail-summary-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 4.1,
+    "votes": 15,
+    "source": "fileinfo"
+  },
+  "summary": "Index of mail messages stored in various e-mail programs' mailboxes; contains mail headers and summaries but not complete messages.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "mozilla-seamonkey",
+        "display_name": "Mozilla SeaMonkey"
+      },
+      {
+        "software": "mozilla-thunderbird",
+        "display_name": "Mozilla Thunderbird"
+      },
+      {
+        "software": "netscape-mail",
+        "display_name": "Netscape Mail"
+      },
+      {
+        "software": "scout-management-blue-card-manager",
+        "display_name": "Scout Management Blue Card Manager"
+      },
+      {
+        "software": "miranda-im",
+        "display_name": "Miranda IM"
+      }
+    ],
+    "macos": [
+      {
+        "software": "mozilla-seamonkey",
+        "display_name": "Mozilla SeaMonkey"
+      },
+      {
+        "software": "mozilla-thunderbird",
+        "display_name": "Mozilla Thunderbird"
+      },
+      {
+        "software": "netscape-mail",
+        "display_name": "Netscape Mail"
+      }
+    ],
+    "linux": [
+      {
+        "software": "mozilla-seamonkey",
+        "display_name": "Mozilla SeaMonkey"
+      },
+      {
+        "software": "mozilla-thunderbird",
+        "display_name": "Mozilla Thunderbird"
+      },
+      {
+        "software": "netscape-mail",
+        "display_name": "Netscape Mail"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-11-05",
+  "sources": [
+    {
+      "url": "msf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

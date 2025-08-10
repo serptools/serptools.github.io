@@ -1,0 +1,22 @@
+{
+  "slug": "pth",
+  "extension": "pth",
+  "name": "PyTorch Model",
+  "category": "pytorch-model",
+  "summary": "",
+  "developer_org": "4d",
+  "developer_name": "4D",
+  "more_information": {
+    "description": [
+      "PyTorch is a Python-based machine learning library that allows developers to create machine learning models. Developers save PyTorch models using the torch.save(model, PATH) command. Typically, PyTorch models are saved as .PT or PTH files.",
+      "PTH files are meant to be used to perform a task. For example, many image upscaling applications use the algorithms that PTH files contain to increase an image's size while retaining its original quality. Typically, these applications will allow you to select and import a PTH file and use the file to perform a task."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "pth.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

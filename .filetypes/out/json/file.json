@@ -1,0 +1,49 @@
+{
+  "slug": "file",
+  "extension": "file",
+  "name": "Generic File",
+  "category": "generic-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 478,
+    "source": "fileinfo"
+  },
+  "summary": "Microsoft Windows and other programs sometimes append files they don't recognize with the .file extension. For example, if you download a file in your web browser, and your browser doesn't recognize the file's format, it may assign the .file extension. You can use file identification utilities to identify these \"generic\" FILE files.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "identify-with-file-identification-utility-then-open-with-appropriate-program",
+        "display_name": "Identify with file identification utility, then open with appropriate program"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-06-23",
+  "sources": [
+    {
+      "url": "file.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

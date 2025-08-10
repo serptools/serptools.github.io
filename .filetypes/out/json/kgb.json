@@ -1,0 +1,49 @@
+{
+  "slug": "kgb",
+  "extension": "kgb",
+  "name": "KGB Archive File",
+  "category": "kgb-archive-file",
+  "developer_org": "tomasz-pawlak",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 60,
+    "source": "fileinfo"
+  },
+  "summary": "File archive compressed using KGB Archiver, a data compression/file archiving tool created by Tomasz Pawlak; uses a higher compression rate than most other compression programs and supports AES-256 encryption.",
+  "standards": [],
+  "mime_types": [
+    "compression/file"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "kgb-archiver",
+        "display_name": "KGB Archiver"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2008-04-21",
+  "sources": [
+    {
+      "url": "kgb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

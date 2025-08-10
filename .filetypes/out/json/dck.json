@@ -1,0 +1,53 @@
+{
+  "slug": "dck",
+  "extension": "dck",
+  "name": "Resolume Deck File",
+  "category": "resolume-deck-file",
+  "developer_org": "resolume",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "File created by Resolume, a program used to create live audio-visual performances; contains a \"deck,\" which is made up of channels, each of which use visual sources, such as video clips, flash animations, live video feeds, and raster images; used to store a pre-configured collection of visual materials and their properties.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "resolume-avenue",
+        "display_name": "Resolume Avenue"
+      }
+    ],
+    "macos": [
+      {
+        "software": "resolume-avenue",
+        "display_name": "Resolume Avenue"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-02-02",
+  "sources": [
+    {
+      "url": "dck.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

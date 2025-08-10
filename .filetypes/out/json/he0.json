@@ -1,0 +1,59 @@
+{
+  "slug": "he0",
+  "extension": "he0",
+  "name": "Humongous Entertainment Game Archive",
+  "category": "humongous-entertainment-game-archive",
+  "developer_org": "humongous-entertainment",
+  "popularity": {
+    "rating": 2.5,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "Game resource file used by Humongous Entertainment games, such as Freddi Fish and the Putt Putt game series; contains game data that describes characters and places that appear in the game.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "scummvm",
+        "display_name": "ScummVM"
+      }
+    ],
+    "macos": [
+      {
+        "software": "scummvm",
+        "display_name": "ScummVM"
+      }
+    ],
+    "linux": [
+      {
+        "software": "scummvm",
+        "display_name": "ScummVM"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-10-17",
+  "sources": [
+    {
+      "url": "he0.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "slug": "hwp",
+  "extension": "hwp",
+  "name": "Hangul Text Document",
+  "category": "1.-hangul-text-document",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.2,
+    "votes": 127,
+    "source": "fileinfo"
+  },
+  "summary": "An HWP file may be a plain text document written using Hangul, the Korean alphabet. However, this kind of HWP file is uncommon, as the .hwp extension is now more commonly used for Hanword Documents.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "microsoft-wordpad",
+        "display_name": "Microsoft WordPad"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "gedit",
+        "display_name": "gedit"
+      },
+      {
+        "software": ".doc",
+        "display_name": ".DOC"
+      },
+      {
+        "software": ".hwdt",
+        "display_name": ".HWDT",
+        "pricing": "free"
+      },
+      {
+        "software": ".txt",
+        "display_name": ".TXT"
+      },
+      {
+        "software": ".pdf",
+        "display_name": ".PDF"
+      },
+      {
+        "software": ".odt",
+        "display_name": ".ODT"
+      },
+      {
+        "software": ".html",
+        "display_name": ".HTML"
+      },
+      {
+        "software": ".jpg",
+        "display_name": ".JPG"
+      },
+      {
+        "software": ".png",
+        "display_name": ".PNG"
+      },
+      {
+        "software": "hancom-office",
+        "display_name": "Hancom Office"
+      },
+      {
+        "software": "hanword-hwp-document-converter-for-microsoft-word",
+        "display_name": "Hanword HWP document converter for Microsoft Word"
+      },
+      {
+        "software": "libreoffice",
+        "display_name": "LibreOffice"
+      },
+      {
+        "software": "apache-openoffice",
+        "display_name": "Apache OpenOffice"
+      },
+      {
+        "software": "planamesa-neooffice",
+        "display_name": "Planamesa NeoOffice",
+        "status": "discontinued"
+      },
+      {
+        "software": "cloud-hwp-viewer",
+        "display_name": "Cloud HWP Viewer"
+      },
+      {
+        "software": "hancom-office-viewer",
+        "display_name": "Hancom Office Viewer"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "hancom-office",
+        "display_name": "Hancom Office"
+      },
+      {
+        "software": "libreoffice",
+        "display_name": "LibreOffice"
+      },
+      {
+        "software": "apache-openoffice",
+        "display_name": "Apache OpenOffice"
+      },
+      {
+        "software": "planamesa-neooffice",
+        "display_name": "Planamesa NeoOffice",
+        "status": "discontinued"
+      }
+    ],
+    "linux": [
+      {
+        "software": "gedit",
+        "display_name": "gedit"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "libreoffice",
+        "display_name": "LibreOffice"
+      },
+      {
+        "software": "apache-openoffice",
+        "display_name": "Apache OpenOffice"
+      }
+    ],
+    "web": [
+      {
+        "software": "polaris-office-web-hangul",
+        "display_name": "Polaris Office Web Hangul"
+      },
+      {
+        "software": "hancom-office",
+        "display_name": "Hancom Office"
+      },
+      {
+        "software": "cloud-hwp-viewer",
+        "display_name": "Cloud HWP Viewer"
+      }
+    ],
+    "ios": [
+      {
+        "software": "hancom-office",
+        "display_name": "Hancom Office"
+      },
+      {
+        "software": "hancom-office-viewer",
+        "display_name": "Hancom Office Viewer"
+      }
+    ],
+    "android": [
+      {
+        "software": "hancom-office",
+        "display_name": "Hancom Office"
+      },
+      {
+        "software": "hancom-office-viewer",
+        "display_name": "Hancom Office Viewer"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-06-02",
+  "sources": [
+    {
+      "url": "hwp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

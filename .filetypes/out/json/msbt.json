@@ -1,0 +1,51 @@
+{
+  "slug": "msbt",
+  "extension": "msbt",
+  "name": "Message Studio Binary Text File",
+  "category": "message-studio-binary-text-file",
+  "developer_org": "nintendo",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "An MSBT file contains information about how text is displayed in various games for several Nintendo consoles, such as 3DS, Switch, Wii, and Wii U. It stores information about dialogs that appear during the game, such as the actual text, the appearance of the dialog, the character attributed with the dialog, and when the dialog appears.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "icyson55-msbt-editor-reloaded",
+        "display_name": "IcySon55 MSBT Editor Reloaded"
+      },
+      {
+        "software": "msbteditor",
+        "display_name": "msbtEditor"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-05-30",
+  "sources": [
+    {
+      "url": "msbt.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

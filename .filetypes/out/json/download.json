@@ -1,0 +1,70 @@
+{
+  "slug": "download",
+  "extension": "download",
+  "name": "Partially Downloaded File",
+  "category": "partially-downloaded-file",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 4.1,
+    "votes": 2681,
+    "source": "fileinfo"
+  },
+  "summary": "A DOWNLOAD file is a placeholder file that represents an in-process or paused Internet download. DOWNLOAD files are created by the Apple Safari web browser, which is bundled with the macOS and iOS operating systems . ​You can double-click a DOWNLOAD file to resume a Safari download.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "apple-safari",
+        "display_name": "Apple Safari"
+      }
+    ],
+    "windows": [
+      {
+        "software": "apple-safari",
+        "display_name": "Apple Safari"
+      }
+    ],
+    "ios": [
+      {
+        "software": "apple-safari",
+        "display_name": "Apple Safari"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "DOWNLOAD file icon",
+      "alt": "DOWNLOAD file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/download-1207.png"
+    },
+    {
+      "caption": "DOWNLOAD file open in macOS Finder",
+      "alt": "DOWNLOAD file open in macOS Finder",
+      "source_url": "https://fileinfo.com/img/ss/md/download_1207.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-04-20",
+  "sources": [
+    {
+      "url": "download.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

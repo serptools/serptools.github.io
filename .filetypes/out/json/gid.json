@@ -1,0 +1,48 @@
+{
+  "slug": "gid",
+  "extension": "gid",
+  "name": "Windows Help Global Index File",
+  "category": "windows-help-global-index-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 25,
+    "source": "fileinfo"
+  },
+  "summary": "Index created the first time you search Windows Help; used as a configuration file in Windows 95 and Windows 98; allows for faster, more efficient access to Help documentation by indexing the help topics.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-windows-help",
+        "display_name": "Microsoft Windows Help",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-01-26",
+  "sources": [
+    {
+      "url": "gid.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

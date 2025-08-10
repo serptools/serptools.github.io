@@ -1,0 +1,85 @@
+{
+  "slug": "wsb",
+  "extension": "wsb",
+  "name": "Windows Sandbox Configuration",
+  "category": "windows-sandbox-configuration",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "A WSB file is a Windows Sandbox configuration file. It contains XML-formatted settings that customize certain aspects of a Windows Sandbox instance. To use a WSB file, users double-click the file on a computer with Windows Sandbox enabled.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-windows-sandbox",
+        "display_name": "Microsoft Windows Sandbox"
+      },
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "WSB file open in Microsoft Visual Studio Code",
+      "alt": "WSB file open in Microsoft Visual Studio Code",
+      "source_url": "https://fileinfo.com/img/ss/md/wsb_13319.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-05-17",
+  "sources": [
+    {
+      "url": "wsb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

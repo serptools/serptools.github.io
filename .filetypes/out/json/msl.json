@@ -1,0 +1,67 @@
+{
+  "slug": "msl",
+  "extension": "msl",
+  "name": "Magick Scripting Language File",
+  "category": "1.-magick-scripting-language-file",
+  "developer_org": "imagemagick",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Script written for ImageMagick, an open source tool for converting and manipulating images; written in the Magick Scripting Language (MSL), an XML-based language used by conjure , ImageMagick's library for performing custom image processing tasks.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "imagemagick",
+        "display_name": "ImageMagick"
+      },
+      {
+        "software": "microsoft-visual-studio-2022",
+        "display_name": "Microsoft Visual Studio 2022"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "imagemagick",
+        "display_name": "ImageMagick"
+      }
+    ],
+    "linux": [
+      {
+        "software": "imagemagick",
+        "display_name": "ImageMagick"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2013-02-25",
+  "sources": [
+    {
+      "url": "msl.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

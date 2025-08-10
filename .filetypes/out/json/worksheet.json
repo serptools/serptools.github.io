@@ -1,0 +1,53 @@
+{
+  "slug": "worksheet",
+  "extension": "worksheet",
+  "name": "BBEdit Shell Worksheet File",
+  "category": "bbedit-shell-worksheet-file",
+  "developer_org": "bare-bones-software",
+  "popularity": {
+    "rating": 4.3,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Developer file created by BBEdit, a Mac OS X source code development program; stores an interactive programmer worksheet, which can save source code text as well as execute commands in-line while editing; used for adding Unix command line features to source code development.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "bare-bones-bbedit",
+        "display_name": "Bare Bones BBEdit"
+      }
+    ],
+    "windows": [
+      {
+        "software": "bare-bones-bbedit",
+        "display_name": "Bare Bones BBEdit"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-04-06",
+  "sources": [
+    {
+      "url": "worksheet.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

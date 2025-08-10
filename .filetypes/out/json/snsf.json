@@ -1,0 +1,61 @@
+{
+  "slug": "snsf",
+  "extension": "snsf",
+  "name": "Super NES Sound Format File",
+  "category": "super-nes-sound-format-file",
+  "developer_org": "caitsith2",
+  "popularity": {
+    "rating": 2.3,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "Electronic audio file format used by Super Nintendo games; similar to the popular .NSF sound format; contains musical data extracted from an SNES ROM.",
+  "standards": [],
+  "mime_types": [
+    "nes/famicom"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "nullsoft-winamp-with-the-in_snsf-plug-in",
+        "display_name": "Nullsoft Winamp with the in_snsf plug-in"
+      }
+    ],
+    "macos": [
+      {
+        "software": "nullsoft-winamp-with-the-in_snsf-plug-in",
+        "display_name": "Nullsoft Winamp with the in_snsf plug-in"
+      }
+    ],
+    "android": [
+      {
+        "software": "nullsoft-winamp-with-the-in_snsf-plug-in",
+        "display_name": "Nullsoft Winamp with the in_snsf plug-in"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2013-06-15",
+  "sources": [
+    {
+      "url": "snsf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

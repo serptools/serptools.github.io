@@ -1,0 +1,53 @@
+{
+  "slug": "spass",
+  "extension": "spass",
+  "name": "Samsung Pass Backup",
+  "category": "samsung-pass-backup",
+  "developer_org": "samsung",
+  "popularity": {
+    "rating": 4.4,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "An SPASS file is a backup file created by Samsung Pass, a password manager for Samsung smartphones. It contains an encrypted copy of the login credentials (and other information) a user has saved in Samsung Pass. Samsung Pass users use SPASS files to transfer login credentials between devices.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "android": [
+      {
+        "software": "samsung-pass",
+        "display_name": "Samsung Pass"
+      }
+    ],
+    "windows": [
+      {
+        "software": "samsung-pass",
+        "display_name": "Samsung Pass"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-01-05",
+  "sources": [
+    {
+      "url": "spass.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

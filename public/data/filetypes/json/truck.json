@@ -1,0 +1,36 @@
+{
+  "slug": "truck",
+  "extension": "truck",
+  "name": "Rigs of Rods Vehicle Definition File",
+  "category": "rigs-of-rods-vehicle-definition-file",
+  "summary": "",
+  "developer_org": "rigs-of-rods-team",
+  "developer_name": "Rigs of Rods Team",
+  "more_information": {
+    "screenshot": {
+      "url": "https://fileinfo.com/img/ss/sm/truck_4231.png",
+      "alt": "Screenshot of a .truck file in Microsoft Visual Studio Code",
+      "caption": "TRUCK file open in Microsoft Visual Studio Code"
+    },
+    "description": [
+      "Rigs of Rods is a vehicle simulator that implements soft-body physics to simulate vehicle motion and collisions. You can create custom vehicles with Rigs of Rods, then save them as TRUCK files. After saving a TRUCK file, you can share it with other Rigs of Rods users, who can then import the vehicle into their simulator installations.",
+      "Each TRUCK file must contain the following sections:",
+      "Additionally, each TRUCK file contains specific subsections you can use to determine what type of vehicle the file defines. For example, a TRUCK file that defines:",
+      "TRUCK files also usually contain additional metadata sections, which specify a vehicle's author, ID, category, file format version, and other information."
+    ]
+  },
+  "images": [
+    {
+      "url": "https://fileinfo.com/img/ss/sm/truck_4231.png",
+      "alt": "Screenshot of a .truck file in Microsoft Visual Studio Code",
+      "caption": "TRUCK file open in Microsoft Visual Studio Code"
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "truck.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

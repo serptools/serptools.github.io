@@ -1,0 +1,49 @@
+{
+  "slug": "xas",
+  "extension": "xas",
+  "name": "Pro/ENGINEER Assembly Instance Accelerator File",
+  "category": "pro-engineer-assembly-instance-accelerator-file",
+  "developer_org": "parametric-technology",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "File created by Pro/ENGINEER, a program used to design manufactured components and processes; contains an instance of an .ASM assembly file, which is a particular parametric definition from a \"family table\" of assemblies within the ASM file.",
+  "standards": [],
+  "mime_types": [
+    "pro/engineer"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "parametric-technology-creo",
+        "display_name": "Parametric Technology Creo"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-03-31",
+  "sources": [
+    {
+      "url": "xas.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

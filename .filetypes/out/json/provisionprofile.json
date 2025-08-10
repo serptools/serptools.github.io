@@ -1,0 +1,65 @@
+{
+  "slug": "provisionprofile",
+  "extension": "provisionprofile",
+  "name": "Apple Provision Profile",
+  "category": "apple-provision-profile",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "Provision file created and used to distribute applications to iOS devices not through Apple's App Store; contains a certificate and the information for the device and application necessary to install an enterprise application on an iOS machine.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "ios": [
+      {
+        "software": "apple-iphone-configuration-utility",
+        "display_name": "Apple iPhone Configuration Utility"
+      }
+    ],
+    "windows": [
+      {
+        "software": "apple-system-preferences",
+        "display_name": "Apple System Preferences"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-system-preferences",
+        "display_name": "Apple System Preferences"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "PROVISIONPROFILE file icon",
+      "alt": "PROVISIONPROFILE file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/provisionprofile-8896.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-08-25",
+  "sources": [
+    {
+      "url": "provisionprofile.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

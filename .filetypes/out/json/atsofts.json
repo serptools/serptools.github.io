@@ -1,0 +1,53 @@
+{
+  "slug": "atsofts",
+  "extension": "atsofts",
+  "name": "LetEncrypt Encrypted File",
+  "category": "letencrypt-encrypted-file",
+  "developer_org": "atsofts",
+  "popularity": {
+    "rating": 4.1,
+    "votes": 11,
+    "source": "fileinfo"
+  },
+  "summary": "An ATSOFTS file contains one or more files encrypted by LetEncrypt, an online file encryption service. It stores encrypted information about the files, which includes metadata that describes each encrypted file. ATSOFTS files are saved in XML format and can only be decrypted by LetEncrypt.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "web": [
+      {
+        "software": "atsofts-letencrypt",
+        "display_name": "atSofts LetEncrypt"
+      }
+    ],
+    "windows": [
+      {
+        "software": "atsofts-letencrypt",
+        "display_name": "atSofts LetEncrypt"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-09-20",
+  "sources": [
+    {
+      "url": "atsofts.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

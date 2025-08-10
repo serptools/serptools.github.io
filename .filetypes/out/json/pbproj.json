@@ -1,0 +1,61 @@
+{
+  "slug": "pbproj",
+  "extension": "pbproj",
+  "name": "Project Builder Project",
+  "category": "project-builder-project",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 1.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "Development project file created with Project Builder, an IDE originally developed by NeXT but then expanded by Apple for developing Mac OS X applications; used as an older format and is not compatible with Apple's subsequent software development IDE, Xcode.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "apple-project-builder",
+        "display_name": "Apple Project Builder"
+      },
+      {
+        "software": "apple-xcode",
+        "display_name": "Apple Xcode"
+      }
+    ],
+    "windows": [
+      {
+        "software": "apple-project-builder",
+        "display_name": "Apple Project Builder"
+      },
+      {
+        "software": "apple-xcode",
+        "display_name": "Apple Xcode"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-08-24",
+  "sources": [
+    {
+      "url": "pbproj.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

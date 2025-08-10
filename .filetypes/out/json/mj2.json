@@ -1,0 +1,103 @@
+{
+  "slug": "mj2",
+  "extension": "mj2",
+  "name": "Motion JPEG 2000 Video",
+  "category": "motion-jpeg-2000-video",
+  "developer_org": "joint-photographic-experts-group",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 11,
+    "source": "fileinfo"
+  },
+  "summary": "An MJ2 file is a video saved in the Motion JPEG 2000 (Part 3) format. It contains a sequence of JPEG 2000 images ( .JP2 files) and may also contain audio. MJ2 files are similar to .MP4 and .MOV files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "mplayer",
+        "display_name": "MPlayer"
+      },
+      {
+        "software": "ffmpeg",
+        "display_name": "ffmpeg"
+      },
+      {
+        "software": "adobe-premiere-pro-with-main-concept-plugin",
+        "display_name": "Adobe Premiere Pro with Main Concept plugin"
+      }
+    ],
+    "macos": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "mplayer",
+        "display_name": "MPlayer"
+      },
+      {
+        "software": "ffmpeg",
+        "display_name": "ffmpeg"
+      },
+      {
+        "software": "adobe-premiere-pro-with-main-concept-plugin",
+        "display_name": "Adobe Premiere Pro with Main Concept plugin"
+      }
+    ],
+    "linux": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "mplayer",
+        "display_name": "MPlayer"
+      },
+      {
+        "software": "ffmpeg",
+        "display_name": "ffmpeg"
+      }
+    ],
+    "ios": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      }
+    ],
+    "android": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-02-04",
+  "sources": [
+    {
+      "url": "mj2.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

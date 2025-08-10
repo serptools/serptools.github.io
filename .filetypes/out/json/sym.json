@@ -1,0 +1,86 @@
+{
+  "slug": "sym",
+  "extension": "sym",
+  "name": "Symbols File",
+  "category": "1.-symbols-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 11,
+    "source": "fileinfo"
+  },
+  "summary": "Developer file used by software development applications; saves non-essential information for the actual program binary executable files, but instead contains symbols that can be used for gathering program information while debugging; can include function and variable names and other useful debugging information.",
+  "standards": [],
+  "mime_types": [
+    "geda/gaf",
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "eclipse-ide-for-c-developers",
+        "display_name": "Eclipse IDE for C Developers"
+      },
+      {
+        "software": "gdb",
+        "display_name": "GDB"
+      },
+      {
+        "software": "tatukgis-viewer",
+        "display_name": "TatukGIS Viewer"
+      }
+    ],
+    "macos": [
+      {
+        "software": "eclipse-ide-for-c-developers",
+        "display_name": "Eclipse IDE for C Developers"
+      },
+      {
+        "software": "gdb",
+        "display_name": "GDB"
+      },
+      {
+        "software": "geda",
+        "display_name": "gEDA"
+      }
+    ],
+    "linux": [
+      {
+        "software": "eclipse-ide-for-c-developers",
+        "display_name": "Eclipse IDE for C Developers"
+      },
+      {
+        "software": "gdb",
+        "display_name": "GDB"
+      },
+      {
+        "software": "geda",
+        "display_name": "gEDA"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-05-26",
+  "sources": [
+    {
+      "url": "sym.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

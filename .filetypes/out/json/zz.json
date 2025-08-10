@@ -1,0 +1,81 @@
+{
+  "slug": "zz",
+  "extension": "zz",
+  "name": "Zzip Compressed Archive",
+  "category": "1.-zzip-compressed-archive",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 42,
+    "source": "fileinfo"
+  },
+  "summary": "File archive compressed with Zzip, a compression tool for Windows and Unix; uses a compression algorithm based primarily on the Burrows-Wheeler Transform method; supports file integrity tests and built-in multimedia detection and compression.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "zzip",
+        "display_name": "Zzip"
+      },
+      {
+        "software": "pigz",
+        "display_name": "pigz"
+      },
+      {
+        "software": "zlib",
+        "display_name": "Zlib"
+      }
+    ],
+    "linux": [
+      {
+        "software": "zzip",
+        "display_name": "Zzip"
+      },
+      {
+        "software": "pigz",
+        "display_name": "pigz"
+      },
+      {
+        "software": "zlib",
+        "display_name": "Zlib"
+      }
+    ],
+    "macos": [
+      {
+        "software": "pigz",
+        "display_name": "pigz"
+      },
+      {
+        "software": "zlib",
+        "display_name": "Zlib"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2006-12-15",
+  "sources": [
+    {
+      "url": "zz.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

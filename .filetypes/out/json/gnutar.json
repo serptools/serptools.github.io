@@ -1,0 +1,89 @@
+{
+  "slug": "gnutar",
+  "extension": "gnutar",
+  "name": "GNU Tar Archive",
+  "category": "gnu-tar-archive",
+  "developer_org": "free-software-foundation",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "File archive created in the GNU .TAR format; stores a collection of uncompressed files; often compressed into a .TGZ or .TAR.GZ file using .GZ gzip compression.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "smith-micro-stuffit-deluxe",
+        "display_name": "Smith Micro StuffIt Deluxe",
+        "status": "discontinued"
+      },
+      {
+        "software": "corel-winzip",
+        "display_name": "Corel WinZip"
+      },
+      {
+        "software": "estsoft-alzip",
+        "display_name": "ESTsoft ALZip"
+      },
+      {
+        "software": "7-zip",
+        "display_name": "7-Zip"
+      },
+      {
+        "software": "apple-archive-utility",
+        "display_name": "Apple Archive Utility"
+      },
+      {
+        "software": "incredible-bee-archiver",
+        "display_name": "Incredible Bee Archiver"
+      }
+    ],
+    "macos": [
+      {
+        "software": "smith-micro-stuffit-deluxe-mac-16",
+        "display_name": "Smith Micro StuffIt Deluxe Mac 16",
+        "status": "discontinued"
+      },
+      {
+        "software": "apple-archive-utility",
+        "display_name": "Apple Archive Utility"
+      },
+      {
+        "software": "incredible-bee-archiver",
+        "display_name": "Incredible Bee Archiver"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "GNUTAR file icon",
+      "alt": "GNUTAR file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/gnutar-5229.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-05-16",
+  "sources": [
+    {
+      "url": "gnutar.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

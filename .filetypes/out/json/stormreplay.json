@@ -1,0 +1,53 @@
+{
+  "slug": "stormreplay",
+  "extension": "stormreplay",
+  "name": "Heroes of the Storm Replay File",
+  "category": "heroes-of-the-storm-replay-file",
+  "developer_org": "blizzard-entertainment",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 10,
+    "source": "fileinfo"
+  },
+  "summary": "A STORMREPLAY file is a Heroes of the Storm match replay. It contains game data Heroes of the Storm uses to save and play a match replay. STORMREPLAY files are saved in the ~/​Blizzard/​Heroes of the Storm/​Accounts/​Account#/​#HeroName#/​Replays directory.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "blizzard-heroes-of-the-storm",
+        "display_name": "Blizzard Heroes of the Storm"
+      }
+    ],
+    "macos": [
+      {
+        "software": "blizzard-heroes-of-the-storm",
+        "display_name": "Blizzard Heroes of the Storm"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-12-11",
+  "sources": [
+    {
+      "url": "stormreplay.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

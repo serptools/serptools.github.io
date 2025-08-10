@@ -1,0 +1,51 @@
+{
+  "slug": "rri",
+  "extension": "rri",
+  "name": "RealWorld Image",
+  "category": "realworld-image",
+  "developer_org": "realworld-graphics",
+  "popularity": {
+    "rating": 2.3,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Image format used by RealWorld Graphics products such as RealWorld Icon Editor and RealWorld Cursor Editor; saves a raster image that was edited in the software, but uses a proprietary format that can only be opened in RealWorld Graphics programs; used for making Windows icon and cursor graphics.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "realworld-icon-editor",
+        "display_name": "RealWorld Icon Editor"
+      },
+      {
+        "software": "realworld-cursor-editor",
+        "display_name": "RealWorld Cursor Editor"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-07-12",
+  "sources": [
+    {
+      "url": "rri.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

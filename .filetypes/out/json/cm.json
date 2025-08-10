@@ -1,0 +1,63 @@
+{
+  "slug": "cm",
+  "extension": "cm",
+  "name": "CLEO Custom Mission",
+  "category": "1.-cleo-custom-mission",
+  "developer_org": "rockstar-games",
+  "popularity": {
+    "rating": 4.3,
+    "votes": 21,
+    "source": "fileinfo"
+  },
+  "summary": "Custom mission created for Grand Theft Auto: San Andreas (GTA SA); similar to a CLEO.CS file, but saved as a mission instead of a custom script; used for adding extra missions, or levels, to the game; may be created with Sanny Builder, a GTA mod utility.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "sanny-builder",
+        "display_name": "Sanny Builder"
+      },
+      {
+        "software": "rockstar-games-grand-theft-auto-san-andreas",
+        "display_name": "Rockstar Games Grand Theft Auto: San Andreas"
+      },
+      {
+        "software": "used-by-the-cable-modem",
+        "display_name": "Used by the cable modem"
+      }
+    ],
+    "macos": [
+      {
+        "software": "used-by-the-cable-modem",
+        "display_name": "Used by the cable modem"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-03-08",
+  "sources": [
+    {
+      "url": "cm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

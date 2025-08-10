@@ -1,0 +1,53 @@
+{
+  "slug": "nkc",
+  "extension": "nkc",
+  "name": "Kontakt Library Data File",
+  "category": "kontakt-library-data-file",
+  "developer_org": "native-instruments",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 10,
+    "source": "fileinfo"
+  },
+  "summary": "File used by Kontakt audio sampling software; used along with a corresponding .NKX file, which contains the sample and patch information; uses the same filename prefix as the NKX file but is much smaller in size; used as part of the sample library.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "native-instruments-kontakt",
+        "display_name": "Native Instruments Kontakt"
+      }
+    ],
+    "macos": [
+      {
+        "software": "native-instruments-kontakt",
+        "display_name": "Native Instruments Kontakt"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-06-20",
+  "sources": [
+    {
+      "url": "nkc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

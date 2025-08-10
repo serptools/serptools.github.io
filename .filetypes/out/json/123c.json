@@ -1,0 +1,47 @@
+{
+  "slug": "123c",
+  "extension": "123c",
+  "name": "Autodesk 123C Drawing",
+  "category": "autodesk-123c-drawing",
+  "developer_org": "autodesk",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 12,
+    "source": "fileinfo"
+  },
+  "summary": "CAD model created by 123D, a free 3D CAD drawing program developed by Autodesk; can include multiple parts that make up the overall model; used for drafting and prototyping mesh models, props, and scenery.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "autodesk-123d",
+        "display_name": "Autodesk 123D"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-09-15",
+  "sources": [
+    {
+      "url": "123c.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "spui",
+  "extension": "spui",
+  "name": "Spore User Interface Texture",
+  "category": "spore-user-interface-texture",
+  "developer_org": "electronic-arts",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "A SPUI file is an image used to skin the user interface (UI) of the video game Spore. It is applied to one or more UI elements, such as buttons, frames, or labels. Spore modders have created tools that allow them to edit and/or replace the game's SPUI files.",
+  "standards": [],
+  "mime_types": [
+    "and/or"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "electronic-arts-spore",
+        "display_name": "Electronic Arts Spore"
+      },
+      {
+        "software": "sporemodder-fx",
+        "display_name": "SporeModder FX"
+      }
+    ],
+    "macos": [
+      {
+        "software": "electronic-arts-spore",
+        "display_name": "Electronic Arts Spore"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-03-15",
+  "sources": [
+    {
+      "url": "spui.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

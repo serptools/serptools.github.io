@@ -1,0 +1,84 @@
+{
+  "slug": "md5anim",
+  "extension": "md5anim",
+  "name": "id Tech 4 Model Animation File",
+  "category": "id-tech-4-model-animation-file",
+  "developer_org": "id-software",
+  "popularity": {
+    "rating": 4.3,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "3D animation file used by id Tech 4, the game engine used for Doom 3 and Quake 4; contains animation sequence data for a 3D mesh stored in a corresponding .MD5MESH file; saved in a plain text format; used for creating motions for game characters, weapons, creatures, and other game objects.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "blender-with-md5importer-plug-in",
+        "display_name": "Blender with md5importer plug-in"
+      },
+      {
+        "software": "autodesk-3ds-max-with-md5importer-plug-in",
+        "display_name": "Autodesk 3ds Max with md5importer plug-in"
+      },
+      {
+        "software": "newtek-lightwave-3d-with-doom3md5-plug-in",
+        "display_name": "NewTek LightWave 3D with doom3MD5 plug-in"
+      },
+      {
+        "software": "md5import",
+        "display_name": "md5import",
+        "status": "discontinued"
+      },
+      {
+        "software": "quark",
+        "display_name": "QuArK"
+      },
+      {
+        "software": "newtek-lightwave-3d-with-doom3md5-plug-in",
+        "display_name": "NewTek Lightwave 3D with doom3MD5 plug-in"
+      }
+    ],
+    "macos": [
+      {
+        "software": "blender-with-md5importer-plug-in",
+        "display_name": "Blender with md5importer plug-in"
+      },
+      {
+        "software": "newtek-lightwave-3d-with-doom3md5-plug-in",
+        "display_name": "NewTek Lightwave 3D with doom3MD5 plug-in"
+      }
+    ],
+    "linux": [
+      {
+        "software": "blender-with-md5importer-plug-in",
+        "display_name": "Blender with md5importer plug-in"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-08-12",
+  "sources": [
+    {
+      "url": "md5anim.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

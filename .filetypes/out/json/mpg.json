@@ -1,0 +1,166 @@
+{
+  "slug": "mpg",
+  "extension": "mpg",
+  "name": "MPEG Video",
+  "category": "mpeg-video",
+  "developer_org": "moving-picture-experts-group",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 542,
+    "source": "fileinfo"
+  },
+  "summary": "An MPG file is a common video file that uses a digital video format standardized by the Moving Picture Experts Group ( MPEG ). It stores video, audio, and metadata interleaved together. MPG files are often used for creating movies that are distributed on the Internet.",
+  "standards": [],
+  "mime_types": [
+    "video/audio"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "microsoft-windows-media-player",
+        "display_name": "Microsoft Windows Media Player"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "nullsoft-winamp",
+        "display_name": "Nullsoft Winamp"
+      },
+      {
+        "software": "cyberlink-powerdirector-365",
+        "display_name": "CyberLink PowerDirector 365"
+      },
+      {
+        "software": "cyberlink-powerdvd-21",
+        "display_name": "CyberLink PowerDVD 21"
+      },
+      {
+        "software": "cyberlink-powerproducer-6",
+        "display_name": "CyberLink PowerProducer 6"
+      },
+      {
+        "software": "xilisoft-video-converter-ultimate",
+        "display_name": "Xilisoft Video Converter Ultimate"
+      },
+      {
+        "software": "handbrake",
+        "display_name": "HandBrake"
+      },
+      {
+        "software": "movie-player",
+        "display_name": "movie player"
+      },
+      {
+        "software": "apple-quicktime-player",
+        "display_name": "Apple QuickTime Player"
+      },
+      {
+        "software": "eltima-elmedia-player",
+        "display_name": "Eltima Elmedia Player"
+      },
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      },
+      {
+        "software": "olimsoft-oplayer",
+        "display_name": "olimsoft OPlayer"
+      }
+    ],
+    "android": [
+      {
+        "software": "videolabs-vlc-for-android",
+        "display_name": "Videolabs VLC for Android"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-quicktime-player",
+        "display_name": "Apple QuickTime Player"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "eltima-elmedia-player",
+        "display_name": "Eltima Elmedia Player"
+      },
+      {
+        "software": "handbrake",
+        "display_name": "HandBrake"
+      },
+      {
+        "software": "movie-player",
+        "display_name": "movie player"
+      }
+    ],
+    "linux": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "handbrake",
+        "display_name": "HandBrake"
+      }
+    ],
+    "web": [
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      }
+    ],
+    "ios": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "olimsoft-oplayer",
+        "display_name": "olimsoft OPlayer"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "MPG file icon",
+      "alt": "MPG file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/mpg-61.png"
+    },
+    {
+      "caption": "MPG file open in Microsoft Windows Media Player 12",
+      "alt": "MPG file open in Microsoft Windows Media Player 12",
+      "source_url": "https://fileinfo.com/img/ss/md/mpg_61.jpg"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-04-08",
+  "sources": [
+    {
+      "url": "mpg.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

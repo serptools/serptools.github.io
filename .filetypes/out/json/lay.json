@@ -1,0 +1,77 @@
+{
+  "slug": "lay",
+  "extension": "lay",
+  "name": "Tecplot Layout File",
+  "category": "1.-tecplot-layout-file",
+  "developer_org": "tecplot",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 12,
+    "source": "fileinfo"
+  },
+  "summary": "Diagram layout file created by Tecplot, a scientific computation and visualization program; saves the visual layout of a plot ( .PLT file) in the workspace; contains instructions for how to display the plot as well as settings that define each frame's appearance.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "tecplot-360",
+        "display_name": "Tecplot 360"
+      },
+      {
+        "software": "mame",
+        "display_name": "MAME"
+      },
+      {
+        "software": "mcneel-rhino",
+        "display_name": "McNeel Rhino"
+      }
+    ],
+    "macos": [
+      {
+        "software": "tecplot-360",
+        "display_name": "Tecplot 360"
+      },
+      {
+        "software": "apple-dvd-studio-pro",
+        "display_name": "Apple DVD Studio Pro"
+      }
+    ],
+    "linux": [
+      {
+        "software": "tecplot-360",
+        "display_name": "Tecplot 360"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "LAY file icon",
+      "alt": "LAY file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/lay-6547.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-03-17",
+  "sources": [
+    {
+      "url": "lay.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

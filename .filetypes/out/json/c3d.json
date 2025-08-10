@@ -1,0 +1,76 @@
+{
+  "slug": "c3d",
+  "extension": "c3d",
+  "name": "Coordinate 3D File",
+  "category": "1.-coordinate-3d-file",
+  "developer_org": "adtech",
+  "popularity": {
+    "rating": 4.7,
+    "votes": 16,
+    "source": "fileinfo"
+  },
+  "summary": "A C3D file is a data file saved in the Coordinate 3D (C3D) format, which contains biomechanical information. It stores three-dimensional motion capture data in a compact binary structure and is a standard format for biomechanics data storage.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "anybody-modeling-system",
+        "display_name": "AnyBody Modeling System"
+      },
+      {
+        "software": "c-motion-visual3d",
+        "display_name": "C-Motion Visual3D"
+      },
+      {
+        "software": "mokka",
+        "display_name": "Mokka"
+      },
+      {
+        "software": "c3d-labs-c3d-viewer",
+        "display_name": "C3D Labs C3D Viewer"
+      }
+    ],
+    "macos": [
+      {
+        "software": "mokka",
+        "display_name": "Mokka"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "C3D file icon",
+      "alt": "C3D file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/c3d-6278.png"
+    },
+    {
+      "caption": "C3D file open in Mokka 0.6",
+      "alt": "C3D file open in Mokka 0.6",
+      "source_url": "https://fileinfo.com/img/ss/md/c3d_6278.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-01-24",
+  "sources": [
+    {
+      "url": "c3d.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

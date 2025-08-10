@@ -1,0 +1,123 @@
+{
+  "slug": "sbd",
+  "extension": "sbd",
+  "name": "Office Accounting Company Data File",
+  "category": "1.-office-accounting-company-data-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 4.3,
+    "votes": 12,
+    "source": "fileinfo"
+  },
+  "summary": "Company accounting database created by Microsoft Office Accounting, a program used for online banking; contains company bank account data, payroll, bills, and other financial information; used to track financial data for businesses online.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-office-accounting",
+        "display_name": "Microsoft Office Accounting"
+      },
+      {
+        "software": "superbase-software-superbase-ng",
+        "display_name": "Superbase Software Superbase NG"
+      },
+      {
+        "software": "superbase-software-superbase-classic",
+        "display_name": "Superbase Software Superbase Classic"
+      },
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      },
+      {
+        "software": "dnastar-lasergene",
+        "display_name": "DNASTAR Lasergene"
+      },
+      {
+        "software": "gsl-biotech-snapgene",
+        "display_name": "GSL Biotech SnapGene"
+      },
+      {
+        "software": "genome-compiler",
+        "display_name": "Genome Compiler",
+        "status": "discontinued"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "dnastar-lasergene",
+        "display_name": "DNASTAR Lasergene"
+      },
+      {
+        "software": "gsl-biotech-snapgene",
+        "display_name": "GSL Biotech SnapGene"
+      },
+      {
+        "software": "genome-compiler",
+        "display_name": "Genome Compiler",
+        "status": "discontinued"
+      }
+    ],
+    "linux": [
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "ios": [
+      {
+        "software": "heracle-biosoft-dna-baser",
+        "display_name": "Heracle BioSoft DNA Baser"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-05-05",
+  "sources": [
+    {
+      "url": "sbd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

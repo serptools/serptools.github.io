@@ -1,0 +1,73 @@
+{
+  "slug": "uos",
+  "extension": "uos",
+  "name": "Uniform Office Spreadsheet",
+  "category": "uniform-office-spreadsheet",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 2.8,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Spreadsheet file created in the Uniform Office Format (UOF), a Chinese-developed file format for office productivity applications; saves the spreadsheet using XML and compression and therefore is similar to but not compatible with the Microsoft Office Open XML ( .XLSX ) and OASIS OpenDocument ( .ODS ) standards.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "openoffice-calc",
+        "display_name": "OpenOffice Calc"
+      },
+      {
+        "software": "libreoffice",
+        "display_name": "LibreOffice"
+      }
+    ],
+    "macos": [
+      {
+        "software": "openoffice-calc",
+        "display_name": "OpenOffice Calc"
+      },
+      {
+        "software": "libreoffice",
+        "display_name": "LibreOffice"
+      }
+    ],
+    "linux": [
+      {
+        "software": "openoffice-calc",
+        "display_name": "OpenOffice Calc"
+      },
+      {
+        "software": "libreoffice",
+        "display_name": "LibreOffice"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-03-18",
+  "sources": [
+    {
+      "url": "uos.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

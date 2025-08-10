@@ -1,0 +1,47 @@
+{
+  "slug": "lsw",
+  "extension": "lsw",
+  "name": "RPG Maker Saved Game File",
+  "category": "rpg-maker-saved-game-file",
+  "developer_org": "enterbrain",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "Game file saved with RPG_RT, a game testing program for RPG games created with RPG Maker; used for testing games in a real-time environment; game progress is saved in the LSW file.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "enterbrain-rpg_rt",
+        "display_name": "Enterbrain RPG_RT"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2008-02-29",
+  "sources": [
+    {
+      "url": "lsw.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

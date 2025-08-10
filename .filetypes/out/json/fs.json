@@ -1,0 +1,63 @@
+{
+  "slug": "fs",
+  "extension": "fs",
+  "name": "Visual F# Source File",
+  "category": "1.-visual-f-source-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 34,
+    "source": "fileinfo"
+  },
+  "summary": "Source code file written in Microsoft's F# (pronounced \"F Sharp\") programming language, which is a variant of the ML language; can be written using the Visual F# component of Microsoft Visual Studio 2010; used for compiling F# code into .DLL or .EXE program executables.",
+  "standards": [],
+  "mime_types": [
+    "system/library"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-visual-studio-2022",
+        "display_name": "Microsoft Visual Studio 2022"
+      },
+      {
+        "software": "sai-flexi-family",
+        "display_name": "SAi Flexi FAMILY"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-macos",
+        "display_name": "Apple macOS"
+      },
+      {
+        "software": "sai-flexi-family",
+        "display_name": "SAi Flexi FAMILY"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-07-07",
+  "sources": [
+    {
+      "url": "fs.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

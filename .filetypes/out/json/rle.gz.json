@@ -1,0 +1,53 @@
+{
+  "slug": "rle.gz",
+  "extension": "rle.gz",
+  "name": "Golly Compressed Simulation Pattern File",
+  "category": "golly-compressed-simulation-pattern-file",
+  "developer_org": "golly",
+  "popularity": {
+    "rating": 1.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "File created by Golly, a life-simulation game based off of Conway's Game of Life concept; saves an Extended .RLE file (Golly's 2D grid representation of the simulation state) in a compressed .GZ format; used for saving simulation patterns and sharing them on Game of Life forums.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "golly",
+        "display_name": "Golly"
+      }
+    ],
+    "macos": [
+      {
+        "software": "golly",
+        "display_name": "Golly"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-03-16",
+  "sources": [
+    {
+      "url": "rle.gz.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

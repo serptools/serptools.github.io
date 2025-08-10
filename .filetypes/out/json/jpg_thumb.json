@@ -1,0 +1,61 @@
+{
+  "slug": "jpg_thumb",
+  "extension": "jpg_thumb",
+  "name": "Twitter Thumbnail JPEG Image",
+  "category": "twitter-thumbnail-jpeg-image",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "A JPG_THUMB file is a thumbnail image that a Google Chrome user downloaded from Twitter. It is a normal .JPG file but saved with the .jpg_thumb file extension when a Twitter user downloads a thumbnail-sized image via the Chrome web browser.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "chromeos": [
+      {
+        "software": "google-chrome",
+        "display_name": "Google Chrome"
+      }
+    ],
+    "web": [
+      {
+        "software": "image-viewer",
+        "display_name": "image viewer"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "JPG_THUMB file open in Google Chrome",
+      "alt": "JPG_THUMB file open in Google Chrome",
+      "source_url": "https://fileinfo.com/img/ss/md/jpg_thumb_12487.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-01-05",
+  "sources": [
+    {
+      "url": "jpg_thumb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

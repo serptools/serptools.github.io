@@ -1,0 +1,61 @@
+{
+  "slug": "desktop",
+  "extension": "desktop",
+  "name": "Desktop Entry File",
+  "category": "desktop-entry-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 4.2,
+    "votes": 29,
+    "source": "fileinfo"
+  },
+  "summary": "Data file that provides information about an item in a program's menu; specifies details such as the name, icon file, command to run, etc; used in Unix-based operating systems such as CentOS, Ubuntu, and Red Hat Enterprise Linux.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "linux": [
+      {
+        "software": "referenced-by-various-programs",
+        "display_name": "Referenced by various programs"
+      }
+    ],
+    "windows": [
+      {
+        "software": "referenced-by-various-programs",
+        "display_name": "Referenced by various programs"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "DESKTOP file icon",
+      "alt": "DESKTOP file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/desktop-2734.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2008-02-20",
+  "sources": [
+    {
+      "url": "desktop.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

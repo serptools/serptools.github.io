@@ -1,0 +1,53 @@
+{
+  "slug": "zrtf",
+  "extension": "zrtf",
+  "name": "Nisus Compressed Rich Text File",
+  "category": "nisus-compressed-rich-text-file",
+  "developer_org": "nisus",
+  "popularity": {
+    "rating": 2.9,
+    "votes": 11,
+    "source": "fileinfo"
+  },
+  "summary": "Text file created by Nisus Writer Pro, a word processor; contains rich text , shapes, tables, lists, comments, and other text editing features; compressed gzip (compression format) version of the .RTF file, which means it takes up less disk space and is more easily transferred.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "nisus-writer-pro",
+        "display_name": "Nisus Writer Pro"
+      }
+    ],
+    "windows": [
+      {
+        "software": "nisus-writer-pro",
+        "display_name": "Nisus Writer Pro"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-01-16",
+  "sources": [
+    {
+      "url": "zrtf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

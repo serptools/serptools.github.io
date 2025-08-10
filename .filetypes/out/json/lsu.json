@@ -1,0 +1,48 @@
+{
+  "slug": "lsu",
+  "extension": "lsu",
+  "name": "LANsurveyor Map",
+  "category": "lansurveyor-map",
+  "developer_org": "solarwinds",
+  "popularity": {
+    "rating": 1.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "An LSU file is a network map created by SolarWinds LANsurveyor, an application for monitoring LAN and WAN networks. It contains information about a network, which includes the status of devices connected to a network.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-08-03",
+  "sources": [
+    {
+      "url": "lsu.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

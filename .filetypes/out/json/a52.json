@@ -1,0 +1,109 @@
+{
+  "slug": "a52",
+  "extension": "a52",
+  "name": "Atari 5200 Game ROM",
+  "category": "1.-atari-5200-game-rom",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "An A52 file is an Atari 5200 game ROM. It contains a complete copy of the data stored on an Atari 5200 game cartridge. You can load an A52 file in an Atari 5200 emulator to play the game it contains.",
+  "standards": [],
+  "mime_types": [
+    "a/52",
+    "a/52a",
+    "a/52b",
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "mess",
+        "display_name": "MESS"
+      },
+      {
+        "software": "kat5200",
+        "display_name": "kat5200"
+      },
+      {
+        "software": "rainbow-2.0",
+        "display_name": "Rainbow 2.0"
+      },
+      {
+        "software": ".mp3",
+        "display_name": ".MP3"
+      },
+      {
+        "software": ".ogg",
+        "display_name": ".OGG"
+      },
+      {
+        "software": ".flac",
+        "display_name": ".FLAC",
+        "pricing": "free"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "videolan-vlc-for-mobile",
+        "display_name": "VideoLAN VLC for Mobile"
+      }
+    ],
+    "macos": [
+      {
+        "software": "macmess",
+        "display_name": "MacMESS"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      }
+    ],
+    "android": [
+      {
+        "software": "videolabs-vlc-for-android",
+        "display_name": "Videolabs VLC for Android"
+      }
+    ],
+    "linux": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      }
+    ],
+    "ios": [
+      {
+        "software": "videolan-vlc-for-mobile",
+        "display_name": "VideoLAN VLC for Mobile"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-09-18",
+  "sources": [
+    {
+      "url": "a52.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

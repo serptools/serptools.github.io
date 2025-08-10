@@ -1,0 +1,61 @@
+{
+  "slug": "qvm",
+  "extension": "qvm",
+  "name": "Q Virtual Machine",
+  "category": "1.-q-virtual-machine",
+  "developer_org": "q",
+  "popularity": {
+    "rating": 4.1,
+    "votes": 59,
+    "source": "fileinfo"
+  },
+  "summary": "Virtual machine used by Q, an operating system emulator built for Mac OS X; serves as a hard disk that can be loaded by the emulator, which allows Windows and Linux systems to run within Mac OS X.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "q",
+        "display_name": "Q"
+      },
+      {
+        "software": "id-software-quake-3",
+        "display_name": "id Software Quake 3"
+      }
+    ],
+    "windows": [
+      {
+        "software": "q",
+        "display_name": "Q"
+      },
+      {
+        "software": "id-software-quake-3",
+        "display_name": "id Software Quake 3"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2016-10-05",
+  "sources": [
+    {
+      "url": "qvm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

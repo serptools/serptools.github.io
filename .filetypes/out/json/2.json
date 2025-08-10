@@ -1,0 +1,81 @@
+{
+  "slug": "2",
+  "extension": "2",
+  "name": "Unix Section 2 Manual Page",
+  "category": "unix-section-2-manual-page",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 2.3,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "A 2 file contains a Unix manual page (man page) that describes a system call . Each 2 file is named for the system call it describes. 2 files are meant to be opened and viewed using the Unix man utility.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "man",
+        "display_name": "man"
+      },
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      }
+    ],
+    "macos": [
+      {
+        "software": "gnu-emacs",
+        "display_name": "GNU Emacs"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "man",
+        "display_name": "man"
+      },
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "2 file open in Microsoft Visual Studio Code",
+      "alt": "2 file open in Microsoft Visual Studio Code",
+      "source_url": "https://fileinfo.com/img/ss/md/2_12577.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-02-24",
+  "sources": [
+    {
+      "url": "2.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

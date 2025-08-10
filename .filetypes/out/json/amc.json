@@ -1,0 +1,63 @@
+{
+  "slug": "amc",
+  "extension": "amc",
+  "name": "AMC Video File",
+  "category": "1.-amc-video-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 58,
+    "source": "fileinfo"
+  },
+  "summary": "An AMC file is a video file created in the Adaptive Modulation and Coding (AMC) format. It is designed for transmitting multimedia data between mobile devices.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "pegasys-tmpgenc-moviestyle",
+        "display_name": "PEGASYS TMPGEnc MovieStyle"
+      },
+      {
+        "software": "apple-quicktime-player",
+        "display_name": "Apple QuickTime Player"
+      },
+      {
+        "software": "ant-movie-catalog",
+        "display_name": "Ant Movie Catalog"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-quicktime-player",
+        "display_name": "Apple QuickTime Player"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-01-29",
+  "sources": [
+    {
+      "url": "amc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

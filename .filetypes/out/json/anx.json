@@ -1,0 +1,71 @@
+{
+  "slug": "anx",
+  "extension": "anx",
+  "name": "HotDocs Answer File",
+  "category": "1.-hotdocs-answer-file",
+  "developer_org": "hotdocs",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Data file created by HotDocs, a document preparation application; saves \"answers,\" which are used to fill the fields in a HotDocs form document ( .HFD or .HPD file); saved using XML formatting and enables reuse of answers for multiple documents.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "hotdocs",
+        "display_name": "HotDocs"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      }
+    ],
+    "macos": [
+      {
+        "software": "macgo-mac-media-player",
+        "display_name": "Macgo Mac Media Player"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      }
+    ],
+    "linux": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-07-07",
+  "sources": [
+    {
+      "url": "anx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

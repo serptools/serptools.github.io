@@ -1,0 +1,47 @@
+{
+  "slug": "qic",
+  "extension": "qic",
+  "name": "Windows Backup File",
+  "category": "windows-backup-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "Backup file created by the backup utility included with Windows 95 and 98; saved in the QIC-113 format; contains a collection of files in a compressed archive that are expanded when restored using the Windows Backup program.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-windows-backup-utility",
+        "display_name": "Microsoft Windows Backup Utility"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-01-26",
+  "sources": [
+    {
+      "url": "qic.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "slug": "rna",
+  "extension": "rna",
+  "name": "SnapGene RNA File",
+  "category": "snapgene-rna-file",
+  "developer_org": "gsl-biotech",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "An RNA file is a data file created by GSL Biotech SnapGene, a molecular biology analysis application. It contains a Ribonucleic acid (RNA) sequence and includes metadata , such as the creator, a description of the sequence, a history of changes, and comments.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "gsl-biotech-snapgene",
+        "display_name": "GSL Biotech SnapGene"
+      },
+      {
+        "software": "gsl-biotech-snapgene-viewer",
+        "display_name": "GSL Biotech SnapGene Viewer"
+      }
+    ],
+    "macos": [
+      {
+        "software": "gsl-biotech-snapgene",
+        "display_name": "GSL Biotech SnapGene"
+      },
+      {
+        "software": "gsl-biotech-snapgene-viewer",
+        "display_name": "GSL Biotech SnapGene Viewer"
+      }
+    ],
+    "linux": [
+      {
+        "software": "gsl-biotech-snapgene",
+        "display_name": "GSL Biotech SnapGene"
+      },
+      {
+        "software": "gsl-biotech-snapgene-viewer",
+        "display_name": "GSL Biotech SnapGene Viewer"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "RNA file icon",
+      "alt": "RNA file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/rna-12993.png"
+    },
+    {
+      "caption": "RNA file open in GSL Biotech SnapGene 6",
+      "alt": "RNA file open in GSL Biotech SnapGene 6",
+      "source_url": "https://fileinfo.com/img/ss/md/rna_12993.jpg"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-11-11",
+  "sources": [
+    {
+      "url": "rna.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

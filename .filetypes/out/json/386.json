@@ -1,0 +1,47 @@
+{
+  "slug": "386",
+  "extension": "386",
+  "name": "Windows Virtual Device Driver",
+  "category": "windows-virtual-device-driver",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 49,
+    "source": "fileinfo"
+  },
+  "summary": "Device driver file used by Windows 3.x systems; allows one or more hardware devices to communicate with the computer; may also add support for internal components; \"386\" comes from the type of processor used in many early Windows machines.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "not-meant-to-be-opened",
+        "display_name": "Not meant to be opened"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-10-30",
+  "sources": [
+    {
+      "url": "386.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

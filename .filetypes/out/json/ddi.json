@@ -1,0 +1,63 @@
+{
+  "slug": "ddi",
+  "extension": "ddi",
+  "name": "DiskDupe Disk Image",
+  "category": "diskdupe-disk-image",
+  "developer_org": "micro-system-designs",
+  "popularity": {
+    "rating": 1.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "A DDI file is a disk image created by Micro System Designs DiskDupe. It contains a copy of a floppy disk's contents. While all versions of DiskDupe saved floppy disk images as DDI files, different versions saved DDI files with slightly different formats.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "micro-systems-designs-diskdupe",
+        "display_name": "Micro Systems Designs DiskDupe"
+      },
+      {
+        "software": "ddi2raw",
+        "display_name": "ddi2raw"
+      }
+    ],
+    "macos": [
+      {
+        "software": "ddi2raw",
+        "display_name": "ddi2raw"
+      }
+    ],
+    "linux": [
+      {
+        "software": "ddi2raw",
+        "display_name": "ddi2raw"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-09-11",
+  "sources": [
+    {
+      "url": "ddi.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

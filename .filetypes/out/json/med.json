@@ -1,0 +1,88 @@
+{
+  "slug": "med",
+  "extension": "med",
+  "name": "Amiga MED Sound File",
+  "category": "1.-amiga-med-sound-file",
+  "developer_org": "rbf-software",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "A MED file is an audio file created by MED or OctaMED, which were sound trackers for the Commodore Amiga. It contains notes, pitches, and effects used to create music tracks and sound sequences.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "openmpt",
+        "display_name": "OpenMPT"
+      },
+      {
+        "software": "extended-module-player",
+        "display_name": "Extended Module Player"
+      },
+      {
+        "software": "rockwell-automation-rsview",
+        "display_name": "Rockwell Automation RSView",
+        "status": "discontinued"
+      }
+    ],
+    "macos": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      }
+    ],
+    "linux": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "extended-module-player",
+        "display_name": "Extended Module Player"
+      }
+    ],
+    "ios": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      }
+    ],
+    "android": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-02-17",
+  "sources": [
+    {
+      "url": "med.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

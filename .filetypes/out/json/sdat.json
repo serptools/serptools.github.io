@@ -1,0 +1,47 @@
+{
+  "slug": "sdat",
+  "extension": "sdat",
+  "name": "Nintendo DS Sound Data File",
+  "category": "nintendo-ds-sound-data-file",
+  "developer_org": "nintendo",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 19,
+    "source": "fileinfo"
+  },
+  "summary": "Audio data file used by the Nintendo DS, a portable game system; contains sound files for the game, such as .SSEQ and .STRM audio files; used to store music and sounds that are played back during gameplay.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "vgmtoolbox",
+        "display_name": "VGMToolbox"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-07-23",
+  "sources": [
+    {
+      "url": "sdat.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

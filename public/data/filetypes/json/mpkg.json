@@ -1,0 +1,22 @@
+{
+  "slug": "mpkg",
+  "extension": "mpkg",
+  "name": "macOS Meta-Package",
+  "category": "macos-meta-package",
+  "summary": "",
+  "developer_org": "apple",
+  "developer_name": "Apple",
+  "more_information": {
+    "description": [
+      "For example, an MPKG file might contain separate installation packages used to install the command-line and GUI versions of a program. Or, an MPKG file might contain several related utilities, which are meant to be used in concert and thus packaged together.",
+      "When you double-click an MPKG file in macOS, Apple Installer will begin installing the packages the MPKG file contains. Sometimes, you may be able to manually specify which of the MPKG file's packages you want to install, as part of the installation process."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "mpkg.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

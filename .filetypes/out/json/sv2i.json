@@ -1,0 +1,51 @@
+{
+  "slug": "sv2i",
+  "extension": "sv2i",
+  "name": "Symantec System Index File",
+  "category": "symantec-system-index-file",
+  "developer_org": "symantec",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "System index file created by Backup Exec System Recovery, a program used to backup and recover Windows computers in small business environments; contains an index of system information at the time of the backup; provides fast lookup information that reduces the time required to restore backups.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "veritas-backup-exec",
+        "display_name": "Veritas Backup Exec"
+      },
+      {
+        "software": "vmware-vcenter-converter",
+        "display_name": "VMware vCenter Converter"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-06-06",
+  "sources": [
+    {
+      "url": "sv2i.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

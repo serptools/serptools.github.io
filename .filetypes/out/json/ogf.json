@@ -1,0 +1,55 @@
+{
+  "slug": "ogf",
+  "extension": "ogf",
+  "name": "S.T.A.L.K.E.R. Model File",
+  "category": "s.t.a.l.k.e.r.-model-file",
+  "developer_org": "gsc-game-world",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 14,
+    "source": "fileinfo"
+  },
+  "summary": "An OGF file is a 3D model used by S.T.A.L.K.E.R. first-person shooter games. It contains 3D meshes and animation data. OGF files are used for game models such as characters, weapons, terrain, and environmental objects.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "gsc-game-world-s.t.a.l.k.e.r.-call-of-pripyat",
+        "display_name": "GSC Game World S.T.A.L.K.E.R.: Call of Pripyat"
+      },
+      {
+        "software": "gsc-game-world-s.t.a.l.k.e.r.-clear-sky",
+        "display_name": "GSC Game World S.T.A.L.K.E.R.: Clear Sky"
+      },
+      {
+        "software": "gsc-game-world-s.t.a.l.k.e.r.-shadow-of-chernobyl",
+        "display_name": "GSC Game World S.T.A.L.K.E.R.: Shadow of Chernobyl"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-03-22",
+  "sources": [
+    {
+      "url": "ogf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

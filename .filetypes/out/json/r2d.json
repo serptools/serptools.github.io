@@ -1,0 +1,47 @@
+{
+  "slug": "r2d",
+  "extension": "r2d",
+  "name": "Borland Reflex Database",
+  "category": "borland-reflex-database",
+  "developer_org": "borland",
+  "popularity": {
+    "rating": 1.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "An R2D file is a database created by Borland Reflex, an early database program developed for DOS. It contains plain text that represents the entries in a Reflex database. R2D files store data in a flat file format and are similar to .RDX files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "borland-reflex",
+        "display_name": "Borland Reflex"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-12-01",
+  "sources": [
+    {
+      "url": "r2d.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

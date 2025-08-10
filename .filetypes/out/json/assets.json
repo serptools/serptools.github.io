@@ -1,0 +1,63 @@
+{
+  "slug": "assets",
+  "extension": "assets",
+  "name": "Unity Asset File",
+  "category": "unity-asset-file",
+  "developer_org": "unity-technologies",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 50,
+    "source": "fileinfo"
+  },
+  "summary": "An ASSETS file is a game resource archive used by Unity, a program used to develop 3D games. It contains game resource files such as meshes or textures for 3D models. ASSETS files may also store game databases.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "unity-technologies-unity",
+        "display_name": "Unity Technologies Unity"
+      },
+      {
+        "software": "unity-assets-bundle-extractor",
+        "display_name": "Unity Assets Bundle Extractor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "unity-technologies-unity",
+        "display_name": "Unity Technologies Unity"
+      }
+    ],
+    "linux": [
+      {
+        "software": "unity-technologies-unity",
+        "display_name": "Unity Technologies Unity"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-02-16",
+  "sources": [
+    {
+      "url": "assets.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

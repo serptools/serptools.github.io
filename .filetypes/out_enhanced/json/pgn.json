@@ -1,0 +1,35 @@
+{
+  "slug": "pgn",
+  "extension": "pgn",
+  "name": "Portable Game Notation File",
+  "category": "portable-game-notation-file",
+  "summary": "",
+  "developer_org": "steven-edwards",
+  "developer_name": "Steven Edwards",
+  "more_information": {
+    "screenshot": {
+      "url": "https://fileinfo.com/img/ss/sm/pgn_3562.png",
+      "alt": "Screenshot of a .pgn file in Microsoft Visual Studio Code",
+      "caption": "PGN file open in Microsoft Visual Studio Code"
+    },
+    "description": [
+      "In 1993, Steven J. Edwards created the PGN format for recording chess games. The beginning of each PGN file uses tag pairs to specify game metadata, which may include:",
+      "The remainder of the file specifies the moves played in the game, using a turn-based list of moves recorded using Standard Algebraic Notation (SAN). For example, the text 2.Nf3 Nc3 notes that on the second turn of the game, the white player moved a knight to space F3, and the black player moved a knight to space C3.",
+      "Chess players and analysts use PGN files to share game recordings with each other, for historical and review purposes. Many chess programs allow players to visually play back the game a PGN file contains, so they can analyze the moves that players made."
+    ]
+  },
+  "images": [
+    {
+      "url": "https://fileinfo.com/img/ss/sm/pgn_3562.png",
+      "alt": "Screenshot of a .pgn file in Microsoft Visual Studio Code",
+      "caption": "PGN file open in Microsoft Visual Studio Code"
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "pgn.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

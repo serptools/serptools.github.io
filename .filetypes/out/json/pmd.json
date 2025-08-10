@@ -1,0 +1,116 @@
+{
+  "slug": "pmd",
+  "extension": "pmd",
+  "name": "PageMaker Document",
+  "category": "1.-pagemaker-document",
+  "developer_org": "adobe-systems",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 207,
+    "source": "fileinfo"
+  },
+  "summary": "A PMD file is a page layout file created with Adobe PageMaker, a program used for creating professional publications such as newsletters and brochures. It contains formatted text, images, and drawn objects. PMD files also support images created in other Adobe programs.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "adobe-pagemaker",
+        "display_name": "Adobe PageMaker"
+      },
+      {
+        "software": "adobe-indesign-cs6",
+        "display_name": "Adobe InDesign CS6",
+        "status": "discontinued"
+      },
+      {
+        "software": "bondware-poser",
+        "display_name": "Bondware Poser"
+      },
+      {
+        "software": "mikumikudance",
+        "display_name": "MikuMikuDance"
+      },
+      {
+        "software": "pmd-editor",
+        "display_name": "PMD Editor",
+        "status": "discontinued"
+      },
+      {
+        "software": "pmx-editor",
+        "display_name": "Pmx Editor"
+      },
+      {
+        "software": "blender-with-pmd-format-plug-in",
+        "display_name": "Blender with PMD format plug-in"
+      },
+      {
+        "software": "softmaker-office",
+        "display_name": "SoftMaker Office"
+      },
+      {
+        "software": "proline-software-nyet-iii---the-revenge-of-the-mutant-stones",
+        "display_name": "Proline Software Nyet III - The Revenge of the Mutant Stones"
+      }
+    ],
+    "macos": [
+      {
+        "software": "adobe-pagemaker",
+        "display_name": "Adobe PageMaker"
+      },
+      {
+        "software": "adobe-indesign-cs6",
+        "display_name": "Adobe InDesign CS6",
+        "status": "discontinued"
+      },
+      {
+        "software": "bondware-poser",
+        "display_name": "Bondware Poser"
+      },
+      {
+        "software": "blender-with-pmd-format-plug-in",
+        "display_name": "Blender with PMD format plug-in"
+      }
+    ],
+    "linux": [
+      {
+        "software": "blender-with-pmd-format-plug-in",
+        "display_name": "Blender with PMD format plug-in"
+      },
+      {
+        "software": "softmaker-office",
+        "display_name": "SoftMaker Office"
+      }
+    ],
+    "android": [
+      {
+        "software": "softmaker-office-hd-planmaker-basic",
+        "display_name": "SoftMaker Office HD: PlanMaker BASIC"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-05-18",
+  "sources": [
+    {
+      "url": "pmd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

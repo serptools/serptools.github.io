@@ -1,0 +1,61 @@
+{
+  "slug": "schdoc",
+  "extension": "schdoc",
+  "name": "Altium Designer Schematic Document",
+  "category": "altium-designer-schematic-document",
+  "developer_org": "altium",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "An SCHDOC file is a schematic document created by Altium Designer, a printed circuit board ( PCB ) design application. It is comprised of one or more schematic sheets, which show a PCB's layout. When opened in Altium Designer or Altium Designer Viewer, each of an SCHDOC's sheets appears as a separate tabbed document, which PCB designers can select and view.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "altium-designer",
+        "display_name": "Altium Designer"
+      },
+      {
+        "software": "altium-designer-viewer",
+        "display_name": "Altium Designer Viewer"
+      },
+      {
+        "software": "altium-365-viewer",
+        "display_name": "Altium 365 Viewer"
+      }
+    ],
+    "web": [
+      {
+        "software": "altium-365-viewer",
+        "display_name": "Altium 365 Viewer"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-10-17",
+  "sources": [
+    {
+      "url": "schdoc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

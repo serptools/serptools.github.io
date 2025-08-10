@@ -1,0 +1,94 @@
+{
+  "slug": "emlx",
+  "extension": "emlx",
+  "name": "Apple Mail Message",
+  "category": "apple-mail-message",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 3.1,
+    "votes": 32,
+    "source": "fileinfo"
+  },
+  "summary": "An EMLX file contains an individual email message created by Apple Mail, an email program bundled with macOS. It stores the contents of a message, which includes the subject, sender, and recipient. EMLX files do not store email attachments, only the message information.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "aryson-emlx-converter",
+        "display_name": "Aryson EMLX Converter"
+      },
+      {
+        "software": "regain-eml-to-pst-converter",
+        "display_name": "Regain EML to PST Converter"
+      },
+      {
+        "software": "apple-mail",
+        "display_name": "Apple Mail"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "android": [
+      {
+        "software": "file-viewer-for-android",
+        "display_name": "File Viewer for Android"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-mail",
+        "display_name": "Apple Mail"
+      },
+      {
+        "software": "aryson-emlx-converter",
+        "display_name": "Aryson EMLX Converter"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "EMLX file icon",
+      "alt": "EMLX file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/emlx-1496.png"
+    },
+    {
+      "caption": "EMLX file open in Apple Mail 8",
+      "alt": "EMLX file open in Apple Mail 8",
+      "source_url": "https://fileinfo.com/img/ss/md/emlx_1496.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-06-11",
+  "sources": [
+    {
+      "url": "emlx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

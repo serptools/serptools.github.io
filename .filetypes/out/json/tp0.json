@@ -1,0 +1,53 @@
+{
+  "slug": "tp0",
+  "extension": "tp0",
+  "name": "Mascom PVR Video File",
+  "category": "mascom-pvr-video-file",
+  "developer_org": "squared-5",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 10,
+    "source": "fileinfo"
+  },
+  "summary": "Video file created by Mascom PVR devices; contains a video recording that is saved on the internal disk of a PVR device; saved in a proprietary format and can be converted to more common video file types.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "squared-5-mpeg-streamclip",
+        "display_name": "Squared 5 MPEG Streamclip"
+      }
+    ],
+    "macos": [
+      {
+        "software": "squared-5-mpeg-streamclip",
+        "display_name": "Squared 5 MPEG Streamclip"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-01-28",
+  "sources": [
+    {
+      "url": "tp0.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

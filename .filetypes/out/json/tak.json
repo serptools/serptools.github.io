@@ -1,0 +1,106 @@
+{
+  "slug": "tak",
+  "extension": "tak",
+  "name": "Tom's Lossless Audio Kompressor File",
+  "category": "1.-tom-s-lossless-audio-kompressor-file",
+  "developer_org": "thomas-becker",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 14,
+    "source": "fileinfo"
+  },
+  "summary": "Audio file created in the Tom's lossless Audio Kompressor (TAK) format; uses an adaptive linear forward prediction technique to reduce the size of an audio file without losing audio quality; also supports non-audio data such as CD cover images or cue sheets.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "nullsoft-winamp-with-tak-plug-in",
+        "display_name": "Nullsoft Winamp with TAK plug-in"
+      },
+      {
+        "software": "foobar2000-with-tak-decoder-plug-in",
+        "display_name": "Foobar2000 with TAK Decoder plug-in"
+      },
+      {
+        "software": "tak",
+        "display_name": "Tak"
+      },
+      {
+        "software": "aimp",
+        "display_name": "AIMP"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      },
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      },
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "magix-music-maker-2024",
+        "display_name": "MAGIX Music Maker 2024"
+      }
+    ],
+    "macos": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      }
+    ],
+    "linux": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      }
+    ],
+    "web": [
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-06-30",
+  "sources": [
+    {
+      "url": "tak.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

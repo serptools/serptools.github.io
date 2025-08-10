@@ -1,0 +1,71 @@
+{
+  "slug": "mk",
+  "extension": "mk",
+  "name": "Makefile",
+  "category": "makefile",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 19,
+    "source": "fileinfo"
+  },
+  "summary": "Makefile used by software compilers and linkers for building program executable from source files; may be a full Makefile or may contain additional rules referenced by a Makefile.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-visual-studio-2022",
+        "display_name": "Microsoft Visual Studio 2022"
+      },
+      {
+        "software": "gnu-make",
+        "display_name": "GNU Make"
+      }
+    ],
+    "android": [
+      {
+        "software": "file-viewer-for-android",
+        "display_name": "File Viewer for Android"
+      }
+    ],
+    "macos": [
+      {
+        "software": "gnu-make",
+        "display_name": "GNU Make"
+      }
+    ],
+    "linux": [
+      {
+        "software": "gnu-make",
+        "display_name": "GNU Make"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-11-11",
+  "sources": [
+    {
+      "url": "mk.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

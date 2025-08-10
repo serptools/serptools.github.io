@@ -1,0 +1,82 @@
+{
+  "slug": "ma",
+  "extension": "ma",
+  "name": "Maya ASCII Scene",
+  "category": "maya-ascii-scene",
+  "developer_org": "autodesk",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 125,
+    "source": "fileinfo"
+  },
+  "summary": "An MA file is an animation project created by Autodesk Maya, a 3D modeling and animation program. It contains ASCII text that defines a 3D scene's geometry, lighting, animation, and rendering. Maya projects can be saved as either MA or .MB files. MB files save a project's information in a binary format.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "autodesk-maya-2023",
+        "display_name": "Autodesk Maya 2023"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "autodesk-maya-2023",
+        "display_name": "Autodesk Maya 2023"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "autodesk-maya-2023",
+        "display_name": "Autodesk Maya 2023"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "MA file icon",
+      "alt": "MA file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/ma-1715.png"
+    },
+    {
+      "caption": "MA file open in Autodesk Maya 2022",
+      "alt": "MA file open in Autodesk Maya 2022",
+      "source_url": "https://fileinfo.com/img/ss/md/ma_1715.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-07-28",
+  "sources": [
+    {
+      "url": "ma.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

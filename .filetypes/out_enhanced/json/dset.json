@@ -1,0 +1,23 @@
+{
+  "slug": "dset",
+  "extension": "dset",
+  "name": "Kratos Dataset File",
+  "category": "kratos-dataset-file",
+  "summary": "",
+  "developer_org": "kratos-analytical",
+  "developer_name": "Kratos Analytical",
+  "more_information": {
+    "description": [
+      "Kratos Analytical hardware and software are used in scientific research labs to analyze the biochemistry and surfaces of objects. The XPS instruments record the interaction between the surface of an object and other materials. These interactions of the physical and chemical properties are then saved in DSET files by Kratos Vision. You can use Kratos Vision to open DSET files or you can convert them into ASCII format using CasaXPS.",
+      "On a Unix workstation, you can convert DSET files to .KAL files using the following command:",
+      "dump_dataset filename.dset all > new_filename.kal"
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "dset.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

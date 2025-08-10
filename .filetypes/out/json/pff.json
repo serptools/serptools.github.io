@@ -1,0 +1,51 @@
+{
+  "slug": "pff",
+  "extension": "pff",
+  "name": "Formatta Portable Form File",
+  "category": "formatta-portable-form-file",
+  "developer_org": "phreesia",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 20,
+    "source": "fileinfo"
+  },
+  "summary": "Electronic form file created by Formatta software; contains a formatted, published electronic form that can be filled out using Formatta Filler; used to distribute forms that can be validated while typing; can be encrypted for security purposes.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "phreesia-formatta-filler",
+        "display_name": "Phreesia Formatta Filler"
+      },
+      {
+        "software": "phreesia-formatta-designer",
+        "display_name": "Phreesia Formatta Designer"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-02-02",
+  "sources": [
+    {
+      "url": "pff.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

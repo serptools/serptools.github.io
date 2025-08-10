@@ -1,0 +1,55 @@
+{
+  "slug": "iphoto",
+  "extension": "iphoto",
+  "name": "iPhoto Library File",
+  "category": "iphoto-library-file",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 14,
+    "source": "fileinfo"
+  },
+  "summary": "File created by iPhoto, an image organizer; contains information from imported photos such as image size and format; located in subfolders of iPhoto.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "apple-iphoto-9.6",
+        "display_name": "Apple iPhoto 9.6",
+        "status": "discontinued"
+      }
+    ],
+    "windows": [
+      {
+        "software": "apple-iphoto-9.6",
+        "display_name": "Apple iPhoto 9.6",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-07-30",
+  "sources": [
+    {
+      "url": "iphoto.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

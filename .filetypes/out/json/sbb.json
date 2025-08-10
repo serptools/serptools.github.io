@@ -1,0 +1,47 @@
+{
+  "slug": "sbb",
+  "extension": "sbb",
+  "name": "Office Accounting Company Backup File",
+  "category": "office-accounting-company-backup-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 4.2,
+    "votes": 12,
+    "source": "fileinfo"
+  },
+  "summary": "Company accounting database backup created by Microsoft Office Accounting, an online banking application for businesses; contains an uncompressed backup of a .SBD accounting database file; generated automatically when upgrading Office Accounting software.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-office-accounting",
+        "display_name": "Microsoft Office Accounting"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-05-05",
+  "sources": [
+    {
+      "url": "sbb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

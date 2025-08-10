@@ -1,0 +1,69 @@
+{
+  "slug": "pvd",
+  "extension": "pvd",
+  "name": "Polygen3D Vector Descriptor",
+  "category": "1.-polygen3d-vector-descriptor",
+  "developer_org": "varden-development",
+  "popularity": {
+    "rating": 2.6,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "Project file created by Polygen3D, a Java tool used for generating 3D surfaces; contains project data such as graphic, surface data and any other project-specific information;",
+  "standards": [],
+  "mime_types": [
+    "height/366",
+    "key/value",
+    "pairs/groups",
+    "width/353",
+    "x/2.0"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "varden-development-polygen3d",
+        "display_name": "Varden Development Polygen3D"
+      },
+      {
+        "software": "hpi-instalit",
+        "display_name": "HPI Instalit"
+      }
+    ],
+    "macos": [
+      {
+        "software": "varden-development-polygen3d",
+        "display_name": "Varden Development Polygen3D"
+      }
+    ],
+    "linux": [
+      {
+        "software": "varden-development-polygen3d",
+        "display_name": "Varden Development Polygen3D"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-08-23",
+  "sources": [
+    {
+      "url": "pvd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

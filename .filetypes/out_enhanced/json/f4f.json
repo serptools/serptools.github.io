@@ -1,0 +1,23 @@
+{
+  "slug": "f4f",
+  "extension": "f4f",
+  "name": "Flash Video Fragment",
+  "category": "flash-video-fragment",
+  "summary": "",
+  "developer_org": "adobe-systems",
+  "developer_name": "Adobe Systems",
+  "more_information": {
+    "description": [
+      "Adobe Media Server is a platform that content publishers can use to host and distribute streaming video. These videos are stored on Media Server in the FLV format, but often delivered to end users in the form of several F4F files.",
+      "Sending videos as a set of smaller F4F files, rather than one large FLV file, allows client devices to download, process, and play those videos more quickly. Users' streaming media players (typically Adobe Flash Player) automatically stitch F4F files together into a single, seamless video during the playback process.",
+      "NOTE: The PHP script AdobeHDS can be used to join F4F fragments into FLV files."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "f4f.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

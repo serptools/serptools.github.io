@@ -1,0 +1,119 @@
+{
+  "slug": "ipynb",
+  "extension": "ipynb",
+  "name": "Jupyter Notebook",
+  "category": "jupyter-notebook",
+  "developer_org": "project-jupyter",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 191,
+    "source": "fileinfo"
+  },
+  "summary": "An IPYNB file is a notebook document created by Jupyter Notebook, an interactive computational environment that helps scientists manipulate and analyze data using Python . It contains all the content from a Jupyter Notebook web application session, including computation inputs and outputs, mathematical functions, images, and explanatory text. IPYNB files can be exported to the .HTML , .PDF , reStructuredText, and LaTeX formats.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "jupyter-notebook",
+        "display_name": "Jupyter Notebook"
+      },
+      {
+        "software": "jupyterlab",
+        "display_name": "JupyterLab"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "microsoft-visual-studio-2022",
+        "display_name": "Microsoft Visual Studio 2022"
+      },
+      {
+        "software": "kde-cantor",
+        "display_name": "KDE Cantor"
+      },
+      {
+        "software": "jupyter-notebook-viewer",
+        "display_name": "Jupyter Notebook Viewer"
+      },
+      {
+        "software": "google-colaboratory",
+        "display_name": "Google Colaboratory"
+      }
+    ],
+    "macos": [
+      {
+        "software": "jupyter-notebook",
+        "display_name": "Jupyter Notebook"
+      },
+      {
+        "software": "jupyterlab",
+        "display_name": "JupyterLab"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      }
+    ],
+    "linux": [
+      {
+        "software": "jupyter-notebook",
+        "display_name": "Jupyter Notebook"
+      },
+      {
+        "software": "jupyterlab",
+        "display_name": "JupyterLab"
+      },
+      {
+        "software": "kde-cantor",
+        "display_name": "KDE Cantor"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      }
+    ],
+    "web": [
+      {
+        "software": "jupyter-notebook-viewer",
+        "display_name": "Jupyter Notebook Viewer"
+      },
+      {
+        "software": "google-colaboratory",
+        "display_name": "Google Colaboratory"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "IPYNB file open in Jupyter Notebook Viewer",
+      "alt": "IPYNB file open in Jupyter Notebook Viewer",
+      "source_url": "https://fileinfo.com/img/ss/md/ipynb_10372.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-11-24",
+  "sources": [
+    {
+      "url": "ipynb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

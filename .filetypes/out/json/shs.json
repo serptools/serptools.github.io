@@ -1,0 +1,51 @@
+{
+  "slug": "shs",
+  "extension": "shs",
+  "name": "Microsoft Scrap File",
+  "category": "microsoft-scrap-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 297,
+    "source": "fileinfo"
+  },
+  "summary": "An SHS file is a file created by Microsoft Word and Excel when a user drags and drops selected document text onto the desktop. It contains a copy of the highlighted contents in its native document format. SHS files are used to save copied portions of a document for insertion into another document.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-word-365",
+        "display_name": "Microsoft Word 365"
+      },
+      {
+        "software": "microsoft-excel-365",
+        "display_name": "Microsoft Excel 365"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2016-10-14",
+  "sources": [
+    {
+      "url": "shs.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

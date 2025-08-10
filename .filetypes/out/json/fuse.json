@@ -1,0 +1,61 @@
+{
+  "slug": "fuse",
+  "extension": "fuse",
+  "name": "Adobe Fuse 3D Model",
+  "category": "adobe-fuse-3d-model",
+  "developer_org": "adobe-systems",
+  "popularity": {
+    "rating": 1.5,
+    "votes": 43,
+    "source": "fileinfo"
+  },
+  "summary": "A FUSE file is a 3D model created by Adobe Fuse, a program used to create 3D human characters. It is the native format used to save 3D human models in Fuse and includes information about the face, body, clothing, and textures of the model. FUSE files can be saved, closed, and reopened for further editing.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "adobe-fuse",
+        "display_name": "Adobe Fuse",
+        "status": "discontinued"
+      }
+    ],
+    "macos": [
+      {
+        "software": "adobe-fuse",
+        "display_name": "Adobe Fuse",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "FUSE file open in Adobe Fuse CC",
+      "alt": "FUSE file open in Adobe Fuse CC",
+      "source_url": "https://fileinfo.com/img/ss/md/fuse_11209.jpg"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-02-12",
+  "sources": [
+    {
+      "url": "fuse.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

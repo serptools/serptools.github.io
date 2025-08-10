@@ -1,0 +1,69 @@
+{
+  "slug": "vmsn",
+  "extension": "vmsn",
+  "name": "VMware Snapshot State File",
+  "category": "vmware-snapshot-state-file",
+  "developer_org": "vmware",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "A VMSN file saves the virtual machine (VM) data for a snapshot, which is a frozen state of the VM saved at a particular point in time. VMware virtualization software creates a VMSN file when a user takes a snapshot of a VM, which allows them to revert a VM to a saved point. VMSN files are saved with a .VMSD file, which contains the metadata for the snapshot.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "vmware-workstation",
+        "display_name": "VMware Workstation"
+      },
+      {
+        "software": "vmware-fusion",
+        "display_name": "VMware Fusion"
+      }
+    ],
+    "macos": [
+      {
+        "software": "vmware-fusion",
+        "display_name": "VMware Fusion"
+      }
+    ],
+    "linux": [
+      {
+        "software": "vmware-workstation",
+        "display_name": "VMware Workstation"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "VMSN file open in VMware Fusion 13",
+      "alt": "VMSN file open in VMware Fusion 13",
+      "source_url": "https://fileinfo.com/img/ss/md/vmsn_6969.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-12-21",
+  "sources": [
+    {
+      "url": "vmsn.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

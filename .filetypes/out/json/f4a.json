@@ -1,0 +1,72 @@
+{
+  "slug": "f4a",
+  "extension": "f4a",
+  "name": "Adobe Flash Protected Audio File",
+  "category": "adobe-flash-protected-audio-file",
+  "developer_org": "adobe-systems",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Audio file created by Adobe Flash, an application used to develop rich Web content; contains MPEG-4 audio data protected with DRM protection; differs from a .F4P file, which contains protection for both audio and video streams.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "adobe-flash-professional-cc",
+        "display_name": "Adobe Flash Professional CC",
+        "status": "discontinued"
+      },
+      {
+        "software": "adobe-flash-player",
+        "display_name": "Adobe Flash Player",
+        "status": "discontinued"
+      }
+    ],
+    "macos": [
+      {
+        "software": "adobe-flash-professional-cc",
+        "display_name": "Adobe Flash Professional CC",
+        "status": "discontinued"
+      },
+      {
+        "software": "adobe-flash-player",
+        "display_name": "Adobe Flash Player",
+        "status": "discontinued"
+      }
+    ],
+    "linux": [
+      {
+        "software": "adobe-flash-player",
+        "display_name": "Adobe Flash Player",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-10-15",
+  "sources": [
+    {
+      "url": "f4a.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

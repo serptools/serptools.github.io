@@ -1,0 +1,65 @@
+{
+  "slug": "fxa",
+  "extension": "fxa",
+  "name": "OC3 Entertainment FaceFX Actor File",
+  "category": "oc3-entertainment-facefx-actor-file",
+  "developer_org": "o3-entertainment",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "3D model file created using older versions of FaceFX, an application used to build facial animations from audio files; contains 3D facial bone positions, face graph nodes and links, and animation keys; commonly used in video games for animating facial expressions on virtual characters.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "oc3-entertainment-facefx",
+        "display_name": "OC3 Entertainment FaceFX"
+      },
+      {
+        "software": "autodesk-3ds-max-with-facefx-plugin",
+        "display_name": "Autodesk 3ds Max with FaceFX plugin"
+      },
+      {
+        "software": "autodesk-maya-with-facefx-plugin",
+        "display_name": "Autodesk Maya with FaceFX plugin"
+      },
+      {
+        "software": "autodesk-motionbuilder",
+        "display_name": "Autodesk MotionBuilder"
+      }
+    ],
+    "macos": [
+      {
+        "software": "autodesk-maya-with-facefx-plugin",
+        "display_name": "Autodesk Maya with FaceFX plugin"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-12-13",
+  "sources": [
+    {
+      "url": "fxa.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "slug": "mcd",
+  "extension": "mcd",
+  "name": "MiniCAD Design File",
+  "category": "1.-minicad-design-file",
+  "developer_org": "nemetschek",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 28,
+    "source": "fileinfo"
+  },
+  "summary": "Design created by Vectorworks CAD applications, which were previously developed under the MiniCAD brand; contains a design draft such as a technical drawing or a 2D or 3D model; used for storing drafted plans before construction or manufacturing.",
+  "standards": [],
+  "mime_types": [
+    "input/output",
+    "pro/engineer"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "nemetschek-vectorworks-design-suite",
+        "display_name": "Nemetschek Vectorworks Design Suite"
+      },
+      {
+        "software": "nemetschek-vectorworks-viewer",
+        "display_name": "Nemetschek VectorWorks Viewer"
+      },
+      {
+        "software": "ptc-mathcad-prime-5.0",
+        "display_name": "PTC Mathcad Prime 5.0"
+      }
+    ],
+    "macos": [
+      {
+        "software": "nemetschek-vectorworks-design-suite",
+        "display_name": "Nemetschek Vectorworks Design Suite"
+      },
+      {
+        "software": "nemetschek-vectorworks-viewer",
+        "display_name": "Nemetschek VectorWorks Viewer"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-05-19",
+  "sources": [
+    {
+      "url": "mcd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

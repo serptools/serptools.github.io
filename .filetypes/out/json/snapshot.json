@@ -1,0 +1,47 @@
+{
+  "slug": "snapshot",
+  "extension": "snapshot",
+  "name": "VMware ThinApp Snapshot File",
+  "category": "vmware-thinapp-snapshot-file",
+  "developer_org": "vmware",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "File created by VMware ThinApp, a program used for bundling Windows programs into a single executable without any additional dependencies; created by ThinApp's system scanner and contains system information about all files on the local hard drive and registry entries.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "vmware-thinapp",
+        "display_name": "VMware ThinApp"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-06-06",
+  "sources": [
+    {
+      "url": "snapshot.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

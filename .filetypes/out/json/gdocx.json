@@ -1,0 +1,67 @@
+{
+  "slug": "gdocx",
+  "extension": "gdocx",
+  "name": "Google Drive Document",
+  "category": "google-drive-document",
+  "developer_org": "google",
+  "popularity": {
+    "rating": 2.7,
+    "votes": 12,
+    "source": "fileinfo"
+  },
+  "summary": "A GDOCX file is a pointer file created by Google Docs , an online document editor included with Google Drive. It contains information that points to the location of a word processing document stored in Google Drive. GDOCX files do not store actual document content, only the location of a word processing document stored in Google Drive.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "google-drive",
+        "display_name": "Google Drive"
+      },
+      {
+        "software": "google-drive-file-stream",
+        "display_name": "Google Drive File Stream"
+      }
+    ],
+    "macos": [
+      {
+        "software": "google-drive",
+        "display_name": "Google Drive"
+      },
+      {
+        "software": "google-drive-file-stream",
+        "display_name": "Google Drive File Stream"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "GDOCX file icon",
+      "alt": "GDOCX file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/gdocx-10696.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-02-22",
+  "sources": [
+    {
+      "url": "gdocx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

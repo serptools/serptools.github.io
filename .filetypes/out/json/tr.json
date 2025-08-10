@@ -1,0 +1,47 @@
+{
+  "slug": "tr",
+  "extension": "tr",
+  "name": "TomeRaider 2 eBook File",
+  "category": "tomeraider-2-ebook-file",
+  "developer_org": "tomeraider",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 13,
+    "source": "fileinfo"
+  },
+  "summary": "eBook created in the TomeRaider 2 (TR2) format, a software eReader available for PC, Pocket PC, and other mobile devices; supports fast searching and high compression levels; replaced by the .TR3 (TomeRaider 3) format.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "tomeraider-3",
+        "display_name": "TomeRaider 3"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-04-24",
+  "sources": [
+    {
+      "url": "tr.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

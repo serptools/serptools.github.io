@@ -1,0 +1,77 @@
+{
+  "slug": "scworld",
+  "extension": "scworld",
+  "name": "Survivalcraft World File",
+  "category": "survivalcraft-world-file",
+  "developer_org": "candy-rufus-games",
+  "popularity": {
+    "rating": 4.5,
+    "votes": 11,
+    "source": "fileinfo"
+  },
+  "summary": "World file format used by Survivalcraft, a survival game that features gameplay and graphics similar to Minecraft; stores all the data that makes up a playable world, such as location of caves and available resources.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "candy-rufus-games-survivalcraft-for-windows",
+        "display_name": "Candy Rufus Games Survivalcraft for Windows"
+      },
+      {
+        "software": "smart-bi-serv-cave-view",
+        "display_name": "Smart BI Serv Cave View"
+      },
+      {
+        "software": "survivalcraft-file-explorer",
+        "display_name": "Survivalcraft File Explorer"
+      },
+      {
+        "software": "candy-rufus-games-survivalcraft",
+        "display_name": "Candy Rufus Games Survivalcraft"
+      }
+    ],
+    "web": [
+      {
+        "software": "survivalcraft-file-explorer",
+        "display_name": "Survivalcraft File Explorer"
+      }
+    ],
+    "ios": [
+      {
+        "software": "candy-rufus-games-survivalcraft",
+        "display_name": "Candy Rufus Games Survivalcraft"
+      }
+    ],
+    "android": [
+      {
+        "software": "candy-rufus-games-survivalcraft",
+        "display_name": "Candy Rufus Games Survivalcraft"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-10-13",
+  "sources": [
+    {
+      "url": "scworld.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

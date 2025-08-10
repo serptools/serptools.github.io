@@ -1,0 +1,59 @@
+{
+  "slug": "fjm",
+  "extension": "fjm",
+  "name": "FlipJump Memory File",
+  "category": "flipjump-memory-file",
+  "developer_org": "tomhe",
+  "popularity": {
+    "rating": 4.3,
+    "votes": 10,
+    "source": "fileinfo"
+  },
+  "summary": "An FJM file contains FlipJump machine code assembled by the assembler included with the FlipJump command-line project from an .FJ source code file. It stores the code in memory segments (FlipJump Memory) and may be compressed with the Lempel-Ziv and Haruyasu ( .LZH ) compression algorithm.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "flipjump",
+        "display_name": "FlipJump"
+      }
+    ],
+    "macos": [
+      {
+        "software": "flipjump",
+        "display_name": "FlipJump"
+      }
+    ],
+    "linux": [
+      {
+        "software": "flipjump",
+        "display_name": "FlipJump"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-12-05",
+  "sources": [
+    {
+      "url": "fjm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

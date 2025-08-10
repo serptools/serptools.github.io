@@ -1,0 +1,81 @@
+{
+  "slug": "mcattributes",
+  "extension": "mcattributes",
+  "name": "Minecraft Attributes File",
+  "category": "minecraft-attributes-file",
+  "developer_org": "mojang",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "An MCATTRIBUTES file stores plain text settings and attributes for a Minecraft Bedrock Editor .MCPROJECT file. Users can find MCATTRIBUTES files in the root directory of a Minecraft Bedrock Editor project. Mojang Minecraft Bedrock Editor references MCATTRIBUTES files to load their settings for projects, but users may also open and edit them with text editors.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "mojang-minecraft-bedrock-editor",
+        "display_name": "Mojang Minecraft Bedrock Editor"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "MCATTRIBUTES file open in Microsoft Visual Studio Code 1.8",
+      "alt": "MCATTRIBUTES file open in Microsoft Visual Studio Code 1.8",
+      "source_url": "https://fileinfo.com/img/ss/md/mcattributes_13672.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2024-03-21",
+  "sources": [
+    {
+      "url": "mcattributes.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

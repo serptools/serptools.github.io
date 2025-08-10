@@ -1,0 +1,49 @@
+{
+  "slug": "ad_prt",
+  "extension": "ad_prt",
+  "name": "Alibre Design Part",
+  "category": "alibre-design-part",
+  "developer_org": "alibre",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "An AD_PRT file is a part file used by Alibre Design Professional and Alibre Design Expert, which are 3D CAD programs. It contains a part that users can import into Alibre Design and add to an assembly. AD_PRT files can be exported from Alibre Design as .STEP files, for use in other CAD programs.",
+  "standards": [],
+  "mime_types": [
+    "part/subassembly"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "alibre-design",
+        "display_name": "Alibre Design"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-07-20",
+  "sources": [
+    {
+      "url": "ad_prt.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

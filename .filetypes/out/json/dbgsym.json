@@ -1,0 +1,55 @@
+{
+  "slug": "dbgsym",
+  "extension": "dbgsym",
+  "name": "Debug Symbols File",
+  "category": "debug-symbols-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "Debugging file used by various Unix-based applications; stores debugging symbols used to report the status of the application and environment when a crash occurs; enables developers to trace bugs easier.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "pidgin",
+        "display_name": "Pidgin"
+      }
+    ],
+    "linux": [
+      {
+        "software": "pidgin",
+        "display_name": "Pidgin"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-02-18",
+  "sources": [
+    {
+      "url": "dbgsym.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

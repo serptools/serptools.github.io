@@ -1,0 +1,71 @@
+{
+  "slug": "frk",
+  "extension": "frk",
+  "name": "Macintosh Resource or Data Fork",
+  "category": "macintosh-resource-or-data-fork",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "File containing the resource fork (resource.frk) or data fork (data.frk) of a Macintosh file; possibly separated during a data transfer.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "macdisk",
+        "display_name": "MacDisk"
+      },
+      {
+        "software": "macimage",
+        "display_name": "MacImage"
+      },
+      {
+        "software": "prosoft-engineering-data-rescue-3",
+        "display_name": "ProSoft Engineering Data Rescue 3"
+      },
+      {
+        "software": "resourceaccesor",
+        "display_name": "ResourceAccesor"
+      }
+    ],
+    "windows": [
+      {
+        "software": "prosoft-engineering-data-rescue-3",
+        "display_name": "ProSoft Engineering Data Rescue 3"
+      },
+      {
+        "software": "resourceaccesor",
+        "display_name": "ResourceAccesor"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-05-12",
+  "sources": [
+    {
+      "url": "frk.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

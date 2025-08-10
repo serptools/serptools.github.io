@@ -1,0 +1,47 @@
+{
+  "slug": "fsq",
+  "extension": "fsq",
+  "name": "CryENGINE Facial Editor Sequence File",
+  "category": "cryengine-facial-editor-sequence-file",
+  "developer_org": "crytek",
+  "popularity": {
+    "rating": 2.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "File created with the CryENGINE SDK, a developer program suite used for making 3D games; saves keyframe animation data for animating facial expressions for a character model; used for talking, laughing, and other facial movements.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "crytek-cryengine-sdk",
+        "display_name": "Crytek CryENGINE SDK"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-08-10",
+  "sources": [
+    {
+      "url": "fsq.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

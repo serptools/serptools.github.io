@@ -1,0 +1,59 @@
+{
+  "slug": "bitpim",
+  "extension": "bitpim",
+  "name": "BitPim Configuration File",
+  "category": "bitpim-configuration-file",
+  "developer_org": "bitpim",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "File used by BitPim, a program used for viewing and changing data on Samsung, Sanyo, and other cell phones; saved in a plain text format and contains information about the phone and the data on the phone.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "bitpim",
+        "display_name": "BitPim"
+      }
+    ],
+    "macos": [
+      {
+        "software": "bitpim",
+        "display_name": "BitPim"
+      }
+    ],
+    "linux": [
+      {
+        "software": "bitpim",
+        "display_name": "BitPim"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-05-31",
+  "sources": [
+    {
+      "url": "bitpim.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

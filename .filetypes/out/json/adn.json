@@ -1,0 +1,47 @@
+{
+  "slug": "adn",
+  "extension": "adn",
+  "name": "Access Blank Project Template",
+  "category": "access-blank-project-template",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "Project template used by Microsoft Access, a desktop database and application development software; saves a template that is used for creating .ADP project files; may store database connection information and other project startup settings.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-access-365",
+        "display_name": "Microsoft Access 365"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-04-04",
+  "sources": [
+    {
+      "url": "adn.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

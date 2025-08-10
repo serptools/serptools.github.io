@@ -1,0 +1,258 @@
+{
+  "slug": "ogg",
+  "extension": "ogg",
+  "name": "Ogg Vorbis Audio",
+  "category": "1.-ogg-vorbis-audio",
+  "developer_org": "xiph.org",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 315,
+    "source": "fileinfo"
+  },
+  "summary": "An OGG file is an audio file, similar to an .MP3 file, that typically stores music. It contains audio data saved in the Ogg container format and compressed with Vorbis audio compression. OGG files may also include song metadata , such as artist information and track data.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "microsoft-media-player",
+        "display_name": "Microsoft Media Player"
+      },
+      {
+        "software": "nullsoft-winamp",
+        "display_name": "Nullsoft Winamp"
+      },
+      {
+        "software": "mplayer",
+        "display_name": "MPlayer"
+      },
+      {
+        "software": "foobar2000",
+        "display_name": "foobar2000"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "movavi-video-converter",
+        "display_name": "Movavi Video Converter"
+      },
+      {
+        "software": "audials-one-2022",
+        "display_name": "Audials One 2022"
+      },
+      {
+        "software": "applian-replay-converter",
+        "display_name": "Applian Replay Converter"
+      },
+      {
+        "software": "adobe-audition-2023",
+        "display_name": "Adobe Audition 2023"
+      },
+      {
+        "software": "audacity",
+        "display_name": "Audacity"
+      },
+      {
+        "software": "mozilla-firefox",
+        "display_name": "Mozilla Firefox"
+      },
+      {
+        "software": "eltima-elmedia-player",
+        "display_name": "Eltima Elmedia Player"
+      },
+      {
+        "software": "zinf",
+        "display_name": "Zinf"
+      },
+      {
+        "software": "totem",
+        "display_name": "Totem"
+      },
+      {
+        "software": "pcf-miro",
+        "display_name": "PCF Miro"
+      },
+      {
+        "software": "dragon-player",
+        "display_name": "Dragon Player"
+      },
+      {
+        "software": "amarok",
+        "display_name": "Amarok"
+      },
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      },
+      {
+        "software": "google-drive",
+        "display_name": "Google Drive"
+      },
+      {
+        "software": "videolan-vlc-for-mobile",
+        "display_name": "VideoLAN VLC for Mobile"
+      },
+      {
+        "software": "olimsoft-oplayer",
+        "display_name": "olimsoft OPlayer"
+      },
+      {
+        "software": "antvplayer-media-converter",
+        "display_name": "antvplayer Media Converter"
+      },
+      {
+        "software": "originlab-origin",
+        "display_name": "OriginLab Origin"
+      },
+      {
+        "software": "originlab-origin-viewer",
+        "display_name": "OriginLab Origin Viewer"
+      }
+    ],
+    "chromeos": [
+      {
+        "software": "google-chrome",
+        "display_name": "Google Chrome"
+      }
+    ],
+    "android": [
+      {
+        "software": "file-viewer-for-android",
+        "display_name": "File Viewer for Android"
+      },
+      {
+        "software": "antvplayer-media-converter",
+        "display_name": "antvplayer Media Converter"
+      }
+    ],
+    "macos": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "eltima-elmedia-player",
+        "display_name": "Eltima Elmedia Player"
+      },
+      {
+        "software": "mplayer",
+        "display_name": "MPlayer"
+      },
+      {
+        "software": "movavi-video-converter",
+        "display_name": "Movavi Video Converter"
+      },
+      {
+        "software": "adobe-audition-2023",
+        "display_name": "Adobe Audition 2023"
+      },
+      {
+        "software": "audacity",
+        "display_name": "Audacity"
+      },
+      {
+        "software": "mozilla-firefox",
+        "display_name": "Mozilla Firefox"
+      },
+      {
+        "software": "originlab-origin-viewer",
+        "display_name": "OriginLab Origin Viewer"
+      }
+    ],
+    "linux": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "zinf",
+        "display_name": "Zinf"
+      },
+      {
+        "software": "totem",
+        "display_name": "Totem"
+      },
+      {
+        "software": "pcf-miro",
+        "display_name": "PCF Miro"
+      },
+      {
+        "software": "dragon-player",
+        "display_name": "Dragon Player"
+      },
+      {
+        "software": "amarok",
+        "display_name": "Amarok"
+      },
+      {
+        "software": "audacity",
+        "display_name": "Audacity"
+      },
+      {
+        "software": "mozilla-firefox",
+        "display_name": "Mozilla Firefox"
+      }
+    ],
+    "web": [
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      },
+      {
+        "software": "google-drive",
+        "display_name": "Google Drive"
+      }
+    ],
+    "ios": [
+      {
+        "software": "videolan-vlc-for-mobile",
+        "display_name": "VideoLAN VLC for Mobile"
+      },
+      {
+        "software": "olimsoft-oplayer",
+        "display_name": "olimsoft OPlayer"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "OGG file icon",
+      "alt": "OGG file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/ogg-413.png"
+    },
+    {
+      "caption": "OGG file open in Adobe Audition 2021",
+      "alt": "OGG file open in Adobe Audition 2021",
+      "source_url": "https://fileinfo.com/img/ss/md/ogg_413.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-03-30",
+  "sources": [
+    {
+      "url": "ogg.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

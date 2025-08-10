@@ -1,0 +1,67 @@
+{
+  "slug": "h13",
+  "extension": "h13",
+  "name": "H&R Block Canada 2013 Tax Return",
+  "category": "h-r-block-canada-2013-tax-return",
+  "developer_org": "h-r-block-canada",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 12,
+    "source": "fileinfo"
+  },
+  "summary": "Tax return saved by H&R Block Canada 2013, a Canadian tax preparation program; contains tax data entered by the user along with Canadian federal income tax forms; enables you to save your tax return progress and resume it at a later time.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "h-r-block-canada-tax-software",
+        "display_name": "H&R Block Canada Tax Software"
+      },
+      {
+        "software": "intuit-canada-turbotax",
+        "display_name": "Intuit Canada TurboTax"
+      },
+      {
+        "software": "h-r-block-canada-online",
+        "display_name": "H&R Block Canada Online"
+      }
+    ],
+    "macos": [
+      {
+        "software": "intuit-canada-turbotax",
+        "display_name": "Intuit Canada TurboTax"
+      }
+    ],
+    "web": [
+      {
+        "software": "h-r-block-canada-online",
+        "display_name": "H&R Block Canada Online"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-03-05",
+  "sources": [
+    {
+      "url": "h13.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

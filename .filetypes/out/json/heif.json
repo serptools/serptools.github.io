@@ -1,0 +1,123 @@
+{
+  "slug": "heif",
+  "extension": "heif",
+  "name": "High Efficiency Image Format",
+  "category": "high-efficiency-image-format",
+  "developer_org": "moving-picture-experts-group",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 51,
+    "source": "fileinfo"
+  },
+  "summary": "An HEIF file is an image saved in the High Efficiency Image Format (HEIF), a lossy compressed format. It may contain still images, image collections, image bursts, and image sequences. HEIF files also store metadata that describes each image.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "gimp",
+        "display_name": "Gimp"
+      },
+      {
+        "software": "zoner-photo-studio-x",
+        "display_name": "Zoner Photo Studio X"
+      },
+      {
+        "software": "copytrans-heic-for-windows",
+        "display_name": "CopyTrans HEIC for Windows"
+      },
+      {
+        "software": "apple-preview",
+        "display_name": "Apple Preview"
+      },
+      {
+        "software": "apple-photos",
+        "display_name": "Apple Photos"
+      },
+      {
+        "software": "adobe-photoshop-2025",
+        "display_name": "Adobe Photoshop 2025"
+      },
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      }
+    ],
+    "ios": [
+      {
+        "software": "apple-ios",
+        "display_name": "Apple iOS"
+      }
+    ],
+    "android": [
+      {
+        "software": "file-viewer-for-android",
+        "display_name": "File Viewer for Android"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-preview",
+        "display_name": "Apple Preview"
+      },
+      {
+        "software": "apple-photos",
+        "display_name": "Apple Photos"
+      },
+      {
+        "software": "adobe-photoshop-2025",
+        "display_name": "Adobe Photoshop 2025"
+      },
+      {
+        "software": "gimp",
+        "display_name": "Gimp"
+      }
+    ],
+    "linux": [
+      {
+        "software": "gimp",
+        "display_name": "Gimp"
+      }
+    ],
+    "web": [
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "HEIF file icon",
+      "alt": "HEIF file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/heif-10637.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-09-10",
+  "sources": [
+    {
+      "url": "heif.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

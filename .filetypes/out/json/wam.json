@@ -1,0 +1,47 @@
+{
+  "slug": "wam",
+  "extension": "wam",
+  "name": "Worms Armageddon Mission File",
+  "category": "worms-armageddon-mission-file",
+  "developer_org": "team17-software",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "Mission file used by Worms Armageddon, a turn-based game that revolves around defeating opposing worms; stores settings that make up a mission, such as weapon options, environment behavior, available ammunition, and enemy team difficulty.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "team17-worms-armageddon",
+        "display_name": "Team17 Worms Armageddon"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-02-12",
+  "sources": [
+    {
+      "url": "wam.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

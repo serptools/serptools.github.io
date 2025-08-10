@@ -1,0 +1,53 @@
+{
+  "slug": "blockplt",
+  "extension": "blockplt",
+  "name": "LEGO MINDSTORMS NXT Block Palette File",
+  "category": "lego-mindstorms-nxt-block-palette-file",
+  "developer_org": "the-lego-group",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "Application support file used by LEGO MINDSTORMS NXT Software, which provides an interface for programming LEGO MINDSTORMS robots; stores a block palette, which provides programmable blocks that can be inserted into the program of a robot.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "lego-mindstorms-nxt",
+        "display_name": "LEGO MINDSTORMS NXT"
+      }
+    ],
+    "macos": [
+      {
+        "software": "lego-mindstorms-nxt",
+        "display_name": "LEGO MINDSTORMS NXT"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-01-02",
+  "sources": [
+    {
+      "url": "blockplt.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

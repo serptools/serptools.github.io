@@ -1,0 +1,59 @@
+{
+  "slug": "ane",
+  "extension": "ane",
+  "name": "Adobe AIR Native Extension",
+  "category": "adobe-air-native-extension",
+  "developer_org": "adobe-systems",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 10,
+    "source": "fileinfo"
+  },
+  "summary": "Developer file used by Adobe AIR, a component that enables HTML, JavaScript, and Flash to run as standalone desktop or mobile applications; allows system specific functions, such as device vibration, to be invoked using Adobe ActionScript code.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "adobe-air",
+        "display_name": "Adobe AIR"
+      }
+    ],
+    "macos": [
+      {
+        "software": "adobe-air",
+        "display_name": "Adobe AIR"
+      }
+    ],
+    "android": [
+      {
+        "software": "adobe-air",
+        "display_name": "Adobe AIR"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-09-28",
+  "sources": [
+    {
+      "url": "ane.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

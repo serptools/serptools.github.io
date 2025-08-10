@@ -1,0 +1,102 @@
+{
+  "slug": "aa",
+  "extension": "aa",
+  "name": "Audible Audio Book File",
+  "category": "1.-audible-audio-book-file",
+  "developer_org": "audible",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 31,
+    "source": "fileinfo"
+  },
+  "summary": "Digital audio format used by Audible to store audio books; designed for storing spoken word audio and supports chapter markers, bookmarks, etc.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "audible-audiblemanager",
+        "display_name": "Audible AudibleManager",
+        "status": "discontinued"
+      },
+      {
+        "software": "apple-itunes",
+        "display_name": "Apple iTunes",
+        "status": "discontinued"
+      },
+      {
+        "software": "nero-2022",
+        "display_name": "Nero 2022"
+      },
+      {
+        "software": "soundtaxi-media-suite",
+        "display_name": "SoundTaxi Media Suite"
+      },
+      {
+        "software": "tunecab",
+        "display_name": "TuneCab"
+      },
+      {
+        "software": "coolutils-total-audio-converter",
+        "display_name": "CoolUtils Total Audio Converter"
+      },
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      },
+      {
+        "software": "smart-projects-isobuster",
+        "display_name": "Smart Projects IsoBuster"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-itunes",
+        "display_name": "Apple iTunes",
+        "status": "discontinued"
+      }
+    ],
+    "web": [
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "AA file icon",
+      "alt": "AA file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/aa-1661.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-08-25",
+  "sources": [
+    {
+      "url": "aa.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

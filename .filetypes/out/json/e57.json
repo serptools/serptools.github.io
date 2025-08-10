@@ -1,0 +1,55 @@
+{
+  "slug": "e57",
+  "extension": "e57",
+  "name": "LIDAR Point Cloud Data File",
+  "category": "lidar-point-cloud-data-file",
+  "developer_org": "astm-e57-committee-on-3d-imaging-systems",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 11,
+    "source": "fileinfo"
+  },
+  "summary": "3D image file created in the ASTM E57 format, a format used for storing data captured by 3D imaging systems; saves LIDAR (light detection and ranging) data, which was captured by 3D range cameras; enables remote sensing data to be saved in a vendor-neutral format.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "faro-scene",
+        "display_name": "FARO Scene"
+      },
+      {
+        "software": "riegl-riscan-pro",
+        "display_name": "RIEGL RiSCAN PRO"
+      },
+      {
+        "software": "libe57",
+        "display_name": "libE57"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2016-11-04",
+  "sources": [
+    {
+      "url": "e57.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "vdj",
+  "extension": "vdj",
+  "name": "VirtualDJ Audio Sample File",
+  "category": "virtualdj-audio-sample-file",
+  "developer_org": "atomix-productions",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 23,
+    "source": "fileinfo"
+  },
+  "summary": "Audio file used by VirtualDJ, a disc jockey digital mixing application; similar to an .OGG file and contains an audio sample that can be included into song mixes; can be shared on the VirtualDJ website, but only if you have a purchased a software license.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "atomix-productions-virtualdj",
+        "display_name": "Atomix Productions VirtualDJ"
+      }
+    ],
+    "macos": [
+      {
+        "software": "atomix-productions-virtualdj",
+        "display_name": "Atomix Productions VirtualDJ"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-10-04",
+  "sources": [
+    {
+      "url": "vdj.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

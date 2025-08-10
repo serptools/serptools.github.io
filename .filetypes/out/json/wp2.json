@@ -1,0 +1,47 @@
+{
+  "slug": "wp2",
+  "extension": "wp2",
+  "name": "WebP 2 Image",
+  "category": "webp-2-image",
+  "developer_org": "google",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "A WP2 file is an image saved in the WebP 2 raster image format, the successor to the WebP format. The WebP 2 format supports both lossy and lossless compression and reduces file size roughly 30% more than the WebP standard. WP2 files also support animations and include an alpha channel for transparency.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "web": [
+      {
+        "software": "webp-2-codec-package",
+        "display_name": "WebP 2 Codec Package"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-05-19",
+  "sources": [
+    {
+      "url": "wp2.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

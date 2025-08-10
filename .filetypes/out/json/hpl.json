@@ -1,0 +1,98 @@
+{
+  "slug": "hpl",
+  "extension": "hpl",
+  "name": "HP-GL Plotter File",
+  "category": "hp-gl-plotter-file",
+  "developer_org": "hewlett-packard",
+  "popularity": {
+    "rating": 2.5,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "An HPL file is a vector image format that includes printer instructions written in the Hewlett-Packard Graphics Language (HP-GL). HPL files often store CAD designs sent to a plotter printer (which draws images using lines instead of dots) to print the image. HP-GL files are more commonly saved as .HPGL files.",
+  "standards": [],
+  "mime_types": [
+    "hp-gl/2",
+    "language/2"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "imsi-turbocad-pro",
+        "display_name": "IMSI TurboCAD Pro"
+      },
+      {
+        "software": "corel-paintshop-pro-2023",
+        "display_name": "Corel PaintShop Pro 2023"
+      },
+      {
+        "software": "software-companions-viewcompanion-pro",
+        "display_name": "Software Companions ViewCompanion Pro"
+      },
+      {
+        "software": "imsi-turbocad-deluxe",
+        "display_name": "IMSI TurboCAD Deluxe"
+      },
+      {
+        "software": "lemkesoft-cadintosh",
+        "display_name": "Lemkesoft CADintosh"
+      },
+      {
+        "software": "lemkesoft-graphicconverter",
+        "display_name": "Lemkesoft GraphicConverter"
+      },
+      {
+        "software": "vhf-interservice-cenon",
+        "display_name": "vhf interservice Cenon"
+      }
+    ],
+    "macos": [
+      {
+        "software": "imsi-turbocad-deluxe",
+        "display_name": "IMSI TurboCAD Deluxe"
+      },
+      {
+        "software": "lemkesoft-cadintosh",
+        "display_name": "Lemkesoft CADintosh"
+      },
+      {
+        "software": "lemkesoft-graphicconverter",
+        "display_name": "Lemkesoft GraphicConverter"
+      },
+      {
+        "software": "vhf-interservice-cenon",
+        "display_name": "vhf interservice Cenon"
+      }
+    ],
+    "linux": [
+      {
+        "software": "vhf-interservice-cenon",
+        "display_name": "vhf interservice Cenon"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-10-26",
+  "sources": [
+    {
+      "url": "hpl.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

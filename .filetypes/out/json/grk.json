@@ -1,0 +1,53 @@
+{
+  "slug": "grk",
+  "extension": "grk",
+  "name": "Gradekeeper Class Gradebook File",
+  "category": "gradekeeper-class-gradebook-file",
+  "developer_org": "gradekeeper",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Gradebook created with Gradekeeper, a school attendance and grade tracking program; stores grades and attendance information for all students in a class.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "gradekeeper-for-windows",
+        "display_name": "Gradekeeper for Windows"
+      }
+    ],
+    "macos": [
+      {
+        "software": "gradekeeper-for-mac-os-x",
+        "display_name": "Gradekeeper for Mac OS X"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2008-04-11",
+  "sources": [
+    {
+      "url": "grk.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

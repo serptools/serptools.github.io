@@ -1,0 +1,73 @@
+{
+  "slug": "edn",
+  "extension": "edn",
+  "name": "EDIF Implementation Netlist File",
+  "category": "1.-edif-implementation-netlist-file",
+  "developer_org": "xilinx",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "File used by Xilinx PLC (programmable logic controller) implementation tools such as Xilinx ISE; created by The CORE Generator component of the software and contains a netlist for a core.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "xilinx-ise-design-suite",
+        "display_name": "Xilinx ISE Design Suite"
+      },
+      {
+        "software": "adobe-digital-editions",
+        "display_name": "Adobe Digital Editions"
+      },
+      {
+        "software": "adobe-acrobat-dc",
+        "display_name": "Adobe Acrobat DC"
+      },
+      {
+        "software": "adobe-acrobat-reader-dc",
+        "display_name": "Adobe Acrobat Reader DC"
+      }
+    ],
+    "macos": [
+      {
+        "software": "adobe-digital-editions",
+        "display_name": "Adobe Digital Editions"
+      },
+      {
+        "software": "adobe-acrobat-dc",
+        "display_name": "Adobe Acrobat DC"
+      },
+      {
+        "software": "adobe-acrobat-reader-dc",
+        "display_name": "Adobe Acrobat Reader DC"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-09-01",
+  "sources": [
+    {
+      "url": "edn.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

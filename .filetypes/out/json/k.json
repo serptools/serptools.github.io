@@ -1,0 +1,87 @@
+{
+  "slug": "k",
+  "extension": "k",
+  "name": "KFramework Source Code File",
+  "category": "kframework-source-code-file",
+  "developer_org": "runtime-verification",
+  "popularity": {
+    "rating": 1.8,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "A K file contains source code written in the K programming language . Developers create K files using source code editors like Microsoft Visual Studio Code. They then compile them using the K Framework compiler, known as kompile.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-visual-studio-code-with-kframework-support-extension",
+        "display_name": "Microsoft Visual Studio Code with KFramework Support extension"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "runtime-verification-k-framework",
+        "display_name": "Runtime Verification K Framework"
+      },
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      }
+    ],
+    "macos": [
+      {
+        "software": "gnu-emacs",
+        "display_name": "GNU Emacs"
+      },
+      {
+        "software": "microsoft-visual-studio-code-with-kframework-support-extension",
+        "display_name": "Microsoft Visual Studio Code with KFramework Support extension"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "runtime-verification-k-framework",
+        "display_name": "Runtime Verification K Framework"
+      },
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "K file open in Microsoft Visual Studio Code",
+      "alt": "K file open in Microsoft Visual Studio Code",
+      "source_url": "https://fileinfo.com/img/ss/md/k_12915.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-09-23",
+  "sources": [
+    {
+      "url": "k.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

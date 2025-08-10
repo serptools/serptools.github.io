@@ -1,0 +1,53 @@
+{
+  "slug": "mfd",
+  "extension": "mfd",
+  "name": "Music Finder Database",
+  "category": "music-finder-database",
+  "developer_org": "yamaha",
+  "popularity": {
+    "rating": 2.8,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "An MFD file is a database used by Yamaha keyboards, such as the PSR, PSR-S, Tyros, and CVP models. It contains a collection of songs that include the song number, title, genre, style, tempo, and keywords.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "musicfinderview",
+        "display_name": "MusicFinderView"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "MFD file open in MusicFinderView",
+      "alt": "MFD file open in MusicFinderView",
+      "source_url": "https://fileinfo.com/img/ss/md/mfd_10481.jpg"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-03-10",
+  "sources": [
+    {
+      "url": "mfd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "slug": "dwp",
+  "extension": "dwp",
+  "name": "DarkWave Studio Project File",
+  "category": "1.-darkwave-studio-project-file",
+  "developer_org": "experimentalscene",
+  "popularity": {
+    "rating": 2.8,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Project file created by DarkWave Studio, an open source Digital Audio Workstation (DAW) application; stores project data, including instrument tracks, effects, and audio edits; can be exported to .WAV , .MP3 , or .FLAC files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "experimentalscene-darkwave-studio",
+        "display_name": "ExperimentalScene DarkWave Studio"
+      },
+      {
+        "software": "rocket-science-games-darwin-pond",
+        "display_name": "Rocket Science Games Darwin Pond"
+      },
+      {
+        "software": "image-line-directwave",
+        "display_name": "Image-Line DirectWave"
+      }
+    ],
+    "macos": [
+      {
+        "software": "image-line-directwave",
+        "display_name": "Image-Line DirectWave"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-04-05",
+  "sources": [
+    {
+      "url": "dwp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

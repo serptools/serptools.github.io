@@ -1,0 +1,59 @@
+{
+  "slug": "wgf",
+  "extension": "wgf",
+  "name": "Widelands Game File",
+  "category": "widelands-game-file",
+  "developer_org": "the-widelands-development-team",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "Saved game created by Widelands, an open source strategy game where players build settlements and battle other tribes; contains the initial saved state for a game; used to record the starting conditions for a game.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "widelands",
+        "display_name": "Widelands"
+      }
+    ],
+    "macos": [
+      {
+        "software": "widelands",
+        "display_name": "Widelands"
+      }
+    ],
+    "linux": [
+      {
+        "software": "widelands",
+        "display_name": "Widelands"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-04-02",
+  "sources": [
+    {
+      "url": "wgf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

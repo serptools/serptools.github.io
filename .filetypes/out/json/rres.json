@@ -1,0 +1,59 @@
+{
+  "slug": "rres",
+  "extension": "rres",
+  "name": "rResPacker Game Resource Package",
+  "category": "rrespacker-game-resource-package",
+  "developer_org": "raylib-technologies",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "An RRES file is a game asset package created by rResPacker, a game asset packaging tool developed by raylib technologies. It contains images, audio, and other assets used in a video game. RRES files are similar to the .XNB files produced by Microsoft XNA Game Studio or XNA Game Studio Express.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "rrespacker",
+        "display_name": "rResPacker"
+      }
+    ],
+    "linux": [
+      {
+        "software": "rrespacker",
+        "display_name": "rResPacker"
+      }
+    ],
+    "web": [
+      {
+        "software": "rrespacker",
+        "display_name": "rResPacker"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-05-13",
+  "sources": [
+    {
+      "url": "rres.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

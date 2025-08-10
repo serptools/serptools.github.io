@@ -1,0 +1,97 @@
+{
+  "slug": "rws",
+  "extension": "rws",
+  "name": "RimWorld Game Save File",
+  "category": "1.-rimworld-game-save-file",
+  "developer_org": "ludeon-studios",
+  "popularity": {
+    "rating": 4.6,
+    "votes": 13,
+    "source": "fileinfo"
+  },
+  "summary": "An RWS file is a save game file created by RimWorld, a sci-fi colony sim game. It contains information about the state of the game, which allows games to be stopped then resumed. RWS files are saved in XML format.",
+  "standards": [],
+  "mime_types": [
+    "and/or"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "ios": [
+      {
+        "software": "ludeon-studios-rimworld",
+        "display_name": "Ludeon Studios RimWorld"
+      }
+    ],
+    "windows": [
+      {
+        "software": "foobar2000",
+        "display_name": "Foobar2000"
+      },
+      {
+        "software": "nullsoft-winamp",
+        "display_name": "Nullsoft Winamp"
+      },
+      {
+        "software": "vgmstream",
+        "display_name": "vgmstream"
+      },
+      {
+        "software": "foobar2000-with-vgmstream-plug-in-installed",
+        "display_name": "Foobar2000 with vgmstream plug-in installed"
+      },
+      {
+        "software": "nullsoft-winamp-with-vgmstream-plug-in-installed",
+        "display_name": "Nullsoft Winamp with vgmstream plug-in installed"
+      },
+      {
+        "software": "rws2wav",
+        "display_name": "RWS2WAV"
+      },
+      {
+        "software": "eeye-digital-security-retina-wireless-scanner",
+        "display_name": "eEye Digital Security Retina Wireless Scanner"
+      }
+    ],
+    "web": [
+      {
+        "software": "vgmstream-web",
+        "display_name": "vgmstream-web"
+      }
+    ],
+    "macos": [
+      {
+        "software": "vgmstream",
+        "display_name": "vgmstream"
+      }
+    ],
+    "linux": [
+      {
+        "software": "vgmstream",
+        "display_name": "vgmstream"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-12-17",
+  "sources": [
+    {
+      "url": "rws.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

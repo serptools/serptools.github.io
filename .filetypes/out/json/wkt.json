@@ -1,0 +1,89 @@
+{
+  "slug": "wkt",
+  "extension": "wkt",
+  "name": "Well-Known Text Geometry",
+  "category": "well-known-text-geometry",
+  "developer_org": "open-geospatial-consortium",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "A WKT file describes a vector geometry object in the Well-Known Text (WKT) format. It contains one or more sets of plain text coordinates that describe points, lines, and/or polygons. WKT files can be overlaid on GIS maps to denote areas of interest.",
+  "standards": [],
+  "mime_types": [
+    "and/or"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "qgis",
+        "display_name": "QGIS"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "wicket",
+        "display_name": "Wicket"
+      }
+    ],
+    "macos": [
+      {
+        "software": "qgis",
+        "display_name": "QGIS"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "qgis",
+        "display_name": "QGIS"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "web": [
+      {
+        "software": "wicket",
+        "display_name": "Wicket"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "WKT file open in Wicket",
+      "alt": "WKT file open in Wicket",
+      "source_url": "https://fileinfo.com/img/ss/md/wkt_13109.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-01-16",
+  "sources": [
+    {
+      "url": "wkt.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

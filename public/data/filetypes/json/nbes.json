@@ -1,0 +1,23 @@
+{
+  "slug": "nbes",
+  "extension": "nbes",
+  "name": "Nbes Ransomware Encrypted File",
+  "category": "nbes-ransomware-encrypted-file",
+  "summary": "",
+  "developer_org": "n-a",
+  "developer_name": "N/A",
+  "more_information": {
+    "description": [
+      "Nbes ransomware is a type of malware utilized by cybercriminals that encrypts the files on a computer with AES-256 encryption. After the ransomware takes the files hostage, it forces the victim to pay the perpetrator to unlock the files. It is most often introduced to a victim's computer through spam emails with malicious links or file attachments that are downloaded and run by unsuspecting users. The virus may also be introduced when a user downloads malicious files from torrent websites or clicks on fake social media posts.",
+      "When the ransomware runs on a user's computer, it encrypts files on the computer and adds the .nbes extension onto the names of the files. The types of files typically targeted include spreadsheets, documents, images, videos, and backup files, such as .XLSX , .PDF , .PNG , .MP4 , and .DB files. For example, an image.jpg file becomes image.jpg.nbes .",
+      "The virus then generates a _readme.txt file in each folder that stores an encrypted file on the user's computer. The _readme.txt file contains instructions explaining the hostile takeover of the user's files and how the user can recover his files by paying a ransom payment."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "nbes.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

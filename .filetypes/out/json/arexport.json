@@ -1,0 +1,71 @@
+{
+  "slug": "arexport",
+  "extension": "arexport",
+  "name": "Spark AR Effects Package",
+  "category": "spark-ar-effects-package",
+  "developer_org": "facebook",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 32,
+    "source": "fileinfo"
+  },
+  "summary": "An AREXPORT file is an augmented reality (AR) effects package created by Spark AR Studio, an application that Facebook users can use to create AR video effects. It contains up to three .ARFX files, which are used to apply an AR effect to videos created using different mobile devices. AREXPORT files are meant to be uploaded to Spark AR Hub, so they can be used with Facebook and Instagram.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "android": [
+      {
+        "software": "facebook-spark-ar-hub",
+        "display_name": "Facebook Spark AR Hub"
+      }
+    ],
+    "web": [
+      {
+        "software": "facebook-spark-ar-hub",
+        "display_name": "Facebook Spark AR Hub"
+      }
+    ],
+    "windows": [
+      {
+        "software": "facebook-spark-ar-hub",
+        "display_name": "Facebook Spark AR Hub"
+      }
+    ],
+    "ios": [
+      {
+        "software": "facebook-spark-ar-hub",
+        "display_name": "Facebook Spark AR Hub"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "AREXPORT file icon",
+      "alt": "AREXPORT file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/arexport-12163.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-06-29",
+  "sources": [
+    {
+      "url": "arexport.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

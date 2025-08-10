@@ -1,0 +1,74 @@
+{
+  "slug": "policy",
+  "extension": "policy",
+  "name": "Java Policy Implementation File",
+  "category": "java-policy-implementation-file",
+  "developer_org": "oracle",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 12,
+    "source": "fileinfo"
+  },
+  "summary": "A POLICY file is a configuration file used by Java Runtime Environment ( JRE ) and Java SE Development Kit (JDK) to determine the granted permissions for each Java program. It contains a list of permission information that specifies the types of system resource accesses that can be used by a Java program.",
+  "standards": [],
+  "mime_types": [
+    "macos/linux",
+    "read/write"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "oracle-java-runtime-environment",
+        "display_name": "Oracle Java Runtime Environment"
+      },
+      {
+        "software": "oracle-java-se-development-kit",
+        "display_name": "Oracle Java SE Development Kit"
+      }
+    ],
+    "macos": [
+      {
+        "software": "oracle-java-runtime-environment",
+        "display_name": "Oracle Java Runtime Environment"
+      },
+      {
+        "software": "oracle-java-se-development-kit",
+        "display_name": "Oracle Java SE Development Kit"
+      }
+    ],
+    "linux": [
+      {
+        "software": "oracle-java-runtime-environment",
+        "display_name": "Oracle Java Runtime Environment"
+      },
+      {
+        "software": "oracle-java-se-development-kit",
+        "display_name": "Oracle Java SE Development Kit"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-02-24",
+  "sources": [
+    {
+      "url": "policy.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

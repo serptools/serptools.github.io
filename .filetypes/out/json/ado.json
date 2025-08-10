@@ -1,0 +1,59 @@
+{
+  "slug": "ado",
+  "extension": "ado",
+  "name": "Adobe Photoshop Duotone Options File",
+  "category": "adobe-photoshop-duotone-options-file",
+  "developer_org": "adobe-systems",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "Settings file used by Adobe Photoshop, a graphics editing program; stores color transfer curves, which specify the properties of two colors that are used to generate a duotone image from a grayscale format in Photoshop; used for saving and loading duotone ink settings that can be applied to multiple images.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "adobe-photoshop-2025",
+        "display_name": "Adobe Photoshop 2025"
+      }
+    ],
+    "macos": [
+      {
+        "software": "adobe-photoshop-2025",
+        "display_name": "Adobe Photoshop 2025"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "ADO file icon",
+      "alt": "ADO file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/ado-5319.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-12-04",
+  "sources": [
+    {
+      "url": "ado.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

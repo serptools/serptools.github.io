@@ -1,0 +1,64 @@
+{
+  "slug": "xmdeck",
+  "extension": "xmdeck",
+  "name": "MindManager XML Slide Deck",
+  "category": "mindmanager-xml-slide-deck",
+  "developer_org": "corel",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "An XMDECK file is a collection of one or more slides created by Corel MindManager, an app for planning, visualizing, and sharing mind map diagrams. It stores slides comprised of branch or sub-branch topics and objects, such as icons and text, and may be made from scratch or elements in an existing MindManager Map. XMDECK files are similar to .MDECK files but saved in the XML standard instead of the binary MDECK format.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "corel-mindmanager",
+        "display_name": "Corel MindManager"
+      }
+    ],
+    "macos": [
+      {
+        "software": "corel-mindmanager",
+        "display_name": "Corel MindManager"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "XMDECK file icon",
+      "alt": "XMDECK file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/xmdeck-12960.png"
+    },
+    {
+      "caption": "XMDECK file open in Corel MindManager 22",
+      "alt": "XMDECK file open in Corel MindManager 22",
+      "source_url": "https://fileinfo.com/img/ss/md/xmdeck_12960.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-10-27",
+  "sources": [
+    {
+      "url": "xmdeck.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "wspak",
+  "extension": "wspak",
+  "name": "WebsitePanel Backup File",
+  "category": "websitepanel-backup-file",
+  "developer_org": "websitepanel",
+  "popularity": {
+    "rating": 2.4,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Backup file created by WebsitePanel, a portal application used for managing Windows Server applications such as IIS, SQL Server, Exchange, and Hyper-V; saves a backup of databases, settings, and other files on the server; can be used for migrating files to a new server; most often used by system administrators.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "web": [
+      {
+        "software": "websitepanel",
+        "display_name": "WebsitePanel"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-09-07",
+  "sources": [
+    {
+      "url": "wspak.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

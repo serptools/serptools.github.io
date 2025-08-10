@@ -1,0 +1,83 @@
+{
+  "slug": "p7b",
+  "extension": "p7b",
+  "name": "PKCS #7 Certificate File",
+  "category": "pkcs-7-certificate-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 4.2,
+    "votes": 13,
+    "source": "fileinfo"
+  },
+  "summary": "Security file that stores secure certificates used to authenticate a person or device, such as a computer or Web server; similar to a Base-64 ( .CER ) certificate, but uses different formatting; can be installed using the Certificate Import Wizard by right-clicking the file and selecting \"Install Certificate.\"",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-certificate-manager",
+        "display_name": "Microsoft Certificate Manager"
+      },
+      {
+        "software": "microsoft-certificate-import-wizard",
+        "display_name": "Microsoft Certificate Import Wizard"
+      },
+      {
+        "software": "adobe-acrobat-reader-dc",
+        "display_name": "Adobe Acrobat Reader DC"
+      },
+      {
+        "software": "apple-keychain-access",
+        "display_name": "Apple Keychain Access"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-keychain-access",
+        "display_name": "Apple Keychain Access"
+      },
+      {
+        "software": "adobe-acrobat-reader-dc",
+        "display_name": "Adobe Acrobat Reader DC"
+      }
+    ],
+    "linux": [
+      {
+        "software": "adobe-acrobat-reader-dc",
+        "display_name": "Adobe Acrobat Reader DC"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "P7B file icon",
+      "alt": "P7B file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/p7b-2256.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-12-21",
+  "sources": [
+    {
+      "url": "p7b.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

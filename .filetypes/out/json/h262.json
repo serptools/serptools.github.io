@@ -1,0 +1,71 @@
+{
+  "slug": "h262",
+  "extension": "h262",
+  "name": "H.262 Video",
+  "category": "h.262-video",
+  "developer_org": "international-telegraph-union-and-mpeg",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "An H262 file is a video saved using the H.262 video compression standard. It contains HDTV video that has been compressed for digital broadcast transmission or storage on a DVD or other disc . H262 files are quite rare, so most popular media players cannot play them.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      }
+    ],
+    "macos": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      }
+    ],
+    "linux": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-02-26",
+  "sources": [
+    {
+      "url": "h262.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

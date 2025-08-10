@@ -1,0 +1,51 @@
+{
+  "slug": "i3pack",
+  "extension": "i3pack",
+  "name": "Point Blank Game Data",
+  "category": "point-blank-game-data",
+  "developer_org": "zepetto",
+  "popularity": {
+    "rating": 4.5,
+    "votes": 397,
+    "source": "fileinfo"
+  },
+  "summary": "An I3PACK file is a game data file used by Zepetto Point Blank, an online first-person shooter. It may contain textures, sounds, 3D models, and other game assets. Point Blank modders have created tools that allow them to extract the assets that I3PACK files contain.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "zepetto-point-blank",
+        "display_name": "Zepetto Point Blank"
+      },
+      {
+        "software": "i3packtool",
+        "display_name": "i3PackTool"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-09-06",
+  "sources": [
+    {
+      "url": "i3pack.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

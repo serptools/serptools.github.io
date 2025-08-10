@@ -1,0 +1,97 @@
+{
+  "slug": "ino",
+  "extension": "ino",
+  "name": "Arduino Sketch",
+  "category": "arduino-sketch",
+  "developer_org": "arduino",
+  "popularity": {
+    "rating": 4.2,
+    "votes": 242,
+    "source": "fileinfo"
+  },
+  "summary": "An INO file is a software program created for use with Arduino, an open-source electronics prototyping platform. It contains source code written in the Arduino programming language (which is a variant of C++ ). INO files are used to control Arduino circuit boards.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "arduino",
+        "display_name": "Arduino"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "autodesk-tinkercad",
+        "display_name": "Autodesk Tinkercad"
+      }
+    ],
+    "web": [
+      {
+        "software": "arduino-web-editor",
+        "display_name": "Arduino Web Editor"
+      },
+      {
+        "software": "autodesk-tinkercad",
+        "display_name": "Autodesk Tinkercad"
+      }
+    ],
+    "chromeos": [
+      {
+        "software": "google-chrome-text",
+        "display_name": "Google Chrome Text"
+      }
+    ],
+    "macos": [
+      {
+        "software": "arduino",
+        "display_name": "Arduino"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "arduino",
+        "display_name": "Arduino"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "INO file open in GitHub Atom",
+      "alt": "INO file open in GitHub Atom",
+      "source_url": "https://fileinfo.com/img/ss/md/ino_7214.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-04-19",
+  "sources": [
+    {
+      "url": "ino.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "sfvidcap",
+  "extension": "sfvidcap",
+  "name": "Sonic Foundry Video Capture File",
+  "category": "sonic-foundry-video-capture-file",
+  "developer_org": "magix",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Project file containing video clips captured with or imported into Sonic Foundry Vegas; created by saving \"advanced capture data\" within the Vegas video-editing program.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "magix-vegas-pro-21",
+        "display_name": "MAGIX VEGAS Pro 21"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2016-09-20",
+  "sources": [
+    {
+      "url": "sfvidcap.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "slug": "8by",
+  "extension": "8by",
+  "name": "Photoshop Parser Plugin",
+  "category": "photoshop-parser-plugin",
+  "developer_org": "adobe-systems",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "An 8BY file is a parser plugin for the Windows version of Adobe Photoshop, an industry-standard image editor. It stores information that adds parsing capabilities to the software, which enables the program to open and work with additional image formats or embedded file information that it doesn’t natively support. Users can add 8BY plugins to the app by placing the files in the Plug-ins folder within the Photoshop application folder.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "adobe-photoshop-2025",
+        "display_name": "Adobe Photoshop 2025"
+      },
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      },
+      {
+        "software": "old-versions-of-adobe-photoshop",
+        "display_name": "Old versions of Adobe Photoshop"
+      }
+    ],
+    "macos": [
+      {
+        "software": "old-versions-of-adobe-photoshop",
+        "display_name": "Old versions of Adobe Photoshop"
+      },
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2024-10-08",
+  "sources": [
+    {
+      "url": "8by.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

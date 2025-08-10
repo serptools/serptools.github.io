@@ -1,0 +1,54 @@
+{
+  "slug": "cnt",
+  "extension": "cnt",
+  "name": "Help Contents File",
+  "category": "1.-help-contents-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 70,
+    "source": "fileinfo"
+  },
+  "summary": "A CNT file is a help file used by Windows and Windows applications. It stores topics for a Help document ( .HLP file) in a plain text format. CNT files are commonly installed with applications that use Microsoft Help as their help documentation format.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-html-help-workshop",
+        "display_name": "Microsoft HTML Help Workshop",
+        "status": "discontinued"
+      }
+    ],
+    "android": [
+      {
+        "software": "can-be-opened-by-renaming-to-use-the-extension-of-the-cached-file",
+        "display_name": "Can be opened by renaming to use the extension of the cached file"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-01-04",
+  "sources": [
+    {
+      "url": "cnt.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

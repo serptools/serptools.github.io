@@ -1,0 +1,95 @@
+{
+  "slug": "xpi",
+  "extension": "xpi",
+  "name": "Cross-platform Installer Package",
+  "category": "cross-platform-installer-package",
+  "developer_org": "mozilla",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 851,
+    "source": "fileinfo"
+  },
+  "summary": "An XPI file is a compressed installation archive used by various Mozilla applications, including Firefox, Thunderbird, and SeaMonkey. It contains an app add-on , such as a Firefox plug-in , toolkit, or theme. Most XPI files include an install.js , install.rdf , or readme.md file, which contains the add-on's installation instructions.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "mozilla-firefox",
+        "display_name": "Mozilla Firefox"
+      },
+      {
+        "software": "mozilla-thunderbird",
+        "display_name": "Mozilla Thunderbird"
+      },
+      {
+        "software": "mozilla-seamonkey",
+        "display_name": "Mozilla SeaMonkey"
+      }
+    ],
+    "macos": [
+      {
+        "software": "mozilla-firefox",
+        "display_name": "Mozilla Firefox"
+      },
+      {
+        "software": "mozilla-thunderbird",
+        "display_name": "Mozilla Thunderbird"
+      },
+      {
+        "software": "mozilla-seamonkey",
+        "display_name": "Mozilla SeaMonkey"
+      }
+    ],
+    "linux": [
+      {
+        "software": "mozilla-firefox",
+        "display_name": "Mozilla Firefox"
+      },
+      {
+        "software": "mozilla-thunderbird",
+        "display_name": "Mozilla Thunderbird"
+      },
+      {
+        "software": "mozilla-seamonkey",
+        "display_name": "Mozilla SeaMonkey"
+      }
+    ],
+    "android": [
+      {
+        "software": "mozilla-firefox",
+        "display_name": "Mozilla Firefox"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "XPI file open in Apple Finder",
+      "alt": "XPI file open in Apple Finder",
+      "source_url": "https://fileinfo.com/img/ss/md/xpi_858.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-12-13",
+  "sources": [
+    {
+      "url": "xpi.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

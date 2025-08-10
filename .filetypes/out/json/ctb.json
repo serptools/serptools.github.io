@@ -1,0 +1,83 @@
+{
+  "slug": "ctb",
+  "extension": "ctb",
+  "name": "AutoCAD Color-Based Plot Style File",
+  "category": "1.-autocad-color-based-plot-style-file",
+  "developer_org": "autodesk",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 22,
+    "source": "fileinfo"
+  },
+  "summary": "File used by AutoCAD, a CAD program used for 2D and 3D drawing; contains color-based plot styles, or mappings of colors to layers of objects; used to attach color and display settings to design objects.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "autodesk-autocad-2025",
+        "display_name": "Autodesk AutoCAD 2025"
+      },
+      {
+        "software": "giuspen-cherrytree",
+        "display_name": "giuspen Cherrytree"
+      },
+      {
+        "software": "chitubox-basic",
+        "display_name": "Chitubox Basic"
+      },
+      {
+        "software": "chitubox-pro",
+        "display_name": "Chitubox Pro"
+      }
+    ],
+    "linux": [
+      {
+        "software": "giuspen-cherrytree",
+        "display_name": "giuspen Cherrytree"
+      },
+      {
+        "software": "chitubox-basic",
+        "display_name": "Chitubox Basic"
+      },
+      {
+        "software": "chitubox-pro",
+        "display_name": "Chitubox Pro"
+      }
+    ],
+    "macos": [
+      {
+        "software": "chitubox-basic",
+        "display_name": "Chitubox Basic"
+      },
+      {
+        "software": "chitubox-pro",
+        "display_name": "Chitubox Pro"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-01-06",
+  "sources": [
+    {
+      "url": "ctb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "slug": "3p2",
+  "extension": "3p2",
+  "name": "3GPP Multimedia File",
+  "category": "3gpp-multimedia-file",
+  "developer_org": "third-generation-partnership-project",
+  "popularity": {
+    "rating": 3.2,
+    "votes": 14,
+    "source": "fileinfo"
+  },
+  "summary": "Multimedia format created by the 3rd Generation Partnership Project (3GPP); designed to transmit multimedia files over the Internet; used capture and playback video on mobile phones; more commonly seen with the .3GP extension.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "adobe-flash-professional-cc",
+        "display_name": "Adobe Flash Professional CC",
+        "status": "discontinued"
+      },
+      {
+        "software": "roxio-creator-nxt-pro-9",
+        "display_name": "Roxio Creator NXT Pro 9"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "mplayer",
+        "display_name": "MPlayer"
+      },
+      {
+        "software": "apple-quicktime-player",
+        "display_name": "Apple QuickTime Player"
+      },
+      {
+        "software": "roxio-toast-20",
+        "display_name": "Roxio Toast 20"
+      }
+    ],
+    "macos": [
+      {
+        "software": "adobe-flash-professional-cc",
+        "display_name": "Adobe Flash Professional CC",
+        "status": "discontinued"
+      },
+      {
+        "software": "apple-quicktime-player",
+        "display_name": "Apple QuickTime Player"
+      },
+      {
+        "software": "roxio-toast-20",
+        "display_name": "Roxio Toast 20"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      }
+    ],
+    "linux": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "mplayer",
+        "display_name": "MPlayer"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-08-19",
+  "sources": [
+    {
+      "url": "3p2.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

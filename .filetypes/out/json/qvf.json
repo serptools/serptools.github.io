@@ -1,0 +1,53 @@
+{
+  "slug": "qvf",
+  "extension": "qvf",
+  "name": "Qlik Sense Desktop App File",
+  "category": "qlik-sense-desktop-app-file",
+  "developer_org": "qlik",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 12,
+    "source": "fileinfo"
+  },
+  "summary": "A QVF file is an app created by Qlik Sense Desktop, an analytics program used to create personalized, interactive reports and data visualizations. It contains one or more visualizations of data, such as charts, maps, tables, and plots. QVF files also include settings that configure the appearance of the visualizations.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "qlicktech-international-qlik-sense",
+        "display_name": "QlickTech International Qlik Sense"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "QVF file open in Qlik Sense Desktop 3.2",
+      "alt": "QVF file open in Qlik Sense Desktop 3.2",
+      "source_url": "https://fileinfo.com/img/ss/md/qvf_10519.jpg"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-04-05",
+  "sources": [
+    {
+      "url": "qvf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

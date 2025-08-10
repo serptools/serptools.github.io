@@ -1,0 +1,53 @@
+{
+  "slug": "so-abi",
+  "extension": "so-abi",
+  "name": "Cocoa AbiWord Plug-in",
+  "category": "cocoa-abiword-plug-in",
+  "developer_org": "abisource",
+  "popularity": {
+    "rating": 2.5,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "A SO-ABI file contains a plug-in used by the Mac OS X version of AbiSource AbiWord, an open-source word processor. It contains code that extends the functionality of AbiWord when a user installs the plug-in. Examples of plug-in features include support for file formats and text-to-speech features.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "abisource-abiword-version-2.4-and-earlier",
+        "display_name": "AbiSource AbiWord (version 2.4 and earlier)"
+      }
+    ],
+    "windows": [
+      {
+        "software": "abisource-abiword-version-2.4-and-earlier",
+        "display_name": "AbiSource AbiWord (version 2.4 and earlier)"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-03-16",
+  "sources": [
+    {
+      "url": "so-abi.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

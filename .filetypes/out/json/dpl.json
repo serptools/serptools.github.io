@@ -1,0 +1,67 @@
+{
+  "slug": "dpl",
+  "extension": "dpl",
+  "name": "Delphi Package Library",
+  "category": "1.-delphi-package-library",
+  "developer_org": "embarcadero-technologies",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 10,
+    "source": "fileinfo"
+  },
+  "summary": "A DPL file is a dynamically linked library ( DLL ) used by Embarcadero Delphi and designed specifically for modular application development in Delphi’s package system. It contains precompiled components, units, or classes that developers use to package reusable code that functions across Delphi projects.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "embarcadero-delphi",
+        "display_name": "Embarcadero Delphi"
+      },
+      {
+        "software": ".pls",
+        "display_name": ".PLS"
+      },
+      {
+        "software": ".m3u",
+        "display_name": ".M3U"
+      },
+      {
+        "software": ".m3u8",
+        "display_name": ".M3U8"
+      },
+      {
+        "software": ".asx",
+        "display_name": ".ASX"
+      },
+      {
+        "software": "kakau-potplayer",
+        "display_name": "Kakau PotPlayer"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2025-02-20",
+  "sources": [
+    {
+      "url": "dpl.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

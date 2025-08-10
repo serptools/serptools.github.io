@@ -1,0 +1,74 @@
+{
+  "slug": "tax2020",
+  "extension": "tax2020",
+  "name": "TurboTax 2020 Tax Return",
+  "category": "turbotax-2020-tax-return",
+  "developer_org": "intuit",
+  "popularity": {
+    "rating": 2.8,
+    "votes": 16,
+    "source": "fileinfo"
+  },
+  "summary": "A TAX2020 file contains a United States tax return created with the 2020 version of Intuit TurboTax. It stores tax-related information, which may include personal data entered by a user, a federal IRS tax form, and one or more state forms for the 2020 tax year. TAX2020 files may be encrypted and saved with password protection by the user preparing the return in order to protect its sensitive contents.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "intuit-turbotax",
+        "display_name": "Intuit TurboTax"
+      },
+      {
+        "software": "intuit-turbotax-online",
+        "display_name": "Intuit TurboTax Online"
+      }
+    ],
+    "macos": [
+      {
+        "software": "intuit-turbotax",
+        "display_name": "Intuit TurboTax"
+      }
+    ],
+    "web": [
+      {
+        "software": "intuit-turbotax-online",
+        "display_name": "Intuit TurboTax Online"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "TAX2020 file icon",
+      "alt": "TAX2020 file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/tax2020-11889.png"
+    },
+    {
+      "caption": "TAX2020 file open in Intuit TurboTax 2020",
+      "alt": "TAX2020 file open in Intuit TurboTax 2020",
+      "source_url": "https://fileinfo.com/img/ss/md/tax2020_11889.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-01-28",
+  "sources": [
+    {
+      "url": "tax2020.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

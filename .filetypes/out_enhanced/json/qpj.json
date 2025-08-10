@@ -1,0 +1,23 @@
+{
+  "slug": "qpj",
+  "extension": "qpj",
+  "name": "QGIS Map Projection File",
+  "category": "qgis-map-projection-file",
+  "summary": "",
+  "developer_org": "qgis",
+  "developer_name": "QGIS",
+  "more_information": {
+    "description": [
+      "Various amateur and professional geographers use QGIS to map, edit, and publish geospatial information. As part of using QGIS, geographers must create shapefiles, which use mapped points, lines, and polygons to denote geographic features and boundaries. QGIS shapefiles are actually composed of several component files, one of which is a QPJ file.",
+      "A QPJ file defines a coordinate reference system and map projection function that QGIS uses to transform the Earth's curved, ellipsoidal surface into a 2D plane, so geographers can draw 2D shapes (and thereby map data) upon that plane. Different QGIS maps use different CRSes and map projections to transform the Earth's surface into a 2D plane, depending on the location a geographer is studying and the analysis the geographer wants to perform.",
+      "QGIS map projections include QGIS-specific parameters that are used only by QGIS (such as the AXIS, EXTENSION, and AUTHORITY parameters). For that reason, when a geographer creates a new shapefile within QGIS, the program creates two map projection files: a QPJ file (used by QGIS) and a PRJ file (which can be used by other GIS programs, such as ArcGIS, when transferring data)."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "qpj.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

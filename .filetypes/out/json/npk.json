@@ -1,0 +1,83 @@
+{
+  "slug": "npk",
+  "extension": "npk",
+  "name": "MikroTik Software Package",
+  "category": "1.-mikrotik-software-package",
+  "developer_org": "mikrotik",
+  "popularity": {
+    "rating": 4.1,
+    "votes": 86,
+    "source": "fileinfo"
+  },
+  "summary": "An NPK file is a software package used to deliver and install updates to MikroTik routers. It contains MikroTik RouterOS software information, which includes IP address, IP service, ethernet interfaces, serial port, and local user management, email setup, bridge configuration, and package and system resource management information. NPK files are saved in a compressed binary package format.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "upload-npk-file-to-mikrotrik-router",
+        "display_name": "Upload NPK file to MikroTrik router"
+      },
+      {
+        "software": "n-track-studio",
+        "display_name": "n-Track Studio"
+      },
+      {
+        "software": "n-track-studio-daw",
+        "display_name": "n-Track Studio DAW"
+      }
+    ],
+    "macos": [
+      {
+        "software": "upload-npk-file-to-mikrotrik-router",
+        "display_name": "Upload NPK file to MikroTrik router"
+      },
+      {
+        "software": "n-track-studio",
+        "display_name": "n-Track Studio"
+      }
+    ],
+    "linux": [
+      {
+        "software": "upload-npk-file-to-mikrotrik-router",
+        "display_name": "Upload NPK file to MikroTrik router"
+      }
+    ],
+    "ios": [
+      {
+        "software": "n-track-studio-daw",
+        "display_name": "n-Track Studio DAW"
+      }
+    ],
+    "android": [
+      {
+        "software": "n-track-studio-daw",
+        "display_name": "n-Track Studio DAW"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-11-16",
+  "sources": [
+    {
+      "url": "npk.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

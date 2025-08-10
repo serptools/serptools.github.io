@@ -1,0 +1,71 @@
+{
+  "slug": "sdm",
+  "extension": "sdm",
+  "name": "StarOffice Mail Message",
+  "category": "1.-staroffice-mail-message",
+  "developer_org": "sun-microsystems",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "An SDM file is an email message created by Sun Microsystems StarOffice Mail, an email client included with early versions of the StarOffice office suite. It stores the complete contents of an email message, including the text, sender and recipient information, subject line, and any attachments.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "sun-microsystems-staroffice-mail",
+        "display_name": "Sun Microsystems StarOffice Mail"
+      },
+      {
+        "software": "spatialinfo-data-manager",
+        "display_name": "SPATIALinfo Data Manager"
+      },
+      {
+        "software": "esri-sde",
+        "display_name": "ESRI SDE"
+      },
+      {
+        "software": "mapinfo-spatialware",
+        "display_name": "MapInfo SpatialWare"
+      },
+      {
+        "software": "tibco-statistica",
+        "display_name": "TIBCO Statistica"
+      }
+    ],
+    "linux": [
+      {
+        "software": "sun-microsystems-staroffice-mail",
+        "display_name": "Sun Microsystems StarOffice Mail"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2025-04-23",
+  "sources": [
+    {
+      "url": "sdm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

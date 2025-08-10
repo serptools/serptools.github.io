@@ -1,0 +1,49 @@
+{
+  "slug": "k26",
+  "extension": "k26",
+  "name": "Kurzweil K2600 File",
+  "category": "kurzweil-k2600-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "File format used for saving data from a Kurzweil K2600 synthesizer to a floppy disk; same as the .KRZ format used by the K2000, but saved by the K2600",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "fmj-software-awave-studio",
+        "display_name": "FMJ-Software Awave Studio"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2006-12-01",
+  "sources": [
+    {
+      "url": "k26.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

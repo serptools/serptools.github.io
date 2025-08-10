@@ -1,0 +1,23 @@
+{
+  "slug": "winmd",
+  "extension": "winmd",
+  "name": "Windows Metadata File",
+  "category": "windows-metadata-file",
+  "summary": "",
+  "developer_org": "microsoft",
+  "developer_name": "Microsoft",
+  "more_information": {
+    "description": [
+      "WinRT APIs provide access to various Windows Runtime Components. WINMD files are metadata files that accompany WinRT APIs. These files contain API definitions that allow Windows and other programs to access and use associated WinRT APIs correctly.",
+      "Third-party developers creating custom WinRT APIs must create WINMD files to accompany those APIs. In some cases, developers create WINMD files automatically, while building custom Windows Runtime Components with Microsoft Visual Studio. In other cases, developers manually create WINMD files, using the MIDLRT compiler .",
+      "NOTE: You can find several WINMD files in the C:/​Windows/​System32/​WinMetadata directory."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "winmd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

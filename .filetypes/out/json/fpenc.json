@@ -1,0 +1,59 @@
+{
+  "slug": "fpenc",
+  "extension": "fpenc",
+  "name": "FileProtect Encrypted File",
+  "category": "fileprotect-encrypted-file",
+  "developer_org": "fileprotect",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "File encrypted with FileProtect, an encryption program for smartphones and other mobile devices; saved in a secure format that can only be opened after decrypting the file with FileProtect.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "fileprotect",
+        "display_name": "FileProtect"
+      }
+    ],
+    "macos": [
+      {
+        "software": "fileprotect",
+        "display_name": "FileProtect"
+      }
+    ],
+    "linux": [
+      {
+        "software": "fileprotect",
+        "display_name": "FileProtect"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-11-14",
+  "sources": [
+    {
+      "url": "fpenc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

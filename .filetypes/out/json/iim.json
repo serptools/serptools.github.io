@@ -1,0 +1,51 @@
+{
+  "slug": "iim",
+  "extension": "iim",
+  "name": "iMacro Macro File",
+  "category": "imacro-macro-file",
+  "developer_org": "iopus",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 38,
+    "source": "fileinfo"
+  },
+  "summary": "Executable macro created with iMacro, an Internet automation program; may contain multiple commands that can be run in sequence; used for automating common Internet tasks.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "iopus-imacros",
+        "display_name": "iOpus iMacros"
+      },
+      {
+        "software": "mozilla-firefox-with-imacros-add-on",
+        "display_name": "Mozilla Firefox with iMacros add-on"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-01-31",
+  "sources": [
+    {
+      "url": "iim.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

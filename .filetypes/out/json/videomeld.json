@@ -1,0 +1,53 @@
+{
+  "slug": "videomeld",
+  "extension": "videomeld",
+  "name": "VideoMeld Project",
+  "category": "videomeld-project",
+  "developer_org": "goldwave",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "A VIDEOMELD file is a project created by GoldWave VideoMeld, a Windows video editor. It contains information about a project in the XML-like VideoMeld format, which includes the placement of media and effects on the timeline and project properties, such as video aspect ratio, speed, and audio levels. VIDEOMELD files do not store multimedia imported into the project; instead, they contain references to the media files a project includes.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "goldwave-videomeld",
+        "display_name": "GoldWave VideoMeld"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "VIDEOMELD file open in GoldWave VideoMeld 1.7",
+      "alt": "VIDEOMELD file open in GoldWave VideoMeld 1.7",
+      "source_url": "https://fileinfo.com/img/ss/md/videomeld_13710.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2024-06-05",
+  "sources": [
+    {
+      "url": "videomeld.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

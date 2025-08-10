@@ -1,0 +1,53 @@
+{
+  "slug": "xcconfig",
+  "extension": "xcconfig",
+  "name": "Xcode Configuration Settings File",
+  "category": "xcode-configuration-settings-file",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Configuration file created by Xcode, a Mac OS X software development application; stores parameters for configuring the build of Xcode projects; can be referenced by multiple Xcode projects to use the same build settings.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "apple-xcode",
+        "display_name": "Apple Xcode"
+      }
+    ],
+    "windows": [
+      {
+        "software": "apple-xcode",
+        "display_name": "Apple Xcode"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-06-30",
+  "sources": [
+    {
+      "url": "xcconfig.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

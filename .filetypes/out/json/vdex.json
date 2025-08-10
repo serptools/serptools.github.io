@@ -1,0 +1,65 @@
+{
+  "slug": "vdex",
+  "extension": "vdex",
+  "name": "Validated Dalvik Executable File",
+  "category": "validated-dalvik-executable-file",
+  "developer_org": "google",
+  "popularity": {
+    "rating": 3.2,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "A VDEX file is created by the Android operating system to speed up the load time of an Android app ( .APK file). It contains pre-validated .DEX files, which Android does not need to re-extract and re-verify when recompiling an app.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "vdexextractor",
+        "display_name": "vdexExtractor"
+      }
+    ],
+    "android": [
+      {
+        "software": "google-android",
+        "display_name": "Google Android"
+      }
+    ],
+    "macos": [
+      {
+        "software": "vdexextractor",
+        "display_name": "vdexExtractor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "vdexextractor",
+        "display_name": "vdexExtractor"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-02-15",
+  "sources": [
+    {
+      "url": "vdex.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

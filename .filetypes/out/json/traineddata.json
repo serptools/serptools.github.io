@@ -1,0 +1,59 @@
+{
+  "slug": "traineddata",
+  "extension": "traineddata",
+  "name": "Tesseract OCR Model",
+  "category": "tesseract-ocr-model",
+  "developer_org": "tesseract-ocr-community",
+  "popularity": {
+    "rating": 4.2,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "A TRAINEDDATA file is an optical character recognition (OCR) model created by Tesseract, a multiplatform open-source OCR engine. It contains data used to automatically recognize and record text contained in images. Each TRAINEDDATA file is typically used to recognize text written in only one language and is named for that language (e.g. eng.traineddata is used to recognize English text).",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "tesseract",
+        "display_name": "Tesseract"
+      }
+    ],
+    "macos": [
+      {
+        "software": "tesseract",
+        "display_name": "Tesseract"
+      }
+    ],
+    "linux": [
+      {
+        "software": "tesseract",
+        "display_name": "Tesseract"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-03-14",
+  "sources": [
+    {
+      "url": "traineddata.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

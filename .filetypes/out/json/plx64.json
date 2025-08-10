@@ -1,0 +1,53 @@
+{
+  "slug": "plx64",
+  "extension": "plx64",
+  "name": "64-bit Linux IDA Plugin Module",
+  "category": "64-bit-linux-ida-plugin-module",
+  "developer_org": "hex-rays",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "64-bit Linux plugin module used by IDA (The Interactive Disassembler), a multi-processor tool used to debug and disassemble executable files into low-level assembly language code; contains a plugin written in C++ that extends the capabilities of the IDA tool.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "linux": [
+      {
+        "software": "hex-rays-ida",
+        "display_name": "Hex-Rays IDA"
+      }
+    ],
+    "windows": [
+      {
+        "software": "hex-rays-ida",
+        "display_name": "Hex-Rays IDA"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-12-02",
+  "sources": [
+    {
+      "url": "plx64.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

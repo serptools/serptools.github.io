@@ -1,0 +1,47 @@
+{
+  "slug": "webpnp",
+  "extension": "webpnp",
+  "name": "Web Point and Print File",
+  "category": "web-point-and-print-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "A WEBPNP file is a printer driver package file used by Microsoft Windows. It is saved in the .CAB format and contains an install package for a printer driver. WEBPNP files are used for distributing printer drivers provided from websites or client networks.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-windows",
+        "display_name": "Microsoft Windows"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-01-21",
+  "sources": [
+    {
+      "url": "webpnp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "pkf",
+  "extension": "pkf",
+  "name": "Adobe Audition Peak File",
+  "category": "adobe-audition-peak-file",
+  "summary": "",
+  "developer_org": "adobe",
+  "developer_name": "Adobe",
+  "more_information": {
+    "screenshot": {
+      "url": "https://fileinfo.com/img/ss/sm/pkf_6460.jpg",
+      "alt": "Screenshot of a .pkf file in Adobe Audition 2023",
+      "caption": "PKF file open in Adobe Audition 2023"
+    },
+    "description": [
+      "Audition automatically creates an accompanying PKF file every time you import an audio file and saves it in the same location as the imported audio file. After generating a PKF file, Adobe Audition does not need to re-render a WAV file's waveform each time the file is opened. This allows Audition to load previously processed WAV files, and projects that contain them, more quickly.",
+      "Adobe introduced the PKF format in Adobe Audition CS5.5. It is similar to the .PK format used by previous versions of Audition but contains floating-point data and can display waveform data for audio signals above 0dB. Since PKF files are saved in a different format than PK files, they are recognized only by Audition CS5.5 and later.",
+      "NOTE: Adobe Premiere Pro also creates and uses PKF files."
+    ]
+  },
+  "images": [
+    {
+      "url": "https://fileinfo.com/img/ss/sm/pkf_6460.jpg",
+      "alt": "Screenshot of a .pkf file in Adobe Audition 2023",
+      "caption": "PKF file open in Adobe Audition 2023"
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "pkf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

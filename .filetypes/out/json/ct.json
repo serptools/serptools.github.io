@@ -1,0 +1,153 @@
+{
+  "slug": "ct",
+  "extension": "ct",
+  "name": "Cheat Engine Cheat Table",
+  "category": "1.-cheat-engine-cheat-table",
+  "developer_org": "cheat-engine",
+  "popularity": {
+    "rating": 4.1,
+    "votes": 544,
+    "source": "fileinfo"
+  },
+  "summary": "A CT file is a data file created by Cheat Engine, an open source program used to create \"cheats,\" or modifications, to Windows-based games. It contains game overrides and their address locations within the target program. CT files allow users to edit game properties, such as numbers of lives, high scores, and units of health.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "cheat-engine",
+        "display_name": "Cheat Engine"
+      },
+      {
+        "software": ".jpg",
+        "display_name": ".JPG"
+      },
+      {
+        "software": ".gif",
+        "display_name": ".GIF"
+      },
+      {
+        "software": ".png",
+        "display_name": ".PNG"
+      },
+      {
+        "software": ".tiff",
+        "display_name": ".TIFF"
+      },
+      {
+        "software": ".bmp",
+        "display_name": ".BMP"
+      },
+      {
+        "software": ".pcx",
+        "display_name": ".PCX"
+      },
+      {
+        "software": ".tga",
+        "display_name": ".TGA"
+      },
+      {
+        "software": ".jp2",
+        "display_name": ".JP2"
+      },
+      {
+        "software": ".jxr",
+        "display_name": ".JXR"
+      },
+      {
+        "software": "adobe-photoshop-2025",
+        "display_name": "Adobe Photoshop 2025"
+      },
+      {
+        "software": "adobe-indesign-2023",
+        "display_name": "Adobe InDesign 2023"
+      },
+      {
+        "software": "coreldraw-graphics-suite-2024",
+        "display_name": "CorelDRAW Graphics Suite 2024"
+      },
+      {
+        "software": "corel-paintshop-pro-2023",
+        "display_name": "Corel PaintShop Pro 2023"
+      },
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      },
+      {
+        "software": "logipole-konvertor",
+        "display_name": "Logipole Konvertor"
+      },
+      {
+        "software": "quarkxpress",
+        "display_name": "QuarkXPress"
+      },
+      {
+        "software": "imagemagick",
+        "display_name": "ImageMagick"
+      }
+    ],
+    "web": [
+      {
+        "software": ".webp",
+        "display_name": ".WEBP"
+      }
+    ],
+    "macos": [
+      {
+        "software": "adobe-photoshop-2025",
+        "display_name": "Adobe Photoshop 2025"
+      },
+      {
+        "software": "adobe-indesign-2023",
+        "display_name": "Adobe InDesign 2023"
+      },
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      },
+      {
+        "software": "quarkxpress",
+        "display_name": "QuarkXPress"
+      },
+      {
+        "software": "imagemagick",
+        "display_name": "ImageMagick"
+      }
+    ],
+    "linux": [
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      },
+      {
+        "software": "imagemagick",
+        "display_name": "ImageMagick"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-07-10",
+  "sources": [
+    {
+      "url": "ct.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

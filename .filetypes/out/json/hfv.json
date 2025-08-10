@@ -1,0 +1,63 @@
+{
+  "slug": "hfv",
+  "extension": "hfv",
+  "name": "HFS Disk Image",
+  "category": "hfs-disk-image",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Disk image used by emulation software, typically to run older versions of Mac operating systems; stores a disk image using Apple's HFS file system format; used for running Mac OS in a Windows or Linux environment.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "hfvexplorer",
+        "display_name": "HFVExplorer"
+      },
+      {
+        "software": "sheepshaver",
+        "display_name": "SheepShaver"
+      }
+    ],
+    "macos": [
+      {
+        "software": "sheepshaver",
+        "display_name": "SheepShaver"
+      }
+    ],
+    "linux": [
+      {
+        "software": "sheepshaver",
+        "display_name": "SheepShaver"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2016-10-19",
+  "sources": [
+    {
+      "url": "hfv.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

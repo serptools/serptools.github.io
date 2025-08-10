@@ -1,0 +1,58 @@
+{
+  "slug": "ezd",
+  "extension": "ezd",
+  "name": "easyScan Data File",
+  "category": "1.-easyscan-data-file",
+  "developer_org": "nanosurf",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 11,
+    "source": "fileinfo"
+  },
+  "summary": "An EZD file is a measurement file created by Nanosurf easyScan control software. It contains measurements recorded using an easyScan atomic force microscope (AFM) or scanning tunneling microscope (STM). EZD files can also be opened by Nanosurf Naio control software.",
+  "standards": [],
+  "mime_types": [
+    "and/or"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "nanosurf-easyscan-2-control-software",
+        "display_name": "Nanosurf easyScan 2 control software",
+        "status": "discontinued"
+      },
+      {
+        "software": "nanosurf-naio-control-software",
+        "display_name": "Nanosurf Naio control software"
+      },
+      {
+        "software": "ezcad2",
+        "display_name": "EzCad2"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-10-23",
+  "sources": [
+    {
+      "url": "ezd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

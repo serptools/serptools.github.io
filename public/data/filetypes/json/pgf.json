@@ -1,0 +1,22 @@
+{
+  "slug": "pgf",
+  "extension": "pgf",
+  "name": "Progressive Graphics File",
+  "category": "progressive-graphics-file",
+  "summary": "",
+  "developer_org": "pok-mon-mystery-gift-editor",
+  "developer_name": "Pokémon Mystery Gift Editor",
+  "more_information": {
+    "description": [
+      "The PGF format was designed to improve on the JPEG standard by reducing compression time and increasing compression ratios. The format offers progressive transmission, which means the image can be viewed at a low quality before all of its data is fully downloaded and then increases as more data is received. The format also includes representation of multiple resolutions, which means that it does not need to store separate preview images, such as thumbnails.",
+      "NOTE: PGF was developed at the same time as JPEG 2000 and initially released in 2000. The format was developed at the Institute of Theoretical Computer Science at ETH Zurich university."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "pgf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "slug": "p7m",
+  "extension": "p7m",
+  "name": "S/MIME Email Message",
+  "category": "s-mime-email-message",
+  "developer_org": "rsa-data-security",
+  "popularity": {
+    "rating": 3.1,
+    "votes": 152,
+    "source": "fileinfo"
+  },
+  "summary": "A P7M file is an S/MIME encrypted or signed email message. Most commonly, P7M files appear in web-based email clients, when they attempt to show an S/MIME encrypted message. Instead of showing the encrypted message, these programs show an empty message with a P7M attachment.",
+  "standards": [],
+  "mime_types": [
+    "s/mime",
+    "secure/multipurpose"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "cryptigo-p7mviewer",
+        "display_name": "Cryptigo p7mViewer"
+      },
+      {
+        "software": "avvia-gosign-desktop",
+        "display_name": "Avvia GoSign Desktop"
+      }
+    ],
+    "macos": [
+      {
+        "software": "avvia-gosign-desktop",
+        "display_name": "Avvia GoSign Desktop"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-02-18",
+  "sources": [
+    {
+      "url": "p7m.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

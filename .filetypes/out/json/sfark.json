@@ -1,0 +1,65 @@
+{
+  "slug": "sfark",
+  "extension": "sfark",
+  "name": "Compressed SoundFont Archive",
+  "category": "compressed-soundfont-archive",
+  "developer_org": "melodymachine",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "An SFARK file is a compressed archive that contains several .SF2 (SoundFont Sound Bank) or .SBK (E-MU SoundFont Sound Bank) files. Musicians create SFARK files using the sfArk SoundFont compression utility.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "sfark",
+        "display_name": "sfArk"
+      }
+    ],
+    "macos": [
+      {
+        "software": "sfark",
+        "display_name": "sfArk"
+      }
+    ],
+    "linux": [
+      {
+        "software": "sfark",
+        "display_name": "sfArk"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "SFARK file open in sfArk",
+      "alt": "SFARK file open in sfArk",
+      "source_url": "https://fileinfo.com/img/ss/md/sfark_12777.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-07-05",
+  "sources": [
+    {
+      "url": "sfark.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "slug": "bibtex",
+  "extension": "bibtex",
+  "name": "BibTeX Bibliography Database",
+  "category": "bibtex-bibliography-database",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 30,
+    "source": "fileinfo"
+  },
+  "summary": "Document containing information in the BibTeX format; contains one or more references and enables bibliographies to be searched and published using standard commands.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "miktex",
+        "display_name": "MiKTeX"
+      },
+      {
+        "software": "jabref",
+        "display_name": "JabRef"
+      },
+      {
+        "software": "texniccenter",
+        "display_name": "TeXnicCenter"
+      },
+      {
+        "software": "bib2x",
+        "display_name": "Bib2x"
+      },
+      {
+        "software": "bibdesk",
+        "display_name": "BibDesk"
+      },
+      {
+        "software": "pybliographer",
+        "display_name": "Pybliographer"
+      },
+      {
+        "software": "reftex",
+        "display_name": "RefTeX"
+      }
+    ],
+    "macos": [
+      {
+        "software": "macromates-textmate",
+        "display_name": "MacroMates TextMate"
+      },
+      {
+        "software": "bibdesk",
+        "display_name": "BibDesk"
+      },
+      {
+        "software": "jabref",
+        "display_name": "JabRef"
+      }
+    ],
+    "linux": [
+      {
+        "software": "bib2x",
+        "display_name": "Bib2x"
+      },
+      {
+        "software": "pybliographer",
+        "display_name": "Pybliographer"
+      },
+      {
+        "software": "jabref",
+        "display_name": "JabRef"
+      },
+      {
+        "software": "reftex",
+        "display_name": "RefTeX"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-09-25",
+  "sources": [
+    {
+      "url": "bibtex.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

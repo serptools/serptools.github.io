@@ -1,0 +1,55 @@
+{
+  "slug": "btr",
+  "extension": "btr",
+  "name": "Btrieve Database File",
+  "category": "btrieve-database-file",
+  "developer_org": "pervasive-software",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 14,
+    "source": "fileinfo"
+  },
+  "summary": "Database file created by Btrieve, a transactional database program designed for speed; contains a collection of records stored in the Btrieve database format; used to store and retrieve data as well as generate reports.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "pervasive-btrieve-database-manager",
+        "display_name": "Pervasive Btrieve Database Manager"
+      },
+      {
+        "software": "pervasive-psql-maintenance-utility",
+        "display_name": "Pervasive PSQL Maintenance Utility"
+      },
+      {
+        "software": "legend-software-btrieve-viewer",
+        "display_name": "Legend Software BTRIEVE Viewer"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-01-20",
+  "sources": [
+    {
+      "url": "btr.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

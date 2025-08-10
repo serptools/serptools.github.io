@@ -1,0 +1,24 @@
+{
+  "slug": "forth",
+  "extension": "forth",
+  "name": "Forth Language File",
+  "category": "forth-language-file",
+  "summary": "",
+  "developer_org": "n-a",
+  "developer_name": "N/A",
+  "more_information": {
+    "description": [
+      "Forth language's format is based on data stack and RPN (Revers Polish Notation). A simple example of its format:",
+      "7 8 * 23 + . 79 ok",
+      "This format equals to 7 multiplied by 8 plus 23, with \".\" printing the result of the mathematical equation to the user terminal.",
+      "NOTE: To create a FORTH file simply rename the extension of your plain text file that contains the Forth source code."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "forth.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

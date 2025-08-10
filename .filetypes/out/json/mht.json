@@ -1,0 +1,125 @@
+{
+  "slug": "mht",
+  "extension": "mht",
+  "name": "MHTML Web Archive",
+  "category": "mhtml-web-archive",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 150,
+    "source": "fileinfo"
+  },
+  "summary": "An MHT file is a webpage archive saved by a web browser, such as Google Chrome or Microsoft Edge. It is saved in the MIME HTML or \"MHTML\" format, which stores HTML , CSS , JavaScript , images, and other linked resources into a single file. MHT files are more commonly saved as .MHTML files.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "microsoft-edge",
+        "display_name": "Microsoft Edge"
+      },
+      {
+        "software": "microsoft-internet-explorer",
+        "display_name": "Microsoft Internet Explorer",
+        "status": "discontinued"
+      },
+      {
+        "software": "mozilla-firefox-with-the-mozilla-archive-format-extension",
+        "display_name": "Mozilla Firefox with the Mozilla Archive Format extension"
+      },
+      {
+        "software": "microsoft-word-365",
+        "display_name": "Microsoft Word 365"
+      },
+      {
+        "software": "kingsoft-writer",
+        "display_name": "Kingsoft Writer"
+      },
+      {
+        "software": "terra-informatics-blocknote.net",
+        "display_name": "Terra Informatics BlockNote.Net"
+      },
+      {
+        "software": "opera",
+        "display_name": "Opera"
+      },
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      }
+    ],
+    "chromeos": [
+      {
+        "software": "google-chrome",
+        "display_name": "Google Chrome"
+      }
+    ],
+    "macos": [
+      {
+        "software": "microsoft-edge",
+        "display_name": "Microsoft Edge"
+      },
+      {
+        "software": "microsoft-word-365",
+        "display_name": "Microsoft Word 365"
+      },
+      {
+        "software": "opera",
+        "display_name": "Opera"
+      }
+    ],
+    "linux": [
+      {
+        "software": "opera",
+        "display_name": "Opera"
+      }
+    ],
+    "web": [
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "MHT file icon",
+      "alt": "MHT file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/mht-2021.png"
+    },
+    {
+      "caption": "MHT file open in Google Chrome 88",
+      "alt": "MHT file open in Google Chrome 88",
+      "source_url": "https://fileinfo.com/img/ss/md/mht_2021.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-02-04",
+  "sources": [
+    {
+      "url": "mht.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

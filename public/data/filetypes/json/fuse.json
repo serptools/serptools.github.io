@@ -1,0 +1,37 @@
+{
+  "slug": "fuse",
+  "extension": "fuse",
+  "name": "Adobe Fuse 3D Model",
+  "category": "adobe-fuse-3d-model",
+  "summary": "",
+  "developer_org": "adobe-systems",
+  "developer_name": "Adobe Systems",
+  "more_information": {
+    "screenshot": {
+      "url": "https://fileinfo.com/img/ss/sm/fuse_11209.jpg",
+      "alt": "Screenshot of a .fuse file in Adobe Fuse CC",
+      "caption": "FUSE file open in Adobe Fuse CC"
+    },
+    "description": [
+      "The FUSE file includes references to model assets instead of actually storing the assets, which would increase the size of the FUSE file. The references to the locations of the asset files, which are read by Fuse to load the assets when opening the FUSE file. Therefore, you should not move the FUSE file or its assets. If you do, the model may not appear correctly in Fuse.",
+      "If you need to move the FUSE file, export it as an .OBJ file in Fuse. To export the file, select File → Export → Export Model as OBJ .",
+      "To open a FUSE file in Fuse, select File → Open from the menu. To create a FUSE file in Fuse, select File → New Model or the \"Begin a New Model\" icon in the toolbar.",
+      "To save the FUSE file, select File → Save or click the \"Save\" icon in the toolbar. You can also save Fuse 3D models directly to Creative Cloud Libraries, then drag them into Adobe Photoshop.",
+      "NOTE: Fuse is often used by video game developers or modders to create or modify characters in games."
+    ]
+  },
+  "images": [
+    {
+      "url": "https://fileinfo.com/img/ss/sm/fuse_11209.jpg",
+      "alt": "Screenshot of a .fuse file in Adobe Fuse CC",
+      "caption": "FUSE file open in Adobe Fuse CC"
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "fuse.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

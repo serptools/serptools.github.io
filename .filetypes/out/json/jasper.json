@@ -1,0 +1,71 @@
+{
+  "slug": "jasper",
+  "extension": "jasper",
+  "name": "JasperReports Data File",
+  "category": "jasperreports-data-file",
+  "developer_org": "jaspersoft",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 12,
+    "source": "fileinfo"
+  },
+  "summary": "File created by JasperReports, an open source programming library that allows users to create reports programmatically in Java ; contains report content in binary format that has been compiled from a .JRXML file.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "jaspersoft-jasperreports",
+        "display_name": "Jaspersoft JasperReports"
+      },
+      {
+        "software": "jaspersoft-ireport",
+        "display_name": "Jaspersoft iReport"
+      }
+    ],
+    "macos": [
+      {
+        "software": "jaspersoft-jasperreports",
+        "display_name": "Jaspersoft JasperReports"
+      },
+      {
+        "software": "jaspersoft-ireport",
+        "display_name": "Jaspersoft iReport"
+      }
+    ],
+    "linux": [
+      {
+        "software": "jaspersoft-jasperreports",
+        "display_name": "Jaspersoft JasperReports"
+      },
+      {
+        "software": "jaspersoft-ireport",
+        "display_name": "Jaspersoft iReport"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-12-21",
+  "sources": [
+    {
+      "url": "jasper.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

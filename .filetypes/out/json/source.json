@@ -1,0 +1,111 @@
+{
+  "slug": "source",
+  "extension": "source",
+  "name": "Source Code File",
+  "category": "source-code-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "A SOURCE file is a source code file that contains text written in one or more programming languages . Typically, developers create SOURCE files to store backups of source code files by duplicating the files and renaming the file extensions to .source . Developers may also rename source code files with the .src file extension, creating .SRC files.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "any-source-code-editor",
+        "display_name": "Any source code editor"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "sublime-text",
+        "display_name": "Sublime Text"
+      },
+      {
+        "software": "notepad++",
+        "display_name": "Notepad++"
+      },
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "apple-xcode",
+        "display_name": "Apple Xcode"
+      },
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      }
+    ],
+    "macos": [
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "sublime-text",
+        "display_name": "Sublime Text"
+      },
+      {
+        "software": "apple-xcode",
+        "display_name": "Apple Xcode"
+      }
+    ],
+    "linux": [
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "sublime-text",
+        "display_name": "Sublime Text"
+      },
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "SOURCE file open in Microsoft Visual Studio Code 1.85",
+      "alt": "SOURCE file open in Microsoft Visual Studio Code 1.85",
+      "source_url": "https://fileinfo.com/img/ss/md/source_13630.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2024-01-16",
+  "sources": [
+    {
+      "url": "source.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

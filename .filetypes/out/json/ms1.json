@@ -1,0 +1,47 @@
+{
+  "slug": "ms1",
+  "extension": "ms1",
+  "name": "VirtualBus Map File",
+  "category": "virtualbus-map-file",
+  "developer_org": "virtualbus",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Game file used by VirtualBus (vBus), a free bus driving simulation game; contains a map that specifies roads, vehicles, traffic signs, buildings, and landscape objects such as trees and bushes; represents the 3D world that the player drives the bus in.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "virtualbus",
+        "display_name": "VirtualBus"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-07-15",
+  "sources": [
+    {
+      "url": "ms1.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

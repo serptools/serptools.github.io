@@ -1,0 +1,69 @@
+{
+  "slug": "smzip",
+  "extension": "smzip",
+  "name": "StepMania Package",
+  "category": "stepmania-package",
+  "developer_org": "stepmania",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Package format used by StepMania, a free dance and rhythm game that supports dance pads; typically created with the StepMania Package Exporter (smpackage.exe); includes the music, announcers, themes, and other add-ons for a specific song; designed to be a simple format for distributing song data in a single file.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "stepmania",
+        "display_name": "StepMania"
+      },
+      {
+        "software": "beatx-rhythm-game",
+        "display_name": "BeatX: Rhythm Game"
+      }
+    ],
+    "macos": [
+      {
+        "software": "stepmania",
+        "display_name": "StepMania"
+      }
+    ],
+    "linux": [
+      {
+        "software": "stepmania",
+        "display_name": "StepMania"
+      }
+    ],
+    "android": [
+      {
+        "software": "beatx-rhythm-game",
+        "display_name": "BeatX: Rhythm Game"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-09-10",
+  "sources": [
+    {
+      "url": "smzip.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

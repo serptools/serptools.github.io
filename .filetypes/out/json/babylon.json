@@ -1,0 +1,110 @@
+{
+  "slug": "babylon",
+  "extension": "babylon",
+  "name": "Babylon.js Scene",
+  "category": "babylon.js-scene",
+  "developer_org": "babylon.js",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "A BABYLON file is a 3D scene created for use with the babylon.js web rendering engine. It contains JavaScript code that defines the 3D objects and lighting that appear in the scene, as well as the camera used to show the scene. The code BABYLON files contain is meant to be used as part of webpages and web applications, by rendering it using HTML and babylon.js.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "github-atom",
+        "display_name": "GitHub Atom",
+        "status": "discontinued"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      },
+      {
+        "software": "babylon.js-playground",
+        "display_name": "Babylon.js Playground"
+      }
+    ],
+    "macos": [
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "github-atom",
+        "display_name": "GitHub Atom",
+        "status": "discontinued"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      },
+      {
+        "software": "github-atom",
+        "display_name": "GitHub Atom",
+        "status": "discontinued"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "web": [
+      {
+        "software": "babylon.js-playground",
+        "display_name": "Babylon.js Playground"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "BABYLON file open in Babylon.js Playground",
+      "alt": "BABYLON file open in Babylon.js Playground",
+      "source_url": "https://fileinfo.com/img/ss/md/babylon_12302.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-09-09",
+  "sources": [
+    {
+      "url": "babylon.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

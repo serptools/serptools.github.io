@@ -1,0 +1,49 @@
+{
+  "slug": "fc1",
+  "extension": "fc1",
+  "name": "FCEUX Save State File",
+  "category": "fceux-save-state-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 1.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "Save file created by FCEUX, an NES, Famicom, and Famicom Disk System emulator ; contains a game's save state at a point in time.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "fceux",
+        "display_name": "FCEUX"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-12-29",
+  "sources": [
+    {
+      "url": "fc1.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

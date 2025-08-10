@@ -1,0 +1,59 @@
+{
+  "slug": "import",
+  "extension": "import",
+  "name": "Godot Engine Import Settings File",
+  "category": "godot-engine-import-settings-file",
+  "developer_org": "godot",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "An IMPORT file is a settings file created by Godot Engine, a free and open source game engine used to create 2D and 3D games. It contains information in plain text that describes how files imported into a .GODOT project should be displayed in the project, which may include compression quality for images and if a video loops.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "godot-engine",
+        "display_name": "Godot Engine"
+      }
+    ],
+    "macos": [
+      {
+        "software": "godot-engine",
+        "display_name": "Godot Engine"
+      }
+    ],
+    "linux": [
+      {
+        "software": "godot-engine",
+        "display_name": "Godot Engine"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-06-05",
+  "sources": [
+    {
+      "url": "import.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

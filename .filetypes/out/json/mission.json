@@ -1,0 +1,96 @@
+{
+  "slug": "mission",
+  "extension": "mission",
+  "name": "Vega Strike Mission File",
+  "category": "1.-vega-strike-mission-file",
+  "developer_org": "the-vega-strike-team",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "File used by Vega Strike, a free space simulator game where players trade, battle, and explore in outer space; contains a mission, which may include the starting position, objectives, and references to resource files, such as game scripts.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "vega-strike",
+        "display_name": "Vega Strike"
+      },
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "gvim",
+        "display_name": "gVim"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      },
+      {
+        "software": "immersive-education-mission-maker",
+        "display_name": "Immersive Education Mission Maker",
+        "status": "discontinued"
+      }
+    ],
+    "macos": [
+      {
+        "software": "vega-strike",
+        "display_name": "Vega Strike"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "vega-strike",
+        "display_name": "Vega Strike"
+      },
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-04-20",
+  "sources": [
+    {
+      "url": "mission.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

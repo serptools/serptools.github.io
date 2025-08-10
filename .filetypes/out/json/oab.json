@@ -1,0 +1,47 @@
+{
+  "slug": "oab",
+  "extension": "oab",
+  "name": "Offline Address Book",
+  "category": "offline-address-book",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "An OAB file is an offline address book created by Microsoft Outlook to store contact information for offline access when disconnected from Exchange Online. It contains a directory of names, email addresses, and other contact details for users within an organization synced from Exchange Online. OAB files allow users to view and access their address book without an active Internet connection, making it helpful to access contacts offline or in areas with limited to no connectivity.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-outlook-365",
+        "display_name": "Microsoft Outlook 365"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2024-10-30",
+  "sources": [
+    {
+      "url": "oab.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

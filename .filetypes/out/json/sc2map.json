@@ -1,0 +1,61 @@
+{
+  "slug": "sc2map",
+  "extension": "sc2map",
+  "name": "Blizzard StarCraft 2 Map File",
+  "category": "blizzard-starcraft-2-map-file",
+  "developer_org": "blizzard-entertainment",
+  "popularity": {
+    "rating": 4.1,
+    "votes": 10,
+    "source": "fileinfo"
+  },
+  "summary": "Game map used by StarCraft II: Wings of Liberty, a real-time strategy (RTS) game created as the sequel to StarCraft; contains the map name, author, description, size, terrain, units, triggers, pathing settings, and player starting points, as well as various objects; can be used for single player or multiplayer games.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "blizzard-starcraft-2",
+        "display_name": "Blizzard Starcraft 2"
+      },
+      {
+        "software": "blizzard-starcraft-2-editor",
+        "display_name": "Blizzard StarCraft 2 Editor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "blizzard-starcraft-2",
+        "display_name": "Blizzard Starcraft 2"
+      },
+      {
+        "software": "blizzard-starcraft-2-editor",
+        "display_name": "Blizzard StarCraft 2 Editor"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-08-04",
+  "sources": [
+    {
+      "url": "sc2map.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

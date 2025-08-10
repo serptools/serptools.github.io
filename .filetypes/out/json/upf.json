@@ -1,0 +1,77 @@
+{
+  "slug": "upf",
+  "extension": "upf",
+  "name": "MicroStation User Preferences File",
+  "category": "1.-microstation-user-preferences-file",
+  "developer_org": "bentley-systems",
+  "popularity": {
+    "rating": 3.2,
+    "votes": 13,
+    "source": "fileinfo"
+  },
+  "summary": "Settings file created by MicroStation, a 3D CAD modeling tool; saves user preferences such as hotkeys, workspace settings, and the settings specified in the Workspace → Preferences dialog; enables preferences to be remembered.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "bentley-systems-microstation",
+        "display_name": "Bentley Systems MicroStation"
+      },
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      },
+      {
+        "software": "accellera-load_upf",
+        "display_name": "Accellera load_upf"
+      }
+    ],
+    "macos": [
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      }
+    ],
+    "linux": [
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      }
+    ],
+    "web": [
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-08-15",
+  "sources": [
+    {
+      "url": "upf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

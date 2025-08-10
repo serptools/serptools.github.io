@@ -1,0 +1,65 @@
+{
+  "slug": "fw",
+  "extension": "fw",
+  "name": "Firmware Update",
+  "category": "firmware-update",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 2.9,
+    "votes": 29,
+    "source": "fileinfo"
+  },
+  "summary": "An FW file contains information used to update a device's firmware . Many types of devices, including digital cameras and portable media players, use updates saved as FW files. Typically, users install an FW file on a device by transferring the file to the device's memory card or connecting the device to their PC via a USB port.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "used-by-various-hardware-devices",
+        "display_name": "Used by various hardware devices"
+      },
+      {
+        "software": "refirmlabs-binwalk",
+        "display_name": "ReFirmLabs Binwalk"
+      }
+    ],
+    "macos": [
+      {
+        "software": "refirmlabs-binwalk",
+        "display_name": "ReFirmLabs Binwalk"
+      }
+    ],
+    "linux": [
+      {
+        "software": "refirmlabs-binwalk",
+        "display_name": "ReFirmLabs Binwalk"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-11-03",
+  "sources": [
+    {
+      "url": "fw.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

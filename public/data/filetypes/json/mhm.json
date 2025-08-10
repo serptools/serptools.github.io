@@ -1,0 +1,46 @@
+{
+  "slug": "mhm",
+  "extension": "mhm",
+  "name": "MakeHuman Model",
+  "category": "makehuman-model",
+  "summary": "",
+  "developer_org": "microsoft",
+  "developer_name": "Microsoft",
+  "more_information": {
+    "screenshot": {
+      "url": "https://fileinfo.com/img/ss/sm/mhm_12841-2.png",
+      "alt": "Screenshot of a .mhm file in Microsoft Notepad",
+      "caption": "MHM file open in Microsoft Notepad"
+    },
+    "description": [
+      "MakeHuman is a free, multiplatform 3D modeling program that allows you to quickly create humanoid characters. You can use sliders and selection menus to adjust a character's body type, hair, skin color, clothing, and other items. You can then save the model you've created in a variety of formats, including MakeHuman's native MHM format.",
+      "MHM files contain plain text data MakeHuman uses to construct the model the file describes. It also contains references to the locations where assets used to skin the model, such as clothing or other items, are stored. If you open an MHM file, and the assets it references are not stored in the correct locations, the model the file describes will not appear correctly.",
+      "Typically, MakeHuman saves MHM files in the following directory:",
+      "~/​Users/​[USER]/​Documents/​makehuman/​v#/​models"
+    ]
+  },
+  "images": [
+    {
+      "url": "https://fileinfo.com/img/ss/sm/mhm_12841-2.png",
+      "alt": "Screenshot of a .mhm file in Microsoft Notepad",
+      "caption": "MHM file open in Microsoft Notepad"
+    },
+    {
+      "url": "https://fileinfo.com/img/ss/sm/mhm_12841.png",
+      "alt": "MHM file open in MakeHuman",
+      "caption": "MHM file open in MakeHuman"
+    },
+    {
+      "url": "https://fileinfo.com/img/ss/sm/mhm_12214.png",
+      "alt": "Screenshot of a .mhm file in Microsoft Visual Studio Code",
+      "caption": "MHM file open in Microsoft Visual Studio Code"
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "mhm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

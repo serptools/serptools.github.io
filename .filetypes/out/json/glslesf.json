@@ -1,0 +1,71 @@
+{
+  "slug": "glslesf",
+  "extension": "glslesf",
+  "name": "OpenGL ES Fragment Shader",
+  "category": "opengl-es-fragment-shader",
+  "developer_org": "khronos-group",
+  "popularity": {
+    "rating": 2.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "A GLSLESF file is an OpenGL ES fragment shader. It contains fragment shading properties specified using the OpenGL Shading Language (GLSL). OpenGL ES uses GLSLESF files to produce colors and depth values for 3D graphics.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "opengl-sdk",
+        "display_name": "OpenGL SDK"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      }
+    ],
+    "macos": [
+      {
+        "software": "opengl-sdk",
+        "display_name": "OpenGL SDK"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      }
+    ],
+    "linux": [
+      {
+        "software": "opengl-sdk",
+        "display_name": "OpenGL SDK"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-01-19",
+  "sources": [
+    {
+      "url": "glslesf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

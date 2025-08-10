@@ -1,0 +1,48 @@
+{
+  "slug": "tts",
+  "extension": "tts",
+  "name": "ToolBook Translation System File",
+  "category": "toolbook-translation-system-file",
+  "developer_org": "sumtotal-systems",
+  "popularity": {
+    "rating": 2.6,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "File used by the ToolBook Translation System (TTS), a localization solution for ToolBook learning management system (LMS) software; similar to an .INI file and saves ToolBook application settings such as the source database format and the supported languages.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "sumtotal-systems-toolbook-translation-system",
+        "display_name": "SumTotal Systems ToolBook Translation System",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-03-16",
+  "sources": [
+    {
+      "url": "tts.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

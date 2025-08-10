@@ -1,0 +1,24 @@
+{
+  "slug": "u3p",
+  "extension": "u3p",
+  "name": "U3 Smart Application",
+  "category": "u3-smart-application",
+  "summary": "",
+  "developer_org": "sandisk",
+  "developer_name": "SanDisk",
+  "more_information": {
+    "description": [
+      "U3P files are saved in a compressed .ZIP format. They may contain four directories: data\\​ , device\\​ , host\\​ , and manifest\\​ . The host\\​ directory contains the .EXE file. The manifest\\​ directory saves the application configuration information ( .U3I file) and the program icon.",
+      "Often times U3 Launchpad is installed onto U3 smart drives by manufacturers such as SanDisk, Verbatim, Kingston, Memorex, and Intuix. However, to install the U3P Launchpad manually, download and run the U3 Launchpad Installer, which is made available freely from SanDisk. The U3 Launchpad program can be removed from USB flash drives using SanDisk's Launchpad Removal Tool.",
+      "The U3 Launchpad program runs when the USB flash drive is inserted into the computer's USB port. The U3P programs are then made available from a user interface that is similar to the Windows Start menu.",
+      "NOTE: SanDisk U3 Launchpad has been discontinued and is no longer maintained."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "u3p.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

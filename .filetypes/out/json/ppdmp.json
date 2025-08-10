@@ -1,0 +1,71 @@
+{
+  "slug": "ppdmp",
+  "extension": "ppdmp",
+  "name": "PPSSPP Frame Dump",
+  "category": "ppsspp-frame-dump",
+  "developer_org": "ppsspp-project",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "A PPDMP file is a graphics frame dump created by PPSSPP, a PlayStation Portable (PSP) emulator . It stores the output of the emulator’s Graphics Engine (GE) at a specific moment during gameplay, including textures, vertex information, and render commands used by the game. Developers, modders, and advanced users can generate PPDMP files to analyze how a game draws its graphics, helping debug visual issues or optimize performance.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "ppsspp",
+        "display_name": "PPSSPP"
+      }
+    ],
+    "macos": [
+      {
+        "software": "ppsspp",
+        "display_name": "PPSSPP"
+      }
+    ],
+    "ios": [
+      {
+        "software": "ppsspp",
+        "display_name": "PPSSPP"
+      }
+    ],
+    "android": [
+      {
+        "software": "ppsspp",
+        "display_name": "PPSSPP"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "PPDMP file open in PPSSPP 1.1",
+      "alt": "PPDMP file open in PPSSPP 1.1",
+      "source_url": "https://fileinfo.com/img/ss/md/ppdmp_13813.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2025-05-06",
+  "sources": [
+    {
+      "url": "ppdmp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

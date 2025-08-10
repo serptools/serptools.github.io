@@ -1,0 +1,88 @@
+{
+  "slug": "sup",
+  "extension": "sup",
+  "name": "Subtitle Bitmap File",
+  "category": "1.-subtitle-bitmap-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 14,
+    "source": "fileinfo"
+  },
+  "summary": "Subtitle bitmap image extracted from a DVD or Blu-ray movie; contains subtitle text graphics that are displayed during movie playback; can be used for adding DVD subtitles to movies with authoring programs such as IfoEdit.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "dvdsuptools",
+        "display_name": "DVDSupTools"
+      },
+      {
+        "software": "suprip",
+        "display_name": "SupRip"
+      },
+      {
+        "software": "supviewer",
+        "display_name": "SupViewer"
+      },
+      {
+        "software": "subtitlecreator",
+        "display_name": "SubtitleCreator"
+      },
+      {
+        "software": "avisynth",
+        "display_name": "AviSynth"
+      },
+      {
+        "software": "ifoedit",
+        "display_name": "IfoEdit",
+        "status": "discontinued"
+      },
+      {
+        "software": "vobedit",
+        "display_name": "VobEdit"
+      },
+      {
+        "software": "emmgunn-subtools",
+        "display_name": "EmmGunn SUBtools"
+      },
+      {
+        "software": "aivosto-super-project-analyzer",
+        "display_name": "Aivosto Super Project Analyzer"
+      }
+    ],
+    "macos": [
+      {
+        "software": "emmgunn-subtools",
+        "display_name": "EmmGunn SUBtools"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-04-29",
+  "sources": [
+    {
+      "url": "sup.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

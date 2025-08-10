@@ -1,0 +1,91 @@
+{
+  "slug": "ace",
+  "extension": "ace",
+  "name": "WinAce Compressed Archive",
+  "category": "winace-compressed-archive",
+  "developer_org": "e-merge",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 38,
+    "source": "fileinfo"
+  },
+  "summary": "An ACE file is a compressed archive created by E-merge WinAce, a discontinued archiving utility. It contains one or more files that have been packaged together for easier storage and sharing. While the ACE format is proprietary, several other archiving utilities can open ACE files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "e-merge-winace",
+        "display_name": "E-merge WinAce",
+        "status": "discontinued"
+      },
+      {
+        "software": "peazip",
+        "display_name": "PeaZip"
+      },
+      {
+        "software": "estsoft-alzip",
+        "display_name": "ESTsoft ALZip"
+      },
+      {
+        "software": "the-unarchiver",
+        "display_name": "The Unarchiver"
+      },
+      {
+        "software": "zip-file-unarchiver",
+        "display_name": "Zip File Unarchiver"
+      }
+    ],
+    "macos": [
+      {
+        "software": "the-unarchiver",
+        "display_name": "The Unarchiver"
+      },
+      {
+        "software": "zip-file-unarchiver",
+        "display_name": "Zip File Unarchiver"
+      }
+    ],
+    "linux": [
+      {
+        "software": "peazip",
+        "display_name": "PeaZip"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "ACE file icon",
+      "alt": "ACE file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/ace-231.png"
+    },
+    {
+      "caption": "ACE file open in E-merge WinAce",
+      "alt": "ACE file open in E-merge WinAce",
+      "source_url": "https://fileinfo.com/img/ss/md/ace_231.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-08-30",
+  "sources": [
+    {
+      "url": "ace.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

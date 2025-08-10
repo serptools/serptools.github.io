@@ -1,0 +1,79 @@
+{
+  "slug": "vms",
+  "extension": "vms",
+  "name": "NanoZoomer Virtual Microscope Specimen",
+  "category": "nanozoomer-virtual-microscope-specimen",
+  "developer_org": "hamamatsu",
+  "popularity": {
+    "rating": 1.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "A VMS file is a slide specimen image created by Hamamatsu NanoZoomer, a pathology slide scanning device. It is a compressed archive that contains an index file, two or more .JPEG images, and an optimization file. VMS files can be viewed using the slide-viewing software that comes with NanoZoomer or in other slide-viewing applications.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "aperio-technologies-imagescope",
+        "display_name": "Aperio Technologies ImageScope"
+      },
+      {
+        "software": "openslide",
+        "display_name": "OpenSlide"
+      },
+      {
+        "software": "imagej",
+        "display_name": "ImageJ"
+      },
+      {
+        "software": "netscope-viewer",
+        "display_name": "NetScope Viewer"
+      }
+    ],
+    "macos": [
+      {
+        "software": "openslide",
+        "display_name": "OpenSlide"
+      },
+      {
+        "software": "imagej",
+        "display_name": "ImageJ"
+      }
+    ],
+    "linux": [
+      {
+        "software": "openslide",
+        "display_name": "OpenSlide"
+      },
+      {
+        "software": "imagej",
+        "display_name": "ImageJ"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-05-04",
+  "sources": [
+    {
+      "url": "vms.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

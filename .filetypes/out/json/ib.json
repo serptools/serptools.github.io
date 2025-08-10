@@ -1,0 +1,47 @@
+{
+  "slug": "ib",
+  "extension": "ib",
+  "name": "InterBase Database",
+  "category": "interbase-database",
+  "developer_org": "embarcadero-technologies",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "Database file created by InterBase, an RDBMS application often used for developing embedded application databases; saves the data in a structured format using tables and records, and the data can be queried from within the target application.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "embarcadero-interbase",
+        "display_name": "Embarcadero InterBase"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-08-23",
+  "sources": [
+    {
+      "url": "ib.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

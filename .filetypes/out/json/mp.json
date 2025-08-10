@@ -1,0 +1,95 @@
+{
+  "slug": "mp",
+  "extension": "mp",
+  "name": "LaTeX MetaPost File",
+  "category": "1.-latex-metapost-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.2,
+    "votes": 22,
+    "source": "fileinfo"
+  },
+  "summary": "File used by MetaPost, a graphics-drawing language used for creating pictures in Encapsulated PostScript ( .EPS ) files and LaTeX documents ( .TEX and .LTX files); may contain basic drawing statements or more advanced instructions for algorithmic drawing.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "texmaker",
+        "display_name": "Texmaker"
+      },
+      {
+        "software": "metapost-editor-and-previewer",
+        "display_name": "MetaPost Editor and Previewer"
+      },
+      {
+        "software": "metagraf",
+        "display_name": "MetaGraf",
+        "status": "discontinued"
+      },
+      {
+        "software": "dfrobot-mind+",
+        "display_name": "DFRobot Mind+"
+      },
+      {
+        "software": "autodesk-maya-ple",
+        "display_name": "Autodesk Maya PLE"
+      }
+    ],
+    "macos": [
+      {
+        "software": "texmaker",
+        "display_name": "Texmaker"
+      },
+      {
+        "software": "metapost-editor-and-previewer",
+        "display_name": "MetaPost Editor and Previewer"
+      },
+      {
+        "software": "autodesk-maya-ple",
+        "display_name": "Autodesk Maya PLE"
+      }
+    ],
+    "linux": [
+      {
+        "software": "texmaker",
+        "display_name": "Texmaker"
+      },
+      {
+        "software": "metapost-editor-and-previewer",
+        "display_name": "MetaPost Editor and Previewer"
+      },
+      {
+        "software": "metagraf",
+        "display_name": "MetaGraf",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-02-16",
+  "sources": [
+    {
+      "url": "mp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

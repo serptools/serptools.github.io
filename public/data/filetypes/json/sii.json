@@ -1,0 +1,23 @@
+{
+  "slug": "sii",
+  "extension": "sii",
+  "name": "SCS Software Game Data",
+  "category": "scs-software-game-data",
+  "summary": "",
+  "developer_org": "scs-software",
+  "developer_name": "SCS Software",
+  "more_information": {
+    "description": [
+      "SCS Software is a video game developer known primarily for publishing the Truck Simulator series, which includes Euro Truck Simulator, UK Truck Simulator, and American Truck Simulator. All of SCS Software's truck-related video games use SII files, which store various game data.",
+      "Some SII files, such as controls.sii , contain plain text data. Players can open and edit these files in any text editor to customize the related game. Other SII files, such as profile.sii , are saved as binary files by default.",
+      "However, players can choose to save some binary SII files as encrypted plain text files, to make them editable. For example, if a player sets Euro Truck Simulator 2's g_save_format configuration parameter (found in the game's config.cfg file) to 2 , the game will begin saving game.sii , which contains a player's saved game data, as an encrypted plain text file instead of a binary file. The player can then use the third-party SII_DECRYPT utility to decrypt game.sii , turning it into a normal plain text file (which can be opened and edited in any text editor)."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "sii.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

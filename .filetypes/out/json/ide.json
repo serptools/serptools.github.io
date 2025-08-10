@@ -1,0 +1,63 @@
+{
+  "slug": "ide",
+  "extension": "ide",
+  "name": "GTA Item Definition File",
+  "category": "1.-gta-item-definition-file",
+  "developer_org": "rockstar-games",
+  "popularity": {
+    "rating": 4.1,
+    "votes": 103,
+    "source": "fileinfo"
+  },
+  "summary": "File used by Grand Theft Auto (GTA) games; contains information that defines items, such as vehicles, weapons, and map objects.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "rockstar-games-grand-theft-auto-3",
+        "display_name": "Rockstar Games Grand Theft Auto 3"
+      },
+      {
+        "software": "rockstar-games-grand-theft-auto-san-andreas",
+        "display_name": "Rockstar Games Grand Theft Auto: San Andreas"
+      },
+      {
+        "software": "rockstar-games-grand-theft-auto-4",
+        "display_name": "Rockstar Games Grand Theft Auto 4"
+      },
+      {
+        "software": "rockstar-games-grand-theft-auto-vice-city",
+        "display_name": "Rockstar Games Grand Theft Auto: Vice City"
+      },
+      {
+        "software": "autodesk-inventor-2022",
+        "display_name": "Autodesk Inventor 2022"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-06-30",
+  "sources": [
+    {
+      "url": "ide.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

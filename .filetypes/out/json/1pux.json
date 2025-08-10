@@ -1,0 +1,77 @@
+{
+  "slug": "1pux",
+  "extension": "1pux",
+  "name": "1Password Unencrypted Export",
+  "category": "1password-unencrypted-export",
+  "developer_org": "agilebits",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "A 1PUX file contains all of the information about an unencrypted account for AgileBits 1Password, a password-managing utility. It is a .ZIP archive that stores several files, including an export.attributes and export.data file, which contains all of the exported data and metadata . 1Password users export accounts as 1PUX files when transferring them to another installation of the application.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "agilebits-1password",
+        "display_name": "AgileBits 1Password"
+      }
+    ],
+    "macos": [
+      {
+        "software": "agilebits-1password",
+        "display_name": "AgileBits 1Password"
+      }
+    ],
+    "linux": [
+      {
+        "software": "agilebits-1password",
+        "display_name": "AgileBits 1Password"
+      }
+    ],
+    "web": [
+      {
+        "software": "agilebits-1password",
+        "display_name": "AgileBits 1Password"
+      }
+    ],
+    "ios": [
+      {
+        "software": "agilebits-1password",
+        "display_name": "AgileBits 1Password"
+      }
+    ],
+    "android": [
+      {
+        "software": "agilebits-1password",
+        "display_name": "AgileBits 1Password"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2025-02-10",
+  "sources": [
+    {
+      "url": "1pux.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

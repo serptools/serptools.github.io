@@ -1,0 +1,49 @@
+{
+  "slug": "pat0",
+  "extension": "pat0",
+  "name": "Wii Texture Pattern File",
+  "category": "wii-texture-pattern-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Pattern file used by Nintendo Wii games such as Super Smash Bros. Brawl and Mario Kart; contains texture patterns referenced by the game to create animations; often found within a .BRRES resource package file; similar to .MDL0 and .PLT0 files.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "brawlbox",
+        "display_name": "BrawlBox"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-01-06",
+  "sources": [
+    {
+      "url": "pat0.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

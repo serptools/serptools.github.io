@@ -1,0 +1,57 @@
+{
+  "slug": "pab",
+  "extension": "pab",
+  "name": "Personal Address Book",
+  "category": "personal-address-book",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "Address book file used by Microsoft e-mail programs; contains information for personal and organizational contacts; stored separately from other Outlook data.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-outlook-365",
+        "display_name": "Microsoft Outlook 365"
+      },
+      {
+        "software": "microsoft-exchange-server",
+        "display_name": "Microsoft Exchange Server"
+      }
+    ],
+    "macos": [
+      {
+        "software": "microsoft-outlook-365",
+        "display_name": "Microsoft Outlook 365"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-02-10",
+  "sources": [
+    {
+      "url": "pab.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

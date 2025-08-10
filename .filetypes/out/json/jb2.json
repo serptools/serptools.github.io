@@ -1,0 +1,65 @@
+{
+  "slug": "jb2",
+  "extension": "jb2",
+  "name": "JBIG2 Image",
+  "category": "jbig2-image",
+  "developer_org": "joint-bi-level-image-group",
+  "popularity": {
+    "rating": 2.7,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "Bitonal image created in the Joint Bi-level Image Group 2 (JBIG2) format; stores 1-bit black and white pixels in lossy or lossless format; supports greater compression ratios than the competing CCITT Fax Group 4 compression algorithm.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "newera-graphics-converter-pro",
+        "display_name": "Newera Graphics Converter Pro"
+      },
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      },
+      {
+        "software": "ambware-image-size-reducer-pro",
+        "display_name": "AMBWare Image Size Reducer Pro"
+      }
+    ],
+    "macos": [
+      {
+        "software": "newera-graphics-converter-pro",
+        "display_name": "Newera Graphics Converter Pro"
+      },
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-05-19",
+  "sources": [
+    {
+      "url": "jb2.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

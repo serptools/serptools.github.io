@@ -1,0 +1,53 @@
+{
+  "slug": "smpf",
+  "extension": "smpf",
+  "name": "Sprite Monkey Project",
+  "category": "sprite-monkey-project",
+  "developer_org": "posemotion",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "Compressed project file used by Sprite Monkey, a lightweight application that allows users to quickly edit sprite images; contains sprite images and coordinate information specified in the user's project.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "posemotion-sprite-monkey",
+        "display_name": "PoseMotion Sprite Monkey"
+      }
+    ],
+    "windows": [
+      {
+        "software": "posemotion-sprite-monkey",
+        "display_name": "PoseMotion Sprite Monkey"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-05-22",
+  "sources": [
+    {
+      "url": "smpf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

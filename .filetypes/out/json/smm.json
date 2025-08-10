@@ -1,0 +1,62 @@
+{
+  "slug": "smm",
+  "extension": "smm",
+  "name": "Samsung Memo File",
+  "category": "1.-samsung-memo-file",
+  "developer_org": "samsung",
+  "popularity": {
+    "rating": 2.9,
+    "votes": 30,
+    "source": "fileinfo"
+  },
+  "summary": "Data file created by Samsung Galaxy mobile phones; saves the user's memos that were created on the phone; can incorporate handwritten notes and graphics; may be synced and backed up to the computer using Samsung Kies software.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "samsung-kies",
+        "display_name": "Samsung Kies"
+      },
+      {
+        "software": "edina-map-manager",
+        "display_name": "EDINA Map Manager"
+      },
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      }
+    ],
+    "macos": [
+      {
+        "software": "samsung-kies",
+        "display_name": "Samsung Kies"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2013-05-13",
+  "sources": [
+    {
+      "url": "smm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

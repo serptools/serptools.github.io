@@ -1,0 +1,49 @@
+{
+  "slug": "pvl",
+  "extension": "pvl",
+  "name": "Instalit Library",
+  "category": "instalit-library",
+  "developer_org": "hpi",
+  "popularity": {
+    "rating": 1.8,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "A PVL file is a data library referenced by HPI Instalit, a discontinued DOS/Windows installation toolkit. It contains resources Instalit loads and uses while installing an operating system.",
+  "standards": [],
+  "mime_types": [
+    "dos/windows"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "hpi-instalit",
+        "display_name": "HPI Instalit"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-06-22",
+  "sources": [
+    {
+      "url": "pvl.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

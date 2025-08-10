@@ -1,0 +1,47 @@
+{
+  "slug": "eas",
+  "extension": "eas",
+  "name": "RSLogix Symbol File",
+  "category": "rslogix-symbol-file",
+  "developer_org": "rockwell-automation",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "ASCII -delimited file used by RSLogix, an IEC-1131-compliant application used to create programmable controller documentation; contains the address symbols and descriptions for a documentation database; used to reference and lookup common symbols in documents.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "rockwell-automation-rslogix",
+        "display_name": "Rockwell Automation RSLogix"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-04-26",
+  "sources": [
+    {
+      "url": "eas.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

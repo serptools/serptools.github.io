@@ -1,0 +1,55 @@
+{
+  "slug": "ho",
+  "extension": "ho",
+  "name": "GoodEngine Asset Package",
+  "category": "goodengine-asset-package",
+  "developer_org": "heavy-iron-studios",
+  "popularity": {
+    "rating": 2.6,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "An HO file is a game asset archive used by various Heavy Iron Studios video games using the Good Engine or Havok engine, including Up and UFC Personal Trainer . It stores game resources, such as 3D models, animations, textures, audio files, and other assets.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "hoextractor",
+        "display_name": "HoExtractor"
+      },
+      {
+        "software": "hihotool",
+        "display_name": "HiHoTool"
+      },
+      {
+        "software": "plankton",
+        "display_name": "Plankton"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2025-03-13",
+  "sources": [
+    {
+      "url": "ho.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

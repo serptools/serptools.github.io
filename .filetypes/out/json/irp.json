@@ -1,0 +1,51 @@
+{
+  "slug": "irp",
+  "extension": "irp",
+  "name": "Internet Researcher Project File",
+  "category": "1.-internet-researcher-project-file",
+  "developer_org": "zylox-software",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "Project file created by Internet Researcher, a program that allows users to download websites and browse them offline; contains project settings as well as Web page content, such as .HTML , JavaScript ( .JS ), and image files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "zylox-software-internet-researcher",
+        "display_name": "Zylox Software Internet Researcher"
+      },
+      {
+        "software": "infrarecorder",
+        "display_name": "InfraRecorder"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-04-21",
+  "sources": [
+    {
+      "url": "irp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

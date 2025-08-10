@@ -1,0 +1,71 @@
+{
+  "slug": "mus",
+  "extension": "mus",
+  "name": "Finale Notation File (Legacy)",
+  "category": "finale-notation-file-legacy",
+  "summary": "",
+  "developer_org": "id-software",
+  "developer_name": "id Software",
+  "more_information": {
+    "screenshot": {
+      "url": "https://fileinfo.com/img/ss/sm/mus_1515.png",
+      "alt": "Screenshot of a .mus file in MakeMusic Finale",
+      "caption": "MUS file open in MakeMusic Finale"
+    },
+    "description": [
+      "MakeMusic Finale is a scorewriting program that composers use to create, edit, and listen to musical scores. For example, a composer might create an original composition, add lyrics to the song, and then play the song back via their computer's speakers to hear how it sounds.",
+      "Finale 2012 and earlier versions save composers' scores as MUS files. In addition to the score and data used to play it back, MUS files typically contain title, composer, and copyright information.",
+      "NOTE: Finale 2014 and later versions save scores as .MUSX files."
+    ]
+  },
+  "how_to_open": {
+    "detailed_instructions": [
+      "You can open a MUS file with MakeMusic Finale (Windows, Mac). To do so, select File → Open... from the program's menu bar. Then, navigate to and open your MUS file."
+    ]
+  },
+  "how_to_convert": {
+    "instructions": [
+      "You can use MakeMusic Finale to export the score a MUS file contains in a variety of formats, including:"
+    ],
+    "formats": [
+      {
+        "extension": ".MUSX",
+        "name": "Finale Notation"
+      },
+      {
+        "extension": ".AIFF",
+        "name": "Audio Interchange File Format"
+      },
+      {
+        "extension": ".WAV",
+        "name": "WAVE Audio"
+      },
+      {
+        "extension": ".EPUB",
+        "name": "Open eBook"
+      },
+      {
+        "extension": ".MIDI",
+        "name": "MIDI Music Data"
+      },
+      {
+        "extension": ".MXL",
+        "name": "Compressed MusicXML"
+      }
+    ]
+  },
+  "images": [
+    {
+      "url": "https://fileinfo.com/img/ss/sm/mus_1515.png",
+      "alt": "Screenshot of a .mus file in MakeMusic Finale",
+      "caption": "MUS file open in MakeMusic Finale"
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "mus.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

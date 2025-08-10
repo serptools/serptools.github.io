@@ -1,0 +1,72 @@
+{
+  "slug": "sif",
+  "extension": "sif",
+  "name": "Windows Setup Information File",
+  "category": "1.-windows-setup-information-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 4.4,
+    "votes": 20,
+    "source": "fileinfo"
+  },
+  "summary": "Configuration file that contains setup information for Windows NT and XP; contains parameters referenced during the Windows operating system installation process; includes the target path, user data, OEM status, display resolution, network settings, and other information.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-windows-xp",
+        "display_name": "Microsoft Windows XP",
+        "status": "discontinued"
+      },
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "synfig-studio",
+        "display_name": "Synfig Studio"
+      }
+    ],
+    "macos": [
+      {
+        "software": "synfig-studio",
+        "display_name": "Synfig Studio"
+      }
+    ],
+    "linux": [
+      {
+        "software": "synfig-studio",
+        "display_name": "Synfig Studio"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-08-01",
+  "sources": [
+    {
+      "url": "sif.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

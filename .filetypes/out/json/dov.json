@@ -1,0 +1,49 @@
+{
+  "slug": "dov",
+  "extension": "dov",
+  "name": "Temp File",
+  "category": "temp-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "Temporary file created by a various programs; often deleted automatically when original file is saved or program is closed.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "original-program-that-created-the-file",
+        "display_name": "Original program that created the file"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-06-06",
+  "sources": [
+    {
+      "url": "dov.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "slug": "crtx",
+  "extension": "crtx",
+  "name": "Office 2007 Chart Template File",
+  "category": "office-2007-chart-template-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 48,
+    "source": "fileinfo"
+  },
+  "summary": "A CRTX file contains a chart template that can be applied to multiple documents and presentations in Microsoft Office 2007 or later. It stores settings for colors, axes, gridlines, categories, legends, text, title, and other chart options. CRTX files are used to apply the same styles and formatting to multiple charts.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-word-365",
+        "display_name": "Microsoft Word 365"
+      },
+      {
+        "software": "microsoft-excel-365",
+        "display_name": "Microsoft Excel 365"
+      },
+      {
+        "software": "microsoft-powerpoint-365",
+        "display_name": "Microsoft PowerPoint 365"
+      }
+    ],
+    "macos": [
+      {
+        "software": "microsoft-word-365",
+        "display_name": "Microsoft Word 365"
+      },
+      {
+        "software": "microsoft-excel-365",
+        "display_name": "Microsoft Excel 365"
+      },
+      {
+        "software": "microsoft-powerpoint-365",
+        "display_name": "Microsoft PowerPoint 365"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-07-10",
+  "sources": [
+    {
+      "url": "crtx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

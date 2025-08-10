@@ -1,0 +1,87 @@
+{
+  "slug": "mo3",
+  "extension": "mo3",
+  "name": "MO3 Audio",
+  "category": "mo3-audio",
+  "developer_org": "un4seen-developments",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 44,
+    "source": "fileinfo"
+  },
+  "summary": "An MO3 file is an audio module saved in a variant of the standard .MOD format. Unlike MOD files, MO3 files are compressed using MP3 or Ogg Vorbis audio compression. For this reason, MO3 files typically have smaller file sizes than MOD files.",
+  "standards": [],
+  "mime_types": [
+    "vitamin/caig"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "xmplay",
+        "display_name": "XMPlay"
+      },
+      {
+        "software": "openmpt",
+        "display_name": "OpenMPT"
+      },
+      {
+        "software": "media-player-classic",
+        "display_name": "Media Player Classic"
+      },
+      {
+        "software": "vitamin-caig-zxtune",
+        "display_name": "Vitamin/CAIG ZXTune"
+      },
+      {
+        "software": "ximplemod",
+        "display_name": "XimpleMOD"
+      }
+    ],
+    "macos": [
+      {
+        "software": "ximplemod",
+        "display_name": "XimpleMOD"
+      },
+      {
+        "software": "vitamin-caig-zxtune",
+        "display_name": "Vitamin/CAIG ZXTune"
+      }
+    ],
+    "linux": [
+      {
+        "software": "vitamin-caig-zxtune",
+        "display_name": "Vitamin/CAIG ZXTune"
+      }
+    ],
+    "android": [
+      {
+        "software": "vitamin-caig-zxtune",
+        "display_name": "Vitamin/CAIG ZXTune"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-11-20",
+  "sources": [
+    {
+      "url": "mo3.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "wtpl",
+  "extension": "wtpl",
+  "name": "WireTap Studio Library",
+  "category": "wiretap-studio-library",
+  "developer_org": "ambrosia-software",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "Library of audio tracks saved by WireTap Studio, a utility used for recording system and application audio; may include one or more playlists that appear in the primary WireTap Studio window.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "ambrosia-software-wiretap-studio",
+        "display_name": "Ambrosia Software WireTap Studio"
+      }
+    ],
+    "windows": [
+      {
+        "software": "ambrosia-software-wiretap-studio",
+        "display_name": "Ambrosia Software WireTap Studio"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-04-29",
+  "sources": [
+    {
+      "url": "wtpl.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

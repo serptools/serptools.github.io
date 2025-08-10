@@ -1,0 +1,53 @@
+{
+  "slug": "lpdf",
+  "extension": "lpdf",
+  "name": "Localized PDF File",
+  "category": "localized-pdf-file",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 10,
+    "source": "fileinfo"
+  },
+  "summary": "Multilingual .PDF file, often named About Stacks.lpdf and About Downloads.lpdf , and found on Mac OS X systems; and saved in the Mac OS X package format and stores both the .PDF file as well as data that localizes the document for multiple languages.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "apple-preview",
+        "display_name": "Apple Preview"
+      }
+    ],
+    "windows": [
+      {
+        "software": "apple-preview",
+        "display_name": "Apple Preview"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2013-02-04",
+  "sources": [
+    {
+      "url": "lpdf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

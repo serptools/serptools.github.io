@@ -1,0 +1,77 @@
+{
+  "slug": "bk",
+  "extension": "bk",
+  "name": "FrameMaker Book File",
+  "category": "1.-framemaker-book-file",
+  "developer_org": "adobe-systems",
+  "popularity": {
+    "rating": 3.2,
+    "votes": 144,
+    "source": "fileinfo"
+  },
+  "summary": "A BK file contains a book created with Adobe FrameMaker, a program used to author, enrich, manage, and publish technical documentation. It contains pages that are formatted for print and may include text as well as raster and bitmap images. BK files were replaced with .BOOK files by FrameMaker.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "adobe-framemaker",
+        "display_name": "Adobe FrameMaker"
+      },
+      {
+        "software": "samsung-smart-switch",
+        "display_name": "Samsung Smart Switch"
+      },
+      {
+        "software": "mobiledit-forensic-express",
+        "display_name": "MOBILedit Forensic Express"
+      },
+      {
+        "software": "oxygen-forensics-detective",
+        "display_name": "Oxygen Forensics Detective"
+      }
+    ],
+    "linux": [
+      {
+        "software": "adobe-framemaker",
+        "display_name": "Adobe FrameMaker"
+      }
+    ],
+    "macos": [
+      {
+        "software": "samsung-smart-switch",
+        "display_name": "Samsung Smart Switch"
+      }
+    ],
+    "android": [
+      {
+        "software": "samsung-smart-switch",
+        "display_name": "Samsung Smart Switch"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-02-03",
+  "sources": [
+    {
+      "url": "bk.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

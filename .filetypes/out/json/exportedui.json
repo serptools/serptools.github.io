@@ -1,0 +1,55 @@
+{
+  "slug": "exportedui",
+  "extension": "exportedui",
+  "name": "Microsoft Office Exported UI Customization File",
+  "category": "microsoft-office-exported-ui-customization-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "Customization file used by Microsoft Office, a work document production suite; contains XML code that customizes ribbons in Microsoft Office; exported format to easily share custom tabs, commands, groups, etc. that make up the Microsoft Office UI with other users.",
+  "standards": [],
+  "mime_types": [
+    "import/export"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-office-365",
+        "display_name": "Microsoft Office 365"
+      }
+    ],
+    "macos": [
+      {
+        "software": "microsoft-office-365",
+        "display_name": "Microsoft Office 365"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-01-21",
+  "sources": [
+    {
+      "url": "exportedui.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "cfd",
+  "extension": "cfd",
+  "name": "NortonLifeLock Optimization File",
+  "category": "nortonlifelock-optimization-file",
+  "summary": "",
+  "developer_org": "symantec",
+  "developer_name": "Symantec",
+  "more_information": {
+    "description": [
+      "In the early 2010s, numerous NortonLifeLock users reported the existence of a file named LightningSand.cfd in their System Volume Information folders. Windows often reported that this file was corrupt, and that users should run CHKDSK to examine and delete LightningSand.cfd (and other CFD files).",
+      "In 2011, NortonLifeLock employee wesleyj informed users that LightningSand.cfd is \"an internal Norton file used for optimizations.\" Wesleyj stated that removing the file should not cause any problems or data loss, and that users' NortonLifeLock programs would continue functioning normally. As such, you should delete LightningSand.cfd and any other Norton CFD files you encounter."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "cfd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

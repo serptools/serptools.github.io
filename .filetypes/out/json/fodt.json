@@ -1,0 +1,71 @@
+{
+  "slug": "fodt",
+  "extension": "fodt",
+  "name": "OpenDocument Flat XML Document",
+  "category": "opendocument-flat-xml-document",
+  "developer_org": "oracle",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 19,
+    "source": "fileinfo"
+  },
+  "summary": "Text document saved in the OpenDocument format, but stored as a flat XML file instead of the .ZIP container used by .ODT files; allows the document information to be more human readable; also provides an easier alternative than the ODT format for generating documents automatically without needing a document editor.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "openoffice-writer",
+        "display_name": "OpenOffice Writer"
+      },
+      {
+        "software": "libreoffice",
+        "display_name": "LibreOffice"
+      }
+    ],
+    "macos": [
+      {
+        "software": "openoffice-writer",
+        "display_name": "OpenOffice Writer"
+      },
+      {
+        "software": "libreoffice",
+        "display_name": "LibreOffice"
+      }
+    ],
+    "linux": [
+      {
+        "software": "openoffice-writer",
+        "display_name": "OpenOffice Writer"
+      },
+      {
+        "software": "libreoffice",
+        "display_name": "LibreOffice"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-03-18",
+  "sources": [
+    {
+      "url": "fodt.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

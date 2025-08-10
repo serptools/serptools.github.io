@@ -1,0 +1,57 @@
+{
+  "slug": "cw",
+  "extension": "cw",
+  "name": "ClassiCube Map",
+  "category": "1.-classicube-map",
+  "developer_org": "classicube-team",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "A CW file is a game world created and used by ClassiCube, a Minecraft-like sandbox game. While playing ClassiCube, players can save their current world as a CW file. This allows them to resume playing in that world in the future, and to share the world with other players.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "classicube",
+        "display_name": "ClassiCube"
+      },
+      {
+        "software": "nch-cardworks",
+        "display_name": "NCH CardWorks"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "CW file open in ClassiCube",
+      "alt": "CW file open in ClassiCube",
+      "source_url": "https://fileinfo.com/img/ss/md/cw_13554.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-11-16",
+  "sources": [
+    {
+      "url": "cw.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

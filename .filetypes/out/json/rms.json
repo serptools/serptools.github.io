@@ -1,0 +1,63 @@
+{
+  "slug": "rms",
+  "extension": "rms",
+  "name": "Java Application Settings File",
+  "category": "1.-java-application-settings-file",
+  "developer_org": "oracle",
+  "popularity": {
+    "rating": 4.2,
+    "votes": 23,
+    "source": "fileinfo"
+  },
+  "summary": "Preference file for a Java application; stores settings and configuration information related to the application; typically saves data in a structured database format.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "oracle-java-virtual-machine",
+        "display_name": "Oracle Java Virtual Machine"
+      },
+      {
+        "software": "realnetworks-real-media-player",
+        "display_name": "RealNetworks Real Media Player"
+      }
+    ],
+    "windows": [
+      {
+        "software": "realnetworks-real-media-player",
+        "display_name": "RealNetworks Real Media Player"
+      }
+    ],
+    "linux": [
+      {
+        "software": "realnetworks-real-media-player",
+        "display_name": "RealNetworks Real Media Player"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-04-08",
+  "sources": [
+    {
+      "url": "rms.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

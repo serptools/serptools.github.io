@@ -1,0 +1,47 @@
+{
+  "slug": "xise",
+  "extension": "xise",
+  "name": "Xilinx ISE Project File",
+  "category": "xilinx-ise-project-file",
+  "developer_org": "xilinx",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 33,
+    "source": "fileinfo"
+  },
+  "summary": "Project file created by ISE, an application used for designing computer hardware electronics devices; saves a list of the source files used by the project as well as project properties and the software version for the project; used for FPGA (Field-programmable Gate Array) design.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "xilinx-ise-design-suite",
+        "display_name": "Xilinx ISE Design Suite"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-08-03",
+  "sources": [
+    {
+      "url": "xise.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

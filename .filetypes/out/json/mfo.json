@@ -1,0 +1,73 @@
+{
+  "slug": "mfo",
+  "extension": "mfo",
+  "name": "Perl ModInfo Descriptor File",
+  "category": "1.-perl-modinfo-descriptor-file",
+  "developer_org": "perl",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "XML file containing metadata about one or more objects within a Perl module; created by running a Perl module through the modinfo2xml.pl processor; used by ModInfo, a Perl interface definition system.",
+  "standards": [],
+  "mime_types": [
+    "cd/dvd"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "perl",
+        "display_name": "Perl"
+      },
+      {
+        "software": "open-at-mediaface.com",
+        "display_name": "Open at MediaFace.com"
+      },
+      {
+        "software": "mobileframe-desktop",
+        "display_name": "MobileFrame Desktop"
+      }
+    ],
+    "macos": [
+      {
+        "software": "perl",
+        "display_name": "Perl"
+      },
+      {
+        "software": "open-at-mediaface.com",
+        "display_name": "Open at MediaFace.com"
+      }
+    ],
+    "linux": [
+      {
+        "software": "perl",
+        "display_name": "Perl"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2007-10-02",
+  "sources": [
+    {
+      "url": "mfo.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "slug": "s2p",
+  "extension": "s2p",
+  "name": "Songs2See Game Song",
+  "category": "songs2see-game-song",
+  "developer_org": "songquito",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "An S2P file is a song used by Songs2See Game, a game that helps aspiring musicians learn to play instruments. Musicians load S2P files in Songs2See Game to practice the songs they contain. Musicians can also create and edit S2P files with Songs2See Editor, a music notation program often packaged with Songs2See Game.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "songquito-songs2see-game",
+        "display_name": "Songquito Songs2See Game"
+      },
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      }
+    ],
+    "macos": [
+      {
+        "software": "songquito-songs2see-game",
+        "display_name": "Songquito Songs2See Game"
+      },
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-06-15",
+  "sources": [
+    {
+      "url": "s2p.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

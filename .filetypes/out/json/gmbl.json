@@ -1,0 +1,69 @@
+{
+  "slug": "gmbl",
+  "extension": "gmbl",
+  "name": "Logger Lite Document",
+  "category": "logger-lite-document",
+  "developer_org": "vernier",
+  "popularity": {
+    "rating": 3.1,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "Data file created by Logger Lite, a free program that allows students to collect and analyze data in science and math education programs; contains columns of data such as temperature readings recorded during a scientific experiment or exercise experiment.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "vernier-logger-lite",
+        "display_name": "Vernier Logger Lite"
+      },
+      {
+        "software": "vernier-graphical-analysis",
+        "display_name": "Vernier Graphical Analysis"
+      }
+    ],
+    "macos": [
+      {
+        "software": "vernier-logger-lite",
+        "display_name": "Vernier Logger Lite"
+      }
+    ],
+    "ios": [
+      {
+        "software": "vernier-graphical-analysis",
+        "display_name": "Vernier Graphical Analysis"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "GMBL file icon",
+      "alt": "GMBL file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/gmbl-10118.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-11-23",
+  "sources": [
+    {
+      "url": "gmbl.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

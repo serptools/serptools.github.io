@@ -1,0 +1,59 @@
+{
+  "slug": "pfc",
+  "extension": "pfc",
+  "name": "AOL Personal Filing Cabinet",
+  "category": "aol-personal-filing-cabinet",
+  "developer_org": "aol",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "A PFC file is a personal filing cabinet created by AOL Desktop Software, an application that lets America Online (AOL) users access their AOL accounts. It contains an address book, a record of bookmarks , stored email messages, away messages, and newsgroup postings. Each AOL Desktop user account has an associated PFC file.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "aol-desktop-for-windows",
+        "display_name": "AOL Desktop for Windows"
+      },
+      {
+        "software": "connected-epreserver",
+        "display_name": "Connected ePreserver"
+      },
+      {
+        "software": "pfcex",
+        "display_name": "PFCEx"
+      },
+      {
+        "software": "systools-aol-pfc-viewer",
+        "display_name": "SysTools AOL PFC Viewer"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-07-08",
+  "sources": [
+    {
+      "url": "pfc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "slug": "miniusf",
+  "extension": "miniusf",
+  "name": "Nintendo 64 Song File",
+  "category": "nintendo-64-song-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 2.8,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "Music file from a Nintendo 64 game; formatted similarly to a .MIDI file; often loaded along with a corresponding .USFLIB file, which contains a list of songs from a specific N64 game; can be ripped from a N64 ROM and played back on a computer using a supporting audio player.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "nullsoft-winamp-with-64th-note-plugin",
+        "display_name": "Nullsoft Winamp with 64th Note plugin"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2007-08-06",
+  "sources": [
+    {
+      "url": "miniusf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

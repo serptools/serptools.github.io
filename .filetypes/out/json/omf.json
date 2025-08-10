@@ -1,0 +1,122 @@
+{
+  "slug": "omf",
+  "extension": "omf",
+  "name": "Open Media Framework File",
+  "category": "1.-open-media-framework-file",
+  "developer_org": "avid-technology",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 29,
+    "source": "fileinfo"
+  },
+  "summary": "An OMF file is an audio file saved in a standard audio/video format based on the Open Media Framework Interchange (OMFI), a standardized interchange file format. It may be exported from digital video editing or audio workstation (DAW) software and is commonly used to share project data between multiple applications.",
+  "standards": [],
+  "mime_types": [
+    "audio/video",
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "avid-media-composer",
+        "display_name": "Avid Media Composer"
+      },
+      {
+        "software": "avid-pro-tools",
+        "display_name": "Avid Pro Tools"
+      },
+      {
+        "software": "steinberg-cubase",
+        "display_name": "Steinberg Cubase"
+      },
+      {
+        "software": "cakewalk-sonar-x3",
+        "display_name": "Cakewalk SONAR X3"
+      },
+      {
+        "software": "motu-digital-performer",
+        "display_name": "MOTU Digital Performer"
+      },
+      {
+        "software": "adobe-audition-2023",
+        "display_name": "Adobe Audition 2023"
+      },
+      {
+        "software": "apple-logic-pro",
+        "display_name": "Apple Logic Pro"
+      },
+      {
+        "software": "apple-final-cut-pro",
+        "display_name": "Apple Final Cut Pro"
+      },
+      {
+        "software": "equilibrium-debabelizer",
+        "display_name": "Equilibrium DeBabelizer"
+      }
+    ],
+    "macos": [
+      {
+        "software": "avid-media-composer",
+        "display_name": "Avid Media Composer"
+      },
+      {
+        "software": "avid-pro-tools",
+        "display_name": "Avid Pro Tools"
+      },
+      {
+        "software": "steinberg-cubase",
+        "display_name": "Steinberg Cubase"
+      },
+      {
+        "software": "apple-logic-pro",
+        "display_name": "Apple Logic Pro"
+      },
+      {
+        "software": "apple-final-cut-pro",
+        "display_name": "Apple Final Cut Pro"
+      },
+      {
+        "software": "motu-digital-performer",
+        "display_name": "MOTU Digital Performer"
+      },
+      {
+        "software": "adobe-audition-2023",
+        "display_name": "Adobe Audition 2023"
+      },
+      {
+        "software": "equilibrium-debabelizer",
+        "display_name": "Equilibrium DeBabelizer"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "OMF file icon",
+      "alt": "OMF file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/omf-651.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-08-02",
+  "sources": [
+    {
+      "url": "omf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "slug": "gjd",
+  "extension": "gjd",
+  "name": "The 7th Guest Media File",
+  "category": "the-7th-guest-media-file",
+  "developer_org": "trilobyte",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "File used by The 7th Guest, an older 3D interactive puzzle game developed by Trilobyte using the Groovie engine; may store various media clips for the game; accompanied by an .RL file that specifies the format of data in the GJD file.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "trilobyte-the-7th-guest",
+        "display_name": "Trilobyte The 7th Guest"
+      },
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      }
+    ],
+    "macos": [
+      {
+        "software": "trilobyte-the-7th-guest",
+        "display_name": "Trilobyte The 7th Guest"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-07-02",
+  "sources": [
+    {
+      "url": "gjd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

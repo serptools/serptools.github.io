@@ -1,0 +1,49 @@
+{
+  "slug": "cram",
+  "extension": "cram",
+  "name": "Compressed Alignment File",
+  "category": "compressed-alignment-file",
+  "developer_org": "ebi",
+  "popularity": {
+    "rating": 2.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "Compressed alignment file format developed by EBI, an outstation of the European Molecular Biology Laboratory; stores short DNA sequence read alignments generated from short read aligners such as BWA, BBMap, and BLAT.",
+  "standards": [],
+  "mime_types": [
+    "alignment/map"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "samtools",
+        "display_name": "Samtools"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2016-01-11",
+  "sources": [
+    {
+      "url": "cram.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

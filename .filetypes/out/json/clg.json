@@ -1,0 +1,51 @@
+{
+  "slug": "clg",
+  "extension": "clg",
+  "name": "Windows Catalog File",
+  "category": "1.-windows-catalog-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 20,
+    "source": "fileinfo"
+  },
+  "summary": "Catalog file used by Windows System Image Manager (Windows SIM); contains information describing the contents of a .WIM image, including the state of all packages and components; used to display WIM file contents without having to read an entire image file.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-windows-system-image-manager",
+        "display_name": "Microsoft Windows System Image Manager"
+      },
+      {
+        "software": "galleria-collage-maker",
+        "display_name": "Galleria Collage Maker"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-04-13",
+  "sources": [
+    {
+      "url": "clg.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

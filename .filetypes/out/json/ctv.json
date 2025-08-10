@@ -1,0 +1,47 @@
+{
+  "slug": "ctv",
+  "extension": "ctv",
+  "name": "Citavi Project",
+  "category": "citavi-project",
+  "developer_org": "swiss-academic-software",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "Project file created by Citavi, a Windows reference management application; stores citation data about information sources and can also include written notes; used for storing and searching research source information.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "swiss-academic-citavi",
+        "display_name": "Swiss Academic Citavi"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-04-18",
+  "sources": [
+    {
+      "url": "ctv.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

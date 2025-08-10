@@ -1,0 +1,57 @@
+{
+  "slug": "wpm",
+  "extension": "wpm",
+  "name": "Warcraft 3 Path Map File",
+  "category": "1.-warcraft-3-path-map-file",
+  "developer_org": "blizzard-entertainment",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "A WPM file is used by Warcraft III, a real-time strategy game. It contains pathing data for a map. WPM files are used by the game's artificial intelligence (AI) to move units across the map without requiring the player to micromanage unit movement around obstacles.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "blizzard-warcraft-3",
+        "display_name": "Blizzard Warcraft 3"
+      },
+      {
+        "software": "corel-wordperfect-2021",
+        "display_name": "Corel WordPerfect 2021"
+      }
+    ],
+    "macos": [
+      {
+        "software": "blizzard-warcraft-3",
+        "display_name": "Blizzard Warcraft 3"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-03-22",
+  "sources": [
+    {
+      "url": "wpm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

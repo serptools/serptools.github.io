@@ -1,0 +1,65 @@
+{
+  "slug": "fuw",
+  "extension": "fuw",
+  "name": "Furnace Wavetable",
+  "category": "furnace-wavetable",
+  "developer_org": "tildearrow",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "An FUW file is a wavetable used by tildearrow Furnace, a multiplatform chiptune tracker. It contains information about a wavetable (a more complex variation of synthesis for creating more unique sounds) in the Furnace Wavetable (FUW) format. FUW files include values that make up the wavetable and metadata , such as the creation date and FUW format version.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "tildearrow-furnace",
+        "display_name": "tildearrow Furnace"
+      }
+    ],
+    "macos": [
+      {
+        "software": "tildearrow-furnace",
+        "display_name": "tildearrow Furnace"
+      }
+    ],
+    "linux": [
+      {
+        "software": "tildearrow-furnace",
+        "display_name": "tildearrow Furnace"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "FUW file open in tildearrow Furnace 0.6",
+      "alt": "FUW file open in tildearrow Furnace 0.6",
+      "source_url": "https://fileinfo.com/img/ss/md/fuw_13712.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2024-06-11",
+  "sources": [
+    {
+      "url": "fuw.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

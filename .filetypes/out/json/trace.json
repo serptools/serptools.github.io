@@ -1,0 +1,63 @@
+{
+  "slug": "trace",
+  "extension": "trace",
+  "name": "TRACES 3D Scene",
+  "category": "1.-traces-3d-scene",
+  "developer_org": "ton-roosendaal",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 13,
+    "source": "fileinfo"
+  },
+  "summary": "A TRACE file is a 3D object or animation project created in Traces, an early 3D modeling and animation application. It contains data used to render and animate a 3D object. TRACE files cannot be opened in programs other than Traces.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "can-be-opened-only-in-traces-using-an-amiga-emulator",
+        "display_name": "Can be opened only in Traces using an Amiga emulator"
+      },
+      {
+        "software": "vmware-thinapp",
+        "display_name": "VMware ThinApp"
+      }
+    ],
+    "macos": [
+      {
+        "software": "can-be-opened-only-in-traces-using-an-amiga-emulator",
+        "display_name": "Can be opened only in Traces using an Amiga emulator"
+      }
+    ],
+    "linux": [
+      {
+        "software": "can-be-opened-only-in-traces-using-an-amiga-emulator",
+        "display_name": "Can be opened only in Traces using an Amiga emulator"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-01-08",
+  "sources": [
+    {
+      "url": "trace.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

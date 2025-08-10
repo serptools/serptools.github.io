@@ -1,0 +1,89 @@
+{
+  "slug": "jlqm",
+  "extension": "jlqm",
+  "name": "LG QuickMemo Info File",
+  "category": "lg-quickmemo-info-file",
+  "developer_org": "lg",
+  "popularity": {
+    "rating": 2.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "A JLQM file contains metadata and text used by an LG QuickMemo note ( .LQM file). The file's plain text content is formatted using JSON . Users can extract JLQM files from LQM files, to view a note's metadata and recover its text.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      },
+      {
+        "software": "lg-quickmemo",
+        "display_name": "LG QuickMemo"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "android": [
+      {
+        "software": "lg-quickmemo",
+        "display_name": "LG QuickMemo"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-11-16",
+  "sources": [
+    {
+      "url": "jlqm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "slug": "opju",
+  "extension": "opju",
+  "name": "Origin Unicode Project",
+  "category": "origin-unicode-project",
+  "developer_org": "originlab",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 16,
+    "source": "fileinfo"
+  },
+  "summary": "An OPJU file is a project created by Origin 2018 and later, a data analysis and graphing application used by various scientists and engineers. It contains all child windows in the project, which may include worksheets, 2D/3D graphs, and matrices. OPJU files also store project variables, imported filters, results log contents, and metadata .",
+  "standards": [],
+  "mime_types": [
+    "2d/3d"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "originlab-origin",
+        "display_name": "OriginLab Origin"
+      },
+      {
+        "software": "originlab-origin-viewer",
+        "display_name": "OriginLab Origin Viewer"
+      }
+    ],
+    "macos": [
+      {
+        "software": "originlab-origin-viewer",
+        "display_name": "OriginLab Origin Viewer"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "OPJU file icon",
+      "alt": "OPJU file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/opju-10831.png"
+    },
+    {
+      "caption": "OPJU file open in OriginLab Origin",
+      "alt": "OPJU file open in OriginLab Origin",
+      "source_url": "https://fileinfo.com/img/ss/md/opju_10831.jpg"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-02-02",
+  "sources": [
+    {
+      "url": "opju.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "legal",
+  "extension": "legal",
+  "name": "DaveTech Legal Document",
+  "category": "davetech-legal-document",
+  "developer_org": "davetech",
+  "popularity": {
+    "rating": 2.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "File created by DaveTech programs such as DaveTech OS; saved in a plain text format and may contain license information, terms of service, or other legal information; used for storing official documents for DaveTech software and services.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-04-16",
+  "sources": [
+    {
+      "url": "legal.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

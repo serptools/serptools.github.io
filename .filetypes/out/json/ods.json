@@ -1,0 +1,187 @@
+{
+  "slug": "ods",
+  "extension": "ods",
+  "name": "OpenDocument Spreadsheet",
+  "category": "1.-opendocument-spreadsheet",
+  "developer_org": "oasis",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 280,
+    "source": "fileinfo"
+  },
+  "summary": "An ODS file is a spreadsheet created by Calc, a spreadsheet program included with the LibreOffice and Apache OpenOffice suites. It stores data in cells organized into rows and columns, similar to .XLSX spreadsheets, and it may also contain charts, mathematical functions, and formatting. Several programs can open, edit, save, and convert ODS files, including the Calc apps in the LibreOffice and Apache OpenOffice suites and Microsoft Excel.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "libreoffice",
+        "display_name": "LibreOffice"
+      },
+      {
+        "software": "apache-openoffice",
+        "display_name": "Apache OpenOffice"
+      },
+      {
+        "software": "microsoft-excel-365",
+        "display_name": "Microsoft Excel 365"
+      },
+      {
+        "software": "calligra-suite",
+        "display_name": "Calligra Suite"
+      },
+      {
+        "software": "planamesa-neooffice",
+        "display_name": "Planamesa NeoOffice",
+        "status": "discontinued"
+      },
+      {
+        "software": "google-sheets",
+        "display_name": "Google Sheets"
+      },
+      {
+        "software": "collabora-online",
+        "display_name": "Collabora Online"
+      },
+      {
+        "software": "libreoffice-document-reader",
+        "display_name": "LibreOffice: Document Reader"
+      },
+      {
+        "software": "microsoft-excel",
+        "display_name": "Microsoft Excel"
+      },
+      {
+        "software": "collabora-office",
+        "display_name": "Collabora Office"
+      },
+      {
+        "software": "libreoffice-openoffice-document-reader",
+        "display_name": "LibreOffice & OpenOffice document reader"
+      },
+      {
+        "software": "microsoft-outlook-express",
+        "display_name": "Microsoft Outlook Express",
+        "status": "discontinued"
+      }
+    ],
+    "macos": [
+      {
+        "software": "libreoffice",
+        "display_name": "LibreOffice"
+      },
+      {
+        "software": "apache-openoffice",
+        "display_name": "Apache OpenOffice"
+      },
+      {
+        "software": "microsoft-excel-365",
+        "display_name": "Microsoft Excel 365"
+      },
+      {
+        "software": "planamesa-neooffice",
+        "display_name": "Planamesa NeoOffice",
+        "status": "discontinued"
+      },
+      {
+        "software": "calligra-suite",
+        "display_name": "Calligra Suite"
+      }
+    ],
+    "linux": [
+      {
+        "software": "libreoffice",
+        "display_name": "LibreOffice"
+      },
+      {
+        "software": "apache-openoffice",
+        "display_name": "Apache OpenOffice"
+      },
+      {
+        "software": "calligra-suite",
+        "display_name": "Calligra Suite"
+      }
+    ],
+    "web": [
+      {
+        "software": "google-sheets",
+        "display_name": "Google Sheets"
+      },
+      {
+        "software": "collabora-online",
+        "display_name": "Collabora Online"
+      }
+    ],
+    "ios": [
+      {
+        "software": "libreoffice-document-reader",
+        "display_name": "LibreOffice: Document Reader"
+      },
+      {
+        "software": "google-sheets",
+        "display_name": "Google Sheets"
+      },
+      {
+        "software": "microsoft-excel",
+        "display_name": "Microsoft Excel"
+      },
+      {
+        "software": "collabora-office",
+        "display_name": "Collabora Office"
+      }
+    ],
+    "android": [
+      {
+        "software": "libreoffice-openoffice-document-reader",
+        "display_name": "LibreOffice & OpenOffice document reader"
+      },
+      {
+        "software": "google-sheets",
+        "display_name": "Google Sheets"
+      },
+      {
+        "software": "microsoft-excel",
+        "display_name": "Microsoft Excel"
+      },
+      {
+        "software": "collabora-office",
+        "display_name": "Collabora Office"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "ODS file icon",
+      "alt": "ODS file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/ods-1215.png"
+    },
+    {
+      "caption": "ODS file open in Apache OpenOffice Calc 4",
+      "alt": "ODS file open in Apache OpenOffice Calc 4",
+      "source_url": "https://fileinfo.com/img/ss/md/ods_1215.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-05-12",
+  "sources": [
+    {
+      "url": "ods.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

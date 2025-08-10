@@ -1,0 +1,71 @@
+{
+  "slug": "dt_",
+  "extension": "dt_",
+  "name": "Macintosh Data Fork",
+  "category": "macintosh-data-fork",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Contains data fork information from a Macintosh file, separated from the resource fork; contains most of the file's data, but not the header information found in the resource fork",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "macdisk",
+        "display_name": "MacDisk"
+      },
+      {
+        "software": "macimage",
+        "display_name": "MacImage"
+      },
+      {
+        "software": "prosoft-engineering-data-rescue-3",
+        "display_name": "ProSoft Engineering Data Rescue 3"
+      },
+      {
+        "software": "resourceaccesor",
+        "display_name": "ResourceAccesor"
+      }
+    ],
+    "windows": [
+      {
+        "software": "prosoft-engineering-data-rescue-3",
+        "display_name": "ProSoft Engineering Data Rescue 3"
+      },
+      {
+        "software": "resourceaccesor",
+        "display_name": "ResourceAccesor"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2006",
+  "sources": [
+    {
+      "url": "dt_.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

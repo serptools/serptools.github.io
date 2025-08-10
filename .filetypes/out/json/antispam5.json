@@ -1,0 +1,53 @@
+{
+  "slug": "antispam5",
+  "extension": "antispam5",
+  "name": "Personal AntiSpam Settings File",
+  "category": "personal-antispam-settings-file",
+  "developer_org": "intego",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "Settings file created by Personal Antispam, a program used for filtering unwanted email messages; saves the user's filter settings, such as black and white lists, attachment and URL filters, and intelligent lexical filters; used for Apple Mail and Microsoft Outlook email.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "intego-personal-antispam",
+        "display_name": "Intego Personal Antispam"
+      }
+    ],
+    "windows": [
+      {
+        "software": "intego-personal-antispam",
+        "display_name": "Intego Personal Antispam"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-05-19",
+  "sources": [
+    {
+      "url": "antispam5.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

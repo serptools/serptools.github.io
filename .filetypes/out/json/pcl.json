@@ -1,0 +1,92 @@
+{
+  "slug": "pcl",
+  "extension": "pcl",
+  "name": "Printer Command Language Document",
+  "category": "printer-command-language-document",
+  "developer_org": "hp",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 27,
+    "source": "fileinfo"
+  },
+  "summary": "A PCL file is a digital printed document created in the Printer Command Language (PCL) page description language. It describes the layout of text and graphics for the document. The PCL format was originally used by Hewlett-Packard printers in the 1980s and is now used by HP LaserJet printers and others. PCL is widely-used but offers fewer features than the PostScript ( .PS ) format.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "openpcl-viewer",
+        "display_name": "OpenPCL Viewer"
+      },
+      {
+        "software": "ghostscript-ghostpcl",
+        "display_name": "Ghostscript GhostPCL"
+      },
+      {
+        "software": "pagetech-pcl-reader",
+        "display_name": "PageTech PCL Reader",
+        "status": "discontinued"
+      },
+      {
+        "software": "redtitan-technology-escapee",
+        "display_name": "RedTitan Technology EscapeE"
+      },
+      {
+        "software": "pagetech-pcl-works",
+        "display_name": "PageTech PCL Works"
+      },
+      {
+        "software": "pagetech-pcltool-sdk",
+        "display_name": "PageTech PCLTool SDK"
+      },
+      {
+        "software": "coolutils-pcl-viewer",
+        "display_name": "CoolUtils PCL Viewer"
+      }
+    ],
+    "macos": [
+      {
+        "software": "openpcl-viewer",
+        "display_name": "OpenPCL Viewer"
+      },
+      {
+        "software": "ghostscript-ghostpcl",
+        "display_name": "Ghostscript GhostPCL"
+      }
+    ],
+    "linux": [
+      {
+        "software": "openpcl-viewer",
+        "display_name": "OpenPCL Viewer"
+      },
+      {
+        "software": "ghostscript-ghostpcl",
+        "display_name": "Ghostscript GhostPCL"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-03-22",
+  "sources": [
+    {
+      "url": "pcl.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

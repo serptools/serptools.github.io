@@ -1,0 +1,57 @@
+{
+  "slug": "flash",
+  "extension": "flash",
+  "name": "Frictional Games Flashback File",
+  "category": "frictional-games-flashback-file",
+  "developer_org": "frictional-games",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 17,
+    "source": "fileinfo"
+  },
+  "summary": "Script file referenced by games created by Frictional Games like the Amnesia series; contains data in XML format referenced by the game to show text and play sound effects during character \"flashbacks\"; points to sound files like .OGG and .SFX files to play sound effects.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "frictional-games-amnesia-the-dark-descent",
+        "display_name": "Frictional Games Amnesia: The Dark Descent"
+      }
+    ],
+    "macos": [
+      {
+        "software": "frictional-games-amnesia-a-machine-for-pigs",
+        "display_name": "Frictional Games Amnesia: A Machine for Pigs"
+      },
+      {
+        "software": "frictional-games-amnesia-the-dark-descent",
+        "display_name": "Frictional Games Amnesia: The Dark Descent"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2013-12-27",
+  "sources": [
+    {
+      "url": "flash.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

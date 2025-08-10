@@ -1,0 +1,73 @@
+{
+  "slug": "g726",
+  "extension": "g726",
+  "name": "G.726 ADPCM Audio",
+  "category": "g.726-adpcm-audio",
+  "developer_org": "international-telegraph-union",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "A G726 file is an audio file saved using the G.726 codec , an audio encoding standard created and maintained by the International Telegraph Union (ITU). It contains audio meant to be transmitted over a phone network. The audio is 8khz ADPCM audio, meant to be transmitted at either 16, 24, 32, or 40 kbit/s.",
+  "standards": [],
+  "mime_types": [
+    "kbit/s"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      },
+      {
+        "software": "libsndfile",
+        "display_name": "libsndfile"
+      }
+    ],
+    "macos": [
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      },
+      {
+        "software": "libsndfile",
+        "display_name": "libsndfile"
+      }
+    ],
+    "linux": [
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      },
+      {
+        "software": "libsndfile",
+        "display_name": "libsndfile"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-10-18",
+  "sources": [
+    {
+      "url": "g726.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

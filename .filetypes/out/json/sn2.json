@@ -1,0 +1,47 @@
+{
+  "slug": "sn2",
+  "extension": "sn2",
+  "name": "Drive Snapshot Backup Continuation 2",
+  "category": "drive-snapshot-backup-continuation-2",
+  "developer_org": "tom-ehlert",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "An SN2 file is a backup continuation file created by Drive Snapshot, a Windows backup utility created by Tom Ehlert. It contains the third portion of a backup disk image created by Drive Snapshot. SN2 files are always associated with accompanying .SNA and .SN1 files, and they may be associated with additional SN# continuation files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "tom-ehlert-drive-snapshot",
+        "display_name": "Tom Ehlert Drive Snapshot"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-05-17",
+  "sources": [
+    {
+      "url": "sn2.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

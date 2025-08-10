@@ -1,0 +1,59 @@
+{
+  "slug": "rbz",
+  "extension": "rbz",
+  "name": "SketchUp Plugin",
+  "category": "sketchup-plugin",
+  "developer_org": "trimble",
+  "popularity": {
+    "rating": 4.2,
+    "votes": 92,
+    "source": "fileinfo"
+  },
+  "summary": "An RBZ file is a plugin used by Trimble SketchUp, a 3D modeling program used for computer-aided design ( CAD ). It stores one or more Ruby scripts ( .RB files) compressed with .ZIP compression. RBZ files help reduce the size of SketchUp plugins when distributing and installing them.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "trimble-sketchup",
+        "display_name": "Trimble SketchUp"
+      }
+    ],
+    "macos": [
+      {
+        "software": "trimble-sketchup",
+        "display_name": "Trimble SketchUp"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "RBZ file icon",
+      "alt": "RBZ file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/rbz-8606.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-06-23",
+  "sources": [
+    {
+      "url": "rbz.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

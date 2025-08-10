@@ -1,0 +1,23 @@
+{
+  "slug": "haml",
+  "extension": "haml",
+  "name": "Haml Source Code File",
+  "category": "haml-source-code-file",
+  "summary": "",
+  "developer_org": "n-a",
+  "developer_name": "N/A",
+  "more_information": {
+    "description": [
+      "One prominent feature of Haml is that it replaces conventional tags ( <> ) with the percent sign ( % ) in order to save time and appear “cleaner.”",
+      "An example of simple Haml language and the HTML language generated through the template engine: Haml: %html %body %h1 My First Heading",
+      "HTML: <html> <body> <h1>My First Heading</h1> </body> </html> NOTE: You can switch over from ERB to Haml by replacing the \"erb\" file extension on ERB files with \"haml.”"
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "haml.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "theater",
+  "extension": "theater",
+  "name": "iMovie Theater File",
+  "category": "imovie-theater-file",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "Archive created by iMovie 10 and later, a video editing application; contains files that make up a user's iMovie theater, which includes .MP4 files of the user's videos and a .PLIST file containing a list of the seen movies.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "apple-imovie-10",
+        "display_name": "Apple iMovie 10"
+      }
+    ],
+    "windows": [
+      {
+        "software": "apple-imovie-10",
+        "display_name": "Apple iMovie 10"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "THEATER file icon",
+      "alt": "THEATER file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/theater-9777.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-11-25",
+  "sources": [
+    {
+      "url": "theater.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

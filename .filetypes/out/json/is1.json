@@ -1,0 +1,61 @@
+{
+  "slug": "is1",
+  "extension": "is1",
+  "name": "M3 Sakura Real-Time Save 1 File",
+  "category": "1.-m3-sakura-real-time-save-1-file",
+  "developer_org": "m3-sakura",
+  "popularity": {
+    "rating": 1.3,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "Data file created by M3 Sakura, a loader for the Nintendo DS that runs on the M3DS Real and M3i Zero flashcarts; stores the state of a game as it is played; used for saving game snapshots, even when the game does not allow you to save at that time.",
+  "standards": [],
+  "mime_types": [
+    "synergy/de"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "m3-sakura",
+        "display_name": "M3 Sakura"
+      },
+      {
+        "software": "synergex-synergy-de",
+        "display_name": "Synergex Synergy/DE",
+        "status": "discontinued"
+      }
+    ],
+    "linux": [
+      {
+        "software": "synergex-synergy-de",
+        "display_name": "Synergex Synergy/DE",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-02-03",
+  "sources": [
+    {
+      "url": "is1.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

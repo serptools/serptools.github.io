@@ -1,0 +1,59 @@
+{
+  "slug": "mkcd",
+  "extension": "mkcd",
+  "name": "MakeCode Program",
+  "category": "makecode-program",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "An MKCD file is a program created using either the Minecraft or Chibi Chip Microsoft MakeCode editor. It contains either a program that can be used as a Minecraft for Windows 10 or Minecraft: Education Edition mod, or a program that can be installed on a Chibi Chip microcontroller. MKCD files are typically prepended with either minecraft or chibitronics , so you can tell which type of MKCD file you have.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "web": [
+      {
+        "software": "microsoft-makecode-editors",
+        "display_name": "Microsoft MakeCode Editors"
+      }
+    ],
+    "windows": [
+      {
+        "software": "microsoft-makecode-editors",
+        "display_name": "Microsoft MakeCode Editors"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "MKCD file open in Minecraft Microsoft MakeCode Editor",
+      "alt": "MKCD file open in Minecraft Microsoft MakeCode Editor",
+      "source_url": "https://fileinfo.com/img/ss/md/mkcd_12309.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-09-13",
+  "sources": [
+    {
+      "url": "mkcd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

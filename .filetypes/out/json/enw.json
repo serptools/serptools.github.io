@@ -1,0 +1,53 @@
+{
+  "slug": "enw",
+  "extension": "enw",
+  "name": "EndNote Import File",
+  "category": "endnote-import-file",
+  "developer_org": "clarivate",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 71,
+    "source": "fileinfo"
+  },
+  "summary": "Database import file used by EndNote citations management software; contains citation data and schema information, including author, company, title, publication, and keyword data; used for importing transferred bibliographies.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "clarivate-endnote",
+        "display_name": "Clarivate EndNote"
+      }
+    ],
+    "macos": [
+      {
+        "software": "clarivate-endnote",
+        "display_name": "Clarivate EndNote"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-09-23",
+  "sources": [
+    {
+      "url": "enw.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

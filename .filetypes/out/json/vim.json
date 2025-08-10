@@ -1,0 +1,69 @@
+{
+  "slug": "vim",
+  "extension": "vim",
+  "name": "Vim Settings File",
+  "category": "vim-settings-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 22,
+    "source": "fileinfo"
+  },
+  "summary": "Settings file used by Vim, a text editing program often used by source code developers; commonly used to save settings, such as syntax highlighting rules, for the text editor when it is opened; can be referenced within the .VIMRC settings file.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "gvim",
+        "display_name": "gVim"
+      },
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      }
+    ],
+    "macos": [
+      {
+        "software": "macvim",
+        "display_name": "MacVim"
+      },
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      }
+    ],
+    "linux": [
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-06-02",
+  "sources": [
+    {
+      "url": "vim.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "zip.enc",
+  "extension": "zip.enc",
+  "name": "Facebook User Information Encrypted Archive",
+  "category": "facebook-user-information-encrypted-archive",
+  "developer_org": "facebook",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 10,
+    "source": "fileinfo"
+  },
+  "summary": "A ZIP.ENC file is an encrypted archive mistakenly included in an export of a user's Facebook data. It is always named facebook_YourUserID.zip.enc . Because ZIP.ENC files are encrypted, you cannot open them. To retrieve the data your ZIP.ENC file contains, re-download your information from Facebook.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {},
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-12-06",
+  "sources": [
+    {
+      "url": "zip.enc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

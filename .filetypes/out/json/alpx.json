@@ -1,0 +1,74 @@
+{
+  "slug": "alpx",
+  "extension": "alpx",
+  "name": "ACDSee Luxea Video Editor Project",
+  "category": "acdsee-luxea-video-editor-project",
+  "developer_org": "acd-systems",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "An ALPX file is a video-editing project created by ACD Systems ACDSee Luxea. It is a JSON-formatted text file that contains references to the video, image, and audio files included in a Luxea project, as well as a record of the project's properties, timeline, effects, and edits. When opened in Luxea, ALPX files can be used to publish edited videos to YouTube and social media, or to export videos as .MP4 , .MOV , .M4V , .WEBM , or .GIF files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "acd-systems-acdsee-luxea",
+        "display_name": "ACD Systems ACDSee Luxea"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "ALPX file icon",
+      "alt": "ALPX file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/alpx-12091.png"
+    },
+    {
+      "caption": "ALPX file open in ACDSee Luxea 5.1",
+      "alt": "ALPX file open in ACDSee Luxea 5.1",
+      "source_url": "https://fileinfo.com/img/ss/md/alpx_12091.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-05-19",
+  "sources": [
+    {
+      "url": "alpx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

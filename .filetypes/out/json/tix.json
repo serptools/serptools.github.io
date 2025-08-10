@@ -1,0 +1,57 @@
+{
+  "slug": "tix",
+  "extension": "tix",
+  "name": "DivX Video Download Activation File",
+  "category": "divx-video-download-activation-file",
+  "developer_org": "divx",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "File used by DivX player, a video player program; does not contain data, but exists as an empty file that triggers video download from a DivX partner site; served to users upon payment for a video and deleted immediately after the video starts to download.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "divx-player",
+        "display_name": "DivX Player"
+      },
+      {
+        "software": "divx",
+        "display_name": "DivX"
+      }
+    ],
+    "macos": [
+      {
+        "software": "divx",
+        "display_name": "DivX"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-02-02",
+  "sources": [
+    {
+      "url": "tix.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

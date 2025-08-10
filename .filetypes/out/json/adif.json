@@ -1,0 +1,55 @@
+{
+  "slug": "adif",
+  "extension": "adif",
+  "name": "Amateur Data Interchange Format",
+  "category": "amateur-data-interchange-format",
+  "developer_org": "raymond-r.-ortgiesen-iv",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "An ADIF file is a data file saved in the Amateur Data Interchange Format (ADIF). It contains one or more log entries created by various ham radio software. ADIF files are saved in plain text and are used to exchange log information between amateur radio logging programs.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "ham-log",
+        "display_name": "HAM-LOG"
+      },
+      {
+        "software": "writelog",
+        "display_name": "WriteLog"
+      },
+      {
+        "software": "adif-master",
+        "display_name": "ADIF Master"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-07-26",
+  "sources": [
+    {
+      "url": "adif.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

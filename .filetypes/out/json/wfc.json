@@ -1,0 +1,55 @@
+{
+  "slug": "wfc",
+  "extension": "wfc",
+  "name": "Windows Wireless Network Settings File",
+  "category": "1.-windows-wireless-network-settings-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 28,
+    "source": "fileinfo"
+  },
+  "summary": "File used by Windows Connect Now, a program that helps network devices connect to wireless networks; contains wireless network settings in XML format, such as the SSID and encryption method; used for configuring and bootstrapping wireless network devices.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-windows-connect-now",
+        "display_name": "Microsoft Windows Connect Now"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "winfellow",
+        "display_name": "WinFellow"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-01-06",
+  "sources": [
+    {
+      "url": "wfc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "quickenbackup",
+  "extension": "quickenbackup",
+  "name": "Quicken Essentials for Mac Backup File",
+  "category": "quicken-essentials-for-mac-backup-file",
+  "developer_org": "intuit",
+  "popularity": {
+    "rating": 1.7,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "Backup file created by Quicken Essentials for Mac, the Mac version of the Quicken personal and business financial management software; stores a backup of the user's data, which is stored in a .QUICKENDATA file; should be created periodically by Quicken Essentials for Mac users and sent to a secure location.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "intuit-quicken",
+        "display_name": "Intuit Quicken"
+      }
+    ],
+    "windows": [
+      {
+        "software": "intuit-quicken",
+        "display_name": "Intuit Quicken"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "QUICKENBACKUP file icon",
+      "alt": "QUICKENBACKUP file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/quickenbackup-8530.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2013-01-02",
+  "sources": [
+    {
+      "url": "quickenbackup.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

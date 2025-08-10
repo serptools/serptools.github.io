@@ -1,0 +1,61 @@
+{
+  "slug": "y4m",
+  "extension": "y4m",
+  "name": "YUV4MPEG2 Video File",
+  "category": "yuv4mpeg2-video-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 12,
+    "source": "fileinfo"
+  },
+  "summary": "Video file created in the YUV4Mpeg format; stores a sequence of uncompressed YCbCr images that make up the video frame by frame; used as a raw, color-sensitive video format before compressing into a more popular video format such as MPEG-2 or Matroska ( .MKV ).",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      }
+    ],
+    "macos": [
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      }
+    ],
+    "linux": [
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-07-31",
+  "sources": [
+    {
+      "url": "y4m.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

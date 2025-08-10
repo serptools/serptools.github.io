@@ -1,0 +1,129 @@
+{
+  "slug": "tz",
+  "extension": "tz",
+  "name": "Zipped Tar Archive",
+  "category": "1.-zipped-tar-archive",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Unix Tar archive zipped using a basic Unix compression algorithm; combines a .TAR archive and .Z file; used for archiving collections of files on Unix-based systems.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "smith-micro-stuffit-deluxe",
+        "display_name": "Smith Micro StuffIt Deluxe",
+        "status": "discontinued"
+      },
+      {
+        "software": "corel-winzip",
+        "display_name": "Corel WinZip"
+      },
+      {
+        "software": "tar",
+        "display_name": "tar"
+      },
+      {
+        "software": "gunzip",
+        "display_name": "gunzip"
+      },
+      {
+        "software": "topaz-labs-photo-ai",
+        "display_name": "Topaz Labs Photo AI"
+      },
+      {
+        "software": "topaz-labs-video-ai",
+        "display_name": "Topaz Labs Video AI"
+      },
+      {
+        "software": "topaz-labs-denoise-ai",
+        "display_name": "Topaz Labs DeNoise AI"
+      },
+      {
+        "software": "topaz-labs-sharpen-ai",
+        "display_name": "Topaz Labs Sharpen AI"
+      },
+      {
+        "software": "topaz-labs-gigapixel-ai",
+        "display_name": "Topaz Labs Gigapixel AI"
+      }
+    ],
+    "macos": [
+      {
+        "software": "smith-micro-stuffit-deluxe-mac-16",
+        "display_name": "Smith Micro StuffIt Deluxe Mac 16",
+        "status": "discontinued"
+      },
+      {
+        "software": "corel-winzip-mac",
+        "display_name": "Corel WinZip Mac"
+      },
+      {
+        "software": "topaz-labs-photo-ai",
+        "display_name": "Topaz Labs Photo AI"
+      },
+      {
+        "software": "topaz-labs-video-ai",
+        "display_name": "Topaz Labs Video AI"
+      },
+      {
+        "software": "topaz-labs-denoise-ai",
+        "display_name": "Topaz Labs DeNoise AI"
+      },
+      {
+        "software": "topaz-labs-sharpen-ai",
+        "display_name": "Topaz Labs Sharpen AI"
+      },
+      {
+        "software": "topaz-labs-gigapixel-ai",
+        "display_name": "Topaz Labs Gigapixel AI"
+      }
+    ],
+    "linux": [
+      {
+        "software": "tar",
+        "display_name": "tar"
+      },
+      {
+        "software": "gunzip",
+        "display_name": "gunzip"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "TZ file icon",
+      "alt": "TZ file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/tz-3344.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2008-11-29",
+  "sources": [
+    {
+      "url": "tz.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

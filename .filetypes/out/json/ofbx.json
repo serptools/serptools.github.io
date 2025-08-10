@@ -1,0 +1,51 @@
+{
+  "slug": "ofbx",
+  "extension": "ofbx",
+  "name": "Oxygen Forensics Detective Backup",
+  "category": "oxygen-forensics-detective-backup",
+  "developer_org": "oxygen-forensics",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "An OFBX file is a backup file created by Oxygen Forensics Detective, an application used to extract and analyze information extracted from various digital sources. It contains data extracted from a computer, mobile device, cloud service, drone, or Internet of Things ( IoT ) device that has been imported into Detective and organized for analysis purposes.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "oxygen-forensics-detective",
+        "display_name": "Oxygen Forensics Detective"
+      },
+      {
+        "software": "oxygen-forensics-viewer",
+        "display_name": "Oxygen Forensics Viewer"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-01-24",
+  "sources": [
+    {
+      "url": "ofbx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

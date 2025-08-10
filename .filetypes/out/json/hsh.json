@@ -1,0 +1,47 @@
+{
+  "slug": "hsh",
+  "extension": "hsh",
+  "name": "Windows Catalog Search Index File",
+  "category": "windows-catalog-search-index-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 2.5,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "System file created by Indexing Service, a component of the Windows operating system used for creating a searchable file system index; commonly created in the C:\\​System Volume Information\\​catalog.wci\\​ directory.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-windows",
+        "display_name": "Microsoft Windows"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-05-16",
+  "sources": [
+    {
+      "url": "hsh.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

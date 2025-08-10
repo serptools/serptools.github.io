@@ -1,0 +1,57 @@
+{
+  "slug": "mde",
+  "extension": "mde",
+  "name": "Compiled Access Add-in File",
+  "category": "1.-compiled-access-add-in-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 4.1,
+    "votes": 20,
+    "source": "fileinfo"
+  },
+  "summary": "Add-in file used by Microsoft Access, a program used for managing relational databases; stores the compiled version of an .MDA file, which contains Visual Basic for Applications (VBA) source code; protects the contents of the add-in by storing it in a compiled, binary format.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-access-365",
+        "display_name": "Microsoft Access 365"
+      },
+      {
+        "software": "graphisoft-archicad",
+        "display_name": "Graphisoft Archicad"
+      }
+    ],
+    "macos": [
+      {
+        "software": "graphisoft-archicad",
+        "display_name": "Graphisoft Archicad"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-03-28",
+  "sources": [
+    {
+      "url": "mde.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

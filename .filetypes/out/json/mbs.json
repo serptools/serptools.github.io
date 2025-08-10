@@ -1,0 +1,63 @@
+{
+  "slug": "mbs",
+  "extension": "mbs",
+  "name": "Opera Mailbox File",
+  "category": "opera-mailbox-file",
+  "developer_org": "opera-software",
+  "popularity": {
+    "rating": 2.5,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "Mailbox file created by Opera Mail, an email client built into the Opera Web browser; contains email messages for a specific mail folder, such as the inbox, drafts, or sent messages folders; stored in similar file format to the Mozilla Thunderbird mail folders.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "opera",
+        "display_name": "Opera"
+      },
+      {
+        "software": "aryson-mbox-viewer",
+        "display_name": "Aryson MBOX Viewer"
+      }
+    ],
+    "macos": [
+      {
+        "software": "opera",
+        "display_name": "Opera"
+      }
+    ],
+    "linux": [
+      {
+        "software": "opera",
+        "display_name": "Opera"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-03-27",
+  "sources": [
+    {
+      "url": "mbs.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "slug": "mdmp",
+  "extension": "mdmp",
+  "name": "Windows Minidump",
+  "category": "1.-windows-minidump",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 4.2,
+    "votes": 132,
+    "source": "fileinfo"
+  },
+  "summary": "An MDMP file is a compressed data file created by Windows after a program error or crash. It contains data \"dumped\" from the program's memory space, which includes information about the error that can be used for debugging. MDMP files are commonly created along with an uncompressed .HDMP file and can be sent to Microsoft as part of a bug reporting process.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-windows-sdk",
+        "display_name": "Microsoft Windows SDK"
+      },
+      {
+        "software": "microsoft-visual-studio-2022",
+        "display_name": "Microsoft Visual Studio 2022"
+      },
+      {
+        "software": "microsoft-windbg",
+        "display_name": "Microsoft WinDbg"
+      }
+    ],
+    "web": [
+      {
+        "software": ".jpg",
+        "display_name": ".JPG"
+      },
+      {
+        "software": ".png",
+        "display_name": ".PNG"
+      },
+      {
+        "software": ".webp",
+        "display_name": ".WEBP"
+      },
+      {
+        "software": "mindclouds.com",
+        "display_name": "Mindclouds.com"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-01-11",
+  "sources": [
+    {
+      "url": "mdmp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

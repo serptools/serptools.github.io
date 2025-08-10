@@ -1,0 +1,24 @@
+{
+  "slug": "abex",
+  "extension": "abex",
+  "name": "Enhanced Android Backup",
+  "category": "enhanced-android-backup",
+  "summary": "",
+  "developer_org": "camalot",
+  "developer_name": "Camalot",
+  "more_information": {
+    "description": [
+      "Droid Explorer allows Windows users to manage, explore, and back up a connected Android device's files. In addition to being able to produce normal Android backup files, Droid Explorer can produce ABEX, or enhanced Android backup, files. These files contain a unique header that links the backup they contain to a specific Android device, so the backup can be restored on only that device.",
+      "An example ABEX file header looks like:",
+      "ENHANCED ANDROID BACKUP\\n [DEVICE ID]\\n [Droid Explorer Version]\\n [ABEX Version]\\n $$$ ENHANCED ANDROID BACKUP $$$\\n",
+      "The backup the file contains begins beneath this header."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "abex.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

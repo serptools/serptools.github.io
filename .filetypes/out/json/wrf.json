@@ -1,0 +1,51 @@
+{
+  "slug": "wrf",
+  "extension": "wrf",
+  "name": "WebEx Recording",
+  "category": "webex-recording",
+  "developer_org": "cisco-systems",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 74,
+    "source": "fileinfo"
+  },
+  "summary": "A WRF file is a video recording created by Cisco WebEx Recorder, a screen-recording program that is an extension of Cisco WebEx. Typically, WRF files contain training videos or demonstrations. The files can be played in Cisco WebEx Player, which is freely available on WebEx's website.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "web": [
+      {
+        "software": "cisco-webex-player",
+        "display_name": "Cisco WebEx Player"
+      },
+      {
+        "software": "cisco-webex-wrf2wmv",
+        "display_name": "Cisco WebEx WRF2WMV"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-04-22",
+  "sources": [
+    {
+      "url": "wrf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

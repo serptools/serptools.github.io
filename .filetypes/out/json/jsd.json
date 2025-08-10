@@ -1,0 +1,51 @@
+{
+  "slug": "jsd",
+  "extension": "jsd",
+  "name": "Jazer Data File",
+  "category": "1.-jazer-data-file",
+  "developer_org": "jazer-solutions",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "File used by Jazer, a personal and professional financial management program for Windows; saved in a binary format and contains the user's financial data; replaced by the .JSDA format in later Jazer software versions.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "jazer",
+        "display_name": "Jazer"
+      },
+      {
+        "software": "hp-jetsuite-pro",
+        "display_name": "HP JetSuite Pro"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-11-06",
+  "sources": [
+    {
+      "url": "jsd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

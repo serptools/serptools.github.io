@@ -1,0 +1,23 @@
+{
+  "slug": "cpi",
+  "extension": "cpi",
+  "name": "AVCHD Video Clip Information",
+  "category": "avchd-video-clip-information",
+  "summary": "",
+  "developer_org": "microsoft",
+  "developer_name": "Microsoft",
+  "more_information": {
+    "description": [
+      "CPI files do not contain any video data. Instead, they contain data about the video with which they are associated, such as the video's frame rate, resolution, bitrate, and recording date and time.",
+      "Camcorders that create CPI files can load this metadata and use it to organize MTS videos, as well as show information about those videos to users. Various video players and editing programs can also load, use, and show the metadata CPI files contain.",
+      "If your camcorder creates both MTS and CPI files, and you want to transfer your recorded videos to your PC, it's recommended that you always copy the entire contents of your camcorder's SD card to your PC. If you copy only the MTS files to your PC (or otherwise alter your SD card's directory structure), you'll break the association between your MTS files and their related CPI files. This can cause video metadata to not appear in video players and editors."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "cpi.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

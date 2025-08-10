@@ -1,0 +1,53 @@
+{
+  "slug": "dolphinview",
+  "extension": "dolphinview",
+  "name": "Dolphin Folder View Settings File",
+  "category": "dolphin-folder-view-settings-file",
+  "developer_org": "dolphin",
+  "popularity": {
+    "rating": 4.2,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "Stores viewing preferences for a folder in Dolphin, a file manager for KDE (K Desktop Environment); contains window settings, such as icon positions and view mode; typically hidden by default.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "linux": [
+      {
+        "software": "dolphin-for-kde",
+        "display_name": "Dolphin for KDE"
+      }
+    ],
+    "windows": [
+      {
+        "software": "dolphin-for-kde",
+        "display_name": "Dolphin for KDE"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2008-11-24",
+  "sources": [
+    {
+      "url": "dolphinview.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

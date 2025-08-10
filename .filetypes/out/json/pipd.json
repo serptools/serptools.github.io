@@ -1,0 +1,52 @@
+{
+  "slug": "pipd",
+  "extension": "pipd",
+  "name": "PIPE-FLO Demo Project File",
+  "category": "pipe-flo-demo-project-file",
+  "developer_org": "engineered-software",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "CAD file created by the demo version of PIPE-FLO pipe system design software; saves a schematic of the piping system and incorporates pipelines, pumps, compressors, control valves, and other components; enables designs to be stored by the trial version of the software.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "engineered-software-pipe-flo",
+        "display_name": "Engineered Software PIPE-FLO"
+      },
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-05-03",
+  "sources": [
+    {
+      "url": "pipd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

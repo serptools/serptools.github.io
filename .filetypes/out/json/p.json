@@ -1,0 +1,114 @@
+{
+  "slug": "p",
+  "extension": "p",
+  "name": "Python Pickle File",
+  "category": "1.-python-pickle-file",
+  "developer_org": "python",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 72,
+    "source": "fileinfo"
+  },
+  "summary": "A P file is a pickle file created by pickle, a Python module used for converting Python objects to a byte representation for storage on disk or transfer over a network. It allows for objects to be conveniently stored or transmitted without first having to convert the data to another format. P files can be \"unpickled\" and loaded back into program memory during runtime.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "python-pickle",
+        "display_name": "Python pickle"
+      },
+      {
+        "software": "free-pascal",
+        "display_name": "Free Pascal",
+        "pricing": "free"
+      },
+      {
+        "software": "borland-turbo-pascal",
+        "display_name": "Borland Turbo Pascal"
+      },
+      {
+        "software": "irie-tools-irie-pascal",
+        "display_name": "Irie Tools Irie Pascal"
+      },
+      {
+        "software": "bare-bones-bbedit",
+        "display_name": "Bare Bones BBEdit"
+      },
+      {
+        "software": "lightwave-3d",
+        "display_name": "LightWave 3D"
+      },
+      {
+        "software": "ashton-tate-applause",
+        "display_name": "Ashton-Tate Applause",
+        "status": "discontinued"
+      },
+      {
+        "software": "the-mathworks-matlab",
+        "display_name": "The MathWorks MATLAB"
+      }
+    ],
+    "macos": [
+      {
+        "software": "python-pickle",
+        "display_name": "Python pickle"
+      },
+      {
+        "software": "macromates-textmate",
+        "display_name": "MacroMates TextMate"
+      },
+      {
+        "software": "free-pascal",
+        "display_name": "Free Pascal",
+        "pricing": "free"
+      },
+      {
+        "software": "bare-bones-bbedit",
+        "display_name": "Bare Bones BBEdit"
+      },
+      {
+        "software": "lightwave-3d",
+        "display_name": "LightWave 3D"
+      },
+      {
+        "software": "the-mathworks-matlab",
+        "display_name": "The MathWorks MATLAB"
+      }
+    ],
+    "linux": [
+      {
+        "software": "python-pickle",
+        "display_name": "Python pickle"
+      },
+      {
+        "software": "the-mathworks-matlab",
+        "display_name": "The MathWorks MATLAB"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-10-31",
+  "sources": [
+    {
+      "url": "p.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

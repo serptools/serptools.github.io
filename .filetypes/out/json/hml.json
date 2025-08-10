@@ -1,0 +1,47 @@
+{
+  "slug": "hml",
+  "extension": "hml",
+  "name": "HostMonitor TestList File",
+  "category": "hostmonitor-testlist-file",
+  "developer_org": "ks-soft",
+  "popularity": {
+    "rating": 2.6,
+    "votes": 16,
+    "source": "fileinfo"
+  },
+  "summary": "Contains a list of tasks to be run with HostMonitor, a server monitoring program; typically includes a list of servers with status information for each one.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "ks-soft-hostmonitor",
+        "display_name": "KS-Soft HostMonitor"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2008-11-15",
+  "sources": [
+    {
+      "url": "hml.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

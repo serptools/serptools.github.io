@@ -1,0 +1,53 @@
+{
+  "slug": "trak",
+  "extension": "trak",
+  "name": "Traktor Content Pack File",
+  "category": "traktor-content-pack-file",
+  "developer_org": "native-instruments",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "Package created for Traktor, a DJ audio mixing application; stores samples and settings for the digital mixer that comprise a \"remix set,\" or \"content pack;\" used for packaging custom DJ sounds together for making different audio mixes.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "native-instruments-traktor",
+        "display_name": "Native Instruments Traktor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "native-instruments-traktor",
+        "display_name": "Native Instruments Traktor"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2013-04-23",
+  "sources": [
+    {
+      "url": "trak.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

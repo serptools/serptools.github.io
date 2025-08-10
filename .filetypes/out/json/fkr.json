@@ -1,0 +1,53 @@
+{
+  "slug": "fkr",
+  "extension": "fkr",
+  "name": "Free Keylogger Report",
+  "category": "free-keylogger-report",
+  "developer_org": "iwantsoft",
+  "popularity": {
+    "rating": 1.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "An FKR file is a report created by IwantSoft FKL, a Windows keylogger and activity monitoring application. It contains a log of the actions a user performed on their computer during a monitored timeframe. For example, an FKR file lists the applications a user opened, the keys they pressed, and the websites they visited.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "iwantsoft-fkl",
+        "display_name": "IwantSoft FKL"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "FKR file open in IwantSoft FKL",
+      "alt": "FKR file open in IwantSoft FKL",
+      "source_url": "https://fileinfo.com/img/ss/md/fkr_13037.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-12-05",
+  "sources": [
+    {
+      "url": "fkr.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

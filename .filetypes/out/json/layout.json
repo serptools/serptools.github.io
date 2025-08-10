@@ -1,0 +1,89 @@
+{
+  "slug": "layout",
+  "extension": "layout",
+  "name": "Code::Blocks Workspace Layout File",
+  "category": "1.-code-blocks-workspace-layout-file",
+  "developer_org": "code-blocks",
+  "popularity": {
+    "rating": 3.2,
+    "votes": 24,
+    "source": "fileinfo"
+  },
+  "summary": "Application support file created by Code::Blocks, an open source software development IDE for C/C++; saves layout settings for the developer's workspace, such as which files were open and where they were positioned; saved with a .CBP (Code::Blocks project) file and used to restore the workspace layout for the project.",
+  "standards": [],
+  "mime_types": [
+    "c/c"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "code-blocks",
+        "display_name": "Code::Blocks"
+      },
+      {
+        "software": "show-package-contents-contents-resources-english.lproj",
+        "display_name": "Show Package Contents → Contents → Resources → English.lproj"
+      },
+      {
+        "software": "file-save-as...",
+        "display_name": "File → Save As..."
+      },
+      {
+        "software": "file-new",
+        "display_name": "File → New"
+      },
+      {
+        "software": "trimble-layout",
+        "display_name": "Trimble LayOut"
+      },
+      {
+        "software": "trimble-sketchup",
+        "display_name": "Trimble SketchUp"
+      }
+    ],
+    "macos": [
+      {
+        "software": "code-blocks",
+        "display_name": "Code::Blocks"
+      },
+      {
+        "software": "trimble-layout",
+        "display_name": "Trimble LayOut"
+      },
+      {
+        "software": "trimble-sketchup",
+        "display_name": "Trimble SketchUp"
+      }
+    ],
+    "linux": [
+      {
+        "software": "code-blocks",
+        "display_name": "Code::Blocks"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-12-23",
+  "sources": [
+    {
+      "url": "layout.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

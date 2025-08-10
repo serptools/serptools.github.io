@@ -1,0 +1,63 @@
+{
+  "slug": "wif",
+  "extension": "wif",
+  "name": "Weaving Interchange Format File",
+  "category": "weaving-interchange-format-file",
+  "developer_org": "canyon-art",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 10,
+    "source": "fileinfo"
+  },
+  "summary": "A WIF file is a pattern file saved in the Weaving Interchange Format (WIF) and used by WeaveIt software. It contains a draft pattern of a weave which consists of cells that can be used to mark positions and fill with color.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "canyon-art-weaveit",
+        "display_name": "Canyon Art WeaveIt"
+      },
+      {
+        "software": "canyon-art-iweaveit",
+        "display_name": "Canyon Art iWeaveIt"
+      }
+    ],
+    "macos": [
+      {
+        "software": "canyon-art-weaveit",
+        "display_name": "Canyon Art WeaveIt"
+      }
+    ],
+    "ios": [
+      {
+        "software": "canyon-art-iweaveit",
+        "display_name": "Canyon Art iWeaveIt"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2016-05-06",
+  "sources": [
+    {
+      "url": "wif.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

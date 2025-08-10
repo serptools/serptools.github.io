@@ -1,0 +1,47 @@
+{
+  "slug": "th",
+  "extension": "th",
+  "name": "Therion Data File",
+  "category": "therion-data-file",
+  "developer_org": "therion",
+  "popularity": {
+    "rating": 2.8,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Data file used by Therion, a cave system visualization application; contains \"centreline\" data, which represents the path of the logged locations in the cave; used for mapping underground cave systems and visualizing them in the software.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "therion",
+        "display_name": "Therion"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-08-03",
+  "sources": [
+    {
+      "url": "th.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

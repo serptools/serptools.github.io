@@ -1,0 +1,49 @@
+{
+  "slug": "dharma",
+  "extension": "dharma",
+  "name": "Dharma Ransomware Encrypted File",
+  "category": "dharma-ransomware-encrypted-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "A file with a .dharma extension is a file that has been encrypted by the Dharma virus, which is a variant of Crysis ransomware . It is encrypted so it is not possible to open the file by simply changing the .dharma file extension.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "system-restore",
+        "display_name": "System Restore"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-07-02",
+  "sources": [
+    {
+      "url": "dharma.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

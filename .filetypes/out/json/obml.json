@@ -1,0 +1,57 @@
+{
+  "slug": "obml",
+  "extension": "obml",
+  "name": "Opera Mini Saved Webpage",
+  "category": "opera-mini-saved-webpage",
+  "developer_org": "opera-software",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 14,
+    "source": "fileinfo"
+  },
+  "summary": "An OBML file is a webpage saved by Opera Mini, a mobile web browser. It contains source code formatted in the Opera Binary Markup Language (OBML), a compact format that reduces a webpage's size. OBML files were used to view webpages in Opera Mini while offline.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "operaminilargedevice",
+        "display_name": "OperaMiniLargeDevice"
+      },
+      {
+        "software": "microemulator",
+        "display_name": "MicroEmulator"
+      }
+    ],
+    "web": [
+      {
+        "software": "opera-mini-web-browser",
+        "display_name": "Opera Mini web browser"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-01-19",
+  "sources": [
+    {
+      "url": "obml.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

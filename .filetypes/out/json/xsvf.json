@@ -1,0 +1,57 @@
+{
+  "slug": "xsvf",
+  "extension": "xsvf",
+  "name": "Xilinx Serial Vector Format File",
+  "category": "xilinx-serial-vector-format-file",
+  "developer_org": "xilinx",
+  "popularity": {
+    "rating": 4.5,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Binary file created for testing programmable logic device (PLD) designs; contains the compact, binary version of an ASCII text .SVF file; used for optimizing the file format of test cases for Xilinx devices.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "xilinx-ise-design-suite",
+        "display_name": "Xilinx ISE Design Suite"
+      }
+    ],
+    "web": [
+      {
+        "software": "xilinx-ise-webpack",
+        "display_name": "Xilinx ISE WebPACK"
+      },
+      {
+        "software": "xilinx-ise-design-suite",
+        "display_name": "Xilinx ISE Design Suite"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-10-04",
+  "sources": [
+    {
+      "url": "xsvf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "slug": "aaa",
+  "extension": "aaa",
+  "name": "CryptoWall Ransomware Encrypted File",
+  "category": "cryptowall-ransomware-encrypted-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 1.3,
+    "votes": 29,
+    "source": "fileinfo"
+  },
+  "summary": "A file with an .aaa extension is a file that has been encrypted by version 3.0 of CryptoWall ransomware . It is encrypted with RSA-2048 encryption so it is not possible to open the file by simply changing the .aaa file extension.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "system-restore",
+        "display_name": "System Restore"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-11-13",
+  "sources": [
+    {
+      "url": "aaa.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "fvp",
+  "extension": "fvp",
+  "name": "File Viewer Plus Batch Presets File",
+  "category": "file-viewer-plus-batch-presets-file",
+  "developer_org": "sharpened-productions",
+  "popularity": {
+    "rating": 4.2,
+    "votes": 12,
+    "source": "fileinfo"
+  },
+  "summary": "An FVP file is a settings file created by File Viewer Plus, a universal file viewing and conversion application. It stores settings used by the batch file converter and includes the list of input files, conversion options, file renaming settings, and the target output directory.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "FVP file icon",
+      "alt": "FVP file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/fvp-10245.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2016-04-21",
+  "sources": [
+    {
+      "url": "fvp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

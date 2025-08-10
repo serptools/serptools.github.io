@@ -1,0 +1,113 @@
+{
+  "slug": "inp",
+  "extension": "inp",
+  "name": "Urdu InPage Document",
+  "category": "1.-urdu-inpage-document",
+  "developer_org": "concept-software",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 288,
+    "source": "fileinfo"
+  },
+  "summary": "An INP file is a text document created by Urdu InPage, a multilingual publishing application for the Urdu, Arabic, Persian, and English languages. It contains text saved in the Noorinastaliq font, which displays Urdu in nastaliq script. The INP format also supports standard page formatting.",
+  "standards": [],
+  "mime_types": [
+    "abaqus/cae",
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "concept-software-urdu-inpage",
+        "display_name": "Concept Software Urdu InPage"
+      },
+      {
+        "software": "metadata",
+        "display_name": "metadata"
+      },
+      {
+        "software": "dassault-systemes-abaqus",
+        "display_name": "Dassault Systemes Abaqus"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "mame",
+        "display_name": "MAME"
+      },
+      {
+        "software": "extramame",
+        "display_name": "ExtraMAME"
+      },
+      {
+        "software": "gretl",
+        "display_name": "gretl"
+      }
+    ],
+    "linux": [
+      {
+        "software": "dassault-systemes-abaqus",
+        "display_name": "Dassault Systemes Abaqus"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "web": [
+      {
+        "software": "sony-picture-motion-browser",
+        "display_name": "Sony Picture Motion Browser",
+        "status": "discontinued"
+      }
+    ],
+    "macos": [
+      {
+        "software": "macmame",
+        "display_name": "MacMAME"
+      },
+      {
+        "software": "mame-os-x",
+        "display_name": "MAME OS X"
+      },
+      {
+        "software": "gretl",
+        "display_name": "gretl"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-07-21",
+  "sources": [
+    {
+      "url": "inp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

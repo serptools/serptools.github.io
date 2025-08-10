@@ -1,0 +1,85 @@
+{
+  "slug": "xq",
+  "extension": "xq",
+  "name": "XQuery File",
+  "category": "xquery-file",
+  "developer_org": "the-w3c-xml-query-working-group",
+  "popularity": {
+    "rating": 4.2,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "File written using XQuery, a language used for querying and manipulating data from XML data sources; contains source code that reads and extracts information using a logical data model created from an XML data source; used in various Web and desktop software products for handling XML content.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "syncro-soft-oxygen-xml-editor",
+        "display_name": "SyncRO Soft oXygen XML Editor"
+      },
+      {
+        "software": "altova-xmlspy",
+        "display_name": "Altova XMLSpy"
+      },
+      {
+        "software": "progress-stylus-studio",
+        "display_name": "Progress Stylus Studio"
+      },
+      {
+        "software": "liquid-technologies-liquid-xml-studio",
+        "display_name": "Liquid Technologies Liquid XML Studio"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "macromates-textmate",
+        "display_name": "MacroMates TextMate"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "android": [
+      {
+        "software": "file-viewer-for-android",
+        "display_name": "File Viewer for Android"
+      }
+    ],
+    "linux": [
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-03-22",
+  "sources": [
+    {
+      "url": "xq.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "slug": "lxf",
+  "extension": "lxf",
+  "name": "LEGO Digital Designer Model File",
+  "category": "1.-lego-digital-designer-model-file",
+  "developer_org": "the-lego-group",
+  "popularity": {
+    "rating": 4.2,
+    "votes": 119,
+    "source": "fileinfo"
+  },
+  "summary": "An LXF file is a 3D model created by LEGO Digital Designer (LDD), a program used to construct virtual LEGO models. It is saved in a compressed .ZIP format and contains two files: IMAGE100.PNG (a .PNG design preview) and IMAGE100.LXFML (an .LXFML design file, written in XML ).",
+  "standards": [],
+  "mime_types": [
+    "harris/leitch",
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "lego-digital-designer",
+        "display_name": "LEGO Digital Designer",
+        "status": "discontinued"
+      },
+      {
+        "software": "bricksviewer",
+        "display_name": "BricksViewer"
+      },
+      {
+        "software": "bricklink-studio",
+        "display_name": "BrickLink Studio"
+      },
+      {
+        "software": "splash-meet-manager",
+        "display_name": "Splash Meet Manager"
+      },
+      {
+        "software": "7-zip",
+        "display_name": "7-Zip"
+      },
+      {
+        "software": "corel-winzip",
+        "display_name": "Corel WinZip"
+      },
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      }
+    ],
+    "macos": [
+      {
+        "software": "lego-digital-designer",
+        "display_name": "LEGO Digital Designer",
+        "status": "discontinued"
+      },
+      {
+        "software": "bricksviewer",
+        "display_name": "BricksViewer"
+      },
+      {
+        "software": "bricklink-studio",
+        "display_name": "BrickLink Studio"
+      },
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      }
+    ],
+    "linux": [
+      {
+        "software": "bricksviewer",
+        "display_name": "BricksViewer"
+      },
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "LXF file open in Lego Digital Designer 4.3",
+      "alt": "LXF file open in Lego Digital Designer 4.3",
+      "source_url": "https://fileinfo.com/img/ss/md/lxf_3027.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-05-07",
+  "sources": [
+    {
+      "url": "lxf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

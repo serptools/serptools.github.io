@@ -1,0 +1,55 @@
+{
+  "slug": "wtr",
+  "extension": "wtr",
+  "name": "Encarta File",
+  "category": "encarta-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 2.2,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Data file used by the Encarta encyclopedia program; contains resources referenced by encyclopedia entries; accessed by the Encarta software and should not be opened manually.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-encarta",
+        "display_name": "Microsoft Encarta",
+        "status": "discontinued"
+      }
+    ],
+    "macos": [
+      {
+        "software": "microsoft-encarta",
+        "display_name": "Microsoft Encarta",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-06-09",
+  "sources": [
+    {
+      "url": "wtr.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "slug": "h5m",
+  "extension": "h5m",
+  "name": "Heroes of Might and Magic V Map",
+  "category": "heroes-of-might-and-magic-v-map",
+  "developer_org": "ubisoft",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "An H5M file is a game map used by Heroes of Might and Magic V, a popular turn-based strategy game. Each H5M file is a renamed .ZIP file, which contains all the files needed to load a game map. Players can create H5M files with Heroes of Might and Magic V's Map Editor, added in version 1.3.",
+  "standards": [],
+  "mime_types": [
+    "and/or"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "rename-.h5m-to-.zip-decompress-with-any-zip-decompression-utility",
+        "display_name": "Rename .h5m to .zip ; decompress with any Zip-decompression utility"
+      },
+      {
+        "software": "ubisoft-heroes-of-might-and-magic-v",
+        "display_name": "Ubisoft Heroes of Might and Magic V",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-08-02",
+  "sources": [
+    {
+      "url": "h5m.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

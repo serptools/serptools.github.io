@@ -1,0 +1,67 @@
+{
+  "slug": "rol",
+  "extension": "rol",
+  "name": "Ad Lib Synthesized Instrument",
+  "category": "ad-lib-synthesized-instrument",
+  "developer_org": "ad-lib-inc.",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "An ROL file is an instrument used by Ad Lib Visual Composer, a music composition program popular in the late 1980s and early 1990s. It contains settings for FM synthesis, which define how an instrument sounds when played. Musicians and game developers primarily used ROL files with Ad Lib sound cards , which were among the first PC audio hardware to support synthesized music, to create synthesized music for early PC games.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "audio-overload",
+        "display_name": "Audio Overload"
+      },
+      {
+        "software": "ad-lib-visual-composer",
+        "display_name": "Ad Lib Visual Composer"
+      },
+      {
+        "software": "nullsoft-winamp-with-the-adplug-plugin",
+        "display_name": "Nullsoft Winamp with the AdPlug plugin"
+      }
+    ],
+    "macos": [
+      {
+        "software": "audio-overload",
+        "display_name": "Audio Overload"
+      }
+    ],
+    "linux": [
+      {
+        "software": "audio-overload",
+        "display_name": "Audio Overload"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2025-03-06",
+  "sources": [
+    {
+      "url": "rol.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

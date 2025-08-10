@@ -1,0 +1,83 @@
+{
+  "slug": "nitf",
+  "extension": "nitf",
+  "name": "National Imagery Transmission Format File",
+  "category": "national-imagery-transmission-format-file",
+  "developer_org": "u.s.-department-of-defense",
+  "popularity": {
+    "rating": 4.1,
+    "votes": 10,
+    "source": "fileinfo"
+  },
+  "summary": "Imaging data format used by the U.S. government and military for transmitting documents; may contain a combination of text, graphics, and metadata in a single file; also supports multiple layers; often used for satellite and aerial photos.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "nv5-geospatial-solutions-envi",
+        "display_name": "NV5 Geospatial Solutions ENVI"
+      },
+      {
+        "software": "erdas-imagine",
+        "display_name": "ERDAS IMAGINE"
+      },
+      {
+        "software": "newera-graphics-converter-pro",
+        "display_name": "Newera Graphics Converter Pro"
+      },
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      },
+      {
+        "software": "gdal",
+        "display_name": "GDAL"
+      }
+    ],
+    "macos": [
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      },
+      {
+        "software": "gdal",
+        "display_name": "GDAL"
+      }
+    ],
+    "linux": [
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      },
+      {
+        "software": "gdal",
+        "display_name": "GDAL"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-04-22",
+  "sources": [
+    {
+      "url": "nitf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "slug": "h5",
+  "extension": "h5",
+  "name": "Hierarchical Data Format 5 File",
+  "category": "hierarchical-data-format-5-file",
+  "developer_org": "the-hdf-group",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 55,
+    "source": "fileinfo"
+  },
+  "summary": "An H5 file is a data file saved in the Hierarchical Data Format (HDF). It contains multidimensional arrays of scientific data. H5 files are commonly used in aerospace, physics, engineering, finance, academic research, genomics, astronomy, electronics instruments, and medical fields.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "the-hdf-group-hdfview",
+        "display_name": "The HDF Group HDFView"
+      },
+      {
+        "software": "gdal",
+        "display_name": "GDAL"
+      },
+      {
+        "software": "wavemetrics-igor-pro",
+        "display_name": "WaveMetrics IGOR Pro"
+      },
+      {
+        "software": "pandas",
+        "display_name": "pandas"
+      },
+      {
+        "software": "basic-envisat-atmospheric-toolbox",
+        "display_name": "Basic ENVISAT Atmospheric Toolbox"
+      }
+    ],
+    "macos": [
+      {
+        "software": "the-hdf-group-hdfview",
+        "display_name": "The HDF Group HDFView"
+      },
+      {
+        "software": "basic-envisat-atmospheric-toolbox",
+        "display_name": "Basic ENVISAT Atmospheric Toolbox"
+      },
+      {
+        "software": "wavemetrics-igor-pro",
+        "display_name": "WaveMetrics IGOR Pro"
+      },
+      {
+        "software": "pandas",
+        "display_name": "pandas"
+      }
+    ],
+    "linux": [
+      {
+        "software": "the-hdf-group-hdfview",
+        "display_name": "The HDF Group HDFView"
+      },
+      {
+        "software": "basic-envisat-atmospheric-toolbox",
+        "display_name": "Basic ENVISAT Atmospheric Toolbox"
+      },
+      {
+        "software": "gdal",
+        "display_name": "GDAL"
+      },
+      {
+        "software": "pandas",
+        "display_name": "pandas"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-10-18",
+  "sources": [
+    {
+      "url": "h5.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

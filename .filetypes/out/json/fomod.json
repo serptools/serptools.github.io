@@ -1,0 +1,53 @@
+{
+  "slug": "fomod",
+  "extension": "fomod",
+  "name": "Fallout Mod Archive",
+  "category": "fallout-mod-archive",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 11,
+    "source": "fileinfo"
+  },
+  "summary": "Game file used by Fallout mod programs such as Fallout mod manager (FOMM) and Nexus Mod Manager (NMM); contains files that, when installed, change game content for Fallout 3 or Fallout: New Vegas; used for applying custom mods developed by game community members.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "fallout-mod-manager",
+        "display_name": "Fallout mod manager"
+      },
+      {
+        "software": "nexus-mod-manager",
+        "display_name": "Nexus Mod Manager"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-12-29",
+  "sources": [
+    {
+      "url": "fomod.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

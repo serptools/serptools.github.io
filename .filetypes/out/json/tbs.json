@@ -1,0 +1,51 @@
+{
+  "slug": "tbs",
+  "extension": "tbs",
+  "name": "TuneUp Utilities Boot Screen",
+  "category": "tuneup-utilities-boot-screen",
+  "developer_org": "tuneup-corporation",
+  "popularity": {
+    "rating": 2.8,
+    "votes": 10,
+    "source": "fileinfo"
+  },
+  "summary": "Image used for customizing the Windows boot screen with TuneUp Utilities; compressed using .ZIP compression to save disk space; may be modified using the TuneUp Styler (previously WinStyler) program included with TuneUp Utilities.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "avg-pc-tuneup-unlimited",
+        "display_name": "AVG PC TuneUp Unlimited"
+      },
+      {
+        "software": "snow-lands-bootscreenview",
+        "display_name": "Snow Lands BootScreenView"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-07-29",
+  "sources": [
+    {
+      "url": "tbs.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

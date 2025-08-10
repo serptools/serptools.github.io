@@ -1,0 +1,60 @@
+{
+  "slug": "aba",
+  "extension": "aba",
+  "name": "Palm Address Book Archive",
+  "category": "1.-palm-address-book-archive",
+  "developer_org": "palm",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "Address book archive file created by Palm mobile devices; contains contacts entries with name, organization, email address, phone number, title, and photos; use to backup and synchronize personal and professional contacts between computers and mobile devices.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "palm-desktop",
+        "display_name": "Palm Desktop"
+      }
+    ],
+    "macos": [
+      {
+        "software": "palm-desktop",
+        "display_name": "Palm Desktop"
+      }
+    ],
+    "web": [
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-01-15",
+  "sources": [
+    {
+      "url": "aba.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

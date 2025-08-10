@@ -1,0 +1,53 @@
+{
+  "slug": "olk14signature",
+  "extension": "olk14signature",
+  "name": "Outlook Signature File",
+  "category": "outlook-signature-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "HTML signature saved by Microsoft Outlook for Mac, an email program that replaced Microsoft Entourage; contains an email signature that is formatted using HTML code; saved and loaded automatically through the Outlook interface and is not directly accessed by the user.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "microsoft-outlook-365",
+        "display_name": "Microsoft Outlook 365"
+      }
+    ],
+    "windows": [
+      {
+        "software": "microsoft-outlook-365",
+        "display_name": "Microsoft Outlook 365"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-02-10",
+  "sources": [
+    {
+      "url": "olk14signature.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "plist",
+  "extension": "plist",
+  "name": "Property List",
+  "category": "property-list",
+  "summary": "",
+  "developer_org": "apple",
+  "developer_name": "Apple",
+  "more_information": {
+    "screenshot": {
+      "url": "https://fileinfo.com/img/ss/sm/plist_699.jpg",
+      "alt": "Screenshot of a .plist file in Apple Xcode",
+      "caption": "PLIST file open in Apple Xcode"
+    },
+    "description": [
+      "While developing a macOS or iOS application, developers create PLIST files that define several key pieces of the app's configuration information and metadata . Typically, these PLIST files are XML files, which store a list of Keys (setting names) and Values (settings).",
+      "As a developer finalizes their application for delivery to end users, they often convert some or all of their PLIST files to a binary format. For example, developers often convert PLIST files that track a user's preferences to binary. Thus, PLIST files packaged with or installed by an app may be plain text files or binary files.",
+      "NOTE: Some Apple applications for Windows, such as iTunes and Safari, also use PLIST files. Additionally, in some rare cases, PLIST files may use JSON formatting."
+    ]
+  },
+  "common_filenames": [
+    {
+      "filename": "Info.plist",
+      "description": "Info.plist - The primary property list for macOS applications, located in the /​Contents/​ directory of an .APP bundle. To view this file, right-click an application file, select Show Package Contents , and open the Contents folder."
+    }
+  ],
+  "images": [
+    {
+      "url": "https://fileinfo.com/img/ss/sm/plist_699.jpg",
+      "alt": "Screenshot of a .plist file in Apple Xcode",
+      "caption": "PLIST file open in Apple Xcode"
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "plist.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

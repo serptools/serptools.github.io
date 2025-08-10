@@ -1,0 +1,22 @@
+{
+  "slug": "aab",
+  "extension": "aab",
+  "name": "Android App Bundle",
+  "category": "android-app-bundle",
+  "summary": "",
+  "developer_org": "google",
+  "developer_name": "Google",
+  "more_information": {
+    "description": [
+      "Traditionally, developers have directly uploaded APK files to Google Play for distribution. However, with the release of the new Android App Bundle format, Google encourages developers to switch to the new format using Android Studio 3.2 or later. Once an AAB file has been uploaded to Google Play, Dynamic Delivery automatically creates and code signs optimized APK files.",
+      "NOTE: App bundles cannot be installed as Android apps on user devices. Instead, they are meant to be used for generating APK files for specific device configurations. If you'd like to generate APK files from an AAB file, you can use a tool called bundletool . Google provides this utility so that developers can perform local device testing before submitting app bundles to Google Play."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "aab.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

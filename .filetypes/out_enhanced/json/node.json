@@ -1,0 +1,25 @@
+{
+  "slug": "node",
+  "extension": "node",
+  "name": "Node.js Binary Addon File",
+  "category": "node.js-binary-addon-file",
+  "summary": "",
+  "developer_org": "n-a",
+  "developer_name": "N/A",
+  "more_information": {
+    "description": [
+      "Web and app developers utilize NODE files to create addons for Node.js applications. These addons allow Node.js applications to link to libraries that provide functionality. A reusable addon project typically consists of a package.json file, a binding.gyp file, and C++ source code, whereas non-reusable modules don't need the package.json file.",
+      "To create NODE files, the developers first install the \"node-gyp\" utility bundled with Node.js using the following command:",
+      "npm install -g node-gyp",
+      "Then, the developers create binding.gyp files that describe the build configuration of the Node.js module. They then use the node-gyp configure command to create the proper build files and utilize the node-gyp build command to create the addon.node file.",
+      "NOTE: To load an addon as a Node.js module, use the require() function."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "node.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

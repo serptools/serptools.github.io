@@ -1,0 +1,71 @@
+{
+  "slug": "brf",
+  "extension": "brf",
+  "name": "Braille Ready Format File",
+  "category": "1.-braille-ready-format-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 14,
+    "source": "fileinfo"
+  },
+  "summary": "Document saved in the ASCII-based Braille Ready Format (BRF); encodes contracted Braille characters using a numbering system; can be displayed on a Braille embosser or printed on a Braille printer; may also be spoken by software that supports Braille to speech functionality.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "duxbury-braille-translator",
+        "display_name": "Duxbury Braille Translator"
+      },
+      {
+        "software": "viewplus-tiger-software-suite",
+        "display_name": "ViewPlus Tiger Software Suite"
+      },
+      {
+        "software": "openbrf",
+        "display_name": "OpenBRF"
+      },
+      {
+        "software": "lucasarts-star-wars-x-wing",
+        "display_name": "LucasArts Star Wars: X-Wing"
+      },
+      {
+        "software": "x-wing-mission-builder",
+        "display_name": "X-Wing Mission Builder"
+      }
+    ],
+    "macos": [
+      {
+        "software": "lucasarts-star-wars-x-wing",
+        "display_name": "LucasArts Star Wars: X-Wing"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-08-23",
+  "sources": [
+    {
+      "url": "brf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

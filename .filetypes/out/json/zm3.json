@@ -1,0 +1,57 @@
+{
+  "slug": "zm3",
+  "extension": "zm3",
+  "name": "ZoneAlarm Renamed NCH File",
+  "category": "1.-zonealarm-renamed-nch-file",
+  "developer_org": "check-point",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 11,
+    "source": "fileinfo"
+  },
+  "summary": "Microsoft Outlook Express Folder ( .NCH ) file renamed by ZoneAlarm Mailsafe, part of the ZoneAlarm Internet Security Suite; renames the file extension of an Outlook Express folder as a safely precaution so that it cannot run malicious code.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "zonealarm-extreme-security",
+        "display_name": "ZoneAlarm Extreme Security"
+      },
+      {
+        "software": "zsnes",
+        "display_name": "ZSNES"
+      }
+    ],
+    "linux": [
+      {
+        "software": "zsnes",
+        "display_name": "ZSNES"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2013-08-16",
+  "sources": [
+    {
+      "url": "zm3.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

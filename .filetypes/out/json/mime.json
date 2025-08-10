@@ -1,0 +1,93 @@
+{
+  "slug": "mime",
+  "extension": "mime",
+  "name": "Multi-Purpose Internet Mail Extension",
+  "category": "multi-purpose-internet-mail-extension",
+  "developer_org": "the-internet-engineering-task-force",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 35,
+    "source": "fileinfo"
+  },
+  "summary": "Encoded file used by email programs; contains 8-bit encoded data, including characters other than the US ASCII character set; used to support file attachments and a richer character set instead of standard 7-bit messages that are normally sent over email.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "smith-micro-stuffit-deluxe",
+        "display_name": "Smith Micro StuffIt Deluxe",
+        "status": "discontinued"
+      },
+      {
+        "software": "corel-winzip",
+        "display_name": "Corel WinZip"
+      },
+      {
+        "software": "microsoft-outlook-365",
+        "display_name": "Microsoft Outlook 365"
+      },
+      {
+        "software": "mozilla-thunderbird",
+        "display_name": "Mozilla Thunderbird"
+      },
+      {
+        "software": "apple-mail",
+        "display_name": "Apple Mail"
+      },
+      {
+        "software": "kmail",
+        "display_name": "KMail"
+      }
+    ],
+    "macos": [
+      {
+        "software": "smith-micro-stuffit-deluxe-mac-16",
+        "display_name": "Smith Micro StuffIt Deluxe Mac 16",
+        "status": "discontinued"
+      },
+      {
+        "software": "microsoft-outlook-365",
+        "display_name": "Microsoft Outlook 365"
+      },
+      {
+        "software": "apple-mail",
+        "display_name": "Apple Mail"
+      },
+      {
+        "software": "mozilla-thunderbird",
+        "display_name": "Mozilla Thunderbird"
+      }
+    ],
+    "linux": [
+      {
+        "software": "kmail",
+        "display_name": "KMail"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-01-04",
+  "sources": [
+    {
+      "url": "mime.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

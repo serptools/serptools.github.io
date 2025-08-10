@@ -1,0 +1,49 @@
+{
+  "slug": "d3md",
+  "extension": "d3md",
+  "name": "DART Metadata File",
+  "category": "dart-metadata-file",
+  "developer_org": "simfront-simulation-systems-corporation",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "File used by Parrot, an audio recording application; contains metadata for use in DART repositories that contain digital assets; created by the Parrot application when recording audio transcripts from text files; contains metadata for the associated .WAV and .TXT files.​",
+  "standards": [],
+  "mime_types": [
+    "and/or"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "parrot",
+        "display_name": "Parrot"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-04-29",
+  "sources": [
+    {
+      "url": "d3md.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

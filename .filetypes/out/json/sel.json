@@ -1,0 +1,65 @@
+{
+  "slug": "sel",
+  "extension": "sel",
+  "name": "LinkOne Selection List File",
+  "category": "linkone-selection-list-file",
+  "developer_org": "mincom",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "File created by LinkOne software, which is used to view online manufacturing parts and services catalogues; stores the parts list picked by the user, as well as the selection field criteria; enables users to save catalogue information and reload it later.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "web": [
+      {
+        "software": "mincom-linkone-webview",
+        "display_name": "Mincom LinkOne WebView"
+      },
+      {
+        "software": "mincom-linkone-viewer",
+        "display_name": "Mincom LinkOne Viewer"
+      },
+      {
+        "software": "mincom-linkone-winview",
+        "display_name": "Mincom LinkOne WinView"
+      }
+    ],
+    "windows": [
+      {
+        "software": "mincom-linkone-viewer",
+        "display_name": "Mincom LinkOne Viewer"
+      },
+      {
+        "software": "mincom-linkone-winview",
+        "display_name": "Mincom LinkOne WinView"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-12-02",
+  "sources": [
+    {
+      "url": "sel.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "pqhero",
+  "extension": "pqhero",
+  "name": "Puzzle Quest Saved Game",
+  "category": "puzzle-quest-saved-game",
+  "developer_org": "infinite-interactive",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Game saved in Puzzle Quest: Challenge of the Warlords, a puzzle-based role playing game (RPG); saves the player's progress and game statistics so that gameplay can be resumed at a later time.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "infinite-interactive-puzzle-quest",
+        "display_name": "Infinite Interactive Puzzle Quest"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-01-05",
+  "sources": [
+    {
+      "url": "pqhero.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

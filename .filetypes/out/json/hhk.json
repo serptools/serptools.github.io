@@ -1,0 +1,48 @@
+{
+  "slug": "hhk",
+  "extension": "hhk",
+  "name": "HTML Help Index",
+  "category": "html-help-index",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Help index file created by Microsoft HTML Help, a program used for creating Windows help documentation; saves an index of keywords that each open a help page when clicked; enables quicker lookups for common terms.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-html-help-workshop",
+        "display_name": "Microsoft HTML Help Workshop",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-07-21",
+  "sources": [
+    {
+      "url": "hhk.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

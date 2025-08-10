@@ -1,0 +1,127 @@
+{
+  "slug": "fzp",
+  "extension": "fzp",
+  "name": "Fritzing XML Part Description",
+  "category": "1.-fritzing-xml-part-description",
+  "developer_org": "fritzing",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "An FZP file is an XML file created and used by Fritzing, an electronic circuit prototyping and design application. It contains XML-formatted text that describes a part used in a circuit. FZP files cannot be imported into Fritzing by themselves; they must be imported as part of .FZPZ files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "fritzing",
+        "display_name": "Fritzing"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "github-atom",
+        "display_name": "GitHub Atom",
+        "status": "discontinued"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      },
+      {
+        "software": "autodessys-form-z",
+        "display_name": "AutoDesSys form•Z"
+      }
+    ],
+    "macos": [
+      {
+        "software": "gnu-emacs",
+        "display_name": "GNU Emacs"
+      },
+      {
+        "software": "fritzing",
+        "display_name": "Fritzing"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "github-atom",
+        "display_name": "GitHub Atom",
+        "status": "discontinued"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      },
+      {
+        "software": "autodessys-form-z",
+        "display_name": "AutoDesSys form•Z"
+      }
+    ],
+    "chromeos": [
+      {
+        "software": "google-chrome-text",
+        "display_name": "Google Chrome Text"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "FZP file open in Microsoft Visual Studio Code",
+      "alt": "FZP file open in Microsoft Visual Studio Code",
+      "source_url": "https://fileinfo.com/img/ss/md/fzp_7383.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-05-14",
+  "sources": [
+    {
+      "url": "fzp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "g3m",
+  "extension": "g3m",
+  "name": "Casio fx-CG Prizm Memory File",
+  "category": "casio-fx-cg-prizm-memory-file",
+  "developer_org": "casio",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "A G3M file is a data file saved in the G3M format used by fx-CG Prizm series graphing calculators. It may contain various types of data, including an entire C.Basic or Casio Basic program or a single spreadsheet with list, table, matrix, and graph data. G3M files are typically stored in the storage or main memory directories of a graphing calculator.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "casio-fa-124",
+        "display_name": "Casio FA-124"
+      },
+      {
+        "software": "fx-cg-manager-plus-subscription",
+        "display_name": "fx-CG Manager PLUS Subscription"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-09-10",
+  "sources": [
+    {
+      "url": "g3m.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

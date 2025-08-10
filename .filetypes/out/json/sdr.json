@@ -1,0 +1,63 @@
+{
+  "slug": "sdr",
+  "extension": "sdr",
+  "name": "Dell Support File",
+  "category": "1.-dell-support-file",
+  "developer_org": "dell",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 25,
+    "source": "fileinfo"
+  },
+  "summary": "File named dell.sdr and located on Dell computers in the C:\\​ directory; contains system information and is used by Dell technical support purposes; should not be manually edited or deleted or any requests for Dell support may not work properly.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "dell-support-center",
+        "display_name": "Dell Support Center"
+      },
+      {
+        "software": "smartdraw",
+        "display_name": "SmartDraw"
+      }
+    ],
+    "macos": [
+      {
+        "software": "smartdraw",
+        "display_name": "SmartDraw"
+      }
+    ],
+    "web": [
+      {
+        "software": "smartdraw",
+        "display_name": "SmartDraw"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-06-20",
+  "sources": [
+    {
+      "url": "sdr.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

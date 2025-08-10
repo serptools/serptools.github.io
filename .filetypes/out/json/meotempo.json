@@ -1,0 +1,53 @@
+{
+  "slug": "meotempo",
+  "extension": "meotempo",
+  "name": "MeoTempo Agenda",
+  "category": "meotempo-agenda",
+  "developer_org": "aranatha",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "A MEOTEMPO file is a calendar-based agenda created by Aranatha MeoTempo. It lists events a user has entered on their calendar. The events a MEOTEMPO file contains may be organized by category.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "ios": [
+      {
+        "software": "aranatha-meotempo",
+        "display_name": "Aranatha MeoTempo"
+      }
+    ],
+    "windows": [
+      {
+        "software": "aranatha-meotempo",
+        "display_name": "Aranatha MeoTempo"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-01-04",
+  "sources": [
+    {
+      "url": "meotempo.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

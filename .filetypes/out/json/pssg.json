@@ -1,0 +1,52 @@
+{
+  "slug": "pssg",
+  "extension": "pssg",
+  "name": "EGO Engine Textures File",
+  "category": "ego-engine-textures-file",
+  "developer_org": "codemasters",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 17,
+    "source": "fileinfo"
+  },
+  "summary": "Graphics file used by games created with the EGO Engine, a race car game engine developed by Codemasters; contains textures for game objects, which may be stored in .DDS , .TGA , or .BMP files; used for racing car skins, track graphics, and other game graphics.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "f1-2010-textures-editor",
+        "display_name": "F1 2010 Textures Editor"
+      },
+      {
+        "software": "codemasters-colin-mcrae-dirt-3",
+        "display_name": "Codemasters Colin McRae: DiRT 3",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-12-14",
+  "sources": [
+    {
+      "url": "pssg.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

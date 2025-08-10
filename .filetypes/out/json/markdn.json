@@ -1,0 +1,73 @@
+{
+  "slug": "markdn",
+  "extension": "markdn",
+  "name": "Markdown File",
+  "category": "markdown-file",
+  "developer_org": "john-gruber",
+  "popularity": {
+    "rating": 2.3,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Text documentation file created using the Markdown markup language; may be named README.markdn and often contains the readme for a software development project; uses plain text markups that can be used to render the documentation with formatting (e.g., bold, indentations, headers, etc.).",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      }
+    ],
+    "macos": [
+      {
+        "software": "macromates-textmate",
+        "display_name": "MacroMates TextMate"
+      },
+      {
+        "software": "gnu-emace",
+        "display_name": "GNU Emace"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-11-18",
+  "sources": [
+    {
+      "url": "markdn.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

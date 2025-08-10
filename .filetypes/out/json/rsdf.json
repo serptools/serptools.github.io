@@ -1,0 +1,68 @@
+{
+  "slug": "rsdf",
+  "extension": "rsdf",
+  "name": "RapidShare Download File",
+  "category": "rapidshare-download-file",
+  "developer_org": "rapidshare",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 18,
+    "source": "fileinfo"
+  },
+  "summary": "An RSDF file is an encrypted file that contains links to downloadable files. It is used for saving a list of downloads. The links that RSDF files contain are encrypted to hide the file locations from the public.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "jdownloader",
+        "display_name": "JDownloader"
+      },
+      {
+        "software": "cryptload",
+        "display_name": "CryptLoad",
+        "status": "discontinued"
+      },
+      {
+        "software": "mipony",
+        "display_name": "Mipony"
+      }
+    ],
+    "macos": [
+      {
+        "software": "jdownloader",
+        "display_name": "JDownloader"
+      }
+    ],
+    "linux": [
+      {
+        "software": "jdownloader",
+        "display_name": "JDownloader"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-03-22",
+  "sources": [
+    {
+      "url": "rsdf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "temp",
+  "extension": "temp",
+  "name": "Temporary (Temp) File",
+  "category": "temporary-temp-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 81,
+    "source": "fileinfo"
+  },
+  "summary": "A TEMP file is a temporary file that may be created by various software programs. It is typically generated while the program is running to temporarily store information, then is automatically deleted when the program is closed.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "various-programs",
+        "display_name": "Various programs"
+      }
+    ],
+    "macos": [
+      {
+        "software": "various-programs",
+        "display_name": "Various programs"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-09-05",
+  "sources": [
+    {
+      "url": "temp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "visual_processed",
+  "extension": "visual_processed",
+  "name": "World of Tanks 3D Model Surface File",
+  "category": "world-of-tanks-3d-model-surface-file",
+  "developer_org": "bigworld-technology",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "3D model surface file format used by World of Tanks (WoT), a war game featuring battles between tanks and other armored vehicles; contains texture information about the surface of a tank 3D model; replaced the .VISUAL format with the release of WoT 0.9.10.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "wargaming.net-world-of-tanks",
+        "display_name": "Wargaming.net World of Tanks"
+      },
+      {
+        "software": "world-of-tanks-model-converter",
+        "display_name": "World of Tanks Model Converter"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2016-03-07",
+  "sources": [
+    {
+      "url": "visual_processed.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

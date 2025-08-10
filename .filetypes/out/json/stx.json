@@ -1,0 +1,102 @@
+{
+  "slug": "stx",
+  "extension": "stx",
+  "name": "Pinnacle Studio Project File",
+  "category": "1.-pinnacle-studio-project-file",
+  "developer_org": "pinnacle",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 20,
+    "source": "fileinfo"
+  },
+  "summary": "An STX file is a video project created by Corel Pinnacle Studio video editing software. It contains video project settings and references to media and other data files the project uses. Corel replaced STX files with .AXP files as the default project format, but Pinnacle Studio still supports STX files.",
+  "standards": [],
+  "mime_types": [
+    "n/a",
+    "vitamin/caig"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "corel-pinnacle-studio",
+        "display_name": "Corel Pinnacle Studio"
+      },
+      {
+        "software": "openmpt",
+        "display_name": "OpenMPT"
+      },
+      {
+        "software": "mikmod",
+        "display_name": "MikMod"
+      },
+      {
+        "software": "vitamin-caig-zxtune",
+        "display_name": "Vitamin/CAIG ZXTune"
+      },
+      {
+        "software": "cocomodx",
+        "display_name": "CocoModX",
+        "status": "discontinued"
+      },
+      {
+        "software": "extended-module-player",
+        "display_name": "Extended Module Player"
+      }
+    ],
+    "macos": [
+      {
+        "software": "cocomodx",
+        "display_name": "CocoModX",
+        "status": "discontinued"
+      },
+      {
+        "software": "mikmod",
+        "display_name": "MikMod"
+      },
+      {
+        "software": "vitamin-caig-zxtune",
+        "display_name": "Vitamin/CAIG ZXTune"
+      }
+    ],
+    "linux": [
+      {
+        "software": "extended-module-player",
+        "display_name": "Extended Module Player"
+      },
+      {
+        "software": "vitamin-caig-zxtune",
+        "display_name": "Vitamin/CAIG ZXTune"
+      }
+    ],
+    "android": [
+      {
+        "software": "vitamin-caig-zxtune",
+        "display_name": "Vitamin/CAIG ZXTune"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-08-11",
+  "sources": [
+    {
+      "url": "stx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

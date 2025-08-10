@@ -1,0 +1,63 @@
+{
+  "slug": "rl2",
+  "extension": "rl2",
+  "name": "Voyeur Game Video File",
+  "category": "voyeur-game-video-file",
+  "developer_org": "entertainment-software-partners",
+  "popularity": {
+    "rating": 1.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "An RL2 file is a video file used by Voyeur, an interactive movie video game released in 1993. It contains video data compressed with a simple Run Length Encoding (RLE) method, along with uncompressed audio data. RL2 files are primarily used to store cutscenes that are played during gameplay after a user selects an action.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      }
+    ],
+    "macos": [
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      }
+    ],
+    "linux": [
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-09-04",
+  "sources": [
+    {
+      "url": "rl2.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

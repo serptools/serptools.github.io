@@ -1,0 +1,109 @@
+{
+  "slug": "database_uuid",
+  "extension": "database_uuid",
+  "name": "Android Stale Thumbnails Identifier",
+  "category": "android-stale-thumbnails-identifier",
+  "developer_org": "google",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 333,
+    "source": "fileinfo"
+  },
+  "summary": "DATABASE_UUID is a hidden file stored in some Android devices' .THUMBNAILS folders. It contains a universally unique identifier ( UUID ) that Android uses to identify stale thumbnail collections. The UUIDs that DATABASE_UUID files contain are 32 characters long and written in the format 90f51180-158b-11eb-adc1-0242ac120003.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      },
+      {
+        "software": "rhythm-software-quickedit-text-editor",
+        "display_name": "Rhythm Software QuickEdit text editor"
+      },
+      {
+        "software": "aquamarine-networks-jota-text-editor",
+        "display_name": "Aquamarine Networks Jota Text Editor"
+      }
+    ],
+    "chromeos": [
+      {
+        "software": "google-chrome-text",
+        "display_name": "Google Chrome Text"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "android": [
+      {
+        "software": "rhythm-software-quickedit-text-editor",
+        "display_name": "Rhythm Software QuickEdit text editor"
+      },
+      {
+        "software": "aquamarine-networks-jota-text-editor",
+        "display_name": "Aquamarine Networks Jota Text Editor"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "DATABASE_UUID file open in Apple TextEdit",
+      "alt": "DATABASE_UUID file open in Apple TextEdit",
+      "source_url": "https://fileinfo.com/img/ss/md/database_uuid_12306.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-09-13",
+  "sources": [
+    {
+      "url": "database_uuid.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

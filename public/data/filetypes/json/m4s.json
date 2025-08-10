@@ -1,0 +1,23 @@
+{
+  "slug": "m4s",
+  "extension": "m4s",
+  "name": "MPEG-DASH Video Segment",
+  "category": "mpeg-dash-video-segment",
+  "summary": "",
+  "developer_org": "moving-picture-experts-group",
+  "developer_name": "Moving Picture Experts Group",
+  "more_information": {
+    "description": [
+      "MPEG-DASH is an adaptive bitrate streaming technique that allows users to stream high-quality video over the Internet using HTTP . Videos streamed using MPEG-DASH are divided into segments, which are made available at a variety of different bit rates. By dividing videos into segments and making those segments available at different bit rates, web clients can stream long videos smoothly without stalling or re-buffering.",
+      "When a user downloads a video streamed using MPEG-DASH, that video is saved as a series of M4S files. Each M4S file contains a specific segment of the streamed video. For example, a user who downloads a streamed YouTube video using youtube-dl may see the video saved as a series of M4S files.",
+      "NOTE: M4S files often do not contain audio data."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "m4s.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

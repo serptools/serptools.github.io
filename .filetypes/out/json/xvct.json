@@ -1,0 +1,53 @@
+{
+  "slug": "xvct",
+  "extension": "xvct",
+  "name": "VISE XML Project File",
+  "category": "vise-xml-project-file",
+  "developer_org": "mindvision-software",
+  "popularity": {
+    "rating": 2.7,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "XML project file created by VISE X, an application used to build Mac OS X installer files; contains references to the installation files and actions required to make the installation; used for exporting binary .VCT projects using XML formatting.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "mindvision-vise-x",
+        "display_name": "MindVision VISE X"
+      }
+    ],
+    "windows": [
+      {
+        "software": "mindvision-vise-x",
+        "display_name": "MindVision VISE X"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-05-05",
+  "sources": [
+    {
+      "url": "xvct.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

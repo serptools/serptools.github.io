@@ -1,0 +1,61 @@
+{
+  "slug": "r5a",
+  "extension": "r5a",
+  "name": "7ev3n Ransomware Encrypted File",
+  "category": "7ev3n-ransomware-encrypted-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "An R5A file is a file that has been encrypted by 7ev3n ransomware , which is malware distributed by cybercriminals. It contains a file, such as a .DOCX , .JPG , .PDF , or .ZIP file, that has been renamed and encrypted by the virus. R5A files can be decrypted for free using a decryption tool available on GitHub.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "hasherezade-malware_analysis",
+        "display_name": "hasherezade malware_analysis"
+      }
+    ],
+    "macos": [
+      {
+        "software": "hasherezade-malware_analysis",
+        "display_name": "hasherezade malware_analysis"
+      }
+    ],
+    "linux": [
+      {
+        "software": "hasherezade-malware_analysis",
+        "display_name": "hasherezade malware_analysis"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-09-21",
+  "sources": [
+    {
+      "url": "r5a.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

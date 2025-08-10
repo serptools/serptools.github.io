@@ -1,0 +1,70 @@
+{
+  "slug": "asdt",
+  "extension": "asdt",
+  "name": "AnthemScore Project",
+  "category": "anthemscore-project",
+  "developer_org": "lunaverus",
+  "popularity": {
+    "rating": 4.3,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "An ASDT file is a project file created by Lunaverus AnthemScore, an audio-file-to-sheet-music transcription program. It contains a reference to the audio file used to create the project and an editable sheet music transcription of the file. ASDT files can be opened only in the paid versions of AnthemScore.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "lunaverus-anthemscore",
+        "display_name": "Lunaverus AnthemScore"
+      }
+    ],
+    "macos": [
+      {
+        "software": "lunaverus-anthemscore",
+        "display_name": "Lunaverus AnthemScore"
+      }
+    ],
+    "linux": [
+      {
+        "software": "lunaverus-anthemscore",
+        "display_name": "Lunaverus AnthemScore"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "ASDT file icon",
+      "alt": "ASDT file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/asdt-13123.png"
+    },
+    {
+      "caption": "ASDT file open in Lunaverus AnthemScore",
+      "alt": "ASDT file open in Lunaverus AnthemScore",
+      "source_url": "https://fileinfo.com/img/ss/md/asdt_13123.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-01-23",
+  "sources": [
+    {
+      "url": "asdt.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

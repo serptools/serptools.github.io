@@ -1,0 +1,59 @@
+{
+  "slug": "bfx",
+  "extension": "bfx",
+  "name": "Bitware Fax Document",
+  "category": "bitware-fax-document",
+  "developer_org": "cheyenne",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "Fax created by Bitware, a once-popular digital fax program sold by Cheyenne; contains a digital fax that can be sent via a modem; can be converted into .PDF or .JPEG files using various programs.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "smart-faxsee",
+        "display_name": "Smart FaxSee"
+      },
+      {
+        "software": "faxsee-pro",
+        "display_name": "FaxSee Pro"
+      },
+      {
+        "software": "batch-fax-to-pdf",
+        "display_name": "Batch Fax to PDF"
+      },
+      {
+        "software": "batch-fax2jpeg",
+        "display_name": "Batch Fax2JPEG"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-02-01",
+  "sources": [
+    {
+      "url": "bfx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

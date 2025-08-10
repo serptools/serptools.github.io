@@ -1,0 +1,55 @@
+{
+  "slug": "his",
+  "extension": "his",
+  "name": "FindinSite Database Definition File",
+  "category": "findinsite-database-definition-file",
+  "developer_org": "phdcc",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "Descriptor file that describes a full text searchable database; used by FindinSite search engines developed by PHD Computer Consultants Ltd; provides a standard means of describing the structure and contents of a FindinSite database.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "phdcc-findinsite-cd",
+        "display_name": "PHDCC FindinSite-CD"
+      },
+      {
+        "software": "phdcc-findinsite-ms",
+        "display_name": "PHDCC FindinSite-MS"
+      },
+      {
+        "software": "phdcc-findinsite-js",
+        "display_name": "PHDCC FindinSite-JS"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-06-22",
+  "sources": [
+    {
+      "url": "his.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

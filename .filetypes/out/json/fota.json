@@ -1,0 +1,47 @@
+{
+  "slug": "fota",
+  "extension": "fota",
+  "name": "Firmware Over-the-Air File",
+  "category": "firmware-over-the-air-file",
+  "developer_org": "google",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 25,
+    "source": "fileinfo"
+  },
+  "summary": "Firmware file used for upgrading the operating system, theme, and other system data on mobile devices such as Samsung phones; delivered wirelessly on demand to the user's mobile phone during an update without requiring connection to a PC.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "android": [
+      {
+        "software": "google-android",
+        "display_name": "Google Android"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-04-23",
+  "sources": [
+    {
+      "url": "fota.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

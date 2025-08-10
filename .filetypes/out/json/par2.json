@@ -1,0 +1,67 @@
+{
+  "slug": "par2",
+  "extension": "par2",
+  "name": "Parchive 2 File",
+  "category": "parchive-2-file",
+  "developer_org": "parchive",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "A PAR2 file is a parity volume or index created by Parchive 2 (PAR2). PAR2 parity volumes are used to recover a damaged or missing file included in a group of files. PAR2 indexes are used to identify and verify the integrity of files associated with a set of parity volumes.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "quickpar",
+        "display_name": "QuickPar"
+      },
+      {
+        "software": "multipar",
+        "display_name": "MultiPar"
+      },
+      {
+        "software": "pypar2",
+        "display_name": "PyPar2"
+      }
+    ],
+    "macos": [
+      {
+        "software": "macpar-deluxe",
+        "display_name": "MacPAR Deluxe"
+      }
+    ],
+    "linux": [
+      {
+        "software": "pypar2",
+        "display_name": "PyPar2"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-02-08",
+  "sources": [
+    {
+      "url": "par2.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

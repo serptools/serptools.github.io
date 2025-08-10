@@ -1,0 +1,119 @@
+{
+  "slug": "aic",
+  "extension": "aic",
+  "name": "Advanced Image Coding File",
+  "category": "1.-advanced-image-coding-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 2.9,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "Bitmap image file encoded with Advanced Image Coding; uses a compression algorithm that combines the JPEG and H.264 standards; similar to the JPEG 2000 ( .JP2 ) format, but offers higher compression efficiency and scalability.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "aic-software-aicsetup.exe",
+        "display_name": "AIC software (AICSetup.exe)"
+      },
+      {
+        "software": "file-new...",
+        "display_name": "File → New..."
+      },
+      {
+        "software": "file-save",
+        "display_name": "File → Save"
+      },
+      {
+        "software": "save",
+        "display_name": "Save"
+      },
+      {
+        "software": ".ai",
+        "display_name": ".AI"
+      },
+      {
+        "software": ".eps",
+        "display_name": ".EPS"
+      },
+      {
+        "software": ".svg",
+        "display_name": ".SVG"
+      },
+      {
+        "software": ".pdf",
+        "display_name": ".PDF"
+      },
+      {
+        "software": ".jpg",
+        "display_name": ".JPG"
+      },
+      {
+        "software": ".png",
+        "display_name": ".PNG"
+      },
+      {
+        "software": ".tif",
+        "display_name": ".TIF"
+      },
+      {
+        "software": ".dwg",
+        "display_name": ".DWG"
+      },
+      {
+        "software": ".emf",
+        "display_name": ".EMF"
+      },
+      {
+        "software": ".wmf",
+        "display_name": ".WMF"
+      },
+      {
+        "software": ".bmp",
+        "display_name": ".BMP"
+      },
+      {
+        "software": ".psd",
+        "display_name": ".PSD"
+      },
+      {
+        "software": "adobe-illustrator-2025",
+        "display_name": "Adobe Illustrator 2025"
+      }
+    ],
+    "macos": [
+      {
+        "software": "adobe-illustrator-2025",
+        "display_name": "Adobe Illustrator 2025"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-06-20",
+  "sources": [
+    {
+      "url": "aic.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

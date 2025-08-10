@@ -1,0 +1,47 @@
+{
+  "slug": "rls",
+  "extension": "rls",
+  "name": "Symbian Localization File",
+  "category": "symbian-localization-file",
+  "developer_org": "nokia",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Developer file used by Symbian OS mobile applications; contains strings, such as user popup messages and menu text, that are translated into different languages; allows an application to be localized into multiple languages.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "nokia-symbian-sdk",
+        "display_name": "Nokia Symbian SDK"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-08-12",
+  "sources": [
+    {
+      "url": "rls.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

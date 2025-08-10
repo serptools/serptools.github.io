@@ -1,0 +1,79 @@
+{
+  "slug": "aqt",
+  "extension": "aqt",
+  "name": "AQTitle Subtitles File",
+  "category": "aqtitle-subtitles-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.2,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "Movie subtitles file created in the AQTitle format, an older format used by the Czech subtitling community; uses a plain text format that specifies when each subtitle should be displayed; not a common format, but supported by some modern video players.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "AQT file icon",
+      "alt": "AQT file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/aqt-8065.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-08-16",
+  "sources": [
+    {
+      "url": "aqt.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

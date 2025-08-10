@@ -1,0 +1,77 @@
+{
+  "slug": "tub",
+  "extension": "tub",
+  "name": "PaintShop Pro Picture Tube",
+  "category": "paintshop-pro-picture-tube",
+  "developer_org": "corel",
+  "popularity": {
+    "rating": 2.5,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "File used by PaintShop Pro, a graphics editing program; contains graphics that can be painted repeatedly without drawing the actual objects; may include fish, plants, butterflies, and other images; painted like a paint brush, but draws images instead of paint.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "corel-paintshop-pro-2023",
+        "display_name": "Corel PaintShop Pro 2023"
+      },
+      {
+        "software": "tubeex",
+        "display_name": "TubeEx"
+      },
+      {
+        "software": "gimp-with-tub-loader-plugin",
+        "display_name": "GIMP with Tub loader plugin"
+      },
+      {
+        "software": "chasys-draw-ies",
+        "display_name": "Chasys Draw IES"
+      }
+    ],
+    "macos": [
+      {
+        "software": "gimp-with-tub-loader-plugin",
+        "display_name": "GIMP with Tub loader plugin"
+      }
+    ],
+    "linux": [
+      {
+        "software": "gimp-with-tub-loader-plugin",
+        "display_name": "GIMP with Tub loader plugin"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "TUB file icon",
+      "alt": "TUB file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/tub-860.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-08-20",
+  "sources": [
+    {
+      "url": "tub.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

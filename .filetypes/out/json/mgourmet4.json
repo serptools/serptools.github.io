@@ -1,0 +1,70 @@
+{
+  "slug": "mgourmet4",
+  "extension": "mgourmet4",
+  "name": "MacGourmet Deluxe 4 Recipes",
+  "category": "macgourmet-deluxe-4-recipes",
+  "developer_org": "mariner-software",
+  "popularity": {
+    "rating": 2.8,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "An MGOURMET4 file is a recipe collection exported from Mariner MacGourmet Deluxe 4. It contains one or more meal recipes, as well as images and notes associated with those recipes. MGOURMET 4 files are used to back up or share recipes.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "mariner-macgourmet-deluxe",
+        "display_name": "Mariner MacGourmet Deluxe",
+        "status": "discontinued"
+      },
+      {
+        "software": "hindsight-labs-paprika-recipe-manager",
+        "display_name": "Hindsight Labs Paprika Recipe Manager"
+      }
+    ],
+    "windows": [
+      {
+        "software": "hindsight-labs-paprika-recipe-manager",
+        "display_name": "Hindsight Labs Paprika Recipe Manager"
+      }
+    ],
+    "ios": [
+      {
+        "software": "hindsight-labs-paprika-recipe-manager",
+        "display_name": "Hindsight Labs Paprika Recipe Manager"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "MGOURMET4 file icon",
+      "alt": "MGOURMET4 file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/mgourmet4-8992.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-08-25",
+  "sources": [
+    {
+      "url": "mgourmet4.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

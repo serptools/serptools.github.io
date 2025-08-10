@@ -1,0 +1,73 @@
+{
+  "slug": "sls",
+  "extension": "sls",
+  "name": "Image Playlist",
+  "category": "image-playlist",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 2.2,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "An SLS file is an image playlist that stores a list of file paths to images included in a slideshow presentation. It is a plain text file that discontinued programs like My Photo Gallery referenced to ensure images are displayed in a specific order without altering the image files.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "gedit",
+        "display_name": "gedit"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      }
+    ],
+    "linux": [
+      {
+        "software": "gedit",
+        "display_name": "gedit"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2025-02-13",
+  "sources": [
+    {
+      "url": "sls.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "slug": "lgo",
+  "extension": "lgo",
+  "name": "Logo Instructions File",
+  "category": "logo-instructions-file",
+  "developer_org": "softronics",
+  "popularity": {
+    "rating": 4.4,
+    "votes": 43,
+    "source": "fileinfo"
+  },
+  "summary": "Saved program code written for Logo, an application that uses programmed instructions to draw pictures; contains code that defines where the \"turtle\" should draw each line; can be used for drawing basic or elaborate designs; often used for educational purposes.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "softronics-msw-logo",
+        "display_name": "Softronics MSW Logo"
+      },
+      {
+        "software": "transum-online-logo",
+        "display_name": "Transum Online Logo"
+      },
+      {
+        "software": "logo-interpreter",
+        "display_name": "Logo Interpreter"
+      },
+      {
+        "software": "turtle-academy",
+        "display_name": "Turtle Academy"
+      },
+      {
+        "software": "simple-turtle-logo",
+        "display_name": "Simple Turtle LOGO"
+      }
+    ],
+    "web": [
+      {
+        "software": "transum-online-logo",
+        "display_name": "Transum Online Logo"
+      },
+      {
+        "software": "logo-interpreter",
+        "display_name": "Logo Interpreter"
+      },
+      {
+        "software": "turtle-academy",
+        "display_name": "Turtle Academy"
+      }
+    ],
+    "android": [
+      {
+        "software": "simple-turtle-logo",
+        "display_name": "Simple Turtle LOGO"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2007-10-10",
+  "sources": [
+    {
+      "url": "lgo.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

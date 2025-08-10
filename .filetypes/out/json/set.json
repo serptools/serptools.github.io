@@ -1,0 +1,75 @@
+{
+  "slug": "set",
+  "extension": "set",
+  "name": "Document Library Property Set File",
+  "category": "1.-document-library-property-set-file",
+  "developer_org": "xerox",
+  "popularity": {
+    "rating": 4.3,
+    "votes": 1367,
+    "source": "fileinfo"
+  },
+  "summary": "A SET file contains properties used by Xerox Document Library software, which organizes documents into virtual \"cabinets\" on a computer. It stores property sets that can be applied to cabinets created by Xerox FreeFlow software.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "xerox-library-administration-tool",
+        "display_name": "Xerox Library Administration Tool"
+      },
+      {
+        "software": "referenced-by-various-programs",
+        "display_name": "Referenced by various programs"
+      },
+      {
+        "software": "alpha-software-alpha-anywhere",
+        "display_name": "Alpha Software Alpha Anywhere"
+      },
+      {
+        "software": "rockstar-games-grand-theft-auto-san-andreas",
+        "display_name": "Rockstar Games Grand Theft Auto: San Andreas"
+      },
+      {
+        "software": "rockstar-games-grand-theft-auto-3",
+        "display_name": "Rockstar Games Grand Theft Auto 3"
+      },
+      {
+        "software": "rockstar-games-grand-theft-auto-vice-city",
+        "display_name": "Rockstar Games Grand Theft Auto: Vice City"
+      }
+    ],
+    "macos": [
+      {
+        "software": "referenced-by-various-programs",
+        "display_name": "Referenced by various programs"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-08-25",
+  "sources": [
+    {
+      "url": "set.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

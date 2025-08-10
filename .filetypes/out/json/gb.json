@@ -1,0 +1,110 @@
+{
+  "slug": "gb",
+  "extension": "gb",
+  "name": "Game Boy ROM File",
+  "category": "1.-game-boy-rom-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 4.2,
+    "votes": 38,
+    "source": "fileinfo"
+  },
+  "summary": "A GB file is a ROM image of a Nintendo Game Boy video game. It stores the complete data of a Game Boy game dumped from a game cartridge. Gamers load GB files in a Game Boy emulation program on a computer to play games without the Game Boy console.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "visualboyadvance",
+        "display_name": "VisualBoyAdvance"
+      },
+      {
+        "software": "bgb",
+        "display_name": "BGB"
+      },
+      {
+        "software": "tgb-dual",
+        "display_name": "TGB Dual"
+      },
+      {
+        "software": "kigb",
+        "display_name": "KiGB"
+      },
+      {
+        "software": "retroarch",
+        "display_name": "RetroArch"
+      },
+      {
+        "software": "genome-compiler",
+        "display_name": "Genome Compiler",
+        "status": "discontinued"
+      }
+    ],
+    "macos": [
+      {
+        "software": "visualboyadvance",
+        "display_name": "VisualBoyAdvance"
+      },
+      {
+        "software": "retroarch",
+        "display_name": "RetroArch"
+      },
+      {
+        "software": "genome-compiler",
+        "display_name": "Genome Compiler",
+        "status": "discontinued"
+      }
+    ],
+    "linux": [
+      {
+        "software": "retroarch",
+        "display_name": "RetroArch"
+      }
+    ],
+    "ios": [
+      {
+        "software": "heracle-biosoft-dna-baser",
+        "display_name": "Heracle BioSoft DNA Baser"
+      }
+    ],
+    "web": [
+      {
+        "software": "genome-compiler",
+        "display_name": "Genome Compiler",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "GB file open in VisualBoyAdvance 2",
+      "alt": "GB file open in VisualBoyAdvance 2",
+      "source_url": "https://fileinfo.com/img/ss/md/gb_2942.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-07-07",
+  "sources": [
+    {
+      "url": "gb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

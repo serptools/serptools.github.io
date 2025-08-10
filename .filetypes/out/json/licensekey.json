@@ -1,0 +1,53 @@
+{
+  "slug": "licensekey",
+  "extension": "licensekey",
+  "name": "iPartition License Key File",
+  "category": "ipartition-license-key-file",
+  "developer_org": "coriolis-systems",
+  "popularity": {
+    "rating": 2.6,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "Software license file used by iPartition, a program that allows users to partition hard drives on Mac computers; stores information that is used to register a purchased, legal copy of the software on the computer.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "coriolis-systems-ipartition",
+        "display_name": "Coriolis Systems iPartition"
+      }
+    ],
+    "windows": [
+      {
+        "software": "coriolis-systems-ipartition",
+        "display_name": "Coriolis Systems iPartition"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-09-24",
+  "sources": [
+    {
+      "url": "licensekey.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

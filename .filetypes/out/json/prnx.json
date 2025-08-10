@@ -1,0 +1,47 @@
+{
+  "slug": "prnx",
+  "extension": "prnx",
+  "name": "XtraReports PrintingSystem Document",
+  "category": "xtrareports-printingsystem-document",
+  "developer_org": "devexpress",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 37,
+    "source": "fileinfo"
+  },
+  "summary": "A PRNX file is a document created by the PrintingSystem component of XtraReports, which is a tool included in the DevExpress Reporting Suite that is used for creating complex, master-detail reports. It is saved in the Print Document format, which is based on XML language. PRNX files allow XtraReports users to save, close, and re-open report documents.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "devexpress-reporting-suite",
+        "display_name": "DevExpress Reporting Suite"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-02-12",
+  "sources": [
+    {
+      "url": "prnx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

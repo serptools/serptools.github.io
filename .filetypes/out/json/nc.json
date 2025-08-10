@@ -1,0 +1,120 @@
+{
+  "slug": "nc",
+  "extension": "nc",
+  "name": "Mastercam Numerical Control File",
+  "category": "1.-mastercam-numerical-control-file",
+  "developer_org": "cnc-software",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 66,
+    "source": "fileinfo"
+  },
+  "summary": "An NC file is a data file created by CNC Mastercam, a suite of CAD tools used for designing and manufacturing mechanical components. It contains numerical control instructions for directing a CNC machine tool, such as a router, drill, or boring tool, during the production of the component.",
+  "standards": [],
+  "mime_types": [
+    "cad/cam",
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "cnc-software-mastercam",
+        "display_name": "CNC Software Mastercam"
+      },
+      {
+        "software": "cnc-software-mastercam-learning-edition",
+        "display_name": "CNC Software Mastercam Learning Edition"
+      },
+      {
+        "software": "unidata-netcdf",
+        "display_name": "Unidata netCDF"
+      },
+      {
+        "software": "microsoft-excel-with-netcdf4excel-add-in",
+        "display_name": "Microsoft Excel with netcdf4excel add-in"
+      },
+      {
+        "software": "the-mathworks-matlab-with-njtbx-extension",
+        "display_name": "The MathWorks MATLAB with njTBX extension"
+      },
+      {
+        "software": "originlab-origin",
+        "display_name": "OriginLab Origin"
+      },
+      {
+        "software": "autodesk-advance-steel",
+        "display_name": "Autodesk Advance Steel"
+      },
+      {
+        "software": "tekla-structures",
+        "display_name": "Tekla Structures"
+      },
+      {
+        "software": "steel-projects-cad-viewer",
+        "display_name": "Steel Projects CAD Viewer"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "mcrypt",
+        "display_name": "mcrypt"
+      },
+      {
+        "software": "unidata-netcdf",
+        "display_name": "Unidata netCDF"
+      },
+      {
+        "software": "ncview",
+        "display_name": "NcView"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "unidata-netcdf",
+        "display_name": "Unidata netCDF"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "NC file open in CNC Software Mastercam Learning Edition 2023",
+      "alt": "NC file open in CNC Software Mastercam Learning Edition 2023",
+      "source_url": "https://fileinfo.com/img/ss/md/nc_4423.jpg"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-07-28",
+  "sources": [
+    {
+      "url": "nc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

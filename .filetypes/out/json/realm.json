@@ -1,0 +1,72 @@
+{
+  "slug": "realm",
+  "extension": "realm",
+  "name": "Realm Database",
+  "category": "realm-database",
+  "developer_org": "mongodb",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "A REALM file is a database created using MongoDB Realm, an open-source database management system. It contains data used by one or more applications, organized as a series of types and objects. You can open REALM files and view the data they contain in MongoDB Realm Studio.",
+  "standards": [],
+  "mime_types": [
+    "data/data"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "mongodb-realm-studio",
+        "display_name": "MongoDB Realm Studio"
+      }
+    ],
+    "macos": [
+      {
+        "software": "mongodb-realm-studio",
+        "display_name": "MongoDB Realm Studio"
+      }
+    ],
+    "linux": [
+      {
+        "software": "mongodb-realm-studio",
+        "display_name": "MongoDB Realm Studio"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "REALM file icon",
+      "alt": "REALM file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/realm-12239.png"
+    },
+    {
+      "caption": "REALM file open in MongoDB Realm Studio 11",
+      "alt": "REALM file open in MongoDB Realm Studio 11",
+      "source_url": "https://fileinfo.com/img/ss/md/realm_12239.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-08-11",
+  "sources": [
+    {
+      "url": "realm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

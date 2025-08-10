@@ -1,0 +1,47 @@
+{
+  "slug": "nwbak",
+  "extension": "nwbak",
+  "name": "NeatWorks Backup File",
+  "category": "neatworks-backup-file",
+  "developer_org": "the-neat-company",
+  "popularity": {
+    "rating": 2.4,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Backup file created by NeatWorks, which is an older version of the digital filing system software, Neat 5; similar to the .NBAK and .NRBAK files; contains a backup of your scanned documents, including contacts and receipts.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "neat",
+        "display_name": "Neat"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2016-03-02",
+  "sources": [
+    {
+      "url": "nwbak.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

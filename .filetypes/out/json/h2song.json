@@ -1,0 +1,89 @@
+{
+  "slug": "h2song",
+  "extension": "h2song",
+  "name": "Hydrogen Song",
+  "category": "hydrogen-song",
+  "developer_org": "alessandro-cominu",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "An H2SONG file is a song created by Hydrogen, a music synthesizer. It contains information about a song in the XML standard, including the pattern, notes, and drum sound data the program plays according to the notes in the pattern. Hydrogen users save their compositions as H2SONG files to preserve their progress and can later export the songs to more widely supported formats, such as .WAV or .AIFF , for sharing purposes.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "hydrogen",
+        "display_name": "Hydrogen"
+      },
+      {
+        "software": "lmms",
+        "display_name": "LMMS"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "hydrogen",
+        "display_name": "Hydrogen"
+      },
+      {
+        "software": "lmms",
+        "display_name": "LMMS"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "hydrogen",
+        "display_name": "Hydrogen"
+      },
+      {
+        "software": "lmms",
+        "display_name": "LMMS"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "H2SONG file open in Hydrogen 1",
+      "alt": "H2SONG file open in Hydrogen 1",
+      "source_url": "https://fileinfo.com/img/ss/md/h2song_13723.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2024-07-29",
+  "sources": [
+    {
+      "url": "h2song.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

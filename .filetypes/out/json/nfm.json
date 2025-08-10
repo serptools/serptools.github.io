@@ -1,0 +1,47 @@
+{
+  "slug": "nfm",
+  "extension": "nfm",
+  "name": "Delphi .NET Form File",
+  "category": "delphi-.net-form-file",
+  "developer_org": "embarcadero-technologies",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "Developer file created by Delphi Windows development software; saves a visual form that can be compiled into an application that runs on Microsoft's .NET Framework; differs from a .DFM file, which can be compiled into a native Win32 executable ( .EXE ) that does not require the .NET Framework.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "embarcadero-delphi",
+        "display_name": "Embarcadero Delphi"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-04-24",
+  "sources": [
+    {
+      "url": "nfm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

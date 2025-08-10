@@ -1,0 +1,64 @@
+{
+  "slug": "locker",
+  "extension": "locker",
+  "name": "NordLocker Encrypted Archive",
+  "category": "nordlocker-encrypted-archive",
+  "developer_org": "nordlocker",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "A LOCKER file is an encrypted archive created by NordLocker, an application used to secure files. It contains one or more files that have been encrypted with Advanced Encryption Standard 256 bit (AES-256) encryption. LOCKER files are typically created to protect files with sensitive contents, such as a .JPG digital photograph, .XLSX financial spreadsheet, or .PDF business document.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "nordlocker",
+        "display_name": "NordLocker"
+      }
+    ],
+    "macos": [
+      {
+        "software": "nordlocker",
+        "display_name": "NordLocker"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "LOCKER file icon",
+      "alt": "LOCKER file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/locker-11877.png"
+    },
+    {
+      "caption": "LOCKER file open in NordLocker 2.1",
+      "alt": "LOCKER file open in NordLocker 2.1",
+      "source_url": "https://fileinfo.com/img/ss/md/locker_11877.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-01-15",
+  "sources": [
+    {
+      "url": "locker.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

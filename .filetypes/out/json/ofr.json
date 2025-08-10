@@ -1,0 +1,71 @@
+{
+  "slug": "ofr",
+  "extension": "ofr",
+  "name": "OptimFROG Audio File",
+  "category": "1.-optimfrog-audio-file",
+  "developer_org": "optimfrog",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "Audio file compressed with OptimFROG, a lossless audio compression application that was first introduced in 2001; stores the audio in a proprietary format that is not widely supported by standard media players.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "optimfrog-lossless-audio-compressor",
+        "display_name": "OptimFROG Lossless Audio Compressor"
+      },
+      {
+        "software": "nullsoft-winamp-with-optimfrog-plug-in",
+        "display_name": "Nullsoft Winamp with OptimFROG plug-in"
+      },
+      {
+        "software": "foobar2000-with-optimfrog-plug-in",
+        "display_name": "Foobar2000 with OptimFROG plug-in"
+      },
+      {
+        "software": "microsoft-system-center-configuration-manager",
+        "display_name": "Microsoft System Center Configuration Manager"
+      }
+    ],
+    "macos": [
+      {
+        "software": "optimfrog-lossless-audio-compressor",
+        "display_name": "OptimFROG Lossless Audio Compressor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "optimfrog-lossless-audio-compressor",
+        "display_name": "OptimFROG Lossless Audio Compressor"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-05-17",
+  "sources": [
+    {
+      "url": "ofr.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

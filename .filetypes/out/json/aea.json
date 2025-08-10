@@ -1,0 +1,96 @@
+{
+  "slug": "aea",
+  "extension": "aea",
+  "name": "Ae Timer Alarm Document",
+  "category": "1.-ae-timer-alarm-document",
+  "developer_org": "ae-applications",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Contains settings for an alarm created with Ae Timer, an alarm clock and scheduling program; includes the alarm time, alarm text, and the song or video that is played for the alarm; can be edited and saved by the user.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "ae-applications-ae-timer",
+        "display_name": "Ae Applications Ae Timer"
+      },
+      {
+        "software": "google-adwords-editor",
+        "display_name": "Google AdWords Editor"
+      },
+      {
+        "software": "google-translator-toolkit",
+        "display_name": "Google Translator Toolkit",
+        "status": "discontinued"
+      },
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      }
+    ],
+    "macos": [
+      {
+        "software": "google-adwords-editor",
+        "display_name": "Google AdWords Editor"
+      },
+      {
+        "software": "google-translator-toolkit",
+        "display_name": "Google Translator Toolkit",
+        "status": "discontinued"
+      },
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      }
+    ],
+    "linux": [
+      {
+        "software": "google-translator-toolkit",
+        "display_name": "Google Translator Toolkit",
+        "status": "discontinued"
+      },
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      }
+    ],
+    "web": [
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-06-23",
+  "sources": [
+    {
+      "url": "aea.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

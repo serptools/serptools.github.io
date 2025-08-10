@@ -1,0 +1,75 @@
+{
+  "slug": "ldr",
+  "extension": "ldr",
+  "name": "LDraw Model File",
+  "category": "ldraw-model-file",
+  "developer_org": "ldraw.org",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 12,
+    "source": "fileinfo"
+  },
+  "summary": "File created by LDraw, a suite of CAD tools used to build digital 3D LEGO models; contains the dimensions of LEGO bricks and their placements within a 3D coordinate system; used for saving LEGO designs.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "ldraw",
+        "display_name": "LDraw"
+      },
+      {
+        "software": "mlcad",
+        "display_name": "MLCAD"
+      },
+      {
+        "software": "ldview",
+        "display_name": "LDview"
+      },
+      {
+        "software": "sr-3d-builder",
+        "display_name": "SR 3D Builder"
+      },
+      {
+        "software": "leocad",
+        "display_name": "LeoCAD"
+      }
+    ],
+    "macos": [
+      {
+        "software": "leocad",
+        "display_name": "LeoCAD"
+      }
+    ],
+    "linux": [
+      {
+        "software": "leocad",
+        "display_name": "LeoCAD"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-08-01",
+  "sources": [
+    {
+      "url": "ldr.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

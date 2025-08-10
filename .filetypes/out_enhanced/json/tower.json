@@ -1,0 +1,23 @@
+{
+  "slug": "tower",
+  "extension": "tower",
+  "name": "Bloons Tower Defense Tower",
+  "category": "bloons-tower-defense-tower",
+  "summary": "",
+  "developer_org": "ninja-kiwi",
+  "developer_name": "Ninja Kiwi",
+  "more_information": {
+    "description": [
+      "In the Bloons Tower Defense series, players attempt to stop balloons from escaping a maze, by placing towers that pop the balloons. These towers attack the balloons using various weapons.",
+      "Each tower's name and properties, including its cost, default weapon(s), targeting rules, and placement rules, are saved in a TOWER file. These files are plain-text JSON files. While most players will never encounter or need to edit a TOWER file, players who want to mod a Bloons Tower Defense tower can do so by opening and editing the tower's TOWER file, then including the file in a Bloons Tower Defense mod package.",
+      "NOTE: TOWER files are stored in a game's TowerDefinitions directory."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "tower.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

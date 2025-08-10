@@ -1,0 +1,100 @@
+{
+  "slug": "csf",
+  "extension": "csf",
+  "name": "GeoMedia Coordinate System File",
+  "category": "1.-geomedia-coordinate-system-file",
+  "developer_org": "intergraph",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 14,
+    "source": "fileinfo"
+  },
+  "summary": "Coordinate system file used by GeoMedia, a GIS application used to analyze geographic information and produce maps; contains the coordinate system for an output data file that has no system in place; includes the base storage type, which is either Geographic, Projection, or Geocentric, of the coordinate system.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "intergraph-geomedia",
+        "display_name": "Intergraph GeoMedia",
+        "status": "discontinued"
+      },
+      {
+        "software": "adobe-photoshop-2025",
+        "display_name": "Adobe Photoshop 2025"
+      },
+      {
+        "software": "adobe-indesign-2023",
+        "display_name": "Adobe InDesign 2023"
+      },
+      {
+        "software": "adobe-illustrator-2025",
+        "display_name": "Adobe Illustrator 2025"
+      },
+      {
+        "software": "informative-graphics-brava-reader",
+        "display_name": "Informative Graphics Brava! Reader"
+      },
+      {
+        "software": "cal3dviewer",
+        "display_name": "Cal3dViewer"
+      },
+      {
+        "software": "cal3d2ogre",
+        "display_name": "Cal3d2ogre"
+      },
+      {
+        "software": "short-fuze-limited-moviestorm",
+        "display_name": "Short Fuze Limited Moviestorm"
+      }
+    ],
+    "macos": [
+      {
+        "software": "adobe-photoshop-2025",
+        "display_name": "Adobe Photoshop 2025"
+      },
+      {
+        "software": "adobe-indesign-2023",
+        "display_name": "Adobe InDesign 2023"
+      },
+      {
+        "software": "adobe-illustrator-2025",
+        "display_name": "Adobe Illustrator 2025"
+      },
+      {
+        "software": "short-fuze-limited-moviestorm",
+        "display_name": "Short Fuze Limited Moviestorm"
+      }
+    ],
+    "linux": [
+      {
+        "software": "cal3d",
+        "display_name": "Cal3D"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-10-01",
+  "sources": [
+    {
+      "url": "csf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

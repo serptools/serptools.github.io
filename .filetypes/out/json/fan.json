@@ -1,0 +1,72 @@
+{
+  "slug": "fan",
+  "extension": "fan",
+  "name": "Finale Font Annotation",
+  "category": "1.-finale-font-annotation",
+  "developer_org": "makemusic",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "A FAN file is a font annotation file created by MakeMusic Finale, a scorewriter for Windows and macOS. It contains kerning data Finale uses to align font characters. Each Finale font uses its own FAN file.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "makemusic-finale",
+        "display_name": "MakeMusic Finale"
+      },
+      {
+        "software": "autodessys-form-z",
+        "display_name": "AutoDesSys form•Z"
+      }
+    ],
+    "macos": [
+      {
+        "software": "makemusic-finale",
+        "display_name": "MakeMusic Finale"
+      },
+      {
+        "software": "autodessys-form-z",
+        "display_name": "AutoDesSys form•Z"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "FAN file icon",
+      "alt": "FAN file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/fan-9081.png"
+    },
+    {
+      "caption": "FAN file open in MakeMusic Finale",
+      "alt": "FAN file open in MakeMusic Finale",
+      "source_url": "https://fileinfo.com/img/ss/md/fan_9081.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-02-24",
+  "sources": [
+    {
+      "url": "fan.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

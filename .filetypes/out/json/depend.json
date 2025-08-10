@@ -1,0 +1,61 @@
+{
+  "slug": "depend",
+  "extension": "depend",
+  "name": "Code::Blocks Dependencies File",
+  "category": "code-blocks-dependencies-file",
+  "developer_org": "code-blocks",
+  "popularity": {
+    "rating": 3.1,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "Development project support file created by Code::Blocks, a cross-platform C/C++ software development application; saves project dependency information, such as required source code files or external libraries.",
+  "standards": [],
+  "mime_types": [
+    "c/c"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "code-blocks",
+        "display_name": "Code::Blocks"
+      }
+    ],
+    "macos": [
+      {
+        "software": "code-blocks",
+        "display_name": "Code::Blocks"
+      }
+    ],
+    "linux": [
+      {
+        "software": "code-blocks",
+        "display_name": "Code::Blocks"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-12-23",
+  "sources": [
+    {
+      "url": "depend.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

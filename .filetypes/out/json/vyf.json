@@ -1,0 +1,55 @@
+{
+  "slug": "vyf",
+  "extension": "vyf",
+  "name": "Samsung Digital Voice Recorder File",
+  "category": "samsung-digital-voice-recorder-file",
+  "developer_org": "samsung",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "Proprietary audio file format used by Samsung digital voice recorders, such as the Samsung YV-120; optimized for vocal recordings; typically named \"V001.VYF,\" \"V002.VYF,\" \"V003.VYF,\" etc.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "samsung-voice-manager",
+        "display_name": "Samsung Voice Manager"
+      },
+      {
+        "software": "softe-audio-converter",
+        "display_name": "SoftE Audio Converter"
+      },
+      {
+        "software": "eufony",
+        "display_name": "Eufony"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2008-02-11",
+  "sources": [
+    {
+      "url": "vyf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

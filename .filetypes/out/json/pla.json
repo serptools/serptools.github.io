@@ -1,0 +1,119 @@
+{
+  "slug": "pla",
+  "extension": "pla",
+  "name": "Sansa Playlist File",
+  "category": "1.-sansa-playlist-file",
+  "developer_org": "sandisk",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 50,
+    "source": "fileinfo"
+  },
+  "summary": "Music playlist for a SanDisk Sansa portable media player; saved in the PLP playlist format, which lists locations of files in a standard text format; must be transferred to the PLAYLISTS folder on the Sansa device to be recognized by the player.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": ".pln",
+        "display_name": ".PLN"
+      },
+      {
+        "software": ".dwg",
+        "display_name": ".DWG"
+      },
+      {
+        "software": ".dxf",
+        "display_name": ".DXF"
+      },
+      {
+        "software": ".ifc",
+        "display_name": ".IFC"
+      },
+      {
+        "software": ".c4d",
+        "display_name": ".C4D"
+      },
+      {
+        "software": ".3ds",
+        "display_name": ".3DS"
+      },
+      {
+        "software": ".skp",
+        "display_name": ".SKP"
+      },
+      {
+        "software": ".obj",
+        "display_name": ".OBJ"
+      },
+      {
+        "software": ".stl",
+        "display_name": ".STL"
+      },
+      {
+        "software": ".pdf",
+        "display_name": ".PDF"
+      },
+      {
+        "software": ".jpg",
+        "display_name": ".JPG"
+      },
+      {
+        "software": "graphisoft-archicad",
+        "display_name": "GRAPHISOFT Archicad"
+      },
+      {
+        "software": "iriver-future-play",
+        "display_name": "iriver Future Play"
+      },
+      {
+        "software": "kurtz-fernhout-software-plantstudio",
+        "display_name": "Kurtz-Fernhout Software PlantStudio"
+      }
+    ],
+    "macos": [
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "graphisoft-archicad",
+        "display_name": "GRAPHISOFT Archicad"
+      }
+    ],
+    "linux": [
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2007-12-04",
+  "sources": [
+    {
+      "url": "pla.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

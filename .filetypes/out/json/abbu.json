@@ -1,0 +1,59 @@
+{
+  "slug": "abbu",
+  "extension": "abbu",
+  "name": "Address Book Backup",
+  "category": "address-book-backup",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Backup file exported from the Apple Address Book (included with Mac OS X); used to restore the default address book if needed.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "apple-contacts",
+        "display_name": "Apple Contacts"
+      }
+    ],
+    "windows": [
+      {
+        "software": "apple-contacts",
+        "display_name": "Apple Contacts"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "ABBU file icon",
+      "alt": "ABBU file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/abbu-1503.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-08-25",
+  "sources": [
+    {
+      "url": "abbu.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

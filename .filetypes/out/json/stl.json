@@ -1,0 +1,282 @@
+{
+  "slug": "stl",
+  "extension": "stl",
+  "name": "Stereolithography File",
+  "category": "1.-stereolithography-file",
+  "developer_org": "3d-systems",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 101,
+    "source": "fileinfo"
+  },
+  "summary": "An STL file is a 3D model saved in the Stereolithography (STL) file format developed by 3D Systems. It contains plain text or binary data that describes a set of triangular facets, which comprise a model. STL files are quite common, and they can be opened in many CAD and 3D modeling programs.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "ptc-onshape",
+        "display_name": "PTC Onshape"
+      },
+      {
+        "software": "microsoft-3d-viewer",
+        "display_name": "Microsoft 3D Viewer"
+      },
+      {
+        "software": "microsoft-3d-builder",
+        "display_name": "Microsoft 3D Builder"
+      },
+      {
+        "software": "microsoft-print-3d",
+        "display_name": "Microsoft Print 3D"
+      },
+      {
+        "software": "autodesk-fusion-360",
+        "display_name": "Autodesk Fusion 360"
+      },
+      {
+        "software": "imsi-turbocad-pro",
+        "display_name": "IMSI TurboCAD Pro"
+      },
+      {
+        "software": "gom-inspect",
+        "display_name": "GOM Inspect"
+      },
+      {
+        "software": "ideamk-stl-viewer",
+        "display_name": "ideaMK STL Viewer"
+      },
+      {
+        "software": "parametric-technology-creo",
+        "display_name": "Parametric Technology Creo"
+      },
+      {
+        "software": "dassault-systemes-catia",
+        "display_name": "Dassault Systemes CATIA"
+      },
+      {
+        "software": "meshlab",
+        "display_name": "MeshLab"
+      },
+      {
+        "software": "cadsofttools-abviewer",
+        "display_name": "CADSoftTools ABViewer"
+      },
+      {
+        "software": "cadsofttools-cst-cad-navigator",
+        "display_name": "CADSoftTools CST CAD Navigator"
+      },
+      {
+        "software": "kubotek-keycreator",
+        "display_name": "Kubotek KeyCreator"
+      },
+      {
+        "software": "apple-preview",
+        "display_name": "Apple Preview"
+      },
+      {
+        "software": "imsi-turbocad-deluxe",
+        "display_name": "IMSI TurboCAD Deluxe"
+      },
+      {
+        "software": "cheetah3d",
+        "display_name": "Cheetah3D"
+      },
+      {
+        "software": "glc_player",
+        "display_name": "GLC_Player"
+      },
+      {
+        "software": "online-3d-viewer",
+        "display_name": "Online 3D Viewer"
+      },
+      {
+        "software": "autodesk-tinkercad",
+        "display_name": "Autodesk Tinkercad"
+      },
+      {
+        "software": "3d-slash",
+        "display_name": "3D Slash"
+      },
+      {
+        "software": "shyam-barange-3d-model-viewer",
+        "display_name": "Shyam Barange 3D Model Viewer"
+      },
+      {
+        "software": "prisma3d",
+        "display_name": "Prisma3D"
+      },
+      {
+        "software": "supertux",
+        "display_name": "SuperTux"
+      },
+      {
+        "software": "microsoft-internet-information-services-iis",
+        "display_name": "Microsoft Internet Information Services (IIS)"
+      },
+      {
+        "software": "adobe-fireworks",
+        "display_name": "Adobe Fireworks",
+        "status": "discontinued"
+      },
+      {
+        "software": "eztitles",
+        "display_name": "EZTitles"
+      },
+      {
+        "software": "avid-media-composer",
+        "display_name": "Avid Media Composer"
+      },
+      {
+        "software": "jongbel-media-solutions-ebu-stl-viewer",
+        "display_name": "Jongbel Media Solutions EBU STL Viewer"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-preview",
+        "display_name": "Apple Preview"
+      },
+      {
+        "software": "autodesk-fusion-360",
+        "display_name": "Autodesk Fusion 360"
+      },
+      {
+        "software": "imsi-turbocad-deluxe",
+        "display_name": "IMSI TurboCAD Deluxe"
+      },
+      {
+        "software": "cheetah3d",
+        "display_name": "Cheetah3D"
+      },
+      {
+        "software": "meshlab",
+        "display_name": "MeshLab"
+      },
+      {
+        "software": "glc_player",
+        "display_name": "GLC_Player"
+      },
+      {
+        "software": "cadsofttools-cst-cad-navigator",
+        "display_name": "CADSoftTools CST CAD Navigator"
+      },
+      {
+        "software": "supertux",
+        "display_name": "SuperTux"
+      },
+      {
+        "software": "adobe-fireworks",
+        "display_name": "Adobe Fireworks",
+        "status": "discontinued"
+      },
+      {
+        "software": "avid-media-composer",
+        "display_name": "Avid Media Composer"
+      }
+    ],
+    "linux": [
+      {
+        "software": "autodesk-fusion-360",
+        "display_name": "Autodesk Fusion 360"
+      },
+      {
+        "software": "parametric-technology-creo",
+        "display_name": "Parametric Technology Creo"
+      },
+      {
+        "software": "dassault-systemes-catia",
+        "display_name": "Dassault Systemes CATIA"
+      },
+      {
+        "software": "meshlab",
+        "display_name": "MeshLab"
+      },
+      {
+        "software": "glc_player",
+        "display_name": "GLC_Player"
+      },
+      {
+        "software": "cadsofttools-cst-cad-navigator",
+        "display_name": "CADSoftTools CST CAD Navigator"
+      },
+      {
+        "software": "supertux",
+        "display_name": "SuperTux"
+      }
+    ],
+    "web": [
+      {
+        "software": "online-3d-viewer",
+        "display_name": "Online 3D Viewer"
+      },
+      {
+        "software": "autodesk-tinkercad",
+        "display_name": "Autodesk Tinkercad"
+      },
+      {
+        "software": "autodesk-fusion-360",
+        "display_name": "Autodesk Fusion 360"
+      },
+      {
+        "software": "3d-slash",
+        "display_name": "3D Slash"
+      }
+    ],
+    "ios": [
+      {
+        "software": "autodesk-fusion-360",
+        "display_name": "Autodesk Fusion 360"
+      }
+    ],
+    "android": [
+      {
+        "software": "shyam-barange-3d-model-viewer",
+        "display_name": "Shyam Barange 3D Model Viewer"
+      },
+      {
+        "software": "prisma3d",
+        "display_name": "Prisma3D"
+      },
+      {
+        "software": "autodesk-fusion-360",
+        "display_name": "Autodesk Fusion 360"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "STL file icon",
+      "alt": "STL file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/stl-2965.png"
+    },
+    {
+      "caption": "STL file open in Microsoft 3D Viewer",
+      "alt": "STL file open in Microsoft 3D Viewer",
+      "source_url": "https://fileinfo.com/img/ss/md/stl_2965.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-12-22",
+  "sources": [
+    {
+      "url": "stl.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

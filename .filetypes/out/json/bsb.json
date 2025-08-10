@@ -1,0 +1,47 @@
+{
+  "slug": "bsb",
+  "extension": "bsb",
+  "name": "BioShock Saved Game File",
+  "category": "bioshock-saved-game-file",
+  "developer_org": "take-two-interactive-software",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 12,
+    "source": "fileinfo"
+  },
+  "summary": "Save game file created by BioShock, a first-person shooter game where players battle against biologically modified beings; contains a saved state during gameplay; used to save and load in-game progress.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "ios": [
+      {
+        "software": "take-two-interactive-bioshock",
+        "display_name": "Take-Two Interactive BioShock"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-02-23",
+  "sources": [
+    {
+      "url": "bsb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

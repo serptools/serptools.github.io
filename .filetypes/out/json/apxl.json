@@ -1,0 +1,53 @@
+{
+  "slug": "apxl",
+  "extension": "apxl",
+  "name": "Keynote Presentation Data File",
+  "category": "keynote-presentation-data-file",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "File contained within a .KEY file and used by Keynote presentation software; specifies the contents of a Keynote presentation in an XML format; includes the list of slides, the layout and formatting for each slide, and the presentation text.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "apple-keynote",
+        "display_name": "Apple Keynote"
+      }
+    ],
+    "windows": [
+      {
+        "software": "apple-keynote",
+        "display_name": "Apple Keynote"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2013-04-01",
+  "sources": [
+    {
+      "url": "apxl.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "mamx",
+  "extension": "mamx",
+  "name": "Music Animation Machine Score",
+  "category": "music-animation-machine-score",
+  "developer_org": "stephen-malinowski",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "A MAMX file is a musical score saved in the Music Animation Machine format. It contains plain text data that Music Animation Machine uses to show and play a piece of music. Music Animation Machine users typically create MAMX files from .MIDI files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "music-animation-machine",
+        "display_name": "Music Animation Machine"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "MAMX file open in Music Animation Machine",
+      "alt": "MAMX file open in Music Animation Machine",
+      "source_url": "https://fileinfo.com/img/ss/md/mamx_13087.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-01-04",
+  "sources": [
+    {
+      "url": "mamx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

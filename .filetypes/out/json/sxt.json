@@ -1,0 +1,47 @@
+{
+  "slug": "sxt",
+  "extension": "sxt",
+  "name": "Propellerhead Reason NN-XT Patch File",
+  "category": "propellerhead-reason-nn-xt-patch-file",
+  "developer_org": "propellerhead-software",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "File used by NN-XT, an advanced audio and instrument sampler used for sound design and instrument emulation; saves a \"patch,\" which includes fine-tuned audio settings that tailor the audio to provide a particular sound output.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "ios": [
+      {
+        "software": "reasonstudios-reason",
+        "display_name": "ReasonStudios Reason"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-06-23",
+  "sources": [
+    {
+      "url": "sxt.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "czip",
+  "extension": "czip",
+  "name": "ZipGenius CryptoZip File",
+  "category": "zipgenius-cryptozip-file",
+  "developer_org": "the-zipgenius-team",
+  "popularity": {
+    "rating": 3.2,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "A CZIP file is an archive encrypted in the proprietary CryptoZip (CZIP) format by ZipGenius, a free archive manager for Windows. It stores one or more Zip-compressed files encrypted with the CZIP, Blowfish 128-bit, Twofish, or Rijndael 128-bit methods and may be password-protected. ZipGenius users compress archives as CZIP files to share data with others securely.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "zipgenius",
+        "display_name": "ZipGenius"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "CZIP file open in ZipGenius 6",
+      "alt": "CZIP file open in ZipGenius 6",
+      "source_url": "https://fileinfo.com/img/ss/md/czip_7190.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-04-12",
+  "sources": [
+    {
+      "url": "czip.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

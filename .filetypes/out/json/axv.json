@@ -1,0 +1,63 @@
+{
+  "slug": "axv",
+  "extension": "axv",
+  "name": "Annodex Video File",
+  "category": "annodex-video-file",
+  "developer_org": "csiro",
+  "popularity": {
+    "rating": 2.5,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "Video file stored in the Annodex format, which is built on the Ogg container format; contains compressed video, along with codec information and Continuous Media Markup Language (CMML) to make it easier for the video content to be searched and accessed by users.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      }
+    ],
+    "macos": [
+      {
+        "software": "macgo-mac-media-player",
+        "display_name": "Macgo Mac Media Player"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      }
+    ],
+    "linux": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-08-24",
+  "sources": [
+    {
+      "url": "axv.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

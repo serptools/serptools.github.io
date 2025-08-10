@@ -1,0 +1,47 @@
+{
+  "slug": "cvc",
+  "extension": "cvc",
+  "name": "cVideo Video",
+  "category": "cvideo-video",
+  "developer_org": "cvideo",
+  "popularity": {
+    "rating": 2.9,
+    "votes": 10,
+    "source": "fileinfo"
+  },
+  "summary": "A CVC file is a video file created by the cVideo closed-circuit television (CCTV) surveillance system. It stores video saved in the proprietary cVideo format that users can only play the media player included with the surveillance system. cVideo no longer develops the format since SYS Technologies acquired them in 2005.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "cvideo-software",
+        "display_name": "cVideo software"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-07-06",
+  "sources": [
+    {
+      "url": "cvc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "xlc",
+  "extension": "xlc",
+  "name": "Microsoft Excel Chart",
+  "category": "microsoft-excel-chart",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "An XLC file contains a chart created by Microsoft Excel, a spreadsheet application included with Microsoft Office. It stores data selected from a Microsoft Excel spreadsheet that was exported into Excel chart format. Microsoft dropped support for XLC files with the release of Excel 2007.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "no-longer-supported-by-microsoft-excel",
+        "display_name": "No longer supported by Microsoft Excel"
+      }
+    ],
+    "macos": [
+      {
+        "software": "no-longer-supported-by-microsoft-excel",
+        "display_name": "No longer supported by Microsoft Excel"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-02-10",
+  "sources": [
+    {
+      "url": "xlc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

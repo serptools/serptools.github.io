@@ -1,0 +1,79 @@
+{
+  "slug": "jgz",
+  "extension": "jgz",
+  "name": "Gzipped Javascript File",
+  "category": "gzipped-javascript-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 10,
+    "source": "fileinfo"
+  },
+  "summary": "Javascript ( .JS ) file zipped using GZip ( .GZ ) compression; typically used for shrinking the file sizes of large Javascript documents referenced by websites; can be decompressed on the fly by most Web servers using a Gzip utility.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "smith-micro-stuffit-deluxe",
+        "display_name": "Smith Micro StuffIt Deluxe",
+        "status": "discontinued"
+      },
+      {
+        "software": "corel-winzip",
+        "display_name": "Corel WinZip"
+      },
+      {
+        "software": "rarlab-winrar",
+        "display_name": "RARLAB WinRAR"
+      },
+      {
+        "software": "7-zip",
+        "display_name": "7-Zip"
+      },
+      {
+        "software": "gzip",
+        "display_name": "gzip"
+      }
+    ],
+    "macos": [
+      {
+        "software": "smith-micro-stuffit-deluxe-mac-16",
+        "display_name": "Smith Micro StuffIt Deluxe Mac 16",
+        "status": "discontinued"
+      }
+    ],
+    "linux": [
+      {
+        "software": "gzip",
+        "display_name": "gzip"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2008-07-15",
+  "sources": [
+    {
+      "url": "jgz.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

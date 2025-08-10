@@ -1,0 +1,91 @@
+{
+  "slug": "spd",
+  "extension": "spd",
+  "name": "S Note File",
+  "category": "1.-s-note-file",
+  "developer_org": "samsung",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 61,
+    "source": "fileinfo"
+  },
+  "summary": "An SPD file is a note created by S Note, an advanced note-taking application developed by Samsung for use with Samsung mobile devices, such as Galaxy S and Galaxy Note. It contains a note, which may include typed or handwritten text, drawings, charts, audio, and images. SPD files replaced .SNB files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "samsung-s-note",
+        "display_name": "Samsung S Note"
+      },
+      {
+        "software": "autodessys-form-z",
+        "display_name": "AutoDesSys form•Z"
+      },
+      {
+        "software": "oracle-sealedmedia-unsealer",
+        "display_name": "Oracle SealedMedia Unsealer"
+      },
+      {
+        "software": "ibm-spss",
+        "display_name": "IBM SPSS"
+      }
+    ],
+    "android": [
+      {
+        "software": "samsung-s-note",
+        "display_name": "Samsung S Note"
+      }
+    ],
+    "macos": [
+      {
+        "software": "autodessys-form-z",
+        "display_name": "AutoDesSys form•Z"
+      },
+      {
+        "software": "oracle-sealedmedia-unsealer",
+        "display_name": "Oracle SealedMedia Unsealer"
+      },
+      {
+        "software": "ibm-spss",
+        "display_name": "IBM SPSS"
+      }
+    ],
+    "linux": [
+      {
+        "software": "ibm-spss",
+        "display_name": "IBM SPSS"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "SPD file icon",
+      "alt": "SPD file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/spd-10850.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-09-14",
+  "sources": [
+    {
+      "url": "spd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

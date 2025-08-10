@@ -1,0 +1,53 @@
+{
+  "slug": "abcddb",
+  "extension": "abcddb",
+  "name": "Apple Address Book Contact List",
+  "category": "apple-address-book-contact-list",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 12,
+    "source": "fileinfo"
+  },
+  "summary": "File created by Address Book, a contact organization application; contains a contact list, in SQLite database format, of all the contacts stored within the Address Book application; regenerated when the Address Book application is opened; not meant to be manually opened.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "apple-contacts",
+        "display_name": "Apple Contacts"
+      }
+    ],
+    "windows": [
+      {
+        "software": "apple-contacts",
+        "display_name": "Apple Contacts"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-08-25",
+  "sources": [
+    {
+      "url": "abcddb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

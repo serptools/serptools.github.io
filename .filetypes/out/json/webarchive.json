@@ -1,0 +1,86 @@
+{
+  "slug": "webarchive",
+  "extension": "webarchive",
+  "name": "Safari Web Archive",
+  "category": "safari-web-archive",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 134,
+    "source": "fileinfo"
+  },
+  "summary": "A WEBARCHIVE file is a webpage saved by the Safari web browser. It contains HTML and linked images so the page can be loaded fully at a later time, even if the computer is offline (not connected to the Internet). WEBARCHIVE files may also contain CSS or JavaScript , depending on the webpage content.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "apple-safari",
+        "display_name": "Apple Safari"
+      },
+      {
+        "software": "icab",
+        "display_name": "iCab"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      }
+    ],
+    "windows": [
+      {
+        "software": "apple-safari",
+        "display_name": "Apple Safari"
+      },
+      {
+        "software": "icab",
+        "display_name": "iCab"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      }
+    ],
+    "ios": [
+      {
+        "software": "apple-safari",
+        "display_name": "Apple Safari"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "WEBARCHIVE file icon",
+      "alt": "WEBARCHIVE file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/webarchive-1178.png"
+    },
+    {
+      "caption": "WEBARCHIVE file open in Apple Safari",
+      "alt": "WEBARCHIVE file open in Apple Safari",
+      "source_url": "https://fileinfo.com/img/ss/md/webarchive_1178.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-03-24",
+  "sources": [
+    {
+      "url": "webarchive.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

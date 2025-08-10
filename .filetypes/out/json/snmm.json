@@ -1,0 +1,59 @@
+{
+  "slug": "snmm",
+  "extension": "snmm",
+  "name": "Smart Switch Notes Backup",
+  "category": "smart-switch-notes-backup",
+  "developer_org": "samsung",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "An SNMM file is a backup file created by Samsung Smart Switch, a backup app for Samsung Galaxy phones. It contains an encrypted copy of a user's Galaxy notes ( .SDOCX files). SNMM files can be restored to a Samsung Galaxy phone using Samsung Smart Switch.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "samsung-smart-switch",
+        "display_name": "Samsung Smart Switch"
+      }
+    ],
+    "macos": [
+      {
+        "software": "samsung-smart-switch",
+        "display_name": "Samsung Smart Switch"
+      }
+    ],
+    "android": [
+      {
+        "software": "samsung-smart-switch",
+        "display_name": "Samsung Smart Switch"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-11-03",
+  "sources": [
+    {
+      "url": "snmm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

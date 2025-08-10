@@ -1,0 +1,93 @@
+{
+  "slug": "blg",
+  "extension": "blg",
+  "name": "Windows Binary Performance Log File",
+  "category": "1.-windows-binary-performance-log-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 17,
+    "source": "fileinfo"
+  },
+  "summary": "A BLG file is a log file created by Windows performance tracking tools. It is used to analyze server and computer loads and discover resource bottlenecks. BLG files contain a history of the computer resource utilization and performance, such as the amount of CPU, memory, and disk resources used by different programs.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-performance-monitor",
+        "display_name": "Microsoft Performance Monitor"
+      },
+      {
+        "software": "microsoft-windows-administrative-tools",
+        "display_name": "Microsoft Windows Administrative Tools"
+      },
+      {
+        "software": "miktex",
+        "display_name": "MiKTeX"
+      },
+      {
+        "software": "texworks",
+        "display_name": "TeXworks"
+      },
+      {
+        "software": "latex-editor",
+        "display_name": "LaTeX Editor"
+      },
+      {
+        "software": "bibdesk",
+        "display_name": "BibDesk"
+      },
+      {
+        "software": "tex-live",
+        "display_name": "TeX Live"
+      }
+    ],
+    "macos": [
+      {
+        "software": "bibdesk",
+        "display_name": "BibDesk"
+      },
+      {
+        "software": "texworks",
+        "display_name": "TeXworks"
+      }
+    ],
+    "linux": [
+      {
+        "software": "texworks",
+        "display_name": "TeXworks"
+      },
+      {
+        "software": "tex-live",
+        "display_name": "TeX Live"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2016-06-03",
+  "sources": [
+    {
+      "url": "blg.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

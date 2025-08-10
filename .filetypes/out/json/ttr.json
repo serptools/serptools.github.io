@@ -1,0 +1,83 @@
+{
+  "slug": "ttr",
+  "extension": "ttr",
+  "name": "TETR.IO Replay",
+  "category": "tetr.io-replay",
+  "developer_org": "osk",
+  "popularity": {
+    "rating": 4.5,
+    "votes": 15,
+    "source": "fileinfo"
+  },
+  "summary": "A TTR file is a game replay created by TETR.IO, a Tetris variant available online and for desktop PCs. It contains JSON data used to show a game's statistics and play a video replay of that game. TTR files can be opened by dragging and dropping them into TETR.IO.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "tetr.io",
+        "display_name": "TETR.IO"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "tetr.io",
+        "display_name": "TETR.IO"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "tetr.io",
+        "display_name": "TETR.IO"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "web": [
+      {
+        "software": "tetr.io",
+        "display_name": "TETR.IO"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "TTR file open in TETR.IO",
+      "alt": "TTR file open in TETR.IO",
+      "source_url": "https://fileinfo.com/img/ss/md/ttr_12430.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-11-29",
+  "sources": [
+    {
+      "url": "ttr.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

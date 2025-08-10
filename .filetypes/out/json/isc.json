@@ -1,0 +1,53 @@
+{
+  "slug": "isc",
+  "extension": "isc",
+  "name": "Xilinx Device Configuration File",
+  "category": "xilinx-device-configuration-file",
+  "developer_org": "xilinx",
+  "popularity": {
+    "rating": 2.3,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "Settings file that stores configuration information for a Xilinx ISE (Integrated Software Environment) project; used for programming customizable integrated circuits , such as field-programmable gate arrays (FPGAs).",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "xilinx-ise-design-suite",
+        "display_name": "Xilinx ISE Design Suite"
+      }
+    ],
+    "linux": [
+      {
+        "software": "xilinx-ise-design-suite",
+        "display_name": "Xilinx ISE Design Suite"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2013-09-02",
+  "sources": [
+    {
+      "url": "isc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "pwf",
+  "extension": "pwf",
+  "name": "Counter-Strike PODBot Waypoint File",
+  "category": "counter-strike-podbot-waypoint-file",
+  "developer_org": "valve",
+  "popularity": {
+    "rating": 4.2,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "Contains waypoints, or locations, or PODBots in Counter-Strike; PODBots are \"Ping of Death\" bots that use artificial intelligence to move and perform objectives on a Counter-Strike level; PWF files are typically associated with a specific map ( .BSP ) file.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "valve-counter-strike",
+        "display_name": "Valve Counter-Strike"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2008-04-25",
+  "sources": [
+    {
+      "url": "pwf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

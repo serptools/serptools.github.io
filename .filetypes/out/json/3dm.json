@@ -1,0 +1,95 @@
+{
+  "slug": "3dm",
+  "extension": "3dm",
+  "name": "Rhino 3D Model",
+  "category": "rhino-3d-model",
+  "developer_org": "robert-mcneel-associates",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 103,
+    "source": "fileinfo"
+  },
+  "summary": "A 3DM file is an open-source 3D model format and native file format for Rhinoceros. It contains a 3D model which includes surface, points, and curve information. 3DM files allow CAD, CAM, CAE, and computer graphics software to accurately save and exchange 3D geometry using both NURBS and polygon mesh representations.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "ptc-onshape",
+        "display_name": "PTC Onshape"
+      },
+      {
+        "software": "mcneel-rhino",
+        "display_name": "McNeel Rhino"
+      },
+      {
+        "software": "autodesk-fusion-360",
+        "display_name": "Autodesk Fusion 360"
+      },
+      {
+        "software": "okino-computer-graphics-polytrans",
+        "display_name": "Okino Computer Graphics PolyTrans"
+      },
+      {
+        "software": "imsi-turbocad-deluxe",
+        "display_name": "IMSI TurboCAD Deluxe"
+      }
+    ],
+    "macos": [
+      {
+        "software": "mcneel-rhino",
+        "display_name": "McNeel Rhino"
+      },
+      {
+        "software": "imsi-turbocad-deluxe",
+        "display_name": "IMSI TurboCAD Deluxe"
+      },
+      {
+        "software": "autodesk-fusion-360",
+        "display_name": "Autodesk Fusion 360"
+      }
+    ],
+    "web": [
+      {
+        "software": "autodesk-fusion-360",
+        "display_name": "Autodesk Fusion 360"
+      }
+    ],
+    "ios": [
+      {
+        "software": "autodesk-fusion-360",
+        "display_name": "Autodesk Fusion 360"
+      }
+    ],
+    "android": [
+      {
+        "software": "autodesk-fusion-360",
+        "display_name": "Autodesk Fusion 360"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2016-08-18",
+  "sources": [
+    {
+      "url": "3dm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

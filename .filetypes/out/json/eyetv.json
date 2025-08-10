@@ -1,0 +1,59 @@
+{
+  "slug": "eyetv",
+  "extension": "eyetv",
+  "name": "EyeTV Recording File",
+  "category": "eyetv-recording-file",
+  "developer_org": "geniatech",
+  "popularity": {
+    "rating": 2.3,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Recording created and used by EyeTV, a program that allows users to watch and record live TV directly on their computer; contains a video recording of a TV program and related metadata files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "geniatech-eyetv",
+        "display_name": "Geniatech EyeTV"
+      }
+    ],
+    "windows": [
+      {
+        "software": "geniatech-eyetv",
+        "display_name": "Geniatech EyeTV"
+      }
+    ],
+    "ios": [
+      {
+        "software": "geniatech-eyetv",
+        "display_name": "Geniatech EyeTV"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-03-28",
+  "sources": [
+    {
+      "url": "eyetv.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

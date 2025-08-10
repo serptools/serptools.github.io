@@ -1,0 +1,63 @@
+{
+  "slug": "md5camera",
+  "extension": "md5camera",
+  "name": "id Tech 4 Model Camera File",
+  "category": "id-tech-4-model-camera-file",
+  "developer_org": "id-software",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "3D camera file used by id Tech 4, a game engine developed by id Software for Doom 3 and Quake 4; contains 3D camera paths, including the position, rotation, and field of view for each path; used for controlling cameras during cinematic sequences and cut scenes in id Tech 4 games.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "blender-with-md5importer-plug-in",
+        "display_name": "Blender with md5importer plug-in"
+      },
+      {
+        "software": "autodesk-3ds-max-with-md5importer-plug-in",
+        "display_name": "Autodesk 3ds Max with md5importer plug-in"
+      }
+    ],
+    "macos": [
+      {
+        "software": "blender-with-md5importer-plug-in",
+        "display_name": "Blender with md5importer plug-in"
+      }
+    ],
+    "linux": [
+      {
+        "software": "blender-with-md5importer-plug-in",
+        "display_name": "Blender with md5importer plug-in"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-09-07",
+  "sources": [
+    {
+      "url": "md5camera.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

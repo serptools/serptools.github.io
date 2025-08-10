@@ -1,0 +1,49 @@
+{
+  "slug": "eum",
+  "extension": "eum",
+  "name": "Enterprise User Monitor Configuration File",
+  "category": "enterprise-user-monitor-configuration-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "Stores settings for an Enterprise User Monitor (EUM); may include IP addresses, radio frequencies, and other information for monitoring various devices; can be saved within the WaveRider EUM Configuration Utility and loaded at a later time.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "waverider-eum-configuration-utility",
+        "display_name": "WaveRider EUM Configuration Utility"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2008-12-09",
+  "sources": [
+    {
+      "url": "eum.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

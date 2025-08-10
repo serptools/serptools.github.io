@@ -1,0 +1,49 @@
+{
+  "slug": "synw-proj",
+  "extension": "synw-proj",
+  "name": "SynWrite Project",
+  "category": "synwrite-project",
+  "developer_org": "uvviewsoft",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "A SYNW-PROJ file is a project file used by SynWrite, a free text and source code editor. It contains a list of files and folders grouped into a project structure/tree. The project does not contain the actual files in the project structure.",
+  "standards": [],
+  "mime_types": [
+    "structure/tree"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "uvviewsoft-synwrite",
+        "display_name": "UVViewSoft SynWrite"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2016-04-27",
+  "sources": [
+    {
+      "url": "synw-proj.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

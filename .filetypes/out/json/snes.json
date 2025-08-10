@@ -1,0 +1,61 @@
+{
+  "slug": "snes",
+  "extension": "snes",
+  "name": "Super Nintendo Game ROM",
+  "category": "super-nintendo-game-rom",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "An SNES file is a video game ROM file that contains a copy of a game originally released for the Super Nintendo Entertainment System (SNES), a home video game console released by Nintendo in the early 1990s. It stores a duplicate of the same game data found on the original SNES cartridges, including graphics, audio data, and gameplay code. SNES files are supported by various emulators , which are software programs that allow users to play SNES games on modern computers and mobile devices.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "snes9x",
+        "display_name": "SNES9x"
+      }
+    ],
+    "macos": [
+      {
+        "software": "snes9x",
+        "display_name": "SNES9x"
+      }
+    ],
+    "linux": [
+      {
+        "software": "snes9x",
+        "display_name": "SNES9x"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2025-06-18",
+  "sources": [
+    {
+      "url": "snes.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "hsaco",
+  "extension": "hsaco",
+  "name": "Heterogeneous System Architecture Code Object File",
+  "category": "heterogeneous-system-architecture-code-object-file",
+  "developer_org": "hsa-foundation",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "An HSACO file is a compiled file that contains low-level instructions for AMD GPUs that support the Heterogeneous System Architecture (HSA), an open standard that allows processors to efficiently share memory and work together on parallel computing tasks. It stores binary instructions AMD’s ROCm runtime system executes to run GPU kernels on AMD graphics architectures, such as Graphics Core Next (GCN) and RDNA. HSACO files are typically generated as part of a GPU computing workflow using the hipcc tool, which is the compiler in AMD’s Heterogeneous-Compute Interface for Portability (HIP) platform.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "radeon-gpu-analyzer",
+        "display_name": "Radeon GPU Analyzer"
+      }
+    ],
+    "linux": [
+      {
+        "software": "radeon-gpu-analyzer",
+        "display_name": "Radeon GPU Analyzer"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2025-07-01",
+  "sources": [
+    {
+      "url": "hsaco.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

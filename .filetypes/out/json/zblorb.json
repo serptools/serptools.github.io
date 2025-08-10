@@ -1,0 +1,81 @@
+{
+  "slug": "zblorb",
+  "extension": "zblorb",
+  "name": "Z-machine Package Game File",
+  "category": "z-machine-package-game-file",
+  "developer_org": "andrew-plotkin",
+  "popularity": {
+    "rating": 3.1,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "Z-machine game file used by Interactive Fiction (IF) interpreters such as Zoom and Spatterlight; contains the story contents in a Blorb wrapper which enables inclusion of other gameplay files, such as .AIFF files for sound effects and .MOD files for music.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "windows-frotz",
+        "display_name": "Windows Frotz"
+      },
+      {
+        "software": "zoom",
+        "display_name": "Zoom"
+      },
+      {
+        "software": "spatterlight",
+        "display_name": "Spatterlight"
+      },
+      {
+        "software": "onyxbits-text-fiction",
+        "display_name": "Onyxbits Text Fiction"
+      }
+    ],
+    "macos": [
+      {
+        "software": "zoom",
+        "display_name": "Zoom"
+      },
+      {
+        "software": "spatterlight",
+        "display_name": "Spatterlight"
+      }
+    ],
+    "linux": [
+      {
+        "software": "zoom",
+        "display_name": "Zoom"
+      }
+    ],
+    "android": [
+      {
+        "software": "onyxbits-text-fiction",
+        "display_name": "Onyxbits Text Fiction"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-11-24",
+  "sources": [
+    {
+      "url": "zblorb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "slug": "jgc",
+  "extension": "jgc",
+  "name": "JungleTac ROM File",
+  "category": "jungletac-rom-file",
+  "developer_org": "jungletac",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "A JGC file contains a ROM image of a video game for Dingoo A320, a Chinese handheld gaming console released in 2009. It contains an exact copy of a game developed by JungleTac, which is a Chinese company that creates 8-bit and 16-bit games and consoles. JGC files can be played with various emulators in Windows, macOS, Linux, Android, and iOS.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "no-gba",
+        "display_name": "NO$GBA"
+      },
+      {
+        "software": "visualboyadvance",
+        "display_name": "VisualBoyAdvance"
+      },
+      {
+        "software": "dreamgba",
+        "display_name": "DreamGBA"
+      },
+      {
+        "software": "rascalboy-advance",
+        "display_name": "RascalBoy Advance"
+      },
+      {
+        "software": "boycottadvance",
+        "display_name": "BoycottAdvance"
+      },
+      {
+        "software": "kigb",
+        "display_name": "KiGB"
+      },
+      {
+        "software": "openemu",
+        "display_name": "OpenEmu"
+      },
+      {
+        "software": "gbaoid",
+        "display_name": "GBAoid"
+      },
+      {
+        "software": "fast-emulator-my-boy",
+        "display_name": "Fast Emulator My Boy!"
+      },
+      {
+        "software": "john-gbac",
+        "display_name": "John GBAC"
+      }
+    ],
+    "ios": [
+      {
+        "software": "gba4ios",
+        "display_name": "GBA4iOS"
+      }
+    ],
+    "android": [
+      {
+        "software": "emulator-for-gba-2-for-android",
+        "display_name": "Emulator For GBA 2 for Android"
+      },
+      {
+        "software": "gbaoid",
+        "display_name": "GBAoid"
+      },
+      {
+        "software": "fast-emulator-my-boy",
+        "display_name": "Fast Emulator My Boy!"
+      },
+      {
+        "software": "john-gbac",
+        "display_name": "John GBAC"
+      }
+    ],
+    "macos": [
+      {
+        "software": "visualboyadvance",
+        "display_name": "VisualBoyAdvance"
+      },
+      {
+        "software": "boycottadvance",
+        "display_name": "BoycottAdvance"
+      },
+      {
+        "software": "kigb",
+        "display_name": "KiGB"
+      },
+      {
+        "software": "openemu",
+        "display_name": "OpenEmu"
+      }
+    ],
+    "linux": [
+      {
+        "software": "kigb",
+        "display_name": "KiGB"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-11-19",
+  "sources": [
+    {
+      "url": "jgc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

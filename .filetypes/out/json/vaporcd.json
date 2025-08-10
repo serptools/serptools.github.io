@@ -1,0 +1,47 @@
+{
+  "slug": "vaporcd",
+  "extension": "vaporcd",
+  "name": "Norum Vapor CD File",
+  "category": "norum-vapor-cd-file",
+  "developer_org": "norum",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "A VAPORCD file is a CD-ROM disc image created by Norum Vapor, a discontinued disc imaging program. It is a virtual copy of a CD, storing the exact data copied from the original disc, including its file structure, contents, and metadata .",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "norum-vapor",
+        "display_name": "Norum Vapor"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2024-10-17",
+  "sources": [
+    {
+      "url": "vaporcd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

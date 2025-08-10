@@ -1,0 +1,49 @@
+{
+  "slug": "plt0",
+  "extension": "plt0",
+  "name": "Wii Color Palette File",
+  "category": "wii-color-palette-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 2.3,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "Palette file used by Nintendo Wii games such as Super Smash Bros. Brawl; contains color palettes referenced by the game to help create the surface appearance of 3D models; often found within a .BRRES resource package file; similar to .TEX0 , .MDL0 , and .PAT0 files.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "brawlbox",
+        "display_name": "BrawlBox"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-01-03",
+  "sources": [
+    {
+      "url": "plt0.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "folx",
+  "extension": "folx",
+  "name": "Folx Download File",
+  "category": "folx-download-file",
+  "developer_org": "eltima-software",
+  "popularity": {
+    "rating": 2.8,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "File created by Folx, a download manager for Mac OS X; contains a bundle of data files that specify information about a download; includes the download URL, the date, download time elapsed, and other download information; used for beginning and resuming downloads.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "eltima-folx-5",
+        "display_name": "Eltima Folx 5"
+      }
+    ],
+    "windows": [
+      {
+        "software": "eltima-folx-5",
+        "display_name": "Eltima Folx 5"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-04-18",
+  "sources": [
+    {
+      "url": "folx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

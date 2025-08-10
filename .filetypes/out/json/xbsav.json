@@ -1,0 +1,59 @@
+{
+  "slug": "xbsav",
+  "extension": "xbsav",
+  "name": "Mass Effect 2 Xbox Saved Game",
+  "category": "mass-effect-2-xbox-saved-game",
+  "developer_org": "electronic-arts",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "Game file saved by the Xbox version of Mass Effect 2, a shooter game that takes place in outer space; contains saved game data, such as the character name, weapons, currency, and level; used to save and load game progress.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "gibbed-s-mass-effect-3-save-editor",
+        "display_name": "Gibbed's Mass Effect 3 Save Editor"
+      },
+      {
+        "software": "gibbed-s-mass-effect-2-save-editor",
+        "display_name": "Gibbed's Mass Effect 2 Save Editor"
+      },
+      {
+        "software": "le-fluffie",
+        "display_name": "Le Fluffie"
+      },
+      {
+        "software": "modio",
+        "display_name": "Modio"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-07-25",
+  "sources": [
+    {
+      "url": "xbsav.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "st3",
+  "extension": "st3",
+  "name": "Star 3 MIDI Karaoke File",
+  "category": "star-3-midi-karaoke-file",
+  "developer_org": "creative-labs-korea",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "An ST3 file is a compressed .MIDI file used by various computer karaoke programs, such as Star 3 and Real Orchestra. It contains music data in the MIDI format for how the instrumentation of a song is to be played. ST3 files also store the subtitle lyrics for a song, along with the artist and name of the song.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "star-3",
+        "display_name": "Star 3"
+      },
+      {
+        "software": "real-orchestra",
+        "display_name": "Real Orchestra"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-06-15",
+  "sources": [
+    {
+      "url": "st3.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

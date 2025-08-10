@@ -1,0 +1,67 @@
+{
+  "slug": "smwt",
+  "extension": "smwt",
+  "name": "Adobe InDesign Filter",
+  "category": "adobe-indesign-filter",
+  "developer_org": "adobe-systems",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "An SMWT file contains filter information used by Adobe InDesign, an application used to design page layouts for print and digital publishing. It stores filtering information required to export InDesign text and graphics to other file formats. SMWT files are similar to .SMRD files, which are used for importing text and graphics.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "adobe-indesign-2023",
+        "display_name": "Adobe InDesign 2023"
+      },
+      {
+        "software": "adobe-incopy-2023",
+        "display_name": "Adobe InCopy 2023"
+      }
+    ],
+    "macos": [
+      {
+        "software": "adobe-indesign-2023",
+        "display_name": "Adobe InDesign 2023"
+      },
+      {
+        "software": "adobe-incopy-2023",
+        "display_name": "Adobe InCopy 2023"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "SMWT file icon",
+      "alt": "SMWT file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/smwt-5447.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-12-21",
+  "sources": [
+    {
+      "url": "smwt.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "mii",
+  "extension": "mii",
+  "name": "Wii Virtual Avatar File",
+  "category": "wii-virtual-avatar-file",
+  "developer_org": "nintendo",
+  "popularity": {
+    "rating": 4.5,
+    "votes": 36,
+    "source": "fileinfo"
+  },
+  "summary": "Virtual avatar used by the Nintendo Wii gaming console system; stores properties for the avatar, such as the gender, hair color, skin color, facial features, and eye type; used to store customized characters that are controlled and animated during Wii gameplay.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "my-avatar-editor",
+        "display_name": "My Avatar Editor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "my-avatar-editor",
+        "display_name": "My Avatar Editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "my-avatar-editor",
+        "display_name": "My Avatar Editor"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-06-22",
+  "sources": [
+    {
+      "url": "mii.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

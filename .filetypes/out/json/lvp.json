@@ -1,0 +1,59 @@
+{
+  "slug": "lvp",
+  "extension": "lvp",
+  "name": "Avaya Voice Player Audio File",
+  "category": "avaya-voice-player-audio-file",
+  "developer_org": "avaya",
+  "popularity": {
+    "rating": 1.5,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Compressed audio format used by the Avaya Voice Player for making voice recordings; often used as a Web browser helper application for playing Avaya Voice files, but can also turn e-mail software into a voicemail system; designed to work with the Intuity Audix Multimedia Messaging System.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "avaya-voice-player",
+        "display_name": "Avaya Voice Player"
+      }
+    ],
+    "macos": [
+      {
+        "software": "avaya-voice-player",
+        "display_name": "Avaya Voice Player"
+      }
+    ],
+    "linux": [
+      {
+        "software": "avaya-voice-player",
+        "display_name": "Avaya Voice Player"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-03-01",
+  "sources": [
+    {
+      "url": "lvp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "slug": "astx",
+  "extension": "astx",
+  "name": "Active Server Template Extended File",
+  "category": "active-server-template-extended-file",
+  "developer_org": "elanat",
+  "popularity": {
+    "rating": 4.4,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "An ASTX file is a webpage template written in Elanat's Active Server Template Extended (ASTX) format. It contains server-side webpage code written in the ASPX and/or Razor formats. By importing an ASTX file into an .ASPX file, using Elanat's CodeBehind framework, web developers can quickly add the code their template contains to an ASPX webpage.",
+  "standards": [],
+  "mime_types": [
+    "and/or"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "elanat-codebehind",
+        "display_name": "Elanat CodeBehind"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-12-04",
+  "sources": [
+    {
+      "url": "astx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

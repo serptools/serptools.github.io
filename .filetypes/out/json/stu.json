@@ -1,0 +1,47 @@
+{
+  "slug": "stu",
+  "extension": "stu",
+  "name": "Pinnacle Studio Project File",
+  "category": "pinnacle-studio-project-file",
+  "developer_org": "avid-technology",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "A STU file is a project file created by early versions of Pinnacle Studio, a program used to create and edit videos. It stores all project information, including video, audio, effects, and timelines. Pinnacle Studio no longer supports STU files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "pinnacle-studio-earlier-versions-only",
+        "display_name": "Pinnacle Studio (earlier versions only)"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-08-11",
+  "sources": [
+    {
+      "url": "stu.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

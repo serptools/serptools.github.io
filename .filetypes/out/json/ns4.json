@@ -1,0 +1,61 @@
+{
+  "slug": "ns4",
+  "extension": "ns4",
+  "name": "Lotus Notes 4 Database",
+  "category": "lotus-notes-4-database",
+  "developer_org": "ibm",
+  "popularity": {
+    "rating": 1.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "Database file created by Lotus Notes 4.x; contains a list of contacts, text notes, e-mail messages, calendars, and other information; stores structured data for personal and business organizational management.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "ibm-lotus-notes-2-or-later",
+        "display_name": "IBM Lotus Notes 2 or later"
+      },
+      {
+        "software": "lotus-domino",
+        "display_name": "Lotus Domino"
+      }
+    ],
+    "macos": [
+      {
+        "software": "ibm-lotus-notes-2-or-later",
+        "display_name": "IBM Lotus Notes 2 or later"
+      },
+      {
+        "software": "lotus-domino",
+        "display_name": "Lotus Domino"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2007-01-04",
+  "sources": [
+    {
+      "url": "ns4.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "slug": "psdc",
+  "extension": "psdc",
+  "name": "Adobe Photoshop Cloud Document",
+  "category": "adobe-photoshop-cloud-document",
+  "developer_org": "adobe",
+  "popularity": {
+    "rating": 4.3,
+    "votes": 11,
+    "source": "fileinfo"
+  },
+  "summary": "A PSDC file is an Adobe Photoshop document saved in the Adobe Photoshop Document Cloud (PSDC) format. It contains an image in the same format as a .PSD file, including layers, annotations, and effects, but is stored in the cloud via Adobe's cloud documents system. Photoshop automatically updates the PSDC file when a user opens and modifies it on different devices.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "adobe-photoshop-2025",
+        "display_name": "Adobe Photoshop 2025"
+      },
+      {
+        "software": "adobe-photoshop",
+        "display_name": "Adobe Photoshop"
+      }
+    ],
+    "macos": [
+      {
+        "software": "adobe-photoshop-2025",
+        "display_name": "Adobe Photoshop 2025"
+      }
+    ],
+    "ios": [
+      {
+        "software": "adobe-photoshop",
+        "display_name": "Adobe Photoshop"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "PSDC file icon",
+      "alt": "PSDC file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/psdc-11400.png"
+    },
+    {
+      "caption": "PSDC file open in Adobe Photoshop 2025",
+      "alt": "PSDC file open in Adobe Photoshop 2025",
+      "source_url": "https://fileinfo.com/img/ss/md/psdc_11400.jpg"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2025-05-14",
+  "sources": [
+    {
+      "url": "psdc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

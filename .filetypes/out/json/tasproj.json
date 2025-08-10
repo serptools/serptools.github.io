@@ -1,0 +1,53 @@
+{
+  "slug": "tasproj",
+  "extension": "tasproj",
+  "name": "BizHawk TAStudio Project",
+  "category": "bizhawk-tastudio-project",
+  "developer_org": "tasvideos",
+  "popularity": {
+    "rating": 1.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "A TASPROJ file is a project file created in TAStudio, a tool-assisted video game speedrun editor included in BizHawk. It contains an editable video game input file that is used to create a tool-assisted speedrun. TASPROJ files can be opened and edited only in TAStudio.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "bizhawk",
+        "display_name": "BizHawk"
+      }
+    ],
+    "linux": [
+      {
+        "software": "bizhawk",
+        "display_name": "BizHawk"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-11-02",
+  "sources": [
+    {
+      "url": "tasproj.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

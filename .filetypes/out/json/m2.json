@@ -1,0 +1,59 @@
+{
+  "slug": "m2",
+  "extension": "m2",
+  "name": "World of Warcraft Model Object",
+  "category": "1.-world-of-warcraft-model-object",
+  "developer_org": "blizzard-entertainment",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "3D model format used by World of Warcraft, an online multiplayer adventure game; describes the vertices, faces, textures, materials, and animation capabilities of a single model; used for players, creatures, and doodads (decoration objects) within the game.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "blizzard-world-of-warcraft",
+        "display_name": "Blizzard World of Warcraft"
+      },
+      {
+        "software": "fmpmd2000",
+        "display_name": "FMPMD2000"
+      }
+    ],
+    "macos": [
+      {
+        "software": "blizzard-world-of-warcraft",
+        "display_name": "Blizzard World of Warcraft"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-09-21",
+  "sources": [
+    {
+      "url": "m2.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

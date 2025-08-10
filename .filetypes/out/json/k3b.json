@@ -1,0 +1,53 @@
+{
+  "slug": "k3b",
+  "extension": "k3b",
+  "name": "K3b Disk Burning Project File",
+  "category": "k3b-disk-burning-project-file",
+  "developer_org": "k3b",
+  "popularity": {
+    "rating": 1.3,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "File created by K3b, a disk burning application for KDE (a Linux desktop GUI ); saves a list of files to be burned as well as the target disk format; can be used for data or audio CD projects.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "linux": [
+      {
+        "software": "k3b",
+        "display_name": "K3b"
+      }
+    ],
+    "windows": [
+      {
+        "software": "k3b",
+        "display_name": "K3b"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-12-10",
+  "sources": [
+    {
+      "url": "k3b.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

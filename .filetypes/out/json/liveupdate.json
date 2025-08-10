@@ -1,0 +1,57 @@
+{
+  "slug": "liveupdate",
+  "extension": "liveupdate",
+  "name": "Symantec LiveUpdate File",
+  "category": "symantec-liveupdate-file",
+  "developer_org": "symantec",
+  "popularity": {
+    "rating": 2.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "File used by LiveUpdate, a program used to update Symantec antivirus programs; contains data for updating antivirus software and virus definitions; facilitates remote software updates by providing local computer and software information.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "veritas-backup-exec",
+        "display_name": "Veritas Backup Exec"
+      },
+      {
+        "software": "symantec-liveupdate",
+        "display_name": "Symantec LiveUpdate"
+      }
+    ],
+    "macos": [
+      {
+        "software": "symantec-liveupdate",
+        "display_name": "Symantec LiveUpdate"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-03-20",
+  "sources": [
+    {
+      "url": "liveupdate.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

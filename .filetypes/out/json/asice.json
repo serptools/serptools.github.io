@@ -1,0 +1,61 @@
+{
+  "slug": "asice",
+  "extension": "asice",
+  "name": "ASiC-Extended Data Container",
+  "category": "asic-extended-data-container",
+  "developer_org": "etsi",
+  "popularity": {
+    "rating": 2.8,
+    "votes": 14,
+    "source": "fileinfo"
+  },
+  "summary": "An ASICE file is a .ZIP file that stores data in the Associated Signature Container Extended (ASiC-E) format. It contains a root folder that stores both protected data and a META-INF folder. The META-INF folder contains digital signatures, timestamp tokens, and/or other metadata used to verify the data's authenticity.",
+  "standards": [],
+  "mime_types": [
+    "and/or"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "qdigidoc",
+        "display_name": "qDigiDoc"
+      }
+    ],
+    "macos": [
+      {
+        "software": "qdigidoc",
+        "display_name": "qDigiDoc"
+      }
+    ],
+    "linux": [
+      {
+        "software": "qdigidoc",
+        "display_name": "qDigiDoc"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-08-17",
+  "sources": [
+    {
+      "url": "asice.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

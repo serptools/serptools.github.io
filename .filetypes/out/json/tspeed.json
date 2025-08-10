@@ -1,0 +1,101 @@
+{
+  "slug": "tspeed",
+  "extension": "tspeed",
+  "name": "TyperSpeed Sepia Settings File",
+  "category": "typerspeed-sepia-settings-file",
+  "developer_org": "seediffusion",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "A TSPEED file is a settings file created by TyperSpeed Sepia, a typing game for Windows. TyperSpeed Sepia uses a player's TSPEED file ( settings.tspeed or sepia.tspeed ) to load their game settings. TSPEED files are plain text files that you can open and edit with any text editor.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "typerspeed-sepia",
+        "display_name": "TyperSpeed Sepia"
+      },
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "TSPEED file open in Microsoft Visual Studio Code",
+      "alt": "TSPEED file open in Microsoft Visual Studio Code",
+      "source_url": "https://fileinfo.com/img/ss/md/tspeed_12257.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2024-03-13",
+  "sources": [
+    {
+      "url": "tspeed.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

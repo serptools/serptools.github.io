@@ -1,0 +1,193 @@
+{
+  "slug": "gdz",
+  "extension": "gdz",
+  "name": "GEDZip Genealogy Data File",
+  "category": "gedzip-genealogy-data-file",
+  "developer_org": "familysearch",
+  "popularity": {
+    "rating": 1.7,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "A GDZ file is a Zip-compressed archive that includes a FamilySearch .GED file and associated media files, such as pictures and supporting documents. It is created using a GEDZip utility that can be embedded in genealogy software using the specification included in the version 7.0 release of the FamilySearch GEnealogical Data COMmunications (GEDCOM) format. GDZ files allow genealogists to save and exchange genealogical data, including historical pictures and photos, across different genealogy databases and programs.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "myheritage-family-tree-builder",
+        "display_name": "MyHeritage Family Tree Builder"
+      },
+      {
+        "software": "rootsmagic",
+        "display_name": "RootsMagic"
+      },
+      {
+        "software": "rootsmagic-essentials",
+        "display_name": "RootsMagic Essentials"
+      },
+      {
+        "software": "ancestral-author",
+        "display_name": "Ancestral Author"
+      },
+      {
+        "software": "thoughtful-creations-genbox-family-history",
+        "display_name": "Thoughtful Creations Genbox Family History"
+      },
+      {
+        "software": "gramps",
+        "display_name": "Gramps"
+      },
+      {
+        "software": "corel-winzip",
+        "display_name": "Corel WinZip"
+      },
+      {
+        "software": "b1-free-archiver",
+        "display_name": "B1 Free Archiver",
+        "pricing": "free"
+      },
+      {
+        "software": "apple-archive-utility",
+        "display_name": "Apple Archive Utility"
+      },
+      {
+        "software": "lifelines",
+        "display_name": "LifeLines"
+      },
+      {
+        "software": "ancestry.com",
+        "display_name": "Ancestry.com"
+      },
+      {
+        "software": "familysearch.org",
+        "display_name": "FamilySearch.org"
+      }
+    ],
+    "web": [
+      {
+        "software": "geneweb",
+        "display_name": "GeneWeb"
+      },
+      {
+        "software": "myheritage-family-tree-builder",
+        "display_name": "MyHeritage Family Tree Builder"
+      },
+      {
+        "software": "rootsmagic",
+        "display_name": "RootsMagic"
+      },
+      {
+        "software": "rootsmagic-essentials",
+        "display_name": "RootsMagic Essentials"
+      },
+      {
+        "software": "ancestral-author",
+        "display_name": "Ancestral Author"
+      },
+      {
+        "software": "thoughtful-creations-genbox-family-history",
+        "display_name": "Thoughtful Creations Genbox Family History"
+      },
+      {
+        "software": "gramps",
+        "display_name": "Gramps"
+      },
+      {
+        "software": "corel-winzip",
+        "display_name": "Corel WinZip"
+      },
+      {
+        "software": "b1-free-archiver",
+        "display_name": "B1 Free Archiver",
+        "pricing": "free"
+      },
+      {
+        "software": "lifelines",
+        "display_name": "LifeLines"
+      },
+      {
+        "software": "ancestry.com",
+        "display_name": "Ancestry.com"
+      },
+      {
+        "software": "familysearch.org",
+        "display_name": "FamilySearch.org"
+      }
+    ],
+    "macos": [
+      {
+        "software": "ifamily-for-mac",
+        "display_name": "iFamily for Mac"
+      },
+      {
+        "software": "myheritage-family-tree-builder",
+        "display_name": "MyHeritage Family Tree Builder"
+      },
+      {
+        "software": "rootsmagic",
+        "display_name": "RootsMagic"
+      },
+      {
+        "software": "rootsmagic-essentials",
+        "display_name": "RootsMagic Essentials"
+      },
+      {
+        "software": "ancestral-author",
+        "display_name": "Ancestral Author"
+      },
+      {
+        "software": "gramps",
+        "display_name": "Gramps"
+      },
+      {
+        "software": "apple-archive-utility",
+        "display_name": "Apple Archive Utility"
+      },
+      {
+        "software": "b1-free-archiver",
+        "display_name": "B1 Free Archiver",
+        "pricing": "free"
+      }
+    ],
+    "linux": [
+      {
+        "software": "lifelines",
+        "display_name": "LifeLines"
+      },
+      {
+        "software": "gramps",
+        "display_name": "Gramps"
+      },
+      {
+        "software": "b1-free-archiver",
+        "display_name": "B1 Free Archiver",
+        "pricing": "free"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-10-14",
+  "sources": [
+    {
+      "url": "gdz.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

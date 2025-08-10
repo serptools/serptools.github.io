@@ -1,0 +1,53 @@
+{
+  "slug": "orx",
+  "extension": "orx",
+  "name": "RadiantOne VDS Database Schema",
+  "category": "radiantone-vds-database-schema",
+  "developer_org": "radiant-logic",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Database schema the defines the structure of a database used by the Radiant One Virtual Directory Server (VDS); may be captured from an existing database using the Database Schema Extractor and can be modified using the Schema Manager within RadiantOne.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "radiant-logic-radiantone-virtual-directory-server",
+        "display_name": "Radiant Logic RadiantOne Virtual Directory Server"
+      }
+    ],
+    "linux": [
+      {
+        "software": "radiant-logic-radiantone-virtual-directory-server",
+        "display_name": "Radiant Logic RadiantOne Virtual Directory Server"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-08-25",
+  "sources": [
+    {
+      "url": "orx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

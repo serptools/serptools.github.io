@@ -1,0 +1,53 @@
+{
+  "slug": "mwd",
+  "extension": "mwd",
+  "name": "MyWorkDrive Client Shortcut File",
+  "category": "1.-myworkdrive-client-shortcut-file",
+  "developer_org": "myworkdrive",
+  "popularity": {
+    "rating": 2.8,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "An MWD file contains a shortcut created by MyWorkDrive Mapped Drive Client for Windows, a program that allows users to map a drive to files so they can securely and remotely access and edit them. It stores a link to a file or folder stored on the MyWorkDrive that can be accessed by a user with the appropriate file sharing permissions.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "myworkdrive-mapped-drive-client",
+        "display_name": "MyWorkDrive Mapped Drive Client"
+      }
+    ],
+    "macos": [
+      {
+        "software": "mariner-write",
+        "display_name": "Mariner Write"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-03-19",
+  "sources": [
+    {
+      "url": "mwd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

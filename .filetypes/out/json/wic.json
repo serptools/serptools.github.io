@@ -1,0 +1,59 @@
+{
+  "slug": "wic",
+  "extension": "wic",
+  "name": "Java Wavelet Image",
+  "category": "java-wavelet-image",
+  "developer_org": "sasha-chukov",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "A WIC file is a raster image saved in the Java Wavelet Image Codec (JWIC) format. It was created by Sasha Chukov's JWICTranslator, a utility designed to save images with higher quality and smaller file sizes than .JPEG files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      }
+    ],
+    "macos": [
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      }
+    ],
+    "linux": [
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-08-14",
+  "sources": [
+    {
+      "url": "wic.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

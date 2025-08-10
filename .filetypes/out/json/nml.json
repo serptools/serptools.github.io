@@ -1,0 +1,102 @@
+{
+  "slug": "nml",
+  "extension": "nml",
+  "name": "Traktor Collection File",
+  "category": "1.-traktor-collection-file",
+  "developer_org": "native-instruments",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "File used by Traktor, a DJ mixing application used for creating audio mixes; saves the user's playlist in an XML format; includes the list of artists, releases, labels, genres, tracks, samples, and remix sets; does not include any actual audio sample file, but instead includes references to them.",
+  "standards": [],
+  "mime_types": [
+    "n/a",
+    "tools/options"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "native-instruments-traktor",
+        "display_name": "Native Instruments Traktor"
+      },
+      {
+        "software": "nsmbe",
+        "display_name": "NSMBe"
+      },
+      {
+        "software": "nml",
+        "display_name": "NML"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "native-instruments-traktor",
+        "display_name": "Native Instruments Traktor"
+      },
+      {
+        "software": "nml",
+        "display_name": "NML"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "nml",
+        "display_name": "NML"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2013-04-23",
+  "sources": [
+    {
+      "url": "nml.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

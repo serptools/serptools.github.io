@@ -1,0 +1,22 @@
+{
+  "slug": "parquet",
+  "extension": "parquet",
+  "name": "Parquet Dataset",
+  "category": "parquet-dataset",
+  "summary": "",
+  "developer_org": "apache",
+  "developer_name": "Apache",
+  "more_information": {
+    "description": [
+      "Apache Hadoop is an open-source software library used to process large data sets within a distributed computing system. Typically, projects created using Hadoop are used to solve complex problems that require analyzing incredibly large amounts of data.",
+      "Any project that uses Hadoop can store column-based data in PARQUET files. Each PARQUET file contains a magic number, PAR1 , followed by row groups that specify the data each column contains. The files also contain various metadata stored in footer entries linked to each data chunk."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "parquet.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

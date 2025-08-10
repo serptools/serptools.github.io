@@ -1,0 +1,101 @@
+{
+  "slug": "wcm",
+  "extension": "wcm",
+  "name": "WordPerfect Macro",
+  "category": "1.-wordperfect-macro",
+  "developer_org": "corel",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "A WCM file is a macro created by Corel WordPerfect, a word processor for Windows. It contains a series of commands run by Corel WordPerfect to automate one or more tasks in the word processing application.",
+  "standards": [],
+  "mime_types": [
+    "create/record"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "corel-wordperfect-2021",
+        "display_name": "Corel WordPerfect 2021"
+      },
+      {
+        "software": "microsoft-works",
+        "display_name": "Microsoft Works",
+        "status": "discontinued"
+      },
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "WCM file icon",
+      "alt": "WCM file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/wcm-1978.png"
+    },
+    {
+      "caption": "WCM file open in Corel WordPerfect 2021",
+      "alt": "WCM file open in Corel WordPerfect 2021",
+      "source_url": "https://fileinfo.com/img/ss/md/wcm_1978.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-09-28",
+  "sources": [
+    {
+      "url": "wcm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

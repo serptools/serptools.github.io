@@ -1,0 +1,128 @@
+{
+  "slug": "osz",
+  "extension": "osz",
+  "name": "osu! Beatmap File",
+  "category": "1.-osu-beatmap-file",
+  "developer_org": "peppy",
+  "popularity": {
+    "rating": 4.4,
+    "votes": 254,
+    "source": "fileinfo"
+  },
+  "summary": "An OSZ file is a beatmap file used by osu!, a free rhythm game in which players click and drag on-screen items in time with music. It contains Zip-compressed data that is used to play music, display graphics, and show players where and when they must interact with the game. osu! players can create their own OSZ files, allowing them to save and share custom beatmaps with each other.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "osu",
+        "display_name": "osu!"
+      },
+      {
+        "software": "opsu",
+        "display_name": "opsu!"
+      },
+      {
+        "software": "mcosu",
+        "display_name": "McOsu"
+      },
+      {
+        "software": "project-outfox",
+        "display_name": "Project Outfox"
+      },
+      {
+        "software": "corel-winzip",
+        "display_name": "Corel WinZip"
+      },
+      {
+        "software": "7-zip",
+        "display_name": "7-Zip"
+      },
+      {
+        "software": "apple-archive-utility",
+        "display_name": "Apple Archive Utility"
+      },
+      {
+        "software": "openlp",
+        "display_name": "OpenLP"
+      }
+    ],
+    "macos": [
+      {
+        "software": "opsu",
+        "display_name": "opsu!"
+      },
+      {
+        "software": "mcosu",
+        "display_name": "McOsu"
+      },
+      {
+        "software": "project-outfox",
+        "display_name": "Project Outfox"
+      },
+      {
+        "software": "apple-archive-utility",
+        "display_name": "Apple Archive Utility"
+      },
+      {
+        "software": "openlp",
+        "display_name": "OpenLP"
+      }
+    ],
+    "linux": [
+      {
+        "software": "opsu",
+        "display_name": "opsu!"
+      },
+      {
+        "software": "project-outfox",
+        "display_name": "Project Outfox"
+      },
+      {
+        "software": "openlp",
+        "display_name": "OpenLP"
+      }
+    ],
+    "android": [
+      {
+        "software": "opsu",
+        "display_name": "opsu!"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "OSZ file icon",
+      "alt": "OSZ file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/osz-4290.png"
+    },
+    {
+      "caption": "OSZ file open in opsu!",
+      "alt": "OSZ file open in opsu!",
+      "source_url": "https://fileinfo.com/img/ss/md/osz_4290-2.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-08-28",
+  "sources": [
+    {
+      "url": "osz.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

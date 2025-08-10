@@ -1,0 +1,63 @@
+{
+  "slug": "mbw",
+  "extension": "mbw",
+  "name": "Mine Blocks World",
+  "category": "1.-mine-blocks-world",
+  "developer_org": "zanzlanz",
+  "popularity": {
+    "rating": 4.3,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "An MBW file is a world that can be loaded in Mine Blocks, a 2D game inspired by Minecraft. It contains a copy of the world's terrain, the player's current inventory, health, and hunger, and the player's achievements. The web and Windows versions of Mine Blocks both can create and load MBW files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "zanzlanz-mine-blocks",
+        "display_name": "Zanzlanz Mine Blocks"
+      },
+      {
+        "software": "firesage-solutions-mbrwizard",
+        "display_name": "Firesage Solutions MBRWizard"
+      }
+    ],
+    "web": [
+      {
+        "software": "zanzlanz-mine-blocks",
+        "display_name": "Zanzlanz Mine Blocks"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "MBW file open in Zanzlanz Mine Blocks",
+      "alt": "MBW file open in Zanzlanz Mine Blocks",
+      "source_url": "https://fileinfo.com/img/ss/md/mbw_13162.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-02-16",
+  "sources": [
+    {
+      "url": "mbw.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "gdg",
+  "extension": "gdg",
+  "name": "GDevelop Project File",
+  "category": "gdevelop-project-file",
+  "developer_org": "florian-rival",
+  "popularity": {
+    "rating": 4.2,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "A GDG file is a project file used by GDevelop, an open source program used to create games without programming knowledge. It contains information about a game such as events, objects, and scenes. The file allows you to save and resume your progress when developing a game.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "gdevelop",
+        "display_name": "GDevelop"
+      }
+    ],
+    "macos": [
+      {
+        "software": "gdevelop",
+        "display_name": "GDevelop"
+      }
+    ],
+    "linux": [
+      {
+        "software": "gdevelop",
+        "display_name": "GDevelop"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2016-04-19",
+  "sources": [
+    {
+      "url": "gdg.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

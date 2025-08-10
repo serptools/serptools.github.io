@@ -1,0 +1,59 @@
+{
+  "slug": "bphys",
+  "extension": "bphys",
+  "name": "Blender Cache File",
+  "category": "blender-cache-file",
+  "developer_org": "the-blender-foundation",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "Cache file created by Blender, an open source 3D modeling program; contains particle point data, such as a particle's velocity vector, location vector, and rotation quaternion; created when rendering animations or scenes in Blender.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "blender",
+        "display_name": "Blender"
+      }
+    ],
+    "macos": [
+      {
+        "software": "blender",
+        "display_name": "Blender"
+      }
+    ],
+    "linux": [
+      {
+        "software": "blender",
+        "display_name": "Blender"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-05-12",
+  "sources": [
+    {
+      "url": "bphys.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

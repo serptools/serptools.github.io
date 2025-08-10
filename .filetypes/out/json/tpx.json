@@ -1,0 +1,52 @@
+{
+  "slug": "tpx",
+  "extension": "tpx",
+  "name": "DeLorme Topo Project File",
+  "category": "1.-delorme-topo-project-file",
+  "developer_org": "delorme",
+  "popularity": {
+    "rating": 2.3,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "Project file created by DeLorme Topo North America, a mapping software product; saves a map and may include aerial imagery, points of interest, and other mapping information; can be packaged into a .DMT file for sharing with other Topo NA users.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "delorme-topo-north-america",
+        "display_name": "DeLorme Topo North America",
+        "status": "discontinued"
+      },
+      {
+        "software": "borland-turbo-pascal-7-or-later",
+        "display_name": "Borland Turbo Pascal 7 or later"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-12-13",
+  "sources": [
+    {
+      "url": "tpx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

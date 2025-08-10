@@ -1,0 +1,59 @@
+{
+  "slug": "gsv",
+  "extension": "gsv",
+  "name": "Grim Fandango Saved Game",
+  "category": "grim-fandango-saved-game",
+  "developer_org": "lucasarts",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "A GSV file is a saved game created by LucasArts Grim Fandango, a 3D puzzle and adventure video game. It contains data used to resume a player's progress. Players create GSV files by selecting Save Game from the game's in-game menu.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "grim-fandango",
+        "display_name": "Grim Fandango"
+      }
+    ],
+    "macos": [
+      {
+        "software": "grim-fandango",
+        "display_name": "Grim Fandango"
+      }
+    ],
+    "linux": [
+      {
+        "software": "grim-fandango",
+        "display_name": "Grim Fandango"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-08-22",
+  "sources": [
+    {
+      "url": "gsv.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

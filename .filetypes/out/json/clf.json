@@ -1,0 +1,100 @@
+{
+  "slug": "clf",
+  "extension": "clf",
+  "name": "Caesium Image List",
+  "category": "caesium-image-list",
+  "developer_org": "saerasoft",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "A CLF file is an image list created and used by Caesium, a free image compression tool for Windows. It contains a list of images stored on a user's computer (or other storage device), which the user had previously added in Caesium. CLF files specify each listed image's name, file size, resolution, location, and other information.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "saerasoft-caesium",
+        "display_name": "SaeraSoft Caesium"
+      },
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      }
+    ],
+    "chromeos": [
+      {
+        "software": "google-chrome-text",
+        "display_name": "Google Chrome Text"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "CLF file icon",
+      "alt": "CLF file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/clf-12349.png"
+    },
+    {
+      "caption": "CLF file open in SaeraSoft Caesium",
+      "alt": "CLF file open in SaeraSoft Caesium",
+      "source_url": "https://fileinfo.com/img/ss/md/clf_12349.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-10-05",
+  "sources": [
+    {
+      "url": "clf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "vrd",
+  "extension": "vrd",
+  "name": "Visio Report Definition File",
+  "category": "visio-report-definition-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "Defines the parameters of a report created with Microsoft Visio; saved in an XML format; divided into five sections including 1) the title and description, 2) the fields and column headers, 3) information selection filters, 4) record groupings, and 5) a description of how the information is sorted.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-visio-365",
+        "display_name": "Microsoft Visio 365"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2008-10-21",
+  "sources": [
+    {
+      "url": "vrd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

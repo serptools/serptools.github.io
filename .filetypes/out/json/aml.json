@@ -1,0 +1,91 @@
+{
+  "slug": "aml",
+  "extension": "aml",
+  "name": "ACPI Machine Language File",
+  "category": "1.-acpi-machine-language-file",
+  "developer_org": "the-acpica-project",
+  "popularity": {
+    "rating": 4.1,
+    "votes": 24,
+    "source": "fileinfo"
+  },
+  "summary": "System file written in the ACPI (Advanced Configuration and Power Interface) Machine Language (AML), a low-level language used for configuring hardware properties; often used to boot Mac OS X on non-Apple hardware (\"Hackintosh\" systems), such as P55 motherboards; also used for enabling greater hardware compatibility and improving system performance.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "dsdtse",
+        "display_name": "DSDTSE"
+      },
+      {
+        "software": "iasl",
+        "display_name": "iasl"
+      },
+      {
+        "software": "esri-arcgis-for-desktop",
+        "display_name": "ESRI ArcGIS for Desktop"
+      },
+      {
+        "software": "automationml-editor",
+        "display_name": "AutomationML Editor"
+      },
+      {
+        "software": "gem-with-rubygems",
+        "display_name": "Gem with RubyGems"
+      },
+      {
+        "software": "microsoft-sandcastle",
+        "display_name": "Microsoft Sandcastle"
+      },
+      {
+        "software": "microsoft-visual-studio-with-docproject-plug-in",
+        "display_name": "Microsoft Visual Studio with DocProject plug-in"
+      }
+    ],
+    "macos": [
+      {
+        "software": "iasl",
+        "display_name": "iasl"
+      },
+      {
+        "software": "gem-with-rubygems",
+        "display_name": "Gem with RubyGems"
+      }
+    ],
+    "linux": [
+      {
+        "software": "iasl",
+        "display_name": "iasl"
+      },
+      {
+        "software": "gem-with-rubygems",
+        "display_name": "Gem with RubyGems"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-04-18",
+  "sources": [
+    {
+      "url": "aml.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

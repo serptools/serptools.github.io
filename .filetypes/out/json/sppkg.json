@@ -1,0 +1,53 @@
+{
+  "slug": "sppkg",
+  "extension": "sppkg",
+  "name": "Spplice Package",
+  "category": "spplice-package",
+  "developer_org": "p2r3",
+  "popularity": {
+    "rating": 4.3,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "An SPPKG file is a mod for Portal 2, which players can install using Spplice (Simple Portal 2 Package Loading Instrument for Convenient External modding). Modders create SPPKG files using Spplicer, an Spplice mod packaging tool. After creating an SPPKG file, modders typically upload it to Spplice's online repository, so other players can easily download and install that mod.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "spplice",
+        "display_name": "Spplice"
+      }
+    ],
+    "linux": [
+      {
+        "software": "spplice",
+        "display_name": "Spplice"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-06-21",
+  "sources": [
+    {
+      "url": "sppkg.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

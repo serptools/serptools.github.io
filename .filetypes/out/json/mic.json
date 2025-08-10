@@ -1,0 +1,51 @@
+{
+  "slug": "mic",
+  "extension": "mic",
+  "name": "Image Composer File",
+  "category": "image-composer-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 2.4,
+    "votes": 17,
+    "source": "fileinfo"
+  },
+  "summary": "Web graphic created with Microsoft Image Composer, an image creation program that was packaged with FrontPage 98 and FrontPage 2000; may contain a simple graphic, banner, or animated image; saved as a small bitmap graphic ideal for Web publishing.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-image-composer",
+        "display_name": "Microsoft Image Composer"
+      },
+      {
+        "software": "microsoft-photodraw",
+        "display_name": "Microsoft PhotoDraw"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-05-13",
+  "sources": [
+    {
+      "url": "mic.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

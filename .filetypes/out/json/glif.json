@@ -1,0 +1,77 @@
+{
+  "slug": "glif",
+  "extension": "glif",
+  "name": "Glyph Interchange Format File",
+  "category": "glyph-interchange-format-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "A GLIF file is a file saved in the Glyph Interchange Format (GLIF) used for defining font symbols. It contains a glyph, which includes the name, format version, glyph width, and the X & Y point coordinates that define the outline of the symbol. GLIF files are saved in XML format.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "fontforge",
+        "display_name": "FontForge"
+      },
+      {
+        "software": "glyphs",
+        "display_name": "Glyphs"
+      },
+      {
+        "software": "robofont",
+        "display_name": "RoboFont"
+      }
+    ],
+    "macos": [
+      {
+        "software": "glyphs",
+        "display_name": "Glyphs"
+      },
+      {
+        "software": "fontforge",
+        "display_name": "FontForge"
+      },
+      {
+        "software": "robofont",
+        "display_name": "RoboFont"
+      }
+    ],
+    "linux": [
+      {
+        "software": "fontforge",
+        "display_name": "FontForge"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-02-13",
+  "sources": [
+    {
+      "url": "glif.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

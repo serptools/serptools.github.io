@@ -1,0 +1,138 @@
+{
+  "slug": "plist",
+  "extension": "plist",
+  "name": "Property List",
+  "category": "property-list",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 213,
+    "source": "fileinfo"
+  },
+  "summary": "A PLIST file is a properties list used by a macOS or iOS application. It defines many of the app's default settings and can store user settings. Most commonly, PLIST files are saved as binary files or XML files. In either case, PLIST files are typically not meant to be opened or edited by users.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "propertree",
+        "display_name": "ProperTree"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "notepad++",
+        "display_name": "Notepad++"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "apple-xcode",
+        "display_name": "Apple Xcode"
+      },
+      {
+        "software": "apple-plutil",
+        "display_name": "Apple plutil"
+      },
+      {
+        "software": "fat-cat-plistedit-pro",
+        "display_name": "Fat Cat PlistEdit Pro"
+      },
+      {
+        "software": "prefedit",
+        "display_name": "PrefEdit"
+      },
+      {
+        "software": "withgraphite-plutil",
+        "display_name": "Withgraphite Plutil"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-xcode",
+        "display_name": "Apple Xcode"
+      },
+      {
+        "software": "apple-plutil",
+        "display_name": "Apple plutil"
+      },
+      {
+        "software": "fat-cat-plistedit-pro",
+        "display_name": "Fat Cat PlistEdit Pro"
+      },
+      {
+        "software": "prefedit",
+        "display_name": "PrefEdit"
+      },
+      {
+        "software": "propertree",
+        "display_name": "ProperTree"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "withgraphite-plutil",
+        "display_name": "Withgraphite Plutil"
+      },
+      {
+        "software": "propertree",
+        "display_name": "ProperTree"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "PLIST file icon",
+      "alt": "PLIST file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/plist-699.png"
+    },
+    {
+      "caption": "PLIST file open in Apple Xcode",
+      "alt": "PLIST file open in Apple Xcode",
+      "source_url": "https://fileinfo.com/img/ss/md/plist_699.jpg"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-08-23",
+  "sources": [
+    {
+      "url": "plist.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

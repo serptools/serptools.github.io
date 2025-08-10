@@ -1,0 +1,91 @@
+{
+  "slug": "crt",
+  "extension": "crt",
+  "name": "Security Certificate",
+  "category": "security-certificate",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 53,
+    "source": "fileinfo"
+  },
+  "summary": "A CRT file is an encoded digital certificate used by a secure website. It identifies the website and verifies its authenticity. CRT files may be saved in a variety of certificate formats, including the Distinguished Encoding Rules ( .DER ) and Privacy Enhanced Mail ( .PEM ) formats.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-edge",
+        "display_name": "Microsoft Edge"
+      },
+      {
+        "software": "mozilla-firefox",
+        "display_name": "Mozilla Firefox"
+      },
+      {
+        "software": "openssl",
+        "display_name": "OpenSSL"
+      },
+      {
+        "software": "apple-safari",
+        "display_name": "Apple Safari"
+      }
+    ],
+    "chromeos": [
+      {
+        "software": "google-chrome",
+        "display_name": "Google Chrome"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-safari",
+        "display_name": "Apple Safari"
+      },
+      {
+        "software": "mozilla-firefox",
+        "display_name": "Mozilla Firefox"
+      },
+      {
+        "software": "openssl",
+        "display_name": "OpenSSL"
+      }
+    ],
+    "linux": [
+      {
+        "software": "mozilla-firefox",
+        "display_name": "Mozilla Firefox"
+      },
+      {
+        "software": "openssl",
+        "display_name": "OpenSSL"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-10-25",
+  "sources": [
+    {
+      "url": "crt.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

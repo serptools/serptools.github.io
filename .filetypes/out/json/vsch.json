@@ -1,0 +1,51 @@
+{
+  "slug": "vsch",
+  "extension": "vsch",
+  "name": "Windows Vault Schema File",
+  "category": "windows-vault-schema-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "File created by Windows Vault (also called the Credential Manager), a program available with Windows 7 that allows users to securely store personal information such as user names and passwords; contains a schema, or data description, for the data stored in the vault.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-windows-vault",
+        "display_name": "Microsoft Windows Vault"
+      },
+      {
+        "software": "passcape-password-recovery",
+        "display_name": "Passcape Password Recovery"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-07-17",
+  "sources": [
+    {
+      "url": "vsch.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

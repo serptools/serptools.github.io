@@ -1,0 +1,77 @@
+{
+  "slug": "rcproject",
+  "extension": "rcproject",
+  "name": "Apple Reality Composer Project",
+  "category": "1.-apple-reality-composer-project",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "An RCPROJECT file contains a project created by Apple Reality Composer, a program used to prototype and produce augmented reality (AR) content. It stores information about a 3D scene, which may include multiple objects, animation and physics properties, audio data, and project metadata .",
+  "standards": [],
+  "mime_types": [
+    "movies/imovie"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "apple-xcode",
+        "display_name": "Apple Xcode"
+      },
+      {
+        "software": "apple-reality-composer",
+        "display_name": "Apple Reality Composer"
+      },
+      {
+        "software": "apple-imovie-10",
+        "display_name": "Apple iMovie 10"
+      },
+      {
+        "software": "apple-final-cut-pro",
+        "display_name": "Apple Final Cut Pro"
+      }
+    ],
+    "windows": [
+      {
+        "software": "apple-xcode",
+        "display_name": "Apple Xcode"
+      },
+      {
+        "software": "apple-reality-composer",
+        "display_name": "Apple Reality Composer"
+      }
+    ],
+    "ios": [
+      {
+        "software": "apple-reality-composer",
+        "display_name": "Apple Reality Composer"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-06-18",
+  "sources": [
+    {
+      "url": "rcproject.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

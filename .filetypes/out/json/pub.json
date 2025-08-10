@@ -1,0 +1,117 @@
+{
+  "slug": "pub",
+  "extension": "pub",
+  "name": "Publisher Document",
+  "category": "1.-publisher-document",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 497,
+    "source": "fileinfo"
+  },
+  "summary": "A PUB file is a document created by Microsoft Publisher, a desktop publishing program used to create professional documents and marketing materials. It contains a page layout and design elements, such as text, shapes, and vector or raster graphics. Users often save brochures, newsletters, flyers, invitations, and posters as PUB files.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-publisher-365",
+        "display_name": "Microsoft Publisher 365"
+      },
+      {
+        "software": "adobe-indesign-with-pub2id-plugin",
+        "display_name": "Adobe InDesign with PUB2ID Plugin"
+      },
+      {
+        "software": "libreoffice",
+        "display_name": "LibreOffice"
+      },
+      {
+        "software": "coreldraw-graphics-suite-2024",
+        "display_name": "CorelDRAW Graphics Suite 2024"
+      },
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      },
+      {
+        "software": "ssh-keygen",
+        "display_name": "ssh-keygen"
+      },
+      {
+        "software": "puttygen",
+        "display_name": "PuTTYgen"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "adobe-indesign-with-pub2id-plugin",
+        "display_name": "Adobe InDesign with PUB2ID Plugin"
+      },
+      {
+        "software": "libreoffice",
+        "display_name": "LibreOffice"
+      },
+      {
+        "software": "ssh-keygen",
+        "display_name": "ssh-keygen"
+      }
+    ],
+    "linux": [
+      {
+        "software": "libreoffice",
+        "display_name": "LibreOffice"
+      },
+      {
+        "software": "ssh-keygen",
+        "display_name": "ssh-keygen"
+      },
+      {
+        "software": "puttygen",
+        "display_name": "PuTTYgen"
+      }
+    ],
+    "web": [
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "PUB file open in Microsoft Publisher 2016",
+      "alt": "PUB file open in Microsoft Publisher 2016",
+      "source_url": "https://fileinfo.com/img/ss/md/pub_85.jpg"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-04-19",
+  "sources": [
+    {
+      "url": "pub.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "gdtb",
+  "extension": "gdtb",
+  "name": "gretl Binary Datafile",
+  "category": "gretl-binary-datafile",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "Datafile used by gretl, an open source econometrics program; stores economic data, which includes observations, variables, and descriptions of the included information, in binary format.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "gretl",
+        "display_name": "gretl"
+      }
+    ],
+    "macos": [
+      {
+        "software": "gretl",
+        "display_name": "gretl"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-05-19",
+  "sources": [
+    {
+      "url": "gdtb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

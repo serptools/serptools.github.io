@@ -1,0 +1,53 @@
+{
+  "slug": "8bc",
+  "extension": "8bc",
+  "name": "Photoshop 5.0 Plugin",
+  "category": "photoshop-5.0-plugin",
+  "developer_org": "adobe-systems",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "An 8BC file is a plugin for Adobe Photoshop 5.0 that extends the software's functionality. It contains binary data that adds new features to the software, such as custom image effects and filters, which are not included in the default installation of Photoshop.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "version-5-of-adobe-photoshop",
+        "display_name": "Version 5 of Adobe Photoshop"
+      }
+    ],
+    "macos": [
+      {
+        "software": "version-5-of-adobe-photoshop",
+        "display_name": "Version 5 of Adobe Photoshop"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2025-02-13",
+  "sources": [
+    {
+      "url": "8bc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

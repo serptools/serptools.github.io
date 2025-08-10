@@ -1,0 +1,61 @@
+{
+  "slug": "rmgb",
+  "extension": "rmgb",
+  "name": "RootsMagic Backup File",
+  "category": "rootsmagic-backup-file",
+  "developer_org": "rootsmagic",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "An RMGB file is a backup file created by RootsMagic, a genealogy program used for capturing family history information. It contains a backup of an .RMGC project file. RMGB files are used for archiving on external media and can be used to restore projects if they become lost or corrupted.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "rootsmagic",
+        "display_name": "RootsMagic"
+      },
+      {
+        "software": "rootsmagic-essentials",
+        "display_name": "RootsMagic Essentials"
+      }
+    ],
+    "macos": [
+      {
+        "software": "rootsmagic",
+        "display_name": "RootsMagic"
+      },
+      {
+        "software": "rootsmagic-essentials",
+        "display_name": "RootsMagic Essentials"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-09-22",
+  "sources": [
+    {
+      "url": "rmgb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

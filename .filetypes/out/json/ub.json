@@ -1,0 +1,81 @@
+{
+  "slug": "ub",
+  "extension": "ub",
+  "name": "Unsigned Byte Audio File",
+  "category": "unsigned-byte-audio-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 1.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "Uncompressed audio file format used by Amiga and Q40 systems; contains raw, unsigned 8-bit (1 byte) audio data; encoded using Pulse Code Modulation (PCM), a standard method of encoding analog audio signals in digital form.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "ql-sampled-sound-system",
+        "display_name": "QL Sampled Sound System"
+      },
+      {
+        "software": "sox",
+        "display_name": "SoX"
+      },
+      {
+        "software": "waveform-software-sox-wrap",
+        "display_name": "Waveform Software SoX Wrap"
+      },
+      {
+        "software": "apple-quicktime-player",
+        "display_name": "Apple QuickTime Player"
+      }
+    ],
+    "macos": [
+      {
+        "software": "sox",
+        "display_name": "SoX"
+      },
+      {
+        "software": "waveform-software-sox-wrap",
+        "display_name": "Waveform Software SoX Wrap"
+      },
+      {
+        "software": "apple-quicktime-player",
+        "display_name": "Apple QuickTime Player"
+      }
+    ],
+    "linux": [
+      {
+        "software": "sox",
+        "display_name": "SoX"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-06-12",
+  "sources": [
+    {
+      "url": "ub.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

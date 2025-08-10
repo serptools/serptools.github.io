@@ -1,0 +1,51 @@
+{
+  "slug": "dvc",
+  "extension": "dvc",
+  "name": "Dragon Voice Command File",
+  "category": "1.-dragon-voice-command-file",
+  "developer_org": "nuance-communications",
+  "popularity": {
+    "rating": 4.2,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "File used by Dragon NaturallySpeaking, a speech recognition program developed by Nuance Communications; saves a collection of voice commands that can be spoken by the user, as well as the scripts that run when they are issued.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "nuance-dragon-naturallyspeaking",
+        "display_name": "Nuance Dragon NaturallySpeaking"
+      },
+      {
+        "software": "supermap-desktop-gis",
+        "display_name": "SuperMap Desktop GIS"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-10-05",
+  "sources": [
+    {
+      "url": "dvc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

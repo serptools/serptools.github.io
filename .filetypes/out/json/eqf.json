@@ -1,0 +1,47 @@
+{
+  "slug": "eqf",
+  "extension": "eqf",
+  "name": "Winamp Equalizer Preset File",
+  "category": "winamp-equalizer-preset-file",
+  "developer_org": "nullsoft",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Contains settings for the Winamp Equalizer (EQ), which adjusts the level of different audio frequencies; can be saved and loaded within Winamp by clicking the Preset button and selecting Save or Load; saved EQF files can be shared with other Winamp users.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "nullsoft-winamp",
+        "display_name": "Nullsoft Winamp"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2008-03-17",
+  "sources": [
+    {
+      "url": "eqf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

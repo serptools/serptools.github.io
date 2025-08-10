@@ -1,0 +1,40 @@
+{
+  "slug": "thumbdata",
+  "extension": "thumbdata",
+  "name": "Android Gallery Thumbnail Index",
+  "category": "android-gallery-thumbnail-index",
+  "developer_org": "google",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 13,
+    "source": "fileinfo"
+  },
+  "summary": "A THUMBDATA file is a cache file created by some Android devices' Gallery app. It contains indexed property information about every thumbnail image shown in your Gallery. Caching this information helps Gallery load thumbnails more quickly.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {},
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-09-30",
+  "sources": [
+    {
+      "url": "thumbdata.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

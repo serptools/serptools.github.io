@@ -1,0 +1,62 @@
+{
+  "slug": "dpm",
+  "extension": "dpm",
+  "name": "Pro Tools Plugin File",
+  "category": "pro-tools-plugin-file",
+  "developer_org": "digidesign",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 13,
+    "source": "fileinfo"
+  },
+  "summary": "Audio plugin for Pro Tools audio production software; adds effects and filters that can be applied to audio tracks within a Pro Tools session.",
+  "standards": [],
+  "mime_types": [
+    "library/application",
+    "support/digidesgin"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "avid-pro-tools",
+        "display_name": "Avid Pro Tools"
+      }
+    ],
+    "macos": [
+      {
+        "software": "avid-pro-tools",
+        "display_name": "Avid Pro Tools"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "DPM file icon",
+      "alt": "DPM file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/dpm-3498.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-08-24",
+  "sources": [
+    {
+      "url": "dpm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

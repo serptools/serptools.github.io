@@ -1,0 +1,61 @@
+{
+  "slug": "gdc",
+  "extension": "gdc",
+  "name": "Godot Engine Compiled Script",
+  "category": "godot-engine-compiled-script",
+  "developer_org": "godot",
+  "popularity": {
+    "rating": 4.5,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "A GDC file contains compiled GDScript source code, which is a scripting language used to create and modify content in Godot Engine. It stores bytecode compiled from a .GD source code file, which improves the performance of the 2D or 3D game developed in Godot Engine. GDC files are typically packaged with .ZIP or .PCK Godot Engine Game Pack files when a user deploys a game.",
+  "standards": [],
+  "mime_types": [
+    "pck/zip"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "godot-engine",
+        "display_name": "Godot Engine"
+      }
+    ],
+    "macos": [
+      {
+        "software": "godot-engine",
+        "display_name": "Godot Engine"
+      }
+    ],
+    "linux": [
+      {
+        "software": "godot-engine",
+        "display_name": "Godot Engine"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-12-03",
+  "sources": [
+    {
+      "url": "gdc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

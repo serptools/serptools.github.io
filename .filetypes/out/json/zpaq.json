@@ -1,0 +1,86 @@
+{
+  "slug": "zpaq",
+  "extension": "zpaq",
+  "name": "ZPAQ Archive",
+  "category": "zpaq-archive",
+  "developer_org": "matt-mahoney",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "A ZPAQ file is an archive that contains one or more files compressed with the open-source ZPAQ algorithm. It supports up to 250 terabytes of data, AES-256 encryption, and five different levels of compression with differing speeds and resulting archive sizes. Several compression utilities support ZPAQ files, including the ZPAQ command-line utility and ConeXware PowerArchiver.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "zpaq",
+        "display_name": "ZPAQ"
+      },
+      {
+        "software": "conexware-powerarchiver",
+        "display_name": "ConeXware PowerArchiver"
+      },
+      {
+        "software": "peazip",
+        "display_name": "PeaZip"
+      }
+    ],
+    "macos": [
+      {
+        "software": "zpaq",
+        "display_name": "ZPAQ"
+      },
+      {
+        "software": "conexware-powerarchiver",
+        "display_name": "ConeXware PowerArchiver"
+      }
+    ],
+    "linux": [
+      {
+        "software": "zpaq",
+        "display_name": "ZPAQ"
+      },
+      {
+        "software": "peazip",
+        "display_name": "PeaZip"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "ZPAQ file icon",
+      "alt": "ZPAQ file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/zpaq-12906.png"
+    },
+    {
+      "caption": "ZPAQ file open in ConeXware PowerArchiver 2022",
+      "alt": "ZPAQ file open in ConeXware PowerArchiver 2022",
+      "source_url": "https://fileinfo.com/img/ss/md/zpaq_12906.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-09-14",
+  "sources": [
+    {
+      "url": "zpaq.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "mulib",
+  "extension": "mulib",
+  "name": "Muse Library File",
+  "category": "muse-library-file",
+  "developer_org": "adobe",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "Library created and used by Muse, an application used to design web sites without writing code; contains page elements such as site images, guides, color swatches, customized widgets, logos, embedded HTML, and graphic styles.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "adobe-muse-cc",
+        "display_name": "Adobe Muse CC",
+        "status": "discontinued"
+      }
+    ],
+    "macos": [
+      {
+        "software": "adobe-muse-cc",
+        "display_name": "Adobe Muse CC",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2016-01-25",
+  "sources": [
+    {
+      "url": "mulib.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

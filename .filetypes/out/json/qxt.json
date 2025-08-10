@@ -1,0 +1,61 @@
+{
+  "slug": "qxt",
+  "extension": "qxt",
+  "name": "QuarkXPress Template",
+  "category": "quarkxpress-template",
+  "developer_org": "quark-software",
+  "popularity": {
+    "rating": 2.6,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "Template file for creating new QuarkXPress projects; used for designing multiple documents with similar layouts, such as brochures, newsletters, books, etc; may be included with the QuarkXPress software or created by the user.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "quarkxpress",
+        "display_name": "QuarkXPress"
+      },
+      {
+        "software": "adobe-indesign-with-q2id-plugin",
+        "display_name": "Adobe InDesign with Q2ID Plugin"
+      }
+    ],
+    "macos": [
+      {
+        "software": "quarkxpress",
+        "display_name": "QuarkXPress"
+      },
+      {
+        "software": "adobe-indesign-with-q2id-plugin",
+        "display_name": "Adobe InDesign with Q2ID Plugin"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-04-01",
+  "sources": [
+    {
+      "url": "qxt.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

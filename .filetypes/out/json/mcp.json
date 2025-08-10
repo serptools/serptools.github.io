@@ -1,0 +1,52 @@
+{
+  "slug": "mcp",
+  "extension": "mcp",
+  "name": "CodeWarrior Project",
+  "category": "1.-codewarrior-project",
+  "developer_org": "freescale-semiconductor",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "Development project created by CodeWarrior, a C and C++ development IDE ; saves references to project source code and resource files, as well as project specific preferences; originally used by Metrowerks CodeWarrior (MCP), which is now Freescale CodeWarrior.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "freescale-codewarrior",
+        "display_name": "Freescale CodeWarrior",
+        "pricing": "free"
+      },
+      {
+        "software": "megacubo",
+        "display_name": "Megacubo"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-07-06",
+  "sources": [
+    {
+      "url": "mcp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

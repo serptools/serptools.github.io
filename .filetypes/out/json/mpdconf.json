@@ -1,0 +1,119 @@
+{
+  "slug": "mpdconf",
+  "extension": "mpdconf",
+  "name": "Music Player Daemon File",
+  "category": "music-player-daemon-file",
+  "developer_org": "the-mpd-team",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "File used by Music Player Daemon (MPD), a server-side Unix-based music playback program; contains user-level settings for the player, including the remote host, connection port, music directory, playlist directory, audio stream settings, and user login information.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "mpcool",
+        "display_name": "MPCool"
+      },
+      {
+        "software": "playgui",
+        "display_name": "PlayGUI"
+      },
+      {
+        "software": "jmpd",
+        "display_name": "jMPD"
+      },
+      {
+        "software": "gmpc",
+        "display_name": "Gmpc"
+      },
+      {
+        "software": "ario",
+        "display_name": "Ario"
+      },
+      {
+        "software": "montypc",
+        "display_name": "Montypc"
+      },
+      {
+        "software": "gimmix",
+        "display_name": "Gimmix"
+      },
+      {
+        "software": "ncmpc",
+        "display_name": "Ncmpc"
+      },
+      {
+        "software": "dmpc",
+        "display_name": "Dmpc"
+      }
+    ],
+    "macos": [
+      {
+        "software": "mpcool",
+        "display_name": "MPCool"
+      },
+      {
+        "software": "playgui",
+        "display_name": "PlayGUI"
+      },
+      {
+        "software": "jmpd",
+        "display_name": "jMPD"
+      }
+    ],
+    "linux": [
+      {
+        "software": "gmpc",
+        "display_name": "Gmpc"
+      },
+      {
+        "software": "ario",
+        "display_name": "Ario"
+      },
+      {
+        "software": "montypc",
+        "display_name": "Montypc"
+      },
+      {
+        "software": "gimmix",
+        "display_name": "Gimmix"
+      },
+      {
+        "software": "ncmpc",
+        "display_name": "Ncmpc"
+      },
+      {
+        "software": "dmpc",
+        "display_name": "Dmpc"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-03-16",
+  "sources": [
+    {
+      "url": "mpdconf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

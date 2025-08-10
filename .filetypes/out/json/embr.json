@@ -1,0 +1,55 @@
+{
+  "slug": "embr",
+  "extension": "embr",
+  "name": "Spatial Geodatabase File",
+  "category": "spatial-geodatabase-file",
+  "developer_org": "georeid-pty-ltd",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "GIS file format developed by GEOREID Pty Ltd, a company that specializes in GIS data collection, site surveying, and analysis; used to store statistical geodatabase data such as calculated lengths or volumes at a set point in time; contains information in plain text.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "esri-arcgis-for-desktop",
+        "display_name": "ESRI ArcGIS for Desktop"
+      },
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "microsoft-wordpad",
+        "display_name": "Microsoft WordPad"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-11-09",
+  "sources": [
+    {
+      "url": "embr.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

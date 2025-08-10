@@ -1,0 +1,48 @@
+{
+  "slug": "hxt",
+  "extension": "hxt",
+  "name": "Microsoft Help 2 Table of Contents File",
+  "category": "microsoft-help-2-table-of-contents-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 1.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "File used by Microsoft Help 2.x help document projects; contains information about the help documentation's table of contents; enables the help information to be browsed in a structured manner; used for compiling a .HXS help file.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "innovasys-helpstudio",
+        "display_name": "Innovasys HelpStudio",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-04-04",
+  "sources": [
+    {
+      "url": "hxt.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

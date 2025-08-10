@@ -1,0 +1,62 @@
+{
+  "slug": "qpx",
+  "extension": "qpx",
+  "name": "QuickTime Player Extension",
+  "category": "1.-quicktime-player-extension",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 2.3,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "A QPX file is an extension for earlier versions of Apple QuickTime Player, a media player bundled with Mac OS X. It contains information that extends the capabilities of QuickTime Player, such as support for video formats that the media player does not natively support. QPX extensions allowed users of early QuickTime Player versions to customize the media player to handle a broader range of media formats depending on their needs.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "earlier-versions-of-apple-quicktime-player",
+        "display_name": "Earlier versions of Apple QuickTime Player"
+      }
+    ],
+    "windows": [
+      {
+        "software": "earlier-versions-of-apple-quicktime-player",
+        "display_name": "Earlier versions of Apple QuickTime Player"
+      },
+      {
+        "software": "microsoft-visual-foxpro",
+        "display_name": "Microsoft Visual FoxPro",
+        "status": "discontinued"
+      },
+      {
+        "software": "corel-wordperfect-2021",
+        "display_name": "Corel WordPerfect 2021"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2024-11-21",
+  "sources": [
+    {
+      "url": "qpx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

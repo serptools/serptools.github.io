@@ -1,0 +1,24 @@
+{
+  "slug": "maff",
+  "extension": "maff",
+  "name": "Mozilla Archive Format File",
+  "category": "mozilla-archive-format-file",
+  "summary": "",
+  "developer_org": "mozilla",
+  "developer_name": "Mozilla",
+  "more_information": {
+    "description": [
+      "Prior to 2018, Firefox and SeaMonkey users could install an .XPI add-on called Mozilla Archive Format. This add-on allowed users to save a webpage or set of webpages as a MAFF archive. Users could then open the archive in Firefox or SeaMonkey to view the webpages the archive contained, even while offline.",
+      "In addition to storing webpages, MAFF files store the webpages' metadata . The files also contain all downloadable media content, such as images, audio, or video files, that the saved webpages contained.",
+      "After installing the Mozilla Archive Format (MAF) add-on, users could save webpages as MAFF files by selecting File → Save Tabs As... or File → Save All Tabs As... from Firefox's menu bar.",
+      "Mozilla Firefox 57 and later versions do not support MAFF files. However, you can still install the MAF add-on and use it to open MAFF files in Mozilla Firefox 56, which is still available for download online ."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "maff.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

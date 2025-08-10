@@ -1,0 +1,61 @@
+{
+  "slug": "psw6",
+  "extension": "psw6",
+  "name": "Password Depot 6 File",
+  "category": "password-depot-6-file",
+  "developer_org": "acebit",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "File created by Password Depot 6, a password manager for Windows, Android, and iOS; saves a collection of personal passwords; can also store user names, credit card information, software licenses, importance levels, and other related information.",
+  "standards": [],
+  "mime_types": [
+    "and/or"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "acebit-password-depot",
+        "display_name": "AceBIT Password Depot"
+      }
+    ],
+    "ios": [
+      {
+        "software": "acebit-password-depot",
+        "display_name": "AceBIT Password Depot"
+      }
+    ],
+    "android": [
+      {
+        "software": "acebit-password-depot",
+        "display_name": "AceBIT Password Depot"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-10-22",
+  "sources": [
+    {
+      "url": "psw6.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

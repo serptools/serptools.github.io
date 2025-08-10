@@ -1,0 +1,130 @@
+{
+  "slug": "oga",
+  "extension": "oga",
+  "name": "Ogg Vorbis Audio File",
+  "category": "ogg-vorbis-audio-file",
+  "developer_org": "xiph.org",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 31,
+    "source": "fileinfo"
+  },
+  "summary": "An OGA file is an audio file saved using the Ogg audio container format. It may be encoded using one of several audio codecs , including FLAC, Ghost, Opus, or OggPCM. OGA files may also be encoded using the Ogg Vorbis or Speex codecs, though Xiph.Org does not recommend encoding OGA files using these codecs, due to compatibility issues.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "microsoft-media-player",
+        "display_name": "Microsoft Media Player"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "mplayer",
+        "display_name": "MPlayer"
+      },
+      {
+        "software": "nullsoft-winamp",
+        "display_name": "Nullsoft Winamp"
+      },
+      {
+        "software": "media-player-classic",
+        "display_name": "Media Player Classic"
+      },
+      {
+        "software": "jriver-media-center",
+        "display_name": "JRiver Media Center"
+      },
+      {
+        "software": "zinf",
+        "display_name": "Zinf"
+      },
+      {
+        "software": "totem",
+        "display_name": "Totem"
+      },
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      }
+    ],
+    "android": [
+      {
+        "software": "file-viewer-for-android",
+        "display_name": "File Viewer for Android"
+      }
+    ],
+    "macos": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "mplayer",
+        "display_name": "MPlayer"
+      }
+    ],
+    "linux": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "mplayer",
+        "display_name": "MPlayer"
+      },
+      {
+        "software": "totem",
+        "display_name": "Totem"
+      }
+    ],
+    "web": [
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "OGA file icon",
+      "alt": "OGA file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/oga-3634.png"
+    },
+    {
+      "caption": "OGA file open in VideoLAN VLC media player",
+      "alt": "OGA file open in VideoLAN VLC media player",
+      "source_url": "https://fileinfo.com/img/ss/md/oga_3634.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-10-28",
+  "sources": [
+    {
+      "url": "oga.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

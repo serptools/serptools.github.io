@@ -1,0 +1,79 @@
+{
+  "slug": "lbi",
+  "extension": "lbi",
+  "name": "Dreamweaver Library Item",
+  "category": "dreamweaver-library-item",
+  "developer_org": "adobe-systems",
+  "popularity": {
+    "rating": 3.2,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "Library file used by Adobe programs such as Dreamweaver, Flash, and Fireworks; stores a single asset from a larger library collection; may be a JavaScript function, an image, or other Web page component.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "adobe-dreamweaver-2021",
+        "display_name": "Adobe Dreamweaver 2021"
+      },
+      {
+        "software": "adobe-fireworks",
+        "display_name": "Adobe Fireworks",
+        "status": "discontinued"
+      },
+      {
+        "software": "adobe-flash-professional-cc",
+        "display_name": "Adobe Flash Professional CC",
+        "status": "discontinued"
+      }
+    ],
+    "macos": [
+      {
+        "software": "adobe-dreamweaver-2021",
+        "display_name": "Adobe Dreamweaver 2021"
+      },
+      {
+        "software": "adobe-fireworks",
+        "display_name": "Adobe Fireworks",
+        "status": "discontinued"
+      },
+      {
+        "software": "adobe-flash-professional-cc",
+        "display_name": "Adobe Flash Professional CC",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "LBI file icon",
+      "alt": "LBI file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/lbi-1022.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-12-21",
+  "sources": [
+    {
+      "url": "lbi.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

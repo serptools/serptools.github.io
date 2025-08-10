@@ -1,0 +1,47 @@
+{
+  "slug": "jvsgz",
+  "extension": "jvsgz",
+  "name": "Compressed Video Surveillance Project",
+  "category": "compressed-video-surveillance-project",
+  "developer_org": "jvsg",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "A JVSGZ file is a compressed project file created by JVSG's CCTV (Closed-Circuit Television) system design programs. It stores a .JVSG file compressed with Zip compression. JVSGZ files are used to store camera locations, camera view angles, bandwidth, hard disk calculations, and other CCTV design information.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "jvsg-ip-video-system-design-tool",
+        "display_name": "JVSG IP Video System Design Tool"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-09-15",
+  "sources": [
+    {
+      "url": "jvsgz.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

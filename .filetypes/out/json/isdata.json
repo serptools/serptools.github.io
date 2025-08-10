@@ -1,0 +1,53 @@
+{
+  "slug": "isdata",
+  "extension": "isdata",
+  "name": "Icon Services Data",
+  "category": "icon-services-data",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "An ISDATA file is a cache file created and used by macOS icon services. It contains cached icon data, which macOS uses to load icons more quickly. ISDATA files' filenames always consist of a UUID (such as 1AEDA0FE-C8DB-52F8-3A88-57A134262EB1 ) followed by the .isdata extension.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "apple-macos",
+        "display_name": "Apple macOS"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "ISDATA file open in Apple TextEdit",
+      "alt": "ISDATA file open in Apple TextEdit",
+      "source_url": "https://fileinfo.com/img/ss/md/isdata_13558.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-11-16",
+  "sources": [
+    {
+      "url": "isdata.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

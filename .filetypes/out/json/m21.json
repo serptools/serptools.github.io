@@ -1,0 +1,59 @@
+{
+  "slug": "m21",
+  "extension": "m21",
+  "name": "AXMEDIS MPEG-21 File",
+  "category": "1.-axmedis-mpeg-21-file",
+  "developer_org": "axmedis",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "Media file created with the AXMEDIS Editor; saved in a packaged content distribution format and may contain multiple types of media; may also include descriptive metadata , and DRM copy-protection information.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "axmedis-editor",
+        "display_name": "AXMEDIS Editor"
+      },
+      {
+        "software": "axmedis-player",
+        "display_name": "AXMEDIS Player"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-quicktime-player",
+        "display_name": "Apple QuickTime Player"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2008-09-22",
+  "sources": [
+    {
+      "url": "m21.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

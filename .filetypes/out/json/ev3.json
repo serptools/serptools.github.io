@@ -1,0 +1,67 @@
+{
+  "slug": "ev3",
+  "extension": "ev3",
+  "name": "LEGO MINDSTORMS EV3 Project",
+  "category": "1.-lego-mindstorms-ev3-project",
+  "developer_org": "the-lego-group",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 65,
+    "source": "fileinfo"
+  },
+  "summary": "An EV3 file is a project created by LEGO MINDSTORMS EV3, an app for commanding LEGO MINDSTORMS EV3 robots. It contains all of the project assets, including .EV3P programs, .EV3E experiments, .RGF graphics, .RSF sounds, building instructions, and My Block commands.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "lego-mindstorms-ev3",
+        "display_name": "LEGO MINDSTORMS EV3"
+      },
+      {
+        "software": "hy-tek-sports-team-manager",
+        "display_name": "HY-TEK Sports Team Manager"
+      },
+      {
+        "software": "az-tech-everlock",
+        "display_name": "Az-Tech Everlock"
+      }
+    ],
+    "macos": [
+      {
+        "software": "lego-mindstorms-ev3",
+        "display_name": "LEGO MINDSTORMS EV3"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "EV3 file icon",
+      "alt": "EV3 file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/ev3-9200.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2024-03-19",
+  "sources": [
+    {
+      "url": "ev3.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

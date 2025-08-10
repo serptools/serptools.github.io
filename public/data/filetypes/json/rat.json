@@ -1,0 +1,22 @@
+{
+  "slug": "rat",
+  "extension": "rat",
+  "name": "PICS Rating File",
+  "category": "pics-rating-file",
+  "summary": "",
+  "developer_org": "w3c",
+  "developer_name": "W3C",
+  "more_information": {
+    "description": [
+      "RAT files are used for installing rating systems on computers, which block access to websites that meet the PICS rules criteria. Microsoft's Content Advisor component, which is integrated with Internet Explorer, can use RAT files to install a rating system that helps deny access to certain websites. To install a rating system, double-click the RAT file.",
+      "NOTE: The PICS system is not widely supported, but Internet Explorer's Content Advisor can still use PICS RAT files."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "rat.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

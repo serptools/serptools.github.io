@@ -1,0 +1,52 @@
+{
+  "slug": "lcb",
+  "extension": "lcb",
+  "name": "Living Cookbook Backup File",
+  "category": "living-cookbook-backup-file",
+  "developer_org": "radium-technologies",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "An LCB file is a backup file created by Living Cookbook, a program used for managing cookbook recipes and planning meals. It contains cookbook recipes, grocery lists, meal calendars, and kitchen inventories. LCB files are used to backup and restore all cookbook data.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "radium-technologies-living-cookbook",
+        "display_name": "Radium Technologies Living Cookbook",
+        "status": "discontinued"
+      },
+      {
+        "software": "living-cookbook-rescue",
+        "display_name": "Living Cookbook Rescue"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-12-07",
+  "sources": [
+    {
+      "url": "lcb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

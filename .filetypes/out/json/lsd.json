@@ -1,0 +1,57 @@
+{
+  "slug": "lsd",
+  "extension": "lsd",
+  "name": "RPG Maker Game Save File",
+  "category": "1.-rpg-maker-game-save-file",
+  "developer_org": "enterbrain",
+  "popularity": {
+    "rating": 4.1,
+    "votes": 12,
+    "source": "fileinfo"
+  },
+  "summary": "Save file for a game created with RPG Maker; stores the current state of the gameplay so that the game can be resumed from the save point at a later time; by default, game save files are named \"Save01.lsd,\" \"Save02.lsd,\" \"Save03.lsd,\" etc.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "enterbrain-rpg_rt",
+        "display_name": "Enterbrain RPG_RT"
+      },
+      {
+        "software": "goldendict",
+        "display_name": "GoldenDict"
+      }
+    ],
+    "android": [
+      {
+        "software": "abbyy-lingvo-dictionaries-for-android",
+        "display_name": "ABBYY Lingvo Dictionaries for Android"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2008-03-11",
+  "sources": [
+    {
+      "url": "lsd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

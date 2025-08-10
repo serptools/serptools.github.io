@@ -1,0 +1,57 @@
+{
+  "slug": "w32",
+  "extension": "w32",
+  "name": "Win32 Makefile",
+  "category": "1.-win32-makefile",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 11,
+    "source": "fileinfo"
+  },
+  "summary": "Developer file used by Visual Studio, Make, and other programs used for building Win32 (Windows) application executables ( .EXE files); saved in a plain text format and contains instructions for constructing the EXE file; often named Makefile.w32 .",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-visual-studio-2022",
+        "display_name": "Microsoft Visual Studio 2022"
+      },
+      {
+        "software": "gnu-make-for-windows",
+        "display_name": "GNU Make for Windows"
+      },
+      {
+        "software": "sysmedia-wincaps",
+        "display_name": "Sysmedia WinCAPs"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-10-24",
+  "sources": [
+    {
+      "url": "w32.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

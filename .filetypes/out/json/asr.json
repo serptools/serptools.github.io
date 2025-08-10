@@ -1,0 +1,79 @@
+{
+  "slug": "asr",
+  "extension": "asr",
+  "name": "ActionScript Remote Document",
+  "category": "1.-actionscript-remote-document",
+  "developer_org": "adobe-systems",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 15,
+    "source": "fileinfo"
+  },
+  "summary": "Server-side ActionScript file created with Adobe Dreamweaver or Contribute; uses the same language and syntax as a standard ActionScript ( .AS ) file, but can access access built-in server-based features in ColdFusion; the \" Default.asr \" file installed with Dreamweaver and Contribute is located in the NewDocuments folder.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "adobe-dreamweaver-2021",
+        "display_name": "Adobe Dreamweaver 2021"
+      },
+      {
+        "software": "adobe-contribute-6.5",
+        "display_name": "Adobe Contribute 6.5",
+        "status": "discontinued"
+      },
+      {
+        "software": "asura-engine-extractor",
+        "display_name": "Asura Engine Extractor"
+      },
+      {
+        "software": "quickbms",
+        "display_name": "QuickBMS"
+      },
+      {
+        "software": "adobe-photoshop-2025",
+        "display_name": "Adobe Photoshop 2025"
+      }
+    ],
+    "macos": [
+      {
+        "software": "adobe-dreamweaver-2021",
+        "display_name": "Adobe Dreamweaver 2021"
+      },
+      {
+        "software": "adobe-contribute-6.5",
+        "display_name": "Adobe Contribute 6.5",
+        "status": "discontinued"
+      },
+      {
+        "software": "adobe-photoshop-2025",
+        "display_name": "Adobe Photoshop 2025"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-03-09",
+  "sources": [
+    {
+      "url": "asr.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

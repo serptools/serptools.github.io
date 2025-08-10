@@ -1,0 +1,66 @@
+{
+  "slug": "acv",
+  "extension": "acv",
+  "name": "Photoshop Adjustment Curve",
+  "category": "photoshop-adjustment-curve",
+  "developer_org": "adobe-systems",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "An ACV file is a color adjustment curve created by Adobe Photoshop's Curves tool. It contains settings Photoshop uses to alter an image's colors. ACV files are often used to fine-tune or correct an image's colors before printing or publication.",
+  "standards": [],
+  "mime_types": [
+    "and/or"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "adobe-photoshop-2025",
+        "display_name": "Adobe Photoshop 2025"
+      }
+    ],
+    "macos": [
+      {
+        "software": "adobe-photoshop-2025",
+        "display_name": "Adobe Photoshop 2025"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "ACV file icon",
+      "alt": "ACV file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/acv-4854.png"
+    },
+    {
+      "caption": "ACV file open in Adobe Photoshop",
+      "alt": "ACV file open in Adobe Photoshop",
+      "source_url": "https://fileinfo.com/img/ss/md/acv_4854.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-01-10",
+  "sources": [
+    {
+      "url": "acv.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "anm",
+  "extension": "anm",
+  "name": "3D Animation File",
+  "category": "3d-animation-file",
+  "summary": "",
+  "developer_org": "electronic-arts",
+  "developer_name": "Electronic Arts",
+  "more_information": {
+    "screenshot": {
+      "url": "https://fileinfo.com/img/ss/sm/anm_11613.png",
+      "alt": "Screenshot of a .anm file in VLC media player",
+      "caption": "ANM file open in VLC media player"
+    },
+    "description": [
+      "Electronic Arts released a number of versions of Deluxe Paint, a bitmap graphics editing software, between 1985 and 1995. DeluxePaint Animation was Electronic Arts' third Deluxe Paint release for MS-DOS PCs. Notably, it included animation creation and editing tools that allowed video game developers to create sophisticated 3D animations. These animations were saved as ANM files.",
+      "An ANM file consists of a header and several up-to-64KB blocks that contain a series of still frames. Frames are stored in sequence within their blocks, but the blocks themselves may not be stored in sequence within the ANM file. For example, the last block stored within an ANM file might contain the first few frames of an animation. When a program plays an ANM file, it must first determine the order in which it should read and play back the file's blocks."
+    ]
+  },
+  "images": [
+    {
+      "url": "https://fileinfo.com/img/ss/sm/anm_11613.png",
+      "alt": "Screenshot of a .anm file in VLC media player",
+      "caption": "ANM file open in VLC media player"
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "anm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

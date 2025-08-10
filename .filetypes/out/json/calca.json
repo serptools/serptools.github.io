@@ -1,0 +1,59 @@
+{
+  "slug": "calca",
+  "extension": "calca",
+  "name": "Calca Document",
+  "category": "calca-document",
+  "developer_org": "krueger-systems",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "Document created and used by Calca, a symbolic editor that calculates math problems in real time; contains plain text, which includes mathematical equations with variables, functions, and matrices.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "krueger-systems-calca",
+        "display_name": "Krueger Systems Calca"
+      }
+    ],
+    "macos": [
+      {
+        "software": "krueger-systems-calca",
+        "display_name": "Krueger Systems Calca"
+      }
+    ],
+    "ios": [
+      {
+        "software": "krueger-systems-calca",
+        "display_name": "Krueger Systems Calca"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-01-16",
+  "sources": [
+    {
+      "url": "calca.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

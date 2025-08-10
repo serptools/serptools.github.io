@@ -1,0 +1,67 @@
+{
+  "slug": "adi",
+  "extension": "adi",
+  "name": "AOMEI Backupper Disk Backup File",
+  "category": "1.-aomei-backupper-disk-backup-file",
+  "developer_org": "aomei",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 43,
+    "source": "fileinfo"
+  },
+  "summary": "Disk image created by AOMEI Backupper, a backup and recovery program for Windows users; contains a backup of a hard disk that can be used to restore hard disks when data loss or corruption occurs.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "aomei-backupper",
+        "display_name": "AOMEI Backupper"
+      },
+      {
+        "software": "microsoft-dynamics-ax",
+        "display_name": "Microsoft Dynamics AX"
+      },
+      {
+        "software": "active-data-recovery-active-disk-image",
+        "display_name": "Active@ Data Recovery Active@ Disk Image"
+      },
+      {
+        "software": "autodesk-autocad-2025",
+        "display_name": "Autodesk AutoCAD 2025"
+      },
+      {
+        "software": "ham-log",
+        "display_name": "HAM-LOG"
+      },
+      {
+        "software": "writelog",
+        "display_name": "WriteLog"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-06-16",
+  "sources": [
+    {
+      "url": "adi.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "lia",
+  "extension": "lia",
+  "name": "P-CAD ASCII Library file",
+  "category": "p-cad-ascii-library-file",
+  "summary": "",
+  "developer_org": "p-cad",
+  "developer_name": "P-CAD",
+  "more_information": {
+    "description": [
+      "The P-CAD ASCII format was developed by P-CAD, short for Personal CAD Systems, a program popular in the 1980s. It was later acquired by several different companies until Altium acquired it in 2000. P-CAD was then retired in 2006. P-CAD had a large segment of Electronic Design Automation (EDA) users with programs specializing in logic simulation, schematic capture, and printed circuit board (PCB) layout design.",
+      "The P-CAD ASCII format is used to contain the same libraries as the P-CAD Binary format but is saved in text format instead of binary format. You can use the Import Wizard included with Altium Designer to open LIA files."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "lia.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

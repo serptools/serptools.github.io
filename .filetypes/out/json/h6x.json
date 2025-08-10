@@ -1,0 +1,49 @@
+{
+  "slug": "h6x",
+  "extension": "h6x",
+  "name": "Soft6502 Trainer/Simulator Hex File",
+  "category": "soft6502-trainer-simulator-hex-file",
+  "developer_org": "crbond",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "An H6X file is a data file used by Soft6502 Trainer/Simulator, a program that simulates the behavior of a single board 650 computer. It contains 6502 code and data that can be saved and loaded at a later time.",
+  "standards": [],
+  "mime_types": [
+    "trainer/simulator"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "crbond-soft6502-trainer-simulator",
+        "display_name": "CRBond Soft6502 Trainer/Simulator"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-03-22",
+  "sources": [
+    {
+      "url": "h6x.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

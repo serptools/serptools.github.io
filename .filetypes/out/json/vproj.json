@@ -1,0 +1,58 @@
+{
+  "slug": "vproj",
+  "extension": "vproj",
+  "name": "VSDC Video Editor Project",
+  "category": "vsdc-video-editor-project",
+  "developer_org": "vsdc",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "A VPROJ file is a video editing project created using VSDC Video Editor, a video editing application available for Windows. It contains references to the video, audio, and image assets a project includes, as well as a record of the project's layers, timeline, effects, and edits. VPROJ files can be opened only in VSDC Video Editor.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "vsdc-video-editor",
+        "display_name": "VSDC Video Editor"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "VPROJ file icon",
+      "alt": "VPROJ file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/vproj-12009.png"
+    },
+    {
+      "caption": "VPROJ file open in VSDC Video Editor 6.6",
+      "alt": "VPROJ file open in VSDC Video Editor 6.6",
+      "source_url": "https://fileinfo.com/img/ss/md/vproj_12009.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-04-08",
+  "sources": [
+    {
+      "url": "vproj.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

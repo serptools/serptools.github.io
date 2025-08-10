@@ -1,0 +1,59 @@
+{
+  "slug": "edml",
+  "extension": "edml",
+  "name": "Adobe Extension Data Markup Language Document",
+  "category": "adobe-extension-data-markup-language-document",
+  "developer_org": "adobe-systems",
+  "popularity": {
+    "rating": 2.8,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "File used by Adobe Dreamweaver, a program used for building websites and Web applications; contains properties and instructions for how to display and populate data; often used for creating custom server behaviors.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "adobe-dreamweaver-2021",
+        "display_name": "Adobe Dreamweaver 2021"
+      }
+    ],
+    "macos": [
+      {
+        "software": "adobe-dreamweaver-2021",
+        "display_name": "Adobe Dreamweaver 2021"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "EDML file icon",
+      "alt": "EDML file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/edml-5411.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-12-21",
+  "sources": [
+    {
+      "url": "edml.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "crc",
+  "extension": "crc",
+  "name": "Total Commander Checksum File",
+  "category": "total-commander-checksum-file",
+  "developer_org": "ghisler-software",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 35,
+    "source": "fileinfo"
+  },
+  "summary": "File created by Total Commander, a program used to organize and manage files in Windows; contains a Cyclic Redundancy Check (CRC) code for a split archive; used to verify that files from a split archive have correctly been restored back to the original file.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "ghisler-total-commander",
+        "display_name": "Ghisler Total Commander"
+      },
+      {
+        "software": "combinecrc",
+        "display_name": "CombineCRC"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-02-08",
+  "sources": [
+    {
+      "url": "crc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

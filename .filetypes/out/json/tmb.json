@@ -1,0 +1,53 @@
+{
+  "slug": "tmb",
+  "extension": "tmb",
+  "name": "Timbuktu Pro Connection Document",
+  "category": "timbuktu-pro-connection-document",
+  "developer_org": "netopia",
+  "popularity": {
+    "rating": 2.8,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Remote access control file used by Timbuktu, a program that allows multiple computer systems to be controlled remotely; stores the connection settings for a remote connection, including the computer name, remote IP address, and security settings.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "netopia-timbuktu-pro",
+        "display_name": "Netopia Timbuktu Pro"
+      }
+    ],
+    "macos": [
+      {
+        "software": "netopia-timbuktu-pro",
+        "display_name": "Netopia Timbuktu Pro"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2007-01-10",
+  "sources": [
+    {
+      "url": "tmb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

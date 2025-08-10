@@ -1,0 +1,55 @@
+{
+  "slug": "pp4",
+  "extension": "pp4",
+  "name": "Picture Publisher Bitmap File",
+  "category": "picture-publisher-bitmap-file",
+  "developer_org": "corel",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "Image created with Picture Publisher, a program used to create and edit digital pictures; contains a bitmap image stored in a proprietary format; created in Picture Publisher version 4.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "coreldraw-graphics-suite-2024",
+        "display_name": "CorelDRAW Graphics Suite 2024"
+      },
+      {
+        "software": "corel-presentations-2021",
+        "display_name": "Corel Presentations 2021"
+      },
+      {
+        "software": "corel-picture-publisher",
+        "display_name": "Corel Picture Publisher"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-01-26",
+  "sources": [
+    {
+      "url": "pp4.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

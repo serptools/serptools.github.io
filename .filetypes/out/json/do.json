@@ -1,0 +1,111 @@
+{
+  "slug": "do",
+  "extension": "do",
+  "name": "Java Servlet",
+  "category": "1.-java-servlet",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 333,
+    "source": "fileinfo"
+  },
+  "summary": "A DO file is a web-based Java program ( servlet ) run by a web server that supports Java, such as Apache Tomcat or IBM WebSphere. It is typically mapped to the Struts controller, which processes the file. DO files are used for generating dynamic webpages, which include data retrieved from databases.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "apache-tomcat",
+        "display_name": "Apache Tomcat"
+      },
+      {
+        "software": ".po",
+        "display_name": ".PO"
+      },
+      {
+        "software": ".2mg",
+        "display_name": ".2MG"
+      },
+      {
+        "software": "ciderpress",
+        "display_name": "CiderPress"
+      },
+      {
+        "software": "apple-disk-transfer-prodos",
+        "display_name": "Apple Disk Transfer ProDOS"
+      },
+      {
+        "software": "kegs",
+        "display_name": "KEGS"
+      }
+    ],
+    "web": [
+      {
+        "software": "ibm-websphere",
+        "display_name": "IBM WebSphere"
+      },
+      {
+        "software": "web-browser",
+        "display_name": "web browser"
+      },
+      {
+        "software": "apache-tomcat",
+        "display_name": "Apache Tomcat"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apache-tomcat",
+        "display_name": "Apache Tomcat"
+      },
+      {
+        "software": "apple-disk-transfer-prodos",
+        "display_name": "Apple Disk Transfer ProDOS"
+      },
+      {
+        "software": "kegs",
+        "display_name": "KEGS"
+      }
+    ],
+    "linux": [
+      {
+        "software": "apache-tomcat",
+        "display_name": "Apache Tomcat"
+      },
+      {
+        "software": "apple-disk-transfer-prodos",
+        "display_name": "Apple Disk Transfer ProDOS"
+      },
+      {
+        "software": "kegs",
+        "display_name": "KEGS"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-09-05",
+  "sources": [
+    {
+      "url": "do.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

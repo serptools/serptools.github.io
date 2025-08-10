@@ -1,0 +1,61 @@
+{
+  "slug": "tk3",
+  "extension": "tk3",
+  "name": "TK3 Multimedia eBook",
+  "category": "tk3-multimedia-ebook",
+  "developer_org": "night-kitchen",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "Electronic book format that supports text, images, sounds, and video; can be used to create interactive documents and educational projects, such as reference guides, catalogs, and presentations.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "night-kitchen-tk3-reader",
+        "display_name": "Night Kitchen TK3 Reader"
+      },
+      {
+        "software": "night-kitchen-tk3-author",
+        "display_name": "Night Kitchen TK3 Author"
+      }
+    ],
+    "macos": [
+      {
+        "software": "night-kitchen-tk3-author",
+        "display_name": "Night Kitchen TK3 Author"
+      },
+      {
+        "software": "night-kitchen-tk3-reader",
+        "display_name": "Night Kitchen TK3 Reader"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2008-12-30",
+  "sources": [
+    {
+      "url": "tk3.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

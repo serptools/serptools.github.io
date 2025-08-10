@@ -1,0 +1,95 @@
+{
+  "slug": "sgt",
+  "extension": "sgt",
+  "name": "SPSS Chart Template",
+  "category": "1.-spss-chart-template",
+  "developer_org": "ibm",
+  "popularity": {
+    "rating": 2.6,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "File created by SPSS, a statistical analysis application; saves a chart template, which can be for a bar chart, line chart, scatter plot, histogram, or another chart type supported by the software; used for generating charts with the same appearance.",
+  "standards": [],
+  "mime_types": [
+    "and/or"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "ibm-spss",
+        "display_name": "IBM SPSS"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "sharegate",
+        "display_name": "ShareGate"
+      }
+    ],
+    "macos": [
+      {
+        "software": "ibm-spss",
+        "display_name": "IBM SPSS"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "ibm-spss",
+        "display_name": "IBM SPSS"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "web": [
+      {
+        "software": "sharegate",
+        "display_name": "ShareGate"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-06-23",
+  "sources": [
+    {
+      "url": "sgt.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

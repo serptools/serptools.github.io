@@ -1,0 +1,59 @@
+{
+  "slug": "acrodata",
+  "extension": "acrodata",
+  "name": "Acrobat Data File",
+  "category": "acrobat-data-file",
+  "developer_org": "adobe-systems",
+  "popularity": {
+    "rating": 4.2,
+    "votes": 13,
+    "source": "fileinfo"
+  },
+  "summary": "Data file referenced by Adobe Acrobat, a program that allows users to create and edit .PDF files; contains user settings is typical stored in the Security folder within the Acrobat User Data directory.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "adobe-acrobat-dc",
+        "display_name": "Adobe Acrobat DC"
+      }
+    ],
+    "macos": [
+      {
+        "software": "adobe-acrobat-dc",
+        "display_name": "Adobe Acrobat DC"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "ACRODATA file icon",
+      "alt": "ACRODATA file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/acrodata-3757.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-12-21",
+  "sources": [
+    {
+      "url": "acrodata.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

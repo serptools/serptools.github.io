@@ -1,0 +1,49 @@
+{
+  "slug": "exe1",
+  "extension": "exe1",
+  "name": "Renamed EXE File",
+  "category": "renamed-exe-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 140,
+    "source": "fileinfo"
+  },
+  "summary": "Windows executable ( .EXE ) file renamed so that it cannot be run natively in Windows by double-clicking the file; can be used by software installers when the developer doesn't want users to be able to run the executable.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "not-meant-to-be-opened",
+        "display_name": "Not meant to be opened"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-09-19",
+  "sources": [
+    {
+      "url": "exe1.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

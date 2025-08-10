@@ -1,0 +1,121 @@
+{
+  "slug": "nrg",
+  "extension": "nrg",
+  "name": "Nero CD/DVD Image File",
+  "category": "nero-cd-dvd-image-file",
+  "developer_org": "nero",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 127,
+    "source": "fileinfo"
+  },
+  "summary": "An NRG file contains a CD or DVD disk image created with Nero disc authoring software. It may be an exact copy of a CD/DVD or may contain a collection of files that can be mounted as a disk. NRG files are often used to make copies or backups of discs or important data.",
+  "standards": [],
+  "mime_types": [
+    "cd/dvd"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "nero-2022",
+        "display_name": "Nero 2022"
+      },
+      {
+        "software": "h+h-software-virtual-cd",
+        "display_name": "H+H Software Virtual CD"
+      },
+      {
+        "software": "ezb-systems-ultraiso",
+        "display_name": "EZB Systems UltraISO"
+      },
+      {
+        "software": "smart-projects-isobuster",
+        "display_name": "Smart Projects IsoBuster"
+      },
+      {
+        "software": "winmount-international-winmount",
+        "display_name": "WinMount International WinMount"
+      },
+      {
+        "software": "lightning-uk-imgburn",
+        "display_name": "Lightning UK! ImgBurn"
+      },
+      {
+        "software": "poweriso",
+        "display_name": "PowerISO"
+      },
+      {
+        "software": "dt-soft-daemon-tools",
+        "display_name": "DT Soft DAEMON Tools"
+      },
+      {
+        "software": "nrg2iso",
+        "display_name": "Nrg2Iso"
+      },
+      {
+        "software": "nrg-to-iso",
+        "display_name": "NRG to ISO"
+      },
+      {
+        "software": "roxio-toast-20",
+        "display_name": "Roxio Toast 20"
+      },
+      {
+        "software": "roxio-popcorn",
+        "display_name": "Roxio Popcorn"
+      },
+      {
+        "software": "nrg4iso",
+        "display_name": "nrg4iso"
+      }
+    ],
+    "linux": [
+      {
+        "software": "nero-linux",
+        "display_name": "Nero Linux"
+      },
+      {
+        "software": "nrg2iso",
+        "display_name": "Nrg2Iso"
+      },
+      {
+        "software": "nrg4iso",
+        "display_name": "nrg4iso"
+      }
+    ],
+    "macos": [
+      {
+        "software": "roxio-toast-20",
+        "display_name": "Roxio Toast 20"
+      },
+      {
+        "software": "roxio-popcorn",
+        "display_name": "Roxio Popcorn"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-02-06",
+  "sources": [
+    {
+      "url": "nrg.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

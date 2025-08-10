@@ -1,0 +1,51 @@
+{
+  "slug": "gst",
+  "extension": "gst",
+  "name": "MapInfo Geoset File",
+  "category": "mapinfo-geoset-file",
+  "developer_org": "mapinfo",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "Map format used by MapInfo MapX and MapXtreme mapping software; contains a visual map and data about locations within the mapped area; may include extra layers, such as rasterized images placed on the map.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "mapinfo-mapx-or-mapxtreme",
+        "display_name": "MapInfo MapX or MapXtreme"
+      },
+      {
+        "software": "mapinfo-proviewer",
+        "display_name": "MapInfo ProViewer"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2007-08-23",
+  "sources": [
+    {
+      "url": "gst.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

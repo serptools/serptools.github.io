@@ -1,0 +1,93 @@
+{
+  "slug": "xmf",
+  "extension": "xmf",
+  "name": "Cal3D XML Mesh File",
+  "category": "1.-cal3d-xml-mesh-file",
+  "developer_org": "cal3d",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 19,
+    "source": "fileinfo"
+  },
+  "summary": "Three-dimensional model mesh file created with Cal3D, an open source character animation library; contains polygons made up of nodes and edges, which comprise the geometry of the character; gives the model its skeletal structure.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "cal3dviewer",
+        "display_name": "Cal3dViewer"
+      },
+      {
+        "software": "cal3d2ogre",
+        "display_name": "Cal3d2ogre"
+      },
+      {
+        "software": "imvu",
+        "display_name": "IMVU"
+      },
+      {
+        "software": "cal3d",
+        "display_name": "Cal3D"
+      },
+      {
+        "software": "beatnik-mobile-sound-builder",
+        "display_name": "Beatnik Mobile Sound Builder"
+      },
+      {
+        "software": "nokia-audio-suite-2.0",
+        "display_name": "Nokia Audio Suite 2.0"
+      },
+      {
+        "software": "h+h-software-virtual-cd",
+        "display_name": "H+H Software Virtual CD"
+      },
+      {
+        "software": "ezb-systems-ultraiso",
+        "display_name": "EZB Systems UltraISO"
+      },
+      {
+        "software": "disc4you-gamejack",
+        "display_name": "Disc4You GameJack"
+      }
+    ],
+    "macos": [
+      {
+        "software": "imvu",
+        "display_name": "IMVU"
+      }
+    ],
+    "linux": [
+      {
+        "software": "cal3d",
+        "display_name": "Cal3D"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-06-24",
+  "sources": [
+    {
+      "url": "xmf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

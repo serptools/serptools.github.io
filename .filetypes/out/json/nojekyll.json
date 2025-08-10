@@ -1,0 +1,53 @@
+{
+  "slug": "nojekyll",
+  "extension": "nojekyll",
+  "name": "GitHub Pages NoJekyll File",
+  "category": "github-pages-nojekyll-file",
+  "developer_org": "github",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "A NOJEKYLL file is a configuration file used when publishing a website via GitHub Pages. It tells GitHub Pages to not use Jekyll to build the associated website. NOJEKYLL files do not contain any data; they are typically stored in a website's root directory.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "github-desktop",
+        "display_name": "GitHub Desktop"
+      }
+    ],
+    "macos": [
+      {
+        "software": "github-desktop",
+        "display_name": "GitHub Desktop"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-10-02",
+  "sources": [
+    {
+      "url": "nojekyll.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "tar",
+  "extension": "tar",
+  "name": "Tape Archive",
+  "category": "tape-archive",
+  "summary": "",
+  "developer_org": "at-t-labs",
+  "developer_name": "AT&T Labs",
+  "more_information": {
+    "screenshot": {
+      "url": "https://fileinfo.com/img/ss/sm/tar_105.png",
+      "alt": "Screenshot of a .tar file in 7-Zip",
+      "caption": "TAR file open in 7-Zip"
+    },
+    "description": [
+      "AT&T Bell Laboratories developed the tar archiving utility and TAR archive format in 1979. Originally, tar was used to write data to tape drives, which are data storage devices that read and write data on magnetic tape. Thus, the archives tar created were referred to as Tape Archives.",
+      "These days, Linux and other Unix-like users are the primary source of TAR files. For example, Linux users often distribute software packages as TAR files, to make those programs easier to download and install. Many of these users refer to TAR files as tarballs, a nickname that references real-life tar balls' sticky, object-gathering nature.",
+      "While TAR files themselves are not compressed, users often compress them using tar or other compression utilities. This reduces a TAR file's file size, making it even easier to store and share. Primarily, users compress TAR files using Gzip compression, turning them into .TGZ or .TAR.GZ files.",
+      "In Windows, you can create a TAR file with 7-Zip . To do so:",
+      "In macOS and Linux, you can use the tar command-line command to create a TAR file. For example, you can enter the following command to create a TAR file:",
+      "tar -cf YourArchiveName.tar ~/path/to/your/files-or-folder",
+      "If you want to compress the TAR file you create in this process (creating a .TAR.GZ file), instead enter the following command:",
+      "tar -czf YourArchiveName.tar.gz ~/path/to/your/files-or-folder"
+    ]
+  },
+  "images": [
+    {
+      "url": "https://fileinfo.com/img/ss/sm/tar_105.png",
+      "alt": "Screenshot of a .tar file in 7-Zip",
+      "caption": "TAR file open in 7-Zip"
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "tar.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

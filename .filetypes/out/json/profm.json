@@ -1,0 +1,47 @@
+{
+  "slug": "profm",
+  "extension": "profm",
+  "name": "Android App Baseline Profile",
+  "category": "android-app-baseline-profile",
+  "developer_org": "google",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "A PROFM file is a baseline profile created for use with an Android application. It contains precompiled functions that an app can quickly load when a user performs a common task (such as opening the app or switching screens). Precompiling these functions speeds up the app's performance.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "android": [
+      {
+        "software": "google-android",
+        "display_name": "Google Android"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-08-08",
+  "sources": [
+    {
+      "url": "profm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

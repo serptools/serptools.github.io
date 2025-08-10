@@ -1,0 +1,22 @@
+{
+  "slug": "mobileconfig",
+  "extension": "mobileconfig",
+  "name": "Apple Mobile Configuration File",
+  "category": "apple-mobile-configuration-file",
+  "summary": "",
+  "developer_org": "apple",
+  "developer_name": "Apple",
+  "more_information": {
+    "description": [
+      "MOBILECONFIG files are typically hosted by a remote profile service, which communicates with the Apple device to configure and register it. When transmitted, MOBILECONFIG files can be digitally signed so the information is sent securely.",
+      "Mobile configuration files can be used to manage and deploy settings to a large number of devices. In the past, administrators could create MOBILECONFIG files using the iPhone Configuration Utility, which was available for both Mac and Windows platforms. However, administrators now create and deploy MOBILECONFIG files using Apple Configurator 2 for macOS."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "mobileconfig.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "slug": "pkx",
+  "extension": "pkx",
+  "name": "Decrypted 3DS Pokémon Save File",
+  "category": "decrypted-3ds-pok-mon-save-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Decrypted Pokémon file used by Pokémon games for the Nintendo 3DS platform, such as Pokémon X and Pokémon Y; stores information about a Pokémon, including the species, EXP, abilities, attacks, and current owner.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "pkhex",
+        "display_name": "PKHeX"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-01-30",
+  "sources": [
+    {
+      "url": "pkx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

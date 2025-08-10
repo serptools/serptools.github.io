@@ -1,0 +1,47 @@
+{
+  "slug": "sfl",
+  "extension": "sfl",
+  "name": "Sound Forge Pro Sound Data File",
+  "category": "sound-forge-pro-sound-data-file",
+  "developer_org": "magix",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 24,
+    "source": "fileinfo"
+  },
+  "summary": "An SFL file is a data file used by older versions (7 and earlier) of Sound Forge Pro to store regions and markers information regarding a corresponding .WAV audio file (it does not store any audio data). Sound Forge Pro references the information in the SFL file when opening the related WAV file to display the information visually. Version 8 of Sound Forge Pro replaced SFL files with .SFK files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "older-versions-7-and-earlier-of-magix-sound-forge-pro",
+        "display_name": "Older versions (7 and earlier) of MAGIX Sound Forge Pro"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-11-17",
+  "sources": [
+    {
+      "url": "sfl.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

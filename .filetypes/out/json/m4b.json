@@ -1,0 +1,145 @@
+{
+  "slug": "m4b",
+  "extension": "m4b",
+  "name": "MPEG-4 Audiobook",
+  "category": "mpeg-4-audiobook",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 40,
+    "source": "fileinfo"
+  },
+  "summary": "An M4B file is an audiobook most often used by Apple iTunes and Apple Books. It contains audio that is stored in the MPEG-4 format and compressed using AAC encoding. M4B files are nearly identical to .M4A files except that they support book-related features, such as chapter breaks and bookmarking.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "apple-itunes",
+        "display_name": "Apple iTunes",
+        "status": "discontinued"
+      },
+      {
+        "software": "microsoft-windows-media-player",
+        "display_name": "Microsoft Windows Media Player"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "audacity-with-optional-ffmpeg-library-installed",
+        "display_name": "Audacity with optional FFmpeg library installed"
+      },
+      {
+        "software": "tunefab-itunes-audio-converter",
+        "display_name": "TuneFab iTunes Audio Converter"
+      },
+      {
+        "software": "viwizard-audio-converter",
+        "display_name": "Viwizard Audio Converter"
+      },
+      {
+        "software": "apple-books",
+        "display_name": "Apple Books"
+      },
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      },
+      {
+        "software": "smart-audiobook-player",
+        "display_name": "Smart AudioBook Player"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-books",
+        "display_name": "Apple Books"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "audacity-with-optional-ffmpeg-library-installed",
+        "display_name": "Audacity with optional FFmpeg library installed"
+      },
+      {
+        "software": "tunefab-itunes-audio-converter",
+        "display_name": "TuneFab iTunes Audio Converter"
+      },
+      {
+        "software": "viwizard-audio-converter",
+        "display_name": "Viwizard Audio Converter"
+      }
+    ],
+    "linux": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "audacity-with-optional-ffmpeg-library-installed",
+        "display_name": "Audacity with optional FFmpeg library installed"
+      }
+    ],
+    "web": [
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      }
+    ],
+    "ios": [
+      {
+        "software": "apple-books",
+        "display_name": "Apple Books"
+      }
+    ],
+    "android": [
+      {
+        "software": "smart-audiobook-player",
+        "display_name": "Smart AudioBook Player"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "M4B file icon",
+      "alt": "M4B file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/m4b-1419.png"
+    },
+    {
+      "caption": "M4B file open in Apple Books",
+      "alt": "M4B file open in Apple Books",
+      "source_url": "https://fileinfo.com/img/ss/md/m4b_1419-2.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-04-19",
+  "sources": [
+    {
+      "url": "m4b.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

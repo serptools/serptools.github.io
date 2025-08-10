@@ -1,0 +1,55 @@
+{
+  "slug": "bkup",
+  "extension": "bkup",
+  "name": "Backup File",
+  "category": "backup-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 48,
+    "source": "fileinfo"
+  },
+  "summary": "A BKUP file is a generic backup file used by various programs and scripts for creating backups. It may be used for a variety of purposes, such as a backup of critical data files, word processing documents, or logs. BKUP files are used for restoring the original files in case an unexpected event occurs.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "linux": [
+      {
+        "software": "cpanel",
+        "display_name": "cPanel"
+      }
+    ],
+    "windows": [
+      {
+        "software": "cpanel",
+        "display_name": "cPanel"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-02-15",
+  "sources": [
+    {
+      "url": "bkup.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "slug": "nmap",
+  "extension": "nmap",
+  "name": "NaviComputer Map File",
+  "category": "navicomputer-map-file",
+  "developer_org": "navicomputer",
+  "popularity": {
+    "rating": 2.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "Map format used by NaviComputer, a map program for the Windows Mobile operating system; can be created with NaviMapper, a Windows program included with the NaviComputer download.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "navicomputer",
+        "display_name": "NaviComputer"
+      },
+      {
+        "software": "mobile-atlas-creator",
+        "display_name": "Mobile Atlas Creator"
+      }
+    ],
+    "macos": [
+      {
+        "software": "mobile-atlas-creator",
+        "display_name": "Mobile Atlas Creator"
+      }
+    ],
+    "linux": [
+      {
+        "software": "mobile-atlas-creator",
+        "display_name": "Mobile Atlas Creator"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-08-17",
+  "sources": [
+    {
+      "url": "nmap.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

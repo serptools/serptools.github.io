@@ -1,0 +1,148 @@
+{
+  "slug": "dbf",
+  "extension": "dbf",
+  "name": "Database File",
+  "category": "1.-database-file",
+  "developer_org": "dbase",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 165,
+    "source": "fileinfo"
+  },
+  "summary": "A DBF file is a standard database file used by dBASE, a database management system application. It organizes data into multiple records with fields stored in an array data type. DBF files are also compatible with other \"xBase\" database programs, which arose because of the file format's popularity.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "dbase",
+        "display_name": "dBase"
+      },
+      {
+        "software": "microsoft-access-365",
+        "display_name": "Microsoft Access 365"
+      },
+      {
+        "software": "microsoft-excel-365",
+        "display_name": "Microsoft Excel 365"
+      },
+      {
+        "software": "microsoft-visual-foxpro",
+        "display_name": "Microsoft Visual FoxPro",
+        "status": "discontinued"
+      },
+      {
+        "software": "corel-quattro-pro-2021",
+        "display_name": "Corel Quattro Pro 2021"
+      },
+      {
+        "software": "openoffice-base",
+        "display_name": "OpenOffice Base"
+      },
+      {
+        "software": "hibase-group-dbf-viewer-2000",
+        "display_name": "HiBase Group DBF Viewer 2000"
+      },
+      {
+        "software": "astersoft-dbf-manager",
+        "display_name": "Astersoft DBF Manager"
+      },
+      {
+        "software": "dbf-viewer-plus",
+        "display_name": "DBF Viewer Plus"
+      },
+      {
+        "software": "dbfview",
+        "display_name": "DBFView"
+      },
+      {
+        "software": "swiftpage-act",
+        "display_name": "Swiftpage Act!"
+      },
+      {
+        "software": "alpha-software-alpha-anywhere",
+        "display_name": "Alpha Software Alpha Anywhere"
+      },
+      {
+        "software": "planamesa-neooffice",
+        "display_name": "Planamesa NeoOffice",
+        "status": "discontinued"
+      },
+      {
+        "software": "gtk-dbf-editor",
+        "display_name": "GTK DBF Editor"
+      },
+      {
+        "software": "white-town-cdbf",
+        "display_name": "White Town CDBF"
+      },
+      {
+        "software": "multisoft-flagship",
+        "display_name": "multisoft FlagShip"
+      }
+    ],
+    "macos": [
+      {
+        "software": "planamesa-neooffice",
+        "display_name": "Planamesa NeoOffice",
+        "status": "discontinued"
+      },
+      {
+        "software": "openoffice-base",
+        "display_name": "OpenOffice Base"
+      },
+      {
+        "software": "gtk-dbf-editor",
+        "display_name": "GTK DBF Editor"
+      },
+      {
+        "software": "white-town-cdbf",
+        "display_name": "White Town CDBF"
+      }
+    ],
+    "linux": [
+      {
+        "software": "openoffice-base",
+        "display_name": "OpenOffice Base"
+      },
+      {
+        "software": "gtk-dbf-editor",
+        "display_name": "GTK DBF Editor"
+      },
+      {
+        "software": "multisoft-flagship",
+        "display_name": "multisoft FlagShip"
+      }
+    ],
+    "ios": [
+      {
+        "software": "white-town-cdbf",
+        "display_name": "White Town CDBF"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-11-04",
+  "sources": [
+    {
+      "url": "dbf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

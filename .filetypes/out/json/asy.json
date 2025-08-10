@@ -1,0 +1,63 @@
+{
+  "slug": "asy",
+  "extension": "asy",
+  "name": "Asymptote Module",
+  "category": "1.-asymptote-module",
+  "developer_org": "asymptote",
+  "popularity": {
+    "rating": 2.9,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "File used by Asymptote, a vector graphics language and program used for specifying and generating technical drawings; can specify complex data structures as well as the logic used for generating the vector graphic; used for typesetting mathematical figures.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "asymptote",
+        "display_name": "Asymptote"
+      },
+      {
+        "software": "linear-technology-ltspice",
+        "display_name": "Linear Technology LTspice"
+      }
+    ],
+    "macos": [
+      {
+        "software": "asymptote",
+        "display_name": "Asymptote"
+      }
+    ],
+    "linux": [
+      {
+        "software": "asymptote",
+        "display_name": "Asymptote"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-03-10",
+  "sources": [
+    {
+      "url": "asy.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

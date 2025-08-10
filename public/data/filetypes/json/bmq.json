@@ -1,0 +1,21 @@
+{
+  "slug": "bmq",
+  "extension": "bmq",
+  "name": "Re-Volt Mipmap File",
+  "category": "re-volt-mipmap-file",
+  "summary": "",
+  "developer_org": "acclaim-entertainment",
+  "developer_name": "Acclaim Entertainment",
+  "more_information": {
+    "description": [
+      "Mipmaps are used by Re-Volt to improve texture rendering during gameplay. They are used for textures that are viewed from a distance and don't require large images for detail. If the main texture size is 256x256, the next mipmap image would be 128x128, then 64x64, and then 32x32 after that. Once the camera gets closer to the object texture the BMQ mipmap is replaced with the normal BMP image. By using smaller images, the game's rendering speed is increased."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "bmq.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "slug": "dicom",
+  "extension": "dicom",
+  "name": "DICOM Image",
+  "category": "dicom-image",
+  "developer_org": "nema",
+  "popularity": {
+    "rating": 2.9,
+    "votes": 37,
+    "source": "fileinfo"
+  },
+  "summary": "A DICOM file is an image saved in the Digital Imaging and Communications in Medicine (DICOM) format. It contains an image from a medical scan, such as an ultrasound or MRI. DICOM files may also include identification data for patients to link the image to a specific individual.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "mevislab",
+        "display_name": "MeVisLab"
+      },
+      {
+        "software": "microdicom-viewer",
+        "display_name": "MicroDicom viewer"
+      },
+      {
+        "software": "ezdicom",
+        "display_name": "ezDICOM"
+      },
+      {
+        "software": "dicomworks",
+        "display_name": "DicomWorks"
+      },
+      {
+        "software": "netscope-viewer",
+        "display_name": "NetScope Viewer"
+      },
+      {
+        "software": "imagemagick",
+        "display_name": "ImageMagick"
+      },
+      {
+        "software": "irfanview",
+        "display_name": "IrfanView"
+      },
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      },
+      {
+        "software": "gimp",
+        "display_name": "GIMP"
+      },
+      {
+        "software": "osirix",
+        "display_name": "OsiriX"
+      },
+      {
+        "software": "invesalius",
+        "display_name": "InVesalius"
+      },
+      {
+        "software": "jack-imaging",
+        "display_name": "Jack Imaging"
+      },
+      {
+        "software": "view-my-scans",
+        "display_name": "View My Scans"
+      }
+    ],
+    "macos": [
+      {
+        "software": "osirix",
+        "display_name": "OsiriX"
+      },
+      {
+        "software": "mevislab",
+        "display_name": "MeVisLab"
+      },
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      },
+      {
+        "software": "gimp",
+        "display_name": "GIMP"
+      }
+    ],
+    "linux": [
+      {
+        "software": "mevislab",
+        "display_name": "MeVisLab"
+      },
+      {
+        "software": "imagemagick",
+        "display_name": "ImageMagick"
+      },
+      {
+        "software": "gimp",
+        "display_name": "GIMP"
+      },
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      },
+      {
+        "software": "invesalius",
+        "display_name": "InVesalius"
+      }
+    ],
+    "web": [
+      {
+        "software": "jack-imaging",
+        "display_name": "Jack Imaging"
+      },
+      {
+        "software": "view-my-scans",
+        "display_name": "View My Scans"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "DICOM file icon",
+      "alt": "DICOM file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/dicom-6388.png"
+    },
+    {
+      "caption": "DICOM file open in MicroDicom viewer 3.8",
+      "alt": "DICOM file open in MicroDicom viewer 3.8",
+      "source_url": "https://fileinfo.com/img/ss/md/dicom_6388.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-04-14",
+  "sources": [
+    {
+      "url": "dicom.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

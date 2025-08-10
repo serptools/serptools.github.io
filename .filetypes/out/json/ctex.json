@@ -1,0 +1,59 @@
+{
+  "slug": "ctex",
+  "extension": "ctex",
+  "name": "Godot Engine 4 Compressed Texture",
+  "category": "1.-godot-engine-4-compressed-texture",
+  "developer_org": "godot",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "A CTEX file contains a texture created by version 4 of Godot Engine, a free and open-source game engine used to create 2D and 3D games. It stores an image in the CompressedTexture2D (CTEX) format, which is applied to an object in the game to give it texture and compressed to reduce file size. Godot introduced the CTEX format in version 4 of Godot Engine, whereas version 3 of Godot Engine uses the .STEX format.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "godot-engine",
+        "display_name": "Godot Engine"
+      }
+    ],
+    "macos": [
+      {
+        "software": "godot-engine",
+        "display_name": "Godot Engine"
+      }
+    ],
+    "linux": [
+      {
+        "software": "godot-engine",
+        "display_name": "Godot Engine"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2024-02-15",
+  "sources": [
+    {
+      "url": "ctex.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

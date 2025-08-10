@@ -1,0 +1,71 @@
+{
+  "slug": "esps",
+  "extension": "esps",
+  "name": "Entropic Signal Processing System Audio",
+  "category": "entropic-signal-processing-system-audio",
+  "developer_org": "entropic-research-laboratories",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "An ESPS file is an audio file saved in the Entropic Signal Processing System format. ESPS files are used by various programs developed by Entropic Research Laboratories. They contain samples of human speech, saved in a proprietary file format.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "hidden-markov-model-toolkit",
+        "display_name": "Hidden Markov Model Toolkit"
+      },
+      {
+        "software": "fmj-software-awave-studio",
+        "display_name": "FMJ-Software Awave Studio"
+      },
+      {
+        "software": "festival",
+        "display_name": "Festival"
+      }
+    ],
+    "macos": [
+      {
+        "software": "hidden-markov-model-toolkit",
+        "display_name": "Hidden Markov Model Toolkit"
+      }
+    ],
+    "linux": [
+      {
+        "software": "hidden-markov-model-toolkit",
+        "display_name": "Hidden Markov Model Toolkit"
+      },
+      {
+        "software": "festival",
+        "display_name": "Festival"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-10-02",
+  "sources": [
+    {
+      "url": "esps.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

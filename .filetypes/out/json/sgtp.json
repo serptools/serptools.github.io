@@ -1,0 +1,67 @@
+{
+  "slug": "sgtp",
+  "extension": "sgtp",
+  "name": "Simon Tatham's Puzzles Saved Game",
+  "category": "simon-tatham-s-puzzles-saved-game",
+  "developer_org": "chris-boyle",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "An SGTP file is a saved game created by Simon Tatham's Puzzles, a free puzzle game collection for Android . It contains data used to resume an in-process puzzle game. Typically, SGTP files are named for the game from which they were saved.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "android": [
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "simon-tatham-s-puzzles",
+        "display_name": "Simon Tatham's Puzzles"
+      }
+    ],
+    "windows": [
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "simon-tatham-s-puzzles",
+        "display_name": "Simon Tatham's Puzzles"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "SGTP file open in Simon Tatham&#039;s Puzzles",
+      "alt": "SGTP file open in Simon Tatham&#039;s Puzzles",
+      "source_url": "https://fileinfo.com/img/ss/md/sgtp_12925.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-09-30",
+  "sources": [
+    {
+      "url": "sgtp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

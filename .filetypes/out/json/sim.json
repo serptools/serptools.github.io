@@ -1,0 +1,125 @@
+{
+  "slug": "sim",
+  "extension": "sim",
+  "name": "Steam Game Backup Information File",
+  "category": "1.-steam-game-backup-information-file",
+  "developer_org": "valve",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 35,
+    "source": "fileinfo"
+  },
+  "summary": "Backup information file used by Steam's backup service, which allows users to backup and restore games using DVDs or other external media; contains settings and other information for the backup, along with a corresponding .SIS file.",
+  "standards": [],
+  "mime_types": [
+    "8/10",
+    "n/a",
+    "vista/7"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "valve-steam",
+        "display_name": "Valve Steam"
+      },
+      {
+        "software": "sap-tutor",
+        "display_name": "SAP Tutor"
+      },
+      {
+        "software": "simlab-composer",
+        "display_name": "SimLab Composer"
+      },
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      },
+      {
+        "software": "electronic-arts-the-sims-3",
+        "display_name": "Electronic Arts The Sims 3"
+      },
+      {
+        "software": "logiksim",
+        "display_name": "LogikSim"
+      },
+      {
+        "software": "rename-.sim-to-.zip-open-with-any-zip-decompression-utility",
+        "display_name": "Rename .sim to .zip ; open with any Zip-decompression utility"
+      },
+      {
+        "software": "stagecast-creator",
+        "display_name": "Stagecast Creator",
+        "status": "discontinued"
+      },
+      {
+        "software": "stagecast-player",
+        "display_name": "Stagecast Player",
+        "status": "discontinued"
+      }
+    ],
+    "macos": [
+      {
+        "software": "simlab-composer",
+        "display_name": "SimLab Composer"
+      },
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      },
+      {
+        "software": "electronic-arts-the-sims-3",
+        "display_name": "Electronic Arts The Sims 3"
+      },
+      {
+        "software": "stagecast-creator",
+        "display_name": "Stagecast Creator",
+        "status": "discontinued"
+      },
+      {
+        "software": "stagecast-player",
+        "display_name": "Stagecast Player",
+        "status": "discontinued"
+      }
+    ],
+    "linux": [
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      },
+      {
+        "software": "stagecast-creator",
+        "display_name": "Stagecast Creator",
+        "status": "discontinued"
+      },
+      {
+        "software": "stagecast-player",
+        "display_name": "Stagecast Player",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-04-26",
+  "sources": [
+    {
+      "url": "sim.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

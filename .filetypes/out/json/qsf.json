@@ -1,0 +1,53 @@
+{
+  "slug": "qsf",
+  "extension": "qsf",
+  "name": "Qualtrics Survey File",
+  "category": "qualtrics-survey-file",
+  "developer_org": "qualtrics",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "Data file exported by Qualtrics online survey software; formatted in XML and is generated when the \"Export Survey\" option is selected; can be used as a backup file and may be imported into the survey system for later use.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "qualtrics-survey-solutions-online",
+        "display_name": "Qualtrics Survey Solutions (online)"
+      }
+    ],
+    "macos": [
+      {
+        "software": "qualtrics-survey-solutions-online",
+        "display_name": "Qualtrics Survey Solutions (online)"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-07-03",
+  "sources": [
+    {
+      "url": "qsf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

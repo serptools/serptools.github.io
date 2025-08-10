@@ -1,0 +1,53 @@
+{
+  "slug": "vdjsend",
+  "extension": "vdjsend",
+  "name": "VirtualDJ Send File",
+  "category": "virtualdj-send-file",
+  "developer_org": "atomix-productions",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Data file used by VirtualDJ, an audio and video mixing software featuring the BeatLock engine, which provides automatic loop and beat synchronization; saved in a plain text format and contains audio information; saved to the [user]\\​My Documents\\​VirtualDJ\\​ directory in Windows.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "atomix-productions-virtualdj",
+        "display_name": "Atomix Productions VirtualDJ"
+      }
+    ],
+    "macos": [
+      {
+        "software": "atomix-productions-virtualdj",
+        "display_name": "Atomix Productions VirtualDJ"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-04-26",
+  "sources": [
+    {
+      "url": "vdjsend.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

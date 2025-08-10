@@ -1,0 +1,59 @@
+{
+  "slug": "dat_old",
+  "extension": "dat_old",
+  "name": "Minecraft Level.dat Backup File",
+  "category": "minecraft-level.dat-backup-file",
+  "developer_org": "mojang",
+  "popularity": {
+    "rating": 4.5,
+    "votes": 44,
+    "source": "fileinfo"
+  },
+  "summary": "Backup file created by Minecraft, an open-ended 3D world construction game; saves a backup of the level.dat file, which is used for saving maps that use Minecraft's Alpha level format; used as a restore point in case the level.dat file becomes corrupted.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "mojang-minecraft",
+        "display_name": "Mojang Minecraft"
+      }
+    ],
+    "macos": [
+      {
+        "software": "mojang-minecraft",
+        "display_name": "Mojang Minecraft"
+      }
+    ],
+    "linux": [
+      {
+        "software": "mojang-minecraft",
+        "display_name": "Mojang Minecraft"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-07-02",
+  "sources": [
+    {
+      "url": "dat_old.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

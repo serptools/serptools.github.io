@@ -1,0 +1,100 @@
+{
+  "slug": "mpga",
+  "extension": "mpga",
+  "name": "MPEG-1 Layer 3 Audio File",
+  "category": "mpeg-1-layer-3-audio-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.2,
+    "votes": 27,
+    "source": "fileinfo"
+  },
+  "summary": "Compressed audio file encoded with MPEG-1 Layer 3 compression; compresses the audio using lossy compression that maintains most of the original sound quality.",
+  "standards": [],
+  "mime_types": [
+    "20/20",
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "apple-itunes",
+        "display_name": "Apple iTunes",
+        "status": "discontinued"
+      },
+      {
+        "software": "microsoft-windows-media-player",
+        "display_name": "Microsoft Windows Media Player"
+      },
+      {
+        "software": "realnetworks-realplayer-20-20",
+        "display_name": "RealNetworks RealPlayer 20/20"
+      },
+      {
+        "software": "audio-player",
+        "display_name": "audio player"
+      },
+      {
+        "software": "realnetworks-realtimes-video-maker",
+        "display_name": "RealNetworks RealTimes: Video Maker"
+      },
+      {
+        "software": "realnetworks-realtimes-video-maker",
+        "display_name": "RealNetworks RealTimes Video Maker"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-itunes",
+        "display_name": "Apple iTunes",
+        "status": "discontinued"
+      },
+      {
+        "software": "audio-player",
+        "display_name": "audio player"
+      }
+    ],
+    "linux": [
+      {
+        "software": "audio-player",
+        "display_name": "audio player"
+      }
+    ],
+    "ios": [
+      {
+        "software": "realnetworks-realtimes-video-maker",
+        "display_name": "RealNetworks RealTimes: Video Maker"
+      }
+    ],
+    "android": [
+      {
+        "software": "realnetworks-realtimes-video-maker",
+        "display_name": "RealNetworks RealTimes Video Maker"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2007-12-04",
+  "sources": [
+    {
+      "url": "mpga.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "twzip",
+  "extension": "twzip",
+  "name": "theWord Compressed Archive Module",
+  "category": "theword-compressed-archive-module",
+  "developer_org": "theword-bible-software",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "File used by theWord Bible software; stores the compressed version of a .TWM module and allows modules to be distributed with a reduced file size; may use one of several compression formats, including .ZIP , .RAR , and .7Z .",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "theword",
+        "display_name": "theWord"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-05-03",
+  "sources": [
+    {
+      "url": "twzip.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

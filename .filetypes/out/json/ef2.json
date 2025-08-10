@@ -1,0 +1,47 @@
+{
+  "slug": "ef2",
+  "extension": "ef2",
+  "name": "Internet Download Manager Export File",
+  "category": "internet-download-manager-export-file",
+  "developer_org": "tonec",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "Export file created by Internet Download Manager (IDM), a program used for speeding up downloads; saves a list of downloaded files, or files queued for download; used for saving download lists for later and for sharing with others.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "internet-download-manager",
+        "display_name": "Internet Download Manager"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-12-22",
+  "sources": [
+    {
+      "url": "ef2.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

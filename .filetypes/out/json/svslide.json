@@ -1,0 +1,77 @@
+{
+  "slug": "svslide",
+  "extension": "svslide",
+  "name": "Sakura VisionTek Slide Image",
+  "category": "sakura-visiontek-slide-image",
+  "developer_org": "sakura",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "An SVSLIDE file is a slide specimen image created by a Sakura VisionTek Digital Microscope. It contains multiple images that are combined and viewed as one image in slide-viewing software. SVSLIDE files are SQLite 3 databases, which organize a slide's images and their accompanying metadata .",
+  "standards": [],
+  "mime_types": [
+    "and/or"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "openslide",
+        "display_name": "OpenSlide"
+      },
+      {
+        "software": "imagej",
+        "display_name": "ImageJ"
+      },
+      {
+        "software": "netscope-viewer",
+        "display_name": "NetScope Viewer"
+      }
+    ],
+    "macos": [
+      {
+        "software": "openslide",
+        "display_name": "OpenSlide"
+      },
+      {
+        "software": "imagej",
+        "display_name": "ImageJ"
+      }
+    ],
+    "linux": [
+      {
+        "software": "openslide",
+        "display_name": "OpenSlide"
+      },
+      {
+        "software": "imagej",
+        "display_name": "ImageJ"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-04-29",
+  "sources": [
+    {
+      "url": "svslide.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

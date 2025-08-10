@@ -1,0 +1,65 @@
+{
+  "slug": "gih",
+  "extension": "gih",
+  "name": "GIMP Image Hose File",
+  "category": "gimp-image-hose-file",
+  "developer_org": "gimp",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Image pipe used by GIMP, an open source image editing application; contains one or more images stored across multiple sequential layers; also stores settings such as the brush spacing between each image in the pipe.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "gimp",
+        "display_name": "GIMP"
+      }
+    ],
+    "macos": [
+      {
+        "software": "gimp",
+        "display_name": "GIMP"
+      }
+    ],
+    "linux": [
+      {
+        "software": "gimp",
+        "display_name": "GIMP"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "GIH file icon",
+      "alt": "GIH file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/gih-4996.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-06-23",
+  "sources": [
+    {
+      "url": "gih.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

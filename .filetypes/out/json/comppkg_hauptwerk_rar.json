@@ -1,0 +1,53 @@
+{
+  "slug": "comppkg_hauptwerk_rar",
+  "extension": "comppkg_hauptwerk_rar",
+  "name": "Hauptwerk Component Package",
+  "category": "hauptwerk-component-package",
+  "developer_org": "milan-digital-audio",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "Compressed file used by Hauptwerk, a virtual pipe organ program; stores components that provide additional functionality to the application, such as sample sets, organs, and temperaments; functions similar to a plugin .",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "milan-digital-audio-hauptwerk",
+        "display_name": "Milan Digital Audio Hauptwerk"
+      }
+    ],
+    "macos": [
+      {
+        "software": "milan-digital-audio-hauptwerk",
+        "display_name": "Milan Digital Audio Hauptwerk"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-09-05",
+  "sources": [
+    {
+      "url": "comppkg_hauptwerk_rar.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

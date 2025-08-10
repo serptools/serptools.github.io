@@ -1,0 +1,22 @@
+{
+  "slug": "prp",
+  "extension": "prp",
+  "name": "Rational Model Properties File",
+  "category": "rational-model-properties-file",
+  "summary": "",
+  "developer_org": "ibm",
+  "developer_name": "IBM",
+  "more_information": {
+    "description": [
+      "PRP files use LL1 syntax , which can be recursively parsed by the program. They typically include a list of subjects that define different aspects of the model. Each subject may include a list of metaclasses, which are sub-properties of each subject.",
+      "NOTE: PRP files are also used by Rational Rose, the predecessor to Rhapsody."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "prp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

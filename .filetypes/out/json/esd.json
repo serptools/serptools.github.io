@@ -1,0 +1,73 @@
+{
+  "slug": "esd",
+  "extension": "esd",
+  "name": "Windows Electronic Software Download",
+  "category": "1.-windows-electronic-software-download",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 4.2,
+    "votes": 71,
+    "source": "fileinfo"
+  },
+  "summary": "An ESD file contains an encrypted Windows update or upgrade file. Microsoft's Electronic Software Download (ESD) program creates ESD files when you purchase Windows through the Microsoft Store or update Windows using Microsoft Upgrade Assistant.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-windows-upgrade-assistant",
+        "display_name": "Microsoft Windows Upgrade Assistant"
+      },
+      {
+        "software": "microsoft-windows-update-assistant",
+        "display_name": "Microsoft Windows Update Assistant"
+      },
+      {
+        "software": "wimlib",
+        "display_name": "wimlib"
+      },
+      {
+        "software": "7-zip",
+        "display_name": "7-Zip"
+      },
+      {
+        "software": "peazip",
+        "display_name": "PeaZip"
+      },
+      {
+        "software": "smartsafety-software-easy-street-draw",
+        "display_name": "SmartSafety Software Easy Street Draw"
+      }
+    ],
+    "linux": [
+      {
+        "software": "peazip",
+        "display_name": "PeaZip"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-06-13",
+  "sources": [
+    {
+      "url": "esd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

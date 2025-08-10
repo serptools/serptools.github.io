@@ -1,0 +1,59 @@
+{
+  "slug": "cboard",
+  "extension": "cboard",
+  "name": "Final Cut Pro Color Board Preset",
+  "category": "final-cut-pro-color-board-preset",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "Color Board preset used by Final Cut Pro X, a professional video editor; contains color, saturation, and exposure settings that can be applied to clips.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "apple-final-cut-pro",
+        "display_name": "Apple Final Cut Pro"
+      }
+    ],
+    "windows": [
+      {
+        "software": "apple-final-cut-pro",
+        "display_name": "Apple Final Cut Pro"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "CBOARD file icon",
+      "alt": "CBOARD file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/cboard-9842.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-01-22",
+  "sources": [
+    {
+      "url": "cboard.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

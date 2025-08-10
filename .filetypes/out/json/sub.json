@@ -1,0 +1,208 @@
+{
+  "slug": "sub",
+  "extension": "sub",
+  "name": "MicroDVD Subtitle File",
+  "category": "1.-microdvd-subtitle-file",
+  "developer_org": "tiamat-software",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 75,
+    "source": "fileinfo"
+  },
+  "summary": "A SUB file is a MicroDVD subtitle file, which is meant to be used to play subtitles over an accompanying video file. It includes subtitle text and cue points for when each subtitle should be displayed. SUB files can be used as subtitle files in a variety of media players.",
+  "standards": [],
+  "mime_types": [
+    "sub/idx"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "cyberlink-powerdvd-21",
+        "display_name": "CyberLink PowerDVD 21"
+      },
+      {
+        "software": "aegisub",
+        "display_name": "Aegisub"
+      },
+      {
+        "software": "uruworks-subtitle-workshop",
+        "display_name": "URUWorks Subtitle Workshop"
+      },
+      {
+        "software": "mplayer",
+        "display_name": "MPlayer"
+      },
+      {
+        "software": "universal-subtitle-viewer",
+        "display_name": "Universal Subtitle Viewer"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "ksubtile",
+        "display_name": "KSubtile"
+      },
+      {
+        "software": "gnome-subtitles",
+        "display_name": "Gnome Subtitles"
+      },
+      {
+        "software": "olimsoft-oplayer",
+        "display_name": "olimsoft OPlayer"
+      },
+      {
+        "software": "j2-interactive-mx-player",
+        "display_name": "J2 Interactive MX Player"
+      },
+      {
+        "software": "h+h-software-virtual-cd",
+        "display_name": "H+H Software Virtual CD"
+      },
+      {
+        "software": "slysoft-clonecd",
+        "display_name": "SlySoft CloneCD"
+      },
+      {
+        "software": "slysoft-virtual-clonedrive",
+        "display_name": "SlySoft Virtual CloneDrive"
+      },
+      {
+        "software": "lightning-uk-imgburn",
+        "display_name": "Lightning UK! ImgBurn"
+      },
+      {
+        "software": "smart-projects-isobuster",
+        "display_name": "Smart Projects IsoBuster"
+      },
+      {
+        "software": "sysprogs-wincdemu",
+        "display_name": "Sysprogs WinCDEmu"
+      },
+      {
+        "software": "power-software-gburner",
+        "display_name": "Power Software gBurner"
+      },
+      {
+        "software": "ccd2iso",
+        "display_name": "ccd2iso"
+      },
+      {
+        "software": "crystal-shard-subterra",
+        "display_name": "Crystal Shard SubTerra"
+      },
+      {
+        "software": "vobsub",
+        "display_name": "VobSub"
+      },
+      {
+        "software": "directvobsub",
+        "display_name": "DirectVobSub"
+      }
+    ],
+    "macos": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "aegisub",
+        "display_name": "Aegisub"
+      },
+      {
+        "software": "mplayer",
+        "display_name": "MPlayer"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "aegisub",
+        "display_name": "Aegisub"
+      },
+      {
+        "software": "mplayer",
+        "display_name": "MPlayer"
+      },
+      {
+        "software": "ksubtile",
+        "display_name": "KSubtile"
+      },
+      {
+        "software": "gnome-subtitles",
+        "display_name": "Gnome Subtitles"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "ccd2iso",
+        "display_name": "ccd2iso"
+      },
+      {
+        "software": "smplayer",
+        "display_name": "SMPlayer"
+      }
+    ],
+    "ios": [
+      {
+        "software": "olimsoft-oplayer",
+        "display_name": "olimsoft OPlayer"
+      }
+    ],
+    "android": [
+      {
+        "software": "j2-interactive-mx-player",
+        "display_name": "J2 Interactive MX Player"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "SUB file icon",
+      "alt": "SUB file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/sub-683.png"
+    },
+    {
+      "caption": "SUB file open in GitHub Atom",
+      "alt": "SUB file open in GitHub Atom",
+      "source_url": "https://fileinfo.com/img/ss/md/sub_683.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-01-11",
+  "sources": [
+    {
+      "url": "sub.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "das",
+  "extension": "das",
+  "name": "DeltaMaster Analysis Session",
+  "category": "deltamaster-analysis-session",
+  "developer_org": "bissantz",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "Session file created by DeltaMaster, an integrated Business Intelligence suite used for business data analysis and reporting; contains information about the analysis model ( .DAM file), along with the reports, the history of the session, and optionally, the values for a specific view of the reports.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "bissantz-deltamaster",
+        "display_name": "Bissantz DeltaMaster"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2007-11-14",
+  "sources": [
+    {
+      "url": "das.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

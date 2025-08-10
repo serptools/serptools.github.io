@@ -1,0 +1,89 @@
+{
+  "slug": "gdshader",
+  "extension": "gdshader",
+  "name": "Godot Engine Shader File",
+  "category": "godot-engine-shader-file",
+  "developer_org": "godot",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "A GDSHADER file contains shader properties run on a computer's GPU to draw mesh data on the screen to realistically shade 2D and 3D elements featured in a game developed by Godot Engine. Shader properties in a GDSHADER file are data types and functions in the Godot shading language, which is based on the OpenGL ES (GLSL ES) 3.0 shading language.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "godot-engine",
+        "display_name": "Godot Engine"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "godot-engine",
+        "display_name": "Godot Engine"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "godot-engine",
+        "display_name": "Godot Engine"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "GDSHADER file open in Godot Engine 3.3",
+      "alt": "GDSHADER file open in Godot Engine 3.3",
+      "source_url": "https://fileinfo.com/img/ss/md/gdshader_12404.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-11-05",
+  "sources": [
+    {
+      "url": "gdshader.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

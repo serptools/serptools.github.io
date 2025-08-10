@@ -1,0 +1,54 @@
+{
+  "slug": "ann",
+  "extension": "ann",
+  "name": "Lingvo Dictionary Annotation File",
+  "category": "1.-lingvo-dictionary-annotation-file",
+  "developer_org": "abbyy",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 15,
+    "source": "fileinfo"
+  },
+  "summary": "File used by Lingvo Dictionary software, which is used to lookup definitions and to translate words into different languages; contains metadata for DSL dictionaries; includes information, such as the dictionary subject, author, and date it was created.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "android": [
+      {
+        "software": "abbyy-lingvo-dictionaries-for-android",
+        "display_name": "ABBYY Lingvo Dictionaries for Android"
+      }
+    ],
+    "windows": [
+      {
+        "software": "microsoft-windows-help",
+        "display_name": "Microsoft Windows Help",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-12-14",
+  "sources": [
+    {
+      "url": "ann.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

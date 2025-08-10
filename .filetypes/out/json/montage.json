@@ -1,0 +1,53 @@
+{
+  "slug": "montage",
+  "extension": "montage",
+  "name": "Montage Screenplay File",
+  "category": "montage-screenplay-file",
+  "developer_org": "mariner-software",
+  "popularity": {
+    "rating": 3.2,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "Screenplay script created by Montage, a screenwriting application for Mac; contains the movie script as well as information for scenes, characters, and locations; also stores information for the screenplay publishing process, such as research, tasks, contacts, and queries.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "mariner-montage",
+        "display_name": "Mariner Montage"
+      }
+    ],
+    "windows": [
+      {
+        "software": "mariner-montage",
+        "display_name": "Mariner Montage"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-07-21",
+  "sources": [
+    {
+      "url": "montage.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

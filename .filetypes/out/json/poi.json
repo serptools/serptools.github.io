@@ -1,0 +1,47 @@
+{
+  "slug": "poi",
+  "extension": "poi",
+  "name": "Magellan Maestro Point of Interest File",
+  "category": "magellan-maestro-point-of-interest-file",
+  "developer_org": "magellan",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "Point of Interest (POI) file used by Magellan Maestro personal navigation systems; contains one or more points of interest, including their names and locations; can be a navigation destination or a point used to generate navigational routes.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "magellan-content-manager---toolbox",
+        "display_name": "Magellan Content Manager - ToolBox"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-02-15",
+  "sources": [
+    {
+      "url": "poi.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

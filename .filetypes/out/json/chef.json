@@ -1,0 +1,47 @@
+{
+  "slug": "chef",
+  "extension": "chef",
+  "name": "Chef Source Code File",
+  "category": "chef-source-code-file",
+  "developer_org": "david-morgan-mar",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "Program written in the Chef programming language, a language in which programs look like recipes; stored in a plain text format that can be viewed in a text editor or run using a Chef interpreter.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "acme-chef",
+        "display_name": "Acme-Chef"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-12-31",
+  "sources": [
+    {
+      "url": "chef.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

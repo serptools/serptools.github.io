@@ -1,0 +1,47 @@
+{
+  "slug": "cid",
+  "extension": "cid",
+  "name": "Navigator Chart Image Description File",
+  "category": "navigator-chart-image-description-file",
+  "developer_org": "navigator-software",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 19,
+    "source": "fileinfo"
+  },
+  "summary": "A CID file is a chart description file created by Navigator, a celestial navigation program. It contains information about a .GIF , .JPG , or .BMP chart image. CID files include the name of the associated chart image, description of the file, reference points that define the image pixels, an image MD5 digital signature, and limits of the charge.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "navigator",
+        "display_name": "Navigator"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-03-30",
+  "sources": [
+    {
+      "url": "cid.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

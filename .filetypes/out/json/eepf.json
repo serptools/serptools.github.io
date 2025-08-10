@@ -1,0 +1,47 @@
+{
+  "slug": "eepf",
+  "extension": "eepf",
+  "name": "EmuOS Exchangeable Packet File",
+  "category": "emuos-exchangeable-packet-file",
+  "developer_org": "emuos-development-team",
+  "popularity": {
+    "rating": 2.3,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "File used by EmuOS, a multiplayer hacking simulator where players can play online against one another; stores a packet of information that can be used to transmit data over a network.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "emuos-simulator",
+        "display_name": "EmuOS Simulator"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-10-23",
+  "sources": [
+    {
+      "url": "eepf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "slug": "vbg",
+  "extension": "vbg",
+  "name": "Visual Basic Project Group File",
+  "category": "visual-basic-project-group-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 10,
+    "source": "fileinfo"
+  },
+  "summary": "A VBG file contains references to multiple Visual Basic Project ( .VBP ) files, acting as a container that older versions of Microsoft Visual Basic 6.0 used to manage project files within a single group. It links together different Visual Basic projects to organize them, making it easier for developers to work on large applications consisting of several smaller, individual projects.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2025-03-06",
+  "sources": [
+    {
+      "url": "vbg.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,270 @@
+{
+  "slug": "xlsx",
+  "extension": "xlsx",
+  "name": "Microsoft Excel Spreadsheet",
+  "category": "microsoft-excel-spreadsheet",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 985,
+    "source": "fileinfo"
+  },
+  "summary": "An XLSX file is an Excel spreadsheet created by Microsoft Excel or exported by another spreadsheet program, such as OpenOffice Calc or Apple Numbers. It stores data in worksheets, which contain cells arranged in a grid of rows and columns, and may also contain charts, mathematical functions, styles, and formatting. XLSX files are commonly used to store financial data and to save simple or complex mathematical models.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "microsoft-excel-365",
+        "display_name": "Microsoft Excel 365"
+      },
+      {
+        "software": "corel-quattro-pro-2021",
+        "display_name": "Corel Quattro Pro 2021"
+      },
+      {
+        "software": "openoffice-calc",
+        "display_name": "OpenOffice Calc"
+      },
+      {
+        "software": "softmaker-office",
+        "display_name": "SoftMaker Office"
+      },
+      {
+        "software": "libreoffice",
+        "display_name": "LibreOffice"
+      },
+      {
+        "software": "ascensio-system-sia-onlyoffice",
+        "display_name": "Ascensio System SIA OnlyOffice"
+      },
+      {
+        "software": "apple-numbers",
+        "display_name": "Apple Numbers"
+      },
+      {
+        "software": "planamesa-neooffice",
+        "display_name": "Planamesa NeoOffice",
+        "status": "discontinued"
+      },
+      {
+        "software": "gnumeric",
+        "display_name": "Gnumeric"
+      },
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      },
+      {
+        "software": "google-sheets",
+        "display_name": "Google Sheets"
+      },
+      {
+        "software": "google-drive",
+        "display_name": "Google Drive"
+      },
+      {
+        "software": "microsoft-office",
+        "display_name": "Microsoft Office"
+      },
+      {
+        "software": "microsoft-excel",
+        "display_name": "Microsoft Excel"
+      },
+      {
+        "software": "mobisystems-officesuite-pro",
+        "display_name": "MobiSystems OfficeSuite Pro"
+      },
+      {
+        "software": "infraware-polaris-office",
+        "display_name": "Infraware Polaris Office"
+      },
+      {
+        "software": "softmaker-office-hd-planmaker-basic",
+        "display_name": "SoftMaker Office HD: PlanMaker BASIC"
+      }
+    ],
+    "web": [
+      {
+        "software": "polaris-office-web-sheet",
+        "display_name": "Polaris Office Web Sheet"
+      },
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      },
+      {
+        "software": "microsoft-excel-365",
+        "display_name": "Microsoft Excel 365"
+      },
+      {
+        "software": "google-sheets",
+        "display_name": "Google Sheets"
+      },
+      {
+        "software": "google-drive",
+        "display_name": "Google Drive"
+      },
+      {
+        "software": "ascensio-system-sia-onlyoffice",
+        "display_name": "Ascensio System SIA OnlyOffice"
+      }
+    ],
+    "android": [
+      {
+        "software": "file-viewer-for-android",
+        "display_name": "File Viewer for Android"
+      },
+      {
+        "software": "kingsoft-wps-office-for-android",
+        "display_name": "Kingsoft WPS Office for Android"
+      },
+      {
+        "software": "microsoft-office",
+        "display_name": "Microsoft Office"
+      },
+      {
+        "software": "microsoft-excel",
+        "display_name": "Microsoft Excel"
+      },
+      {
+        "software": "google-sheets",
+        "display_name": "Google Sheets"
+      },
+      {
+        "software": "mobisystems-officesuite-pro",
+        "display_name": "MobiSystems OfficeSuite Pro"
+      },
+      {
+        "software": "google-drive",
+        "display_name": "Google Drive"
+      },
+      {
+        "software": "softmaker-office-hd-planmaker-basic",
+        "display_name": "SoftMaker Office HD: PlanMaker BASIC"
+      },
+      {
+        "software": "ascensio-system-sia-onlyoffice",
+        "display_name": "Ascensio System SIA OnlyOffice"
+      }
+    ],
+    "macos": [
+      {
+        "software": "microsoft-excel-365",
+        "display_name": "Microsoft Excel 365"
+      },
+      {
+        "software": "apple-numbers",
+        "display_name": "Apple Numbers"
+      },
+      {
+        "software": "openoffice-calc",
+        "display_name": "OpenOffice Calc"
+      },
+      {
+        "software": "planamesa-neooffice",
+        "display_name": "Planamesa NeoOffice",
+        "status": "discontinued"
+      },
+      {
+        "software": "libreoffice",
+        "display_name": "LibreOffice"
+      },
+      {
+        "software": "ascensio-system-sia-onlyoffice",
+        "display_name": "Ascensio System SIA OnlyOffice"
+      }
+    ],
+    "linux": [
+      {
+        "software": "openoffice-calc",
+        "display_name": "OpenOffice Calc"
+      },
+      {
+        "software": "gnumeric",
+        "display_name": "Gnumeric"
+      },
+      {
+        "software": "libreoffice",
+        "display_name": "LibreOffice"
+      },
+      {
+        "software": "ascensio-system-sia-onlyoffice",
+        "display_name": "Ascensio System SIA OnlyOffice"
+      }
+    ],
+    "ios": [
+      {
+        "software": "microsoft-office",
+        "display_name": "Microsoft Office"
+      },
+      {
+        "software": "microsoft-excel",
+        "display_name": "Microsoft Excel"
+      },
+      {
+        "software": "apple-numbers",
+        "display_name": "Apple Numbers"
+      },
+      {
+        "software": "google-sheets",
+        "display_name": "Google Sheets"
+      },
+      {
+        "software": "mobisystems-officesuite-pro",
+        "display_name": "MobiSystems OfficeSuite Pro"
+      },
+      {
+        "software": "infraware-polaris-office",
+        "display_name": "Infraware Polaris Office"
+      },
+      {
+        "software": "google-drive",
+        "display_name": "Google Drive"
+      },
+      {
+        "software": "ascensio-system-sia-onlyoffice",
+        "display_name": "Ascensio System SIA OnlyOffice"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "XLSX file icon",
+      "alt": "XLSX file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/xlsx-1567.png"
+    },
+    {
+      "caption": "XLSX file open in Microsoft Excel 365",
+      "alt": "XLSX file open in Microsoft Excel 365",
+      "source_url": "https://fileinfo.com/img/ss/md/xlsx_1567.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-03-03",
+  "sources": [
+    {
+      "url": "xlsx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

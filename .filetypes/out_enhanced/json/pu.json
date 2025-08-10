@@ -1,0 +1,23 @@
+{
+  "slug": "pu",
+  "extension": "pu",
+  "name": "PlantUML File",
+  "category": "plantuml-file",
+  "summary": "",
+  "developer_org": "n-a",
+  "developer_name": "N/A",
+  "more_information": {
+    "description": [
+      "An example of the syntax used by the PU file for a sequence diagram:",
+      "@startuml Joseph → Fred: Hello there! Fred -→ Joseph: Hello back! @enduml This example would create a diagram of two persons named Joseph and Fred each sending and receiving a message. Joseph says to Fred, \"Hello there!\" and Fred says to Joseph, \"Hello back!\" Each message is indicated with arrows in the diagram. The @startuml line begins the comment and the @enduml line ends the comment.",
+      "NOTE: PlantUML is downloaded as a .JAR file, consult the PlantUML link below for how to run the tool."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "pu.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

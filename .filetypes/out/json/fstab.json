@@ -1,0 +1,75 @@
+{
+  "slug": "fstab",
+  "extension": "fstab",
+  "name": "File Systems Table File",
+  "category": "file-systems-table-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.1,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "System configuration file used by various Linux distributions, such as Debian, and Android (version 2.2 and later) devices; used to define how available disks, disk partitions, and remote file systems should be initialized or integrated into the system's file system.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "linux": [
+      {
+        "software": "mount",
+        "display_name": "mount"
+      },
+      {
+        "software": "speed-software-root-explorer",
+        "display_name": "Speed Software Root Explorer"
+      }
+    ],
+    "web": [
+      {
+        "software": "jrummy-apps-root-browser",
+        "display_name": "JRummy Apps Root Browser"
+      }
+    ],
+    "windows": [
+      {
+        "software": "mount",
+        "display_name": "mount"
+      },
+      {
+        "software": "speed-software-root-explorer",
+        "display_name": "Speed Software Root Explorer"
+      }
+    ],
+    "android": [
+      {
+        "software": "speed-software-root-explorer",
+        "display_name": "Speed Software Root Explorer"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-11-11",
+  "sources": [
+    {
+      "url": "fstab.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

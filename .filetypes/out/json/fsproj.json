@@ -1,0 +1,72 @@
+{
+  "slug": "fsproj",
+  "extension": "fsproj",
+  "name": "Visual F# Project File",
+  "category": "1.-visual-f-project-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 2.8,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "F# developer project file created by Visual F#, a component of Microsoft's Visual Studio software development kit; stores project settings in an XML format; contains references to source code files, included libraries, and other program assets.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-visual-studio-2022",
+        "display_name": "Microsoft Visual Studio 2022"
+      },
+      {
+        "software": "jetbrains-rider",
+        "display_name": "JetBrains Rider"
+      },
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      }
+    ],
+    "macos": [
+      {
+        "software": "microsoft-visual-studio-for-mac",
+        "display_name": "Microsoft Visual Studio for Mac"
+      },
+      {
+        "software": "jetbrains-rider",
+        "display_name": "JetBrains Rider"
+      }
+    ],
+    "linux": [
+      {
+        "software": "jetbrains-rider",
+        "display_name": "JetBrains Rider"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-07-07",
+  "sources": [
+    {
+      "url": "fsproj.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

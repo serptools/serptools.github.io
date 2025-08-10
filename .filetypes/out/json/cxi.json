@@ -1,0 +1,74 @@
+{
+  "slug": "cxi",
+  "extension": "cxi",
+  "name": "Nintendo 3DS Executable Image",
+  "category": "1.-nintendo-3ds-executable-image",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "A CXI file is an executable file used to play a Nintendo 3DS game in a 3DS emulator . It contains a disk image that is a copy of a Nintendo 3DS game. CXI files are similar to, though not the same as, .3DS files.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "lime3ds",
+        "display_name": "Lime3DS"
+      }
+    ],
+    "macos": [
+      {
+        "software": "lime3ds",
+        "display_name": "Lime3DS"
+      }
+    ],
+    "linux": [
+      {
+        "software": "lime3ds",
+        "display_name": "Lime3DS"
+      }
+    ],
+    "android": [
+      {
+        "software": "lime3ds",
+        "display_name": "Lime3DS"
+      }
+    ],
+    "ios": [
+      {
+        "software": "applied-biosystems-fmat-8100-hts-system",
+        "display_name": "Applied Biosystems FMAT 8100 HTS System",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-09-22",
+  "sources": [
+    {
+      "url": "cxi.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

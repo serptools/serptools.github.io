@@ -1,0 +1,91 @@
+{
+  "slug": "z4",
+  "extension": "z4",
+  "name": "Z-machine Z-code Version 4 File",
+  "category": "z-machine-z-code-version-4-file",
+  "developer_org": "infocom",
+  "popularity": {
+    "rating": 4.3,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Z-code file used by the game engine Z-machine, which ran text adventure games in the late 1970s and 80s; commonly run presently by a Z-machine interpreter, several of which have been maintained by community members since the Z-machine was discontinued; contains source code for the games; similar to the Glulx formatted .ULX file extension.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "windows-frotz",
+        "display_name": "Windows Frotz"
+      },
+      {
+        "software": "spatterlight",
+        "display_name": "Spatterlight"
+      },
+      {
+        "software": "zoom",
+        "display_name": "Zoom"
+      },
+      {
+        "software": "parchment",
+        "display_name": "Parchment"
+      },
+      {
+        "software": "twisty",
+        "display_name": "Twisty"
+      }
+    ],
+    "macos": [
+      {
+        "software": "spatterlight",
+        "display_name": "Spatterlight"
+      },
+      {
+        "software": "zoom",
+        "display_name": "Zoom"
+      }
+    ],
+    "linux": [
+      {
+        "software": "zoom",
+        "display_name": "Zoom"
+      }
+    ],
+    "web": [
+      {
+        "software": "parchment",
+        "display_name": "Parchment"
+      }
+    ],
+    "android": [
+      {
+        "software": "twisty",
+        "display_name": "Twisty"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-07-27",
+  "sources": [
+    {
+      "url": "z4.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

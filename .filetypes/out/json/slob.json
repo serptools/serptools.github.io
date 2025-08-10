@@ -1,0 +1,61 @@
+{
+  "slug": "slob",
+  "extension": "slob",
+  "name": "Slob Dictionary Data File",
+  "category": "slob-dictionary-data-file",
+  "developer_org": "aard-dictionary",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "A SLOB file is a dictionary data file used by software that supports the Sorted List of Blobs (Slob) format, such as Aard 2 Dictionary and OSS-Dict. It stores dictionary or reference book content in a compact, searchable structure that organizes entries in a key-value structure, where each word or term acts as a key and the definition or associated content is the value. SLOB files also support Unicode , so it can store text in many different languages.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "android": [
+      {
+        "software": "igor-tkach-aard-2",
+        "display_name": "Igor Tkach Aard 2"
+      },
+      {
+        "software": "farfromrefug-oss-dict",
+        "display_name": "farfromrefug OSS-Dict"
+      }
+    ],
+    "windows": [
+      {
+        "software": "igor-tkach-aard-2",
+        "display_name": "Igor Tkach Aard 2"
+      },
+      {
+        "software": "farfromrefug-oss-dict",
+        "display_name": "farfromrefug OSS-Dict"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2025-07-30",
+  "sources": [
+    {
+      "url": "slob.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

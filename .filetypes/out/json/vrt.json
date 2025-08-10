@@ -1,0 +1,47 @@
+{
+  "slug": "vrt",
+  "extension": "vrt",
+  "name": "Virtual World",
+  "category": "virtual-world",
+  "developer_org": "superscape",
+  "popularity": {
+    "rating": 4.1,
+    "votes": 19,
+    "source": "fileinfo"
+  },
+  "summary": "3D format for creating interactive three-dimensional worlds that can be viewed by web browsers with the Viscape SVR plugin; stores data, such as textures, sounds, dimensions, and behaviors, that make up the 3D world.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "web": [
+      {
+        "software": "web-browser",
+        "display_name": "Web browser"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-07-28",
+  "sources": [
+    {
+      "url": "vrt.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "slug": "rpy",
+  "extension": "rpy",
+  "name": "Touhou Project Replay File",
+  "category": "1.-touhou-project-replay-file",
+  "developer_org": "team-shanghai-alice",
+  "popularity": {
+    "rating": 4.2,
+    "votes": 38,
+    "source": "fileinfo"
+  },
+  "summary": "Replay of a game played within one of the Touhou Project games, a series of Japanese scrolling shooter games; records the movements made during a game and can be replayed within the Touhou Project software.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "team-shanghai-alice-touhou-project",
+        "display_name": "Team Shanghai Alice Touhou Project"
+      },
+      {
+        "software": "ren-py",
+        "display_name": "Ren'Py"
+      },
+      {
+        "software": "python-software-foundation-python",
+        "display_name": "Python Software Foundation Python"
+      },
+      {
+        "software": "gvim",
+        "display_name": "gVim"
+      }
+    ],
+    "macos": [
+      {
+        "software": "ren-py",
+        "display_name": "Ren'Py"
+      },
+      {
+        "software": "python-software-foundation-python",
+        "display_name": "Python Software Foundation Python"
+      },
+      {
+        "software": "macromates-textmate",
+        "display_name": "MacroMates TextMate"
+      },
+      {
+        "software": "macvim",
+        "display_name": "MacVim"
+      }
+    ],
+    "linux": [
+      {
+        "software": "ren-py",
+        "display_name": "Ren'Py"
+      },
+      {
+        "software": "python-software-foundation-python",
+        "display_name": "Python Software Foundation Python"
+      },
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      }
+    ],
+    "web": [
+      {
+        "software": "twisted-matrix-labs-twisted-web",
+        "display_name": "Twisted Matrix Labs Twisted Web"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-09-01",
+  "sources": [
+    {
+      "url": "rpy.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

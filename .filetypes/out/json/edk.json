@@ -1,0 +1,47 @@
+{
+  "slug": "edk",
+  "extension": "edk",
+  "name": "Ensoniq KT Disk Image",
+  "category": "ensoniq-kt-disk-image",
+  "developer_org": "ensoniq",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "An EDK file is a disk image file used by Ensoniq KT synthesizers, which were popular in the late 1980s and early 1990s. It contains information, such as sounds, samples, and settings copied from physical disks in the Ensoniq Disk (EDK) format. The EDK format helped musicians using Ensoniq KT synthesizers to streamline sound design by allowing them to quickly access and manipulate unique sounds with the instruments during production and live performances.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "chicken-systems-ensoniq-disk-tools",
+        "display_name": "Chicken Systems Ensoniq Disk Tools"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2024-10-17",
+  "sources": [
+    {
+      "url": "edk.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

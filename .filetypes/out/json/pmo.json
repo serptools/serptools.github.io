@@ -1,0 +1,51 @@
+{
+  "slug": "pmo",
+  "extension": "pmo",
+  "name": "Broderbund Print Meta Object File",
+  "category": "1.-broderbund-print-meta-object-file",
+  "developer_org": "broderbund",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "File created by PrintMaster, a program used to create greeting cards, brochures, CD labels, and other prints; contains all project information, including graphics, layouts, and other settings; used to transfer projects between programs within the Broderbund creativity suite.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "broderbund-printmaster-2020",
+        "display_name": "Broderbund PrintMaster 2020"
+      },
+      {
+        "software": "pegasus-mail",
+        "display_name": "Pegasus Mail"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-03-03",
+  "sources": [
+    {
+      "url": "pmo.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

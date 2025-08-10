@@ -1,0 +1,63 @@
+{
+  "slug": "5vw",
+  "extension": "5vw",
+  "name": "5View Packet Capture File",
+  "category": "5view-packet-capture-file",
+  "developer_org": "infovista",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "A 5VW file is a data file saved in the Accellent 5Views Packet (5VW) format. It contains network packet data created during a live network capture. 5VW files are used for \"packet sniffing\" and analyzing data network characteristics.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "wireshark",
+        "display_name": "Wireshark"
+      },
+      {
+        "software": "colasoft-capsa",
+        "display_name": "Colasoft Capsa"
+      }
+    ],
+    "macos": [
+      {
+        "software": "wireshark",
+        "display_name": "Wireshark"
+      }
+    ],
+    "linux": [
+      {
+        "software": "wireshark",
+        "display_name": "Wireshark"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-09-19",
+  "sources": [
+    {
+      "url": "5vw.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "slug": "rpl",
+  "extension": "rpl",
+  "name": "Toribash Replay",
+  "category": "1.-toribash-replay",
+  "developer_org": "nabi-studios",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "An RPL file is a match replay recorded by Toribash, a multiplatform fighting game developed by Nabi Studios. It contains a (plain text) record of everything that occurred during a match, including the fighters' movements and the final score. Players can create RPL files at the end of a match by pressing F on their keyboard.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "ios": [
+      {
+        "software": "nabi-studios-toribash",
+        "display_name": "Nabi Studios Toribash"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "windows": [
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "df-interactive-special-force",
+        "display_name": "DF Interactive Special Force"
+      },
+      {
+        "software": "beamng.drive",
+        "display_name": "BeamNG.Drive"
+      },
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      }
+    ],
+    "macos": [
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      },
+      {
+        "software": "dolby-atmos-mastering-suite",
+        "display_name": "Dolby Atmos Mastering Suite"
+      },
+      {
+        "software": "dolby-atmos-production-suite",
+        "display_name": "Dolby Atmos Production Suite"
+      }
+    ],
+    "linux": [
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-08-17",
+  "sources": [
+    {
+      "url": "rpl.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

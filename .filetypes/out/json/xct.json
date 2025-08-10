@@ -1,0 +1,49 @@
+{
+  "slug": "xct",
+  "extension": "xct",
+  "name": "XVI32 Character Conversion Table File",
+  "category": "xvi32-character-conversion-table-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 2.5,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "An XCT file contains a character conversion table created by XVI32, a freeware hex editor. It stores a table of ANSI and ASCII characters and the characters to which they are converted when typed in XVI32. XCT files are stored in plain text.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "xvi32",
+        "display_name": "XVI32"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-06-30",
+  "sources": [
+    {
+      "url": "xct.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

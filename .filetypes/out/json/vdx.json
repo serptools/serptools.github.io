@@ -1,0 +1,157 @@
+{
+  "slug": "vdx",
+  "extension": "vdx",
+  "name": "Microsoft Visio XML Drawing",
+  "category": "1.-microsoft-visio-xml-drawing",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 2.6,
+    "votes": 12,
+    "source": "fileinfo"
+  },
+  "summary": "A VDX file is a drawing created by Microsoft Visio, a technical drawing and diagramming app. Typically, VDX drawings consists of arranged shapes, lines, and text. VDX files are similar to Visio .VSD files, except they consist of XML-formatted data instead of binary data.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "microsoft-visio-365",
+        "display_name": "Microsoft Visio 365"
+      },
+      {
+        "software": "libreoffice",
+        "display_name": "LibreOffice"
+      },
+      {
+        "software": "diagrams.net-draw.io",
+        "display_name": "diagrams.net draw.io"
+      },
+      {
+        "software": "nevron-software-mydraw",
+        "display_name": "Nevron Software MyDraw"
+      },
+      {
+        "software": "the-omni-group-omnigraffle",
+        "display_name": "The Omni Group OmniGraffle"
+      },
+      {
+        "software": "nektony-vsd-viewer",
+        "display_name": "Nektony VSD Viewer"
+      },
+      {
+        "software": "nektony-vsd-viewer-for-visio-drawings",
+        "display_name": "Nektony VSD Viewer for Visio Drawings"
+      },
+      {
+        "software": "free-visio-viewer",
+        "display_name": "Free Visio Viewer",
+        "pricing": "free"
+      },
+      {
+        "software": "trilobyte-the-7th-guest",
+        "display_name": "Trilobyte The 7th Guest"
+      },
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      }
+    ],
+    "chromeos": [
+      {
+        "software": "google-chrome-with-free-visio-viewer-extension",
+        "display_name": "Google Chrome with Free Visio Viewer extension",
+        "pricing": "free"
+      }
+    ],
+    "macos": [
+      {
+        "software": "libreoffice",
+        "display_name": "LibreOffice"
+      },
+      {
+        "software": "diagrams.net-draw.io",
+        "display_name": "diagrams.net draw.io"
+      },
+      {
+        "software": "nevron-software-mydraw",
+        "display_name": "Nevron Software MyDraw"
+      },
+      {
+        "software": "the-omni-group-omnigraffle",
+        "display_name": "The Omni Group OmniGraffle"
+      },
+      {
+        "software": "nektony-vsd-viewer",
+        "display_name": "Nektony VSD Viewer"
+      }
+    ],
+    "linux": [
+      {
+        "software": "libreoffice",
+        "display_name": "LibreOffice"
+      },
+      {
+        "software": "diagrams.net-draw.io",
+        "display_name": "diagrams.net draw.io"
+      }
+    ],
+    "web": [
+      {
+        "software": "diagrams.net-draw.io",
+        "display_name": "diagrams.net draw.io"
+      }
+    ],
+    "ios": [
+      {
+        "software": "nektony-vsd-viewer",
+        "display_name": "Nektony VSD Viewer"
+      }
+    ],
+    "android": [
+      {
+        "software": "nektony-vsd-viewer-for-visio-drawings",
+        "display_name": "Nektony VSD Viewer for Visio Drawings"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "VDX file icon",
+      "alt": "VDX file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/vdx-3256.png"
+    },
+    {
+      "caption": "VDX file open in LibreOffice Draw",
+      "alt": "VDX file open in LibreOffice Draw",
+      "source_url": "https://fileinfo.com/img/ss/md/vdx_3256.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-10-27",
+  "sources": [
+    {
+      "url": "vdx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

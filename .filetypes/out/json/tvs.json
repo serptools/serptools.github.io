@@ -1,0 +1,95 @@
+{
+  "slug": "tvs",
+  "extension": "tvs",
+  "name": "TeamViewer Video Session File",
+  "category": "teamviewer-video-session-file",
+  "developer_org": "teamviewer",
+  "popularity": {
+    "rating": 3.2,
+    "votes": 29,
+    "source": "fileinfo"
+  },
+  "summary": "A TVS file is a video file created by TeamViewer, a program that allows users to remotely control desktop computers. It contains video recorded from a remote session and is used for creating demonstration videos and recording session histories. TVS files may be played back in TeamViewer.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "teamviewer-for-windows",
+        "display_name": "TeamViewer for Windows"
+      },
+      {
+        "software": "tvs-to-mp4",
+        "display_name": "TVS to MP4"
+      },
+      {
+        "software": "teamviewer-remote-control",
+        "display_name": "TeamViewer: Remote Control"
+      },
+      {
+        "software": "teamviewer-for-remote-control",
+        "display_name": "TeamViewer for Remote Control"
+      }
+    ],
+    "macos": [
+      {
+        "software": "teamviewer-for-mac",
+        "display_name": "TeamViewer for Mac"
+      }
+    ],
+    "linux": [
+      {
+        "software": "teamviewer-for-linux",
+        "display_name": "TeamViewer for Linux"
+      }
+    ],
+    "web": [
+      {
+        "software": "tvs-to-mp4",
+        "display_name": "TVS to MP4"
+      }
+    ],
+    "ios": [
+      {
+        "software": "teamviewer-remote-control",
+        "display_name": "TeamViewer: Remote Control"
+      }
+    ],
+    "android": [
+      {
+        "software": "teamviewer-for-remote-control",
+        "display_name": "TeamViewer for Remote Control"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "TVS file icon",
+      "alt": "TVS file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/tvs-4436.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-11-28",
+  "sources": [
+    {
+      "url": "tvs.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

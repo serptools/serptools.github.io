@@ -1,0 +1,48 @@
+{
+  "slug": "mup",
+  "extension": "mup",
+  "name": "Music Publisher Score",
+  "category": "music-publisher-score",
+  "developer_org": "lauriso-software",
+  "popularity": {
+    "rating": 2.5,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "File created by Music Publisher, a music notation application; contains the sheet music for a musical composition; specifies instruments, time signatures, notes, dynamics, and other musical score information such as the composer and title; may be played back in the software, which helps to conceptualize the music.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "lauriso-music-publisher",
+        "display_name": "Lauriso Music Publisher",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-09-17",
+  "sources": [
+    {
+      "url": "mup.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

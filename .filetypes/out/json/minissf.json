@@ -1,0 +1,61 @@
+{
+  "slug": "minissf",
+  "extension": "minissf",
+  "name": "Miniature Saturn Sound Format",
+  "category": "miniature-saturn-sound-format",
+  "developer_org": "sega",
+  "popularity": {
+    "rating": 1.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "A MINISSF file is a music file used by a Sega Saturn video game. It is similar to an SSF file, but requires access to a corresponding .SSFLIB file to be able to be played. Thus, while SSF files can be played in various media players, MINISSF files cannot.",
+  "standards": [],
+  "mime_types": [
+    "ssf/dsf"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "kingshriek-ssf-dsf-python-scripts",
+        "display_name": "kingshriek SSF/DSF Python Scripts"
+      }
+    ],
+    "macos": [
+      {
+        "software": "kingshriek-ssf-dsf-python-scripts",
+        "display_name": "kingshriek SSF/DSF Python Scripts"
+      }
+    ],
+    "linux": [
+      {
+        "software": "kingshriek-ssf-dsf-python-scripts",
+        "display_name": "kingshriek SSF/DSF Python Scripts"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-05-23",
+  "sources": [
+    {
+      "url": "minissf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "hydra",
+  "extension": "hydra",
+  "name": "Hydra Image Filter Program File",
+  "category": "hydra-image-filter-program-file",
+  "developer_org": "adobe-systems",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "Image filter program created using Hydra, an application used for creating filters for Photoshop, After Effects, and Flash Player; used as the older extension for Hydra, the predecessor to Pixel Bender, which now uses .PBK files for kernel programs.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      }
+    ],
+    "macos": [
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-08-02",
+  "sources": [
+    {
+      "url": "hydra.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

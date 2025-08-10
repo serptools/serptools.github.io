@@ -1,0 +1,55 @@
+{
+  "slug": "otm",
+  "extension": "otm",
+  "name": "Origin Matrix Template",
+  "category": "1.-origin-matrix-template",
+  "developer_org": "originlab",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 11,
+    "source": "fileinfo"
+  },
+  "summary": "An OTM file is a matrix template created by Origin, a data analysis and graphing application used by various scientists and engineers. It contains settings for a matrix, such as style and formatting and the number of rows and columns. OTM files are used to create .OGM matrices.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "originlab-origin",
+        "display_name": "OriginLab Origin"
+      },
+      {
+        "software": "microsoft-outlook-365",
+        "display_name": "Microsoft Outlook 365"
+      },
+      {
+        "software": "microsoft-word-365",
+        "display_name": "Microsoft Word 365"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-02-01",
+  "sources": [
+    {
+      "url": "otm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

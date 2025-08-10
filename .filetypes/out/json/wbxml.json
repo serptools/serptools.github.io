@@ -1,0 +1,71 @@
+{
+  "slug": "wbxml",
+  "extension": "wbxml",
+  "name": "WAP Binary XML File",
+  "category": "wap-binary-xml-file",
+  "developer_org": "open-mobile-alliance",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "File created in the WAP (Wireless Application Protocol) Binary XML (WBXML) format, a compact binary file format used for transmitting XML documents over wireless mobile networks; allows mobile devices to preserve XML formatting while reducing the transmission time.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "qt-sdk",
+        "display_name": "Qt SDK"
+      },
+      {
+        "software": "wbxml-parser-for-syncml",
+        "display_name": "Wbxml Parser for SYNCML"
+      },
+      {
+        "software": "libwbxml2-utils",
+        "display_name": "libwbxml2-utils"
+      }
+    ],
+    "macos": [
+      {
+        "software": "qt-sdk",
+        "display_name": "Qt SDK"
+      }
+    ],
+    "linux": [
+      {
+        "software": "libwbxml2-utils",
+        "display_name": "libwbxml2-utils"
+      },
+      {
+        "software": "qt-sdk",
+        "display_name": "Qt SDK"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-10-14",
+  "sources": [
+    {
+      "url": "wbxml.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

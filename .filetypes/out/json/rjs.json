@@ -1,0 +1,79 @@
+{
+  "slug": "rjs",
+  "extension": "rjs",
+  "name": "RealJukebox Skin File",
+  "category": "1.-realjukebox-skin-file",
+  "developer_org": "realnetworks",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "Custom skin or theme for the RealJukebox media player; can be applied to the player to alter the look and feel of the interface.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "realnetworks-realjukebox",
+        "display_name": "RealNetworks RealJukebox"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "web": [
+      {
+        "software": "run-from-a-web-server-with-ruby-engine-installed",
+        "display_name": "Run from a Web server with Ruby engine installed"
+      },
+      {
+        "software": "web-browser",
+        "display_name": "Web browser"
+      }
+    ],
+    "macos": [
+      {
+        "software": "macromates-textmate",
+        "display_name": "MacroMates TextMate"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2007-12-10",
+  "sources": [
+    {
+      "url": "rjs.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

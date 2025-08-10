@@ -1,0 +1,59 @@
+{
+  "slug": "wt",
+  "extension": "wt",
+  "name": "WiredTiger Data File",
+  "category": "wiredtiger-data-file",
+  "developer_org": "mongodb",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "A WT file is a data file used by the WiredTiger storage engine included with MongoDB database software. It contains a collection of data blocks in the WiredTiger (WT) format, a proprietary format MongoDB uses as tables to make up a database. The first block in a WT file is a WT_BLOCK_DESC block that includes metadata to verify the legitimacy of the data and prevent corruption, followed by blocks storing data that makes up the table.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "mongodb",
+        "display_name": "MongoDB"
+      }
+    ],
+    "macos": [
+      {
+        "software": "mongodb",
+        "display_name": "MongoDB"
+      }
+    ],
+    "linux": [
+      {
+        "software": "mongodb",
+        "display_name": "MongoDB"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2024-03-06",
+  "sources": [
+    {
+      "url": "wt.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "luminar",
+  "extension": "luminar",
+  "name": "Luminar 4 Catalog Database",
+  "category": "luminar-4-catalog-database",
+  "summary": "",
+  "developer_org": "skylum-software",
+  "developer_name": "Skylum Software",
+  "more_information": {
+    "description": [
+      "Luminar is a digital photo-editing application that allows photographers to make layer-based edits to their photos. Luminar 4 saves in-progress edits within Luminar catalogs, which are folders comprised of STATE files, TIFF files, and a LUMINAR file, among others.",
+      "The LUMINAR file is a SQLite database that Luminar uses to retrieve the TIFF and STATE files stored within a catalog and associate them with one another, so edited images appear correctly within Luminar. Note that, while you can use a LUMINAR file to open a Luminar catalog (as described below), LUMINAR files are not, themselves, catalogs. For example, if you move a LUMINAR file and then attempt to use it to open a Luminar catalog, Luminar will show an error message that says the catalog you are attempting to open cannot be found."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "luminar.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

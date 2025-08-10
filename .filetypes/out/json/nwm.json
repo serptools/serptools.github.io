@@ -1,0 +1,60 @@
+{
+  "slug": "nwm",
+  "extension": "nwm",
+  "name": "Sony NWM Display Screen File",
+  "category": "1.-sony-nwm-display-screen-file",
+  "developer_org": "sony",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "An NWM file is a static or animated image that can be displayed on a Sony Network Walkman. The Network Walkman was an alternative to the iPod and other portable music players in the early 2000s. Models include the NW-E405, NW-E407, NW-E503, NW-E505, NW-E507, NW-A605, NW-A607, and NW-A608.",
+  "standards": [],
+  "mime_types": [
+    "play/stop",
+    "search/menu"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "image-viewer",
+        "display_name": "image viewer"
+      },
+      {
+        "software": "transfer-to-a-sony-network-walkman-via-usb",
+        "display_name": "Transfer to a Sony Network Walkman via USB"
+      }
+    ],
+    "macos": [
+      {
+        "software": "nisus-writer-pro",
+        "display_name": "Nisus Writer Pro"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-03-13",
+  "sources": [
+    {
+      "url": "nwm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

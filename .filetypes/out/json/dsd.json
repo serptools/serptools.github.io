@@ -1,0 +1,63 @@
+{
+  "slug": "dsd",
+  "extension": "dsd",
+  "name": "AutoCAD Drawing Set Description File",
+  "category": "1.-autocad-drawing-set-description-file",
+  "developer_org": "autodesk",
+  "popularity": {
+    "rating": 4.3,
+    "votes": 14,
+    "source": "fileinfo"
+  },
+  "summary": "Properties file used by AutoCAD, a CAD productivity application; contains settings for publishing a drawing to a .DWF file or to another plotter format; used for saving reusable publishing settings for different types of output.",
+  "standards": [],
+  "mime_types": [
+    "shape/position"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "autodesk-autocad-2025",
+        "display_name": "Autodesk AutoCAD 2025"
+      },
+      {
+        "software": "numerical-computing-diet-studio",
+        "display_name": "Numerical Computing Diet Studio"
+      },
+      {
+        "software": "daz-3d-daz-studio-4",
+        "display_name": "DAZ 3D DAZ Studio 4"
+      }
+    ],
+    "macos": [
+      {
+        "software": "daz-3d-daz-studio-4",
+        "display_name": "DAZ 3D DAZ Studio 4"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-09-07",
+  "sources": [
+    {
+      "url": "dsd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "qcow",
+  "extension": "qcow",
+  "name": "QEMU Copy On Write Disk Image",
+  "category": "qemu-copy-on-write-disk-image",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 22,
+    "source": "fileinfo"
+  },
+  "summary": "Disk image file saved in the QEMU Copy On Write (QCOW) format, a format used by QEMU virtualization software; stores the contents of a virtual machine's hard drive; supports zlib compression and AES encryption of separate, independent clusters.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "qemu",
+        "display_name": "QEMU"
+      }
+    ],
+    "linux": [
+      {
+        "software": "qemu",
+        "display_name": "QEMU"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-03-14",
+  "sources": [
+    {
+      "url": "qcow.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

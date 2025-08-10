@@ -1,0 +1,55 @@
+{
+  "slug": "shar",
+  "extension": "shar",
+  "name": "Unix Shar Archive",
+  "category": "unix-shar-archive",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "Compressed archive created using the Unix Shell Archive Program; often several files compressed into one archive; can be unpacked on Unix systems with the \"shar\" application by typing sh filename.shar .",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "linux": [
+      {
+        "software": "shar",
+        "display_name": "shar"
+      }
+    ],
+    "windows": [
+      {
+        "software": "shar",
+        "display_name": "shar"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2006",
+  "sources": [
+    {
+      "url": "shar.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

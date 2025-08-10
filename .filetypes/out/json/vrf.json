@@ -1,0 +1,61 @@
+{
+  "slug": "vrf",
+  "extension": "vrf",
+  "name": "Ventrilo Audio Recording",
+  "category": "ventrilo-audio-recording",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 2.8,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Compressed audio format used by Ventrilo for voice communication over the Internet; may involve multiple people and multiple channels; proprietary format that is difficult to convert to more popular formats such as .WAV and .MP3",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "flagship-industries-ventrilo",
+        "display_name": "Flagship Industries Ventrilo"
+      }
+    ],
+    "macos": [
+      {
+        "software": "flagship-industries-ventrilo",
+        "display_name": "Flagship Industries Ventrilo"
+      }
+    ],
+    "linux": [
+      {
+        "software": "flagship-industries-ventrilo",
+        "display_name": "Flagship Industries Ventrilo"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2006",
+  "sources": [
+    {
+      "url": "vrf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

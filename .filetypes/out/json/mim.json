@@ -1,0 +1,127 @@
+{
+  "slug": "mim",
+  "extension": "mim",
+  "name": "Multi-Purpose Internet Mail Message File",
+  "category": "1.-multi-purpose-internet-mail-message-file",
+  "developer_org": "internet-engineering-task-force",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 34,
+    "source": "fileinfo"
+  },
+  "summary": "A MIM file is an encoded file used by email programs that contain 8-bit data or other characters besides the US ASCII character set. It supports 8-bit content, such as file attachments, instead of standard 7-bit messages typically sent over email. MIM files also include metadata , such as the MIME version, content type, and encoding method.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "smith-micro-stuffit-deluxe",
+        "display_name": "Smith Micro StuffIt Deluxe",
+        "status": "discontinued"
+      },
+      {
+        "software": "corel-winzip",
+        "display_name": "Corel WinZip"
+      },
+      {
+        "software": "microsoft-outlook-365",
+        "display_name": "Microsoft Outlook 365"
+      },
+      {
+        "software": "mozilla-thunderbird",
+        "display_name": "Mozilla Thunderbird"
+      },
+      {
+        "software": "apple-mail",
+        "display_name": "Apple Mail"
+      },
+      {
+        "software": "kmail",
+        "display_name": "KMail"
+      },
+      {
+        "software": "sudo-apt-install-ibus-m17n",
+        "display_name": "sudo apt install ibus-m17n"
+      },
+      {
+        "software": ".m17n.d",
+        "display_name": "~/​.m17n.d"
+      },
+      {
+        "software": "ibus-restart",
+        "display_name": "ibus restart"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "ibus",
+        "display_name": "IBus"
+      }
+    ],
+    "macos": [
+      {
+        "software": "smith-micro-stuffit-deluxe-mac-16",
+        "display_name": "Smith Micro StuffIt Deluxe Mac 16",
+        "status": "discontinued"
+      },
+      {
+        "software": "microsoft-outlook-365",
+        "display_name": "Microsoft Outlook 365"
+      },
+      {
+        "software": "apple-mail",
+        "display_name": "Apple Mail"
+      },
+      {
+        "software": "mozilla-thunderbird",
+        "display_name": "Mozilla Thunderbird"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "kmail",
+        "display_name": "KMail"
+      },
+      {
+        "software": "ibus",
+        "display_name": "IBus"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2016-08-24",
+  "sources": [
+    {
+      "url": "mim.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

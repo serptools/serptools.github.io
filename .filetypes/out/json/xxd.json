@@ -1,0 +1,47 @@
+{
+  "slug": "xxd",
+  "extension": "xxd",
+  "name": "Brixx Planner Calendar",
+  "category": "brixx-planner-calendar",
+  "developer_org": "brixx",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 12,
+    "source": "fileinfo"
+  },
+  "summary": "Calendar used by Brixx Planner, a modeling program used for business planning; contains events and related information entered by the user; saved in a proprietary format that can only be opened with Brixx Solutions software.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "brixx-planner",
+        "display_name": "Brixx Planner"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-06-27",
+  "sources": [
+    {
+      "url": "xxd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

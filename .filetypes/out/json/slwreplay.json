@@ -1,0 +1,59 @@
+{
+  "slug": "slwreplay",
+  "extension": "slwreplay",
+  "name": "Salwyrr Launcher Replay",
+  "category": "salwyrr-launcher-replay",
+  "developer_org": "salwyrr",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "An SLWREPLAY file is a Minecraft game replay recorded using Salwyrr, a custom Minecraft launcher. It contains footage of a player's Minecraft gameplay. SLWREPLAY files can be played only in Salwyrr.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "salwyrr",
+        "display_name": "Salwyrr"
+      }
+    ],
+    "macos": [
+      {
+        "software": "salwyrr",
+        "display_name": "Salwyrr"
+      }
+    ],
+    "linux": [
+      {
+        "software": "salwyrr",
+        "display_name": "Salwyrr"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-09-14",
+  "sources": [
+    {
+      "url": "slwreplay.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

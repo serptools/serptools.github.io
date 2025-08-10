@@ -1,0 +1,67 @@
+{
+  "slug": "tibx",
+  "extension": "tibx",
+  "name": "Acronis True Image Backup",
+  "category": "acronis-true-image-backup",
+  "developer_org": "acronis",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 13,
+    "source": "fileinfo"
+  },
+  "summary": "A TIBX file is a backup file created by Acronis True Image 2020 or a later version. It contains at least one full backup of a computer's hard disk. It may also include additional incremental or differential backups. The TIBX format replaced Acronis's previous backup format, .TIB .",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "acronis-true-image",
+        "display_name": "Acronis True Image"
+      },
+      {
+        "software": "acronis-cyber-backup",
+        "display_name": "Acronis Cyber Backup"
+      }
+    ],
+    "macos": [
+      {
+        "software": "acronis-true-image",
+        "display_name": "Acronis True Image"
+      },
+      {
+        "software": "acronis-cyber-backup",
+        "display_name": "Acronis Cyber Backup"
+      }
+    ],
+    "linux": [
+      {
+        "software": "acronis-cyber-backup",
+        "display_name": "Acronis Cyber Backup"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-09-22",
+  "sources": [
+    {
+      "url": "tibx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

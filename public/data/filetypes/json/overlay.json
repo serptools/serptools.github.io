@@ -1,0 +1,24 @@
+{
+  "slug": "overlay",
+  "extension": "overlay",
+  "name": "Streamlabs Desktop Overlay",
+  "category": "streamlabs-desktop-overlay",
+  "summary": "",
+  "developer_org": "streamlabs",
+  "developer_name": "Streamlabs",
+  "more_information": {
+    "description": [
+      "Streamers use Streamlabs Desktop to record content and stream it to Twitch , YouTube, and other platforms. As part of setting up Streamlabs Desktop, streamers create one or more scenes. These scenes contain the elements a streamer wants to stream.",
+      "For example, a scene may include a game window, a window that shows the streamer's face via their webcam, and the streamer's logo (saved as a .PNG or other image file). When the streamer begins streaming, all these elements are combined into one streaming video.",
+      "If a streamer wants to export the graphical elements of their scenes (often referred to as overlays) as a single package, they can do so by:",
+      "This exports the graphical elements (and notably, not the video capture sources) of a streamer's current scenes as an OVERLAY file. Streamers can share OVERLAY files with others to allow them to import the overlays they contain."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "overlay.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

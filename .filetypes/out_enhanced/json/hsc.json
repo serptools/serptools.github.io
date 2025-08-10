@@ -1,0 +1,22 @@
+{
+  "slug": "hsc",
+  "extension": "hsc",
+  "name": "Aspen HYSYS Simulation File",
+  "category": "aspen-hysys-simulation-file",
+  "summary": "",
+  "developer_org": "aspen-technology",
+  "developer_name": "Aspen Technology",
+  "more_information": {
+    "description": [
+      "You can export HSC files to XML in HYSYS's Save As dialog. This helps with compatibility for different versions of the software.",
+      "NOTE: HSC files are not necessarily backward compatible with previous versions of the HYSYS software. Therefore, be sure to check the documentation before assuming compatibility with new versions of HYSYS."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "hsc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "prefpane",
+  "extension": "prefpane",
+  "name": "Mac OS X System Preference Pane",
+  "category": "mac-os-x-system-preference-pane",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Adds a system preference to the Mac OS X System Preferences window; Apple preferences are stored in System→Library→PreferencePanes, while third-party preferences are stored in the Library→PreferencePanes directory.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "apple-macos",
+        "display_name": "Apple macOS"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "PREFPANE file icon",
+      "alt": "PREFPANE file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/prefpane-1223.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-08-25",
+  "sources": [
+    {
+      "url": "prefpane.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

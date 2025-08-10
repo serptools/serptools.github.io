@@ -1,0 +1,70 @@
+{
+  "slug": "mcgame",
+  "extension": "mcgame",
+  "name": "Minecraft Game Backup File",
+  "category": "minecraft-game-backup-file",
+  "developer_org": "minecraft-launcher",
+  "popularity": {
+    "rating": 4.3,
+    "votes": 32,
+    "source": "fileinfo"
+  },
+  "summary": "Game installation archive created by Minecraft Launcher, a custom launcher for the game Minecraft; stores the game files in a compressed .ZIP format; not supported officially by Minecraft, but sometimes used for backing up specific versions of the game.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "minecraft-launcher",
+        "display_name": "Minecraft Launcher",
+        "status": "discontinued"
+      },
+      {
+        "software": "corel-winzip",
+        "display_name": "Corel WinZip"
+      },
+      {
+        "software": "7-zip",
+        "display_name": "7-Zip"
+      }
+    ],
+    "macos": [
+      {
+        "software": "minecraft-launcher",
+        "display_name": "Minecraft Launcher",
+        "status": "discontinued"
+      }
+    ],
+    "linux": [
+      {
+        "software": "minecraft-launcher",
+        "display_name": "Minecraft Launcher",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-11-16",
+  "sources": [
+    {
+      "url": "mcgame.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

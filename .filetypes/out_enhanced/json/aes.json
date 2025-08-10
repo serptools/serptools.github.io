@@ -1,0 +1,23 @@
+{
+  "slug": "aes",
+  "extension": "aes",
+  "name": "AES Crypt Encrypted File",
+  "category": "aes-crypt-encrypted-file",
+  "summary": "",
+  "developer_org": "oovoo",
+  "developer_name": "ooVoo",
+  "more_information": {
+    "description": [
+      "AES files are useful for protecting sensitive personal and business documents. AES Crypt users often encrypt documents and send them via email.",
+      "When AES Crypt creates an encrypted file, it append the \".aes\" extension to the filename. For example, when AES Crypt encrypts a document named mydocument.docx , it creates a new file named mydocument.docx.aes . You can double-click this file and type the password in order to access the original file.",
+      "NOTE: Since AES is a common form of encryption, other encryption programs may also use the \".aes\" extension."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "aes.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

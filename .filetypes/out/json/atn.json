@@ -1,0 +1,67 @@
+{
+  "slug": "atn",
+  "extension": "atn",
+  "name": "Photoshop Actions File",
+  "category": "photoshop-actions-file",
+  "developer_org": "adobe-systems",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 58,
+    "source": "fileinfo"
+  },
+  "summary": "Contains one or more actions recorded in Photoshop; used for automating common editing steps and for batch processing images; can be saved and loaded using the pop-up menu in the Photoshop Actions palette.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "adobe-photoshop-2025",
+        "display_name": "Adobe Photoshop 2025"
+      },
+      {
+        "software": "adobe-incopy-2023",
+        "display_name": "Adobe InCopy 2023"
+      }
+    ],
+    "macos": [
+      {
+        "software": "adobe-photoshop-2025",
+        "display_name": "Adobe Photoshop 2025"
+      },
+      {
+        "software": "adobe-incopy-2023",
+        "display_name": "Adobe InCopy 2023"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "ATN file icon",
+      "alt": "ATN file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/atn-1069.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-12-04",
+  "sources": [
+    {
+      "url": "atn.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "slug": "prt",
+  "extension": "prt",
+  "name": "Creo Parametric Part",
+  "category": "1.-creo-parametric-part",
+  "developer_org": "ptc",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 52,
+    "source": "fileinfo"
+  },
+  "summary": "A PRT file is a part created by PTC Creo Parametric, which is part of the Creo CAD suite. It contains information used to record the part's structure and show it as a 3D model. Creo users often combine PRT files into Creo assembly ( .ASM ) files.",
+  "standards": [],
+  "mime_types": [
+    "map/level",
+    "maps/levels",
+    "n/a",
+    "pro/engineer"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "ptc-onshape",
+        "display_name": "PTC Onshape"
+      },
+      {
+        "software": "ptc-creo",
+        "display_name": "PTC Creo"
+      },
+      {
+        "software": "okino-computer-graphics-polytrans",
+        "display_name": "Okino Computer Graphics PolyTrans"
+      },
+      {
+        "software": "autodesk-fusion-360",
+        "display_name": "Autodesk Fusion 360"
+      },
+      {
+        "software": "corel-presentations-2021",
+        "display_name": "Corel Presentations 2021"
+      },
+      {
+        "software": "valve-hammer-editor",
+        "display_name": "Valve Hammer Editor"
+      },
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "kubotek-cadkey",
+        "display_name": "Kubotek CADKEY"
+      },
+      {
+        "software": "kubotek-spectrum",
+        "display_name": "Kubotek Spectrum"
+      },
+      {
+        "software": "siemens-nx",
+        "display_name": "Siemens NX"
+      },
+      {
+        "software": "siemens-solid-edge",
+        "display_name": "Siemens Solid Edge"
+      },
+      {
+        "software": "referenced-by-the-operating-system",
+        "display_name": "Referenced by the operating system"
+      },
+      {
+        "software": "wasatch-softrip",
+        "display_name": "Wasatch SoftRIP"
+      },
+      {
+        "software": "polysoft-solutions-crypt-edit",
+        "display_name": "PolySoft Solutions Crypt Edit"
+      }
+    ],
+    "macos": [
+      {
+        "software": "autodesk-fusion-360",
+        "display_name": "Autodesk Fusion 360"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "siemens-nx",
+        "display_name": "Siemens NX"
+      }
+    ],
+    "linux": [
+      {
+        "software": "ptc-creo",
+        "display_name": "PTC Creo"
+      },
+      {
+        "software": "siemens-nx",
+        "display_name": "Siemens NX"
+      },
+      {
+        "software": "fileutil",
+        "display_name": "FILEUTIL"
+      }
+    ],
+    "web": [
+      {
+        "software": "autodesk-fusion-360",
+        "display_name": "Autodesk Fusion 360"
+      }
+    ],
+    "ios": [
+      {
+        "software": "autodesk-fusion-360",
+        "display_name": "Autodesk Fusion 360"
+      }
+    ],
+    "android": [
+      {
+        "software": "autodesk-fusion-360",
+        "display_name": "Autodesk Fusion 360"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-07-21",
+  "sources": [
+    {
+      "url": "prt.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

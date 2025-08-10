@@ -1,0 +1,53 @@
+{
+  "slug": "ssd",
+  "extension": "ssd",
+  "name": "WindowBlinds Skin File List",
+  "category": "1.-windowblinds-skin-file-list",
+  "developer_org": "stardock",
+  "popularity": {
+    "rating": 4.1,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "Text file that contains a list of skins within a WindowBlinds skin ( .WBA ) file; includes the number of skins and the title and filename of each skin; serves as a pointer to the corresponding .UIS and .SSS skin files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "stardock-windowblinds",
+        "display_name": "Stardock WindowBlinds"
+      }
+    ],
+    "macos": [
+      {
+        "software": "simulation-curriculum-starry-night-pro",
+        "display_name": "Simulation Curriculum Starry Night Pro"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2016-10-18",
+  "sources": [
+    {
+      "url": "ssd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "lgc",
+  "extension": "lgc",
+  "name": "SimpleK Database File",
+  "category": "1.-simplek-database-file",
+  "developer_org": "prosystech",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "Database format used by SimpleK, a master key system and key issuance software program; used by locksmiths as well as security and facility managers.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "prosystech-simplek",
+        "display_name": "Prosystech SimpleK"
+      },
+      {
+        "software": "corel-wordperfect-2021",
+        "display_name": "Corel WordPerfect 2021"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2008-08-20",
+  "sources": [
+    {
+      "url": "lgc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

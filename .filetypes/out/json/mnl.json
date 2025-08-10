@@ -1,0 +1,47 @@
+{
+  "slug": "mnl",
+  "extension": "mnl",
+  "name": "AutoCAD Menu LISP File",
+  "category": "autocad-menu-lisp-file",
+  "developer_org": "autodesk",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "User interface file used by AutoCAD, an engineering and architecting design program; contains expressions that manipulate the user interface elements; written in Autodesk's proprietary AutoLISP language, which is based on LISP.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "autodesk-autocad-2025",
+        "display_name": "Autodesk AutoCAD 2025"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-05-18",
+  "sources": [
+    {
+      "url": "mnl.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

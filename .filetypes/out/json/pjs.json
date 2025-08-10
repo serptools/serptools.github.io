@@ -1,0 +1,85 @@
+{
+  "slug": "pjs",
+  "extension": "pjs",
+  "name": "TestComplete Project Suite File",
+  "category": "1.-testcomplete-project-suite-file",
+  "developer_org": "smartbear",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Settings file used by TestComplete, an application that enables users to test a variety of desktop, mobile, and web applications; stores common settings, such as what information is displayed in the TestComplete panels, for a project suite.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "smartbear-testcomplete",
+        "display_name": "SmartBear TestComplete"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "j2-interactive-mx-player",
+        "display_name": "J2 Interactive MX Player"
+      }
+    ],
+    "macos": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "android": [
+      {
+        "software": "j2-interactive-mx-player",
+        "display_name": "J2 Interactive MX Player"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-08-19",
+  "sources": [
+    {
+      "url": "pjs.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

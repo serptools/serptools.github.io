@@ -1,0 +1,47 @@
+{
+  "slug": "tn",
+  "extension": "tn",
+  "name": "LG Phone Image",
+  "category": "lg-phone-image",
+  "developer_org": "lg",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "Image format used by some LG mobile phones, including the LG Env3 and LG EnV Touch; saves a picture taken by the phone and is saved to the memory card (MicroSD) on the device; cannot be viewed with traditional image viewers, but instead should be sent from the phone to the user's email address to view on a computer as a .JPG file (Media Center → Picture & Video → My Pictures → Select Picture → Send → Picture Message).",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "irfanview",
+        "display_name": "IrfanView"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-06-29",
+  "sources": [
+    {
+      "url": "tn.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

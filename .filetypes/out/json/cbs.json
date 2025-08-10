@@ -1,0 +1,51 @@
+{
+  "slug": "cbs",
+  "extension": "cbs",
+  "name": "Code Breaker PS2 Save File",
+  "category": "1.-code-breaker-ps2-save-file",
+  "developer_org": "pelican-accessories",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "Saved game state file created by Code Breaker, a PlayStation 2 (PS2) accessory program used to create game cheats and transfer saved games to a PC; contains saved state information for a specific game; used to load a preconfigured state in a PS2 games.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "mymc",
+        "display_name": "mymc"
+      },
+      {
+        "software": "comodo-backup",
+        "display_name": "Comodo Backup"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-07-20",
+  "sources": [
+    {
+      "url": "cbs.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

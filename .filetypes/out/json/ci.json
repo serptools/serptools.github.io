@@ -1,0 +1,51 @@
+{
+  "slug": "ci",
+  "extension": "ci",
+  "name": "Windows Content Indexer Catalog File",
+  "category": "1.-windows-content-indexer-catalog-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 12,
+    "source": "fileinfo"
+  },
+  "summary": "Operating system search file used by Windows 2000 and later; saves an index of search information that Windows uses to display results for file system searches; may be large in file size due to the amount of search information.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-windows",
+        "display_name": "Microsoft Windows"
+      },
+      {
+        "software": "the-mathworks-polyspace",
+        "display_name": "The MathWorks PolySpace"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-06-21",
+  "sources": [
+    {
+      "url": "ci.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

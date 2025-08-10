@@ -1,0 +1,51 @@
+{
+  "slug": "fsa",
+  "extension": "fsa",
+  "name": "Fragment Analysis Data File",
+  "category": "fragment-analysis-data-file",
+  "developer_org": "applied-biosystems",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "An FSA file is a fragment analysis data file created by DNA sequencers and analyzers, such as the 3500 and 3130 Genetic Analyzers. It contains electropherogram records of amplified fragments along with the model and machine used to collect the data and the start and stop time of the run. FSA files are saved in the proprietary ABIF file format where each element of data is associated with a tag similar to key-value pairs.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "peak-scanner-software",
+        "display_name": "Peak Scanner Software"
+      },
+      {
+        "software": "fsa2ps",
+        "display_name": "FSA2PS"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-03-14",
+  "sources": [
+    {
+      "url": "fsa.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

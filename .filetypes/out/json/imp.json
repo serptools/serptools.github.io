@@ -1,0 +1,56 @@
+{
+  "slug": "imp",
+  "extension": "imp",
+  "name": "Improv Spreadsheet",
+  "category": "1.-improv-spreadsheet",
+  "developer_org": "lotus",
+  "popularity": {
+    "rating": 3.1,
+    "votes": 14,
+    "source": "fileinfo"
+  },
+  "summary": "Native spreadsheet file created by the Lotus Improv application; divides data, views of the data, and formulas into three segments, which is different than most spreadsheet applications and makes it difficult to transfer to more common applications like Excel.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "lotus-improv",
+        "display_name": "Lotus Improv",
+        "status": "discontinued"
+      },
+      {
+        "software": "logotron-imagine",
+        "display_name": "Logotron Imagine"
+      },
+      {
+        "software": "previous-versions-of-adobe-audition",
+        "display_name": "Previous versions of Adobe Audition"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2013-07-23",
+  "sources": [
+    {
+      "url": "imp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

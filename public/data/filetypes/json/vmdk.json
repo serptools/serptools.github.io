@@ -1,0 +1,32 @@
+{
+  "slug": "vmdk",
+  "extension": "vmdk",
+  "name": "Virtual Machine Disk File",
+  "summary": "A VMDK file is a virtual disk that stores the contents of a virtual machine created by VMware Workstation or VMware Fusion. It is typically stored within a virtual machine package ( .VMWAREVM file), and the VMware software accesses it similarly to a physical hard disk. VMDK files may be set at a fixed size or configured to grow over time using VMware's Virtual Disk Manager.",
+  "developer": "VMware",
+  "developer_slug": "vmware",
+  "category": "Disk Image Files",
+  "category_slug": "disk-image-files",
+  "rating": 4.1,
+  "votes": 45,
+  "last_updated": "September 14, 2023",
+  "more_information": {
+    "content": [
+      "Workstation and Fusion are virtualization applications that enable you to run multiple guest operating systems, including Windows and Linux, as virtual machines (VMs) on your computer. When creating a VM, the software creates various files to configure and run the VM. One of the files created is the VMDK file, which functions similarly to the Windows C:\\​ drive.",
+      "To locate the VMDK file, right-click the VMWAREVM file, and choose Show Package Contents . The VMDK file is typically named after the operating system. For example, the VMDK file for Windows 11 may be named Windows 11-0.vmdk .",
+      "Other files that make up a virtual disk may include: [vmname]-s[###].vmdk - for split virtual disk files. [vmname]-f[###].vmdk - for split files with disk space allocated in advance. [diskname]-[###].vmdk - stores changes made to a virtual disk. NOTE: Early versions of VMware software saved virtual disks as .DSK files.",
+      "NOTE: Early versions of VMware software saved virtual disks as .DSK files."
+    ]
+  },
+  "how_to_open": {
+    "instructions": [
+      "You can open a VMDK file with VMware software, such as Workstation and Fusion . Both apps open the VMDK file automatically when starting up a virtual machine. However, you can also run a virtual machine by double-clicking the VMDK file.",
+      "Additionally, you can mount a VMDK file as a virtual disk with WinMount. Once WinMount mounts the VMDK file, you can delete, copy, and modify files in the virtual disk."
+    ]
+  },
+  "scraped_at": "2025-08-09T21:58:55.194909",
+  "source": {
+    "url": "https://fileinfo.com/extension/vmdk",
+    "file": "vmdk.html"
+  }
+}

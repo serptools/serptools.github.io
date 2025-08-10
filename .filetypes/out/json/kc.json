@@ -1,0 +1,65 @@
+{
+  "slug": "kc",
+  "extension": "kc",
+  "name": "KeyKit Collection",
+  "category": "1.-keykit-collection",
+  "developer_org": "tim-thompson-and-at-t",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "A KC file is a KeyKit Collection used by Tim Thompson's KeyKit. It contains a set of named musical sequences you can play in KeyKit. KC files are most often used to group similar percussion sequences into collections that can be opened and played using KeyKit's Blocks tool.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "keykit",
+        "display_name": "KeyKit"
+      }
+    ],
+    "linux": [
+      {
+        "software": "keykit",
+        "display_name": "KeyKit"
+      }
+    ],
+    "macos": [
+      {
+        "software": "not-meant-to-be-opened",
+        "display_name": "Not meant to be opened"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "KC file open in KeyKit",
+      "alt": "KC file open in KeyKit",
+      "source_url": "https://fileinfo.com/img/ss/md/kc_11571.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-08-10",
+  "sources": [
+    {
+      "url": "kc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

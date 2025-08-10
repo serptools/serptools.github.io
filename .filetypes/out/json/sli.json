@@ -1,0 +1,47 @@
+{
+  "slug": "sli",
+  "extension": "sli",
+  "name": "OMSI Spline Configuration File",
+  "category": "omsi-spline-configuration-file",
+  "developer_org": "mr-software",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Spline file created by OMSI The Bus Simulator, an omnibus driving simulation program; similar to other OMSI configuration files like .HUM , .SLI , .SCO , and .BUS files; holds configuration data that guides human and Artificial Intelligence (AI) traffic during gameplay, for e.g., the roads; can be customized.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "mr-software-omsi-the-bus-simulator-2",
+        "display_name": "MR Software OMSI The Bus Simulator 2"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2013-11-12",
+  "sources": [
+    {
+      "url": "sli.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

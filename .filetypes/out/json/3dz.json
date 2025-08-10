@@ -1,0 +1,64 @@
+{
+  "slug": "3dz",
+  "extension": "3dz",
+  "name": "Nintendo 3DS ROM",
+  "category": "1.-nintendo-3ds-rom",
+  "developer_org": "gateway",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "A 3DZ file is a game file used by Gateway 3DS, a microSD card for Nintendo 3DS used to play 3DS, DS, and homebrew games. It contains a copy of the data from an original 3DS game cartridge. 3DZ files are saved in the same format as the more popular .3DS files but contain a header which indicates to Gateway that it is compatible for online play.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "no-known-program-available",
+        "display_name": "No known program available"
+      },
+      {
+        "software": "dzsoft-easy-3d-creator",
+        "display_name": "DzSoft Easy 3D Creator",
+        "status": "discontinued"
+      }
+    ],
+    "macos": [
+      {
+        "software": "no-known-program-available",
+        "display_name": "No known program available"
+      }
+    ],
+    "linux": [
+      {
+        "software": "no-known-program-available",
+        "display_name": "No known program available"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-06-29",
+  "sources": [
+    {
+      "url": "3dz.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

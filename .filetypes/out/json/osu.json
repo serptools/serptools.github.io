@@ -1,0 +1,75 @@
+{
+  "slug": "osu",
+  "extension": "osu",
+  "name": "Osu! Script",
+  "category": "osu-script",
+  "developer_org": "peppy",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 28,
+    "source": "fileinfo"
+  },
+  "summary": "Game script written for osu!, a rhythm game where players click hit circles in sync with music; saves properties for a game challenge, such as the difficulty, the song that is played, and the timing points for hit objects; can be used by game community members for making custom challenges.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "osu",
+        "display_name": "osu!"
+      },
+      {
+        "software": "arrowvortex",
+        "display_name": "ArrowVortex"
+      },
+      {
+        "software": "project-outfox",
+        "display_name": "Project Outfox"
+      },
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "project-outfox",
+        "display_name": "Project Outfox"
+      }
+    ],
+    "linux": [
+      {
+        "software": "project-outfox",
+        "display_name": "Project Outfox"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-08-16",
+  "sources": [
+    {
+      "url": "osu.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

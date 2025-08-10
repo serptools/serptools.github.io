@@ -1,0 +1,47 @@
+{
+  "slug": "fmw",
+  "extension": "fmw",
+  "name": "FME Workbench Workspace File",
+  "category": "fme-workbench-workspace-file",
+  "developer_org": "safe-software",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "An FMW file is a workspace project created by FME Workbench, a tool that allows users to build custom workflows for transforming geographic and other spatial data. It contains information about a workspace, including input data sources, transformation rules, and output settings. FME Workbench users primarily use FMW files to design, save, and manage data transformation workspaces across different projects, which is especially helpful for large-scale or recurring tasks, such as converting datasets to a different format or integrating multiple data sources into a unified system.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "safe-software-fme-desktop",
+        "display_name": "Safe Software FME Desktop"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2025-01-15",
+  "sources": [
+    {
+      "url": "fmw.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

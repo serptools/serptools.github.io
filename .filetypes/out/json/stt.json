@@ -1,0 +1,75 @@
+{
+  "slug": "stt",
+  "extension": "stt",
+  "name": "SPSS Table Template",
+  "category": "1.-spss-table-template",
+  "developer_org": "ibm",
+  "popularity": {
+    "rating": 2.8,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Data table template created by SPSS, a statistical analysis and data mining application; saves the properties and appearance of a table; allows results to be displayed using the same formatting; used by SPSS version 16 and later.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "ibm-spss",
+        "display_name": "IBM SPSS"
+      },
+      {
+        "software": "microsoft-streets-trips",
+        "display_name": "Microsoft Streets & Trips"
+      },
+      {
+        "software": "kaspersky-internet-security",
+        "display_name": "Kaspersky Internet Security"
+      },
+      {
+        "software": "kaspersky-anti-virus",
+        "display_name": "Kaspersky Anti-Virus"
+      }
+    ],
+    "macos": [
+      {
+        "software": "ibm-spss",
+        "display_name": "IBM SPSS"
+      },
+      {
+        "software": "kaspersky-internet-security-for-mac",
+        "display_name": "Kaspersky Internet Security for Mac"
+      }
+    ],
+    "linux": [
+      {
+        "software": "ibm-spss",
+        "display_name": "IBM SPSS"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-06-23",
+  "sources": [
+    {
+      "url": "stt.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

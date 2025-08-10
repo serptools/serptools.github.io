@@ -1,0 +1,49 @@
+{
+  "slug": "fonix",
+  "extension": "fonix",
+  "name": "Fonix Ransomware Encrypted File",
+  "category": "fonix-ransomware-encrypted-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "A FONIX file is a file that has been encrypted by Fonix ransomware , which is malware distributed by cybercriminals. It contains a file, such as a .PDF , .JPG , or .DOCX file, that the virus has renamed and encrypted. FONIX files can be decrypted and restored to their original state using Kaspersky RakhniDecryptor.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "kaspersky-rakhnidecryptor",
+        "display_name": "Kaspersky RakhniDecryptor"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-05-06",
+  "sources": [
+    {
+      "url": "fonix.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "slug": "dpr",
+  "extension": "dpr",
+  "name": "Delphi Project",
+  "category": "1.-delphi-project",
+  "developer_org": "embarcadero-technologies",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 14,
+    "source": "fileinfo"
+  },
+  "summary": "Project file created by Delphi, a software IDE often used for building Windows applications; used as the main source code file that is the entry point for the application; may contain references to other source code files in the project.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "embarcadero-delphi",
+        "display_name": "Embarcadero Delphi"
+      },
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      },
+      {
+        "software": "bentley-digital-interplot",
+        "display_name": "Bentley Digital InterPlot"
+      }
+    ],
+    "web": [
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-04-24",
+  "sources": [
+    {
+      "url": "dpr.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

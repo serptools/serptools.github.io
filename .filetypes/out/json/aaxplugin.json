@@ -1,0 +1,59 @@
+{
+  "slug": "aaxplugin",
+  "extension": "aaxplugin",
+  "name": "Avid Audio eXtension Plugin File",
+  "category": "avid-audio-extension-plugin-file",
+  "developer_org": "avid-technology",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "Avid Audio eXtension (AAX) plugin format used by Pro Tools, a digital audio workstation (DAW); adds extra sound processing and audio effects to the application; examples include vintage compressor emulations, convolution reverbs, and noise reduction tools.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "avid-pro-tools",
+        "display_name": "Avid Pro Tools"
+      }
+    ],
+    "macos": [
+      {
+        "software": "avid-pro-tools",
+        "display_name": "Avid Pro Tools"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "AAXPLUGIN file icon",
+      "alt": "AAXPLUGIN file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/aaxplugin-10130.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-12-04",
+  "sources": [
+    {
+      "url": "aaxplugin.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "slug": "gsf",
+  "extension": "gsf",
+  "name": "Game Boy Advance Sound File",
+  "category": "game-boy-advance-sound-file",
+  "developer_org": "caitsith2-and-zoopd",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "Sound format used by Game Boy Advance (GBA) games; stores the music of GBA video games; contains assembly code ripped from the GBA ROM that produces the sound; sub-format of the .PSF format.; similar to the .USF format used to store Nintendo 64 game soundtracks.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "nullsoft-winamp-with-highly-advanced-plugin",
+        "display_name": "Nullsoft Winamp with Highly Advanced plugin"
+      },
+      {
+        "software": "audio-overload",
+        "display_name": "Audio Overload"
+      }
+    ],
+    "macos": [
+      {
+        "software": "audio-overload",
+        "display_name": "Audio Overload"
+      }
+    ],
+    "linux": [
+      {
+        "software": "audio-overload",
+        "display_name": "Audio Overload"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-05-20",
+  "sources": [
+    {
+      "url": "gsf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

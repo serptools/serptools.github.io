@@ -1,0 +1,22 @@
+{
+  "slug": "hostnames",
+  "extension": "hostnames",
+  "name": "Archive Team Hostname File",
+  "category": "archive-team-hostname-file",
+  "summary": "",
+  "developer_org": "archive-team",
+  "developer_name": "Archive Team",
+  "more_information": {
+    "description": [
+      "The Archive Team is a team of volunteers dedicated to preserving Internet content that might otherwise be deleted. As part of their website archiving process, the Archive Team often uses a script to catalog all the hostnames associated with a multi-hostname website. This script generates a HOSTNAMES file.",
+      "Each HOSTNAMES file contains a list of serial numbers paired with a list of the hostnames associated with a website. The file is then used in a later step of the archiving process to retrieve the data stored at each hostname."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "hostnames.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

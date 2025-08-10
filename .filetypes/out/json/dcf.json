@@ -1,0 +1,132 @@
+{
+  "slug": "dcf",
+  "extension": "dcf",
+  "name": "DRM Content Format File",
+  "category": "1.-drm-content-format-file",
+  "developer_org": "sony-ericsson",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 20,
+    "source": "fileinfo"
+  },
+  "summary": "A DCF file is a media file that has been copy-protected by Sony Ericsson DRM Packager or another Symbian OS DRM app. It contains media, such as a ringtone, song, or video, that can be played only on an authorized smartphone. DCF files are similar to .DM (DRM Delivery Message) files, except their rights object is stored in a separate file.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "sony-ericsson-drm-packager",
+        "display_name": "Sony Ericsson DRM Packager",
+        "status": "discontinued"
+      },
+      {
+        "software": "disk-copy-fast",
+        "display_name": "Disk Copy Fast"
+      },
+      {
+        "software": "disk-copy-plus",
+        "display_name": "Disk Copy Plus"
+      },
+      {
+        "software": "acca-software-primus-dcf",
+        "display_name": "ACCA Software PriMus-DCF"
+      },
+      {
+        "software": "safetica-free",
+        "display_name": "Safetica Free",
+        "pricing": "free"
+      },
+      {
+        "software": "dyalog",
+        "display_name": "Dyalog"
+      },
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "github-atom",
+        "display_name": "Github Atom",
+        "status": "discontinued"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "dyalog",
+        "display_name": "Dyalog"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "github-atom",
+        "display_name": "Github Atom",
+        "status": "discontinued"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "dyalog",
+        "display_name": "Dyalog"
+      },
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      },
+      {
+        "software": "github-atom",
+        "display_name": "Github Atom",
+        "status": "discontinued"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-10-12",
+  "sources": [
+    {
+      "url": "dcf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

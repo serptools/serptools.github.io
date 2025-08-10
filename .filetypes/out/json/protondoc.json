@@ -1,0 +1,76 @@
+{
+  "slug": "protondoc",
+  "extension": "protondoc",
+  "name": "Proton Docs Document",
+  "category": "proton-docs-document",
+  "developer_org": "proton",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "A PROTONDOC file is a document created by Proton Docs, an online word processor included with Proton Drive. It stores a text document in an encrypted container format that users can edit and collaborate on within Proton Docs. PROTONDOC files are stored directly in a user's Proton Drive account, and the user will likely never see the .protondoc file extension.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "android": [
+      {
+        "software": "proton-drive",
+        "display_name": "Proton Drive"
+      }
+    ],
+    "web": [
+      {
+        "software": "proton-drive",
+        "display_name": "Proton Drive"
+      }
+    ],
+    "windows": [
+      {
+        "software": "proton-drive",
+        "display_name": "Proton Drive"
+      }
+    ],
+    "ios": [
+      {
+        "software": "proton-drive",
+        "display_name": "Proton Drive"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "PROTONDOC file icon",
+      "alt": "PROTONDOC file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/protondoc-13853.png"
+    },
+    {
+      "caption": "PROTONDOC file open in Proton Drive",
+      "alt": "PROTONDOC file open in Proton Drive",
+      "source_url": "https://fileinfo.com/img/ss/md/protondoc_13853.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2025-08-05",
+  "sources": [
+    {
+      "url": "protondoc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

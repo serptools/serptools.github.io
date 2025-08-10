@@ -1,0 +1,87 @@
+{
+  "slug": "edoc",
+  "extension": "edoc",
+  "name": "Electronically Certified Document",
+  "category": "electronically-certified-document",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 25,
+    "source": "fileinfo"
+  },
+  "summary": "An EDOC file is an electronically certified document saved in the EDOC format, which is a popular format in Latvia used to protect and verify the identity of sensitive files. It contains a document, which may include one or more attached files and one or more digital signatures. EDOC files also store metadata describing the properties of the document, such as the creator, the creation time, the last modification time, and the EDOC format version.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "euso-signanywhere-free",
+        "display_name": "EUSO SignAnywhere Free",
+        "pricing": "free"
+      },
+      {
+        "software": "eparakst-t-js",
+        "display_name": "eParakstītājs"
+      }
+    ],
+    "macos": [
+      {
+        "software": "euso-signanywhere-free",
+        "display_name": "EUSO SignAnywhere Free",
+        "pricing": "free"
+      },
+      {
+        "software": "eparakst-t-js",
+        "display_name": "eParakstītājs"
+      }
+    ],
+    "linux": [
+      {
+        "software": "euso-signanywhere-free",
+        "display_name": "EUSO SignAnywhere Free",
+        "pricing": "free"
+      },
+      {
+        "software": "eparakst-t-js",
+        "display_name": "eParakstītājs"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "EDOC file icon",
+      "alt": "EDOC file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/edoc-11166.png"
+    },
+    {
+      "caption": "EDOC file open in eParakstītājs 3",
+      "alt": "EDOC file open in eParakstītājs 3",
+      "source_url": "https://fileinfo.com/img/ss/md/edoc_11166.jpg"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-08-07",
+  "sources": [
+    {
+      "url": "edoc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

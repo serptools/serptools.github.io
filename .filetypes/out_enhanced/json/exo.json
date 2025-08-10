@@ -1,0 +1,22 @@
+{
+  "slug": "exo",
+  "extension": "exo",
+  "name": "YouTube Video Chunk",
+  "category": "youtube-video-chunk",
+  "summary": "",
+  "developer_org": "google",
+  "developer_name": "Google",
+  "more_information": {
+    "description": [
+      "In select countries, including India, the Philippines, and Indonesia, YouTube for Android users can download certain videos for playback offline. Those videos, which are available to be played back for up to 48 hours, are saved locally as a set of EXO files.",
+      "Each EXO file contains a compressed , encrypted segment of the downloaded video. For example, a 10-minute video may be saved as a set of 30 EXO files. YouTube for Android encrypts EXO files to prevent users from sharing them with others. When you play a downloaded video in YouTube for Android, the app automatically pieces together the related EXO files and plays them in the correct order."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "exo.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

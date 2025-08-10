@@ -1,0 +1,69 @@
+{
+  "slug": "kvtml",
+  "extension": "kvtml",
+  "name": "KWordQuiz File",
+  "category": "kwordquiz-file",
+  "developer_org": "the-kde-education-project",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "File used by KWordQuiz, a flash card \"edutainment\" application that is part of The KDE Education Project; stores information about a set of flash cards using XML formatting; includes the text for the front and back of each card; can be used to load data for multiple choice quizzes, or for committing vocabularies to memory.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "linux": [
+      {
+        "software": "the-kde-education-project-kwordquiz",
+        "display_name": "The KDE Education Project KWordQuiz"
+      },
+      {
+        "software": "the-kde-education-project-kvoctrain",
+        "display_name": "The KDE Education Project KVocTrain"
+      },
+      {
+        "software": "the-kde-education-project-parley",
+        "display_name": "The KDE Education Project Parley"
+      }
+    ],
+    "windows": [
+      {
+        "software": "the-kde-education-project-kwordquiz",
+        "display_name": "The KDE Education Project KWordQuiz"
+      },
+      {
+        "software": "the-kde-education-project-kvoctrain",
+        "display_name": "The KDE Education Project KVocTrain"
+      },
+      {
+        "software": "the-kde-education-project-parley",
+        "display_name": "The KDE Education Project Parley"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-09-21",
+  "sources": [
+    {
+      "url": "kvtml.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

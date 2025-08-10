@@ -1,0 +1,59 @@
+{
+  "slug": "gim",
+  "extension": "gim",
+  "name": "PlayStation Portable Image File",
+  "category": "playstation-portable-image-file",
+  "developer_org": "sony",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "Image used by the PlayStation Portable (PSP), a portable gaming device created by Sony; contains an image, which supports 256 colors, a 32 color look-up table, and alpha channels; used to store previews and images of theme icons and other graphics.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "psp-theme-creator",
+        "display_name": "PSP Theme Creator"
+      },
+      {
+        "software": "rco-editor",
+        "display_name": "RCO Editor"
+      },
+      {
+        "software": "rco-icon-editor",
+        "display_name": "RCO Icon Editor"
+      },
+      {
+        "software": "gimconv",
+        "display_name": "GimConv"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-04-19",
+  "sources": [
+    {
+      "url": "gim.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

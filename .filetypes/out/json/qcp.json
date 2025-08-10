@@ -1,0 +1,95 @@
+{
+  "slug": "qcp",
+  "extension": "qcp",
+  "name": "PureVoice Audio",
+  "category": "purevoice-audio",
+  "developer_org": "qualcomm",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 10,
+    "source": "fileinfo"
+  },
+  "summary": "A QCP file is an audio file saved in the Qualcomm PureVoice format. Typically, QCP files contain either a voice memo or a mobile phone ringtone. The QCP format is based on the Resource Interchange File Format (RIFF).",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      },
+      {
+        "software": "videolan-vlc-for-mobile",
+        "display_name": "VideoLAN VLC for Mobile"
+      }
+    ],
+    "android": [
+      {
+        "software": "videolabs-vlc-for-android",
+        "display_name": "Videolabs VLC for Android"
+      }
+    ],
+    "macos": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      }
+    ],
+    "linux": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      }
+    ],
+    "web": [
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      }
+    ],
+    "ios": [
+      {
+        "software": "videolan-vlc-for-mobile",
+        "display_name": "VideoLAN VLC for Mobile"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "QCP file open in VideoLAN VLC media player",
+      "alt": "QCP file open in VideoLAN VLC media player",
+      "source_url": "https://fileinfo.com/img/ss/md/qcp_2433.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-02-28",
+  "sources": [
+    {
+      "url": "qcp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

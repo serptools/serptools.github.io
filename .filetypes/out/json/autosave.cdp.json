@@ -1,0 +1,47 @@
+{
+  "slug": "autosave.cdp",
+  "extension": "autosave.cdp",
+  "name": "Sony CD Architect Project Autosave File",
+  "category": "sony-cd-architect-project-autosave-file",
+  "developer_org": "sony",
+  "popularity": {
+    "rating": 1.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "An AUTOSAVE.CDP file contains information about a .CDP project that has been autosaved by Sony CD Architect, an audio CD mastering and burning program. It stores project information, such as the location of source files, cuts, insertion points, edits, and project properties. AUTOSAVE.CDP files are temporary and automatically deleted when CD Architect is closed.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "sony-cd-architect",
+        "display_name": "Sony CD Architect"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-06-15",
+  "sources": [
+    {
+      "url": "autosave.cdp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "uccapilog",
+  "extension": "uccapilog",
+  "name": "Microsoft UCC API Log File",
+  "category": "microsoft-ucc-api-log-file",
+  "summary": "",
+  "developer_org": "microsoft",
+  "developer_name": "Microsoft",
+  "more_information": {
+    "description": [
+      "Developers use the Microsoft-specified file naming convention appName-UccApi-x.uccapilog, where \"appName\" is the program name and \"x\" is the log file number. Typically UCCAPILOG files are found within a \"Tracing\" folder under a user's home folder.",
+      "Windows Live Messenger is a common program that uses UCCAPILOG files. WindowsLiveMessenger-uccapi-0.uccapilog is a common log file created by Windows Live Messenger.",
+      "NOTE: Windows Live Messenger was discontinued in 2013 and has moved to Skype."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "uccapilog.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

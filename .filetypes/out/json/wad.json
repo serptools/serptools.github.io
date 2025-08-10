@@ -1,0 +1,150 @@
+{
+  "slug": "wad",
+  "extension": "wad",
+  "name": "Doom WAD File",
+  "category": "1.-doom-wad-file",
+  "developer_org": "id-software",
+  "popularity": {
+    "rating": 4.2,
+    "votes": 177,
+    "source": "fileinfo"
+  },
+  "summary": "A WAD file is a game data file used by Doom and Doom II, as well as other first-person shooter games that use the original Doom engine. It contains data such as sprites (graphics), level information, and items. WAD files are used for storing original game content as well as game modifications.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "id-software-doom",
+        "display_name": "id Software Doom"
+      },
+      {
+        "software": "id-software-doom-2",
+        "display_name": "id Software Doom 2"
+      },
+      {
+        "software": "doom-builder",
+        "display_name": "Doom Builder"
+      },
+      {
+        "software": "slade",
+        "display_name": "SLADE"
+      },
+      {
+        "software": "extendable-wad-editor",
+        "display_name": "eXtendable WAD Editor"
+      },
+      {
+        "software": "new-wad-tool",
+        "display_name": "New WAD Tool"
+      },
+      {
+        "software": "wadauthor",
+        "display_name": "WadAuthor"
+      },
+      {
+        "software": "wally",
+        "display_name": "Wally"
+      },
+      {
+        "software": "sonic-robo-blast-2",
+        "display_name": "Sonic Robo Blast 2"
+      },
+      {
+        "software": "valve-half-life",
+        "display_name": "Valve Half-Life"
+      },
+      {
+        "software": "id-software-quake",
+        "display_name": "id Software Quake"
+      },
+      {
+        "software": "dolphin",
+        "display_name": "Dolphin"
+      },
+      {
+        "software": "wad-studio",
+        "display_name": "Wad Studio"
+      },
+      {
+        "software": "hlmwadexplorer",
+        "display_name": "HLMWadExplorer"
+      }
+    ],
+    "macos": [
+      {
+        "software": "sonic-robo-blast-2",
+        "display_name": "Sonic Robo Blast 2"
+      },
+      {
+        "software": "slade",
+        "display_name": "SLADE"
+      },
+      {
+        "software": "valve-half-life",
+        "display_name": "Valve Half-Life"
+      },
+      {
+        "software": "dolphin",
+        "display_name": "Dolphin"
+      },
+      {
+        "software": "hlmwadexplorer",
+        "display_name": "HLMWadExplorer"
+      }
+    ],
+    "linux": [
+      {
+        "software": "sonic-robo-blast-2",
+        "display_name": "Sonic Robo Blast 2"
+      },
+      {
+        "software": "slade",
+        "display_name": "SLADE"
+      },
+      {
+        "software": "id-software-quake",
+        "display_name": "id Software Quake"
+      },
+      {
+        "software": "dolphin",
+        "display_name": "Dolphin"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "WAD file icon",
+      "alt": "WAD file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/wad-1520.png"
+    },
+    {
+      "caption": "WAD file open in SLADE",
+      "alt": "WAD file open in SLADE",
+      "source_url": "https://fileinfo.com/img/ss/md/wad_1520.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-07-13",
+  "sources": [
+    {
+      "url": "wad.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

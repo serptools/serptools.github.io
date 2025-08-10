@@ -1,0 +1,92 @@
+{
+  "slug": "oxps",
+  "extension": "oxps",
+  "name": "OpenXPS File",
+  "category": "openxps-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 298,
+    "source": "fileinfo"
+  },
+  "summary": "An OXPS file is a document saved in the Open XML Paper Specification (OpenXPS) format. It stores information that describes the structure and content of the document and preserves it as a fixed layout similar to .PDF documents. Users typically create OXPS files to save essays, letters, postcards, newsletters, and business documents.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "microsoft-xps-viewer",
+        "display_name": "Microsoft XPS Viewer"
+      },
+      {
+        "software": "nixps-view",
+        "display_name": "NiXPS View"
+      },
+      {
+        "software": "pagemark-xpsviewer",
+        "display_name": "Pagemark XpsViewer"
+      }
+    ],
+    "android": [
+      {
+        "software": "file-viewer-for-android",
+        "display_name": "File Viewer for Android"
+      }
+    ],
+    "macos": [
+      {
+        "software": "nixps-view",
+        "display_name": "NiXPS View"
+      },
+      {
+        "software": "pagemark-xpsviewer",
+        "display_name": "Pagemark XpsViewer"
+      }
+    ],
+    "linux": [
+      {
+        "software": "pagemark-xpsviewer",
+        "display_name": "Pagemark XpsViewer"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "OXPS file icon",
+      "alt": "OXPS file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/oxps-7960.png"
+    },
+    {
+      "caption": "OXPS file open in Microsoft XPS Viewer",
+      "alt": "OXPS file open in Microsoft XPS Viewer",
+      "source_url": "https://fileinfo.com/img/ss/md/oxps_7960.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-05-25",
+  "sources": [
+    {
+      "url": "oxps.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

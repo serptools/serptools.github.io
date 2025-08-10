@@ -1,0 +1,22 @@
+{
+  "slug": "nb0",
+  "extension": "nb0",
+  "name": "Device Boot Loader Image",
+  "category": "device-boot-loader-image",
+  "summary": "",
+  "developer_org": "n-a",
+  "developer_name": "N/A",
+  "more_information": {
+    "description": [
+      "NB0 files contain data that bootstraps the target device, downloads a new runtime image, and then \"flashes\" the new runtime image, which is then loaded by the device. The NB0 format is useful because it allows the target device's RAM to be written directly, since it is stored in the native format of the RAM. The initial flashing process is often done using a JTAG (Joint Test Action Group) connection, which connects directly to the printed circuit board (PCB) through a probe.",
+      "NB0 files are used by both Android and Windows CE mobile devices. Windows CE devices often use NB0 files to load a target device formatted image that has the \".bin\" extension."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "nb0.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

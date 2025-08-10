@@ -1,0 +1,83 @@
+{
+  "slug": "br",
+  "extension": "br",
+  "name": "Brotli Compressed File",
+  "category": "brotli-compressed-file",
+  "developer_org": "google",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 17,
+    "source": "fileinfo"
+  },
+  "summary": "A BR file is a file compressed using Brotli, an open-source data compression algorithm. It likely contains compressed webpage assets, such as .WOFF , .CSS , .JS , or .SVG files. Compressing these assets with Brotli allows web browsers, such as Google Chrome, Safari, Microsoft Edge, and Mozilla Firefox, to load them more quickly.",
+  "standards": [],
+  "mime_types": [
+    "encode/decode"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "google-brotli",
+        "display_name": "Google Brotli"
+      },
+      {
+        "software": "peazip",
+        "display_name": "PeaZip"
+      },
+      {
+        "software": "7-zip-zstd",
+        "display_name": "7-Zip-zstd"
+      },
+      {
+        "software": "myl7-brotli-encode-decode-tool",
+        "display_name": "myl7 Brotli Encode/Decode Tool"
+      }
+    ],
+    "macos": [
+      {
+        "software": "google-brotli",
+        "display_name": "Google Brotli"
+      }
+    ],
+    "linux": [
+      {
+        "software": "google-brotli",
+        "display_name": "Google Brotli"
+      },
+      {
+        "software": "peazip",
+        "display_name": "PeaZip"
+      }
+    ],
+    "web": [
+      {
+        "software": "myl7-brotli-encode-decode-tool",
+        "display_name": "myl7 Brotli Encode/Decode Tool"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-10-17",
+  "sources": [
+    {
+      "url": "br.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

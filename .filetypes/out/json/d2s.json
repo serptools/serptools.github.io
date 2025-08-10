@@ -1,0 +1,51 @@
+{
+  "slug": "d2s",
+  "extension": "d2s",
+  "name": "Diablo II Save File",
+  "category": "diablo-ii-save-file",
+  "developer_org": "blizzard-entertainment",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 12,
+    "source": "fileinfo"
+  },
+  "summary": "Game file created by Diablo II, an action role-playing game; saves character, item, and progress information for the player; includes stats, inventories, waypoints, skills, quests, mercenaries, and other information; saved automatically by the game.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "blizzard-diablo-ii",
+        "display_name": "Blizzard Diablo II"
+      },
+      {
+        "software": "hero-editor",
+        "display_name": "Hero Editor"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-10-22",
+  "sources": [
+    {
+      "url": "d2s.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "slug": "bjo",
+  "extension": "bjo",
+  "name": "TabRite Tablature File",
+  "category": "tabrite-tablature-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "File used by TablRite, a program used to create stringed instrument tablatures; contains music notes, rhythm, time signature, and other musical notations; used for creating, playing, and sharing music; commonly used for banjo or guitar tablatures.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "tabrite",
+        "display_name": "TabRite"
+      },
+      {
+        "software": "tabledit",
+        "display_name": "TablEdit"
+      },
+      {
+        "software": "tefview",
+        "display_name": "TEFview"
+      }
+    ],
+    "macos": [
+      {
+        "software": "tabledit",
+        "display_name": "TablEdit"
+      },
+      {
+        "software": "tefview",
+        "display_name": "TEFview"
+      }
+    ],
+    "linux": [
+      {
+        "software": "tabledit",
+        "display_name": "TablEdit"
+      }
+    ],
+    "ios": [
+      {
+        "software": "tefview",
+        "display_name": "TEFview"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-08-20",
+  "sources": [
+    {
+      "url": "bjo.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

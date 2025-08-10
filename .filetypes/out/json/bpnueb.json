@@ -1,0 +1,47 @@
+{
+  "slug": "bpnueb",
+  "extension": "bpnueb",
+  "name": "PNU eBook File",
+  "category": "pnu-ebook-file",
+  "developer_org": "hamed-mosadeq",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "eBook format used by PNUEB, a program used for reading eBooks distributed by PNU (Payame Noor University); used for distributing academic resources and is typically localized in Persian; can be read with the PNU Reader application.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "pnueb-reader",
+        "display_name": "PNUEB Reader"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-06-07",
+  "sources": [
+    {
+      "url": "bpnueb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

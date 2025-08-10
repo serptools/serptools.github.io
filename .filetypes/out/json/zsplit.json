@@ -1,0 +1,59 @@
+{
+  "slug": "zsplit",
+  "extension": "zsplit",
+  "name": "Archiver Compressed Split File",
+  "category": "archiver-compressed-split-file",
+  "developer_org": "incredible-bee",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Compressed file created by Archiver, a program for Mac OS X users that helps them create archives, compress files, and extract archives; stores a file that has been split into \"chunks\" of user-specified size and compressed with Bzip compression in order to reduce the file size.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "incredible-bee-archiver",
+        "display_name": "Incredible Bee Archiver"
+      }
+    ],
+    "windows": [
+      {
+        "software": "incredible-bee-archiver",
+        "display_name": "Incredible Bee Archiver"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "ZSPLIT file icon",
+      "alt": "ZSPLIT file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/zsplit-9511.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-05-29",
+  "sources": [
+    {
+      "url": "zsplit.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

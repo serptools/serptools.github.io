@@ -1,0 +1,228 @@
+{
+  "slug": "heic",
+  "extension": "heic",
+  "name": "High Efficiency Image Format",
+  "category": "high-efficiency-image-format",
+  "developer_org": "moving-picture-experts-group",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 469,
+    "source": "fileinfo"
+  },
+  "summary": "An HEIC file contains one or more images saved in the High Efficiency Image Format (HEIF), a file format most commonly used to store photos on iOS devices. It stores an image or sequence of images likely created by an iPhone or iPad's Camera app, as well as metadata describing each image. HEIC files are most commonly saved with the .heic extension but may also be saved as .HEIF files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "gimp",
+        "display_name": "Gimp"
+      },
+      {
+        "software": "adobe-premiere-rush",
+        "display_name": "Adobe Premiere Rush"
+      },
+      {
+        "software": "microsoft-photos-with-heif-image-extensions-and-hevc-video-extensions-packages-installed",
+        "display_name": "Microsoft Photos with HEIF Image Extensions and HEVC Video Extensions packages installed"
+      },
+      {
+        "software": "tunesbro-heic-converter",
+        "display_name": "TunesBro HEIC Converter"
+      },
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      },
+      {
+        "software": "adobe-photoshop-elements",
+        "display_name": "Adobe Photoshop Elements"
+      },
+      {
+        "software": "apple-preview",
+        "display_name": "Apple Preview"
+      },
+      {
+        "software": "apple-photos",
+        "display_name": "Apple Photos"
+      },
+      {
+        "software": "adobe-photoshop-2025",
+        "display_name": "Adobe Photoshop 2025"
+      },
+      {
+        "software": "imazing-heic-converter",
+        "display_name": "iMazing HEIC Converter"
+      },
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      },
+      {
+        "software": "dropbox",
+        "display_name": "Dropbox"
+      },
+      {
+        "software": "google-photos",
+        "display_name": "Google Photos"
+      },
+      {
+        "software": "google-drive",
+        "display_name": "Google Drive"
+      },
+      {
+        "software": "heic-image-viewer-decoder",
+        "display_name": "HEIC Image Viewer Decoder"
+      }
+    ],
+    "android": [
+      {
+        "software": "file-viewer-for-android",
+        "display_name": "File Viewer for Android"
+      },
+      {
+        "software": "dropbox",
+        "display_name": "Dropbox"
+      },
+      {
+        "software": "adobe-premiere-rush",
+        "display_name": "Adobe Premiere Rush"
+      },
+      {
+        "software": "google-photos",
+        "display_name": "Google Photos"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-preview",
+        "display_name": "Apple Preview"
+      },
+      {
+        "software": "apple-photos",
+        "display_name": "Apple Photos"
+      },
+      {
+        "software": "adobe-photoshop-2025",
+        "display_name": "Adobe Photoshop 2025"
+      },
+      {
+        "software": "adobe-photoshop-elements",
+        "display_name": "Adobe Photoshop Elements"
+      },
+      {
+        "software": "gimp",
+        "display_name": "Gimp"
+      },
+      {
+        "software": "adobe-premiere-rush",
+        "display_name": "Adobe Premiere Rush"
+      },
+      {
+        "software": "imazing-heic-converter",
+        "display_name": "iMazing HEIC Converter"
+      },
+      {
+        "software": "tunesbro-heic-converter",
+        "display_name": "TunesBro HEIC Converter"
+      },
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      }
+    ],
+    "linux": [
+      {
+        "software": "gimp",
+        "display_name": "Gimp"
+      },
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      }
+    ],
+    "web": [
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      },
+      {
+        "software": "dropbox",
+        "display_name": "Dropbox"
+      },
+      {
+        "software": "google-photos",
+        "display_name": "Google Photos"
+      },
+      {
+        "software": "google-drive",
+        "display_name": "Google Drive"
+      },
+      {
+        "software": "heic-image-viewer-decoder",
+        "display_name": "HEIC Image Viewer Decoder"
+      }
+    ],
+    "ios": [
+      {
+        "software": "apple-photos",
+        "display_name": "Apple Photos"
+      },
+      {
+        "software": "dropbox",
+        "display_name": "Dropbox"
+      },
+      {
+        "software": "google-drive",
+        "display_name": "Google Drive"
+      },
+      {
+        "software": "google-photos",
+        "display_name": "Google Photos"
+      },
+      {
+        "software": "adobe-premiere-rush",
+        "display_name": "Adobe Premiere Rush"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "HEIC file icon",
+      "alt": "HEIC file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/heic-10690.png"
+    },
+    {
+      "caption": "HEIC file open in Apple Preview",
+      "alt": "HEIC file open in Apple Preview",
+      "source_url": "https://fileinfo.com/img/ss/md/heic_10690.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-11-02",
+  "sources": [
+    {
+      "url": "heic.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

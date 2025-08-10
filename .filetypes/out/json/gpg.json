@@ -1,0 +1,59 @@
+{
+  "slug": "gpg",
+  "extension": "gpg",
+  "name": "GNU Privacy Guard Encrypted File",
+  "category": "gnu-privacy-guard-encrypted-file",
+  "developer_org": "free-software-foundation",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 46,
+    "source": "fileinfo"
+  },
+  "summary": "A GPG file is a file that has been encrypted by GNU Privacy Guard, also known as GnuPG or gpg. It contains a document, image, video, or other file a user encrypted. To decrypt a GPG file, you must have access to the appropriate GnuPG cryptographic key.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "gnupg",
+        "display_name": "GnuPG"
+      }
+    ],
+    "macos": [
+      {
+        "software": "gnupg",
+        "display_name": "GnuPG"
+      }
+    ],
+    "linux": [
+      {
+        "software": "gnupg",
+        "display_name": "GnuPG"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-02-06",
+  "sources": [
+    {
+      "url": "gpg.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "apks",
+  "extension": "apks",
+  "name": "APK Set Archive",
+  "category": "apk-set-archive",
+  "summary": "",
+  "developer_org": "google",
+  "developer_name": "Google",
+  "more_information": {
+    "description": [
+      "Typically, Android developers create APKS files with bundletool , an official, Google-maintained command-line utility used to build and manage Android App Bundles ( .AAB files). To create an APKS file with bundletool developers use the following command:",
+      "bundletool build-apks --bundle=/path/to/app.aab --output=/path/to/app.apks",
+      "Developers can then use the device-specific APK files that their APKS file contains to test their app across a variety of Android devices (before uploading the finished app to Google Play). To use bundletool to install an app from an APKS file to a connected device, developers can enter:",
+      "bundletool install-apks --apks=app.apks",
+      "However, some non-Google apps also create APKS files. For example, the Android app modification tool Lucky Patcher sometimes saves exported and shared apps as APKS files (if the app was installed from an APKS file).",
+      "NOTE: Android Studio and Google Play use bundletool to create and manage APKS files."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "apks.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

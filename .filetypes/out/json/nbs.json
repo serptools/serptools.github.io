@@ -1,0 +1,62 @@
+{
+  "slug": "nbs",
+  "extension": "nbs",
+  "name": "Minecraft Note Block Studio File",
+  "category": "1.-minecraft-note-block-studio-file",
+  "developer_org": "david-norgren",
+  "popularity": {
+    "rating": 4.2,
+    "votes": 34,
+    "source": "fileinfo"
+  },
+  "summary": "An NBS file contains an audio project created by Minecraft Note Block Studio (NBS) or Open NBS, which are third-party programs used to create custom Minecraft music. It contains note blocks organized to be played as an in-game song. NBS files also contain song metadata , including the song's name, author, and length.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "open-note-block-studio",
+        "display_name": "Open Note Block Studio"
+      },
+      {
+        "software": "minecraft-note-block-studio",
+        "display_name": "Minecraft Note Block Studio",
+        "status": "discontinued"
+      },
+      {
+        "software": "nti-backup-now",
+        "display_name": "NTI Backup Now"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "NBS file open in Open Note Block Studio",
+      "alt": "NBS file open in Open Note Block Studio",
+      "source_url": "https://fileinfo.com/img/ss/md/nbs_7909.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-10-10",
+  "sources": [
+    {
+      "url": "nbs.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

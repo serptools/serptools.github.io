@@ -1,0 +1,99 @@
+{
+  "slug": "mdd",
+  "extension": "mdd",
+  "name": "Point Oven Deformation Data File",
+  "category": "1.-point-oven-deformation-data-file",
+  "developer_org": "point-oven",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 10,
+    "source": "fileinfo"
+  },
+  "summary": "Model data file used by Point Oven, a commercial suite of plugins used for transferring vertex and fcurve data between modeling programs; saves \"baked\" vertex data for every animation frame of a specified mesh; allows actual vertex mesh positions, or deformations, to be exchanged between other programs that have Point Oven MDD support.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "autodesk-maya-with-point-oven-plugin",
+        "display_name": "Autodesk Maya with Point Oven plugin"
+      },
+      {
+        "software": "autodesk-3ds-max-with-point-oven-plugin",
+        "display_name": "Autodesk 3ds Max with Point Oven plugin"
+      },
+      {
+        "software": "newtek-lightwave-3d-with-point-oven-plugin",
+        "display_name": "NewTek LightWave 3D with Point Oven plugin"
+      },
+      {
+        "software": "pmg-messiahstudio-with-point-oven-plugin",
+        "display_name": "pmG messiahStudio with Point Oven plugin"
+      },
+      {
+        "software": "autodesk-softimage-with-point-oven-plugin",
+        "display_name": "Autodesk Softimage with Point Oven plugin"
+      },
+      {
+        "software": "octopus-studio-mdict",
+        "display_name": "Octopus Studio MDict"
+      }
+    ],
+    "macos": [
+      {
+        "software": "autodesk-maya-with-point-oven-plugin",
+        "display_name": "Autodesk Maya with Point Oven plugin"
+      },
+      {
+        "software": "newtek-lightwave-3d-with-point-oven-plugin",
+        "display_name": "NewTek LightWave 3D with Point Oven plugin"
+      },
+      {
+        "software": "pmg-messiahstudio-with-point-oven-plugin",
+        "display_name": "pmG messiahStudio with Point Oven plugin"
+      }
+    ],
+    "linux": [
+      {
+        "software": "autodesk-softimage-with-point-oven-plugin",
+        "display_name": "Autodesk Softimage with Point Oven plugin"
+      }
+    ],
+    "ios": [
+      {
+        "software": "octopus-studio-mdict",
+        "display_name": "Octopus Studio MDict"
+      }
+    ],
+    "android": [
+      {
+        "software": "octopus-studio-mdict",
+        "display_name": "Octopus Studio MDict"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-02-24",
+  "sources": [
+    {
+      "url": "mdd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "arg",
+  "extension": "arg",
+  "name": "AutoCAD Profile",
+  "category": "autocad-profile",
+  "developer_org": "autodesk",
+  "popularity": {
+    "rating": 2.9,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "Settings file used by AutoCAD, a 2D and 3D CAD drafting application; contains backed up user profile information (application options data) that was stored in the system registry; can be exported and imported to transfer settings between computers; can also be migrated between versions of AutoCAD.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "autodesk-autocad-2025",
+        "display_name": "Autodesk AutoCAD 2025"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-01-04",
+  "sources": [
+    {
+      "url": "arg.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

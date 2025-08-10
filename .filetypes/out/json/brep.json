@@ -1,0 +1,63 @@
+{
+  "slug": "brep",
+  "extension": "brep",
+  "name": "BRep 3D Model File",
+  "category": "brep-3d-model-file",
+  "developer_org": "open-cascade-technology",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "A BREP file is a 3D model file saved in the Boundary Representation (BRep) CAD format. It contains three-dimensional data, which may include vertices, edges, wires, faces, shells, solids, compounds, edge triangulations, face triangulations, polylines on triangulations, space location and orientation.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "open-cascade-dmu-reviewer",
+        "display_name": "Open Cascade DMU Reviewer"
+      },
+      {
+        "software": "cadsofttools-cst-cad-navigator",
+        "display_name": "CADSoftTools CST CAD Navigator"
+      }
+    ],
+    "macos": [
+      {
+        "software": "cadsofttools-cst-cad-navigator",
+        "display_name": "CADSoftTools CST CAD Navigator"
+      }
+    ],
+    "linux": [
+      {
+        "software": "cadsofttools-cst-cad-navigator",
+        "display_name": "CADSoftTools CST CAD Navigator"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-04-21",
+  "sources": [
+    {
+      "url": "brep.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

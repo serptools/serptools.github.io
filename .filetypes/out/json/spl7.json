@@ -1,0 +1,57 @@
+{
+  "slug": "spl7",
+  "extension": "spl7",
+  "name": "sPlan 7 Schematic Diagram File",
+  "category": "splan-7-schematic-diagram-file",
+  "developer_org": "abacom",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 10,
+    "source": "fileinfo"
+  },
+  "summary": "An SPL7 file is a schematic diagram created by sPlan 7, a schematic editor for Windows. It contains a schematic circuit diagram, which includes the components of a circuit such as diodes, switches, transistors, connectors, and capacitors.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "abacom-splan",
+        "display_name": "ABACOM sPlan"
+      },
+      {
+        "software": "abacom-splan-viewer",
+        "display_name": "ABACOM sPlan Viewer"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "SPL7 file open in ABACOM sPlan 7.0",
+      "alt": "SPL7 file open in ABACOM sPlan 7.0",
+      "source_url": "https://fileinfo.com/img/ss/md/spl7_10467.jpg"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-03-02",
+  "sources": [
+    {
+      "url": "spl7.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

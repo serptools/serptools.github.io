@@ -1,0 +1,48 @@
+{
+  "slug": "czd",
+  "extension": "czd",
+  "name": "CAD Zone Drawing",
+  "category": "cad-zone-drawing",
+  "developer_org": "the-cad-zone",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "A CZD file is a CAD document created by The Crash Zone or another CAD Zone software product. It contains a 3D model of an accident scene, crime scene, or other emergency situation. CZD files are used for sharing crash and other emergency diagrams that evaluate and influence road, site, and building construction.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "the-crash-zone",
+        "display_name": "The Crash Zone",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-03-22",
+  "sources": [
+    {
+      "url": "czd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

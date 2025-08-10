@@ -1,0 +1,97 @@
+{
+  "slug": "schem",
+  "extension": "schem",
+  "name": "Minecraft Schematic",
+  "category": "minecraft-schematic",
+  "developer_org": "sponge",
+  "popularity": {
+    "rating": 4.1,
+    "votes": 13,
+    "source": "fileinfo"
+  },
+  "summary": "A SCHEM file is a schematic used in versions 1.13+ of Minecraft Java Edition, a 3D sandbox construction game. It contains a custom arrangement of blocks that comprise a structure or structures that can be placed within a Minecraft world. SCHEM files replaced .SCHEMATIC files with the release of Minecraft Java Edition 1.13.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "worldedit",
+        "display_name": "WorldEdit"
+      },
+      {
+        "software": "litematica",
+        "display_name": "Litematica"
+      },
+      {
+        "software": "jupisoft-s-minecraft-tools",
+        "display_name": "Jupisoft's Minecraft Tools"
+      },
+      {
+        "software": "mineways",
+        "display_name": "Mineways"
+      },
+      {
+        "software": "schemtoschematic",
+        "display_name": "SchemToSchematic"
+      }
+    ],
+    "macos": [
+      {
+        "software": "worldedit",
+        "display_name": "WorldEdit"
+      },
+      {
+        "software": "litematica",
+        "display_name": "Litematica"
+      },
+      {
+        "software": "jupisoft-s-minecraft-tools",
+        "display_name": "Jupisoft's Minecraft Tools"
+      }
+    ],
+    "linux": [
+      {
+        "software": "worldedit",
+        "display_name": "WorldEdit"
+      },
+      {
+        "software": "litematica",
+        "display_name": "Litematica"
+      },
+      {
+        "software": "jupisoft-s-minecraft-tools",
+        "display_name": "Jupisoft's Minecraft Tools"
+      }
+    ],
+    "web": [
+      {
+        "software": "schemtoschematic",
+        "display_name": "SchemToSchematic"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-03-24",
+  "sources": [
+    {
+      "url": "schem.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

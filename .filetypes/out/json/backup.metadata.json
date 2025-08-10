@@ -1,0 +1,53 @@
+{
+  "slug": "backup.metadata",
+  "extension": "backup.metadata",
+  "name": "Seedvault Backup Metadata File",
+  "category": "seedvault-backup-metadata-file",
+  "developer_org": "chirayu-desai-and-steve-soltys",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "A BACKUP.METADATA file is a metadata file produced by Seedvault, a backup application for Android . It is paired with an accompanying Seedvault backup and used to restore the data that backup contains to an Android device.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "android": [
+      {
+        "software": "seedvault",
+        "display_name": "Seedvault"
+      }
+    ],
+    "windows": [
+      {
+        "software": "seedvault",
+        "display_name": "Seedvault"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-04-29",
+  "sources": [
+    {
+      "url": "backup.metadata.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

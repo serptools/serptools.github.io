@@ -1,0 +1,161 @@
+{
+  "slug": "rx2",
+  "extension": "rx2",
+  "name": "REX2 Audio File",
+  "category": "rex2-audio-file",
+  "developer_org": "propellerhead-software",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 16,
+    "source": "fileinfo"
+  },
+  "summary": "An RX2 file is an audio loop created by ReasonStudios ReCycle and used by digital audio workstations ( DAWs ). It contains audio loop samples saved in ReasonStudios' proprietary REX2 format. The RX2 file format supports both mono and stereo audio, whereas the .REX format supports only mono.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "ios": [
+      {
+        "software": "reasonstudios-recycle",
+        "display_name": "ReasonStudios ReCycle"
+      },
+      {
+        "software": "reasonstudios-reason",
+        "display_name": "ReasonStudios Reason"
+      },
+      {
+        "software": "steinberg-cubase",
+        "display_name": "Steinberg Cubase"
+      },
+      {
+        "software": "cockos-reaper",
+        "display_name": "Cockos REAPER"
+      },
+      {
+        "software": "ableton-live",
+        "display_name": "Ableton Live"
+      },
+      {
+        "software": "image-line-fl-studio",
+        "display_name": "Image-Line FL Studio"
+      },
+      {
+        "software": "motu-digital-performer",
+        "display_name": "MOTU Digital Performer"
+      },
+      {
+        "software": "avid-pro-tools",
+        "display_name": "Avid Pro Tools"
+      },
+      {
+        "software": "presonus-studio-one",
+        "display_name": "PreSonus Studio One"
+      },
+      {
+        "software": "cakewalk-sonar-x3",
+        "display_name": "Cakewalk SONAR X3"
+      },
+      {
+        "software": "wave-xtractor",
+        "display_name": "WAVE Xtractor"
+      }
+    ],
+    "windows": [
+      {
+        "software": "steinberg-cubase",
+        "display_name": "Steinberg Cubase"
+      },
+      {
+        "software": "cockos-reaper",
+        "display_name": "Cockos REAPER"
+      },
+      {
+        "software": "ableton-live",
+        "display_name": "Ableton Live"
+      },
+      {
+        "software": "image-line-fl-studio",
+        "display_name": "Image-Line FL Studio"
+      },
+      {
+        "software": "motu-digital-performer",
+        "display_name": "MOTU Digital Performer"
+      },
+      {
+        "software": "avid-pro-tools",
+        "display_name": "Avid Pro Tools"
+      },
+      {
+        "software": "presonus-studio-one",
+        "display_name": "PreSonus Studio One"
+      },
+      {
+        "software": "cakewalk-sonar-x3",
+        "display_name": "Cakewalk SONAR X3"
+      },
+      {
+        "software": "wave-xtractor",
+        "display_name": "WAVE Xtractor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "steinberg-cubase",
+        "display_name": "Steinberg Cubase"
+      },
+      {
+        "software": "cockos-reaper",
+        "display_name": "Cockos REAPER"
+      },
+      {
+        "software": "ableton-live",
+        "display_name": "Ableton Live"
+      },
+      {
+        "software": "image-line-fl-studio",
+        "display_name": "Image-Line FL Studio"
+      },
+      {
+        "software": "motu-digital-performer",
+        "display_name": "MOTU Digital Performer"
+      },
+      {
+        "software": "avid-pro-tools",
+        "display_name": "Avid Pro Tools"
+      },
+      {
+        "software": "presonus-studio-one",
+        "display_name": "PreSonus Studio One"
+      }
+    ],
+    "linux": [
+      {
+        "software": "cockos-reaper",
+        "display_name": "Cockos REAPER"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-04-05",
+  "sources": [
+    {
+      "url": "rx2.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

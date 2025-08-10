@@ -1,0 +1,73 @@
+{
+  "slug": "naac",
+  "extension": "naac",
+  "name": "Namco AAC File",
+  "category": "namco-aac-file",
+  "developer_org": "namco",
+  "popularity": {
+    "rating": 3.2,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "An NAAC file is an audio file used by a Nintendo 3DS game developed by Namco. For example, Ace Combat: Assault Horizon Legacy and Taiko no Tatsujin: Don to Katsu no Jikuu Daibouken use NAAC files. Typically, NAAC files contain songs played in a game.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "vgmstream",
+        "display_name": "vgmstream"
+      },
+      {
+        "software": "foobar2000-with-vgmstream-plug-in",
+        "display_name": "Foobar2000 with vgmstream plug-in"
+      },
+      {
+        "software": "nullsoft-winamp-with-vgmstream-plug-in",
+        "display_name": "Nullsoft Winamp with vgmstream plug-in"
+      }
+    ],
+    "web": [
+      {
+        "software": "vgmstream-web",
+        "display_name": "vgmstream-web"
+      }
+    ],
+    "macos": [
+      {
+        "software": "vgmstream",
+        "display_name": "vgmstream"
+      }
+    ],
+    "linux": [
+      {
+        "software": "vgmstream",
+        "display_name": "vgmstream"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-11-09",
+  "sources": [
+    {
+      "url": "naac.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

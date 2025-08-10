@@ -1,0 +1,71 @@
+{
+  "slug": "jbig2",
+  "extension": "jbig2",
+  "name": "JBIG2",
+  "category": "jbig2",
+  "developer_org": "joint-bi-level-image-group",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Bitonal image saved in the Joint Bi-level Image Group 2 (JBIG2) format; store the image using black and white with 1 bit per pixel; may be lossy or lossless; enables greater compression than the CCITT Fax Group 4 algorithm; often used for scanned images and faxes; replaces the previous .JBIG specification.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "orpalis-paperscan",
+        "display_name": "Orpalis PaperScan"
+      },
+      {
+        "software": "newera-graphics-converter-pro",
+        "display_name": "Newera Graphics Converter Pro"
+      },
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      }
+    ],
+    "macos": [
+      {
+        "software": "newera-graphics-converter-pro",
+        "display_name": "Newera Graphics Converter Pro"
+      },
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      }
+    ],
+    "linux": [
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-05-07",
+  "sources": [
+    {
+      "url": "jbig2.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

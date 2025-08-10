@@ -1,0 +1,48 @@
+{
+  "slug": "website",
+  "extension": "website",
+  "name": "Internet Explorer Pinned Site Shortcut",
+  "category": "internet-explorer-pinned-site-shortcut",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 4.1,
+    "votes": 139,
+    "source": "fileinfo"
+  },
+  "summary": "A WEBSITE file contains a pinned site shortcut created by Internet Explorer (IE), a web browser for Windows. It stores a web address reference (a URL ) and an icon file, which references the website's favicon.ico and is used as the displayed icon for the shortcut. WEBSITE files are typically used for saving and opening bookmarks and favorite sites.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-internet-explorer",
+        "display_name": "Microsoft Internet Explorer",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-07-24",
+  "sources": [
+    {
+      "url": "website.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

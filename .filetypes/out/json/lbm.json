@@ -1,0 +1,83 @@
+{
+  "slug": "lbm",
+  "extension": "lbm",
+  "name": "Deluxe Paint Bitmap Image",
+  "category": "deluxe-paint-bitmap-image",
+  "developer_org": "electronic-arts",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 10,
+    "source": "fileinfo"
+  },
+  "summary": "Interchange File Format-Interleaved Bitmap (IFF-ILBM) file; created by Electronic Arts' Deluxe Paint, a graphics editor developed for Amiga systems and later ported to other platforms.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "electronic-arts-deluxe-paint-for-older-systems",
+        "display_name": "Electronic Arts Deluxe Paint (for older systems)"
+      },
+      {
+        "software": "canvas-gfx-canvas-x-pro",
+        "display_name": "Canvas GFX Canvas X Pro"
+      },
+      {
+        "software": "corel-paintshop-pro-2023",
+        "display_name": "Corel PaintShop Pro 2023"
+      },
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      },
+      {
+        "software": "fcoder-group-image-converter-plus",
+        "display_name": "fCoder Group Image Converter Plus"
+      },
+      {
+        "software": "ilbmtoppm",
+        "display_name": "ilbmtoppm"
+      }
+    ],
+    "macos": [
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      }
+    ],
+    "linux": [
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      },
+      {
+        "software": "ilbmtoppm",
+        "display_name": "ilbmtoppm"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2008-11-12",
+  "sources": [
+    {
+      "url": "lbm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

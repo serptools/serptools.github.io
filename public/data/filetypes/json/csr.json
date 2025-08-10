@@ -1,0 +1,21 @@
+{
+  "slug": "csr",
+  "extension": "csr",
+  "name": "Certificate Signing Request File",
+  "category": "certificate-signing-request-file",
+  "summary": "",
+  "developer_org": "n-a",
+  "developer_name": "N/A",
+  "more_information": {
+    "description": [
+      "CSR files are generated using a public and private key. The public key is included in the CSR file, and the private key is used to digitally sign the CSR file."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "csr.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "rpyb",
+  "extension": "rpyb",
+  "name": "Ren'Py Bytecode File",
+  "category": "ren-py-bytecode-file",
+  "developer_org": "ren-py",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 10,
+    "source": "fileinfo"
+  },
+  "summary": "File used by Ren'Py, a visual novel game engine often used to create interactive Japanese visual novels; saves a compiled script ( .RPY file) and includes the bytecode that runs the novel; used alongside .RPYC compiled script files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "ren-py",
+        "display_name": "Ren'Py"
+      }
+    ],
+    "macos": [
+      {
+        "software": "ren-py",
+        "display_name": "Ren'Py"
+      }
+    ],
+    "linux": [
+      {
+        "software": "ren-py",
+        "display_name": "Ren'Py"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-07-31",
+  "sources": [
+    {
+      "url": "rpyb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

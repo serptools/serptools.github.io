@@ -1,0 +1,22 @@
+{
+  "slug": "ccgame",
+  "extension": "ccgame",
+  "name": "XNA Creators Club Game Package",
+  "category": "xna-creators-club-game-package",
+  "summary": "",
+  "developer_org": "microsoft",
+  "developer_name": "Microsoft",
+  "more_information": {
+    "description": [
+      "The CCGAME format is the format used for uploading games to Microsoft's Xbox LIVE Marketplace and Microsoft's App Hub. Therefore, when developers finish development, they package games as CCGAME files and submit them for review before the games can be sold to users. CCGAME files can also be used for sharing development projects between copies of XNA Game Studio.",
+      "You can create CCGAME files by selecting Build → Package → as Creators Club Game from the XNA Game Studio menu within Visual Studio, or by using XnaPack.exe , a command line utility included with XNA Game Studio. To unpack a CCGAME file, you can double-click the file (assuming XNA Game Studio is installed) or use the XnaPack.exe program with the unpack option."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "ccgame.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

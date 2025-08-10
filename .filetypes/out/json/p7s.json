@@ -1,0 +1,86 @@
+{
+  "slug": "p7s",
+  "extension": "p7s",
+  "name": "Digitally Signed Email Message",
+  "category": "digitally-signed-email-message",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.2,
+    "votes": 377,
+    "source": "fileinfo"
+  },
+  "summary": "P7S files are found in email messages that include an S/MIME digital signature . They indicate the message has been secured and can be read only by the intended recipient. P7S files verify that the email is from who it claims to be from and that the email has not been modified in transit.",
+  "standards": [],
+  "mime_types": [
+    "n/a",
+    "s/mime"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-outlook-365",
+        "display_name": "Microsoft Outlook 365"
+      },
+      {
+        "software": "mozilla-thunderbird",
+        "display_name": "Mozilla Thunderbird"
+      },
+      {
+        "software": "postbox",
+        "display_name": "PostBox"
+      },
+      {
+        "software": "apple-mail",
+        "display_name": "Apple Mail"
+      }
+    ],
+    "macos": [
+      {
+        "software": "microsoft-outlook-365",
+        "display_name": "Microsoft Outlook 365"
+      },
+      {
+        "software": "apple-mail",
+        "display_name": "Apple Mail"
+      },
+      {
+        "software": "mozilla-thunderbird",
+        "display_name": "Mozilla Thunderbird"
+      },
+      {
+        "software": "postbox",
+        "display_name": "PostBox"
+      }
+    ],
+    "linux": [
+      {
+        "software": "mozilla-thunderbird",
+        "display_name": "Mozilla Thunderbird"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-12-07",
+  "sources": [
+    {
+      "url": "p7s.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

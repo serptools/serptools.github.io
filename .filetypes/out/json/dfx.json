@@ -1,0 +1,51 @@
+{
+  "slug": "dfx",
+  "extension": "dfx",
+  "name": "Drafix CAD File",
+  "category": "drafix-cad-file",
+  "developer_org": "autodesk",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 12,
+    "source": "fileinfo"
+  },
+  "summary": "3D CAD document created with Drafix QuickCAD or Drafix Professional CAD; contains 3D objects and symbols used for creating home layouts and other designs.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "softdesk-drafix",
+        "display_name": "Softdesk Drafix"
+      },
+      {
+        "software": "autodesk-autocad-2025",
+        "display_name": "Autodesk AutoCAD 2025"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-01-03",
+  "sources": [
+    {
+      "url": "dfx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

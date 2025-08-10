@@ -1,0 +1,101 @@
+{
+  "slug": "drz",
+  "extension": "drz",
+  "name": "Draz Paint Image",
+  "category": "1.-draz-paint-image",
+  "developer_org": "devil-of-noice",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "A DRZ file is a bitmap graphic created by Draz Paint, a simple image editor for the Commodore 64. It contains a 320 x 200 pixel image. Typically, DRZ files contain color images.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      },
+      {
+        "software": "piotr-fusik-recoil",
+        "display_name": "Piotr Fusik RECOIL"
+      },
+      {
+        "software": "tom-s-editor",
+        "display_name": "Tom's Editor"
+      },
+      {
+        "software": "used-by-custom-imaging-programs",
+        "display_name": "Used by custom imaging programs"
+      }
+    ],
+    "macos": [
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      },
+      {
+        "software": "piotr-fusik-recoil",
+        "display_name": "Piotr Fusik RECOIL"
+      }
+    ],
+    "linux": [
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      },
+      {
+        "software": "piotr-fusik-recoil",
+        "display_name": "Piotr Fusik RECOIL"
+      }
+    ],
+    "web": [
+      {
+        "software": "piotr-fusik-recoil",
+        "display_name": "Piotr Fusik RECOIL"
+      },
+      {
+        "software": "tom-s-editor",
+        "display_name": "Tom's Editor"
+      }
+    ],
+    "android": [
+      {
+        "software": "piotr-fusik-recoil",
+        "display_name": "Piotr Fusik RECOIL"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "DRZ file open in XnViewMP",
+      "alt": "DRZ file open in XnViewMP",
+      "source_url": "https://fileinfo.com/img/ss/md/drz_7916.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-09-13",
+  "sources": [
+    {
+      "url": "drz.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

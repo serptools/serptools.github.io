@@ -1,0 +1,61 @@
+{
+  "slug": "ddrw",
+  "extension": "ddrw",
+  "name": "ClarisDraw Drawing",
+  "category": "clarisdraw-drawing",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 2.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "Drawing created by ClarisDraw, an older vector graphics editing program for the Macintosh; may contain vector-based shapes, text, and image effects; used for logos, banners, or other graphics that need to be resized without losing image quality.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "apple-clarisdraw",
+        "display_name": "Apple ClarisDraw"
+      },
+      {
+        "software": "dekorra-optics-eazydraw",
+        "display_name": "Dekorra Optics EazyDraw"
+      }
+    ],
+    "windows": [
+      {
+        "software": "apple-clarisdraw",
+        "display_name": "Apple ClarisDraw"
+      },
+      {
+        "software": "dekorra-optics-eazydraw",
+        "display_name": "Dekorra Optics EazyDraw"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-06-17",
+  "sources": [
+    {
+      "url": "ddrw.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

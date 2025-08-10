@@ -1,0 +1,47 @@
+{
+  "slug": "nco",
+  "extension": "nco",
+  "name": "Nero BackItUp File",
+  "category": "nero-backitup-file",
+  "developer_org": "nero",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "Compressed backup file created by Nero BackItup (formerly Nero BackItUp & Burn); contains data to be backed up to a CD or DVD; compressed using standard ZIP compression; may also be protected with a password and encrypted using a 56-bit key.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "nero-backitup",
+        "display_name": "Nero BackItUp"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-07-28",
+  "sources": [
+    {
+      "url": "nco.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,229 @@
+{
+  "slug": "igs",
+  "extension": "igs",
+  "name": "IGES Drawing",
+  "category": "1.-iges-drawing",
+  "developer_org": "icam",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 58,
+    "source": "fileinfo"
+  },
+  "summary": "An IGS file is a graphics file saved in a 2D/3D vector format based on the Initial Graphics Exchange Specification (IGES), a standard ASCII text-based format. It stores wireframe models, surface or solid object representations, circuit diagrams, and other objects. Many CAD applications save and export vector data as IGS files.",
+  "standards": [],
+  "mime_types": [
+    "2d/3d"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "autodesk-autocad-with-iges-import-plug-in",
+        "display_name": "Autodesk AutoCAD with IGES Import plug-in"
+      },
+      {
+        "software": "autodesk-fusion-360",
+        "display_name": "Autodesk Fusion 360"
+      },
+      {
+        "software": "nemetschek-vectorworks-design-suite",
+        "display_name": "Nemetschek Vectorworks Design Suite"
+      },
+      {
+        "software": "open-cascade-dmu-reviewer",
+        "display_name": "Open Cascade DMU Reviewer"
+      },
+      {
+        "software": "ideamk-igsviewer",
+        "display_name": "ideaMK IGSViewer"
+      },
+      {
+        "software": "dassault-systemes-catia",
+        "display_name": "Dassault Systemes CATIA"
+      },
+      {
+        "software": "actify-spinfire-ultimate",
+        "display_name": "Actify SpinFire Ultimate"
+      },
+      {
+        "software": "dassault-systemes-solidworks",
+        "display_name": "Dassault Systemes SolidWorks"
+      },
+      {
+        "software": "siemens-solid-edge",
+        "display_name": "Siemens Solid Edge"
+      },
+      {
+        "software": "okino-computer-graphics-polytrans",
+        "display_name": "Okino Computer Graphics PolyTrans"
+      },
+      {
+        "software": "cadsofttools-abviewer",
+        "display_name": "CADSoftTools ABViewer"
+      },
+      {
+        "software": "cadsofttools-cst-cad-navigator",
+        "display_name": "CADSoftTools CST CAD Navigator"
+      },
+      {
+        "software": "automapki-autoconverter",
+        "display_name": "Automapki Autoconverter"
+      },
+      {
+        "software": "cadex-cad-exchanger",
+        "display_name": "CADEX CAD Exchanger"
+      },
+      {
+        "software": "freecad",
+        "display_name": "FreeCAD",
+        "pricing": "free"
+      },
+      {
+        "software": "cadex-cad-exchanger-cloud",
+        "display_name": "CADEX CAD Exchanger Cloud"
+      },
+      {
+        "software": "sharecad.org",
+        "display_name": "ShareCAD.org"
+      },
+      {
+        "software": ".pigs",
+        "display_name": ".PIGS"
+      },
+      {
+        "software": ".png",
+        "display_name": ".PNG"
+      },
+      {
+        "software": ".jpg",
+        "display_name": ".JPG"
+      },
+      {
+        "software": ".tiff",
+        "display_name": ".TIFF"
+      },
+      {
+        "software": ".exr",
+        "display_name": ".EXR"
+      },
+      {
+        "software": "glare-technologies-indigo-renderer",
+        "display_name": "Glare Technologies Indigo Renderer"
+      },
+      {
+        "software": "glare-technologies-indigo-rt",
+        "display_name": "Glare Technologies Indigo RT"
+      }
+    ],
+    "macos": [
+      {
+        "software": "autodesk-fusion-360",
+        "display_name": "Autodesk Fusion 360"
+      },
+      {
+        "software": "nemetschek-vectorworks-design-suite",
+        "display_name": "Nemetschek Vectorworks Design Suite"
+      },
+      {
+        "software": "cadex-cad-exchanger",
+        "display_name": "CADEX CAD Exchanger"
+      },
+      {
+        "software": "freecad",
+        "display_name": "FreeCAD",
+        "pricing": "free"
+      },
+      {
+        "software": "cadsofttools-cst-cad-navigator",
+        "display_name": "CADSoftTools CST CAD Navigator"
+      },
+      {
+        "software": "glare-technologies-indigo-renderer",
+        "display_name": "Glare Technologies Indigo Renderer"
+      },
+      {
+        "software": "glare-technologies-indigo-rt",
+        "display_name": "Glare Technologies Indigo RT"
+      }
+    ],
+    "linux": [
+      {
+        "software": "freecad",
+        "display_name": "FreeCAD",
+        "pricing": "free"
+      },
+      {
+        "software": "cadsofttools-cst-cad-navigator",
+        "display_name": "CADSoftTools CST CAD Navigator"
+      },
+      {
+        "software": "glare-technologies-indigo-renderer",
+        "display_name": "Glare Technologies Indigo Renderer"
+      },
+      {
+        "software": "glare-technologies-indigo-rt",
+        "display_name": "Glare Technologies Indigo RT"
+      }
+    ],
+    "web": [
+      {
+        "software": "cadex-cad-exchanger-cloud",
+        "display_name": "CADEX CAD Exchanger Cloud"
+      },
+      {
+        "software": "sharecad.org",
+        "display_name": "ShareCAD.org"
+      },
+      {
+        "software": "autodesk-fusion-360",
+        "display_name": "Autodesk Fusion 360"
+      }
+    ],
+    "ios": [
+      {
+        "software": "autodesk-fusion-360",
+        "display_name": "Autodesk Fusion 360"
+      }
+    ],
+    "android": [
+      {
+        "software": "autodesk-fusion-360",
+        "display_name": "Autodesk Fusion 360"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "IGS file icon",
+      "alt": "IGS file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/igs-780.png"
+    },
+    {
+      "caption": "IGS file open in CADEX CAD Exchanger 3.7",
+      "alt": "IGS file open in CADEX CAD Exchanger 3.7",
+      "source_url": "https://fileinfo.com/img/ss/md/igs_780.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-05-11",
+  "sources": [
+    {
+      "url": "igs.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "slug": "gdi",
+  "extension": "gdi",
+  "name": "Dreamcast Gigabyte Disc Image",
+  "category": "dreamcast-gigabyte-disc-image",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 12,
+    "source": "fileinfo"
+  },
+  "summary": "File created for Sega Dreamcast emulators; contains a raw copy of the original game data used by emulators; may hold .BIN and .RAW files.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "nulldc",
+        "display_name": "nulldc"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2013-11-05",
+  "sources": [
+    {
+      "url": "gdi.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

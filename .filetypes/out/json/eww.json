@@ -1,0 +1,49 @@
+{
+  "slug": "eww",
+  "extension": "eww",
+  "name": "Embedded Workbench Workspace",
+  "category": "embedded-workbench-workspace",
+  "developer_org": "iar-systems",
+  "popularity": {
+    "rating": 2.5,
+    "votes": 10,
+    "source": "fileinfo"
+  },
+  "summary": "An EWW file contains a workspace created by IAR Embedded Workbench, a user-friendly IDE , which includes a C/C++ compiler, a C-SPY debugger, and project management tools. It stores information about one or more projects (EWP files) and their files, which may include .H and .C files. EWW files also include workspace settings.",
+  "standards": [],
+  "mime_types": [
+    "c/c"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "iar-embedded-workbench",
+        "display_name": "IAR Embedded Workbench"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-10-17",
+  "sources": [
+    {
+      "url": "eww.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

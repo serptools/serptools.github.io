@@ -1,0 +1,53 @@
+{
+  "slug": "ytt",
+  "extension": "ytt",
+  "name": "YouTube Timed Text File",
+  "category": "youtube-timed-text-file",
+  "developer_org": "youtube",
+  "popularity": {
+    "rating": 4.1,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "A YTT file is a subtitle file saved in the YouTube Timed Text (YTT) file format. It contains the subtitle text, along with timing and style settings for when and how the text is to be displayed when the video is played back on YouTube. YTT files are used for displaying various types of subtitles in YouTube videos, such as song lyrics, translations of different languages, and color-coded dialogue for differentiating speakers.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "web": [
+      {
+        "software": "youtube",
+        "display_name": "YouTube"
+      }
+    ],
+    "windows": [
+      {
+        "software": "youtube",
+        "display_name": "YouTube"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-10-24",
+  "sources": [
+    {
+      "url": "ytt.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

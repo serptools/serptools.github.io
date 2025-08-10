@@ -1,0 +1,58 @@
+{
+  "slug": "itc",
+  "extension": "itc",
+  "name": "iTunes Cover Flow Data File",
+  "category": "itunes-cover-flow-data-file",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 2.5,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "Contains album artwork and metadata for songs that have cover artwork; used by iTunes to speed up browsing songs in Cover Flow mode; saved by default within the ~/Music/iTunes/Album Artwork/Local/... directory.",
+  "standards": [],
+  "mime_types": [
+    "artwork/local",
+    "music/itunes"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "apple-itunes",
+        "display_name": "Apple iTunes",
+        "status": "discontinued"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-itunes",
+        "display_name": "Apple iTunes",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2008-02-19",
+  "sources": [
+    {
+      "url": "itc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

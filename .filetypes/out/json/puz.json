@@ -1,0 +1,57 @@
+{
+  "slug": "puz",
+  "extension": "puz",
+  "name": "Across Lite Crossword Puzzle",
+  "category": "1.-across-lite-crossword-puzzle",
+  "developer_org": "literate-software",
+  "popularity": {
+    "rating": 2.6,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "Electronic crossword puzzle that can be played or printed using Across Lite software; contains a single puzzle that can be filled out by the user.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "literate-software-across-lite",
+        "display_name": "Literate Software Across Lite"
+      },
+      {
+        "software": "microsoft-unpack",
+        "display_name": "Microsoft Unpack"
+      }
+    ],
+    "macos": [
+      {
+        "software": "literate-software-across-lite",
+        "display_name": "Literate Software Across Lite"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-04-11",
+  "sources": [
+    {
+      "url": "puz.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

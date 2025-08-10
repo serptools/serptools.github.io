@@ -1,0 +1,61 @@
+{
+  "slug": "wmp",
+  "extension": "wmp",
+  "name": "Windows Media Photo File",
+  "category": "windows-media-photo-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.2,
+    "votes": 18,
+    "source": "fileinfo"
+  },
+  "summary": "Windows Media Photo, or \"WMPhoto,\" image format developed by Microsoft; stores a raster image in a format similar to a .JPG ; supports black and white, RGB , CMYK , or multi-channel graphic formats; also supports lossy and lossless compression optimized for digital photos.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-expression-design",
+        "display_name": "Microsoft Expression Design"
+      },
+      {
+        "software": "alchemy-mindworks-graphic-workshop-professional",
+        "display_name": "Alchemy Mindworks Graphic Workshop Professional"
+      },
+      {
+        "software": "adobe-photoshop-with-hd-photo-plugin",
+        "display_name": "Adobe Photoshop with HD Photo plugin"
+      }
+    ],
+    "macos": [
+      {
+        "software": "adobe-photoshop-with-hd-photo-plugin",
+        "display_name": "Adobe Photoshop with HD Photo plugin"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-06-15",
+  "sources": [
+    {
+      "url": "wmp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

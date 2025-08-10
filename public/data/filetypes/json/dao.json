@@ -1,0 +1,22 @@
+{
+  "slug": "dao",
+  "extension": "dao",
+  "name": "Disk-At-Once CD or DVD Image",
+  "category": "disk-at-once-cd-or-dvd-image",
+  "summary": "",
+  "developer_org": "n-a",
+  "developer_name": "N/A",
+  "more_information": {
+    "description": [
+      "Disk-at-once, or DAO, is a method of writing data to a CD-R or DVD-R . While other CD and DVD writing methods write only portions of data (often, individual audio tracks) at once, DAO writes all data to a disc at the same time. This allows the person creating the disc to control whether there are gaps in the disc's data and, if so, what data those gaps contain. For example, using the DAO method, users can insert a \"secret\" audio track at the start of another track, or they can link tracks together with no audio gap at all.",
+      "Several CD and DVD authoring programs that can write discs using the DAO method save disk images as DAO files, and can load them as well. The data these disk images contain is used to produce duplicate DAO CD-Rs or DVD-Rs, which contain the same content as the DAO file."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "dao.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

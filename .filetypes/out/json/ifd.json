@@ -1,0 +1,51 @@
+{
+  "slug": "ifd",
+  "extension": "ifd",
+  "name": "InForm Document",
+  "category": "inform-document",
+  "developer_org": "fly-software",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Electronic form created by InForm Designer, a program used for making paper forms, e-forms, and Web forms; may include multiple pages, each with text, fillable fields, and graphics; can be printed, filled electronically online, or filled with the InForm Filler software.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "fly-software-inform-designer",
+        "display_name": "Fly Software InForm Designer"
+      },
+      {
+        "software": "fly-software-inform-filler",
+        "display_name": "Fly Software InForm Filler"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-06-07",
+  "sources": [
+    {
+      "url": "ifd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "gbmap",
+  "extension": "gbmap",
+  "name": "GoreBox Map",
+  "category": "gorebox-map",
+  "developer_org": "f2games",
+  "popularity": {
+    "rating": 4.3,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "A GBMAP file is a game map used by GoreBox, a violent sandbox video game. Primarily, it contains plain text data that defines the map's structure. GoreBox uses this data to load and display the map.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "f2games-gorebox",
+        "display_name": "F2Games GoreBox"
+      }
+    ],
+    "android": [
+      {
+        "software": "f2games-gorebox",
+        "display_name": "F2Games GoreBox"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-11-20",
+  "sources": [
+    {
+      "url": "gbmap.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

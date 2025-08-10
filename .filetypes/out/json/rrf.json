@@ -1,0 +1,53 @@
+{
+  "slug": "rrf",
+  "extension": "rrf",
+  "name": "Rechroma Resource Format",
+  "category": "rechroma-resource-format",
+  "developer_org": "kevidryon2",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "An RRF file is a data file used by the video game Rechroma. It contains the game's level data. Rechroma's primary RRF file is named data.rrf .",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "linux": [
+      {
+        "software": "rechroma",
+        "display_name": "Rechroma"
+      }
+    ],
+    "windows": [
+      {
+        "software": "rechroma",
+        "display_name": "Rechroma"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-01-19",
+  "sources": [
+    {
+      "url": "rrf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

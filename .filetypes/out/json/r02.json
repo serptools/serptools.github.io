@@ -1,0 +1,75 @@
+{
+  "slug": "r02",
+  "extension": "r02",
+  "name": "WinRAR Split Archive Part 2",
+  "category": "winrar-split-archive-part-2",
+  "developer_org": "rarlab",
+  "popularity": {
+    "rating": 2.4,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Part two of a compressed archive created with WinRAR or RAR (see .R01 ); split into several parts, which allows a large archive to be saved on multiple disks; may use file extensions numbered from R00 to R99.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "rarlab-winrar",
+        "display_name": "RARLAB WinRAR"
+      },
+      {
+        "software": "corel-winzip",
+        "display_name": "Corel WinZip"
+      },
+      {
+        "software": "7-zip",
+        "display_name": "7-Zip"
+      },
+      {
+        "software": "incredible-bee-archiver",
+        "display_name": "Incredible Bee Archiver"
+      }
+    ],
+    "macos": [
+      {
+        "software": "rarlab-rar-for-macos",
+        "display_name": "RARLAB RAR for macOS"
+      },
+      {
+        "software": "incredible-bee-archiver",
+        "display_name": "Incredible Bee Archiver"
+      }
+    ],
+    "linux": [
+      {
+        "software": "rarlab-rar-for-linux",
+        "display_name": "RARLAB RAR for Linux"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2016-02-02",
+  "sources": [
+    {
+      "url": "r02.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "slug": "lif",
+  "extension": "lif",
+  "name": "LEGO Digital Designer Assets File",
+  "category": "1.-lego-digital-designer-assets-file",
+  "developer_org": "the-lego-group",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 19,
+    "source": "fileinfo"
+  },
+  "summary": "Container format used by LEGO Digital Designer (LDD), a program used for constructing 3D models with digital LEGO parts; saved in the program installation directory and contains program assets such as bricks and other 3D model parts; uses a proprietary binary format.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "lego-digital-designer",
+        "display_name": "LEGO Digital Designer",
+        "status": "discontinued"
+      },
+      {
+        "software": "lif-extractor",
+        "display_name": "LIF Extractor"
+      },
+      {
+        "software": "leica-application-suite",
+        "display_name": "Leica Application Suite"
+      },
+      {
+        "software": "omero",
+        "display_name": "OMERO"
+      },
+      {
+        "software": "imagej",
+        "display_name": "ImageJ"
+      },
+      {
+        "software": "oxford-instruments-imaris",
+        "display_name": "Oxford Instruments Imaris"
+      },
+      {
+        "software": "older-versions-of-intuit-turbotax",
+        "display_name": "Older versions of Intuit TurboTax"
+      }
+    ],
+    "macos": [
+      {
+        "software": "lego-digital-designer",
+        "display_name": "LEGO Digital Designer",
+        "status": "discontinued"
+      },
+      {
+        "software": "omero",
+        "display_name": "OMERO"
+      },
+      {
+        "software": "imagej",
+        "display_name": "ImageJ"
+      },
+      {
+        "software": "oxford-instruments-imaris",
+        "display_name": "Oxford Instruments Imaris"
+      },
+      {
+        "software": "older-versions-of-intuit-turbotax",
+        "display_name": "Older versions of Intuit TurboTax"
+      }
+    ],
+    "linux": [
+      {
+        "software": "omero",
+        "display_name": "OMERO"
+      },
+      {
+        "software": "imagej",
+        "display_name": "ImageJ"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-08-06",
+  "sources": [
+    {
+      "url": "lif.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "zone.identifier",
+  "extension": "zone.identifier",
+  "name": "Windows Zone Identifier File",
+  "category": "windows-zone-identifier-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 25,
+    "source": "fileinfo"
+  },
+  "summary": "File that contains metadata describing the security zones associated with another file; generated automatically when a file is downloaded from the Internet or received as an email attachment; often created by Internet Explorer.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-windows",
+        "display_name": "Microsoft Windows"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-12-21",
+  "sources": [
+    {
+      "url": "zone.identifier.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

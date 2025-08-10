@@ -1,0 +1,101 @@
+{
+  "slug": "tod",
+  "extension": "tod",
+  "name": "JVC Everio Video Capture File",
+  "category": "jvc-everio-video-capture-file",
+  "developer_org": "jvc",
+  "popularity": {
+    "rating": 2.7,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "Video file captured by a JVC Everio video camera, such as the GZ-HD3 and GZ-HD7; saved in a proprietary format that can be viewed using the Cyberlink software included with JVC video cameras.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "adobe-flash-professional-cc",
+        "display_name": "Adobe Flash Professional CC",
+        "status": "discontinued"
+      },
+      {
+        "software": "cyberlink-powerdirector-365",
+        "display_name": "CyberLink PowerDirector 365"
+      },
+      {
+        "software": "cyberlink-powerdvd-21",
+        "display_name": "CyberLink PowerDVD 21"
+      },
+      {
+        "software": "nero-2022",
+        "display_name": "Nero 2022"
+      },
+      {
+        "software": "squared-5-mpeg-streamclip",
+        "display_name": "Squared 5 MPEG Streamclip"
+      },
+      {
+        "software": "magix-vegas-pro-21",
+        "display_name": "MAGIX VEGAS Pro 21"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "apple-imovie-10",
+        "display_name": "Apple iMovie 10"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-imovie-10",
+        "display_name": "Apple iMovie 10"
+      },
+      {
+        "software": "adobe-flash-professional-cc",
+        "display_name": "Adobe Flash Professional CC",
+        "status": "discontinued"
+      },
+      {
+        "software": "squared-5-mpeg-streamclip",
+        "display_name": "Squared 5 MPEG Streamclip"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      }
+    ],
+    "linux": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-07-22",
+  "sources": [
+    {
+      "url": "tod.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

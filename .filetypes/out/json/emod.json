@@ -1,0 +1,67 @@
+{
+  "slug": "emod",
+  "extension": "emod",
+  "name": "Quadra Composer Module",
+  "category": "quadra-composer-module",
+  "developer_org": "bo-lincoln",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "An EMOD file is an audio module created by Quadra Composer, a discontinued music tracker . It contains data that defines a song's notes, channels, patterns, and other data. While Quadra Composer is no longer available, you can play the song an EMOD file contains with some Amiga audio emulators.",
+  "standards": [],
+  "mime_types": [
+    "audio/visual"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "deliplayer",
+        "display_name": "DeliPlayer"
+      },
+      {
+        "software": "unix-amiga-delitracker-emulator-uade",
+        "display_name": "Unix Amiga Delitracker Emulator (UADE)"
+      },
+      {
+        "software": "extended-module-player",
+        "display_name": "Extended Module Player"
+      }
+    ],
+    "linux": [
+      {
+        "software": "unix-amiga-delitracker-emulator-uade",
+        "display_name": "Unix Amiga Delitracker Emulator (UADE)"
+      },
+      {
+        "software": "extended-module-player",
+        "display_name": "Extended Module Player"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-06-12",
+  "sources": [
+    {
+      "url": "emod.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

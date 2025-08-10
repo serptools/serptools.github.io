@@ -1,0 +1,81 @@
+{
+  "slug": "p7r",
+  "extension": "p7r",
+  "name": "Certificate Request Response File",
+  "category": "certificate-request-response-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.2,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "File used by various programs that include identity authentication mechanisms; stores a response to a digital certificate request that was issued from an authenticating entity; contains a digital signature.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-outlook-365",
+        "display_name": "Microsoft Outlook 365"
+      },
+      {
+        "software": "openssl",
+        "display_name": "OpenSSL"
+      },
+      {
+        "software": "apple-keychain-access",
+        "display_name": "Apple Keychain Access"
+      },
+      {
+        "software": "apple-mail",
+        "display_name": "Apple Mail"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-keychain-access",
+        "display_name": "Apple Keychain Access"
+      },
+      {
+        "software": "apple-mail",
+        "display_name": "Apple Mail"
+      },
+      {
+        "software": "openssl",
+        "display_name": "OpenSSL"
+      }
+    ],
+    "linux": [
+      {
+        "software": "openssl",
+        "display_name": "OpenSSL"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-01-18",
+  "sources": [
+    {
+      "url": "p7r.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

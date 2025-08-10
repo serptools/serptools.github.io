@@ -1,0 +1,86 @@
+{
+  "slug": "ym",
+  "extension": "ym",
+  "name": "Atari ST Audio File",
+  "category": "atari-st-audio-file",
+  "developer_org": "atari",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 12,
+    "source": "fileinfo"
+  },
+  "summary": "Audio file used by the Atari ST, an older computer system that was discontinued in the early 1990s; contains an audio loop or track that can be played back with the Atari ST YM chip; supports storage for the song name, author, comments, and the audio data itself.",
+  "standards": [],
+  "mime_types": [
+    "ay/ym"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "audio-overload",
+        "display_name": "Audio Overload"
+      },
+      {
+        "software": "st-sound",
+        "display_name": "ST-Sound"
+      },
+      {
+        "software": "ymtool",
+        "display_name": "YMTOOL"
+      },
+      {
+        "software": "ym-to-xm",
+        "display_name": "YM to XM"
+      },
+      {
+        "software": "nullsoft-winamp-with-chipamp-plug-in",
+        "display_name": "Nullsoft Winamp with Chipamp plug-in"
+      },
+      {
+        "software": "nullsoft-winamp-with-v_soft-vortex-ay-ym-chip-emulator-plug-in",
+        "display_name": "Nullsoft Winamp with V_Soft Vortex AY/YM Chip Emulator plug-in"
+      },
+      {
+        "software": "microsoft-internet-explorer-with-st-sound-plug-in",
+        "display_name": "Microsoft Internet Explorer with ST-Sound plug-in",
+        "status": "discontinued"
+      }
+    ],
+    "macos": [
+      {
+        "software": "audio-overload",
+        "display_name": "Audio Overload"
+      }
+    ],
+    "linux": [
+      {
+        "software": "audio-overload",
+        "display_name": "Audio Overload"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-11-21",
+  "sources": [
+    {
+      "url": "ym.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

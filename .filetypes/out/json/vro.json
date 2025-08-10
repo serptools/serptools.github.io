@@ -1,0 +1,97 @@
+{
+  "slug": "vro",
+  "extension": "vro",
+  "name": "DVD Video Recording Format",
+  "category": "dvd-video-recording-format",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 40,
+    "source": "fileinfo"
+  },
+  "summary": "Video format used for streaming (real-time) recording of DVD discs; contains actual audio and video recordings; works with .IFO files, which tell the DVD player where the VRO files are located.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "corel-windvd-pro-12",
+        "display_name": "Corel WinDVD Pro 12"
+      },
+      {
+        "software": "cyberlink-powerdvd-21",
+        "display_name": "CyberLink PowerDVD 21"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "online-media-technologies-avs-video-editor",
+        "display_name": "Online Media Technologies AVS Video Editor"
+      },
+      {
+        "software": "mplayerx",
+        "display_name": "MPlayerX"
+      },
+      {
+        "software": "squared-5-mpeg-streamclip",
+        "display_name": "Squared 5 MPEG Streamclip"
+      },
+      {
+        "software": "apple-quicktime-player-with-mpeg-2-playback-component",
+        "display_name": "Apple QuickTime Player with MPEG-2 Playback Component"
+      }
+    ],
+    "macos": [
+      {
+        "software": "mplayerx",
+        "display_name": "MPlayerX"
+      },
+      {
+        "software": "squared-5-mpeg-streamclip",
+        "display_name": "Squared 5 MPEG Streamclip"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "apple-quicktime-player-with-mpeg-2-playback-component",
+        "display_name": "Apple QuickTime Player with MPEG-2 Playback Component"
+      }
+    ],
+    "linux": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-08-06",
+  "sources": [
+    {
+      "url": "vro.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

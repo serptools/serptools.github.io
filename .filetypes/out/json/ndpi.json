@@ -1,0 +1,79 @@
+{
+  "slug": "ndpi",
+  "extension": "ndpi",
+  "name": "Hamamatsu TIFF-like Slide Image",
+  "category": "hamamatsu-tiff-like-slide-image",
+  "developer_org": "hamamatsu",
+  "popularity": {
+    "rating": 2.7,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "An NDPI file is a pathology slide specimen image created by a Hamamatsu slide scanner, such as the Hamamatsu NanoZoomer. It contains a picture of a slide specimen, saved in a proprietary, TIFF-like format. NDPI files can be viewed in Hamamatsu's slide-viewing software or in other slide-viewing applications.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "aperio-technologies-imagescope",
+        "display_name": "Aperio Technologies ImageScope"
+      },
+      {
+        "software": "netscope-viewer",
+        "display_name": "NetScope Viewer"
+      },
+      {
+        "software": "ndpitools",
+        "display_name": "NDPITools"
+      },
+      {
+        "software": "openslide",
+        "display_name": "OpenSlide"
+      }
+    ],
+    "macos": [
+      {
+        "software": "ndpitools",
+        "display_name": "NDPITools"
+      },
+      {
+        "software": "openslide",
+        "display_name": "OpenSlide"
+      }
+    ],
+    "linux": [
+      {
+        "software": "ndpitools",
+        "display_name": "NDPITools"
+      },
+      {
+        "software": "openslide",
+        "display_name": "OpenSlide"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-05-11",
+  "sources": [
+    {
+      "url": "ndpi.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

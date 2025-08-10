@@ -1,0 +1,59 @@
+{
+  "slug": "ive",
+  "extension": "ive",
+  "name": "OpenSceneGraph Binary File",
+  "category": "openscenegraph-binary-file",
+  "developer_org": "osg-community",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "Three-dimensional model file created by OpenSceneGraph (OSG), an open source 3D graphics toolkit used for modeling and animation; contains a 3D scene created with the software; used for visualizations, simulation, games, virtual reality, and other modeling scenarios.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "openscenegraph",
+        "display_name": "OpenSceneGraph"
+      }
+    ],
+    "macos": [
+      {
+        "software": "openscenegraph",
+        "display_name": "OpenSceneGraph"
+      }
+    ],
+    "linux": [
+      {
+        "software": "openscenegraph",
+        "display_name": "OpenSceneGraph"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-08-27",
+  "sources": [
+    {
+      "url": "ive.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

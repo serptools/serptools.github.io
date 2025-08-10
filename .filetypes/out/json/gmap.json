@@ -1,0 +1,81 @@
+{
+  "slug": "gmap",
+  "extension": "gmap",
+  "name": "Garmin Map File",
+  "category": "1.-garmin-map-file",
+  "developer_org": "garmin",
+  "popularity": {
+    "rating": 4.4,
+    "votes": 17,
+    "source": "fileinfo"
+  },
+  "summary": "Map bundle used by some Garmin navigation devices; saves a map of specific regions in the world (e.g., City Navigator North America); can be used with PC and Mac software such as Garmin BaseCamp and MapInstall, as well as with Garmin devices.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "garmin-basecamp",
+        "display_name": "Garmin BaseCamp"
+      },
+      {
+        "software": "google-drive-for-desktop",
+        "display_name": "Google Drive for Desktop"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "garmin-basecamp",
+        "display_name": "Garmin BaseCamp"
+      },
+      {
+        "software": "google-drive-for-desktop",
+        "display_name": "Google Drive for Desktop"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "chromeos": [
+      {
+        "software": "chrome-os",
+        "display_name": "Chrome OS"
+      }
+    ],
+    "linux": [
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-11-12",
+  "sources": [
+    {
+      "url": "gmap.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

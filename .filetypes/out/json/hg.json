@@ -1,0 +1,61 @@
+{
+  "slug": "hg",
+  "extension": "hg",
+  "name": "No Man's Sky Save File",
+  "category": "no-man-s-sky-save-file",
+  "developer_org": "hello-games",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "An HG file is a game save file created by No Man’s Sky , a science fiction exploration game developed by Hello Games. It stores player progress, including data such as discovered planets, inventory items, ship upgrades, mission status, and in-game location in a proprietary format. No Man’s Sky loads the HG file during startup to resume the player’s most recent session, making the files important for players who want to continue their progress across multiple play sessions.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "hello-games-no-man-s-sky",
+        "display_name": "Hello Games No Man's Sky"
+      },
+      {
+        "software": "goatfungus-nmssaveeditor",
+        "display_name": "goatfungus NMSSaveEditor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "hello-games-no-man-s-sky",
+        "display_name": "Hello Games No Man's Sky"
+      },
+      {
+        "software": "goatfungus-nmssaveeditor",
+        "display_name": "goatfungus NMSSaveEditor"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2025-06-27",
+  "sources": [
+    {
+      "url": "hg.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

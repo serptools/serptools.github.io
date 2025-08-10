@@ -1,0 +1,61 @@
+{
+  "slug": "q08",
+  "extension": "q08",
+  "name": "QuickTax 2008 Tax Return",
+  "category": "quicktax-2008-tax-return",
+  "developer_org": "intuit-canada",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "Tax return created by QuickTax 2008, a program that assists users with entering and filing 2008 tax returns; includes tax data and forms filled out by the user; typically filled out in the 2009 calendar year for the previous 2008 tax year.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "intuit-canada-turbotax",
+        "display_name": "Intuit Canada TurboTax"
+      },
+      {
+        "software": "intuit-canada-quicktax",
+        "display_name": "Intuit Canada QuickTax"
+      }
+    ],
+    "macos": [
+      {
+        "software": "intuit-canada-turbotax",
+        "display_name": "Intuit Canada TurboTax"
+      },
+      {
+        "software": "intuit-canada-quicktax",
+        "display_name": "Intuit Canada QuickTax"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-02-07",
+  "sources": [
+    {
+      "url": "q08.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

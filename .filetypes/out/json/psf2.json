@@ -1,0 +1,69 @@
+{
+  "slug": "psf2",
+  "extension": "psf2",
+  "name": "PlayStation Sound Format File",
+  "category": "playstation-sound-format-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "Sound file created for sequenced music in Sony PlayStation 2 emulated games; contains samples, which are sounds (like a violin), and sequences, which indicate how the sounds should be played; resembles .PSF (Portable Sound File) files but created for PlayStation 2 games; structured as a file system , not a as a single executable like its predecessors.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "audio-overload",
+        "display_name": "Audio Overload"
+      },
+      {
+        "software": "nullsoft-winamp-with-the-highly-experimental-plugin",
+        "display_name": "Nullsoft Winamp with the Highly Experimental plugin"
+      },
+      {
+        "software": "xmplay",
+        "display_name": "XMPlay"
+      }
+    ],
+    "macos": [
+      {
+        "software": "audio-overload",
+        "display_name": "Audio Overload"
+      }
+    ],
+    "linux": [
+      {
+        "software": "audio-overload",
+        "display_name": "Audio Overload"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2013-08-22",
+  "sources": [
+    {
+      "url": "psf2.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

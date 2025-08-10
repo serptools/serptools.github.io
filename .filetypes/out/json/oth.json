@@ -1,0 +1,73 @@
+{
+  "slug": "oth",
+  "extension": "oth",
+  "name": "OpenDocument HTML Template",
+  "category": "1.-opendocument-html-template",
+  "developer_org": "oasis",
+  "popularity": {
+    "rating": 2.8,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Template file created by OpenOffice.org or another office productivity application that supports the OpenDocument standard; often contains template header and footer elements as well as style and formatting settings; used for styling HTML documents with a similar appearance.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "apache-openoffice",
+        "display_name": "Apache OpenOffice"
+      },
+      {
+        "software": "planamesa-neooffice",
+        "display_name": "Planamesa NeoOffice",
+        "status": "discontinued"
+      },
+      {
+        "software": "originlab-origin",
+        "display_name": "OriginLab Origin"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apache-openoffice",
+        "display_name": "Apache OpenOffice"
+      },
+      {
+        "software": "planamesa-neooffice",
+        "display_name": "Planamesa NeoOffice",
+        "status": "discontinued"
+      }
+    ],
+    "linux": [
+      {
+        "software": "apache-openoffice",
+        "display_name": "Apache OpenOffice"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-03-18",
+  "sources": [
+    {
+      "url": "oth.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "fnbk",
+  "extension": "fnbk",
+  "name": "Food Network Recipe Manager Data File",
+  "category": "food-network-recipe-manager-data-file",
+  "developer_org": "nova-development",
+  "popularity": {
+    "rating": 2.7,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "Data file used by Food Network Recipe Manager, a program used for organizing cooking recipes; contains recipe data provided by the program; used as an application support file for storing cookbooks.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "nova-development-food-network-recipe-manager",
+        "display_name": "Nova Development Food Network Recipe Manager"
+      }
+    ],
+    "macos": [
+      {
+        "software": "nova-development-food-network-recipe-manager",
+        "display_name": "Nova Development Food Network Recipe Manager"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-08-02",
+  "sources": [
+    {
+      "url": "fnbk.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

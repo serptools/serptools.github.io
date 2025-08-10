@@ -1,0 +1,112 @@
+{
+  "slug": "ifc",
+  "extension": "ifc",
+  "name": "Industry Foundation Classes File",
+  "category": "industry-foundation-classes-file",
+  "developer_org": "buildingsmart",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 39,
+    "source": "fileinfo"
+  },
+  "summary": "An IFC file is a model file created in the Industry Foundation Classes (IFC) formats, an open file format used by Building Information Modeling (BIM) programs. It contains a building or facility model, including spatial elements, materials, and shapes.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "areddo",
+        "display_name": "Areddo"
+      },
+      {
+        "software": "autodesk-autocad-architecture",
+        "display_name": "Autodesk AutoCAD Architecture"
+      },
+      {
+        "software": "autodesk-autocad-civil-3d-2023",
+        "display_name": "Autodesk AutoCAD Civil 3D 2023"
+      },
+      {
+        "software": "autodesk-mep",
+        "display_name": "Autodesk MEP"
+      },
+      {
+        "software": "graphisoft-archicad",
+        "display_name": "GRAPHISOFT ArchiCAD"
+      },
+      {
+        "software": "safe-software-fme-desktop",
+        "display_name": "Safe Software FME Desktop"
+      },
+      {
+        "software": "trimble-sketchup-with-ifc2skp-plug-in",
+        "display_name": "Trimble SketchUp with IFC2SKP plug-in"
+      },
+      {
+        "software": "autodesk-revit-2023",
+        "display_name": "Autodesk Revit 2023"
+      },
+      {
+        "software": "bimcollab-zoom",
+        "display_name": "BIMcollab ZOOM"
+      },
+      {
+        "software": "solibri-office",
+        "display_name": "Solibri Office"
+      },
+      {
+        "software": "acca-edificius",
+        "display_name": "ACCA Edificius"
+      }
+    ],
+    "macos": [
+      {
+        "software": "graphisoft-archicad",
+        "display_name": "GRAPHISOFT ArchiCAD"
+      },
+      {
+        "software": "bimcollab-zoom",
+        "display_name": "BIMcollab ZOOM"
+      },
+      {
+        "software": "solibri-office",
+        "display_name": "Solibri Office"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "IFC file icon",
+      "alt": "IFC file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/ifc-4648.png"
+    },
+    {
+      "caption": "IFC file open in Areddo",
+      "alt": "IFC file open in Areddo",
+      "source_url": "https://fileinfo.com/img/ss/md/ifc_4648.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2025-07-30",
+  "sources": [
+    {
+      "url": "ifc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

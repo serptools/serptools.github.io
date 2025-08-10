@@ -1,0 +1,62 @@
+{
+  "slug": "fcstd",
+  "extension": "fcstd",
+  "name": "FreeCAD Document",
+  "category": "freecad-document",
+  "developer_org": "freecad",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "CAD file created by FreeCAD, a free, cross-platform CAD design application; contains a 2D or 3D design and includes the geometry for the components; uses a feature based parametric modeling system that represents the design using mathematical models; used as the native CAD file format for the software.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "freecad",
+        "display_name": "FreeCAD",
+        "pricing": "free"
+      }
+    ],
+    "macos": [
+      {
+        "software": "freecad",
+        "display_name": "FreeCAD",
+        "pricing": "free"
+      }
+    ],
+    "linux": [
+      {
+        "software": "freecad",
+        "display_name": "FreeCAD",
+        "pricing": "free"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-01-02",
+  "sources": [
+    {
+      "url": "fcstd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

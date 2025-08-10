@@ -1,0 +1,63 @@
+{
+  "slug": "vmt",
+  "extension": "vmt",
+  "name": "Valve Material File",
+  "category": "1.-valve-material-file",
+  "developer_org": "valve",
+  "popularity": {
+    "rating": 4.2,
+    "votes": 67,
+    "source": "fileinfo"
+  },
+  "summary": "Material that can be applied to a two-dimensional surface of an object created with Valve's Source engine; contains information that the Source engine uses to visually, physically, and aurally simulate the surface.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "valve-source-sdk",
+        "display_name": "Valve Source SDK"
+      },
+      {
+        "software": "vtfedit",
+        "display_name": "VTFEdit"
+      },
+      {
+        "software": "quark",
+        "display_name": "QuArK"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "vmware-workstation",
+        "display_name": "VMware Workstation"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-01-29",
+  "sources": [
+    {
+      "url": "vmt.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

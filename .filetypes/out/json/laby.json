@@ -1,0 +1,53 @@
+{
+  "slug": "laby",
+  "extension": "laby",
+  "name": "Laby Level File",
+  "category": "laby-level-file",
+  "developer_org": "laby",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "File used by Laby, a game where students learn simple programming techniques by guiding ants through labyrinths to safety; contains a plain text representation of a 2D map; uses special characters for ants, walls, spider webs, and escape routes.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "linux": [
+      {
+        "software": "laby",
+        "display_name": "Laby"
+      }
+    ],
+    "windows": [
+      {
+        "software": "laby",
+        "display_name": "Laby"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-05-21",
+  "sources": [
+    {
+      "url": "laby.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "slug": "lang",
+  "extension": "lang",
+  "name": "Minecraft Language Localization File",
+  "category": "minecraft-language-localization-file",
+  "summary": "",
+  "developer_org": "the-gnome-project",
+  "developer_name": "The GNOME Project",
+  "more_information": {
+    "screenshot": {
+      "url": "https://fileinfo.com/img/ss/sm/lang_8433.png",
+      "alt": "Screenshot of a .lang file in Microsoft Visual Studio Code",
+      "caption": "LANG file open in Microsoft Visual Studio Code"
+    },
+    "description": [
+      "When developers create a program intended for use in multiple regions, they often translate the program's text into each of those regions' languages. This process is called localization.",
+      "One way developers localize programs is by creating multiple, language-specific text files that map the programs' text strings to each language's version of that string. The program can then refer to the correct file when showing in-game text, based on the user's language setting. Minecraft uses LANG files to show localized text to users.",
+      "Minecraft Java Edition's LANG files are stored in the minecraft.jar archive, which is located in the following directory:",
+      "[user]/​AppData/​Roaming/​.minecraft/​bin",
+      "In more recent versions of Minecraft Java Edition, LANG files have been replaced by .JSON files.",
+      "Each Minecraft Bedrock Edition resource pack ( .MCPACK file) includes one or more LANG files used to show in-game text. These files are stored in a pack's texts directory."
+    ]
+  },
+  "images": [
+    {
+      "url": "https://fileinfo.com/img/ss/sm/lang_8433.png",
+      "alt": "Screenshot of a .lang file in Microsoft Visual Studio Code",
+      "caption": "LANG file open in Microsoft Visual Studio Code"
+    },
+    {
+      "url": "https://fileinfo.com/img/ss/sm/lang_11346.png",
+      "alt": "Screenshot of a .lang file in Microsoft Visual Studio Code 1",
+      "caption": "LANG file open in Microsoft Visual Studio Code 1"
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "lang.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

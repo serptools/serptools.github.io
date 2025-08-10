@@ -1,0 +1,59 @@
+{
+  "slug": "sbao",
+  "extension": "sbao",
+  "name": "Ubisoft Sound File",
+  "category": "ubisoft-sound-file",
+  "developer_org": "ubisoft",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "An SBAO file is a sound file used by various video games developed by Ubisoft with the Disrupt engine. It contains sound data, typically for music or character dialogue, in Ubisoft's proprietary SBAO format, similar to the .OGG Vorbis Audio format. Users can typically find SBAO files packaged with other resource files in the game's .PAK package file.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "ubisoft-far-cry-2",
+        "display_name": "Ubisoft Far Cry 2"
+      },
+      {
+        "software": "ubisoft-watch-dogs",
+        "display_name": "Ubisoft Watch Dogs"
+      },
+      {
+        "software": "ubisoft-watch-dogs-legion",
+        "display_name": "Ubisoft Watch Dogs: Legion"
+      },
+      {
+        "software": "oggdec",
+        "display_name": "oggdec"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2024-01-17",
+  "sources": [
+    {
+      "url": "sbao.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

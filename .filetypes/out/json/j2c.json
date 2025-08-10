@@ -1,0 +1,111 @@
+{
+  "slug": "j2c",
+  "extension": "j2c",
+  "name": "JPEG 2000 Code Stream",
+  "category": "jpeg-2000-code-stream",
+  "developer_org": "joint-photographic-experts-group",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "Bitmap image created using JPEG 2000 compression, which is similar to standard .JPG compression but uses a newer encoding standard that allows flexibility at the cost of computational complexity; can be viewed by most applications that support standard .JP2 files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "ivanview",
+        "display_name": "IvanView"
+      },
+      {
+        "software": "corel-paintshop-pro-2023",
+        "display_name": "Corel PaintShop Pro 2023"
+      },
+      {
+        "software": "imagemagick",
+        "display_name": "ImageMagick"
+      },
+      {
+        "software": "canvas-gfx-canvas-x-pro",
+        "display_name": "Canvas GFX Canvas X Pro"
+      },
+      {
+        "software": "adobe-photoshop-2025",
+        "display_name": "Adobe Photoshop 2025"
+      },
+      {
+        "software": "adobe-photoshop-elements",
+        "display_name": "Adobe Photoshop Elements"
+      },
+      {
+        "software": "adobe-illustrator-2025",
+        "display_name": "Adobe Illustrator 2025"
+      },
+      {
+        "software": "toyviewer",
+        "display_name": "ToyViewer"
+      },
+      {
+        "software": "newera-graphics-converter-pro",
+        "display_name": "Newera Graphics Converter Pro"
+      }
+    ],
+    "macos": [
+      {
+        "software": "toyviewer",
+        "display_name": "ToyViewer"
+      },
+      {
+        "software": "newera-graphics-converter-pro",
+        "display_name": "Newera Graphics Converter Pro"
+      },
+      {
+        "software": "imagemagick",
+        "display_name": "ImageMagick"
+      },
+      {
+        "software": "adobe-photoshop-2025",
+        "display_name": "Adobe Photoshop 2025"
+      },
+      {
+        "software": "adobe-photoshop-elements",
+        "display_name": "Adobe Photoshop Elements"
+      },
+      {
+        "software": "adobe-illustrator-2025",
+        "display_name": "Adobe Illustrator 2025"
+      }
+    ],
+    "linux": [
+      {
+        "software": "imagemagick",
+        "display_name": "ImageMagick"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-06-17",
+  "sources": [
+    {
+      "url": "j2c.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

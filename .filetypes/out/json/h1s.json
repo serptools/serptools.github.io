@@ -1,0 +1,51 @@
+{
+  "slug": "h1s",
+  "extension": "h1s",
+  "name": "Windows Assistance Platform Help File",
+  "category": "windows-assistance-platform-help-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 32,
+    "source": "fileinfo"
+  },
+  "summary": "Compiled help document format introduced with Windows Vista and also supported in Windows 7; run by the Assistance Platform client ( HelpPane.exe ), which is installed by default in Windows; used by Microsoft and OEMs for producing help documents, but not used by third-party software developers.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-assistance-platform",
+        "display_name": "Microsoft Assistance Platform"
+      },
+      {
+        "software": "help-info-xhelpmarkup",
+        "display_name": "Help-Info xHelpMarkup"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-09-12",
+  "sources": [
+    {
+      "url": "h1s.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "vdplugin",
+  "extension": "vdplugin",
+  "name": "VirtualDub Plugin File",
+  "category": "virtualdub-plugin-file",
+  "developer_org": "avery-lee",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "A VDPLUGIN file is a plugin used by VirtualDub, a video capture and processing utility for Windows. It stores information that adds additional features to VirtualDub, such as codec support.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "virtualdub",
+        "display_name": "VirtualDub"
+      },
+      {
+        "software": "virtualdub2",
+        "display_name": "VirtualDub2"
+      },
+      {
+        "software": "virtualdubmod",
+        "display_name": "VirtualDubMod"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-06-24",
+  "sources": [
+    {
+      "url": "vdplugin.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

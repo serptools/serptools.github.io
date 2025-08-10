@@ -1,0 +1,51 @@
+{
+  "slug": "svt",
+  "extension": "svt",
+  "name": "Torchlight Saved Game File",
+  "category": "torchlight-saved-game-file",
+  "developer_org": "runic-games",
+  "popularity": {
+    "rating": 2.7,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "A SVT files is a saved game file created by Torchlight, an action role-playing game. It stores player information such as the amount of experience, the game difficulty, the player's pet data, items, and gold. SVT files can be edited using SVTInfo, a program included in the Torchtools kit.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "torchtools",
+        "display_name": "TorchTools"
+      },
+      {
+        "software": "runic-games-torchlight",
+        "display_name": "Runic Games Torchlight"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-04-19",
+  "sources": [
+    {
+      "url": "svt.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "slug": "schemas",
+  "extension": "schemas",
+  "name": "GConf Schema Definition File",
+  "category": "gconf-schema-definition-file",
+  "developer_org": "the-gnome-project",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "File used by GConf, a GNOME Desktop configuration tool; contains specifications for how application preference keys are defined, but does not contain actual application preferences; enables application settings to be generated in the GConf framework; saved to the /​etc/​gconf/​schemas/​ directory and often installed with application packages.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "linux": [
+      {
+        "software": "gconf",
+        "display_name": "GConf"
+      },
+      {
+        "software": "gedit",
+        "display_name": "gedit"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "windows": [
+      {
+        "software": "gconf",
+        "display_name": "GConf"
+      },
+      {
+        "software": "gedit",
+        "display_name": "gedit"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-08-01",
+  "sources": [
+    {
+      "url": "schemas.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

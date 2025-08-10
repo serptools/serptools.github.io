@@ -1,0 +1,47 @@
+{
+  "slug": "fti",
+  "extension": "fti",
+  "name": "FamiTracker Instrument File",
+  "category": "famitracker-instrument-file",
+  "developer_org": "jsr",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Instrument file used by FamiTracker, a music creation program designed for creating music for the original Nintendo Entertainment System (NES); contains instrument properties, such as volume, pitch, and arpeggio settings. Referenced when playing back the corresponding sample (such as a .DMC file) within a FamiTracker song.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "famitracker",
+        "display_name": "FamiTracker"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-06-30",
+  "sources": [
+    {
+      "url": "fti.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

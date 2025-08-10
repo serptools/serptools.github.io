@@ -1,0 +1,47 @@
+{
+  "slug": "khd",
+  "extension": "khd",
+  "name": "Dynamics AX Kernel Help Data File",
+  "category": "dynamics-ax-kernel-help-data-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "Stores help documentation for the Microsoft Dynamics AX kernel ; contains information that can be accessed using the Dynamics AX online help system.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-dynamics-ax",
+        "display_name": "Microsoft Dynamics AX"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2008-08-29",
+  "sources": [
+    {
+      "url": "khd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

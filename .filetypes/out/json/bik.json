@@ -1,0 +1,90 @@
+{
+  "slug": "bik",
+  "extension": "bik",
+  "name": "Bink Video File",
+  "category": "1.-bink-video-file",
+  "developer_org": "rad-game-tools",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 156,
+    "source": "fileinfo"
+  },
+  "summary": "Proprietary video format developed by RAD Game Tools; used for playing movie clips in video games on both PCs and console systems; allows standard video to be highly compressed while optimizing video quality for the target platform.",
+  "standards": [],
+  "mime_types": [
+    "gnu/linux",
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "the-rad-video-tools",
+        "display_name": "The RAD Video Tools"
+      },
+      {
+        "software": "microsoft-windows-media-player-with-windows-7-codec-pack",
+        "display_name": "Microsoft Windows Media Player with Windows 7 Codec Pack"
+      },
+      {
+        "software": "rebellion-aliens-vs.-predator",
+        "display_name": "Rebellion Aliens vs. Predator"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "take-two-interactive-civilization-4",
+        "display_name": "Take-Two Interactive Civilization 4"
+      }
+    ],
+    "macos": [
+      {
+        "software": "the-bink-video-player-for-macos-x",
+        "display_name": "The Bink Video Player for MacOS X"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      }
+    ],
+    "linux": [
+      {
+        "software": "the-bink-video-player-for-gnu-linux",
+        "display_name": "The Bink Video Player for GNU/Linux"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-07-22",
+  "sources": [
+    {
+      "url": "bik.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

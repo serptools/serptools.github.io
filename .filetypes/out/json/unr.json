@@ -1,0 +1,47 @@
+{
+  "slug": "unr",
+  "extension": "unr",
+  "name": "Unreal Level Map",
+  "category": "unreal-level-map",
+  "developer_org": "epic-games",
+  "popularity": {
+    "rating": 4.3,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "A UNR file is a level map used by games built with the Unreal Engine, including Unreal and Unreal Tournament. It stores the layout, design, and details of a single game level, including objects, textures, lighting, and other elements that make up the environment. While Epic Games has replaced UNR files with newer formats, developers and modders previously created and modified UNR files when designing custom levels or modifying existing ones.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "epic-games-unrealed",
+        "display_name": "Epic Games UnrealEd"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2024-12-19",
+  "sources": [
+    {
+      "url": "unr.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

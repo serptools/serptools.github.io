@@ -1,0 +1,63 @@
+{
+  "slug": "dgk",
+  "extension": "dgk",
+  "name": "Delcam 3D Model File",
+  "category": "delcam-3d-model-file",
+  "developer_org": "delcam",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 14,
+    "source": "fileinfo"
+  },
+  "summary": "Three-dimensional model created by Delcam CAD programs, including PowerSHAPE, PowerMILL, CopyCAD, PowerInspect, and ArtCAM; contains the model geometry, which is comprised of wireframes, surfaces, and solids; used to save and load 3D designs.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "delcam-powershape",
+        "display_name": "Delcam PowerSHAPE"
+      },
+      {
+        "software": "delcam-powermill",
+        "display_name": "Delcam PowerMILL"
+      },
+      {
+        "software": "delcam-exchange",
+        "display_name": "Delcam Exchange"
+      },
+      {
+        "software": "delcam-copycad",
+        "display_name": "Delcam CopyCAD"
+      },
+      {
+        "software": "delcam-powerinspect",
+        "display_name": "Delcam PowerINSPECT"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-04-26",
+  "sources": [
+    {
+      "url": "dgk.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

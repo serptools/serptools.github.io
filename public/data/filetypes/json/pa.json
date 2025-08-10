@@ -1,0 +1,50 @@
+{
+  "slug": "pa",
+  "extension": "pa",
+  "name": "PowerArchiver Compressed File",
+  "category": "powerarchiver-compressed-file",
+  "summary": "",
+  "developer_org": "nova-development",
+  "developer_name": "Nova Development",
+  "more_information": {
+    "screenshot": {
+      "url": "https://fileinfo.com/img/ss/sm/pa_11331.png",
+      "alt": "Screenshot of a .pa file in ConeXware PowerArchiver 2022",
+      "caption": "PA file open in ConeXware PowerArchiver 2022"
+    },
+    "description": [
+      "ConeXware PowerArchiver is a utility for compressing, encrypting, and backing up data in Windows and macOS. The utility supports over 60 archive formats, besides the PA format, including .ZIP , .RAR , .7Z , .LZH , .GZIP , and .ARC .",
+      "ConeXware introduced the PowerArchiver Advanced Codec Pack format when it released PowerArchiver 2017. The format features two optimized compression modes: 1) \"Optimized Fast\" for faster compression and 2) \"Optimized Strong\" for stronger compression.",
+      "PowerArchiver uses the BWTS algorithm to mix data before AES encryption to better secure archives. This encryption method results in archives that are better protected than ZIP and 7Z AES archive formats."
+    ]
+  },
+  "common_filenames": [
+    {
+      "filename": "default.pa",
+      "description": "default.pa - PulseAudio's default startup script."
+    },
+    {
+      "filename": "system.pa",
+      "description": "system.pa - PulseAudio's system service-level startup script."
+    }
+  ],
+  "images": [
+    {
+      "url": "https://fileinfo.com/img/ss/sm/pa_11331.png",
+      "alt": "Screenshot of a .pa file in ConeXware PowerArchiver 2022",
+      "caption": "PA file open in ConeXware PowerArchiver 2022"
+    },
+    {
+      "url": "https://fileinfo.com/img/ss/sm/pa_12555.png",
+      "alt": "Screenshot of a .pa file in Microsoft Visual Studio Code",
+      "caption": "PA file open in Microsoft Visual Studio Code"
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "pa.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

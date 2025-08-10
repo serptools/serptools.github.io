@@ -1,0 +1,49 @@
+{
+  "slug": "0cc",
+  "extension": "0cc",
+  "name": "0CC-FamiTracker Module",
+  "category": "0cc-famitracker-module",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 16,
+    "source": "fileinfo"
+  },
+  "summary": "An 0CC file is a module used by 0CC-FamiTracker, a backwards compatible extension of the FamiTracker program used to produce music for Nintendo (NES) Famicom systems. It contains module data such as instruments and patterns, which are notes that comprise the melody.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "0cc-famitracker",
+        "display_name": "0CC-FamiTracker"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2016-12-29",
+  "sources": [
+    {
+      "url": "0cc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "nrb",
+  "extension": "nrb",
+  "name": "Nero CD-ROM Boot Compilation",
+  "category": "nero-cd-rom-boot-compilation",
+  "developer_org": "nero",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "CD-ROM disc compilation used by Nero Burning ROM, a program included with the Nero Multimedia Suite; stores the data required to create a bootable CD-ROM; used for burning startup discs that run before the operating system is loaded.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "nero-2022",
+        "display_name": "Nero 2022"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-02-16",
+  "sources": [
+    {
+      "url": "nrb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

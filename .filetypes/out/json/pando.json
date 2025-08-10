@@ -1,0 +1,55 @@
+{
+  "slug": "pando",
+  "extension": "pando",
+  "name": "Pando File",
+  "category": "pando-file",
+  "developer_org": "pando-networks",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "Contains meta-data information of a file or group of files to be transferred using Pando, a program used to transfer files similarly to a BitTorrent client; used to reference other locations of the file/files to download from.",
+  "standards": [],
+  "mime_types": [
+    "file/files"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "pando-networks-pando",
+        "display_name": "Pando Networks Pando"
+      }
+    ],
+    "macos": [
+      {
+        "software": "pando-networks-pando",
+        "display_name": "Pando Networks Pando"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2013-11-16",
+  "sources": [
+    {
+      "url": "pando.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

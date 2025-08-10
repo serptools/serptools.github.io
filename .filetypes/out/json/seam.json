@@ -1,0 +1,87 @@
+{
+  "slug": "seam",
+  "extension": "seam",
+  "name": "Seam Framework Java Servlet File",
+  "category": "seam-framework-java-servlet-file",
+  "developer_org": "jboss",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 12,
+    "source": "fileinfo"
+  },
+  "summary": "File used by Java Web applications supported by the JBoss Seam Framework; stores a reference to a backend servlet, which processes requests to the Web application; used for serving pages to the user through a Web browser; often used with the JavaServer Facelets technology.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-internet-explorer",
+        "display_name": "Microsoft Internet Explorer",
+        "status": "discontinued"
+      },
+      {
+        "software": "apple-safari",
+        "display_name": "Apple Safari"
+      },
+      {
+        "software": "mozilla-firefox",
+        "display_name": "Mozilla Firefox"
+      }
+    ],
+    "web": [
+      {
+        "software": "web-browser",
+        "display_name": "Web browser"
+      },
+      {
+        "software": "microsoft-internet-explorer",
+        "display_name": "Microsoft Internet Explorer",
+        "status": "discontinued"
+      },
+      {
+        "software": "apple-safari",
+        "display_name": "Apple Safari"
+      },
+      {
+        "software": "mozilla-firefox",
+        "display_name": "Mozilla Firefox"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-safari",
+        "display_name": "Apple Safari"
+      }
+    ],
+    "linux": [
+      {
+        "software": "mozilla-firefox",
+        "display_name": "Mozilla Firefox"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-03-22",
+  "sources": [
+    {
+      "url": "seam.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

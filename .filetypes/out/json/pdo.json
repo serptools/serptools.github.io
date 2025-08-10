@@ -1,0 +1,66 @@
+{
+  "slug": "pdo",
+  "extension": "pdo",
+  "name": "Pepakura Designer File",
+  "category": "1.-pepakura-designer-file",
+  "developer_org": "tama-software",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 123,
+    "source": "fileinfo"
+  },
+  "summary": "A PDO file is a papercraft file created by Pepakura Designer, a program used to turn digital 3D models into physical papercraft models. It contains a 3D model and its corresponding 2D papercraft cutouts. The 2D cutouts that PDO files contain are meant to be printed, so a papercraft enthusiast can assemble the cutouts into a replica of the 3D model.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "tama-pepakura-designer",
+        "display_name": "Tama Pepakura Designer"
+      },
+      {
+        "software": "tama-pepakura-viewer",
+        "display_name": "Tama Pepakura Viewer"
+      },
+      {
+        "software": "iba-ibaanalyzer",
+        "display_name": "iba ibaAnalyzer"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "PDO file icon",
+      "alt": "PDO file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/pdo-5370.png"
+    },
+    {
+      "caption": "PDO file open in Pepakura Designer 4",
+      "alt": "PDO file open in Pepakura Designer 4",
+      "source_url": "https://fileinfo.com/img/ss/md/pdo_5370.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-11-01",
+  "sources": [
+    {
+      "url": "pdo.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

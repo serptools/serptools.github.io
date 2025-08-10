@@ -1,0 +1,95 @@
+{
+  "slug": "bzip",
+  "extension": "bzip",
+  "name": "Bzip Compressed Archive",
+  "category": "bzip-compressed-archive",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "File archive compressed with Bzip, a file compression tool included with some Unix systems; combines Run-Length Encoding (RLE) with the Burrows-Wheeler compression algorithm; slower than .GZIP compression, but compresses files more.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "smith-micro-stuffit-deluxe",
+        "display_name": "Smith Micro StuffIt Deluxe",
+        "status": "discontinued"
+      },
+      {
+        "software": "corel-winzip",
+        "display_name": "Corel WinZip"
+      },
+      {
+        "software": "rarlab-winrar",
+        "display_name": "RARLAB WinRAR"
+      },
+      {
+        "software": "bzip",
+        "display_name": "Bzip"
+      },
+      {
+        "software": "apple-archive-utility",
+        "display_name": "Apple Archive Utility"
+      },
+      {
+        "software": "bzip",
+        "display_name": "bzip"
+      },
+      {
+        "software": "bunzip",
+        "display_name": "bunzip"
+      }
+    ],
+    "macos": [
+      {
+        "software": "smith-micro-stuffit-deluxe-mac-16",
+        "display_name": "Smith Micro StuffIt Deluxe Mac 16",
+        "status": "discontinued"
+      },
+      {
+        "software": "apple-archive-utility",
+        "display_name": "Apple Archive Utility"
+      }
+    ],
+    "linux": [
+      {
+        "software": "bzip",
+        "display_name": "bzip"
+      },
+      {
+        "software": "bunzip",
+        "display_name": "bunzip"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-08-06",
+  "sources": [
+    {
+      "url": "bzip.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

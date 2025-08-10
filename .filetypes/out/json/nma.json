@@ -1,0 +1,69 @@
+{
+  "slug": "nma",
+  "extension": "nma",
+  "name": "NMEA Data File",
+  "category": "nmea-data-file",
+  "developer_org": "national-marine-electronics-association",
+  "popularity": {
+    "rating": 2.4,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "An NMA file is a data file saved in the NMEA (National Marine Electronics Association) format. It contains sentences in ASCII text that consist of latitude, longitude, and time values. NMA files are more commonly saved as .NMEA files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "gpsbabel",
+        "display_name": "GPSBabel"
+      },
+      {
+        "software": "nmea-to-kml-converter",
+        "display_name": "NMEA to KML converter"
+      }
+    ],
+    "macos": [
+      {
+        "software": "gpsbabel",
+        "display_name": "GPSBabel"
+      }
+    ],
+    "linux": [
+      {
+        "software": "gpsbabel",
+        "display_name": "GPSBabel"
+      }
+    ],
+    "web": [
+      {
+        "software": "nmea-to-kml-converter",
+        "display_name": "NMEA to KML converter"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-05-25",
+  "sources": [
+    {
+      "url": "nma.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

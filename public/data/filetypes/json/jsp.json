@@ -1,0 +1,36 @@
+{
+  "slug": "jsp",
+  "extension": "jsp",
+  "name": "Jakarta Server Page",
+  "category": "jakarta-server-page",
+  "summary": "",
+  "developer_org": "eclipse-foundation",
+  "developer_name": "Eclipse Foundation",
+  "more_information": {
+    "screenshot": {
+      "url": "https://fileinfo.com/img/ss/sm/jsp_225.png",
+      "alt": "Screenshot of a .jsp file in Microsoft Visual Studio Code",
+      "caption": "JSP file open in Microsoft Visual Studio Code"
+    },
+    "description": [
+      "Jakarta Server Pages is a standard and set of technologies that developers use to create dynamically-generated webpages. Developers write these webpages using Java code, as well as HTML and XML syntax.",
+      "JSP files typically contain only Java and HTML content. Any web server that includes a JSP-compatible servlet container, such as Apache Tomcat or Jetty, can render a JSP file as a webpage in users' web browsers.",
+      "However, were a user to view a processed JSP webpage's source code in their browser, the user would see only HTML code. When a web server processes a JSP file, it dynamically translates the Java code the file contains into HTML. The user's web browser then renders this fully-HTML version of the webpage.",
+      "NOTE: JSP files were formerly known as JavaServer Pages. The Eclipse Foundation rebranded Java Enterprise Edition as Jakarta Enterprise Edition in 2018."
+    ]
+  },
+  "images": [
+    {
+      "url": "https://fileinfo.com/img/ss/sm/jsp_225.png",
+      "alt": "Screenshot of a .jsp file in Microsoft Visual Studio Code",
+      "caption": "JSP file open in Microsoft Visual Studio Code"
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "jsp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

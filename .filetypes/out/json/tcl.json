@@ -1,0 +1,125 @@
+{
+  "slug": "tcl",
+  "extension": "tcl",
+  "name": "Tcl Script",
+  "category": "tcl-script",
+  "developer_org": "tcl-developer-xchange",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 16,
+    "source": "fileinfo"
+  },
+  "summary": "A TCL file is a script written in the Tool Command Language (Tcl), a lightweight scripting language designed for issuing commands to programs and automating tasks. Developers use TCL files to automate processes, test applications, build user interfaces (often with the help of the Tk toolkit), or extend the functionality of tools like EDA (Electronic Design Automation) software, network routers, and simulation systems.",
+  "standards": [],
+  "mime_types": [
+    "tcl/tk"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "pspad",
+        "display_name": "PSPad"
+      },
+      {
+        "software": "tcl-tk",
+        "display_name": "Tcl/Tk"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "bare-bones-bbedit",
+        "display_name": "Bare Bones BBEdit"
+      },
+      {
+        "software": "gedit",
+        "display_name": "gedit"
+      },
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      }
+    ],
+    "macos": [
+      {
+        "software": "macromates-textmate",
+        "display_name": "MacroMates TextMate"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "bare-bones-bbedit",
+        "display_name": "Bare Bones BBEdit"
+      },
+      {
+        "software": "tcl-tk",
+        "display_name": "Tcl/Tk"
+      }
+    ],
+    "android": [
+      {
+        "software": "file-viewer-for-android",
+        "display_name": "File Viewer for Android"
+      }
+    ],
+    "linux": [
+      {
+        "software": "gedit",
+        "display_name": "gedit"
+      },
+      {
+        "software": "tcl-tk",
+        "display_name": "Tcl/Tk"
+      }
+    ],
+    "web": [
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2025-06-05",
+  "sources": [
+    {
+      "url": "tcl.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

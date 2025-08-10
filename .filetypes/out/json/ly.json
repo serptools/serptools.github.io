@@ -1,0 +1,59 @@
+{
+  "slug": "ly",
+  "extension": "ly",
+  "name": "LilyPond File",
+  "category": "lilypond-file",
+  "developer_org": "gnu",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "Input file for LilyPond, a musical score creation program; contains header information, such as the title and composer, followed by one or more musical scores; each score includes the clef, time, and key, followed by a list of notes and note durations.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "gnu-lilypond",
+        "display_name": "GNU LilyPond"
+      }
+    ],
+    "macos": [
+      {
+        "software": "gnu-lilypond",
+        "display_name": "GNU LilyPond"
+      }
+    ],
+    "linux": [
+      {
+        "software": "gnu-lilypond",
+        "display_name": "GNU LilyPond"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-12-07",
+  "sources": [
+    {
+      "url": "ly.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

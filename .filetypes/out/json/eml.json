@@ -1,0 +1,145 @@
+{
+  "slug": "eml",
+  "extension": "eml",
+  "name": "E-Mail Message",
+  "category": "e-mail-message",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 639,
+    "source": "fileinfo"
+  },
+  "summary": "An EML file is an email message saved by an email application, such as Microsoft Outlook or Apple Mail. It contains the content of the message, along with the subject, sender, recipient(s), and date of the message. EML files may also store one or more email attachments, which are files sent with the message.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "microsoft-outlook-365",
+        "display_name": "Microsoft Outlook 365"
+      },
+      {
+        "software": "microsoft-internet-explorer",
+        "display_name": "Microsoft Internet Explorer",
+        "status": "discontinued"
+      },
+      {
+        "software": "mozilla-thunderbird",
+        "display_name": "Mozilla Thunderbird"
+      },
+      {
+        "software": "encryptomatic-message-viewer-lite",
+        "display_name": "Encryptomatic Message Viewer Lite"
+      },
+      {
+        "software": "mozilla-seamonkey",
+        "display_name": "Mozilla SeaMonkey"
+      },
+      {
+        "software": "aryson-eml-converter",
+        "display_name": "Aryson EML Converter"
+      },
+      {
+        "software": "edbmails",
+        "display_name": "EdbMails"
+      },
+      {
+        "software": "apple-mail",
+        "display_name": "Apple Mail"
+      },
+      {
+        "software": "regain-eml-to-pst-converter",
+        "display_name": "Regain EML to PST Converter"
+      },
+      {
+        "software": "kmail",
+        "display_name": "KMail"
+      }
+    ],
+    "android": [
+      {
+        "software": "file-viewer-for-android",
+        "display_name": "File Viewer for Android"
+      }
+    ],
+    "macos": [
+      {
+        "software": "microsoft-outlook-365",
+        "display_name": "Microsoft Outlook 365"
+      },
+      {
+        "software": "apple-mail",
+        "display_name": "Apple Mail"
+      },
+      {
+        "software": "mozilla-thunderbird",
+        "display_name": "Mozilla Thunderbird"
+      },
+      {
+        "software": "mozilla-seamonkey",
+        "display_name": "Mozilla SeaMonkey"
+      },
+      {
+        "software": "aryson-eml-converter",
+        "display_name": "Aryson EML Converter"
+      },
+      {
+        "software": "regain-eml-to-pst-converter",
+        "display_name": "Regain EML to PST Converter"
+      }
+    ],
+    "linux": [
+      {
+        "software": "mozilla-thunderbird",
+        "display_name": "Mozilla Thunderbird"
+      },
+      {
+        "software": "mozilla-seamonkey",
+        "display_name": "Mozilla SeaMonkey"
+      },
+      {
+        "software": "kmail",
+        "display_name": "KMail"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "EML file icon",
+      "alt": "EML file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/eml-135.png"
+    },
+    {
+      "caption": "EML file open in Microsoft Mail",
+      "alt": "EML file open in Microsoft Mail",
+      "source_url": "https://fileinfo.com/img/ss/md/eml_135.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-05-03",
+  "sources": [
+    {
+      "url": "eml.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

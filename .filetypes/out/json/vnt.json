@@ -1,0 +1,85 @@
+{
+  "slug": "vnt",
+  "extension": "vnt",
+  "name": "Mobile Phone vNote File",
+  "category": "mobile-phone-vnote-file",
+  "developer_org": "sony-ericsson",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 92,
+    "source": "fileinfo"
+  },
+  "summary": "Text note format used by various cell phones, such as the S Memo app on Samsung Android devices or the Notes application on Sony Ericsson mobile phones; saved in a text format with a header that starts with \"BEGIN:VNOTE\" and ends with \"END:VNOTE.\"",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "blocksoft-memoblock",
+        "display_name": "BlockSoft MemoBlock"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "samsung-s-memo",
+        "display_name": "Samsung S Memo",
+        "status": "discontinued"
+      }
+    ],
+    "macos": [
+      {
+        "software": "blocksoft-memoblock",
+        "display_name": "BlockSoft MemoBlock"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "android": [
+      {
+        "software": "samsung-s-memo",
+        "display_name": "Samsung S Memo",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-09-11",
+  "sources": [
+    {
+      "url": "vnt.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

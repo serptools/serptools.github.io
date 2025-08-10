@@ -1,0 +1,22 @@
+{
+  "slug": "stb",
+  "extension": "stb",
+  "name": "AutoCAD Plot Style Table File",
+  "category": "autocad-plot-style-table-file",
+  "summary": "",
+  "developer_org": "autodesk",
+  "developer_name": "Autodesk",
+  "more_information": {
+    "description": [
+      "STB files were developed to abstract plot styles from color-based layer styles to object-based property styles, which allows greater flexibility and portability of designs. Color-based styles are defined by .CTB files, and cannot be mixed with STB files in AutoCAD projects.",
+      "CTB files may be converted to STB files using AutoCAD."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "stb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

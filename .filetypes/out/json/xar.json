@@ -1,0 +1,109 @@
+{
+  "slug": "xar",
+  "extension": "xar",
+  "name": "Xara Xtreme Drawing",
+  "category": "1.-xara-xtreme-drawing",
+  "developer_org": "magix",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 20,
+    "source": "fileinfo"
+  },
+  "summary": "Vector format used by Xara Xtreme and its predecessors, Xara X, CorelXARA, and Xara Photo & Graphic Designer; also created by Xara Designer Pro; can be used for editing photos, creating illustrations, and developing Web graphics; previously known as the Flare file format.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "xara-designer-pro",
+        "display_name": "Xara Designer Pro"
+      },
+      {
+        "software": "xara-photo-graphic-designer",
+        "display_name": "Xara Photo & Graphic Designer"
+      },
+      {
+        "software": "tools-options",
+        "display_name": "Tools → Options"
+      },
+      {
+        "software": "excel-options-save",
+        "display_name": "Excel Options → Save"
+      },
+      {
+        "software": "file-options-save",
+        "display_name": "File → Options → Save"
+      },
+      {
+        "software": "c-documents-and-settings-username-application-data-microsoft-excel",
+        "display_name": "C:\\​Documents and Settings\\​[username]\\​Application Data\\​Microsoft\\​Excel"
+      },
+      {
+        "software": "c-users-username-appdata-roaming-microsoft-excel",
+        "display_name": "C:\\​Users\\​[username]\\​AppData\\​Roaming\\​Microsoft\\​Excel"
+      },
+      {
+        "software": "microsoft-excel-365",
+        "display_name": "Microsoft Excel 365"
+      },
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "7-zip",
+        "display_name": "7-Zip"
+      }
+    ],
+    "linux": [
+      {
+        "software": "xara-xtreme-for-linux",
+        "display_name": "Xara Xtreme for Linux"
+      },
+      {
+        "software": "xar",
+        "display_name": "xar"
+      }
+    ],
+    "macos": [
+      {
+        "software": "microsoft-excel-365",
+        "display_name": "Microsoft Excel 365"
+      },
+      {
+        "software": "xar",
+        "display_name": "xar"
+      },
+      {
+        "software": "incredible-bee-archiver",
+        "display_name": "Incredible Bee Archiver"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2016-10-10",
+  "sources": [
+    {
+      "url": "xar.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

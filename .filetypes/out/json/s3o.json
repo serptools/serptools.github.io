@@ -1,0 +1,71 @@
+{
+  "slug": "s3o",
+  "extension": "s3o",
+  "name": "Spring 3D Object",
+  "category": "spring-3d-object",
+  "developer_org": "spring-engine-team",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "An S3O file is a 3D model used by games with the Spring RTS game engine, such as Evolution RTS, On The Edge, and Zero-K. It contains model information in the Spring 3D Object (S3O) format that dictates the shape of an object, such as a vehicle, item, or character. S3O files are not meant to be opened (the game loads them), but users may open them to modify their appearance with an editor (e.g., Blender with an S3O plugin ).",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "spring-rts-engine",
+        "display_name": "Spring RTS Engine"
+      },
+      {
+        "software": "blender-with-s3o-plugin",
+        "display_name": "Blender with S3O plugin"
+      }
+    ],
+    "macos": [
+      {
+        "software": "spring-rts-engine",
+        "display_name": "Spring RTS Engine"
+      },
+      {
+        "software": "blender-with-s3o-plugin",
+        "display_name": "Blender with S3O plugin"
+      }
+    ],
+    "linux": [
+      {
+        "software": "spring-rts-engine",
+        "display_name": "Spring RTS Engine"
+      },
+      {
+        "software": "blender-with-s3o-plugin",
+        "display_name": "Blender with S3O plugin"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2024-09-19",
+  "sources": [
+    {
+      "url": "s3o.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

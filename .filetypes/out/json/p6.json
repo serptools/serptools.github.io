@@ -1,0 +1,97 @@
+{
+  "slug": "p6",
+  "extension": "p6",
+  "name": "Perl 6 Source Code File",
+  "category": "perl-6-source-code-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 2.8,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "Source code file written in Perl 6, a variant of the Perl language similar to Perl 5 but with small variations in syntax and language features; should be compiled with a Perl compiler that supports Perl 6.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "rakudo",
+        "display_name": "Rakudo"
+      },
+      {
+        "software": "niecza",
+        "display_name": "Niecza"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "rakudo",
+        "display_name": "Rakudo"
+      }
+    ],
+    "linux": [
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "rakudo",
+        "display_name": "Rakudo"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-10-04",
+  "sources": [
+    {
+      "url": "p6.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

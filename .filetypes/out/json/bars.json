@@ -1,0 +1,67 @@
+{
+  "slug": "bars",
+  "extension": "bars",
+  "name": "Binary Audio Resource Archive",
+  "category": "binary-audio-resource-archive",
+  "developer_org": "nintendo",
+  "popularity": {
+    "rating": 2.7,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "A BARS file contains audio used by a Nintendo Wii U or Switch video game. It may be saved as a .SARC archive, or it may be saved as a chunked file. Games created before The Legend of Zelda: Breath of the Wild use BARS files saved as archives; BOTW and later games use chunked BARS files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "bars-to-bwav",
+        "display_name": "BARS to BWAV"
+      },
+      {
+        "software": "vgmtoolbox",
+        "display_name": "VGMToolbox"
+      },
+      {
+        "software": "sarctools",
+        "display_name": "SARCTools"
+      }
+    ],
+    "macos": [
+      {
+        "software": "bars-to-bwav",
+        "display_name": "BARS to BWAV"
+      }
+    ],
+    "linux": [
+      {
+        "software": "bars-to-bwav",
+        "display_name": "BARS to BWAV"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-08-17",
+  "sources": [
+    {
+      "url": "bars.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

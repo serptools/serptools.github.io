@@ -1,0 +1,53 @@
+{
+  "slug": "copreset",
+  "extension": "copreset",
+  "name": "Capture One Preset File",
+  "category": "capture-one-preset-file",
+  "developer_org": "phase-one",
+  "popularity": {
+    "rating": 4.3,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "Settings file used by Capture One, a professional photo editing and management application; saves presets that can be applied to multiple photos; can be included in a style ( .COSTYLE ) with other presets.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "phase-one-capture-one",
+        "display_name": "Phase One Capture One"
+      }
+    ],
+    "macos": [
+      {
+        "software": "phase-one-capture-one",
+        "display_name": "Phase One Capture One"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-06-27",
+  "sources": [
+    {
+      "url": "copreset.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

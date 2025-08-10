@@ -1,0 +1,59 @@
+{
+  "slug": "ipod",
+  "extension": "ipod",
+  "name": "Rockbox Firmware File",
+  "category": "rockbox-firmware-file",
+  "developer_org": "rockbox",
+  "popularity": {
+    "rating": 2.8,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "System file used by Rockbox, a custom firmware for iPods, SanDisk MP3 players, and other portable music players; saves system-level data and bootloader binaries that are used to run the operating system.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "rockbox-utility",
+        "display_name": "Rockbox Utility"
+      }
+    ],
+    "macos": [
+      {
+        "software": "rockbox-utility",
+        "display_name": "Rockbox Utility"
+      }
+    ],
+    "linux": [
+      {
+        "software": "rockbox-utility",
+        "display_name": "Rockbox Utility"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-09-28",
+  "sources": [
+    {
+      "url": "ipod.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "slug": "code-workspace",
+  "extension": "code-workspace",
+  "name": "Microsoft Visual Studio Code Multi-root Workspace",
+  "category": "microsoft-visual-studio-code-multi-root-workspace",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "A CODE-WORKSPACE file is a multi-root workspace created in Microsoft Visual Studio Code. It contains references to the root folders included in a Visual Studio Code workspace. CODE-WORKSPACE files are created by selecting File → Save Workspace As... from Visual Studio Code's menu bar.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "CODE-WORKSPACE file open in Microsoft Visual Studio Code",
+      "alt": "CODE-WORKSPACE file open in Microsoft Visual Studio Code",
+      "source_url": "https://fileinfo.com/img/ss/md/code-workspace_11896.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-01-28",
+  "sources": [
+    {
+      "url": "code-workspace.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

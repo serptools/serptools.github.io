@@ -1,0 +1,22 @@
+{
+  "slug": "blend2",
+  "extension": "blend2",
+  "name": "Blender Document Backup 2 File",
+  "category": "blender-document-backup-2-file",
+  "summary": "",
+  "developer_org": "blender",
+  "developer_name": "Blender",
+  "more_information": {
+    "description": [
+      "Blender will make as many backup copies of the BLEND document as specified in the user application preferences. Therefore, you may see \".blend1,\" \".blend2,\" \".blend3,\" etc. files alongside your current \".blend\" file for as many times as you use the application save operation.",
+      "To restore a BLEND2 file to a Blender document, rename the file extension from \".blend2\" to \".blend\" and open it normally."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "blend2.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

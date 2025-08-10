@@ -1,0 +1,59 @@
+{
+  "slug": "nvt3",
+  "extension": "nvt3",
+  "name": "NetVue Security Camera Video",
+  "category": "netvue-security-camera-video",
+  "developer_org": "netvue",
+  "popularity": {
+    "rating": 2.3,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "An NVT3 file is a video that contains footage captured by a NetVue home security camera (typically in response to sensing motion). NetVue cameras save NVT3 files to their included SD card . To watch NVT3 videos, users must remove their camera's SD card, connect the SD card to their computer, and play the videos with NetVue's NVT Player.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      },
+      {
+        "software": "netvue-nvt3-converter",
+        "display_name": "Netvue NVT3 Converter"
+      }
+    ],
+    "macos": [
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-12-28",
+  "sources": [
+    {
+      "url": "nvt3.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

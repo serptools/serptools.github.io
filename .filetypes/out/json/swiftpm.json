@@ -1,0 +1,75 @@
+{
+  "slug": "swiftpm",
+  "extension": "swiftpm",
+  "name": "Swift Playgrounds App Project",
+  "category": "1.-swift-playgrounds-app-project",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "A SWIFTPM file is a Swift Playgrounds app project. It contains .SWIFT source code files and other project resources. Developers create SWIFTPM files using Apple Swift Playgrounds for iPad and Apple Xcode. If you have Swift Playgrounds or Xcode installed, SWIFTPM files appear as macOS packages . Otherwise, they appear as directories.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "apple-xcode",
+        "display_name": "Apple Xcode"
+      },
+      {
+        "software": "apple-swift-playgrounds",
+        "display_name": "Apple Swift Playgrounds"
+      },
+      {
+        "software": "not-meant-to-be-opened",
+        "display_name": "Not meant to be opened"
+      }
+    ],
+    "windows": [
+      {
+        "software": "apple-xcode",
+        "display_name": "Apple Xcode"
+      },
+      {
+        "software": "apple-swift-playgrounds",
+        "display_name": "Apple Swift Playgrounds"
+      },
+      {
+        "software": "not-meant-to-be-opened",
+        "display_name": "Not meant to be opened"
+      }
+    ],
+    "ios": [
+      {
+        "software": "apple-swift-playgrounds",
+        "display_name": "Apple Swift Playgrounds"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-04-25",
+  "sources": [
+    {
+      "url": "swiftpm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

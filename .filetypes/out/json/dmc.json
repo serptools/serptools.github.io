@@ -1,0 +1,73 @@
+{
+  "slug": "dmc",
+  "extension": "dmc",
+  "name": "Datamartist Data Canvas File",
+  "category": "1.-datamartist-data-canvas-file",
+  "developer_org": "nmodal-solutions",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 20,
+    "source": "fileinfo"
+  },
+  "summary": "Document file created Datamartist, a data profiling tool used to analyze, combine, and manage data from multiple sources; can contain internal data sets as well as data transformation specifications in the form of transform blocks and connections between them.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "nmodal-solutions-datamartist",
+        "display_name": "nModal Solutions Datamartist"
+      },
+      {
+        "software": "famitracker",
+        "display_name": "FamiTracker"
+      },
+      {
+        "software": "sage-medical-manager",
+        "display_name": "Sage Medical Manager"
+      },
+      {
+        "software": "daz-3d-mimic",
+        "display_name": "DAZ 3D Mimic"
+      }
+    ],
+    "linux": [
+      {
+        "software": "sage-medical-manager",
+        "display_name": "Sage Medical Manager"
+      }
+    ],
+    "macos": [
+      {
+        "software": "daz-3d-mimic",
+        "display_name": "DAZ 3D Mimic"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-06-24",
+  "sources": [
+    {
+      "url": "dmc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

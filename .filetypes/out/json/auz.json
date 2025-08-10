@@ -1,0 +1,59 @@
+{
+  "slug": "auz",
+  "extension": "auz",
+  "name": "Ableton Authorization File",
+  "category": "ableton-authorization-file",
+  "developer_org": "ableton",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 15,
+    "source": "fileinfo"
+  },
+  "summary": "An AUZ file is a software license file used by Ableton Live, an audio production application used to create electronic audio mixes. It contains a registration key that allows users to authorize a legally-obtained copy of Ableton Live. Users can double-click AUZ files to complete their authorization.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "ableton-live",
+        "display_name": "Ableton Live"
+      }
+    ],
+    "macos": [
+      {
+        "software": "ableton-live",
+        "display_name": "Ableton Live"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "AUZ file icon",
+      "alt": "AUZ file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/auz-6695.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-01-15",
+  "sources": [
+    {
+      "url": "auz.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

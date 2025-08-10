@@ -1,0 +1,109 @@
+{
+  "slug": "ini",
+  "extension": "ini",
+  "name": "Windows Initialization File",
+  "category": "1.-windows-initialization-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 243,
+    "source": "fileinfo"
+  },
+  "summary": "An INI file is a configuration file used by Windows programs to initialize program settings. It contains sections for settings and preferences (delimited by a string in square brackets) with each section containing one or more name and value parameters.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "microsoft-windows",
+        "display_name": "Microsoft Windows"
+      },
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "microsoft-wordpad",
+        "display_name": "Microsoft WordPad"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "parallels-desktop-for-mac-with-windows-installed",
+        "display_name": "Parallels Desktop for Mac with Windows installed"
+      },
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      },
+      {
+        "software": "makemusic-finale",
+        "display_name": "MakeMusic Finale"
+      },
+      {
+        "software": "fmj-software-awave-studio",
+        "display_name": "FMJ-Software Awave Studio"
+      }
+    ],
+    "android": [
+      {
+        "software": "file-viewer-for-android",
+        "display_name": "File Viewer for Android"
+      }
+    ],
+    "web": [
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      }
+    ],
+    "macos": [
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "makemusic-finale",
+        "display_name": "MakeMusic Finale"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "INI file icon",
+      "alt": "INI file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/ini-41.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-02-26",
+  "sources": [
+    {
+      "url": "ini.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

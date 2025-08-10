@@ -1,0 +1,59 @@
+{
+  "slug": "lightkeyfxt",
+  "extension": "lightkeyfxt",
+  "name": "Lightkey Fixture File",
+  "category": "lightkey-fixture-file",
+  "developer_org": "monospace",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "A LIGHTKEYFXT file contains a profile for a light fixture used by Lightkey, a professional program used to configure and control DMX-compatible lighting fixtures for various types of venues. It stores profile information, which includes the name and model of the light fixture, along with the number of channels the fixture uses, and the beam, pan, and tilt properties of the fixture. LIGHTKEYFXT files may also contain user-entered comments.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "monospace-lightkey",
+        "display_name": "Monospace Lightkey"
+      }
+    ],
+    "windows": [
+      {
+        "software": "monospace-lightkey",
+        "display_name": "Monospace Lightkey"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "LIGHTKEYFXT file open in Monospace Lightkey 3",
+      "alt": "LIGHTKEYFXT file open in Monospace Lightkey 3",
+      "source_url": "https://fileinfo.com/img/ss/md/lightkeyfxt_11398.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-11-05",
+  "sources": [
+    {
+      "url": "lightkeyfxt.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

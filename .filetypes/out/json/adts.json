@@ -1,0 +1,77 @@
+{
+  "slug": "adts",
+  "extension": "adts",
+  "name": "Audio Data Transport Stream File",
+  "category": "audio-data-transport-stream-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 2.3,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "Audio file created in the Audio Data Transport Stream (ADTS) format; stores a series of audio frames, each of which includes a segment of the overall audio data to be transported; often used for streaming .AAC audio on the Internet.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-media-player",
+        "display_name": "Microsoft Media Player"
+      },
+      {
+        "software": "microsoft-windows-media-player",
+        "display_name": "Microsoft Windows Media Player"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "shedworx-smart-converter",
+        "display_name": "ShedWorx Smart Converter"
+      }
+    ],
+    "macos": [
+      {
+        "software": "shedworx-smart-converter",
+        "display_name": "ShedWorx Smart Converter"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      }
+    ],
+    "linux": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-01-25",
+  "sources": [
+    {
+      "url": "adts.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

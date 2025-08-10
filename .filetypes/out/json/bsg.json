@@ -1,0 +1,59 @@
+{
+  "slug": "bsg",
+  "extension": "bsg",
+  "name": "Besiege Machine File",
+  "category": "besiege-machine-file",
+  "developer_org": "spiderling-studios",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "A BSG file contains a machine created by Spiderling Studios Besiege, a medieval game where players build machines to destroy castles. It stores information about a machine, typically a vehicle, in XML format.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "ios": [
+      {
+        "software": "spiderling-studios-besiege",
+        "display_name": "Spiderling Studios Besiege"
+      }
+    ],
+    "windows": [
+      {
+        "software": "bsg-file-editor",
+        "display_name": "BSG File Editor"
+      }
+    ],
+    "web": [
+      {
+        "software": "bsg-file-editor",
+        "display_name": "BSG File Editor"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-11-30",
+  "sources": [
+    {
+      "url": "bsg.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "slug": "rng",
+  "extension": "rng",
+  "name": "Nokia Composer Ringtone",
+  "category": "1.-nokia-composer-ringtone",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "Monophonic ringtone format used by Nokia cell phones; can be created using the Nokia Composer program included with certain Nokia phones; because it is a monophonic format, only one note can be played at a time",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "audio-ware-ringtone-converter",
+        "display_name": "Audio-Ware Ringtone Converter"
+      },
+      {
+        "software": "syncro-soft-oxygen-xml-editor",
+        "display_name": "SyncRO Soft oXygen XML Editor"
+      },
+      {
+        "software": "apache-openoffice",
+        "display_name": "Apache OpenOffice"
+      }
+    ],
+    "macos": [
+      {
+        "software": "syncro-soft-oxygen-xml-editor",
+        "display_name": "SyncRO Soft oXygen XML Editor"
+      },
+      {
+        "software": "apache-openoffice",
+        "display_name": "Apache OpenOffice"
+      }
+    ],
+    "linux": [
+      {
+        "software": "syncro-soft-oxygen-xml-editor",
+        "display_name": "SyncRO Soft oXygen XML Editor"
+      },
+      {
+        "software": "apache-openoffice",
+        "display_name": "Apache OpenOffice"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2006",
+  "sources": [
+    {
+      "url": "rng.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

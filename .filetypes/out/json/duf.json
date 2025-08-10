@@ -1,0 +1,53 @@
+{
+  "slug": "duf",
+  "extension": "duf",
+  "name": "DAZ User File",
+  "category": "daz-user-file",
+  "developer_org": "daz-productions",
+  "popularity": {
+    "rating": 4.3,
+    "votes": 13,
+    "source": "fileinfo"
+  },
+  "summary": "3D modeling file created by DAZ Studio modeling software; contains character, shaping, pose, and shader materials; similar to the .DSF file but its assets cannot be referenced by any other file; used for sharing between users.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "daz-3d-daz-studio-4",
+        "display_name": "DAZ 3D DAZ Studio 4"
+      }
+    ],
+    "macos": [
+      {
+        "software": "daz-3d-daz-studio-4",
+        "display_name": "DAZ 3D DAZ Studio 4"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-04-17",
+  "sources": [
+    {
+      "url": "duf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "addism",
+  "extension": "addism",
+  "name": "Addism Data File",
+  "category": "addism-data-file",
+  "developer_org": "max-langer",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "An ADDISM file is a data file created by Addism, a calcualtor app for OS X. It is used to store calculation data, which includes calculation steps recorded automatically by the app or an optional title.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "max-langer-addism",
+        "display_name": "Max Langer Addism",
+        "status": "discontinued"
+      }
+    ],
+    "windows": [
+      {
+        "software": "max-langer-addism",
+        "display_name": "Max Langer Addism",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2016-06-15",
+  "sources": [
+    {
+      "url": "addism.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

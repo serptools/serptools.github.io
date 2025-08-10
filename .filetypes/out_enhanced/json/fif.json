@@ -1,0 +1,22 @@
+{
+  "slug": "fif",
+  "extension": "fif",
+  "name": "Fractal Image File",
+  "category": "fractal-image-file",
+  "summary": "",
+  "developer_org": "interwoven-systems",
+  "developer_name": "Interwoven Systems",
+  "more_information": {
+    "description": [
+      "FIF files are created using a lossy compression algorithm. The algorithm identifies common fractals within the original image and then reconstructs the image using the fractals. This allows FIF files to be compressed at ratios as high as 2500:1.",
+      "FIF files can be saved and loaded in Adobe Photoshop with the Genuine Fractals plug-in ."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "fif.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

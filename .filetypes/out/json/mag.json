@@ -1,0 +1,57 @@
+{
+  "slug": "mag",
+  "extension": "mag",
+  "name": "Access Diagram Shortcut File",
+  "category": "1.-access-diagram-shortcut-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.1,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "Shortcut created by Microsoft Access, a desktop RDBMS (Relational Database Management System) application; stores a shortcut to a diagram or chart created using an Access database; used for loading diagrams in Access without first having to open the database file.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-access-365",
+        "display_name": "Microsoft Access 365"
+      },
+      {
+        "software": "open-circuit-design-magic-vlsi-layout-tool",
+        "display_name": "Open Circuit Design Magic VLSI Layout Tool"
+      }
+    ],
+    "linux": [
+      {
+        "software": "open-circuit-design-magic-vlsi-layout-tool",
+        "display_name": "Open Circuit Design Magic VLSI Layout Tool"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-05-13",
+  "sources": [
+    {
+      "url": "mag.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

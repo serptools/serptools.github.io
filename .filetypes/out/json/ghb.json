@@ -1,0 +1,47 @@
+{
+  "slug": "ghb",
+  "extension": "ghb",
+  "name": "Lego Ghost Path File",
+  "category": "lego-ghost-path-file",
+  "developer_org": "high-voltage-software",
+  "popularity": {
+    "rating": 1.3,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "A GHB file is a ghost path file created by Lego Racers, a racing video game. It contains the path of a time trial race, which includes the starting position of the racer and the waypoints that the racer follows. GHB files are referenced by the game when a player wants to race against a previous race time in time trial mode.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "lego-racers",
+        "display_name": "Lego Racers"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-03-13",
+  "sources": [
+    {
+      "url": "ghb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

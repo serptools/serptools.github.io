@@ -1,0 +1,85 @@
+{
+  "slug": "xyt",
+  "extension": "xyt",
+  "name": "VivaVideo Effect",
+  "category": "vivavideo-effect",
+  "developer_org": "quvideo",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "An XYT file contains a video effect that can be applied in VivaVideo, a video editor for Android and iOS devices. For example, an XYT file may contain a filter, frame, or transition effect. VivaVideo stores XYT files in various subdirectories of its assets/​xiaoying directory.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "android": [
+      {
+        "software": "quvideo-vivavideo",
+        "display_name": "QuVideo VivaVideo"
+      },
+      {
+        "software": "quvideo-slideplus",
+        "display_name": "QuVideo SlidePlus"
+      },
+      {
+        "software": "quvideo-vivavideo-lite",
+        "display_name": "QuVideo VivaVideo Lite"
+      }
+    ],
+    "ios": [
+      {
+        "software": "quvideo-vivavideo",
+        "display_name": "QuVideo VivaVideo"
+      },
+      {
+        "software": "quvideo-slideplus",
+        "display_name": "QuVideo SlidePlus"
+      }
+    ],
+    "windows": [
+      {
+        "software": "quvideo-vivavideo",
+        "display_name": "QuVideo VivaVideo"
+      },
+      {
+        "software": "quvideo-slideplus",
+        "display_name": "QuVideo SlidePlus"
+      },
+      {
+        "software": "quvideo-vivavideo-lite",
+        "display_name": "QuVideo VivaVideo Lite"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "XYT file open in Apple TextEdit",
+      "alt": "XYT file open in Apple TextEdit",
+      "source_url": "https://fileinfo.com/img/ss/md/xyt_13438.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-08-01",
+  "sources": [
+    {
+      "url": "xyt.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

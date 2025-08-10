@@ -1,0 +1,29 @@
+{
+  "slug": "msp",
+  "extension": "msp",
+  "name": "Windows Installer Patch",
+  "category": "windows-installer-patch",
+  "summary": "",
+  "developer_org": "apple",
+  "developer_name": "Apple",
+  "more_information": {
+    "description": [
+      "Windows Installer is a program that Windows uses to install applications packaged within .MSI files. Developers who distribute their applications as MSI files must distribute patches for those applications as MSP files. Thus, if you've installed an application that was packaged within an MSI file, you may receive a patch packaged as an MSP file.",
+      "When you double-click an MSP file, Windows Installer installs the patch the MSP file contains. If, for some reason, you do not have the application with which the MSP file is associated installed, Windows will tell you it cannot install the MSP file."
+    ]
+  },
+  "images": [
+    {
+      "url": "https://fileinfo.com/img/ss/sm/msp_1216.png",
+      "alt": "Screenshot of a .msp file in XnViewMP",
+      "caption": "MSP file open in XnViewMP"
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "msp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "laz",
+  "extension": "laz",
+  "name": "Compressed LIDAR Data Exchange File",
+  "category": "compressed-lidar-data-exchange-file",
+  "developer_org": "rapidlasso",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "A LAZ file is a compressed .LAS (LIDAR Data Exchange) file. It has been compressed so it can more easily be stored and shared with others. LAZ files are typically less than 20 percent the size of the LAS file from which they were created.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "lastools",
+        "display_name": "LAStools"
+      }
+    ],
+    "macos": [
+      {
+        "software": "lastools",
+        "display_name": "LAStools"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-10-12",
+  "sources": [
+    {
+      "url": "laz.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

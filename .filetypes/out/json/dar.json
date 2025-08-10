@@ -1,0 +1,69 @@
+{
+  "slug": "dar",
+  "extension": "dar",
+  "name": "DAR Disk Archive",
+  "category": "1.-dar-disk-archive",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "A DAR file is an archive of a disk or group of files compressed with DAR (Disk ARchive) compression. It is used for creating split-archives and incremental backups. DAR files are designed as a replacement for the .TAR archive format.",
+  "standards": [],
+  "mime_types": [
+    "music/video",
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "linux": [
+      {
+        "software": "dar-disk-archive",
+        "display_name": "DAR (Disk Archive)"
+      },
+      {
+        "software": "kdar---the-kde-disk-archiver",
+        "display_name": "KDar - the KDE Disk Archiver"
+      }
+    ],
+    "windows": [
+      {
+        "software": "dar-disk-archive",
+        "display_name": "DAR (Disk Archive)"
+      },
+      {
+        "software": "kdar---the-kde-disk-archiver",
+        "display_name": "KDar - the KDE Disk Archiver"
+      },
+      {
+        "software": "sony-dvd-architect",
+        "display_name": "Sony DVD Architect",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-05-08",
+  "sources": [
+    {
+      "url": "dar.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

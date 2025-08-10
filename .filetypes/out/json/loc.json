@@ -1,0 +1,75 @@
+{
+  "slug": "loc",
+  "extension": "loc",
+  "name": "GPS Location File",
+  "category": "1.-gps-location-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 23,
+    "source": "fileinfo"
+  },
+  "summary": "Standard GPS location format that includes waypoints and related data; may be used to store saved locations and places of interests (POIs); supported by DeLorme Topo and other GPS/mapping programs.",
+  "standards": [],
+  "mime_types": [
+    "gps/mapping",
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "delorme-topo-usa",
+        "display_name": "DeLorme Topo USA"
+      },
+      {
+        "software": "topografix-easygps",
+        "display_name": "TopoGrafix EasyGPS"
+      },
+      {
+        "software": "ubisoft-trackmania",
+        "display_name": "Ubisoft Trackmania",
+        "status": "discontinued"
+      },
+      {
+        "software": "ubisoft-trackmania-2-canyon",
+        "display_name": "Ubisoft TrackMania 2: Canyon"
+      },
+      {
+        "software": "pck-studio",
+        "display_name": "PCK Studio"
+      },
+      {
+        "software": "arc-studio",
+        "display_name": "ARC Studio"
+      },
+      {
+        "software": "mcctoolchest",
+        "display_name": "MCCToolChest"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-10-07",
+  "sources": [
+    {
+      "url": "loc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

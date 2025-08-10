@@ -1,0 +1,53 @@
+{
+  "slug": "jnb",
+  "extension": "jnb",
+  "name": "SigmaPlot Notebook File",
+  "category": "sigmaplot-notebook-file",
+  "developer_org": "systat-software",
+  "popularity": {
+    "rating": 2.7,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "A JNB file contains a notebook created by SigmaPlot, a program used to analyze and visualize data with 2D and 3D graphs. It stores one or more worksheets of integrated data organized in columns and rows or as graphs. JNB files also include graph metadata .",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "systat-software-sigmaplot",
+        "display_name": "Systat Software SigmaPlot"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "JNB file open in Systat Software SigmaPlot 14",
+      "alt": "JNB file open in Systat Software SigmaPlot 14",
+      "source_url": "https://fileinfo.com/img/ss/md/jnb_11434.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-01-30",
+  "sources": [
+    {
+      "url": "jnb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "vph",
+  "extension": "vph",
+  "name": "VirtualPhotographer Custom Settings",
+  "category": "virtualphotographer-custom-settings",
+  "developer_org": "optikverve-labs",
+  "popularity": {
+    "rating": 3.2,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Preference file that stores user settings for the virtualPhotographer Photoshop plug-in; can be loaded within the plug-in to recall previously saved settings.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "adobe-photoshop-with-optikverve-labs-virtualphotographer-plugin",
+        "display_name": "Adobe Photoshop with OptikVerve Labs virtualPhotographer plugin"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-06-22",
+  "sources": [
+    {
+      "url": "vph.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

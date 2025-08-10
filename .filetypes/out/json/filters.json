@@ -1,0 +1,47 @@
+{
+  "slug": "filters",
+  "extension": "filters",
+  "name": "Visual C++ Project Filters File",
+  "category": "visual-c++-project-filters-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 4.3,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "File filter created by Visual C++, which is part of Microsoft's Visual Studio development software; contains ordering rules for displaying file types within the Visual Studio Solution Explorer panel; used for storing filter settings for a specific project.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-visual-studio-2022",
+        "display_name": "Microsoft Visual Studio 2022"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-07-07",
+  "sources": [
+    {
+      "url": "filters.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

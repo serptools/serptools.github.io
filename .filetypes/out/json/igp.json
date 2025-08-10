@@ -1,0 +1,51 @@
+{
+  "slug": "igp",
+  "extension": "igp",
+  "name": "Igor Published Music Notation File",
+  "category": "1.-igor-published-music-notation-file",
+  "developer_org": "noteheads",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "File created by Igor Engraver, a music notation application; stores the sheet music for a musical composition and may specify different instrumental parts; can be downloaded in a demo state, viewed with the Igor Reader application (also called NoteHeads Reader), and then purchased over the Internet using Igor Reader.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "noteheads-igor-reader",
+        "display_name": "NoteHeads Igor Reader"
+      },
+      {
+        "software": "intel-graphics-control-panel",
+        "display_name": "Intel Graphics Control Panel"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-09-24",
+  "sources": [
+    {
+      "url": "igp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

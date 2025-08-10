@@ -1,0 +1,47 @@
+{
+  "slug": "jrs",
+  "extension": "jrs",
+  "name": "Exchange Reserve Transaction Log File",
+  "category": "exchange-reserve-transaction-log-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 2.3,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "Transaction log file created by Microsoft Exchange, a popular messaging and collaboration program; serves as a placeholder for a transaction and is saved in the Exchange queue database.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-exchange-server",
+        "display_name": "Microsoft Exchange Server"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-07-31",
+  "sources": [
+    {
+      "url": "jrs.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

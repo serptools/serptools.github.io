@@ -1,0 +1,63 @@
+{
+  "slug": "av",
+  "extension": "av",
+  "name": "Final Draft AV Script",
+  "category": "1.-final-draft-av-script",
+  "developer_org": "final-draft",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 27,
+    "source": "fileinfo"
+  },
+  "summary": "An AV file is a document created by Final Draft AV (version 1), a word processor used to create screenplays for commercials, corporate videos, and documentaries. It contains a script, which includes dialogue, character information, scenes, and video and audio columns. AV files also include information about the script, such as the title, length, writer, director, and draft version.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "final-draft-av",
+        "display_name": "Final Draft AV"
+      },
+      {
+        "software": "yoosee-cmsclient",
+        "display_name": "Yoosee CMSClient"
+      },
+      {
+        "software": "samtech-gplayer",
+        "display_name": "SAMTECH GPlayer"
+      }
+    ],
+    "macos": [
+      {
+        "software": "final-draft-av",
+        "display_name": "Final Draft AV"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-06-30",
+  "sources": [
+    {
+      "url": "av.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

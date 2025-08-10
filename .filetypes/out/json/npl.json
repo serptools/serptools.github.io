@@ -1,0 +1,69 @@
+{
+  "slug": "npl",
+  "extension": "npl",
+  "name": "Nokia Playlist File",
+  "category": "1.-nokia-playlist-file",
+  "developer_org": "nokia",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 11,
+    "source": "fileinfo"
+  },
+  "summary": "Playlist of media files created with Nokia Multimedia Player, a media playback program included in the Nokia PC Suite; may include references to audio and video files, as well as multimedia message files, but does not contain the actual referenced files themselves.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "nokia-multimedia-player",
+        "display_name": "Nokia Multimedia Player"
+      },
+      {
+        "software": "xilinx-ise-design-suite",
+        "display_name": "Xilinx ISE Design Suite"
+      },
+      {
+        "software": "steinberg-cubase",
+        "display_name": "Steinberg Cubase"
+      },
+      {
+        "software": "steinberg-nuendo",
+        "display_name": "Steinberg Nuendo"
+      }
+    ],
+    "macos": [
+      {
+        "software": "steinberg-cubase",
+        "display_name": "Steinberg Cubase"
+      },
+      {
+        "software": "steinberg-nuendo",
+        "display_name": "Steinberg Nuendo"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2016-10-10",
+  "sources": [
+    {
+      "url": "npl.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

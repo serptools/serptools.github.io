@@ -1,0 +1,97 @@
+{
+  "slug": "tn3",
+  "extension": "tn3",
+  "name": "Tiny High-resolution Image",
+  "category": "tiny-high-resolution-image",
+  "developer_org": "atari",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 37,
+    "source": "fileinfo"
+  },
+  "summary": "A TN3 file is a bitmap image used by Atari ST computers, which Atari released in the late 1980s and early 1990s. It contains an RLE-compressed image that may or may not be animated. If the image is animated, the TNE3 file contains multiple bitmap frames and the animation sequence's speed and duration.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      },
+      {
+        "software": "logipole-konvertor",
+        "display_name": "Logipole Konvertor"
+      },
+      {
+        "software": "piotr-fusik-recoil",
+        "display_name": "Piotr Fusik RECOIL"
+      },
+      {
+        "software": "newera-graphics-converter-pro",
+        "display_name": "Newera Graphics Converter Pro"
+      }
+    ],
+    "macos": [
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      },
+      {
+        "software": "piotr-fusik-recoil",
+        "display_name": "Piotr Fusik RECOIL"
+      }
+    ],
+    "linux": [
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      },
+      {
+        "software": "piotr-fusik-recoil",
+        "display_name": "Piotr Fusik RECOIL"
+      }
+    ],
+    "web": [
+      {
+        "software": "piotr-fusik-recoil",
+        "display_name": "Piotr Fusik RECOIL"
+      }
+    ],
+    "android": [
+      {
+        "software": "piotr-fusik-recoil",
+        "display_name": "Piotr Fusik RECOIL"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "TN3 file open in RECOIL",
+      "alt": "TN3 file open in RECOIL",
+      "source_url": "https://fileinfo.com/img/ss/md/tn3_991.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-05-10",
+  "sources": [
+    {
+      "url": "tn3.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

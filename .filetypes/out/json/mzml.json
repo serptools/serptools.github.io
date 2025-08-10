@@ -1,0 +1,71 @@
+{
+  "slug": "mzml",
+  "extension": "mzml",
+  "name": "Mass Spectrometer Output File",
+  "category": "mass-spectrometer-output-file",
+  "developer_org": "hupo-proteomics-standards-initiative",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "An MZML file is a mass spectrometer output file saved in the mzML format. It contains XML-formatted mass spectrometry data. The mzML format is standard and open-source, so many mass spectrometry applications can create and open MZML files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "proteowizard",
+        "display_name": "ProteoWizard"
+      },
+      {
+        "software": "maxquant",
+        "display_name": "MaxQuant"
+      }
+    ],
+    "macos": [
+      {
+        "software": "maccoss-lab-software-skyline",
+        "display_name": "MacCoss Lab Software Skyline"
+      },
+      {
+        "software": "proteowizard",
+        "display_name": "ProteoWizard"
+      },
+      {
+        "software": "maxquant",
+        "display_name": "MaxQuant"
+      }
+    ],
+    "linux": [
+      {
+        "software": "proteowizard",
+        "display_name": "ProteoWizard"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-12-20",
+  "sources": [
+    {
+      "url": "mzml.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

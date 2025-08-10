@@ -1,0 +1,23 @@
+{
+  "slug": "pac",
+  "extension": "pac",
+  "name": "Proxy Auto-Config File",
+  "category": "proxy-auto-config-file",
+  "summary": "",
+  "developer_org": "yuke-s",
+  "developer_name": "Yuke's",
+  "more_information": {
+    "description": [
+      "PAC files are enabled in web browsers by entering the PAC file URL in the proxy connection settings, or by using the Web Proxy Auto-Discovery (WPAD) protocol. When executed, a PAC file returns a string with one or more proxy server URLs. PAC files are typically hosted on a web server and are named proxy.pac .",
+      "Since PAC files contain the configuration in plain text. You can use a text editor, such as Microsoft Notepad or Apple TextEdit to view or modify the files.",
+      "NOTE: The PAC file format was originally released in 1996 for use by Netscape Navigator 2.0."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "pac.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

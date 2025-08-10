@@ -1,0 +1,47 @@
+{
+  "slug": "qmod",
+  "extension": "qmod",
+  "name": "Beat Saber for Quest Mod",
+  "category": "beat-saber-for-quest-mod",
+  "developer_org": "darkuni",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "A QMOD file is a mod for the Oculus Quest version of Beat Saber, a virtual reality (VR) rhythm game in which players slice blocks in time to music. It contains a custom item or user interface element that can be added to the game. Players install QMOD files using BMBF, a modding application.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "bmbf",
+        "display_name": "BMBF"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-05-25",
+  "sources": [
+    {
+      "url": "qmod.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

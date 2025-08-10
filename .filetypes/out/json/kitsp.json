@@ -1,0 +1,82 @@
+{
+  "slug": "kitsp",
+  "extension": "kitsp",
+  "name": "KIT Scenarist Project",
+  "category": "kit-scenarist-project",
+  "developer_org": "dimkanovikov-labs",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "A KITSP file is a project file created by KIT Scenarist, a multiplatform screenwriting program. It contains a screenplay project, saved as a SQLite 3 database that contains XML and other data. KITSP files contain the project's text, page formatting information, and other notation.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "kit-scenarist",
+        "display_name": "KIT Scenarist"
+      }
+    ],
+    "macos": [
+      {
+        "software": "kit-scenarist",
+        "display_name": "KIT Scenarist"
+      }
+    ],
+    "linux": [
+      {
+        "software": "kit-scenarist",
+        "display_name": "KIT Scenarist"
+      }
+    ],
+    "ios": [
+      {
+        "software": "kit-scenarist",
+        "display_name": "KIT Scenarist"
+      }
+    ],
+    "android": [
+      {
+        "software": "kit-scenarist",
+        "display_name": "KIT Scenarist"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "KITSP file icon",
+      "alt": "KITSP file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/kitsp-12672.png"
+    },
+    {
+      "caption": "KITSP file open in KIT Scenarist",
+      "alt": "KITSP file open in KIT Scenarist",
+      "source_url": "https://fileinfo.com/img/ss/md/kitsp_12672.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-05-02",
+  "sources": [
+    {
+      "url": "kitsp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

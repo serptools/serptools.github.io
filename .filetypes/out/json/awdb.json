@@ -1,0 +1,47 @@
+{
+  "slug": "awdb",
+  "extension": "awdb",
+  "name": "Access Walker Database File",
+  "category": "access-walker-database-file",
+  "developer_org": "iss-data-security",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "Database file created by Access Walker, a program used to manage passwords and login information; securely stores sensitive data using AES and Blowfish encryption algorithms; used for storing confidential data that can only be retrieved with a single master password.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "iss-data-security-access-walker",
+        "display_name": "ISS Data Security Access Walker"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-09-15",
+  "sources": [
+    {
+      "url": "awdb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

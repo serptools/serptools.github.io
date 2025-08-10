@@ -1,0 +1,130 @@
+{
+  "slug": "adoc",
+  "extension": "adoc",
+  "name": "AsciiDoc Document",
+  "category": "asciidoc-document",
+  "developer_org": "stuart-rackham",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 41,
+    "source": "fileinfo"
+  },
+  "summary": "An ADOC file is an AsciiDoc text document. It is a plain text file that includes special syntax , represented by brackets, periods, colons, and other symbols. ADOC files' syntax allows them to be converted into formatted text files, such as .HTML or .EPUB files, by Asciidoctor and other text processors.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "asciidoctor",
+        "display_name": "Asciidoctor"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "github-atom",
+        "display_name": "GitHub Atom",
+        "status": "discontinued"
+      },
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      }
+    ],
+    "chromeos": [
+      {
+        "software": "google-chrome-text",
+        "display_name": "Google Chrome Text"
+      }
+    ],
+    "macos": [
+      {
+        "software": "asciidoctor",
+        "display_name": "Asciidoctor"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "github-atom",
+        "display_name": "GitHub Atom",
+        "status": "discontinued"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "asciidoctor",
+        "display_name": "Asciidoctor"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "github-atom",
+        "display_name": "GitHub Atom",
+        "status": "discontinued"
+      },
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "ADOC file open in Microsoft Visual Studio Code",
+      "alt": "ADOC file open in Microsoft Visual Studio Code",
+      "source_url": "https://fileinfo.com/img/ss/md/adoc_9993.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-05-18",
+  "sources": [
+    {
+      "url": "adoc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "slug": "dgc",
+  "extension": "dgc",
+  "name": "DGCA File Archive",
+  "category": "1.-dgca-file-archive",
+  "developer_org": "shin-ichi-tsuruta",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "Archive created by DGCA (DigitalGCodecArchiver), a file compression utility created by Japanese developer Shin-ichi Tsuruta; saves one or more files in a compressed format and can compress at better ratios than the .ZIP format.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      },
+      {
+        "software": "intuit-turbotax",
+        "display_name": "Intuit TurboTax"
+      }
+    ],
+    "macos": [
+      {
+        "software": "intuit-turbotax",
+        "display_name": "Intuit TurboTax"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-07-21",
+  "sources": [
+    {
+      "url": "dgc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

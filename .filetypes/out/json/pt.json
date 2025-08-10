@@ -1,0 +1,91 @@
+{
+  "slug": "pt",
+  "extension": "pt",
+  "name": "PyTorch Model",
+  "category": "1.-pytorch-model",
+  "developer_org": "meta",
+  "popularity": {
+    "rating": 4.3,
+    "votes": 11,
+    "source": "fileinfo"
+  },
+  "summary": "A PT file is a machine learning model created using PyTorch, an open-source machine learning library developed by Meta. It contains algorithms used to automatically perform a task, such as natural language processing or image identification. PT files can be imported into a variety of machine learning and algorithm-related applications.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "pytorch",
+        "display_name": "PyTorch"
+      },
+      {
+        "software": "cupscale",
+        "display_name": "Cupscale"
+      },
+      {
+        "software": "esrgan",
+        "display_name": "ESRGAN"
+      },
+      {
+        "software": "image_upscaling_algorithms",
+        "display_name": "Image_Upscaling_Algorithms"
+      },
+      {
+        "software": "panther",
+        "display_name": "Panther"
+      }
+    ],
+    "macos": [
+      {
+        "software": "pytorch",
+        "display_name": "PyTorch"
+      },
+      {
+        "software": "esrgan",
+        "display_name": "ESRGAN"
+      },
+      {
+        "software": "image_upscaling_algorithms",
+        "display_name": "Image_Upscaling_Algorithms"
+      }
+    ],
+    "linux": [
+      {
+        "software": "pytorch",
+        "display_name": "PyTorch"
+      },
+      {
+        "software": "esrgan",
+        "display_name": "ESRGAN"
+      },
+      {
+        "software": "image_upscaling_algorithms",
+        "display_name": "Image_Upscaling_Algorithms"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-06-02",
+  "sources": [
+    {
+      "url": "pt.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

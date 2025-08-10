@@ -1,0 +1,53 @@
+{
+  "slug": "qbmd",
+  "extension": "qbmd",
+  "name": "QuickBooks Backup File",
+  "category": "quickbooks-backup-file",
+  "developer_org": "intuit",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "Backup data file created by some Mac versions of QuickBooks, a small business accounting application; contains an exact copy of a company data file, which may have a .QB2007 or .QB2009 extension; used for restoring financial data in the event that the original data file becomes corrupted.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "intuit-quickbooks-pro",
+        "display_name": "Intuit QuickBooks Pro"
+      }
+    ],
+    "macos": [
+      {
+        "software": "intuit-quickbooks-for-mac",
+        "display_name": "Intuit QuickBooks for Mac"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-08-31",
+  "sources": [
+    {
+      "url": "qbmd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

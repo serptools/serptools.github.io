@@ -1,0 +1,47 @@
+{
+  "slug": "pvpf",
+  "extension": "pvpf",
+  "name": "Pet ville Save File",
+  "category": "pet-ville-save-file",
+  "developer_org": "zaplots",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "Saved game file created by Pet ville, a virtual pet game; contains the state of the dog, rabbit, or cat pet as well as the player's money; used for saving and loading game states.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "zaplots-pet-ville",
+        "display_name": "Zaplots Pet ville"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-01-07",
+  "sources": [
+    {
+      "url": "pvpf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

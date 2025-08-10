@@ -1,0 +1,71 @@
+{
+  "slug": "dis",
+  "extension": "dis",
+  "name": "Oracle Discoverer Workbook",
+  "category": "1.-oracle-discoverer-workbook",
+  "developer_org": "oracle",
+  "popularity": {
+    "rating": 2.9,
+    "votes": 12,
+    "source": "fileinfo"
+  },
+  "summary": "File created by Oracle Discoverer, a spreadsheet program; stores a workbook, which may be comprised of multiple populated spreadsheets, called worksheets; used for business intelligence reporting and analysis.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "oracle-discoverer",
+        "display_name": "Oracle Discoverer"
+      },
+      {
+        "software": "jc64dis",
+        "display_name": "JC64dis"
+      },
+      {
+        "software": "netdecompiler.com-dissharp",
+        "display_name": "NETdecompiler.com DisSharp"
+      }
+    ],
+    "linux": [
+      {
+        "software": "oracle-discoverer",
+        "display_name": "Oracle Discoverer"
+      },
+      {
+        "software": "jc64dis",
+        "display_name": "JC64dis"
+      }
+    ],
+    "macos": [
+      {
+        "software": "jc64dis",
+        "display_name": "JC64dis"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2006",
+  "sources": [
+    {
+      "url": "dis.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "gnumeric",
+  "extension": "gnumeric",
+  "name": "Gnumeric Spreadsheet",
+  "category": "gnumeric-spreadsheet",
+  "developer_org": "the-gnome-project",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 20,
+    "source": "fileinfo"
+  },
+  "summary": "Spreadsheet created by Gnumeric, an open source spreadsheet program that is part of the GNOME Free Software Desktop Project; stores the formatting information, charts, mathematical formulas, and data used in the spreadsheet.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "linux": [
+      {
+        "software": "gnumeric",
+        "display_name": "Gnumeric"
+      }
+    ],
+    "windows": [
+      {
+        "software": "gnumeric",
+        "display_name": "Gnumeric"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-07-21",
+  "sources": [
+    {
+      "url": "gnumeric.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

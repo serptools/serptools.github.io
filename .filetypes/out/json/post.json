@@ -1,0 +1,59 @@
+{
+  "slug": "post",
+  "extension": "post",
+  "name": "LIGHT File",
+  "category": "light-file",
+  "developer_org": "light-of-creativity",
+  "popularity": {
+    "rating": 2.5,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Data file created by LIGHT, the Web System that enables users to record, organize, and share their life experiences; saves a life fact for a user and may include images, PDFs, videos and other files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "light",
+        "display_name": "LIGHT"
+      }
+    ],
+    "windows": [
+      {
+        "software": "light",
+        "display_name": "LIGHT"
+      }
+    ],
+    "ios": [
+      {
+        "software": "light",
+        "display_name": "LIGHT"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-01-21",
+  "sources": [
+    {
+      "url": "post.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

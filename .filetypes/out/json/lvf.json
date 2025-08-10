@@ -1,0 +1,91 @@
+{
+  "slug": "lvf",
+  "extension": "lvf",
+  "name": "Logitech Video Effects File",
+  "category": "1.-logitech-video-effects-file",
+  "developer_org": "logitech",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "Effects file used by Logitech Webcam Software, a program that allows users to video chat online using Logitech webcams; contains graphics and properties used for object and facial recognition; used to overlay cartoons or other images onto facial features during video chat sessions.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "web": [
+      {
+        "software": "logitech-webcam-software",
+        "display_name": "Logitech Webcam Software"
+      }
+    ],
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "software-packaged-with-the-cctv-camera",
+        "display_name": "Software packaged with the CCTV camera"
+      },
+      {
+        "software": "media-player-classic",
+        "display_name": "Media Player Classic"
+      },
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      },
+      {
+        "software": "mplayer",
+        "display_name": "MPlayer"
+      }
+    ],
+    "macos": [
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      },
+      {
+        "software": "mplayer",
+        "display_name": "MPlayer"
+      }
+    ],
+    "linux": [
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      },
+      {
+        "software": "mplayer",
+        "display_name": "MPlayer"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-02-23",
+  "sources": [
+    {
+      "url": "lvf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

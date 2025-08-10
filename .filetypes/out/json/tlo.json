@@ -1,0 +1,59 @@
+{
+  "slug": "tlo",
+  "extension": "tlo",
+  "name": "SPSS TableLooks File",
+  "category": "spss-tablelooks-file",
+  "developer_org": "ibm",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "Table definition file created by SPSS version 15 or earlier; saves the properties that define the appearance of an output data table; used for outputting analysis results with the same formatting.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "ibm-spss",
+        "display_name": "IBM SPSS"
+      }
+    ],
+    "macos": [
+      {
+        "software": "ibm-spss",
+        "display_name": "IBM SPSS"
+      }
+    ],
+    "linux": [
+      {
+        "software": "ibm-spss",
+        "display_name": "IBM SPSS"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-06-23",
+  "sources": [
+    {
+      "url": "tlo.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

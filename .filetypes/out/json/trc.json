@@ -1,0 +1,94 @@
+{
+  "slug": "trc",
+  "extension": "trc",
+  "name": "SQL Server Trace File",
+  "category": "1.-sql-server-trace-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 21,
+    "source": "fileinfo"
+  },
+  "summary": "File created by SQL Server Profiler, which is included with SQL Server software; contains trace results of the activity of a SQL database; can be used to analyze a sequence of database statements.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-sql-server-profiler",
+        "display_name": "Microsoft SQL Server Profiler",
+        "status": "discontinued"
+      },
+      {
+        "software": "oracle-database",
+        "display_name": "Oracle Database"
+      },
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "github-atom",
+        "display_name": "GitHub Atom",
+        "status": "discontinued"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "gnu-emacs",
+        "display_name": "GNU Emacs"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "github-atom",
+        "display_name": "GitHub Atom",
+        "status": "discontinued"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      }
+    ],
+    "chromeos": [
+      {
+        "software": "google-chrome-text",
+        "display_name": "Google Chrome Text"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-08-07",
+  "sources": [
+    {
+      "url": "trc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

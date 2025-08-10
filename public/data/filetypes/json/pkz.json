@@ -1,0 +1,34 @@
+{
+  "slug": "pkz",
+  "extension": "pkz",
+  "name": "Video Game Package",
+  "category": "video-game-package",
+  "summary": "",
+  "developer_org": "cisco",
+  "developer_name": "Cisco",
+  "more_information": {
+    "description": [
+      "The format for a PKZ file used by one game may differ from the PKZ format used for a different game. Therefore, you may have to try multiple programs before opening your PKZ file. You can use custom scripts, such as chrrox's script for Spider-Man: Edge of Time, with Luigi Auriemma's QuickBMS to extract PKZ files.",
+      "Also, PKZ files compressed with Zip compression can be decompressed using a Zip decompression program, such as Corel WinZip, 7-Zip, WinRAR, or Apple Archive Utility. Simply rename the \".pkz\" extension to \".zip\" and decompress it. You can then modify the contents of the PKZ file, compress it with Zip compression, then rename the \".zip\" extension to \".pkz\"."
+    ]
+  },
+  "images": [
+    {
+      "url": "https://fileinfo.com/img/ss/sm/pkz_12640.png",
+      "alt": "Screenshot of a .pkz file in Cisco Packet Tracer 8.1",
+      "caption": "PKZ file open in Cisco Packet Tracer 8.1"
+    },
+    {
+      "url": "https://fileinfo.com/img/ss/sm/pkz_12640-2.png",
+      "alt": "Decompressed PKZ file open in Apple Finder",
+      "caption": "Decompressed PKZ file open in Apple Finder"
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "pkz.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

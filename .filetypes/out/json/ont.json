@@ -1,0 +1,47 @@
+{
+  "slug": "ont",
+  "extension": "ont",
+  "name": "theWord Bible Text Module",
+  "category": "theword-bible-text-module",
+  "developer_org": "theword-bible-software",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "File used by theWord free Bible software; stores a copy of the Old and New Testament; saved in a plain text format and includes tags that markup the biblical text in a format recognized by theWord; also includes the title, description, and version information; used for distributing digital copies of the Bible.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "theword",
+        "display_name": "theWord"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-05-03",
+  "sources": [
+    {
+      "url": "ont.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

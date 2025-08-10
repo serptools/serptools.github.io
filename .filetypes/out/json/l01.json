@@ -1,0 +1,47 @@
+{
+  "slug": "l01",
+  "extension": "l01",
+  "name": "EnCase Logical Evidence File",
+  "category": "encase-logical-evidence-file",
+  "developer_org": "guidance-software",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 11,
+    "source": "fileinfo"
+  },
+  "summary": "An L01 file is a logical evidence file created by OpenText EnCase Forensic. It contains a subset of data (files and filenames) copied from an EnCase evidence ( .E01 ) file. Users often save an E01 file's most noteworthy data as an L01 file, for quicker access and review.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "opentext-encase-forensic",
+        "display_name": "OpenText EnCase Forensic"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-05-13",
+  "sources": [
+    {
+      "url": "l01.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

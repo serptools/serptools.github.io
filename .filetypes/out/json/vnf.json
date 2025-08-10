@@ -1,0 +1,47 @@
+{
+  "slug": "vnf",
+  "extension": "vnf",
+  "name": "Vision Numeric Font",
+  "category": "vision-numeric-font",
+  "developer_org": "vision-numeric",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "Single line font format used by Type3 software for direct engravings; also known as a \"stroke line\" font, which is directly machinable with the adequate equipment; developed for the Type3 Artistic Software family range in 1990.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "vision-numeric-type3-software",
+        "display_name": "Vision Numeric Type3 Software"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-11-06",
+  "sources": [
+    {
+      "url": "vnf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "xqt",
+  "extension": "xqt",
+  "name": "SuperCalc Macro File",
+  "category": "supercalc-macro-file",
+  "developer_org": "sorcim",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "An XQT file is a macro file used by SuperCalc, a now-discontinued spreadsheet program. It contains a set of instructions or commands that automate tasks within SuperCalc, such as mathematical calculations, spreadsheet formatting, and data manipulation. XQT macros allow users to record repetitive tasks so they do not have to input every step manually, improving efficiency and accuracy.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "sorcim-supercalc",
+        "display_name": "Sorcim SuperCalc"
+      }
+    ],
+    "macos": [
+      {
+        "software": "sorcim-supercalc",
+        "display_name": "Sorcim SuperCalc"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2025-02-27",
+  "sources": [
+    {
+      "url": "xqt.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

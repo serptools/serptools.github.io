@@ -1,0 +1,53 @@
+{
+  "slug": "kmy",
+  "extension": "kmy",
+  "name": "KMyMoney Data File",
+  "category": "kmymoney-data-file",
+  "developer_org": "kmymoney",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "File created by KMyMoney, a personal finance manager for Linux; saves financial data such as bank accounts, transactions, investments, assets, and credit card information; used as the native save and load format for KMyMoney.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "linux": [
+      {
+        "software": "kmymoney",
+        "display_name": "KMyMoney"
+      }
+    ],
+    "windows": [
+      {
+        "software": "kmymoney",
+        "display_name": "KMyMoney"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-02-22",
+  "sources": [
+    {
+      "url": "kmy.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "slug": "paq8f",
+  "extension": "paq8f",
+  "name": "PAQ8F Compressed Archive",
+  "category": "paq8f-compressed-archive",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "Compressed file created by PAQ8F, one of several programs in an iterative series of programs (PAQ8, PAQ8A, PAQ8B, PAQ8JD, etc.) that were used for testing tradeoffs between compression ratios and computer performance; rarely used as a compression file format but still supported by PeaZip.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "peazip",
+        "display_name": "PeaZip"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-12-28",
+  "sources": [
+    {
+      "url": "paq8f.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

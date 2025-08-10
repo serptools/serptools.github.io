@@ -1,0 +1,49 @@
+{
+  "slug": "sqx",
+  "extension": "sqx",
+  "name": "SQX Archive",
+  "category": "sqx-archive",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "File archive compressed using the SQX Archiver, an open-source file compression tool; uses a variation of .LZH as its main compression algorithm; free to download and incorporate into other file compressors.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "sqx-archiver-unsqueez",
+        "display_name": "SQX Archiver UnSqueez"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2006-12-15",
+  "sources": [
+    {
+      "url": "sqx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

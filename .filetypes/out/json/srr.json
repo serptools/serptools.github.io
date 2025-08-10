@@ -1,0 +1,47 @@
+{
+  "slug": "srr",
+  "extension": "srr",
+  "name": "ReScene Metadata File",
+  "category": "rescene-metadata-file",
+  "developer_org": "rescene",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Archive metadata file created by ReScene, a program used to repackage .RAR files released in the Warez scene; contains a backup of all metadata files in the RAR archive; can be combined with the original non-metadata archive files to recreate the original distribution archive.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "rescene",
+        "display_name": "ReScene"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-03-01",
+  "sources": [
+    {
+      "url": "srr.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

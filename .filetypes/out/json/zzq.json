@@ -1,0 +1,97 @@
+{
+  "slug": "zzq",
+  "extension": "zzq",
+  "name": "Zyzzyva Quiz",
+  "category": "zyzzyva-quiz",
+  "developer_org": "naspa",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "A ZZQ file is a word quiz created by NASPA Zyzzyva, a word study program. It contains XML-format information used to load quiz questions in Zyzzyva's Quiz feature. ZZQ files are comprised of a question source and one or more conditions that create the quiz, as well as other data.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "naspa-zyzzyva",
+        "display_name": "NASPA Zyzzyva"
+      },
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      }
+    ],
+    "macos": [
+      {
+        "software": "naspa-zyzzyva",
+        "display_name": "NASPA Zyzzyva"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "naspa-zyzzyva",
+        "display_name": "NASPA Zyzzyva"
+      },
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "ZZQ file open in NASPA Zyzzyva",
+      "alt": "ZZQ file open in NASPA Zyzzyva",
+      "source_url": "https://fileinfo.com/img/ss/md/zzq_12892.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-09-12",
+  "sources": [
+    {
+      "url": "zzq.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

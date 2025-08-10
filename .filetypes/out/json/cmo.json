@@ -1,0 +1,49 @@
+{
+  "slug": "cmo",
+  "extension": "cmo",
+  "name": "ASUS BIOS File",
+  "category": "asus-bios-file",
+  "developer_org": "asus",
+  "popularity": {
+    "rating": 2.8,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "A CMO file is a BIOS file used by ASUS computers running WIndows. It contains a BIOS profile, which includes saved settings and instructions to load computer hardware, such as whether fast boot is enabled or disabled and the boot performance mode.",
+  "standards": [],
+  "mime_types": [
+    "input/output"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "ios": [
+      {
+        "software": "asus-bios",
+        "display_name": "ASUS BIOS"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-05-21",
+  "sources": [
+    {
+      "url": "cmo.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

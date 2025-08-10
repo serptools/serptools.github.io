@@ -1,0 +1,55 @@
+{
+  "slug": "p3t",
+  "extension": "p3t",
+  "name": "PlayStation 3 Theme File",
+  "category": "playstation-3-theme-file",
+  "developer_org": "sony",
+  "popularity": {
+    "rating": 4.4,
+    "votes": 37,
+    "source": "fileinfo"
+  },
+  "summary": "Theme file for a Sony PlayStation 3 video game system; includes background images, buttons, layouts, sound files, and other settings used to customize the interface of the PS3; can be downloaded and installed using the PS3 console's browser application.",
+  "standards": [],
+  "mime_types": [
+    "ps3/theme"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "p3t-unpacker",
+        "display_name": "P3T Unpacker"
+      }
+    ],
+    "linux": [
+      {
+        "software": "p3t-unpacker",
+        "display_name": "P3T Unpacker"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-06-24",
+  "sources": [
+    {
+      "url": "p3t.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

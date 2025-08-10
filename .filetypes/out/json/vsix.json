@@ -1,0 +1,81 @@
+{
+  "slug": "vsix",
+  "extension": "vsix",
+  "name": "Visual Studio Extension",
+  "category": "visual-studio-extension",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 20,
+    "source": "fileinfo"
+  },
+  "summary": "A VSIX file is an extension for Microsoft Visual Studio, an Integrated Development Environment ( IDE ) for Windows. It is used to add one or more features to Visual Studio. Each VSIX file is a .ZIP archive that contains a .VSIXMANIFEST file and the extension's resources.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-visual-studio-2022",
+        "display_name": "Microsoft Visual Studio 2022"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "rename-.vsix-to-.zip-open-with-any-zip-decompression-utility",
+        "display_name": "Rename .vsix to .zip ; open with any Zip-decompression utility"
+      }
+    ],
+    "macos": [
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "rename-.vsix-to-.zip-open-with-any-zip-decompression-utility",
+        "display_name": "Rename .vsix to .zip ; open with any Zip-decompression utility"
+      }
+    ],
+    "linux": [
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "rename-.vsix-to-.zip-open-with-any-zip-decompression-utility",
+        "display_name": "Rename .vsix to .zip ; open with any Zip-decompression utility"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "VSIX file open in Microsoft Visual Studio Code",
+      "alt": "VSIX file open in Microsoft Visual Studio Code",
+      "source_url": "https://fileinfo.com/img/ss/md/vsix_7056.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-01-10",
+  "sources": [
+    {
+      "url": "vsix.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

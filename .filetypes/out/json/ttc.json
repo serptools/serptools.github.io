@@ -1,0 +1,77 @@
+{
+  "slug": "ttc",
+  "extension": "ttc",
+  "name": "TrueType Font Collection",
+  "category": "truetype-font-collection",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 21,
+    "source": "fileinfo"
+  },
+  "summary": "Collection of fonts saved in the TrueType ( .TTF ) format; used to deliver multiple fonts in a single file; useful for combining fonts that share many glyphs in common.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-windows-font-viewer",
+        "display_name": "Microsoft Windows Font Viewer"
+      },
+      {
+        "software": "apolisoft-font-fitting-room",
+        "display_name": "ApoliSoft Font Fitting Room"
+      },
+      {
+        "software": "fontforge",
+        "display_name": "FontForge"
+      },
+      {
+        "software": "apple-font-book",
+        "display_name": "Apple Font Book"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-font-book",
+        "display_name": "Apple Font Book"
+      },
+      {
+        "software": "fontforge",
+        "display_name": "FontForge"
+      }
+    ],
+    "linux": [
+      {
+        "software": "fontforge",
+        "display_name": "FontForge"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-08-26",
+  "sources": [
+    {
+      "url": "ttc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

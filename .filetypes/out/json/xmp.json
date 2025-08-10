@@ -1,0 +1,114 @@
+{
+  "slug": "xmp",
+  "extension": "xmp",
+  "name": "Extensible Metadata Platform File",
+  "category": "1.-extensible-metadata-platform-file",
+  "developer_org": "adobe-systems",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 75,
+    "source": "fileinfo"
+  },
+  "summary": "An XMP file is a metadata file used by Adobe programs such as Photoshop and Bridge. It contains the edits made to a camera raw file, such as a .CR2 or .NEF file, and is automatically generated and saved in the same directory as the corresponding camera raw file. XMP files include various properties of an image file, such as a description, title, keywords, author, copyright, brightness, exposure, contrast, crop angle, shadow, saturation, sharpness, tint, and temperature.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "adobe-bridge-2023",
+        "display_name": "Adobe Bridge 2023"
+      },
+      {
+        "software": "adobe-photoshop-2025",
+        "display_name": "Adobe Photoshop 2025"
+      },
+      {
+        "software": "adobe-prelude-cc-2019",
+        "display_name": "Adobe Prelude CC 2019"
+      },
+      {
+        "software": "microsoft-photos",
+        "display_name": "Microsoft Photos"
+      },
+      {
+        "software": "adobe-xmp-toolkit",
+        "display_name": "Adobe XMP Toolkit"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "xmind",
+        "display_name": "XMind"
+      }
+    ],
+    "macos": [
+      {
+        "software": "adobe-bridge-2023",
+        "display_name": "Adobe Bridge 2023"
+      },
+      {
+        "software": "adobe-photoshop-2025",
+        "display_name": "Adobe Photoshop 2025"
+      },
+      {
+        "software": "adobe-prelude-cc-2019",
+        "display_name": "Adobe Prelude CC 2019"
+      },
+      {
+        "software": "adobe-xmp-toolkit",
+        "display_name": "Adobe XMP Toolkit"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "xmind",
+        "display_name": "XMind"
+      }
+    ],
+    "linux": [
+      {
+        "software": "xmind",
+        "display_name": "XMind"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "XMP file icon",
+      "alt": "XMP file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/xmp-3141.png"
+    },
+    {
+      "caption": "XMP file open in TextWrangler",
+      "alt": "XMP file open in TextWrangler",
+      "source_url": "https://fileinfo.com/img/ss/md/xmp_3141.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-03-07",
+  "sources": [
+    {
+      "url": "xmp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

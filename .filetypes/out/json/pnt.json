@@ -1,0 +1,74 @@
+{
+  "slug": "pnt",
+  "extension": "pnt",
+  "name": "Panther Project",
+  "category": "1.-panther-project",
+  "developer_org": "the-panther-team",
+  "popularity": {
+    "rating": 4.4,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "Project file created by Panther, a visual toolkit used to develop small interactive applications; stores all game information, including motion instructions, variables, logic, audio, and other assets; used for creating interactive games, animations, stories, music, and art.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "panther",
+        "display_name": "Panther"
+      },
+      {
+        "software": "popspring-popnoggin",
+        "display_name": "Popspring Popnoggin"
+      }
+    ],
+    "macos": [
+      {
+        "software": ".jpg",
+        "display_name": ".JPG"
+      },
+      {
+        "software": ".png",
+        "display_name": ".PNG"
+      },
+      {
+        "software": ".gif",
+        "display_name": ".GIF"
+      },
+      {
+        "software": "apple-macpaint",
+        "display_name": "Apple MacPaint",
+        "status": "discontinued"
+      },
+      {
+        "software": "lemkesoft-graphicconverter",
+        "display_name": "Lemkesoft GraphicConverter"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-07-29",
+  "sources": [
+    {
+      "url": "pnt.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

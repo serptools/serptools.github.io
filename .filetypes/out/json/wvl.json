@@ -1,0 +1,47 @@
+{
+  "slug": "wvl",
+  "extension": "wvl",
+  "name": "Wavelet Image",
+  "category": "wavelet-image",
+  "developer_org": "corel",
+  "popularity": {
+    "rating": 2.3,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "A WVL file is a bitmap image saved in an early version of the Corel Wavelet format. It contains a drawing or photo exported from CorelDRAW, Photo-Paint, or Photo House. WVL files were replaced by .WI files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "coreldraw-graphics-suite-2024",
+        "display_name": "CorelDRAW Graphics Suite 2024"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-08-10",
+  "sources": [
+    {
+      "url": "wvl.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

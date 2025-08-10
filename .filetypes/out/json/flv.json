@@ -1,0 +1,183 @@
+{
+  "slug": "flv",
+  "extension": "flv",
+  "name": "Flash Video",
+  "category": "flash-video",
+  "developer_org": "adobe-systems",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 590,
+    "source": "fileinfo"
+  },
+  "summary": "An FLV file is a video saved in the Adobe Flash Video (FLV) container format. It stores a short header, synchronized audio and video data streams (encoded the same way as streams in the standard Flash .SWF format), and metadata packets.",
+  "standards": [],
+  "mime_types": [
+    "20/20",
+    "non-adobe/macromedia"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "adobe-flash-player",
+        "display_name": "Adobe Flash Player",
+        "status": "discontinued"
+      },
+      {
+        "software": "adobe-animate-2023",
+        "display_name": "Adobe Animate 2023"
+      },
+      {
+        "software": "xilisoft-video-converter-ultimate",
+        "display_name": "Xilisoft Video Converter Ultimate"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "media-player-classic",
+        "display_name": "Media Player Classic"
+      },
+      {
+        "software": "nullsoft-winamp",
+        "display_name": "Nullsoft Winamp"
+      },
+      {
+        "software": "realnetworks-realplayer-20-20",
+        "display_name": "RealNetworks RealPlayer 20/20"
+      },
+      {
+        "software": "handbrake",
+        "display_name": "HandBrake"
+      },
+      {
+        "software": "eltima-elmedia-player",
+        "display_name": "Eltima Elmedia Player"
+      },
+      {
+        "software": "apple-quicktime-player-with-perian-component",
+        "display_name": "Apple QuickTime Player with Perian component"
+      },
+      {
+        "software": "realnetworks-realplayer-cloud",
+        "display_name": "RealNetworks RealPlayer Cloud"
+      },
+      {
+        "software": "realnetworks-realtimes-video-maker",
+        "display_name": "RealNetworks RealTimes: Video Maker"
+      },
+      {
+        "software": "antvplayer-media-converter",
+        "display_name": "antvplayer Media Converter"
+      },
+      {
+        "software": "j2-interactive-mx-player",
+        "display_name": "J2 Interactive MX Player"
+      },
+      {
+        "software": "realnetworks-realtimes-video-maker",
+        "display_name": "RealNetworks RealTimes Video Maker"
+      }
+    ],
+    "macos": [
+      {
+        "software": "adobe-flash-player",
+        "display_name": "Adobe Flash Player",
+        "status": "discontinued"
+      },
+      {
+        "software": "adobe-animate-2023",
+        "display_name": "Adobe Animate 2023"
+      },
+      {
+        "software": "eltima-elmedia-player",
+        "display_name": "Eltima Elmedia Player"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "apple-quicktime-player-with-perian-component",
+        "display_name": "Apple QuickTime Player with Perian component"
+      },
+      {
+        "software": "handbrake",
+        "display_name": "HandBrake"
+      }
+    ],
+    "linux": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "realnetworks-realplayer-cloud",
+        "display_name": "RealNetworks RealPlayer Cloud"
+      },
+      {
+        "software": "handbrake",
+        "display_name": "HandBrake"
+      }
+    ],
+    "ios": [
+      {
+        "software": "realnetworks-realtimes-video-maker",
+        "display_name": "RealNetworks RealTimes: Video Maker"
+      }
+    ],
+    "android": [
+      {
+        "software": "antvplayer-media-converter",
+        "display_name": "antvplayer Media Converter"
+      },
+      {
+        "software": "j2-interactive-mx-player",
+        "display_name": "J2 Interactive MX Player"
+      },
+      {
+        "software": "realnetworks-realtimes-video-maker",
+        "display_name": "RealNetworks RealTimes Video Maker"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "FLV file icon",
+      "alt": "FLV file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/flv-602.png"
+    },
+    {
+      "caption": "FLV file open in VideoLAN VLC media player",
+      "alt": "FLV file open in VideoLAN VLC media player",
+      "source_url": "https://fileinfo.com/img/ss/md/flv_602.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-05-02",
+  "sources": [
+    {
+      "url": "flv.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

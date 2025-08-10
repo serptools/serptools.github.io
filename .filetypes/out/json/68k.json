@@ -1,0 +1,53 @@
+{
+  "slug": "68k",
+  "extension": "68k",
+  "name": "SEGA Mega Drive & Genesis Classics ROM File",
+  "category": "sega-mega-drive-genesis-classics-rom-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 16,
+    "source": "fileinfo"
+  },
+  "summary": "A 68K file is a game ROM used by SEGA Mega Drive and Genesis Classics, an emulation program available on Steam. It stores the contents of a game cartridge and is used for running older games on the PC.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "sega-mega-drive-and-genesis-classics",
+        "display_name": "SEGA Mega Drive and Genesis Classics"
+      },
+      {
+        "software": "mame",
+        "display_name": "MAME"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2016-06-22",
+  "sources": [
+    {
+      "url": "68k.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

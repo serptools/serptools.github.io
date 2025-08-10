@@ -1,0 +1,62 @@
+{
+  "slug": "pio",
+  "extension": "pio",
+  "name": "Pro Tools I/O Settings File",
+  "category": "pro-tools-i-o-settings-file",
+  "developer_org": "avid-technology",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "Settings file created by Pro Tools, a digital audio workstation (DAW); saves input and output settings, including input sources, output formats, bus configurations, mic preamps, and H/W insert delay; allows settings to be saved and reused between sessions.",
+  "standards": [],
+  "mime_types": [
+    "h/w",
+    "i/o"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "avid-pro-tools",
+        "display_name": "Avid Pro Tools"
+      }
+    ],
+    "macos": [
+      {
+        "software": "avid-pro-tools",
+        "display_name": "Avid Pro Tools"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "PIO file icon",
+      "alt": "PIO file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/pio-8663.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-08-24",
+  "sources": [
+    {
+      "url": "pio.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "slug": "hbx",
+  "extension": "hbx",
+  "name": "BinHex Encoded File",
+  "category": "binhex-encoded-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 1.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "Binary to Hexadecimal text file created for Mac computers; contains compressed and encoded data that was originally in an 8-bit binary format, but now is in a 7-bit text format; typically used for transferring binary images, documents, and multimedia data using a textual format in email attachments.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "corel-winzip",
+        "display_name": "Corel WinZip"
+      },
+      {
+        "software": "estsoft-alzip",
+        "display_name": "ESTsoft ALZip"
+      },
+      {
+        "software": "smith-micro-stuffit-deluxe",
+        "display_name": "Smith Micro StuffIt Deluxe",
+        "status": "discontinued"
+      },
+      {
+        "software": "dare-to-be-creative-iarchiver",
+        "display_name": "Dare to be Creative iArchiver"
+      }
+    ],
+    "macos": [
+      {
+        "software": "smith-micro-stuffit-deluxe-mac-16",
+        "display_name": "Smith Micro StuffIt Deluxe Mac 16",
+        "status": "discontinued"
+      },
+      {
+        "software": "dare-to-be-creative-iarchiver",
+        "display_name": "Dare to be Creative iArchiver"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-02-08",
+  "sources": [
+    {
+      "url": "hbx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

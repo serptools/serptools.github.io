@@ -1,0 +1,51 @@
+{
+  "slug": "jdis",
+  "extension": "jdis",
+  "name": "JD Inno Setup Configurator",
+  "category": "jd-inno-setup-configurator",
+  "developer_org": "jerry-dodge",
+  "popularity": {
+    "rating": 2.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "A JDIS file is a .DFM (Delphi Form) file that can be used to create an Inno Setup script ( .ISS file). It contains configuration details used to generate a script. JDIS files are created and can be opened by JD Inno Setup Configurator.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "jd-inno-setup-configurator",
+        "display_name": "JD Inno Setup Configurator"
+      },
+      {
+        "software": "embarcadero-delphi",
+        "display_name": "Embarcadero Delphi"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-12-24",
+  "sources": [
+    {
+      "url": "jdis.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

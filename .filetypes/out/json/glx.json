@@ -1,0 +1,53 @@
+{
+  "slug": "glx",
+  "extension": "glx",
+  "name": "Xplorer GLX Graph",
+  "category": "xplorer-glx-graph",
+  "developer_org": "pasco",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "A GLX file is graph data recorded using the PASCO Xplorer GLX datalogger. It contains the results of a scientific experiment, recorded using one or more external sensors and the Xplorer GLX. You can download and save GLX files while the Xplorer GLX is connected to a computer, and you can open GLX files in PASCO DataStudio or Capstone.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "pasco-capstone",
+        "display_name": "PASCO Capstone"
+      }
+    ],
+    "macos": [
+      {
+        "software": "pasco-capstone",
+        "display_name": "PASCO Capstone"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-08-30",
+  "sources": [
+    {
+      "url": "glx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

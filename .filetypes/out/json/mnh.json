@@ -1,0 +1,47 @@
+{
+  "slug": "mnh",
+  "extension": "mnh",
+  "name": "Master Navigator Header File",
+  "category": "master-navigator-header-file",
+  "developer_org": "sapper-oy",
+  "popularity": {
+    "rating": 2.5,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Geoinformation file used by Master Navigator Software, a GIS navigation program; contains information about an associated map image that is saved in .JPG , .PNG , .GIF , or another image format; stores data for the image's geographic projection as well as calibration information.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "sapper-oy-master-navigator-software",
+        "display_name": "Sapper Oy Master Navigator Software"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-06-23",
+  "sources": [
+    {
+      "url": "mnh.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

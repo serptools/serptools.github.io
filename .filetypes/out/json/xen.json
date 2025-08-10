@@ -1,0 +1,53 @@
+{
+  "slug": "xen",
+  "extension": "xen",
+  "name": "Guitar Hero III Data File",
+  "category": "guitar-hero-iii-data-file",
+  "developer_org": "activision",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "Data file used by Guitar Hero III for the Mac or PC; may contain graphics, textures, video, audio or other data used by the game; stored in a package format and usually named \"[filename].pak.xen.\"",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "activision-guitar-hero-3",
+        "display_name": "Activision Guitar Hero 3"
+      }
+    ],
+    "macos": [
+      {
+        "software": "activision-guitar-hero-3",
+        "display_name": "Activision Guitar Hero 3"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2008-03-01",
+  "sources": [
+    {
+      "url": "xen.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

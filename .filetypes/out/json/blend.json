@@ -1,0 +1,70 @@
+{
+  "slug": "blend",
+  "extension": "blend",
+  "name": "Blender 3D Data File",
+  "category": "blender-3d-data-file",
+  "developer_org": "the-blender-foundation",
+  "popularity": {
+    "rating": 4.3,
+    "votes": 176,
+    "source": "fileinfo"
+  },
+  "summary": "A BLEND file is a 3D image or animation project created with Blender, an open-source 3D modeling program. It contains 3D mesh data, lighting information, vertex painting, animation keyframes, NURBS objects, procedural textures, UV mapping layout, and real-time interactivity data. BLEND files may store multiple scenes in a single file.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "blender",
+        "display_name": "Blender"
+      }
+    ],
+    "macos": [
+      {
+        "software": "blender",
+        "display_name": "Blender"
+      }
+    ],
+    "linux": [
+      {
+        "software": "blender",
+        "display_name": "Blender"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "BLEND file icon",
+      "alt": "BLEND file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/blend-1243.png"
+    },
+    {
+      "caption": "BLEND file open in Blender 2.9",
+      "alt": "BLEND file open in Blender 2.9",
+      "source_url": "https://fileinfo.com/img/ss/md/blend_1243.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-05-18",
+  "sources": [
+    {
+      "url": "blend.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "slug": "iwb",
+  "extension": "iwb",
+  "name": "IWBasic Source Code File",
+  "category": "iwbasic-source-code-file",
+  "developer_org": "ionicwind-software",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "Source code file created by IWBasic (formerly Emergence BASIC), an IDE used to develop Windows 32-bit applications; written in the iBasic programming language, which is similar to BASIC and was developed by IonicWind Software.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "ionicwind-iwbasic",
+        "display_name": "IonicWind IWBasic"
+      },
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      }
+    ],
+    "web": [
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-08-05",
+  "sources": [
+    {
+      "url": "iwb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

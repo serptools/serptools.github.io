@@ -1,0 +1,81 @@
+{
+  "slug": "tnz",
+  "extension": "tnz",
+  "name": "OpenToonz Scene",
+  "category": "opentoonz-scene",
+  "developer_org": "dwango",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "A TNZ file is a scene created by Dwango OpenToonz, an open-source 2D animation application. It contains XML-formatted data that species the scene's properties and contents. TNZ files do not contain any of the images or other assets used in a scene.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "dwango-opentoonz",
+        "display_name": "Dwango Opentoonz"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      }
+    ],
+    "macos": [
+      {
+        "software": "dwango-opentoonz",
+        "display_name": "Dwango Opentoonz"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "TNZ file open in Dwango OpenToonz",
+      "alt": "TNZ file open in Dwango OpenToonz",
+      "source_url": "https://fileinfo.com/img/ss/md/tnz_13030.jpg"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-11-29",
+  "sources": [
+    {
+      "url": "tnz.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "heif",
+  "extension": "heif",
+  "name": "High Efficiency Image Format",
+  "category": "high-efficiency-image-format",
+  "summary": "",
+  "developer_org": "moving-picture-experts-group",
+  "developer_name": "Moving Picture Experts Group",
+  "more_information": {
+    "description": [
+      "HEIF stands for High Efficiency Image Format. It is based on the High Efficiency Video Compression (HEVC), which is also known as H.265. The format was developed by the Moving Picture Experts Group (MPEG) and became popular in 2017 when Apple announced that they were replacing JPEG files with HEIF files in iOS 11. Compared to JPEG images, HEIF images require considerably less storage space without sacrificing image quality. If an iPhone user shares an image with a non-iPhone user or to a social site, the HEIF image is converted to a JPEG image.",
+      "If you do not want iOS to save images in the HEIF format, open your \"Settings\" app, and select Camera → Formats → Most Compatible . Selecting Most Compatible means that iOS will now save images in the JPEG format.",
+      "NOTE: HEIF files are more commonly seen as .HEIC files."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "heif.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

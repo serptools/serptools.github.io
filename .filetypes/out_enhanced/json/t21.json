@@ -1,0 +1,30 @@
+{
+  "slug": "t21",
+  "extension": "t21",
+  "name": "H&R Block 2021 Tax Return",
+  "category": "h-r-block-2021-tax-return",
+  "summary": "",
+  "developer_org": "h-r-block",
+  "developer_name": "H&R Block",
+  "more_information": {
+    "description": [
+      "The 2021 version of H&R Block Tax Software (for Windows and macOS) creates and periodically saves a user's tax return progress in a T21 file. This allows users to take a break from filling out their tax return and resume their progress by loading the T21 file.",
+      "The program also creates a T21 file when users back up their tax returns for archival purposes. To create this backup, users select File → Backup Tax Return .",
+      "By default, H&R Block Tax Software 2021 saves T21 files in the following directory:",
+      "~/​Documents/​HR Block"
+    ]
+  },
+  "common_filenames": [
+    {
+      "filename": "MyTaxes.t21",
+      "description": "MyTaxes.t21 - Default filename given to H&R Block 2021 tax return files, although you can rename the file."
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "t21.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "h5s",
+  "extension": "h5s",
+  "name": "POD HD500 Edit Set List",
+  "category": "pod-hd500-edit-set-list",
+  "developer_org": "line-6",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "An H5S file is a set list created by Line 6 POD HD500 Edit, a preset editor for the POD HD500 guitar multi-effects pedal. It contains up to 64 effect presets, which can be transferred to the POD HD500. Each preset consists of FX , AMPS , Mixer , and Controllers settings.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "line-6-pod-hd500x-edit",
+        "display_name": "Line 6 POD HD500X Edit"
+      }
+    ],
+    "macos": [
+      {
+        "software": "line-6-pod-hd500x-edit",
+        "display_name": "Line 6 POD HD500X Edit"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-09-18",
+  "sources": [
+    {
+      "url": "h5s.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

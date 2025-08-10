@@ -1,0 +1,64 @@
+{
+  "slug": "rtm",
+  "extension": "rtm",
+  "name": "LabVIEW Run-Time Menu File",
+  "category": "1.-labview-run-time-menu-file",
+  "developer_org": "national-instruments",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 23,
+    "source": "fileinfo"
+  },
+  "summary": "File created by LabVIEW, a scientific measurement program used to interact with hardware devices; contains a menu that includes application items and custom user items; used to display virtual instrument ( .VI ) functions and operations.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "national-instruments-labview",
+        "display_name": "National Instruments LabVIEW"
+      },
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      }
+    ],
+    "macos": [
+      {
+        "software": "national-instruments-labview",
+        "display_name": "National Instruments LabVIEW"
+      }
+    ],
+    "linux": [
+      {
+        "software": "national-instruments-labview",
+        "display_name": "National Instruments LabVIEW"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-03-02",
+  "sources": [
+    {
+      "url": "rtm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

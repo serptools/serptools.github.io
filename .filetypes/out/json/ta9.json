@@ -1,0 +1,57 @@
+{
+  "slug": "ta9",
+  "extension": "ta9",
+  "name": "TaxAct 2019 Tax Return File",
+  "category": "taxact-2019-tax-return-file",
+  "developer_org": "taxact",
+  "popularity": {
+    "rating": 4.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "A TA9 file is a tax return created with TaxAct 2019, a Windows program used to prepare taxes for the 2019 tax year. It stores 2019 tax information, which includes state and federal IRS tax forms. TA9 files also contain personal information about the user, such as his name, date of birth, marital status, occupation, dependents, and social security number.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "taxact",
+        "display_name": "TaxAct"
+      },
+      {
+        "software": "taxact-online",
+        "display_name": "TaxAct Online"
+      }
+    ],
+    "web": [
+      {
+        "software": "taxact-online",
+        "display_name": "TaxAct Online"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-01-31",
+  "sources": [
+    {
+      "url": "ta9.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

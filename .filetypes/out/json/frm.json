@@ -1,0 +1,121 @@
+{
+  "slug": "frm",
+  "extension": "frm",
+  "name": "Form File",
+  "category": "1.-form-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 49,
+    "source": "fileinfo"
+  },
+  "summary": "An FRM file contains a form that may have been created by a variety of programs, such as Microsoft Visual Studio or Adobe FrameMaker. It is typically used to define fields within tables and it may also store database data, depending on the format.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-visual-studio-2022",
+        "display_name": "Microsoft Visual Studio 2022"
+      },
+      {
+        "software": "corel-wordperfect-2021",
+        "display_name": "Corel WordPerfect 2021"
+      },
+      {
+        "software": "adobe-framemaker",
+        "display_name": "Adobe FrameMaker"
+      },
+      {
+        "software": "datacad",
+        "display_name": "DataCAD"
+      },
+      {
+        "software": "microsoft-visual-basic-6",
+        "display_name": "Microsoft Visual Basic 6"
+      },
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "mysql",
+        "display_name": "MySQL"
+      },
+      {
+        "software": "aryson-mysql-database-repair",
+        "display_name": "Aryson MySQL Database Repair"
+      },
+      {
+        "software": "acclivity-accountedge-pro",
+        "display_name": "Acclivity AccountEdge Pro"
+      },
+      {
+        "software": "bethesda-softworks-fallout",
+        "display_name": "Bethesda Softworks Fallout"
+      },
+      {
+        "software": "bethesda-softworks-fallout-2",
+        "display_name": "Bethesda Softworks Fallout 2"
+      },
+      {
+        "software": "adl-software-adlforms",
+        "display_name": "ADL Software ADLForms"
+      },
+      {
+        "software": "corel-painter-2023",
+        "display_name": "Corel Painter 2023"
+      }
+    ],
+    "macos": [
+      {
+        "software": "mysql",
+        "display_name": "MySQL"
+      },
+      {
+        "software": "acclivity-accountedge-pro",
+        "display_name": "Acclivity AccountEdge Pro"
+      },
+      {
+        "software": "corel-painter-2023",
+        "display_name": "Corel Painter 2023"
+      }
+    ],
+    "linux": [
+      {
+        "software": "mysql",
+        "display_name": "MySQL"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-02-11",
+  "sources": [
+    {
+      "url": "frm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

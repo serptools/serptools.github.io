@@ -1,0 +1,47 @@
+{
+  "slug": "hmt",
+  "extension": "hmt",
+  "name": "HighMAT File",
+  "category": "highmat-file",
+  "developer_org": "microsoft-and-panasonic",
+  "popularity": {
+    "rating": 2.4,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "File used by High Performance Media Access Technology (HighMAT), a technology developed jointly by Microsoft and Panasonic that is used to save and playback digital media on CDs; contains images, audio, and video saved in a proprietary format.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-highmat-extension",
+        "display_name": "Microsoft HighMAT Extension"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-01-12",
+  "sources": [
+    {
+      "url": "hmt.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

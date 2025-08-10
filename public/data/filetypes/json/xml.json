@@ -1,0 +1,54 @@
+{
+  "slug": "xml",
+  "extension": "xml",
+  "name": "XML File",
+  "summary": "An XML file is an XML (Extensible Markup Language) data file. It contains a formatted dataset that is intended to be processed by a website, web application, or software program. XML files can be thought of as text-based databases.",
+  "developer": "WC3",
+  "developer_slug": "wc3",
+  "category": "Data Files",
+  "category_slug": "data-files",
+  "rating": 3.6,
+  "votes": 750,
+  "last_updated": "March 13, 2021",
+  "more_information": {
+    "content": [
+      "Extensible Markup Language, or XML, is a markup language developers use to structure data. XML files contain datasets structured using XML.",
+      "XML allows developers to structure data using custom tags. This flexibility makes XML ideal for cataloging information about nearly any set of related items. For example, a developer creating a catalog of automobiles may include the following entry in their XML file:",
+      "<auto> <manufacturer>Tesla</manufacturer> <model>S</model> <horsepower>670 to 1,020</horsepower> <price>$69,420+</price> </auto>",
+      "Because websites and applications can easily process XML, and humans can easily understand the data XML files contain, XML has become a standard way of transferring data over the Internet and between programs. XML is also used to structure the data contained within other types of files, such as Microsoft Office Open XML Documents ( .DOCX , .PPTX , .XLSX ), LibreOffice OpenDocuments ( .ODT , .ODP , .ODS ), .XHTML files, and .SVG files."
+    ],
+    "screenshot": {
+      "url": "https://fileinfo.com/img/ss/sm/xml_124.jpg",
+      "srcset": "https://fileinfo.com/img/ss/md/xml_124.jpg 760w, https://fileinfo.com/img/ss/sm/xml_124.jpg 380w",
+      "alt": "Screenshot of a .xml file in Microsoft XML Notepad",
+      "width": "380",
+      "height": "253",
+      "caption": "XML file open in Microsoft XML Notepad"
+    }
+  },
+  "how_to_open": {
+    "instructions": [
+      "You can open an XML file with any text editor or web browser . However, those who intend to edit an XML file should open it with an XML editor. XML editors provide helpful syntax highlighting, editing, and validation tools that make working with XML files easier.",
+      "Some popular XML editors include:"
+    ],
+    "programs": [
+      {
+        "name": "SyncRO Soft oXygen XML Editor",
+        "url": "../software/syncro_soft/oxygen_xml_editor.html"
+      },
+      {
+        "name": "Microsoft XML Notepad",
+        "url": "../software/microsoft/xml_notepad.html"
+      },
+      {
+        "name": "Bare Bones BBEdit",
+        "url": "../software/bare_bones/bbedit.html"
+      }
+    ]
+  },
+  "scraped_at": "2025-08-09T21:58:54.978741",
+  "source": {
+    "url": "https://fileinfo.com/extension/xml",
+    "file": "xml.html"
+  }
+}

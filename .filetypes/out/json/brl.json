@@ -1,0 +1,59 @@
+{
+  "slug": "brl",
+  "extension": "brl",
+  "name": "MicroBraille File",
+  "category": "microbraille-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "File saved in the MicroBraille (BRL) format; encodes contracted braille characters (Grade 2 Braille) in braille ASCII, which uses 64 characters from the ASCII character set to represent dot combinations in six-dot braille; can be read by software that supports braille to speech functionality or braille embossers used for printing.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "casc-braille-2000",
+        "display_name": "CASC Braille 2000",
+        "status": "discontinued"
+      },
+      {
+        "software": "duxbury-braille-translator",
+        "display_name": "Duxbury Braille Translator"
+      },
+      {
+        "software": "duxbury-megadots",
+        "display_name": "Duxbury MegaDots",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-11-13",
+  "sources": [
+    {
+      "url": "brl.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

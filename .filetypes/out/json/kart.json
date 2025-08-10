@@ -1,0 +1,87 @@
+{
+  "slug": "kart",
+  "extension": "kart",
+  "name": "SRB2Kart Game Data File",
+  "category": "srb2kart-game-data-file",
+  "developer_org": "srb2kart-development-team",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "A KART file is a game data file used by SRB2Kart, a kart racing game based on Sonic Robo Blast 2 (SRB2). It contains custom content in a format similar to the Doom .WAD format, including additional characters, tracks, and other game modifications. Players and modders use KART files to expand the game by adding new playable characters and custom racecourses.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "srb2kart",
+        "display_name": "SRB2Kart"
+      },
+      {
+        "software": "sonic-robo-blast-2",
+        "display_name": "Sonic Robo Blast 2"
+      },
+      {
+        "software": "kart-krew-dr.-robotnik-s-ring-racers",
+        "display_name": "Kart Krew Dr. Robotnik's Ring Racers"
+      },
+      {
+        "software": "slade",
+        "display_name": "SLADE"
+      }
+    ],
+    "macos": [
+      {
+        "software": "srb2kart",
+        "display_name": "SRB2Kart"
+      },
+      {
+        "software": "sonic-robo-blast-2",
+        "display_name": "Sonic Robo Blast 2"
+      },
+      {
+        "software": "kart-krew-dr.-robotnik-s-ring-racers",
+        "display_name": "Kart Krew Dr. Robotnik's Ring Racers"
+      },
+      {
+        "software": "slade",
+        "display_name": "SLADE"
+      }
+    ],
+    "linux": [
+      {
+        "software": "sonic-robo-blast-2",
+        "display_name": "Sonic Robo Blast 2"
+      },
+      {
+        "software": "slade",
+        "display_name": "SLADE"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2025-03-04",
+  "sources": [
+    {
+      "url": "kart.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "appxbundle",
+  "extension": "appxbundle",
+  "name": "Windows App Bundle",
+  "category": "windows-app-bundle",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 4.5,
+    "votes": 104,
+    "source": "fileinfo"
+  },
+  "summary": "An APPXBUNDLE file is an app package that is used for distributing Windows desktop and UWP ( Universal Windows Platform ) apps. The package contains one or more versions of an app, each of which is compiled for a specific processor architecture (x86, x64, or ARM).",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-visual-studio-2022",
+        "display_name": "Microsoft Visual Studio 2022"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "APPXBUNDLE file icon",
+      "alt": "APPXBUNDLE file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/appxbundle-11481.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-04-23",
+  "sources": [
+    {
+      "url": "appxbundle.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

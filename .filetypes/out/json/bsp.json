@@ -1,0 +1,97 @@
+{
+  "slug": "bsp",
+  "extension": "bsp",
+  "name": "Quake or Source Engine Game Map",
+  "category": "1.-quake-or-source-engine-game-map",
+  "developer_org": "id-software",
+  "popularity": {
+    "rating": 4.2,
+    "votes": 132,
+    "source": "fileinfo"
+  },
+  "summary": "A BSP file is a map file used by games developed using a Quake or Valve Source game engine. It contains information about the map's layout, objects, and resources. Many games use BSP files, including Quake, Quake 2, Quake 3, Half-Life, Half-Life 2, Team Fortress, Counter-Strike, Counter-Strike: Condition-Zero, Portal, and Call of Duty: World at War.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "id-software-gtkradiant",
+        "display_name": "id Software GtkRadiant"
+      },
+      {
+        "software": "gcfscape",
+        "display_name": "GCFScape"
+      },
+      {
+        "software": "q3map2",
+        "display_name": "Q3Map2"
+      },
+      {
+        "software": "quark",
+        "display_name": "QuArK"
+      },
+      {
+        "software": "irrlicht",
+        "display_name": "Irrlicht"
+      },
+      {
+        "software": "bsp",
+        "display_name": "BSP"
+      },
+      {
+        "software": "atlas-bsp-table",
+        "display_name": "Atlas BSP Table"
+      }
+    ],
+    "macos": [
+      {
+        "software": "id-software-gtkradiant",
+        "display_name": "id Software GtkRadiant"
+      },
+      {
+        "software": "irrlicht",
+        "display_name": "Irrlicht"
+      }
+    ],
+    "linux": [
+      {
+        "software": "id-software-gtkradiant",
+        "display_name": "id Software GtkRadiant"
+      },
+      {
+        "software": "irrlicht",
+        "display_name": "Irrlicht"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "BSP file icon",
+      "alt": "BSP file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/bsp-2818.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-12-29",
+  "sources": [
+    {
+      "url": "bsp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

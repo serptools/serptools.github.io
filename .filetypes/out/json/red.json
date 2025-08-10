@@ -1,0 +1,138 @@
+{
+  "slug": "red",
+  "extension": "red",
+  "name": "CADViewer Redline Markup File",
+  "category": "1.-cadviewer-redline-markup-file",
+  "developer_org": "tailor-made-software",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "CAD file created by CADViewer, a program used for reviewing CAD designs; saves annotations, or redlines, that have been written by a design reviewer; enables notes and other jotted items to be saved alongside a CAD design.",
+  "standards": [],
+  "mime_types": [
+    "red/system"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "tailor-made-cadviewer",
+        "display_name": "Tailor Made CADViewer"
+      },
+      {
+        "software": "red",
+        "display_name": "Red"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "github-atom",
+        "display_name": "Github Atom",
+        "status": "discontinued"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      }
+    ],
+    "macos": [
+      {
+        "software": "tailor-made-cadviewer",
+        "display_name": "Tailor Made CADViewer"
+      },
+      {
+        "software": "red",
+        "display_name": "Red"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "github-atom",
+        "display_name": "Github Atom",
+        "status": "discontinued"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "tailor-made-cadviewer",
+        "display_name": "Tailor Made CADViewer"
+      },
+      {
+        "software": "red",
+        "display_name": "Red"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      },
+      {
+        "software": "github-atom",
+        "display_name": "Github Atom",
+        "status": "discontinued"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "chromeos": [
+      {
+        "software": "google-chrome-text",
+        "display_name": "Google Chrome Text"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-01-12",
+  "sources": [
+    {
+      "url": "red.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

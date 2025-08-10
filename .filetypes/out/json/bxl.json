@@ -1,0 +1,48 @@
+{
+  "slug": "bxl",
+  "extension": "bxl",
+  "name": "Accelerated Designs PCB Library File",
+  "category": "accelerated-designs-pcb-library-file",
+  "developer_org": "accelerated-designs",
+  "popularity": {
+    "rating": 3.2,
+    "votes": 11,
+    "source": "fileinfo"
+  },
+  "summary": "Electronics data file created in Accelerated Designs' BXL format (referred to as the Xlator DataBase format); can specify both PCB footprints and schematic symbols; used for distributing PCB information in a vendor neutral format.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "accelerated-designs-ultra-librarian-free-reader",
+        "display_name": "Accelerated Designs Ultra Librarian Free Reader",
+        "pricing": "free"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-08-27",
+  "sources": [
+    {
+      "url": "bxl.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

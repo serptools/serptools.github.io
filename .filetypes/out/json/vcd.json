@@ -1,0 +1,108 @@
+{
+  "slug": "vcd",
+  "extension": "vcd",
+  "name": "Virtual CD",
+  "category": "1.-virtual-cd",
+  "developer_org": "h+h",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 222,
+    "source": "fileinfo"
+  },
+  "summary": "A VCD file is a disc image of a CD or DVD and is recognized by Windows as an actual disc, even though the data is on the hard drive. VCD files allow CDs and DVDs to be used without requiring physical drives and is useful for mounting discs on network computers.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "h+h-software-virtual-cd",
+        "display_name": "H+H Software Virtual CD"
+      },
+      {
+        "software": "roxio-creator-nxt-pro-9",
+        "display_name": "Roxio Creator NXT Pro 9"
+      },
+      {
+        "software": "winmount-international-winmount",
+        "display_name": "WinMount International WinMount"
+      },
+      {
+        "software": "roxio-toast-20",
+        "display_name": "Roxio Toast 20"
+      },
+      {
+        "software": "roxio-popcorn",
+        "display_name": "Roxio Popcorn"
+      },
+      {
+        "software": "mplayer",
+        "display_name": "MPlayer"
+      },
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      },
+      {
+        "software": "ezb-systems-ultraiso",
+        "display_name": "EZB Systems UltraISO"
+      },
+      {
+        "software": "valve-source-sdk",
+        "display_name": "Valve Source SDK"
+      }
+    ],
+    "macos": [
+      {
+        "software": "roxio-toast-20",
+        "display_name": "Roxio Toast 20"
+      },
+      {
+        "software": "roxio-popcorn",
+        "display_name": "Roxio Popcorn"
+      },
+      {
+        "software": "mplayer",
+        "display_name": "MPlayer"
+      }
+    ],
+    "linux": [
+      {
+        "software": "gtkwave",
+        "display_name": "GTKWave"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "VCD file icon",
+      "alt": "VCD file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/vcd-205.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-10-26",
+  "sources": [
+    {
+      "url": "vcd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

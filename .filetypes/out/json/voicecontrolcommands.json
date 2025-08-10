@@ -1,0 +1,94 @@
+{
+  "slug": "voicecontrolcommands",
+  "extension": "voicecontrolcommands",
+  "name": "iOS Voice Control Commands File",
+  "category": "ios-voice-control-commands-file",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 1.3,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "A VOICECONTROLCOMMANDS file contains one or more commands an iOS device runs when a user speaks them through the device's Voice Control Settings feature. Users export and import VOICECONTROLCOMMANDS files via Voice Control (in the iOS device's Accessibility settings) to share custom commands between iPhone, iPad, and iPod touch devices. Since the file stores commands and their metadata in the XML standard, users can also open, view, and modify the information with a text editor.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "apple-xcode",
+        "display_name": "Apple Xcode"
+      },
+      {
+        "software": "fat-cat-plistedit-pro",
+        "display_name": "Fat Cat PlistEdit Pro"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      }
+    ],
+    "ios": [
+      {
+        "software": "ios-settings",
+        "display_name": "iOS Settings"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-xcode",
+        "display_name": "Apple Xcode"
+      },
+      {
+        "software": "fat-cat-plistedit-pro",
+        "display_name": "Fat Cat PlistEdit Pro"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "VOICECONTROLCOMMANDS file icon",
+      "alt": "VOICECONTROLCOMMANDS file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/voicecontrolcommands-13520.png"
+    },
+    {
+      "caption": "VOICECONTROLCOMMANDS file open in Apple iOS Settings 16",
+      "alt": "VOICECONTROLCOMMANDS file open in Apple iOS Settings 16",
+      "source_url": "https://fileinfo.com/img/ss/md/voicecontrolcommands_13520.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-10-11",
+  "sources": [
+    {
+      "url": "voicecontrolcommands.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

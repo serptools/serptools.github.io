@@ -1,0 +1,57 @@
+{
+  "slug": "model",
+  "extension": "model",
+  "name": "CATIA 3D Model",
+  "category": "catia-3d-model",
+  "developer_org": "dassault-systemes",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 25,
+    "source": "fileinfo"
+  },
+  "summary": "A MODEL file is a 3D model created by Dassault Systemes CATIA, a 3D CAD and CAM program. It contains a representation of a mechanical structure or part of a structure. CAM machining tools use MODEL files to machine corresponding real-life parts and structures.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "dassault-systemes-catia",
+        "display_name": "Dassault Systemes CATIA"
+      },
+      {
+        "software": "okino-computer-graphics-polytrans",
+        "display_name": "Okino Computer Graphics PolyTrans"
+      }
+    ],
+    "linux": [
+      {
+        "software": "dassault-systemes-catia",
+        "display_name": "Dassault Systemes CATIA"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-01-10",
+  "sources": [
+    {
+      "url": "model.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

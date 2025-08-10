@@ -1,0 +1,47 @@
+{
+  "slug": "ppenc",
+  "extension": "ppenc",
+  "name": "Privacy Protector Encrypted File",
+  "category": "privacy-protector-encrypted-file",
+  "developer_org": "ashampoo",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "A PPENC file is a file that has been encrypted and password-protected by Ashampoo Privacy Protector. It contains a folder, document, image, video, or other file a user has chosen to encrypt. PPENC files are encrypted with AES-256 encryption.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "ashampoo-privacy-protector",
+        "display_name": "Ashampoo Privacy Protector"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-04-28",
+  "sources": [
+    {
+      "url": "ppenc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "slug": "awb",
+  "extension": "awb",
+  "name": "ADX Audio Package File2",
+  "category": "1.-adx-audio-package-file2",
+  "developer_org": "cri-middleware",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 10,
+    "source": "fileinfo"
+  },
+  "summary": "An AWB file is an audio package used by various Sega Dreamcast, PlayStation 2, GameCube, and Wii video games developed by CRI Middleware. It contains ADX or ADX2 formatted audio that is typically used for sound effects, music, and dialogue featured in a game.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "vgmtoolbox",
+        "display_name": "VGMToolbox"
+      },
+      {
+        "software": "nokia-multimedia-converter",
+        "display_name": "Nokia Multimedia Converter"
+      },
+      {
+        "software": "fairstars-audio-converter",
+        "display_name": "FairStars Audio Converter"
+      },
+      {
+        "software": "amr-player",
+        "display_name": "AMR Player"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-11-05",
+  "sources": [
+    {
+      "url": "awb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

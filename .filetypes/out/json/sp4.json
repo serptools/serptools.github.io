@@ -1,0 +1,61 @@
+{
+  "slug": "sp4",
+  "extension": "sp4",
+  "name": "SuperCard 4 Player Project",
+  "category": "supercard-4-player-project",
+  "developer_org": "solutions-etcetera",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "Data file used by SuperCard Player, an application used to execute SuperCard data documents ( .SC4 files); may contain one or more standalone applications, presentations, user interfaces, and other programs.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "solutions-etcetera-supercard-player",
+        "display_name": "Solutions Etcetera SuperCard Player"
+      },
+      {
+        "software": "solutions-etcetera-supercard",
+        "display_name": "Solutions Etcetera SuperCard"
+      }
+    ],
+    "windows": [
+      {
+        "software": "solutions-etcetera-supercard-player",
+        "display_name": "Solutions Etcetera SuperCard Player"
+      },
+      {
+        "software": "solutions-etcetera-supercard",
+        "display_name": "Solutions Etcetera SuperCard"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-11-19",
+  "sources": [
+    {
+      "url": "sp4.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

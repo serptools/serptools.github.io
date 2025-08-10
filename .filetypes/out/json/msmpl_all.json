@@ -1,0 +1,61 @@
+{
+  "slug": "msmpl_all",
+  "extension": "msmpl_all",
+  "name": "Korg microSAMPLER Backup File",
+  "category": "korg-microsampler-backup-file",
+  "developer_org": "korg",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "An MSMPL_ALL file is a backup file created by the Korg microSAMPLER keyboard and Korg microSAMPLER Editor/Librarian software. It contains a backup of one or more sound banks, which include samples, patterns, tempo and effects parameters for an instrument. MSMPL_ALL files are used to preserve the state of instruments on a microSAMPLER keyboard.",
+  "standards": [],
+  "mime_types": [
+    "editor/librarian"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "korg-microsampler-editor-librarian",
+        "display_name": "Korg microSAMPLER Editor/Librarian"
+      }
+    ],
+    "macos": [
+      {
+        "software": "korg-microsampler-editor-librarian",
+        "display_name": "Korg microSAMPLER Editor/Librarian"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "MSMPL_ALL file icon",
+      "alt": "MSMPL_ALL file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/msmpl_all-11089.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-09-13",
+  "sources": [
+    {
+      "url": "msmpl_all.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

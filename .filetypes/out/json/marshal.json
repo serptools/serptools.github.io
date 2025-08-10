@@ -1,0 +1,55 @@
+{
+  "slug": "marshal",
+  "extension": "marshal",
+  "name": "Marshal Data Migration Model File",
+  "category": "marshal-data-migration-model-file",
+  "developer_org": "rise-to-bloome-software",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "Data model file created by Marshal Editor, a tool used for migrating, integrating, and archiving data; contains an XML specification for data sets that have been imported or exported; used for storing data migration settings between multiple databases; also used for executing scheduled jobs with the Marshal Archiver tool.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "rise-to-bloome-marshal-editor",
+        "display_name": "RISE to Bloome Marshal Editor"
+      },
+      {
+        "software": "rise-to-bloome-marshal-sqlutility",
+        "display_name": "RISE to Bloome Marshal SQLUtility"
+      },
+      {
+        "software": "rise-to-bloome-marshal-archiver",
+        "display_name": "RISE to Bloome Marshal Archiver"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-08-31",
+  "sources": [
+    {
+      "url": "marshal.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

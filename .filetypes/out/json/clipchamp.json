@@ -1,0 +1,59 @@
+{
+  "slug": "clipchamp",
+  "extension": "clipchamp",
+  "name": "Microsoft Clipchamp Project",
+  "category": "microsoft-clipchamp-project",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "A CLIPCHAMP file is a project created by Microsoft Clipchamp, a video editor for casual and professional users. It contains information about a project, including the placement of elements on the timeline, edits, the location of imported media assets, and settings. Clipchamp creates CLIPCHAMP files when users save their projects to preserve their progress, which users eventually export to an .MP4 or .GIF file to share after editing.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-clipchamp",
+        "display_name": "Microsoft Clipchamp"
+      }
+    ],
+    "web": [
+      {
+        "software": "microsoft-clipchamp",
+        "display_name": "Microsoft Clipchamp"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "CLIPCHAMP file open in Microsoft Clipchamp 3",
+      "alt": "CLIPCHAMP file open in Microsoft Clipchamp 3",
+      "source_url": "https://fileinfo.com/img/ss/md/clipchamp_13791.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2025-02-20",
+  "sources": [
+    {
+      "url": "clipchamp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

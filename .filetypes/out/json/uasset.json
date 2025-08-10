@@ -1,0 +1,57 @@
+{
+  "slug": "uasset",
+  "extension": "uasset",
+  "name": "Unreal Asset",
+  "category": "unreal-asset",
+  "developer_org": "epic-games",
+  "popularity": {
+    "rating": 4.2,
+    "votes": 44,
+    "source": "fileinfo"
+  },
+  "summary": "A UASSET file is an asset file used by Unreal Editor, a video game level editor included with Unreal Engine. It contains an asset, such as a level, material, animation, sound, or particle system, used in an Unreal Engine game. Some examples of Unreal Engine games include the Mass Effect series, Fortnite Battle Royale, and Unreal Tournament.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "epic-games-unrealed",
+        "display_name": "Epic Games UnrealEd"
+      },
+      {
+        "software": "unreal-engine-resource-viewer",
+        "display_name": "Unreal Engine Resource Viewer"
+      }
+    ],
+    "linux": [
+      {
+        "software": "unreal-engine-resource-viewer",
+        "display_name": "Unreal Engine Resource Viewer"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-02-08",
+  "sources": [
+    {
+      "url": "uasset.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

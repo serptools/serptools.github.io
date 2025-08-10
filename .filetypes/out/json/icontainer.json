@@ -1,0 +1,64 @@
+{
+  "slug": "icontainer",
+  "extension": "icontainer",
+  "name": "CandyBar iContainer File",
+  "category": "candybar-icontainer-file",
+  "developer_org": "panic",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "Collection of Macintosh icons saved in a single file; supports icons up to 512x512 pixels in size; also includes display settings and information about each icon; used for replacing the default icons in Mac OS X.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "axialis-iconworkshop",
+        "display_name": "Axialis IconWorkshop"
+      },
+      {
+        "software": "panic-candybar",
+        "display_name": "Panic CandyBar",
+        "status": "discontinued"
+      }
+    ],
+    "macos": [
+      {
+        "software": "freemacsoft-liteicon",
+        "display_name": "FreeMacSoft LiteIcon",
+        "pricing": "free"
+      },
+      {
+        "software": "panic-candybar",
+        "display_name": "Panic CandyBar",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-05-30",
+  "sources": [
+    {
+      "url": "icontainer.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

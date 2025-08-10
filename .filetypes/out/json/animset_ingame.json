@@ -1,0 +1,47 @@
+{
+  "slug": "animset_ingame",
+  "extension": "animset_ingame",
+  "name": "FaceFX In-Game Animation Set File",
+  "category": "facefx-in-game-animation-set-file",
+  "developer_org": "oc3-entertainment",
+  "popularity": {
+    "rating": 1.7,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "Animation file used by FaceFX, an application used for designing facial expressions for video games; saves a stripped down version of an .ANIMSET file suitable for use in the target game; removes all non-essential data so that the animation is run efficiently by FaceFX.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "oc3-entertainment-facefx",
+        "display_name": "OC3 Entertainment FaceFX"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-12-13",
+  "sources": [
+    {
+      "url": "animset_ingame.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

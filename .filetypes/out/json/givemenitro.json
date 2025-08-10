@@ -1,0 +1,42 @@
+{
+  "slug": "givemenitro",
+  "extension": "givemenitro",
+  "name": "Nitro Ransomware",
+  "category": "nitro-ransomware",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "A GIVEMENITRO file is a file that has been renamed and encrypted by Nitro ransomware , which is malware distributed by cybercriminals. It contains a normal file, such as a document or image, that the ransomware is holding hostage. GIVEMENITRO files can be decrypted using the decryption key stored within the ransomware's executable; you do not need to pay the ransom.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {},
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-06-21",
+  "sources": [
+    {
+      "url": "givemenitro.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "slug": "lst",
+  "extension": "lst",
+  "name": "Data List",
+  "category": "1.-data-list",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 273,
+    "source": "fileinfo"
+  },
+  "summary": "A file with an .lst extension is most likely a text file that contains a list of data. LST files are used by many different programs, including Microsoft Visual Studio and various text editors.",
+  "standards": [],
+  "mime_types": [
+    "initrd/boot",
+    "kernel/boot",
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-visual-studio-2022",
+        "display_name": "Microsoft Visual Studio 2022"
+      },
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "microsoft-wordpad",
+        "display_name": "Microsoft WordPad"
+      },
+      {
+        "software": "notepad++",
+        "display_name": "Notepad++"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "gedit",
+        "display_name": "gedit"
+      },
+      {
+        "software": "beaver",
+        "display_name": "Beaver"
+      },
+      {
+        "software": "leafpad",
+        "display_name": "Leafpad"
+      },
+      {
+        "software": "gnu-nano",
+        "display_name": "GNU Nano"
+      },
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      },
+      {
+        "software": "microsoft-visual-foxpro",
+        "display_name": "Microsoft Visual FoxPro",
+        "status": "discontinued"
+      },
+      {
+        "software": "hp-lightscribe-template-labeler",
+        "display_name": "HP LightScribe Template Labeler"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      }
+    ],
+    "linux": [
+      {
+        "software": "gedit",
+        "display_name": "gedit"
+      },
+      {
+        "software": "beaver",
+        "display_name": "Beaver"
+      },
+      {
+        "software": "leafpad",
+        "display_name": "Leafpad"
+      },
+      {
+        "software": "gnu-nano",
+        "display_name": "GNU Nano"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "gnu-grub",
+        "display_name": "GNU GRUB"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-03-28",
+  "sources": [
+    {
+      "url": "lst.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

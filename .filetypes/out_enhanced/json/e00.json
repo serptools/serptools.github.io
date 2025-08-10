@@ -1,0 +1,22 @@
+{
+  "slug": "e00",
+  "extension": "e00",
+  "name": "ArcInfo Coverage Export File",
+  "category": "arcinfo-coverage-export-file",
+  "summary": "",
+  "developer_org": "esri",
+  "developer_name": "ESRI",
+  "more_information": {
+    "description": [
+      "GIS professionals, analysts, and researchers working with ESRI programs, such as ArcGIS Desktop or ArcGIS Pro, are the primary users of E00 files. The E00 format stores coverage data into multiple sections, each with specific information such as coordinates, topology, and attributes. The .e00 extension represents the root file of the export, and if the export spans multiple files, the extensions continue sequentially (e.g., .e01 , .e02 ).",
+      "NOTE: The E00 format is now largely legacy. However, it remains relevant for accessing and converting older datasets."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "e00.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

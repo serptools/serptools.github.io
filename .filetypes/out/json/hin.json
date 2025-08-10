@@ -1,0 +1,80 @@
+{
+  "slug": "hin",
+  "extension": "hin",
+  "name": "HyperChem Input File",
+  "category": "hyperchem-input-file",
+  "developer_org": "hypercube",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "Chemistry file format used by HyperChem, a molecular modeling program; contains multiple records of atoms, atom properties, and bonds; also stores information about the Viewer's Coordinate System, which is referenced by the program when opening the file to restore the previous view of the molecular system.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      },
+      {
+        "software": "avogadro",
+        "display_name": "Avogadro"
+      },
+      {
+        "software": "agile-molecule-ascalaph",
+        "display_name": "Agile Molecule Ascalaph",
+        "status": "discontinued"
+      }
+    ],
+    "macos": [
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      },
+      {
+        "software": "avogadro",
+        "display_name": "Avogadro"
+      }
+    ],
+    "linux": [
+      {
+        "software": "avogadro",
+        "display_name": "Avogadro"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "HIN file icon",
+      "alt": "HIN file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/hin-9810.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-12-29",
+  "sources": [
+    {
+      "url": "hin.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

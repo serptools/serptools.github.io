@@ -1,0 +1,59 @@
+{
+  "slug": "sah",
+  "extension": "sah",
+  "name": "SETI@home Data File",
+  "category": "seti-home-data-file",
+  "developer_org": "berkeley",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "Data file used by SETI@home or other BOINC distributed computing applications; may define user information or work units for performing calculations on the local computer; used for configuring and storing data that is sent back to the SETI@home project.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "boinc",
+        "display_name": "BOINC"
+      }
+    ],
+    "macos": [
+      {
+        "software": "boinc",
+        "display_name": "BOINC"
+      }
+    ],
+    "linux": [
+      {
+        "software": "boinc",
+        "display_name": "BOINC"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-04-30",
+  "sources": [
+    {
+      "url": "sah.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

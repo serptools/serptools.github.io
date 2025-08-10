@@ -1,0 +1,63 @@
+{
+  "slug": "h4m",
+  "extension": "h4m",
+  "name": "GameCube Movie",
+  "category": "gamecube-movie",
+  "developer_org": "hudson",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "An H4M file is a movie played in several Nintendo GameCube video games, most notably games in the Resident Evil series. It contains a text header with metadata followed by video data encoded with the Adaptive Orthogonalized Transform (AOT) compression scheme and audio data in the IMA ADPCM, DPCM, or PCM formats. Most GameCube gamers will only encounter H4M files if they are attempting to modify game data files that comprise gameplay.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "hvqm4-video-decoder",
+        "display_name": "HVQM4 video decoder"
+      },
+      {
+        "software": "h4m-audio-decode",
+        "display_name": "H4M Audio Decode"
+      }
+    ],
+    "macos": [
+      {
+        "software": "hvqm4-video-decoder",
+        "display_name": "HVQM4 video decoder"
+      }
+    ],
+    "linux": [
+      {
+        "software": "hvqm4-video-decoder",
+        "display_name": "HVQM4 video decoder"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2024-04-15",
+  "sources": [
+    {
+      "url": "h4m.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

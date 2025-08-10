@@ -1,0 +1,87 @@
+{
+  "slug": "tdms",
+  "extension": "tdms",
+  "name": "Technical Data Management Streaming File",
+  "category": "technical-data-management-streaming-file",
+  "developer_org": "national-instruments",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "A TDMS file is a data file saved in the National Instruments (NI) Technical Data Management Streaming (TDMS) format. It contains simulation or measurement data recorded by National Instruments software, such as LabVIEW and DIAdem. TDMS files also store descriptive information, which includes the procedure, test fixture, sensor information, and author.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "national-instruments-labview",
+        "display_name": "National Instruments LabVIEW"
+      },
+      {
+        "software": "national-instruments-diadem",
+        "display_name": "National Instruments DIAdem"
+      },
+      {
+        "software": "the-mathworks-matlab",
+        "display_name": "The MathWorks MATLAB"
+      },
+      {
+        "software": "openoffice-calc",
+        "display_name": "OpenOffice Calc"
+      }
+    ],
+    "macos": [
+      {
+        "software": "national-instruments-labview",
+        "display_name": "National Instruments LabVIEW"
+      },
+      {
+        "software": "the-mathworks-matlab",
+        "display_name": "The MathWorks MATLAB"
+      },
+      {
+        "software": "openoffice-calc",
+        "display_name": "OpenOffice Calc"
+      }
+    ],
+    "linux": [
+      {
+        "software": "national-instruments-labview",
+        "display_name": "National Instruments LabVIEW"
+      },
+      {
+        "software": "the-mathworks-matlab",
+        "display_name": "The MathWorks MATLAB"
+      },
+      {
+        "software": "openoffice-calc",
+        "display_name": "OpenOffice Calc"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-06-30",
+  "sources": [
+    {
+      "url": "tdms.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

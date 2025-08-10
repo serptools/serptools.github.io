@@ -1,0 +1,59 @@
+{
+  "slug": "pka",
+  "extension": "pka",
+  "name": "Packet Tracer Activity File",
+  "category": "packet-tracer-activity-file",
+  "developer_org": "cisco",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 44,
+    "source": "fileinfo"
+  },
+  "summary": "Activity file for a practice session created with Packet Tracer, an interactive network systems learning tool; includes instructions for designing, configuring, monitoring, and troubleshooting various network setups.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "cisco-packet-tracer",
+        "display_name": "Cisco Packet Tracer"
+      }
+    ],
+    "macos": [
+      {
+        "software": "cisco-packet-tracer",
+        "display_name": "Cisco Packet Tracer"
+      }
+    ],
+    "linux": [
+      {
+        "software": "cisco-packet-tracer",
+        "display_name": "Cisco Packet Tracer"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2008-10-28",
+  "sources": [
+    {
+      "url": "pka.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "nlvm",
+  "extension": "nlvm",
+  "name": "NoLimits Virtual Machine File",
+  "category": "nolimits-virtual-machine-file",
+  "developer_org": "mad-data",
+  "popularity": {
+    "rating": 2.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "Virtual Machine file used by NoLimits 2 Roller Coaster Simulation (NL2), a game that enables users to experience virtual roller coasters; contains a scripting language class or other resources referenced by an NL2 script, which can be run by the NoLimits Virtual Machine (NLVM) script engine for NL2.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "mad-data-nolimits-rollercoaster-simulation-2",
+        "display_name": "Mad Data NoLimits Rollercoaster Simulation 2"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2016-03-04",
+  "sources": [
+    {
+      "url": "nlvm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

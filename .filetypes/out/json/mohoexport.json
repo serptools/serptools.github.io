@@ -1,0 +1,67 @@
+{
+  "slug": "mohoexport",
+  "extension": "mohoexport",
+  "name": "Moho Export Profile Document",
+  "category": "moho-export-profile-document",
+  "developer_org": "smith-micro",
+  "popularity": {
+    "rating": 1.3,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "A MOHOEXPORT file is an export profile document created with Anime Studio 12 and later, a drawing and animation program. It contains a configuration for a batch export job in Moho. MOHOEXPORT files replaced .ANIMEEXPORT files with the release of version 12 of Moho Debut and Pro.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "lost-marble-moho-debut",
+        "display_name": "Lost Marble Moho Debut"
+      },
+      {
+        "software": "lost-marble-moho-pro",
+        "display_name": "Lost Marble Moho Pro"
+      }
+    ],
+    "macos": [
+      {
+        "software": "lost-marble-moho-debut",
+        "display_name": "Lost Marble Moho Debut"
+      },
+      {
+        "software": "lost-marble-moho-pro",
+        "display_name": "Lost Marble Moho Pro"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "MOHOEXPORT file icon",
+      "alt": "MOHOEXPORT file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/mohoexport-10875.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-03-01",
+  "sources": [
+    {
+      "url": "mohoexport.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

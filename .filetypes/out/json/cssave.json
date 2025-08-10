@@ -1,0 +1,47 @@
+{
+  "slug": "cssave",
+  "extension": "cssave",
+  "name": "Cooking Simulator Saved Game",
+  "category": "cooking-simulator-saved-game",
+  "developer_org": "big-cheese-studio",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "A CSSAVE file is a saved game created by the Windows version of Cooking Simulator. It contains data that can be used to resume a player's in-progress game. Cooking Simulator automatically creates a CSSAVE file; players can also manually create them from the game's ESC menu.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "cooking-simulator",
+        "display_name": "Cooking Simulator"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-06-13",
+  "sources": [
+    {
+      "url": "cssave.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

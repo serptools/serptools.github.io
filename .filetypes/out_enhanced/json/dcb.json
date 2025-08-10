@@ -1,0 +1,23 @@
+{
+  "slug": "dcb",
+  "extension": "dcb",
+  "name": "Concordance Database File",
+  "category": "concordance-database-file",
+  "summary": "",
+  "developer_org": "lexisnexis",
+  "developer_name": "LexisNexis",
+  "more_information": {
+    "description": [
+      "Concordance databases can store various kinds of digital documents, including email messages, Word documents, PDFs, and scanned paper documents. The software can also index the documents so that they are searchable. This helps in the litigation process when having to research and recall hundreds or thousands of documents.",
+      "A Concordance database is actually made up of several different files. The DCB file stores the structure of the data while other files store the data records, indexes, and other database information. When a DCB file is opened, Concordance locates the other database files and loads them automatically.",
+      "NOTE: DCB stands for \"data control block,\" which describes the function of the file type, namely, that the structure of the data is controlled in the DCB file."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "dcb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

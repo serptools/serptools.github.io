@@ -1,0 +1,35 @@
+{
+  "slug": "jar",
+  "extension": "jar",
+  "name": "Java Archive",
+  "category": "java-archive",
+  "summary": "",
+  "developer_org": "oracle",
+  "developer_name": "Oracle",
+  "more_information": {
+    "screenshot": {
+      "url": "https://fileinfo.com/img/ss/sm/jar_42.png",
+      "alt": "Screenshot of a .jar file in 7-Zip 19",
+      "caption": "JAR file open in 7-Zip 19"
+    },
+    "description": [
+      "JAR files contain CLASS files, application resources, and an optional manifest file ( META-INF/​MANIFEST.MF ). They are compressed using .ZIP compression and may optionally be digitally signed using the jarsigner tool included with the Java SDK . JAR files may be created with the jar tool, and they can be accessed using Java's java.util.jar API .",
+      "JAR files are used for some mobile games supported by Java-enabled mobile devices. They are also used by Mozilla Firefox, Thunderbird, SeaMonkey, and Sunbird to store themes and add-ons .",
+      "NOTE: The Java Runtime Environment is also referred to as the Java Virtual Machine (JVM). Sun Microsystems, the original developers of the JRE/JVM, were acquired by Oracle."
+    ]
+  },
+  "images": [
+    {
+      "url": "https://fileinfo.com/img/ss/sm/jar_42.png",
+      "alt": "Screenshot of a .jar file in 7-Zip 19",
+      "caption": "JAR file open in 7-Zip 19"
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "jar.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

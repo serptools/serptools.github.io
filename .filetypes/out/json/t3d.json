@@ -1,0 +1,94 @@
+{
+  "slug": "t3d",
+  "extension": "t3d",
+  "name": "Unreal Engine 3D Object File",
+  "category": "1.-unreal-engine-3d-object-file",
+  "developer_org": "epic-games",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 10,
+    "source": "fileinfo"
+  },
+  "summary": "File used by the Unreal Engine, a program that allows to create multi-player first person shooter games; contains a text list of Unreal map objects, also known as map actors; used to describe different objects and place them in an Unreal map.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "epic-games-unreal-tournament",
+        "display_name": "Epic Games Unreal Tournament"
+      },
+      {
+        "software": "epic-games-unrealed",
+        "display_name": "Epic Games UnrealEd"
+      },
+      {
+        "software": "electric-rain-swift-3d",
+        "display_name": "Electric Rain Swift 3D"
+      },
+      {
+        "software": "microsoft-windows-media-player-with-tictacti-plugin",
+        "display_name": "Microsoft Windows Media Player with TicTacTi plugin"
+      },
+      {
+        "software": "adobe-flash-player-with-tictacti-plugin",
+        "display_name": "Adobe Flash Player with TicTacTi plugin",
+        "status": "discontinued"
+      },
+      {
+        "software": "microsoft-silverlight",
+        "display_name": "Microsoft Silverlight"
+      }
+    ],
+    "macos": [
+      {
+        "software": "epic-games-unreal-tournament",
+        "display_name": "Epic Games Unreal Tournament"
+      },
+      {
+        "software": "electric-rain-swift-3d",
+        "display_name": "Electric Rain Swift 3D"
+      },
+      {
+        "software": "adobe-flash-player-with-tictacti-plugin",
+        "display_name": "Adobe Flash Player with TicTacTi plugin",
+        "status": "discontinued"
+      },
+      {
+        "software": "microsoft-silverlight",
+        "display_name": "Microsoft Silverlight"
+      }
+    ],
+    "linux": [
+      {
+        "software": "adobe-flash-player-with-tictacti-plugin",
+        "display_name": "Adobe Flash Player with TicTacTi plugin",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-10-01",
+  "sources": [
+    {
+      "url": "t3d.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

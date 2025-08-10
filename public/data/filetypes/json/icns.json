@@ -1,0 +1,36 @@
+{
+  "slug": "icns",
+  "extension": "icns",
+  "name": "macOS Icon Resource",
+  "category": "macos-icon-resource",
+  "summary": "",
+  "developer_org": "apple",
+  "developer_name": "Apple",
+  "more_information": {
+    "screenshot": {
+      "url": "https://fileinfo.com/img/ss/sm/icns_1168.jpg",
+      "alt": "Screenshot of a .icns file in Apple Preview 10",
+      "caption": "ICNS file open in Apple Preview 10"
+    },
+    "description": [
+      "Most macOS applications include an identifying icon that allows you to quickly recognize the program in your Applications list and Launchpad. Apps also use file type icons that allow you to identify files that will open in that app. These icons are saved as ICNS files, stored in the .APP package's Contents/​Resources directory.",
+      "ICNS files are created from one or more .PNG files. These files may have dimensions of 16x16, 32x32, 48x48, 128x128, 256x256, 512x512, or 1024x1024 pixels. Storing multiple resoultions in an ICNS file allows macOS to show the icon correctly at different sizes. To create an ICNS file, developers:",
+      "An application's .PLIST file ( Info.plist ) references its ICNS files, using the CFBundleIconFile property.",
+      "NOTE: ICNS files are similar to .ICO (Windows Icon) files."
+    ]
+  },
+  "images": [
+    {
+      "url": "https://fileinfo.com/img/ss/sm/icns_1168.jpg",
+      "alt": "Screenshot of a .icns file in Apple Preview 10",
+      "caption": "ICNS file open in Apple Preview 10"
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "icns.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

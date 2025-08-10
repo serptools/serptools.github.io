@@ -1,0 +1,91 @@
+{
+  "slug": "wk1",
+  "extension": "wk1",
+  "name": "Lotus Worksheet",
+  "category": "lotus-worksheet",
+  "developer_org": "ibm",
+  "popularity": {
+    "rating": 2.1,
+    "votes": 15,
+    "source": "fileinfo"
+  },
+  "summary": "Spreadsheet created by Lotus 1-2-3, a popular spreadsheet program in the 1990s; contains cells , which are organized by rows and columns; used to store and analyze structured data, as well as quickly compute formulas.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      },
+      {
+        "software": "corel-quattro-pro-2021",
+        "display_name": "Corel Quattro Pro 2021"
+      },
+      {
+        "software": "openoffice-calc",
+        "display_name": "OpenOffice Calc"
+      },
+      {
+        "software": "planamesa-neooffice",
+        "display_name": "Planamesa NeoOffice",
+        "status": "discontinued"
+      },
+      {
+        "software": "gnumeric",
+        "display_name": "Gnumeric"
+      }
+    ],
+    "macos": [
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      },
+      {
+        "software": "planamesa-neooffice",
+        "display_name": "Planamesa NeoOffice",
+        "status": "discontinued"
+      },
+      {
+        "software": "openoffice-calc",
+        "display_name": "OpenOffice Calc"
+      }
+    ],
+    "linux": [
+      {
+        "software": "openoffice-calc",
+        "display_name": "OpenOffice Calc"
+      },
+      {
+        "software": "gnumeric",
+        "display_name": "Gnumeric"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-04-08",
+  "sources": [
+    {
+      "url": "wk1.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

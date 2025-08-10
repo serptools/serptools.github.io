@@ -1,0 +1,150 @@
+{
+  "slug": "iss",
+  "extension": "iss",
+  "name": "Inno Setup Script",
+  "category": "1.-inno-setup-script",
+  "developer_org": "jordan-russel",
+  "popularity": {
+    "rating": 4.3,
+    "votes": 72,
+    "source": "fileinfo"
+  },
+  "summary": "An ISS file is a script used by Inno Setup, a free program used to create Windows program installers . It contains a series of plain text commands that specify where and how a Windows program is installed. ISS files are compiled to create .EXE files.",
+  "standards": [],
+  "mime_types": [
+    "a/s"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "jrsoftware-inno-setup",
+        "display_name": "Jrsoftware Inno Setup"
+      },
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "github-atom",
+        "display_name": "GitHub Atom",
+        "status": "discontinued"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      },
+      {
+        "software": "flexera-installshield",
+        "display_name": "Flexera InstallShield"
+      },
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      }
+    ],
+    "macos": [
+      {
+        "software": "gnu-emacs",
+        "display_name": "GNU Emacs"
+      },
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "jrsoftware-inno-setup",
+        "display_name": "Jrsoftware Inno Setup"
+      },
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "github-atom",
+        "display_name": "GitHub Atom",
+        "status": "discontinued"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      },
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      }
+    ],
+    "chromeos": [
+      {
+        "software": "google-chrome-text",
+        "display_name": "Google Chrome Text"
+      }
+    ],
+    "linux": [
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      }
+    ],
+    "web": [
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "ISS file icon",
+      "alt": "ISS file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/iss-4385.png"
+    },
+    {
+      "caption": "ISS file open in Inno Setup Compiler 6.1",
+      "alt": "ISS file open in Inno Setup Compiler 6.1",
+      "source_url": "https://fileinfo.com/img/ss/md/iss_4385.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-04-19",
+  "sources": [
+    {
+      "url": "iss.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

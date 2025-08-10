@@ -1,0 +1,47 @@
+{
+  "slug": "nru",
+  "extension": "nru",
+  "name": "Nero UDF CD-ROM Compilation",
+  "category": "nero-udf-cd-rom-compilation",
+  "developer_org": "nero",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "File used by Nero Burning ROM, a disc burning program included with Nero Multimedia Suite; contains a CD burning project and the data required to burn the disc in the Universal Disk Format (UDF); used for authoring CDs and DVDs.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "nero-2022",
+        "display_name": "Nero 2022"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-02-16",
+  "sources": [
+    {
+      "url": "nru.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

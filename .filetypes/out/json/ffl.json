@@ -1,0 +1,55 @@
+{
+  "slug": "ffl",
+  "extension": "ffl",
+  "name": "Find Fast Document List",
+  "category": "1.-find-fast-document-list",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 1.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "Contains a list documents found by Microsoft Find Fast, a search feature used by Microsoft Office and Outlook; created and updated using the Find Fast control panel and should not be opened manually.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-office",
+        "display_name": "Microsoft Office"
+      },
+      {
+        "software": "microsoft-outlook-365",
+        "display_name": "Microsoft Outlook 365"
+      },
+      {
+        "software": "china-mobile-fetion",
+        "display_name": "China Mobile Fetion"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-06-03",
+  "sources": [
+    {
+      "url": "ffl.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "pbix",
+  "extension": "pbix",
+  "name": "Power BI Desktop File",
+  "category": "power-bi-desktop-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 4.2,
+    "votes": 29,
+    "source": "fileinfo"
+  },
+  "summary": "A PBIX file is a document created by Power BI Desktop, a Microsoft application used to create reports and visualizations. It contains queries, data models, visualizations, settings, and reports added by the user.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-power-bi-desktop",
+        "display_name": "Microsoft Power BI Desktop"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "PBIX file open in Microsoft Power BI Desktop 2",
+      "alt": "PBIX file open in Microsoft Power BI Desktop 2",
+      "source_url": "https://fileinfo.com/img/ss/md/pbix_10463.jpg"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-04-19",
+  "sources": [
+    {
+      "url": "pbix.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

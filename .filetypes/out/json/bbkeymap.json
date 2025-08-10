@@ -1,0 +1,109 @@
+{
+  "slug": "bbkeymap",
+  "extension": "bbkeymap",
+  "name": "Blockbench Keymap",
+  "category": "blockbench-keymap",
+  "developer_org": "blockbench",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "A BBKEYMAP file is a custom keymap created and used by Blockbench, an open-source 3D model editor. It contains JSON data that specifies what keyboard buttons perform certain Blockbench functions. Users can alter Blockbench's keymap and export their current keymap as a BBKEYMAP file from the program's Keybindings window.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "blockbench",
+        "display_name": "Blockbench"
+      },
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      }
+    ],
+    "chromeos": [
+      {
+        "software": "google-chrome-text",
+        "display_name": "Google Chrome Text"
+      }
+    ],
+    "macos": [
+      {
+        "software": "blockbench",
+        "display_name": "Blockbench"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "blockbench",
+        "display_name": "Blockbench"
+      },
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "web": [
+      {
+        "software": "blockbench",
+        "display_name": "Blockbench"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "BBKEYMAP file open in Blockbench",
+      "alt": "BBKEYMAP file open in Blockbench",
+      "source_url": "https://fileinfo.com/img/ss/md/bbkeymap_12504.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-01-14",
+  "sources": [
+    {
+      "url": "bbkeymap.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

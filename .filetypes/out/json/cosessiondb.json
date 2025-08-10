@@ -1,0 +1,59 @@
+{
+  "slug": "cosessiondb",
+  "extension": "cosessiondb",
+  "name": "Capture One Session File",
+  "category": "capture-one-session-file",
+  "developer_org": "phase-one",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "A COSESSIONDB file is a session file created by Capture One, a program used for managing digital photos. It stores a collection of photos that have been selected by the user and organized as an album. COSESSIONDB files are used to organize your work as a project.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "phase-one-capture-one",
+        "display_name": "Phase One Capture One"
+      }
+    ],
+    "macos": [
+      {
+        "software": "phase-one-capture-one",
+        "display_name": "Phase One Capture One"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "COSESSIONDB file icon",
+      "alt": "COSESSIONDB file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/cosessiondb-10354.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-03-14",
+  "sources": [
+    {
+      "url": "cosessiondb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

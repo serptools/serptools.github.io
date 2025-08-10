@@ -1,0 +1,47 @@
+{
+  "slug": "epw",
+  "extension": "epw",
+  "name": "EnergyPlus Weather Data File",
+  "category": "energyplus-weather-data-file",
+  "developer_org": "u.s.-department-of-energy",
+  "popularity": {
+    "rating": 2.4,
+    "votes": 16,
+    "source": "fileinfo"
+  },
+  "summary": "Weather data file saved in the standard EnergyPlus format; used by EnergyPlus energy simulation software, developed by the U.S. Department of Energy (DoE); contains weather data that is used for running energy usage simulations.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "u.s.-department-of-energy-energyplus",
+        "display_name": "U.S. Department of Energy EnergyPlus"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-06-05",
+  "sources": [
+    {
+      "url": "epw.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

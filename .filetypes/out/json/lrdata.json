@@ -1,0 +1,59 @@
+{
+  "slug": "lrdata",
+  "extension": "lrdata",
+  "name": "Adobe Lightroom Data File",
+  "category": "adobe-lightroom-data-file",
+  "developer_org": "adobe-systems",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "Data file used by Adobe Lightroom, a program used to organize and edit digital photos; contains image preview data supporting a Lightroom digital photo catalog ( .LRCAT file); includes image metadata which enables users to browse through digital photo information.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "adobe-lightroom",
+        "display_name": "Adobe Lightroom"
+      }
+    ],
+    "macos": [
+      {
+        "software": "adobe-lightroom",
+        "display_name": "Adobe Lightroom"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "LRDATA file icon",
+      "alt": "LRDATA file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/lrdata-5851.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-10-20",
+  "sources": [
+    {
+      "url": "lrdata.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

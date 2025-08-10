@@ -1,0 +1,59 @@
+{
+  "slug": "ewriter",
+  "extension": "ewriter",
+  "name": "eWriter Book",
+  "category": "ewriter-book",
+  "developer_org": "ec-software",
+  "popularity": {
+    "rating": 4.4,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "An EWRITER file is an eBook that can be read with EC Software eWriter Viewer. In addition to text content, an EWRITER file may contain videos, images, audio, and interactive elements. Thus, some EWRITER files contain presentations or games, rather than typical books.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "ec-software-ewriter-viewer",
+        "display_name": "EC Software eWriter Viewer"
+      }
+    ],
+    "macos": [
+      {
+        "software": "ec-software-ewriter-viewer",
+        "display_name": "EC Software eWriter Viewer"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "EWRITER file open in EC Software eWriter Viewer",
+      "alt": "EWRITER file open in EC Software eWriter Viewer",
+      "source_url": "https://fileinfo.com/img/ss/md/ewriter_12733.jpg"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-11-06",
+  "sources": [
+    {
+      "url": "ewriter.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

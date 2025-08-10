@@ -1,0 +1,62 @@
+{
+  "slug": "cod",
+  "extension": "cod",
+  "name": "Compiled Source Code",
+  "category": "1.-compiled-source-code",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 33,
+    "source": "fileinfo"
+  },
+  "summary": "Compiled source code written in Fortran, dBASE, or Java 2 Platform, Micro Edition (J2ME); may also be created with Research In Motion's BlackBerry Java Development Environment (JDE).",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-visual-studio-2022",
+        "display_name": "Microsoft Visual Studio 2022"
+      },
+      {
+        "software": "dbase",
+        "display_name": "dBase"
+      },
+      {
+        "software": "blackberry-jde",
+        "display_name": "BlackBerry JDE",
+        "status": "discontinued"
+      },
+      {
+        "software": "rising-sun-solutions-atlantis-word-processor",
+        "display_name": "Rising Sun Solutions Atlantis Word Processor"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-06-20",
+  "sources": [
+    {
+      "url": "cod.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

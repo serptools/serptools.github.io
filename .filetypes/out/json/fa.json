@@ -1,0 +1,108 @@
+{
+  "slug": "fa",
+  "extension": "fa",
+  "name": "FASTA Formatted Sequence File",
+  "category": "fasta-formatted-sequence-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 2.7,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "An FA file contains either nucleic acid sequence (such as DNA) or protein sequence information. It is formatted using the .FASTA format, which can store multiple sequences in a single file. FA files can be analyzed with various DNA sequencing software programs.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "gsl-biotech-snapgene",
+        "display_name": "GSL Biotech SnapGene"
+      },
+      {
+        "software": "genome-compiler",
+        "display_name": "Genome Compiler",
+        "status": "discontinued"
+      },
+      {
+        "software": "4peaks",
+        "display_name": "4Peaks"
+      },
+      {
+        "software": "emboss-abiview",
+        "display_name": "EMBOSS abiview"
+      }
+    ],
+    "ios": [
+      {
+        "software": "heracle-biosoft-dna-baser",
+        "display_name": "Heracle BioSoft DNA Baser"
+      },
+      {
+        "software": "gsl-biotech-snapgene",
+        "display_name": "GSL Biotech SnapGene"
+      },
+      {
+        "software": "genome-compiler",
+        "display_name": "Genome Compiler",
+        "status": "discontinued"
+      }
+    ],
+    "macos": [
+      {
+        "software": "gsl-biotech-snapgene",
+        "display_name": "GSL Biotech SnapGene"
+      },
+      {
+        "software": "4peaks",
+        "display_name": "4Peaks"
+      },
+      {
+        "software": "genome-compiler",
+        "display_name": "Genome Compiler",
+        "status": "discontinued"
+      }
+    ],
+    "linux": [
+      {
+        "software": "gsl-biotech-snapgene",
+        "display_name": "GSL Biotech SnapGene"
+      },
+      {
+        "software": "emboss-abiview",
+        "display_name": "EMBOSS abiview"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "FA file icon",
+      "alt": "FA file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/fa-2250.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-03-22",
+  "sources": [
+    {
+      "url": "fa.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "slug": "tun",
+  "extension": "tun",
+  "name": "LEGO Racers Audio File",
+  "category": "lego-racers-audio-file",
+  "developer_org": "high-voltage-software",
+  "popularity": {
+    "rating": 2.5,
+    "votes": 11,
+    "source": "fileinfo"
+  },
+  "summary": "Audio file used by LEGO Racers, an older racing game where players drive cars made out of LEGO parts; saved in a .VOX ADPCM format and can be opened with audio editing software such as Audacity; used by the game to play background music tracks.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "high-voltage-software-lego-racers",
+        "display_name": "High Voltage Software LEGO Racers"
+      },
+      {
+        "software": "audacity",
+        "display_name": "Audacity"
+      }
+    ],
+    "macos": [
+      {
+        "software": "audacity",
+        "display_name": "Audacity"
+      }
+    ],
+    "linux": [
+      {
+        "software": "audacity",
+        "display_name": "Audacity"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-01-02",
+  "sources": [
+    {
+      "url": "tun.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

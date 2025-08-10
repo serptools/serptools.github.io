@@ -1,0 +1,75 @@
+{
+  "slug": "epp",
+  "extension": "epp",
+  "name": "TalaPhoto Project",
+  "category": "1.-talaphoto-project",
+  "developer_org": "talasoft",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 11,
+    "source": "fileinfo"
+  },
+  "summary": "An EPP file is a project created by TalaSoft TalaPhoto, a now-discontinued image organization and sharing program. It contains information about a photo project, including a list of selected images, their thumbnails, and settings related to how the project will be shared or exported. EPP files act as a container for organizing the structure and layout of a user’s photo set without storing the original image files themselves.",
+  "standards": [],
+  "mime_types": [
+    "cd/dvd"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      },
+      {
+        "software": "jgsoft-editpad-pro",
+        "display_name": "JGsoft EditPad Pro"
+      },
+      {
+        "software": "canon-easy-photoprint-ex",
+        "display_name": "Canon Easy-PhotoPrint EX",
+        "status": "discontinued"
+      }
+    ],
+    "macos": [
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      },
+      {
+        "software": "eltima-elmedia-player",
+        "display_name": "Eltima Elmedia Player"
+      },
+      {
+        "software": "canon-easy-photoprint-ex",
+        "display_name": "Canon Easy-PhotoPrint EX",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2025-06-05",
+  "sources": [
+    {
+      "url": "epp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

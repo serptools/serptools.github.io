@@ -1,0 +1,89 @@
+{
+  "slug": "xtp",
+  "extension": "xtp",
+  "name": "xTime Project Document",
+  "category": "1.-xtime-project-document",
+  "developer_org": "adnx",
+  "popularity": {
+    "rating": 4.2,
+    "votes": 21,
+    "source": "fileinfo"
+  },
+  "summary": "Project accessed by xPlan, a project management application; similar to the .PJ2 and .PJM file; created by the app4mac xTime Project program, which became xPlan; contains project data input such as the budget, project tasks, days off, and task duration.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "adnx-xplan",
+        "display_name": "adnx xPlan"
+      }
+    ],
+    "windows": [
+      {
+        "software": "adnx-xplan",
+        "display_name": "adnx xPlan"
+      },
+      {
+        "software": "autodesk-autocad-2025",
+        "display_name": "Autodesk AutoCAD 2025"
+      },
+      {
+        "software": "autodesk-autocad-civil-3d-2023",
+        "display_name": "Autodesk AutoCAD Civil 3D 2023"
+      },
+      {
+        "software": "microsoft-infopath",
+        "display_name": "Microsoft InfoPath"
+      },
+      {
+        "software": "symantec-xtree-pro",
+        "display_name": "Symantec XTree Pro"
+      },
+      {
+        "software": "symantec-xtree-gold",
+        "display_name": "Symantec XTree Gold"
+      },
+      {
+        "software": "symantec-xtree-easy",
+        "display_name": "Symantec XTree Easy"
+      }
+    ],
+    "ios": [
+      {
+        "software": "adnx-xplan",
+        "display_name": "adnx xPlan"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "XTP file icon",
+      "alt": "XTP file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/xtp-8991.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-10-08",
+  "sources": [
+    {
+      "url": "xtp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

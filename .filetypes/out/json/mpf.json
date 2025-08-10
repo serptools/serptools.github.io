@@ -1,0 +1,72 @@
+{
+  "slug": "mpf",
+  "extension": "mpf",
+  "name": "Microsoft Media Package FIle",
+  "category": "1.-microsoft-media-package-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 15,
+    "source": "fileinfo"
+  },
+  "summary": "Media file used by Microsoft Clip Organizer, a program that manages clip art images for Microsoft Office applications; contains .WMF files, clip art images, and keywords in a compressed package.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      },
+      {
+        "software": "cannot-be-opened",
+        "display_name": "Cannot be opened"
+      },
+      {
+        "software": "mainconcept-mainactor",
+        "display_name": "MainConcept MainActor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "cannot-be-opened",
+        "display_name": "Cannot be opened"
+      }
+    ],
+    "linux": [
+      {
+        "software": "cannot-be-opened",
+        "display_name": "Cannot be opened"
+      },
+      {
+        "software": "mainconcept-mainactor",
+        "display_name": "MainConcept MainActor"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-12-30",
+  "sources": [
+    {
+      "url": "mpf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

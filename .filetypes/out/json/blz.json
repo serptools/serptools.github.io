@@ -1,0 +1,75 @@
+{
+  "slug": "blz",
+  "extension": "blz",
+  "name": "Compressed Bitmap Image",
+  "category": "1.-compressed-bitmap-image",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 12,
+    "source": "fileinfo"
+  },
+  "summary": "Raster graphic that uses a compression algorithm to reduce the image file size; similar to a standard .BMP file, but compressed; sometimes used for packaging images in video games.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "tunibitmap",
+        "display_name": "TUniBitmap"
+      },
+      {
+        "software": "nokia-pc-suite",
+        "display_name": "Nokia PC Suite"
+      },
+      {
+        "software": "blz-extractor",
+        "display_name": "BLZ Extractor"
+      },
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      }
+    ],
+    "macos": [
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      }
+    ],
+    "web": [
+      {
+        "software": "tvs-to-mp4",
+        "display_name": "TVS to MP4"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-06-03",
+  "sources": [
+    {
+      "url": "blz.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

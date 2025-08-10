@@ -1,0 +1,100 @@
+{
+  "slug": "mar",
+  "extension": "mar",
+  "name": "Mozilla Archive",
+  "category": "1.-mozilla-archive",
+  "developer_org": "mozilla",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 29,
+    "source": "fileinfo"
+  },
+  "summary": "Application update file used by Mozilla programs such as Firefox, Thunderbird, and SeaMonkey; contains files that update the program to a new version; run by the Mozilla update program ( update.exe in Windows), which is included with Mozilla software installations; stored in a custom file format, but Mozilla has made the specification publically available.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "mozilla-firefox",
+        "display_name": "Mozilla Firefox"
+      },
+      {
+        "software": "mozilla-thunderbird",
+        "display_name": "Mozilla Thunderbird"
+      },
+      {
+        "software": "mozilla-seamonkey",
+        "display_name": "Mozilla SeaMonkey"
+      },
+      {
+        "software": "microsoft-access-365",
+        "display_name": "Microsoft Access 365"
+      },
+      {
+        "software": "microsoft-msn-explorer",
+        "display_name": "Microsoft MSN Explorer"
+      },
+      {
+        "software": "brz-marex",
+        "display_name": "brz MarEx"
+      }
+    ],
+    "macos": [
+      {
+        "software": "mozilla-firefox",
+        "display_name": "Mozilla Firefox"
+      },
+      {
+        "software": "mozilla-thunderbird",
+        "display_name": "Mozilla Thunderbird"
+      },
+      {
+        "software": "mozilla-seamonkey",
+        "display_name": "Mozilla SeaMonkey"
+      },
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      }
+    ],
+    "linux": [
+      {
+        "software": "mozilla-firefox",
+        "display_name": "Mozilla Firefox"
+      },
+      {
+        "software": "mozilla-thunderbird",
+        "display_name": "Mozilla Thunderbird"
+      },
+      {
+        "software": "mozilla-seamonkey",
+        "display_name": "Mozilla SeaMonkey"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-11-01",
+  "sources": [
+    {
+      "url": "mar.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

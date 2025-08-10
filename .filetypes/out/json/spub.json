@@ -1,0 +1,59 @@
+{
+  "slug": "spub",
+  "extension": "spub",
+  "name": "Disc Cover File",
+  "category": "1.-disc-cover-file",
+  "developer_org": "belight",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "CD/DVD label or jewel case insert created with Disc Cover software; allows covers and labels for CDs and DVDs to be created easily and accurately printed; SPUB files may also be label or cover templates included with the software program.",
+  "standards": [],
+  "mime_types": [
+    "cd/dvd"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "belight-software-disc-cover",
+        "display_name": "BeLight Software Disc Cover"
+      },
+      {
+        "software": "belight-swift-publisher",
+        "display_name": "BeLight Swift Publisher"
+      }
+    ],
+    "windows": [
+      {
+        "software": "belight-software-disc-cover",
+        "display_name": "BeLight Software Disc Cover"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2007-03-19",
+  "sources": [
+    {
+      "url": "spub.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "esx",
+  "extension": "esx",
+  "name": "Xactimate Insurance Claims Estimate",
+  "category": "xactimate-insurance-claims-estimate",
+  "developer_org": "xactware",
+  "popularity": {
+    "rating": 2.5,
+    "votes": 22,
+    "source": "fileinfo"
+  },
+  "summary": "An ESX file is a Zip-compressed archive that contains an insurance claim estimate created by Xactware Xactimate, a program used to create insurance claims. It stores insurance claim estimate information, such as dates, images, policy information, damages, deductibles, and estimated cost. ESX files are used for saving and filing insurance claims.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "xactware-xactimate",
+        "display_name": "Xactware Xactimate"
+      }
+    ],
+    "web": [
+      {
+        "software": "xactware-xactimate",
+        "display_name": "Xactware Xactimate"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-06-03",
+  "sources": [
+    {
+      "url": "esx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

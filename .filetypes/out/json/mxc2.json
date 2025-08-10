@@ -1,0 +1,51 @@
+{
+  "slug": "mxc2",
+  "extension": "mxc2",
+  "name": "MAGIX Cache File",
+  "category": "magix-cache-file",
+  "developer_org": "magix",
+  "popularity": {
+    "rating": 4.3,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "An MXC2 file is a cache file created by MAGIX software, such as Music Maker and Movie Studio. It contains metadata the application references to speed up the process of generating previews of media files within folders and subfolders. Users are not meant to open MXC2 files; instead, MAGIX software references them.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "magix-movie-studio",
+        "display_name": "MAGIX Movie Studio"
+      },
+      {
+        "software": "magix-music-maker-2024",
+        "display_name": "MAGIX Music Maker 2024"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-11-09",
+  "sources": [
+    {
+      "url": "mxc2.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

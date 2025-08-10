@@ -1,0 +1,63 @@
+{
+  "slug": "mv8",
+  "extension": "mv8",
+  "name": "Interplay MVE Video File",
+  "category": "interplay-mve-video-file",
+  "developer_org": "bioware",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "An MV8 file is a video file used by several games released by Interplay Entertainment. It is typically used to store an introduction animation that appears at the beginning of a game, such as the logo animation for Dolby sound used in the game.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      }
+    ],
+    "macos": [
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      }
+    ],
+    "linux": [
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-09-16",
+  "sources": [
+    {
+      "url": "mv8.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

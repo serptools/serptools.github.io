@@ -1,0 +1,81 @@
+{
+  "slug": "dsz",
+  "extension": "dsz",
+  "name": "Orchida (OES) Embroidery File",
+  "category": "1.-orchida-oes-embroidery-file",
+  "developer_org": "orchida-soft",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Embroidery format supported by the Orchida Embroidery System (OES); may contain embroidery designs and sewing instructions; can be generated from image files and TrueType fonts.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "orchida-soft-orchida-embroidery-system-oes",
+        "display_name": "Orchida Soft Orchida Embroidery System (OES)"
+      },
+      {
+        "software": "coats-embroidery-design-viewer",
+        "display_name": "Coats Embroidery Design Viewer"
+      },
+      {
+        "software": "pulse-ambassador",
+        "display_name": "Pulse Ambassador"
+      }
+    ],
+    "ios": [
+      {
+        "software": "choose-file",
+        "display_name": "Choose File"
+      },
+      {
+        "software": "m",
+        "display_name": "M"
+      },
+      {
+        "software": "restore-choose-file",
+        "display_name": "Restore → Choose File"
+      },
+      {
+        "software": ".zip",
+        "display_name": ".zip"
+      },
+      {
+        "software": ".dsv",
+        "display_name": ".dsv"
+      },
+      {
+        "software": "44670-ds-player",
+        "display_name": "44670 DS Player"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2008-06-12",
+  "sources": [
+    {
+      "url": "dsz.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "fox",
+  "extension": "fox",
+  "name": "InfoZoom Data File",
+  "category": "1.-infozoom-data-file",
+  "developer_org": "humanit",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 11,
+    "source": "fileinfo"
+  },
+  "summary": "Native data storage format used by InfoZoom, a data visualization program; contains table data, as well table structure, data formats, summaries, queries, analysis groups, color coding, and permissions information.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "humanit-infozoom",
+        "display_name": "humanIT InfoZoom"
+      },
+      {
+        "software": "furcadia",
+        "display_name": "Furcadia"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2007-11-09",
+  "sources": [
+    {
+      "url": "fox.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "repobundle",
+  "extension": "repobundle",
+  "name": "R.E.P.O. Bundle File",
+  "category": "r.e.p.o.-bundle-file",
+  "developer_org": "semiwork-studios",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "A REPOBUNDLE file stores a game modification for R.E.P.O. , an online co-op horror game. It contains information and assets, similarly to a plugin , that modify the functionality of the game, such as adding monsters and character customization options. R.E.P.O. gamers create mods and upload them to share with other gamers, who can use them in their installations of the game.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "semiwork-r.e.p.o.",
+        "display_name": "Semiwork R.E.P.O."
+      },
+      {
+        "software": "repolib",
+        "display_name": "REPOLib"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2025-06-02",
+  "sources": [
+    {
+      "url": "repobundle.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "jsxbin",
+  "extension": "jsxbin",
+  "name": "Binary ExtendScript Script File",
+  "category": "binary-extendscript-script-file",
+  "developer_org": "adobe-systems",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 17,
+    "source": "fileinfo"
+  },
+  "summary": "Binary script created by ExtendScript Toolkit (ESTK), a tool used to add extensions to Adobe Creative Suite (CS) applications; contains the binary version of a .JSX file, which is written using ExtendScript, an extended version of JavaScript ; used for distributing CS extensions and for protecting scripts by making them non-human readable.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "adobe-extendscript-toolkit",
+        "display_name": "Adobe ExtendScript Toolkit"
+      }
+    ],
+    "macos": [
+      {
+        "software": "adobe-extendscript-toolkit",
+        "display_name": "Adobe ExtendScript Toolkit"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-08-16",
+  "sources": [
+    {
+      "url": "jsxbin.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

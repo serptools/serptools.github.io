@@ -1,0 +1,61 @@
+{
+  "slug": "uzip",
+  "extension": "uzip",
+  "name": "FreeBSD Compressed Disk Image",
+  "category": "freebsd-compressed-disk-image",
+  "developer_org": "maxim-sobolev",
+  "popularity": {
+    "rating": 2.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "Compressed disk image created by mkuzip, a FreeBSD compression utility; compresses a disk image, such as a .UFS file, so that it can be read during runtime by the FreeBSD geom_uzip utility; used to reduce the disk image file size at the expense of additional CPU time when reading the image.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "linux": [
+      {
+        "software": "mkuzip",
+        "display_name": "mkuzip"
+      },
+      {
+        "software": "geom_uzip",
+        "display_name": "geom_uzip"
+      }
+    ],
+    "windows": [
+      {
+        "software": "mkuzip",
+        "display_name": "mkuzip"
+      },
+      {
+        "software": "geom_uzip",
+        "display_name": "geom_uzip"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-04-12",
+  "sources": [
+    {
+      "url": "uzip.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

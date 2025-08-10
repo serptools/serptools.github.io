@@ -1,0 +1,129 @@
+{
+  "slug": "btab",
+  "extension": "btab",
+  "name": "Bass Guitar ASCII Tablature File",
+  "category": "bass-guitar-ascii-tablature-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "A BTAB file is a bass guitar tablature file saved in the ASCII tab format. It is a plain text file that contains bass guitar tabs and lyrics and may include symbols to denote various playing techniques. Users can create, open, and edit BTAB files with a text editor or import them into various tablature applications.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "microsoft-wordpad",
+        "display_name": "Microsoft WordPad"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "leafpad",
+        "display_name": "Leafpad"
+      },
+      {
+        "software": "gedit",
+        "display_name": "gedit"
+      }
+    ],
+    "web": [
+      {
+        "software": "web-browser",
+        "display_name": "web browser"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "microsoft-wordpad",
+        "display_name": "Microsoft WordPad"
+      },
+      {
+        "software": "leafpad",
+        "display_name": "Leafpad"
+      },
+      {
+        "software": "gedit",
+        "display_name": "gedit"
+      }
+    ],
+    "macos": [
+      {
+        "software": "macromates-textmate",
+        "display_name": "MacroMates TextMate"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      }
+    ],
+    "chromeos": [
+      {
+        "software": "google-chrome-text",
+        "display_name": "Google Chrome Text"
+      }
+    ],
+    "linux": [
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "leafpad",
+        "display_name": "Leafpad"
+      },
+      {
+        "software": "gedit",
+        "display_name": "gedit"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-08-19",
+  "sources": [
+    {
+      "url": "btab.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

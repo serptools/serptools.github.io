@@ -1,0 +1,73 @@
+{
+  "slug": "wii",
+  "extension": "wii",
+  "name": "Scrambled Wii Disc Image",
+  "category": "1.-scrambled-wii-disc-image",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 2.9,
+    "votes": 28,
+    "source": "fileinfo"
+  },
+  "summary": "Disc image format used by the homebrew community for Nintendo Wii discs; saves a Wii game in a scrambled format; can be unscrambled and converted to the .ISO format with Wii Unscrambler and then burned to a standard disc; sometimes used for backing up Wii games.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "wii-unscrambler",
+        "display_name": "Wii Unscrambler"
+      },
+      {
+        "software": "savegame.wii",
+        "display_name": "savegame.wii"
+      },
+      {
+        "software": "tools-convert-from-pc",
+        "display_name": "Tools → Convert → From PC"
+      },
+      {
+        "software": "convert-from-pc",
+        "display_name": "Convert From PC"
+      },
+      {
+        "software": "file-open",
+        "display_name": "File → Open"
+      },
+      {
+        "software": "open",
+        "display_name": "Open"
+      },
+      {
+        "software": "mcctoolchest",
+        "display_name": "MCCToolChest"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-01-23",
+  "sources": [
+    {
+      "url": "wii.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "slug": "gcf",
+  "extension": "gcf",
+  "name": "Game Cache File",
+  "category": "game-cache-file",
+  "developer_org": "valve",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 20,
+    "source": "fileinfo"
+  },
+  "summary": "Cache file used by Valve's Steam game distribution software; contains a virtual file system that may include file fragments, metadata , checksums and other game information; used for storing downloaded games and game updates from the Valve distribution service.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "valve-steam",
+        "display_name": "Valve Steam"
+      },
+      {
+        "software": "gcfscape",
+        "display_name": "GCFScape"
+      }
+    ],
+    "macos": [
+      {
+        "software": "valve-steam",
+        "display_name": "Valve Steam"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-12-20",
+  "sources": [
+    {
+      "url": "gcf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "slug": "669",
+  "extension": "669",
+  "name": "UNIS Composer 669 Module",
+  "category": "unis-composer-669-module",
+  "developer_org": "jason-nunn",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 11,
+    "source": "fileinfo"
+  },
+  "summary": "A 669 file is a module created by UNIS Composer 669, an early music tracker program popular in the DOS era. It supports up to eight audio channels, each containing a sequence of notes or patterns created with user-specified sound samples . Musicians created compositions with UNIS Composer 669, often for video games, and saved their work as 669 files to preserve their work.",
+  "standards": [],
+  "mime_types": [
+    "vitamin/caig"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "nullsoft-winamp",
+        "display_name": "Nullsoft Winamp"
+      },
+      {
+        "software": "openmpt",
+        "display_name": "OpenMPT"
+      },
+      {
+        "software": "schism-tracker",
+        "display_name": "Schism Tracker"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "vitamin-caig-zxtune",
+        "display_name": "Vitamin/CAIG ZXTune"
+      },
+      {
+        "software": "cocomodx",
+        "display_name": "CocoModX",
+        "status": "discontinued"
+      }
+    ],
+    "macos": [
+      {
+        "software": "schism-tracker",
+        "display_name": "Schism Tracker"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "vitamin-caig-zxtune",
+        "display_name": "Vitamin/CAIG ZXTune"
+      },
+      {
+        "software": "cocomodx",
+        "display_name": "CocoModX",
+        "status": "discontinued"
+      }
+    ],
+    "linux": [
+      {
+        "software": "schism-tracker",
+        "display_name": "Schism Tracker"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "vitamin-caig-zxtune",
+        "display_name": "Vitamin/CAIG ZXTune"
+      }
+    ],
+    "android": [
+      {
+        "software": "vitamin-caig-zxtune",
+        "display_name": "Vitamin/CAIG ZXTune"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2024-11-21",
+  "sources": [
+    {
+      "url": "669.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

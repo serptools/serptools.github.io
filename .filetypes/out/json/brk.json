@@ -1,0 +1,117 @@
+{
+  "slug": "brk",
+  "extension": "brk",
+  "name": "Brick Hill Brick File",
+  "category": "1.-brick-hill-brick-file",
+  "developer_org": "brick-hill",
+  "popularity": {
+    "rating": 4.1,
+    "votes": 20,
+    "source": "fileinfo"
+  },
+  "summary": "A BRK file is a game data file created by Brick Hill Workshop, a brick editor for the Brick Hill building block game. It contains all of the information about an element in Brick Hill, which may be one small brick structure or a whole world consisting of many bricks. BRK files store all of the brick information, scripts , and details about the environment in plain text.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "brick-hill-workshop",
+        "display_name": "Brick Hill Workshop"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      },
+      {
+        "software": "draw-bricks",
+        "display_name": "Draw Bricks"
+      },
+      {
+        "software": "rhythm-software-quickedit-text-editor",
+        "display_name": "Rhythm Software QuickEdit text editor"
+      },
+      {
+        "software": "corel-paintshop-pro-2023",
+        "display_name": "Corel PaintShop Pro 2023"
+      }
+    ],
+    "macos": [
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      }
+    ],
+    "linux": [
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      }
+    ],
+    "chromeos": [
+      {
+        "software": "google-chrome-text",
+        "display_name": "Google Chrome Text"
+      }
+    ],
+    "android": [
+      {
+        "software": "draw-bricks",
+        "display_name": "Draw Bricks"
+      },
+      {
+        "software": "rhythm-software-quickedit-text-editor",
+        "display_name": "Rhythm Software QuickEdit text editor"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "BRK file open in Brick Hill Workshop 0.3",
+      "alt": "BRK file open in Brick Hill Workshop 0.3",
+      "source_url": "https://fileinfo.com/img/ss/md/brk_11724.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-10-15",
+  "sources": [
+    {
+      "url": "brk.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

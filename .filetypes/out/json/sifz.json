@@ -1,0 +1,59 @@
+{
+  "slug": "sifz",
+  "extension": "sifz",
+  "name": "Synfig Studio Compressed Project",
+  "category": "synfig-studio-compressed-project",
+  "developer_org": "synfig-studio-development-team",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "A SIFZ file is a .SIF project compressed with gzip and created by Synfig Studio, an open source application used to create professional 2D animations. It contains an animation, which consists of a canvas filled with shapes, brush or pencil strokes, text, and position, radius, tangent, angle, vertex, and width handles.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "synfig-studio",
+        "display_name": "Synfig Studio"
+      }
+    ],
+    "macos": [
+      {
+        "software": "synfig-studio",
+        "display_name": "Synfig Studio"
+      }
+    ],
+    "linux": [
+      {
+        "software": "synfig-studio",
+        "display_name": "Synfig Studio"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2016-06-01",
+  "sources": [
+    {
+      "url": "sifz.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "fxb",
+  "extension": "fxb",
+  "name": "FX Bank File",
+  "category": "fx-bank-file",
+  "summary": "",
+  "developer_org": "steinberg",
+  "developer_name": "Steinberg",
+  "more_information": {
+    "description": [
+      "Virtual Studio Technology is an audio plug-in interface that allows Digital Audio Workstations to install additional audio effects. While the VST interface was developed by Steinberg, many DAWs, including Steinberg Cubase, Ableton Live, Image-Line FL Studio, and LMMS, use the VST interface to allow users to install plug-ins.",
+      "In the past, VST plug-ins loaded effects from FXB files. These files contained some combination of new instruments, audio effects, or MIDI effects. While many DAWs used FXB files, each FXB file was linked to a specific plug-in. So, the FXB file could be loaded only from within that plug-in.",
+      "With the release of VST 3, Steinberg replaced FXB and FXP files with .VSTPRESET files. However, some DAWs still allow users to load FXB files in their associated plug-ins."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "fxb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

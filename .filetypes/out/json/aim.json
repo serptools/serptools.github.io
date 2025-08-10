@@ -1,0 +1,71 @@
+{
+  "slug": "aim",
+  "extension": "aim",
+  "name": "AIMMS ASCII Model File",
+  "category": "1.-aimms-ascii-model-file",
+  "developer_org": "paragon-decision-technology",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 16,
+    "source": "fileinfo"
+  },
+  "summary": "AIMMS (Advanced Integrated Multidimensional Modeling Software) model saved in a text format; contains an operations model created using the AIMMS modeling language; similar to an .AMB file, but saved as an ASCII text file instead of a binary file.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "paragon-aimms",
+        "display_name": "Paragon AIMMS"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "aol-instant-messenger",
+        "display_name": "AOL Instant Messenger"
+      }
+    ],
+    "linux": [
+      {
+        "software": "paragon-aimms",
+        "display_name": "Paragon AIMMS"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "aol-instant-messenger",
+        "display_name": "AOL Instant Messenger"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2016-10-12",
+  "sources": [
+    {
+      "url": "aim.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

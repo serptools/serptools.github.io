@@ -1,0 +1,77 @@
+{
+  "slug": "tib",
+  "extension": "tib",
+  "name": "Acronis True Image File",
+  "category": "acronis-true-image-file",
+  "developer_org": "acronis",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 66,
+    "source": "fileinfo"
+  },
+  "summary": "A TIB file is a disk image created by Acronis True Image. It contains an exact copy of a computer's hard disk, allowing the complete hard disk to be restored in the event of a system crash. TIB files might be a single backup or one of many incremental backups.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "acronis-true-image",
+        "display_name": "Acronis True Image"
+      },
+      {
+        "software": "acronis-cyber-backup",
+        "display_name": "Acronis Cyber Backup"
+      },
+      {
+        "software": "vmware-vcenter-converter",
+        "display_name": "VMware vCenter Converter"
+      }
+    ],
+    "macos": [
+      {
+        "software": "acronis-true-image",
+        "display_name": "Acronis True Image"
+      },
+      {
+        "software": "acronis-cyber-backup",
+        "display_name": "Acronis Cyber Backup"
+      }
+    ],
+    "linux": [
+      {
+        "software": "acronis-cyber-backup",
+        "display_name": "Acronis Cyber Backup"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "TIB file icon",
+      "alt": "TIB file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/tib-2240.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-09-22",
+  "sources": [
+    {
+      "url": "tib.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

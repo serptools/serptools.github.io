@@ -1,0 +1,53 @@
+{
+  "slug": "nrmlib",
+  "extension": "nrmlib",
+  "name": "Neat Cabinet File",
+  "category": "neat-cabinet-file",
+  "developer_org": "the-neat-company",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "Cabinet file created by Neat 5, a digital filing system; contains a library of your scanned documents; used only by the Mac version of Neat and not the Windows version of the software.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "neat",
+        "display_name": "Neat"
+      }
+    ],
+    "windows": [
+      {
+        "software": "neat",
+        "display_name": "Neat"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-03-06",
+  "sources": [
+    {
+      "url": "nrmlib.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

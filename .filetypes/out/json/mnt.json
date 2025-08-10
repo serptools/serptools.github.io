@@ -1,0 +1,48 @@
+{
+  "slug": "mnt",
+  "extension": "mnt",
+  "name": "Visual FoxPro Menu Memo",
+  "category": "visual-foxpro-menu-memo",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "An MNT file is a FoxPro memo file associated with menus created in Visual FoxPro database applications. It stores textual notes or descriptive information about a menu file ( .MNX ), a custom menu interface designed within FoxPro. MNT information provides additional context regarding menu items, including explanatory notes about the purpose of menu items and their modification history, which is helpful for developers organizing and managing the structure of application menu items.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-visual-foxpro",
+        "display_name": "Microsoft Visual FoxPro",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2024-10-09",
+  "sources": [
+    {
+      "url": "mnt.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

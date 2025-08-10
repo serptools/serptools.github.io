@@ -1,0 +1,138 @@
+{
+  "slug": "pac",
+  "extension": "pac",
+  "name": "Proxy Auto-Config File",
+  "category": "1.-proxy-auto-config-file",
+  "developer_org": "netscape",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 78,
+    "source": "fileinfo"
+  },
+  "summary": "A PAC file is a configuration file used by web browsers to select an appropriate proxy server . It contains one or more JavaScript functions with one of them named FindProxyForURL , which defines rules for choosing a proxy server based on a given URL . PAC files are used for controlling and load-balancing Internet traffic, especially in corporate environments.",
+  "standards": [],
+  "mime_types": [
+    "and/or"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-internet-explorer",
+        "display_name": "Microsoft Internet Explorer",
+        "status": "discontinued"
+      },
+      {
+        "software": "mozilla-firefox",
+        "display_name": "Mozilla Firefox"
+      },
+      {
+        "software": "apple-safari",
+        "display_name": "Apple Safari"
+      },
+      {
+        "software": "broadstream-solutions-wincaps-q4",
+        "display_name": "BroadStream Solutions Wincaps Q4"
+      },
+      {
+        "software": "broadstream-solutions-poliscript-create",
+        "display_name": "BroadStream Solutions Poliscript Create"
+      },
+      {
+        "software": "eztitles",
+        "display_name": "EZTitles"
+      },
+      {
+        "software": "subtitle-edit",
+        "display_name": "Subtitle Edit"
+      },
+      {
+        "software": "hedgelib",
+        "display_name": "HedgeLib"
+      },
+      {
+        "software": "noesis",
+        "display_name": "Noesis"
+      },
+      {
+        "software": "fmj-software-awave-studio",
+        "display_name": "FMJ-Software Awave Studio"
+      },
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      },
+      {
+        "software": "pac-editor",
+        "display_name": "PAC Editor"
+      },
+      {
+        "software": "repac",
+        "display_name": "rePac"
+      },
+      {
+        "software": "2k-sports-wwe-2k19",
+        "display_name": "2K Sports WWE 2K19"
+      },
+      {
+        "software": "2k-sports-wwe-2k18",
+        "display_name": "2K Sports WWE 2K18"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-safari",
+        "display_name": "Apple Safari"
+      },
+      {
+        "software": "mozilla-firefox",
+        "display_name": "Mozilla Firefox"
+      },
+      {
+        "software": "hedgelib",
+        "display_name": "HedgeLib"
+      },
+      {
+        "software": "lemkesoft-graphicconverter",
+        "display_name": "Lemkesoft GraphicConverter"
+      },
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      }
+    ],
+    "linux": [
+      {
+        "software": "mozilla-firefox",
+        "display_name": "Mozilla Firefox"
+      },
+      {
+        "software": "hedgelib",
+        "display_name": "HedgeLib"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-08-07",
+  "sources": [
+    {
+      "url": "pac.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

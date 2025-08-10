@@ -1,0 +1,35 @@
+{
+  "slug": "wad",
+  "extension": "wad",
+  "name": "Doom WAD File",
+  "category": "doom-wad-file",
+  "summary": "",
+  "developer_org": "abstraction-games",
+  "developer_name": "Abstraction Games",
+  "more_information": {
+    "screenshot": {
+      "url": "https://fileinfo.com/img/ss/sm/wad_1520.png",
+      "alt": "Screenshot of a .wad file in SLADE",
+      "caption": "WAD file open in SLADE"
+    },
+    "description": [
+      "The WAD format has been classified into two categories: 1) IWAD (\"Internal WAD\") and 2) PWAD (\"Patch WAD\"). The IWAD file type is used for loading core game content, and PWAD files are used for adding optional data to the game.",
+      "Because of Doom's popularity and the customizability of WAD files, the WAD format became one of the more widely known and widely used game data file formats. Community gamers developed thousands of WAD-based mods for Doom and other games. However, since Doom and Doom II were released in the 1990s, the format is not as commonly used as it once was.",
+      "The original WAD format, referred to as WAD1, evolved into subsequent formats, including WAD2 and WAD3. These versions were reduced in scope to include only game textures and were used for Quake and Half-Life. Quake WAD texture files can be edited with programs such as Wally."
+    ]
+  },
+  "images": [
+    {
+      "url": "https://fileinfo.com/img/ss/sm/wad_1520.png",
+      "alt": "Screenshot of a .wad file in SLADE",
+      "caption": "WAD file open in SLADE"
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "wad.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "slug": "azw3r",
+  "extension": "azw3r",
+  "name": "Amazon eBook Notation File",
+  "category": "amazon-ebook-notation-file",
+  "developer_org": "amazon",
+  "popularity": {
+    "rating": 1.3,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "An AZW3R file is a notation file used by Amazon Kindle, an eReader app. It contains data used to show a user's notes, highlights, and bookmarks in an associated .AZW3 eBook. AZW3R files typically have the same name as the AZW3 file with which they are associated.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "amazon-kindle-for-pc",
+        "display_name": "Amazon Kindle for PC"
+      },
+      {
+        "software": "jps-e-azw3r",
+        "display_name": "jps-e azw3r"
+      },
+      {
+        "software": "amazon-kindle",
+        "display_name": "Amazon Kindle"
+      }
+    ],
+    "macos": [
+      {
+        "software": "amazon-kindle-for-mac",
+        "display_name": "Amazon Kindle for Mac"
+      },
+      {
+        "software": "jps-e-azw3r",
+        "display_name": "jps-e azw3r"
+      }
+    ],
+    "linux": [
+      {
+        "software": "jps-e-azw3r",
+        "display_name": "jps-e azw3r"
+      }
+    ],
+    "ios": [
+      {
+        "software": "amazon-kindle",
+        "display_name": "Amazon Kindle"
+      }
+    ],
+    "android": [
+      {
+        "software": "amazon-kindle",
+        "display_name": "Amazon Kindle"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-09-12",
+  "sources": [
+    {
+      "url": "azw3r.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "partial",
+  "extension": "partial",
+  "name": "Internet Explorer Partially Downloaded File",
+  "category": "internet-explorer-partially-downloaded-file",
+  "summary": "",
+  "developer_org": "microsoft",
+  "developer_name": "Microsoft",
+  "more_information": {
+    "description": [
+      "You can resume partial downloads by double-clicking the PARTIAL file. When opened, IE displays the View Downloads window, which shows the list of complete and incomplete downloads. From this window, you can click the Resume button to resume the download.",
+      "IE creates PARTIAL filenames by appending a compound file extension containing a generated code and the \".partial\" extension. For example, myfile.zip.owxpco0.partial is an example filename in which IE9 appends the \".owxpco0.partial\" compound extension to the original filename myfile.zip . When IE9 downloads are complete, the browser removes the appended extension from the filename, leaving only the original filename.",
+      "NOTE: Generally, PARTIAL files are unusable until IE finishes the download. However, it is possible that some files, such as videos or music files, can be played partially even if the download is incomplete."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "partial.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

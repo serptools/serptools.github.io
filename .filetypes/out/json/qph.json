@@ -1,0 +1,79 @@
+{
+  "slug": "qph",
+  "extension": "qph",
+  "name": "Qt Phrase Books File",
+  "category": "1.-qt-phrase-books-file",
+  "developer_org": "qt-group",
+  "popularity": {
+    "rating": 2.6,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Language translation file created by Qt Linguist, a program used for translating and internationalizing Qt (pronounced \"Cute\") applications; contains text phrases and their translations into another language; provides a translation repository that can be used by multiple Qt applications.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "nokia-qt-linguist",
+        "display_name": "Nokia Qt Linguist"
+      },
+      {
+        "software": "qt-sdk",
+        "display_name": "Qt SDK"
+      },
+      {
+        "software": "intuit-quicken",
+        "display_name": "Intuit Quicken"
+      }
+    ],
+    "macos": [
+      {
+        "software": "nokia-qt-linguist",
+        "display_name": "Nokia Qt Linguist"
+      },
+      {
+        "software": "qt-sdk",
+        "display_name": "Qt SDK"
+      },
+      {
+        "software": "intuit-quicken",
+        "display_name": "Intuit Quicken"
+      }
+    ],
+    "linux": [
+      {
+        "software": "nokia-qt-linguist",
+        "display_name": "Nokia Qt Linguist"
+      },
+      {
+        "software": "qt-sdk",
+        "display_name": "Qt SDK"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-10-14",
+  "sources": [
+    {
+      "url": "qph.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

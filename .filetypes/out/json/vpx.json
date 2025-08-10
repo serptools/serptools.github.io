@@ -1,0 +1,51 @@
+{
+  "slug": "vpx",
+  "extension": "vpx",
+  "name": "Avast Virus Update File",
+  "category": "avast-virus-update-file",
+  "developer_org": "avast-software",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 42,
+    "source": "fileinfo"
+  },
+  "summary": "A VPX file is a data file used by Avast antivirus and Internet security applications. It contains virus definitions and software update information that is referenced by Avast offerings to keep the software up-to-date with the latest protection signatures.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "avast-pro-antivirus",
+        "display_name": "Avast Pro Antivirus"
+      },
+      {
+        "software": "avast-internet-security",
+        "display_name": "Avast Internet Security"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-04-01",
+  "sources": [
+    {
+      "url": "vpx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

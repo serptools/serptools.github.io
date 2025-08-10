@@ -1,0 +1,99 @@
+{
+  "slug": "aqx",
+  "extension": "aqx",
+  "name": "AlpineQuest XML Map Configuration",
+  "category": "alpinequest-xml-map-configuration",
+  "developer_org": "psyberia",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "An AQX file is a map configuration file used by Psyberia AlpineQuest and All-In-One Offline Maps, which are map viewing apps for Android . It contains XML data that the apps use to access and download online maps. Both apps include default AQX files; users can also create their own AQX files to install custom maps.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "psyberia-alpinequest",
+        "display_name": "Psyberia AlpineQuest"
+      },
+      {
+        "software": "psyberia-all-in-one-offline-maps",
+        "display_name": "Psyberia All-In-One Offline Maps"
+      }
+    ],
+    "android": [
+      {
+        "software": "file-viewer-for-android",
+        "display_name": "File Viewer for Android"
+      },
+      {
+        "software": "psyberia-alpinequest",
+        "display_name": "Psyberia AlpineQuest"
+      },
+      {
+        "software": "psyberia-all-in-one-offline-maps",
+        "display_name": "Psyberia All-In-One Offline Maps"
+      }
+    ],
+    "macos": [
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "AQX file open in Microsoft Visual Studio Code",
+      "alt": "AQX file open in Microsoft Visual Studio Code",
+      "source_url": "https://fileinfo.com/img/ss/md/aqx_13133.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-01-25",
+  "sources": [
+    {
+      "url": "aqx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

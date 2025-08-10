@@ -1,0 +1,49 @@
+{
+  "slug": "salma",
+  "extension": "salma",
+  "name": "Salma Ransomware Encrypted File",
+  "category": "salma-ransomware-encrypted-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "A file with a .salma extension has been encrypted by Salma ransomware . It is encrypted with the AES-256 encryption algorithm and RSA-1024 Asymmetric Encryption. Since SALMA files are encrypted you cannot change the .salma file extension to open it.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "system-restore",
+        "display_name": "System Restore"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-08-24",
+  "sources": [
+    {
+      "url": "salma.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

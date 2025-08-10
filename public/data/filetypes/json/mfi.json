@@ -1,0 +1,32 @@
+{
+  "slug": "mfi",
+  "extension": "mfi",
+  "name": "HDClone MFI Disk Image",
+  "category": "hdclone-mfi-disk-image",
+  "summary": "",
+  "developer_org": "miray-software",
+  "developer_name": "Miray Software",
+  "more_information": {
+    "description": [
+      "HDClone was initially released in 2003 to provide various disk image cloning and backing up capabilities. The application supports the backing up of disk images and other mass storage media, the copying of software and operating system installations, and rescuing defective hard disks.",
+      "Miray Software introduced the HDClone MFI image format when it released HDClone 8 in 2018. HDClone MFI then became the default image format for HDClone 9 in 2019. To create an MFI file with HDClone, select \"Images,\" then click \"FullImage\" under the \"Create\" option."
+    ]
+  },
+  "common_filenames": [
+    {
+      "filename": "[YYYYMMDD]Image.mfi",
+      "description": "[YYYYMMDD]Image.mfi - The naming convention for MFI files created by HDClone. The [YYYYMMDD] represents the year, month, and day the MFI file was created. For example, an MFI file created on December 15, 2020 would be named 20201215Image.mfi ."
+    },
+    {
+      "filename": "20201215Image.mfi",
+      "description": "[YYYYMMDD]Image.mfi - The naming convention for MFI files created by HDClone. The [YYYYMMDD] represents the year, month, and day the MFI file was created. For example, an MFI file created on December 15, 2020 would be named 20201215Image.mfi ."
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "mfi.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

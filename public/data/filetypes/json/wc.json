@@ -1,0 +1,28 @@
+{
+  "slug": "wc",
+  "extension": "wc",
+  "name": "Valve Hammer Configuration File",
+  "category": "valve-hammer-configuration-file",
+  "summary": "",
+  "developer_org": "valve",
+  "developer_name": "Valve",
+  "more_information": {
+    "description": [
+      "To create, remove, rename, or copy a WC file, click \"Edit\" and select the appropriate action (New, Remove, Rename, Copy).",
+      "NOTE: Hammer Editor is included in the Source game engine SDK ."
+    ]
+  },
+  "common_filenames": [
+    {
+      "filename": "CmdSeq.wc",
+      "description": "CmdSeq.wc - The name of the file that holds compile profile information."
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "wc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

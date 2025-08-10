@@ -1,0 +1,53 @@
+{
+  "slug": "trd",
+  "extension": "trd",
+  "name": "TrID Definitions Package",
+  "category": "trid-definitions-package",
+  "developer_org": "trid",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "Database of file type definitions used by TrID, a software utility that can identify file types based on their binary signatures; saved as a separate file and can be updated by downloading new versions of the definitions library.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "trid",
+        "display_name": "TrID"
+      }
+    ],
+    "linux": [
+      {
+        "software": "trid",
+        "display_name": "TrID"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2007-03-26",
+  "sources": [
+    {
+      "url": "trd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

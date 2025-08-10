@@ -1,0 +1,91 @@
+{
+  "slug": "rv",
+  "extension": "rv",
+  "name": "RealVideo File",
+  "category": "realvideo-file",
+  "developer_org": "realnetworks",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 14,
+    "source": "fileinfo"
+  },
+  "summary": "Video file saved in the proprietary RealVideo format; similar to a .RM file, but specifies the file contains video (not just audio); can be played by RealPlayer as well as other video players that have a supporting Real codec installed.",
+  "standards": [],
+  "mime_types": [
+    "20/20"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "realnetworks-realplayer-20-20",
+        "display_name": "RealNetworks RealPlayer 20/20"
+      },
+      {
+        "software": "media-player-classic-with-real-alternative-component",
+        "display_name": "Media Player Classic with Real Alternative component"
+      },
+      {
+        "software": "microsoft-windows-media-player-with-real-alternative-component",
+        "display_name": "Microsoft Windows Media Player with Real Alternative component"
+      },
+      {
+        "software": "online-media-technologies-avs-video-converter",
+        "display_name": "Online Media Technologies AVS Video Converter"
+      },
+      {
+        "software": "eltima-elmedia-player",
+        "display_name": "Eltima Elmedia Player"
+      },
+      {
+        "software": "realnetworks-realtimes-video-maker",
+        "display_name": "RealNetworks RealTimes: Video Maker"
+      },
+      {
+        "software": "realnetworks-realtimes-video-maker",
+        "display_name": "RealNetworks RealTimes Video Maker"
+      }
+    ],
+    "macos": [
+      {
+        "software": "eltima-elmedia-player",
+        "display_name": "Eltima Elmedia Player"
+      }
+    ],
+    "ios": [
+      {
+        "software": "realnetworks-realtimes-video-maker",
+        "display_name": "RealNetworks RealTimes: Video Maker"
+      }
+    ],
+    "android": [
+      {
+        "software": "realnetworks-realtimes-video-maker",
+        "display_name": "RealNetworks RealTimes Video Maker"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-10-23",
+  "sources": [
+    {
+      "url": "rv.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

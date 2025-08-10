@@ -1,0 +1,63 @@
+{
+  "slug": "i3d",
+  "extension": "i3d",
+  "name": "Houdini Image 3D File",
+  "category": "houdini-image-3d-file",
+  "developer_org": "side-effects",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 19,
+    "source": "fileinfo"
+  },
+  "summary": "Three-dimensional texture file created by Houdini, a professional modeling and rendering program; can store arbitrary volumetric data in 3D space; often used for storing clouds or smoke.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "sidefx-houdini",
+        "display_name": "SideFX Houdini"
+      },
+      {
+        "software": "giants-editor",
+        "display_name": "GIANTS Editor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "sidefx-houdini",
+        "display_name": "SideFX Houdini"
+      }
+    ],
+    "linux": [
+      {
+        "software": "sidefx-houdini",
+        "display_name": "SideFX Houdini"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-05-26",
+  "sources": [
+    {
+      "url": "i3d.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

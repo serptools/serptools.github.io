@@ -1,0 +1,67 @@
+{
+  "slug": "ny",
+  "extension": "ny",
+  "name": "Audacity Nyquist Plug-in",
+  "category": "audacity-nyquist-plug-in",
+  "developer_org": "nyquist",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 11,
+    "source": "fileinfo"
+  },
+  "summary": "Plugin file created for Audacity, an audio editing application; saves source code written in Nyquist, a LISP-based programming language for sound synthesis and music composition; stores audio effects such as fades, delays, and choruses.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "audacity",
+        "display_name": "Audacity"
+      },
+      {
+        "software": "nyquistide",
+        "display_name": "NyquistIDE"
+      }
+    ],
+    "macos": [
+      {
+        "software": "audacity",
+        "display_name": "Audacity"
+      },
+      {
+        "software": "nyquistide",
+        "display_name": "NyquistIDE"
+      }
+    ],
+    "linux": [
+      {
+        "software": "nyquistide",
+        "display_name": "NyquistIDE"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-08-04",
+  "sources": [
+    {
+      "url": "ny.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

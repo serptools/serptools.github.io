@@ -1,0 +1,22 @@
+{
+  "slug": "q",
+  "extension": "q",
+  "name": "Quantum Compressed File",
+  "category": "quantum-compressed-file",
+  "summary": "",
+  "developer_org": "cinematronics",
+  "developer_name": "Cinematronics",
+  "more_information": {
+    "description": [
+      "Quantum is a compression format created by Cinematronics' David Stafford. It uses an extended LZ77 compression algorithm to compress users' files. Most notably, Quantum is the compression method used to create some Windows .CAB (Windows Cabinet) files.",
+      "Most other Quantum archives are saved as Q files. Q files can be created using a variety of compression programs. For example, PAQ.exe was a Quantum compression program available for MS-DOS, and QWIN.exe was a Quantum compression program available for 16-bit Windows. COMPRESS.exe , a program bundled with Windows versions up to Windows XP, could also create Quantum archives."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "q.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "osz2",
+  "extension": "osz2",
+  "name": "osu! Submitted Beatmap File",
+  "category": "osu-submitted-beatmap-file",
+  "developer_org": "peppy",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "An OSZ2 file is a beatmap file used by osu!, a free rhythm game in which players click and drag on-screen items in time with music. It contains a game level that can be played in osu!. OSZ2 files are created when a player uploads a custom level to the osu! website. They are stored in the game's SubmissionCache directory.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "osu",
+        "display_name": "osu!"
+      }
+    ],
+    "macos": [
+      {
+        "software": "osu-mac",
+        "display_name": "osu!mac"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "OSZ2 file icon",
+      "alt": "OSZ2 file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/osz2-12117.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-06-03",
+  "sources": [
+    {
+      "url": "osz2.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "slug": "ref",
+  "extension": "ref",
+  "name": "IDRISI Raster Image Reference File",
+  "category": "1.-idrisi-raster-image-reference-file",
+  "developer_org": "clark-labs",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 31,
+    "source": "fileinfo"
+  },
+  "summary": "File created by IDRISI Taiga, a GIS imaging application; stores geographic reference information so that .RST images can be projected according to specific unit measurements; can be used for multiple raster images.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "clark-labs-terrset",
+        "display_name": "Clark Labs TerrSet"
+      },
+      {
+        "software": "gdal",
+        "display_name": "GDAL"
+      },
+      {
+        "software": "microsoft-train-simulator",
+        "display_name": "Microsoft Train Simulator"
+      }
+    ],
+    "linux": [
+      {
+        "software": "gdal",
+        "display_name": "GDAL"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-05-19",
+  "sources": [
+    {
+      "url": "ref.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

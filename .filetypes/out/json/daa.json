@@ -1,0 +1,87 @@
+{
+  "slug": "daa",
+  "extension": "daa",
+  "name": "PowerISO Direct-Access-Archive",
+  "category": "poweriso-direct-access-archive",
+  "developer_org": "poweriso-computing",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 37,
+    "source": "fileinfo"
+  },
+  "summary": "Proprietary disk image file format used by PowerISO, a disk imaging application; can be compressed, encrypted, password protected, and split into multiple volumes; used for mounting virtual file systems as disk drives, as well as protecting sensitive data.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "poweriso",
+        "display_name": "PowerISO"
+      },
+      {
+        "software": "ezb-systems-ultraiso",
+        "display_name": "EZB Systems UltraISO"
+      },
+      {
+        "software": "winarchiver",
+        "display_name": "WinArchiver"
+      },
+      {
+        "software": "daa2iso",
+        "display_name": "DAA2ISO"
+      },
+      {
+        "software": "twilight-edge-daa-converter",
+        "display_name": "Twilight Edge DAA Converter"
+      },
+      {
+        "software": "acetoneiso",
+        "display_name": "AcetoneISO"
+      }
+    ],
+    "linux": [
+      {
+        "software": "poweriso-for-linux",
+        "display_name": "PowerISO for Linux"
+      },
+      {
+        "software": "acetoneiso",
+        "display_name": "AcetoneISO"
+      }
+    ],
+    "macos": [
+      {
+        "software": "poweriso",
+        "display_name": "PowerISO"
+      },
+      {
+        "software": "twilight-edge-daa-converter",
+        "display_name": "Twilight Edge DAA Converter"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-05-31",
+  "sources": [
+    {
+      "url": "daa.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

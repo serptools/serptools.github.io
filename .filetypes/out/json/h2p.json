@@ -1,0 +1,53 @@
+{
+  "slug": "h2p",
+  "extension": "h2p",
+  "name": "Zebra2 Preset",
+  "category": "zebra2-preset",
+  "developer_org": "u-he",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "Preset format used by Zebra2, a virtual studio technology (VST) synthesizer plugin that is designed to be added on to DAWs such as Steinberg Cubase or Avid Pro Tools; stores audio settings, including the preset author and usage, in a text-editable format.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "u-he-zebra2",
+        "display_name": "u-he Zebra2"
+      }
+    ],
+    "macos": [
+      {
+        "software": "u-he-zebra2",
+        "display_name": "u-he Zebra2"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-01-20",
+  "sources": [
+    {
+      "url": "h2p.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

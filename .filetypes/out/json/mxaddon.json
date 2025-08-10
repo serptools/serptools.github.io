@@ -1,0 +1,47 @@
+{
+  "slug": "mxaddon",
+  "extension": "mxaddon",
+  "name": "Maxthon Add-On File",
+  "category": "maxthon-add-on-file",
+  "developer_org": "maxthon-international",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Plugin file used by Maxthon, a customizable Web browser; introduced with version 3 of the browser (version 2 uses .M2P files); stores a small program that extends the browser functionality; often used for adding small games or news and weather reporters to the browser.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "maxthon",
+        "display_name": "Maxthon"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-10-31",
+  "sources": [
+    {
+      "url": "mxaddon.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "slug": "dd",
+  "extension": "dd",
+  "name": "DiskDoubler Archive",
+  "category": "diskdoubler-archive",
+  "developer_org": "symantec",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 21,
+    "source": "fileinfo"
+  },
+  "summary": "Compressed file archive created by Macintosh DiskDoubler for Mac OS Classic; uses the LZ78 compression algorithm; compresses files in place on the hard drive, which are expanded on-the-fly when opened; compressed automatically in the background using AutoDoubler.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "smart-projects-isobuster",
+        "display_name": "Smart Projects IsoBuster"
+      },
+      {
+        "software": "symantec-norton-diskdoubler-pro",
+        "display_name": "Symantec Norton DiskDoubler Pro"
+      },
+      {
+        "software": "the-unarchiver",
+        "display_name": "The Unarchiver"
+      },
+      {
+        "software": "superdoubler",
+        "display_name": "SuperDoubler"
+      },
+      {
+        "software": "ddexpand",
+        "display_name": "DDExpand"
+      }
+    ],
+    "macos": [
+      {
+        "software": "symantec-norton-diskdoubler-pro",
+        "display_name": "Symantec Norton DiskDoubler Pro"
+      },
+      {
+        "software": "the-unarchiver",
+        "display_name": "The Unarchiver"
+      },
+      {
+        "software": "superdoubler",
+        "display_name": "SuperDoubler"
+      },
+      {
+        "software": "ddexpand",
+        "display_name": "DDExpand"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-12-26",
+  "sources": [
+    {
+      "url": "dd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

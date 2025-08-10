@@ -1,0 +1,69 @@
+{
+  "slug": "efe",
+  "extension": "efe",
+  "name": "Ensoniq EPS File",
+  "category": "ensoniq-eps-file",
+  "developer_org": "e-mu",
+  "popularity": {
+    "rating": 1.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "Ensoniq Performance Sampler (EPS) sound format used by Ensoniq samplers (now owned by E-mu); similar to a .WAV file, but also includes pitch and key information and indicates where the samples are played back on a MIDI keyboard.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "chicken-systems-translator",
+        "display_name": "Chicken Systems Translator"
+      },
+      {
+        "software": "chicken-systems-sampler-tools",
+        "display_name": "Chicken Systems Sampler Tools"
+      },
+      {
+        "software": "ensoniq-disk-tools",
+        "display_name": "Ensoniq Disk Tools"
+      }
+    ],
+    "macos": [
+      {
+        "software": "chicken-systems-translator",
+        "display_name": "Chicken Systems Translator"
+      },
+      {
+        "software": "chicken-systems-sampler-tools",
+        "display_name": "Chicken Systems Sampler Tools"
+      },
+      {
+        "software": "ensoniq-disk-tools",
+        "display_name": "Ensoniq Disk Tools"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2006",
+  "sources": [
+    {
+      "url": "efe.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

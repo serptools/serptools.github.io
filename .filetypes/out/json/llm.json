@@ -1,0 +1,59 @@
+{
+  "slug": "llm",
+  "extension": "llm",
+  "name": "Linden Lab Mesh File",
+  "category": "linden-lab-mesh-file",
+  "developer_org": "linden-research",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "Linden Lab Mesh (LLM) file used by Second Life, a network-based virtual reality world; contains a 3D \"mesh\" definition as a collection of polygons that form the surface of an avatar ; used to render a 3D avatar and create texture wrappings.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "linden-research-second-life",
+        "display_name": "Linden Research Second Life"
+      }
+    ],
+    "macos": [
+      {
+        "software": "linden-research-second-life",
+        "display_name": "Linden Research Second Life"
+      }
+    ],
+    "linux": [
+      {
+        "software": "linden-research-second-life",
+        "display_name": "Linden Research Second Life"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-01-25",
+  "sources": [
+    {
+      "url": "llm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

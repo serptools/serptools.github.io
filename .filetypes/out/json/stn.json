@@ -1,0 +1,53 @@
+{
+  "slug": "stn",
+  "extension": "stn",
+  "name": "Genuine Fractals Image",
+  "category": "genuine-fractals-image",
+  "developer_org": "on1",
+  "popularity": {
+    "rating": 3.2,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "An STN file is a scaled image saved in the STiNG format and created by Genuine Fractals, an image editing plug-in for Photoshop. It is a resolution-independent copy of a raster image, allowing it to be scaled without loss of image quality.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "adobe-photoshop-with-perfect-resize-7.5-or-earlier-plugin",
+        "display_name": "Adobe Photoshop with Perfect Resize 7.5 or earlier plugin"
+      }
+    ],
+    "macos": [
+      {
+        "software": "adobe-photoshop-with-perfect-resize-7.5-or-earlier-plugin",
+        "display_name": "Adobe Photoshop with Perfect Resize 7.5 or earlier plugin"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-09-04",
+  "sources": [
+    {
+      "url": "stn.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

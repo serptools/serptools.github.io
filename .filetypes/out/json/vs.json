@@ -1,0 +1,82 @@
+{
+  "slug": "vs",
+  "extension": "vs",
+  "name": "Vertex Shader File",
+  "category": "1.-vertex-shader-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 16,
+    "source": "fileinfo"
+  },
+  "summary": "File used by OpenGL and DirectX applications and games; saves lighting properties for vertices, which are points in 3D space; enables a 3D model to have shading effects; saved in a plain text format.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "opengl-sdk",
+        "display_name": "OpenGL SDK"
+      },
+      {
+        "software": "microsoft-directx-sdk",
+        "display_name": "Microsoft DirectX SDK",
+        "status": "discontinued"
+      },
+      {
+        "software": "greektome",
+        "display_name": "GreekToMe"
+      },
+      {
+        "software": "handango-vivid",
+        "display_name": "Handango Vivid"
+      }
+    ],
+    "macos": [
+      {
+        "software": "opengl-sdk",
+        "display_name": "OpenGL SDK"
+      },
+      {
+        "software": "greektome",
+        "display_name": "GreekToMe"
+      }
+    ],
+    "linux": [
+      {
+        "software": "opengl-sdk",
+        "display_name": "OpenGL SDK"
+      },
+      {
+        "software": "greektome",
+        "display_name": "GreekToMe"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-06-20",
+  "sources": [
+    {
+      "url": "vs.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

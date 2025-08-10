@@ -1,0 +1,67 @@
+{
+  "slug": "vtf",
+  "extension": "vtf",
+  "name": "Valve Texture Format",
+  "category": "1.-valve-texture-format",
+  "developer_org": "valve",
+  "popularity": {
+    "rating": 4.1,
+    "votes": 98,
+    "source": "fileinfo"
+  },
+  "summary": "A VTF file contains a texture used by a video game developed using the Valve Source Engine. These textures are 2D raster images used to skin 3D models. Instead of a single flat texture, some VTF files instead contain environment maps or volumetric textures.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "vtf-explorer",
+        "display_name": "VTF Explorer"
+      },
+      {
+        "software": "vtfedit",
+        "display_name": "VTFEdit"
+      },
+      {
+        "software": "vision-numeric-3design-cad",
+        "display_name": "Vision Numeric 3DESIGN CAD"
+      }
+    ],
+    "macos": [
+      {
+        "software": "vision-numeric-3design-cad",
+        "display_name": "Vision Numeric 3DESIGN CAD"
+      }
+    ],
+    "linux": [
+      {
+        "software": "vision-numeric-3design-cad",
+        "display_name": "Vision Numeric 3DESIGN CAD"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-09-28",
+  "sources": [
+    {
+      "url": "vtf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "slug": "p7",
+  "extension": "p7",
+  "name": "PKCS #7 Digital Certificate File",
+  "category": "pkcs-7-digital-certificate-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Digital certificate file used by various applications for authentication; contains a key that was generated using the Public-Key Cryptography Standards (PKCS) #7 specification; more commonly seen with the .P7C extension.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-certificate-manager",
+        "display_name": "Microsoft Certificate Manager"
+      },
+      {
+        "software": "openssl",
+        "display_name": "OpenSSL"
+      },
+      {
+        "software": "apple-keychain-access",
+        "display_name": "Apple Keychain Access"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-keychain-access",
+        "display_name": "Apple Keychain Access"
+      },
+      {
+        "software": "openssl",
+        "display_name": "OpenSSL"
+      }
+    ],
+    "linux": [
+      {
+        "software": "openssl",
+        "display_name": "OpenSSL"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-03-25",
+  "sources": [
+    {
+      "url": "p7.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

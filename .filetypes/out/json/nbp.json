@@ -1,0 +1,83 @@
+{
+  "slug": "nbp",
+  "extension": "nbp",
+  "name": "Mathematica Player Notebook",
+  "category": "1.-mathematica-player-notebook",
+  "developer_org": "wolfram-research",
+  "popularity": {
+    "rating": 4.2,
+    "votes": 11,
+    "source": "fileinfo"
+  },
+  "summary": "An NBP file is a published notebook ( .NB ) created by Wolfram Research Mathematica to store analysis results as an interactive document. It stores all of the elements that comprise a notebook, such as text, graphics, sound, calculations, diagrams, and user interface components. Mathematica no longer develops the NBP format; users publish notebooks in the NB format.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "wolfram-research-player",
+        "display_name": "Wolfram Research Player"
+      },
+      {
+        "software": "wolfram-research-mathematica",
+        "display_name": "Wolfram Research Mathematica"
+      },
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "neosoft-neobook",
+        "display_name": "NeoSoft NeoBook"
+      }
+    ],
+    "macos": [
+      {
+        "software": "wolfram-research-player",
+        "display_name": "Wolfram Research Player"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      }
+    ],
+    "linux": [
+      {
+        "software": "wolfram-research-player",
+        "display_name": "Wolfram Research Player"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2024-04-17",
+  "sources": [
+    {
+      "url": "nbp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

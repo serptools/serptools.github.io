@@ -1,0 +1,57 @@
+{
+  "slug": "kbd",
+  "extension": "kbd",
+  "name": "3ds Max Keyboard Shortcuts File",
+  "category": "1.-3ds-max-keyboard-shortcuts-file",
+  "developer_org": "autodesk",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 11,
+    "source": "fileinfo"
+  },
+  "summary": "File created by 3ds Max, a 3D modeling and animation program; contains hotkeys and other keyboard shortcuts for menus and functions in the application; can be the default configuration installed by the program, or a custom configuration created by the user.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "autodesk-3ds-max-2023",
+        "display_name": "Autodesk 3ds Max 2023"
+      },
+      {
+        "software": "idm-ultraedit",
+        "display_name": "IDM UltraEdit"
+      },
+      {
+        "software": "janko-s-keyboard-generator",
+        "display_name": "Janko's Keyboard Generator"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-03-10",
+  "sources": [
+    {
+      "url": "kbd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

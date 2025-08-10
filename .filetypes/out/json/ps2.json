@@ -1,0 +1,66 @@
+{
+  "slug": "ps2",
+  "extension": "ps2",
+  "name": "PCSX2 Memory Card",
+  "category": "1.-pcsx2-memory-card",
+  "developer_org": "pcsx2",
+  "popularity": {
+    "rating": 4.2,
+    "votes": 115,
+    "source": "fileinfo"
+  },
+  "summary": "A PS2 file is a virtual memory card used by PCSX2 and the now-discontinued AetherSX2, which are PlayStation 2 (PS2) emulators . It contains saved game data that preserves a user's progress in a game, functioning identically to an actual PS2 memory card when loading it with PCSX2 or AetherSX2.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "pcsx2",
+        "display_name": "PCSX2"
+      },
+      {
+        "software": "mymc",
+        "display_name": "mymc"
+      },
+      {
+        "software": "microsoft-windows",
+        "display_name": "Microsoft Windows"
+      },
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      }
+    ],
+    "linux": [
+      {
+        "software": "pcsx2",
+        "display_name": "PCSX2"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2024-03-29",
+  "sources": [
+    {
+      "url": "ps2.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

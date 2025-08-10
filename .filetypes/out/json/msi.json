@@ -1,0 +1,51 @@
+{
+  "slug": "msi",
+  "extension": "msi",
+  "name": "Windows Installer Package",
+  "category": "windows-installer-package",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 500,
+    "source": "fileinfo"
+  },
+  "summary": "An MSI file is a Windows package that contains installation information for a particular installer , including files to be installed and installation locations. It may be used for Windows updates or third-party software installers.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-windows-installer",
+        "display_name": "Microsoft Windows Installer"
+      },
+      {
+        "software": "7-zip",
+        "display_name": "7-Zip"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-05-05",
+  "sources": [
+    {
+      "url": "msi.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

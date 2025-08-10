@@ -1,0 +1,35 @@
+{
+  "slug": "css",
+  "extension": "css",
+  "name": "Cascading Style Sheet",
+  "category": "cascading-style-sheet",
+  "summary": "",
+  "developer_org": "w3c",
+  "developer_name": "W3C",
+  "more_information": {
+    "screenshot": {
+      "url": "https://fileinfo.com/img/ss/sm/css_17.png",
+      "alt": "Screenshot of a .css file in Adobe Dreamweaver 2021",
+      "caption": "CSS file open in Adobe Dreamweaver 2021"
+    },
+    "description": [
+      "CSS was initially released in 1996 and is currently developed by the World Wide Web Consortium (W3C). Web developers and designers utilize CSS files to create a similar appearance across webpages on a site. By storing display properties for multiple pages in a single file, CSS files also reduce the amount of work and generated HTML code.",
+      "Any webpage that references the CSS file will be modified based on the properties in the CSS file. For example, a designer may want to change the font and add padding for text across 200 pages on his site. If the pages reference the same CSS file, he only needs to change the one CSS file instead of 200 separate pages.",
+      "CSS syntax is simple and primarily consists of selectors and declaration blocks. The selector identifies the HTML element to be styled, and the declaration block consists of one or more declarations separated by semicolons. The declarations include CSS property names, a colon, and the value for the property."
+    ]
+  },
+  "images": [
+    {
+      "url": "https://fileinfo.com/img/ss/sm/css_17.png",
+      "alt": "Screenshot of a .css file in Adobe Dreamweaver 2021",
+      "caption": "CSS file open in Adobe Dreamweaver 2021"
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "css.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

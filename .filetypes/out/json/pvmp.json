@@ -1,0 +1,58 @@
+{
+  "slug": "pvmp",
+  "extension": "pvmp",
+  "name": "Parallels Packed Virtual Machine",
+  "category": "parallels-packed-virtual-machine",
+  "developer_org": "parallels",
+  "popularity": {
+    "rating": 3.2,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "A PVMP file is a Parallels Virtual Machine ( .PVM file) a user has \"packed\" with Parallels Desktop emulation software to transfer it to another computer. It contains a virtual machine (VM) saved in the proprietary PVMP format, which utilizes a unique compression algorithm. PVMP files are similar to .PVMZ files, but Parallels Desktop for Mac compresses them with PVMP compression instead of Zip compression.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "parallels-desktop-for-mac-20",
+        "display_name": "Parallels Desktop for Mac 20"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "PVMP file icon",
+      "alt": "PVMP file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/pvmp-12867.png"
+    },
+    {
+      "caption": "PVMP file open in Parallels Desktop for Mac 20",
+      "alt": "PVMP file open in Parallels Desktop for Mac 20",
+      "source_url": "https://fileinfo.com/img/ss/md/pvmp_12867.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2024-09-18",
+  "sources": [
+    {
+      "url": "pvmp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

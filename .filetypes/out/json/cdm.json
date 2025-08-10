@@ -1,0 +1,67 @@
+{
+  "slug": "cdm",
+  "extension": "cdm",
+  "name": "NTI CD-Maker Image",
+  "category": "1.-nti-cd-maker-image",
+  "developer_org": "nti",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 10,
+    "source": "fileinfo"
+  },
+  "summary": "Disk image created by NTI CD-Maker (now NTI Media Maker), a program used for burning and copying CDs; referred to by the software as a \"Virtual CD-Image,\" which stores the data necessary for burning a disc.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "nti-media-maker-express",
+        "display_name": "NTI Media Maker Express"
+      },
+      {
+        "software": "file-new-model",
+        "display_name": "File → New Model"
+      },
+      {
+        "software": "ok",
+        "display_name": "OK"
+      },
+      {
+        "software": "file-save",
+        "display_name": "File → Save"
+      },
+      {
+        "software": "sap-powerdesigner",
+        "display_name": "SAP PowerDesigner"
+      },
+      {
+        "software": "dbase",
+        "display_name": "dBASE"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-07-16",
+  "sources": [
+    {
+      "url": "cdm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

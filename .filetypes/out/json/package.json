@@ -1,0 +1,119 @@
+{
+  "slug": "package",
+  "extension": "package",
+  "name": "Electronic Arts Game Package File",
+  "category": "1.-electronic-arts-game-package-file",
+  "developer_org": "electronic-arts",
+  "popularity": {
+    "rating": 4.3,
+    "votes": 426,
+    "source": "fileinfo"
+  },
+  "summary": "A PACKAGE file is a resource package file used by various Electronic Arts (EA) games, including The Sims 2, The Sims 3, The Sims 4, The Sims Online, Spore, SimCity 4, and SimCity (2013). It stores an archive of one or more game files, often in XML format, and may include 3D models, textures, sounds, and other game data, such as characters and neighborhood information. PACKAGE files are saved in EA's standard DBPF archive format.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "electronic-arts-the-sims-2",
+        "display_name": "Electronic Arts The Sims 2"
+      },
+      {
+        "software": "electronic-arts-the-sims-3",
+        "display_name": "Electronic Arts The Sims 3"
+      },
+      {
+        "software": "electronic-arts-the-sims-4",
+        "display_name": "Electronic Arts The Sims 4"
+      },
+      {
+        "software": "electronic-arts-spore",
+        "display_name": "Electronic Arts Spore"
+      },
+      {
+        "software": "electronic-arts-simcity",
+        "display_name": "Electronic Arts SimCity"
+      },
+      {
+        "software": "s3pe",
+        "display_name": "S3PE"
+      },
+      {
+        "software": "ambertation-simpe",
+        "display_name": "Ambertation SimPE"
+      },
+      {
+        "software": "sporeedit",
+        "display_name": "SporeEdit"
+      },
+      {
+        "software": "sporemaster",
+        "display_name": "SporeMaster"
+      },
+      {
+        "software": "simcitypak",
+        "display_name": "SimCityPak"
+      },
+      {
+        "software": "forever-artisan",
+        "display_name": "FOREVER Artisan"
+      },
+      {
+        "software": "mobiledit-forensic-express",
+        "display_name": "MOBILedit Forensic Express"
+      }
+    ],
+    "macos": [
+      {
+        "software": "electronic-arts-the-sims-2",
+        "display_name": "Electronic Arts The Sims 2"
+      },
+      {
+        "software": "electronic-arts-the-sims-3",
+        "display_name": "Electronic Arts The Sims 3"
+      },
+      {
+        "software": "electronic-arts-the-sims-4",
+        "display_name": "Electronic Arts The Sims 4"
+      },
+      {
+        "software": "electronic-arts-simcity",
+        "display_name": "Electronic Arts SimCity"
+      },
+      {
+        "software": "electronic-arts-spore",
+        "display_name": "Electronic Arts Spore"
+      }
+    ],
+    "linux": [
+      {
+        "software": "autopackage",
+        "display_name": "Autopackage"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-10-22",
+  "sources": [
+    {
+      "url": "package.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

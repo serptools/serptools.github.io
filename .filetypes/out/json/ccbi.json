@@ -1,0 +1,55 @@
+{
+  "slug": "ccbi",
+  "extension": "ccbi",
+  "name": "CocosBuilder Binary Scene",
+  "category": "cocosbuilder-binary-scene",
+  "developer_org": "cocos2d",
+  "popularity": {
+    "rating": 1.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "A CCBI file is the binary version of a scene created in CocosBuilder. It contains the same data as a .CCB file, saved in a binary format. Developers import CCBI files into their Cocos2d video game development projects.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "cocosbuilder",
+        "display_name": "CocosBuilder",
+        "status": "discontinued"
+      }
+    ],
+    "windows": [
+      {
+        "software": "cocosbuilder",
+        "display_name": "CocosBuilder",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-06-01",
+  "sources": [
+    {
+      "url": "ccbi.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

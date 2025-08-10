@@ -1,0 +1,59 @@
+{
+  "slug": "az!",
+  "extension": "az!",
+  "name": "Vuze Partial Download File",
+  "category": "vuze-partial-download-file",
+  "developer_org": "vuze",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "File created by Vuze, a cross-platform BitTorrent client; contains data for a file as it is being downloaded (e.g., \".avi.az!\" for an .AVI file); used for marking the file as a download in progress, and the \".az!\" file extension is removed when the download is complete.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "vuze",
+        "display_name": "Vuze"
+      }
+    ],
+    "macos": [
+      {
+        "software": "vuze",
+        "display_name": "Vuze"
+      }
+    ],
+    "linux": [
+      {
+        "software": "vuze",
+        "display_name": "Vuze"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-02-28",
+  "sources": [
+    {
+      "url": "az!.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

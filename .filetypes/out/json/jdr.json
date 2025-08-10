@@ -1,0 +1,80 @@
+{
+  "slug": "jdr",
+  "extension": "jdr",
+  "name": "IROAD Dash Cam Video File",
+  "category": "iroad-dash-cam-video-file",
+  "developer_org": "jaewoncnc",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 40,
+    "source": "fileinfo"
+  },
+  "summary": "A JDR file contains video recorded by an IROAD dash camera. It is saved in the proprietary JDR format and can only be played by PC viewer, which is included with the purchase of IROAD dash cameras, and the IROAD mobile app for Android and iOS. JDR files were introduced with the release of IROAD V9 cameras.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "iroad-wifi-pc-viewer",
+        "display_name": "IROAD WiFi PC viewer"
+      },
+      {
+        "software": "iroad",
+        "display_name": "IROAD"
+      }
+    ],
+    "macos": [
+      {
+        "software": "iroad-wifi-pc-viewer",
+        "display_name": "IROAD WiFi PC viewer"
+      }
+    ],
+    "ios": [
+      {
+        "software": "iroad",
+        "display_name": "IROAD"
+      }
+    ],
+    "android": [
+      {
+        "software": "iroad",
+        "display_name": "IROAD"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "JDR file icon",
+      "alt": "JDR file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/jdr-10678.png"
+    },
+    {
+      "caption": "JDR file open in IROAD WiFi PC Viewer 3.7",
+      "alt": "JDR file open in IROAD WiFi PC Viewer 3.7",
+      "source_url": "https://fileinfo.com/img/ss/md/jdr_10678.jpg"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-10-02",
+  "sources": [
+    {
+      "url": "jdr.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

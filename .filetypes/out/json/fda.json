@@ -1,0 +1,74 @@
+{
+  "slug": "fda",
+  "extension": "fda",
+  "name": "Dawn of War Audio File",
+  "category": "1.-dawn-of-war-audio-file",
+  "developer_org": "relic-entertainment",
+  "popularity": {
+    "rating": 2.7,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "Audio file used by WarHammer 40,000: Dawn of War (DoW), a real-time strategy game; may contain a sound effect or the background music that is played during the game; saved within .SGA files, which are the game archives used for DoW.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "relic-entertainment-dawn-of-war",
+        "display_name": "Relic Entertainment Dawn of War"
+      },
+      {
+        "software": "add-ons",
+        "display_name": "Add-ons"
+      },
+      {
+        "software": "install-add-on-from-file",
+        "display_name": "Install add-on from file"
+      },
+      {
+        "software": "free-download-manager",
+        "display_name": "Free Download Manager",
+        "pricing": "free"
+      }
+    ],
+    "macos": [
+      {
+        "software": "free-download-manager",
+        "display_name": "Free Download Manager",
+        "pricing": "free"
+      }
+    ],
+    "linux": [
+      {
+        "software": "free-download-manager",
+        "display_name": "Free Download Manager",
+        "pricing": "free"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-02-23",
+  "sources": [
+    {
+      "url": "fda.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

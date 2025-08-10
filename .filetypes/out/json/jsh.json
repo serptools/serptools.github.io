@@ -1,0 +1,64 @@
+{
+  "slug": "jsh",
+  "extension": "jsh",
+  "name": "JAWS Script Header File",
+  "category": "1.-jaws-script-header-file",
+  "developer_org": "freedom-scientific",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Script header file written for JAWS; a Windows screen reading application that provides text to speech functionality for Windows text; stores header information for a .JSS source file; used in the process of developing automated JAWS screen reading tasks.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "freedom-scientific-jaws",
+        "display_name": "Freedom Scientific JAWS",
+        "pricing": "free"
+      },
+      {
+        "software": "jsh",
+        "display_name": "Jsh"
+      }
+    ],
+    "macos": [
+      {
+        "software": "jsh",
+        "display_name": "Jsh"
+      }
+    ],
+    "linux": [
+      {
+        "software": "jsh",
+        "display_name": "Jsh"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-07-09",
+  "sources": [
+    {
+      "url": "jsh.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

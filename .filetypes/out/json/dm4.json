@@ -1,0 +1,63 @@
+{
+  "slug": "dm4",
+  "extension": "dm4",
+  "name": "DigitalMicrograph 4 Image",
+  "category": "digitalmicrograph-4-image",
+  "developer_org": "gatan",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "A DM4 file is a raster image created by Gatan DigitalMicrograph, a transmission electron microscopy (TEM) analysis application. It includes a TEM image and metadata . The DM4 format is an update to the .DM3 format.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "gatan-digitalmicrograph",
+        "display_name": "Gatan DigitalMicrograph"
+      },
+      {
+        "software": "imagej",
+        "display_name": "ImageJ"
+      }
+    ],
+    "macos": [
+      {
+        "software": "imagej",
+        "display_name": "ImageJ"
+      }
+    ],
+    "linux": [
+      {
+        "software": "imagej",
+        "display_name": "ImageJ"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-09-20",
+  "sources": [
+    {
+      "url": "dm4.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "pdtxt",
+  "extension": "pdtxt",
+  "name": "Modified Pure Data Patch File",
+  "category": "modified-pure-data-patch-file",
+  "developer_org": "nando-penteado",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "A PDTXT file is a modified Pure Data ( .PD ) patch file that improves accessibility for visually impaired users working with the Pure Data visual programming environment. It defines audio or multimedia programs using a visual programming structure, including accessible object labels, custom variable names, comments, and additional metadata to aid screen reader support and usability. It is the same as a .PD2 file, which users with older systems often use, as some older systems struggle to recognize file extensions with more than three characters.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "PDTXT file open in Microsoft Visual Studio Code 1.99",
+      "alt": "PDTXT file open in Microsoft Visual Studio Code 1.99",
+      "source_url": "https://fileinfo.com/img/ss/md/pdtxt_13807.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2025-04-25",
+  "sources": [
+    {
+      "url": "pdtxt.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

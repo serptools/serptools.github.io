@@ -1,0 +1,55 @@
+{
+  "slug": "vbe",
+  "extension": "vbe",
+  "name": "VBScript Encoded Script File",
+  "category": "vbscript-encoded-script-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.2,
+    "votes": 33,
+    "source": "fileinfo"
+  },
+  "summary": "A VBE file is a script written in VBScript, a programming language that is a reduced version of Visual Basic; stores the source code in an encoded format so that it is not recognizable; run natively in Windows by the Windows Script Host ( wscript.exe or cscript.exe ).",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-windows-script-host",
+        "display_name": "Microsoft Windows Script Host"
+      },
+      {
+        "software": "microsoft-cscript",
+        "display_name": "Microsoft CScript"
+      },
+      {
+        "software": "encode-and-decode-vbs-scripts",
+        "display_name": "Encode and Decode VBS Scripts"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-07-06",
+  "sources": [
+    {
+      "url": "vbe.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

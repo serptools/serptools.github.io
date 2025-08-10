@@ -1,0 +1,70 @@
+{
+  "slug": "gs0",
+  "extension": "gs0",
+  "name": "Sega Genesis Emulator Quick Slot 0 Save File",
+  "category": "sega-genesis-emulator-quick-slot-0-save-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 4.1,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "Saved state file created by Sega Genesis emulators such as Kega Fusion and Gens/GS; allows the user to resume the game from the specific point in time that the state was saved; used as one of 10 slots (*.gs0 - *.gs9).",
+  "standards": [],
+  "mime_types": [
+    "gens/gs",
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "kega-fusion",
+        "display_name": "Kega Fusion"
+      },
+      {
+        "software": "gens-gs",
+        "display_name": "Gens/GS"
+      }
+    ],
+    "macos": [
+      {
+        "software": "kega-fusion",
+        "display_name": "Kega Fusion"
+      }
+    ],
+    "linux": [
+      {
+        "software": "kega-fusion",
+        "display_name": "Kega Fusion"
+      },
+      {
+        "software": "gens-gs",
+        "display_name": "Gens/GS"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-09-14",
+  "sources": [
+    {
+      "url": "gs0.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "cry",
+  "extension": "cry",
+  "name": "CryENGINE Map File",
+  "category": "cryengine-map-file",
+  "developer_org": "crytek",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "Map file used by games developed with CryENGINE, a first-person shooter game engine created by Crytek; stores a game level, including the terrain, buildings, mission objectives, spawn points, items, and other map objects; can be used for creating custom missions.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "crytek-cryengine",
+        "display_name": "Crytek CryENGINE"
+      },
+      {
+        "software": "crytek-cryengine-sdk",
+        "display_name": "Crytek CryENGINE SDK"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-01-15",
+  "sources": [
+    {
+      "url": "cry.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}
