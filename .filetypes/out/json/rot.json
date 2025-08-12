@@ -1,0 +1,51 @@
+{
+  "slug": "rot",
+  "extension": "rot",
+  "name": "Homeworld 2 Graphics File",
+  "category": "homeworld-2-graphics-file",
+  "developer_org": "sierra-entertainment",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "Graphics file used by Homeworld 2, a space-based real-time strategy game; may be used to store icons, 3D textures, and other graphics within the game; can include multiple images in a single file.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "sierra-homeworld-2",
+        "display_name": "Sierra Homeworld 2"
+      },
+      {
+        "software": "rot-tool",
+        "display_name": "ROT Tool"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-10-02",
+  "sources": [
+    {
+      "url": "rot.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

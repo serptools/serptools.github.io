@@ -1,0 +1,67 @@
+{
+  "slug": "idms",
+  "extension": "idms",
+  "name": "Adobe InDesign Snippet",
+  "category": "adobe-indesign-snippet",
+  "developer_org": "adobe-systems",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "An IDMS file contains a snippet created by InDesign, a desktop publishing program used to create professional page layouts. It stores a subset of a document, which includes one or more objects and their relative placement to each other. IDMS files are created to export and reuse portions of a page.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "adobe-indesign-2023",
+        "display_name": "Adobe InDesign 2023"
+      },
+      {
+        "software": "adobe-incopy-2023",
+        "display_name": "Adobe InCopy 2023"
+      }
+    ],
+    "macos": [
+      {
+        "software": "adobe-indesign-2023",
+        "display_name": "Adobe InDesign 2023"
+      },
+      {
+        "software": "adobe-incopy-2023",
+        "display_name": "Adobe InCopy 2023"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "IDMS file icon",
+      "alt": "IDMS file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/idms-4806.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-09-17",
+  "sources": [
+    {
+      "url": "idms.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

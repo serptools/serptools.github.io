@@ -1,0 +1,75 @@
+{
+  "slug": "uud",
+  "extension": "uud",
+  "name": "UUDecoded File",
+  "category": "uudecoded-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 2.7,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "Decoded file that has been converted back to its original binary form; originally encoded by Unix UUEncode (into a .UUE file), which converts binary data into a text format.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "uudeview",
+        "display_name": "UUDeview"
+      },
+      {
+        "software": "open-with-the-original-program",
+        "display_name": "Open with the original program"
+      },
+      {
+        "software": "encode-with-uue",
+        "display_name": "Encode with uue"
+      },
+      {
+        "software": "decode-with-uud",
+        "display_name": "Decode with uud"
+      }
+    ],
+    "linux": [
+      {
+        "software": "open-with-the-original-program",
+        "display_name": "Open with the original program"
+      },
+      {
+        "software": "encode-with-uue",
+        "display_name": "Encode with uue"
+      },
+      {
+        "software": "decode-with-uud",
+        "display_name": "Decode with uud"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-06-12",
+  "sources": [
+    {
+      "url": "uud.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

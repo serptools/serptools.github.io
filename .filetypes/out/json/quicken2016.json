@@ -1,0 +1,59 @@
+{
+  "slug": "quicken2016",
+  "extension": "quicken2016",
+  "name": "Quicken 2016 Data File",
+  "category": "quicken-2016-data-file",
+  "developer_org": "intuit",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "A QUICKEN2016 file is a financial data file created by the 2016 version of Quicken, a financial management program. It contains user data for multiple accounts, including personal information, transactions, reports, and settings. QUICKEN2016 files are used exclusively by the 2016 version of Quicken for macOS (OS X).",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "intuit-quicken",
+        "display_name": "Intuit Quicken"
+      }
+    ],
+    "windows": [
+      {
+        "software": "intuit-quicken",
+        "display_name": "Intuit Quicken"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "QUICKEN2016 file icon",
+      "alt": "QUICKEN2016 file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/quicken2016-10426.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-02-07",
+  "sources": [
+    {
+      "url": "quicken2016.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

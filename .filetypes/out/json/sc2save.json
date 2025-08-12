@@ -1,0 +1,53 @@
+{
+  "slug": "sc2save",
+  "extension": "sc2save",
+  "name": "Blizzard StarCraft 2 Saved Game",
+  "category": "blizzard-starcraft-2-saved-game",
+  "developer_org": "blizzard-entertainment",
+  "popularity": {
+    "rating": 4.2,
+    "votes": 13,
+    "source": "fileinfo"
+  },
+  "summary": "Saved game file created by Starcraft II: Wings of Liberty, a real-time strategy game where players battle in outer space as the Protoss, Zerg, or Terran races; contains the saved progress for a campaign mission or for a custom single player map; includes the state of units and their locations, structures, resources, and other map information.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "blizzard-starcraft-2",
+        "display_name": "Blizzard StarCraft 2"
+      }
+    ],
+    "macos": [
+      {
+        "software": "blizzard-starcraft-2",
+        "display_name": "Blizzard StarCraft 2"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-09-25",
+  "sources": [
+    {
+      "url": "sc2save.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

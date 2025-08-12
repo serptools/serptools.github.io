@@ -1,0 +1,79 @@
+{
+  "slug": "tja",
+  "extension": "tja",
+  "name": "Taikojiro Song Map File",
+  "category": "taikojiro-song-map-file",
+  "developer_org": "taikojiro",
+  "popularity": {
+    "rating": 3.1,
+    "votes": 22,
+    "source": "fileinfo"
+  },
+  "summary": "A TJA file is a song map file used by Taikojiro, a song-based rhythm game, and its variants. It contains data used to show prompts in Taikojiro. TJA files are always stored alongside accompanying audio files, which are typically songs, in folders that are usually named for the audio file.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "taikojiro",
+        "display_name": "Taikojiro"
+      },
+      {
+        "software": "tjaplayer3",
+        "display_name": "TJAPlayer3"
+      },
+      {
+        "software": "project-outfox",
+        "display_name": "Project Outfox"
+      }
+    ],
+    "web": [
+      {
+        "software": "taiko-web",
+        "display_name": "Taiko Web"
+      }
+    ],
+    "macos": [
+      {
+        "software": "project-outfox",
+        "display_name": "Project Outfox"
+      }
+    ],
+    "linux": [
+      {
+        "software": "project-outfox",
+        "display_name": "Project Outfox"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "TJA file open in Taiko Web 21",
+      "alt": "TJA file open in Taiko Web 21",
+      "source_url": "https://fileinfo.com/img/ss/md/tja_6253.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-05-03",
+  "sources": [
+    {
+      "url": "tja.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "meo",
+  "extension": "meo",
+  "name": "MEO Encrypted Archive",
+  "category": "meo-encrypted-archive",
+  "developer_org": "nch-software",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Encrypted archive created by MEO, a program used for protecting sensitive data before transmitting it; uses encryption, password protection, and may contain both files and folders; may only be extracted using MEO.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "nch-meo",
+        "display_name": "NCH MEO"
+      }
+    ],
+    "macos": [
+      {
+        "software": "nch-meo",
+        "display_name": "NCH MEO"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-07-20",
+  "sources": [
+    {
+      "url": "meo.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

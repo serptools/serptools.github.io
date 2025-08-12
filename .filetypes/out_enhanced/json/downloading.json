@@ -1,0 +1,23 @@
+{
+  "slug": "downloading",
+  "extension": "downloading",
+  "name": "Pando Incomplete Download File",
+  "category": "pando-incomplete-download-file",
+  "summary": "",
+  "developer_org": "pando-networks",
+  "developer_name": "Pando Networks",
+  "more_information": {
+    "description": [
+      "Pando is a discontinued file sharing program that was available for Windows and Mac PCs. It allowed users to upload and download files using the BitTorrent file sharing protocol.",
+      "When a Pando user begins downloading a file, the application creates a corresponding DOWNLOADING file. This placeholder file is used to store the download's contents until it completes. At that point, Pando assigns the file its actual extension, to signal the file is ready for use.",
+      "NOTE: DOWNLOADING files are similar to the .CRDOWNLOAD , .DOWNLOAD , and .!BT files produced by other download managers."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "downloading.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

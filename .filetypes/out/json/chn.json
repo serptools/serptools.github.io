@@ -1,0 +1,47 @@
+{
+  "slug": "chn",
+  "extension": "chn",
+  "name": "Ethnograph Data File",
+  "category": "ethnograph-data-file",
+  "developer_org": "qualis-research-associates",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "A CHN file is a data file used by Ethnograph (version 5 and earlier), a qualitative data analysis program developed by Qualis Research Associates. It stores text and coding information that helps organize and categorize interviews, field notes, or other qualitative data for analysis. Researchers in academic and social science research settings primarily use CHN files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "qualis-research-associates-ethnograph",
+        "display_name": "Qualis Research Associates Ethnograph"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2025-05-01",
+  "sources": [
+    {
+      "url": "chn.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

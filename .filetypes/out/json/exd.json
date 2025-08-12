@@ -1,0 +1,59 @@
+{
+  "slug": "exd",
+  "extension": "exd",
+  "name": "Control Information Cache File",
+  "category": "control-information-cache-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 38,
+    "source": "fileinfo"
+  },
+  "summary": "Stores cached information about a control that has been inserted into an Microsoft Office document; allows additional controls to be added in less time; in Microsoft Office 2000, the EXD files are stored in the following folders:",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-word-365",
+        "display_name": "Microsoft Word 365"
+      },
+      {
+        "software": "microsoft-excel-365",
+        "display_name": "Microsoft Excel 365"
+      },
+      {
+        "software": "microsoft-powerpoint-365",
+        "display_name": "Microsoft PowerPoint 365"
+      },
+      {
+        "software": "microsoft-visual-studio-2022",
+        "display_name": "Microsoft Visual Studio 2022"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-04-14",
+  "sources": [
+    {
+      "url": "exd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

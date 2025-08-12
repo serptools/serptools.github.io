@@ -1,0 +1,51 @@
+{
+  "slug": "bmq",
+  "extension": "bmq",
+  "name": "Re-Volt Mipmap File",
+  "category": "re-volt-mipmap-file",
+  "developer_org": "acclaim-entertainment",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "Mipmap image used by Re-Volt, an old RC car racing game for the PC; contains a low-resolution image in the BMP format that is used for object textures viewed from afar in the game in order to keep the frame rate stable.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "acclaim-entertainment-re-volt",
+        "display_name": "Acclaim Entertainment Re-Volt"
+      },
+      {
+        "software": "microsoft-paint",
+        "display_name": "Microsoft Paint"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-02-12",
+  "sources": [
+    {
+      "url": "bmq.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "aur",
+  "extension": "aur",
+  "name": "Aurora Timetable File",
+  "category": "aurora-timetable-file",
+  "developer_org": "d-vid-horv-th",
+  "popularity": {
+    "rating": 1.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "An AUR file is a data file created by Aurora Timetable, a Hungarian school timetable editor. It contains a timetable, which includes classes, time intervals, room numbers, and teachers. AUR files are used by teachers to organize school classes and schedules.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "aurora-timetable",
+        "display_name": "Aurora Timetable"
+      }
+    ],
+    "linux": [
+      {
+        "software": "aurora-timetable",
+        "display_name": "Aurora Timetable"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-09-11",
+  "sources": [
+    {
+      "url": "aur.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "slug": "lwcx",
+  "extension": "lwcx",
+  "name": "Legacy Charting Chart",
+  "category": "legacy-charting-chart",
+  "developer_org": "legacy",
+  "popularity": {
+    "rating": 2.7,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "An LWCX file is a family tree wall chart created by Legacy Charting. It contains XML data that specifies the chart's format, included family tree, and metadata . Typically, LWCX files are created from imported Legacy Family Tree database ( .FDB ) files.",
+  "standards": [],
+  "mime_types": [
+    "and/or"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "legacy-charting",
+        "display_name": "Legacy Charting"
+      },
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "LWCX file open in Legacy Charting",
+      "alt": "LWCX file open in Legacy Charting",
+      "source_url": "https://fileinfo.com/img/ss/md/lwcx_12964.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-10-27",
+  "sources": [
+    {
+      "url": "lwcx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

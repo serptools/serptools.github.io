@@ -1,0 +1,63 @@
+{
+  "slug": "tp",
+  "extension": "tp",
+  "name": "Beyond TV Transport Stream File",
+  "category": "beyond-tv-transport-stream-file",
+  "developer_org": "snapstream-media",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 19,
+    "source": "fileinfo"
+  },
+  "summary": "Video recording captured using Beyond TV digital video recording software; recorded using a compatible TV tuner card and a television source such as analog or digital cable, satellite, or antenna.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "cyberlink-powerdvd-21",
+        "display_name": "CyberLink PowerDVD 21"
+      },
+      {
+        "software": "snapstream-media-beyond-tv",
+        "display_name": "SnapStream Media Beyond TV"
+      },
+      {
+        "software": "roxio-creator-nxt-pro-9",
+        "display_name": "Roxio Creator NXT Pro 9"
+      },
+      {
+        "software": "gretech-gom-player",
+        "display_name": "GRETECH GOM Player"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-03-27",
+  "sources": [
+    {
+      "url": "tp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

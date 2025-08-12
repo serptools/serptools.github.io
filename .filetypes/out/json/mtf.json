@@ -1,0 +1,69 @@
+{
+  "slug": "mtf",
+  "extension": "mtf",
+  "name": "Multi Tracker File",
+  "category": "1.-multi-tracker-file",
+  "developer_org": "song-galaxy",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 18,
+    "source": "fileinfo"
+  },
+  "summary": "Audio file used by Mult Tracker, a program that allows musicians to play songs by removing vocals or instruments; saves a \"backing track,\" which is a remake of an existing song that splits different musical parts across multiple tracks.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "song-galaxy-multi-tracker",
+        "display_name": "Song Galaxy Multi Tracker"
+      },
+      {
+        "software": "motorola-motocast-usb",
+        "display_name": "Motorola MOTOCAST USB"
+      },
+      {
+        "software": "valusoft-mastercook",
+        "display_name": "ValuSoft MasterCook"
+      },
+      {
+        "software": "sdl-trados",
+        "display_name": "SDL Trados"
+      },
+      {
+        "software": "microsoft-excel-with-xlactuary-add-in",
+        "display_name": "Microsoft Excel with XLActuary add-in"
+      }
+    ],
+    "macos": [
+      {
+        "software": "motorola-motocast-usb",
+        "display_name": "Motorola MOTOCAST USB"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-09-16",
+  "sources": [
+    {
+      "url": "mtf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

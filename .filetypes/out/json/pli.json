@@ -1,0 +1,66 @@
+{
+  "slug": "pli",
+  "extension": "pli",
+  "name": "PL/I Source Code File",
+  "category": "pl-i-source-code-file",
+  "developer_org": "ibm",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Program source code file written in the PL/I (Programming Language One) language; developed by IBM in the 1960s and is often used for business, engineering, and scientific applications.",
+  "standards": [],
+  "mime_types": [
+    "pl/i",
+    "vse/esa"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "ibm-pl-i-for-vse-esa",
+        "display_name": "IBM PL/I for VSE/ESA"
+      },
+      {
+        "software": "pl-i-for-gcc",
+        "display_name": "PL/I for GCC"
+      }
+    ],
+    "macos": [
+      {
+        "software": "pl-i-for-gcc",
+        "display_name": "PL/I for GCC"
+      }
+    ],
+    "linux": [
+      {
+        "software": "pl-i-for-gcc",
+        "display_name": "PL/I for GCC"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-03-30",
+  "sources": [
+    {
+      "url": "pli.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

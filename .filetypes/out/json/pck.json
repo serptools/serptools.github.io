@@ -1,0 +1,98 @@
+{
+  "slug": "pck",
+  "extension": "pck",
+  "name": "Godot Engine Game Pack",
+  "category": "1.-godot-engine-game-pack",
+  "developer_org": "godot",
+  "popularity": {
+    "rating": 4.6,
+    "votes": 42,
+    "source": "fileinfo"
+  },
+  "summary": "A PCK file is a resource pack created by Godot Engine, an open-source game engine used to create 2D and 3D games. It is used to update an existing Godot Engine game. It may include new game features, patches, or mods.",
+  "standards": [],
+  "mime_types": [
+    "pck/zip",
+    "pl/sql"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "godot-engine",
+        "display_name": "Godot Engine"
+      },
+      {
+        "software": "godot-pck-tool",
+        "display_name": "Godot Pck Tool"
+      },
+      {
+        "software": "microsoft-system-center-configuration-manager",
+        "display_name": "Microsoft System Center Configuration Manager"
+      },
+      {
+        "software": "perfect-world",
+        "display_name": "Perfect World"
+      },
+      {
+        "software": "pck-studio",
+        "display_name": "PCK Studio"
+      },
+      {
+        "software": "quickbms",
+        "display_name": "QuickBMS"
+      },
+      {
+        "software": "allround-automations-pl-sql-developer",
+        "display_name": "Allround Automations PL/SQL Developer"
+      },
+      {
+        "software": "devart-dbforge-studio-for-oracle",
+        "display_name": "Devart dbForge Studio for Oracle"
+      }
+    ],
+    "macos": [
+      {
+        "software": "godot-engine",
+        "display_name": "Godot Engine"
+      },
+      {
+        "software": "godot-pck-tool",
+        "display_name": "Godot Pck Tool"
+      }
+    ],
+    "linux": [
+      {
+        "software": "godot-engine",
+        "display_name": "Godot Engine"
+      },
+      {
+        "software": "godot-pck-tool",
+        "display_name": "Godot Pck Tool"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-07-01",
+  "sources": [
+    {
+      "url": "pck.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

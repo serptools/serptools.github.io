@@ -1,0 +1,51 @@
+{
+  "slug": "hsf",
+  "extension": "hsf",
+  "name": "HOOPS Stream Format File",
+  "category": "hoops-stream-format-file",
+  "developer_org": "tech-soft-3d",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "File created in the HOOPS Stream Format (HSF), a CAD publishing format developed by Tech Soft 3D for visualization; supported via plug-in or as a native publishing format by several CAD applications, including SolidWorks and CATIA v5.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "dassault-systemes-catia",
+        "display_name": "Dassault Systemes CATIA"
+      },
+      {
+        "software": "dassault-systemes-solidworks",
+        "display_name": "Dassault Systemes SolidWorks"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-09-13",
+  "sources": [
+    {
+      "url": "hsf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

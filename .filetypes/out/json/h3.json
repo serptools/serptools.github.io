@@ -1,0 +1,47 @@
+{
+  "slug": "h3",
+  "extension": "h3",
+  "name": "Nintendo Wii U Hash File",
+  "category": "nintendo-wii-u-hash-file",
+  "developer_org": "nintendo",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "An H3 file contains an SHA-1 cryptographic hash used to verify the integrity of a Nintendo Wii U game data .APP file. It is referenced by a Wii U game console or emulator (Cemu) and is not meant to be manually opened by a user.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "cemu",
+        "display_name": "Cemu"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-07-06",
+  "sources": [
+    {
+      "url": "h3.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

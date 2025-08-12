@@ -1,0 +1,115 @@
+{
+  "slug": "dxo",
+  "extension": "dxo",
+  "name": "DesignXOver Speaker Circuit Design File",
+  "category": "designxover-speaker-circuit-design-file",
+  "developer_org": "liberty-instruments",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "A DXO (DesignXOver) file is a design file created by Liberty Instruments XSim, a free Windows application that audio engineers use to design and simulate speaker crossover output. It contains plain text used to show a simulated speaker filter circuit in XSim. DXO files are used to simulate speaker sound pressure level responses and determine whether a speaker functions as intended when attached to various filter circuits.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "liberty-instruments-xsim",
+        "display_name": "Liberty Instruments XSim"
+      },
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "github-atom",
+        "display_name": "GitHub Atom",
+        "status": "discontinued"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "github-atom",
+        "display_name": "Github Atom",
+        "status": "discontinued"
+      },
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      }
+    ],
+    "chromeos": [
+      {
+        "software": "google-chrome-text",
+        "display_name": "Google Chrome Text"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "github-atom",
+        "display_name": "Github Atom",
+        "status": "discontinued"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      },
+      {
+        "software": "github-atom",
+        "display_name": "Github Atom",
+        "status": "discontinued"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "DXO file open in XSim",
+      "alt": "DXO file open in XSim",
+      "source_url": "https://fileinfo.com/img/ss/md/dxo_11942.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-03-11",
+  "sources": [
+    {
+      "url": "dxo.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

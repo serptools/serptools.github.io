@@ -1,0 +1,61 @@
+{
+  "slug": "mmbak",
+  "extension": "mmbak",
+  "name": "Money Manager Expense & Budget Backup",
+  "category": "money-manager-expense-budget-backup",
+  "developer_org": "realbyte",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "An MMBAK file is a backup file created by Realbyte Money Manager Expense & Budget. It contains a copy of the expenses and income a user has entered in Money Manager. MMBAK files are SQLite databases, and so are similar to .SQLITE files.",
+  "standards": [],
+  "mime_types": [
+    "backup/restore"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "android": [
+      {
+        "software": "realbyte-money-manager-expense-budget",
+        "display_name": "Realbyte Money Manager Expense & Budget"
+      }
+    ],
+    "ios": [
+      {
+        "software": "realbyte-money-manager-expense-budget",
+        "display_name": "Realbyte Money Manager Expense & Budget"
+      }
+    ],
+    "windows": [
+      {
+        "software": "realbyte-money-manager-expense-budget",
+        "display_name": "Realbyte Money Manager Expense & Budget"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-11-23",
+  "sources": [
+    {
+      "url": "mmbak.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

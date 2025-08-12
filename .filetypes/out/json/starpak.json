@@ -1,0 +1,59 @@
+{
+  "slug": "starpak",
+  "extension": "starpak",
+  "name": "Titanfall 2 or Apex Legends Game Data Archive",
+  "category": "titanfall-2-or-apex-legends-game-data-archive",
+  "developer_org": "respawn-entertainment.",
+  "popularity": {
+    "rating": 1.3,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "A STARPAK file is a game data file used by Titanfall 2, Apex Legends, or another video game developed by Respawn Entertainment. It contains 3D models, textures, animations, and other game assets. Modders have created tools that allow them to extract the assets STARPAK files contain.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "dtzxporter-legion",
+        "display_name": "DTZxPorter Legion"
+      },
+      {
+        "software": "quickbms",
+        "display_name": "QuickBMS"
+      },
+      {
+        "software": "titanfall-2",
+        "display_name": "Titanfall 2"
+      },
+      {
+        "software": "apex-legends",
+        "display_name": "Apex Legends"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-06-28",
+  "sources": [
+    {
+      "url": "starpak.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

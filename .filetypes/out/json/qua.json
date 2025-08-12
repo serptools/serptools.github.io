@@ -1,0 +1,61 @@
+{
+  "slug": "qua",
+  "extension": "qua",
+  "name": "Quaver Beatmap",
+  "category": "1.-quaver-beatmap",
+  "developer_org": "swan",
+  "popularity": {
+    "rating": 4.1,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "A QUA file is a beatmap file used by Quaver, a free rhythm game in which players press buttons in time to music. It defines the map's associated song, difficulty, notes, timing points, and other properties. QUA files are included in Quaver mapsets ( .QP files).",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "quaver",
+        "display_name": "Quaver"
+      },
+      {
+        "software": "avira-antivirus-pro",
+        "display_name": "Avira Antivirus Pro"
+      }
+    ],
+    "macos": [
+      {
+        "software": "quaver",
+        "display_name": "Quaver"
+      },
+      {
+        "software": "avira-antivirus-pro",
+        "display_name": "Avira Antivirus Pro"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-07-27",
+  "sources": [
+    {
+      "url": "qua.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

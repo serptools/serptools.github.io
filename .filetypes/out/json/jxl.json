@@ -1,0 +1,92 @@
+{
+  "slug": "jxl",
+  "extension": "jxl",
+  "name": "JPEG XL Image",
+  "category": "jpeg-xl-image",
+  "developer_org": "joint-photographic-experts-group",
+  "popularity": {
+    "rating": 4.5,
+    "votes": 66,
+    "source": "fileinfo"
+  },
+  "summary": "A JXL file is an image saved in the JPEG XL file format, developed by the Joint Photographic Experts Group ( JPEG ). It contains an image, such as a digital photo, that has been compressed using JPEG XL compression.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "imagemagick",
+        "display_name": "ImageMagick"
+      },
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      },
+      {
+        "software": "irfanview",
+        "display_name": "IrfanView"
+      },
+      {
+        "software": "gimp",
+        "display_name": "GIMP"
+      },
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      },
+      {
+        "software": "mconverter",
+        "display_name": "MConverter"
+      }
+    ],
+    "web": [
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      },
+      {
+        "software": "mconverter",
+        "display_name": "MConverter"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "JXL file icon",
+      "alt": "JXL file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/jxl-11914.png"
+    },
+    {
+      "caption": "JXL file open in XnViewMP",
+      "alt": "JXL file open in XnViewMP",
+      "source_url": "https://fileinfo.com/img/ss/md/jxl_11914.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2024-09-10",
+  "sources": [
+    {
+      "url": "jxl.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "slug": "mig",
+  "extension": "mig",
+  "name": "Windows Migration Backup File",
+  "category": "windows-migration-backup-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 19,
+    "source": "fileinfo"
+  },
+  "summary": "File created by Windows Easy Transfer or Microsoft User State Migration Tool (USMT), both of which allow Windows users to migrate user data from one Windows operating system to another; contains user accounts, program settings, operating system settings, files, folders, and registry keys.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-windows-easy-transfer",
+        "display_name": "Microsoft Windows Easy Transfer",
+        "status": "discontinued"
+      },
+      {
+        "software": "microsoft-usmt",
+        "display_name": "Microsoft USMT"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-01-12",
+  "sources": [
+    {
+      "url": "mig.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

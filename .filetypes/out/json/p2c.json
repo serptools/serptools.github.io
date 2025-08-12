@@ -1,0 +1,47 @@
+{
+  "slug": "p2c",
+  "extension": "p2c",
+  "name": "Portal 2 Community Puzzle File",
+  "category": "portal-2-community-puzzle-file",
+  "developer_org": "valve-corporation",
+  "popularity": {
+    "rating": 2.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "A P2C file contains a community, or co-operative, puzzle used by Portal 2, a first-person puzzle solving game. It stores the definition of puzzle in a voxel X Y Z (X is right, Y is forward, Z is up) format where each voxel represents a 1 x 1 x 1 panel area in the puzzle. P2C files also contain metadata about the puzzle, which includes the title, description, creation time, and version.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "valve-portal-2",
+        "display_name": "Valve Portal 2"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-09-12",
+  "sources": [
+    {
+      "url": "p2c.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

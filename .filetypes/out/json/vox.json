@@ -1,0 +1,73 @@
+{
+  "slug": "vox",
+  "extension": "vox",
+  "name": "Voxlap Voxel Model File",
+  "category": "1.-voxlap-voxel-model-file",
+  "developer_org": "ken-silverman",
+  "popularity": {
+    "rating": 4.1,
+    "votes": 29,
+    "source": "fileinfo"
+  },
+  "summary": "3D model created in the Voxel format (\"VOX\" for short), a blocky 3D format used by the Voxlap game engine; saves the geometry for a game object, such as a character, building, or a weapon; for used for creating video game models and can be edited with the Slab6 program.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "slab6",
+        "display_name": "Slab6"
+      },
+      {
+        "software": "voxlap-engine",
+        "display_name": "Voxlap engine"
+      },
+      {
+        "software": "magicavoxel",
+        "display_name": "MagicaVoxel"
+      },
+      {
+        "software": "adobe-audition-2023",
+        "display_name": "Adobe Audition 2023"
+      },
+      {
+        "software": "fmj-software-awave-studio",
+        "display_name": "FMJ-Software Awave Studio"
+      }
+    ],
+    "macos": [
+      {
+        "software": "magicavoxel",
+        "display_name": "MagicaVoxel"
+      },
+      {
+        "software": "adobe-audition-2023",
+        "display_name": "Adobe Audition 2023"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-05-12",
+  "sources": [
+    {
+      "url": "vox.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

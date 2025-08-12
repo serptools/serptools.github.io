@@ -1,0 +1,47 @@
+{
+  "slug": "rcu",
+  "extension": "rcu",
+  "name": "RealWorld Layered Cursor Image",
+  "category": "realworld-layered-cursor-image",
+  "developer_org": "realworld-graphics",
+  "popularity": {
+    "rating": 2.3,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Windows cursor image created by RealWorld Cursor Editor, a program used for creating Windows cursors in the .CUR and .ANI formats; saves an edited image and supports multiple independent editing layers; similar to an .RLI file, which is a RealWorld multi-layered image.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "realworld-cursor-editor",
+        "display_name": "RealWorld Cursor Editor"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-07-10",
+  "sources": [
+    {
+      "url": "rcu.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

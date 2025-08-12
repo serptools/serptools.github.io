@@ -1,0 +1,83 @@
+{
+  "slug": "tbn",
+  "extension": "tbn",
+  "name": "Kodi Thumbnail Image",
+  "category": "kodi-thumbnail-image",
+  "developer_org": "xbmc-foundation",
+  "popularity": {
+    "rating": 4.2,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Image file used by Kodi, a software media player for Mac, Windows, and Linux; saves a thumbnail image of a video clip, audio clip, or a playlist; used as the preview image when browsing the computer's digital media collection.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "kodi",
+        "display_name": "Kodi"
+      },
+      {
+        "software": "image-viewer",
+        "display_name": "image viewer"
+      }
+    ],
+    "macos": [
+      {
+        "software": "kodi",
+        "display_name": "Kodi"
+      },
+      {
+        "software": "image-viewer",
+        "display_name": "image viewer"
+      }
+    ],
+    "linux": [
+      {
+        "software": "kodi",
+        "display_name": "Kodi"
+      },
+      {
+        "software": "image-viewer",
+        "display_name": "image viewer"
+      }
+    ],
+    "ios": [
+      {
+        "software": "kodi",
+        "display_name": "Kodi"
+      }
+    ],
+    "android": [
+      {
+        "software": "kodi",
+        "display_name": "Kodi"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-01-21",
+  "sources": [
+    {
+      "url": "tbn.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "rwplugin",
+  "extension": "rwplugin",
+  "name": "RapidWeaver Plugin",
+  "category": "rapidweaver-plugin",
+  "developer_org": "realmac-softwaree",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "Plugin file used by RapidWeaver, a Mac Web development program that advertises code-free development; adds new functionality to the base software; used for adding components that can be integrated into webpages, such as HTML5 video players and image browsers.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "realmac-rapidweaver",
+        "display_name": "Realmac RapidWeaver"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-03-28",
+  "sources": [
+    {
+      "url": "rwplugin.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

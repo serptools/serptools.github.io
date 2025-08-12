@@ -1,0 +1,47 @@
+{
+  "slug": "diy",
+  "extension": "diy",
+  "name": "My Drivers Backup Setup File",
+  "category": "my-drivers-backup-setup-file",
+  "developer_org": "huntersoft",
+  "popularity": {
+    "rating": 2.3,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "File created by My Drivers, a program used for backing up and restoring Windows drivers; saved in a rich text format and contains the name of the driver as well as other parameters used for the backup; saved alongside other backup files and used in the driver restoration process.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "huntersoft-my-drivers",
+        "display_name": "Huntersoft My Drivers"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-02-13",
+  "sources": [
+    {
+      "url": "diy.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

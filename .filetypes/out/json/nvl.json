@@ -1,0 +1,55 @@
+{
+  "slug": "nvl",
+  "extension": "nvl",
+  "name": "UniChem Results File",
+  "category": "unichem-results-file",
+  "developer_org": "oxford-molecular",
+  "popularity": {
+    "rating": 1.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "An NVL file is a data file created by Oxford Molecular UniChem, a chemical analysis tool used in laboratory settings. It stores results from an analytical job or process completed by UniChem in a proprietary format that users, such as chemists, lab technicians, and researchers, can review for further analysis.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "linux": [
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      }
+    ],
+    "windows": [
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2024-11-14",
+  "sources": [
+    {
+      "url": "nvl.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

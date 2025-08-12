@@ -1,0 +1,21 @@
+{
+  "slug": "lop",
+  "extension": "lop",
+  "name": "MasterCook Layout File",
+  "category": "mastercook-layout-file",
+  "summary": "",
+  "developer_org": "valusoft",
+  "developer_name": "ValuSoft",
+  "more_information": {
+    "description": [
+      "If the LOP file is removed, an error message may appear when opening the file. To prevent the error, delete the associated files ending with \".mks,\" \".mlk,\" and \".rpt.\" Do not delete the \".mcf\" and \".mrf\" files, as these contain the actual cookbook data."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "lop.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

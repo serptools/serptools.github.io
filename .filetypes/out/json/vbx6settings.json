@@ -1,0 +1,53 @@
+{
+  "slug": "vbx6settings",
+  "extension": "vbx6settings",
+  "name": "VirusBarrier X6 Settings File",
+  "category": "virusbarrier-x6-settings-file",
+  "developer_org": "intego",
+  "popularity": {
+    "rating": 2.7,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "File used by VirusBarrier, an anti-virus program for Mac OS X; saves application settings such as when virus scans are executed; allows settings to be saved and imported into another copy of VirusBarrier.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "intego-virusbarrier-x9",
+        "display_name": "Intego VirusBarrier X9"
+      }
+    ],
+    "windows": [
+      {
+        "software": "intego-virusbarrier-x9",
+        "display_name": "Intego VirusBarrier X9"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-08-02",
+  "sources": [
+    {
+      "url": "vbx6settings.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

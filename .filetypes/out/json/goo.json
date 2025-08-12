@@ -1,0 +1,58 @@
+{
+  "slug": "goo",
+  "extension": "goo",
+  "name": "Goo Slice File",
+  "category": "goo-slice-file",
+  "developer_org": "elegoo",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "A GOO file is a 3D model sliced into layers for resin-based 3D printing. It is saved in the proprietary ELEGOO (GOO) format primarily used in ELEGOO 3D printing workflows from software to printers. GOO files store detailed instructions for a 3D printer, including exposure settings and layer thickness, and metadata , such as model dimensions and print time.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "elegoo-satellite",
+        "display_name": "ELEGOO SatelLite"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "GOO file icon",
+      "alt": "GOO file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/goo-13780.png"
+    },
+    {
+      "caption": "GOO file open in ELEGOO SatelLite 1",
+      "alt": "GOO file open in ELEGOO SatelLite 1",
+      "source_url": "https://fileinfo.com/img/ss/md/goo_13780.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2025-01-27",
+  "sources": [
+    {
+      "url": "goo.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

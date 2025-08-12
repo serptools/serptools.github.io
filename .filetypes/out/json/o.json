@@ -1,0 +1,73 @@
+{
+  "slug": "o",
+  "extension": "o",
+  "name": "Compiled C Object File",
+  "category": "compiled-c-object-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 73,
+    "source": "fileinfo"
+  },
+  "summary": "An O file is a compiled C program object. Some C compilers create O files during the executable ( .EXE ) creation process. O files themselves are typically not executable.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "gnu-compiler-collection-gcc",
+        "display_name": "GNU Compiler Collection (GCC)"
+      },
+      {
+        "software": "tiny-c-compiler",
+        "display_name": "Tiny C Compiler"
+      }
+    ],
+    "macos": [
+      {
+        "software": "gnu-compiler-collection-gcc",
+        "display_name": "GNU Compiler Collection (GCC)"
+      },
+      {
+        "software": "tiny-c-compiler",
+        "display_name": "Tiny C Compiler"
+      }
+    ],
+    "linux": [
+      {
+        "software": "gnu-compiler-collection-gcc",
+        "display_name": "GNU Compiler Collection (GCC)"
+      },
+      {
+        "software": "tiny-c-compiler",
+        "display_name": "Tiny C Compiler"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-05-02",
+  "sources": [
+    {
+      "url": "o.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

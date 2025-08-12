@@ -1,0 +1,47 @@
+{
+  "slug": "m12",
+  "extension": "m12",
+  "name": "Schiller medilog ECG Raw Data File",
+  "category": "schiller-medilog-ecg-raw-data-file",
+  "developer_org": "schiller",
+  "popularity": {
+    "rating": 1.5,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "File created by a Schiller medilog ECG (Electrocardiography) device, which is used to measure heartbeats; saves the raw output from the device when it's hooked up to a human subject; can be analyzed in the accompanying medilog DARWIN software.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "schiller-medilog-darwin",
+        "display_name": "Schiller medilog DARWIN"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2013-04-18",
+  "sources": [
+    {
+      "url": "m12.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

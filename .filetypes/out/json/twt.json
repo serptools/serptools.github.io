@@ -1,0 +1,57 @@
+{
+  "slug": "twt",
+  "extension": "twt",
+  "name": "Carmageddon II Game Data",
+  "category": "carmageddon-ii-game-data",
+  "developer_org": "stainless-games",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "A TWT file is a game data file used by Carmageddon II: Carpocalypse Now. It is a compressed archive that contains game assets or settings. For example, DATA.twt contains several .TXT files, which modders can extract and modify to change Carmegeddon II's settings.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "stainless-games-carmageddon-ii-carpocalypse-now",
+        "display_name": "Stainless Games Carmageddon II: Carpocalypse Now"
+      },
+      {
+        "software": "twt-unpacker",
+        "display_name": "TWT Unpacker"
+      }
+    ],
+    "macos": [
+      {
+        "software": "stainless-games-carmageddon-ii-carpocalypse-now",
+        "display_name": "Stainless Games Carmageddon II: Carpocalypse Now"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-06-20",
+  "sources": [
+    {
+      "url": "twt.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

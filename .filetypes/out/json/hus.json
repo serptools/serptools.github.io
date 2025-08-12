@@ -1,0 +1,60 @@
+{
+  "slug": "hus",
+  "extension": "hus",
+  "name": "Husqvarna Embroidery File",
+  "category": "husqvarna-embroidery-file",
+  "developer_org": "sgsb-co.-ltd.",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 11,
+    "source": "fileinfo"
+  },
+  "summary": "CAM (computer-aided manufacturing) file format used by Viking Husqvarna sewing machines; contains instructions for creating embroideries with a sewing machine; includes codes such as \"stop,\" \"jump,\" and \"trim;\" supported by most major sewing programs.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "balarad-embird-studio",
+        "display_name": "BALARAD Embird Studio"
+      },
+      {
+        "software": "s-s-computing-sewwhat",
+        "display_name": "S & S Computing SewWhat!"
+      },
+      {
+        "software": "designer-s-gallery-studioplus",
+        "display_name": "Designer's Gallery StudioPlus",
+        "status": "discontinued"
+      },
+      {
+        "software": "buzz-tools-buzzxplore",
+        "display_name": "Buzz Tools BuzzXplore"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-10-01",
+  "sources": [
+    {
+      "url": "hus.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

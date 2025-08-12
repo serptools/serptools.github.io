@@ -1,0 +1,61 @@
+{
+  "slug": "olk14msgattach",
+  "extension": "olk14msgattach",
+  "name": "Outlook 2011 Email Message Attachment File",
+  "category": "outlook-2011-email-message-attachment-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "An OLK14MSGATTACH file is a data file created by Microsoft Outlook 2011, an email and calendar program. It contains information about attachments to emails sent and received by a user in Outlook. OLK14MSGATTACH files are similar to .OLK15MSGATTACH files, which are created by Outlook 2016.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "microsoft-outlook-365",
+        "display_name": "Microsoft Outlook 365"
+      },
+      {
+        "software": "gladwev-olk14-message-recovery-tool",
+        "display_name": "Gladwev OLK14 Message Recovery Tool"
+      }
+    ],
+    "windows": [
+      {
+        "software": "microsoft-outlook-365",
+        "display_name": "Microsoft Outlook 365"
+      },
+      {
+        "software": "gladwev-olk14-message-recovery-tool",
+        "display_name": "Gladwev OLK14 Message Recovery Tool"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-01-10",
+  "sources": [
+    {
+      "url": "olk14msgattach.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

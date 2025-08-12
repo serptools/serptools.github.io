@@ -1,0 +1,61 @@
+{
+  "slug": "ptg",
+  "extension": "ptg",
+  "name": "PowerTeacher Gradebook Configuration File",
+  "category": "1.-powerteacher-gradebook-configuration-file",
+  "developer_org": "pearson-education",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 16,
+    "source": "fileinfo"
+  },
+  "summary": "Configuration file used by PowerTeacher Gradebook, a web-based classroom management application; contains grade book configuration information that is referenced when the application connects to the server; includes user id, session id, school number, teacher id, credentials, and language.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "pearson-education-powerteacher-gradebook",
+        "display_name": "Pearson Education PowerTeacher Gradebook"
+      },
+      {
+        "software": "ambient-design-artrage-studio",
+        "display_name": "Ambient Design ArtRage Studio"
+      }
+    ],
+    "macos": [
+      {
+        "software": "pearson-education-powerteacher-gradebook",
+        "display_name": "Pearson Education PowerTeacher Gradebook"
+      },
+      {
+        "software": "ambient-design-artrage-studio",
+        "display_name": "Ambient Design ArtRage Studio"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-04-01",
+  "sources": [
+    {
+      "url": "ptg.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

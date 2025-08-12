@@ -1,0 +1,51 @@
+{
+  "slug": "ssl",
+  "extension": "ssl",
+  "name": "Fallout Script",
+  "category": "1.-fallout-script",
+  "developer_org": "bethesda-softworks",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "Script written for Fallout 1 & 2, two video games in the post-apocalyptic open world video game series; contains information that controls the existence of NPC characters, dialogue between characters, map object behavior, and other gameplay elements.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "jargo-fallout-script-editor",
+        "display_name": "Jargo Fallout Script Editor"
+      },
+      {
+        "software": "nicolaudie-sunlite-suite",
+        "display_name": "Nicolaudie Sunlite Suite"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-08-11",
+  "sources": [
+    {
+      "url": "ssl.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

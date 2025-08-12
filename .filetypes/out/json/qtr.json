@@ -1,0 +1,53 @@
+{
+  "slug": "qtr",
+  "extension": "qtr",
+  "name": "QuickTime Extension Resource",
+  "category": "quicktime-extension-resource",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "Resource file referenced by a QuickTime extension ( .QTX file) that provides support for additional video codecs; stores the resource fork, which contains Macintosh-style resources.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "referenced-by-apple-quicktime-player",
+        "display_name": "Referenced by Apple QuickTime Player"
+      }
+    ],
+    "macos": [
+      {
+        "software": "referenced-by-apple-quicktime-player",
+        "display_name": "Referenced by Apple QuickTime Player"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2007-06-04",
+  "sources": [
+    {
+      "url": "qtr.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

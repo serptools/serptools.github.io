@@ -1,0 +1,40 @@
+{
+  "slug": "appxmanifest",
+  "extension": "appxmanifest",
+  "name": "Windows 10 App Manifest",
+  "category": "windows-10-app-manifest",
+  "summary": "",
+  "developer_org": "microsoft",
+  "developer_name": "Microsoft",
+  "more_information": {
+    "screenshot": {
+      "url": "https://fileinfo.com/img/ss/sm/appxmanifest_11511.png",
+      "alt": "Screenshot of a .appxmanifest file in Microsoft Visual Studio 2017",
+      "caption": "APPXMANIFEST file open in Microsoft Visual Studio 2017"
+    },
+    "description": [
+      "APPXMANIFEST files are created by Visual Studio, Microsoft's official IDE for building Windows 10 apps. When a developer creates a Universal Windows Platform (UWP) app, Visual Studio automatically generates a file named Package.appxmanifest . Developers can open the file in a visual editor and specify the app settings.",
+      "When packaging an app, Visual Studio digitally signs the package manifest and prepares an app package for release to users. Various output package types include .APPX , .MSIX , .APPXBUNDLE , .MSIXBUNDLE , .APPXUPLOAD , and .MSIXUPLOAD ."
+    ]
+  },
+  "common_filenames": [
+    {
+      "filename": "Package.appxmanifest",
+      "description": "Package.appxmanifest - An XML file for a Windows 10 app that describes application properties and settings."
+    }
+  ],
+  "images": [
+    {
+      "url": "https://fileinfo.com/img/ss/sm/appxmanifest_11511.png",
+      "alt": "Screenshot of a .appxmanifest file in Microsoft Visual Studio 2017",
+      "caption": "APPXMANIFEST file open in Microsoft Visual Studio 2017"
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "appxmanifest.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

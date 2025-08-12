@@ -1,0 +1,53 @@
+{
+  "slug": "me2mod",
+  "extension": "me2mod",
+  "name": "Mass Effect 2 Modification File",
+  "category": "mass-effect-2-modification-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "File used by various Mass Effect 2 modification tools; contains game content modifications, including character outfits and added weapons; used to insert game mod information into the Mass Effect 2 Coalesced.ini configuration file.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "mass-effect-2-coalesced-editor",
+        "display_name": "Mass Effect 2 Coalesced Editor"
+      },
+      {
+        "software": "mass-effect-2-coalesced.ini-mod-manager",
+        "display_name": "Mass Effect 2 Coalesced.ini Mod Manager"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-03-08",
+  "sources": [
+    {
+      "url": "me2mod.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "slug": "deltaskin",
+  "extension": "deltaskin",
+  "name": "Delta Emulator Skin",
+  "category": "delta-emulator-skin",
+  "developer_org": "riley-testut-and-caroline-moore",
+  "popularity": {
+    "rating": 4.3,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "A DELTASKIN file is a skin for the Delta Emulator. It is used to change the appearance of a specific emulated console's controls. Each DELTASKIN file is a Zip-compressed archive that contains a .JSON file and one or more .PDF files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "ios": [
+      {
+        "software": "rename-to-.zip-and-open-with-any-zip-decompression-utility",
+        "display_name": "Rename to .zip and open with any Zip-decompression utility"
+      },
+      {
+        "software": "delta-emulator",
+        "display_name": "Delta Emulator"
+      }
+    ],
+    "windows": [
+      {
+        "software": "rename-to-.zip-and-open-with-any-zip-decompression-utility",
+        "display_name": "Rename to .zip and open with any Zip-decompression utility"
+      },
+      {
+        "software": "delta-emulator",
+        "display_name": "Delta Emulator"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-02-25",
+  "sources": [
+    {
+      "url": "deltaskin.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

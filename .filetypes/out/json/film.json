@@ -1,0 +1,59 @@
+{
+  "slug": "film",
+  "extension": "film",
+  "name": "Filmkey Player Media File",
+  "category": "filmkey-player-media-file",
+  "developer_org": "filmkey",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 27,
+    "source": "fileinfo"
+  },
+  "summary": "A FILM file is an encrypted video file created by Filmkey Player, a utility used to view films with Digital Rights Management (DRM). It contains a movie, which may be an .MP4 , .M4V , .MOV , .QT , .MQV , or .MOOV file, encrypted with Filmkey encoder.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "filmkey-player",
+        "display_name": "Filmkey Player"
+      }
+    ],
+    "macos": [
+      {
+        "software": "filmkey-player",
+        "display_name": "Filmkey Player"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "FILM file icon",
+      "alt": "FILM file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/film-10577.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-06-30",
+  "sources": [
+    {
+      "url": "film.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

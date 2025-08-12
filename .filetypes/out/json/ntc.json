@@ -1,0 +1,53 @@
+{
+  "slug": "ntc",
+  "extension": "ntc",
+  "name": "Camera Control Pro Custom Curves File",
+  "category": "camera-control-pro-custom-curves-file",
+  "developer_org": "nikon",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "Curves file used by Nikon Camera Control Pro, a program used to touch-up pictures taken by Nikon digital cameras; contains color modifications that can be applied to photos and other images; often used to store predefined adjustments that correct common shooting errors, such as overexposed or underexposed pictures.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "nikon-camera-control-pro",
+        "display_name": "Nikon Camera Control Pro"
+      }
+    ],
+    "macos": [
+      {
+        "software": "nikon-camera-control-pro",
+        "display_name": "Nikon Camera Control Pro"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-06-11",
+  "sources": [
+    {
+      "url": "ntc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "slug": "flif",
+  "extension": "flif",
+  "name": "Free Lossless Image Format File",
+  "category": "free-lossless-image-format-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 4.1,
+    "votes": 13,
+    "source": "fileinfo"
+  },
+  "summary": "A FLIF file is an image saved in the Free Lossless Image Format (FLIF). It contains an image or animation and uses lossless compression. FLIF files are used to store a variety of images such as photographs, geographical maps, and medical images.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "imagemagick",
+        "display_name": "ImageMagick"
+      },
+      {
+        "software": "xnview",
+        "display_name": "XnView"
+      }
+    ],
+    "macos": [
+      {
+        "software": "imagemagick",
+        "display_name": "ImageMagick"
+      }
+    ],
+    "linux": [
+      {
+        "software": "imagemagick",
+        "display_name": "ImageMagick"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "FLIF file icon",
+      "alt": "FLIF file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/flif-10548.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-05-03",
+  "sources": [
+    {
+      "url": "flif.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

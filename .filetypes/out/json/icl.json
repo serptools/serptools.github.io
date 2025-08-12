@@ -1,0 +1,63 @@
+{
+  "slug": "icl",
+  "extension": "icl",
+  "name": "Windows Icon Library File",
+  "category": "windows-icon-library-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.2,
+    "votes": 13,
+    "source": "fileinfo"
+  },
+  "summary": "Contains a collections of icons that can be used to replace existing icons; may be applied to Windows shortcuts (such as .LNK files), but not to actual program files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-windows",
+        "display_name": "Microsoft Windows"
+      },
+      {
+        "software": "canvas-gfx-canvas-x-pro",
+        "display_name": "Canvas GFX Canvas X Pro"
+      },
+      {
+        "software": "axialis-iconworkshop",
+        "display_name": "Axialis IconWorkshop"
+      },
+      {
+        "software": "impact-microangelo-toolset",
+        "display_name": "Impact Microangelo Toolset"
+      },
+      {
+        "software": "aha-soft-iconutils",
+        "display_name": "Aha-Soft IconUtils"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-05-30",
+  "sources": [
+    {
+      "url": "icl.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

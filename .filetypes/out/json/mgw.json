@@ -1,0 +1,61 @@
+{
+  "slug": "mgw",
+  "extension": "mgw",
+  "name": "Mr. Game And Watch ROM File",
+  "category": "mr.-game-and-watch-rom-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "An MGW file contains a recreation of an original ROM of a Nintendo Game & Watch video game. It contains all of the data for a Game & Watch game, which includes the original artwork, and can be played with the lr-gw simulator.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "lr-gw",
+        "display_name": "lr-gw"
+      }
+    ],
+    "macos": [
+      {
+        "software": "lr-gw",
+        "display_name": "lr-gw"
+      }
+    ],
+    "linux": [
+      {
+        "software": "lr-gw",
+        "display_name": "lr-gw"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-03-04",
+  "sources": [
+    {
+      "url": "mgw.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

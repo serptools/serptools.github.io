@@ -1,0 +1,59 @@
+{
+  "slug": "mind",
+  "extension": "mind",
+  "name": "MindMeister Map File",
+  "category": "mindmeister-map-file",
+  "developer_org": "meisterlabs",
+  "popularity": {
+    "rating": 1.9,
+    "votes": 15,
+    "source": "fileinfo"
+  },
+  "summary": "A MIND file contains a mind map created by MeisterLabs MindMeister, an online mind mapping program used to visually capture, develop, and share ideas. It is a Zip-compressed archive that contains a .JSON file, which includes the layout of a mind map and paths to any linked images and videos.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "web": [
+      {
+        "software": "meisterlabs-mindmeister",
+        "display_name": "MeisterLabs MindMeister"
+      }
+    ],
+    "windows": [
+      {
+        "software": "meisterlabs-mindmeister",
+        "display_name": "MeisterLabs MindMeister"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "MIND file open in MeisterLabs MindMeister",
+      "alt": "MIND file open in MeisterLabs MindMeister",
+      "source_url": "https://fileinfo.com/img/ss/md/mind_10996.jpg"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-05-15",
+  "sources": [
+    {
+      "url": "mind.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

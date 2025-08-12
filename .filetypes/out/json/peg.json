@@ -1,0 +1,62 @@
+{
+  "slug": "peg",
+  "extension": "peg",
+  "name": "Peggle Replay File",
+  "category": "1.-peggle-replay-file",
+  "developer_org": "popcap-games",
+  "popularity": {
+    "rating": 3.1,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "Saved replay created by Peggle, a 2D peg-clearing game by PopCap Games; stores a video of a previously played game that can be viewed within the Peggle program; can be shared and viewed by other players.",
+  "standards": [],
+  "mime_types": [
+    "deluxe/userdata",
+    "files/popcapgames"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "popcap-games-peggle",
+        "display_name": "PopCap Games Peggle"
+      }
+    ],
+    "macos": [
+      {
+        "software": "popcap-games-peggle",
+        "display_name": "PopCap Games Peggle"
+      }
+    ],
+    "ios": [
+      {
+        "software": "callipeg",
+        "display_name": "Callipeg"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-11-09",
+  "sources": [
+    {
+      "url": "peg.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

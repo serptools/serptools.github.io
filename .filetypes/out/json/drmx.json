@@ -1,0 +1,59 @@
+{
+  "slug": "drmx",
+  "extension": "drmx",
+  "name": "Drumlin Fully Secure PDF File",
+  "category": "drumlin-fully-secure-pdf-file",
+  "developer_org": "drumlin-security",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "PDF file saved in a secure proprietary format; created by Drumlin PDF Publisher and can be read by Javelin PDF Reader; assigned a unique authorization code in order to protect its digital assets.",
+  "standards": [],
+  "mime_types": [
+    "reader/publisher"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "drumlin-security-javelin-pdf-reader",
+        "display_name": "Drumlin Security Javelin PDF Reader"
+      },
+      {
+        "software": "drumlin-security-drumlin-pdf-reader-and-publisher",
+        "display_name": "Drumlin Security Drumlin PDF Reader and Publisher"
+      }
+    ],
+    "macos": [
+      {
+        "software": "drumlin-security-javelin-pdf-reader",
+        "display_name": "Drumlin Security Javelin PDF Reader"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2013-08-06",
+  "sources": [
+    {
+      "url": "drmx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

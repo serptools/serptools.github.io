@@ -1,0 +1,66 @@
+{
+  "slug": "asvx",
+  "extension": "asvx",
+  "name": "Finale 2014 Auto-Saved Score",
+  "category": "finale-2014-auto-saved-score",
+  "developer_org": "makemusic",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "An ASVX file is a backup of a MakeMusic Finale musical score ( .MUSX file). Composers can set Finale to automatically create ASVX backups at regular intervals. ASVX files use the extension asv.musx .",
+  "standards": [],
+  "mime_types": [
+    "create/update"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "makemusic-finale",
+        "display_name": "MakeMusic Finale"
+      }
+    ],
+    "macos": [
+      {
+        "software": "makemusic-finale",
+        "display_name": "MakeMusic Finale"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "ASVX file icon",
+      "alt": "ASVX file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/asvx-9076.png"
+    },
+    {
+      "caption": "ASVX file open in MakeMusic Finale",
+      "alt": "ASVX file open in MakeMusic Finale",
+      "source_url": "https://fileinfo.com/img/ss/md/asvx_9076.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-02-23",
+  "sources": [
+    {
+      "url": "asvx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "slug": "msm",
+  "extension": "msm",
+  "name": "Windows Installer Merge Module",
+  "category": "1.-windows-installer-merge-module",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 12,
+    "source": "fileinfo"
+  },
+  "summary": "Database of a \"merge module\" that contains installation settings and properties for a specific software installer; includes files, resources, registry entries, and setup information; often contained within an .MSI file.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-visual-studio-2022",
+        "display_name": "Microsoft Visual Studio 2022"
+      },
+      {
+        "software": "microsoft-windows-installer",
+        "display_name": "Microsoft Windows Installer"
+      },
+      {
+        "software": "other-windows-installation-program",
+        "display_name": "Other Windows installation program"
+      },
+      {
+        "software": "national-instruments-multisim",
+        "display_name": "National Instruments Multisim"
+      },
+      {
+        "software": "ubisoft-rayman-origins",
+        "display_name": "Ubisoft Rayman Origins"
+      },
+      {
+        "software": "ubisoft-rayman-legends",
+        "display_name": "Ubisoft Rayman Legends"
+      },
+      {
+        "software": "ubisoft-child-of-light",
+        "display_name": "Ubisoft Child of Light"
+      },
+      {
+        "software": "older-versions-of-just-dance",
+        "display_name": "Older versions of Just Dance"
+      }
+    ],
+    "ios": [
+      {
+        "software": "big-blue-bubble-my-singing-monsters-composer",
+        "display_name": "Big Blue Bubble My Singing Monsters Composer"
+      }
+    ],
+    "android": [
+      {
+        "software": "big-blue-bubble-my-singing-monsters-composer",
+        "display_name": "Big Blue Bubble My Singing Monsters Composer"
+      }
+    ],
+    "macos": [
+      {
+        "software": "ubisoft-rayman-origins",
+        "display_name": "Ubisoft Rayman Origins"
+      },
+      {
+        "software": "older-versions-of-just-dance",
+        "display_name": "Older versions of Just Dance"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2008-09-30",
+  "sources": [
+    {
+      "url": "msm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

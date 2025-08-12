@@ -1,0 +1,51 @@
+{
+  "slug": "bss",
+  "extension": "bss",
+  "name": "Resident Evil Background Images File",
+  "category": "resident-evil-background-images-file",
+  "developer_org": "capcom",
+  "popularity": {
+    "rating": 2.9,
+    "votes": 12,
+    "source": "fileinfo"
+  },
+  "summary": "Graphics file used by games in the PlayStation version of the Resident Evil zombie horror series; saves multiple 2D background images that are used for showing rooms from different camera angles in the game; can be viewed on a PC with the Reevengi tools.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "capcom-resident-evil",
+        "display_name": "Capcom Resident Evil"
+      },
+      {
+        "software": "reevengi",
+        "display_name": "Reevengi"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-06-13",
+  "sources": [
+    {
+      "url": "bss.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

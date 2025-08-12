@@ -1,0 +1,53 @@
+{
+  "slug": "wcp",
+  "extension": "wcp",
+  "name": "WinDVD Creator Project File",
+  "category": "1.-windvd-creator-project-file",
+  "developer_org": "corel",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "Contains DVD project information for a DVD created with InterVideo WinDVD Creator; stores project configuration information and references to video clips used by the DVD project.",
+  "standards": [],
+  "mime_types": [
+    "dvd+/-vr"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "corel-intervideo-windvd-creator",
+        "display_name": "Corel InterVideo WinDVD Creator"
+      },
+      {
+        "software": "softany-winchm",
+        "display_name": "Softany WinCHM"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2007-07-14",
+  "sources": [
+    {
+      "url": "wcp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

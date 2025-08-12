@@ -1,0 +1,77 @@
+{
+  "slug": "srec",
+  "extension": "srec",
+  "name": "S-record File",
+  "category": "s-record-file",
+  "developer_org": "motorola",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "An SREC file is a data file saved in the Motorola S-record format. It contains ASCII hexadecimal values used to represent binary data. Most often, SREC files contain firmware that is meant to be flashed onto a microcontroller or other erasable programmable read-only memory (EPROM) device.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "peter-miller-srecord",
+        "display_name": "Peter Miller SRecord"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "peter-miller-srecord",
+        "display_name": "Peter Miller SRecord"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "peter-miller-srecord",
+        "display_name": "Peter Miller SRecord"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "SREC file open in Microsoft Visual Studio Code",
+      "alt": "SREC file open in Microsoft Visual Studio Code",
+      "source_url": "https://fileinfo.com/img/ss/md/srec_13276.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-04-21",
+  "sources": [
+    {
+      "url": "srec.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

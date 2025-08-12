@@ -1,0 +1,53 @@
+{
+  "slug": "gbproj",
+  "extension": "gbproj",
+  "name": "GarageBand Project",
+  "category": "garageband-project",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Audio project file created by GarageBand, a home audio production program; may contain MIDI data as well as recorded or imported audio tracks; used for saving music compilations during the production process.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "apple-garageband",
+        "display_name": "Apple GarageBand"
+      }
+    ],
+    "windows": [
+      {
+        "software": "apple-garageband",
+        "display_name": "Apple GarageBand"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-01-18",
+  "sources": [
+    {
+      "url": "gbproj.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "rgf",
+  "extension": "rgf",
+  "name": "LEGO MINDSTORMS EV3 Robot Graphics File",
+  "category": "lego-mindstorms-ev3-robot-graphics-file",
+  "developer_org": "the-lego-group",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 14,
+    "source": "fileinfo"
+  },
+  "summary": "An RGF file is an image saved in the EV3 Robot Graphics Format (RGF) created by LEGO MINDSTORMS EV3, a program for creating and programming LEGO robots. It contains image data in the proprietary RGF raster image format that LEGO MINDSTORMS EV3 users create and edit with the software's Image Editor tool. RGF graphics may include text boxes, shapes, drawings, and other elements.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "lego-mindstorms-ev3",
+        "display_name": "LEGO MINDSTORMS EV3"
+      }
+    ],
+    "macos": [
+      {
+        "software": "lego-mindstorms-ev3",
+        "display_name": "LEGO MINDSTORMS EV3"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2024-03-19",
+  "sources": [
+    {
+      "url": "rgf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

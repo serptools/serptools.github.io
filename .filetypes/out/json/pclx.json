@@ -1,0 +1,105 @@
+{
+  "slug": "pclx",
+  "extension": "pclx",
+  "name": "Pencil2D Project",
+  "category": "pencil2d-project",
+  "developer_org": "pencil2d",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "A PCLX file is an animation project file created by Pencil2D, an open-source 2D animation application. It is a Zip-compressed file that contains an .XML file and a data folder used to load a project in Pencil2D. PCLX files can be opened in Pencil2D or decompressed to view their contents.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "pencil2d",
+        "display_name": "Pencil2D"
+      },
+      {
+        "software": "corel-winzip",
+        "display_name": "Corel WinZip"
+      },
+      {
+        "software": "peazip",
+        "display_name": "PeaZip"
+      },
+      {
+        "software": "b1-free-archiver",
+        "display_name": "B1 Free Archiver",
+        "pricing": "free"
+      },
+      {
+        "software": "apple-archive-utility",
+        "display_name": "Apple Archive Utility"
+      }
+    ],
+    "macos": [
+      {
+        "software": "pencil2d",
+        "display_name": "Pencil2D"
+      },
+      {
+        "software": "apple-archive-utility",
+        "display_name": "Apple Archive Utility"
+      },
+      {
+        "software": "b1-free-archiver",
+        "display_name": "B1 Free Archiver",
+        "pricing": "free"
+      }
+    ],
+    "linux": [
+      {
+        "software": "pencil2d",
+        "display_name": "Pencil2D"
+      },
+      {
+        "software": "peazip",
+        "display_name": "PeaZip"
+      },
+      {
+        "software": "b1-free-archiver",
+        "display_name": "B1 Free Archiver",
+        "pricing": "free"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "PCLX file icon",
+      "alt": "PCLX file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/pclx-12023.png"
+    },
+    {
+      "caption": "PCLX file open in Pencil2D 0.6",
+      "alt": "PCLX file open in Pencil2D 0.6",
+      "source_url": "https://fileinfo.com/img/ss/md/pclx_12023.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-04-15",
+  "sources": [
+    {
+      "url": "pclx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

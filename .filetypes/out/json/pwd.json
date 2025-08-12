@@ -1,0 +1,55 @@
+{
+  "slug": "pwd",
+  "extension": "pwd",
+  "name": "Pocket Word Document",
+  "category": "1.-pocket-word-document",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.2,
+    "votes": 13,
+    "source": "fileinfo"
+  },
+  "summary": "Text document created by Pocket Word for Windows CE, a reduced version of Microsoft Word for the Windows Compact Edition mobile platform; can be opened by TextMaker (included in SoftMaker Office) and converted to more standard formats, such as .DOC and .DOCX .",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "softmaker-office",
+        "display_name": "SoftMaker Office"
+      },
+      {
+        "software": "siemens-solid-edge",
+        "display_name": "Siemens Solid Edge"
+      },
+      {
+        "software": "okino-computer-graphics-polytrans",
+        "display_name": "Okino Computer Graphics PolyTrans"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-10-11",
+  "sources": [
+    {
+      "url": "pwd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

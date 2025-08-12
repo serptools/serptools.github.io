@@ -1,0 +1,73 @@
+{
+  "slug": "gvp",
+  "extension": "gvp",
+  "name": "Google Video Pointer",
+  "category": "google-video-pointer",
+  "developer_org": "google",
+  "popularity": {
+    "rating": 1.8,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "Shortcut that contains the location of a Google Video Player ( .GVI ) file on the Internet; does not contain actual video data, but rather a reference to the video file.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "google-video-player",
+        "display_name": "Google Video Player"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      }
+    ],
+    "macos": [
+      {
+        "software": "google-video-player",
+        "display_name": "Google Video Player"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      }
+    ],
+    "linux": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "GVP file icon",
+      "alt": "GVP file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/gvp-1391.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-06-22",
+  "sources": [
+    {
+      "url": "gvp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

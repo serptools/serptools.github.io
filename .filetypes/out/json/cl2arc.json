@@ -1,0 +1,59 @@
+{
+  "slug": "cl2arc",
+  "extension": "cl2arc",
+  "name": "Comic Life 2 Document Archive",
+  "category": "comic-life-2-document-archive",
+  "developer_org": "plasq",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 12,
+    "source": "fileinfo"
+  },
+  "summary": "Archive created by Comic Life 2, a program used for making comic books; saves a comic book project as a compressed archive that is more suitable for sharing and backup than the native .CL2DOC project format.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "plasq-comic-life",
+        "display_name": "plasq Comic Life"
+      }
+    ],
+    "macos": [
+      {
+        "software": "plasq-comic-life",
+        "display_name": "plasq Comic Life"
+      }
+    ],
+    "ios": [
+      {
+        "software": "plasq-comic-life",
+        "display_name": "plasq Comic Life"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-03-16",
+  "sources": [
+    {
+      "url": "cl2arc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

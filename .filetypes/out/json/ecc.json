@@ -1,0 +1,59 @@
+{
+  "slug": "ecc",
+  "extension": "ecc",
+  "name": "dvdisaster Error Correction File",
+  "category": "dvdisaster-error-correction-file",
+  "developer_org": "dvdisaster",
+  "popularity": {
+    "rating": 2.2,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "Data file created by dvdisaster, a program used for recovering errors in CDs, DVDs, and Blu-ray discs; stores data used for reconstructing unreadable sectors on a disc; requires an error-free disc or .ISO disc image to generate the error correction data.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "dvdisaster",
+        "display_name": "dvdisaster"
+      }
+    ],
+    "macos": [
+      {
+        "software": "dvdisaster",
+        "display_name": "dvdisaster"
+      }
+    ],
+    "linux": [
+      {
+        "software": "dvdisaster",
+        "display_name": "dvdisaster"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-04-08",
+  "sources": [
+    {
+      "url": "ecc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "raskinlicense",
+  "extension": "raskinlicense",
+  "name": "Raskin License File",
+  "category": "raskin-license-file",
+  "developer_org": "raskin-software",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Software license file used by Raskin, a zoomable user interface that is an alternative to the default Mac OS X desktop; contains license information used to register a valid copy of Raskin.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "raskin",
+        "display_name": "Raskin"
+      }
+    ],
+    "windows": [
+      {
+        "software": "raskin",
+        "display_name": "Raskin"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-01-05",
+  "sources": [
+    {
+      "url": "raskinlicense.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

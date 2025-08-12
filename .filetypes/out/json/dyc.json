@@ -1,0 +1,47 @@
+{
+  "slug": "dyc",
+  "extension": "dyc",
+  "name": "Xerox Printer Driver Configuration File",
+  "category": "xerox-printer-driver-configuration-file",
+  "developer_org": "xerox",
+  "popularity": {
+    "rating": 2.2,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "Driver configuration file used by some Xerox printers; contains preconfigured default settings for the printer driver; used to update printer drivers with new settings.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "xerox-centreware",
+        "display_name": "Xerox CentreWare"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-04-14",
+  "sources": [
+    {
+      "url": "dyc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

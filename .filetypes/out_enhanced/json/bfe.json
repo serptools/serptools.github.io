@@ -1,0 +1,22 @@
+{
+  "slug": "bfe",
+  "extension": "bfe",
+  "name": "Bcrypt Encrypted File",
+  "category": "bcrypt-encrypted-file",
+  "summary": "",
+  "developer_org": "johnny-shelley",
+  "developer_name": "Johnny Shelley",
+  "more_information": {
+    "description": [
+      "Bcrypt is a cross-platform file encryption utility that is most popularly used by Linux users. After installing bcrypt, users can enter bcrypt [-orc] [-sn] and a filename in a terminal window to encrypt that file. As part of encrypting the file, users must enter a passphrase. Bcrypt then produces an encrypted copy of the file, saved with the .bfe extension. By default, bcrypt also deletes the original file, though users can disable this feature.",
+      "BFE files are encrypted using a variation of the Blowfish cipher, which is a symmetric-key block cipher created in 1993. As such, the key used to encrypt a BFE file is also the key used to decrypt it. Each BFE file contains the key used to decrypt it, hashed to a 448-bit value."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "bfe.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

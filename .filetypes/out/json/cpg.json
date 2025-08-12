@@ -1,0 +1,73 @@
+{
+  "slug": "cpg",
+  "extension": "cpg",
+  "name": "ESRI Code Page File",
+  "category": "1.-esri-code-page-file",
+  "developer_org": "esri",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 32,
+    "source": "fileinfo"
+  },
+  "summary": "Character encoding file used by ESRI software products such as the ArcGIS Desktop suite; describes a set of characters for displaying text in shapefiles; helps localize maps for specific languages.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "esri-arcgis-for-desktop",
+        "display_name": "ESRI ArcGIS for Desktop"
+      },
+      {
+        "software": "celsys-clip-studio-paint-pro",
+        "display_name": "CELSYS Clip Studio Paint Pro"
+      },
+      {
+        "software": "blizzard-starcraft",
+        "display_name": "Blizzard StarCraft"
+      },
+      {
+        "software": "3dize-cool-page",
+        "display_name": "3Dize Cool Page"
+      },
+      {
+        "software": "motorola-solutions-mototrbo-cps",
+        "display_name": "Motorola Solutions MOTOTRBO CPS"
+      }
+    ],
+    "macos": [
+      {
+        "software": "celsys-clip-studio-paint-pro",
+        "display_name": "CELSYS Clip Studio Paint Pro"
+      },
+      {
+        "software": "blizzard-starcraft",
+        "display_name": "Blizzard StarCraft"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-04-26",
+  "sources": [
+    {
+      "url": "cpg.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

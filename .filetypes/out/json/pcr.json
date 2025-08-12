@@ -1,0 +1,51 @@
+{
+  "slug": "pcr",
+  "extension": "pcr",
+  "name": "PCMark Vantage Benchmark File",
+  "category": "pcmark-vantage-benchmark-file",
+  "developer_org": "futuremark",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "File created by PCMark Vantage, a program that is used to create performance benchmarks for Windows computers and their programs; contains the results of a system benchmark, including CPU , memory, and disk performance.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "futuremark-pcmark05",
+        "display_name": "FutureMark PCMark05"
+      },
+      {
+        "software": "futuremark-pcmark-vantage",
+        "display_name": "Futuremark PCMark Vantage"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-02-01",
+  "sources": [
+    {
+      "url": "pcr.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

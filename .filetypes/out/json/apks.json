@@ -1,0 +1,79 @@
+{
+  "slug": "apks",
+  "extension": "apks",
+  "name": "APK Set Archive",
+  "category": "apk-set-archive",
+  "developer_org": "google",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 79,
+    "source": "fileinfo"
+  },
+  "summary": "An APKS file is an APK set archive. It contains a set of .APK files that are optimized for different Android devices. APKS files are renamed .ZIP files, so you can extract the APK files they contain with any Zip-decompression utility.",
+  "standards": [],
+  "mime_types": [
+    "path/to"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "google-bundletool",
+        "display_name": "Google bundletool"
+      },
+      {
+        "software": "andatsoft-my-apk",
+        "display_name": "Andatsoft My APK"
+      },
+      {
+        "software": "lucky-patcher",
+        "display_name": "Lucky Patcher"
+      }
+    ],
+    "macos": [
+      {
+        "software": "google-bundletool",
+        "display_name": "Google bundletool"
+      }
+    ],
+    "linux": [
+      {
+        "software": "google-bundletool",
+        "display_name": "Google bundletool"
+      }
+    ],
+    "android": [
+      {
+        "software": "andatsoft-my-apk",
+        "display_name": "Andatsoft My APK"
+      },
+      {
+        "software": "lucky-patcher",
+        "display_name": "Lucky Patcher"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-09-15",
+  "sources": [
+    {
+      "url": "apks.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

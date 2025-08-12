@@ -1,0 +1,31 @@
+{
+  "slug": "sqlite",
+  "extension": "sqlite",
+  "name": "SQLite Database",
+  "summary": "An SQLITE file contains a database created with SQLite, a lightweight Relational Database Management System ( RDBMS ) widely used in application development for storing embedded databases. SQLITE files are often created by software developers for storing data used by their applications.",
+  "developer": "SQLite",
+  "developer_slug": "sqlite",
+  "category": "Database Files",
+  "category_slug": "database-files",
+  "rating": 3.8,
+  "votes": 233,
+  "last_updated": "September 20, 2021",
+  "more_information": {
+    "content": [
+      "SQLite databases store data in tables, which may contain multiple fields of various data types such as text or integers. Developers can access and modify this data using SQL queries or \"CRUD\" (create, read, update, delete) operations. Since databases are self-contained, updates to the database are fully contained within the SQLITE file. However, SQLite may record transaction information in a second temporary file called a rollback journal.",
+      "The SQLite library is freely available and is supported by all major mobile and desktop platforms including Android, iOS, Windows, and macOS. Additionally, all major programming languages provide support for SQLite.",
+      "NOTE: The file extension \".sqlite\" is not always used for SQLite databases. Developers often use a different file extension such as \".dat\" or \".db\" to conceal the file format."
+    ]
+  },
+  "how_to_open": {
+    "instructions": [
+      "You can open a SQLITE file using SQLite (multiplatform) or SQLite Database Browser (multiplatform).",
+      "Note that if your SQLITE file is encrypted, you may have to enter the password used to encrypt the file. If you do not know the password, you likely will not be able to open the file."
+    ]
+  },
+  "scraped_at": "2025-08-09T21:58:55.115243",
+  "source": {
+    "url": "https://fileinfo.com/extension/sqlite",
+    "file": "sqlite.html"
+  }
+}

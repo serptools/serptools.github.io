@@ -1,0 +1,23 @@
+{
+  "slug": "nbt",
+  "extension": "nbt",
+  "name": "Minecraft Named Binary Tag",
+  "category": "minecraft-named-binary-tag",
+  "summary": "",
+  "developer_org": "mojang",
+  "developer_name": "Mojang",
+  "more_information": {
+    "description": [
+      "Minecraft is an open-ended 3D world-building and exploration game. The game's Java Edition is popular among modders, which are players who enjoy customizing games by editing existing game files and adding new ones.",
+      "Some of the files Minecraft modders examine and edit are NBT files. These are GZip-compressed files that may contain a variety of game data items. Software APIs such as JNBT (The Java NBT Library) can read the NBT format, allowing modders to decompress, open, and edit NBT files.",
+      "NOTE: Many other Minecraft game data files also use the Named Binary Tag file format. For example, Minecraft's .DAT , .MCLEVEL , .MINE , and .MCR files use the Named Binary Tag file format."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "nbt.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "amm",
+  "extension": "amm",
+  "name": "All My Movies Database File",
+  "category": "all-my-movies-database-file",
+  "developer_org": "bolide-software",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 10,
+    "source": "fileinfo"
+  },
+  "summary": "File created by All My Movies, a personal movie organizer for Windows; saves a catalog of information about video files, DVDs, Blu-ray movies, and VHS tapes; used for keeping an inventory of a personal collection of movies.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "bolide-all-my-movies",
+        "display_name": "Bolide All My Movies"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2013-03-19",
+  "sources": [
+    {
+      "url": "amm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

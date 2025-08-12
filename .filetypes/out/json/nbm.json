@@ -1,0 +1,59 @@
+{
+  "slug": "nbm",
+  "extension": "nbm",
+  "name": "NetBeans Module",
+  "category": "netbeans-module",
+  "developer_org": "apache",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "Plug-in file used by NetBeans, a cross-platform Integrated Development Environment ( IDE ); stores a compressed .ZIP archive of XML, .JAR , and metadata files; also supports pack200 compression ( .PACK.GZ extension) for included JAR files; often distributed via download on the Web.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "apache-netbeans",
+        "display_name": "Apache NetBeans"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apache-netbeans",
+        "display_name": "Apache NetBeans"
+      }
+    ],
+    "linux": [
+      {
+        "software": "apache-netbeans",
+        "display_name": "Apache NetBeans"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-03-05",
+  "sources": [
+    {
+      "url": "nbm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

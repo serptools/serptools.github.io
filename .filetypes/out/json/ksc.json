@@ -1,0 +1,49 @@
+{
+  "slug": "ksc",
+  "extension": "ksc",
+  "name": "Korg Trinity/Triton Script File",
+  "category": "korg-trinity-triton-script-file",
+  "developer_org": "korg",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Contains a list of .KMP files, or \"multisamples,\" which reference audio samples ; used by custom instruments created by the user; references audio files, but does not contain actual audio data.",
+  "standards": [],
+  "mime_types": [
+    "trinity/triton"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "fmj-software-awave-studio",
+        "display_name": "FMJ-Software Awave Studio"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-05-18",
+  "sources": [
+    {
+      "url": "ksc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

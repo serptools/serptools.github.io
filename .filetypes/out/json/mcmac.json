@@ -1,0 +1,54 @@
+{
+  "slug": "mcmac",
+  "extension": "mcmac",
+  "name": "MasterCook Mac Document",
+  "category": "mastercook-mac-document",
+  "developer_org": "mariner-software",
+  "popularity": {
+    "rating": 2.5,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "File created to export MasterCook recipe files to MacGourmet Deluxe, an application used for organizing personal recipes and cookbooks; contains an exported MasterCook (another recipe organizer program) file in Mac format.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "mariner-macgourmet-deluxe",
+        "display_name": "Mariner MacGourmet Deluxe",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "MCMAC file icon",
+      "alt": "MCMAC file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/mcmac-8994.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2016-06-20",
+  "sources": [
+    {
+      "url": "mcmac.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

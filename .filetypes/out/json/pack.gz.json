@@ -1,0 +1,105 @@
+{
+  "slug": "pack.gz",
+  "extension": "pack.gz",
+  "name": "Pack200 Compressed Archive",
+  "category": "pack200-compressed-archive",
+  "developer_org": "oracle",
+  "popularity": {
+    "rating": 2.8,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "File packed first using Pak200 (to create a .PACK file), and then compressed using gzip compression (into a .GZ file); used to reduce the file size of a .JAR file for download over the Internet.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "oracle-pax200",
+        "display_name": "Oracle Pax200"
+      },
+      {
+        "software": "smith-micro-stuffit-deluxe",
+        "display_name": "Smith Micro StuffIt Deluxe",
+        "status": "discontinued"
+      },
+      {
+        "software": "corel-winzip",
+        "display_name": "Corel WinZip"
+      },
+      {
+        "software": "gzip",
+        "display_name": "gzip"
+      }
+    ],
+    "web": [
+      {
+        "software": "oracle-java-web-start",
+        "display_name": "Oracle Java Web Start",
+        "status": "discontinued"
+      },
+      {
+        "software": "oracle-pax200",
+        "display_name": "Oracle Pax200"
+      },
+      {
+        "software": "smith-micro-stuffit-deluxe",
+        "display_name": "Smith Micro StuffIt Deluxe",
+        "status": "discontinued"
+      },
+      {
+        "software": "corel-winzip",
+        "display_name": "Corel WinZip"
+      },
+      {
+        "software": "gzip",
+        "display_name": "gzip"
+      }
+    ],
+    "macos": [
+      {
+        "software": "smith-micro-stuffit-deluxe-mac-16",
+        "display_name": "Smith Micro StuffIt Deluxe Mac 16",
+        "status": "discontinued"
+      },
+      {
+        "software": "oracle-pax200",
+        "display_name": "Oracle Pax200"
+      }
+    ],
+    "linux": [
+      {
+        "software": "oracle-pax200",
+        "display_name": "Oracle Pax200"
+      },
+      {
+        "software": "gzip",
+        "display_name": "gzip"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-03-08",
+  "sources": [
+    {
+      "url": "pack.gz.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

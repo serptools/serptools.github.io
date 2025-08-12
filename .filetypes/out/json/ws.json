@@ -1,0 +1,143 @@
+{
+  "slug": "ws",
+  "extension": "ws",
+  "name": "Windows Script",
+  "category": "1.-windows-script",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 28,
+    "source": "fileinfo"
+  },
+  "summary": "A WS file contains an executable script that can be run via the Windows Script Host. The script may be comprised of various types of routines and elements, including JScript and VBScript routines and XML elements. When you double-click a WS file, the Windows Script Host will automatically run the script the file contains.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-windows-script-host",
+        "display_name": "Microsoft Windows Script Host"
+      },
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      },
+      {
+        "software": "oswan",
+        "display_name": "Oswan"
+      },
+      {
+        "software": "mednafen",
+        "display_name": "Mednafen"
+      },
+      {
+        "software": "higan",
+        "display_name": "Higan"
+      },
+      {
+        "software": "openemu",
+        "display_name": "OpenEmu"
+      },
+      {
+        "software": "variety-games-1-2-3-word-search-maker",
+        "display_name": "Variety Games 1-2-3 Word Search Maker"
+      },
+      {
+        "software": "whitespace",
+        "display_name": "Whitespace"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "openemu",
+        "display_name": "OpenEmu"
+      },
+      {
+        "software": "oswan",
+        "display_name": "Oswan"
+      },
+      {
+        "software": "whitespace",
+        "display_name": "Whitespace"
+      }
+    ],
+    "linux": [
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "whitespace",
+        "display_name": "Whitespace"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "WS file open in Microsoft Visual Studio Code",
+      "alt": "WS file open in Microsoft Visual Studio Code",
+      "source_url": "https://fileinfo.com/img/ss/md/ws_525.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-10-18",
+  "sources": [
+    {
+      "url": "ws.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "slug": "cyw",
+  "extension": "cyw",
+  "name": "Rbot.CYW Worm File",
+  "category": "rbot.cyw-worm-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Backdoor worm designed to spread through a network via the file sharing system; may allow the perpetrator to access and possibly control the infected computer.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "should-not-be-opened-manually",
+        "display_name": "Should not be opened manually"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-06-24",
+  "sources": [
+    {
+      "url": "cyw.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

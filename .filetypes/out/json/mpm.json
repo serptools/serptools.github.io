@@ -1,0 +1,55 @@
+{
+  "slug": "mpm",
+  "extension": "mpm",
+  "name": "Max Payne Mod",
+  "category": "max-payne-mod",
+  "developer_org": "rockstar-games",
+  "popularity": {
+    "rating": 4.3,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "An MPM file is a mod for Rockstar Games Max Payne. It contains data used to import a custom level into the game or modify an existing level. For example, an MPM file might contain custom game logic that modifies how Max Payne's weapons behave.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "rockstar-games-max-payne",
+        "display_name": "Rockstar Games Max Payne"
+      },
+      {
+        "software": "rasmaster",
+        "display_name": "RASMaster"
+      },
+      {
+        "software": "maxpaynepacker",
+        "display_name": "MaxPaynePacker"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-11-03",
+  "sources": [
+    {
+      "url": "mpm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

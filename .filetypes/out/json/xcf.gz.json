@@ -1,0 +1,141 @@
+{
+  "slug": "xcf.gz",
+  "extension": "xcf.gz",
+  "name": "GIMP Image Gzip Archive",
+  "category": "gimp-image-gzip-archive",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "An XCF.GZ file is an archive created by GIMP that contains an .XCF image and is compressed with the GNU zip (gzip) compression algorithm. GIMP users save XCF images as XCF.GZ files to reduce their size, typically when backing them up or transferring them.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "gimp",
+        "display_name": "GIMP"
+      },
+      {
+        "software": "smith-micro-stuffit-deluxe",
+        "display_name": "Smith Micro StuffIt Deluxe",
+        "status": "discontinued"
+      },
+      {
+        "software": "corel-winzip",
+        "display_name": "Corel WinZip"
+      },
+      {
+        "software": "rarlab-winrar",
+        "display_name": "RARLAB WinRAR"
+      },
+      {
+        "software": "7-zip",
+        "display_name": "7-Zip"
+      },
+      {
+        "software": "peazip",
+        "display_name": "PeaZip"
+      },
+      {
+        "software": "apple-archive-utility",
+        "display_name": "Apple Archive Utility"
+      },
+      {
+        "software": "incredible-bee-archiver",
+        "display_name": "Incredible Bee Archiver"
+      },
+      {
+        "software": "gzip",
+        "display_name": "gzip"
+      },
+      {
+        "software": "xarchive",
+        "display_name": "Xarchive"
+      },
+      {
+        "software": "ark",
+        "display_name": "Ark"
+      }
+    ],
+    "macos": [
+      {
+        "software": "smith-micro-stuffit-deluxe-mac-16",
+        "display_name": "Smith Micro StuffIt Deluxe Mac 16",
+        "status": "discontinued"
+      },
+      {
+        "software": "corel-winzip-mac",
+        "display_name": "Corel WinZip Mac"
+      },
+      {
+        "software": "gimp",
+        "display_name": "GIMP"
+      },
+      {
+        "software": "apple-archive-utility",
+        "display_name": "Apple Archive Utility"
+      },
+      {
+        "software": "incredible-bee-archiver",
+        "display_name": "Incredible Bee Archiver"
+      }
+    ],
+    "linux": [
+      {
+        "software": "gimp",
+        "display_name": "GIMP"
+      },
+      {
+        "software": "gzip",
+        "display_name": "gzip"
+      },
+      {
+        "software": "xarchive",
+        "display_name": "Xarchive"
+      },
+      {
+        "software": "ark",
+        "display_name": "Ark"
+      },
+      {
+        "software": "peazip",
+        "display_name": "PeaZip"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "XCF.GZ file open in GIMP 3",
+      "alt": "XCF.GZ file open in GIMP 3",
+      "source_url": "https://fileinfo.com/img/ss/md/xcf_gz_13748.jpg"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2025-06-13",
+  "sources": [
+    {
+      "url": "xcf.gz.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

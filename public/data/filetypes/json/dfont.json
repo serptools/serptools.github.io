@@ -1,0 +1,35 @@
+{
+  "slug": "dfont",
+  "extension": "dfont",
+  "name": "Mac OS X Data Fork Font",
+  "category": "mac-os-x-data-fork-font",
+  "summary": "",
+  "developer_org": "apple",
+  "developer_name": "Apple",
+  "more_information": {
+    "screenshot": {
+      "url": "https://fileinfo.com/img/ss/sm/dfont_384.png",
+      "alt": "Screenshot of a .dfont file in Apple Font Book",
+      "caption": "DFONT file open in Apple Font Book"
+    },
+    "description": [
+      "Previous Macintosh operating systems allowed files to store data in two entities: the resource fork and the data fork. In Mac OS X, files can store data in only the data entity. To allow TrueType fonts that used the two-entity structure to continue working in OS X, Apple reformatted them to use the one-entity structure. These reformatted fonts are referred to as data fork TrueType fonts, or DFONT files.",
+      "In the past, OS X's Courier, Helvetica, Monaco, Symbol, Times, and ZapfDingbats fonts were all saved as DFONT files. These fonts have all since been deprecated, with some being replaced by typical TrueType font ( .TTF ) or OpenType font ( .OTF ) files.",
+      "NOTE: Because DFONT files are saved in a Mac-specific file format, you cannot install them in Windows or Linux."
+    ]
+  },
+  "images": [
+    {
+      "url": "https://fileinfo.com/img/ss/sm/dfont_384.png",
+      "alt": "Screenshot of a .dfont file in Apple Font Book",
+      "caption": "DFONT file open in Apple Font Book"
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "dfont.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

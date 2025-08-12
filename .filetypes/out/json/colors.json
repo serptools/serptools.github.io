@@ -1,0 +1,84 @@
+{
+  "slug": "colors",
+  "extension": "colors",
+  "name": "Painter Color Set",
+  "category": "1.-painter-color-set",
+  "developer_org": "corel",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "A COLORS file is a color set created and used by Corel Painter, a digital painting application. It contains a set of colors that a user manually grouped together or created from an image or layer. Saving a color set as a COLORS file allows artists to import and use that color set in other projects.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "corel-painter-2023",
+        "display_name": "Corel Painter 2023"
+      },
+      {
+        "software": "mit-scratch",
+        "display_name": "MIT Scratch"
+      }
+    ],
+    "macos": [
+      {
+        "software": "corel-painter-2023",
+        "display_name": "Corel Painter 2023"
+      },
+      {
+        "software": "mit-scratch",
+        "display_name": "MIT Scratch"
+      }
+    ],
+    "linux": [
+      {
+        "software": "mit-scratch",
+        "display_name": "MIT Scratch"
+      }
+    ],
+    "web": [
+      {
+        "software": "mit-scratch",
+        "display_name": "MIT Scratch"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "COLORS file icon",
+      "alt": "COLORS file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/colors-12452.png"
+    },
+    {
+      "caption": "COLORS file open in Apple TextEdit",
+      "alt": "COLORS file open in Apple TextEdit",
+      "source_url": "https://fileinfo.com/img/ss/md/colors_12452.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-12-10",
+  "sources": [
+    {
+      "url": "colors.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

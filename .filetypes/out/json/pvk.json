@@ -1,0 +1,63 @@
+{
+  "slug": "pvk",
+  "extension": "pvk",
+  "name": "Private Key File",
+  "category": "private-key-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Private key file used by software developers for digitally signing applications; stores the key as a segment of encrypted data in a small file; allows the application bundle to be authenticated by end users; often used in conjunction with .SPC and .PFX files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-file-signing-tool",
+        "display_name": "Microsoft File Signing Tool"
+      },
+      {
+        "software": "openssl",
+        "display_name": "OpenSSL"
+      }
+    ],
+    "macos": [
+      {
+        "software": "openssl",
+        "display_name": "OpenSSL"
+      }
+    ],
+    "linux": [
+      {
+        "software": "openssl",
+        "display_name": "OpenSSL"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-08-11",
+  "sources": [
+    {
+      "url": "pvk.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "ecw",
+  "extension": "ecw",
+  "name": "Enhanced Compression Wavelet Image",
+  "category": "enhanced-compression-wavelet-image",
+  "summary": "",
+  "developer_org": "green-eclipse",
+  "developer_name": "Green Eclipse",
+  "more_information": {
+    "screenshot": {
+      "url": "https://fileinfo.com/img/ss/sm/ecw_4858.png",
+      "alt": "Screenshot of a .ecw file in QGIS",
+      "caption": "ECW file open in QGIS"
+    },
+    "description": [
+      "Earth Resource Mapping, an Australian-based software company, developed the ECW format in 1998. The format has since become widely used in the geographical sciences community, because it efficiently compresses the large images created by aerial and satellite imaging. This allows geographers to more easily store geographical images and load them in GIS applications, which are used to analyze data about the Earth's surface.",
+      "In addition to image data, an ECW file can also contain map projection data, used to map the two-dimensional image the file contains to the Earth's curvature. Each ECW file can contain up to 65,535 bands, which are layers or colors that can be viewed separately in the image.",
+      "NOTE: Leica Geosystems now owns the rights to the ECW format."
+    ]
+  },
+  "images": [
+    {
+      "url": "https://fileinfo.com/img/ss/sm/ecw_4858.png",
+      "alt": "Screenshot of a .ecw file in QGIS",
+      "caption": "ECW file open in QGIS"
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "ecw.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

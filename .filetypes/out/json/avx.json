@@ -1,0 +1,67 @@
+{
+  "slug": "avx",
+  "extension": "avx",
+  "name": "Avid Plugin File",
+  "category": "1.-avid-plugin-file",
+  "developer_org": "avid-technology",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 12,
+    "source": "fileinfo"
+  },
+  "summary": "Software extension used by Avid products such as Media Composer and Xpress; adds functionality to the software such as custom video effects or new file format importing; enables third-party developers to extend the base application features.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "avid-media-composer",
+        "display_name": "Avid Media Composer"
+      },
+      {
+        "software": "avid-xpress",
+        "display_name": "Avid Xpress",
+        "status": "discontinued"
+      },
+      {
+        "software": "esri-arcgis-for-desktop",
+        "display_name": "ESRI ArcGIS for Desktop"
+      }
+    ],
+    "macos": [
+      {
+        "software": "avid-media-composer",
+        "display_name": "Avid Media Composer"
+      },
+      {
+        "software": "avid-xpress",
+        "display_name": "Avid Xpress",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-05-10",
+  "sources": [
+    {
+      "url": "avx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

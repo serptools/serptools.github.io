@@ -1,0 +1,47 @@
+{
+  "slug": "dlo",
+  "extension": "dlo",
+  "name": "3ds Max Object Plugin",
+  "category": "3ds-max-object-plugin",
+  "developer_org": "autodesk",
+  "popularity": {
+    "rating": 4.2,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "A DLO file is an object plugin used by Autodesk 3ds Max, a professional 3D modeling, animation, and rendering application. It contains information about an object the user can create and manipulate interactively in the 3ds Max viewport, including geometrical primitives (boxes, beach balls, etc.), shapes, cameras, lights, and helpers. 3ds Max users install DLO plugins to add additional functionality to the standard 3ds Max.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "autodesk-3ds-max-2023",
+        "display_name": "Autodesk 3ds Max 2023"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2024-10-09",
+  "sources": [
+    {
+      "url": "dlo.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

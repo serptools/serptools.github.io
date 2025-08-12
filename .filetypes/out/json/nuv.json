@@ -1,0 +1,111 @@
+{
+  "slug": "nuv",
+  "extension": "nuv",
+  "name": "NuppelVideo File",
+  "category": "nuppelvideo-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "Video file created in the NuppelVideo format, which is commonly used by the MythTV free home entertainment software; often contains a video recorded from a video stream.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "mplayer",
+        "display_name": "MPlayer"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "mythtv",
+        "display_name": "MythTV"
+      },
+      {
+        "software": "shedworx-smart-converter",
+        "display_name": "ShedWorx Smart Converter"
+      },
+      {
+        "software": "mythnuv2mkv",
+        "display_name": "mythnuv2mkv"
+      }
+    ],
+    "macos": [
+      {
+        "software": "mythtv",
+        "display_name": "MythTV"
+      },
+      {
+        "software": "mplayer",
+        "display_name": "MPlayer"
+      },
+      {
+        "software": "shedworx-smart-converter",
+        "display_name": "ShedWorx Smart Converter"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      }
+    ],
+    "linux": [
+      {
+        "software": "mythtv",
+        "display_name": "MythTV"
+      },
+      {
+        "software": "mplayer",
+        "display_name": "MPlayer"
+      },
+      {
+        "software": "mythnuv2mkv",
+        "display_name": "mythnuv2mkv"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "NUV file icon",
+      "alt": "NUV file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/nuv-5820.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-01-25",
+  "sources": [
+    {
+      "url": "nuv.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

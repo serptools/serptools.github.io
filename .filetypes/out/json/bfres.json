@@ -1,0 +1,51 @@
+{
+  "slug": "bfres",
+  "extension": "bfres",
+  "name": "Wii U Model File",
+  "category": "wii-u-model-file",
+  "developer_org": "nintendo",
+  "popularity": {
+    "rating": 4.3,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "A BFRES file is an archive that a Nintendo Wii U game uses to store game assets. It typically contains an in-game character or item model, as well as related textures and animations. Large BFRES files are often compressed using Yaz0 compression and saved as .SZS files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "switch-toolbox",
+        "display_name": "Switch-Toolbox"
+      },
+      {
+        "software": "bfres-tool",
+        "display_name": "BFRES-Tool"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-05-06",
+  "sources": [
+    {
+      "url": "bfres.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

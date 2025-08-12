@@ -1,0 +1,51 @@
+{
+  "slug": "woa",
+  "extension": "woa",
+  "name": "WebObjects Application",
+  "category": "webobjects-application",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 2.9,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "Web application created with WebObjects, an enterprise framework developed by Apple; uses Java code and object-oriented design principles; can be deployed on any platform that supports Java programs.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "web": [
+      {
+        "software": "run-from-a-web-server",
+        "display_name": "Run from a Web server"
+      },
+      {
+        "software": "web-browser",
+        "display_name": "Web browser"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2008-10-04",
+  "sources": [
+    {
+      "url": "woa.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

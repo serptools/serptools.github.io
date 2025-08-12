@@ -1,0 +1,55 @@
+{
+  "slug": "flexpack",
+  "extension": "flexpack",
+  "name": "FLEX Instrument Pack",
+  "category": "flex-instrument-pack",
+  "developer_org": "image-line",
+  "popularity": {
+    "rating": 2.9,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "A FLEXPACK file is a preset pack used by FLEX, a plug-in for Image-Line FL Studio . It contains a set of instruments and/or effects used to alter how music is played. Typically, FLEX installs FLEXPACK files automatically, so most users will never encounter FLEXPACK files.",
+  "standards": [],
+  "mime_types": [
+    "and/or"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "image-line-fl-studio",
+        "display_name": "Image-Line FL Studio"
+      }
+    ],
+    "macos": [
+      {
+        "software": "image-line-fl-studio",
+        "display_name": "Image-Line FL Studio"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-02-06",
+  "sources": [
+    {
+      "url": "flexpack.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

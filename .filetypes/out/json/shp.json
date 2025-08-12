@@ -1,0 +1,144 @@
+{
+  "slug": "shp",
+  "extension": "shp",
+  "name": "3D Studio Shape",
+  "category": "1.-3d-studio-shape",
+  "developer_org": "autodesk",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 52,
+    "source": "fileinfo"
+  },
+  "summary": "An SHP file is a shape file created by Autodesk 3D Studio, a 3D modeling tool for DOS. It contains one or more user-drawn polygons. 3D Studio for DOS is discontinued, but Autodesk 3ds Max users can import and use the shapes that SHP files contain.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "autodesk-3ds-max-2023",
+        "display_name": "Autodesk 3ds Max 2023"
+      },
+      {
+        "software": "esri-arcgis-for-desktop",
+        "display_name": "ESRI ArcGIS for Desktop"
+      },
+      {
+        "software": "canvas-gfx-canvas-x-pro",
+        "display_name": "Canvas GFX Canvas X Pro"
+      },
+      {
+        "software": "pitney-bowes-mapinfo",
+        "display_name": "Pitney Bowes MapInfo"
+      },
+      {
+        "software": "safe-software-fme-desktop",
+        "display_name": "Safe Software FME Desktop"
+      },
+      {
+        "software": "erdas-imagine",
+        "display_name": "ERDAS IMAGINE"
+      },
+      {
+        "software": "golden-software-voxler",
+        "display_name": "Golden Software Voxler",
+        "status": "discontinued"
+      },
+      {
+        "software": "tatukgis-viewer",
+        "display_name": "TatukGIS Viewer"
+      },
+      {
+        "software": "merkaartor",
+        "display_name": "Merkaartor"
+      },
+      {
+        "software": "quantum-gis",
+        "display_name": "Quantum GIS"
+      },
+      {
+        "software": "gvsig",
+        "display_name": "gvSIG"
+      },
+      {
+        "software": "udig",
+        "display_name": "uDig"
+      },
+      {
+        "software": "nevron-software-mydraw",
+        "display_name": "Nevron Software MyDraw"
+      }
+    ],
+    "macos": [
+      {
+        "software": "merkaartor",
+        "display_name": "Merkaartor"
+      },
+      {
+        "software": "quantum-gis",
+        "display_name": "Quantum GIS"
+      },
+      {
+        "software": "udig",
+        "display_name": "uDig"
+      },
+      {
+        "software": "nevron-software-mydraw",
+        "display_name": "Nevron Software MyDraw"
+      }
+    ],
+    "linux": [
+      {
+        "software": "merkaartor",
+        "display_name": "Merkaartor"
+      },
+      {
+        "software": "quantum-gis",
+        "display_name": "Quantum GIS"
+      },
+      {
+        "software": "gvsig",
+        "display_name": "gvSIG"
+      },
+      {
+        "software": "udig",
+        "display_name": "uDig"
+      }
+    ],
+    "android": [
+      {
+        "software": "quantum-gis",
+        "display_name": "Quantum GIS"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "SHP file icon",
+      "alt": "SHP file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/shp-313.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-10-25",
+  "sources": [
+    {
+      "url": "shp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

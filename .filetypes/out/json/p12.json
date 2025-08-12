@@ -1,0 +1,83 @@
+{
+  "slug": "p12",
+  "extension": "p12",
+  "name": "Personal Information Exchange File",
+  "category": "personal-information-exchange-file",
+  "developer_org": "rsa-laboratories",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 59,
+    "source": "fileinfo"
+  },
+  "summary": "A P12 file contains a digital certificate that uses PKCS#12 (Public Key Cryptography Standard #12) encryption. It is used as a portable format for transferring personal private keys and other sensitive information. P12 files are used by various security and encryption programs.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-certificate-manager",
+        "display_name": "Microsoft Certificate Manager"
+      },
+      {
+        "software": "microsoft-iis",
+        "display_name": "Microsoft IIS"
+      },
+      {
+        "software": "adobe-acrobat-reader-dc",
+        "display_name": "Adobe Acrobat Reader DC"
+      },
+      {
+        "software": "adobe-acrobat-dc",
+        "display_name": "Adobe Acrobat DC"
+      },
+      {
+        "software": "apple-keychain-access",
+        "display_name": "Apple Keychain Access"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-keychain-access",
+        "display_name": "Apple Keychain Access"
+      },
+      {
+        "software": "adobe-acrobat-reader-dc",
+        "display_name": "Adobe Acrobat Reader DC"
+      },
+      {
+        "software": "adobe-acrobat-dc",
+        "display_name": "Adobe Acrobat DC"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "P12 file icon",
+      "alt": "P12 file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/p12-1161.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-06-30",
+  "sources": [
+    {
+      "url": "p12.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "slug": "lqt",
+  "extension": "lqt",
+  "name": "Liquid Audio File",
+  "category": "liquid-audio-file",
+  "developer_org": "liquid-digital-media",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "Music file saved in the proprietary copy-protected Liquid Audio format; can only be opened and played with Liquid Audio Player and RealPlayer on authorized computers.",
+  "standards": [],
+  "mime_types": [
+    "20/20"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "liquid-player",
+        "display_name": "Liquid Player"
+      },
+      {
+        "software": "realnetworks-realplayer-20-20",
+        "display_name": "RealNetworks RealPlayer 20/20"
+      },
+      {
+        "software": "realnetworks-realplayer-cloud-with-liquid-audio-plugin",
+        "display_name": "RealNetworks RealPlayer Cloud with Liquid Audio plugin"
+      }
+    ],
+    "macos": [
+      {
+        "software": "realnetworks-realplayer-cloud-with-liquid-audio-plugin",
+        "display_name": "RealNetworks RealPlayer Cloud with Liquid Audio plugin"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2006",
+  "sources": [
+    {
+      "url": "lqt.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

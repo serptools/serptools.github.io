@@ -1,0 +1,67 @@
+{
+  "slug": "8be",
+  "extension": "8be",
+  "name": "Photoshop Export Plugin",
+  "category": "photoshop-export-plugin",
+  "developer_org": "adobe-systems",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "An 8BE file is an export plugin that extends the capabilities of the Windows version of Adobe Photoshop, a popular image-editing application. It contains information that adds export capabilities to the software, including settings for exporting .PSD images to web-optimized .JPG and .PNG images ( Save for Web.8be ). Users can add plugins to the app by placing the 8BE files in the designated Plug-ins folder within the main Photoshop application folder.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      },
+      {
+        "software": "adobe-photoshop-2025",
+        "display_name": "Adobe Photoshop 2025"
+      },
+      {
+        "software": "old-versions-of-adobe-photoshop",
+        "display_name": "Old versions of Adobe Photoshop"
+      }
+    ],
+    "macos": [
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      },
+      {
+        "software": "old-versions-of-adobe-photoshop",
+        "display_name": "Old versions of Adobe Photoshop"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2024-10-08",
+  "sources": [
+    {
+      "url": "8be.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

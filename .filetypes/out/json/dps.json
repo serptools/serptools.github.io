@@ -1,0 +1,87 @@
+{
+  "slug": "dps",
+  "extension": "dps",
+  "name": "DivX Player 2 Skin File",
+  "category": "1.-divx-player-2-skin-file",
+  "developer_org": "divx",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 22,
+    "source": "fileinfo"
+  },
+  "summary": "File used by DivX Player version 2, a video player program; contains skin image files in a compressed .ZIP file format; includes an .XML file named skin.divl that describes the skin images for buttons, logo, main view, compact view, font, resize policy, playback area; used to customize the look and feel of the DivX Player.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "divx-player",
+        "display_name": "DivX Player"
+      },
+      {
+        "software": "microsoft-word",
+        "display_name": "Microsoft Word"
+      },
+      {
+        "software": "microsoft-excel",
+        "display_name": "Microsoft Excel"
+      },
+      {
+        "software": "microsoft-powerpoint",
+        "display_name": "Microsoft PowerPoint"
+      },
+      {
+        "software": "kingsoft-wps-office",
+        "display_name": "Kingsoft WPS Office"
+      }
+    ],
+    "ios": [
+      {
+        "software": "kingsoft-wps-office-for-ios",
+        "display_name": "Kingsoft WPS Office for iOS"
+      }
+    ],
+    "android": [
+      {
+        "software": "kingsoft-wps-office-for-android",
+        "display_name": "Kingsoft WPS Office for Android"
+      }
+    ],
+    "macos": [
+      {
+        "software": "kingsoft-wps-office",
+        "display_name": "Kingsoft WPS Office"
+      }
+    ],
+    "linux": [
+      {
+        "software": "kingsoft-wps-office",
+        "display_name": "Kingsoft WPS Office"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-12-31",
+  "sources": [
+    {
+      "url": "dps.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

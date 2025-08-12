@@ -1,0 +1,55 @@
+{
+  "slug": "pbg",
+  "extension": "pbg",
+  "name": "Pixel Bender Graph File",
+  "category": "pixel-bender-graph-file",
+  "developer_org": "adobe-systems",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 20,
+    "source": "fileinfo"
+  },
+  "summary": "File created by Pixel Bender Toolkit, a program used for creating image manipulation filters for programs such as Photoshop, Flash Player, and After Effects; contains a processing graph that includes multiple Pixel Bender kernels (image filters); allows developers to connect multiple kernels into a single processing unit.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      }
+    ],
+    "macos": [
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-08-02",
+  "sources": [
+    {
+      "url": "pbg.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

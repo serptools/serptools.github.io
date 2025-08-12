@@ -1,0 +1,40 @@
+{
+  "slug": "nx",
+  "extension": "nx",
+  "name": "LowRes NX Application",
+  "category": "lowres-nx-application",
+  "summary": "",
+  "developer_org": "timo-kloss",
+  "developer_name": "Timo Kloss",
+  "more_information": {
+    "screenshot": {
+      "url": "https://fileinfo.com/img/ss/sm/nx_13145.png",
+      "alt": "Screenshot of a .nx file in LowRes NX",
+      "caption": "NX file open in LowRes NX"
+    },
+    "description": [
+      "LowRes NX is a retro video game console emulator that runs games programmed in BASIC. These games are saved as NX files.",
+      "Each NX file contains all of a game's source code and its cartridge ROM entries. The ROM entries consist of up to 16 numbered data blocks that can contain graphics, level maps, music, and other non-source code data used in the game. (To add or edit a program's ROM entries, developers typically use NX editing programs included with LowRes NX. These programs are themselves saved as NX files.)",
+      "On PCs, developers must create NX files using a text or source code editor, such as Microsoft Visual Studio Code. In the iOS version of LowRes NX, developers can create NX files from within the app, using the Plus button found on the My Programs screen."
+    ]
+  },
+  "images": [
+    {
+      "url": "https://fileinfo.com/img/ss/sm/nx_13145.png",
+      "alt": "Screenshot of a .nx file in LowRes NX",
+      "caption": "NX file open in LowRes NX"
+    },
+    {
+      "url": "https://fileinfo.com/img/ss/sm/nx_13145-2.png",
+      "alt": "NX file open in Microsoft Visual Studio Code",
+      "caption": "NX file open in Microsoft Visual Studio Code"
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "nx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

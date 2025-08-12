@@ -1,0 +1,55 @@
+{
+  "slug": "pfi",
+  "extension": "pfi",
+  "name": "PhotoFiltre Studio Image",
+  "category": "1.-photofiltre-studio-image",
+  "developer_org": "photofiltre-studio",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 13,
+    "source": "fileinfo"
+  },
+  "summary": "Raster image file created by PhotoFiltre Studio, an image editing program for Windows; contains graphics drawn by the user and supports multiple editing layers within the same image; used as the native save format for the software.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "photofiltre-studio",
+        "display_name": "PhotoFiltre Studio"
+      },
+      {
+        "software": "paragon-backup-recovery-suite",
+        "display_name": "Paragon Backup & Recovery Suite"
+      },
+      {
+        "software": "paragon-system-backup",
+        "display_name": "Paragon System Backup"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-03-08",
+  "sources": [
+    {
+      "url": "pfi.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

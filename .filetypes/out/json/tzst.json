@@ -1,0 +1,61 @@
+{
+  "slug": "tzst",
+  "extension": "tzst",
+  "name": "Zstandard Compressed Tar File",
+  "category": "zstandard-compressed-tar-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "A TZST file contains multiple files in a Unix .TAR archive that is compressed with the Zstandard (zstd) compression algorithm to reduce the file size. It is the shorthand version of the compound extension tar.zst similar to the .TGZ , .TBZ2 , and .TXZ files. TZST files are commonly used on Unix and Linux systems.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "zstandard",
+        "display_name": "Zstandard"
+      }
+    ],
+    "macos": [
+      {
+        "software": "zstandard",
+        "display_name": "Zstandard"
+      }
+    ],
+    "linux": [
+      {
+        "software": "zstandard",
+        "display_name": "Zstandard"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-12-27",
+  "sources": [
+    {
+      "url": "tzst.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

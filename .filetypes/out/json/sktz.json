@@ -1,0 +1,65 @@
+{
+  "slug": "sktz",
+  "extension": "sktz",
+  "name": "Sony Sketch Drawing",
+  "category": "sony-sketch-drawing",
+  "developer_org": "sony",
+  "popularity": {
+    "rating": 4.3,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "An SKTZ file is a layered drawing created by Sony Sketch, a discontinued drawing app that was available on Android and iOS. It stores artwork comprised of multiple layers and Sketch elements, such as hand-drawn lines, stickers, and text. SKTZ files are the default file format for saving drawings with Sketch.",
+  "standards": [],
+  "mime_types": [
+    "layers/1.png",
+    "layers/2.png"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "android": [
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      }
+    ],
+    "ios": [
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      }
+    ],
+    "windows": [
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2025-07-31",
+  "sources": [
+    {
+      "url": "sktz.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

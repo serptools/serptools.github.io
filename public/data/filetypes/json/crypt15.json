@@ -1,0 +1,28 @@
+{
+  "slug": "crypt15",
+  "extension": "crypt15",
+  "name": "WhatsApp Encrypted Database File",
+  "category": "whatsapp-encrypted-database-file",
+  "summary": "",
+  "developer_org": "whatsapp",
+  "developer_name": "WhatsApp",
+  "more_information": {
+    "description": [
+      "WhatsApp is a multiplatform messaging app used by people in many countries to communicate with each other. The app provides encryption options to secure users' messages, including encrypting backups of messages it periodically generates.",
+      "Throughout the years, WhatsApp has utilized various algorithms to encrypt backup databases, with each one signified by the file extension appended onto the database ( .DB file). For example, WhatsApp utilizing CRYPT15 encryption creates a .db.crypt15 file.",
+      "Examples of other file extensions include .CRYPT14 , .CRYPT12 , and .CRYPT10 . WhatsApp began saving message history backups as CRYPT15 files in late 2021.",
+      "WhatsApp stores CRYPT15 files in the following directory:",
+      "/​sdcard/​WhatsApp/​Databases",
+      "If your data is not stored on an SD card, you may see \"internal storage\" or \"main storage\" instead of \"sdcard.\"",
+      "Also, you may find multiple CRYPT15 database files in your Databases folder, with YYYY-MM-DD dates included in their filenames. WhatsApp employs this naming convention because it creates new backup files periodically (the dates in these files' filenames represent when the app created them).",
+      "If you need to reclaim storage space on your SD card, you can delete dated CRYPT15 files without affecting WhatsApp or your message history. However, you should always keep the most recent one or two CRYPT15 files in the event you need to restore your message history."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "crypt15.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

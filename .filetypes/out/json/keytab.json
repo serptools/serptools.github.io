@@ -1,0 +1,61 @@
+{
+  "slug": "keytab",
+  "extension": "keytab",
+  "name": "Kerberos Keytab File",
+  "category": "kerberos-keytab-file",
+  "developer_org": "mit",
+  "popularity": {
+    "rating": 2.7,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "Keytab file created and used by Kerberos, a network authentication protocol; contains pairs of Kerberos principals along with an encrypted copy of that principal's key.",
+  "standards": [],
+  "mime_types": [
+    "client/server"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "kerberos",
+        "display_name": "Kerberos"
+      }
+    ],
+    "macos": [
+      {
+        "software": "kerberos",
+        "display_name": "Kerberos"
+      }
+    ],
+    "linux": [
+      {
+        "software": "kerberos",
+        "display_name": "Kerberos"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-05-04",
+  "sources": [
+    {
+      "url": "keytab.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "nup",
+  "extension": "nup",
+  "name": "Smart Security Update File",
+  "category": "smart-security-update-file",
+  "developer_org": "eset",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 48,
+    "source": "fileinfo"
+  },
+  "summary": "A NUP file is an update file used for updating ESET Smart Security, a personal firewall, antispam, antivirus, and antispyware program. It contains the update name, software version and build, category, date, file size, and the update module data. NUP files are also used by other ESET products, including Cybersecurity for Mac.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "eset-internet-security",
+        "display_name": "ESET Internet Security"
+      }
+    ],
+    "macos": [
+      {
+        "software": "eset-cybersecurity-for-mac",
+        "display_name": "ESET Cybersecurity for Mac"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-02-16",
+  "sources": [
+    {
+      "url": "nup.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

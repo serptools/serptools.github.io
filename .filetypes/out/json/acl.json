@@ -1,0 +1,53 @@
+{
+  "slug": "acl",
+  "extension": "acl",
+  "name": "AutoCorrect List File",
+  "category": "autocorrect-list-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 33,
+    "source": "fileinfo"
+  },
+  "summary": "Stores a list of corrections used by the AutoCorrect feature in Microsoft Office programs; used for automatically correcting grammar and spelling mistakes; AutoCorrect lists can be customized within Microsoft Office programs and are not meant to be edited manually.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "referenced-by-microsoft-office-applications",
+        "display_name": "Referenced by Microsoft Office applications"
+      }
+    ],
+    "macos": [
+      {
+        "software": "referenced-by-microsoft-office-applications",
+        "display_name": "Referenced by Microsoft Office applications"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2006",
+  "sources": [
+    {
+      "url": "acl.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

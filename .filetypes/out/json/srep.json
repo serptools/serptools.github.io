@@ -1,0 +1,52 @@
+{
+  "slug": "srep",
+  "extension": "srep",
+  "name": "SuperREP Compressed File",
+  "category": "superrep-compressed-file",
+  "developer_org": "freearc",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 10,
+    "source": "fileinfo"
+  },
+  "summary": "Compressed archive created by SuperREP, an LZ77 (lossless data compressing technique) compression program; used for improving compression ratios over the the REP algorithm, which is included with FreeArc; can be used for data backups and shrinking the size of file transfers.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "superrep",
+        "display_name": "SuperREP"
+      },
+      {
+        "software": "freearc",
+        "display_name": "FreeArc",
+        "pricing": "free"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-08-10",
+  "sources": [
+    {
+      "url": "srep.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

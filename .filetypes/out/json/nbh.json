@@ -1,0 +1,59 @@
+{
+  "slug": "nbh",
+  "extension": "nbh",
+  "name": "ROM Update Utility Image File",
+  "category": "rom-update-utility-image-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "ROM image used by ROM Update Utility (RUU), a program used for updating the ROM image on some HTC mobile phones; stores low-level system information used to run the phone; can also be updated with htc-flasher, an open source version of the ROM Update Utility.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "rom-update-utility",
+        "display_name": "ROM Update Utility"
+      },
+      {
+        "software": "htc-flasher",
+        "display_name": "htc-flasher"
+      }
+    ],
+    "linux": [
+      {
+        "software": "htc-flasher",
+        "display_name": "htc-flasher"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-11-12",
+  "sources": [
+    {
+      "url": "nbh.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

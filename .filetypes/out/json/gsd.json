@@ -1,0 +1,87 @@
+{
+  "slug": "gsd",
+  "extension": "gsd",
+  "name": "General Station Description File",
+  "category": "1.-general-station-description-file",
+  "developer_org": "profibus-profinet-international",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "ASCII text configuration file used for PROFIBUS DP (Decentralized Peripherals) or PA (Process Automation) devices; contains keywords and configuration information separated by line breaks; can be created with a text editor, the PROFIBUS GSD Editor, or another tool that supports PROFIBUS.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "profibus-gsd-editor",
+        "display_name": "PROFIBUS GSD Editor"
+      },
+      {
+        "software": "procentric-profitrace",
+        "display_name": "PROCENTRIC ProfiTrace"
+      },
+      {
+        "software": "omron-cx-profibus",
+        "display_name": "OMRON CX-Profibus"
+      },
+      {
+        "software": "siemens-simatic-manager",
+        "display_name": "Siemens SIMATIC Manager"
+      },
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "notepad++",
+        "display_name": "Notepad++"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "xyron-wishblade-software",
+        "display_name": "Xyron Wishblade Software"
+      },
+      {
+        "software": "graphtec-robo-master",
+        "display_name": "Graphtec ROBO Master"
+      },
+      {
+        "software": "accugraphic-klic-n-kut-studio",
+        "display_name": "Accugraphic Klic-N-Kut Studio"
+      },
+      {
+        "software": "g.d.g-software-gsplit",
+        "display_name": "G.D.G Software GSplit"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-03-08",
+  "sources": [
+    {
+      "url": "gsd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

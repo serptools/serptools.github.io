@@ -1,0 +1,54 @@
+{
+  "slug": "rti",
+  "extension": "rti",
+  "name": "Real Tracker Instrument",
+  "category": "1.-real-tracker-instrument",
+  "developer_org": "rene-g",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "A RTI file is an instrument used by Real Tracker, a sound-tracking program. It contains sound information such as pitch, waveform, and effects for an instrument, allowing Real Tracker users to compose music with different instrument sounds.",
+  "standards": [],
+  "mime_types": [
+    "xe/xl"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      },
+      {
+        "software": "raster-music-tracker",
+        "display_name": "Raster Music Tracker"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2025-01-16",
+  "sources": [
+    {
+      "url": "rti.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

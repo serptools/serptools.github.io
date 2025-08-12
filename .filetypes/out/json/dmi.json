@@ -1,0 +1,75 @@
+{
+  "slug": "dmi",
+  "extension": "dmi",
+  "name": "BYOND Dream Maker Icon File",
+  "category": "1.-byond-dream-maker-icon-file",
+  "developer_org": "byond",
+  "popularity": {
+    "rating": 3.1,
+    "votes": 16,
+    "source": "fileinfo"
+  },
+  "summary": "Bitmap image used by BYOND, a game engine used for creating and playing 2D online multiplayer games; saves one or more icon graphic states as well as animation information; used for game graphics such as characters or objects that are visible on a map; similar to a sprite sheet.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "byond",
+        "display_name": "BYOND"
+      },
+      {
+        "software": "tibco-statistica",
+        "display_name": "TIBCO Statistica"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "byond",
+        "display_name": "BYOND"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "byond",
+        "display_name": "BYOND"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-12-13",
+  "sources": [
+    {
+      "url": "dmi.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

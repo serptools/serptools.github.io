@@ -1,0 +1,71 @@
+{
+  "slug": "cast",
+  "extension": "cast",
+  "name": "Asciicast Terminal Recording",
+  "category": "asciicast-terminal-recording",
+  "developer_org": "asciinema",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "A CAST file is a record of a terminal session recorded using asciinema, an open source terminal recording program. It contains a JSON-formatted header and a timestamped record of the text typed and printed during a terminal session. CAST files can be played using asciinema or uploaded and shared via asciinema.org.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "asciinema",
+        "display_name": "Asciinema"
+      }
+    ],
+    "macos": [
+      {
+        "software": "asciinema",
+        "display_name": "Asciinema"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "asciinema",
+        "display_name": "Asciinema"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-01-25",
+  "sources": [
+    {
+      "url": "cast.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

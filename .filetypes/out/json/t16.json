@@ -1,0 +1,59 @@
+{
+  "slug": "t16",
+  "extension": "t16",
+  "name": "H&R Block 2016 Tax Return",
+  "category": "h-r-block-2016-tax-return",
+  "developer_org": "h-r-block",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "A T16 file is a tax return created by the 2016 version of H&R Block Tax Software. It contains U.S. federal tax forms, any necessary state tax forms for 2016, and personal tax information entered by the user.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "h-r-block-tax-software",
+        "display_name": "H&R Block Tax Software"
+      }
+    ],
+    "macos": [
+      {
+        "software": "h-r-block-tax-software",
+        "display_name": "H&R Block Tax Software"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "T16 file open in H&amp;R Block Tax Software 2016",
+      "alt": "T16 file open in H&amp;R Block Tax Software 2016",
+      "source_url": "https://fileinfo.com/img/ss/md/t16_10419.jpg"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-02-01",
+  "sources": [
+    {
+      "url": "t16.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

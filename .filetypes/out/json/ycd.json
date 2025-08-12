@@ -1,0 +1,73 @@
+{
+  "slug": "ycd",
+  "extension": "ycd",
+  "name": "Y-Cruncher Data",
+  "category": "1.-y-cruncher-data",
+  "developer_org": "alexander-j.-yee",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "A YCD file is a data file created by Y-Cruncher, a program that computes digits of Pi. It contains a subset of the digits of Pi, stored in a decimal or hexadecimal format. YCD files are typically quite large in size and stored together in large sets, because they are created by users seeking to break the world record for the most digits of Pi ever computed.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "y-cruncher",
+        "display_name": "Y-Cruncher"
+      },
+      {
+        "software": "y-cruncher-digit-viewer",
+        "display_name": "Y-Cruncher Digit Viewer"
+      },
+      {
+        "software": "rockstar-games-grand-theft-auto-v",
+        "display_name": "Rockstar Games Grand Theft Auto V"
+      },
+      {
+        "software": "rockstar-games-red-dead-redemption-2",
+        "display_name": "Rockstar Games Red Dead Redemption 2"
+      },
+      {
+        "software": "dexyfex-codewalker",
+        "display_name": "dexyfex CodeWalker"
+      }
+    ],
+    "linux": [
+      {
+        "software": "y-cruncher",
+        "display_name": "Y-Cruncher"
+      },
+      {
+        "software": "y-cruncher-digit-viewer",
+        "display_name": "Y-Cruncher Digit Viewer"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-05-11",
+  "sources": [
+    {
+      "url": "ycd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

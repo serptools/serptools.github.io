@@ -1,0 +1,142 @@
+{
+  "slug": "dpx",
+  "extension": "dpx",
+  "name": "Digital Picture Exchange File",
+  "category": "1.-digital-picture-exchange-file",
+  "developer_org": "smpte",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 24,
+    "source": "fileinfo"
+  },
+  "summary": "A DPX file is a raster image saved in the Digital Picture Exchange (DPX) format, which is primarily used for transferring film images to a digital medium without losing quality. It may contain a single frame but is typically exported as a frame sequence with a series of still images.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "imagemagick",
+        "display_name": "ImageMagick"
+      },
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      },
+      {
+        "software": "adobe-speedgrade",
+        "display_name": "Adobe SpeedGrade",
+        "status": "discontinued"
+      },
+      {
+        "software": "apple-final-cut-pro",
+        "display_name": "Apple Final Cut Pro"
+      },
+      {
+        "software": "lemkesoft-graphicconverter",
+        "display_name": "Lemkesoft GraphicConverter"
+      },
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      },
+      {
+        "software": "serif-drawplus",
+        "display_name": "Serif DrawPlus"
+      },
+      {
+        "software": "vasco-digipass",
+        "display_name": "VASCO DIGIPASS"
+      },
+      {
+        "software": "vasco-vacman",
+        "display_name": "VASCO VACMAN"
+      },
+      {
+        "software": "vasco-axsguard",
+        "display_name": "VASCO aXsGUARD"
+      },
+      {
+        "software": "vasco-identikey",
+        "display_name": "VASCO IDENTIKEY"
+      },
+      {
+        "software": "vasco-digipass-pack",
+        "display_name": "VASCO DIGIPASS Pack"
+      }
+    ],
+    "macos": [
+      {
+        "software": "imagemagick",
+        "display_name": "ImageMagick"
+      },
+      {
+        "software": "apple-final-cut-pro",
+        "display_name": "Apple Final Cut Pro"
+      },
+      {
+        "software": "lemkesoft-graphicconverter",
+        "display_name": "Lemkesoft GraphicConverter"
+      },
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      },
+      {
+        "software": "adobe-speedgrade",
+        "display_name": "Adobe SpeedGrade",
+        "status": "discontinued"
+      }
+    ],
+    "linux": [
+      {
+        "software": "imagemagick",
+        "display_name": "ImageMagick"
+      }
+    ],
+    "web": [
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "DPX file icon",
+      "alt": "DPX file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/dpx-389.png"
+    },
+    {
+      "caption": "DPX file open in XnViewMP 0.98",
+      "alt": "DPX file open in XnViewMP 0.98",
+      "source_url": "https://fileinfo.com/img/ss/md/dpx_389.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-06-17",
+  "sources": [
+    {
+      "url": "dpx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

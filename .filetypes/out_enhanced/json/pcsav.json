@@ -1,0 +1,24 @@
+{
+  "slug": "pcsav",
+  "extension": "pcsav",
+  "name": "Mass Effect 2 Saved Game",
+  "category": "mass-effect-2-saved-game",
+  "summary": "",
+  "developer_org": "electronic-arts",
+  "developer_name": "Electronic Arts",
+  "more_information": {
+    "description": [
+      "PCSAV files created by Mass Effect 2 can be imported into Mass Effect 3. However, you must make sure that the ME2 PCSAV files are stored in a save directory with the following location and name format:",
+      "C:\\​Users\\​[user]\\​Documents\\​BioWare\\​Mass Effect 2\\​Save\\​[player_profile]\\​",
+      "The [player_profile] should be in the format Name_##_Class_200212 , where Name is the name of your character (e.g., John), ## is the character level (e.g., 30), and Class is the character class (e.g., Vanguard, Infiltrator, etc.). The 200212 code represents the date and must be a valid date string. Now, when you open ME3, choose the Import ME2 Character option and import your player profile.",
+      "NOTE: Mass Effect 3 uses .SAV files for saved games."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "pcsav.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

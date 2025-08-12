@@ -1,0 +1,105 @@
+{
+  "slug": "mcfunction",
+  "extension": "mcfunction",
+  "name": "Minecraft Function",
+  "category": "minecraft-function",
+  "developer_org": "mojang",
+  "popularity": {
+    "rating": 4.3,
+    "votes": 95,
+    "source": "fileinfo"
+  },
+  "summary": "An MCFUNCTION file is a Minecraft function, which contains a list of Minecraft commands. After adding an MCFUNCTION file to the game, players can quickly execute the commands the file contains. For example, executing an MCFUNCTION file may allow a player to say a pre-written statement in chat, teleport, or automatically move blocks.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "mojang-minecraft",
+        "display_name": "Mojang Minecraft"
+      },
+      {
+        "software": "mojang-minecraft-for-windows",
+        "display_name": "Mojang Minecraft for Windows"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "mojang-minecraft",
+        "display_name": "Mojang Minecraft"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "mojang-minecraft",
+        "display_name": "Mojang Minecraft"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "ios": [
+      {
+        "software": "mojang-minecraft",
+        "display_name": "Mojang Minecraft"
+      }
+    ],
+    "android": [
+      {
+        "software": "mojang-minecraft",
+        "display_name": "Mojang Minecraft"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "MCFUNCTION file open in Microsoft Visual Studio Code",
+      "alt": "MCFUNCTION file open in Microsoft Visual Studio Code",
+      "source_url": "https://fileinfo.com/img/ss/md/mcfunction_10652.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-04-13",
+  "sources": [
+    {
+      "url": "mcfunction.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

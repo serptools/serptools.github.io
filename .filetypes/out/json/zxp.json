@@ -1,0 +1,61 @@
+{
+  "slug": "zxp",
+  "extension": "zxp",
+  "name": "Extension Manager Package",
+  "category": "extension-manager-package",
+  "developer_org": "adobe-systems",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 56,
+    "source": "fileinfo"
+  },
+  "summary": "A ZXP file is an extension that adds additional capabilities to an Adobe software program, such as Adobe Photoshop or Adobe After Effects. Previously, ZXP files could be installed using Adobe Extension Manager. However, you must now install ZXP files using the Unified Plugin Installer Agent (UPIA) command-line tool included with the Adobe Creative Cloud desktop application.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "adobe-unified-plugin-installer-agent",
+        "display_name": "Adobe Unified Plugin Installer Agent"
+      },
+      {
+        "software": "adobe-extension-manager-cc",
+        "display_name": "Adobe Extension Manager CC"
+      }
+    ],
+    "macos": [
+      {
+        "software": "adobe-unified-plugin-installer-agent",
+        "display_name": "Adobe Unified Plugin Installer Agent"
+      },
+      {
+        "software": "adobe-extension-manager-cc",
+        "display_name": "Adobe Extension Manager CC"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-10-06",
+  "sources": [
+    {
+      "url": "zxp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

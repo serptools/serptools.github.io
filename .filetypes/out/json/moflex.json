@@ -1,0 +1,63 @@
+{
+  "slug": "moflex",
+  "extension": "moflex",
+  "name": "3DS Mobiclip Video",
+  "category": "3ds-mobiclip-video",
+  "developer_org": "mobiclip",
+  "popularity": {
+    "rating": 3.1,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "A MOFLEX file is a video included in a video game for the Nintendo 3DS. It contains a cutscene played in a game. MOFLEX files are compressed using Mobiclip compression .",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "mobiclip-decoder",
+        "display_name": "Mobiclip Decoder"
+      },
+      {
+        "software": "mobius",
+        "display_name": "Mobius"
+      }
+    ],
+    "macos": [
+      {
+        "software": "mobiclip-decoder",
+        "display_name": "Mobiclip Decoder"
+      }
+    ],
+    "linux": [
+      {
+        "software": "mobiclip-decoder",
+        "display_name": "Mobiclip Decoder"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-11-09",
+  "sources": [
+    {
+      "url": "moflex.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

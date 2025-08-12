@@ -1,0 +1,22 @@
+{
+  "slug": "ndpi",
+  "extension": "ndpi",
+  "name": "Hamamatsu TIFF-like Slide Image",
+  "category": "hamamatsu-tiff-like-slide-image",
+  "summary": "",
+  "developer_org": "hamamatsu",
+  "developer_name": "Hamamatsu",
+  "more_information": {
+    "description": [
+      "Pathologists use virtual microscopes and digital slide scanners to save and examine digital images of pathology slide specimens. Some Hamamatsu slide scanners save slide images as NDPI files. These files are TIFF-like files that contain .JPEG images and metadata that specifies the images' size, intended resolution, and other data.",
+      "However, because of the way NDPI files are structured, they cannot be read as normal TIFF files. For example, NDPI files' headers are not structured the same way as standard TIFF headers, which can cause applications that can open TIFF files to fail to open NDPI files. Only certain slide-viewing applications allow users to view NDPI files."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "ndpi.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

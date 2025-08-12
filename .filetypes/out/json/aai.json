@@ -1,0 +1,61 @@
+{
+  "slug": "aai",
+  "extension": "aai",
+  "name": "Dune HD AAI Image",
+  "category": "dune-hd-aai-image",
+  "developer_org": "dune-hd",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "An AAI file is a raster image used by Dune HD media players to display images with transparency, such as icons for Internet radio stations or channels. It stores 32-bit RGBA image data, which is based on the RGB model and includes an alpha channel for transparency. Users will likely only encounter AAI files if they are attempting to modify graphics in a Dune HD media player.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "aaimageviewer",
+        "display_name": "AAImageViewer"
+      },
+      {
+        "software": "aaimagegen",
+        "display_name": "AAImageGen"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "AAI file open in AAImageViewer 1",
+      "alt": "AAI file open in AAImageViewer 1",
+      "source_url": "https://fileinfo.com/img/ss/md/aai_13696.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2024-04-30",
+  "sources": [
+    {
+      "url": "aai.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

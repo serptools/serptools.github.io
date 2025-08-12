@@ -1,0 +1,59 @@
+{
+  "slug": "mclevel",
+  "extension": "mclevel",
+  "name": "Minecraft Map File",
+  "category": "minecraft-map-file",
+  "developer_org": "mojang-specifications",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 21,
+    "source": "fileinfo"
+  },
+  "summary": "Game level created by Minecraft, a single player or multiplayer first-person perspective game; contains information for a game map, including the location of 3D building blocks, spawn points, sky colors, and map size; stored in a proprietary tagged binary format called the Named Binary Tag format, or NBT for short.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "mojang-minecraft",
+        "display_name": "Mojang Minecraft"
+      }
+    ],
+    "macos": [
+      {
+        "software": "mojang-minecraft",
+        "display_name": "Mojang Minecraft"
+      }
+    ],
+    "linux": [
+      {
+        "software": "mojang-minecraft",
+        "display_name": "Mojang Minecraft"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-08-12",
+  "sources": [
+    {
+      "url": "mclevel.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "slug": "mfa",
+  "extension": "mfa",
+  "name": "Clickteam Fusion Application",
+  "category": "1.-clickteam-fusion-application",
+  "developer_org": "clickteam",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 31,
+    "source": "fileinfo"
+  },
+  "summary": "An MFA file is an application created by Clickteam Fusion, an app-creation platform. It contains source code for a video game or other application created using Fusion. MFA files may be referenced within .MFW files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "clickteam-fusion",
+        "display_name": "Clickteam Fusion"
+      },
+      {
+        "software": "mobileframe-desktop",
+        "display_name": "MobileFrame Desktop"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "MFA file icon",
+      "alt": "MFA file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/mfa-3413.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-02-24",
+  "sources": [
+    {
+      "url": "mfa.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

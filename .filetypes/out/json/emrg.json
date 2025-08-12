@@ -1,0 +1,47 @@
+{
+  "slug": "emrg",
+  "extension": "emrg",
+  "name": "E-Merge 1.x Data File",
+  "category": "e-merge-1.x-data-file",
+  "developer_org": "psychology-software-tools",
+  "popularity": {
+    "rating": 4.3,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "File created by E-Merge, a tool included with E-Prime psychological study software; saves data merged from mulitple .EDAT data files; enables study participant data sets to be combined into a single file.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "psychology-software-tools-e-prime",
+        "display_name": "Psychology Software Tools E-Prime"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-06-29",
+  "sources": [
+    {
+      "url": "emrg.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

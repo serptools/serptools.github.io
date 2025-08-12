@@ -1,0 +1,66 @@
+{
+  "slug": "fbr",
+  "extension": "fbr",
+  "name": "FlashBack Recording",
+  "category": "1.-flashback-recording",
+  "developer_org": "blueberry",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 28,
+    "source": "fileinfo"
+  },
+  "summary": "An FBR file is a screen recording created by Blueberry FlashBack Pro, a screen recorder for Windows. It contains a video of actions a user performed in Windows. It may also contain annotations, transitions, and other special effects.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "blueberry-flashback-pro",
+        "display_name": "Blueberry FlashBack Pro"
+      },
+      {
+        "software": "hp-mercury-screen-recorder",
+        "display_name": "HP Mercury Screen Recorder"
+      },
+      {
+        "software": "hp-mercury-screen-player",
+        "display_name": "HP Mercury Screen Player"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "FBR file icon",
+      "alt": "FBR file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/fbr-3367.png"
+    },
+    {
+      "caption": "FBR file open in Blueberry FlashBack Pro Player",
+      "alt": "FBR file open in Blueberry FlashBack Pro Player",
+      "source_url": "https://fileinfo.com/img/ss/md/fbr_3367.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-10-25",
+  "sources": [
+    {
+      "url": "fbr.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

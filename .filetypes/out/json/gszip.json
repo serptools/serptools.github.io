@@ -1,0 +1,53 @@
+{
+  "slug": "gszip",
+  "extension": "gszip",
+  "name": "GameSalad Marketplace Asset File",
+  "category": "gamesalad-marketplace-asset-file",
+  "developer_org": "gamesalad",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "File used by GameSalad Creator, a multi-platform game development program used for building iOS, Android, and HTML5 games; saves an archive of assets, such as art, music, or game development components, that can be sold and distributed on the GameSalad Marketplace; allows game developers to purchase and download assets for inclusion in their games.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "gamesalad-creator",
+        "display_name": "GameSalad Creator"
+      }
+    ],
+    "macos": [
+      {
+        "software": "gamesalad-creator",
+        "display_name": "GameSalad Creator"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-06-20",
+  "sources": [
+    {
+      "url": "gszip.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

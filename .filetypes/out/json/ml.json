@@ -1,0 +1,103 @@
+{
+  "slug": "ml",
+  "extension": "ml",
+  "name": "ML Source Code File",
+  "category": "ml-source-code-file",
+  "developer_org": "robin-milner",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 36,
+    "source": "fileinfo"
+  },
+  "summary": "Text file written in ML, a functional programming language; may be written using Standard ML (SML) or one of several varieties in the ML family, including as Caml, Objective Caml (OCaml), JoCaml, Extended ML, and MacroML; often used in language design for developing compilers or other source code interpreters; also used in academic environments for proving theories.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "caml",
+        "display_name": "Caml"
+      },
+      {
+        "software": "ocaml",
+        "display_name": "OCaml"
+      },
+      {
+        "software": "microsoft-visual-studio-2022",
+        "display_name": "Microsoft Visual Studio 2022"
+      },
+      {
+        "software": "notepad++",
+        "display_name": "Notepad++"
+      },
+      {
+        "software": "gvim",
+        "display_name": "gVim"
+      },
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      },
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      }
+    ],
+    "macos": [
+      {
+        "software": "macromates-textmate",
+        "display_name": "MacroMates TextMate"
+      },
+      {
+        "software": "gnu-emacs",
+        "display_name": "GNU Emacs"
+      },
+      {
+        "software": "caml",
+        "display_name": "Caml"
+      },
+      {
+        "software": "ocaml",
+        "display_name": "OCaml"
+      },
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      }
+    ],
+    "web": [
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-09-02",
+  "sources": [
+    {
+      "url": "ml.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

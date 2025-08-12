@@ -1,0 +1,109 @@
+{
+  "slug": "pd",
+  "extension": "pd",
+  "name": "FlexiSIGN 5 Plotter Document",
+  "category": "1.-flexisign-5-plotter-document",
+  "developer_org": "sa-international",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 21,
+    "source": "fileinfo"
+  },
+  "summary": "A PD file is a design created by FlexiSIGN 5, a program used to professionally design, print, and cut signs. It contains a graphic design of a sign in a vector graphic format so that the image can be resized without losing quality. PD files may also store raster graphics and text.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "sai-flexi",
+        "display_name": "SAi Flexi"
+      },
+      {
+        "software": "electronic-arts-spore",
+        "display_name": "Electronic Arts Spore"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "pure-data",
+        "display_name": "Pure Data"
+      },
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "github-atom",
+        "display_name": "GitHub Atom",
+        "status": "discontinued"
+      }
+    ],
+    "macos": [
+      {
+        "software": "sai-flexi",
+        "display_name": "SAi Flexi"
+      },
+      {
+        "software": "electronic-arts-spore",
+        "display_name": "Electronic Arts Spore"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "gnu-emacs",
+        "display_name": "GNU Emacs"
+      },
+      {
+        "software": "pure-data",
+        "display_name": "Pure Data"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "github-atom",
+        "display_name": "GitHub Atom",
+        "status": "discontinued"
+      },
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      }
+    ],
+    "chromeos": [
+      {
+        "software": "google-chrome-text",
+        "display_name": "Google Chrome Text"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-01-11",
+  "sources": [
+    {
+      "url": "pd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

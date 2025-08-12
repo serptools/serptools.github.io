@@ -1,0 +1,57 @@
+{
+  "slug": "krz",
+  "extension": "krz",
+  "name": "Kurzweil K2000 File",
+  "category": "kurzweil-k2000-file",
+  "developer_org": "kurzweil-music-systems",
+  "popularity": {
+    "rating": 2.5,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "A KRZ file stores data saved from a Kurzweil K2000 series synthesizer, a workstation keyboard used for music production and sound design. It may contain sample data, instrument programs, MIDI sequences, and song arrangement information. Musicians and producers use KRZ files to save performance and project data created with the synthesizer.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "fmj-software-awave-studio",
+        "display_name": "FMJ-Software Awave Studio"
+      },
+      {
+        "software": "chicken-systems-translator",
+        "display_name": "Chicken Systems Translator"
+      }
+    ],
+    "macos": [
+      {
+        "software": "chicken-systems-translator",
+        "display_name": "Chicken Systems Translator"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2025-07-11",
+  "sources": [
+    {
+      "url": "krz.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

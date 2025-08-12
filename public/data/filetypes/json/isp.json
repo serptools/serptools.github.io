@@ -1,0 +1,22 @@
+{
+  "slug": "isp",
+  "extension": "isp",
+  "name": "IIS Internet Service Provider Settings",
+  "category": "iis-internet-service-provider-settings",
+  "summary": "",
+  "developer_org": "microsoft",
+  "developer_name": "Microsoft",
+  "more_information": {
+    "description": [
+      "ISP files were primarily used during the setup of IIS on earlier versions of Windows, such as Windows NT and Windows 2000, when administrators needed to establish an Internet connection for a web server. ISP files helped automate part of the setup process, making applying standardized connection settings across multiple systems or during scripted installations easier.",
+      "Now, ISP files are largely outdated due to the shift toward broadband , DHCP , and cloud-hosted web services. Most modern server configurations use direct network connections managed through the Windows operating system or cloud platforms."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "isp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "xft",
+  "extension": "xft",
+  "name": "ChiWriter Printer Font",
+  "category": "1.-chiwriter-printer-font",
+  "developer_org": "horstmann-software-design",
+  "popularity": {
+    "rating": 2.8,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "An XFT file is a printer font file used by ChiWriter, a scientific word processor developed for MS-DOS in the 1980s and 1990s. It contains font data formatted explicitly for 24-pin dot matrix printers, which were commonly used at the time. ChiWriter used XFT files to render mathematical and technical text accurately when printing documents that contained multiple fonts and complex symbols.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "horstmann-software-design-chiwriter",
+        "display_name": "Horstmann Software Design ChiWriter",
+        "status": "discontinued"
+      },
+      {
+        "software": "adobe-livecycle-es4",
+        "display_name": "Adobe LiveCycle ES4",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2025-07-16",
+  "sources": [
+    {
+      "url": "xft.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

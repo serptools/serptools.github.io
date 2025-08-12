@@ -1,0 +1,53 @@
+{
+  "slug": "ius",
+  "extension": "ius",
+  "name": "InfoTMIC Firmware Update File",
+  "category": "infotmic-firmware-update-file",
+  "developer_org": "shanghai-infotm-microelectronics",
+  "popularity": {
+    "rating": 2.7,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "Firmware file used by infoTMIC tablet PCs, which use the Android operating system; stores data for updating the low-level system code on the device; enables users to update tablets with the latest patches, bug fixes, and other upgrades.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "linux": [
+      {
+        "software": "iusutils",
+        "display_name": "iusutils"
+      }
+    ],
+    "windows": [
+      {
+        "software": "iusutils",
+        "display_name": "iusutils"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-04-09",
+  "sources": [
+    {
+      "url": "ius.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

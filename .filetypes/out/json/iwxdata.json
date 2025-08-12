@@ -1,0 +1,57 @@
+{
+  "slug": "iwxdata",
+  "extension": "iwxdata",
+  "name": "iWorx Data File",
+  "category": "iworx-data-file",
+  "developer_org": "iworx-systems",
+  "popularity": {
+    "rating": 4.2,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "File created by LabScribe, a software application that interfaces with iWorx devices, which are used in biomedical research and analysis; contains data recorded by a connected device, taken from a human subject; allows the data to be stored and analyzed in the software.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "iworx-systems-labscribe3",
+        "display_name": "iWorx Systems LabScribe3"
+      },
+      {
+        "software": "ni-labview-biomedical-toolkit",
+        "display_name": "NI LabVIEW Biomedical Toolkit"
+      }
+    ],
+    "macos": [
+      {
+        "software": "iworx-systems-labscribe3",
+        "display_name": "iWorx Systems LabScribe3"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-08-07",
+  "sources": [
+    {
+      "url": "iwxdata.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

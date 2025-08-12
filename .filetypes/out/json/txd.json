@@ -1,0 +1,51 @@
+{
+  "slug": "txd",
+  "extension": "txd",
+  "name": "Game Texture Dictionary",
+  "category": "game-texture-dictionary",
+  "developer_org": "renderware",
+  "popularity": {
+    "rating": 4.2,
+    "votes": 350,
+    "source": "fileinfo"
+  },
+  "summary": "A TXD file is an archive of textures, or small bitmap image files that can be referenced by games or other programs that support the Renderware 3D engine. It may be texture-mapped onto 3D objects to change their appearance.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "magic.txd",
+        "display_name": "Magic.TXD"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-07-10",
+  "sources": [
+    {
+      "url": "txd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

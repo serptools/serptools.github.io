@@ -1,0 +1,65 @@
+{
+  "slug": "icd",
+  "extension": "icd",
+  "name": "SafeDisc Encrypted Program",
+  "category": "1.-safedisc-encrypted-program",
+  "developer_org": "macrovision",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 34,
+    "source": "fileinfo"
+  },
+  "summary": "Executable program encrypted with SafeDisc, a disc copy prevention program for Windows games and other applications; typically saved along with an .EXE file which loads the protected ICD file.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "created-with-macrovision-safedisc",
+        "display_name": "Created with Macrovision SafeDisc"
+      },
+      {
+        "software": "runs-automatically-on-verified-media",
+        "display_name": "Runs automatically on verified media"
+      }
+    ],
+    "windows": [
+      {
+        "software": "runs-automatically-on-verified-media",
+        "display_name": "Runs automatically on verified media"
+      },
+      {
+        "software": "referenced-by-the-operating-system",
+        "display_name": "Referenced by the operating system"
+      },
+      {
+        "software": "ironcad",
+        "display_name": "IronCAD"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2008-07-08",
+  "sources": [
+    {
+      "url": "icd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

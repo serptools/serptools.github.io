@@ -1,0 +1,53 @@
+{
+  "slug": "watchface",
+  "extension": "watchface",
+  "name": "Apple Watch Face",
+  "category": "apple-watch-face",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 4.2,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "A WATCHFACE file is a watch face created for use with an Apple Watch. It contains all the complications placed on the watch face, as well as any specified colors, features, or images. Users can share WATCHFACE files from their Apple Watch or the Apple Watch app for iOS.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "ios": [
+      {
+        "software": "apple-watch",
+        "display_name": "Apple Watch"
+      }
+    ],
+    "windows": [
+      {
+        "software": "apple-watch",
+        "display_name": "Apple Watch"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-11-30",
+  "sources": [
+    {
+      "url": "watchface.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

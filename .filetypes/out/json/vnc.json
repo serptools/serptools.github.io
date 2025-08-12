@@ -1,0 +1,73 @@
+{
+  "slug": "vnc",
+  "extension": "vnc",
+  "name": "VNC Configuration File",
+  "category": "vnc-configuration-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "Contains settings for a Virtual Network Computing (VNC) connection from one computer to another; enables remote access to a system at a different location.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "ultravnc-uvnc",
+        "display_name": "UltraVNC (uVNC)"
+      },
+      {
+        "software": "tightvnc",
+        "display_name": "TightVNC"
+      },
+      {
+        "software": "realvnc-vnc-personal-edition",
+        "display_name": "RealVNC VNC Personal Edition"
+      },
+      {
+        "software": "realvnc-vnc-enterprise-edition",
+        "display_name": "RealVNC VNC Enterprise Edition"
+      }
+    ],
+    "macos": [
+      {
+        "software": "realvnc-vnc-enterprise-edition",
+        "display_name": "RealVNC VNC Enterprise Edition"
+      }
+    ],
+    "linux": [
+      {
+        "software": "realvnc-vnc-enterprise-edition",
+        "display_name": "RealVNC VNC Enterprise Edition"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2008-12-16",
+  "sources": [
+    {
+      "url": "vnc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

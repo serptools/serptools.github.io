@@ -1,0 +1,59 @@
+{
+  "slug": "dvds",
+  "extension": "dvds",
+  "name": "DVDStyler Project File",
+  "category": "dvdstyler-project-file",
+  "developer_org": "dvdstyler",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "XML project file created by DVDStyler, a DVD authoring tool; contains all information required to burn a DVD, including the DVD menus, background graphics, and aspect ratio; also stores references to the video files that will be burned to the disc.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "dvdstyler",
+        "display_name": "DVDStyler"
+      }
+    ],
+    "macos": [
+      {
+        "software": "dvdstyler",
+        "display_name": "DVDStyler"
+      }
+    ],
+    "linux": [
+      {
+        "software": "dvdstyler",
+        "display_name": "DVDStyler"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-01-31",
+  "sources": [
+    {
+      "url": "dvds.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

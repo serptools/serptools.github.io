@@ -1,0 +1,51 @@
+{
+  "slug": "ecs",
+  "extension": "ecs",
+  "name": "Sony Ericsson Phone Backup File",
+  "category": "sony-ericsson-phone-backup-file",
+  "developer_org": "sony-ericsson",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "Backup data file created by Sony Ericsson mobile phones; saved in a compressed .ZIP format that can be read by phones using the Symbian operating system.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "corel-winzip",
+        "display_name": "Corel WinZip"
+      },
+      {
+        "software": "rarlab-winrar",
+        "display_name": "RARLAB WinRAR"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-05-22",
+  "sources": [
+    {
+      "url": "ecs.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "slug": "nro",
+  "extension": "nro",
+  "name": "Nintendo Switch Executable File",
+  "category": "nintendo-switch-executable-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 21,
+    "source": "fileinfo"
+  },
+  "summary": "An NRO file is an executable file used by the Nintendo Switch video game console or Switch emulator , such as Yuzu or Ryujinx. It contains compiled code for an application or game. NRO files may also store assets for Homebrew Launcher, such as a 256x256 JPEG icon and metadata .",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      },
+      {
+        "software": "ryujinx",
+        "display_name": "Ryujinx"
+      }
+    ],
+    "macos": [
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      },
+      {
+        "software": "ryujinx",
+        "display_name": "Ryujinx"
+      }
+    ],
+    "linux": [
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      },
+      {
+        "software": "ryujinx",
+        "display_name": "Ryujinx"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-11-28",
+  "sources": [
+    {
+      "url": "nro.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

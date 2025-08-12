@@ -1,0 +1,233 @@
+{
+  "slug": "wav",
+  "extension": "wav",
+  "name": "WAVE Audio",
+  "category": "1.-wave-audio",
+  "developer_org": "microsoft-ibm",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 482,
+    "source": "fileinfo"
+  },
+  "summary": "A WAV file is an audio file saved in the Waveform Audio (WAVE) format. It contains a song, interview, voice memo, or other piece of digital audio. Because WAV files are quite common, you can play them with most media players, including those bundled with Windows, macOS, and other operating systems.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "microsoft-media-player",
+        "display_name": "Microsoft Media Player"
+      },
+      {
+        "software": "microsoft-windows-media-player",
+        "display_name": "Microsoft Windows Media Player"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "nullsoft-winamp",
+        "display_name": "Nullsoft Winamp"
+      },
+      {
+        "software": "adobe-audition-2023",
+        "display_name": "Adobe Audition 2023"
+      },
+      {
+        "software": "clementine",
+        "display_name": "Clementine"
+      },
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      },
+      {
+        "software": "apple-music",
+        "display_name": "Apple Music"
+      },
+      {
+        "software": "apple-quicktime-player",
+        "display_name": "Apple QuickTime Player"
+      },
+      {
+        "software": "eltima-elmedia-player",
+        "display_name": "Eltima Elmedia Player"
+      },
+      {
+        "software": "xmms",
+        "display_name": "XMMS"
+      },
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      },
+      {
+        "software": "google-drive",
+        "display_name": "Google Drive"
+      },
+      {
+        "software": "apple-files",
+        "display_name": "Apple Files"
+      },
+      {
+        "software": "videolan-vlc-for-mobile",
+        "display_name": "VideoLAN VLC for Mobile"
+      },
+      {
+        "software": "olimsoft-oplayer",
+        "display_name": "olimsoft OPlayer"
+      },
+      {
+        "software": "antvplayer-media-converter",
+        "display_name": "antvplayer Media Converter"
+      },
+      {
+        "software": ".mp3",
+        "display_name": ".MP3"
+      },
+      {
+        "software": ".ogg",
+        "display_name": ".OGG"
+      },
+      {
+        "software": ".flac",
+        "display_name": ".FLAC",
+        "pricing": "free"
+      },
+      {
+        "software": ".wav",
+        "display_name": ".WAV"
+      },
+      {
+        "software": "foobar2000",
+        "display_name": "Foobar2000"
+      }
+    ],
+    "android": [
+      {
+        "software": "file-viewer-for-android",
+        "display_name": "File Viewer for Android"
+      },
+      {
+        "software": "videolabs-vlc-for-android",
+        "display_name": "Videolabs VLC for Android"
+      },
+      {
+        "software": "antvplayer-media-converter",
+        "display_name": "antvplayer Media Converter"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-music",
+        "display_name": "Apple Music"
+      },
+      {
+        "software": "apple-quicktime-player",
+        "display_name": "Apple QuickTime Player"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "eltima-elmedia-player",
+        "display_name": "Eltima Elmedia Player"
+      },
+      {
+        "software": "adobe-audition-2023",
+        "display_name": "Adobe Audition 2023"
+      },
+      {
+        "software": "clementine",
+        "display_name": "Clementine"
+      },
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      }
+    ],
+    "linux": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "clementine",
+        "display_name": "Clementine"
+      },
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      },
+      {
+        "software": "xmms",
+        "display_name": "XMMS"
+      }
+    ],
+    "web": [
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      },
+      {
+        "software": "google-drive",
+        "display_name": "Google Drive"
+      }
+    ],
+    "ios": [
+      {
+        "software": "apple-files",
+        "display_name": "Apple Files"
+      },
+      {
+        "software": "videolan-vlc-for-mobile",
+        "display_name": "VideoLAN VLC for Mobile"
+      },
+      {
+        "software": "olimsoft-oplayer",
+        "display_name": "olimsoft OPlayer"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "WAV file icon",
+      "alt": "WAV file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/wav-113.png"
+    },
+    {
+      "caption": "WAV file open in VideoLAN VLC media player",
+      "alt": "WAV file open in VideoLAN VLC media player",
+      "source_url": "https://fileinfo.com/img/ss/md/wav_113.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-07-13",
+  "sources": [
+    {
+      "url": "wav.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

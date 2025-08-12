@@ -1,0 +1,55 @@
+{
+  "slug": "shed",
+  "extension": "shed",
+  "name": "Lawnchair 2 Home Screen Backup",
+  "category": "lawnchair-2-home-screen-backup",
+  "developer_org": "david-sn",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "A SHED file is a home screen layout created using Lawnchair 2, a home screen replacement app for Android. It contains data Lawnchair 2 uses to load and display a custom home screen. Users create SHED files from within Lawnchair 2, by opening the app's menu and selecting Backups → Create .",
+  "standards": [],
+  "mime_types": [
+    "and/or"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "android": [
+      {
+        "software": "lawnchair-2",
+        "display_name": "Lawnchair 2"
+      }
+    ],
+    "windows": [
+      {
+        "software": "lawnchair-2",
+        "display_name": "Lawnchair 2"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-12-13",
+  "sources": [
+    {
+      "url": "shed.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

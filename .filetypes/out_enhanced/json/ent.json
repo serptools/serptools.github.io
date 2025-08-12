@@ -1,0 +1,22 @@
+{
+  "slug": "ent",
+  "extension": "ent",
+  "name": "External Entity",
+  "category": "external-entity",
+  "summary": "",
+  "developer_org": "n-a",
+  "developer_name": "N/A",
+  "more_information": {
+    "description": [
+      "XML and SGML documents reference ENT files to reuse standard entity definitions without repeating them in every file. For example, an ENT file might define commonly used characters, file paths, or shared components in a documentation system. By storing this data externally, ENT files help make markup documents cleaner and easier to maintain.",
+      "Developers, technical writers, and content managers who work with structured documents are the primary users of ENT files. These users often rely on ENT files to manage large sets of content efficiently and consistently."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "ent.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

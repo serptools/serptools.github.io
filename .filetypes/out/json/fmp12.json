@@ -1,0 +1,69 @@
+{
+  "slug": "fmp12",
+  "extension": "fmp12",
+  "name": "FileMaker Pro 12 Database",
+  "category": "filemaker-pro-12-database",
+  "developer_org": "filemaker",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 24,
+    "source": "fileinfo"
+  },
+  "summary": "Database file created by FileMaker Pro 12, a personal and business database development program; stores the database structure (tables and fields) and the records that fill the tables; may also include custom forms, reports, and other database objects; can include a custom theme for personalizing the interface.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "filemaker-pro-advanced",
+        "display_name": "FileMaker Pro Advanced"
+      },
+      {
+        "software": "filemaker-go-19",
+        "display_name": "FileMaker Go 19"
+      }
+    ],
+    "macos": [
+      {
+        "software": "filemaker-pro-advanced",
+        "display_name": "FileMaker Pro Advanced"
+      }
+    ],
+    "ios": [
+      {
+        "software": "filemaker-go-19",
+        "display_name": "FileMaker Go 19"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "FMP12 file icon",
+      "alt": "FMP12 file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/fmp12-7567.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-04-06",
+  "sources": [
+    {
+      "url": "fmp12.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

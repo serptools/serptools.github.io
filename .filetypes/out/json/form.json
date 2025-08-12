@@ -1,0 +1,67 @@
+{
+  "slug": "form",
+  "extension": "form",
+  "name": "NetBeans Java GUI Designer Form",
+  "category": "1.-netbeans-java-gui-designer-form",
+  "developer_org": "apache",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 14,
+    "source": "fileinfo"
+  },
+  "summary": "Form created by NetBeans Swing GUI Builder, a tool for building Swing GUIs included in NetBeans IDE; contains placement of GUI components for Java Swing; each file is devoted to a Java class; when a component is added to the FORM file, a corresponding field is added in the connected class .",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "apache-netbeans",
+        "display_name": "Apache NetBeans"
+      },
+      {
+        "software": "formlabs-preform",
+        "display_name": "Formlabs PreForm"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apache-netbeans",
+        "display_name": "Apache NetBeans"
+      },
+      {
+        "software": "formlabs-preform",
+        "display_name": "Formlabs PreForm"
+      }
+    ],
+    "linux": [
+      {
+        "software": "apache-netbeans",
+        "display_name": "Apache NetBeans"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2013-10-11",
+  "sources": [
+    {
+      "url": "form.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

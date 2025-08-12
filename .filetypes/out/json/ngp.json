@@ -1,0 +1,71 @@
+{
+  "slug": "ngp",
+  "extension": "ngp",
+  "name": "NeoGeo Pocket ROM",
+  "category": "neogeo-pocket-rom",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Game ROM used by emulators for the NeoGeo Pocket (and NeoGeo Pocket Color) handheld game console; contains an image of the data on the original game cartridge and can be used for playing the game on a PC with emulation software.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "neopop",
+        "display_name": "NeoPop"
+      },
+      {
+        "software": "koyote",
+        "display_name": "Koyote"
+      },
+      {
+        "software": "neopocott",
+        "display_name": "Neopocott"
+      },
+      {
+        "software": "openemu",
+        "display_name": "OpenEmu"
+      }
+    ],
+    "macos": [
+      {
+        "software": "neopocott",
+        "display_name": "Neopocott"
+      },
+      {
+        "software": "openemu",
+        "display_name": "OpenEmu"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-10-24",
+  "sources": [
+    {
+      "url": "ngp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

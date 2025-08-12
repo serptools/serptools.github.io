@@ -1,0 +1,110 @@
+{
+  "slug": "dvi",
+  "extension": "dvi",
+  "name": "Device Independent Format File",
+  "category": "device-independent-format-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 13,
+    "source": "fileinfo"
+  },
+  "summary": "Output file from a TeX-based program, such as LaTeX; contains typesetting information to be sent to a printer; requires a DVI driver, but is \"device-independent,\" meaning it can be printed on almost any kind of typographic output device; similar to a PostScript ( .PS ) file.",
+  "standards": [],
+  "mime_types": [
+    "lyx/mac",
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "latex-editor",
+        "display_name": "LaTeX Editor"
+      },
+      {
+        "software": "miktex",
+        "display_name": "MiKTeX"
+      },
+      {
+        "software": "bakoma-tex",
+        "display_name": "BaKoMa TeX"
+      },
+      {
+        "software": "dvii",
+        "display_name": "DVII"
+      },
+      {
+        "software": "skim",
+        "display_name": "Skim"
+      },
+      {
+        "software": "evince",
+        "display_name": "Evince"
+      },
+      {
+        "software": "xdvik",
+        "display_name": "Xdvik"
+      },
+      {
+        "software": "kde-okular",
+        "display_name": "KDE Okular"
+      }
+    ],
+    "macos": [
+      {
+        "software": "lyx-mac",
+        "display_name": "LyX/Mac"
+      },
+      {
+        "software": "skim",
+        "display_name": "Skim"
+      },
+      {
+        "software": "dvii",
+        "display_name": "DVII"
+      }
+    ],
+    "linux": [
+      {
+        "software": "evince",
+        "display_name": "Evince"
+      },
+      {
+        "software": "xdvik",
+        "display_name": "Xdvik"
+      },
+      {
+        "software": "dvii",
+        "display_name": "DVII"
+      },
+      {
+        "software": "kde-okular",
+        "display_name": "KDE Okular"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2016-10-18",
+  "sources": [
+    {
+      "url": "dvi.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

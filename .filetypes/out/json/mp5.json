@@ -1,0 +1,50 @@
+{
+  "slug": "mp5",
+  "extension": "mp5",
+  "name": "Chinese Portable Media Player Video",
+  "category": "chinese-portable-media-player-video",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 33,
+    "source": "fileinfo"
+  },
+  "summary": "An MP5 file is a video that is meant to be played on a Chinese MP5 portable media player. MP5 files are not significantly different from .MP4 files. Like MP4 files, MP5 files are encoded using the MPEG-4 or MPEG-H codecs . The only difference between MP5 files and MP4 files is that MP5 files are often encoded such that they are optimized for MP5 media players.",
+  "standards": [],
+  "mime_types": [
+    "h.264/avc",
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "change-extension-to-.mp4-and-play-in-mp4-media-player",
+        "display_name": "Change extension to .mp4 and play in MP4 media player"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-10-06",
+  "sources": [
+    {
+      "url": "mp5.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

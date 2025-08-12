@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Types Reference</title>
+    <link rel="stylesheet" href="filetypes.css">
+</head>
+<body>
+    <div class="container">
+        <h1>File Types Reference</h1>
+        
+        <div class="controls">
+            <div class="search-container">
+                <input type="text" id="search" placeholder="Search file types..." aria-label="Search file types">
+                <button id="search-btn" aria-label="Search">Search</button>
+            </div>
+            <select id="category-filter" class="category-filter" aria-label="Filter by category">
+                <option value="">All Categories</option>
+            </select>
+        </div>
+        
+        <table id="filetype-table">
+            <thead>
+                <tr>
+                    <th>Extension</th>
+                    <th>Description</th>
+                    <th>Category</th>
+                </tr>
+            </thead>
+            <tbody id="filetype-list">
+                <tr>
+                    <td colspan="3" class="loading-indicator">
+                        <div class="spinner"></div>
+                        Loading file types...
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <div class="pagination">
+            <button id="prev-page">Previous</button>
+            <span id="page-info">Page 1 of 1</span>
+            <button id="next-page">Next</button>
+        </div>
+        
+        <div id="details-panel">
+            <h2 id="detail-extension"></h2>
+            <div id="detail-content"></div>
+            <button id="close-details">Close</button>
+        </div>
+    
+
+    <script src="filetypes.js"></script>
+</body>
+</html>

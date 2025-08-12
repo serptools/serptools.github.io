@@ -1,0 +1,63 @@
+{
+  "slug": "bookexport",
+  "extension": "bookexport",
+  "name": "BookSmart Backup Book File",
+  "category": "booksmart-backup-book-file",
+  "developer_org": "blurb-software",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "A BOOKEXPORT file is a backup book created by BookSmart, a free tool used to create photo books, notebooks, and planners. it contains a .BOOK file and the images included in the book. BOOKEXPORT files are used to backup a book and to share books with other BookSmart users.",
+  "standards": [],
+  "mime_types": [
+    "export/backup"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "blurb-booksmart",
+        "display_name": "Blurb BookSmart",
+        "status": "discontinued"
+      }
+    ],
+    "macos": [
+      {
+        "software": "blurb-booksmart",
+        "display_name": "Blurb BookSmart",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "BOOKEXPORT file open in Blurb BookSmart 3.4",
+      "alt": "BOOKEXPORT file open in Blurb BookSmart 3.4",
+      "source_url": "https://fileinfo.com/img/ss/md/bookexport_10473.jpg"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-03-08",
+  "sources": [
+    {
+      "url": "bookexport.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

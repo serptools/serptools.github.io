@@ -1,0 +1,55 @@
+{
+  "slug": "pi",
+  "extension": "pi",
+  "name": "iPi Calculation Data",
+  "category": "ipi-calculation-data",
+  "developer_org": "10101",
+  "popularity": {
+    "rating": 2.6,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "A PI file is a data file created by iPi, a program that calculates the digits of Pi. It stores the progress of a user's Pi calculation. iPi users can load a PI file to resume the calculation the file describes.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "10101-software-ipi",
+        "display_name": "10101 Software iPi",
+        "status": "discontinued"
+      }
+    ],
+    "macos": [
+      {
+        "software": "10101-software-ipi",
+        "display_name": "10101 Software iPi",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-06-15",
+  "sources": [
+    {
+      "url": "pi.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

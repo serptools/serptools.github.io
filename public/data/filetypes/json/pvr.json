@@ -1,0 +1,22 @@
+{
+  "slug": "pvr",
+  "extension": "pvr",
+  "name": "POWERVR Texture File",
+  "category": "powervr-texture-file",
+  "summary": "",
+  "developer_org": "wintal-international",
+  "developer_name": "Wintal International",
+  "more_information": {
+    "description": [
+      "PVR files may be compressed from other image formats, such as .PNG , using the Imagination Technologies PVRTC compression utility. Since PVR files are optimized for POWERVR chips, it is recommended that texture graphic files be converted to this format in POWERVR devices.",
+      "NOTE: The PVR file format is lossy ."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "pvr.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

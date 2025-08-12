@@ -1,0 +1,47 @@
+{
+  "slug": "gedata",
+  "extension": "gedata",
+  "name": "Qlucore Data File",
+  "category": "qlucore-data-file",
+  "developer_org": "qlucore",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "Data file used by Qlucore Omics Explorer, a bioinformatics data analysis and visualization program; contains a complete data frame, including sample and variable annotations; saved in a tab-delimited text format.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "qlucore-omics-explorer",
+        "display_name": "Qlucore Omics Explorer"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2013-01-28",
+  "sources": [
+    {
+      "url": "gedata.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

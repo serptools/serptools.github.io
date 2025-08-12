@@ -1,0 +1,35 @@
+{
+  "slug": "fan",
+  "extension": "fan",
+  "name": "Finale Font Annotation",
+  "category": "finale-font-annotation",
+  "summary": "",
+  "developer_org": "autodessys",
+  "developer_name": "AutoDesSys",
+  "more_information": {
+    "screenshot": {
+      "url": "https://fileinfo.com/img/ss/sm/fan_9081.png",
+      "alt": "Screenshot of a .fan file in MakeMusic Finale",
+      "caption": "FAN file open in MakeMusic Finale"
+    },
+    "description": [
+      "MakeMusic Finale is a professional music composition program used by composers. As part of creating musical scores, composers can add text that uses different fonts. Each Finale font is accompanied by a FAN file, which contains annotations that define the height and width of each font character.",
+      "Composers can also install third-party fonts and use them with Finale. When they do so, they must create a FAN file to accompany those fonts. Composers create new FAN files from Finale's Preferences → Edit menu, by selecting the Font Annotation... button.",
+      "NOTE: By default, Finale stores FAN files in the ~/​MakeMusic/​Finale ##/​Font Annotation directory."
+    ]
+  },
+  "images": [
+    {
+      "url": "https://fileinfo.com/img/ss/sm/fan_9081.png",
+      "alt": "Screenshot of a .fan file in MakeMusic Finale",
+      "caption": "FAN file open in MakeMusic Finale"
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "fan.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

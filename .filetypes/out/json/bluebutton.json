@@ -1,0 +1,53 @@
+{
+  "slug": "bluebutton",
+  "extension": "bluebutton",
+  "name": "VA Blue Button Data File",
+  "category": "va-blue-button-data-file",
+  "developer_org": "health-it",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "A BLUEBUTTON file is a data file created by VA Blue Button, a web tool that allows U.S. veterans to manage their health records. It contains a patient's complete personal health information recorded at a VA medical facility. BLUEBUTTON files include test results, allergies, medical treatment from doctors and hospital visits, prescribed medications, and health insurance claims information.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "web": [
+      {
+        "software": "health-it-va-blue-button",
+        "display_name": "Health IT VA Blue Button"
+      }
+    ],
+    "windows": [
+      {
+        "software": "health-it-va-blue-button",
+        "display_name": "Health IT VA Blue Button"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-06-30",
+  "sources": [
+    {
+      "url": "bluebutton.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "slug": "docset",
+  "extension": "docset",
+  "name": "Doxygen Document Set File",
+  "category": "doxygen-document-set-file",
+  "developer_org": "doxygen",
+  "popularity": {
+    "rating": 2.4,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "Developer file created by Doxygen, a source code documentation system; contains an archive of documentation about a body of source code, which can encompass many different individual source code files and code constructs; used as the storage format for publishing documentation to developers that use the source code.",
+  "standards": [],
+  "mime_types": [
+    "c/c"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "apple-xcode",
+        "display_name": "Apple Xcode"
+      },
+      {
+        "software": "kapeli-dash",
+        "display_name": "Kapeli Dash"
+      }
+    ],
+    "windows": [
+      {
+        "software": "apple-xcode",
+        "display_name": "Apple Xcode"
+      },
+      {
+        "software": "kapeli-dash",
+        "display_name": "Kapeli Dash"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2013-02-20",
+  "sources": [
+    {
+      "url": "docset.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

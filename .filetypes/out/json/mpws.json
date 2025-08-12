@@ -1,0 +1,53 @@
+{
+  "slug": "mpws",
+  "extension": "mpws",
+  "name": "MathPiper Worksheet",
+  "category": "mathpiper-worksheet",
+  "developer_org": "mathpiper",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "An MPWS file is a worksheet created by MathPiperIDE, an IDE that includes text editing, graphing, and charting capabilities. It contains code folds, which are sections of source code, such as MathPiper, that can be executed to calculate equations.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "mathpiperide",
+        "display_name": "MathPiperIDE"
+      }
+    ],
+    "macos": [
+      {
+        "software": "mathpiperide",
+        "display_name": "MathPiperIDE"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-01-06",
+  "sources": [
+    {
+      "url": "mpws.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

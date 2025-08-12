@@ -1,0 +1,80 @@
+{
+  "slug": "sgw",
+  "extension": "sgw",
+  "name": "n-Track Studio Packed Song Project",
+  "category": "n-track-studio-packed-song-project",
+  "developer_org": "n-track",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "An SGW file is a packed song project created by n-Track Studio to store information about a project and compressed audio files imported into the project. It is similar to n-Track Studio's more common .SNG Song Project file type but includes audio files imported into the project, such as .M4A or .WAV files, instead of containing references to the files stored in another location. While SGW files are typically larger than SNG files, users find them helpful when transferring and backing up projects.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "n-track-studio",
+        "display_name": "n-Track Studio"
+      },
+      {
+        "software": "n-track-studio-daw-make-music",
+        "display_name": "n-Track Studio DAW: Make Music"
+      }
+    ],
+    "macos": [
+      {
+        "software": "n-track-studio",
+        "display_name": "n-Track Studio"
+      }
+    ],
+    "ios": [
+      {
+        "software": "n-track-studio-daw-make-music",
+        "display_name": "n-Track Studio DAW: Make Music"
+      }
+    ],
+    "android": [
+      {
+        "software": "n-track-studio-daw-make-music",
+        "display_name": "n-Track Studio DAW: Make Music"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "SGW file icon",
+      "alt": "SGW file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/sgw-13341.png"
+    },
+    {
+      "caption": "SGW file open in n-Track Studio 9",
+      "alt": "SGW file open in n-Track Studio 9",
+      "source_url": "https://fileinfo.com/img/ss/md/sgw_13341.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-05-24",
+  "sources": [
+    {
+      "url": "sgw.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

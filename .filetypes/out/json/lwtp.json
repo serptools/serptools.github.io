@@ -1,0 +1,56 @@
+{
+  "slug": "lwtp",
+  "extension": "lwtp",
+  "name": "LimeWire Theme Pack",
+  "category": "limewire-theme-pack",
+  "developer_org": "limewire",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "Theme or skin used by LimeWire, a P2P file-sharing program; can be used to customize the look and feel of the program's interface; to apply a LimeWire theme, select View→Apply Skins, and select the theme you want to apply.",
+  "standards": [],
+  "mime_types": [
+    "preferences/limewire",
+    "user/library"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "limewire",
+        "display_name": "LimeWire"
+      }
+    ],
+    "macos": [
+      {
+        "software": "limewire",
+        "display_name": "LimeWire"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2007-04-16",
+  "sources": [
+    {
+      "url": "lwtp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

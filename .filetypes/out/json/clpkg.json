@@ -1,0 +1,65 @@
+{
+  "slug": "clpkg",
+  "extension": "clpkg",
+  "name": "Crystal Launcher Package",
+  "category": "crystal-launcher-package",
+  "developer_org": "crystal-launcher",
+  "popularity": {
+    "rating": 4.3,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "A CLPKG file is a mod package used by Crystal Launcher, a custom Minecraft Java Edition game launcher . It contains data used to add features to or otherwise modify Minecraft. Players can install the mod a CLPKG file contains from within Crystal Launcher.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "crystal-launcher",
+        "display_name": "Crystal Launcher"
+      }
+    ],
+    "macos": [
+      {
+        "software": "crystal-launcher",
+        "display_name": "Crystal Launcher"
+      }
+    ],
+    "linux": [
+      {
+        "software": "crystal-launcher",
+        "display_name": "Crystal Launcher"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "CLPKG file icon",
+      "alt": "CLPKG file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/clpkg-13534.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-10-27",
+  "sources": [
+    {
+      "url": "clpkg.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

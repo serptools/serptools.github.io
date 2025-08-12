@@ -1,0 +1,67 @@
+{
+  "slug": "etf",
+  "extension": "etf",
+  "name": "ENIGMA Transportable File",
+  "category": "enigma-transportable-file",
+  "developer_org": "makemusic",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "Text-based format exported by Finale and other MakeMusic programs; similar to a Finale music notation ( .MUS ) file, but contains data encoded as text instead of binary; designed for sending Finale files over e-mail so they don't get corrupted.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "makemusic-finale",
+        "display_name": "MakeMusic Finale"
+      },
+      {
+        "software": "makemusic-smartmusic",
+        "display_name": "MakeMusic SmartMusic"
+      }
+    ],
+    "macos": [
+      {
+        "software": "makemusic-finale",
+        "display_name": "MakeMusic Finale"
+      },
+      {
+        "software": "makemusic-smartmusic",
+        "display_name": "MakeMusic SmartMusic"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "ETF file icon",
+      "alt": "ETF file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/etf-1724.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2013-11-21",
+  "sources": [
+    {
+      "url": "etf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

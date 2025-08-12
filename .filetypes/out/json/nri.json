@@ -1,0 +1,53 @@
+{
+  "slug": "nri",
+  "extension": "nri",
+  "name": "Nero ISO CD Compilation File",
+  "category": "nero-iso-cd-compilation-file",
+  "developer_org": "nero",
+  "popularity": {
+    "rating": 4.1,
+    "votes": 11,
+    "source": "fileinfo"
+  },
+  "summary": "An NRI file is a compilation of files selected to be burned onto a CD, DVD, etc., by Nero Burning ROM software. It contains a list of references to files and their locations on the hard disk (not the actual files themselves).",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "nero-burning-rom",
+        "display_name": "Nero Burning ROM"
+      }
+    ],
+    "linux": [
+      {
+        "software": "nero-linux",
+        "display_name": "Nero Linux"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-10-26",
+  "sources": [
+    {
+      "url": "nri.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "slug": "cca",
+  "extension": "cca",
+  "name": "cc:Mail Archive File",
+  "category": "1.-cc-mail-archive-file",
+  "developer_org": "ibm",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "File created by cc:Mail, an older email software for MS-DOS that is no longer used; contains email messages for an email account, including attachments; used for backing up email data.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-importer-for-lotus-ccmail-archives",
+        "display_name": "Microsoft Importer for Lotus ccMail Archives"
+      },
+      {
+        "software": "clickteam-multimedia-fusion-1.5",
+        "display_name": "Clickteam Multimedia Fusion 1.5",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2016-10-12",
+  "sources": [
+    {
+      "url": "cca.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

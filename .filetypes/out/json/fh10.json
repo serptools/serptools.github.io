@@ -1,0 +1,71 @@
+{
+  "slug": "fh10",
+  "extension": "fh10",
+  "name": "FreeHand 10 Drawing File",
+  "category": "freehand-10-drawing-file",
+  "developer_org": "adobe-systems",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "Vector image created by FreeHand 10, a drawing program discontinued by Adobe in 2007; contains points, lines, curves, colors and gradients; can be scaled without losing image quality; used to create Web images and other print media.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "adobe-freehand",
+        "display_name": "Adobe FreeHand",
+        "pricing": "free"
+      },
+      {
+        "software": "adobe-illustrator-2025",
+        "display_name": "Adobe Illustrator 2025"
+      },
+      {
+        "software": "serif-affinity-designer",
+        "display_name": "Serif Affinity Designer"
+      }
+    ],
+    "macos": [
+      {
+        "software": "adobe-freehand",
+        "display_name": "Adobe FreeHand",
+        "pricing": "free"
+      },
+      {
+        "software": "adobe-illustrator-2025",
+        "display_name": "Adobe Illustrator 2025"
+      },
+      {
+        "software": "serif-affinity-designer",
+        "display_name": "Serif Affinity Designer"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-04-07",
+  "sources": [
+    {
+      "url": "fh10.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

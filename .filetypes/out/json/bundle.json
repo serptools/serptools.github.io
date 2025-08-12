@@ -1,0 +1,57 @@
+{
+  "slug": "bundle",
+  "extension": "bundle",
+  "name": "macOS Loadable Bundle",
+  "category": "1.-macos-loadable-bundle",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 66,
+    "source": "fileinfo"
+  },
+  "summary": "A BUNDLE file is a loadable bundle used by macOS or a macOS application. System-level BUNDLE files contain a collection of related files to which macOS needs access. App-specific BUNDLE files are typically used as plug-ins .",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "apple-macos",
+        "display_name": "Apple macOS"
+      }
+    ],
+    "windows": [
+      {
+        "software": "electronic-arts-burnout-paradise",
+        "display_name": "Electronic Arts Burnout Paradise"
+      },
+      {
+        "software": "electronic-arts-need-for-speed-most-wanted",
+        "display_name": "Electronic Arts Need for Speed: Most Wanted"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-10-17",
+  "sources": [
+    {
+      "url": "bundle.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "slug": "spe",
+  "extension": "spe",
+  "name": "WinSpec CCD Capture File",
+  "category": "1.-winspec-ccd-capture-file",
+  "developer_org": "roper-scientific",
+  "popularity": {
+    "rating": 3.1,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "Contains image data captured on the CCD of a PIXIS camera or other Princeton Instruments device; can be analyzed and modified using Roper Scientific's WinSpec or WinView software.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "roper-scientific-winview-or-winspec",
+        "display_name": "Roper Scientific WinView or WinSpec"
+      },
+      {
+        "software": "ibm-spss",
+        "display_name": "IBM SPSS"
+      }
+    ],
+    "macos": [
+      {
+        "software": "ibm-spss",
+        "display_name": "IBM SPSS"
+      }
+    ],
+    "linux": [
+      {
+        "software": "ibm-spss",
+        "display_name": "IBM SPSS"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2008-05-16",
+  "sources": [
+    {
+      "url": "spe.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

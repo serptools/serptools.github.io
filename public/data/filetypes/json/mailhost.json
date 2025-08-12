@@ -1,0 +1,24 @@
+{
+  "slug": "mailhost",
+  "extension": "mailhost",
+  "name": "MSN Mailhost Settings File",
+  "category": "msn-mailhost-settings-file",
+  "summary": "",
+  "developer_org": "microsoft",
+  "developer_name": "Microsoft",
+  "more_information": {
+    "description": [
+      "If the Mailhost file is corrupt or missing, the MSN software may display a \"Mailhost File\" error. To recover the Mailhost file, first select \"Run...\" from the Windows Start menu. Then type the following in the text box:",
+      "regsvr32 c:\\progra~1\\msn\\msncorefiles\\mailui.dll",
+      "This should restore the Mailhost file and allow MSN to communicate with the mail server again.",
+      "Also see the related .DOWNLOADHOST entry."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "mailhost.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

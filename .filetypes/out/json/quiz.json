@@ -1,0 +1,48 @@
+{
+  "slug": "quiz",
+  "extension": "quiz",
+  "name": "Quobject Quiz Package",
+  "category": "quobject-quiz-package",
+  "developer_org": "quobject-software",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 14,
+    "source": "fileinfo"
+  },
+  "summary": "Package of .QUOX files created for Quobject Explorer, a program used for preparing quizzes and exams; stores the archive using .ZIP compression and saves the QUOX files in the order they appear on the exam.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-10-08",
+  "sources": [
+    {
+      "url": "quiz.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

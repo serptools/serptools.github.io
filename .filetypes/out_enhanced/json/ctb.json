@@ -1,0 +1,29 @@
+{
+  "slug": "ctb",
+  "extension": "ctb",
+  "name": "AutoCAD Color-Based Plot Style File",
+  "category": "autocad-color-based-plot-style-file",
+  "summary": "",
+  "developer_org": "chitubox",
+  "developer_name": "Chitubox",
+  "more_information": {
+    "description": [
+      "CTB files can be replaced by the newer .STB format, which abstracts layer color-based properties to object-based properties. Many companies still use CTB files instead of STB files because of the cost required to train personnel and to upgrade existing CAD designs.",
+      "NOTE: CTB files and STB files cannot both be used within the same CAD design. CTB files may be converted to STB files using AutoCAD."
+    ]
+  },
+  "images": [
+    {
+      "url": "https://fileinfo.com/img/ss/sm/ctb_13572.png",
+      "alt": "Screenshot of a .ctb file in Chitubox",
+      "caption": "CTB file open in Chitubox"
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "ctb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

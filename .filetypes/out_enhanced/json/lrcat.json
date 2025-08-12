@@ -1,0 +1,36 @@
+{
+  "slug": "lrcat",
+  "extension": "lrcat",
+  "name": "Adobe Lightroom Classic Catalog",
+  "category": "adobe-lightroom-classic-catalog",
+  "summary": "",
+  "developer_org": "adobe-systems",
+  "developer_name": "Adobe Systems",
+  "more_information": {
+    "screenshot": {
+      "url": "https://fileinfo.com/img/ss/sm/lrcat_5850.png",
+      "alt": "Screenshot of a .lrcat file in Adobe Lightroom Classic",
+      "caption": "LRCAT file open in Adobe Lightroom Classic"
+    },
+    "description": [
+      "LRCAT files are typically stored in the ~/​Users/​YourUserName/​Pictures/​Lightroom directory and named Lightroom Catalog.lrcat . Each LRCAT file is stored with one or more .LRDATA files, which contain previews of the images your LRCAT file references.",
+      "In addition to storing the locations at which your photos reside, LRCAT files contain information about the edits you've applied to those photos. This allows Lightroom to load the edited versions of your photos, while also retaining the original files on your computer.",
+      "In the new version of Lightroom, LRCAT files have been replaced by .MCAT files. You can migrate an LRCAT file and the photos it references into the new version of Lightroom using the program's File → Migrate From → Lightroom Classic Catalog feature.",
+      "NOTE: Lightroom Classic was formerly known as Lightroom Classic CC and Photoshop Lightroom."
+    ]
+  },
+  "images": [
+    {
+      "url": "https://fileinfo.com/img/ss/sm/lrcat_5850.png",
+      "alt": "Screenshot of a .lrcat file in Adobe Lightroom Classic",
+      "caption": "LRCAT file open in Adobe Lightroom Classic"
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "lrcat.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "slug": "cvn",
+  "extension": "cvn",
+  "name": "CineVision Encoding Session",
+  "category": "cinevision-encoding-session",
+  "developer_org": "sonic-solutions",
+  "popularity": {
+    "rating": 3.2,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Disc encoding session created with Sonic CineVision, a CD/DVD and Blu-ray disc encoding program; contains a list of media files to be burned to a disc, as well as their titles and start and end times.",
+  "standards": [],
+  "mime_types": [
+    "cd/dvd"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "sonic-cinevision",
+        "display_name": "Sonic CineVision"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2008-08-30",
+  "sources": [
+    {
+      "url": "cvn.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

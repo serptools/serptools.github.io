@@ -1,0 +1,22 @@
+{
+  "slug": "mdsx",
+  "extension": "mdsx",
+  "name": "MEGA Saved Session",
+  "category": "mega-saved-session",
+  "summary": "",
+  "developer_org": "mega-team",
+  "developer_name": "MEGA Team",
+  "more_information": {
+    "description": [
+      "The MDSX format replaced the less efficient MEGA format that was used to save data in .MEG files. The new format comes improves save and load times of a file. Part of the data in the MDSX file is stored in readable format, whereas the rest of the data, which is the all the options of the session, is in binary format.",
+      "NOTE: MEGA stands for Molecular Evolutionary Genetics Analysis."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "mdsx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

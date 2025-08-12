@@ -1,0 +1,47 @@
+{
+  "slug": "rpv",
+  "extension": "rpv",
+  "name": "RealPlayer Visualization File",
+  "category": "realplayer-visualization-file",
+  "developer_org": "realnetworks",
+  "popularity": {
+    "rating": 2.8,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "Visualization file used by RealPlayer, an application used to stream Internet audio and video; contains information about a visualization such as the image and the settings for how it responds to sounds.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "realnetworks-realplayer-version-16-and-earlier",
+        "display_name": "RealNetworks RealPlayer version 16 and earlier"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2016-03-10",
+  "sources": [
+    {
+      "url": "rpv.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

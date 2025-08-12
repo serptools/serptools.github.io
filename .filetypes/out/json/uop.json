@@ -1,0 +1,82 @@
+{
+  "slug": "uop",
+  "extension": "uop",
+  "name": "Uniform Office Presentation",
+  "category": "1.-uniform-office-presentation",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 2.8,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Presentation file created in the Uniform Office Format (UOF), an open document format created for Chinese office productivity applications; uses XML to describe the presentation and stores the presentation as a compressed archive.",
+  "standards": [],
+  "mime_types": [
+    "and/or",
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "openoffice-impress",
+        "display_name": "OpenOffice Impress"
+      },
+      {
+        "software": "libreoffice",
+        "display_name": "LibreOffice"
+      },
+      {
+        "software": "electronic-arts-ultima-online",
+        "display_name": "Electronic Arts Ultima Online"
+      },
+      {
+        "software": "uofiddler",
+        "display_name": "UOFiddler"
+      }
+    ],
+    "macos": [
+      {
+        "software": "openoffice-impress",
+        "display_name": "OpenOffice Impress"
+      },
+      {
+        "software": "libreoffice",
+        "display_name": "LibreOffice"
+      }
+    ],
+    "linux": [
+      {
+        "software": "openoffice-impress",
+        "display_name": "OpenOffice Impress"
+      },
+      {
+        "software": "libreoffice",
+        "display_name": "LibreOffice"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-03-18",
+  "sources": [
+    {
+      "url": "uop.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

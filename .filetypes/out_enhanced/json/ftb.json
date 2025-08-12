@@ -1,0 +1,35 @@
+{
+  "slug": "ftb",
+  "extension": "ftb",
+  "name": "Family Tree Builder Genealogy Database File",
+  "category": "family-tree-builder-genealogy-database-file",
+  "summary": "",
+  "developer_org": "myheritage",
+  "developer_name": "MyHeritage",
+  "more_information": {
+    "screenshot": {
+      "url": "https://fileinfo.com/img/ss/sm/ftb_11714.png",
+      "alt": "Screenshot of a .ftb file in MyHeritage Family Tree Builder 8",
+      "caption": "FTB file open in MyHeritage Family Tree Builder 8"
+    },
+    "description": [
+      "FTB files were introduced with the release of version 8 of MyHeritage Family Tree Builder. The files are saved in an SQLite database format, which is more efficient than the Zip-compressed .ZED and .UZED database files it replaced. ZED files are primarily used by versions 1 - 6 of Family Tree Builder and UZED files are primarily used by version 7 of the software.",
+      "To create an FTB file with Family Tree Builder, select File → New Project... . The software automatically saves modifications to the project database. Family Tree Builder saves FTB files by default in the following directory:",
+      "C:\\​Users\\​[username]\\​Documents\\​MyHeritage\\​[Project name]\\​Database\\​"
+    ]
+  },
+  "images": [
+    {
+      "url": "https://fileinfo.com/img/ss/sm/ftb_11714.png",
+      "alt": "Screenshot of a .ftb file in MyHeritage Family Tree Builder 8",
+      "caption": "FTB file open in MyHeritage Family Tree Builder 8"
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "ftb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

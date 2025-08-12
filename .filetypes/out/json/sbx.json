@@ -1,0 +1,77 @@
+{
+  "slug": "sbx",
+  "extension": "sbx",
+  "name": "ScratchX Project File",
+  "category": "1.-scratchx-project-file",
+  "developer_org": "mit",
+  "popularity": {
+    "rating": 4.7,
+    "votes": 31,
+    "source": "fileinfo"
+  },
+  "summary": "An SBX file is a project created by ScratchX, a development platform used to test experimental JavaScript Scratch extensions. It contains a Scratch extension project developed by Scratch users to allow the Scratch programming language to interface with hardware, such as the iRobot vacuum or LEGO EV3 robots, or web information sources, such as Amazon Text to Speech or Google Translate.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "web": [
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      }
+    ],
+    "windows": [
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      },
+      {
+        "software": "dream-design-entertainment-glbasic-sdk",
+        "display_name": "Dream Design Entertainment GLBasic SDK"
+      },
+      {
+        "software": "esri-arcgis-for-desktop",
+        "display_name": "ESRI ArcGIS for Desktop"
+      },
+      {
+        "software": "adobe-illustrator-2025",
+        "display_name": "Adobe Illustrator 2025"
+      },
+      {
+        "software": "sbxdec",
+        "display_name": "SBXDec"
+      }
+    ],
+    "macos": [
+      {
+        "software": "adobe-illustrator-2025",
+        "display_name": "Adobe Illustrator 2025"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-10-26",
+  "sources": [
+    {
+      "url": "sbx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

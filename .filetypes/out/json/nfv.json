@@ -1,0 +1,65 @@
+{
+  "slug": "nfv",
+  "extension": "nfv",
+  "name": "Netflix Video File",
+  "category": "netflix-video-file",
+  "developer_org": "netflix",
+  "popularity": {
+    "rating": 3.2,
+    "votes": 46,
+    "source": "fileinfo"
+  },
+  "summary": "An NFV file is a video file created by the Netflix streaming app, which is available for Android and iOS. It contains encrypted video for a movie or show downloaded through the app. NFV files are used for offline viewing, a feature launched in December 2016. It allows you to watch movies or shows when not connected to the Internet.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "android": [
+      {
+        "software": "netflix",
+        "display_name": "Netflix"
+      }
+    ],
+    "ios": [
+      {
+        "software": "netflix",
+        "display_name": "Netflix"
+      }
+    ],
+    "windows": [
+      {
+        "software": "netflix",
+        "display_name": "Netflix"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "NFV file open in Netflix 9.0.1 in iOS 10.1.1",
+      "alt": "NFV file open in Netflix 9.0.1 in iOS 10.1.1",
+      "source_url": "https://fileinfo.com/img/ss/md/nfv_10391.jpg"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-01-17",
+  "sources": [
+    {
+      "url": "nfv.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

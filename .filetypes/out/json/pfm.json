@@ -1,0 +1,49 @@
+{
+  "slug": "pfm",
+  "extension": "pfm",
+  "name": "Printer Font Metrics File",
+  "category": "printer-font-metrics-file",
+  "developer_org": "adobe-systems",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 24,
+    "source": "fileinfo"
+  },
+  "summary": "Adobe Type 1 font used by the Microsoft Windows operating system; includes measurements of characters within the font; requires an associated .PFB file for the font; does not contain the actual font glyphs, but helps the font in the PFB file to be displayed correctly.",
+  "standards": [],
+  "mime_types": [
+    "pfm/pfb"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-windows-font-viewer",
+        "display_name": "Microsoft Windows Font Viewer"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-10-19",
+  "sources": [
+    {
+      "url": "pfm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

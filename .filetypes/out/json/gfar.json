@@ -1,0 +1,59 @@
+{
+  "slug": "gfar",
+  "extension": "gfar",
+  "name": "Greenfoot Archive",
+  "category": "greenfoot-archive",
+  "developer_org": "university-of-kent",
+  "popularity": {
+    "rating": 2.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "Archive associated with Greenfoot, a Java development environment; proprietary format of a .JAR archive; similar to a .GREENFOOT file but contains game and simulation scenarios that can be downloaded from the Greenfoot site.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "greenfoot",
+        "display_name": "Greenfoot"
+      }
+    ],
+    "macos": [
+      {
+        "software": "greenfoot",
+        "display_name": "Greenfoot"
+      }
+    ],
+    "linux": [
+      {
+        "software": "greenfoot",
+        "display_name": "Greenfoot"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2013-10-14",
+  "sources": [
+    {
+      "url": "gfar.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

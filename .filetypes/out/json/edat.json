@@ -1,0 +1,51 @@
+{
+  "slug": "edat",
+  "extension": "edat",
+  "name": "E-DataAid 1.x File",
+  "category": "1.-e-dataaid-1.x-file",
+  "developer_org": "psychology-software-tools",
+  "popularity": {
+    "rating": 2.8,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "File created by E-DataAid version 1, a data manipulation tool included with E-Prime psychology study software; saves data in the format of rows and columns; saves participant input data during the data collection phase; can be exported to StatView, SPSS, Microsoft Excel, Compressed IFIS, and text formats for statistical analysis.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "psychology-software-tools-e-prime",
+        "display_name": "Psychology Software Tools E-Prime"
+      },
+      {
+        "software": "microsoft-windows-with-usb-connection",
+        "display_name": "Microsoft Windows with USB connection"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-06-29",
+  "sources": [
+    {
+      "url": "edat.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

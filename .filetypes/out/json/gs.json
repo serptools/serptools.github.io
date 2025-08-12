@@ -1,0 +1,67 @@
+{
+  "slug": "gs",
+  "extension": "gs",
+  "name": "Google Apps Script",
+  "category": "1.-google-apps-script",
+  "developer_org": "google",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 27,
+    "source": "fileinfo"
+  },
+  "summary": "Script written in Google Apps Script, a programming language based on JavaScript and used for automating tasks across Google products online; used for creating online Web applications, such as a Web interface, a program that sends custom emails, or a program that automatically fills and formats Google Docs documents.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "web": [
+      {
+        "software": "google-apps-script",
+        "display_name": "Google Apps Script"
+      }
+    ],
+    "windows": [
+      {
+        "software": "google-apps-script",
+        "display_name": "Google Apps Script"
+      },
+      {
+        "software": "verity-software-house-gemstone",
+        "display_name": "Verity Software House GemStone"
+      },
+      {
+        "software": "geosoft-oasis-montaj",
+        "display_name": "Geosoft Oasis montaj"
+      }
+    ],
+    "macos": [
+      {
+        "software": "verity-software-house-gemstone",
+        "display_name": "Verity Software House GemStone"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-07-30",
+  "sources": [
+    {
+      "url": "gs.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

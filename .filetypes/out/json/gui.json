@@ -1,0 +1,47 @@
+{
+  "slug": "gui",
+  "extension": "gui",
+  "name": "Dr.Explain Project File",
+  "category": "dr.explain-project-file",
+  "developer_org": "indigo-byte-systems",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "Project file created by Dr.Explain, a help authoring tool; contains help topics and articles written by the help documentation developer; used for publishing help manuals in Windows Help ( .CHM ), .PDF , and online HTML formats.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "indigo-byte-systems-dr.explain",
+        "display_name": "Indigo Byte Systems Dr.Explain"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-12-28",
+  "sources": [
+    {
+      "url": "gui.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

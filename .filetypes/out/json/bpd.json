@@ -1,0 +1,55 @@
+{
+  "slug": "bpd",
+  "extension": "bpd",
+  "name": "Business Plan Pro Document",
+  "category": "1.-business-plan-pro-document",
+  "developer_org": "palo-alto-software",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "File created by Business Plan Pro, a program used for creating business plans; saves information such as an executive summary, market analyses, timelines, and financial/funding data; can be used for generating forecasts and for printing business plan documents.",
+  "standards": [],
+  "mime_types": [
+    "financial/funding",
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "palo-alto-software-business-plan-pro",
+        "display_name": "Palo Alto Software Business Plan Pro",
+        "status": "discontinued"
+      },
+      {
+        "software": "referenced-by-the-printer",
+        "display_name": "Referenced by the printer"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-02-09",
+  "sources": [
+    {
+      "url": "bpd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

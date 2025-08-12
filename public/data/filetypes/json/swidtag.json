@@ -1,0 +1,22 @@
+{
+  "slug": "swidtag",
+  "extension": "swidtag",
+  "name": "SWID Tag File",
+  "category": "swid-tag-file",
+  "summary": "",
+  "developer_org": "n-a",
+  "developer_name": "N/A",
+  "more_information": {
+    "description": [
+      "Software Identification (SWID) tag files are mainly used to help keep software installed on your network current and secure. The software publisher produces the SWID tag, validates and digitally signs it when building the application, and then packages it with the software installation process. When the user installs the software, he also installs the SWID tag, and the Installer tool validates it as necessary. When the user uninstalls the software, the SWID tag is removed as well.",
+      "SWIDTAG files are used by a variety of programs including the Microsoft Office and Adobe Creative Cloud applications. The SWIDTAG files are created after installation and placed in a registration id folder such as \"regid.1986-12.com.adobe\" for Adobe CC and \"regid.1991-06.com.microsoft\" for MS Office, that is located in the application data directory."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "swidtag.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "self",
+  "extension": "self",
+  "name": "Signed Executable and Linkable Format",
+  "category": "signed-executable-and-linkable-format",
+  "developer_org": "sony",
+  "popularity": {
+    "rating": 2.5,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "A SELF file is a code library used by the Sony PlayStation 3 (PS3) or PlayStation Vita. It contains drivers and functions that can be referenced and run by multiple PS3 or Vita apps and games. The PS3 and Vita use SELF files similarly to how Windows uses .DLL files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "rpcs3",
+        "display_name": "RPCS3"
+      }
+    ],
+    "linux": [
+      {
+        "software": "rpcs3",
+        "display_name": "RPCS3"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-08-26",
+  "sources": [
+    {
+      "url": "self.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

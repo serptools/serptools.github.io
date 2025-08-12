@@ -1,0 +1,67 @@
+{
+  "slug": "mi4",
+  "extension": "mi4",
+  "name": "Audio Player Firmware File",
+  "category": "audio-player-firmware-file",
+  "developer_org": "nvidia",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Firmware file used by various audio players that have the PortalPlayer chipset, including SanDisk, Philips, Samsung, and older iPod players; contains low-level software functions and themes that are used to run the audio player.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "rockbox-utility",
+        "display_name": "Rockbox Utility"
+      },
+      {
+        "software": "mi4code",
+        "display_name": "mi4code"
+      }
+    ],
+    "macos": [
+      {
+        "software": "rockbox-utility",
+        "display_name": "Rockbox Utility"
+      }
+    ],
+    "linux": [
+      {
+        "software": "rockbox-utility",
+        "display_name": "Rockbox Utility"
+      },
+      {
+        "software": "mi4code",
+        "display_name": "mi4code"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-02-23",
+  "sources": [
+    {
+      "url": "mi4.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

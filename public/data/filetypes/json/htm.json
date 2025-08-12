@@ -1,0 +1,39 @@
+{
+  "slug": "htm",
+  "extension": "htm",
+  "name": "Hypertext Markup Language File",
+  "summary": "An HTM file is a webpage written using Hypertext Markup Language ( HTML ). It contains tags and text that define the webpage's layout and content. HTM files are the same as .HTML files.",
+  "developer": "WHATWG",
+  "developer_slug": "whatwg",
+  "category": "Web Files",
+  "category_slug": "web-files",
+  "rating": 3.8,
+  "votes": 267,
+  "last_updated": "March 31, 2023",
+  "more_information": {
+    "content": [
+      "Old versions of Windows limited file extensions to three characters. Thus, while other platforms' web development tools saved HTML webpages with the .html extension, Microsoft's web development software, such as FrontPage, SharePoint Designer, and Expression Web, saved HTML webpages with the .htm extension. Since the three-character limitation no longer exists in Windows, most modern web development tools save HTML webpages as HTML files by default.",
+      "Just like HTML files, HTM files contain webpage content and metadata . These elements are defined using opening and closing HTML tags. For example, the tag pair <body></body> defines where a webpage's body content begins and ends, while the tag pair <img></img> is used to add an image to a webpage.",
+      "Unless you are a web developer, you are unlikely to encounter an HTM file. Web developers attempting to use HTM files with modern web servers and hosting systems may have to rename the files to use the .html extension, as some servers and systems now expect HTML files to use the .html extension by default."
+    ],
+    "screenshot": {
+      "url": "https://fileinfo.com/img/ss/sm/htm_35-2.png",
+      "srcset": "https://fileinfo.com/img/ss/md/htm_35-2.png 760w, https://fileinfo.com/img/ss/sm/htm_35-2.png 380w",
+      "alt": "Screenshot of a .htm file in Microsoft Visual Studio Code",
+      "width": "380",
+      "height": "253",
+      "caption": "HTM file open in Microsoft Visual Studio Code"
+    }
+  },
+  "how_to_open": {
+    "instructions": [
+      "You can open an HTM file with Microsoft Visual Studio Code (multiplatform) or any other text or source code editor, to view the HTML it contains. Opening an HTM file in a source code editor will highlight the file's HTML syntax, which makes reviewing and editing the file easier.",
+      "You can also open an HTM file in any web browser, such as Google Chrome (multiplatform), Microsoft Edge (multiplatform), or Apple Safari (Mac, iOS), to preview the webpage it contains."
+    ]
+  },
+  "scraped_at": "2025-08-09T21:58:54.949221",
+  "source": {
+    "url": "https://fileinfo.com/extension/htm",
+    "file": "htm.html"
+  }
+}

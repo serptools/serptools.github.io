@@ -1,0 +1,35 @@
+{
+  "slug": "flac",
+  "extension": "flac",
+  "name": "Free Lossless Audio Codec File",
+  "category": "free-lossless-audio-codec-file",
+  "summary": "",
+  "developer_org": "xiph.org-foundation",
+  "developer_name": "Xiph.Org Foundation",
+  "more_information": {
+    "screenshot": {
+      "url": "https://fileinfo.com/img/ss/sm/flac_680.png",
+      "alt": "Screenshot of a .flac file in Adobe Audition 2021",
+      "caption": "FLAC file open in Adobe Audition 2021"
+    },
+    "description": [
+      "FLAC reduces the size of digital audio by approximately 60 percent and is widely supported across popular platforms. The format is open-source and developed by the Xiph.Org Foundation.",
+      "A FLAC Fingerprint file, which contains the filename and checksum information for a FLAC file, may be generated along with the FLAC file. This file is typically named ffp.txt and can be created using the following command:",
+      "metaflac --show-md5sum flac_file_names > ffp.txt"
+    ]
+  },
+  "images": [
+    {
+      "url": "https://fileinfo.com/img/ss/sm/flac_680.png",
+      "alt": "Screenshot of a .flac file in Adobe Audition 2021",
+      "caption": "FLAC file open in Adobe Audition 2021"
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "flac.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

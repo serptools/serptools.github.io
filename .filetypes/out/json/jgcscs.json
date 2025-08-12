@@ -1,0 +1,47 @@
+{
+  "slug": "jgcscs",
+  "extension": "jgcscs",
+  "name": "EditPad Custom Syntax Coloring Scheme File",
+  "category": "editpad-custom-syntax-coloring-scheme-file",
+  "developer_org": "just-great-software",
+  "popularity": {
+    "rating": 2.3,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "File used by EditPad, a text and source code editor for Windows; saves information that allows the editor to support syntax highlighting for a particular language, such as HTML, PHP, Perl, or SQL; should be copied to the same directory as the EditPadPro.exe file to be installed.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "jgsoft-editpad-pro",
+        "display_name": "JGsoft EditPad Pro"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2013-03-26",
+  "sources": [
+    {
+      "url": "jgcscs.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

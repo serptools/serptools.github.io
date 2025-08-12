@@ -1,0 +1,51 @@
+{
+  "slug": "sqm",
+  "extension": "sqm",
+  "name": "Service Quality Monitoring File",
+  "category": "1.-service-quality-monitoring-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 18,
+    "source": "fileinfo"
+  },
+  "summary": "Log file created by the Service Quality Monitor program that records events on Windows computers; may include application use, performance, and errors from a program; SQM data can be sent to Microsoft, which helps the company fix and improve software programs.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-windows",
+        "display_name": "Microsoft Windows"
+      },
+      {
+        "software": "bohemia-interactive-studio-operation-flashpoint",
+        "display_name": "Bohemia Interactive Studio Operation Flashpoint"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-08-03",
+  "sources": [
+    {
+      "url": "sqm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

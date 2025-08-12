@@ -1,0 +1,73 @@
+{
+  "slug": "command",
+  "extension": "command",
+  "name": "Terminal Command File",
+  "category": "terminal-command-file",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 53,
+    "source": "fileinfo"
+  },
+  "summary": "Script file created for Terminal, the command line utility included with Mac OS X; contains plain text shell commands; used for executing commands automatically as if they were typed successively at the command line.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "apple-terminal",
+        "display_name": "Apple Terminal"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "macvim",
+        "display_name": "MacVim"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "windows": [
+      {
+        "software": "apple-terminal",
+        "display_name": "Apple Terminal"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-07-28",
+  "sources": [
+    {
+      "url": "command.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

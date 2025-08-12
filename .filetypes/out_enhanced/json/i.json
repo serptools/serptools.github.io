@@ -1,0 +1,22 @@
+{
+  "slug": "i",
+  "extension": "i",
+  "name": "Visual Studio Intermediate File",
+  "category": "visual-studio-intermediate-file",
+  "summary": "",
+  "developer_org": "intercal",
+  "developer_name": "INTERCAL",
+  "more_information": {
+    "description": [
+      "If you want to generate an \".i file\" from a source file, you can right-click on the file and select \"Properties.\" Then select C/C++ → Preprocessor in the Properties tree. Finally, deselect \"No\" for the \"Generate Preprocessed File\" option.",
+      "When you compile the file, an \".i file\" will be created. However, this setting may also prevent the compilation process from completing. Therefore, \"Generate Preprocessed File\" should be reset to \"No\" when you want to compile your project."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "i.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

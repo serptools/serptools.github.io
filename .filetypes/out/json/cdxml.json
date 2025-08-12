@@ -1,0 +1,71 @@
+{
+  "slug": "cdxml",
+  "extension": "cdxml",
+  "name": "ChemDraw XML File",
+  "category": "1.-chemdraw-xml-file",
+  "developer_org": "perkinelmer",
+  "popularity": {
+    "rating": 2.8,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Chemical information file created by ChemDraw, a molecule editing application suite; saves the molecular data in an XML format; used for saving and exchanging drawings that include atoms, bonds, fragments, arrows, text, and other molecular information.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "perkinelmer-chemdraw",
+        "display_name": "PerkinElmer ChemDraw"
+      },
+      {
+        "software": "open-babel",
+        "display_name": "Open Babel"
+      },
+      {
+        "software": "microsoft-windows-powershell",
+        "display_name": "Microsoft Windows PowerShell"
+      }
+    ],
+    "macos": [
+      {
+        "software": "perkinelmer-chemdraw",
+        "display_name": "PerkinElmer ChemDraw"
+      },
+      {
+        "software": "open-babel",
+        "display_name": "Open Babel"
+      }
+    ],
+    "linux": [
+      {
+        "software": "open-babel",
+        "display_name": "Open Babel"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-11-06",
+  "sources": [
+    {
+      "url": "cdxml.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

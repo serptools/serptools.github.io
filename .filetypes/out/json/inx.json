@@ -1,0 +1,77 @@
+{
+  "slug": "inx",
+  "extension": "inx",
+  "name": "Adobe InDesign Interchange File",
+  "category": "1.-adobe-indesign-interchange-file",
+  "developer_org": "adobe-systems",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 110,
+    "source": "fileinfo"
+  },
+  "summary": "An INX file is a document exported by Adobe InDesign in XML format. It contains information that completely describes an InDesign ( .INDD ) file, including pages, page content, text frames, colors, margins, guides, etc.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "adobe-indesign-2023",
+        "display_name": "Adobe InDesign 2023"
+      },
+      {
+        "software": "inkscape",
+        "display_name": "Inkscape"
+      },
+      {
+        "software": "flexera-installshield",
+        "display_name": "Flexera InstallShield"
+      }
+    ],
+    "macos": [
+      {
+        "software": "adobe-indesign-2023",
+        "display_name": "Adobe InDesign 2023"
+      },
+      {
+        "software": "inkscape",
+        "display_name": "Inkscape"
+      }
+    ],
+    "linux": [
+      {
+        "software": "inkscape",
+        "display_name": "Inkscape"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "INX file icon",
+      "alt": "INX file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/inx-2112.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-12-21",
+  "sources": [
+    {
+      "url": "inx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

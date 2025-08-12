@@ -1,0 +1,59 @@
+{
+  "slug": "sjava",
+  "extension": "sjava",
+  "name": "Synchronous Java File",
+  "category": "synchronous-java-file",
+  "developer_org": "epfl",
+  "popularity": {
+    "rating": 2.7,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "Source code file that can be compiled by SJavaC, a Java compiler that extends the Java 1.4 specification to support synchronous active objects; contains standard Java source code as well as synchronous active objects, which define threaded processing and locking behaviors.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "sjavac",
+        "display_name": "SJavaC"
+      }
+    ],
+    "macos": [
+      {
+        "software": "sjavac",
+        "display_name": "SJavaC"
+      }
+    ],
+    "linux": [
+      {
+        "software": "sjavac",
+        "display_name": "SJavaC"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-06-03",
+  "sources": [
+    {
+      "url": "sjava.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

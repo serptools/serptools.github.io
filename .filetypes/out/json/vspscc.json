@@ -1,0 +1,47 @@
+{
+  "slug": "vspscc",
+  "extension": "vspscc",
+  "name": "Visual Studio Project Source Control File",
+  "category": "visual-studio-project-source-control-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "Source Code Control (SCC) file for projects created with Microsoft Visual Studio; contains metadata used for tracking revisions of Visual Studio software development projects; includes information such as the version number, file path, and the number of nested projects.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-visual-studio-2022",
+        "display_name": "Microsoft Visual Studio 2022"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2008-11-21",
+  "sources": [
+    {
+      "url": "vspscc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

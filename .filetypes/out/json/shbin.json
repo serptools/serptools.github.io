@@ -1,0 +1,59 @@
+{
+  "slug": "shbin",
+  "extension": "shbin",
+  "name": "Nintendo 3DS Shader Binary File",
+  "category": "nintendo-3ds-shader-binary-file",
+  "developer_org": "nintendo",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "An SHBIN file is a shader binary file used by a Nintendo 3DS video game. It contains a compiled and linked shader program used to produce in-game shading, lighting, and other VFX effects. SHBIN files are referenced by other game components to determine objects' in-game appearance.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "nihstro",
+        "display_name": "nihstro"
+      }
+    ],
+    "macos": [
+      {
+        "software": "nihstro",
+        "display_name": "nihstro"
+      }
+    ],
+    "linux": [
+      {
+        "software": "nihstro",
+        "display_name": "nihstro"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-05-10",
+  "sources": [
+    {
+      "url": "shbin.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

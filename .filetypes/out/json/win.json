@@ -1,0 +1,62 @@
+{
+  "slug": "win",
+  "extension": "win",
+  "name": "FoxPro Window Settings",
+  "category": "1.-foxpro-window-settings",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 65,
+    "source": "fileinfo"
+  },
+  "summary": "A WIN file is a window settings file used by older versions of Microsoft FoxPro, a discontinued Windows database management system. It contains window definitions and settings referenced by the software to preserve the position, size, and state of windows within the FoxPro environment. WIN files help maintain a consistent workspace configuration across sessions.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      },
+      {
+        "software": "used-by-the-system-as-a-data-recovery-file-if-needed",
+        "display_name": "Used by the system as a data recovery file if needed"
+      },
+      {
+        "software": "undertalemodtool",
+        "display_name": "UndertaleModTool"
+      }
+    ],
+    "android": [
+      {
+        "software": "team-win-twrp",
+        "display_name": "Team Win TWRP"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2025-03-19",
+  "sources": [
+    {
+      "url": "win.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

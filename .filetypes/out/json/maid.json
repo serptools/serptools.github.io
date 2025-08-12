@@ -1,0 +1,61 @@
+{
+  "slug": "maid",
+  "extension": "maid",
+  "name": "CUSTOM CAST Character or Preset",
+  "category": "custom-cast-character-or-preset",
+  "developer_org": "custom-cast",
+  "popularity": {
+    "rating": 1.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "A MAID file is a character or preset created by CUSTOM CAST, a 3D character creation app for Android and iOS. It contains either a 3D character or a body type and/or clothing preset. Users can create and load MAID files in CUSTOM CAST.",
+  "standards": [],
+  "mime_types": [
+    "and/or"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "android": [
+      {
+        "software": "custom-cast",
+        "display_name": "CUSTOM CAST"
+      }
+    ],
+    "ios": [
+      {
+        "software": "custom-cast",
+        "display_name": "CUSTOM CAST"
+      }
+    ],
+    "windows": [
+      {
+        "software": "custom-cast",
+        "display_name": "CUSTOM CAST"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-04-17",
+  "sources": [
+    {
+      "url": "maid.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

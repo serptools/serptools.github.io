@@ -1,0 +1,51 @@
+{
+  "slug": "exz",
+  "extension": "exz",
+  "name": "Zipped Executable File",
+  "category": "zipped-executable-file",
+  "developer_org": "enderbyte-programs",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "An EXZ file is a zipped executable file created for use with EXZ, a Windows application launcher. It contains an executable program, such as an .EXE file, the program's assets, and an EXZMANIFEST file. The EXZMANIFEST file tells the EXZ launcher how to execute the program the EXZ file contains.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "rename-.exz-to-.zip-open-with-any-zip-decompression-utility",
+        "display_name": "Rename .exz to .zip ; open with any Zip-decompression utility"
+      },
+      {
+        "software": "enderbyte-programs-exz",
+        "display_name": "Enderbyte Programs EXZ"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-12-05",
+  "sources": [
+    {
+      "url": "exz.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

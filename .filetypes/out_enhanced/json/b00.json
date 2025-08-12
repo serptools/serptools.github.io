@@ -1,0 +1,23 @@
+{
+  "slug": "b00",
+  "extension": "b00",
+  "name": "BlindWrite CD Data Segment File",
+  "category": "blindwrite-cd-data-segment-file",
+  "summary": "",
+  "developer_org": "vso-software",
+  "developer_name": "VSO Software",
+  "more_information": {
+    "description": [
+      "BlindWrite is a program used to read, write, and back up CDs, DVDs, and Blu-ray discs. While more recent versions of the software no longer create B00 files, you may still encounter the files if you split data from an unprotected CD into multiple segments with an older version of BlindWrite.",
+      "In this case, you will most likely find a .B01 file and possibly a .B02 file in the same folder as the B00 file. These files store data segments from the same disc that make up the whole data.",
+      "The reason older versions of BlindWrite would create segments of data is to reduce the size of the backup files into smaller, more manageable file sizes. Each segment of the CD data was given an ascending number extension by BlindWrite, which includes B01, B02, etc. However, as storage space has increased over the years, the use of these segmented files declined and the files were eventually removed."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "b00.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

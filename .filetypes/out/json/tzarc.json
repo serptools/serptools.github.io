@@ -1,0 +1,57 @@
+{
+  "slug": "tzarc",
+  "extension": "tzarc",
+  "name": "Trainz Archive",
+  "category": "trainz-archive",
+  "developer_org": "n3v-games",
+  "popularity": {
+    "rating": 2.8,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "A TZARC file is an archive created by N3V Games Trainz: A New Era, a 3D train simulator video game. It contains saved game data, which includes train route, railyard, and scenario information. TZARC files allow users to restore game sessions in case of a game crash or a user wants to revert to a previous save.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "n3v-games-trainz-a-new-era",
+        "display_name": "N3V Games Trainz: A New Era"
+      },
+      {
+        "software": "tzarchiver",
+        "display_name": "TZarchiver"
+      }
+    ],
+    "macos": [
+      {
+        "software": "n3v-games-trainz-a-new-era",
+        "display_name": "N3V Games Trainz: A New Era"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-07-26",
+  "sources": [
+    {
+      "url": "tzarc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

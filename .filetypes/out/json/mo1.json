@@ -1,0 +1,89 @@
+{
+  "slug": "mo1",
+  "extension": "mo1",
+  "name": "Odyemu Video Game",
+  "category": "odyemu-video-game",
+  "developer_org": "paul-robson-and-david-winter",
+  "popularity": {
+    "rating": 1.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "An MO1 file is a video game that can be played in Odyemu, a Magnavox Odyssey emulator . It contains plain text that emulates the connections made between a Magnavox Odyssey and an Odyssey game cartridge. It may also contain a reference to a .BO1 file, which is used as a game overlay.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "odyemu",
+        "display_name": "Odyemu"
+      },
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "MO1 file open in Apple TextEdit",
+      "alt": "MO1 file open in Apple TextEdit",
+      "source_url": "https://fileinfo.com/img/ss/md/mo1_13070.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-12-19",
+  "sources": [
+    {
+      "url": "mo1.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

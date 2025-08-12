@@ -1,0 +1,81 @@
+{
+  "slug": "six",
+  "extension": "six",
+  "name": "Sixel Image",
+  "category": "sixel-image",
+  "developer_org": "digital-equipment-corporation",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "A SIX file is a raster image saved in the Sixel image format. It contains an image that was meant to be printed by a Digital Equipment Corporation (DEC) dot matrix printer or computer terminal. SIX files are comprised of \"sixels,\" which are sets of six pixel columns.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "imagemagick",
+        "display_name": "ImageMagick"
+      },
+      {
+        "software": "sixelviewer",
+        "display_name": "SixelViewer"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "imagemagick",
+        "display_name": "ImageMagick"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "imagemagick",
+        "display_name": "ImageMagick"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "SIX file open in ImageMagick",
+      "alt": "SIX file open in ImageMagick",
+      "source_url": "https://fileinfo.com/img/ss/md/six_12797.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-07-15",
+  "sources": [
+    {
+      "url": "six.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

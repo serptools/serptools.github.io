@@ -1,0 +1,65 @@
+{
+  "slug": "rpres",
+  "extension": "rpres",
+  "name": "R Presentation File",
+  "category": "r-presentation-file",
+  "developer_org": "the-r-project-for-statistical-computing",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "Presentation file created and used by RStudio, an open source IDE for the R programming language; contains information formatted in Markdown syntax that describes presentation slides based on your .RPROJ file; includes slide titles, author and date, slide content, R code chunks that display code, embedded images, and the slide background color.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "rstudio",
+        "display_name": "RStudio"
+      }
+    ],
+    "macos": [
+      {
+        "software": "rstudio",
+        "display_name": "RStudio"
+      }
+    ],
+    "linux": [
+      {
+        "software": "rstudio",
+        "display_name": "RStudio"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "RPRES file icon",
+      "alt": "RPRES file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/rpres-10014.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-07-27",
+  "sources": [
+    {
+      "url": "rpres.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

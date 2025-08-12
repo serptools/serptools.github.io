@@ -1,0 +1,71 @@
+{
+  "slug": "lockb",
+  "extension": "lockb",
+  "name": "Bun Install Lock File",
+  "category": "bun-install-lock-file",
+  "developer_org": "oven",
+  "popularity": {
+    "rating": 4.3,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "A LOCKB file is a file that contains data for packages, package metadata , and each package's dependencies, installed by Bun, an all-in-one manager for TypeScript and JavaScript projects. Bun creates LOCKB files when a Bun user runs bun install to make future installs quicker and more convenient.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "oven-bun",
+        "display_name": "Oven Bun"
+      },
+      {
+        "software": "microsoft-visual-studio-code-with-the-bun.lockb-extension",
+        "display_name": "Microsoft Visual Studio Code with the \"bun.lockb\" extension"
+      }
+    ],
+    "macos": [
+      {
+        "software": "oven-bun",
+        "display_name": "Oven Bun"
+      },
+      {
+        "software": "microsoft-visual-studio-code-with-the-bun.lockb-extension",
+        "display_name": "Microsoft Visual Studio Code with the \"bun.lockb\" extension"
+      }
+    ],
+    "linux": [
+      {
+        "software": "oven-bun",
+        "display_name": "Oven Bun"
+      },
+      {
+        "software": "microsoft-visual-studio-code-with-the-bun.lockb-extension",
+        "display_name": "Microsoft Visual Studio Code with the \"bun.lockb\" extension"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-09-01",
+  "sources": [
+    {
+      "url": "lockb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

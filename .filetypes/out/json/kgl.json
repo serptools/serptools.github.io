@@ -1,0 +1,69 @@
+{
+  "slug": "kgl",
+  "extension": "kgl",
+  "name": "Kagsa Library",
+  "category": "kagsa-library",
+  "developer_org": "kagsa",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "A KGL file is a library used by the Kagsa programming language . It contains one or more common functions developers can call while writing Kagsa source code files ( .KG files). KGL files are renamed .ZIP archives that contain .PY files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "rename-extension-to-.zip-open-with-any-zip-decompression-utility",
+        "display_name": "Rename extension to .zip ; open with any Zip decompression utility"
+      },
+      {
+        "software": "kagsa",
+        "display_name": "Kagsa"
+      }
+    ],
+    "macos": [
+      {
+        "software": "kagsa",
+        "display_name": "Kagsa"
+      }
+    ],
+    "linux": [
+      {
+        "software": "kagsa",
+        "display_name": "Kagsa"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "KGL file icon",
+      "alt": "KGL file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/kgl-12927.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-06-12",
+  "sources": [
+    {
+      "url": "kgl.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

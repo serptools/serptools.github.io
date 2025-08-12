@@ -1,0 +1,53 @@
+{
+  "slug": "ivue",
+  "extension": "ivue",
+  "name": "Live Picture IVUE Image",
+  "category": "live-picture-ivue-image",
+  "developer_org": "hsc-software",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "Raster image created by Live Picture, an image editing application for Mac OS Classic that is now discontinued; uses the IVUE format, which is a multi-resolution image format used as the basis for FlashPix ( .FPX files).",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "live-picture",
+        "display_name": "Live Picture"
+      }
+    ],
+    "windows": [
+      {
+        "software": "live-picture",
+        "display_name": "Live Picture"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-05-17",
+  "sources": [
+    {
+      "url": "ivue.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

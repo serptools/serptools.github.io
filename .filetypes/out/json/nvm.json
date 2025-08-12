@@ -1,0 +1,55 @@
+{
+  "slug": "nvm",
+  "extension": "nvm",
+  "name": "PlayStation 2 BIOS Configuration File",
+  "category": "playstation-2-bios-configuration-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 13,
+    "source": "fileinfo"
+  },
+  "summary": "Configuration file created for PlayStation 2 BIOS used in game emulation ; contains data, such as language and time zone, used to configure a PlayStation 2; automatically created when first running BIOS; should remain in the BIOS folder.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "pcsx2",
+        "display_name": "PCSX2"
+      }
+    ],
+    "linux": [
+      {
+        "software": "pcsx2",
+        "display_name": "PCSX2"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2013-08-23",
+  "sources": [
+    {
+      "url": "nvm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

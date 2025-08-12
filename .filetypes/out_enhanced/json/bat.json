@@ -1,0 +1,27 @@
+{
+  "slug": "bat",
+  "extension": "bat",
+  "name": "DOS Batch File",
+  "category": "dos-batch-file",
+  "summary": "",
+  "developer_org": "microsoft",
+  "developer_name": "Microsoft",
+  "more_information": {
+    "description": [
+      "BAT files are typically only used by computer-savvy DOS or Windows users looking to make repetitive tasks easier to complete. Users can manually create BAT files with a text editor, such as Notepad or Wordpad, and add multiple commands on separate lines that can be executed by the command-line interpreter. When saving a batch file, save it with a .bat extension or save it as a .TXT file then rename the .txt file extension as .bat ."
+    ]
+  },
+  "common_filenames": [
+    {
+      "filename": "AUTOEXEC.BAT",
+      "description": "AUTOEXEC.BAT - The batch file run by DOS and older versions of Windows (95, 98, and Me) upon startup. It is located in the root directory of the boot drive."
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "bat.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

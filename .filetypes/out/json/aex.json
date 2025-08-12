@@ -1,0 +1,73 @@
+{
+  "slug": "aex",
+  "extension": "aex",
+  "name": "After Effects Plug-in",
+  "category": "1.-after-effects-plug-in",
+  "developer_org": "adobe-systems",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 24,
+    "source": "fileinfo"
+  },
+  "summary": "An AEX file is a plug-in used by Adobe After Effects and Premiere Pro, which are professional video-editing applications. It stores content that extends the functionality of the After Effects application, such as support for camera raw files or video filters. AEX files are written in the C/C++ programming language.",
+  "standards": [],
+  "mime_types": [
+    "c/c"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "adobe-after-effects-2025",
+        "display_name": "Adobe After Effects 2025"
+      },
+      {
+        "software": "adobe-premiere-pro-2023",
+        "display_name": "Adobe Premiere Pro 2023"
+      },
+      {
+        "software": "alpha-software-alpha-anywhere",
+        "display_name": "Alpha Software Alpha Anywhere"
+      }
+    ],
+    "macos": [
+      {
+        "software": "adobe-after-effects-2025",
+        "display_name": "Adobe After Effects 2025"
+      },
+      {
+        "software": "adobe-premiere-pro-2023",
+        "display_name": "Adobe Premiere Pro 2023"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "AEX file icon",
+      "alt": "AEX file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/aex-10550.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-12-20",
+  "sources": [
+    {
+      "url": "aex.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "mgt",
+  "extension": "mgt",
+  "name": "Musicnotes Guitar Guru Song File",
+  "category": "musicnotes-guitar-guru-song-file",
+  "developer_org": "musicnotes",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Song file used by Guitar Guru, an application used to teach users how to play the guitar; contains a guitar tablature, song audio data, and fingerboard information; used for displaying a simulation of the guitar performance; also used for storing downloaded songs from Musicnotes.com.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "musicnotes-guitar-guru",
+        "display_name": "Musicnotes Guitar Guru"
+      }
+    ],
+    "macos": [
+      {
+        "software": "musicnotes-guitar-guru",
+        "display_name": "Musicnotes Guitar Guru"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-08-25",
+  "sources": [
+    {
+      "url": "mgt.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

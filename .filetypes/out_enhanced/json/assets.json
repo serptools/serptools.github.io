@@ -1,0 +1,28 @@
+{
+  "slug": "assets",
+  "extension": "assets",
+  "name": "Unity Asset File",
+  "category": "unity-asset-file",
+  "summary": "",
+  "developer_org": "unity-technologies",
+  "developer_name": "Unity Technologies",
+  "more_information": {
+    "description": [
+      "ASSETS files are typically seen when building a Unity development project into an executable game deliverable or when modding a game. If you are looking to alter gameplay of a game, such as how characters or the environment appear, you can edit ASSETS files and place them back in their directory. ASSETS files are commonly stored in the \"Assets\" folder in the Unity game directory.",
+      "NOTE: You can use the Unity Assets Bundle Extractor to edit, export, and import ASSETS files."
+    ]
+  },
+  "common_filenames": [
+    {
+      "filename": "resources.assets",
+      "description": "resources.assets - A common name of an ASSETS file that contains textures, meshes, level layouts, and other game resource files."
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "assets.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

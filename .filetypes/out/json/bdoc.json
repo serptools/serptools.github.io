@@ -1,0 +1,62 @@
+{
+  "slug": "bdoc",
+  "extension": "bdoc",
+  "name": "Binary DigiDoc Signature File",
+  "category": "binary-digidoc-signature-file",
+  "developer_org": "ria",
+  "popularity": {
+    "rating": 2.4,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "A BDOC file is a binary digital document (DigiDoc) created with qDigiDoc, an open source software used to authenticate Estonian and Finnish government issued ID cards and signed documents. It is a .ZIP compressed container that stores the files that have been signed by a government employee, the signatures related to each file, and the protocol control information.",
+  "standards": [],
+  "mime_types": [
+    "meta-inf/manifest.xml",
+    "meta-inf/signatures1.xml"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "qdigidoc",
+        "display_name": "qDigiDoc"
+      }
+    ],
+    "macos": [
+      {
+        "software": "qdigidoc",
+        "display_name": "qDigiDoc"
+      }
+    ],
+    "linux": [
+      {
+        "software": "qdigidoc",
+        "display_name": "qDigiDoc"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-02-24",
+  "sources": [
+    {
+      "url": "bdoc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

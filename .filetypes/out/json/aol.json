@@ -1,0 +1,53 @@
+{
+  "slug": "aol",
+  "extension": "aol",
+  "name": "America Online File",
+  "category": "america-online-file",
+  "developer_org": "aol",
+  "popularity": {
+    "rating": 2.8,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "An AOL file is a resource file installed with older versions of discontinued America Online software. It contains information referenced by certain features of the AOL program; for example, the AOL Shopping Assistant references the payment.aol file.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "america-online",
+        "display_name": "America Online"
+      }
+    ],
+    "macos": [
+      {
+        "software": "america-online",
+        "display_name": "America Online"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-06-14",
+  "sources": [
+    {
+      "url": "aol.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "msix",
+  "extension": "msix",
+  "name": "MSIX Installer Package",
+  "category": "msix-installer-package",
+  "summary": "",
+  "developer_org": "microsoft",
+  "developer_name": "Microsoft",
+  "more_information": {
+    "screenshot": {
+      "url": "https://fileinfo.com/img/ss/sm/msix_11205.png",
+      "alt": "MSIX file shown in Windows File Explorer",
+      "caption": "MSIX file shown in Windows File Explorer"
+    },
+    "description": [
+      "MSIX is a universal package format that developers can use to distribute their programs to users through the Microsoft Store. Microsoft introduced the MSIX format in 2018, with the release of Windows 10 version 1809. The format supports classic Win32 apps and is designed to eventually replace AppX, MSI, and other Windows installer formats. MSIX offers enhanced security, streamlined app updates through Windows, and cleaner app uninstallation.",
+      "Several programs, including Microsoft Visual Studio, MSIX Packaging Tool, and Caphyon Advanced Installer, can create MSIX packages. If you have an existing app that you want to save in the MSIX format, you can use the MSIX Packaging Tool to quickly repackage your app."
+    ]
+  },
+  "images": [
+    {
+      "url": "https://fileinfo.com/img/ss/sm/msix_11205.png",
+      "alt": "MSIX file shown in Windows File Explorer",
+      "caption": "MSIX file shown in Windows File Explorer"
+    },
+    {
+      "url": "https://fileinfo.com/img/ss/sm/msix_11205-2.png",
+      "alt": "Contents of a decompressed MSIX file",
+      "caption": "Contents of a decompressed MSIX file"
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "msix.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

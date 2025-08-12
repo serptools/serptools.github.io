@@ -1,0 +1,63 @@
+{
+  "slug": "r2",
+  "extension": "r2",
+  "name": "WinRAR Multi-Volume Archive Part 2",
+  "category": "winrar-multi-volume-archive-part-2",
+  "developer_org": "rarlab",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Archive file that is compressed using WinRAR, a program used to create single or multi-volume archives; contains part two of a compressed volume; stores a compressed part or fragment of a larger file; may use the extensions R0 through R99.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "rarlab-winrar",
+        "display_name": "RARLAB WinRAR"
+      },
+      {
+        "software": "corel-winzip",
+        "display_name": "Corel WinZip"
+      }
+    ],
+    "macos": [
+      {
+        "software": "rarlab-rar-for-macos",
+        "display_name": "RARLAB RAR for macOS"
+      }
+    ],
+    "linux": [
+      {
+        "software": "rarlab-rar-for-linux",
+        "display_name": "RARLAB RAR for Linux"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2016-02-02",
+  "sources": [
+    {
+      "url": "r2.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

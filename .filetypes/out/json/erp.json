@@ -1,0 +1,61 @@
+{
+  "slug": "erp",
+  "extension": "erp",
+  "name": "Alter Ego Game Archive",
+  "category": "1.-alter-ego-game-archive",
+  "developer_org": "future-games",
+  "popularity": {
+    "rating": 3.1,
+    "votes": 10,
+    "source": "fileinfo"
+  },
+  "summary": "Game file used by Alter Ego, a dark adventure game; stores an archive of game files, which may contain graphics, audio, and other game data; used for loading game content; can be unpacked using the Alter Ego ERP unpacker.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "future-games-alter-ego",
+        "display_name": "Future Games Alter Ego"
+      },
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      },
+      {
+        "software": "ego-erp-archiver",
+        "display_name": "Ego ERP Archiver"
+      },
+      {
+        "software": "microsoft-encarta",
+        "display_name": "Microsoft Encarta",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-02-09",
+  "sources": [
+    {
+      "url": "erp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

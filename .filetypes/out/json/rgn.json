@@ -1,0 +1,71 @@
+{
+  "slug": "rgn",
+  "extension": "rgn",
+  "name": "Garmin Regional Map File",
+  "category": "garmin-regional-map-file",
+  "developer_org": "garmin",
+  "popularity": {
+    "rating": 3.2,
+    "votes": 11,
+    "source": "fileinfo"
+  },
+  "summary": "Map data file saved in a database format; contains a map of a specific region that can be loaded by Garmin software and GPS devices; may also contain information that can be used to update a GPS device's firmware.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "garmin-mapinstall",
+        "display_name": "Garmin MapInstall"
+      },
+      {
+        "software": "turboccc-ttsvoiceeditor",
+        "display_name": "TurboCCC TTSVoiceEditor"
+      }
+    ],
+    "web": [
+      {
+        "software": "garmin-webupdater",
+        "display_name": "Garmin WebUpdater"
+      },
+      {
+        "software": "garmin-mapinstall",
+        "display_name": "Garmin MapInstall"
+      },
+      {
+        "software": "turboccc-ttsvoiceeditor",
+        "display_name": "TurboCCC TTSVoiceEditor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "garmin-mapinstall",
+        "display_name": "Garmin MapInstall"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2008-07-07",
+  "sources": [
+    {
+      "url": "rgn.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

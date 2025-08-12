@@ -1,0 +1,40 @@
+{
+  "slug": "egg",
+  "extension": "egg",
+  "name": "Panda3D Model File",
+  "category": "panda3d-model-file",
+  "summary": "",
+  "developer_org": "beat-games",
+  "developer_name": "Beat Games",
+  "more_information": {
+    "screenshot": {
+      "url": "https://fileinfo.com/img/ss/sm/egg_3730.png",
+      "alt": "Screenshot of a .egg file in PView",
+      "caption": "EGG file open in PView"
+    },
+    "description": [
+      "In Panda 3D, the term \"model\" refers to a static 3D model, while \"actor\" refers to an animatable 3D model. Actors saved within EGG files are animated using animations saved within separate EGG files. While developers can save an actor and its associated animation within the same EGG file, Panda3D recommends that they do not do so, to avoid confusion while coding.",
+      "To convert 3D models and animations created in other applications to EGG files, developers must use one of several separate utilities. Which utility they must use depends on the program they used to create their model or animation.",
+      "NOTE: After a developer imports an EGG file into Panda3D, it is converted to a performance-optimized BAM file for faster access."
+    ]
+  },
+  "images": [
+    {
+      "url": "https://fileinfo.com/img/ss/sm/egg_3730.png",
+      "alt": "Screenshot of a .egg file in PView",
+      "caption": "EGG file open in PView"
+    },
+    {
+      "url": "https://fileinfo.com/img/ss/sm/egg_7928.jpg",
+      "alt": "Screenshot of a .egg file in ESTSoft ALZip 8",
+      "caption": "EGG file open in ESTSoft ALZip 8"
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "egg.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

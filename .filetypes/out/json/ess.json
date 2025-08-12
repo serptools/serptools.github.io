@@ -1,0 +1,60 @@
+{
+  "slug": "ess",
+  "extension": "ess",
+  "name": "The Elder Scrolls Saved Game",
+  "category": "1.-the-elder-scrolls-saved-game",
+  "developer_org": "bethesda-softworks",
+  "popularity": {
+    "rating": 4.4,
+    "votes": 20,
+    "source": "fileinfo"
+  },
+  "summary": "Saved game created by The Elder Scrolls (TES) first person role-playing games, including Skyrim (TES 5), Oblivion (TES 4), and Morrowind (TES 3); stores the game progress for quests as well as the character's level and items; also saves the play time.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "bethesda-softworks-the-elder-scrolls-5-skyrim",
+        "display_name": "Bethesda Softworks The Elder Scrolls 5: Skyrim"
+      },
+      {
+        "software": "bethesda-softworks-the-elder-scrolls-4-oblivion",
+        "display_name": "Bethesda Softworks The Elder Scrolls 4: Oblivion"
+      },
+      {
+        "software": "bethesda-softworks-the-elder-scrolls-3-morrowind",
+        "display_name": "Bethesda Softworks The Elder Scrolls 3: Morrowind"
+      },
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-11-14",
+  "sources": [
+    {
+      "url": "ess.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

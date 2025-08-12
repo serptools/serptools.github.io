@@ -1,0 +1,53 @@
+{
+  "slug": "dwl2",
+  "extension": "dwl2",
+  "name": "AutoCAD Drawing Lock File",
+  "category": "autocad-drawing-lock-file",
+  "developer_org": "autodesk",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 18,
+    "source": "fileinfo"
+  },
+  "summary": "A DWL2 file is a file used to lock a drawing created by AutoCAD, a program used to design 2D and 3D designs. It stores lock information when a drawing ( .DWG file) is opened in the program. DWL2 files prevent simultaneous access by different users to a drawing, which may cause the file to become corrupted.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "autodesk-autocad-2025",
+        "display_name": "Autodesk AutoCAD 2025"
+      }
+    ],
+    "macos": [
+      {
+        "software": "autodesk-autocad-2025",
+        "display_name": "Autodesk AutoCAD 2025"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-04-12",
+  "sources": [
+    {
+      "url": "dwl2.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

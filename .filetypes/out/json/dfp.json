@@ -1,0 +1,53 @@
+{
+  "slug": "dfp",
+  "extension": "dfp",
+  "name": "Fusion Plugin File",
+  "category": "fusion-plugin-file",
+  "developer_org": "blackmagic-design",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "Plugin for Blackmagic Design's Fusion, a digital 3D graphics compositing application; adds extra features and functionality to the program; examples include additional image effects, animation effects, compositing functions, and file export capabilities.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "blackmagic-design-fusion",
+        "display_name": "Blackmagic Design Fusion"
+      }
+    ],
+    "macos": [
+      {
+        "software": "blackmagic-design-fusion",
+        "display_name": "Blackmagic Design Fusion"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-10-08",
+  "sources": [
+    {
+      "url": "dfp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

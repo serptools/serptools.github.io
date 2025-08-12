@@ -1,0 +1,53 @@
+{
+  "slug": "sai2",
+  "extension": "sai2",
+  "name": "PaintTool SAI Version 2 Image",
+  "category": "painttool-sai-version-2-image",
+  "developer_org": "systemax-software-development",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 10,
+    "source": "fileinfo"
+  },
+  "summary": "An SAI2 file is a raster image created by PainTool SAI version 2, a lightweight painting application for Windows. It is saved in the SAI2 format, which is the second version of the SAI format used in .SAI files. The SAI2 file contains a drawing on a canvas created by the user, which consists of one or more independent editing layers. SAI2 files can be saved, closed, and reopened for further editing.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "systemax-painttool-sai-version-2",
+        "display_name": "SYSTEMAX PaintTool SAI Version 2"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "SAI2 file open in SYSTEMAX PaintTool SAI Version 2",
+      "alt": "SAI2 file open in SYSTEMAX PaintTool SAI Version 2",
+      "source_url": "https://fileinfo.com/img/ss/md/sai2_11760.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-11-13",
+  "sources": [
+    {
+      "url": "sai2.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

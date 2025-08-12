@@ -1,0 +1,57 @@
+{
+  "slug": "abf",
+  "extension": "abf",
+  "name": "Adobe Binary Screen Font File",
+  "category": "1.-adobe-binary-screen-font-file",
+  "developer_org": "adobe-systems",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 19,
+    "source": "fileinfo"
+  },
+  "summary": "Binary encoding of Adobe's character bitmap distribution formation, which is an ASCII text-encoded font format; each ABF file consists of a sequence of 8-bit bytes; character bitmaps are stored in a \"strike\" format, which is a rectangular pixel array; the height of the rectangle is the height of the tallest character in the font and the width is the sum of all the character widths.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "used-by-programs-that-access-system-fonts",
+        "display_name": "Used by programs that access system fonts"
+      },
+      {
+        "software": "microsoft-sql-server-2019",
+        "display_name": "Microsoft SQL Server 2019"
+      }
+    ],
+    "macos": [
+      {
+        "software": "used-by-programs-that-access-system-fonts",
+        "display_name": "Used by programs that access system fonts"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2007-03-03",
+  "sources": [
+    {
+      "url": "abf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

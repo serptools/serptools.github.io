@@ -1,0 +1,85 @@
+{
+  "slug": "has",
+  "extension": "has",
+  "name": "Haskell Script",
+  "category": "haskell-script",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "Source code of a program written in Haskell, a purely functional programming language, which means the code is based on functions; uses non-strict semantics, which allows functions and data structures to be defined by the user.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "winhugs",
+        "display_name": "WinHugs"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "hugs",
+        "display_name": "Hugs"
+      },
+      {
+        "software": "hbc-compiler",
+        "display_name": "HBC compiler"
+      }
+    ],
+    "macos": [
+      {
+        "software": "hugs",
+        "display_name": "Hugs"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "hugs",
+        "display_name": "Hugs"
+      },
+      {
+        "software": "hbc-compiler",
+        "display_name": "HBC compiler"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-12-05",
+  "sources": [
+    {
+      "url": "has.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

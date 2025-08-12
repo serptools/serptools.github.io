@@ -1,0 +1,53 @@
+{
+  "slug": "uw8",
+  "extension": "uw8",
+  "name": "MicroW8 Cartridge File",
+  "category": "microw8-cartridge-file",
+  "developer_org": "exoticorn",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "A UW8 file is a MicroW8 program, meant to be run or played with the MicroW8 fantasy console. It is a binary WebAssembly file that defines the program's functions and included assets. Many UW8 files contain retro-style 8-bit video games.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "exoticorn-microw8",
+        "display_name": "Exoticorn MicroW8"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "UW8 file open in MicroW8",
+      "alt": "UW8 file open in MicroW8",
+      "source_url": "https://fileinfo.com/img/ss/md/uw8_13104.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-01-13",
+  "sources": [
+    {
+      "url": "uw8.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

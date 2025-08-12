@@ -1,0 +1,22 @@
+{
+  "slug": "ivue",
+  "extension": "ivue",
+  "name": "Live Picture IVUE Image",
+  "category": "live-picture-ivue-image",
+  "summary": "",
+  "developer_org": "hsc-software",
+  "developer_name": "HSC Software",
+  "more_information": {
+    "description": [
+      "When editing an IVUE image in Live Picture, adjustment layers can be applied to modify subsections of the image. While the IVUE image itself is not modified, instructions for the adjustments are stored in FITS (Functional Interpolating Transformation System) or FPX files. When a manipulated IVUE image is ready for output in Live Picture, the IVUE image and FITS or FPX files are processed together and built into a more standard format such as .JPG , .TIFF , or .PSD . Final images can be built with calculations in 48-bit depth and down sampled to 24-bit depth. Localized views can also be selected in Live Picture and output as standard image files.",
+      "NOTE: The IVUE format is no longer supported. Live Picture was previously available for Mac OS Classic and also offered a Photoshop plug-in for reading the IVUE format. Live Picture competed with Adobe Photoshop in the 1990s as one of the top image editors for Mac."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "ivue.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

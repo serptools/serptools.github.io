@@ -1,0 +1,102 @@
+{
+  "slug": "l",
+  "extension": "l",
+  "name": "Left Audio Channel File",
+  "category": "1.-left-audio-channel-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 19,
+    "source": "fileinfo"
+  },
+  "summary": "Audio file containing the left channel of an audio track; may be exported by an audio production program, such as Digital Performer (Mac) or Cubase (Mac and Windows).",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "music-player",
+        "display_name": "music player"
+      },
+      {
+        "software": "life32",
+        "display_name": "Life32"
+      },
+      {
+        "software": "game-of-life-java-applet",
+        "display_name": "Game of Life Java applet"
+      },
+      {
+        "software": "microsoft-visual-studio-with-mks-lex-yacc-plug-in",
+        "display_name": "Microsoft Visual Studio with MKS Lex & Yacc plug-in"
+      }
+    ],
+    "macos": [
+      {
+        "software": "music-player",
+        "display_name": "music player"
+      },
+      {
+        "software": "game-of-life-java-applet",
+        "display_name": "Game of Life Java applet"
+      },
+      {
+        "software": "apple-xcode",
+        "display_name": "Apple Xcode"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      },
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      },
+      {
+        "software": "gnu-emacs",
+        "display_name": "GNU Emacs"
+      }
+    ],
+    "linux": [
+      {
+        "software": "game-of-life-java-applet",
+        "display_name": "Game of Life Java applet"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2006-12-09",
+  "sources": [
+    {
+      "url": "l.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

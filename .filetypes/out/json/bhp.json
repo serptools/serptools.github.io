@@ -1,0 +1,84 @@
+{
+  "slug": "bhp",
+  "extension": "bhp",
+  "name": "BonhommePendu Wordlist",
+  "category": "bonhommependu-wordlist",
+  "developer_org": "richard-berger",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "A BHP file is a wordlist used by BonhommePendu, a free, French version of Hangman. It contains a plain text list of words that can be loaded into the game. BonhommePendu includes three default BHP files, and players can download additional BHP files from the game's website.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "bonhommependu",
+        "display_name": "BonhommePendu"
+      },
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      }
+    ],
+    "macos": [
+      {
+        "software": "bonhommependu",
+        "display_name": "BonhommePendu"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "BHP file icon",
+      "alt": "BHP file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/bhp-13047.png"
+    },
+    {
+      "caption": "BHP file open in BonhommePendu",
+      "alt": "BHP file open in BonhommePendu",
+      "source_url": "https://fileinfo.com/img/ss/md/bhp_13047.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-12-07",
+  "sources": [
+    {
+      "url": "bhp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "slug": "hog",
+  "extension": "hog",
+  "name": "Descent or Descent 2 Mission File",
+  "category": "descent-or-descent-2-mission-file",
+  "developer_org": "interplay-productions",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "A HOG file is a game data file used by Descent or Descent 2, first-person shooter games in which players pilot a spaceship through underground mines. It contains all the assets and other game data used to load the game's missions. For example, HOG files contain .PIG and .HAM files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "interplay-productions-descent",
+        "display_name": "Interplay Productions Descent"
+      },
+      {
+        "software": "interplay-productions-descent-2",
+        "display_name": "Interplay Productions Descent 2"
+      },
+      {
+        "software": "descent-hog-packer-and-unpacker",
+        "display_name": "Descent HOG Packer and Unpacker"
+      }
+    ],
+    "macos": [
+      {
+        "software": "interplay-productions-descent",
+        "display_name": "Interplay Productions Descent"
+      },
+      {
+        "software": "interplay-productions-descent-2",
+        "display_name": "Interplay Productions Descent 2"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-08-24",
+  "sources": [
+    {
+      "url": "hog.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

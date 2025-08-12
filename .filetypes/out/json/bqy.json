@@ -1,0 +1,52 @@
+{
+  "slug": "bqy",
+  "extension": "bqy",
+  "name": "Brio Query File",
+  "category": "brio-query-file",
+  "developer_org": "brio-software",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 14,
+    "source": "fileinfo"
+  },
+  "summary": "File used by Brio Insight, an Internet Explorer plug-in used for displaying reports generated from Brio business intelligence software; contains a query that generates a client-side report from a server when executed.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-internet-explorer-with-brio-insight-plug-in",
+        "display_name": "Microsoft Internet Explorer with Brio Insight plug-in",
+        "status": "discontinued"
+      },
+      {
+        "software": "oracle-hyperion-planning",
+        "display_name": "Oracle Hyperion Planning"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-08-23",
+  "sources": [
+    {
+      "url": "bqy.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

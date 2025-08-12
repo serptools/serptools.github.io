@@ -1,0 +1,48 @@
+{
+  "slug": "qmg",
+  "extension": "qmg",
+  "name": "Samsung Theme Graphics File",
+  "category": "samsung-theme-graphics-file",
+  "developer_org": "samsung",
+  "popularity": {
+    "rating": 3.1,
+    "votes": 21,
+    "source": "fileinfo"
+  },
+  "summary": "File included as part of a Samsung mobile phone theme; saves a graphic for a part of the theme ( .SMT file); may be for the phone background, a button, or another visual item; compiled into a proprietary Samsung binary format.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "samsung-theme-designer",
+        "display_name": "Samsung Theme Designer",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-07-18",
+  "sources": [
+    {
+      "url": "qmg.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

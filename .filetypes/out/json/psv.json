@@ -1,0 +1,114 @@
+{
+  "slug": "psv",
+  "extension": "psv",
+  "name": "Pipe System Viewer File",
+  "category": "1.-pipe-system-viewer-file",
+  "developer_org": "engineered-software",
+  "popularity": {
+    "rating": 4.2,
+    "votes": 36,
+    "source": "fileinfo"
+  },
+  "summary": "A PSV file is a computer-assisted design ( CAD ) file created by Engineered Software PIPE-FLO Professional, an application used to design liquid piping systems. It contains a read-only model of a piping system. PSV files could previously be opened in PIPE-FLO Viewer, but that application is now discontinued.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "engineered-software-pipe-flo-viewer",
+        "display_name": "Engineered Software PIPE-FLO Viewer"
+      },
+      {
+        "software": "psv-exporter",
+        "display_name": "PSV Exporter"
+      },
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      },
+      {
+        "software": "pluralsight-offline-player",
+        "display_name": "Pluralsight Offline Player"
+      },
+      {
+        "software": "microsoft-excel-365",
+        "display_name": "Microsoft Excel 365"
+      },
+      {
+        "software": "microsoft-access-365",
+        "display_name": "Microsoft Access 365"
+      },
+      {
+        "software": "openoffice-calc",
+        "display_name": "OpenOffice Calc"
+      }
+    ],
+    "macos": [
+      {
+        "software": "pluralsight-offline-player",
+        "display_name": "Pluralsight Offline Player"
+      },
+      {
+        "software": "microsoft-excel-365",
+        "display_name": "Microsoft Excel 365"
+      },
+      {
+        "software": "openoffice-calc",
+        "display_name": "OpenOffice Calc"
+      }
+    ],
+    "ios": [
+      {
+        "software": "pluralsight",
+        "display_name": "Pluralsight"
+      }
+    ],
+    "android": [
+      {
+        "software": "pluralsight",
+        "display_name": "Pluralsight"
+      },
+      {
+        "software": "file-viewer-for-android",
+        "display_name": "File Viewer for Android"
+      }
+    ],
+    "linux": [
+      {
+        "software": "sed",
+        "display_name": "sed"
+      },
+      {
+        "software": "openoffice-calc",
+        "display_name": "OpenOffice Calc"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-04-27",
+  "sources": [
+    {
+      "url": "psv.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

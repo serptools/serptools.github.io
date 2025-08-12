@@ -1,0 +1,22 @@
+{
+  "slug": "pgdata",
+  "extension": "pgdata",
+  "name": "Penguin George Data File",
+  "category": "penguin-george-data-file",
+  "summary": "",
+  "developer_org": "penguin-george",
+  "developer_name": "Penguin George",
+  "more_information": {
+    "description": [
+      "PGDATA files feature key-value pair data representation. This structure includes a group of key identifiers for items of data and a set of associated values, which are either the identified data or indicators that point to the location of that data. PGDATA files are also able to include arrays of data.",
+      "NOTE: PGDATA files are meant for internal use by the application, however advanced users can manually edit files for their specific purposes."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "pgdata.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

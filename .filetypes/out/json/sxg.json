@@ -1,0 +1,81 @@
+{
+  "slug": "sxg",
+  "extension": "sxg",
+  "name": "Apache OpenOffice Master Document",
+  "category": "apache-openoffice-master-document",
+  "developer_org": "oracle",
+  "popularity": {
+    "rating": 3.1,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "Large document created by Apache OpenOffice (formerly OpenOffice.org), a free, cross-platform productivity application suite; may contain a table of contents, page text, formatting, graphics, spreadsheets, and other document materials; used for storing books or long reports.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "openoffice-writer",
+        "display_name": "OpenOffice Writer"
+      },
+      {
+        "software": "libreoffice",
+        "display_name": "LibreOffice"
+      },
+      {
+        "software": "planamesa-neooffice",
+        "display_name": "Planamesa NeoOffice",
+        "status": "discontinued"
+      }
+    ],
+    "macos": [
+      {
+        "software": "openoffice-writer",
+        "display_name": "OpenOffice Writer"
+      },
+      {
+        "software": "planamesa-neooffice",
+        "display_name": "Planamesa NeoOffice",
+        "status": "discontinued"
+      },
+      {
+        "software": "libreoffice",
+        "display_name": "LibreOffice"
+      }
+    ],
+    "linux": [
+      {
+        "software": "openoffice-writer",
+        "display_name": "OpenOffice Writer"
+      },
+      {
+        "software": "libreoffice",
+        "display_name": "LibreOffice"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2013-07-26",
+  "sources": [
+    {
+      "url": "sxg.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

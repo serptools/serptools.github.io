@@ -1,0 +1,47 @@
+{
+  "slug": "oif",
+  "extension": "oif",
+  "name": "Origin Import Filter File",
+  "category": "origin-import-filter-file",
+  "developer_org": "originlab",
+  "popularity": {
+    "rating": 1.7,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "An OIF file is a data file used by Origin, a data analysis and graphing application used by various scientists and engineers. It contains import filter settings for files that are imported into Origin via the Import Wizard. OIF files also include post-import processing instructions in LabTalk Script.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "originlab-origin",
+        "display_name": "OriginLab Origin"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-02-27",
+  "sources": [
+    {
+      "url": "oif.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

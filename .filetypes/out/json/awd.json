@@ -1,0 +1,64 @@
+{
+  "slug": "awd",
+  "extension": "awd",
+  "name": "Microsoft Fax Document",
+  "category": "1.-microsoft-fax-document",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 10,
+    "source": "fileinfo"
+  },
+  "summary": "An AWD file is a raster image created by Microsoft Fax, also known as Microsoft at Work Fax. It contains a copy of a document a user received via Microsoft Fax. AWD files are sometimes referred to as At Work Documents.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "polybytes-polyview",
+        "display_name": "Polybytes PolyView",
+        "status": "discontinued"
+      },
+      {
+        "software": "asus-awdflash",
+        "display_name": "ASUS AWDFLASH"
+      },
+      {
+        "software": "boris-eyrich-artweaver",
+        "display_name": "Boris Eyrich Artweaver"
+      },
+      {
+        "software": "xnviewmp-with-the-awd-plugin",
+        "display_name": "XnViewMP with the AWD plugin"
+      },
+      {
+        "software": "chasys-draw-ies",
+        "display_name": "Chasys Draw IES"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-02-08",
+  "sources": [
+    {
+      "url": "awd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

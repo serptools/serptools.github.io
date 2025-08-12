@@ -1,0 +1,75 @@
+{
+  "slug": "bimx",
+  "extension": "bimx",
+  "name": "BIM Explorer File",
+  "category": "bim-explorer-file",
+  "developer_org": "graphisoft",
+  "popularity": {
+    "rating": 3.2,
+    "votes": 11,
+    "source": "fileinfo"
+  },
+  "summary": "A BIMX file is a BIMx file created by GRAPHISOFT ArchiCAD, an architectural CAD program. It contains a virtual architectural project that includes 3D models and 2D drawing sheets. BIMX files are created in ArchiCAD when a user exports the project to the BIMx format.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "graphisoft-bimx-desktop-viewer",
+        "display_name": "GRAPHISOFT BIMx Desktop Viewer"
+      },
+      {
+        "software": "graphisoft-bimx",
+        "display_name": "GRAPHISOFT BIMx"
+      }
+    ],
+    "macos": [
+      {
+        "software": "graphisoft-bimx-desktop-viewer",
+        "display_name": "GRAPHISOFT BIMx Desktop Viewer"
+      }
+    ],
+    "ios": [
+      {
+        "software": "graphisoft-bimx",
+        "display_name": "GRAPHISOFT BIMx"
+      }
+    ],
+    "android": [
+      {
+        "software": "graphisoft-bimx",
+        "display_name": "GRAPHISOFT BIMx"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "BIMX file open in GRAPHISOFT BIMx Desktop Viewer",
+      "alt": "BIMX file open in GRAPHISOFT BIMx Desktop Viewer",
+      "source_url": "https://fileinfo.com/img/ss/md/bimx_10465.jpg"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-03-02",
+  "sources": [
+    {
+      "url": "bimx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

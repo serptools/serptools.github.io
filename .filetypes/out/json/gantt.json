@@ -1,0 +1,59 @@
+{
+  "slug": "gantt",
+  "extension": "gantt",
+  "name": "Online Gantt Chart",
+  "category": "online-gantt-chart",
+  "developer_org": "online-gantt",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "A GANTT file is a Gantt chart created by Online Gantt. When opened in Online Gantt, GANTT files appear as bar chart-based project schedules. However, GANTT files are actually renamed .JSON files, which contain plain text data that Online Gantt uses to show a Gantt chart.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "web": [
+      {
+        "software": "online-gantt",
+        "display_name": "Online Gantt"
+      }
+    ],
+    "windows": [
+      {
+        "software": "online-gantt",
+        "display_name": "Online Gantt"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "GANTT file open in Online Gantt",
+      "alt": "GANTT file open in Online Gantt",
+      "source_url": "https://fileinfo.com/img/ss/md/gantt_13555.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-11-16",
+  "sources": [
+    {
+      "url": "gantt.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

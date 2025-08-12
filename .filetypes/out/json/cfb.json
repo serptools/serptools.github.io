@@ -1,0 +1,47 @@
+{
+  "slug": "cfb",
+  "extension": "cfb",
+  "name": "Compound Binary File",
+  "category": "compound-binary-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "A CFB file is a compound file that contains a structured file system . It is used to store objects, such as directories and multiple files, within a single file. Storage objects are used to represent directories and stream objects are used to represent files. A CFB file may also include metadata about the application that created the file.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-visual-studio-2022",
+        "display_name": "Microsoft Visual Studio 2022"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-04-01",
+  "sources": [
+    {
+      "url": "cfb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

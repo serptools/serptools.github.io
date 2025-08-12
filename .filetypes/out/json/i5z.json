@@ -1,0 +1,49 @@
+{
+  "slug": "i5z",
+  "extension": "i5z",
+  "name": "IUCLID 5 Import/Export File",
+  "category": "iuclid-5-import-export-file",
+  "developer_org": "iuclid",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "Scientific data format used for exporting and importing data into IUCLID 5; may include several data files formatted in XML and compressed into a single .ZIP archive; IUCLID is an application for capturing, storing, maintaining and exchanging data about chemical substance properties.",
+  "standards": [],
+  "mime_types": [
+    "import/export"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "iuclid5",
+        "display_name": "IUCLID5"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2008-02-13",
+  "sources": [
+    {
+      "url": "i5z.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "slug": "acelive",
+  "extension": "acelive",
+  "name": "Acelive Broadcast File",
+  "category": "acelive-broadcast-file",
+  "developer_org": "ace-stream",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "An ACELIVE file is a settings file created by ACE Stream, a peer-to-peer ((P2P)) media platform primarily used for streaming audio and video content, such as shows or broadcasts. It contains information about a broadcast, which includes the broadcast source and node information required by clients to connect to and playback a broadcast. ACELIVE files do not contain the actual broadcast media, only metadata about connecting to a broadcast.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "ace-stream-media",
+        "display_name": "Ace Stream Media"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "nullsoft-winamp",
+        "display_name": "Nullsoft Winamp"
+      }
+    ],
+    "macos": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      }
+    ],
+    "linux": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-12-06",
+  "sources": [
+    {
+      "url": "acelive.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

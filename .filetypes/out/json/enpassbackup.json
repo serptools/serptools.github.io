@@ -1,0 +1,77 @@
+{
+  "slug": "enpassbackup",
+  "extension": "enpassbackup",
+  "name": "Enpass Backup",
+  "category": "enpass-backup",
+  "developer_org": "enpass-technologies",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "An ENPASSBACKUP file is a backup created by Enpass (version 6 and later), an application that manages passwords and other confidential information. It stores the encrypted contents of a password vault, including login credentials, notes, and other sensitive data stored within the app.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "enpass",
+        "display_name": "Enpass"
+      }
+    ],
+    "macos": [
+      {
+        "software": "enpass",
+        "display_name": "Enpass"
+      }
+    ],
+    "linux": [
+      {
+        "software": "enpass",
+        "display_name": "Enpass"
+      }
+    ],
+    "ios": [
+      {
+        "software": "enpass",
+        "display_name": "Enpass"
+      }
+    ],
+    "android": [
+      {
+        "software": "enpass",
+        "display_name": "Enpass"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "ENPASSBACKUP file open in Enpass 6",
+      "alt": "ENPASSBACKUP file open in Enpass 6",
+      "source_url": "https://fileinfo.com/img/ss/md/enpassbackup_13765.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2024-12-03",
+  "sources": [
+    {
+      "url": "enpassbackup.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

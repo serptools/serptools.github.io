@@ -1,0 +1,130 @@
+{
+  "slug": "grf",
+  "extension": "grf",
+  "name": "Ragnarok Client Archive",
+  "category": "1.-ragnarok-client-archive",
+  "developer_org": "gravity",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 41,
+    "source": "fileinfo"
+  },
+  "summary": "Compressed file archive used by Ragnarok Online, a Korean multiplayer game; includes compressed images, sounds, and other data files loaded by Ragnarok.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "gravity-ragnarok-online",
+        "display_name": "GRAVITY Ragnarok Online"
+      },
+      {
+        "software": "grf-factory",
+        "display_name": "GRF Factory"
+      },
+      {
+        "software": "hydesoft-computing-dplot",
+        "display_name": "Hydesoft Computing DPlot"
+      },
+      {
+        "software": "hydesoft-computing-dplot-viewer",
+        "display_name": "Hydesoft Computing DPlot Viewer"
+      },
+      {
+        "software": "javlin-cloverdx",
+        "display_name": "Javlin CloverDX"
+      },
+      {
+        "software": "golden-software-grapher",
+        "display_name": "Golden Software Grapher"
+      },
+      {
+        "software": "graphstudionext",
+        "display_name": "GraphStudioNext"
+      },
+      {
+        "software": "micrografx-graph-plus",
+        "display_name": "Micrografx Graph Plus"
+      },
+      {
+        "software": "graphedit",
+        "display_name": "GraphEdit"
+      },
+      {
+        "software": "accelrys-insight-ii",
+        "display_name": "Accelrys Insight II"
+      },
+      {
+        "software": "transport-tycoon",
+        "display_name": "Transport Tycoon",
+        "status": "discontinued"
+      },
+      {
+        "software": "openttd",
+        "display_name": "OpenTTD"
+      },
+      {
+        "software": "grfcodec",
+        "display_name": "GRFCodec"
+      },
+      {
+        "software": "pryze-software-universal-minecraft-tool",
+        "display_name": "Pryze Software Universal Minecraft Tool"
+      },
+      {
+        "software": "mcctoolchest",
+        "display_name": "MCCToolChest"
+      },
+      {
+        "software": "pck-studio",
+        "display_name": "PCK Studio"
+      }
+    ],
+    "macos": [
+      {
+        "software": "javlin-cloverdx",
+        "display_name": "Javlin CloverDX"
+      }
+    ],
+    "linux": [
+      {
+        "software": "javlin-cloverdx",
+        "display_name": "Javlin CloverDX"
+      },
+      {
+        "software": "openttd",
+        "display_name": "OpenTTD"
+      },
+      {
+        "software": "grfcodec",
+        "display_name": "GRFCodec"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2016-04-15",
+  "sources": [
+    {
+      "url": "grf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "slug": "msav",
+  "extension": "msav",
+  "name": "Mindustry Save File",
+  "category": "mindustry-save-file",
+  "developer_org": "anuke",
+  "popularity": {
+    "rating": 4.6,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "An MSAV file is a saved data file created by Mindustry, a multiplatform tower defense game. It may contain a player's saved Mindustry game, or it may contain a Mindustry map. Mindustry stores saved game MSAV files and custom map MSAV files in different directories.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "mindustry",
+        "display_name": "Mindustry"
+      }
+    ],
+    "macos": [
+      {
+        "software": "mindustry",
+        "display_name": "Mindustry"
+      }
+    ],
+    "linux": [
+      {
+        "software": "mindustry",
+        "display_name": "Mindustry"
+      }
+    ],
+    "ios": [
+      {
+        "software": "mindustry",
+        "display_name": "Mindustry"
+      }
+    ],
+    "android": [
+      {
+        "software": "mindustry",
+        "display_name": "Mindustry"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "MSAV file open in Mindustry",
+      "alt": "MSAV file open in Mindustry",
+      "source_url": "https://fileinfo.com/img/ss/md/msav_13536.jpg"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-10-30",
+  "sources": [
+    {
+      "url": "msav.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

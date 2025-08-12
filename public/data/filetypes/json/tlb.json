@@ -1,0 +1,23 @@
+{
+  "slug": "tlb",
+  "extension": "tlb",
+  "name": "VAX/VMS Text Library",
+  "category": "vax-vms-text-library",
+  "summary": "",
+  "developer_org": "microsoft",
+  "developer_name": "Microsoft",
+  "more_information": {
+    "description": [
+      "Digital Equipment Corporation (DEC) developed VAX/VMS systems, with VAX being a line of minicomputers and VMS being the operating system designed to run on them. These systems were widely used in academic, scientific, and business settings during the 1980s and 1990s for various tasks, including large-scale computations and resource management.",
+      "DEC renamed VMS/VAX to OpenVMS in 1992 and eventually discontinued the system, making TLB files obscure. However, some organizations still use OpenVMS, which also still supports TLB files.",
+      "NOTE: While VMS typically uses TLB files, applications running on the system may also use them to ensure they run correctly."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "tlb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

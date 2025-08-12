@@ -1,0 +1,59 @@
+{
+  "slug": "isz",
+  "extension": "isz",
+  "name": "Zipped ISO Disk Image",
+  "category": "zipped-iso-disk-image",
+  "developer_org": "ezb-systems",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 120,
+    "source": "fileinfo"
+  },
+  "summary": "An ISZ file is a file compressed in a disk image format (a.k.a. \"ISO Zipped\") developed by ESB Systems. It is similar to a regular .ISO file, but compressed to save disk space and may also be password-protected and encrypted using AES128, AES192, or AES256 encryption.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "ezb-systems-ultraiso",
+        "display_name": "EZB Systems UltraISO"
+      },
+      {
+        "software": "winmount-international-winmount",
+        "display_name": "WinMount International WinMount"
+      },
+      {
+        "software": "alcohol-120",
+        "display_name": "Alcohol 120%"
+      },
+      {
+        "software": "dt-soft-daemon-tools",
+        "display_name": "DT Soft DAEMON Tools"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2016-11-17",
+  "sources": [
+    {
+      "url": "isz.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

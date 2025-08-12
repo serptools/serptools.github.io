@@ -1,0 +1,129 @@
+{
+  "slug": "cpio",
+  "extension": "cpio",
+  "name": "Unix CPIO Archive",
+  "category": "unix-cpio-archive",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 12,
+    "source": "fileinfo"
+  },
+  "summary": "File archive created in the Unix CPIO (Copy In, Copy Out) format, an uncompressed file container format used for grouping files together; similar to a .TAR archive and can be compressed into a .CPGZ file using Gzip compression.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "peazip",
+        "display_name": "PeaZip"
+      },
+      {
+        "software": "apache-commons-compress",
+        "display_name": "Apache Commons Compress"
+      },
+      {
+        "software": "apple-archive-utility",
+        "display_name": "Apple Archive Utility"
+      },
+      {
+        "software": "incredible-bee-archiver",
+        "display_name": "Incredible Bee Archiver"
+      },
+      {
+        "software": "ditto",
+        "display_name": "ditto"
+      },
+      {
+        "software": "the-unarchiver",
+        "display_name": "The Unarchiver"
+      },
+      {
+        "software": "gnu-cpio",
+        "display_name": "GNU cpio"
+      },
+      {
+        "software": "123apps-archive-extractor",
+        "display_name": "123apps Archive Extractor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-archive-utility",
+        "display_name": "Apple Archive Utility"
+      },
+      {
+        "software": "incredible-bee-archiver",
+        "display_name": "Incredible Bee Archiver"
+      },
+      {
+        "software": "apache-commons-compress",
+        "display_name": "Apache Commons Compress"
+      },
+      {
+        "software": "ditto",
+        "display_name": "ditto"
+      },
+      {
+        "software": "the-unarchiver",
+        "display_name": "The Unarchiver"
+      }
+    ],
+    "linux": [
+      {
+        "software": "gnu-cpio",
+        "display_name": "GNU cpio"
+      },
+      {
+        "software": "ditto",
+        "display_name": "ditto"
+      },
+      {
+        "software": "apache-commons-compress",
+        "display_name": "Apache Commons Compress"
+      }
+    ],
+    "web": [
+      {
+        "software": "123apps-archive-extractor",
+        "display_name": "123apps Archive Extractor"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "CPIO file icon",
+      "alt": "CPIO file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/cpio-2626.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2016-11-18",
+  "sources": [
+    {
+      "url": "cpio.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

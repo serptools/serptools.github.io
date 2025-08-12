@@ -1,0 +1,36 @@
+{
+  "slug": "braw",
+  "extension": "braw",
+  "name": "Blackmagic RAW Video",
+  "category": "blackmagic-raw-video",
+  "summary": "",
+  "developer_org": "blackmagic-design",
+  "developer_name": "Blackmagic Design",
+  "more_information": {
+    "screenshot": {
+      "url": "https://fileinfo.com/img/ss/sm/braw_12842.jpg",
+      "alt": "Screenshot of a .braw file in Blackmagic RAW Player 2.3",
+      "caption": "BRAW file open in Blackmagic RAW Player 2.3"
+    },
+    "description": [
+      "Blackmagic Design developed the BRAW format to improve Adobe's CinemaDNG container format (individual .MXF files or a series of .DNG files may utilize this format). Additionally, Blackmagic Design developed the BRAW codec to replace other video codecs by providing higher-quality video at similar file sizes. Blackmagic Design released the BRAW format in 2018.",
+      "A second feature is that the BRAW codec allows you to choose between 2 encoding methods:",
+      "A third feature of the BRAW format is that it stores a lot of metadata. With abundant metadata, the software viewing the BRAW video with the open-source Blackmagic RAW SDK better understands how the camera sensor captured the video subject. This produces video that better represents the lighting and color of the subject it captures.",
+      "Digital video cameras embed the metadata in the BRAW format. However, when you modify BRAW video with DaVinci Resolve, the application generates a .SIDECAR file to store the changes in JSON format. The SIDECAR storage option allows you to override BRAW metadata without overwriting and erasing the original metadata."
+    ]
+  },
+  "images": [
+    {
+      "url": "https://fileinfo.com/img/ss/sm/braw_12842.jpg",
+      "alt": "Screenshot of a .braw file in Blackmagic RAW Player 2.3",
+      "caption": "BRAW file open in Blackmagic RAW Player 2.3"
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "braw.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

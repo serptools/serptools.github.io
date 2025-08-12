@@ -1,0 +1,73 @@
+{
+  "slug": "bma",
+  "extension": "bma",
+  "name": "TheEngine 3D Model",
+  "category": "theengine-3d-model",
+  "developer_org": "1c-company",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "A BMA file is a 3D model used by a TheEngine video game, such as Dawn of Magic, Elven Legacy, Fantasy Wars, or No Time for Dragons. It contains a set of meshes used to show an in-game character or object. BMA files are similar to TheEngine .BMS files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "3d-object-converter",
+        "display_name": "3D Object Converter"
+      },
+      {
+        "software": "various-1c-company-theengine-video-games",
+        "display_name": "Various 1C Company TheEngine video games"
+      }
+    ],
+    "macos": [
+      {
+        "software": "3d-object-converter",
+        "display_name": "3D Object Converter"
+      },
+      {
+        "software": "various-1c-company-theengine-video-games",
+        "display_name": "Various 1C Company TheEngine video games"
+      }
+    ],
+    "linux": [
+      {
+        "software": "3d-object-converter",
+        "display_name": "3D Object Converter"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "BMA file open in 3D Object Converter",
+      "alt": "BMA file open in 3D Object Converter",
+      "source_url": "https://fileinfo.com/img/ss/md/bma_13306.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-05-11",
+  "sources": [
+    {
+      "url": "bma.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

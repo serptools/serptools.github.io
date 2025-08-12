@@ -1,0 +1,47 @@
+{
+  "slug": "ekb",
+  "extension": "ekb",
+  "name": "ZMC Visual Tablet Data",
+  "category": "zmc-visual-tablet-data",
+  "developer_org": "zak-morris-company",
+  "popularity": {
+    "rating": 1.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "Application data used by VisualTablet, a plug-in for AutoCAD that adds a Graphical User Interface designed to enhance the productivity of digitizer template users; contains the necessary data to run the application.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "zmc-visualtablet-for-autocad",
+        "display_name": "ZMC VisualTablet for AutoCAD"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-03-02",
+  "sources": [
+    {
+      "url": "ekb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

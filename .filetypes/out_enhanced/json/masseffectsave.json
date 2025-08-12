@@ -1,0 +1,23 @@
+{
+  "slug": "masseffectsave",
+  "extension": "masseffectsave",
+  "name": "Mass Effect Saved Game",
+  "category": "mass-effect-saved-game",
+  "summary": "",
+  "developer_org": "electronic-arts",
+  "developer_name": "Electronic Arts",
+  "more_information": {
+    "description": [
+      "MASSEFFECTSAVE files may be saved automatically or manually. Auto-saves use the file naming convention profileXX_AutoSave.MassEffectSave , where \"profile\" is the name of the player profile, and \"XX\" is the number of the save. Similarly, quick saves typically use the convention profileXX_QuickSave.MassEffectSave .",
+      "To manually view the contents of a MASSEFFECTSAVE file, rename the file extension to \".zip\" and decompress it with a decompression tool, such as 7zip. The two resulting decompressed files, player.sav and state.sav , can be used to modify (\"mod\") saved game content.",
+      "NOTE: MASSEFFECTSAVE files may be imported into Mass Effect 2, the sequel to Mass Effect."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "masseffectsave.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

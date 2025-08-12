@@ -1,0 +1,79 @@
+{
+  "slug": "scriptterminology",
+  "extension": "scriptterminology",
+  "name": "AppleScript Script Terminology File",
+  "category": "applescript-script-terminology-file",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 4.3,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "File used by macOS applications that include AppleScript support; contains a mapping between developer-defined class names and the English (or other language) terminology that is used in the implemented AppleScript; allows AppleScript to know what the valid commands are for the developer's scripts.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "apple-xcode",
+        "display_name": "Apple Xcode"
+      },
+      {
+        "software": "macromates-textmate",
+        "display_name": "MacroMates TextMate"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "windows": [
+      {
+        "software": "apple-xcode",
+        "display_name": "Apple Xcode"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "SCRIPTTERMINOLOGY file icon",
+      "alt": "SCRIPTTERMINOLOGY file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/scriptterminology-7817.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-04-08",
+  "sources": [
+    {
+      "url": "scriptterminology.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

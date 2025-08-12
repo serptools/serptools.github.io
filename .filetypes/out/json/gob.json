@@ -1,0 +1,63 @@
+{
+  "slug": "gob",
+  "extension": "gob",
+  "name": "Jedi Engine Package",
+  "category": "jedi-engine-package",
+  "developer_org": "lucasarts",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "A GOB file is a game data archive used by video games built on LucasArts' Jedi Engine, such as Star Wars: Dark Forces and Outlaws . It stores various game resources, such as graphics, sound effects, levels, and scripts, in a single compressed container to help the game load and manage files efficiently.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "lucasarts-star-wars-dark-forces",
+        "display_name": "LucasArts Star Wars: Dark Forces"
+      },
+      {
+        "software": "slade",
+        "display_name": "SLADE"
+      }
+    ],
+    "macos": [
+      {
+        "software": "slade",
+        "display_name": "SLADE"
+      }
+    ],
+    "linux": [
+      {
+        "software": "slade",
+        "display_name": "SLADE"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2025-04-30",
+  "sources": [
+    {
+      "url": "gob.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

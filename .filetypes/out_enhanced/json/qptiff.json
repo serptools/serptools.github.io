@@ -1,0 +1,21 @@
+{
+  "slug": "qptiff",
+  "extension": "qptiff",
+  "name": "Vectra Whole Slide Image",
+  "category": "vectra-whole-slide-image",
+  "summary": "",
+  "developer_org": "perkinelmer",
+  "developer_name": "PerkinElmer",
+  "more_information": {
+    "description": [
+      "Pathologists use Vectra pathology imaging systems to create multispectral images of TMAs, which usually contain tumor tissue or other cancerous tissues. These images, which are saved as QPTIFF files, are actually comprised of multiple TIFF images saved at varying resolutions . Saving images in this pyramidal format allows pathologists to zoom in and out on an image without losing any image quality."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "qptiff.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

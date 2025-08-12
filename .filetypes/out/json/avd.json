@@ -1,0 +1,47 @@
+{
+  "slug": "avd",
+  "extension": "avd",
+  "name": "Movie Edit Pro Video Information File",
+  "category": "movie-edit-pro-video-information-file",
+  "developer_org": "magix",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Video clip data file created by Movie Edit Pro (MEP), a movie editing program; stores a reference to a video file as well as scene detection information for the video segment; built automatically when a movie file is imported into MEP.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "magix-movie-edit-pro-plus",
+        "display_name": "MAGIX Movie Edit Pro Plus"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-05-10",
+  "sources": [
+    {
+      "url": "avd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "sr0",
+  "extension": "sr0",
+  "name": "SecuROM Analysis File",
+  "category": "securom-analysis-file",
+  "developer_org": "sony",
+  "popularity": {
+    "rating": 4.3,
+    "votes": 266,
+    "source": "fileinfo"
+  },
+  "summary": "File created by SecuROM, a CD/DVD-ROM copy protection technology; created when the \"Launch Analysis\" option is chosen after right-clicking a program executable ( .EXE ) or related shortcut that is managed by SecuROM; generates an AnalysisLog.sr0 file in the C:\\​ directory or on the user's desktop by default.",
+  "standards": [],
+  "mime_types": [
+    "cd/dvd",
+    "cd/dvd-rom"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "sony-dadc-securom",
+        "display_name": "Sony DADC SecuROM",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-05-02",
+  "sources": [
+    {
+      "url": "sr0.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

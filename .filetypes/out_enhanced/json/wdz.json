@@ -1,0 +1,24 @@
+{
+  "slug": "wdz",
+  "extension": "wdz",
+  "name": "WDZip Compressed Archive",
+  "category": "wdzip-compressed-archive",
+  "summary": "",
+  "developer_org": "pc-soft",
+  "developer_name": "PC SOFT",
+  "more_information": {
+    "description": [
+      "WDZip can be used to create archives in several different formats. The default format the program uses is the WDZ format, but it can also save in the .ZIP , .RAR , .CAB , and .7Z formats.",
+      "To create an archive in WDZip, select \"WDZIP\" in the \"Utilities\" group, which is located in the \"Tools\" pane. Then, click \"New\" or select File → New archive... , and choose the format of the archive.",
+      "When creating an archive, you may choose to split it into several sub-archives if it is a large archive. These sub-archives can be merged together when opening the archive. If you split a WDZ archive, the first sub-archive is a WDZ file and the next sub-archive is a .001 file, then a .002 file, and so on.",
+      "To open an archive in WDZip, select File → Open an archive . You can then extract or delete one or more files in the archive."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "wdz.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

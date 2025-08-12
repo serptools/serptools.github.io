@@ -1,0 +1,29 @@
+{
+  "slug": "rpmsg",
+  "extension": "rpmsg",
+  "name": "Outlook Restricted Permission Message",
+  "category": "outlook-restricted-permission-message",
+  "summary": "",
+  "developer_org": "microsoft",
+  "developer_name": "Microsoft",
+  "more_information": {
+    "description": [
+      "Outlook users can use the program's information rights management (IRM) features to protect the emails they send. When a user protects an email this way, Outlook compresses and encrypts the message's contents and any permissions the sender has specified (e.g., restrictions on forwarding or printing the message). It then saves this encrypted version of the message as an RPMSG file.",
+      "The Outlook email client sends the RPMSG file to recipients as an attachment to a standard Outlook message. The message explains that it contains protected content and includes a link to open the RPMSG file. Only specified recipients can open RPMSG files.",
+      "NOTE: Azure Information Protection also creates encrypted email messages saved as RPMSG files."
+    ]
+  },
+  "common_filenames": [
+    {
+      "filename": "message.rpmsg",
+      "description": "message.rpmsg - The standard name of RPMSG files; included as attachments in email messages."
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "rpmsg.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

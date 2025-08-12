@@ -1,0 +1,53 @@
+{
+  "slug": "dse",
+  "extension": "dse",
+  "name": "DAZ Studio Encrypted Script",
+  "category": "daz-studio-encrypted-script",
+  "developer_org": "daz-productions",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "Script used by DAZ Studio, a 3D character modeling application; contains instructions that apply certain morphs, textures, materials, or other features to a model; saved in an encrypted format, which enables script developers to protect intellectual property for scripts that are made available for purchase.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "daz-3d-daz-studio-4",
+        "display_name": "DAZ 3D DAZ Studio 4"
+      }
+    ],
+    "macos": [
+      {
+        "software": "daz-3d-daz-studio-4",
+        "display_name": "DAZ 3D DAZ Studio 4"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-02-28",
+  "sources": [
+    {
+      "url": "dse.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

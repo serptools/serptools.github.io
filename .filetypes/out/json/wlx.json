@@ -1,0 +1,62 @@
+{
+  "slug": "wlx",
+  "extension": "wlx",
+  "name": "Windows Live Mesh Sync File",
+  "category": "1.-windows-live-mesh-sync-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Temporary file created by Live Mesh, a Microsoft application used for synchronizing files between computers, Windows Live SkyDrives, and other storage locations; marks a file that still has to be downloaded from a remote storage location to the local storage location; acts as a placeholder until the actual file is downloaded.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-onedrive",
+        "display_name": "Microsoft OneDrive"
+      },
+      {
+        "software": "garmin-mapsource",
+        "display_name": "Garmin MapSource",
+        "status": "discontinued"
+      },
+      {
+        "software": "verity-software-house-winlist",
+        "display_name": "Verity Software House WinList"
+      }
+    ],
+    "macos": [
+      {
+        "software": "microsoft-onedrive",
+        "display_name": "Microsoft OneDrive"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-09-25",
+  "sources": [
+    {
+      "url": "wlx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

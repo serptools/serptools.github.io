@@ -1,0 +1,47 @@
+{
+  "slug": "searchconnector-ms",
+  "extension": "searchconnector-ms",
+  "name": "Windows Search Connector File",
+  "category": "windows-search-connector-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 4.2,
+    "votes": 20,
+    "source": "fileinfo"
+  },
+  "summary": "Saved search file created by Microsoft Windows; contains connection information for a remote location; used for connecting to Web services and remote storage locations; allows remote files to be browsed using the Windows Explorer user interface.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-windows",
+        "display_name": "Microsoft Windows"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-07-01",
+  "sources": [
+    {
+      "url": "searchconnector-ms.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

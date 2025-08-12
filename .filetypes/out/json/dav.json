@@ -1,0 +1,66 @@
+{
+  "slug": "dav",
+  "extension": "dav",
+  "name": "CCTV DVR Video",
+  "category": "cctv-dvr-video",
+  "developer_org": "dvr365",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 382,
+    "source": "fileinfo"
+  },
+  "summary": "A DAV file is a video created by a DVR365 or Dahua Technology digital video recorder ( DVR ) connected to a closed-circuit television (CCTV) surveillance system. It contains video saved in a compressed encrypted format. Users can play DAV files with the CCTV system that created them and some specialized media players.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "dahua-smart-player",
+        "display_name": "Dahua Smart Player"
+      },
+      {
+        "software": "dahua-toolbox",
+        "display_name": "Dahua Toolbox"
+      },
+      {
+        "software": "vidcoder",
+        "display_name": "VidCoder"
+      },
+      {
+        "software": "dvr365-player-software",
+        "display_name": "DVR365 Player Software",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "DAV file icon",
+      "alt": "DAV file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/dav-3860.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-05-11",
+  "sources": [
+    {
+      "url": "dav.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

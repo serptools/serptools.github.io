@@ -1,0 +1,23 @@
+{
+  "slug": "br",
+  "extension": "br",
+  "name": "Brotli Compressed File",
+  "category": "brotli-compressed-file",
+  "summary": "",
+  "developer_org": "google",
+  "developer_name": "Google",
+  "more_information": {
+    "description": [
+      "In 2013, Google developers created the Brotli compression algorithm. This algorithm is an improvement to the zopfli compression algorithm, also developed by Google. Brotli uses a variant of the LZ77 compression algorithm and Huffman coding to compress files roughly 20 percent more efficiently than zopfli.",
+      "Initially, Brotli was meant to be used specifically to compress WOFF web font files. Google later generalized the compression algorithm so it can be used to compress other web assets. As the BR format became more useful and used, various web browsers introduced support for loading assets from BR files.",
+      "NOTE: In the past, Brotli-compressed files were saved with the .bro extension."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "br.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

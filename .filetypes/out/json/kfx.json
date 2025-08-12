@@ -1,0 +1,110 @@
+{
+  "slug": "kfx",
+  "extension": "kfx",
+  "name": "Amazon KF10 eBook File",
+  "category": "1.-amazon-kf10-ebook-file",
+  "developer_org": "amazon",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 15,
+    "source": "fileinfo"
+  },
+  "summary": "A KFX file is an eBook created in the Kindle Format 10 (KF10), Amazon's successor to the .AZW3 (Kindle 8) format. It contains an Amazon eBook, which includes the text and metadata describing the book, such as the author, title, and number of pages. KFX files support enhanced typesetting capabilities that are not provided in previous formats, such as hyphenation, improved character placement and word spacing, and a more adaptable page layout and margins.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "amazon-kindle-for-pc",
+        "display_name": "Amazon Kindle for PC"
+      },
+      {
+        "software": "calibre",
+        "display_name": "Calibre"
+      },
+      {
+        "software": "amazon-kindle",
+        "display_name": "Amazon Kindle"
+      },
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      },
+      {
+        "software": "corel-paintshop-pro-2023",
+        "display_name": "Corel PaintShop Pro 2023"
+      },
+      {
+        "software": "graphicsconverter",
+        "display_name": "GraphicsConverter"
+      }
+    ],
+    "macos": [
+      {
+        "software": "amazon-kindle-for-mac",
+        "display_name": "Amazon Kindle for Mac"
+      },
+      {
+        "software": "calibre",
+        "display_name": "Calibre"
+      },
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      }
+    ],
+    "linux": [
+      {
+        "software": "calibre",
+        "display_name": "Calibre"
+      }
+    ],
+    "ios": [
+      {
+        "software": "amazon-kindle",
+        "display_name": "Amazon Kindle"
+      }
+    ],
+    "android": [
+      {
+        "software": "amazon-kindle",
+        "display_name": "Amazon Kindle"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "KFX file icon",
+      "alt": "KFX file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/kfx-10699.png"
+    },
+    {
+      "caption": "KFX file open in Kindle for Mac 1.2",
+      "alt": "KFX file open in Kindle for Mac 1.2",
+      "source_url": "https://fileinfo.com/img/ss/md/kfx_10699.jpg"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-09-19",
+  "sources": [
+    {
+      "url": "kfx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

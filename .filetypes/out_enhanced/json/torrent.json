@@ -1,0 +1,35 @@
+{
+  "slug": "torrent",
+  "extension": "torrent",
+  "name": "BitTorrent File",
+  "category": "bittorrent-file",
+  "summary": "",
+  "developer_org": "bittorrent",
+  "developer_name": "BitTorrent",
+  "more_information": {
+    "screenshot": {
+      "url": "https://fileinfo.com/img/ss/sm/torrent_855.png",
+      "alt": "Screenshot of a .torrent file in BitTorrent 7",
+      "caption": "TORRENT file open in BitTorrent 7"
+    },
+    "description": [
+      "Torrenting is the act of retrieving or sending content using the BitTorrent network. To download content using BitTorrent, users must first retrieve or create an associated TORRENT file. When the user opens the file in BitTorrent, BitTorrent begins downloading the content the file points to.",
+      "BitTorrent splits downloads among multiple nodes, retrieving pieces of each downloaded file from separate computers and assembling the pieces during the download process. This speeds up the download process. When you open a TORRENT file and begin a download, your computer may be used to send pieces of the file(s) you are downloading to other users downloading the same file(s).",
+      "Not inherently. TORRENT files and the BitTorrent network can be used to retrieve any type of content, including legal content. However, many users use TORRENT files to download copyrighted material, such as TV shows, music, and video games. Using a TORRENT file to download copyrighted material is illegal."
+    ]
+  },
+  "images": [
+    {
+      "url": "https://fileinfo.com/img/ss/sm/torrent_855.png",
+      "alt": "Screenshot of a .torrent file in BitTorrent 7",
+      "caption": "TORRENT file open in BitTorrent 7"
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "torrent.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

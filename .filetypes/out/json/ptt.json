@@ -1,0 +1,64 @@
+{
+  "slug": "ptt",
+  "extension": "ptt",
+  "name": "Pro Tools Session Template",
+  "category": "1.-pro-tools-session-template",
+  "developer_org": "avid-technology",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 12,
+    "source": "fileinfo"
+  },
+  "summary": "Session template created and used by Pro Tools, an audio editing and production program; contains session data, which may include audio and software instrument tracks; also includes session parameters such as Sample Rate and Bit Depth.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "avid-pro-tools",
+        "display_name": "Avid Pro Tools"
+      },
+      {
+        "software": "microsoft-mappoint",
+        "display_name": "Microsoft MapPoint",
+        "status": "discontinued"
+      }
+    ],
+    "macos": [
+      {
+        "software": "avid-pro-tools",
+        "display_name": "Avid Pro Tools"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "PTT file icon",
+      "alt": "PTT file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/ptt-10061.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-12-04",
+  "sources": [
+    {
+      "url": "ptt.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

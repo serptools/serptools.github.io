@@ -1,0 +1,21 @@
+{
+  "slug": "pdr",
+  "extension": "pdr",
+  "name": "Windows Port Driver",
+  "category": "windows-port-driver",
+  "summary": "",
+  "developer_org": "step-function",
+  "developer_name": "Step Function",
+  "more_information": {
+    "description": [
+      "PDR files may be loaded using Windows' \"Add New Hardware\" Control Panel. Once the hardware is located, select the PDR file location when prompted."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "pdr.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

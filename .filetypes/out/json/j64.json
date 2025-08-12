@@ -1,0 +1,91 @@
+{
+  "slug": "j64",
+  "extension": "j64",
+  "name": "Atari Jaguar Game ROM",
+  "category": "atari-jaguar-game-rom",
+  "developer_org": "atari",
+  "popularity": {
+    "rating": 1.7,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "A J64 file contains a game ROM image dumped from an Atari Jaguar game cartridge. It stores an exact copy of the game data and is used to emulate Atari Jaguar games using an Atari Jaguar emulator.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "retroarch",
+        "display_name": "RetroArch"
+      },
+      {
+        "software": "mame",
+        "display_name": "MAME"
+      },
+      {
+        "software": "phoenix",
+        "display_name": "Phoenix"
+      }
+    ],
+    "macos": [
+      {
+        "software": "retroarch",
+        "display_name": "RetroArch"
+      },
+      {
+        "software": "phoenix",
+        "display_name": "Phoenix"
+      }
+    ],
+    "linux": [
+      {
+        "software": "retroarch",
+        "display_name": "RetroArch"
+      },
+      {
+        "software": "mame",
+        "display_name": "MAME"
+      },
+      {
+        "software": "phoenix",
+        "display_name": "Phoenix"
+      }
+    ],
+    "ios": [
+      {
+        "software": "retroarch",
+        "display_name": "RetroArch"
+      }
+    ],
+    "android": [
+      {
+        "software": "retroarch",
+        "display_name": "RetroArch"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-05-03",
+  "sources": [
+    {
+      "url": "j64.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

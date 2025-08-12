@@ -1,0 +1,79 @@
+{
+  "slug": "stg",
+  "extension": "stg",
+  "name": "ActiveSync Backup File",
+  "category": "1.-activesync-backup-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 17,
+    "source": "fileinfo"
+  },
+  "summary": "Backup created by ActiveSync, a program used to synchronize PCs with mobile devices; contains a backup of all mobile device files, including contacts, notes, and calendar data; typically seen with the filename backup.stg .",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-activesync",
+        "display_name": "Microsoft ActiveSync"
+      },
+      {
+        "software": "activesync-backup-file-restorer",
+        "display_name": "ActiveSync Backup File Restorer"
+      },
+      {
+        "software": "file-save-as",
+        "display_name": "File → Save as"
+      },
+      {
+        "software": "save-as",
+        "display_name": "Save as"
+      },
+      {
+        "software": "project",
+        "display_name": "Project"
+      },
+      {
+        "software": "save",
+        "display_name": "Save"
+      },
+      {
+        "software": "change-.stg-to-.zip-open-with-any-zip-decompression-utility",
+        "display_name": "Change .stg to .zip ; open with any Zip-decompression utility"
+      },
+      {
+        "software": "screentogif",
+        "display_name": "ScreenToGif"
+      },
+      {
+        "software": "tibco-statistica",
+        "display_name": "TIBCO Statistica"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-04-14",
+  "sources": [
+    {
+      "url": "stg.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

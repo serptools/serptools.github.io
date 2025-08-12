@@ -1,0 +1,67 @@
+{
+  "slug": "rvz",
+  "extension": "rvz",
+  "name": "Compressed Wii / GameCube ROM",
+  "category": "compressed-wii-gamecube-rom",
+  "developer_org": "dolphin",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 24,
+    "source": "fileinfo"
+  },
+  "summary": "An RVZ file is a ROM file created for use with Dolphin, a cross-platform Nintendo Wii and GameCube emulator . It contains a compressed copy of a Nintendo Wii or GameCube video game. RVZ files allow gamers to play Wii and GameCube games on their PCs.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "dolphin",
+        "display_name": "Dolphin"
+      },
+      {
+        "software": "openemu",
+        "display_name": "OpenEmu"
+      }
+    ],
+    "macos": [
+      {
+        "software": "dolphin",
+        "display_name": "Dolphin"
+      },
+      {
+        "software": "openemu",
+        "display_name": "OpenEmu"
+      }
+    ],
+    "linux": [
+      {
+        "software": "dolphin",
+        "display_name": "Dolphin"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-01-18",
+  "sources": [
+    {
+      "url": "rvz.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

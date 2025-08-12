@@ -1,0 +1,52 @@
+{
+  "slug": "psh",
+  "extension": "psh",
+  "name": "Photodex Slide Show",
+  "category": "photodex-slide-show",
+  "developer_org": "photodex",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 40,
+    "source": "fileinfo"
+  },
+  "summary": "Project file created by ProShow, a program used to create professional-quality slide shows with images, video, and audio; contains all setting and added effects necessary to load, create, and play the slide show; commonly used for business presentation materials, personal photography slide shows, and video publishing to the Web.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "photodex-presenter-plug-in",
+        "display_name": "Photodex Presenter plug-in"
+      },
+      {
+        "software": "photodex-proshow",
+        "display_name": "Photodex ProShow",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-02-15",
+  "sources": [
+    {
+      "url": "psh.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

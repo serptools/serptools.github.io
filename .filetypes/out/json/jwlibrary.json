@@ -1,0 +1,63 @@
+{
+  "slug": "jwlibrary",
+  "extension": "jwlibrary",
+  "name": "JW Library Backup",
+  "category": "jw-library-backup",
+  "developer_org": "jehovah-s-witnesses",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "A JWLIBRARY file is a backup file created by JW Library, an eReader used to read Jehovah's Witnesses Publications. It contains a user's document annotations, including notes and highlighting. JWLIBRARY files do not contain a backup of the books and other documents a user has stored in JW Library.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "jw-library",
+        "display_name": "JW Library"
+      },
+      {
+        "software": "jwlmerge",
+        "display_name": "JWLMerge"
+      }
+    ],
+    "ios": [
+      {
+        "software": "jw-library",
+        "display_name": "JW Library"
+      }
+    ],
+    "android": [
+      {
+        "software": "jw-library",
+        "display_name": "JW Library"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-02-02",
+  "sources": [
+    {
+      "url": "jwlibrary.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

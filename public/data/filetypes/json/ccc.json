@@ -1,0 +1,21 @@
+{
+  "slug": "ccc",
+  "extension": "ccc",
+  "name": "Dev-C++ Code Completion Cache",
+  "category": "dev-c++-code-completion-cache",
+  "summary": "",
+  "developer_org": "microsoft",
+  "developer_name": "Microsoft",
+  "more_information": {
+    "description": [
+      "The cache file is created when you accept the autocompletion function when Dev-C++ is first run. After accepting the function, the program will parse some files and create the CCC cache. The file is located in the \\%APPDATA%\\Dev-Cpp\\ directory."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "ccc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

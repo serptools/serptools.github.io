@@ -1,0 +1,120 @@
+{
+  "slug": "pcm",
+  "extension": "pcm",
+  "name": "Pulse Code Modulation File",
+  "category": "1.-pulse-code-modulation-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 91,
+    "source": "fileinfo"
+  },
+  "summary": "A PCM file contains uncompressed Pulse Code Modulation (PCM) audio data, which represents sound waves in digital form. It stores audio as a series of binary numerical samples, with each sample delineating the amplitude of the sound wave at a specific moment in time.",
+  "standards": [],
+  "mime_types": [
+    "audacity/audacity",
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "mplayer",
+        "display_name": "MPlayer"
+      },
+      {
+        "software": "adobe-audition-2023",
+        "display_name": "Adobe Audition 2023"
+      },
+      {
+        "software": "audacity",
+        "display_name": "Audacity"
+      },
+      {
+        "software": "wave-xtractor",
+        "display_name": "WAVE Xtractor"
+      },
+      {
+        "software": "korg-pa-manager",
+        "display_name": "KORG PA Manager"
+      },
+      {
+        "software": "gnu-compiler-collection-gcc",
+        "display_name": "GNU Compiler Collection (GCC)"
+      },
+      {
+        "software": "llvm",
+        "display_name": "LLVM"
+      }
+    ],
+    "macos": [
+      {
+        "software": "mplayer",
+        "display_name": "MPlayer"
+      },
+      {
+        "software": "adobe-audition-2023",
+        "display_name": "Adobe Audition 2023"
+      },
+      {
+        "software": "audacity",
+        "display_name": "Audacity"
+      },
+      {
+        "software": "gnu-compiler-collection-gcc",
+        "display_name": "GNU Compiler Collection (GCC)"
+      },
+      {
+        "software": "llvm",
+        "display_name": "LLVM"
+      }
+    ],
+    "linux": [
+      {
+        "software": "mplayer",
+        "display_name": "MPlayer"
+      },
+      {
+        "software": "audacity",
+        "display_name": "Audacity"
+      },
+      {
+        "software": "gnu-compiler-collection-gcc",
+        "display_name": "GNU Compiler Collection (GCC)"
+      },
+      {
+        "software": "llvm",
+        "display_name": "LLVM"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "PCM file icon",
+      "alt": "PCM file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/pcm-654.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2024-12-10",
+  "sources": [
+    {
+      "url": "pcm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

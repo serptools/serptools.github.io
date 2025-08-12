@@ -1,0 +1,53 @@
+{
+  "slug": "mbl",
+  "extension": "mbl",
+  "name": "Logger Pro Data File",
+  "category": "logger-pro-data-file",
+  "developer_org": "vernier",
+  "popularity": {
+    "rating": 4.2,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Data file created by Logger Pro, a data collection and analysis software program; may include experiments, graphs, tables, and other types of information; commonly used by students and educational institutions for conducting scientific experiments in lab classes.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "vernier-logger-pro",
+        "display_name": "Vernier Logger Pro"
+      }
+    ],
+    "macos": [
+      {
+        "software": "vernier-logger-pro",
+        "display_name": "Vernier Logger Pro"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2008-02-20",
+  "sources": [
+    {
+      "url": "mbl.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

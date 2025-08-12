@@ -1,0 +1,97 @@
+{
+  "slug": "roq",
+  "extension": "roq",
+  "name": "RoQ Full Motion Video",
+  "category": "roq-full-motion-video",
+  "developer_org": "id-software",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 14,
+    "source": "fileinfo"
+  },
+  "summary": "A ROQ file is a video saved in the RoQ full motion video format. It likely contains a cinematic played in a video game. Many games developed using id Software's id Tech 3 and 4 engines, including Quake III and Doom 3, use ROQ files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      },
+      {
+        "software": "media-player-classic",
+        "display_name": "Media Player Classic"
+      },
+      {
+        "software": "id-software-quake-3",
+        "display_name": "id Software Quake 3"
+      },
+      {
+        "software": "id-software-doom-3",
+        "display_name": "id Software Doom 3"
+      },
+      {
+        "software": "bethesda-softworks-return-to-castle-wolfenstein",
+        "display_name": "Bethesda Softworks Return to Castle Wolfenstein"
+      }
+    ],
+    "macos": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      }
+    ],
+    "linux": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "ROQ file open in VideoLAN VLC media player",
+      "alt": "ROQ file open in VideoLAN VLC media player",
+      "source_url": "https://fileinfo.com/img/ss/md/roq_3694.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-07-25",
+  "sources": [
+    {
+      "url": "roq.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

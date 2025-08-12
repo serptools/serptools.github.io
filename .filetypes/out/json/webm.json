@@ -1,0 +1,201 @@
+{
+  "slug": "webm",
+  "extension": "webm",
+  "name": "WebM Video",
+  "category": "webm-video",
+  "developer_org": "google",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 575,
+    "source": "fileinfo"
+  },
+  "summary": "A WEBM file is a video saved in the WebM format, an open, royalty-free format designed for sharing video on the web. WebM uses a container structure similar to the Matroska ( .MKV ) video format, which stores both audio and video data. Video is compressed using a VP8 or VP9 codec, and audio is compressed with either the Vorbis or Opus audio codec.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "microsoft-media-player",
+        "display_name": "Microsoft Media Player"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "miro-video-converter",
+        "display_name": "Miro Video Converter"
+      },
+      {
+        "software": "handbrake",
+        "display_name": "HandBrake"
+      },
+      {
+        "software": "microsoft-windows-media-player-with-directshow-filter",
+        "display_name": "Microsoft Windows Media Player with DirectShow Filter"
+      },
+      {
+        "software": "microsoft-edge",
+        "display_name": "Microsoft Edge"
+      },
+      {
+        "software": "microsoft-internet-explorer-with-vp8-plug-in",
+        "display_name": "Microsoft Internet Explorer with VP8 plug-in",
+        "status": "discontinued"
+      },
+      {
+        "software": "mozilla-firefox",
+        "display_name": "Mozilla Firefox"
+      },
+      {
+        "software": "opera",
+        "display_name": "Opera"
+      },
+      {
+        "software": "shedworx-smart-converter",
+        "display_name": "ShedWorx Smart Converter"
+      },
+      {
+        "software": "eltima-elmedia-player",
+        "display_name": "Eltima Elmedia Player"
+      },
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      },
+      {
+        "software": "videolan-vlc-for-mobile",
+        "display_name": "VideoLAN VLC for Mobile"
+      },
+      {
+        "software": "olimsoft-oplayer",
+        "display_name": "olimsoft OPlayer"
+      },
+      {
+        "software": "pentaloop-playerxtreme-media-player",
+        "display_name": "PentaLoop PlayerXtreme Media Player"
+      }
+    ],
+    "chromeos": [
+      {
+        "software": "google-chrome",
+        "display_name": "Google Chrome"
+      }
+    ],
+    "android": [
+      {
+        "software": "file-viewer-for-android",
+        "display_name": "File Viewer for Android"
+      },
+      {
+        "software": "videolabs-vlc-for-android",
+        "display_name": "Videolabs VLC for Android"
+      }
+    ],
+    "macos": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "miro-video-converter",
+        "display_name": "Miro Video Converter"
+      },
+      {
+        "software": "handbrake",
+        "display_name": "HandBrake"
+      },
+      {
+        "software": "shedworx-smart-converter",
+        "display_name": "ShedWorx Smart Converter"
+      },
+      {
+        "software": "mozilla-firefox",
+        "display_name": "Mozilla Firefox"
+      },
+      {
+        "software": "opera",
+        "display_name": "Opera"
+      },
+      {
+        "software": "eltima-elmedia-player",
+        "display_name": "Eltima Elmedia Player"
+      }
+    ],
+    "linux": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      },
+      {
+        "software": "handbrake",
+        "display_name": "HandBrake"
+      },
+      {
+        "software": "mozilla-firefox",
+        "display_name": "Mozilla Firefox"
+      },
+      {
+        "software": "opera",
+        "display_name": "Opera"
+      }
+    ],
+    "ios": [
+      {
+        "software": "videolan-vlc-for-mobile",
+        "display_name": "VideoLAN VLC for Mobile"
+      },
+      {
+        "software": "olimsoft-oplayer",
+        "display_name": "olimsoft OPlayer"
+      },
+      {
+        "software": "pentaloop-playerxtreme-media-player",
+        "display_name": "PentaLoop PlayerXtreme Media Player"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "WEBM file icon",
+      "alt": "WEBM file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/webm-5270.png"
+    },
+    {
+      "caption": "WEBM file open in VideoLAN VLC media player",
+      "alt": "WEBM file open in VideoLAN VLC media player",
+      "source_url": "https://fileinfo.com/img/ss/md/webm_5270.jpg"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-04-08",
+  "sources": [
+    {
+      "url": "webm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

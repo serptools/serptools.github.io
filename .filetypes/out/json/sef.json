@@ -1,0 +1,55 @@
+{
+  "slug": "sef",
+  "extension": "sef",
+  "name": "Encryptafile Signature File",
+  "category": "1.-encryptafile-signature-file",
+  "developer_org": "xenosystems",
+  "popularity": {
+    "rating": 4.3,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Digital signature created by Encryptafile after running the \"Sign a File\" task; used to verify the identity of a Encryptafile .EFL file; may store the signature in a digital envelope if the digital envelope option is selected in the signature options.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "xenosystems-encryptafile",
+        "display_name": "XenoSystems Encryptafile"
+      },
+      {
+        "software": "steganos-password-manager",
+        "display_name": "Steganos Password Manager"
+      },
+      {
+        "software": "steganos-privacy-suite",
+        "display_name": "Steganos Privacy Suite"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2007-10-08",
+  "sources": [
+    {
+      "url": "sef.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

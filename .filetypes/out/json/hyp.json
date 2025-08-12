@@ -1,0 +1,69 @@
+{
+  "slug": "hyp",
+  "extension": "hyp",
+  "name": "Hyper Compressed Archive",
+  "category": "1.-hyper-compressed-archive",
+  "developer_org": "peter-sawatzki-and-klaus-peter-nischke",
+  "popularity": {
+    "rating": 2.9,
+    "votes": 11,
+    "source": "fileinfo"
+  },
+  "summary": "An HYP file is a compressed archive created by Hyper, an archiving utility for MS-DOS. It contains one or more compressed files. HYP files are compressed using a variant of Lempel-Ziv-Welch (LZW) compression.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "hyper",
+        "display_name": "Hyper"
+      },
+      {
+        "software": "adobe-illustrator-2025",
+        "display_name": "Adobe Illustrator 2025"
+      },
+      {
+        "software": "adobe-indesign-2023",
+        "display_name": "Adobe InDesign 2023"
+      },
+      {
+        "software": "canvas-gfx-canvas-x-pro",
+        "display_name": "Canvas GFX Canvas X Pro"
+      }
+    ],
+    "macos": [
+      {
+        "software": "adobe-illustrator-2025",
+        "display_name": "Adobe Illustrator 2025"
+      },
+      {
+        "software": "adobe-indesign-2023",
+        "display_name": "Adobe InDesign 2023"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-01-31",
+  "sources": [
+    {
+      "url": "hyp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

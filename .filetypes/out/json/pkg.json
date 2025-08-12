@@ -1,0 +1,123 @@
+{
+  "slug": "pkg",
+  "extension": "pkg",
+  "name": "Symbian Package File",
+  "category": "1.-symbian-package-file",
+  "developer_org": "nokia",
+  "popularity": {
+    "rating": 4.2,
+    "votes": 642,
+    "source": "fileinfo"
+  },
+  "summary": "A PKG file is a configuration file required to build a Symbian OS installer ( .SIS file). It contains plain text information that defines how a SIS creation program, such as CreateSIS and Easy SIS Creator, builds a SIS file. For example, PKG files typically define an application's supported languages, vendor name, software dependencies, files to copy, and digital signature details.",
+  "standards": [],
+  "mime_types": [
+    "elements/direct"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "createsis",
+        "display_name": "CreateSIS"
+      },
+      {
+        "software": "easy-sis-creator",
+        "display_name": "Easy SIS Creator"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "transfer-to-the-appropriate-playstation-console-and-install",
+        "display_name": "Transfer to the appropriate PlayStation console and install"
+      },
+      {
+        "software": "microsoft-midtown-madness-2",
+        "display_name": "Microsoft Midtown Madness 2",
+        "status": "discontinued"
+      },
+      {
+        "software": "zanoza-zmodeler",
+        "display_name": "Zanoza ZModeler"
+      },
+      {
+        "software": "pkgimportexport-for-blender",
+        "display_name": "PKGImportExport for Blender"
+      },
+      {
+        "software": "rename-.pkg-to-.zip-decompress-with-any-zip-archive-utility",
+        "display_name": "Rename .pkg to .zip ; decompress with any Zip archive utility"
+      },
+      {
+        "software": "parametric-technology-cocreate-modeling",
+        "display_name": "Parametric Technology CoCreate Modeling",
+        "status": "discontinued"
+      },
+      {
+        "software": "parametric-technology-creo-elements-direct-modeling",
+        "display_name": "Parametric Technology Creo Elements/Direct Modeling"
+      },
+      {
+        "software": "parametric-technology-creo-elements-direct-modeling-express",
+        "display_name": "Parametric Technology Creo Elements/Direct Modeling Express"
+      },
+      {
+        "software": "publish-to-roku-channel-store-from-roku-device-with-developer-settings-enabled",
+        "display_name": "Publish to Roku Channel Store from Roku device with Developer Settings enabled"
+      }
+    ],
+    "macos": [
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "apple-installer",
+        "display_name": "Apple Installer"
+      },
+      {
+        "software": "charlessoft-pacifist",
+        "display_name": "CharlesSoft Pacifist"
+      },
+      {
+        "software": "pkgimportexport-for-blender",
+        "display_name": "PKGImportExport for Blender"
+      }
+    ],
+    "linux": [
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "pkgimportexport-for-blender",
+        "display_name": "PKGImportExport for Blender"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-05-18",
+  "sources": [
+    {
+      "url": "pkg.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "slug": "brmdl",
+  "extension": "brmdl",
+  "name": "Wii BRMDL Model File",
+  "category": "wii-brmdl-model-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "Wii game model file used by select Nintendo Wii games such as Super Smash Bros. Brawl; saved in the BRMDL format, which is similar to the .BRRES package format; contains model data used to make up the appearance of characters.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "brawlbox",
+        "display_name": "BrawlBox"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-08-04",
+  "sources": [
+    {
+      "url": "brmdl.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

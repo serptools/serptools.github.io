@@ -1,0 +1,24 @@
+{
+  "slug": "swp",
+  "extension": "swp",
+  "name": "Vi Swap File",
+  "category": "vi-swap-file",
+  "summary": "",
+  "developer_org": "n-a",
+  "developer_name": "N/A",
+  "more_information": {
+    "description": [
+      "SWP files are created immediately when a Vi text editing session is started. They are saved to the same directory as their original file. For example, a text file with the name example.txt would have a swap file named .example.txt.swp .",
+      "If a Vi session terminates due to a program kill or crash, the SWP file remains. This allows users to recover the data using the (R)ecover option when opening the original file. However, if you do not need to recover data, you can manually delete the SWP file so the warning message stops appearing.",
+      "When trying to open a file that has a swap file, Vi provides the following message: \"Swap file .example.txt.swp already exists!\" (where example.txt is the file being opened). From this dialog, you can choose these options: 1) (O)pen Read-Only, 2) (E)dit, 3) (R)ecover, 4) (Q)uit, or 4) (A)bort.",
+      "NOTE: If Vi or its variants have already created an SWP file for a file, and they attempt to create another swap file, they'll append that swap file with the .swo extension. If an .swo file exists, they'll append the file with the .swn extension, and so on."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "swp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

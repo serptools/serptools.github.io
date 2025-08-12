@@ -1,0 +1,61 @@
+{
+  "slug": "jrc",
+  "extension": "jrc",
+  "name": "PCjr Cartridge ROM File",
+  "category": "pcjr-cartridge-rom-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "File used for emulating games and other software for the older IBM PCjr system, which debuted in 1984; saves a replica of the data on a PCjr cartridge; can be run by DOSBox, but only if configured properly.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "dosbox",
+        "display_name": "DOSBox"
+      }
+    ],
+    "macos": [
+      {
+        "software": "dosbox",
+        "display_name": "DOSBox"
+      }
+    ],
+    "linux": [
+      {
+        "software": "dosbox",
+        "display_name": "DOSBox"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-08-21",
+  "sources": [
+    {
+      "url": "jrc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

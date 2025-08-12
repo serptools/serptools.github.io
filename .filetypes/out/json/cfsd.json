@@ -1,0 +1,47 @@
+{
+  "slug": "cfsd",
+  "extension": "cfsd",
+  "name": "3DS Mii",
+  "category": "3ds-mii",
+  "developer_org": "nintendo",
+  "popularity": {
+    "rating": 1.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "A CFSD file is a Mii used in a Nintendo 3DS video game. It contains an animated character that is shown in-game. Official 3DS Miis and player-created 3DS Miis are all saved as CFSD files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "not-meant-to-be-opened-outside-the-nintendo-3ds-games-in-which-they-are-used",
+        "display_name": "Not meant to be opened outside the Nintendo 3DS games in which they are used"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-07-08",
+  "sources": [
+    {
+      "url": "cfsd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

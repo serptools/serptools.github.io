@@ -1,0 +1,69 @@
+{
+  "slug": "ksd",
+  "extension": "ksd",
+  "name": "Native Instruments Massive Sound File",
+  "category": "1.-native-instruments-massive-sound-file",
+  "developer_org": "native-instruments",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 39,
+    "source": "fileinfo"
+  },
+  "summary": "Sound file created by Native Instruments Massive, a program ( DAW ) that enables you to create and edit \"massive\" sounds such as deep, punchy bass lines; contains a preset or user-created sound with different settings for filters, amps, fx, noise, oscillators, and more; replaced by the .NMSV file in Massive version 1.3.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "native-instruments-massive",
+        "display_name": "Native Instruments Massive"
+      }
+    ],
+    "macos": [
+      {
+        "software": "native-instruments-massive",
+        "display_name": "Native Instruments Massive"
+      }
+    ],
+    "android": [
+      {
+        "software": "keepsafe-private-photo-vault",
+        "display_name": "KeepSafe Private Photo Vault"
+      },
+      {
+        "software": "keepsafe-vault",
+        "display_name": "KeepSafe Vault"
+      }
+    ],
+    "ios": [
+      {
+        "software": "keepsafe-private-photo-vault",
+        "display_name": "KeepSafe Private Photo Vault"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-02-11",
+  "sources": [
+    {
+      "url": "ksd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

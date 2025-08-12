@@ -1,0 +1,79 @@
+{
+  "slug": "vxn",
+  "extension": "vxn",
+  "name": "VOX Engine Audio Pack",
+  "category": "vox-engine-audio-pack",
+  "developer_org": "gameloft",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "A VXN file is an audio pack used by a Gameloft video game. It contains background music played in a game, split into loopable segments. This music is typically saved in the .WAV , .OGG , or .MPC format.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "various-gameloft-video-games",
+        "display_name": "Various Gameloft video games"
+      },
+      {
+        "software": "vgmstream",
+        "display_name": "vgmstream"
+      },
+      {
+        "software": "foobar2000-with-vgmstream-plug-in",
+        "display_name": "Foobar2000 with vgmstream plug-in"
+      }
+    ],
+    "web": [
+      {
+        "software": "vgmstream-web",
+        "display_name": "vgmstream-web"
+      }
+    ],
+    "macos": [
+      {
+        "software": "vgmstream",
+        "display_name": "vgmstream"
+      }
+    ],
+    "linux": [
+      {
+        "software": "vgmstream",
+        "display_name": "vgmstream"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "VXN file open in vgmstream-web",
+      "alt": "VXN file open in vgmstream-web",
+      "source_url": "https://fileinfo.com/img/ss/md/vxn_13521.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-11-30",
+  "sources": [
+    {
+      "url": "vxn.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

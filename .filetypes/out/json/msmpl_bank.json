@@ -1,0 +1,61 @@
+{
+  "slug": "msmpl_bank",
+  "extension": "msmpl_bank",
+  "name": "Korg microSAMPLER Bank Data File",
+  "category": "korg-microsampler-bank-data-file",
+  "developer_org": "korg",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "An MSMPL_BANK file is a data file used by the Korg microSAMPLER keyboard and Korg microSAMPLER Editor/Librarian software. It contains a sound bank, which includes all of the samples, patterns, tempo and effects parameters for an instrument. MSMPL_BANK files are used to transfer a sound bank to and from microSAMPLER keyboards.",
+  "standards": [],
+  "mime_types": [
+    "editor/librarian"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "korg-microsampler-editor-librarian",
+        "display_name": "Korg microSAMPLER Editor/Librarian"
+      }
+    ],
+    "macos": [
+      {
+        "software": "korg-microsampler-editor-librarian",
+        "display_name": "Korg microSAMPLER Editor/Librarian"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "MSMPL_BANK file icon",
+      "alt": "MSMPL_BANK file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/msmpl_bank-11088.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-09-13",
+  "sources": [
+    {
+      "url": "msmpl_bank.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

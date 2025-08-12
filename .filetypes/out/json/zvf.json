@@ -1,0 +1,47 @@
+{
+  "slug": "zvf",
+  "extension": "zvf",
+  "name": "Zipped Intergraph Smart Review Project",
+  "category": "zipped-intergraph-smart-review-project",
+  "developer_org": "hexagon",
+  "popularity": {
+    "rating": 2.3,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "A ZVF file is a Zip-compressed Intergraph Smart Review project file ( .SVF file). It contains multiple SmartPlant Review .VUE files, which have been packaged together as a single file and then compressed. Structure designers create ZVF files with SmartPlant Publisher and Smart Interop Publisher.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "hexagon-intergraph-smart-review",
+        "display_name": "Hexagon Intergraph Smart Review"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-08-10",
+  "sources": [
+    {
+      "url": "zvf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

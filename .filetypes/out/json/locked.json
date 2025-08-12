@@ -1,0 +1,49 @@
+{
+  "slug": "locked",
+  "extension": "locked",
+  "name": "Ransomware Encrypted File",
+  "category": "ransomware-encrypted-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "A LOCKED file is a file encrypted by the Locked virus, a trojan horse utilized by cybercriminals. It contains a user's file, such as a .PDF or .XLSX file, encrypted with AES-256 encryption. LOCKED files became prevalent in 2016 along with .LOCKY files that are encrypted by the Locky virus.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "system-restore",
+        "display_name": "System Restore"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-04-25",
+  "sources": [
+    {
+      "url": "locked.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

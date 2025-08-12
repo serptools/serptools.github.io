@@ -1,0 +1,51 @@
+{
+  "slug": "a1wish",
+  "extension": "a1wish",
+  "name": "Audials Wishlist File",
+  "category": "audials-wishlist-file",
+  "developer_org": "audials",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "Music wishlist created by Audials music and video stream recording software; saves a list of songs and artists that the user would like to find online; uses a simple XML format for saving the list.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "audials-radiotracker",
+        "display_name": "Audials Radiotracker"
+      },
+      {
+        "software": "audials-one-2022",
+        "display_name": "Audials One 2022"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2016-03-09",
+  "sources": [
+    {
+      "url": "a1wish.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "chl",
+  "extension": "chl",
+  "name": "WinFast PVR2 Channel List",
+  "category": "winfast-pvr2-channel-list",
+  "developer_org": "leadtek-research",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "List of channels saved by WinFast PVR2, the software program included with WinFast DVR hardware (such as TV tuner cards and USB devices); stores channels that can be viewed and recorded using the WinFast DVR2 software.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "leadtek-research-winfast-pvr2",
+        "display_name": "Leadtek Research WinFast PVR2"
+      },
+      {
+        "software": "christv-pvr",
+        "display_name": "ChrisTV PVR"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2008-03-27",
+  "sources": [
+    {
+      "url": "chl.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

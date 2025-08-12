@@ -1,0 +1,22 @@
+{
+  "slug": "pvf",
+  "extension": "pvf",
+  "name": "Portable Voice Format",
+  "category": "portable-voice-format",
+  "summary": "",
+  "developer_org": "marc-schaefer",
+  "developer_name": "Marc Schaefer",
+  "more_information": {
+    "description": [
+      "Vgetty is a package that can be installed on Unix operating systems to use the capabilities of a voice modem to record and play messages. The software package includes a pvftools directory with utilities to convert voice files. Vgetty only supports voice files converted to the raw modem format (RMF). However, phone call audio is typically recorded in .WAV or .VOC format, which means the “pvftools” utilities must be used to convert the format to RMF in order to play it. Since the Vgetty utilities cannot convert the WAV or VOC files directly to RMF, PVF is used as an intermediate format. This means that Vgetty can be used to convert the initial phone call audio format to PVF and then used to convert PVF audio to the RMF format.",
+      "Although PVF files are typically converted instead of played, they can be opened by Nullsoft Winamp. PVF files can also be converted to other formats, such as .MP3 and .AAC using Factory Audio Converter."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "pvf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

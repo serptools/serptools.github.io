@@ -1,0 +1,35 @@
+{
+  "slug": "vbproj",
+  "extension": "vbproj",
+  "name": "Visual Studio Visual Basic.NET Project",
+  "category": "visual-studio-visual-basic.net-project",
+  "summary": "",
+  "developer_org": "microsoft",
+  "developer_name": "Microsoft",
+  "more_information": {
+    "screenshot": {
+      "url": "https://fileinfo.com/img/ss/sm/vbproj_3287.png",
+      "alt": "Screenshot of a .vbproj file in Microsoft Visual Studio Code",
+      "caption": "VBPROJ file open in Microsoft Visual Studio Code"
+    },
+    "description": [
+      "When a developer begins developing a new program in Microsoft Visual Studio, they first create a project file. The project file contains all the information MSBuild needs to compile the developer's program. Visual Studio allows developers to create many different types of projects, each of which is saved in its own type of project file. Visual Basic.NET projects are saved as VBPROJ files.",
+      "VBPROJ files are XML-formatted files that contain elements defined by MSBuild's XML schema . These elements tell MSBuild what items to build and how to build them. Some of the elements VBPROJ files contain include:",
+      "To build a Visual Basic.NET application developed in Visual Studio, a developer invokes MSBuild.exe from the Windows command-line interface along with the name of their VBPROJ file. For example, to build a project named MyProject.vbproj , a developer would enter the command MSBuild.exe MyProject.vbproj in the command prompt, along with any other appropriate command-line options."
+    ]
+  },
+  "images": [
+    {
+      "url": "https://fileinfo.com/img/ss/sm/vbproj_3287.png",
+      "alt": "Screenshot of a .vbproj file in Microsoft Visual Studio Code",
+      "caption": "VBPROJ file open in Microsoft Visual Studio Code"
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "vbproj.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

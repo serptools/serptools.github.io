@@ -1,0 +1,93 @@
+{
+  "slug": "ecw",
+  "extension": "ecw",
+  "name": "Enhanced Compression Wavelet Image",
+  "category": "1.-enhanced-compression-wavelet-image",
+  "developer_org": "earth-resource-mapping",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "An ECW file is an image saved in the Enhanced Compression Wavelet (ECW) format. It was likely created using aerial photography or satellite imaging. Geographers and other Earth scientists use the images ECW files contain in GIS applications.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "erdas-imagine",
+        "display_name": "ERDAS IMAGINE"
+      },
+      {
+        "software": "canvas-gfx-canvas-x-pro",
+        "display_name": "Canvas GFX Canvas X Pro"
+      },
+      {
+        "software": "safe-software-fme-desktop",
+        "display_name": "Safe Software FME Desktop"
+      },
+      {
+        "software": "esri-arcgis-for-desktop",
+        "display_name": "ESRI ArcGIS for Desktop"
+      },
+      {
+        "software": "tatukgis-viewer",
+        "display_name": "TatukGIS Viewer"
+      },
+      {
+        "software": "qgis",
+        "display_name": "QGIS"
+      },
+      {
+        "software": "green-eclipse-eclipsecrossword",
+        "display_name": "Green Eclipse EclipseCrossword"
+      }
+    ],
+    "macos": [
+      {
+        "software": "safe-software-fme-desktop",
+        "display_name": "Safe Software FME Desktop"
+      },
+      {
+        "software": "qgis",
+        "display_name": "QGIS"
+      }
+    ],
+    "linux": [
+      {
+        "software": "safe-software-fme-desktop",
+        "display_name": "Safe Software FME Desktop"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "ECW file open in QGIS",
+      "alt": "ECW file open in QGIS",
+      "source_url": "https://fileinfo.com/img/ss/md/ecw_4858.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-11-29",
+  "sources": [
+    {
+      "url": "ecw.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

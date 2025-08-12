@@ -1,0 +1,53 @@
+{
+  "slug": "tt2015state",
+  "extension": "tt2015state",
+  "name": "TurboTax 2015 State Tax Form",
+  "category": "turbotax-2015-state-tax-form",
+  "developer_org": "intuit",
+  "popularity": {
+    "rating": 1.7,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "A TT2015STATE file is a state tax form created by TurboTax 2015 tax preparation software. It contains one or more tax forms for a specific U.S. state and is linked to a .TAX2015 tax return document. TT2015STATE files may be referenced by TurboTax when completing a tax return.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "intuit-turbotax",
+        "display_name": "Intuit TurboTax"
+      }
+    ],
+    "macos": [
+      {
+        "software": "intuit-turbotax",
+        "display_name": "Intuit TurboTax"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2016-12-06",
+  "sources": [
+    {
+      "url": "tt2015state.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "targets",
+  "extension": "targets",
+  "name": "MSBuild Targets File",
+  "category": "msbuild-targets-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 54,
+    "source": "fileinfo"
+  },
+  "summary": "Development file included with MSBuild, the project build platform for Microsoft Visual Studio; contains items, properties, tasks, and targets for common programming scenarios; may be referenced and imported by Visual Studio projects.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-visual-studio-2022",
+        "display_name": "Microsoft Visual Studio 2022"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2007-12-07",
+  "sources": [
+    {
+      "url": "targets.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

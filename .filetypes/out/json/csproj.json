@@ -1,0 +1,73 @@
+{
+  "slug": "csproj",
+  "extension": "csproj",
+  "name": "Visual Studio C# Project",
+  "category": "visual-studio-c-project",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 36,
+    "source": "fileinfo"
+  },
+  "summary": "A CSPROJ file is a C# (C Sharp) programming project file created by Microsoft Visual Studio. It contains XML-formatted text that lists a project's included files and compilation options. Developers compile CSPROJ files using MSBuild (the Microsoft Build Engine).",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-visual-studio-2022",
+        "display_name": "Microsoft Visual Studio 2022"
+      },
+      {
+        "software": "jetbrains-rider",
+        "display_name": "JetBrains Rider"
+      }
+    ],
+    "macos": [
+      {
+        "software": "microsoft-visual-studio-for-mac",
+        "display_name": "Microsoft Visual Studio for Mac"
+      },
+      {
+        "software": "jetbrains-rider",
+        "display_name": "JetBrains Rider"
+      }
+    ],
+    "linux": [
+      {
+        "software": "jetbrains-rider",
+        "display_name": "JetBrains Rider"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "CSPROJ file open in Microsoft Visual Studio Code",
+      "alt": "CSPROJ file open in Microsoft Visual Studio Code",
+      "source_url": "https://fileinfo.com/img/ss/md/csproj_3836.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-05-03",
+  "sources": [
+    {
+      "url": "csproj.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

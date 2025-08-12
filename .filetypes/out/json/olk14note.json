@@ -1,0 +1,53 @@
+{
+  "slug": "olk14note",
+  "extension": "olk14note",
+  "name": "Outlook Note File",
+  "category": "outlook-note-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "File created by Microsoft Outlook 2011, a program used for email and calendar management; contains a note, which was created using the Notes section of Outlook; stores the note formatting as well as the written text; used for storing personal and business notes logged by the user.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "microsoft-outlook-365",
+        "display_name": "Microsoft Outlook 365"
+      }
+    ],
+    "windows": [
+      {
+        "software": "microsoft-outlook-365",
+        "display_name": "Microsoft Outlook 365"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-01-18",
+  "sources": [
+    {
+      "url": "olk14note.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "n",
+  "extension": "n",
+  "name": "Neko Bytecode File",
+  "category": "neko-bytecode-file",
+  "summary": "",
+  "developer_org": "nicolas-cannasse",
+  "developer_name": "Nicolas Cannasse",
+  "more_information": {
+    "description": [
+      "Conceptually, the Neko VM is similar to the Java virtual machine (JVM). Just as the Java compiler compiles plain text .JAVA source code into bytecode that can be run by the JVM, the Neko compiler compiles the source code in NEKO files that can then be run on the Neko VM.",
+      "NOTE: N files may also be compiled from variant languages such as Haxe."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "n.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

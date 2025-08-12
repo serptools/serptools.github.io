@@ -1,0 +1,83 @@
+{
+  "slug": "c2g",
+  "extension": "c2g",
+  "name": "Lexy's Labyrinth Level Pack Index",
+  "category": "lexy-s-labyrinth-level-pack-index",
+  "developer_org": "eevee",
+  "popularity": {
+    "rating": 1.3,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "A C2G file is a level pack index used by Lexy's Labyrinth, a browser-based puzzle game. It contains a plain text list of the levels ( .C2M files) included in a level pack. C2G files are typically packaged in .ZIP archives along with their corresponding C2M files.",
+  "standards": [],
+  "mime_types": [
+    "c.eev.ee/lexys-labyrinth"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      },
+      {
+        "software": "lexy-s-labyrinth",
+        "display_name": "Lexy's Labyrinth"
+      }
+    ],
+    "macos": [
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "web": [
+      {
+        "software": "lexy-s-labyrinth",
+        "display_name": "Lexy's Labyrinth"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-02-21",
+  "sources": [
+    {
+      "url": "c2g.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

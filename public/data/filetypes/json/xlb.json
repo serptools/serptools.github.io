@@ -1,0 +1,27 @@
+{
+  "slug": "xlb",
+  "extension": "xlb",
+  "name": "Microsoft Excel Toolbar Settings File",
+  "category": "microsoft-excel-toolbar-settings-file",
+  "summary": "",
+  "developer_org": "oracle",
+  "developer_name": "Oracle",
+  "more_information": {
+    "description": [
+      "Excel toolbars allow you to quickly access important functions, such as \"Save,\" \"Undo,\" \"Redo,\" \"Copy,\" and \"Cut.\" You can customize the toolbar by adding your favorite commands, which include commands available in the various tabs in the ribbon and macros .",
+      "Excel saves all of the toolbar settings in the XLB file, which you can transfer from one computer to another to set up the toolbar.",
+      "You can customize your toolbar in several ways in Excel 365:",
+      "In older versions of Excel, select Toolbars from the View menu to access the customization options.",
+      "Once you close Excel, the application saves any changes you made to the toolbar in the XLB file.",
+      "XLB settings file are typically stored in one of the two directories:",
+      "NOTE: If you delete the XLB file, Excel will regenerate it when opened again, but any customizations will be lost."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "xlb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

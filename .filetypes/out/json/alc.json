@@ -1,0 +1,63 @@
+{
+  "slug": "alc",
+  "extension": "alc",
+  "name": "Ableton Live Clip File",
+  "category": "1.-ableton-live-clip-file",
+  "developer_org": "ableton",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "Audio clip file created by Ableton Live, an audio production application; saves an audio segment that was imported and edited in the software; often created when cropping or trimming audio; used for saving custom audio segments.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "ableton-live",
+        "display_name": "Ableton Live"
+      },
+      {
+        "software": "microsoft-dynamics-ax",
+        "display_name": "Microsoft Dynamics AX"
+      }
+    ],
+    "macos": [
+      {
+        "software": "ableton-live",
+        "display_name": "Ableton Live"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "ALC file icon",
+      "alt": "ALC file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/alc-6694.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-08-29",
+  "sources": [
+    {
+      "url": "alc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

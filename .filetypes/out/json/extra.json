@@ -1,0 +1,71 @@
+{
+  "slug": "extra",
+  "extension": "extra",
+  "name": "Google BreakPad Crash Log Extra File",
+  "category": "google-breakpad-crash-log-extra-file",
+  "developer_org": "google",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 28,
+    "source": "fileinfo"
+  },
+  "summary": "Crash log file created by Google BreakPad, an open source crash reporting tool used by products such as Mozilla Firefox; may be saved to the local file system upon program crash; can be submitted to the software developers to determine the cause of the crash.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "google-breakpad",
+        "display_name": "Google BreakPad"
+      },
+      {
+        "software": "mozilla-firefox",
+        "display_name": "Mozilla Firefox"
+      }
+    ],
+    "macos": [
+      {
+        "software": "google-breakpad",
+        "display_name": "Google BreakPad"
+      },
+      {
+        "software": "mozilla-firefox",
+        "display_name": "Mozilla Firefox"
+      }
+    ],
+    "linux": [
+      {
+        "software": "google-breakpad",
+        "display_name": "Google BreakPad"
+      },
+      {
+        "software": "mozilla-firefox",
+        "display_name": "Mozilla Firefox"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-08-06",
+  "sources": [
+    {
+      "url": "extra.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "edge",
+  "extension": "edge",
+  "name": "Adobe Edge Project File",
+  "category": "adobe-edge-project-file",
+  "summary": "",
+  "developer_org": "adobe-systems",
+  "developer_name": "Adobe Systems",
+  "more_information": {
+    "description": [
+      "When you save an Edge project, you actually save an HTML file. The EDGE file is created during the save process along with HTML, JavaScript, and CSS files, as well as a directory named edge_includes that contains JavaScript libraries for the Web animation. When you open an EDGE file, it opens the Web page ( .HTML file) and the animation timeline for editing.",
+      "Edge differs from other Adobe products since it does not create animated Web content using Adobe's Flash technology. Instead, it uses standard Web technologies such as HTML5, CSS3, and JavaScript.",
+      "NOTE: Edge Animate, the successor to Edge, uses the .AN extension for projects instead of the \".edge\" extension. As of November 2015, Edge Animate is no longer being actively developed."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "edge.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

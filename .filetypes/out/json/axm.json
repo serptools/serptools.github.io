@@ -1,0 +1,80 @@
+{
+  "slug": "axm",
+  "extension": "axm",
+  "name": "FormIt Sketch",
+  "category": "1.-formit-sketch",
+  "developer_org": "autodesk",
+  "popularity": {
+    "rating": 4.5,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "An AXM file is an architectural model created using Autodesk FormIt. It contains 3D shapes that comprise a model, and it may also include 2D lines and images. AXM files can be opened in FormIt and imported into Autodesk Revit.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "autodesk-formit-pro",
+        "display_name": "Autodesk FormIt Pro"
+      },
+      {
+        "software": "autodesk-revit-2023",
+        "display_name": "Autodesk Revit 2023"
+      },
+      {
+        "software": "autodesk-formit",
+        "display_name": "Autodesk FormIt"
+      },
+      {
+        "software": "axmedis-editor",
+        "display_name": "AXMEDIS Editor"
+      },
+      {
+        "software": "axmedis-player",
+        "display_name": "AXMEDIS Player"
+      }
+    ],
+    "web": [
+      {
+        "software": "autodesk-formit",
+        "display_name": "Autodesk FormIt"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "AXM file icon",
+      "alt": "AXM file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/axm-12147.png"
+    },
+    {
+      "caption": "AXM file open in Autodesk FormIt 2022",
+      "alt": "AXM file open in Autodesk FormIt 2022",
+      "source_url": "https://fileinfo.com/img/ss/md/axm_12147.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-06-18",
+  "sources": [
+    {
+      "url": "axm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

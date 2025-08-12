@@ -1,0 +1,53 @@
+{
+  "slug": "tgo",
+  "extension": "tgo",
+  "name": "Terragen Object File",
+  "category": "terragen-object-file",
+  "developer_org": "planetside-software",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "Object created by Terragen, a landscape generation program; contains a three dimensional object and any attached nodes; similar to the .OBJ file but in the Terragen native format; objects built into Terragen include grass clumps, landmarks, rocks, and spheres.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "planetside-software-terragen",
+        "display_name": "Planetside Software Terragen"
+      }
+    ],
+    "macos": [
+      {
+        "software": "planetside-software-terragen",
+        "display_name": "Planetside Software Terragen"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2013-12-24",
+  "sources": [
+    {
+      "url": "tgo.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

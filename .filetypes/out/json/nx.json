@@ -1,0 +1,100 @@
+{
+  "slug": "nx",
+  "extension": "nx",
+  "name": "LowRes NX Application",
+  "category": "lowres-nx-application",
+  "developer_org": "timo-kloss",
+  "popularity": {
+    "rating": 4.8,
+    "votes": 27,
+    "source": "fileinfo"
+  },
+  "summary": "An NX file is a video game (or other application) created for use with LowRes NX, a virtual game console. It contains BASIC source code that defines how the game functions. LowRes NX includes several sample NX files, and developers can create their own NX files for use with the app.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "lowres-nx",
+        "display_name": "LowRes NX"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "lowres-nx",
+        "display_name": "LowRes NX"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "lowres-nx",
+        "display_name": "LowRes NX"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "ios": [
+      {
+        "software": "lowres-nx",
+        "display_name": "LowRes NX"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "NX file icon",
+      "alt": "NX file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/nx-13145.png"
+    },
+    {
+      "caption": "NX file open in LowRes NX",
+      "alt": "NX file open in LowRes NX",
+      "source_url": "https://fileinfo.com/img/ss/md/nx_13145.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-02-02",
+  "sources": [
+    {
+      "url": "nx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

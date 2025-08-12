@@ -1,0 +1,47 @@
+{
+  "slug": "ba9",
+  "extension": "ba9",
+  "name": "TaxAct 2019 Tax Return Backup File",
+  "category": "taxact-2019-tax-return-backup-file",
+  "developer_org": "taxact",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "A BA9 file contains a backup of a tax return created by the 2019 version of TaxAct, a tax-preparation program for the 2019 tax year. It stores 2019 tax data, which includes federal IRS and state tax form data along with basic personal information, such as the name and occupation of the user. BA9 files are used for archival purposes and as a backup to the .TA9 tax return file in the event that it is lost or becomes corrupt.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "taxact",
+        "display_name": "TaxAct"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-01-31",
+  "sources": [
+    {
+      "url": "ba9.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

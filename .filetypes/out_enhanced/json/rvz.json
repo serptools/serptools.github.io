@@ -1,0 +1,23 @@
+{
+  "slug": "rvz",
+  "extension": "rvz",
+  "name": "Compressed Wii / GameCube ROM",
+  "category": "compressed-wii-gamecube-rom",
+  "summary": "",
+  "developer_org": "dolphin",
+  "developer_name": "Dolphin",
+  "more_information": {
+    "description": [
+      "Dolphin is a cross-platform Wii and GameCube emulator that gamers can use to play Wii and GameCube games on their PCs. To play a game in Dolphin, gamers must first acquire a disk image that contains a virtual copy of that game. Dolphin allows players to load Wii and GameCube disk images saved in various formats, including .ISO , .GCZ , WIA, .WBFS , and RVZ files.",
+      "The team behind Dolphin created the RVZ file format in 2020. The RVZ format allows gamers to store the entirety of a game's data, including update data and so-called garbage data, within files that are smaller or comparably-sized to GCZ and WIA files, which do not contain all of a game's data. Unlike other lossless game disk image formats, RVZ files are also optimized for emulation, making the format ideal for both game performance and preservation.",
+      "Gamers who want to convert their existing GameCube and Wii ROMs to the RVZ format can do so using Dolphin. For example, gamers who use ISO files with Dolphin may want to convert those files to RVZ files, to save space on their hard drives."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "rvz.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

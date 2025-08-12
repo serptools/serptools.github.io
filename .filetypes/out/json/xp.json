@@ -1,0 +1,57 @@
+{
+  "slug": "xp",
+  "extension": "xp",
+  "name": "Fasttracker 2 Extended Pattern",
+  "category": "1.-fasttracker-2-extended-pattern",
+  "developer_org": "triton-productions",
+  "popularity": {
+    "rating": 2.9,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "An XP file is a song pattern created by Triton Fasttracker 2, an audio tracker for MS-DOS. It stores a pattern, which consists of multiple rows (64 by default and 1,024 maximum) divided into columns configuring aspects of the note (instrument used, volume setting, effects, etc.). Fasttracker 2 users can arrange patterns in XP files with other patterns to create a complete song, or .XM module.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "triton-fasttracker-2",
+        "display_name": "Triton Fasttracker 2"
+      },
+      {
+        "software": "xpilot",
+        "display_name": "XPilot"
+      }
+    ],
+    "linux": [
+      {
+        "software": "xpilot",
+        "display_name": "XPilot"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-08-12",
+  "sources": [
+    {
+      "url": "xp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

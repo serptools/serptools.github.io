@@ -1,0 +1,69 @@
+{
+  "slug": "tax18",
+  "extension": "tax18",
+  "name": "TurboTax 2018 Tax Return File",
+  "category": "turbotax-2018-tax-return-file",
+  "developer_org": "intuit",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "A TAX18 file is a tax return created by the desktop version of Intuit TurboTax 2018, a program used to complete tax returns in the U.S. It contains state and federal tax forms and personal information entered by the user. TAX18 files are the same as the more common .TAX2018 files but are instead saved with the .tax18 file extension.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "intuit-turbotax",
+        "display_name": "Intuit TurboTax"
+      },
+      {
+        "software": "intuit-turbotax-online",
+        "display_name": "Intuit TurboTax Online"
+      }
+    ],
+    "macos": [
+      {
+        "software": "intuit-turbotax",
+        "display_name": "Intuit TurboTax"
+      }
+    ],
+    "web": [
+      {
+        "software": "intuit-turbotax-online",
+        "display_name": "Intuit TurboTax Online"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "TAX18 file icon",
+      "alt": "TAX18 file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/tax18-11893.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-01-28",
+  "sources": [
+    {
+      "url": "tax18.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

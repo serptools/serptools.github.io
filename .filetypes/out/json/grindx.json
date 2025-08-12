@@ -1,0 +1,47 @@
+{
+  "slug": "grindx",
+  "extension": "grindx",
+  "name": "Juice Grinder Recipe File",
+  "category": "juice-grinder-recipe-file",
+  "developer_org": "chris-formeister",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "Recipe file created by Juice Grinder, a program used to create and save eJuice recipes for personal vaporizers; contains a recipe calculated from information in the Juice Grinder .DEFT file; includes flavor, nicotine, PG, and VG ingredients; can be exported as a .PDF , .CSV , and .XLSX file.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "juice-grinder",
+        "display_name": "Juice Grinder"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-01-29",
+  "sources": [
+    {
+      "url": "grindx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

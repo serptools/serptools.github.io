@@ -1,0 +1,47 @@
+{
+  "slug": "dii",
+  "extension": "dii",
+  "name": "Summation Batch Load File",
+  "category": "summation-batch-load-file",
+  "developer_org": "ct-summation",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "ASCII text file formatted using a non-delimited, multiple line format; used by a Summation Core Database to establish the link between the database summaries and the associated image file.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "web": [
+      {
+        "software": "ct-summation-iblaze-or-webblaze",
+        "display_name": "CT Summation iBlaze or WebBlaze"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2007-03-21",
+  "sources": [
+    {
+      "url": "dii.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

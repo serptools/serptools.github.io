@@ -1,0 +1,53 @@
+{
+  "slug": "esf2",
+  "extension": "esf2",
+  "name": "Eos 2.9 Show File",
+  "category": "eos-2.9-show-file",
+  "developer_org": "etc",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "An ESF2 file is a lighting control file used by versions 2.9 and above of Electronic Theater Control's (ETC) Eos software. It contains instructions that Eos uses to control theater lighting during a performance. ESF2 files are the same as ETC .ESF files, except that they are compressed.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "etc-eos-family-software",
+        "display_name": "ETC Eos Family Software"
+      }
+    ],
+    "macos": [
+      {
+        "software": "etc-eos-family-software",
+        "display_name": "ETC Eos Family Software"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-11-20",
+  "sources": [
+    {
+      "url": "esf2.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

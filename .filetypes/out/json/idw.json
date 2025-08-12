@@ -1,0 +1,94 @@
+{
+  "slug": "idw",
+  "extension": "idw",
+  "name": "Inventor Drawing",
+  "category": "inventor-drawing",
+  "developer_org": "autodesk",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 28,
+    "source": "fileinfo"
+  },
+  "summary": "An IDW file is a 2D vector drawing created using Autodesk Inventor, a program used to prototype and test mechanical products. It contains one or more views of a part or product. Inventor users create IDW files to show finalized versions of Inventor parts ( .IPT files) and assemblies ( .IAM files) to others.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "autodesk-inventor-2022",
+        "display_name": "Autodesk Inventor 2022"
+      },
+      {
+        "software": "autodesk-fusion-360",
+        "display_name": "Autodesk Fusion 360"
+      },
+      {
+        "software": "autodesk-viewer",
+        "display_name": "Autodesk Viewer"
+      }
+    ],
+    "macos": [
+      {
+        "software": "autodesk-fusion-360",
+        "display_name": "Autodesk Fusion 360"
+      }
+    ],
+    "web": [
+      {
+        "software": "autodesk-fusion-360",
+        "display_name": "Autodesk Fusion 360"
+      },
+      {
+        "software": "autodesk-viewer",
+        "display_name": "Autodesk Viewer"
+      }
+    ],
+    "ios": [
+      {
+        "software": "autodesk-fusion-360",
+        "display_name": "Autodesk Fusion 360"
+      }
+    ],
+    "android": [
+      {
+        "software": "autodesk-fusion-360",
+        "display_name": "Autodesk Fusion 360"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "IDW file icon",
+      "alt": "IDW file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/idw-781.png"
+    },
+    {
+      "caption": "IDW file open in Autodesk Inventor 2022",
+      "alt": "IDW file open in Autodesk Inventor 2022",
+      "source_url": "https://fileinfo.com/img/ss/md/idw_781.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-07-22",
+  "sources": [
+    {
+      "url": "idw.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

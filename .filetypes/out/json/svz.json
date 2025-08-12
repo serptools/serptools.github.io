@@ -1,0 +1,47 @@
+{
+  "slug": "svz",
+  "extension": "svz",
+  "name": "FANTOM Audio Sample",
+  "category": "fantom-audio-sample",
+  "developer_org": "roland",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "An SVZ file is an audio tone used by a Roland FANTOM synthesizer. It contains a sound that can be imported into and played on the synthesizer. Users often download SVZ files from the Internet, place them on a USB drive, and use the drive to import them into their synthesizer.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "roland-svz-sample-converter",
+        "display_name": "Roland SVZ Sample Converter"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-06-20",
+  "sources": [
+    {
+      "url": "svz.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

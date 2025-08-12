@@ -1,0 +1,47 @@
+{
+  "slug": "dlt",
+  "extension": "dlt",
+  "name": "DELTA Binary Dataset File",
+  "category": "delta-binary-dataset-file",
+  "developer_org": "institute-of-botany-chinese-academy-of-sciences",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "A DLT file contains a dataset created by the DELTA System, an integrated set of programs used for recording taxonomic descriptions in the DELTA format (Description Language for Taxonomy). It contains taxonomic data such as leaf length and flower color that's organized through DELTA. DLT files are typically used for saving backups of data.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "ib-cas-delta",
+        "display_name": "IB-CAS DELTA"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-12-04",
+  "sources": [
+    {
+      "url": "dlt.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

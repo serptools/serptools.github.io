@@ -1,0 +1,95 @@
+{
+  "slug": "celeste",
+  "extension": "celeste",
+  "name": "Celeste Game Data File",
+  "category": "celeste-game-data-file",
+  "developer_org": "maddy-makes-games",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "A CELESTE file is a game data file used by Celeste, a game in which players journey to the top of a mountain. It is saved in the XML standard and contains saved game progress, such as the level the character has reached and accumulated collectibles. CELESTE files may also store game settings ( settings.celeste ) instead of saved game progress.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "maddy-makes-games-celeste",
+        "display_name": "Maddy Makes Games Celeste"
+      },
+      {
+        "software": "syncro-soft-oxygen-xml-editor",
+        "display_name": "SyncRO Soft oXygen XML Editor"
+      },
+      {
+        "software": "altova-xmlspy",
+        "display_name": "Altova XMLSpy"
+      },
+      {
+        "software": "microsoft-xml-notepad",
+        "display_name": "Microsoft XML Notepad"
+      },
+      {
+        "software": "japisoft-editix",
+        "display_name": "JAPISoft EditiX"
+      }
+    ],
+    "macos": [
+      {
+        "software": "maddy-makes-games-celeste",
+        "display_name": "Maddy Makes Games Celeste"
+      },
+      {
+        "software": "syncro-soft-oxygen-xml-editor",
+        "display_name": "SyncRO Soft oXygen XML Editor"
+      },
+      {
+        "software": "japisoft-editix",
+        "display_name": "JAPISoft EditiX"
+      }
+    ],
+    "linux": [
+      {
+        "software": "maddy-makes-games-celeste",
+        "display_name": "Maddy Makes Games Celeste"
+      },
+      {
+        "software": "syncro-soft-oxygen-xml-editor",
+        "display_name": "SyncRO Soft oXygen XML Editor"
+      },
+      {
+        "software": "japisoft-editix",
+        "display_name": "JAPISoft EditiX"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2024-06-04",
+  "sources": [
+    {
+      "url": "celeste.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

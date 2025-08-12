@@ -1,0 +1,47 @@
+{
+  "slug": "manm",
+  "extension": "manm",
+  "name": "Vietcong Game Data File",
+  "category": "vietcong-game-data-file",
+  "developer_org": "pterodon",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "Game data file used by Vietcong, a first-person shooter (FPS) game set during the Vietnam War; contains scripted movements for actions in the game, such as throwing a grenade or reloading a weapon; used for storing game animations.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "pterodon-vietcong",
+        "display_name": "Pterodon Vietcong"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-05-26",
+  "sources": [
+    {
+      "url": "manm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "slug": "po",
+  "extension": "po",
+  "name": "Portable Object",
+  "category": "1.-portable-object",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 55,
+    "source": "fileinfo"
+  },
+  "summary": "A PO file is a text-based object file used in software development. It may be referenced by Java programs, GNU gettext, or other software programs as a properties file. Most often, PO files contain user interface text translations that are referenced by GNU gettext.",
+  "standards": [],
+  "mime_types": [
+    "and/or",
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "gnu-gettext",
+        "display_name": "GNU gettext"
+      },
+      {
+        "software": "referenced-by-various-programs",
+        "display_name": "Referenced by various programs"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "pofile.net-free-po-editor",
+        "display_name": "POFile.net Free PO Editor",
+        "pricing": "free"
+      },
+      {
+        "software": ".do",
+        "display_name": ".DO"
+      },
+      {
+        "software": ".2mg",
+        "display_name": ".2MG"
+      },
+      {
+        "software": "ciderpress",
+        "display_name": "CiderPress"
+      },
+      {
+        "software": "apple-disk-transfer-prodos",
+        "display_name": "Apple Disk Transfer ProDOS"
+      },
+      {
+        "software": "kegs",
+        "display_name": "KEGS"
+      }
+    ],
+    "macos": [
+      {
+        "software": "gnu-gettext",
+        "display_name": "GNU gettext"
+      },
+      {
+        "software": "referenced-by-various-programs",
+        "display_name": "Referenced by various programs"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "apple-disk-transfer-prodos",
+        "display_name": "Apple Disk Transfer ProDOS"
+      },
+      {
+        "software": "kegs",
+        "display_name": "KEGS"
+      }
+    ],
+    "linux": [
+      {
+        "software": "gnu-gettext",
+        "display_name": "GNU gettext"
+      },
+      {
+        "software": "referenced-by-various-programs",
+        "display_name": "Referenced by various programs"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "apple-disk-transfer-prodos",
+        "display_name": "Apple Disk Transfer ProDOS"
+      },
+      {
+        "software": "kegs",
+        "display_name": "KEGS"
+      }
+    ],
+    "web": [
+      {
+        "software": "pofile.net-free-po-editor",
+        "display_name": "POFile.net Free PO Editor",
+        "pricing": "free"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "PO file open in GitHub Atom",
+      "alt": "PO file open in GitHub Atom",
+      "source_url": "https://fileinfo.com/img/ss/md/po_3115-2.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-10-22",
+  "sources": [
+    {
+      "url": "po.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

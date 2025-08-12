@@ -1,0 +1,80 @@
+{
+  "slug": "wsc",
+  "extension": "wsc",
+  "name": "WonderSwan Color Game ROM",
+  "category": "1.-wonderswan-color-game-rom",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.2,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "Game file used by emulators for the WonderSwan Japanese handheld console system, which is similar to the Game Boy Color; contains a game ROM, which stores the same information as the original game cartridge; can be used to play games on the PC with emulation software such as Oswan or Cygne.",
+  "standards": [],
+  "mime_types": [
+    "and/or",
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "oswan",
+        "display_name": "Oswan"
+      },
+      {
+        "software": "cygne",
+        "display_name": "Cygne"
+      },
+      {
+        "software": "openemu",
+        "display_name": "OpenEmu"
+      },
+      {
+        "software": "microsoft-visual-studio-2022",
+        "display_name": "Microsoft Visual Studio 2022"
+      },
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "oswan",
+        "display_name": "Oswan"
+      },
+      {
+        "software": "openemu",
+        "display_name": "OpenEmu"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2013-04-01",
+  "sources": [
+    {
+      "url": "wsc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

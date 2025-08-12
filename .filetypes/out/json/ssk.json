@@ -1,0 +1,55 @@
+{
+  "slug": "ssk",
+  "extension": "ssk",
+  "name": "SmartSketch 95 Document",
+  "category": "smartsketch-95-document",
+  "developer_org": "adobe",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "2D drawing created with SmartSketch 95, an old vector graphics editing program for Windows; contains paths, shapes, and other vector-based data.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "adobe-flash-professional-cc",
+        "display_name": "Adobe Flash Professional CC",
+        "status": "discontinued"
+      }
+    ],
+    "macos": [
+      {
+        "software": "adobe-flash-professional-cc",
+        "display_name": "Adobe Flash Professional CC",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2013-11-14",
+  "sources": [
+    {
+      "url": "ssk.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

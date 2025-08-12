@@ -1,0 +1,47 @@
+{
+  "slug": "ismc",
+  "extension": "ismc",
+  "name": "Smooth Streaming Client Manifest File",
+  "category": "smooth-streaming-client-manifest-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "File used by Smooth Streaming, an extension for Microsoft's IIS Web server for streaming multimedia content; hosted on the IIS Web server and contains information about the codecs , resolutions, and fragments (the video chunks in .ISMV files) for hosted multimedia files; saved in an XML format.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-iis",
+        "display_name": "Microsoft IIS"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-12-09",
+  "sources": [
+    {
+      "url": "ismc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

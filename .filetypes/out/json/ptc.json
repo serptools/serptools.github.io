@@ -1,0 +1,53 @@
+{
+  "slug": "ptc",
+  "extension": "ptc",
+  "name": "PANTONE Color File",
+  "category": "pantone-color-file",
+  "developer_org": "pantone",
+  "popularity": {
+    "rating": 1.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "A PTC file contains a color swatch used by PANTONE Color Manager, a program used to update and sync PANTONE color libraries in Corel, Adobe, and QuarkXPress design programs. It contains information about a color, which includes attributes that make up the color and the name of the color.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "pantone-color-manager",
+        "display_name": "PANTONE Color Manager"
+      }
+    ],
+    "macos": [
+      {
+        "software": "pantone-color-manager",
+        "display_name": "PANTONE Color Manager"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-10-29",
+  "sources": [
+    {
+      "url": "ptc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

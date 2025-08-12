@@ -1,0 +1,104 @@
+{
+  "slug": "sds",
+  "extension": "sds",
+  "name": "MIDI Sample Dump Standard File",
+  "category": "1.-midi-sample-dump-standard-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 4.1,
+    "votes": 13,
+    "source": "fileinfo"
+  },
+  "summary": "MIDI format that contains standardized System Exclusive (SysEx) messages; may be \"dumped\" from an audio program or hardware device; supported by a variety of hardware and software samplers.",
+  "standards": [],
+  "mime_types": [
+    "i/o",
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "fmj-software-awave-studio",
+        "display_name": "FMJ-Software Awave Studio"
+      },
+      {
+        "software": "nullsoft-winamp",
+        "display_name": "Nullsoft Winamp"
+      },
+      {
+        "software": "apple-quicktime-player",
+        "display_name": "Apple QuickTime Player"
+      },
+      {
+        "software": "openoffice-calc",
+        "display_name": "OpenOffice Calc"
+      },
+      {
+        "software": "sun-microsystems-staroffice",
+        "display_name": "Sun Microsystems StarOffice"
+      },
+      {
+        "software": "planamesa-neooffice",
+        "display_name": "Planamesa NeoOffice",
+        "status": "discontinued"
+      },
+      {
+        "software": "sds-apps",
+        "display_name": "SDS apps"
+      },
+      {
+        "software": "red-lion-crimson",
+        "display_name": "Red Lion Crimson"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-quicktime-player",
+        "display_name": "Apple QuickTime Player"
+      },
+      {
+        "software": "openoffice-calc",
+        "display_name": "OpenOffice Calc"
+      },
+      {
+        "software": "planamesa-neooffice",
+        "display_name": "Planamesa NeoOffice",
+        "status": "discontinued"
+      }
+    ],
+    "linux": [
+      {
+        "software": "openoffice-calc",
+        "display_name": "OpenOffice Calc"
+      },
+      {
+        "software": "sun-microsystems-staroffice",
+        "display_name": "Sun Microsystems StarOffice"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2007-10-31",
+  "sources": [
+    {
+      "url": "sds.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "slug": "phpr",
+  "extension": "phpr",
+  "name": "PHPRunner Project File",
+  "category": "phprunner-project-file",
+  "developer_org": "xlinesoft",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "A PHPR file is a project file created by XLineSoft PHPRunner, a program used to create web-based database applications. It contains XML data used to load an app creation project in PHPRunner. PHPR files are typically saved in a project-related directory, alongside the project's constituent files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "xlinesoft-phprunner",
+        "display_name": "XLineSoft PHPRunner"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-10-10",
+  "sources": [
+    {
+      "url": "phpr.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "sfk",
+  "extension": "sfk",
+  "name": "Sound Forge Pro Audio Peak File",
+  "category": "sound-forge-pro-audio-peak-file",
+  "developer_org": "magix",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 80,
+    "source": "fileinfo"
+  },
+  "summary": "An SFK file stores the waveform image of an audio wave ( .WAV ) file saved by MAGIX Sound Forge Pro or VEGAS Pro. It does not store audio data; the applications reference the SFK file to display the WAV file's waveform image. SFK files replaced .SFL files, which older versions of Sound Forge Pro create.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "magix-sound-forge-pro-17",
+        "display_name": "MAGIX Sound Forge Pro 17"
+      },
+      {
+        "software": "magix-vegas-pro-21",
+        "display_name": "MAGIX VEGAS Pro 21"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-11-17",
+  "sources": [
+    {
+      "url": "sfk.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "bsd",
+  "extension": "bsd",
+  "name": "BSDL File",
+  "category": "bsdl-file",
+  "developer_org": "ieee",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "Electronics specification file created in the Boundary Scan Description Language (BSDL) format, an IEEE standard used for testing the functionality of JTAG-compliant integrated circuits (ICs); defines an IC in terms of its pins and registers; often provided by IC manufacturers for customers; uses a plain text format.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "xilinx-ise-design-suite",
+        "display_name": "Xilinx ISE Design Suite"
+      },
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-08-23",
+  "sources": [
+    {
+      "url": "bsd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

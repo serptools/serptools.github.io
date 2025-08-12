@@ -1,0 +1,71 @@
+{
+  "slug": "blorb",
+  "extension": "blorb",
+  "name": "Interactive Fiction Package Game File",
+  "category": "interactive-fiction-package-game-file",
+  "developer_org": "andrew-plotkin",
+  "popularity": {
+    "rating": 2.3,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "Package used by Interactive Fiction (IF) interpreters such as Zoom and Spatterlight; contains the story game and other files that enhance gameplay, such as .JPG files for cover art, .AIFF files for sound effects, and .MOD files for music.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "windows-frotz",
+        "display_name": "Windows Frotz"
+      },
+      {
+        "software": "zoom",
+        "display_name": "Zoom"
+      },
+      {
+        "software": "spatterlight",
+        "display_name": "Spatterlight"
+      }
+    ],
+    "macos": [
+      {
+        "software": "zoom",
+        "display_name": "Zoom"
+      },
+      {
+        "software": "spatterlight",
+        "display_name": "Spatterlight"
+      }
+    ],
+    "linux": [
+      {
+        "software": "zoom",
+        "display_name": "Zoom"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-11-07",
+  "sources": [
+    {
+      "url": "blorb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

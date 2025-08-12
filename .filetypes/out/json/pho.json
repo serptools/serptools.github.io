@@ -1,0 +1,63 @@
+{
+  "slug": "pho",
+  "extension": "pho",
+  "name": "Gerber Photoplot File",
+  "category": "1.-gerber-photoplot-file",
+  "developer_org": "ucamco",
+  "popularity": {
+    "rating": 3.2,
+    "votes": 16,
+    "source": "fileinfo"
+  },
+  "summary": "File created by printed circuit board (PCB) design applications; contains a photoplot, which is a generated image of a PCB design that can be used in the process of manufacturing PCBs; often generated from a .GBR file and can be viewed in several Gerber compatible applications.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "pentalogix-viewmate",
+        "display_name": "PentaLogix ViewMate"
+      },
+      {
+        "software": "graphicode-gc-prevue",
+        "display_name": "GraphiCode GC-Prevue"
+      },
+      {
+        "software": "altium-designer",
+        "display_name": "Altium Designer"
+      },
+      {
+        "software": "artwork-conversion-gbr2dxf",
+        "display_name": "Artwork Conversion GBR2DXF"
+      },
+      {
+        "software": "mbrola",
+        "display_name": "MBROLA"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-10-25",
+  "sources": [
+    {
+      "url": "pho.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

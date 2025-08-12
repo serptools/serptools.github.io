@@ -1,0 +1,96 @@
+{
+  "slug": "dmf",
+  "extension": "dmf",
+  "name": "Geosystem Digitals Map File",
+  "category": "1.-geosystem-digitals-map-file",
+  "developer_org": "geosystem",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 20,
+    "source": "fileinfo"
+  },
+  "summary": "Map file used by Digitals, a mapping software used for creating topographical maps; contains the terrain topology as well as drawn shapes and specific locations of interest; used for publishing maps for land management and urban cadastral surveys.",
+  "standards": [],
+  "mime_types": [
+    "vitamin/caig"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "geosystem-digitals",
+        "display_name": "Geosystem Digitals"
+      },
+      {
+        "software": "deliplayer",
+        "display_name": "DeliPlayer"
+      },
+      {
+        "software": "openmpt",
+        "display_name": "OpenMPT"
+      },
+      {
+        "software": "modplug-player",
+        "display_name": "MODPlug Player",
+        "status": "discontinued"
+      },
+      {
+        "software": "fmj-software-awave-studio",
+        "display_name": "FMJ-Software Awave Studio"
+      },
+      {
+        "software": "vitamin-caig-zxtune",
+        "display_name": "Vitamin/CAIG ZXTune"
+      },
+      {
+        "software": "deflemask",
+        "display_name": "DefleMask"
+      },
+      {
+        "software": "tildearrow-furnace",
+        "display_name": "tildearrow Furnace"
+      }
+    ],
+    "macos": [
+      {
+        "software": "vitamin-caig-zxtune",
+        "display_name": "Vitamin/CAIG ZXTune"
+      }
+    ],
+    "linux": [
+      {
+        "software": "vitamin-caig-zxtune",
+        "display_name": "Vitamin/CAIG ZXTune"
+      }
+    ],
+    "android": [
+      {
+        "software": "vitamin-caig-zxtune",
+        "display_name": "Vitamin/CAIG ZXTune"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-07-28",
+  "sources": [
+    {
+      "url": "dmf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

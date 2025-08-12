@@ -1,0 +1,47 @@
+{
+  "slug": "ns1",
+  "extension": "ns1",
+  "name": "Nestopia Save State",
+  "category": "nestopia-save-state",
+  "developer_org": "martin-freij",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "Save state created and used by Nestopia, a Nintendo Entertainment System (NES) emulator; stores a saved game state that allows you to resume your game from the save point point at a later time.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "nestopia",
+        "display_name": "Nestopia"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-06-09",
+  "sources": [
+    {
+      "url": "ns1.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "slug": "chr0",
+  "extension": "chr0",
+  "name": "Wii Model Animation File",
+  "category": "wii-model-animation-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "Animation file used by Nintendo Wii games such as Mario Kart Wii; typically found within a resource package file ( .BRRES ) and contains data referenced by the game to determine the animation of a model's movement; includes animation data such as model scale, rotation, and frame count; similar to .PAT0 and .MDL0 files used by Wii games.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "brawlbox",
+        "display_name": "BrawlBox"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-01-09",
+  "sources": [
+    {
+      "url": "chr0.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

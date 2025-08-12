@@ -1,0 +1,96 @@
+{
+  "slug": "numbers",
+  "extension": "numbers",
+  "name": "Apple Numbers Spreadsheet",
+  "category": "apple-numbers-spreadsheet",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 80,
+    "source": "fileinfo"
+  },
+  "summary": "A NUMBERS file is a spreadsheet created by Apple Numbers, a spreadsheet program bundled with macOS. It contains one or more sheets with data organized into rows and columns, and may also include tables, graphs, images, formulas, and other types of data. NUMBERS files can be created from scratch or from a template provided with the application.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "apple-numbers",
+        "display_name": "Apple Numbers"
+      },
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      },
+      {
+        "software": "apple-icloud",
+        "display_name": "Apple iCloud"
+      }
+    ],
+    "windows": [
+      {
+        "software": "apple-numbers",
+        "display_name": "Apple Numbers"
+      },
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      },
+      {
+        "software": "apple-icloud",
+        "display_name": "Apple iCloud"
+      }
+    ],
+    "web": [
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      },
+      {
+        "software": "apple-icloud",
+        "display_name": "Apple iCloud"
+      }
+    ],
+    "ios": [
+      {
+        "software": "apple-numbers",
+        "display_name": "Apple Numbers"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "NUMBERS file icon",
+      "alt": "NUMBERS file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/numbers-2970.png"
+    },
+    {
+      "caption": "NUMBERS file open in Apple Numbers 10.1",
+      "alt": "NUMBERS file open in Apple Numbers 10.1",
+      "source_url": "https://fileinfo.com/img/ss/md/numbers_2970.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-06-24",
+  "sources": [
+    {
+      "url": "numbers.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

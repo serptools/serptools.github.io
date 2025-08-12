@@ -1,0 +1,53 @@
+{
+  "slug": "cs1",
+  "extension": "cs1",
+  "name": "CaptureShop 1-shot Raw Image",
+  "category": "captureshop-1-shot-raw-image",
+  "developer_org": "sinar",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "A CS1 file is a raw image created by a Sinarback 44 camera in 1-shot mode. It contains a raw image that supports 16 million pixel resolution. CS1 files are typically used for storing action photography images.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "sinar-captureshop",
+        "display_name": "Sinar CaptureShop"
+      }
+    ],
+    "windows": [
+      {
+        "software": "sinar-captureshop",
+        "display_name": "Sinar CaptureShop"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-06-30",
+  "sources": [
+    {
+      "url": "cs1.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

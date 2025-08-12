@@ -1,0 +1,53 @@
+{
+  "slug": "t06",
+  "extension": "t06",
+  "name": "TaxCut 2006 Tax Return",
+  "category": "taxcut-2006-tax-return",
+  "developer_org": "h-r-block",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "Tax return for the 2006 tax year; created using TaxCut 2006, a U.S. tax preparation program; includes tax forms in which fields and numeric values are filled in by the user.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "h-r-block-taxcut-2006",
+        "display_name": "H&R Block TaxCut 2006"
+      }
+    ],
+    "macos": [
+      {
+        "software": "h-r-block-taxcut-2006",
+        "display_name": "H&R Block TaxCut 2006"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2008-07-16",
+  "sources": [
+    {
+      "url": "t06.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

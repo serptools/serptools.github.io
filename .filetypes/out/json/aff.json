@@ -1,0 +1,135 @@
+{
+  "slug": "aff",
+  "extension": "aff",
+  "name": "Spellcheck Dictionary Description File",
+  "category": "1.-spellcheck-dictionary-description-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "An AFF file is a spellcheck dictionary file used by Kingsoft WPS Office and Apache OpenOffice, which are free Office suite applications. It contains information that describes the accompanying .DIC spellcheck dictionary file.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "kingsoft-wps-office",
+        "display_name": "Kingsoft WPS Office"
+      },
+      {
+        "software": "apache-openoffice",
+        "display_name": "Apache OpenOffice"
+      },
+      {
+        "software": "arcthesia-arccreate",
+        "display_name": "Arcthesia ArcCreate"
+      },
+      {
+        "software": "afftools",
+        "display_name": "AffTools"
+      },
+      {
+        "software": "arcaeachartrender",
+        "display_name": "ArcaeaChartRender"
+      },
+      {
+        "software": "lowiro-arcaea",
+        "display_name": "Lowiro Arcaea"
+      },
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      },
+      {
+        "software": "passmark-osforensics",
+        "display_name": "PassMark OSForensics"
+      },
+      {
+        "software": "getdata-mount-image-pro",
+        "display_name": "GetData Mount Image Pro"
+      }
+    ],
+    "macos": [
+      {
+        "software": "kingsoft-wps-office",
+        "display_name": "Kingsoft WPS Office"
+      },
+      {
+        "software": "apache-openoffice",
+        "display_name": "Apache OpenOffice"
+      },
+      {
+        "software": "afftools",
+        "display_name": "AffTools"
+      },
+      {
+        "software": "arcaeachartrender",
+        "display_name": "ArcaeaChartRender"
+      }
+    ],
+    "linux": [
+      {
+        "software": "kingsoft-wps-office",
+        "display_name": "Kingsoft WPS Office"
+      },
+      {
+        "software": "apache-openoffice",
+        "display_name": "Apache OpenOffice"
+      },
+      {
+        "software": "afftools",
+        "display_name": "AffTools"
+      },
+      {
+        "software": "arcaeachartrender",
+        "display_name": "ArcaeaChartRender"
+      },
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      }
+    ],
+    "ios": [
+      {
+        "software": "lowiro-arcaea",
+        "display_name": "Lowiro Arcaea"
+      }
+    ],
+    "android": [
+      {
+        "software": "lowiro-arcaea",
+        "display_name": "Lowiro Arcaea"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-05-05",
+  "sources": [
+    {
+      "url": "aff.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

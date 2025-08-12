@@ -1,0 +1,51 @@
+{
+  "slug": "ncf",
+  "extension": "ncf",
+  "name": "No Cache File",
+  "category": "no-cache-file",
+  "developer_org": "valve",
+  "popularity": {
+    "rating": 2.6,
+    "votes": 14,
+    "source": "fileinfo"
+  },
+  "summary": "Cache file used by Valve Steam game development software; referenced when updating Valve software; similar to a .GCF file, but does not include information about internal data storage.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "valve-steam",
+        "display_name": "Valve Steam"
+      },
+      {
+        "software": "gcfscape",
+        "display_name": "GCFScape"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2008-04-22",
+  "sources": [
+    {
+      "url": "ncf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

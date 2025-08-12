@@ -1,0 +1,107 @@
+{
+  "slug": "jag",
+  "extension": "jag",
+  "name": "Jagex Data File",
+  "category": "1.-jagex-data-file",
+  "developer_org": "jagex",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Game data file used by Jagex games such as Runescape, an MMORPG; can save various data, including images, sounds, and other game object data; stored in a proprietary format required by the game in order to load the game data.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "jagex-runescape",
+        "display_name": "Jagex Runescape"
+      },
+      {
+        "software": "tom-s-cache-suite",
+        "display_name": "Tom's Cache Suite"
+      },
+      {
+        "software": "retroarch",
+        "display_name": "RetroArch"
+      },
+      {
+        "software": "mame",
+        "display_name": "MAME"
+      },
+      {
+        "software": "phoenix",
+        "display_name": "Phoenix"
+      },
+      {
+        "software": "openemu",
+        "display_name": "OpenEmu"
+      }
+    ],
+    "macos": [
+      {
+        "software": "retroarch",
+        "display_name": "RetroArch"
+      },
+      {
+        "software": "phoenix",
+        "display_name": "Phoenix"
+      },
+      {
+        "software": "openemu",
+        "display_name": "OpenEmu"
+      }
+    ],
+    "linux": [
+      {
+        "software": "retroarch",
+        "display_name": "RetroArch"
+      },
+      {
+        "software": "mame",
+        "display_name": "MAME"
+      },
+      {
+        "software": "phoenix",
+        "display_name": "Phoenix"
+      }
+    ],
+    "ios": [
+      {
+        "software": "retroarch",
+        "display_name": "RetroArch"
+      }
+    ],
+    "android": [
+      {
+        "software": "retroarch",
+        "display_name": "RetroArch"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-10-20",
+  "sources": [
+    {
+      "url": "jag.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "slug": "sna",
+  "extension": "sna",
+  "name": "Drive Snapshot Primary Backup File",
+  "category": "1.-drive-snapshot-primary-backup-file",
+  "developer_org": "tom-ehlert",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "An SNA file is a backup file created by Drive Snapshot, a Windows utility used to back up a user's drives . It contains either all of or the first portion of a backup disk image . SNA files are often accompanied by additional backup files, which use the .SN1 , .SN2 , and so on extensions.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "tom-ehlert-drive-snapshot",
+        "display_name": "Tom Ehlert Drive Snapshot"
+      },
+      {
+        "software": "no-gba",
+        "display_name": "NO$GBA"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "SNA file icon",
+      "alt": "SNA file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/sna-3059.png"
+    },
+    {
+      "caption": "SNA file open in Drive Snapshot",
+      "alt": "SNA file open in Drive Snapshot",
+      "source_url": "https://fileinfo.com/img/ss/md/sna_3059.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-05-17",
+  "sources": [
+    {
+      "url": "sna.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

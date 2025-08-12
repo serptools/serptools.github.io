@@ -1,0 +1,197 @@
+{
+  "slug": "vst",
+  "extension": "vst",
+  "name": "VST Audio Plug-in",
+  "category": "1.-vst-audio-plug-in",
+  "developer_org": "steinberg",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 26,
+    "source": "fileinfo"
+  },
+  "summary": "A VST file is a plug-in used by Steinberg Cubase and other digital audio workstations ( DAWs ). It contains information about an instrument or effect that can be used to modify recorded audio. VST files are often accompanied by .FXP and .FXB files.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "steinberg-cubase",
+        "display_name": "Steinberg Cubase"
+      },
+      {
+        "software": "steinberg-halion",
+        "display_name": "Steinberg HALion"
+      },
+      {
+        "software": "ableton-live",
+        "display_name": "Ableton Live"
+      },
+      {
+        "software": "image-line-fl-studio",
+        "display_name": "Image-Line FL Studio"
+      },
+      {
+        "software": "audacity",
+        "display_name": "Audacity"
+      },
+      {
+        "software": "lmms",
+        "display_name": "LMMS"
+      },
+      {
+        "software": ".vsdx",
+        "display_name": ".VSDX"
+      },
+      {
+        "software": ".vsd",
+        "display_name": ".VSD"
+      },
+      {
+        "software": ".vstx",
+        "display_name": ".VSTX"
+      },
+      {
+        "software": ".jpg",
+        "display_name": ".JPG"
+      },
+      {
+        "software": ".png",
+        "display_name": ".PNG"
+      },
+      {
+        "software": ".gif",
+        "display_name": ".GIF"
+      },
+      {
+        "software": ".svg",
+        "display_name": ".SVG"
+      },
+      {
+        "software": ".emf",
+        "display_name": ".EMF"
+      },
+      {
+        "software": ".pdf",
+        "display_name": ".PDF"
+      },
+      {
+        "software": ".xps",
+        "display_name": ".XPS"
+      },
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "microsoft-visio-365",
+        "display_name": "Microsoft Visio 365"
+      },
+      {
+        "software": "libreoffice",
+        "display_name": "LibreOffice"
+      },
+      {
+        "software": "the-omni-group-omnigraffle",
+        "display_name": "The Omni Group OmniGraffle"
+      },
+      {
+        "software": "adobe-photoshop-2025",
+        "display_name": "Adobe Photoshop 2025"
+      },
+      {
+        "software": "adobe-illustrator-2025",
+        "display_name": "Adobe Illustrator 2025"
+      },
+      {
+        "software": "canvas-gfx-canvas-x-pro",
+        "display_name": "Canvas GFX Canvas X Pro"
+      },
+      {
+        "software": "corel-painter-2023",
+        "display_name": "Corel Painter 2023"
+      }
+    ],
+    "macos": [
+      {
+        "software": "steinberg-cubase",
+        "display_name": "Steinberg Cubase"
+      },
+      {
+        "software": "steinberg-halion",
+        "display_name": "Steinberg HALion"
+      },
+      {
+        "software": "ableton-live",
+        "display_name": "Ableton Live"
+      },
+      {
+        "software": "image-line-fl-studio",
+        "display_name": "Image-Line FL Studio"
+      },
+      {
+        "software": "audacity",
+        "display_name": "Audacity"
+      },
+      {
+        "software": "lmms",
+        "display_name": "LMMS"
+      },
+      {
+        "software": "the-omni-group-omnigraffle",
+        "display_name": "The Omni Group OmniGraffle"
+      },
+      {
+        "software": "libreoffice",
+        "display_name": "LibreOffice"
+      },
+      {
+        "software": "adobe-photoshop-2025",
+        "display_name": "Adobe Photoshop 2025"
+      },
+      {
+        "software": "adobe-illustrator-2025",
+        "display_name": "Adobe Illustrator 2025"
+      },
+      {
+        "software": "corel-painter-2023",
+        "display_name": "Corel Painter 2023"
+      }
+    ],
+    "linux": [
+      {
+        "software": "audacity",
+        "display_name": "Audacity"
+      },
+      {
+        "software": "lmms",
+        "display_name": "LMMS"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-02-08",
+  "sources": [
+    {
+      "url": "vst.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

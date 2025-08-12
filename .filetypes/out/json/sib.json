@@ -1,0 +1,70 @@
+{
+  "slug": "sib",
+  "extension": "sib",
+  "name": "Sibelius Score",
+  "category": "sibelius-score",
+  "developer_org": "avid",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 74,
+    "source": "fileinfo"
+  },
+  "summary": "A SIB file is a musical score created by Avid Sibelius, a popular music notation program. It contains binary data that Sibelius uses to show the score's notation, annotations, and metadata . When opened in Sibelius, SIB files appear as sheet music.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "avid-sibelius",
+        "display_name": "Avid Sibelius"
+      }
+    ],
+    "macos": [
+      {
+        "software": "avid-sibelius",
+        "display_name": "Avid Sibelius"
+      }
+    ],
+    "ios": [
+      {
+        "software": "avid-sibelius",
+        "display_name": "Avid Sibelius"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "SIB file icon",
+      "alt": "SIB file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/sib-1128.png"
+    },
+    {
+      "caption": "SIB file open in Avid Sibelius",
+      "alt": "SIB file open in Avid Sibelius",
+      "source_url": "https://fileinfo.com/img/ss/md/sib_1128.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-10-13",
+  "sources": [
+    {
+      "url": "sib.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

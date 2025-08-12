@@ -1,0 +1,54 @@
+{
+  "slug": "ksf",
+  "extension": "ksf",
+  "name": "KMPlayer Skin File",
+  "category": "1.-kmplayer-skin-file",
+  "developer_org": "kmp-media",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 22,
+    "source": "fileinfo"
+  },
+  "summary": "Skin file used by KMPlayer, a multimedia player; saves settings and graphics that define the layout and appearance of the user interface; saved in a .ZIP format and can be unzipped with any Zip-compatible utility.",
+  "standards": [],
+  "mime_types": [
+    "skins/osc",
+    "trinity/triton"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "kmplayer",
+        "display_name": "KMPlayer"
+      },
+      {
+        "software": "fmj-software-awave-studio",
+        "display_name": "FMJ-Software Awave Studio"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2013-04-11",
+  "sources": [
+    {
+      "url": "ksf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "slug": "mpa",
+  "extension": "mpa",
+  "name": "MPEG-2 Audio File",
+  "category": "mpeg-2-audio-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 15,
+    "source": "fileinfo"
+  },
+  "summary": "An MPA file is an audio file compressed with MPEG Layer II compression, which reduces the file size while minimally affecting the overall sound quality. It is based on the MPEG-1 audio-coding standard and was later updated for the MPEG-2 specification.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "microsoft-groove-music",
+        "display_name": "Microsoft Groove Music",
+        "status": "discontinued"
+      },
+      {
+        "software": "microsoft-windows-media-player",
+        "display_name": "Microsoft Windows Media Player"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "apple-itunes",
+        "display_name": "Apple iTunes",
+        "status": "discontinued"
+      },
+      {
+        "software": "apple-music",
+        "display_name": "Apple Music"
+      },
+      {
+        "software": "apple-quicktime-player",
+        "display_name": "Apple QuickTime Player"
+      },
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      },
+      {
+        "software": "videolan-vlc-for-mobile",
+        "display_name": "VideoLAN VLC for Mobile"
+      },
+      {
+        "software": "realnetworks-realtimes-video-maker",
+        "display_name": "RealNetworks RealTimes: Video Maker"
+      },
+      {
+        "software": "realnetworks-realtimes-video-maker",
+        "display_name": "RealNetworks RealTimes Video Maker"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-music",
+        "display_name": "Apple Music"
+      },
+      {
+        "software": "apple-quicktime-player",
+        "display_name": "Apple QuickTime Player"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      }
+    ],
+    "linux": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      }
+    ],
+    "web": [
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      }
+    ],
+    "ios": [
+      {
+        "software": "videolan-vlc-for-mobile",
+        "display_name": "VideoLAN VLC for Mobile"
+      },
+      {
+        "software": "realnetworks-realtimes-video-maker",
+        "display_name": "RealNetworks RealTimes: Video Maker"
+      }
+    ],
+    "android": [
+      {
+        "software": "realnetworks-realtimes-video-maker",
+        "display_name": "RealNetworks RealTimes Video Maker"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2016-04-12",
+  "sources": [
+    {
+      "url": "mpa.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

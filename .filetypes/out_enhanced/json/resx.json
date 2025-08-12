@@ -1,0 +1,22 @@
+{
+  "slug": "resx",
+  "extension": "resx",
+  "name": ".NET Managed Resources File",
+  "category": ".net-managed-resources-file",
+  "summary": "",
+  "developer_org": "microsoft",
+  "developer_name": "Microsoft",
+  "more_information": {
+    "description": [
+      "Developers commonly store application settings and program resources, such as pictures, in RESX files. If implemented correctly, this allows a developer to modify or update a program's resources without recompiling it, by swapping one RESX file for another. This can be useful when, for example, localizing programs for different regions and languages.",
+      "If a RESX file contains binary data encoded as text, that text is saved within <data> </data> tags. Examples of binary data that a RESX file might contain include program properties and MIME types."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "resx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

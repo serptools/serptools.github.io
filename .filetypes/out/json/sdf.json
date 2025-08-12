@@ -1,0 +1,131 @@
+{
+  "slug": "sdf",
+  "extension": "sdf",
+  "name": "SQL Server Compact Database File",
+  "category": "1.-sql-server-compact-database-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 97,
+    "source": "fileinfo"
+  },
+  "summary": "An SDF file contains a compact relational database saved in the SQL Server Compact (SQL CE) format, which is developed by Microsoft. It is designed for applications that run on mobile devices and desktops and contains the complete database contents, which may be up to 4GB in size.",
+  "standards": [],
+  "mime_types": [
+    "acd/chemfolder",
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-sql-server-2019",
+        "display_name": "Microsoft SQL Server 2019"
+      },
+      {
+        "software": "microsoft-visual-studio-2022",
+        "display_name": "Microsoft Visual Studio 2022"
+      },
+      {
+        "software": "linqpad",
+        "display_name": "LINQPad"
+      },
+      {
+        "software": "autodesk-autocad-map-3d-2022",
+        "display_name": "Autodesk AutoCAD Map 3D 2022"
+      },
+      {
+        "software": "autodesk-autocad-civil-3d-2023",
+        "display_name": "Autodesk AutoCAD Civil 3D 2023"
+      },
+      {
+        "software": "safe-software-fme-desktop",
+        "display_name": "Safe Software FME Desktop"
+      },
+      {
+        "software": "mapguide-open-source",
+        "display_name": "MapGuide Open Source"
+      },
+      {
+        "software": "avogadro",
+        "display_name": "Avogadro"
+      },
+      {
+        "software": "niss-powermv",
+        "display_name": "NISS PowerMV"
+      },
+      {
+        "software": "openeye-scientific-vida",
+        "display_name": "OpenEye Scientific VIDA"
+      },
+      {
+        "software": "advanced-chemistry-development-acd-chemfolder",
+        "display_name": "Advanced Chemistry Development ACD/ChemFolder",
+        "status": "discontinued"
+      },
+      {
+        "software": "ched",
+        "display_name": "CheD"
+      },
+      {
+        "software": "dbase",
+        "display_name": "dBase"
+      },
+      {
+        "software": "massive-entertainment-world-in-conflict",
+        "display_name": "Massive Entertainment World in Conflict"
+      },
+      {
+        "software": "massive-entertainment-wiced",
+        "display_name": "Massive Entertainment WicEd"
+      }
+    ],
+    "linux": [
+      {
+        "software": "mapguide-open-source",
+        "display_name": "MapGuide Open Source"
+      },
+      {
+        "software": "avogadro",
+        "display_name": "Avogadro"
+      },
+      {
+        "software": "openeye-scientific-vida",
+        "display_name": "OpenEye Scientific VIDA"
+      }
+    ],
+    "macos": [
+      {
+        "software": "avogadro",
+        "display_name": "Avogadro"
+      },
+      {
+        "software": "openeye-scientific-vida",
+        "display_name": "OpenEye Scientific VIDA"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-02-11",
+  "sources": [
+    {
+      "url": "sdf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

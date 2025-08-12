@@ -1,0 +1,47 @@
+{
+  "slug": "wacz",
+  "extension": "wacz",
+  "name": "Web Archive Collection Zipped",
+  "category": "web-archive-collection-zipped",
+  "developer_org": "webrecorder",
+  "popularity": {
+    "rating": 2.8,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "A WACZ file is a zipped web archive ( .WARC file). It contains website content and metadata retrieved using crawlers , for archival purposes. WACZ files use .ZIP formatting to allow web browsers to retrieve data from WARC archives more efficiently.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "web": [
+      {
+        "software": "webrecorder-replayweb.page",
+        "display_name": "Webrecorder ReplayWeb.page"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-03-02",
+  "sources": [
+    {
+      "url": "wacz.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

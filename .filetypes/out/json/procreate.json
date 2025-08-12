@@ -1,0 +1,79 @@
+{
+  "slug": "procreate",
+  "extension": "procreate",
+  "name": "Procreate Artwork",
+  "category": "procreate-artwork",
+  "developer_org": "savage-interactive",
+  "popularity": {
+    "rating": 3.2,
+    "votes": 10,
+    "source": "fileinfo"
+  },
+  "summary": "A PROCREATE file is an image created by Savage Procreate or Procreate Pocket, which are illustration apps for iOS. It contains a layer-based image, which may be comprised of multiple images, adjustments, masks, text, and animations. PROCREATE files are similar to .PSD files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "jarom-vogel-studio-prospect",
+        "display_name": "Jarom Vogel Studio Prospect"
+      },
+      {
+        "software": "savage-procreate",
+        "display_name": "Savage Procreate"
+      },
+      {
+        "software": "savage-procreate-pocket",
+        "display_name": "Savage Procreate Pocket"
+      }
+    ],
+    "windows": [
+      {
+        "software": "jarom-vogel-studio-prospect",
+        "display_name": "Jarom Vogel Studio Prospect"
+      },
+      {
+        "software": "savage-procreate",
+        "display_name": "Savage Procreate"
+      },
+      {
+        "software": "savage-procreate-pocket",
+        "display_name": "Savage Procreate Pocket"
+      }
+    ],
+    "ios": [
+      {
+        "software": "savage-procreate",
+        "display_name": "Savage Procreate"
+      },
+      {
+        "software": "savage-procreate-pocket",
+        "display_name": "Savage Procreate Pocket"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-03-13",
+  "sources": [
+    {
+      "url": "procreate.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

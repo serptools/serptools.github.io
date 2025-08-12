@@ -1,0 +1,22 @@
+{
+  "slug": "ppk",
+  "extension": "ppk",
+  "name": "PuTTY Private Key File",
+  "category": "putty-private-key-file",
+  "summary": "",
+  "developer_org": "putty",
+  "developer_name": "PuTTY",
+  "more_information": {
+    "description": [
+      "PPK files are used by PuTTY, a free SSH and Telnet client. To set the PPK file for authentication, choose Connection → SSH → Auth from the PuTTY Configuration menu and then select Browse... for the \"Private key file for authentication\" option.",
+      "NOTE: PPK files can also be opened using WinSCP, an SFTP and FTP client for Windows. You can set the PPK file location when creating a new connection in WinSCP by selecting Advanced → SSH → Authentication → Private key file ."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "ppk.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

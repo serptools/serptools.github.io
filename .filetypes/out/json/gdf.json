@@ -1,0 +1,59 @@
+{
+  "slug": "gdf",
+  "extension": "gdf",
+  "name": "GUESS Graph Data Format File",
+  "category": "guess-graph-data-format-file",
+  "developer_org": "guess",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 26,
+    "source": "fileinfo"
+  },
+  "summary": "File used by GUESS (Graph Exploration System), a visualization tool used for displaying networks and mathematical graphs; stores node and edge data that comprises the graph and subgraphs; used for exploratory visualization in research and academic environments.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "guess",
+        "display_name": "GUESS"
+      }
+    ],
+    "macos": [
+      {
+        "software": "guess",
+        "display_name": "GUESS"
+      }
+    ],
+    "linux": [
+      {
+        "software": "guess",
+        "display_name": "GUESS"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-09-21",
+  "sources": [
+    {
+      "url": "gdf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

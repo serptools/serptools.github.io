@@ -1,0 +1,47 @@
+{
+  "slug": "edz",
+  "extension": "edz",
+  "name": "EPLAN Electric P8 Data Archive Zipped File",
+  "category": "eplan-electric-p8-data-archive-zipped-file",
+  "developer_org": "eplan-software",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 11,
+    "source": "fileinfo"
+  },
+  "summary": "An EDZ file is a data archive used by EPLAN Electric P8, a program used to plan, document, and manage electrical control, fluid power systems, and control systems projects. It contains macros for parts and parts data, such as control units, sensor modules, and line modules.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "eplan-electric-p8",
+        "display_name": "EPLAN Electric P8"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-03-30",
+  "sources": [
+    {
+      "url": "edz.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

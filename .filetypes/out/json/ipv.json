@@ -1,0 +1,71 @@
+{
+  "slug": "ipv",
+  "extension": "ipv",
+  "name": "ibis Paint Artwork",
+  "category": "ibis-paint-artwork",
+  "developer_org": "ibis-inc.",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "An IPV file is a drawing created in ibis Paint or ibis Paint X, which are drawing apps available primarily for iOS and Android devices. In addition to a drawing, IPV files may contain metadata about that drawing, such as the drawing's name, artist's name, a description, and keywords. IPV files can be used to share drawings across devices and upload files to the online ibisPaint gallery.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "ibis-paint",
+        "display_name": "ibis Paint"
+      },
+      {
+        "software": "ibis-paint-x",
+        "display_name": "ibis Paint X"
+      }
+    ],
+    "ios": [
+      {
+        "software": "ibis-paint",
+        "display_name": "ibis Paint"
+      },
+      {
+        "software": "ibis-paint-x",
+        "display_name": "ibis Paint X"
+      }
+    ],
+    "android": [
+      {
+        "software": "ibis-paint",
+        "display_name": "ibis Paint"
+      },
+      {
+        "software": "ibis-paint-x",
+        "display_name": "ibis Paint X"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-06-09",
+  "sources": [
+    {
+      "url": "ipv.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

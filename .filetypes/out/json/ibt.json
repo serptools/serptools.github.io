@@ -1,0 +1,51 @@
+{
+  "slug": "ibt",
+  "extension": "ibt",
+  "name": "Texture and Model File",
+  "category": "texture-and-model-file",
+  "developer_org": "eidos",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "Contains textures and models used by the \"Thief: Deadly Shadows\" video game, also known as \"Thief 3;\" installed along with other Thief 3 game files and required for the game to run.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "eidos-thief-deadly-shadows",
+        "display_name": "Eidos Thief Deadly Shadows"
+      },
+      {
+        "software": "t3ed",
+        "display_name": "T3Ed"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-04-22",
+  "sources": [
+    {
+      "url": "ibt.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

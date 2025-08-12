@@ -1,0 +1,49 @@
+{
+  "slug": "vga",
+  "extension": "vga",
+  "name": "VGA Display Driver",
+  "category": "vga-display-driver",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 4.3,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "Windows driver that supports VGA monitors; allows the user to adjust the resolution and color depth of the display using the Monitors control panel; used in early versions of Windows when VGA monitors were commonly used.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "referenced-by-the-windows-operating-system",
+        "display_name": "Referenced by the Windows operating system"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-04-14",
+  "sources": [
+    {
+      "url": "vga.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

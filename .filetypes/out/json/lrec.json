@@ -1,0 +1,47 @@
+{
+  "slug": "lrec",
+  "extension": "lrec",
+  "name": "Inter-Tel Web Conference Recording",
+  "category": "inter-tel-web-conference-recording",
+  "developer_org": "inter-tel",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 20,
+    "source": "fileinfo"
+  },
+  "summary": "Video file created by Inter-Tel Web Conference software; contains a screen recording video and may include voice audio; also can capture the keyboard chat log, attendees, and the document manager window during the conference.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "inter-tel-collaboration-player",
+        "display_name": "Inter-Tel Collaboration Player"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-04-28",
+  "sources": [
+    {
+      "url": "lrec.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

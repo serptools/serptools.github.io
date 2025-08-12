@@ -1,0 +1,22 @@
+{
+  "slug": "peak",
+  "extension": "peak",
+  "name": "Steinberg Peak File",
+  "category": "steinberg-peak-file",
+  "summary": "",
+  "developer_org": "steinberg",
+  "developer_name": "Steinberg",
+  "more_information": {
+    "description": [
+      "PEAK files are saved by default in the Images folder within the current project folder. If they are deleted, Cubase will recreate the files when the associated audio files are accessed.",
+      "NOTE: PEAK files store only the waveform image and do not contain any audio data."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "peak.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

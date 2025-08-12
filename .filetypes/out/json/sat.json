@@ -1,0 +1,152 @@
+{
+  "slug": "sat",
+  "extension": "sat",
+  "name": "ACIS SAT 3D Model",
+  "category": "acis-sat-3d-model",
+  "developer_org": "spatial",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 46,
+    "source": "fileinfo"
+  },
+  "summary": "A SAT file is a 3D model saved in Spatial's ACIS solid modeling format. It stores three-dimensional geometry information in a standard text file format. SAT files are supported by many 3D CAD programs, so they are commonly used to exchange 3D data across programs.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "ptc-onshape",
+        "display_name": "PTC Onshape"
+      },
+      {
+        "software": "spatial-3d-acis-modeler",
+        "display_name": "Spatial 3D ACIS Modeler"
+      },
+      {
+        "software": "autodesk-autocad-2025",
+        "display_name": "Autodesk AutoCAD 2025"
+      },
+      {
+        "software": "imsi-turbocad-pro",
+        "display_name": "IMSI TurboCAD Pro"
+      },
+      {
+        "software": "dassault-systemes-solidworks",
+        "display_name": "Dassault Systemes SolidWorks"
+      },
+      {
+        "software": "autodesk-fusion-360",
+        "display_name": "Autodesk Fusion 360"
+      },
+      {
+        "software": "cadsofttools-abviewer",
+        "display_name": "CADSoftTools ABViewer"
+      },
+      {
+        "software": "cadsofttools-cst-cad-navigator",
+        "display_name": "CADSoftTools CST CAD Navigator"
+      },
+      {
+        "software": "imsi-turbocad-deluxe",
+        "display_name": "IMSI TurboCAD Deluxe"
+      },
+      {
+        "software": "sharecad.org",
+        "display_name": "ShareCAD.org"
+      }
+    ],
+    "macos": [
+      {
+        "software": "spatial-3d-acis-modeler",
+        "display_name": "Spatial 3D ACIS Modeler"
+      },
+      {
+        "software": "autodesk-autocad-2025",
+        "display_name": "Autodesk AutoCAD 2025"
+      },
+      {
+        "software": "imsi-turbocad-deluxe",
+        "display_name": "IMSI TurboCAD Deluxe"
+      },
+      {
+        "software": "dassault-systemes-solidworks",
+        "display_name": "Dassault Systemes SolidWorks"
+      },
+      {
+        "software": "autodesk-fusion-360",
+        "display_name": "Autodesk Fusion 360"
+      },
+      {
+        "software": "cadsofttools-cst-cad-navigator",
+        "display_name": "CADSoftTools CST CAD Navigator"
+      }
+    ],
+    "linux": [
+      {
+        "software": "spatial-3d-acis-modeler",
+        "display_name": "Spatial 3D ACIS Modeler"
+      },
+      {
+        "software": "cadsofttools-cst-cad-navigator",
+        "display_name": "CADSoftTools CST CAD Navigator"
+      }
+    ],
+    "web": [
+      {
+        "software": "sharecad.org",
+        "display_name": "ShareCAD.org"
+      },
+      {
+        "software": "autodesk-fusion-360",
+        "display_name": "Autodesk Fusion 360"
+      }
+    ],
+    "ios": [
+      {
+        "software": "autodesk-fusion-360",
+        "display_name": "Autodesk Fusion 360"
+      }
+    ],
+    "android": [
+      {
+        "software": "autodesk-fusion-360",
+        "display_name": "Autodesk Fusion 360"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "SAT file icon",
+      "alt": "SAT file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/sat-2953.png"
+    },
+    {
+      "caption": "SAT file open in ShareCAD",
+      "alt": "SAT file open in ShareCAD",
+      "source_url": "https://fileinfo.com/img/ss/md/sat_2953.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-05-04",
+  "sources": [
+    {
+      "url": "sat.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

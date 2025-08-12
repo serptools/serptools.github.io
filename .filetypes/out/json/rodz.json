@@ -1,0 +1,47 @@
+{
+  "slug": "rodz",
+  "extension": "rodz",
+  "name": "Ancestry Genealogical Database File",
+  "category": "ancestry-genealogical-database-file",
+  "developer_org": "nethar",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "Genealogy database used by Ancestry, a free genealogical database program; contains information about the user's genealogical line; includes relative information such as names, birth dates, birthplace, and photos.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "nethar-ancestry",
+        "display_name": "Nethar Ancestry"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-12-09",
+  "sources": [
+    {
+      "url": "rodz.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

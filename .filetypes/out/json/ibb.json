@@ -1,0 +1,49 @@
+{
+  "slug": "ibb",
+  "extension": "ibb",
+  "name": "ImgBurn Project File",
+  "category": "imgburn-project-file",
+  "developer_org": "lightning-uk",
+  "popularity": {
+    "rating": 2.8,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "Disk burning project created by ImgBurn, a program used for burning data, audio, and video discs; saves a list of files, folders, and/or disk images to be burned to a disc; can be used for CDs, DVDs, HD DVDs, and Blu-ray discs.",
+  "standards": [],
+  "mime_types": [
+    "and/or"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "lightning-uk-imgburn",
+        "display_name": "Lightning UK! ImgBurn"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-12-10",
+  "sources": [
+    {
+      "url": "ibb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

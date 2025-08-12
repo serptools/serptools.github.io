@@ -1,0 +1,71 @@
+{
+  "slug": "unityproj",
+  "extension": "unityproj",
+  "name": "Unity 3D Project",
+  "category": "unity-3d-project",
+  "developer_org": "unity-technologies",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "Project created by Unity, a 3D game engine IDE ; contains Unity project data in XML format; includes project properties, a list of .JS files, and configuration data; regenerated from the contents in the Assets folder every time the Unity project is opened; located in the root folder of your project.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "unity-technologies-unity",
+        "display_name": "Unity Technologies Unity"
+      },
+      {
+        "software": "monodevelop",
+        "display_name": "MonoDevelop"
+      }
+    ],
+    "macos": [
+      {
+        "software": "unity-technologies-unity",
+        "display_name": "Unity Technologies Unity"
+      },
+      {
+        "software": "monodevelop",
+        "display_name": "MonoDevelop"
+      }
+    ],
+    "linux": [
+      {
+        "software": "unity-technologies-unity",
+        "display_name": "Unity Technologies Unity"
+      },
+      {
+        "software": "monodevelop",
+        "display_name": "MonoDevelop"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2013-12-23",
+  "sources": [
+    {
+      "url": "unityproj.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

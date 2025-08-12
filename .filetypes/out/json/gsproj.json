@@ -1,0 +1,51 @@
+{
+  "slug": "gsproj",
+  "extension": "gsproj",
+  "name": "GameSalad Windows Project File",
+  "category": "gamesalad-windows-project-file",
+  "developer_org": "gamesalad",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "Game development project created by the Windows version of GameSalad Creator, a program used for making Android, iOS, HTML5, and Mac OS X games; saves a game in terms of \"scenes,\" \"actors,\" and \"tables,\" as well as the behaviors for how actors interact with a scene; can be published and sold online when complete.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "gamesalad-creator",
+        "display_name": "GameSalad Creator"
+      },
+      {
+        "software": "scirra-construct",
+        "display_name": "Scirra Construct"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-09-06",
+  "sources": [
+    {
+      "url": "gsproj.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

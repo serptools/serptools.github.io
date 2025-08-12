@@ -1,0 +1,70 @@
+{
+  "slug": "aseprite",
+  "extension": "aseprite",
+  "name": "Aseprite Sprite File",
+  "category": "aseprite-sprite-file",
+  "developer_org": "david-capello",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 11,
+    "source": "fileinfo"
+  },
+  "summary": "An ASEPRITE file contains a sprite created by Aseprite, an animated sprite editor and pixel art tool. It stores a graphic or animation, which includes layers, frames, palettes, and tags. ASEPRITE files also contain sprite settings, such as the width, height, color mode, pixel aspect ration, and background.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "aseprite",
+        "display_name": "Aseprite"
+      }
+    ],
+    "macos": [
+      {
+        "software": "aseprite",
+        "display_name": "Aseprite"
+      }
+    ],
+    "linux": [
+      {
+        "software": "aseprite",
+        "display_name": "Aseprite"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "ASEPRITE file icon",
+      "alt": "ASEPRITE file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/aseprite-10883.png"
+    },
+    {
+      "caption": "ASEPRITE file open in Aseprite 1.2",
+      "alt": "ASEPRITE file open in Aseprite 1.2",
+      "source_url": "https://fileinfo.com/img/ss/md/aseprite_10883.jpg"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-03-06",
+  "sources": [
+    {
+      "url": "aseprite.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

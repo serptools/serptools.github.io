@@ -1,0 +1,63 @@
+{
+  "slug": "uds",
+  "extension": "uds",
+  "name": "Sierra Generations File",
+  "category": "1.-sierra-generations-file",
+  "developer_org": "sierra",
+  "popularity": {
+    "rating": 2.5,
+    "votes": 12,
+    "source": "fileinfo"
+  },
+  "summary": "File created by Sierra Generations, a program that stores family tree data; contains names, dates, ancestors, and descendants.",
+  "standards": [],
+  "mime_types": [
+    "tcp/ip"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "sierra-generations",
+        "display_name": "Sierra Generations"
+      },
+      {
+        "software": "veritas-netbackup",
+        "display_name": "Veritas NetBackup"
+      },
+      {
+        "software": "afl-enterprises-uad",
+        "display_name": "AFL Enterprises UAD"
+      }
+    ],
+    "linux": [
+      {
+        "software": "veritas-netbackup",
+        "display_name": "Veritas NetBackup"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-12-23",
+  "sources": [
+    {
+      "url": "uds.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "fbw",
+  "extension": "fbw",
+  "name": "HP Recovery Manager Backup File",
+  "category": "hp-recovery-manager-backup-file",
+  "developer_org": "hewlett-packard",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 11,
+    "source": "fileinfo"
+  },
+  "summary": "Backup file created by HP Recovery Manager, a program used to backup and restore files; contains an archive of compressed files; commonly used for backing up and restoring personal files to and from external media.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "hp-recovery-manager",
+        "display_name": "HP Recovery Manager"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-01-08",
+  "sources": [
+    {
+      "url": "fbw.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "slug": "pfile",
+  "extension": "pfile",
+  "name": "Rights Management Protected File",
+  "category": "rights-management-protected-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.1,
+    "votes": 54,
+    "source": "fileinfo"
+  },
+  "summary": "A PFILE file is an encrypted file created by Microsoft Azure Information Protection (AIP), a security tool part of Microsoft Purview Information Protection that prevents unauthorized access. It contains a sensitive document, such as .DOCX or .VSDX files, that an organization restricts to specific users.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-azure-information-protection-viewer",
+        "display_name": "Microsoft Azure Information Protection Viewer"
+      },
+      {
+        "software": "microsoft-rms-sharing",
+        "display_name": "Microsoft RMS Sharing"
+      }
+    ],
+    "macos": [
+      {
+        "software": "microsoft-rms-sharing",
+        "display_name": "Microsoft RMS Sharing"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2025-03-17",
+  "sources": [
+    {
+      "url": "pfile.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

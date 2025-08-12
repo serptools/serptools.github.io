@@ -1,0 +1,23 @@
+{
+  "slug": "ktx2",
+  "extension": "ktx2",
+  "name": "Khronos Texture 2.0",
+  "category": "khronos-texture-2.0",
+  "summary": "",
+  "developer_org": "khronos-group",
+  "developer_name": "Khronos Group",
+  "more_information": {
+    "description": [
+      "The purpose of KTX2 is to provide a lightweight format for distributing texture assets to GPUs that are compatible with various platforms and applications. A common usage of the KTX2 format includes 3D gaming applications, but other 2D and 3D applications also utilize the format.",
+      "While KTX2 is version 2 of the Khronos Texture (KTX) format, the structure of KTX2 files is significantly different than .KTX files due to the additional features supported by KTX2. Extended functionality available with KTX2 includes support for universal textures using Basis Universal technology and supercompression and easier loading of Vulkan textures and use by non-OpenGL and non-Vulkan applications.",
+      "Due to BasisU compression, KTX2 files can store any image format supported by GPUs. In addition, the BasisU algorithm supports the ETC1S and UASTC (Universal ASTC) methods."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "ktx2.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

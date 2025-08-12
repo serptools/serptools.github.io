@@ -1,0 +1,67 @@
+{
+  "slug": "sns",
+  "extension": "sns",
+  "name": "SNS Video Game Audio File",
+  "category": "1.-sns-video-game-audio-file",
+  "developer_org": "electronic-arts",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 11,
+    "source": "fileinfo"
+  },
+  "summary": "An SNS file is an audio file used by several Electronics Arts video games, including Burnout Paradise and The Sims 3. It stores audio data for game sounds and music that may be encoded with various codecs . Since SNS files store audio encoded with different codecs, converting or playing with standard audio software is difficult; you must use a program that supports the codec used to encode the data, such as FFmpeg or ealayer3.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      },
+      {
+        "software": "ealayer3",
+        "display_name": "ealayer3"
+      },
+      {
+        "software": "composite-ideas-save-n-sync",
+        "display_name": "Composite Ideas Save-N-Sync"
+      }
+    ],
+    "macos": [
+      {
+        "software": "composite-ideas-save-n-sync",
+        "display_name": "Composite Ideas Save-N-Sync"
+      }
+    ],
+    "linux": [
+      {
+        "software": "composite-ideas-save-n-sync",
+        "display_name": "Composite Ideas Save-N-Sync"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2024-05-13",
+  "sources": [
+    {
+      "url": "sns.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

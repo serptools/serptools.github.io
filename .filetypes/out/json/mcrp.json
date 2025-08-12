@@ -1,0 +1,61 @@
+{
+  "slug": "mcrp",
+  "extension": "mcrp",
+  "name": "MobyExplorer Encrypted File",
+  "category": "mobyexplorer-encrypted-file",
+  "developer_org": "bermin-software",
+  "popularity": {
+    "rating": 2.2,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Encrypted file format used by MobyExplorer, a file manager and FTP/FTPS client for Java J2ME enabled mobile phones; saves data using a military strength Twofish encryption algorithm; can only be opened by entering the correct password.",
+  "standards": [],
+  "mime_types": [
+    "ftp/ftps"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "bermin-software-mobyexplorer",
+        "display_name": "Bermin Software MobyExplorer"
+      }
+    ],
+    "macos": [
+      {
+        "software": "bermin-software-mobyexplorer",
+        "display_name": "Bermin Software MobyExplorer"
+      }
+    ],
+    "linux": [
+      {
+        "software": "bermin-software-mobyexplorer",
+        "display_name": "Bermin Software MobyExplorer"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-11-13",
+  "sources": [
+    {
+      "url": "mcrp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

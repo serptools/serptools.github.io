@@ -1,0 +1,53 @@
+{
+  "slug": "msix",
+  "extension": "msix",
+  "name": "MSIX Installer Package",
+  "category": "msix-installer-package",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 209,
+    "source": "fileinfo"
+  },
+  "summary": "An MSIX file is a Zip-compressed package used to distribute and install an application in Windows 10 version 1809 and later. It contains the application's data files and .XML configuration files, which are required for installation. The MSIX file format is based on the .MSI , .APPX , ClickOnce, and App-V installation technologies.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-app-installer",
+        "display_name": "Microsoft App Installer"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "MSIX file icon",
+      "alt": "MSIX file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/msix-11205.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-02-22",
+  "sources": [
+    {
+      "url": "msix.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

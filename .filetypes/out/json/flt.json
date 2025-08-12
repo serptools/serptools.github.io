@@ -1,0 +1,125 @@
+{
+  "slug": "flt",
+  "extension": "flt",
+  "name": "Adobe Audition Filter",
+  "category": "1.-adobe-audition-filter",
+  "developer_org": "adobe-systems",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 49,
+    "source": "fileinfo"
+  },
+  "summary": "Audio filter used for applying effects, such as reverb, echo, chorus, distortion, and other effects to an audio file; must be saved within the main application folder in order to be loaded by the program.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "previous-versions-of-adobe-audition",
+        "display_name": "Previous versions of Adobe Audition"
+      },
+      {
+        "software": "blender",
+        "display_name": "Blender"
+      },
+      {
+        "software": "autodesk-3ds-max-2023",
+        "display_name": "Autodesk 3ds Max 2023"
+      },
+      {
+        "software": "remograph-remo-3d",
+        "display_name": "Remograph Remo 3D"
+      },
+      {
+        "software": "esri-arcgis-for-desktop",
+        "display_name": "ESRI ArcGIS for Desktop"
+      },
+      {
+        "software": "openscenegraph",
+        "display_name": "OpenSceneGraph"
+      },
+      {
+        "software": "okino-computer-graphics-polytrans-with-openflight-3d-file-importer-plug-in",
+        "display_name": "Okino Computer Graphics PolyTrans with OpenFlight 3D File Importer plug-in"
+      },
+      {
+        "software": "microsoft-flight-simulator-x-steam-edition",
+        "display_name": "Microsoft Flight Simulator X Steam Edition"
+      },
+      {
+        "software": "microsoft-office",
+        "display_name": "Microsoft Office"
+      },
+      {
+        "software": "adobe-illustrator-2025",
+        "display_name": "Adobe Illustrator 2025"
+      },
+      {
+        "software": "coreldraw-graphics-suite-2024",
+        "display_name": "CorelDRAW Graphics Suite 2024"
+      },
+      {
+        "software": "e-on-vue",
+        "display_name": "E-on Vue"
+      }
+    ],
+    "macos": [
+      {
+        "software": "blender",
+        "display_name": "Blender"
+      },
+      {
+        "software": "microsoft-flight-simulator-x-steam-edition",
+        "display_name": "Microsoft Flight Simulator X Steam Edition"
+      },
+      {
+        "software": "microsoft-office",
+        "display_name": "Microsoft Office"
+      },
+      {
+        "software": "adobe-illustrator-2025",
+        "display_name": "Adobe Illustrator 2025"
+      },
+      {
+        "software": "e-on-vue",
+        "display_name": "E-on Vue"
+      }
+    ],
+    "linux": [
+      {
+        "software": "blender",
+        "display_name": "Blender"
+      },
+      {
+        "software": "remograph-remo-3d",
+        "display_name": "Remograph Remo 3D"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2013-10-17",
+  "sources": [
+    {
+      "url": "flt.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

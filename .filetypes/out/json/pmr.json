@@ -1,0 +1,83 @@
+{
+  "slug": "pmr",
+  "extension": "pmr",
+  "name": "Avid Persisent Media Record File",
+  "category": "1.-avid-persisent-media-record-file",
+  "developer_org": "avid-technology",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "Media database file created by Avid video editing and finishing applications; saves an index of information about Media Objects (MOB), which are the assets used by the editing project; enables the software to keep up-to-date information on audio and video resources.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "avid-media-composer",
+        "display_name": "Avid Media Composer"
+      },
+      {
+        "software": "avid-newscutter",
+        "display_name": "Avid NewsCutter"
+      },
+      {
+        "software": "avid-symphony",
+        "display_name": "Avid Symphony"
+      },
+      {
+        "software": "avid-xpress",
+        "display_name": "Avid Xpress",
+        "status": "discontinued"
+      },
+      {
+        "software": "microsoft-performance-monitor",
+        "display_name": "Microsoft Performance Monitor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "avid-media-composer",
+        "display_name": "Avid Media Composer"
+      },
+      {
+        "software": "avid-newscutter",
+        "display_name": "Avid NewsCutter"
+      },
+      {
+        "software": "avid-symphony",
+        "display_name": "Avid Symphony"
+      },
+      {
+        "software": "avid-xpress",
+        "display_name": "Avid Xpress",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-05-10",
+  "sources": [
+    {
+      "url": "pmr.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

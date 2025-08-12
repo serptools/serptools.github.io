@@ -1,0 +1,85 @@
+{
+  "slug": "xbl",
+  "extension": "xbl",
+  "name": "Extensible Binding Language File",
+  "category": "extensible-binding-language-file",
+  "developer_org": "mozilla",
+  "popularity": {
+    "rating": 3.1,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "File created in the XML Binding Language (XBL) format, an XML format used to specify the presentation of .XUL user interface widgets; contains \"bindings,\" which declare the layout of the XML interface elements; enables developers to change the look of widgets without having to modify the core functionality.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "mozilla-firefox",
+        "display_name": "Mozilla Firefox"
+      },
+      {
+        "software": "mozilla-seamonkey",
+        "display_name": "Mozilla SeaMonkey"
+      },
+      {
+        "software": "apple-safari",
+        "display_name": "Apple Safari"
+      }
+    ],
+    "macos": [
+      {
+        "software": "mozilla-firefox",
+        "display_name": "Mozilla Firefox"
+      },
+      {
+        "software": "mozilla-seamonkey",
+        "display_name": "Mozilla SeaMonkey"
+      },
+      {
+        "software": "apple-safari",
+        "display_name": "Apple Safari"
+      }
+    ],
+    "linux": [
+      {
+        "software": "mozilla-firefox",
+        "display_name": "Mozilla Firefox"
+      },
+      {
+        "software": "mozilla-seamonkey",
+        "display_name": "Mozilla SeaMonkey"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "XBL file icon",
+      "alt": "XBL file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/xbl-5818.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-11-11",
+  "sources": [
+    {
+      "url": "xbl.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

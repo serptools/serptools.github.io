@@ -1,0 +1,103 @@
+{
+  "slug": "otf",
+  "extension": "otf",
+  "name": "OpenType Font",
+  "category": "1.-opentype-font",
+  "developer_org": "microsoft-and-adobe-systems",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 129,
+    "source": "fileinfo"
+  },
+  "summary": "An OTF file is a font saved in the OpenType format developed by Microsoft and Adobe. The OpenType format combines aspects of the PostScript ( .PS ) and TrueType ( .TTF ) font formats. OTF fonts are fully scalable, meaning their characters can be resized without losing quality.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-windows-font-viewer",
+        "display_name": "Microsoft Windows Font Viewer"
+      },
+      {
+        "software": "fontforge",
+        "display_name": "FontForge"
+      },
+      {
+        "software": "apple-font-book",
+        "display_name": "Apple Font Book"
+      },
+      {
+        "software": "ifont",
+        "display_name": "iFont"
+      },
+      {
+        "software": "openoffice-calc",
+        "display_name": "OpenOffice Calc"
+      },
+      {
+        "software": "nedgraphics-tuft-software",
+        "display_name": "NedGraphics Tuft software"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-font-book",
+        "display_name": "Apple Font Book"
+      },
+      {
+        "software": "fontforge",
+        "display_name": "FontForge"
+      },
+      {
+        "software": "openoffice-calc",
+        "display_name": "OpenOffice Calc"
+      }
+    ],
+    "linux": [
+      {
+        "software": "fontforge",
+        "display_name": "FontForge"
+      },
+      {
+        "software": "openoffice-calc",
+        "display_name": "OpenOffice Calc"
+      }
+    ],
+    "android": [
+      {
+        "software": "ifont",
+        "display_name": "iFont"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "OTF file open in Microsoft Windows Font Viewer",
+      "alt": "OTF file open in Microsoft Windows Font Viewer",
+      "source_url": "https://fileinfo.com/img/ss/md/otf_197.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-10-19",
+  "sources": [
+    {
+      "url": "otf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

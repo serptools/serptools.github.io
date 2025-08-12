@@ -1,0 +1,53 @@
+{
+  "slug": "mxg",
+  "extension": "mxg",
+  "name": "Miinoto Exchangeable Group File",
+  "category": "miinoto-exchangeable-group-file",
+  "developer_org": "mobiiko",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "File created by miinoto, an iOS application used for creating notes and to-do lists; stores a group of notes, each of which that can include rich content such as text, images, maps, audio, and embedded files such as PDFs; enables users to transmit a group of miinoto notes to other miinoto users for viewing on their mobile devices.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "ios": [
+      {
+        "software": "mobiiko-miinoto",
+        "display_name": "Mobiiko miinoto"
+      }
+    ],
+    "windows": [
+      {
+        "software": "mobiiko-miinoto",
+        "display_name": "Mobiiko miinoto"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-04-12",
+  "sources": [
+    {
+      "url": "mxg.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

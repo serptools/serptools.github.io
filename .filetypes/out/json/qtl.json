@@ -1,0 +1,53 @@
+{
+  "slug": "qtl",
+  "extension": "qtl",
+  "name": "QuickTime Link File",
+  "category": "quicktime-link-file",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "Text file that contains a link to a QuickTime movie ( .MOV ) file; includes the MIME type and the location of the media file; may also include other QuickTime settings, which are defined by the following variables:",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "apple-quicktime-player",
+        "display_name": "Apple QuickTime Player"
+      }
+    ],
+    "windows": [
+      {
+        "software": "apple-quicktime-player",
+        "display_name": "Apple QuickTime Player"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-07-28",
+  "sources": [
+    {
+      "url": "qtl.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

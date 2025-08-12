@@ -1,0 +1,80 @@
+{
+  "slug": "cif",
+  "extension": "cif",
+  "name": "Easy CD Creator Disk Image",
+  "category": "1.-easy-cd-creator-disk-image",
+  "developer_org": "corel",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 18,
+    "source": "fileinfo"
+  },
+  "summary": "CD disc image format created by Corel and used by Roxio Easy CD Creator (now Roxio Creator); mounts as a physical CD in Windows and is viewable in \"My Computer;\" often used for creating backup copies of CDs.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "roxio-creator-nxt-pro-9",
+        "display_name": "Roxio Creator NXT Pro 9"
+      },
+      {
+        "software": "magiciso",
+        "display_name": "MagicISO",
+        "status": "discontinued"
+      },
+      {
+        "software": "smart-projects-isobuster",
+        "display_name": "Smart Projects IsoBuster"
+      },
+      {
+        "software": "ezb-systems-ultraiso",
+        "display_name": "EZB Systems UltraISO"
+      },
+      {
+        "software": "cdmage",
+        "display_name": "CDmage"
+      },
+      {
+        "software": "avogadro",
+        "display_name": "Avogadro"
+      }
+    ],
+    "macos": [
+      {
+        "software": "avogadro",
+        "display_name": "Avogadro"
+      }
+    ],
+    "linux": [
+      {
+        "software": "avogadro",
+        "display_name": "Avogadro"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-05-26",
+  "sources": [
+    {
+      "url": "cif.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

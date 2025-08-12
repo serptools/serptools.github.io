@@ -1,0 +1,47 @@
+{
+  "slug": "tr3",
+  "extension": "tr3",
+  "name": "TomeRaider eBook File",
+  "category": "tomeraider-ebook-file",
+  "developer_org": "tomeraider",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "Digital book that can be opened with the TomeRaider ebook reader; saved in a format that allows fast searching, indexing, and text compression; supports Wikipedia and IMDB ebooks.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "tomeraider-3",
+        "display_name": "TomeRaider 3"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2008-05-28",
+  "sources": [
+    {
+      "url": "tr3.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

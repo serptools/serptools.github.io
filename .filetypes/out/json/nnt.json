@@ -1,0 +1,53 @@
+{
+  "slug": "nnt",
+  "extension": "nnt",
+  "name": "Eudora Address Book File",
+  "category": "eudora-address-book-file",
+  "developer_org": "qualcomm",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "Address book created and used by Eudora, an email client; stores contacts, such as names, nicknames, and email addresses.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "qualcomm-eudora",
+        "display_name": "QUALCOMM Eudora"
+      }
+    ],
+    "macos": [
+      {
+        "software": "qualcomm-eudora",
+        "display_name": "QUALCOMM Eudora"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-03-16",
+  "sources": [
+    {
+      "url": "nnt.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

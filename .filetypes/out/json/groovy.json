@@ -1,0 +1,83 @@
+{
+  "slug": "groovy",
+  "extension": "groovy",
+  "name": "Groovy Source Code File",
+  "category": "groovy-source-code-file",
+  "developer_org": "vmware-inc.",
+  "popularity": {
+    "rating": 2.2,
+    "votes": 13,
+    "source": "fileinfo"
+  },
+  "summary": "FIle containing source code written in Groovy format, a programming language similar to Java ; object-oriented programming language, which is helpful for designing applications and programs; easily integrates into the Java platform.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "oracle-java-virtual-machine",
+        "display_name": "Oracle Java Virtual Machine"
+      },
+      {
+        "software": "macromates-textmate",
+        "display_name": "MacroMates TextMate"
+      },
+      {
+        "software": "eclipse",
+        "display_name": "Eclipse"
+      },
+      {
+        "software": "sublime-text",
+        "display_name": "Sublime Text"
+      },
+      {
+        "software": "apache-netbeans",
+        "display_name": "Apache NetBeans"
+      }
+    ],
+    "windows": [
+      {
+        "software": "eclipse",
+        "display_name": "Eclipse"
+      },
+      {
+        "software": "sublime-text",
+        "display_name": "Sublime Text"
+      },
+      {
+        "software": "apache-netbeans",
+        "display_name": "Apache NetBeans"
+      }
+    ],
+    "android": [
+      {
+        "software": "file-viewer-for-android",
+        "display_name": "File Viewer for Android"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2013-08-14",
+  "sources": [
+    {
+      "url": "groovy.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

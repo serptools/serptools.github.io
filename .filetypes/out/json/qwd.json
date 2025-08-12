@@ -1,0 +1,64 @@
+{
+  "slug": "qwd",
+  "extension": "qwd",
+  "name": "QuakeWorld Demo",
+  "category": "quakeworld-demo",
+  "developer_org": "id-software",
+  "popularity": {
+    "rating": 2.5,
+    "votes": 10,
+    "source": "fileinfo"
+  },
+  "summary": "A QWD file is a match recording created by QuakeWorld, a multiplayer version of the classic game Quake . It contains information about player actions, movements, and interactions during the game, which users can share and play back to replay matches or review specific moments in the game.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "nquake",
+        "display_name": "nQuake"
+      },
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      }
+    ],
+    "macos": [
+      {
+        "software": "nquake",
+        "display_name": "nQuake"
+      }
+    ],
+    "linux": [
+      {
+        "software": "nquake",
+        "display_name": "nQuake"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2024-11-14",
+  "sources": [
+    {
+      "url": "qwd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

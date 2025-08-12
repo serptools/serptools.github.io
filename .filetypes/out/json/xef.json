@@ -1,0 +1,102 @@
+{
+  "slug": "xef",
+  "extension": "xef",
+  "name": "eManager Form Data",
+  "category": "1.-emanager-form-data",
+  "developer_org": "x-genics",
+  "popularity": {
+    "rating": 3.2,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "An XEF file is a form data file used by X-Genics eManager, a content management suite ( CMS ) for other X-Genics applications. It contains data a user entered in an X-Genics form. The data that XEF files contain is saved in an XML format.",
+  "standards": [],
+  "mime_types": [
+    "encrypt/encode"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "x-genics-emanager",
+        "display_name": "X-Genics eManager"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "file-encrypt-encode...-encrypt...",
+        "display_name": "File → Encrypt/Encode... → Encrypt..."
+      },
+      {
+        "software": "encrypt",
+        "display_name": "Encrypt"
+      },
+      {
+        "software": "file-encrypt-encode...-decrypt...",
+        "display_name": "File → Encrypt/Encode... → Decrypt..."
+      },
+      {
+        "software": "decrypt-files",
+        "display_name": "Decrypt files"
+      },
+      {
+        "software": "decrypt",
+        "display_name": "Decrypt"
+      },
+      {
+        "software": "e-merge-winace",
+        "display_name": "E-merge WinAce",
+        "status": "discontinued"
+      }
+    ],
+    "macos": [
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-06-01",
+  "sources": [
+    {
+      "url": "xef.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

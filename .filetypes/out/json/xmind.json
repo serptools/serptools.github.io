@@ -1,0 +1,79 @@
+{
+  "slug": "xmind",
+  "extension": "xmind",
+  "name": "XMind Workbook File",
+  "category": "xmind-workbook-file",
+  "developer_org": "xmind",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 44,
+    "source": "fileinfo"
+  },
+  "summary": "An XMIND file contains a workbook created by XMind, a brainstorming and mind mapping application. It may store multiple sheets, each with a diagram that captures ideas during a brainstorming session. XMIND files may also be used for storing organizational charts, work schemes, Gantt charts, and other individual and business diagrams.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "xmind",
+        "display_name": "XMind"
+      },
+      {
+        "software": "seavus-imindq",
+        "display_name": "Seavus iMindQ"
+      }
+    ],
+    "macos": [
+      {
+        "software": "xmind",
+        "display_name": "XMind"
+      },
+      {
+        "software": "seavus-imindq",
+        "display_name": "Seavus iMindQ"
+      }
+    ],
+    "linux": [
+      {
+        "software": "xmind",
+        "display_name": "XMind"
+      }
+    ],
+    "ios": [
+      {
+        "software": "seavus-imindq",
+        "display_name": "Seavus iMindQ"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "XMIND file icon",
+      "alt": "XMIND file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/xmind-7343.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-11-15",
+  "sources": [
+    {
+      "url": "xmind.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "pcv",
+  "extension": "pcv",
+  "name": "Picocrypt Encrypted File",
+  "category": "picocrypt-encrypted-file",
+  "summary": "",
+  "developer_org": "mozbackup",
+  "developer_name": "MozBackup",
+  "more_information": {
+    "screenshot": {
+      "url": "https://fileinfo.com/img/ss/sm/pcv_12707.png",
+      "alt": "Screenshot of a .pcv file in Picocrypt",
+      "caption": "PCV file open in Picocrypt"
+    },
+    "description": [
+      "Picocrypt is a multiplatform encryption tool used to secure files. To encrypt a file or folder, users drag and drop it into Picocrypt, enter the password they want to use to encrypt it, and select Encrypt . Picocrypt then encrypts the file or folder using XChaCha20 encryption and saves the result in a PCV file.",
+      "If a user drags a folder into Picocrypt, all that folder's files will be compressed, encrypted, and saved in a .zip.pcv file. When the user decrypts this file, Picocrypt will produce a .ZIP archive, which much be decompressed to view the original files."
+    ]
+  },
+  "images": [
+    {
+      "url": "https://fileinfo.com/img/ss/sm/pcv_12707.png",
+      "alt": "Screenshot of a .pcv file in Picocrypt",
+      "caption": "PCV file open in Picocrypt"
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "pcv.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "slug": "gpj",
+  "extension": "gpj",
+  "name": "MULTI IDE Project File",
+  "category": "1.-multi-ide-project-file",
+  "developer_org": "green-hills-software",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "File created by MULTI IDE, an IDE used for developing and testing embedded applications; similar to a Makefile and maintains project dependencies and build options; can be managed in the MULTI Project Builder program included in the MULTI IDE software package.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "green-hills-multi-ide",
+        "display_name": "Green Hills MULTI IDE"
+      },
+      {
+        "software": "jgrasp",
+        "display_name": "jGRASP"
+      },
+      {
+        "software": "golden-software-grapher",
+        "display_name": "Golden Software Grapher"
+      }
+    ],
+    "macos": [
+      {
+        "software": "jgrasp",
+        "display_name": "jGRASP"
+      }
+    ],
+    "linux": [
+      {
+        "software": "jgrasp",
+        "display_name": "jGRASP"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-01-17",
+  "sources": [
+    {
+      "url": "gpj.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

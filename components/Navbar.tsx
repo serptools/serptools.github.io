@@ -10,7 +10,10 @@ export function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
 
-  const categories: string[] = [];
+  const navLinks = [
+    { href: "/", label: "Tools" },
+    { href: "/filetypes", label: "File Types" },
+  ];
 
   return (
     <nav className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
@@ -23,13 +26,13 @@ export function Navbar() {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex md:items-center md:space-x-6">
-            {categories.map((category) => (
+            {navLinks.map((link) => (
               <Link
-                key={category}
-                href={`#${category.toLowerCase().replace(" ", "-")}`}
+                key={link.href}
+                href={link.href}
                 className="text-sm font-medium text-muted-foreground transition-colors hover:text-primary"
               >
-                {category}
+                {link.label}
               </Link>
             ))}
           </div>
@@ -75,16 +78,16 @@ export function Navbar() {
               />
             </div>
 
-            {/* Mobile Categories */}
+            {/* Mobile Navigation Links */}
             <div className="space-y-1">
-              {categories.map((category) => (
+              {navLinks.map((link) => (
                 <Link
-                  key={category}
-                  href={`#${category.toLowerCase().replace(" ", "-")}`}
+                  key={link.href}
+                  href={link.href}
                   className="block px-4 py-2 text-sm font-medium text-muted-foreground transition-colors hover:bg-accent hover:text-primary"
                   onClick={() => setIsMenuOpen(false)}
                 >
-                  {category}
+                  {link.label}
                 </Link>
               ))}
             </div>

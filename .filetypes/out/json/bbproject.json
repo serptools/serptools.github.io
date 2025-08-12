@@ -1,0 +1,53 @@
+{
+  "slug": "bbproject",
+  "extension": "bbproject",
+  "name": "BBEdit Project File",
+  "category": "bbedit-project-file",
+  "developer_org": "bare-bones-software",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Project file created by BBEdit, a source code text editor for Mac; saved in an XML format and contains references to files included in the project; allows developers to group and organize source code for software projects.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "bare-bones-bbedit",
+        "display_name": "Bare Bones BBEdit"
+      }
+    ],
+    "windows": [
+      {
+        "software": "bare-bones-bbedit",
+        "display_name": "Bare Bones BBEdit"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-04-06",
+  "sources": [
+    {
+      "url": "bbproject.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

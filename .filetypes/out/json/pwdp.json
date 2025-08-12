@@ -1,0 +1,53 @@
+{
+  "slug": "pwdp",
+  "extension": "pwdp",
+  "name": "Password Pad Document",
+  "category": "password-pad-document",
+  "developer_org": "tan-thor-jen",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "Password-protected text document created by Password Pad, a text editor used for securing documents; locks the document text using a password and encrypts the contents so that the document can only be viewed by entering the password; used for saving personal information such as credit card numbers, website passwords, and diary entries.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "password-pad",
+        "display_name": "Password Pad"
+      }
+    ],
+    "windows": [
+      {
+        "software": "password-pad",
+        "display_name": "Password Pad"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-07-05",
+  "sources": [
+    {
+      "url": "pwdp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

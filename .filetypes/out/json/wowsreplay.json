@@ -1,0 +1,53 @@
+{
+  "slug": "wowsreplay",
+  "extension": "wowsreplay",
+  "name": "World of Warships Replay File",
+  "category": "world-of-warships-replay-file",
+  "developer_org": "wargaming.net",
+  "popularity": {
+    "rating": 4.2,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "A WOWSREPLAY file is a game file created by World of Warships (WoWS), a multiplayer warship battling game. It contains a multiplayer battle replay that can be played back at a later time. WOWSREPLAY files are useful for analyzing game strategy or reporting game bugs or violations by other players.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "wargaming.net-world-of-warships",
+        "display_name": "Wargaming.net World of Warships"
+      }
+    ],
+    "macos": [
+      {
+        "software": "wargaming.net-world-of-warships",
+        "display_name": "Wargaming.net World of Warships"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-07-19",
+  "sources": [
+    {
+      "url": "wowsreplay.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "ttm",
+  "extension": "ttm",
+  "name": "Tower Toppler Mission File",
+  "category": "tower-toppler-mission-file",
+  "developer_org": "tower-toppler",
+  "popularity": {
+    "rating": 1.0,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "File used by Tower Toppler, a game where players control a small green creature to safety by climbing towers; stores a level pack, including platforms, monsters, and other obstacles for each level; saved in a compressed binary format.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "tower-toppler",
+        "display_name": "Tower Toppler"
+      }
+    ],
+    "macos": [
+      {
+        "software": "tower-toppler",
+        "display_name": "Tower Toppler"
+      }
+    ],
+    "linux": [
+      {
+        "software": "tower-toppler",
+        "display_name": "Tower Toppler"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-05-31",
+  "sources": [
+    {
+      "url": "ttm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

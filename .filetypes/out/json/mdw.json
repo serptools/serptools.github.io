@@ -1,0 +1,49 @@
+{
+  "slug": "mdw",
+  "extension": "mdw",
+  "name": "Access Workgroup",
+  "category": "access-workgroup",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "An MDW file is a workgroup information file used alongside a Microsoft Access database ( .MDB file). It contains a list of user-level credentials (usernames and passwords) that can be used to access and/or edit the database. Modern Access databases ( .ACCDB files) do not use MDW files.",
+  "standards": [],
+  "mime_types": [
+    "and/or"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-access-365",
+        "display_name": "Microsoft Access 365"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-07-19",
+  "sources": [
+    {
+      "url": "mdw.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

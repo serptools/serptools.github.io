@@ -1,0 +1,91 @@
+{
+  "slug": "man",
+  "extension": "man",
+  "name": "Unix Manual",
+  "category": "unix-manual",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 97,
+    "source": "fileinfo"
+  },
+  "summary": "Help manual (called a \"man page\") used by the Unix Man utility, a program used to view documentation; contains information about a Unix command or other Unix function; can be viewed within a unix shell using the man command.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "microsoft-wordpad",
+        "display_name": "Microsoft WordPad"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      },
+      {
+        "software": "pico",
+        "display_name": "Pico"
+      }
+    ],
+    "macos": [
+      {
+        "software": "gnu-emacs",
+        "display_name": "GNU Emacs"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      },
+      {
+        "software": "pico",
+        "display_name": "Pico"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-06-28",
+  "sources": [
+    {
+      "url": "man.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

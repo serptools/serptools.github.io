@@ -1,0 +1,51 @@
+{
+  "slug": "first-run",
+  "extension": "first-run",
+  "name": "Discord First Run File",
+  "category": "discord-first-run-file",
+  "developer_org": "discord",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "A FIRST-RUN file is a text file created by the Windows version of Discord, a text, voice, and video chat program. Discord automatically creates a FIRST-RUN file the first time a user runs Discord. It uses this file to track the date and time at which a user first launched Discord.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "discord",
+        "display_name": "Discord"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-11-08",
+  "sources": [
+    {
+      "url": "first-run.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

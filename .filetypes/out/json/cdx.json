@@ -1,0 +1,96 @@
+{
+  "slug": "cdx",
+  "extension": "cdx",
+  "name": "Compound Index File",
+  "category": "1.-compound-index-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 108,
+    "source": "fileinfo"
+  },
+  "summary": "A CDX file contains an index of files or other data stored in a database . It is similar to a compact index ( .IDX ) file, but the leaf nodes at the lowest level of a compound index point to one of the tags in the index. CDX files were introduced in version 2 of Microsoft Visual FoxPro, which is a database management program for Windows.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-visual-foxpro",
+        "display_name": "Microsoft Visual FoxPro",
+        "status": "discontinued"
+      },
+      {
+        "software": "alpha-software-alpha-anywhere",
+        "display_name": "Alpha Software Alpha Anywhere"
+      },
+      {
+        "software": "coreldraw-graphics-suite-2024",
+        "display_name": "CorelDRAW Graphics Suite 2024"
+      },
+      {
+        "software": "perkinelmer-chemdraw",
+        "display_name": "PerkinElmer ChemDraw"
+      },
+      {
+        "software": "open-babel",
+        "display_name": "Open Babel"
+      },
+      {
+        "software": "xdrawchem",
+        "display_name": "XDrawChem"
+      },
+      {
+        "software": "cs-odessa-conceptdraw-diagram",
+        "display_name": "CS Odessa ConceptDraw DIAGRAM"
+      }
+    ],
+    "macos": [
+      {
+        "software": "perkinelmer-chemdraw",
+        "display_name": "PerkinElmer ChemDraw"
+      },
+      {
+        "software": "open-babel",
+        "display_name": "Open Babel"
+      },
+      {
+        "software": "cs-odessa-conceptdraw-diagram",
+        "display_name": "CS Odessa ConceptDraw DIAGRAM"
+      }
+    ],
+    "linux": [
+      {
+        "software": "open-babel",
+        "display_name": "Open Babel"
+      },
+      {
+        "software": "xdrawchem",
+        "display_name": "XDrawChem"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-07-18",
+  "sources": [
+    {
+      "url": "cdx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "sporemod",
+  "extension": "sporemod",
+  "name": "Spore Mod",
+  "category": "spore-mod",
+  "developer_org": "maxis-and-electronic-arts",
+  "popularity": {
+    "rating": 4.5,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "A SPOREMOD file contains a modification (\"mod\" for short) that alters the gameplay of the Galactic Adventures expansion pack for Electronic Arts' Spore game. For example, the modification may alter creatures' appearance and behavior or the game's user interface elements. Users can install SPOREMOD files with the Spore ModAPI Launcher Kit (Spore and Galactic Adventures must be installed).",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "spore-modapi-launcher-kit",
+        "display_name": "Spore ModAPI Launcher Kit"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2024-04-09",
+  "sources": [
+    {
+      "url": "sporemod.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

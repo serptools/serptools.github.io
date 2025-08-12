@@ -1,0 +1,63 @@
+{
+  "slug": "ftm",
+  "extension": "ftm",
+  "name": "FamiTracker Module",
+  "category": "1.-famitracker-module",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 14,
+    "source": "fileinfo"
+  },
+  "summary": "Audio tracker module created with FamiTracker, an audio program used for producing music for Nintendo (NES) systems; includes short audio samples and a series of notes that comprise the melody.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "famitracker",
+        "display_name": "FamiTracker"
+      },
+      {
+        "software": "ancestry.com-family-tree-maker-for-dos",
+        "display_name": "Ancestry.com Family Tree Maker for DOS"
+      },
+      {
+        "software": "makemusic-finale",
+        "display_name": "MakeMusic Finale"
+      }
+    ],
+    "macos": [
+      {
+        "software": "makemusic-finale",
+        "display_name": "MakeMusic Finale"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2016-12-29",
+  "sources": [
+    {
+      "url": "ftm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "rma",
+  "extension": "rma",
+  "name": "Rhapsody DRM License Data File",
+  "category": "rhapsody-drm-license-data-file",
+  "developer_org": "realnetworks",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "An RMA file is a license file used by the RealNetworks Rhapsody music store, player, and subscription service. Rhapsody uses RMA files to verify that a user is authorized to play music files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {},
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-06-14",
+  "sources": [
+    {
+      "url": "rma.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

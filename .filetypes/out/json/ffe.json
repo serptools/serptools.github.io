@@ -1,0 +1,53 @@
+{
+  "slug": "ffe",
+  "extension": "ffe",
+  "name": "DirectInput Force Feedback Effect",
+  "category": "directinput-force-feedback-effect",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "An FFE file is a haptic effect used by Microsoft DirectInput, a DirectX API that controls how users' joysticks and game controllers behave while playing a Windows video game. It contains binary code that makes a joystick or controller vibrate in response to a game action. DirectX downloads FFE files into Device objects and then plays them at appropriate times during a game.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "directx-sdk-force-editor",
+        "display_name": "DirectX SDK Force Editor",
+        "status": "discontinued"
+      },
+      {
+        "software": "directx-sdk-readffe",
+        "display_name": "DirectX SDK ReadFFE",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-08-02",
+  "sources": [
+    {
+      "url": "ffe.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "omod",
+  "extension": "omod",
+  "name": "Oblivion Mod Archive",
+  "category": "oblivion-mod-archive",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "Game file used by Oblivion Mod Manager (OBMM) and Nexus Mod Manager (NMM), two programs used for applying game mods to The Elder Scrolls: Oblivion and Fallout 3; contains the data files that alter regular game content; saved using .7Z compression.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "oblivion-mod-manager",
+        "display_name": "Oblivion Mod Manager"
+      },
+      {
+        "software": "nexus-mod-manager",
+        "display_name": "Nexus Mod Manager"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-12-29",
+  "sources": [
+    {
+      "url": "omod.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

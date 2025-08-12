@@ -1,0 +1,63 @@
+{
+  "slug": "bb",
+  "extension": "bb",
+  "name": "Blitz Source Code File",
+  "category": "blitz-source-code-file",
+  "developer_org": "blitz-research",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 27,
+    "source": "fileinfo"
+  },
+  "summary": "Source file written in Blitz, a game-programming language; compiled using a Blitz compiler included with BlitzMax, Blitz3D, or BlitzPlus development software.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "blitz-research-blitz3d-blitzmax-or-blitzplus",
+        "display_name": "Blitz Research Blitz3D, BlitzMax, or BlitzPlus"
+      },
+      {
+        "software": "blitz-research-blitzmax",
+        "display_name": "Blitz Research BlitzMax"
+      }
+    ],
+    "macos": [
+      {
+        "software": "blitz-research-blitzmax",
+        "display_name": "Blitz Research BlitzMax"
+      }
+    ],
+    "linux": [
+      {
+        "software": "blitz-research-blitzmax",
+        "display_name": "Blitz Research BlitzMax"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2007-06-06",
+  "sources": [
+    {
+      "url": "bb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

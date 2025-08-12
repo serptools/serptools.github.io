@@ -1,0 +1,59 @@
+{
+  "slug": "cld",
+  "extension": "cld",
+  "name": "Canon CD Label Template",
+  "category": "1.-canon-cd-label-template",
+  "developer_org": "canon",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 26,
+    "source": "fileinfo"
+  },
+  "summary": "Printing template for printing CD labels and covers with a Canon printer; contains preset printing areas that serve as a starting point for creating CD artwork; used by the CD-LabelPrint program, which comes with some of Canon's Pixma printers.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "canon-cd-labelprint",
+        "display_name": "Canon CD-LabelPrint"
+      }
+    ],
+    "macos": [
+      {
+        "software": "canon-cd-labelprint",
+        "display_name": "Canon CD-LabelPrint"
+      }
+    ],
+    "linux": [
+      {
+        "software": "clamav",
+        "display_name": "ClamAV"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2008-01-20",
+  "sources": [
+    {
+      "url": "cld.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

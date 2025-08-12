@@ -1,0 +1,35 @@
+{
+  "slug": "ipj",
+  "extension": "ipj",
+  "name": "Inventor Project",
+  "category": "inventor-project",
+  "summary": "",
+  "developer_org": "infinityqs",
+  "developer_name": "InfinityQS",
+  "more_information": {
+    "screenshot": {
+      "url": "https://fileinfo.com/img/ss/sm/ipj_6111.png",
+      "alt": "Screenshot of a .ipj file in Microsoft Visual Studio Code",
+      "caption": "IPJ file open in Microsoft Visual Studio Code"
+    },
+    "description": [
+      "In Autodesk Inventor, engineers and product designers create 3D models that represent mechanical parts and assemblies. Assemblies can be comprised of many part files and other assembly files. Additionally, users can create drawings and presentations that show details of their assemblies. These drawings and presentations contain references to the assembly and part files used to create them.",
+      "To ensure that links between dependent files remain valid, users save related files as part of a single Inventor project, which is loaded using an IPJ file. The IPJ file contains a record of the folder(s) in which a project's constituent files are stored, as well as other project-related settings. The IPJ file is often stored in a folder one level up from the folder containing a project's content.",
+      "If you need to switch between Inventor projects, close all your currently open Inventor files and then select File → Open from the program's menu bar. When the Open window appears, select the Projects... button located next to the Project File field. This will open the Projects window, allowing you to browse to and select a different IPJ file."
+    ]
+  },
+  "images": [
+    {
+      "url": "https://fileinfo.com/img/ss/sm/ipj_6111.png",
+      "alt": "Screenshot of a .ipj file in Microsoft Visual Studio Code",
+      "caption": "IPJ file open in Microsoft Visual Studio Code"
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "ipj.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "nca",
+  "extension": "nca",
+  "name": "Nintendo Content Archive",
+  "category": "nintendo-content-archive",
+  "developer_org": "nintendo",
+  "popularity": {
+    "rating": 2.9,
+    "votes": 17,
+    "source": "fileinfo"
+  },
+  "summary": "An NCA file is a Nintendo Content Archive, which contains game data dumped from a Nintendo Switch game card. It stores multiple files that contain Nintendo content, such as firmware or a Switch game ROM encrypted with AES-XTS encryption. NCA files are similar to CIA files, which are used to store Nintendo 3DS content and WAD files, which are used to store Nintendo Wii content.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "sciresm-hactool",
+        "display_name": "SciresM hactool"
+      }
+    ],
+    "macos": [
+      {
+        "software": "sciresm-hactool",
+        "display_name": "SciresM hactool"
+      }
+    ],
+    "linux": [
+      {
+        "software": "sciresm-hactool",
+        "display_name": "SciresM hactool"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-12-05",
+  "sources": [
+    {
+      "url": "nca.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

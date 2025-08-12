@@ -1,0 +1,51 @@
+{
+  "slug": "gadget",
+  "extension": "gadget",
+  "name": "Windows Gadget",
+  "category": "windows-gadget",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 4.1,
+    "votes": 104,
+    "source": "fileinfo"
+  },
+  "summary": "A GADGET file is a small program that runs within the Windows Vista or Windows 7 sidebar. It stores several web-based files in a Zip archive format and may include .HTML , .CSS , .JS files, as well as other web files. GADGET files are used for small programs such as news feeds, search tools, system utilities, and small games.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-windows-only-windows-7-and-windows-vista",
+        "display_name": "Microsoft Windows (only Windows 7 and Windows Vista)"
+      },
+      {
+        "software": "8gadgetpack",
+        "display_name": "8GadgetPack"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-02-11",
+  "sources": [
+    {
+      "url": "gadget.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

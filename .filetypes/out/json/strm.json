@@ -1,0 +1,178 @@
+{
+  "slug": "strm",
+  "extension": "strm",
+  "name": "Stream Location File",
+  "category": "1.-stream-location-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "An STRM file is a stream location file used by various streaming media players, such as Kodi, Plex, and Emby. It contains a plain text URL that points to the location of a media file. Media players use STRM files to stream the content the files point to.",
+  "standards": [],
+  "mime_types": [
+    "and/or",
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "kodi",
+        "display_name": "Kodi"
+      },
+      {
+        "software": "plex",
+        "display_name": "Plex"
+      },
+      {
+        "software": "jellyfin",
+        "display_name": "Jellyfin"
+      },
+      {
+        "software": "emby",
+        "display_name": "Emby"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "vgmstream",
+        "display_name": "vgmstream"
+      },
+      {
+        "software": "foobar2000-with-vgmstream-plug-in",
+        "display_name": "Foobar2000 with vgmstream plug-in"
+      }
+    ],
+    "macos": [
+      {
+        "software": "kodi",
+        "display_name": "Kodi"
+      },
+      {
+        "software": "plex",
+        "display_name": "Plex"
+      },
+      {
+        "software": "jellyfin",
+        "display_name": "Jellyfin"
+      },
+      {
+        "software": "emby",
+        "display_name": "Emby"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "vgmstream",
+        "display_name": "vgmstream"
+      }
+    ],
+    "linux": [
+      {
+        "software": "kodi",
+        "display_name": "Kodi"
+      },
+      {
+        "software": "plex",
+        "display_name": "Plex"
+      },
+      {
+        "software": "jellyfin",
+        "display_name": "Jellyfin"
+      },
+      {
+        "software": "emby",
+        "display_name": "Emby"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "vgmstream",
+        "display_name": "vgmstream"
+      }
+    ],
+    "ios": [
+      {
+        "software": "kodi",
+        "display_name": "Kodi"
+      },
+      {
+        "software": "plex",
+        "display_name": "Plex"
+      },
+      {
+        "software": "emby",
+        "display_name": "Emby"
+      }
+    ],
+    "android": [
+      {
+        "software": "kodi",
+        "display_name": "Kodi"
+      },
+      {
+        "software": "plex",
+        "display_name": "Plex"
+      },
+      {
+        "software": "emby",
+        "display_name": "Emby"
+      }
+    ],
+    "web": [
+      {
+        "software": "vgmstream-web",
+        "display_name": "vgmstream-web"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "STRM file open in Apple TextEdit",
+      "alt": "STRM file open in Apple TextEdit",
+      "source_url": "https://fileinfo.com/img/ss/md/strm_9040.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-11-28",
+  "sources": [
+    {
+      "url": "strm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

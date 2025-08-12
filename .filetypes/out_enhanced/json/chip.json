@@ -1,0 +1,24 @@
+{
+  "slug": "chip",
+  "extension": "chip",
+  "name": "Microarray Annotation File",
+  "category": "microarray-annotation-file",
+  "summary": "",
+  "developer_org": "gsea-team",
+  "developer_name": "GSEA Team",
+  "more_information": {
+    "description": [
+      "GSEA is a gene analysis program used to determine whether an a priori defined set of genes shows statistically significant, concordant differences between biological states. When performing an analysis, scientists must load several different types of data in GSEA, including a gene expression dataset, corresponding sample annotations, and a collection of gene sets.",
+      "Most often, scientists use GSEA with gene set files from the Molecular Signatures Database (MSigDB). These files consist of HUGO human gene symbols. However, some gene expression files use other types of identifiers. If a scientist encounters one of these gene expressions files, they must use a CHIP file to convert the file's identifiers to the human symbols included in MSigDB's gene set files. Only then can they perform their analysis.",
+      "CHIP files are spreadsheets that typically include three columns of data:",
+      "The file gene_symbol.chip contains an additional column, Aliases. This column includes additional gene symbols if a probe set ID can be mapped to multiple gene symbols."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "chip.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

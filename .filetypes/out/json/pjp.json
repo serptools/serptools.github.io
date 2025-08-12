@@ -1,0 +1,96 @@
+{
+  "slug": "pjp",
+  "extension": "pjp",
+  "name": "Progressive JPEG Image",
+  "category": "progressive-jpeg-image",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "A PJP file is a bitmap image created in the Progressive JPEG format (PJPEG). It contains encoded bitmap data so that the downloaded image appears progressively from a blurry picture to the final sharp image. This enables image previews to be viewed before the entire image is downloaded.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-edge",
+        "display_name": "Microsoft Edge"
+      },
+      {
+        "software": "microsoft-internet-explorer",
+        "display_name": "Microsoft Internet Explorer",
+        "status": "discontinued"
+      },
+      {
+        "software": "mozilla-firefox",
+        "display_name": "Mozilla Firefox"
+      },
+      {
+        "software": "opera",
+        "display_name": "Opera"
+      },
+      {
+        "software": "apple-safari",
+        "display_name": "Apple Safari"
+      }
+    ],
+    "chromeos": [
+      {
+        "software": "google-chrome",
+        "display_name": "Google Chrome"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-safari",
+        "display_name": "Apple Safari"
+      },
+      {
+        "software": "mozilla-firefox",
+        "display_name": "Mozilla Firefox"
+      },
+      {
+        "software": "opera",
+        "display_name": "Opera"
+      }
+    ],
+    "linux": [
+      {
+        "software": "mozilla-firefox",
+        "display_name": "Mozilla Firefox"
+      },
+      {
+        "software": "opera",
+        "display_name": "Opera"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-01-23",
+  "sources": [
+    {
+      "url": "pjp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

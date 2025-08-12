@@ -1,0 +1,109 @@
+{
+  "slug": "azw3",
+  "extension": "azw3",
+  "name": "Amazon KF8 eBook File",
+  "category": "amazon-kf8-ebook-file",
+  "developer_org": "amazon",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 77,
+    "source": "fileinfo"
+  },
+  "summary": "An AZW3 file is an eBook created in the Kindle Format 8 (KF8), Amazon's successor to the .AZW format. It supports newer features such as HTML5 and CSS3 support as well as many other formatting capabilities. AZW3 files often include DRM protection and are used as the download format for many Amazon eBooks.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "amazon-kindle-for-pc",
+        "display_name": "Amazon Kindle for PC"
+      },
+      {
+        "software": "kindle-previewer",
+        "display_name": "Kindle Previewer"
+      },
+      {
+        "software": "calibre",
+        "display_name": "Calibre"
+      },
+      {
+        "software": "patisoftware-thelibrarian",
+        "display_name": "PatiSoftware theLibrarian"
+      },
+      {
+        "software": "amazon-kindle",
+        "display_name": "Amazon Kindle"
+      }
+    ],
+    "macos": [
+      {
+        "software": "amazon-kindle-for-mac",
+        "display_name": "Amazon Kindle for Mac"
+      },
+      {
+        "software": "kindle-previewer",
+        "display_name": "Kindle Previewer"
+      },
+      {
+        "software": "calibre",
+        "display_name": "Calibre"
+      },
+      {
+        "software": "patisoftware-thelibrarian",
+        "display_name": "PatiSoftware theLibrarian"
+      }
+    ],
+    "android": [
+      {
+        "software": "file-viewer-for-android",
+        "display_name": "File Viewer for Android"
+      },
+      {
+        "software": "amazon-kindle",
+        "display_name": "Amazon Kindle"
+      }
+    ],
+    "linux": [
+      {
+        "software": "calibre",
+        "display_name": "Calibre"
+      }
+    ],
+    "ios": [
+      {
+        "software": "amazon-kindle",
+        "display_name": "Amazon Kindle"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "AZW3 file icon",
+      "alt": "AZW3 file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/azw3-7610.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-12-21",
+  "sources": [
+    {
+      "url": "azw3.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

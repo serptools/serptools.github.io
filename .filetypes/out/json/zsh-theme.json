@@ -1,0 +1,124 @@
+{
+  "slug": "zsh-theme",
+  "extension": "zsh-theme",
+  "name": "Oh My Zsh Theme",
+  "category": "oh-my-zsh-theme",
+  "developer_org": "oh-my-zsh-community",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "A ZSH-THEME file is a custom theme that can be applied to the Z shell (zsh) using Oh My Zsh, an open source zsh extension. It contains a script used to customize zsh's appearance. All ZSH-THEME files are stored in Oh My Zsh's themes directory (located at ~/​.oh-my-zsh/​themes ).",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "github-atom",
+        "display_name": "Github Atom",
+        "status": "discontinued"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "oh-my-zsh",
+        "display_name": "Oh My Zsh"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      }
+    ],
+    "chromeos": [
+      {
+        "software": "google-chrome-text",
+        "display_name": "Google Chrome Text"
+      }
+    ],
+    "macos": [
+      {
+        "software": "oh-my-zsh",
+        "display_name": "Oh My Zsh"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "github-atom",
+        "display_name": "Github Atom",
+        "status": "discontinued"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "oh-my-zsh",
+        "display_name": "Oh My Zsh"
+      },
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      },
+      {
+        "software": "github-atom",
+        "display_name": "Github Atom",
+        "status": "discontinued"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-02-03",
+  "sources": [
+    {
+      "url": "zsh-theme.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

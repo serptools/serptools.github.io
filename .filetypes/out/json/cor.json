@@ -1,0 +1,56 @@
+{
+  "slug": "cor",
+  "extension": "cor",
+  "name": "CorelDRAW Drawing",
+  "category": "1.-coreldraw-drawing",
+  "developer_org": "corel",
+  "popularity": {
+    "rating": 2.2,
+    "votes": 13,
+    "source": "fileinfo"
+  },
+  "summary": "Drawing created by an early version of CorelDRAW, a vector drawing program developed by Corel; contains vector graphics comprised of paths rather than individual pixels.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "coreldraw-graphics-suite-2024",
+        "display_name": "CorelDRAW Graphics Suite 2024"
+      },
+      {
+        "software": "trimble-navigation-gps-pathfinder-office",
+        "display_name": "Trimble Navigation GPS Pathfinder Office",
+        "status": "discontinued"
+      },
+      {
+        "software": "trimble-navigation-gps-pathfinder-tools-sdk",
+        "display_name": "Trimble Navigation GPS Pathfinder Tools SDK"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-11-07",
+  "sources": [
+    {
+      "url": "cor.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

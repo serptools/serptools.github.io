@@ -1,15 +1,24 @@
 "use client";
 
-import HeroConverter from "@/components/HeroConverter";
-import { Navbar } from "@/components/Navbar";
+import ToolPageTemplate from "@/components/ToolPageTemplate";
+import { toolContent } from "@/config/tool-content";
 
 export default function Page() {
+  const content = toolContent["webp-to-png"];
+  
+  if (!content) {
+    return <div>Tool not found</div>;
+  }
+  
   return (
-    <>
-      <Navbar />
-      <main className="min-h-screen bg-background">
-        <HeroConverter title="WEBP to PNG" subtitle="Convert WEBP images to PNG in your browser." from="webp" to="png" />
-      </main>
-    </>
+    <ToolPageTemplate
+      tool={content.tool}
+      videoSection={content.videoSection}
+      faqs={content.faqs}
+      aboutSection={content.aboutSection}
+      changelog={content.changelog}
+      relatedTools={content.relatedTools}
+      blogPosts={content.blogPosts}
+    />
   );
 }

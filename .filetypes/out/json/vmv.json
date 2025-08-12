@@ -1,0 +1,51 @@
+{
+  "slug": "vmv",
+  "extension": "vmv",
+  "name": "VisualBoyAdvance Recording",
+  "category": "1.-visualboyadvance-recording",
+  "developer_org": "visualboyadvance",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "Game recording created by VisualBoyAdvance, a Gameboy Advance emulator; saves keystrokes and other information that allows the recording to be played back in the emulator; saved in a proprietary format and cannot be played by standard video players.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "visualboyadvance",
+        "display_name": "VisualBoyAdvance"
+      },
+      {
+        "software": "virtuanes",
+        "display_name": "VirtuaNES"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-08-06",
+  "sources": [
+    {
+      "url": "vmv.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "grib",
+  "extension": "grib",
+  "name": "Gridded Binary File",
+  "category": "gridded-binary-file",
+  "summary": "",
+  "developer_org": "wmo",
+  "developer_name": "WMO",
+  "more_information": {
+    "description": [
+      "The World Meteorological Organization (WMO) maintains and updates the GRIB format to stay relevant for modern meteorology and climate science forecasting needs. There are two main versions of the format: GRIB1 and GRIB2 . GRIB2 is the newer version, offering better compression and more detailed metadata , making it the preferred format for many agencies, including National Oceanic and Atmospheric Administration (NOAA) and European Centre for Medium-Range Weather Forecasts (ECMWF).",
+      "NOTE: GRIB files are more commonly saved with the .grb extension ( .GRB file)."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "grib.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "slug": "breft",
+  "extension": "breft",
+  "name": "Wii Effects File",
+  "category": "wii-effects-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 1.8,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Effects file used by Super Smash Bros. Brawl for the Wii; contains information that describes the appearance of different gameplay effects, such as the texture width and height of fire from falling bombs.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "brawlbox",
+        "display_name": "BrawlBox"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-08-04",
+  "sources": [
+    {
+      "url": "breft.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

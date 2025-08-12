@@ -1,0 +1,47 @@
+{
+  "slug": "tpac",
+  "extension": "tpac",
+  "name": "Mount & Blade II Game Data Archive",
+  "category": "mount-blade-ii-game-data-archive",
+  "developer_org": "taleworlds-entertainment",
+  "popularity": {
+    "rating": 2.9,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "A TPAC file is a game data archive used by TaleWorlds Entertainment Mount & Blade II: Bannerlord. It contains a 3D model, textures, and materials used to show an in-game character or item. TPAC files can be opened in TpacTool, a third-party TPAC file explorer.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "tpactool",
+        "display_name": "TpacTool"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-07-08",
+  "sources": [
+    {
+      "url": "tpac.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

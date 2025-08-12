@@ -1,0 +1,51 @@
+{
+  "slug": "cad",
+  "extension": "cad",
+  "name": "BobCAD-CAM File",
+  "category": "1.-bobcad-cam-file",
+  "developer_org": "bobcad-cam",
+  "popularity": {
+    "rating": 4.1,
+    "votes": 22,
+    "source": "fileinfo"
+  },
+  "summary": "A CAD file is a CAD design created by version 21 and earlier of BobCAD-CAM software (replaced by the .BBCD format in version 22). It stores information about a 2D and 3D part, including its geometry and dimensions. Before being replaced, BobCAD-CAM users opened, edited, and converted CAD files when designing parts and products for manufacturing.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "bobcad-cam",
+        "display_name": "BobCAD-CAM"
+      },
+      {
+        "software": "autodesk-quickcad",
+        "display_name": "Autodesk QuickCAD"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-05-26",
+  "sources": [
+    {
+      "url": "cad.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

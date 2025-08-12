@@ -1,0 +1,67 @@
+{
+  "slug": "dex",
+  "extension": "dex",
+  "name": "Dalvik Executable File",
+  "category": "1.-dalvik-executable-file",
+  "developer_org": "google",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 309,
+    "source": "fileinfo"
+  },
+  "summary": "A DEX file is an executable file saved in a format that contains compiled code written for Android, Google's Linux-based mobile phone platform. It is technically referred to as a \"Dalvik Executable,\" and can be interpreted by the Dalvik virtual machine.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "android": [
+      {
+        "software": "google-android-studio",
+        "display_name": "Google Android Studio"
+      }
+    ],
+    "windows": [
+      {
+        "software": "no-longer-supported-by-microsoft-excel",
+        "display_name": "No longer supported by Microsoft Excel"
+      },
+      {
+        "software": "nch-disketch",
+        "display_name": "NCH Disketch"
+      },
+      {
+        "software": "dexis-dexview",
+        "display_name": "DEXIS DEXview"
+      }
+    ],
+    "macos": [
+      {
+        "software": "no-longer-supported-by-microsoft-excel",
+        "display_name": "No longer supported by Microsoft Excel"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-06-13",
+  "sources": [
+    {
+      "url": "dex.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

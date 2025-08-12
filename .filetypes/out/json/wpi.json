@@ -1,0 +1,79 @@
+{
+  "slug": "wpi",
+  "extension": "wpi",
+  "name": "Inkling Sketch Binary File",
+  "category": "inkling-sketch-binary-file",
+  "developer_org": "wacom",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "Sketch file created by Inkling, a package, which includes a pen, receiver, and application, that captures paper sketches and converts them to digital sketches; contains a sketch made up of layers and pen strokes that can be manipulated, merged, or removed.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "wacom-inkling-sketch-manager",
+        "display_name": "Wacom Inkling Sketch Manager",
+        "status": "discontinued"
+      },
+      {
+        "software": "adobe-photoshop-2025",
+        "display_name": "Adobe Photoshop 2025"
+      },
+      {
+        "software": "adobe-illustrator-2025",
+        "display_name": "Adobe Illustrator 2025"
+      },
+      {
+        "software": "autodesk-sketchbook-pro",
+        "display_name": "Autodesk SketchBook Pro"
+      }
+    ],
+    "macos": [
+      {
+        "software": "wacom-inkling-sketch-manager",
+        "display_name": "Wacom Inkling Sketch Manager",
+        "status": "discontinued"
+      },
+      {
+        "software": "adobe-photoshop-2025",
+        "display_name": "Adobe Photoshop 2025"
+      },
+      {
+        "software": "adobe-illustrator-2025",
+        "display_name": "Adobe Illustrator 2025"
+      },
+      {
+        "software": "autodesk-sketchbook-pro",
+        "display_name": "Autodesk SketchBook Pro"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-09-26",
+  "sources": [
+    {
+      "url": "wpi.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

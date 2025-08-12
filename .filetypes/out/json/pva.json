@@ -1,0 +1,81 @@
+{
+  "slug": "pva",
+  "extension": "pva",
+  "name": "PVA Video File",
+  "category": "pva-video-file",
+  "developer_org": "technotrend",
+  "popularity": {
+    "rating": 2.3,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Video format used by TechnoTrend's TI TMS320AV711z based digital video broadcasting (DVB) PCI boards; also used by Hauppauge, Siemens, Galaxis, and other compatible DVB hardware; consists of a sequence of audio/video packets with no file header or trailer.",
+  "standards": [],
+  "mime_types": [
+    "audio/video"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "media-player-classic",
+        "display_name": "Media Player Classic"
+      },
+      {
+        "software": "mplayer",
+        "display_name": "MPlayer"
+      },
+      {
+        "software": "qvodplayer",
+        "display_name": "QvodPlayer"
+      },
+      {
+        "software": "pcf-miro",
+        "display_name": "PCF Miro"
+      }
+    ],
+    "macos": [
+      {
+        "software": "mplayer",
+        "display_name": "MPlayer"
+      },
+      {
+        "software": "pcf-miro",
+        "display_name": "PCF Miro"
+      }
+    ],
+    "linux": [
+      {
+        "software": "pcf-miro",
+        "display_name": "PCF Miro"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-07-28",
+  "sources": [
+    {
+      "url": "pva.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

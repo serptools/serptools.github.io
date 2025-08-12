@@ -1,0 +1,59 @@
+{
+  "slug": "device",
+  "extension": "device",
+  "name": "Dropbox Device Settings File",
+  "category": "dropbox-device-settings-file",
+  "developer_org": "dropbox",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "A DEVICE file is a settings file that stores information about a USB storage device connected to a system running Dropbox, an online file storage service. It contains information Dropbox references to identify a device and its settings that configure how the storage service interacts with the device's contents. DEVICE files are hidden and stored in the root of the devices; users are not meant to open the files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "dropbox",
+        "display_name": "Dropbox"
+      }
+    ],
+    "macos": [
+      {
+        "software": "dropbox",
+        "display_name": "Dropbox"
+      }
+    ],
+    "linux": [
+      {
+        "software": "dropbox",
+        "display_name": "Dropbox"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2024-05-13",
+  "sources": [
+    {
+      "url": "device.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

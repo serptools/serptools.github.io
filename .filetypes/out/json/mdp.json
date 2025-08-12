@@ -1,0 +1,91 @@
+{
+  "slug": "mdp",
+  "extension": "mdp",
+  "name": "MediBang Paint Pro Image",
+  "category": "1.-medibang-paint-pro-image",
+  "developer_org": "medibang",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 22,
+    "source": "fileinfo"
+  },
+  "summary": "An MDP file is an image created by MediBang Paint Pro, a free painting and comic creation application for Windows, macOS, Android, and iOS. It is the native format used to save images in MediBang Paint Pro. MDP files store one or more layers, which may include annotations, stencils, masks, and other shapes.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "medibang-paint-pro",
+        "display_name": "MediBang Paint Pro"
+      },
+      {
+        "software": "medibang-paint",
+        "display_name": "MediBang Paint"
+      },
+      {
+        "software": "firealpaca",
+        "display_name": "FireAlpaca"
+      },
+      {
+        "software": "chasys-draw-ies",
+        "display_name": "Chasys Draw IES"
+      },
+      {
+        "software": "microsoft-visual-studio-2022",
+        "display_name": "Microsoft Visual Studio 2022"
+      }
+    ],
+    "ios": [
+      {
+        "software": "medibang-paint-for-ios",
+        "display_name": "MediBang Paint for iOS"
+      }
+    ],
+    "macos": [
+      {
+        "software": "medibang-paint-pro",
+        "display_name": "MediBang Paint Pro"
+      },
+      {
+        "software": "firealpaca",
+        "display_name": "FireAlpaca"
+      }
+    ],
+    "android": [
+      {
+        "software": "medibang-paint",
+        "display_name": "MediBang Paint"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "MDP file open in MediBang Paint Pro 21",
+      "alt": "MDP file open in MediBang Paint Pro 21",
+      "source_url": "https://fileinfo.com/img/ss/md/mdp_11182.jpg"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-01-14",
+  "sources": [
+    {
+      "url": "mdp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

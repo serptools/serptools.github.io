@@ -1,0 +1,53 @@
+{
+  "slug": "bifx",
+  "extension": "bifx",
+  "name": "Get Backup Project",
+  "category": "get-backup-project",
+  "developer_org": "belight-software",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "Project file created by Get Backup, a Mac OS X backup application; saves a project backup for the Mac user's iPhoto library, Apple Mail email, iTunes library, Documents folder, or Address Book; enables backup options to be saved.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "belight-get-backup",
+        "display_name": "BeLight Get Backup"
+      }
+    ],
+    "windows": [
+      {
+        "software": "belight-get-backup",
+        "display_name": "BeLight Get Backup"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-04-13",
+  "sources": [
+    {
+      "url": "bifx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

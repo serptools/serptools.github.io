@@ -1,0 +1,57 @@
+{
+  "slug": "usa",
+  "extension": "usa",
+  "name": "Unreal Saved Game File",
+  "category": "unreal-saved-game-file",
+  "developer_org": "epic-games",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 24,
+    "source": "fileinfo"
+  },
+  "summary": "Game saved in Unreal or Unreal 2 first-person shooter games; saves the progress of the player and allows the game to be loaded from the point when the game was saved.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "epic-games-unreal-and-unreal-ii-the-awakening",
+        "display_name": "Epic Games Unreal and Unreal II: The Awakening"
+      },
+      {
+        "software": "epic-games-unreal",
+        "display_name": "Epic Games Unreal"
+      }
+    ],
+    "macos": [
+      {
+        "software": "epic-games-unreal",
+        "display_name": "Epic Games Unreal"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2008-11-11",
+  "sources": [
+    {
+      "url": "usa.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

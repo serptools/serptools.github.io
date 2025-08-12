@@ -1,0 +1,346 @@
+{
+  "slug": "pdf",
+  "extension": "pdf",
+  "name": "Portable Document Format File",
+  "category": "portable-document-format-file",
+  "developer_org": "adobe",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 4842,
+    "source": "fileinfo"
+  },
+  "summary": "A PDF file is a widely used document type that maintains the original layout and formatting across different devices and operating systems. It is often used for sharing documents, such as reports, contracts, manuals, or forms, ensuring that the content appears the same for all users. PDF files can include text, images, annotations, and even interactive elements (e.g., buttons and checkboxes), and users typically create them from other file formats, such as Word .DOCX documents, Excel .XLSX spreadsheets, and images.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "adobe-acrobat-dc",
+        "display_name": "Adobe Acrobat DC"
+      },
+      {
+        "software": "adobe-acrobat-reader-dc",
+        "display_name": "Adobe Acrobat Reader DC"
+      },
+      {
+        "software": "microsoft-edge",
+        "display_name": "Microsoft Edge"
+      },
+      {
+        "software": "microsoft-word-365",
+        "display_name": "Microsoft Word 365"
+      },
+      {
+        "software": "nitro-pro",
+        "display_name": "Nitro Pro"
+      },
+      {
+        "software": "foxit-reader",
+        "display_name": "Foxit Reader"
+      },
+      {
+        "software": "imsi-turbopdf",
+        "display_name": "IMSI TurboPDF"
+      },
+      {
+        "software": "mozilla-firefox",
+        "display_name": "Mozilla Firefox"
+      },
+      {
+        "software": "tungsten-power-pdf",
+        "display_name": "Tungsten Power PDF"
+      },
+      {
+        "software": "icecream-pdf-converter",
+        "display_name": "Icecream PDF Converter"
+      },
+      {
+        "software": "apple-preview",
+        "display_name": "Apple Preview"
+      },
+      {
+        "software": "wondershare-pdfelement",
+        "display_name": "Wondershare PDFelement"
+      },
+      {
+        "software": "apple-safari",
+        "display_name": "Apple Safari"
+      },
+      {
+        "software": "kde-okular",
+        "display_name": "KDE Okular"
+      },
+      {
+        "software": "evince",
+        "display_name": "Evince"
+      },
+      {
+        "software": "pdfedit",
+        "display_name": "PDFedit"
+      },
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      },
+      {
+        "software": "google-drive",
+        "display_name": "Google Drive"
+      },
+      {
+        "software": "microsoft-onedrive",
+        "display_name": "Microsoft OneDrive"
+      },
+      {
+        "software": "sedja-pdf-editor",
+        "display_name": "Sedja PDF Editor"
+      },
+      {
+        "software": "adobe-convert-pdf-to-word",
+        "display_name": "Adobe Convert PDF to Word"
+      },
+      {
+        "software": "adobe-convert-pdf-to-excel",
+        "display_name": "Adobe Convert PDF to Excel"
+      },
+      {
+        "software": "adobe-convert-pdf-to-powerpoint",
+        "display_name": "Adobe Convert PDF to PowerPoint"
+      },
+      {
+        "software": "adobe-convert-pdf-to-jpg",
+        "display_name": "Adobe Convert PDF to JPG"
+      },
+      {
+        "software": "apple-books",
+        "display_name": "Apple Books"
+      },
+      {
+        "software": "apple-pages",
+        "display_name": "Apple Pages"
+      },
+      {
+        "software": "adobe-acrobat-reader",
+        "display_name": "Adobe Acrobat Reader"
+      },
+      {
+        "software": "infraware-polaris-office",
+        "display_name": "Infraware Polaris Office"
+      },
+      {
+        "software": "good.iware-goodreader",
+        "display_name": "Good.iWare GoodReader"
+      },
+      {
+        "software": "mobisystems-officesuite-pro",
+        "display_name": "MobiSystems OfficeSuite Pro"
+      },
+      {
+        "software": "microsoft-office",
+        "display_name": "Microsoft Office"
+      },
+      {
+        "software": "google-play-books",
+        "display_name": "Google Play Books"
+      }
+    ],
+    "chromeos": [
+      {
+        "software": "google-chrome",
+        "display_name": "Google Chrome"
+      }
+    ],
+    "android": [
+      {
+        "software": "file-viewer-for-android",
+        "display_name": "File Viewer for Android"
+      },
+      {
+        "software": "kingsoft-wps-office-for-android",
+        "display_name": "Kingsoft WPS Office for Android"
+      },
+      {
+        "software": "adobe-acrobat-reader",
+        "display_name": "Adobe Acrobat Reader"
+      },
+      {
+        "software": "google-play-books",
+        "display_name": "Google Play Books"
+      },
+      {
+        "software": "google-drive",
+        "display_name": "Google Drive"
+      },
+      {
+        "software": "microsoft-office",
+        "display_name": "Microsoft Office"
+      }
+    ],
+    "macos": [
+      {
+        "software": "adobe-acrobat-dc",
+        "display_name": "Adobe Acrobat DC"
+      },
+      {
+        "software": "adobe-acrobat-reader-dc",
+        "display_name": "Adobe Acrobat Reader DC"
+      },
+      {
+        "software": "apple-preview",
+        "display_name": "Apple Preview"
+      },
+      {
+        "software": "microsoft-word-365",
+        "display_name": "Microsoft Word 365"
+      },
+      {
+        "software": "wondershare-pdfelement",
+        "display_name": "Wondershare PDFelement"
+      },
+      {
+        "software": "apple-safari",
+        "display_name": "Apple Safari"
+      },
+      {
+        "software": "mozilla-firefox",
+        "display_name": "Mozilla Firefox"
+      },
+      {
+        "software": "tungsten-power-pdf",
+        "display_name": "Tungsten Power PDF"
+      }
+    ],
+    "linux": [
+      {
+        "software": "adobe-acrobat-dc",
+        "display_name": "Adobe Acrobat DC"
+      },
+      {
+        "software": "adobe-acrobat-reader-dc",
+        "display_name": "Adobe Acrobat Reader DC"
+      },
+      {
+        "software": "kde-okular",
+        "display_name": "KDE Okular"
+      },
+      {
+        "software": "evince",
+        "display_name": "Evince"
+      },
+      {
+        "software": "pdfedit",
+        "display_name": "PDFedit"
+      },
+      {
+        "software": "mozilla-firefox",
+        "display_name": "Mozilla Firefox"
+      }
+    ],
+    "web": [
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      },
+      {
+        "software": "google-drive",
+        "display_name": "Google Drive"
+      },
+      {
+        "software": "microsoft-onedrive",
+        "display_name": "Microsoft OneDrive"
+      },
+      {
+        "software": "sedja-pdf-editor",
+        "display_name": "Sedja PDF Editor"
+      },
+      {
+        "software": "adobe-convert-pdf-to-word",
+        "display_name": "Adobe Convert PDF to Word"
+      },
+      {
+        "software": "adobe-convert-pdf-to-excel",
+        "display_name": "Adobe Convert PDF to Excel"
+      },
+      {
+        "software": "adobe-convert-pdf-to-powerpoint",
+        "display_name": "Adobe Convert PDF to PowerPoint"
+      },
+      {
+        "software": "adobe-convert-pdf-to-jpg",
+        "display_name": "Adobe Convert PDF to JPG"
+      }
+    ],
+    "ios": [
+      {
+        "software": "apple-books",
+        "display_name": "Apple Books"
+      },
+      {
+        "software": "apple-pages",
+        "display_name": "Apple Pages"
+      },
+      {
+        "software": "adobe-acrobat-reader",
+        "display_name": "Adobe Acrobat Reader"
+      },
+      {
+        "software": "infraware-polaris-office",
+        "display_name": "Infraware Polaris Office"
+      },
+      {
+        "software": "good.iware-goodreader",
+        "display_name": "Good.iWare GoodReader"
+      },
+      {
+        "software": "mobisystems-officesuite-pro",
+        "display_name": "MobiSystems OfficeSuite Pro"
+      },
+      {
+        "software": "google-drive",
+        "display_name": "Google Drive"
+      },
+      {
+        "software": "microsoft-office",
+        "display_name": "Microsoft Office"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "PDF file icon",
+      "alt": "PDF file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/pdf-74.png"
+    },
+    {
+      "caption": "PDF file open in Adobe Acrobat Pro DC 2021",
+      "alt": "PDF file open in Adobe Acrobat Pro DC 2021",
+      "source_url": "https://fileinfo.com/img/ss/md/pdf_74.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-02-24",
+  "sources": [
+    {
+      "url": "pdf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

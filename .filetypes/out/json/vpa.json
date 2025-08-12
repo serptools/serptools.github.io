@@ -1,0 +1,51 @@
+{
+  "slug": "vpa",
+  "extension": "vpa",
+  "name": "VPchat Chat Gestures File",
+  "category": "vpchat-chat-gestures-file",
+  "developer_org": "halsoft",
+  "popularity": {
+    "rating": 3.2,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "Gesture file used by VPchat (Virtual Places Chat) and the older Excite Super Chat Alpha program; contains animations with sound that can be displayed in a user's chat bubble; allows for more expressive emotions than static emoticons .",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "halsoft-vpchat",
+        "display_name": "Halsoft VPchat"
+      },
+      {
+        "software": "excite-chat-alpha",
+        "display_name": "Excite Chat Alpha"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2007-12-27",
+  "sources": [
+    {
+      "url": "vpa.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "slug": "make",
+  "extension": "make",
+  "name": "Xcode Makefile Script",
+  "category": "1.-xcode-makefile-script",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 3.1,
+    "votes": 10,
+    "source": "fileinfo"
+  },
+  "summary": "Script written as a Makefile, a developer file type that is used for compiling and linking programs from source code files; stores instructions using the GNU make standard.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "apple-xcode",
+        "display_name": "Apple Xcode"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "drupal",
+        "display_name": "Drupal"
+      }
+    ],
+    "windows": [
+      {
+        "software": "apple-xcode",
+        "display_name": "Apple Xcode"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "drupal",
+        "display_name": "Drupal"
+      }
+    ],
+    "linux": [
+      {
+        "software": "drupal",
+        "display_name": "Drupal"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-04-16",
+  "sources": [
+    {
+      "url": "make.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

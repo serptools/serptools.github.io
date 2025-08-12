@@ -1,0 +1,56 @@
+{
+  "slug": "dvdr",
+  "extension": "dvdr",
+  "name": "DVD/CD-R Master Image",
+  "category": "dvd-cd-r-master-image",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Disc image file used by DiskImageMounter, a utility included with Mac OS X; stores the contents of a DVD or rewritable CD; may also use the .CDR file extension; enables virtual discs to be mounted without the physical disc.",
+  "standards": [],
+  "mime_types": [
+    "dvd/cd-r",
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "apple-diskimagemounter",
+        "display_name": "Apple DiskImageMounter"
+      }
+    ],
+    "windows": [
+      {
+        "software": "apple-diskimagemounter",
+        "display_name": "Apple DiskImageMounter"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-09-01",
+  "sources": [
+    {
+      "url": "dvdr.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

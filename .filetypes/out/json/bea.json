@@ -1,0 +1,53 @@
+{
+  "slug": "bea",
+  "extension": "bea",
+  "name": "Bezel Engine Archive",
+  "category": "bezel-engine-archive",
+  "developer_org": "nintendo",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "A BEA file is a game data archive used by a NintendoWare Bezel Engine video game. It contains game assets that have been compressed so they take up less space within a finalized game file. Nintendo Switch games such as Super Mario Party, Tetris 99, and WarioWare: Get It Together! include BEA files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "bezel-engine-archive-editor",
+        "display_name": "Bezel Engine Archive Editor"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "BEA file open in Bezel Engine Archive Editor",
+      "alt": "BEA file open in Bezel Engine Archive Editor",
+      "source_url": "https://fileinfo.com/img/ss/md/bea_12311.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-09-14",
+  "sources": [
+    {
+      "url": "bea.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

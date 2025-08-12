@@ -1,0 +1,47 @@
+{
+  "slug": "maxc",
+  "extension": "maxc",
+  "name": "3ds Max Container File",
+  "category": "3ds-max-container-file",
+  "developer_org": "autodesk",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "File created by 3ds Max, a software package used for 3D modeling and animation; stores a collection of 3D objects, including their properties; allows modelers to organize scene objects into groups; also allows object groups to be shared.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "autodesk-3ds-max-2023",
+        "display_name": "Autodesk 3ds Max 2023"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-03-10",
+  "sources": [
+    {
+      "url": "maxc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

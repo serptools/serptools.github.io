@@ -1,0 +1,51 @@
+{
+  "slug": "irf",
+  "extension": "irf",
+  "name": "CCTV DVR H.264 Video File",
+  "category": "cctv-dvr-h.264-video-file",
+  "developer_org": "iview-technology",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 29,
+    "source": "fileinfo"
+  },
+  "summary": "Video file format recorded by some CCTV (closed-circuit television) DVRs , such as iVIEW Technology DVRs; saves H.264 video in a proprietary container format, but can be played back with the iFile Playback program and converted to .AVI files with the Irftool program.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "iview-technology-irftool",
+        "display_name": "iVIEW Technology Irftool"
+      },
+      {
+        "software": "iview-technology-ifile-playback",
+        "display_name": "iVIEW Technology iFile Playback"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-01-04",
+  "sources": [
+    {
+      "url": "irf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

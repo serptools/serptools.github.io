@@ -1,0 +1,86 @@
+{
+  "slug": "qbl",
+  "extension": "qbl",
+  "name": "QuickBooks License File",
+  "category": "quickbooks-license-file",
+  "developer_org": "intuit",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 17,
+    "source": "fileinfo"
+  },
+  "summary": "A QBL file is a text document created by old versions of Intuit QuickBooks. It contains license and registration information saved after a user registers their copy of QuickBooks. QBL files are found in the Program Files\\​Intuit\\​QuickBooks\\​INET directory.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "github-atom",
+        "display_name": "Github Atom",
+        "status": "discontinued"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "github-atom",
+        "display_name": "Github Atom",
+        "status": "discontinued"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "github-atom",
+        "display_name": "Github Atom",
+        "status": "discontinued"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-07-16",
+  "sources": [
+    {
+      "url": "qbl.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

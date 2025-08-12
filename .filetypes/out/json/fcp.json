@@ -1,0 +1,61 @@
+{
+  "slug": "fcp",
+  "extension": "fcp",
+  "name": "Final Cut Project",
+  "category": "1.-final-cut-project",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 21,
+    "source": "fileinfo"
+  },
+  "summary": "Video editing project created with Apple Final Cut Pro or Final Cut Express; includes video and audio clips organized into tracks using a movie timeline; may include visual effects, transitions, text overlays, and DVD chapter markers.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "apple-final-cut-pro",
+        "display_name": "Apple Final Cut Pro"
+      }
+    ],
+    "windows": [
+      {
+        "software": "apple-final-cut-pro",
+        "display_name": "Apple Final Cut Pro"
+      },
+      {
+        "software": "sega-phantasy-star-online-2-character-creator",
+        "display_name": "SEGA Phantasy Star Online 2 Character Creator"
+      },
+      {
+        "software": "high-logic-fontcreator",
+        "display_name": "High-Logic FontCreator"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-11-23",
+  "sources": [
+    {
+      "url": "fcp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

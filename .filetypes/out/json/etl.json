@@ -1,0 +1,55 @@
+{
+  "slug": "etl",
+  "extension": "etl",
+  "name": "Microsoft Event Trace Log File",
+  "category": "microsoft-event-trace-log-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 323,
+    "source": "fileinfo"
+  },
+  "summary": "An ETL file is a log file created by Microsoft Tracelog, a program that creates logs using the events from the kernel in Microsoft operating systems. It contains trace messages that have been generated during trace sessions, such as disk accesses or page faults. ETL files are used to log high-frequency events while tracking the performance of an operating system.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-event-viewer",
+        "display_name": "Microsoft Event Viewer"
+      },
+      {
+        "software": "microsoft-tracelog",
+        "display_name": "Microsoft Tracelog"
+      },
+      {
+        "software": "microsoft-tracerpt",
+        "display_name": "Microsoft Tracerpt"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-12-07",
+  "sources": [
+    {
+      "url": "etl.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "sou",
+  "extension": "sou",
+  "name": "SBStudio II Sound File",
+  "category": "sbstudio-ii-sound-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Audio format used by SBStudio; package file that contains audio data in block format; similar to a .PAC file, but only contains audio data.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "sbstudio-ii",
+        "display_name": "SBStudio II"
+      },
+      {
+        "software": "fmj-software-awave-studio",
+        "display_name": "FMJ-Software Awave Studio"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2006-12-04",
+  "sources": [
+    {
+      "url": "sou.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

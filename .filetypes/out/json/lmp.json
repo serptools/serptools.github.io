@@ -1,0 +1,111 @@
+{
+  "slug": "lmp",
+  "extension": "lmp",
+  "name": "Quake Engine Lump File",
+  "category": "quake-engine-lump-file",
+  "developer_org": "id-software",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 14,
+    "source": "fileinfo"
+  },
+  "summary": "An LMP file is a game data file used by a video game developed with the Quake engine. It may contain graphics, music, sounds, sprites, demos, textures, or level maps. LMP files are often stored alongside other graphics files, such as .TGA , .PCX , or .XCF images, in a game's data folders.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "adquedit",
+        "display_name": "AdQuedit"
+      },
+      {
+        "software": "xdre",
+        "display_name": "XDRE"
+      },
+      {
+        "software": "id-software-quake",
+        "display_name": "id Software Quake"
+      },
+      {
+        "software": "id-software-quake-2",
+        "display_name": "id Software Quake 2"
+      },
+      {
+        "software": "id-software-quake-3",
+        "display_name": "id Software Quake 3"
+      },
+      {
+        "software": "id-software-doom",
+        "display_name": "id Software Doom"
+      },
+      {
+        "software": "id-software-doom-2",
+        "display_name": "id Software Doom 2"
+      },
+      {
+        "software": "nazi-zombies-portable",
+        "display_name": "Nazi Zombies Portable"
+      },
+      {
+        "software": "sonic-robo-blast-2",
+        "display_name": "Sonic Robo Blast 2"
+      }
+    ],
+    "macos": [
+      {
+        "software": "id-software-quake",
+        "display_name": "id Software Quake"
+      },
+      {
+        "software": "id-software-quake-2",
+        "display_name": "id Software Quake 2"
+      },
+      {
+        "software": "id-software-quake-3",
+        "display_name": "id Software Quake 3"
+      },
+      {
+        "software": "nazi-zombies-portable",
+        "display_name": "Nazi Zombies Portable"
+      },
+      {
+        "software": "sonic-robo-blast-2",
+        "display_name": "Sonic Robo Blast 2"
+      }
+    ],
+    "linux": [
+      {
+        "software": "nazi-zombies-portable",
+        "display_name": "Nazi Zombies Portable"
+      },
+      {
+        "software": "sonic-robo-blast-2",
+        "display_name": "Sonic Robo Blast 2"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-12-05",
+  "sources": [
+    {
+      "url": "lmp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

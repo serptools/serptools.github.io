@@ -1,0 +1,59 @@
+{
+  "slug": "sample",
+  "extension": "sample",
+  "name": "Godot Engine Wav Audio File",
+  "category": "godot-engine-wav-audio-file",
+  "developer_org": "godot",
+  "popularity": {
+    "rating": 2.4,
+    "votes": 11,
+    "source": "fileinfo"
+  },
+  "summary": "A SAMPLE file is an audio file created by Godot Engine, a free and open source game engine used to create 2D and 3D games. It stores audio in a format similar to the Waveform audio file format (WAV) but includes a custom header. SAMPLE files are created when a user imports a .WAV file to be used in a game for sound effects, background music, or narration.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "godot-engine",
+        "display_name": "Godot Engine"
+      }
+    ],
+    "macos": [
+      {
+        "software": "godot-engine",
+        "display_name": "Godot Engine"
+      }
+    ],
+    "linux": [
+      {
+        "software": "godot-engine",
+        "display_name": "Godot Engine"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-06-04",
+  "sources": [
+    {
+      "url": "sample.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

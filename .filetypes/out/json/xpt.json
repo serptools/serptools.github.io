@@ -1,0 +1,77 @@
+{
+  "slug": "xpt",
+  "extension": "xpt",
+  "name": "Mozilla Firefox Component",
+  "category": "1.-mozilla-firefox-component",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 25,
+    "source": "fileinfo"
+  },
+  "summary": "An XPT file is a component used by Mozilla Firefox, a cross-platform web browser. It contains a plugin (such as flashplayer.xpt) that adds features and functionality to the web browser. XPT files are installed in the web browser's components folder.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "mozilla-firefox",
+        "display_name": "Mozilla Firefox"
+      },
+      {
+        "software": "sas-analytics-sofware",
+        "display_name": "SAS Analytics sofware"
+      },
+      {
+        "software": "ibm-spss",
+        "display_name": "IBM SPSS"
+      }
+    ],
+    "macos": [
+      {
+        "software": "mozilla-firefox",
+        "display_name": "Mozilla Firefox"
+      },
+      {
+        "software": "ibm-spss",
+        "display_name": "IBM SPSS"
+      }
+    ],
+    "linux": [
+      {
+        "software": "mozilla-firefox",
+        "display_name": "Mozilla Firefox"
+      },
+      {
+        "software": "ibm-spss",
+        "display_name": "IBM SPSS"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2016-12-07",
+  "sources": [
+    {
+      "url": "xpt.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

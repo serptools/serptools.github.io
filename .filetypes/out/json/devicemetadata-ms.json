@@ -1,0 +1,47 @@
+{
+  "slug": "devicemetadata-ms",
+  "extension": "devicemetadata-ms",
+  "name": "Device Metadata Package",
+  "category": "device-metadata-package",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "A DEVICEMETADATA-MS file is a package used by the Windows operating system (OS). It contains .XML files that store metadata about a physical device connected to Windows, such as a printer, mouse, flash drive, or keyboard. DEVICEMETADATA-MS files may also include an .ICO file, which is the icon of the device.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-windows",
+        "display_name": "Microsoft Windows"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-02-22",
+  "sources": [
+    {
+      "url": "devicemetadata-ms.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

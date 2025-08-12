@@ -1,0 +1,47 @@
+{
+  "slug": "koob",
+  "extension": "koob",
+  "name": "Koob E-Book File",
+  "category": "koob-e-book-file",
+  "developer_org": "vijay-sridhara",
+  "popularity": {
+    "rating": 2.3,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "E-book file created by Koober, an application used to create and read e-books in the Koob format; contains book chapters, page navigation data, book styles, publication data, and other e-book information; can be read with KoobReader, a free e-book reading application included with Koober.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "koober",
+        "display_name": "Koober"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-10-31",
+  "sources": [
+    {
+      "url": "koob.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

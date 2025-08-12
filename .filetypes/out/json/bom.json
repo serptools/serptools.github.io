@@ -1,0 +1,71 @@
+{
+  "slug": "bom",
+  "extension": "bom",
+  "name": "Mac OS X Bill of Materials File",
+  "category": "mac-os-x-bill-of-materials-file",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 2.8,
+    "votes": 10,
+    "source": "fileinfo"
+  },
+  "summary": "\"Bill of Materials\" (BOM) file created by the Mac OS X Installer; used to determine which files to install , update, or remove during a software update; contains files that have been installed and information about each file; may include Unix permissions, owner and group data, file size, last modified date, and a checksum for each file.",
+  "standards": [],
+  "mime_types": [
+    "library/receipts"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "apple-installer",
+        "display_name": "Apple Installer"
+      },
+      {
+        "software": "charlessoft-pacifist",
+        "display_name": "CharlesSoft Pacifist"
+      },
+      {
+        "software": "echo-one-file-juicer",
+        "display_name": "Echo One File Juicer"
+      }
+    ],
+    "windows": [
+      {
+        "software": "apple-installer",
+        "display_name": "Apple Installer"
+      },
+      {
+        "software": "charlessoft-pacifist",
+        "display_name": "CharlesSoft Pacifist"
+      },
+      {
+        "software": "echo-one-file-juicer",
+        "display_name": "Echo One File Juicer"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-01-23",
+  "sources": [
+    {
+      "url": "bom.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

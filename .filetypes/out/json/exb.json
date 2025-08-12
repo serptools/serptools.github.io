@@ -1,0 +1,69 @@
+{
+  "slug": "exb",
+  "extension": "exb",
+  "name": "CAXA Draft",
+  "category": "1.-caxa-draft",
+  "developer_org": "caxa",
+  "popularity": {
+    "rating": 2.9,
+    "votes": 14,
+    "source": "fileinfo"
+  },
+  "summary": "Document created by CAXA, a 3D CAD modeling system; contains 2D drawing views of existing 3D parts/assemblies.",
+  "standards": [],
+  "mime_types": [
+    "parts/assemblies"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "caxa-cad",
+        "display_name": "CAXA CAD"
+      },
+      {
+        "software": "ironcad",
+        "display_name": "IronCAD"
+      },
+      {
+        "software": "evernote",
+        "display_name": "Evernote"
+      }
+    ],
+    "ios": [
+      {
+        "software": "caxa-cad",
+        "display_name": "CAXA CAD"
+      }
+    ],
+    "macos": [
+      {
+        "software": "evernote",
+        "display_name": "Evernote"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-05-10",
+  "sources": [
+    {
+      "url": "exb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

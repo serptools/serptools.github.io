@@ -1,0 +1,47 @@
+{
+  "slug": "wt4",
+  "extension": "wt4",
+  "name": "Win-Test 4 Log File",
+  "category": "win-test-4-log-file",
+  "developer_org": "win-test",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "A WT4 file is a log file created by Win-Test, an international ham radio contest application. It contains contest configuration settings. It may also contain a log of all radio operators a user contacted during a contest. Contest coordinators can use WT4 files to verify that a contest participant's setup and submitted results were correct.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "win-test",
+        "display_name": "Win-Test"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-10-05",
+  "sources": [
+    {
+      "url": "wt4.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "slug": "gcw",
+  "extension": "gcw",
+  "name": "Microsoft Mathematics Worksheet",
+  "category": "microsoft-mathematics-worksheet",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "A GCW file is a math worksheet created with Microsoft Mathematics, an educational calculator program. It may include equations, graphs, and handwritten calculus expressions created using the Ink tool.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-mathematics",
+        "display_name": "Microsoft Mathematics",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-06-08",
+  "sources": [
+    {
+      "url": "gcw.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

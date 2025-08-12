@@ -1,0 +1,73 @@
+{
+  "slug": "pns",
+  "extension": "pns",
+  "name": "PNG Stereo Image",
+  "category": "1.-png-stereo-image",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Stereoscopic image used for creating 3D effects from 2D images; contains two side-by-side .PNG images that produce a three-dimensional image when combined together in a stereoscopic image rendering software.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "adobe-photoshop-elements",
+        "display_name": "Adobe Photoshop Elements"
+      },
+      {
+        "software": "zyk",
+        "display_name": "zyk"
+      },
+      {
+        "software": "pelco-cctv-software",
+        "display_name": "Pelco CCTV software"
+      },
+      {
+        "software": "popspring-popnoggin",
+        "display_name": "Popspring Popnoggin"
+      }
+    ],
+    "macos": [
+      {
+        "software": "adobe-photoshop-elements",
+        "display_name": "Adobe Photoshop Elements"
+      }
+    ],
+    "linux": [
+      {
+        "software": "zyk",
+        "display_name": "zyk"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-03-29",
+  "sources": [
+    {
+      "url": "pns.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "slug": "mul",
+  "extension": "mul",
+  "name": "Ultima Online Multi File",
+  "category": "1.-ultima-online-multi-file",
+  "developer_org": "origin-systems",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "Game file used by Ultima Online, one of the earlier massively multiplayer online (MMO) games; may save various kinds of data, including graphics, animation data, maps, and game items; also used for applying game patch updates.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "multool",
+        "display_name": "MULTool"
+      },
+      {
+        "software": "multi-operations-utility",
+        "display_name": "Multi Operations Utility"
+      },
+      {
+        "software": "mulpatcher",
+        "display_name": "MulPatcher"
+      },
+      {
+        "software": "gibbed-s-deus-ex-hr-tools",
+        "display_name": "Gibbed's Deus Ex HR tools"
+      },
+      {
+        "software": "eidos-interactive-deus-ex-human-revolution",
+        "display_name": "Eidos Interactive Deus Ex: Human Revolution"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-07-20",
+  "sources": [
+    {
+      "url": "mul.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

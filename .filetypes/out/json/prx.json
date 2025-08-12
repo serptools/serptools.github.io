@@ -1,0 +1,64 @@
+{
+  "slug": "prx",
+  "extension": "prx",
+  "name": "PSP Plugin File",
+  "category": "1.-psp-plugin-file",
+  "developer_org": "sony",
+  "popularity": {
+    "rating": 4.1,
+    "votes": 39,
+    "source": "fileinfo"
+  },
+  "summary": "Data file used for updating the firmware of the PlayStation Portable (PSP); can upgrade custom firmware and may be included with firmware dumps; often used to add extra features such enabling screen captures and adding Flash support to the Web browser.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "acehack-prx-installer",
+        "display_name": "AceHack PRX Installer"
+      },
+      {
+        "software": "weejewel-s-prx-manager",
+        "display_name": "WeeJeWel's PRX Manager"
+      },
+      {
+        "software": "oracle-primavera",
+        "display_name": "Oracle Primavera"
+      },
+      {
+        "software": "microsoft-windows-media-player",
+        "display_name": "Microsoft Windows Media Player"
+      },
+      {
+        "software": "microsoft-windows-live-movie-maker",
+        "display_name": "Microsoft Windows Live Movie Maker",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2007-08-04",
+  "sources": [
+    {
+      "url": "prx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

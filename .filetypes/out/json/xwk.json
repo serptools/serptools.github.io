@@ -1,0 +1,47 @@
+{
+  "slug": "xwk",
+  "extension": "xwk",
+  "name": "Crosstalk Communicator Keyboard Mapping File",
+  "category": "crosstalk-communicator-keyboard-mapping-file",
+  "developer_org": "intel",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Configuration file used by Crosstalk Communicator, a fax modem software program developed by Intel; maps keys on the keyboard to different commands; typically included with Intel fax modem hardware.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "intel-crosstalk-communicator",
+        "display_name": "Intel Crosstalk Communicator"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-05-19",
+  "sources": [
+    {
+      "url": "xwk.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

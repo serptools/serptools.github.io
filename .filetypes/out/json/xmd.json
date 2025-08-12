@@ -1,0 +1,80 @@
+{
+  "slug": "xmd",
+  "extension": "xmd",
+  "name": "Bitdefender Plugin File",
+  "category": "1.-bitdefender-plugin-file",
+  "developer_org": "bitdefender",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 13,
+    "source": "fileinfo"
+  },
+  "summary": "File used by Bitdefender antivirus and Internet protection software; saves file signature information that helps the software recognize threats for common file exploitations, such as .ZIP and .RAR .",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "bitdefender-total-security",
+        "display_name": "Bitdefender Total Security"
+      },
+      {
+        "software": "bitdefender-antivirus-plus",
+        "display_name": "Bitdefender Antivirus Plus"
+      },
+      {
+        "software": "engelmann-media-cdrwin",
+        "display_name": "Engelmann Media CDRWIN",
+        "status": "discontinued"
+      },
+      {
+        "software": "h+h-software-virtual-cd",
+        "display_name": "H+H Software Virtual CD"
+      },
+      {
+        "software": "ezb-systems-ultraiso",
+        "display_name": "EZB Systems UltraISO"
+      },
+      {
+        "software": "disc4you-gamejack",
+        "display_name": "Disc4You GameJack"
+      }
+    ],
+    "macos": [
+      {
+        "software": "bitdefender-antivirus-for-mac",
+        "display_name": "Bitdefender Antivirus for Mac"
+      }
+    ],
+    "web": [
+      {
+        "software": "examsoft",
+        "display_name": "ExamSoft"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-05-29",
+  "sources": [
+    {
+      "url": "xmd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

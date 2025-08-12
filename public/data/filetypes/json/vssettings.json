@@ -1,0 +1,22 @@
+{
+  "slug": "vssettings",
+  "extension": "vssettings",
+  "name": "Visual Studio Settings File",
+  "category": "visual-studio-settings-file",
+  "summary": "",
+  "developer_org": "microsoft",
+  "developer_name": "Microsoft",
+  "more_information": {
+    "description": [
+      "VSSETTINGS files are used for sharing workspace settings. They can be exported and then imported into a different installation of Visual Studio. They are saved in an XML format.",
+      "To import or export VSSETTINGS files in Visual Studio 2010, select Tools → Import and Export Settings... and follow the instructions in the wizard that is displayed."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "vssettings.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

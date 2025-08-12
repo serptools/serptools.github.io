@@ -1,0 +1,55 @@
+{
+  "slug": "mrt",
+  "extension": "mrt",
+  "name": "Stimulsoft Report File",
+  "category": "stimulsoft-report-file",
+  "developer_org": "stimulsoft",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 18,
+    "source": "fileinfo"
+  },
+  "summary": "Report file created by Stimulsoft Reports, a Windows report generator; contains the page layout information, data fields, and visual elements for the report; can be saved in many different formats, including Adobe .PDF , Microsoft Office ( .DOCX , .XLSX , .PPTX ), .HTML , and several raster and vector image formats.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "stimulsoft-reports",
+        "display_name": "Stimulsoft Reports"
+      },
+      {
+        "software": "microsoft-visual-studio-with-stimulsoft-reports-plugin",
+        "display_name": "Microsoft Visual Studio with Stimulsoft Reports plugin"
+      },
+      {
+        "software": "itelio-docusnap",
+        "display_name": "Itelio Docusnap"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-07-26",
+  "sources": [
+    {
+      "url": "mrt.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

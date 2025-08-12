@@ -1,0 +1,71 @@
+{
+  "slug": "anydesk",
+  "extension": "anydesk",
+  "name": "AnyDesk Remote Session Recording",
+  "category": "anydesk-remote-session-recording",
+  "developer_org": "anydesk-software-gmbh",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "An ANYDESK file is a recording of a remote desktop session conducted using AnyDesk, a remote desktop application. It shows the contents of the user's screen during their AnyDesk session. ANYDESK files can be played only in AnyDesk Session Player.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "anydesk",
+        "display_name": "AnyDesk"
+      }
+    ],
+    "macos": [
+      {
+        "software": "anydesk",
+        "display_name": "AnyDesk"
+      }
+    ],
+    "linux": [
+      {
+        "software": "anydesk",
+        "display_name": "AnyDesk"
+      }
+    ],
+    "ios": [
+      {
+        "software": "anydesk",
+        "display_name": "AnyDesk"
+      }
+    ],
+    "android": [
+      {
+        "software": "anydesk",
+        "display_name": "AnyDesk"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-09-08",
+  "sources": [
+    {
+      "url": "anydesk.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

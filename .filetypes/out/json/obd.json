@@ -1,0 +1,51 @@
+{
+  "slug": "obd",
+  "extension": "obd",
+  "name": "Office Binder Document",
+  "category": "office-binder-document",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 88,
+    "source": "fileinfo"
+  },
+  "summary": "File created by Office Binder, a program used to link common Microsoft document file types together; stores a \"binder,\" which includes a collection of Office document objects; used for linking document content together from Microsoft Word, Excel, PowerPoint, Project, and Visio files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-office-365",
+        "display_name": "Microsoft Office 365"
+      },
+      {
+        "software": "microsoft-office-97-unbind-utilities",
+        "display_name": "Microsoft Office 97 Unbind Utilities"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-02-21",
+  "sources": [
+    {
+      "url": "obd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

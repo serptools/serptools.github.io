@@ -1,0 +1,75 @@
+{
+  "slug": "md5",
+  "extension": "md5",
+  "name": "MD5 Checksum File",
+  "category": "md5-checksum-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 164,
+    "source": "fileinfo"
+  },
+  "summary": "An MD5 file is a checksum file used to verify the integrity of a disc, disk image, or a downloaded file. It stores a checksum, which is a value created from an algorithm based on the number of bits in the file. MD5 files are sometimes generated when a disk image is created.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "smart-projects-isobuster",
+        "display_name": "Smart Projects IsoBuster"
+      },
+      {
+        "software": "storagecraft-shadowprotect",
+        "display_name": "StorageCraft ShadowProtect"
+      },
+      {
+        "software": "flashplayerpro.com-md5-checksum-verifier",
+        "display_name": "FlashPlayerPro.com MD5 Checksum Verifier"
+      },
+      {
+        "software": "md5checker",
+        "display_name": "Md5Checker"
+      },
+      {
+        "software": "md5summer",
+        "display_name": "MD5summer"
+      },
+      {
+        "software": "checksum+",
+        "display_name": "checkSum+"
+      }
+    ],
+    "macos": [
+      {
+        "software": "checksum+",
+        "display_name": "checkSum+"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-07-13",
+  "sources": [
+    {
+      "url": "md5.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

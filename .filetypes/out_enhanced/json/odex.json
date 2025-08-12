@@ -1,0 +1,23 @@
+{
+  "slug": "odex",
+  "extension": "odex",
+  "name": "Optimized Dalvik Executable",
+  "category": "optimized-dalvik-executable",
+  "summary": "",
+  "developer_org": "n-a",
+  "developer_name": "N/A",
+  "more_information": {
+    "description": [
+      "ODEX files are optimized versions of DEX files, which contain the executable code for an Android app. While DEX files generically run on all Android devices, ODEX files are optimized for the specific device on which they reside. They not only help load speed but also decrease the amount of space required for the app.",
+      "Android creates ODEX files for apps before they are run. These files contain the same filename prefix as their corresponding APK file (e.g., MyApp.apk and MyApp.odex ). The data in ODEX files replaces data used in the equivalent DEX file ( classes.dex ) stored inside the APK file.",
+      "NOTE: Dalvik is the name given to the virtual machine that runs the compiled code for Android apps. Therefore, an optimized DEX file, or ODEX file, is optimized for execution by the Dalvik virtual machine."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "odex.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "slug": "am4",
+  "extension": "am4",
+  "name": "AutoPlay Media Studio 4 Project File",
+  "category": "autoplay-media-studio-4-project-file",
+  "developer_org": "indigo-rose",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "An AM4 file is a project created by Indigo Rose AutoPlay Media Studio version 4, a visual tool used to build interactive applications for Windows. It contains all the components of a project, including user interface elements, multimedia resources (such as images, audio, and video), and scripting code that defines the application's behavior. Users can edit and manage their project within AutoPlay Media Studio and then export it as a standalone executable or autorun CD/DVD menu.",
+  "standards": [],
+  "mime_types": [
+    "cd/dvd"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "indigo-rose-autoplay-media-studio",
+        "display_name": "Indigo Rose AutoPlay Media Studio"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2025-07-17",
+  "sources": [
+    {
+      "url": "am4.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

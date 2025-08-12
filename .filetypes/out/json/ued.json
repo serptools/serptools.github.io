@@ -1,0 +1,52 @@
+{
+  "slug": "ued",
+  "extension": "ued",
+  "name": "Universal Environmental Data File",
+  "category": "universal-environmental-data-file",
+  "developer_org": "washington-state-university",
+  "popularity": {
+    "rating": 1.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "A UED file is a Universal Environmental Data file used by the ClimGen and CropSyst programs. It contains a historical weather data set. UED files can be created using a non-UED data set, a corresponding .TDF file, and the UED import wizard.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      },
+      {
+        "software": "cropsyst",
+        "display_name": "CropSyst"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-11-12",
+  "sources": [
+    {
+      "url": "ued.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "slug": "drc",
+  "extension": "drc",
+  "name": "DRM Rights Object",
+  "category": "1.-drm-rights-object",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "Contains copy-protection information stored in an OMA (Open Mobile Alliance) rights object, formatted in WBXML (WAP Binary XML); includes the key used to encrypt the content of a .DCF file; enables Digital Rights Management ( DRM ) encrypted files to be opened and played back.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "sony-ericsson-drm-packager",
+        "display_name": "Sony Ericsson DRM Packager",
+        "status": "discontinued"
+      },
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      }
+    ],
+    "macos": [
+      {
+        "software": "sony-ericsson-drm-packager",
+        "display_name": "Sony Ericsson DRM Packager",
+        "status": "discontinued"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      }
+    ],
+    "linux": [
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-08-18",
+  "sources": [
+    {
+      "url": "drc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

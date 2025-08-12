@@ -1,0 +1,53 @@
+{
+  "slug": "3da",
+  "extension": "3da",
+  "name": "3D Assembly File",
+  "category": "3d-assembly-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 17,
+    "source": "fileinfo"
+  },
+  "summary": "Three-dimensional model created by various 3D modeling programs; stores a model in a plain text format, where each line of text specifies the vertices that determine the shape of the object.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "aerohydro-surfaceworks",
+        "display_name": "AeroHydro SurfaceWorks"
+      },
+      {
+        "software": "zanoza-zmodeler",
+        "display_name": "Zanoza ZModeler"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-06-17",
+  "sources": [
+    {
+      "url": "3da.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

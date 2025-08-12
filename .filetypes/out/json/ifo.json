@@ -1,0 +1,138 @@
+{
+  "slug": "ifo",
+  "extension": "ifo",
+  "name": "DVD-Video Disc Information File",
+  "category": "dvd-video-disc-information-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 325,
+    "source": "fileinfo"
+  },
+  "summary": "An IFO file is a DVD-Video disc information file used by DVD players. It contains information referenced by the DVD player which allows users to navigate and play the contents of the DVD. IFO files work in conjunction with .VOB and .VRO files, which contain the actual audio and video data.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-windows-media-player",
+        "display_name": "Microsoft Windows Media Player"
+      },
+      {
+        "software": "cyberlink-powerdvd-21",
+        "display_name": "CyberLink PowerDVD 21"
+      },
+      {
+        "software": "roxio-creator-nxt-pro-9",
+        "display_name": "Roxio Creator NXT Pro 9"
+      },
+      {
+        "software": "corel-windvd-pro-12",
+        "display_name": "Corel WinDVD Pro 12"
+      },
+      {
+        "software": "nero-2022",
+        "display_name": "Nero 2022"
+      },
+      {
+        "software": "gretech-gom-player",
+        "display_name": "GRETECH GOM Player"
+      },
+      {
+        "software": "ifoedit",
+        "display_name": "IfoEdit",
+        "status": "discontinued"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "kodi",
+        "display_name": "Kodi"
+      },
+      {
+        "software": "handbrake",
+        "display_name": "HandBrake"
+      },
+      {
+        "software": "apple-dvd-player",
+        "display_name": "Apple DVD Player"
+      },
+      {
+        "software": "roxio-toast-20",
+        "display_name": "Roxio Toast 20"
+      },
+      {
+        "software": "roxio-popcorn",
+        "display_name": "Roxio Popcorn"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-dvd-player",
+        "display_name": "Apple DVD Player"
+      },
+      {
+        "software": "roxio-toast-20",
+        "display_name": "Roxio Toast 20"
+      },
+      {
+        "software": "roxio-popcorn",
+        "display_name": "Roxio Popcorn"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "kodi",
+        "display_name": "Kodi"
+      },
+      {
+        "software": "handbrake",
+        "display_name": "HandBrake"
+      }
+    ],
+    "linux": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "kodi",
+        "display_name": "Kodi"
+      },
+      {
+        "software": "handbrake",
+        "display_name": "HandBrake"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-07-17",
+  "sources": [
+    {
+      "url": "ifo.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

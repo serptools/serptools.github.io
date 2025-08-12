@@ -1,0 +1,29 @@
+{
+  "slug": "ilg",
+  "extension": "ilg",
+  "name": "InstallScript Log File",
+  "category": "installscript-log-file",
+  "summary": "",
+  "developer_org": "flexera",
+  "developer_name": "Flexera",
+  "more_information": {
+    "description": [
+      "InstallScript and InstallScript MSI installations are created using Flexera InstallShield to install software. InstallShield is a program that specializes in the design of customized software installers. When the InstallScript or InstallScript MSI installation is run on a user's computer, an ILG file is automatically created to record and store the procedure.",
+      "Procedures recorded in an ILG file are typically one of the following:",
+      "NOTE: ILG files can only be created when logging is enabled."
+    ]
+  },
+  "common_filenames": [
+    {
+      "filename": "Setup.ilg",
+      "description": "Setup.ilg - The common name given to ILG log files."
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "ilg.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

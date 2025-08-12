@@ -1,0 +1,71 @@
+{
+  "slug": "gexf",
+  "extension": "gexf",
+  "name": "Graph Exchange XML Format File",
+  "category": "graph-exchange-xml-format-file",
+  "developer_org": "gexf-working-group",
+  "popularity": {
+    "rating": 2.7,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "Graph file written in the GEXF (Graph Exchange XML Format) language, a language used for describing network structures; specifies the nodes and edges of the graph as well as user-defined attributes such as node weights or edge directions; can be used as an interchange format between graphing applications.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "gephi",
+        "display_name": "Gephi"
+      },
+      {
+        "software": "gexf4j",
+        "display_name": "gexf4j"
+      }
+    ],
+    "macos": [
+      {
+        "software": "gephi",
+        "display_name": "Gephi"
+      },
+      {
+        "software": "gexf4j",
+        "display_name": "gexf4j"
+      }
+    ],
+    "linux": [
+      {
+        "software": "gephi",
+        "display_name": "Gephi"
+      },
+      {
+        "software": "gexf4j",
+        "display_name": "gexf4j"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-01-24",
+  "sources": [
+    {
+      "url": "gexf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

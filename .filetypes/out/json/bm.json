@@ -1,0 +1,55 @@
+{
+  "slug": "bm",
+  "extension": "bm",
+  "name": "Dawn of Magic Archive",
+  "category": "dawn-of-magic-archive",
+  "developer_org": "skyfallen-entertainment",
+  "popularity": {
+    "rating": 2.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "A BM file is a game data archive used by SkyFallen Entertainment Dawn of Magic and related games. It contains various game assets, including textures, 3D models, and game logic. Dawn of Magic modders sometimes extract, modify, and repackage the files BM files contain, to modify gameplay.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "bmtool",
+        "display_name": "BMTool"
+      },
+      {
+        "software": "skyfallen-entertainment-dawn-of-magic",
+        "display_name": "SkyFallen Entertainment Dawn of Magic"
+      },
+      {
+        "software": "skyfallen-entertainment-dawn-of-magic-2",
+        "display_name": "SkyFallen Entertainment Dawn of Magic 2"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-05-08",
+  "sources": [
+    {
+      "url": "bm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

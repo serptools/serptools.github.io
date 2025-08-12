@@ -1,0 +1,55 @@
+{
+  "slug": "kdevelop",
+  "extension": "kdevelop",
+  "name": "KDevelop Project Data File",
+  "category": "kdevelop-project-data-file",
+  "developer_org": "free-software-foundation",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Programming project file created with KDevelop, a KDE software development program; includes project settings and references to files used by the project; saved in a text format that can be edited with a text editor.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "linux": [
+      {
+        "software": "free-software-foundation-kdevelop",
+        "display_name": "Free Software Foundation KDevelop",
+        "pricing": "free"
+      }
+    ],
+    "windows": [
+      {
+        "software": "free-software-foundation-kdevelop",
+        "display_name": "Free Software Foundation KDevelop",
+        "pricing": "free"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2008-01-04",
+  "sources": [
+    {
+      "url": "kdevelop.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

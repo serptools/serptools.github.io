@@ -1,0 +1,81 @@
+{
+  "slug": "irr",
+  "extension": "irr",
+  "name": "Irrlicht 3D Scene",
+  "category": "1.-irrlicht-3d-scene",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 4.3,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "An IRR file is a 3D file created by Irrlicht, an open-source 3D engine written in C++. It contains a scene graph, which includes particle systems, animators, and materials in XML format that Irrlicht references to create game scenes. Each IRR file may include user data, such as links to .IRRMESH mesh files, for scene nodes contained in the file.",
+  "standards": [],
+  "mime_types": [
+    "directory/sample.irr",
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "irrlicht",
+        "display_name": "Irrlicht"
+      },
+      {
+        "software": "ambiera-irredit",
+        "display_name": "Ambiera irrEdit",
+        "status": "discontinued"
+      },
+      {
+        "software": "brewer-uvbrewer",
+        "display_name": "Brewer UVBrewer"
+      }
+    ],
+    "macos": [
+      {
+        "software": "irrlicht",
+        "display_name": "Irrlicht"
+      },
+      {
+        "software": "ambiera-irredit",
+        "display_name": "Ambiera irrEdit",
+        "status": "discontinued"
+      }
+    ],
+    "linux": [
+      {
+        "software": "irrlicht",
+        "display_name": "Irrlicht"
+      },
+      {
+        "software": "ambiera-irredit",
+        "display_name": "Ambiera irrEdit",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-03-22",
+  "sources": [
+    {
+      "url": "irr.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

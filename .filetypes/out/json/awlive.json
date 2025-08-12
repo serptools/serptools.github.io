@@ -1,0 +1,49 @@
+{
+  "slug": "awlive",
+  "extension": "awlive",
+  "name": "Active Webcam Video File",
+  "category": "active-webcam-video-file",
+  "developer_org": "py-software",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 11,
+    "source": "fileinfo"
+  },
+  "summary": "File used by the video program Active Webcam; created as a temporary file or recorded for local/remote webcam monitoring; contains live footage recorded by cameras through the Active Webcam software; AWLIVE is similar to these other video files .WMV , .AVI , and .MPEG .",
+  "standards": [],
+  "mime_types": [
+    "local/remote"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "web": [
+      {
+        "software": "py-software-active-webcam",
+        "display_name": "PY Software Active Webcam"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2013-07-30",
+  "sources": [
+    {
+      "url": "awlive.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

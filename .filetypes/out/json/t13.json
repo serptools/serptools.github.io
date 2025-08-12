@@ -1,0 +1,63 @@
+{
+  "slug": "t13",
+  "extension": "t13",
+  "name": "H&R Block 2013 Tax Return",
+  "category": "h-r-block-2013-tax-return",
+  "developer_org": "h-r-block",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "Tax return created with H&R Block 2013 tax software or exported from H&R Block online; contains U.S. federal tax forms for 2013; may also include state tax forms for a specific state; stores personal data and tax information entered by the user.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "h-r-block-tax-software",
+        "display_name": "H&R Block Tax Software"
+      },
+      {
+        "software": "h-r-block-online",
+        "display_name": "H&R Block Online"
+      }
+    ],
+    "macos": [
+      {
+        "software": "h-r-block-tax-software",
+        "display_name": "H&R Block Tax Software"
+      }
+    ],
+    "web": [
+      {
+        "software": "h-r-block-online",
+        "display_name": "H&R Block Online"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-03-03",
+  "sources": [
+    {
+      "url": "t13.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

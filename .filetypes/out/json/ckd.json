@@ -1,0 +1,81 @@
+{
+  "slug": "ckd",
+  "extension": "ckd",
+  "name": "KeyCreator Design File",
+  "category": "1.-keycreator-design-file",
+  "developer_org": "kubotek",
+  "popularity": {
+    "rating": 2.3,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "A CKD file contains one or more 2D or 3D models or drawings created with Kubotek KeyCreator, a professional CAD tool. It stores model or drawing data, which may include wireframes, toolpaths, and model surface information.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "kubotek-keycreator",
+        "display_name": "Kubotek KeyCreator"
+      },
+      {
+        "software": "blender",
+        "display_name": "Blender"
+      },
+      {
+        "software": "unity-technologies-unity",
+        "display_name": "Unity Technologies Unity"
+      }
+    ],
+    "macos": [
+      {
+        "software": "blender",
+        "display_name": "Blender"
+      },
+      {
+        "software": "unity-technologies-unity",
+        "display_name": "Unity Technologies Unity"
+      }
+    ],
+    "linux": [
+      {
+        "software": "blender",
+        "display_name": "Blender"
+      },
+      {
+        "software": "unity-technologies-unity",
+        "display_name": "Unity Technologies Unity"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "CKD file open in Kubotek KeyCreator Pro 2021",
+      "alt": "CKD file open in Kubotek KeyCreator Pro 2021",
+      "source_url": "https://fileinfo.com/img/ss/md/ckd_3627.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-02-04",
+  "sources": [
+    {
+      "url": "ckd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

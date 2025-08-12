@@ -1,0 +1,53 @@
+{
+  "slug": "arpatch",
+  "extension": "arpatch",
+  "name": "Spark AR Patch Asset",
+  "category": "spark-ar-patch-asset",
+  "developer_org": "facebook",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "An ARPATCH file is a patch asset created by Spark AR Studio, an augmented reality (AR) effects application that integrates with Facebook and Instagram. It contains a group of patches that a user placed and connected in Spark AR Studio's Patch Editor. ARPATCH files are used to add interactivity, animation, and logic to Spark AR Studio effects.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "facebook-spark-ar-studio",
+        "display_name": "Facebook Spark AR Studio"
+      }
+    ],
+    "macos": [
+      {
+        "software": "facebook-spark-ar-studio",
+        "display_name": "Facebook Spark AR Studio"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-06-29",
+  "sources": [
+    {
+      "url": "arpatch.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

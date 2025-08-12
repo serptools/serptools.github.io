@@ -1,0 +1,61 @@
+{
+  "slug": "bemuse",
+  "extension": "bemuse",
+  "name": "Bemuse Sound Data Chunk",
+  "category": "bemuse-sound-data-chunk",
+  "developer_org": "bemusic",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "A BEMUSE file is a sound data file created by Bemuse Custom Song Workshop, a program used to optimize songs for play in Bemuse. It typically contains several .OGG audio files, packaged together to make them easier for Bemuse to load. Typically, BEMUSE files are stored in a bemuse-data directory, alongside a .JSON file and other BEMUSE files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "web": [
+      {
+        "software": "bemusic-bemuse",
+        "display_name": "Bemusic Bemuse"
+      },
+      {
+        "software": "bemusic-bemuse-custom-song-workshop",
+        "display_name": "Bemusic Bemuse Custom Song Workshop"
+      }
+    ],
+    "windows": [
+      {
+        "software": "bemusic-bemuse",
+        "display_name": "Bemusic Bemuse"
+      },
+      {
+        "software": "bemusic-bemuse-custom-song-workshop",
+        "display_name": "Bemusic Bemuse Custom Song Workshop"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-09-21",
+  "sources": [
+    {
+      "url": "bemuse.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

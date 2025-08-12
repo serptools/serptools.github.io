@@ -1,0 +1,59 @@
+{
+  "slug": "sys-reserved-rw-bitmap.grow",
+  "extension": "sys-reserved-rw-bitmap.grow",
+  "name": "Pioneer DVD Recorder Dummy File",
+  "category": "pioneer-dvd-recorder-dummy-file",
+  "developer_org": "pioneer",
+  "popularity": {
+    "rating": 1.8,
+    "votes": 12,
+    "source": "fileinfo"
+  },
+  "summary": "A SYS-RESERVED-RW-BITMAP.GROW file is a dummy file created by Pioneer DVD Recorder. It stores Space Bitmap information that describes partition size on a DVD-RW disc, which is used to decrease the time elapsed when scanning for free space on a DVD-RW disc.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "not-meant-to-be-opened",
+        "display_name": "Not meant to be opened"
+      }
+    ],
+    "macos": [
+      {
+        "software": "not-meant-to-be-opened",
+        "display_name": "Not meant to be opened"
+      }
+    ],
+    "linux": [
+      {
+        "software": "not-meant-to-be-opened",
+        "display_name": "Not meant to be opened"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-02-05",
+  "sources": [
+    {
+      "url": "sys-reserved-rw-bitmap.grow.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

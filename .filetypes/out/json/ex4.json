@@ -1,0 +1,61 @@
+{
+  "slug": "ex4",
+  "extension": "ex4",
+  "name": "MetaTrader 4 Program",
+  "category": "metatrader-4-program",
+  "developer_org": "metaquotes",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 86,
+    "source": "fileinfo"
+  },
+  "summary": "An EX4 file is a program that can be run by MetaQuotes MetaTrader 4, a financial trading platform. Traders run EX4 files to automate trades, calculate technical indicators, and perform other processes. EX4 files are compiled from .MQ4 files, which contain source code written in MetaQuotes Language 4 (MQL4).",
+  "standards": [],
+  "mime_types": [
+    "and/or"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "metaquotes-metatrader",
+        "display_name": "MetaQuotes MetaTrader"
+      }
+    ],
+    "macos": [
+      {
+        "software": "metaquotes-metatrader",
+        "display_name": "MetaQuotes MetaTrader"
+      }
+    ],
+    "linux": [
+      {
+        "software": "metaquotes-metatrader",
+        "display_name": "MetaQuotes MetaTrader"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-08-17",
+  "sources": [
+    {
+      "url": "ex4.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

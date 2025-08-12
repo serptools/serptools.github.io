@@ -1,0 +1,53 @@
+{
+  "slug": "fvm",
+  "extension": "fvm",
+  "name": "Fast Video Maker Project",
+  "category": "fast-video-maker-project",
+  "developer_org": "fast-pc-tools",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "An FVM file is a project file created by Fast Video Maker, a simple video editor available for Windows. It contains a record of the edits made to and media files included in a Fast Video Maker project. FVM files can be opened only in Fast Video Maker.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "fast-video-maker",
+        "display_name": "Fast Video Maker"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "FVM file icon",
+      "alt": "FVM file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/fvm-11884.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-01-25",
+  "sources": [
+    {
+      "url": "fvm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

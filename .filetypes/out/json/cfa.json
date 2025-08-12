@@ -1,0 +1,81 @@
+{
+  "slug": "cfa",
+  "extension": "cfa",
+  "name": "ComProbe Analyzer Capture File",
+  "category": "1.-comprobe-analyzer-capture-file",
+  "developer_org": "frontline",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 42,
+    "source": "fileinfo"
+  },
+  "summary": "A CFA file is a data capture file created by Frontline ComProbe analyzers, such as the BPA 600 Dual Mode Bluetooth Protocol Analyzer and the BPA Low Energy Bluetooth Protocol Analyzer. It contains data collected by an analyzer such as the frame number, command, segment, block, or UUID. CFA files are collected by analyzers to determine if a product meets Bluetooth interoperability standards.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "frontline-comprobe-analysis-system",
+        "display_name": "Frontline ComProbe Analysis System"
+      },
+      {
+        "software": "adobe-audition-2023",
+        "display_name": "Adobe Audition 2023"
+      },
+      {
+        "software": "adobe-after-effects-2025",
+        "display_name": "Adobe After Effects 2025"
+      },
+      {
+        "software": "adobe-premiere-pro-2023",
+        "display_name": "Adobe Premiere Pro 2023"
+      },
+      {
+        "software": "adobe-encore-cs6",
+        "display_name": "Adobe Encore CS6"
+      }
+    ],
+    "macos": [
+      {
+        "software": "adobe-audition-2023",
+        "display_name": "Adobe Audition 2023"
+      },
+      {
+        "software": "adobe-after-effects-2025",
+        "display_name": "Adobe After Effects 2025"
+      },
+      {
+        "software": "adobe-premiere-pro-2023",
+        "display_name": "Adobe Premiere Pro 2023"
+      },
+      {
+        "software": "adobe-encore-cs6",
+        "display_name": "Adobe Encore CS6"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-03-22",
+  "sources": [
+    {
+      "url": "cfa.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

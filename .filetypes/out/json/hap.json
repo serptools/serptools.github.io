@@ -1,0 +1,53 @@
+{
+  "slug": "hap",
+  "extension": "hap",
+  "name": "HarmonyOS Ability Package",
+  "category": "harmonyos-ability-package",
+  "developer_org": "huawei",
+  "popularity": {
+    "rating": 4.6,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "A HAP file is an ability package used by a Huawei HarmonyOS application. It contains code used to implement one or more app features. HAP files are packaged in HarmonyOS App Packs, aka .APP files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "huawei-deveco-studio",
+        "display_name": "Huawei DevEco Studio"
+      }
+    ],
+    "macos": [
+      {
+        "software": "huawei-deveco-studio",
+        "display_name": "Huawei DevEco Studio"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-01-12",
+  "sources": [
+    {
+      "url": "hap.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

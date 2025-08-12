@@ -1,0 +1,47 @@
+{
+  "slug": "evtx",
+  "extension": "evtx",
+  "name": "Windows 7 Event Log File",
+  "category": "windows-7-event-log-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.1,
+    "votes": 23,
+    "source": "fileinfo"
+  },
+  "summary": "Log file created by the Windows 7 Event Viewer; contains a list of events recorded by Windows; saved in a proprietary binary format that can only be viewed within the Event Viewer program.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-event-viewer",
+        "display_name": "Microsoft Event Viewer"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-12-31",
+  "sources": [
+    {
+      "url": "evtx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

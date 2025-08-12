@@ -1,0 +1,59 @@
+{
+  "slug": "loadmeta",
+  "extension": "loadmeta",
+  "name": "Kerbal Space Program Save Metadata File",
+  "category": "kerbal-space-program-save-metadata-file",
+  "developer_org": "squad",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "A LOADMETA file is a metadata file that accompanies a saved game ( .SFS ) file for Squad Kerbal Space Program, a video game where players build and launch rockets. It stores cached information, including a hash , for an SFS file the game references to quickly load saved game information. Users can find LOADMETA files alongside SFS files with the same name (e.g., example.sfs and example.loadmeta ).",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "squad-kerbal-space-program",
+        "display_name": "Squad Kerbal Space Program"
+      }
+    ],
+    "macos": [
+      {
+        "software": "squad-kerbal-space-program",
+        "display_name": "Squad Kerbal Space Program"
+      }
+    ],
+    "linux": [
+      {
+        "software": "squad-kerbal-space-program",
+        "display_name": "Squad Kerbal Space Program"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2024-02-01",
+  "sources": [
+    {
+      "url": "loadmeta.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

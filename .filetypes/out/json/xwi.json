@@ -1,0 +1,57 @@
+{
+  "slug": "xwi",
+  "extension": "xwi",
+  "name": "X-Wing Mission",
+  "category": "x-wing-mission",
+  "developer_org": "lucasarts",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "An XWI file is a mission file used by Star Wars: X-Wing, a space combat simulator. It contains data used to load and play a mission. XWI files are paired with corresponding .BRF files, which contain mission briefings.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "lucasarts-star-wars-x-wing",
+        "display_name": "LucasArts Star Wars: X-Wing"
+      },
+      {
+        "software": "x-wing-mission-builder",
+        "display_name": "X-Wing Mission Builder"
+      }
+    ],
+    "macos": [
+      {
+        "software": "lucasarts-star-wars-x-wing",
+        "display_name": "LucasArts Star Wars: X-Wing"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-06-13",
+  "sources": [
+    {
+      "url": "xwi.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

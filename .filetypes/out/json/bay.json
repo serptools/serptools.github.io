@@ -1,0 +1,65 @@
+{
+  "slug": "bay",
+  "extension": "bay",
+  "name": "Casio RAW Image",
+  "category": "casio-raw-image",
+  "developer_org": "casio",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 12,
+    "source": "fileinfo"
+  },
+  "summary": "A BAY file is a digital photograph captured by a Casio digital camera. It contains raw image data from the camera in a proprietary format that is unprocessed and uncompressed.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "microsoft-photos",
+        "display_name": "Microsoft Photos"
+      },
+      {
+        "software": "corel-paintshop-pro-2023",
+        "display_name": "Corel PaintShop Pro 2023"
+      },
+      {
+        "software": "acd-systems-acdsee-photo-studio",
+        "display_name": "ACD Systems ACDSee Photo Studio"
+      }
+    ],
+    "android": [
+      {
+        "software": "file-viewer-for-android",
+        "display_name": "File Viewer for Android"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2016-07-20",
+  "sources": [
+    {
+      "url": "bay.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

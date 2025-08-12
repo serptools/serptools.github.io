@@ -1,0 +1,51 @@
+{
+  "slug": "kfm",
+  "extension": "kfm",
+  "name": "Gamebryo 3D Model File",
+  "category": "gamebryo-3d-model-file",
+  "developer_org": "gamebase",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "3D model used by some games developed with the Gamebryo engine, including Civilization IV, The Elder Scrolls: Oblivion, and many more; similar to a .NIF file and contains the geometry and motion information for a game model; used for storing characters, monsters, weapons, and other game objects.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "gamebase-gamebryo",
+        "display_name": "Gamebase Gamebryo"
+      },
+      {
+        "software": "niftools",
+        "display_name": "NifTools"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-02-06",
+  "sources": [
+    {
+      "url": "kfm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

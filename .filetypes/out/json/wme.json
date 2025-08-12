@@ -1,0 +1,48 @@
+{
+  "slug": "wme",
+  "extension": "wme",
+  "name": "Windows Media Encoder Session File",
+  "category": "windows-media-encoder-session-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "A WME file is a session profile created by Microsoft Windows Media Encoder 9 Series, a production tool used to convert audio and video that is live or prerecorded into Windows Media files ( .WMV or .WMA files) or streams. It contains settings for an encoding session that can be used for other sessions.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-windows-media-encoder-9-series",
+        "display_name": "Microsoft Windows Media Encoder 9 Series",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-02-28",
+  "sources": [
+    {
+      "url": "wme.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

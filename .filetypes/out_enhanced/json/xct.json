@@ -1,0 +1,24 @@
+{
+  "slug": "xct",
+  "extension": "xct",
+  "name": "XVI32 Character Conversion Table File",
+  "category": "xvi32-character-conversion-table-file",
+  "summary": "",
+  "developer_org": "n-a",
+  "developer_name": "N/A",
+  "more_information": {
+    "description": [
+      "The XCT file is used by XVI32 to save character set conversions. You can edit an XCT file to customize which characters are converted to other characters in the program. The file enables you to load different sets of character conversions at different times.",
+      "You can create an XCT file by selecting Search → Character conversion... and clicking [b]Save table[/m].",
+      "You can load an XCT file by selecting Search → Character conversion... and clicking [b]Load table[/m].",
+      "XVI32 comes with several pre-installed XCT files that contain different character set conversions. The XCT files are DOSWIN.XCT , WINDOS.XCT , WINEBCUS.XCT , EBCUSWIN.XCT , WINEBCDE.XCT , and EBCDEWIN.XCT ."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "xct.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

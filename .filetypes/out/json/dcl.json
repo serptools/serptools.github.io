@@ -1,0 +1,57 @@
+{
+  "slug": "dcl",
+  "extension": "dcl",
+  "name": "AutoCAD Dialog Definition File",
+  "category": "1.-autocad-dialog-definition-file",
+  "developer_org": "autodesk",
+  "popularity": {
+    "rating": 4.3,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "Custom dialog definition file used by AutoCAD, a CAD design and documentation software application; contains dialog box settings, such as the title, buttons, text, list boxes, and other components; typically referenced by an application component, which displays the dialog box in order to receive user input.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "autodesk-autocad-2025",
+        "display_name": "Autodesk AutoCAD 2025"
+      },
+      {
+        "software": "somarsoft-dumpsec",
+        "display_name": "SomarSoft DumpSec"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "DCL file icon",
+      "alt": "DCL file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/dcl-5300.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-09-08",
+  "sources": [
+    {
+      "url": "dcl.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

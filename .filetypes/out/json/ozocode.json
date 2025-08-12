@@ -1,0 +1,116 @@
+{
+  "slug": "ozocode",
+  "extension": "ozocode",
+  "name": "Ozobot Program",
+  "category": "ozobot-program",
+  "developer_org": "ozobot",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "An OZOCODE file is a program created by OzoBlockly, an online, block-based code editor. It contains XML-formatted code used to load a program in OzoBlockly. The programs OZOCODE files contain are meant to be installed on Ozobots, which are small robots that can pair with your computer.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "github-atom",
+        "display_name": "GitHub Atom",
+        "status": "discontinued"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      },
+      {
+        "software": "ozoblockly",
+        "display_name": "OzoBlockly"
+      }
+    ],
+    "chromeos": [
+      {
+        "software": "google-chrome-text",
+        "display_name": "Google Chrome Text"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "github-atom",
+        "display_name": "GitHub Atom",
+        "status": "discontinued"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      },
+      {
+        "software": "github-atom",
+        "display_name": "GitHub Atom",
+        "status": "discontinued"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "web": [
+      {
+        "software": "ozoblockly",
+        "display_name": "OzoBlockly"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "OZOCODE file open in OzoBlockly",
+      "alt": "OZOCODE file open in OzoBlockly",
+      "source_url": "https://fileinfo.com/img/ss/md/ozocode_11956.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-03-08",
+  "sources": [
+    {
+      "url": "ozocode.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

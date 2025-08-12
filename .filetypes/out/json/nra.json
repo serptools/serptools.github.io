@@ -1,0 +1,53 @@
+{
+  "slug": "nra",
+  "extension": "nra",
+  "name": "Nero Audio Compilation",
+  "category": "nero-audio-compilation",
+  "developer_org": "nero",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "List of audio files compiled with Nero disc burning software; contains a playlist of tracks that can be burned to an audio CD; includes references to audio files, but does not contain actual audio data.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "nero-2022",
+        "display_name": "Nero 2022"
+      }
+    ],
+    "linux": [
+      {
+        "software": "nero-linux",
+        "display_name": "Nero Linux"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-12-03",
+  "sources": [
+    {
+      "url": "nra.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

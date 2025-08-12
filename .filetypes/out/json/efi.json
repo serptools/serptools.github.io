@@ -1,0 +1,59 @@
+{
+  "slug": "efi",
+  "extension": "efi",
+  "name": "Extensible Firmware Interface File",
+  "category": "extensible-firmware-interface-file",
+  "developer_org": "uefi-forum",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 89,
+    "source": "fileinfo"
+  },
+  "summary": "An EFI file is a system file used by Intel-based computer systems and computer devices such as AppleTVs. It contains system-level data that executes between the operating system and the firmware . EFI files are used for staging firmware updates, booting operating systems, and running pre-boot programs.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "efi-developer-kit",
+        "display_name": "EFI Developer Kit"
+      }
+    ],
+    "macos": [
+      {
+        "software": "efi-developer-kit",
+        "display_name": "EFI Developer Kit"
+      }
+    ],
+    "linux": [
+      {
+        "software": "efi-developer-kit",
+        "display_name": "EFI Developer Kit"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-03-05",
+  "sources": [
+    {
+      "url": "efi.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

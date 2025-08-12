@@ -1,0 +1,47 @@
+{
+  "slug": "tcn",
+  "extension": "tcn",
+  "name": "Techne Model File",
+  "category": "techne-model-file",
+  "developer_org": "zeux",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "Model created by Techne, a Windows program used to design models used in Minecraft; contains data that describes the model, which includes dimensions, position, and texture; can be edited in Techne.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "zeux-techne",
+        "display_name": "ZeuX Techne"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-12-06",
+  "sources": [
+    {
+      "url": "tcn.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

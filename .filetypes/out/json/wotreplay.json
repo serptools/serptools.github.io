@@ -1,0 +1,55 @@
+{
+  "slug": "wotreplay",
+  "extension": "wotreplay",
+  "name": "World of Tanks Replay File",
+  "category": "world-of-tanks-replay-file",
+  "developer_org": "wargaming.net",
+  "popularity": {
+    "rating": 4.3,
+    "votes": 215,
+    "source": "fileinfo"
+  },
+  "summary": "Game file created by World of Tanks (WoT), a multiplayer tank battling game; saves a multiplayer battle replay that can be played back at a later time; saved to the \\​World of Tanks\\​Replays\\​ installation directory if replay recording is enabled in the game options.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "wargaming.net-world-of-tanks",
+        "display_name": "Wargaming.net World of Tanks"
+      },
+      {
+        "software": "wot-replays-manager",
+        "display_name": "WOT Replays Manager"
+      },
+      {
+        "software": "wot-replay-parser",
+        "display_name": "WOT Replay Parser"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-09-18",
+  "sources": [
+    {
+      "url": "wotreplay.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

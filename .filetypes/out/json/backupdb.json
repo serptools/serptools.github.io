@@ -1,0 +1,47 @@
+{
+  "slug": "backupdb",
+  "extension": "backupdb",
+  "name": "Time Machine Backup Folder",
+  "category": "time-machine-backup-folder",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 10,
+    "source": "fileinfo"
+  },
+  "summary": "Backup folder created by Apple Time Machine, a backup utility included with Mac OS X 10.5 (Leopard); named \"Backups.backupdb\" and is often the only folder on the backup drive.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "apple-time-machine",
+        "display_name": "Apple Time Machine"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2008-02-01",
+  "sources": [
+    {
+      "url": "backupdb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

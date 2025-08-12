@@ -1,0 +1,34 @@
+{
+  "slug": "mcsg",
+  "extension": "mcsg",
+  "name": "MagicaCSG 3D Model",
+  "category": "magicacsg-3d-model",
+  "summary": "",
+  "developer_org": "ephtracy",
+  "developer_name": "Ephtracy",
+  "more_information": {
+    "screenshot": {
+      "url": "https://fileinfo.com/img/ss/sm/mcsg_12310.png",
+      "alt": "Screenshot of a .mcsg file in Microsoft Visual Studio Code",
+      "caption": "MCSG file open in Microsoft Visual Studio Code"
+    },
+    "description": [
+      "MagicaCSG is an offshoot of MagicaVoxel, a free voxel art editor and interactive path tracing renderer. MagicaCSG allows artists to create, edit, and render 3D images, using signed distance fields and path tracing.",
+      "Images created in MagicaCSG are saved as MCSG files. While these files appear as 3D images in MagicaCSG, they are actually plain text files formatted using JSON. The plain text MCSG files contain defines how they appear when loaded in MagicaCSG."
+    ]
+  },
+  "images": [
+    {
+      "url": "https://fileinfo.com/img/ss/sm/mcsg_12310.png",
+      "alt": "Screenshot of a .mcsg file in Microsoft Visual Studio Code",
+      "caption": "MCSG file open in Microsoft Visual Studio Code"
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "mcsg.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

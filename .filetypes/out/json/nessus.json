@@ -1,0 +1,59 @@
+{
+  "slug": "nessus",
+  "extension": "nessus",
+  "name": "Nessus Network Security Scanner File",
+  "category": "nessus-network-security-scanner-file",
+  "developer_org": "tenable-network-security",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "File created by Nessus, a network vulnerability scanning application; saves the results of a network security scan as well as the policies used for the performed scan; enables the results from corporate or home network scans to be saved as well as imported for review.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "tenable-network-security-nessus",
+        "display_name": "Tenable Network Security Nessus"
+      }
+    ],
+    "macos": [
+      {
+        "software": "tenable-network-security-nessus",
+        "display_name": "Tenable Network Security Nessus"
+      }
+    ],
+    "linux": [
+      {
+        "software": "tenable-network-security-nessus",
+        "display_name": "Tenable Network Security Nessus"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-11-07",
+  "sources": [
+    {
+      "url": "nessus.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

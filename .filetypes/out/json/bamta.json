@@ -1,0 +1,40 @@
+{
+  "slug": "bamta",
+  "extension": "bamta",
+  "name": "Binary Audio Metadata",
+  "category": "binary-audio-metadata",
+  "developer_org": "nintendo",
+  "popularity": {
+    "rating": 1.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "A BAMTA file is a metadata file used by a Nintendo Wii U or Switch video game. BAMTA files are located within .BARS (Binary Audio Resource Archive) files. Each BAMTA file contains metadata for a single audio file stored within the BARS file.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {},
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-09-11",
+  "sources": [
+    {
+      "url": "bamta.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

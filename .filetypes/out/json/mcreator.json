@@ -1,0 +1,117 @@
+{
+  "slug": "mcreator",
+  "extension": "mcreator",
+  "name": "MCreator Workspace",
+  "category": "mcreator-workspace",
+  "developer_org": "pylo",
+  "popularity": {
+    "rating": 4.5,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "An MCREATOR file is a project file used by MCreator, a Minecraft mod creation app. It contains JSON data used to open a mod or add-on creation project in MCreator. MCREATOR files are stored in an MCreator project's folder, alongside the project's assets.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "mcreator",
+        "display_name": "MCreator"
+      },
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "github-atom",
+        "display_name": "GitHub Atom",
+        "status": "discontinued"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      }
+    ],
+    "macos": [
+      {
+        "software": "mcreator",
+        "display_name": "MCreator"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "github-atom",
+        "display_name": "GitHub Atom",
+        "status": "discontinued"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "mcreator",
+        "display_name": "MCreator"
+      },
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      },
+      {
+        "software": "github-atom",
+        "display_name": "GitHub Atom",
+        "status": "discontinued"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "MCREATOR file icon",
+      "alt": "MCREATOR file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/mcreator-12656.png"
+    },
+    {
+      "caption": "MCREATOR file open in Microsoft Visual Studio Code",
+      "alt": "MCREATOR file open in Microsoft Visual Studio Code",
+      "source_url": "https://fileinfo.com/img/ss/md/mcreator_12656.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-04-18",
+  "sources": [
+    {
+      "url": "mcreator.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

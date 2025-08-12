@@ -1,0 +1,81 @@
+{
+  "slug": "pvf",
+  "extension": "pvf",
+  "name": "Portable Voice Format",
+  "category": "portable-voice-format",
+  "developer_org": "marc-schaefer",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "A PVF file is an audio file saved in the portable voice format (PVF). It contains human speech, most likely recorded from a phone call using Mgetty-voice, also known as Vgetty, which is a software package used to create an answering machine on a Unix computer using a voice modem.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "nullsoft-winamp",
+        "display_name": "Nullsoft Winamp"
+      },
+      {
+        "software": "factory-audio-converter",
+        "display_name": "Factory Audio Converter"
+      },
+      {
+        "software": "vgetty",
+        "display_name": "Vgetty"
+      },
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      }
+    ],
+    "macos": [
+      {
+        "software": "nullsoft-winamp",
+        "display_name": "Nullsoft Winamp"
+      }
+    ],
+    "linux": [
+      {
+        "software": "vgetty",
+        "display_name": "Vgetty"
+      }
+    ],
+    "web": [
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-02-27",
+  "sources": [
+    {
+      "url": "pvf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

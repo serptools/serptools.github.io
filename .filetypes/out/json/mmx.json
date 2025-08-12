@@ -1,0 +1,53 @@
+{
+  "slug": "mmx",
+  "extension": "mmx",
+  "name": "MindMapX Mindmap",
+  "category": "mindmapx-mindmap",
+  "developer_org": "xiaofei-wang",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "An MMX file is a mindmap created by MindMapX, a mindmapping app for iOS. It contains a branching brainstorming diagram related to a central topic.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "ios": [
+      {
+        "software": "mindmapx",
+        "display_name": "MindMapX"
+      }
+    ],
+    "windows": [
+      {
+        "software": "mindmapx",
+        "display_name": "MindMapX"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-09-12",
+  "sources": [
+    {
+      "url": "mmx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

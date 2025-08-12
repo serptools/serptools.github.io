@@ -1,0 +1,71 @@
+{
+  "slug": "tfmx",
+  "extension": "tfmx",
+  "name": "The Final Music System Extended Module",
+  "category": "the-final-music-system-extended-module",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "A TFMX file is an audio module saved in The Final Music System Extended (TFMX) format. It contains data used to play a song in The Final Music System Tracker. While The Final Music System Tracker is no longer available, some current media players can also play TFMX files.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "nullsoft-winamp-with-tfmxplug-plug-in",
+        "display_name": "Nullsoft Winamp with TFMXPlug plug-in"
+      },
+      {
+        "software": "ttkmusicplayer",
+        "display_name": "TTKMusicPlayer"
+      },
+      {
+        "software": "cocomodx",
+        "display_name": "CocoModX",
+        "status": "discontinued"
+      }
+    ],
+    "macos": [
+      {
+        "software": "cocomodx",
+        "display_name": "CocoModX",
+        "status": "discontinued"
+      }
+    ],
+    "linux": [
+      {
+        "software": "ttkmusicplayer",
+        "display_name": "TTKMusicPlayer"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-10-02",
+  "sources": [
+    {
+      "url": "tfmx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

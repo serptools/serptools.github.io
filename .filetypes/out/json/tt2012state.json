@@ -1,0 +1,53 @@
+{
+  "slug": "tt2012state",
+  "extension": "tt2012state",
+  "name": "TurboTax 2012 State Tax Form",
+  "category": "turbotax-2012-state-tax-form",
+  "developer_org": "intuit",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "State tax form used by TurboTax, a program used for completing United States tax returns; contains a tax form for an individual state and is used when filing a state tax return.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "intuit-turbotax",
+        "display_name": "Intuit TurboTax"
+      }
+    ],
+    "macos": [
+      {
+        "software": "intuit-turbotax",
+        "display_name": "Intuit TurboTax"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-11-30",
+  "sources": [
+    {
+      "url": "tt2012state.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

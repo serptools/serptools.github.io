@@ -1,0 +1,67 @@
+{
+  "slug": "spryzip",
+  "extension": "spryzip",
+  "name": "LumaFusion Legacy Project",
+  "category": "lumafusion-legacy-project",
+  "developer_org": "lumatouch",
+  "popularity": {
+    "rating": 2.3,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "A SPRYZIP file is a video editing project created by LumaFusion, a multitrack video editor available for macOS and iOS. It contains a copy of the video, audio, and other assets used in the project, as well as the project's timeline data. In more recent versions of LumaFusion, SPRYZIP files have been replaced by .LFPACKAGE files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "rename-.spryzip-to-.zip-and-decompress-with-any-zip-decompression-utility",
+        "display_name": "Rename .spryzip to .zip and decompress with any Zip-decompression utility"
+      },
+      {
+        "software": "lumatouch-lumafusion",
+        "display_name": "LumaTouch LumaFusion"
+      }
+    ],
+    "windows": [
+      {
+        "software": "rename-.spryzip-to-.zip-and-decompress-with-any-zip-decompression-utility",
+        "display_name": "Rename .spryzip to .zip and decompress with any Zip-decompression utility"
+      },
+      {
+        "software": "lumatouch-lumafusion",
+        "display_name": "LumaTouch LumaFusion"
+      }
+    ],
+    "ios": [
+      {
+        "software": "lumatouch-lumafusion",
+        "display_name": "LumaTouch LumaFusion"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-02-16",
+  "sources": [
+    {
+      "url": "spryzip.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

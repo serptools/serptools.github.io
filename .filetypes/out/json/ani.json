@@ -1,0 +1,85 @@
+{
+  "slug": "ani",
+  "extension": "ani",
+  "name": "Windows Animated Cursor",
+  "category": "windows-animated-cursor",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 4.3,
+    "votes": 518,
+    "source": "fileinfo"
+  },
+  "summary": "An ANI file is a cursor animation used by the Windows operating system . It contains a collection of .ICO files that comprise an animated cursor's animation. ANI files are very similar to .CUR (Windows Cursor) files, except they contain multiple distinct images used for animation.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "axialis-cursorworkshop",
+        "display_name": "Axialis CursorWorkshop"
+      },
+      {
+        "software": "realworld-cursor-editor",
+        "display_name": "RealWorld Cursor Editor"
+      },
+      {
+        "software": "g.d.g.-anituner",
+        "display_name": "G.D.G. AniTuner"
+      },
+      {
+        "software": "aha-soft-artcursors",
+        "display_name": "Aha-Soft ArtCursors"
+      },
+      {
+        "software": "icofx",
+        "display_name": "IcoFX"
+      },
+      {
+        "software": "inkscape",
+        "display_name": "Inkscape"
+      }
+    ],
+    "macos": [
+      {
+        "software": "inkscape",
+        "display_name": "Inkscape"
+      }
+    ],
+    "linux": [
+      {
+        "software": "inkscape",
+        "display_name": "Inkscape"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "ANI file open in RealWorld Cursor Editor",
+      "alt": "ANI file open in RealWorld Cursor Editor",
+      "source_url": "https://fileinfo.com/img/ss/md/ani_531.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-12-14",
+  "sources": [
+    {
+      "url": "ani.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

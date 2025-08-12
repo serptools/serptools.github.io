@@ -1,0 +1,87 @@
+{
+  "slug": "vrml",
+  "extension": "vrml",
+  "name": "VRML File",
+  "category": "vrml-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 11,
+    "source": "fileinfo"
+  },
+  "summary": "Three-dimensional world, scene, or object based on the Virtual Reality Modeling Language ( VRML ); may be a standalone 3D file or may be integrated into a Web page; most VRML files let the user navigate the 3D world using the keyboard and/or mouse.",
+  "standards": [],
+  "mime_types": [
+    "and/or",
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "freewrl",
+        "display_name": "FreeWRL",
+        "pricing": "free"
+      },
+      {
+        "software": "openvrml",
+        "display_name": "OpenVRML"
+      }
+    ],
+    "web": [
+      {
+        "software": "web-browser",
+        "display_name": "web browser"
+      },
+      {
+        "software": "freewrl",
+        "display_name": "FreeWRL",
+        "pricing": "free"
+      },
+      {
+        "software": "openvrml",
+        "display_name": "OpenVRML"
+      }
+    ],
+    "macos": [
+      {
+        "software": "freewrl",
+        "display_name": "FreeWRL",
+        "pricing": "free"
+      },
+      {
+        "software": "openvrml",
+        "display_name": "OpenVRML"
+      }
+    ],
+    "linux": [
+      {
+        "software": "openvrml",
+        "display_name": "OpenVRML"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2016-10-14",
+  "sources": [
+    {
+      "url": "vrml.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

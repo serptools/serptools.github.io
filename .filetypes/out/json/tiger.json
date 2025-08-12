@@ -1,0 +1,59 @@
+{
+  "slug": "tiger",
+  "extension": "tiger",
+  "name": "Tomb Raider Game Data Archive",
+  "category": "tomb-raider-game-data-archive",
+  "developer_org": "crystal-dynamics",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 16,
+    "source": "fileinfo"
+  },
+  "summary": "A TIGER file is an archive consisting of game data used by Tomb Raider (2013), Rise of the Tomb Raider (2015), or Shadow of the Tomb Raider (2018). It contains sound effects, music, models, textures, and other files used by the game.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "crystal-dynamics-tomb-raider",
+        "display_name": "Crystal Dynamics Tomb Raider"
+      },
+      {
+        "software": "crystal-dynamics-rise-of-the-tomb-raider",
+        "display_name": "Crystal Dynamics Rise of the Tomb Raider"
+      },
+      {
+        "software": "crystal-dynamics-shadow-of-the-tomb-raider",
+        "display_name": "Crystal Dynamics Shadow of the Tomb Raider"
+      },
+      {
+        "software": "gibbed-tiger-unpacker",
+        "display_name": "Gibbed Tiger Unpacker"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-12-02",
+  "sources": [
+    {
+      "url": "tiger.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

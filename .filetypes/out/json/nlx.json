@@ -1,0 +1,59 @@
+{
+  "slug": "nlx",
+  "extension": "nlx",
+  "name": "MyDraw XML Library",
+  "category": "mydraw-xml-library",
+  "developer_org": "nevron-software",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "An NLX file is a library created by Nevron Software MyDraw, an application used to create various diagrams and technical illustrations. It stores a collection of stencils, which are shapes, connectors, and other objects used within a drawing. NLX files are typically used for distributing design elements between MyDraw users to insert into technical drawings.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "nevron-software-mydraw",
+        "display_name": "Nevron Software MyDraw"
+      }
+    ],
+    "macos": [
+      {
+        "software": "nevron-software-mydraw",
+        "display_name": "Nevron Software MyDraw"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "NLX file icon",
+      "alt": "NLX file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/nlx-12106.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-06-03",
+  "sources": [
+    {
+      "url": "nlx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

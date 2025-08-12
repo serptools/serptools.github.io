@@ -1,0 +1,53 @@
+{
+  "slug": "sr4",
+  "extension": "sr4",
+  "name": "AMD Ryzen Wraith Prism RGB Profile",
+  "category": "amd-ryzen-wraith-prism-rgb-profile",
+  "developer_org": "cooler-master",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "An SR4 file is an LED control file created by a Cooler Master AMD Ryzen Wraith Prism's RGB lighting control software. It contains text used to specify how the lights installed in an AMD Ryzen Wraith Prism CPU cooler behave. SR4 files can be transferred and imported into the lighting control software to use the same lighting effect with multiple coolers.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "cooler-master-amd-ryzen-wraith-prism-rgb-software",
+        "display_name": "Cooler Master AMD Ryzen Wraith Prism RGB Software"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "SR4 file open in Microsoft Notepad 2004",
+      "alt": "SR4 file open in Microsoft Notepad 2004",
+      "source_url": "https://fileinfo.com/img/ss/md/sr4_12185.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-07-07",
+  "sources": [
+    {
+      "url": "sr4.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

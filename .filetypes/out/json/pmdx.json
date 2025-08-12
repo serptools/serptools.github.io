@@ -1,0 +1,74 @@
+{
+  "slug": "pmdx",
+  "extension": "pmdx",
+  "name": "PlanMaker Spreadsheet",
+  "category": "planmaker-spreadsheet",
+  "developer_org": "softmaker-software",
+  "popularity": {
+    "rating": 3.2,
+    "votes": 15,
+    "source": "fileinfo"
+  },
+  "summary": "A PMDX file is a spreadsheet file created by PlanMaker, a spreadsheet program included with Softmaker Office. It stores data in cells arranged in a grid of rows and columns. PMDX files also support cell formatting, formulas, charts, and multiple sheets.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "softmaker-office",
+        "display_name": "SoftMaker Office"
+      },
+      {
+        "software": "softmaker-office-hd-planmaker-basic",
+        "display_name": "SoftMaker Office HD: PlanMaker BASIC"
+      }
+    ],
+    "linux": [
+      {
+        "software": "softmaker-office",
+        "display_name": "SoftMaker Office"
+      }
+    ],
+    "android": [
+      {
+        "software": "softmaker-office-hd-planmaker-basic",
+        "display_name": "SoftMaker Office HD: PlanMaker BASIC"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "PMDX file icon",
+      "alt": "PMDX file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/pmdx-10898.png"
+    },
+    {
+      "caption": "PMDX file open in SoftMaker Office PlanMaker 2018",
+      "alt": "PMDX file open in SoftMaker Office PlanMaker 2018",
+      "source_url": "https://fileinfo.com/img/ss/md/pmdx_10898.jpg"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-04-03",
+  "sources": [
+    {
+      "url": "pmdx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

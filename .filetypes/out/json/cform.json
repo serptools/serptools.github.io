@@ -1,0 +1,55 @@
+{
+  "slug": "cform",
+  "extension": "cform",
+  "name": "X-Ray Game Data File",
+  "category": "x-ray-game-data-file",
+  "developer_org": "gsc-game-world",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "A CFORM file is a game data file used by various video games developed with the GSC Game World X-Ray Engine and the fan-made, open-source OpenXRay game engine. It stores map and level information in a proprietary format that a game references to load related data. Users should not attempt to open CFORM files; instead, developers using a game SDK , such as S.T.A.L.K.E.R. Clear Sky SDK or Call of Pripyat SDK, generate CFORM files to store map and level data that users can play in the appropriate game.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "gsc-game-world-s.t.a.l.k.e.r.-call-of-pripyat",
+        "display_name": "GSC Game World S.T.A.L.K.E.R.: Call of Pripyat"
+      },
+      {
+        "software": "gsc-game-world-s.t.a.l.k.e.r.-clear-sky",
+        "display_name": "GSC Game World S.T.A.L.K.E.R.: Clear Sky"
+      },
+      {
+        "software": "gsc-game-world-s.t.a.l.k.e.r.-shadow-of-chernobyl",
+        "display_name": "GSC Game World S.T.A.L.K.E.R.: Shadow of Chernobyl"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2024-02-12",
+  "sources": [
+    {
+      "url": "cform.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

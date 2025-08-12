@@ -1,0 +1,65 @@
+{
+  "slug": "lk12",
+  "extension": "lk12",
+  "name": "LIKO-12 Disk File",
+  "category": "liko-12-disk-file",
+  "developer_org": "rami-sabbagh",
+  "popularity": {
+    "rating": 1.2,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "An LK12 file contains a LIKO-12 game \"cartridge,\" which can be played with the LIKO-12 virtual fantasy gaming console. It is saved in the LIKO-12 disk image format and stores all a game's data, including sprites, tiles, and audio data.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "liko-12",
+        "display_name": "LIKO-12"
+      }
+    ],
+    "macos": [
+      {
+        "software": "liko-12",
+        "display_name": "LIKO-12"
+      }
+    ],
+    "linux": [
+      {
+        "software": "liko-12",
+        "display_name": "LIKO-12"
+      }
+    ],
+    "android": [
+      {
+        "software": "liko-12",
+        "display_name": "LIKO-12"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-04-05",
+  "sources": [
+    {
+      "url": "lk12.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

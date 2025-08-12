@@ -1,0 +1,130 @@
+{
+  "slug": "docm",
+  "extension": "docm",
+  "name": "Microsoft Word Macro-enabled Document",
+  "category": "microsoft-word-macro-enabled-document",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 64,
+    "source": "fileinfo"
+  },
+  "summary": "A DOCM file is a document created by Microsoft Word, a popular word processor included with Microsoft 365. It contains embedded macros that can be executed within the document. DOCM files are used to automate repetitive or complex Word doc ( .DOCX ) tasks using macro functionality.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "microsoft-word-365",
+        "display_name": "Microsoft Word 365"
+      },
+      {
+        "software": "openoffice-writer",
+        "display_name": "OpenOffice Writer"
+      },
+      {
+        "software": "planamesa-neooffice",
+        "display_name": "Planamesa NeoOffice",
+        "status": "discontinued"
+      },
+      {
+        "software": "mobisystems-officesuite-pro",
+        "display_name": "MobiSystems OfficeSuite Pro"
+      },
+      {
+        "software": "microsoft-word",
+        "display_name": "Microsoft Word"
+      }
+    ],
+    "android": [
+      {
+        "software": "file-viewer-for-android",
+        "display_name": "File Viewer for Android"
+      },
+      {
+        "software": "mobisystems-officesuite-pro",
+        "display_name": "MobiSystems OfficeSuite Pro"
+      },
+      {
+        "software": "microsoft-word",
+        "display_name": "Microsoft Word"
+      }
+    ],
+    "macos": [
+      {
+        "software": "microsoft-word-365",
+        "display_name": "Microsoft Word 365"
+      },
+      {
+        "software": "planamesa-neooffice",
+        "display_name": "Planamesa NeoOffice",
+        "status": "discontinued"
+      },
+      {
+        "software": "openoffice-writer",
+        "display_name": "OpenOffice Writer"
+      }
+    ],
+    "linux": [
+      {
+        "software": "openoffice-writer",
+        "display_name": "OpenOffice Writer"
+      }
+    ],
+    "web": [
+      {
+        "software": "microsoft-word-365",
+        "display_name": "Microsoft Word 365"
+      }
+    ],
+    "ios": [
+      {
+        "software": "mobisystems-officesuite-pro",
+        "display_name": "MobiSystems OfficeSuite Pro"
+      },
+      {
+        "software": "microsoft-word",
+        "display_name": "Microsoft Word"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "DOCM file icon",
+      "alt": "DOCM file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/docm-1755.png"
+    },
+    {
+      "caption": "DOCM file open in Microsoft Word 365",
+      "alt": "DOCM file open in Microsoft Word 365",
+      "source_url": "https://fileinfo.com/img/ss/md/docm_1755.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-01-27",
+  "sources": [
+    {
+      "url": "docm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

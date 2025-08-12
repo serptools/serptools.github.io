@@ -1,0 +1,61 @@
+{
+  "slug": "jhtml",
+  "extension": "jhtml",
+  "name": "Java HTML Web Page",
+  "category": "java-html-web-page",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.1,
+    "votes": 27,
+    "source": "fileinfo"
+  },
+  "summary": "HTML file that includes Java code; similar to a standard .HTML file, but may include Java functions that are processed on the server before the page is sent to the client's Web browser; can also access information from a database using a JDBC (Java Database Connectivity) connection.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "web": [
+      {
+        "software": "web-browser",
+        "display_name": "Web browser"
+      }
+    ],
+    "windows": [
+      {
+        "software": "edit-and-run-with-atg-commerce-software",
+        "display_name": "Edit and run with ATG Commerce software"
+      }
+    ],
+    "linux": [
+      {
+        "software": "edit-and-run-with-atg-commerce-software",
+        "display_name": "Edit and run with ATG Commerce software"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-11-11",
+  "sources": [
+    {
+      "url": "jhtml.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

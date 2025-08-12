@@ -1,0 +1,62 @@
+{
+  "slug": "abs",
+  "extension": "abs",
+  "name": "Absolute Database File",
+  "category": "1.-absolute-database-file",
+  "developer_org": "componentace",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 59,
+    "source": "fileinfo"
+  },
+  "summary": "An ABS file is a database file created by Absolute Database, a database engine for the Delphi software development IDE . It stores data in a structured, relational format and supports encryption and in-memory performance. ABS files are used by software developers for storing data with their applications.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "componentace-absolute-database",
+        "display_name": "ComponentAce Absolute Database"
+      },
+      {
+        "software": "filestream-turbozip",
+        "display_name": "FileStream TurboZIP"
+      },
+      {
+        "software": "ab-sudoku",
+        "display_name": "AB SuDoKu"
+      }
+    ],
+    "web": [
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-11-09",
+  "sources": [
+    {
+      "url": "abs.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

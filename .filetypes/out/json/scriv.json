@@ -1,0 +1,53 @@
+{
+  "slug": "scriv",
+  "extension": "scriv",
+  "name": "Scrivener Document",
+  "category": "scrivener-document",
+  "developer_org": "literature-latte",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Document created by Scrivener, a writing studio used for composing novels, research papers, and scripts; saves the written text, layout structure, and outline of the document; also enables writers to save a conceptual layout of ideas alongside the written content.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "literature-latte-scrivener",
+        "display_name": "Literature & Latte Scrivener"
+      }
+    ],
+    "macos": [
+      {
+        "software": "literature-latte-scrivener",
+        "display_name": "Literature & Latte Scrivener"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-05-31",
+  "sources": [
+    {
+      "url": "scriv.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "adg",
+  "extension": "adg",
+  "name": "Ableton Device Group",
+  "category": "ableton-device-group",
+  "developer_org": "ableton",
+  "popularity": {
+    "rating": 2.7,
+    "votes": 15,
+    "source": "fileinfo"
+  },
+  "summary": "Contains a group of virtual audio devices that can be loaded by Ableton Live, a music production program; may include software instruments or audio effects; provides an easy way to load multiple devices at one time.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "ableton-live",
+        "display_name": "Ableton Live"
+      }
+    ],
+    "macos": [
+      {
+        "software": "ableton-live",
+        "display_name": "Ableton Live"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "ADG file icon",
+      "alt": "ADG file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/adg-3057.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-08-29",
+  "sources": [
+    {
+      "url": "adg.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

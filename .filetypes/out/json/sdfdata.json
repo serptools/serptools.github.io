@@ -1,0 +1,59 @@
+{
+  "slug": "sdfdata",
+  "extension": "sdfdata",
+  "name": "Snowdrop Data File",
+  "category": "snowdrop-data-file",
+  "developer_org": "ubisoft",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "An SDFDATA file is an archive included in a video game developed using the Ubisoft Snowdrop game engine. It contains assets (meshes, models, animations, textures, sounds, text) used in an Ubisoft video game. Tom Clancy's The Division, Mario + Rabbids, and South Park: The Fractured But Whole all use SDFDATA files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "rouge_sdf",
+        "display_name": "rouge_sdf"
+      }
+    ],
+    "macos": [
+      {
+        "software": "rouge_sdf",
+        "display_name": "rouge_sdf"
+      }
+    ],
+    "linux": [
+      {
+        "software": "rouge_sdf",
+        "display_name": "rouge_sdf"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-11-09",
+  "sources": [
+    {
+      "url": "sdfdata.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

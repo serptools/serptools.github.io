@@ -1,0 +1,28 @@
+{
+  "slug": "jlqm",
+  "extension": "jlqm",
+  "name": "LG QuickMemo Info File",
+  "category": "lg-quickmemo-info-file",
+  "summary": "",
+  "developer_org": "lg",
+  "developer_name": "LG",
+  "more_information": {
+    "description": [
+      "LG QuickMemo is a note-taking app installed on select LG smartphones and tablets, such as the G3 and G4. It allows users to take a screenshot of their phone screen or import an image, and then add notes or drawings to that screenshot or image.",
+      "After a user finishes marking up an image, the note they created is saved as an LQM file. This file is a Zip-compressed file that contains an image and a JLQM file. The JLQM file stores metadata recorded when the note was created, as well as any text added to the note."
+    ]
+  },
+  "common_filenames": [
+    {
+      "filename": "Memoinfo.jlqm",
+      "description": "Memoinfo.jlqm - The default name assigned to JLQM files."
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "jlqm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

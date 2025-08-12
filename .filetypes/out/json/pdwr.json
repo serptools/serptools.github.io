@@ -1,0 +1,47 @@
+{
+  "slug": "pdwr",
+  "extension": "pdwr",
+  "name": "ProntoDoc for Word Conventional Document",
+  "category": "prontodoc-for-word-conventional-document",
+  "developer_org": "step-function",
+  "popularity": {
+    "rating": 2.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "Document used by ProntoDoc for Word (PDW), a Microsoft Word plug-in used for generating documents; saves a document template and includes the populated data fields that have been auto-filled from a source database; used for rendering ProntoDoc for Word templates ( .PDW files) into .DOCX , .PDF , and .XPS files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-word-with-prontodoc-for-word-plug-in",
+        "display_name": "Microsoft Word with ProntoDoc for Word plug-in"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-03-21",
+  "sources": [
+    {
+      "url": "pdwr.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "pgt",
+  "extension": "pgt",
+  "name": "Pokémon Gift File",
+  "category": "pok-mon-gift-file",
+  "developer_org": "pokemon-mystery-gift-editor",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "Game file used by Pokémon games for the Nintendo DS handheld game console; saves an in-game gift that is used for unlocking game content; may include information for an item or an event.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "pokesav",
+        "display_name": "Pokesav"
+      },
+      {
+        "software": "pok-mon-mystery-gift-editor",
+        "display_name": "Pokémon Mystery Gift Editor"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-04-13",
+  "sources": [
+    {
+      "url": "pgt.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

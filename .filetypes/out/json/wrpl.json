@@ -1,0 +1,71 @@
+{
+  "slug": "wrpl",
+  "extension": "wrpl",
+  "name": "Widelands Saved Game File",
+  "category": "1.-widelands-saved-game-file",
+  "developer_org": "the-widelands-development-team",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 22,
+    "source": "fileinfo"
+  },
+  "summary": "Saved game created by Widelands, an open source strategy game; contains all player moves since the initial starting condition, which is stored in a separate .WGF file (also seen with the .WRPL.WGF extension); used to save and load in-game progress.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "widelands",
+        "display_name": "Widelands"
+      },
+      {
+        "software": "gaijin-entertainment-war-thunder",
+        "display_name": "Gaijin Entertainment War Thunder"
+      }
+    ],
+    "macos": [
+      {
+        "software": "widelands",
+        "display_name": "Widelands"
+      },
+      {
+        "software": "gaijin-entertainment-war-thunder",
+        "display_name": "Gaijin Entertainment War Thunder"
+      }
+    ],
+    "linux": [
+      {
+        "software": "widelands",
+        "display_name": "Widelands"
+      },
+      {
+        "software": "gaijin-entertainment-war-thunder",
+        "display_name": "Gaijin Entertainment War Thunder"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-04-02",
+  "sources": [
+    {
+      "url": "wrpl.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "topprj",
+  "extension": "topprj",
+  "name": "TopSolid Project",
+  "category": "topsolid-project",
+  "developer_org": "missler-software",
+  "popularity": {
+    "rating": 2.4,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "A TOPPRJ file is a CAD design package file used by TopSolid, a software solution for managing CAD projects. It may contain references to part and assembly design documents, bill of materials documents, drawing drafts, and exploded part design documents. TOPPRJ files are used for consolidating and organizing CAD project documents.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "missler-topsolid",
+        "display_name": "Missler TopSolid"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-03-22",
+  "sources": [
+    {
+      "url": "topprj.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "slug": "kdenlive",
+  "extension": "kdenlive",
+  "name": "Kdenlive Project",
+  "category": "kdenlive-project",
+  "developer_org": "kde",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 19,
+    "source": "fileinfo"
+  },
+  "summary": "A KDENLIVE file is a video editing project created by Kdenlive, a cross-platform, open-source video editor. It is saved in an XML format and contains references to the project's included audio and video files, as well as how those files are arranged on the project's editing timeline.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "kdenlive",
+        "display_name": "Kdenlive"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "kdenlive",
+        "display_name": "Kdenlive"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "kdenlive",
+        "display_name": "Kdenlive"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "KDENLIVE file open in Kdenlive",
+      "alt": "KDENLIVE file open in Kdenlive",
+      "source_url": "https://fileinfo.com/img/ss/md/kdenlive_8738.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-01-31",
+  "sources": [
+    {
+      "url": "kdenlive.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

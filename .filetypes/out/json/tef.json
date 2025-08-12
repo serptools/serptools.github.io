@@ -1,0 +1,75 @@
+{
+  "slug": "tef",
+  "extension": "tef",
+  "name": "TablEdit Tablature",
+  "category": "tabledit-tablature",
+  "developer_org": "tabledit.com",
+  "popularity": {
+    "rating": 3.1,
+    "votes": 14,
+    "source": "fileinfo"
+  },
+  "summary": "Contains tablatures (tabs) and sheet music for the guitar and other fretted, stringed instruments, including mandolin and bass; also supports the harmonica, mountain dulcimer, diatonic accordion, drums, violin, tin whistle, recorder, Xaphoon, autoharp, pedal steel guitar, and banjo.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "tabledit",
+        "display_name": "TablEdit"
+      },
+      {
+        "software": "tefview",
+        "display_name": "TEFview"
+      },
+      {
+        "software": "tuxguitar",
+        "display_name": "TuxGuitar"
+      }
+    ],
+    "macos": [
+      {
+        "software": "tabledit",
+        "display_name": "TablEdit"
+      },
+      {
+        "software": "tefview",
+        "display_name": "TEFview"
+      },
+      {
+        "software": "tuxguitar",
+        "display_name": "TuxGuitar"
+      }
+    ],
+    "linux": [
+      {
+        "software": "tuxguitar",
+        "display_name": "TuxGuitar"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-04-23",
+  "sources": [
+    {
+      "url": "tef.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

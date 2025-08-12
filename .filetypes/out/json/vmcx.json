@@ -1,0 +1,48 @@
+{
+  "slug": "vmcx",
+  "extension": "vmcx",
+  "name": "Virtual Machine Shell Information File",
+  "category": "virtual-machine-shell-information-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 2.9,
+    "votes": 12,
+    "source": "fileinfo"
+  },
+  "summary": "Virtual Machine (VM) shortcut file used by Windows Virtual PC, an emulation program used to run different versions of Windows; saved in an XML format and contains VM configuration parameters, such as the VM name, which .VMC file to load, and .VHD hard disk files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-windows-virtual-pc",
+        "display_name": "Microsoft Windows Virtual PC",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-02-02",
+  "sources": [
+    {
+      "url": "vmcx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

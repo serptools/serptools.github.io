@@ -1,0 +1,47 @@
+{
+  "slug": "kmcobj",
+  "extension": "kmcobj",
+  "name": "Kinemac Sprite Object",
+  "category": "kinemac-sprite-object",
+  "developer_org": "kinemac",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "3D object that can be imported into a Kinemac animation; can be dragged onto the Stage window after opening or creating a .KMC file; may contain references to images or video clips that have been applied to the sprite.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "kinemac",
+        "display_name": "Kinemac"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-04-06",
+  "sources": [
+    {
+      "url": "kmcobj.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

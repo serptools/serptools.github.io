@@ -1,0 +1,55 @@
+{
+  "slug": "growlregdict",
+  "extension": "growlregdict",
+  "name": "Growl Temp File",
+  "category": "growl-temp-file",
+  "developer_org": "growl-team",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "Temporary file created by Growl, an application notification program for Mac OS X; stores information used by the Growl Dictionary (GrowlDict).",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "growl",
+        "display_name": "Growl",
+        "status": "discontinued"
+      }
+    ],
+    "windows": [
+      {
+        "software": "growl",
+        "display_name": "Growl",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2008-02-14",
+  "sources": [
+    {
+      "url": "growlregdict.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "ztf",
+  "extension": "ztf",
+  "name": "DVD Label Template File",
+  "category": "dvd-label-template-file",
+  "developer_org": "avanquest",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "Avery template included with Digital Video Duplicator software; used for printing DVD labels on Avery-formatted disc label paper; saved in a proprietary format that is only recognized by Digital Video Duplicator.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "avanquest-digital-video-duplicator",
+        "display_name": "Avanquest Digital Video Duplicator"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2007-08-15",
+  "sources": [
+    {
+      "url": "ztf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

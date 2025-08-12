@@ -1,0 +1,51 @@
+{
+  "slug": "p7x",
+  "extension": "p7x",
+  "name": "Packed Digital Signature File",
+  "category": "packed-digital-signature-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 4.2,
+    "votes": 16,
+    "source": "fileinfo"
+  },
+  "summary": "File created by Microsoft Visual Studio, A Windows SDK ; contains data, including a digital signature, to verify that the contents of the Windows Store application haven't been modified after they were digitally signed; held within an .APPX package file.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-visual-studio-2022",
+        "display_name": "Microsoft Visual Studio 2022"
+      },
+      {
+        "software": "windows-store-apps",
+        "display_name": "Windows Store Apps"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-05-13",
+  "sources": [
+    {
+      "url": "p7x.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

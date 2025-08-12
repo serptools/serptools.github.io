@@ -1,0 +1,143 @@
+{
+  "slug": "ab",
+  "extension": "ab",
+  "name": "Android Debug Bridge Backup",
+  "category": "1.-android-debug-bridge-backup",
+  "developer_org": "google",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 53,
+    "source": "fileinfo"
+  },
+  "summary": "An AB file is a backup of some or all of the data stored on a user's Android device. Users create AB files using Android Debug Bridge (ADB), a command-line tool included in Google Android Studio . AB files are often encrypted using a user-created password.",
+  "standards": [],
+  "mime_types": [
+    "motorcraftservice.com/asbuilt",
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "android": [
+      {
+        "software": "android-debug-bridge",
+        "display_name": "Android Debug Bridge"
+      },
+      {
+        "software": "nelenkov-android-backup-extractor",
+        "display_name": "Nelenkov Android Backup Extractor"
+      },
+      {
+        "software": "camalot-android-backup-extractor",
+        "display_name": "Camalot Android Backup Extractor"
+      },
+      {
+        "software": "sixo-s-android-backup-tool",
+        "display_name": "Sixo's Android Backup Tool"
+      },
+      {
+        "software": "mobiledit-forensic-express",
+        "display_name": "MOBILedit Forensic Express"
+      },
+      {
+        "software": "camalot-droid-explorer",
+        "display_name": "Camalot Droid Explorer"
+      },
+      {
+        "software": "oxygen-forensics-detective",
+        "display_name": "Oxygen Forensics Detective"
+      },
+      {
+        "software": "bugjaeger-mobile-adb---usb-otg",
+        "display_name": "Bugjaeger Mobile ADB - USB OTG"
+      },
+      {
+        "software": "ambling-bookplayer",
+        "display_name": "Ambling BookPlayer"
+      }
+    ],
+    "windows": [
+      {
+        "software": "mobiledit-forensic-express",
+        "display_name": "MOBILedit Forensic Express"
+      },
+      {
+        "software": "camalot-droid-explorer",
+        "display_name": "Camalot Droid Explorer"
+      },
+      {
+        "software": "oxygen-forensics-detective",
+        "display_name": "Oxygen Forensics Detective"
+      },
+      {
+        "software": "bugjaeger-mobile-adb---usb-otg",
+        "display_name": "Bugjaeger Mobile ADB - USB OTG"
+      },
+      {
+        "software": "forscan",
+        "display_name": "FORScan"
+      },
+      {
+        "software": "as-built-explorer",
+        "display_name": "As-Built Explorer"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "ios": [
+      {
+        "software": "heracle-biosoft-dna-baser",
+        "display_name": "Heracle BioSoft DNA Baser"
+      }
+    ],
+    "linux": [
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      },
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-02-16",
+  "sources": [
+    {
+      "url": "ab.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

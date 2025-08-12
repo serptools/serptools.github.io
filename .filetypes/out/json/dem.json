@@ -1,0 +1,110 @@
+{
+  "slug": "dem",
+  "extension": "dem",
+  "name": "Video Game Demo File",
+  "category": "1.-video-game-demo-file",
+  "developer_org": "valve",
+  "popularity": {
+    "rating": 4.2,
+    "votes": 413,
+    "source": "fileinfo"
+  },
+  "summary": "A DEM file is a game replay file created by various first-person shooter games and most popularly by Counter-Strike (supported by Valve's Source game engine). DEM files are used to record a player's perspective in a single or multiplayer game, which can then be shared with others.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "valve-counter-strike",
+        "display_name": "Valve Counter-Strike"
+      },
+      {
+        "software": "id-software-quake",
+        "display_name": "id Software Quake"
+      },
+      {
+        "software": "id-software-hexen-2",
+        "display_name": "id Software Hexen 2"
+      },
+      {
+        "software": "virtualdub",
+        "display_name": "VirtualDub"
+      },
+      {
+        "software": "esri-arcgis-for-desktop",
+        "display_name": "ESRI ArcGIS for Desktop"
+      },
+      {
+        "software": "golden-software-voxler",
+        "display_name": "Golden Software Voxler",
+        "status": "discontinued"
+      },
+      {
+        "software": "tatukgis-viewer",
+        "display_name": "TatukGIS Viewer"
+      },
+      {
+        "software": "micromouse-accutrans-3d",
+        "display_name": "MicroMouse AccuTrans 3D"
+      },
+      {
+        "software": "epic-games-unreal-tournament",
+        "display_name": "Epic Games Unreal Tournament"
+      },
+      {
+        "software": "ut-demo-manager",
+        "display_name": "UT Demo Manager"
+      },
+      {
+        "software": "other-unreal-engine-games",
+        "display_name": "Other Unreal Engine games"
+      }
+    ],
+    "macos": [
+      {
+        "software": "valve-counter-strike",
+        "display_name": "Valve Counter-Strike"
+      },
+      {
+        "software": "id-software-quake",
+        "display_name": "id Software Quake"
+      },
+      {
+        "software": "epic-games-unreal-tournament",
+        "display_name": "Epic Games Unreal Tournament"
+      },
+      {
+        "software": "ut-demo-manager",
+        "display_name": "UT Demo Manager"
+      },
+      {
+        "software": "other-unreal-engine-games",
+        "display_name": "Other Unreal Engine games"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2016-06-03",
+  "sources": [
+    {
+      "url": "dem.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "dne",
+  "extension": "dne",
+  "name": "Netica Text File",
+  "category": "netica-text-file",
+  "developer_org": "norsys-software-corp.",
+  "popularity": {
+    "rating": 2.1,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "A DNE file is a text-based data file used by Norsys Netica, a software application for building and analyzing Bayesian networks. It stores the structure and parameters of a Bayesian network, including nodes, probabilities, and relationships between variables. Netica and DNE files have been used in research, business analytics, and engineering since the late 1990s.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "norsys-netica",
+        "display_name": "Norsys Netica"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2025-05-01",
+  "sources": [
+    {
+      "url": "dne.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

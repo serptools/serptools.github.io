@@ -1,0 +1,47 @@
+{
+  "slug": "pk6",
+  "extension": "pk6",
+  "name": "Generation 6 Pokémon Save File",
+  "category": "generation-6-pok-mon-save-file",
+  "developer_org": "nintendo",
+  "popularity": {
+    "rating": 4.1,
+    "votes": 14,
+    "source": "fileinfo"
+  },
+  "summary": "A PK6 file is a Pokémon save file used by 6th generation Pokémon games for the Nintendo 3DS platform, such as Pokémon X and Pokémon Y. It contains information about a Pokémon, including its species, experience, abilities, attacks, and current owner.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "pkhex",
+        "display_name": "PKHeX"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-01-18",
+  "sources": [
+    {
+      "url": "pk6.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

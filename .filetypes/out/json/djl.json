@@ -1,0 +1,59 @@
+{
+  "slug": "djl",
+  "extension": "djl",
+  "name": "DJLOOP File",
+  "category": "djloop-file",
+  "developer_org": "ketron",
+  "popularity": {
+    "rating": 1.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "A DJL file is a DJLOOP file created by the Ketron DJL Compiler. It contains an audio loop compiled from eight different .WAV files. DJL files are meant to be transferred to and played on a Ketron Midijay Live Audio Player.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "transfer-to-a-ketron-midijay-live-audio-player",
+        "display_name": "Transfer to a Ketron Midijay Live Audio Player"
+      }
+    ],
+    "macos": [
+      {
+        "software": "transfer-to-a-ketron-midijay-live-audio-player",
+        "display_name": "Transfer to a Ketron Midijay Live Audio Player"
+      }
+    ],
+    "linux": [
+      {
+        "software": "transfer-to-a-ketron-midijay-live-audio-player",
+        "display_name": "Transfer to a Ketron Midijay Live Audio Player"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-10-15",
+  "sources": [
+    {
+      "url": "djl.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

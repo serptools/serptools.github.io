@@ -1,0 +1,65 @@
+{
+  "slug": "la",
+  "extension": "la",
+  "name": "Lossless Audio File",
+  "category": "1.-lossless-audio-file",
+  "developer_org": "la",
+  "popularity": {
+    "rating": 3.2,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Audio file compressed by La, a lossless audio compression program; compresses an audio file's size without affecting the quality; has a longer encoding time than most other lossless compressors, but results in greater compression.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "la",
+        "display_name": "La"
+      },
+      {
+        "software": "nullsoft-winamp-with-la-plugin",
+        "display_name": "Nullsoft Winamp with La plugin"
+      },
+      {
+        "software": "foobar2000-with-la-plugin",
+        "display_name": "foobar2000 with La plugin"
+      }
+    ],
+    "linux": [
+      {
+        "software": "la",
+        "display_name": "La"
+      },
+      {
+        "software": "libtool",
+        "display_name": "Libtool"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-01-15",
+  "sources": [
+    {
+      "url": "la.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

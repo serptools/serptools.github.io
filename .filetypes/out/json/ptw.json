@@ -1,0 +1,47 @@
+{
+  "slug": "ptw",
+  "extension": "ptw",
+  "name": "AutoCAD Publish To Web File",
+  "category": "autocad-publish-to-web-file",
+  "developer_org": "autodesk",
+  "popularity": {
+    "rating": 2.3,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "Settings file used by AutoCAD, a CAD application used for 3D design and documentation; stores properties for a drawing that has been published to a Web format; placed alongside the published HTML content so that the Web Publishing Wizard can track what has been published.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "autodesk-autocad-2025",
+        "display_name": "Autodesk AutoCAD 2025"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-09-08",
+  "sources": [
+    {
+      "url": "ptw.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

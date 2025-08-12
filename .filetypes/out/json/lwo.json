@@ -1,0 +1,106 @@
+{
+  "slug": "lwo",
+  "extension": "lwo",
+  "name": "LightWave 3D Object",
+  "category": "lightwave-3d-object",
+  "developer_org": "lightwave-digital",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "An LWO file is a three-dimensional object saved in the proprietary LightWave 3D Object (LWO) binary format. It contains points, polygons, and surfaces that describe the object's shape and appearance and may also contain references to image files used for object textures. Users often open LWO files with LightWave 3D to place them in scenes ( .LWS files), but they may also open them with other apps, such as Foundry Modo and Bondware Poser .",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "lightwave-3d",
+        "display_name": "LightWave 3D"
+      },
+      {
+        "software": "foundry-modo",
+        "display_name": "Foundry Modo"
+      },
+      {
+        "software": "bondware-poser",
+        "display_name": "Bondware Poser"
+      },
+      {
+        "software": "pmg-messiahstudio",
+        "display_name": "pmG messiahStudio"
+      },
+      {
+        "software": "micromouse-accutrans-3d",
+        "display_name": "MicroMouse AccuTrans 3D"
+      },
+      {
+        "software": "cheetah3d",
+        "display_name": "Cheetah3D"
+      }
+    ],
+    "macos": [
+      {
+        "software": "lightwave-3d",
+        "display_name": "LightWave 3D"
+      },
+      {
+        "software": "foundry-modo",
+        "display_name": "Foundry Modo"
+      },
+      {
+        "software": "cheetah3d",
+        "display_name": "Cheetah3D"
+      },
+      {
+        "software": "bondware-poser",
+        "display_name": "Bondware Poser"
+      },
+      {
+        "software": "pmg-messiahstudio",
+        "display_name": "pmG messiahStudio"
+      }
+    ],
+    "linux": [
+      {
+        "software": "foundry-modo",
+        "display_name": "Foundry Modo"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "LWO file icon",
+      "alt": "LWO file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/lwo-2447.png"
+    },
+    {
+      "caption": "LWO file open in LightWave 3D 2020",
+      "alt": "LWO file open in LightWave 3D 2020",
+      "source_url": "https://fileinfo.com/img/ss/md/lwo_2447.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-11-01",
+  "sources": [
+    {
+      "url": "lwo.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

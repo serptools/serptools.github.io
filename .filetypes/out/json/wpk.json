@@ -1,0 +1,57 @@
+{
+  "slug": "wpk",
+  "extension": "wpk",
+  "name": "Nero Wave Editor File",
+  "category": "1.-nero-wave-editor-file",
+  "developer_org": "nero",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 19,
+    "source": "fileinfo"
+  },
+  "summary": "Describes a sound file edited with Nero Wave Editor, part of the the Nero CD/DVD disc authoring suite; contains edits made to the audio file, but not the actual audio itself.",
+  "standards": [],
+  "mime_types": [
+    "cd/dvd"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "nero-2022",
+        "display_name": "Nero 2022"
+      },
+      {
+        "software": "microsoft-windows-with-usb-connection",
+        "display_name": "Microsoft Windows with USB connection"
+      },
+      {
+        "software": "previous-versions-of-corel-wordperfect",
+        "display_name": "Previous versions of Corel WordPerfect"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2007-03-23",
+  "sources": [
+    {
+      "url": "wpk.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

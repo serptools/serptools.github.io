@@ -1,0 +1,98 @@
+{
+  "slug": "dna",
+  "extension": "dna",
+  "name": "SnapGene DNA File",
+  "category": "1.-snapgene-dna-file",
+  "developer_org": "gsl-biotech",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 18,
+    "source": "fileinfo"
+  },
+  "summary": "A DNA file is a data file created by GSL Biotech SnapGene, a molecular biology analysis application. It stores a DNA sequence and includes metadata , such as the author, a description of the sequence, and comments.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "gsl-biotech-snapgene",
+        "display_name": "GSL Biotech SnapGene"
+      },
+      {
+        "software": "gsl-biotech-snapgene-viewer",
+        "display_name": "GSL Biotech SnapGene Viewer"
+      },
+      {
+        "software": "ca-backup-and-migration",
+        "display_name": "CA Backup and Migration"
+      },
+      {
+        "software": "ca-desktop-dna-migrator",
+        "display_name": "CA Desktop DNA Migrator"
+      },
+      {
+        "software": "genepool",
+        "display_name": "GenePool"
+      },
+      {
+        "software": "rocket-science-games-darwin-pond",
+        "display_name": "Rocket Science Games Darwin Pond"
+      }
+    ],
+    "macos": [
+      {
+        "software": "gsl-biotech-snapgene",
+        "display_name": "GSL Biotech SnapGene"
+      },
+      {
+        "software": "gsl-biotech-snapgene-viewer",
+        "display_name": "GSL Biotech SnapGene Viewer"
+      }
+    ],
+    "linux": [
+      {
+        "software": "gsl-biotech-snapgene",
+        "display_name": "GSL Biotech SnapGene"
+      },
+      {
+        "software": "gsl-biotech-snapgene-viewer",
+        "display_name": "GSL Biotech SnapGene Viewer"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "DNA file icon",
+      "alt": "DNA file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/dna-7648.png"
+    },
+    {
+      "caption": "DNA file open in GSL Biotech SnapGene 6",
+      "alt": "DNA file open in GSL Biotech SnapGene 6",
+      "source_url": "https://fileinfo.com/img/ss/md/dna_7648.jpg"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-10-14",
+  "sources": [
+    {
+      "url": "dna.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

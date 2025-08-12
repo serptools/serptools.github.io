@@ -1,0 +1,53 @@
+{
+  "slug": "tzd",
+  "extension": "tzd",
+  "name": "TimeZero Data",
+  "category": "timezero-data",
+  "developer_org": "timezero",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "A TZD file is a data file created by TimeZero Navigator or TimeZero Professional, which are marine navigation programs. It contains some combination of TimeZero routes, marks, layers, tracks, and objects. TZD files are used to back up data and transfer it between instances of TimeZero.",
+  "standards": [],
+  "mime_types": [
+    "import/export"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "timezero-navigator",
+        "display_name": "TimeZero Navigator"
+      },
+      {
+        "software": "timezero-professional",
+        "display_name": "TimeZero Professional"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-05-10",
+  "sources": [
+    {
+      "url": "tzd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

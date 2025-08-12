@@ -1,0 +1,47 @@
+{
+  "slug": "isa",
+  "extension": "isa",
+  "name": "Indie Studios Sound Archive",
+  "category": "indie-studios-sound-archive",
+  "developer_org": "indie-studios",
+  "popularity": {
+    "rating": 2.7,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "An ISA file is an audio archive used by Indie Studios Colors, an unreleased game for the Gizmondo. It contains multiple .WAV files that store game music, sound effects, and other audio. For example, one of Colors' ISA files contains WAV files that comprise the majority of the game's soundtrack.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "isa.py-python-script",
+        "display_name": "Isa.py Python Script"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-06-29",
+  "sources": [
+    {
+      "url": "isa.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

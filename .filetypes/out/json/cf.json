@@ -1,0 +1,69 @@
+{
+  "slug": "cf",
+  "extension": "cf",
+  "name": "Sendmail Configuration File",
+  "category": "sendmail-configuration-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 34,
+    "source": "fileinfo"
+  },
+  "summary": "Preference file used to configure the Unix sendmail program; defines the SMTP server, mail relay hosts, and hundreds of other settings; saved in a text format and is compiled by the Unix M4 macro processor each time sendmail is run.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "sendmail",
+        "display_name": "Sendmail"
+      }
+    ],
+    "macos": [
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "sendmail",
+        "display_name": "Sendmail"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-10-28",
+  "sources": [
+    {
+      "url": "cf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

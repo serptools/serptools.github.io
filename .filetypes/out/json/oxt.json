@@ -1,0 +1,83 @@
+{
+  "slug": "oxt",
+  "extension": "oxt",
+  "name": "Apache OpenOffice Extension",
+  "category": "apache-openoffice-extension",
+  "developer_org": "sun-microsystems",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 74,
+    "source": "fileinfo"
+  },
+  "summary": "An OXT file is a plug-in that adds a feature to an Apache OpenOffice or LibreOffice application, such as Writer, Calc, or Impress. Examples of the features OXT files contain are advanced spell checking, additional document templates, and the ability to edit images in-app. You can install OXT files using OpenOffice and LibreOffice's Extension Manager.",
+  "standards": [],
+  "mime_types": [
+    "openoffice/libreoffice"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "apache-openoffice",
+        "display_name": "Apache OpenOffice"
+      },
+      {
+        "software": "libreoffice",
+        "display_name": "LibreOffice"
+      },
+      {
+        "software": "planamesa-neooffice",
+        "display_name": "Planamesa NeoOffice",
+        "status": "discontinued"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apache-openoffice",
+        "display_name": "Apache OpenOffice"
+      },
+      {
+        "software": "planamesa-neooffice",
+        "display_name": "Planamesa NeoOffice",
+        "status": "discontinued"
+      },
+      {
+        "software": "libreoffice",
+        "display_name": "LibreOffice"
+      }
+    ],
+    "linux": [
+      {
+        "software": "apache-openoffice",
+        "display_name": "Apache OpenOffice"
+      },
+      {
+        "software": "libreoffice",
+        "display_name": "LibreOffice"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-11-09",
+  "sources": [
+    {
+      "url": "oxt.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

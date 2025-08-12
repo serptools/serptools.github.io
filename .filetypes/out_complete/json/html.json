@@ -1,0 +1,45 @@
+{
+  "slug": "html",
+  "extension": "html",
+  "name": "Hypertext Markup Language File",
+  "summary": "An HTML file contains Hypertext Markup Language ( HTML ) that formats the structure of a webpage. It is stored in a standard text format and contains tags that define the page layout and content of the webpage, including the text, tables, images, and hyperlinks displayed on the webpage. HTML files are widely used online and displayed in web browsers.",
+  "developer": "WHATWG",
+  "developer_slug": "whatwg",
+  "category": "Web Files",
+  "category_slug": "web-files",
+  "rating": 3.5,
+  "votes": 1837,
+  "last_updated": "January 12, 2022",
+  "more_information": {
+    "content": [
+      "HTML was introduced in 1991 by Tim Berners-Lee and other CERN engineers as a way for web browsers to interpret and display webpages. Since its release, it has become a standard in web development and has gone through multiple revisions, which include HTML 2 (1995), HTML 3 (January 1997), HTML 4 (December 1997), and HTML 5 (2014).",
+      "The Web Hypertext Application Technology Working Group (WHATWG) develops and advances HTML. The group was founded in 2004 and consists of major browser developers, including Google, Microsoft, Apple, and Mozilla.",
+      "The markup language features HTML elements that make up the structure of webpages. Typically, each element includes an opening tag enclosed in angle brackets ( <tag> ) and a closing tag enclosed in angle brackets but with a forward slash preceding the tag ( </tag> ).",
+      "Some examples of basic elements include:",
+      "Over time, other web technologies, such as Cascading Style Sheets ( CSS ) and JavaScript , have been introduced to enhance webpages. You will most likely find CSS or JavaScript code or references to .CSS or .JS files in modern HTML webpages.",
+      "Web developers often create and edit HTML files, then upload them to web servers that web browsers parse when a user visits webpages. If you are an average Internet user, you most likely will not see the HTML source code since your web browser parses it in the background.",
+      "However, you can still view the HTML of a webpage with a web browser by following these steps specific to the browser:",
+      "NOTE: Most pages within static websites have an .html extension, while pages within dynamic websites may have a .php or .asp extension."
+    ],
+    "screenshot": {
+      "url": "https://fileinfo.com/img/ss/sm/html_36.png",
+      "srcset": "https://fileinfo.com/img/ss/md/html_36.png 760w, https://fileinfo.com/img/ss/sm/html_36.png 380w",
+      "alt": "Screenshot of a .html file in Adobe Dreamweaver 2021",
+      "width": "380",
+      "height": "253",
+      "caption": "HTML file open in Adobe Dreamweaver 2021"
+    }
+  },
+  "how_to_open": {
+    "instructions": [
+      "You can open and edit HTML files with various source code editors and web development applications. Microsoft Visual Studio Code (multiplatform) is a helpful source code editor and Adobe Dreamweaver (multiplatform) is a popular web development application.",
+      "Since HTML language is saved in plain text, you can also open and edit HTML files with a basic text editor, such as Microsoft Notepad (Windows) or Apple TextEdit (Mac). However, these text editors do not come with features included with source code editors and web development apps that make it easier for developers to code.",
+      "You can preview an HTML webpage by opening it with a web browser, such as Google Chrome (multiplatform), Microsoft Edge (multiplatform), Mozilla Firefox (multiplatform), or Apple Safari (Mac and iOS)."
+    ]
+  },
+  "scraped_at": "2025-08-09T21:58:54.941881",
+  "source": {
+    "url": "https://fileinfo.com/extension/html",
+    "file": "html.html"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "slug": "olk14msgsource",
+  "extension": "olk14msgsource",
+  "name": "Outlook Email Message Data File",
+  "category": "outlook-email-message-data-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "Data file created by Outlook for Mac, an email program first released with the Office 2011 suite; contains all email source data for a message referenced in an .OLK14MESSAGE file; loaded when viewing a specific email message.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "microsoft-outlook-365",
+        "display_name": "Microsoft Outlook 365"
+      },
+      {
+        "software": "gladwev-olk14-message-recovery-tool",
+        "display_name": "Gladwev OLK14 Message Recovery Tool"
+      }
+    ],
+    "windows": [
+      {
+        "software": "microsoft-outlook-365",
+        "display_name": "Microsoft Outlook 365"
+      },
+      {
+        "software": "gladwev-olk14-message-recovery-tool",
+        "display_name": "Gladwev OLK14 Message Recovery Tool"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-02-10",
+  "sources": [
+    {
+      "url": "olk14msgsource.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

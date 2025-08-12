@@ -1,0 +1,63 @@
+{
+  "slug": "spf",
+  "extension": "spf",
+  "name": "ShadowProtect Full Backup File",
+  "category": "1.-shadowprotect-full-backup-file",
+  "developer_org": "storagecraft-technology",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "An SPF file is a full backup file created by StorageCraft ShadowProtect, a backup and disaster recovery program available for Windows. It contains a disk image that can be used to restore a system's data to a previous state. SPF files are often combined with .SPI files, which contain incremental ShadowProtect backups.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "storagecraft-technology-shadowprotect",
+        "display_name": "StorageCraft Technology ShadowProtect"
+      },
+      {
+        "software": "vmware-vcenter-converter",
+        "display_name": "VMware vCenter Converter"
+      },
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      }
+    ],
+    "macos": [
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-02-25",
+  "sources": [
+    {
+      "url": "spf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

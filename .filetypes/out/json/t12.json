@@ -1,0 +1,53 @@
+{
+  "slug": "t12",
+  "extension": "t12",
+  "name": "At Home 2012 Tax Return",
+  "category": "at-home-2012-tax-return",
+  "developer_org": "h-r-block",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Tax return created with the 2012 version of H&R Block At Home tax preparation software; includes United States federal tax forms for the 2012 tax year; may also contain state tax forms if a state return has been selected; stores data entered by the user so the tax return can be saved and continued at a later time.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "h-r-block-tax-software",
+        "display_name": "H&R Block Tax Software"
+      }
+    ],
+    "macos": [
+      {
+        "software": "h-r-block-tax-software",
+        "display_name": "H&R Block Tax Software"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-12-19",
+  "sources": [
+    {
+      "url": "t12.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "slug": "tcr",
+  "extension": "tcr",
+  "name": "Psion Series 3 eBook File",
+  "category": "1.-psion-series-3-ebook-file",
+  "developer_org": "psion-teklogix",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "eBook created in the TCR format, which was originally used by the older Psion Series 3 palmtop devices developed in the 1990s; stores the eBook text and formatting in a proprietary format used internally by the Psion device.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "calibre",
+        "display_name": "Calibre"
+      },
+      {
+        "software": "sumatra-pdf",
+        "display_name": "Sumatra PDF"
+      },
+      {
+        "software": "touchmagix-media-touchmagix-creative-suite",
+        "display_name": "TouchMagix Media TouchMagix Creative Suite"
+      }
+    ],
+    "macos": [
+      {
+        "software": "calibre",
+        "display_name": "Calibre"
+      }
+    ],
+    "linux": [
+      {
+        "software": "calibre",
+        "display_name": "Calibre"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-04-29",
+  "sources": [
+    {
+      "url": "tcr.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

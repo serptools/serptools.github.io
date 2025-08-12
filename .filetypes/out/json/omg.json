@@ -1,0 +1,88 @@
+{
+  "slug": "omg",
+  "extension": "omg",
+  "name": "OpenMG Audio File",
+  "category": "1.-openmg-audio-file",
+  "developer_org": "sony",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "Compressed audio file that uses Sony's OpenMG technology; based on Sony's ATRAC3 format, but also includes digital rights management DRM to prevent files from being copied illegally; supported by SonicStage, Sony's music jukebox program.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "sony-sonicstage",
+        "display_name": "Sony SonicStage",
+        "status": "discontinued"
+      },
+      {
+        "software": "start-drive-image",
+        "display_name": "Start → Drive image"
+      },
+      {
+        "software": "start-drive-imaging",
+        "display_name": "Start drive imaging"
+      },
+      {
+        "software": "start",
+        "display_name": "Start"
+      },
+      {
+        "software": "start-drive-restoration",
+        "display_name": "Start → Drive restoration"
+      },
+      {
+        "software": "open",
+        "display_name": "Open"
+      },
+      {
+        "software": "start-drive-restoration",
+        "display_name": "Start drive restoration"
+      },
+      {
+        "software": "tools-convert-image-file...",
+        "display_name": "Tools → Convert image file..."
+      },
+      {
+        "software": "add",
+        "display_name": "Add"
+      },
+      {
+        "software": "close",
+        "display_name": "Close"
+      },
+      {
+        "software": "o-o-software-o-o-diskimage-8",
+        "display_name": "O&O Software O&O DiskImage 8"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2007-11-13",
+  "sources": [
+    {
+      "url": "omg.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

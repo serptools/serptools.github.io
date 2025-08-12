@@ -1,0 +1,41 @@
+{
+  "slug": "gmi",
+  "extension": "gmi",
+  "name": "Gemtext Document",
+  "category": "gemtext-document",
+  "summary": "",
+  "developer_org": "solderpunk",
+  "developer_name": "Solderpunk",
+  "more_information": {
+    "screenshot": {
+      "url": "https://fileinfo.com/img/ss/sm/gmi_13284.png",
+      "alt": "Screenshot of a .gmi file in Microsoft Visual Studio Code",
+      "caption": "GMI file open in Microsoft Visual Studio Code"
+    },
+    "description": [
+      "Gemini is an internet communication protocol that is meant to complement HTTPS and Gopher. It was originally developed in 2019 by Solderpunk and has since been iterated upon by a community of users.",
+      "Just as webpages served via HTTPS are written and formatted using HTML , webpages served via Gemini are formatted using Gemtext. These documents are then saved as GMI files.",
+      "Each GMI file can contain:",
+      "Additionally, GMI files can contain lines that begin with ``` . Gemini clients always print lines that start with ``` as-is, without applying the rules of Gemtext formatting."
+    ]
+  },
+  "images": [
+    {
+      "url": "https://fileinfo.com/img/ss/sm/gmi_13284.png",
+      "alt": "Screenshot of a .gmi file in Microsoft Visual Studio Code",
+      "caption": "GMI file open in Microsoft Visual Studio Code"
+    },
+    {
+      "url": "https://fileinfo.com/img/ss/sm/gmi_13284-2.png",
+      "alt": "GMI file open in Lagrange",
+      "caption": "GMI file open in Lagrange"
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "gmi.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

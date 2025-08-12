@@ -1,0 +1,47 @@
+{
+  "slug": "ontx",
+  "extension": "ontx",
+  "name": "theWord Encrypted Bible Text Module",
+  "category": "theword-encrypted-bible-text-module",
+  "developer_org": "theword-bible-software",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "File used by theWord free Bible software; stores a translation of the Bible in an encrypted format; differs from an .ONT file, which does not use encryption; allows users and third-party vendors to protect their version of the Bible.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "theword",
+        "display_name": "theWord"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-05-03",
+  "sources": [
+    {
+      "url": "ontx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

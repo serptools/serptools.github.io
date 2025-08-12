@@ -1,0 +1,51 @@
+{
+  "slug": "mnc",
+  "extension": "mnc",
+  "name": "AutoCAD Compiled Menu File",
+  "category": "1.-autocad-compiled-menu-file",
+  "developer_org": "autodesk",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "Compiled ASCII text file created by AutoCAD, a design program commonly used in manufacturing, architecture, and construction; contains syntax and strings that define the appearance and behavior of user interface elements; used for customizing the AutoCAD workspace.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "autodesk-autocad-2025",
+        "display_name": "Autodesk AutoCAD 2025"
+      },
+      {
+        "software": "bc-software-my-notes-center",
+        "display_name": "BC Software My Notes Center"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-05-18",
+  "sources": [
+    {
+      "url": "mnc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

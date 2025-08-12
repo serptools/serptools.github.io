@@ -1,0 +1,91 @@
+{
+  "slug": "sec",
+  "extension": "sec",
+  "name": "PGP Secret Key Ring",
+  "category": "1.-pgp-secret-key-ring",
+  "developer_org": "broadcom",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 46,
+    "source": "fileinfo"
+  },
+  "summary": "An SEC file is a data file that contains private encryption keys used by Pretty Good Privacy (PGP) encryption software, which are necessary for decrypting messages or files encrypted using a corresponding public key. SEC files may also store key metadata , such as creation and expiration dates, and be passphrase-protected.",
+  "standards": [],
+  "mime_types": [
+    "h.264/avc"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "broadcom-symantec-pgp-desktop",
+        "display_name": "Broadcom Symantec PGP Desktop",
+        "status": "discontinued"
+      },
+      {
+        "software": "gnupg",
+        "display_name": "GnuPG"
+      },
+      {
+        "software": "samsung-smartviewer",
+        "display_name": "Samsung SmartViewer"
+      },
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      },
+      {
+        "software": "microsoft-windows-with-usb-connection",
+        "display_name": "Microsoft Windows with USB connection"
+      }
+    ],
+    "macos": [
+      {
+        "software": "broadcom-symantec-pgp-desktop",
+        "display_name": "Broadcom Symantec PGP Desktop",
+        "status": "discontinued"
+      },
+      {
+        "software": "gnupg",
+        "display_name": "GnuPG"
+      },
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      }
+    ],
+    "linux": [
+      {
+        "software": "gnupg",
+        "display_name": "GnuPG"
+      },
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2025-01-10",
+  "sources": [
+    {
+      "url": "sec.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

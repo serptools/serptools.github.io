@@ -1,0 +1,157 @@
+{
+  "slug": "crd",
+  "extension": "crd",
+  "name": "Guitar chord File",
+  "category": "1.-guitar-chord-file",
+  "developer_org": "martin-leclerc-and-mario-dorion",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 35,
+    "source": "fileinfo"
+  },
+  "summary": "A CRD file is a guitar tablature file that contains song lyrics with matching guitar chords and tabs. It is a plain text file saved in the chord (crd) format, which includes a title, comments, lyrics on separate lines, and chords inside brackets (e.g., [D] ).",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "wxchordpro",
+        "display_name": "wxchordpro"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "microsoft-wordpad",
+        "display_name": "Microsoft WordPad"
+      },
+      {
+        "software": "chordpro",
+        "display_name": "ChordPro"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "leafpad",
+        "display_name": "Leafpad"
+      },
+      {
+        "software": "gedit",
+        "display_name": "gedit"
+      },
+      {
+        "software": "microsoft-windows-cardspace",
+        "display_name": "Microsoft Windows CardSpace"
+      },
+      {
+        "software": "azz-cardfile",
+        "display_name": "AZZ Cardfile"
+      }
+    ],
+    "web": [
+      {
+        "software": "web-browser",
+        "display_name": "web browser"
+      },
+      {
+        "software": "wxchordpro",
+        "display_name": "wxchordpro"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "microsoft-wordpad",
+        "display_name": "Microsoft WordPad"
+      },
+      {
+        "software": "leafpad",
+        "display_name": "Leafpad"
+      },
+      {
+        "software": "gedit",
+        "display_name": "gedit"
+      }
+    ],
+    "macos": [
+      {
+        "software": "macromates-textmate",
+        "display_name": "MacroMates TextMate"
+      },
+      {
+        "software": "chordpro",
+        "display_name": "ChordPro"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      }
+    ],
+    "chromeos": [
+      {
+        "software": "google-chrome-text",
+        "display_name": "Google Chrome Text"
+      }
+    ],
+    "linux": [
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "leafpad",
+        "display_name": "Leafpad"
+      },
+      {
+        "software": "gedit",
+        "display_name": "gedit"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "CRD file open in Apple TextEdit 1",
+      "alt": "CRD file open in Apple TextEdit 1",
+      "source_url": "https://fileinfo.com/img/ss/md/crd_1059.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-08-19",
+  "sources": [
+    {
+      "url": "crd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

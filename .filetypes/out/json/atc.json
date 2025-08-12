@@ -1,0 +1,51 @@
+{
+  "slug": "atc",
+  "extension": "atc",
+  "name": "AutoCAD Tool Catalog File",
+  "category": "autocad-tool-catalog-file",
+  "developer_org": "autodesk",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "Tool catalog file used by the AutoCAD design and documentation CAD software; contains definitions for all of the tools in a user interface palette; used for storing tool configurations and customizing the AutoCAD workspace.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "autodesk-autocad-2025",
+        "display_name": "Autodesk AutoCAD 2025"
+      },
+      {
+        "software": "autodesk-autocad-civil-3d-2023",
+        "display_name": "Autodesk AutoCAD Civil 3D 2023"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-09-08",
+  "sources": [
+    {
+      "url": "atc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

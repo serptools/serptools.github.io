@@ -1,0 +1,105 @@
+{
+  "slug": "profile",
+  "extension": "profile",
+  "name": "Citrix Application Profile",
+  "category": "1.-citrix-application-profile",
+  "developer_org": "citrix",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 17,
+    "source": "fileinfo"
+  },
+  "summary": "Configuration file used by Citrix XenApp, a software package used for delivering virtualized software to client systems; stores the data needed for launching a streamed application to the user.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "citrix-xenapp",
+        "display_name": "Citrix XenApp"
+      },
+      {
+        "software": "godot-engine",
+        "display_name": "Godot Engine"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-terminal",
+        "display_name": "Apple Terminal"
+      },
+      {
+        "software": "macromates-textmate",
+        "display_name": "MacroMates TextMate"
+      },
+      {
+        "software": "gnu-bash",
+        "display_name": "GNU Bash"
+      },
+      {
+        "software": "godot-engine",
+        "display_name": "Godot Engine"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "gnu-bash",
+        "display_name": "GNU Bash"
+      },
+      {
+        "software": "godot-engine",
+        "display_name": "Godot Engine"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "ios": [
+      {
+        "software": "pandemic-studios-star-wars-battlefront-ii",
+        "display_name": "Pandemic Studios Star Wars: Battlefront II"
+      },
+      {
+        "software": "pandemic-studios-mercenaries-2-world-in-flames",
+        "display_name": "Pandemic Studios Mercenaries 2: World in Flames"
+      },
+      {
+        "software": "pandemic-studios-the-sabateur",
+        "display_name": "Pandemic Studios The Sabateur"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-04-29",
+  "sources": [
+    {
+      "url": "profile.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

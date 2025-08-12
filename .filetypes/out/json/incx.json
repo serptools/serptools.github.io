@@ -1,0 +1,67 @@
+{
+  "slug": "incx",
+  "extension": "incx",
+  "name": "InCopy CS3 Interchange File",
+  "category": "incopy-cs3-interchange-file",
+  "developer_org": "adobe-systems",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "File used by InCopy, a word processing program used with the Adobe InDesign page layout application; contains page layout graphics and frames that are exported from InDesign; used to submit a subset of an .INDD file for editing.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "adobe-incopy-2023",
+        "display_name": "Adobe InCopy 2023"
+      },
+      {
+        "software": "adobe-indesign-2023",
+        "display_name": "Adobe InDesign 2023"
+      }
+    ],
+    "macos": [
+      {
+        "software": "adobe-incopy-2023",
+        "display_name": "Adobe InCopy 2023"
+      },
+      {
+        "software": "adobe-indesign-2023",
+        "display_name": "Adobe InDesign 2023"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "INCX file icon",
+      "alt": "INCX file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/incx-4808.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-02-27",
+  "sources": [
+    {
+      "url": "incx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

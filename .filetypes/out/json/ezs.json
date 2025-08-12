@@ -1,0 +1,68 @@
+{
+  "slug": "ezs",
+  "extension": "ezs",
+  "name": "EZ-R Stats Batch Script",
+  "category": "ez-r-stats-batch-script",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.2,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "An EZS file is a batch script used by EZ-R Stats, a discontinued data analysis program for performing statistical and analytical operations. It contains plain text instructions that automate various tasks, such as processing datasets, running statistical tests, and managing database functions. EZ-R Stats run EZS files to execute repetitive or complex analyses so users do not need to manually enter commands each time.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      },
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2025-02-13",
+  "sources": [
+    {
+      "url": "ezs.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

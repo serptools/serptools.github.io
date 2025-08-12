@@ -1,0 +1,47 @@
+{
+  "slug": "xdf",
+  "extension": "xdf",
+  "name": "Microsoft Machine Learning Server Data File",
+  "category": "microsoft-machine-learning-server-data-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 11,
+    "source": "fileinfo"
+  },
+  "summary": "XDF files are used by Microsoft Machine Learning Server, an enterprise machine learning platform used by data scientists and data engineers. They store blocks of binary data formatted in columns and rows. XDF files also contain metadata about the data set, including the names of data variables, descriptions of the variables, and how the data is stored (integer, factor, etc.).",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "microsoft-machine-learning-server",
+        "display_name": "Microsoft Machine Learning Server"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-12-09",
+  "sources": [
+    {
+      "url": "xdf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

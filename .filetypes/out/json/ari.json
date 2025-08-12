@@ -1,0 +1,102 @@
+{
+  "slug": "ari",
+  "extension": "ari",
+  "name": "ARRIRAW Image",
+  "category": "1.-arriraw-image",
+  "developer_org": "arri-group",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 18,
+    "source": "fileinfo"
+  },
+  "summary": "An ARI file is a still frame image recorded by an ARRI digital video camera, such as ALEXA MINI and AMIRA. It stores uncompressed image data in the ARRIRAW format exactly how the sensor on the camera captured it. ARI files are single still frames from a sequence of images that comprise a recorded video.",
+  "standards": [],
+  "mime_types": [
+    "cineon/dpx"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "arriraw-converter",
+        "display_name": "ARRIRAW Converter"
+      },
+      {
+        "software": "microsoft-photos",
+        "display_name": "Microsoft Photos"
+      },
+      {
+        "software": "adobe-speedgrade",
+        "display_name": "Adobe SpeedGrade",
+        "status": "discontinued"
+      },
+      {
+        "software": "apple-final-cut-pro-with-glue-tools-cineon-dpx-pro-plugin",
+        "display_name": "Apple Final Cut Pro with Glue Tools Cineon/DPX Pro plugin"
+      },
+      {
+        "software": "rao-ari",
+        "display_name": "RAO ARI"
+      }
+    ],
+    "macos": [
+      {
+        "software": "arriraw-converter",
+        "display_name": "ARRIRAW Converter"
+      },
+      {
+        "software": "apple-final-cut-pro-with-glue-tools-cineon-dpx-pro-plugin",
+        "display_name": "Apple Final Cut Pro with Glue Tools Cineon/DPX Pro plugin"
+      },
+      {
+        "software": "adobe-speedgrade",
+        "display_name": "Adobe SpeedGrade",
+        "status": "discontinued"
+      }
+    ],
+    "linux": [
+      {
+        "software": "arriraw-converter",
+        "display_name": "ARRIRAW Converter"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "ARI file icon",
+      "alt": "ARI file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/ari-7681.png"
+    },
+    {
+      "caption": "ARI file open in ARRIRAW Converter 4.3",
+      "alt": "ARI file open in ARRIRAW Converter 4.3",
+      "source_url": "https://fileinfo.com/img/ss/md/ari_7681.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-02-16",
+  "sources": [
+    {
+      "url": "ari.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

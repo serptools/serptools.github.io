@@ -1,0 +1,65 @@
+{
+  "slug": "oebzip",
+  "extension": "oebzip",
+  "name": "Zipped Open eBook File",
+  "category": "zipped-open-ebook-file",
+  "developer_org": "idpf",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "Zipped electronic publication created in the legacy Open eBook (OEB) format; contains the index, chapters, and page content of an .OEB file but compressed with Zip compression.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "geometer-plus-fbreader",
+        "display_name": "Geometer Plus FBReader"
+      }
+    ],
+    "macos": [
+      {
+        "software": "geometer-plus-fbreader",
+        "display_name": "Geometer Plus FBReader"
+      }
+    ],
+    "linux": [
+      {
+        "software": "geometer-plus-fbreader",
+        "display_name": "Geometer Plus FBReader"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "OEBZIP file icon",
+      "alt": "OEBZIP file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/oebzip-9711.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-10-09",
+  "sources": [
+    {
+      "url": "oebzip.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

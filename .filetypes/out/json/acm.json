@@ -1,0 +1,51 @@
+{
+  "slug": "acm",
+  "extension": "acm",
+  "name": "Interplay Audio File",
+  "category": "interplay-audio-file",
+  "developer_org": "bioware",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 15,
+    "source": "fileinfo"
+  },
+  "summary": "Compressed audio file used by Interplay video games, such as Baldur's Gate and Fallout; contains compressed audio stored in a proprietary format; may be converted to other audio file types, such as .WAV files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "nullsoft-winamp-with-acm-plug-in",
+        "display_name": "NullSoft Winamp with ACM Plug-in"
+      },
+      {
+        "software": "acm2wav",
+        "display_name": "Acm2wav"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-12-05",
+  "sources": [
+    {
+      "url": "acm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

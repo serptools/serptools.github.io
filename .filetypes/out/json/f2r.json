@@ -1,0 +1,51 @@
+{
+  "slug": "f2r",
+  "extension": "f2r",
+  "name": "Farandole Linear Module",
+  "category": "farandole-linear-module",
+  "developer_org": "farandole",
+  "popularity": {
+    "rating": 2.7,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "An F2R file is a linear-format audio module created by Farandole Composer, a music tracker for MS-DOS. It contains synthesized music. This music is comprised of note patterns, sound samples, and other data.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "fmj-software-awave-studio",
+        "display_name": "FMJ-Software Awave Studio"
+      },
+      {
+        "software": "farandole-composer",
+        "display_name": "Farandole Composer"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-03-13",
+  "sources": [
+    {
+      "url": "f2r.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

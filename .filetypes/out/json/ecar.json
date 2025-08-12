@@ -1,0 +1,61 @@
+{
+  "slug": "ecar",
+  "extension": "ecar",
+  "name": "DIKSHA Offline Content Archive",
+  "category": "diksha-offline-content-archive",
+  "developer_org": "diksha",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "An ECAR file is a Zip-compressed archive that contains content saved to be accessed offline in the Android version of DIKSHA, an educational app offered by the Government of India. The video, document, or other content an ECAR file contains is meant to be viewed in DIKSHA. However, users can also access an ECAR file's contents by renaming it to use the .zip extension and then opening it as they would any .ZIP archive.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "android": [
+      {
+        "software": "rename-.ecar-to-.zip-then-expand-with-zip-decompression-tool",
+        "display_name": "Rename .ecar to .zip , then expand with Zip-decompression tool"
+      },
+      {
+        "software": "diksha",
+        "display_name": "DIKSHA"
+      }
+    ],
+    "windows": [
+      {
+        "software": "rename-.ecar-to-.zip-then-expand-with-zip-decompression-tool",
+        "display_name": "Rename .ecar to .zip , then expand with Zip-decompression tool"
+      },
+      {
+        "software": "diksha",
+        "display_name": "DIKSHA"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-01-19",
+  "sources": [
+    {
+      "url": "ecar.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

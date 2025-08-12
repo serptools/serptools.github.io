@@ -1,0 +1,57 @@
+{
+  "slug": "vstx",
+  "extension": "vstx",
+  "name": "Microsoft Visio Drawing Template",
+  "category": "microsoft-visio-drawing-template",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "A VSTX file is a drawing template created by Microsoft Visio, a technical drawing program. It stores a drawing with a layout, content, and settings Visio users utilize to create multiple Visio drawings ( .VSDX files) with a similar appearance. Microsoft introduced the VSTX format when it released Visio 2013.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "microsoft-visio-365",
+        "display_name": "Microsoft Visio 365"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "VSTX file icon",
+      "alt": "VSTX file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/vstx-8538.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-08-09",
+  "sources": [
+    {
+      "url": "vstx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "adox",
+  "extension": "adox",
+  "name": "ActivDox Document",
+  "category": "activdox-document",
+  "developer_org": "activdox",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "Document used by ActivDox, a mobile document management solution for tablets and workstations; saves an interactive document and supports active content as well as version control; downloaded from an ActivDox server and can link back to the originating server for providing additional content and functionality.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "android": [
+      {
+        "software": "activdox-adoxreader",
+        "display_name": "ActivDox ADoxReader"
+      }
+    ],
+    "ios": [
+      {
+        "software": "activdox-adoxreader",
+        "display_name": "ActivDox ADoxReader"
+      }
+    ],
+    "windows": [
+      {
+        "software": "activdox-adoxreader",
+        "display_name": "ActivDox ADoxReader"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-07-10",
+  "sources": [
+    {
+      "url": "adox.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

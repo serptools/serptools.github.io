@@ -1,0 +1,95 @@
+{
+  "slug": "xbf",
+  "extension": "xbf",
+  "name": "XAML Binary File",
+  "category": "1.-xaml-binary-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 135,
+    "source": "fileinfo"
+  },
+  "summary": "File created by Microsoft Visual Studio, A Windows SDK ; contains a pre-parsed binary representation of a .XAML file produced by the XamlBinaryWriter class ; intended to be write-once.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-visual-studio-2022",
+        "display_name": "Microsoft Visual Studio 2022"
+      },
+      {
+        "software": "windows-store-apps",
+        "display_name": "Windows Store Apps"
+      },
+      {
+        "software": "open-cascade-dmu-reviewer",
+        "display_name": "Open Cascade DMU Reviewer"
+      },
+      {
+        "software": "open-cascade-cad-processor",
+        "display_name": "Open Cascade CAD Processor"
+      },
+      {
+        "software": "open-cascade-asset-revamping",
+        "display_name": "Open Cascade Asset Revamping"
+      },
+      {
+        "software": "open-cascade-cad-assistant",
+        "display_name": "Open Cascade CAD Assistant"
+      },
+      {
+        "software": "open-cascade-cad-builder",
+        "display_name": "Open Cascade CAD Builder"
+      }
+    ],
+    "macos": [
+      {
+        "software": "open-cascade-cad-assistant",
+        "display_name": "Open Cascade CAD Assistant"
+      }
+    ],
+    "linux": [
+      {
+        "software": "open-cascade-cad-assistant",
+        "display_name": "Open Cascade CAD Assistant"
+      }
+    ],
+    "ios": [
+      {
+        "software": "open-cascade-cad-assistant",
+        "display_name": "Open Cascade CAD Assistant"
+      }
+    ],
+    "android": [
+      {
+        "software": "open-cascade-cad-assistant",
+        "display_name": "Open Cascade CAD Assistant"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2013-11-01",
+  "sources": [
+    {
+      "url": "xbf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "slug": "diagsession",
+  "extension": "diagsession",
+  "name": "Diagnostics Session File",
+  "category": "diagnostics-session-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "A DIAGSESSION file is a diagnostics session created by Internet Explorer, a web browser for Windows, or Visual Studio, a software development tool. It contains diagnostics data from a debug session, which allows developers to troubleshoot problems with an application, such as memory and performance issues.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-visual-studio-2022",
+        "display_name": "Microsoft Visual Studio 2022"
+      },
+      {
+        "software": "microsoft-internet-explorer",
+        "display_name": "Microsoft Internet Explorer",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2016-12-14",
+  "sources": [
+    {
+      "url": "diagsession.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

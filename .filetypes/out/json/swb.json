@@ -1,0 +1,53 @@
+{
+  "slug": "swb",
+  "extension": "swb",
+  "name": "Sketchware Pro Backup",
+  "category": "sketchware-pro-backup",
+  "developer_org": "sketchware-pro",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "An SWB file is a backup file created by Sketchware Pro, an app development environment available for Android devices. It contains an app development project. In addition to being used as backup files, SWB files are used to share projects with other Sketchware Pro users.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "android": [
+      {
+        "software": "sketchware-pro",
+        "display_name": "Sketchware Pro"
+      }
+    ],
+    "windows": [
+      {
+        "software": "sketchware-pro",
+        "display_name": "Sketchware Pro"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-08-12",
+  "sources": [
+    {
+      "url": "swb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

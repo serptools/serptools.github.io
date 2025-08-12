@@ -1,0 +1,69 @@
+{
+  "slug": "vpr",
+  "extension": "vpr",
+  "name": "VOCALOID Project",
+  "category": "vocaloid-project",
+  "developer_org": "yamaha",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "A VPR file is a project file created by Yamaha VOCALOID5 or VOCALOID6. It stores musical notes, lyrics, and synthesized vocals used in a project. YAMAHA introduced the VPR format when it released VOCALOID5, replacing the previous .VSQX format.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "yamaha-vocaloid5",
+        "display_name": "YAMAHA VOCALOID5"
+      },
+      {
+        "software": "yamaha-vocaloid6",
+        "display_name": "YAMAHA VOCALOID6"
+      },
+      {
+        "software": "dreamtonics-synthesizer-v",
+        "display_name": "Dreamtonics Synthesizer V"
+      }
+    ],
+    "macos": [
+      {
+        "software": "yamaha-vocaloid5",
+        "display_name": "YAMAHA VOCALOID5"
+      },
+      {
+        "software": "yamaha-vocaloid6",
+        "display_name": "YAMAHA VOCALOID6"
+      },
+      {
+        "software": "dreamtonics-synthesizer-v",
+        "display_name": "Dreamtonics Synthesizer V"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2025-03-04",
+  "sources": [
+    {
+      "url": "vpr.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

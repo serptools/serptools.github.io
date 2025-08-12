@@ -1,0 +1,22 @@
+{
+  "slug": "pde",
+  "extension": "pde",
+  "name": "Arduino Sketch",
+  "category": "arduino-sketch",
+  "summary": "",
+  "developer_org": "step-function",
+  "developer_name": "Step Function",
+  "more_information": {
+    "description": [
+      "The Arduino electronics prototyping platform allows developers to create and install basic programs, called sketches, on a variety of specialized circuit boards. Sketches can perform simple functions, such as making an LED installed on a circuit board blink, or complex functions, such as transmitting data over the Internet. Developers create Arduino sketches in the Arduino Integrated Development Environment ( IDE ), which previously saved sketches as PDE files.",
+      "To avoid internal file association conflicts, Arduino began saving sketches as .INO files with the release of Arduino 1.0. The Arduino IDE can still open PDE files, but it now saves all sketches as INO files."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "pde.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

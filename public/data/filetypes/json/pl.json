@@ -1,0 +1,33 @@
+{
+  "slug": "pl",
+  "extension": "pl",
+  "name": "Perl Script",
+  "summary": "A PL file contains source code written in Perl, a scripting language compiled and run using a Perl interpreter. It contains lines of Perl program code with variables, operations, functions, and comments. PL files may be difficult to read due to the brief and compact nature of the Perl language syntax.",
+  "developer": "Larry Wall",
+  "developer_slug": "larry-wall",
+  "category": "Developer Files",
+  "category_slug": "developer-files",
+  "rating": 3.8,
+  "votes": 127,
+  "last_updated": "October 25, 2019",
+  "more_information": {
+    "content": [
+      "Programmers may use PL scripts for various purposes, including web server CGI scripting, system administration, and app GUI development. The scripting language is also commonly used to read and search through large amounts of text files since it is especially helpful for parsing text.",
+      "Programmers typically open and modify PL files with source code editors, such as Microsoft Visual Studio Code and MacroMates TextMate. Plain text editors, including Microsoft Notepad and Apple TextEdit, may also open and modify PL files. However, source code editors provide more helpful viewing and editing features for the Perl scripting language that are not available with plain text editors.",
+      "NOTE: PL files typically start with the line #!/usr/local/bin/perl , which tells the computer to run the script using the installed Perl interpreter."
+    ],
+    "screenshot": {
+      "url": "https://fileinfo.com/img/ss/sm/pl_77.png",
+      "srcset": "https://fileinfo.com/img/ss/md/pl_77.png 760w, https://fileinfo.com/img/ss/sm/pl_77.png 380w",
+      "alt": "Screenshot of a .pl file in Microsoft Visual Studio Code 1",
+      "width": "380",
+      "height": "253",
+      "caption": "PL file open in Microsoft Visual Studio Code 1"
+    }
+  },
+  "scraped_at": "2025-08-09T21:58:55.066733",
+  "source": {
+    "url": "https://fileinfo.com/extension/pl",
+    "file": "pl.html"
+  }
+}

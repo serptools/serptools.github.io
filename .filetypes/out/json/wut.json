@@ -1,0 +1,51 @@
+{
+  "slug": "wut",
+  "extension": "wut",
+  "name": "WUTG Tag File",
+  "category": "1.-wutg-tag-file",
+  "developer_org": "wussoft",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "A WUT file contains ID3v1 audio tags created using WUSSoft WUTG Editor. The tags describe a specific audio file's contents. For example, a WUT file might list a specific song's artist, album, genre, and year of release.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "wussoft-wutg-editor",
+        "display_name": "WUSSoft WUTG Editor"
+      },
+      {
+        "software": "noesis",
+        "display_name": "Noesis"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-12-20",
+  "sources": [
+    {
+      "url": "wut.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "nmoney",
+  "extension": "nmoney",
+  "name": "Denaro Account",
+  "category": "denaro-account",
+  "developer_org": "nickvision",
+  "popularity": {
+    "rating": 4.2,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "An NMONEY file is a financial account transaction record created by Nickvision Denaro, a personal finance application. It contains a record of income added to and expenses debited from an account. Each NMONEY file is a .SQLITE3 database.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "nickvision-denaro",
+        "display_name": "Nickvision Denaro"
+      }
+    ],
+    "linux": [
+      {
+        "software": "nickvision-denaro",
+        "display_name": "Nickvision Denaro"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "NMONEY file open in Nickvision Denaro",
+      "alt": "NMONEY file open in Nickvision Denaro",
+      "source_url": "https://fileinfo.com/img/ss/md/nmoney_13177.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-02-28",
+  "sources": [
+    {
+      "url": "nmoney.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "slug": "xva",
+  "extension": "xva",
+  "name": "Xen Project Virtual Appliance",
+  "category": "xen-project-virtual-appliance",
+  "developer_org": "the-xen-project",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 10,
+    "source": "fileinfo"
+  },
+  "summary": "An XVA file is a virtual appliance used by Citrix XenCenter and other applications that use the Xen Project Management API to configure and control virtual machines. It contains a virtual machine that includes a pre-installed operating system and applications. System administrators use XVA files to import and instantiate virtual appliances on target machines.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "citrix-xencenter",
+        "display_name": "Citrix XenCenter"
+      },
+      {
+        "software": "vates-xen-orchestra",
+        "display_name": "Vates Xen Orchestra"
+      }
+    ],
+    "web": [
+      {
+        "software": "vates-xen-orchestra",
+        "display_name": "Vates Xen Orchestra"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-09-12",
+  "sources": [
+    {
+      "url": "xva.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

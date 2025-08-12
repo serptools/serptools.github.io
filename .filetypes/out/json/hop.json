@@ -1,0 +1,65 @@
+{
+  "slug": "hop",
+  "extension": "hop",
+  "name": "Evil Engine Asset Package",
+  "category": "evil-engine-asset-package",
+  "developer_org": "heavy-iron-studios",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "A HOP file is a game asset package used by a Heavy Iron Studios video game, such as The SpongeBob SquarePants Movie or The Incredibles. It contains all of a game level's resources, including the level's map, sound, and 3D model files. HOP files are sometimes referred to as Heavy Iron Package (HIP) files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "industrial-park",
+        "display_name": "Industrial Park"
+      },
+      {
+        "software": "quickbms",
+        "display_name": "QuickBMS"
+      }
+    ],
+    "ios": [
+      {
+        "software": "watto-studios-game-extractor",
+        "display_name": "Watto Studios Game Extractor"
+      },
+      {
+        "software": "industrial-park",
+        "display_name": "Industrial Park"
+      },
+      {
+        "software": "quickbms",
+        "display_name": "QuickBMS"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-06-22",
+  "sources": [
+    {
+      "url": "hop.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

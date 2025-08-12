@@ -1,0 +1,91 @@
+{
+  "slug": "sda",
+  "extension": "sda",
+  "name": "StarOffice Drawing",
+  "category": "1.-staroffice-drawing",
+  "developer_org": "apache-software-foundation",
+  "popularity": {
+    "rating": 2.8,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "Drawing or diagram created by Apache OpenOffice Draw, a vector graphics drawing program included with Apache OpenOffice and Oracle's Open Office; typically contains drawn vector objects but also supports raster graphics.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "openoffice-draw",
+        "display_name": "OpenOffice Draw"
+      },
+      {
+        "software": "libreoffice",
+        "display_name": "LibreOffice"
+      },
+      {
+        "software": "planamesa-neooffice",
+        "display_name": "Planamesa NeoOffice",
+        "status": "discontinued"
+      },
+      {
+        "software": "star-finanz-starmoney",
+        "display_name": "Star Finanz StarMoney"
+      }
+    ],
+    "macos": [
+      {
+        "software": "openoffice-draw",
+        "display_name": "OpenOffice Draw"
+      },
+      {
+        "software": "planamesa-neooffice",
+        "display_name": "Planamesa NeoOffice",
+        "status": "discontinued"
+      },
+      {
+        "software": "libreoffice",
+        "display_name": "LibreOffice"
+      }
+    ],
+    "linux": [
+      {
+        "software": "openoffice-draw",
+        "display_name": "OpenOffice Draw"
+      },
+      {
+        "software": "libreoffice",
+        "display_name": "LibreOffice"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "SDA file icon",
+      "alt": "SDA file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/sda-1995.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2013-07-26",
+  "sources": [
+    {
+      "url": "sda.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

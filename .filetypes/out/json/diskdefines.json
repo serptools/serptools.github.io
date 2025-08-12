@@ -1,0 +1,49 @@
+{
+  "slug": "diskdefines",
+  "extension": "diskdefines",
+  "name": "Linux LiveCD Information File",
+  "category": "linux-livecd-information-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 17,
+    "source": "fileinfo"
+  },
+  "summary": "Readme file often found on Linux LiveCD installer discs, such as an Ubuntu Linux installation CD; typically named \"README.diskdefines\" and may be referenced during installation.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "linux": [
+      {
+        "software": "linux-livecd-installer",
+        "display_name": "Linux LiveCD Installer"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2007-11-05",
+  "sources": [
+    {
+      "url": "diskdefines.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

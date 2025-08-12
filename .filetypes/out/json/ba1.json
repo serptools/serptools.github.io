@@ -1,0 +1,47 @@
+{
+  "slug": "ba1",
+  "extension": "ba1",
+  "name": "TaxAct 2021 1040 Tax Return Backup",
+  "category": "taxact-2021-1040-tax-return-backup",
+  "developer_org": "taxact",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "A BA1 file is a backup of a U.S. tax return created with TaxAct 2021. It contains a user's 2021 personal and income tax information, for use on tax form 1040. BA1 files are used to archive a user's tax return for future reference and to back up the user's return in case their .TA1 file goes missing or becomes corrupt.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "taxact",
+        "display_name": "TaxAct"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-02-21",
+  "sources": [
+    {
+      "url": "ba1.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

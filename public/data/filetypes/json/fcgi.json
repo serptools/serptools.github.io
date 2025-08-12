@@ -1,0 +1,22 @@
+{
+  "slug": "fcgi",
+  "extension": "fcgi",
+  "name": "FastCGI File",
+  "category": "fastcgi-file",
+  "summary": "",
+  "developer_org": "fastcgi",
+  "developer_name": "FastCGI",
+  "more_information": {
+    "description": [
+      "The FastCGI interface includes support for distributed computing so that Web requests can be load balanced across multiple servers. It also includes support for authentication and access roles.",
+      "NOTE: FastCGI is supported by many Web servers natively or through Web server extensions."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "fcgi.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

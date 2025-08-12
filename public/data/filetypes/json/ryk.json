@@ -1,0 +1,23 @@
+{
+  "slug": "ryk",
+  "extension": "ryk",
+  "name": "Ryuk Ransomware Encrypted File",
+  "category": "ryuk-ransomware-encrypted-file",
+  "summary": "",
+  "developer_org": "n-a",
+  "developer_name": "N/A",
+  "more_information": {
+    "description": [
+      "In 2018, users first began reporting the existence of Ryuk ransomware. Named after a death god from the manga Death Note, Ryuk is distributed primarily by Russian criminal cartels. The cartels tend to target large organizations that have a large amount of essential data, network entry points, and money.",
+      "After a user's computer becomes infected by Ryuk, the ransomware targets what it believes to be the user's essential files, as well as any files stored on a network drive. Ryuk encrypts these files and appends them with the .ryk or .rycrypted extension. The ransomware then attempts to delete or disable any backup files and system restore points it can find, to ensure users must pay the ransom to decrypt their files. At that point, the criminals behind Ryuk reach out to the infected user or organization, asking for a ransom paid in Bitcoin. (FileInfo recommends you never pay a ransom to decrypt your files.)",
+      "Ryuk is most commonly distributed via phishing emails designed to trick recipients into downloading and executing the ransomware. However, in early 2021, a new, self-propagating variant of Ryuk ransomware was discovered. This variant of Ryuk can jump from computer to computer within a network, meaning you may not have downloaded anything suspicious, and your computer may still be compromised."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "ryk.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

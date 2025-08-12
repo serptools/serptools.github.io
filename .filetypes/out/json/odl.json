@@ -1,0 +1,73 @@
+{
+  "slug": "odl",
+  "extension": "odl",
+  "name": "Object Description Language File",
+  "category": "1.-object-description-language-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "File written in the Object Description Language (ODL), a language used in the Windows software programming context; allows developers to make their ActiveX objects visible to other vendors by exposing and publishing properties of the objects.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-visual-studio-2022",
+        "display_name": "Microsoft Visual Studio 2022"
+      },
+      {
+        "software": "c-users-user-appdata-local-microsoft-onedrive-logs",
+        "display_name": "C:/​Users/​[USER]/​AppData/​Local/​Microsoft/​OneDrive/​logs"
+      },
+      {
+        "software": "microsoft-onedrive",
+        "display_name": "Microsoft OneDrive"
+      },
+      {
+        "software": "onedrive-log-odl-reader",
+        "display_name": "OneDrive Log ODL Reader"
+      }
+    ],
+    "macos": [
+      {
+        "software": "users-user-library-logs-onedrive",
+        "display_name": "~/​Users/​[USER]/​Library/​Logs/​OneDrive"
+      },
+      {
+        "software": "microsoft-onedrive",
+        "display_name": "Microsoft OneDrive"
+      },
+      {
+        "software": "onedrive-log-odl-reader",
+        "display_name": "OneDrive Log ODL Reader"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-12-05",
+  "sources": [
+    {
+      "url": "odl.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

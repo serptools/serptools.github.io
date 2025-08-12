@@ -1,0 +1,47 @@
+{
+  "slug": "ebd",
+  "extension": "ebd",
+  "name": "Windows EBD System File",
+  "category": "windows-ebd-system-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 15,
+    "source": "fileinfo"
+  },
+  "summary": "System file used by the Windows operating system; not meant to be opened manually but instead is used by Windows when running the operating system.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-windows",
+        "display_name": "Microsoft Windows"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2013-05-20",
+  "sources": [
+    {
+      "url": "ebd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

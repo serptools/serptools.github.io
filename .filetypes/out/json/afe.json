@@ -1,0 +1,63 @@
+{
+  "slug": "afe",
+  "extension": "afe",
+  "name": "Avid File Exchange File",
+  "category": "avid-file-exchange-file",
+  "developer_org": "avid-technology",
+  "popularity": {
+    "rating": 1.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "Metadata file used by Avid video editing and finishing applications; contains the information necessary for transferring digital media assets between Avid systems, such as between Avid Media Composer and Avid DS.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "avid-media-composer",
+        "display_name": "Avid Media Composer"
+      },
+      {
+        "software": "avid-xpress",
+        "display_name": "Avid Xpress",
+        "status": "discontinued"
+      }
+    ],
+    "macos": [
+      {
+        "software": "avid-media-composer",
+        "display_name": "Avid Media Composer"
+      },
+      {
+        "software": "avid-xpress",
+        "display_name": "Avid Xpress",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-05-10",
+  "sources": [
+    {
+      "url": "afe.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

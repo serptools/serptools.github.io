@@ -1,0 +1,55 @@
+{
+  "slug": "ichat",
+  "extension": "ichat",
+  "name": "iChat Saved Chat Log",
+  "category": "ichat-saved-chat-log",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Save file created by iChat, an online chatting application included with Mac OS X; saves the currently opened chat log and enables the user to review past discussions; created by choosing File → Save a Copy As... in the iChat application menu.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "apple-ichat",
+        "display_name": "Apple iChat",
+        "status": "discontinued"
+      }
+    ],
+    "windows": [
+      {
+        "software": "apple-ichat",
+        "display_name": "Apple iChat",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-09-30",
+  "sources": [
+    {
+      "url": "ichat.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

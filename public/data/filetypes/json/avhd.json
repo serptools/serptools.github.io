@@ -1,0 +1,22 @@
+{
+  "slug": "avhd",
+  "extension": "avhd",
+  "name": "Hyper-V SnapShot File",
+  "category": "hyper-v-snapshot-file",
+  "summary": "",
+  "developer_org": "microsoft",
+  "developer_name": "Microsoft",
+  "more_information": {
+    "description": [
+      "AVHD files are supplements to .VHD files, which represent a virtual hard disk's original image. An AVHD file stores differencing information that represents changes from the base VHD disk. This allows users to access either the updated version (AVHD) or the original version (VHD) of a virtual hard disk image as needed. VHD and AVHD files are saved to the same directory.",
+      "NOTE: AVHD files are called Snapshot Differencing Disk files."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "avhd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "slug": "a2w",
+  "extension": "a2w",
+  "name": "Alice World",
+  "category": "1.-alice-world",
+  "developer_org": "carnegie-mellon-university",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 15,
+    "source": "fileinfo"
+  },
+  "summary": "3D world created with Alice, a Java-based educational programming tool used for creating animations and interactive game; defines a three-dimensional space, or \"world,\" that contains 3D objects; compressed in a standard .ZIP format.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "alice",
+        "display_name": "Alice"
+      },
+      {
+        "software": "adlib-tracker-ii",
+        "display_name": "Adlib Tracker II"
+      }
+    ],
+    "macos": [
+      {
+        "software": "alice",
+        "display_name": "Alice"
+      }
+    ],
+    "linux": [
+      {
+        "software": "alice",
+        "display_name": "Alice"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-07-10",
+  "sources": [
+    {
+      "url": "a2w.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

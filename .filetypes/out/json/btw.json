@@ -1,0 +1,47 @@
+{
+  "slug": "btw",
+  "extension": "btw",
+  "name": "BarTender Label",
+  "category": "bartender-label",
+  "developer_org": "seagull-scientific",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 78,
+    "source": "fileinfo"
+  },
+  "summary": "A BTW file contains a barcode label created with BarTender, a professional barcode designing program. It may include bar codes, text, and graphics that can be combined in a custom layout. BTW files also include metadata , such as label properties and the version of BarTender that created the file.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "seagull-scientific-bartender",
+        "display_name": "Seagull Scientific BarTender"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-03-14",
+  "sources": [
+    {
+      "url": "btw.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

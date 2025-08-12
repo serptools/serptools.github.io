@@ -1,0 +1,61 @@
+{
+  "slug": "odlgz",
+  "extension": "odlgz",
+  "name": "Gzipped OneDrive Event Log",
+  "category": "gzipped-onedrive-event-log",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "An ODLGZ file is a OneDrive event log ( .ODL file) that has been compressed using GNU zip (gzip) compression. It contains a list of events that occurred while a user was using the desktop version of OneDrive. Microsoft can use the log an OLDGZ file contains to troubleshoot any synchronization issues that occur as a result of a user editing a file offline.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-onedrive",
+        "display_name": "Microsoft OneDrive"
+      },
+      {
+        "software": "onedrive-log-odl-reader",
+        "display_name": "OneDrive Log ODL Reader"
+      }
+    ],
+    "macos": [
+      {
+        "software": "microsoft-onedrive",
+        "display_name": "Microsoft OneDrive"
+      },
+      {
+        "software": "onedrive-log-odl-reader",
+        "display_name": "OneDrive Log ODL Reader"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-08-29",
+  "sources": [
+    {
+      "url": "odlgz.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

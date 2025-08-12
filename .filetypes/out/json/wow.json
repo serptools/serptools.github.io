@@ -1,0 +1,59 @@
+{
+  "slug": "wow",
+  "extension": "wow",
+  "name": "Grave Composer Music Module",
+  "category": "1.-grave-composer-music-module",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 25,
+    "source": "fileinfo"
+  },
+  "summary": "A WOW file is a music module created by the Grave Composer (also known as \"Mod's Grave\") audio tracker, a tracking program for DOS-based PCs. It contains note patterns and sound samples and supports up to 8 channels. WOW files are similar to the Amiga Module ( .MOD ) format.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "openmpt",
+        "display_name": "OpenMPT"
+      },
+      {
+        "software": "spark-studio",
+        "display_name": "Spark Studio"
+      }
+    ],
+    "macos": [
+      {
+        "software": "spark-studio",
+        "display_name": "Spark Studio"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-03-31",
+  "sources": [
+    {
+      "url": "wow.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

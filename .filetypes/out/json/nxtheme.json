@@ -1,0 +1,53 @@
+{
+  "slug": "nxtheme",
+  "extension": "nxtheme",
+  "name": "Nintendo Switch Theme",
+  "category": "nintendo-switch-theme",
+  "developer_org": "exelix-11",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "An NXTHEME file is a portion of a custom theme that can be installed on the Nintendo Switch gaming console. It contains a .JPG image and JSON data used to overwrite the appearance of the Switch's home screen, lock screen, or another screen. NXTHEME files are created using Switch Theme Injector and installed using NXThemes.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "switch-theme-injector",
+        "display_name": "Switch Theme Injector"
+      }
+    ],
+    "web": [
+      {
+        "software": "switch-theme-injector",
+        "display_name": "Switch Theme Injector"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-07-27",
+  "sources": [
+    {
+      "url": "nxtheme.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

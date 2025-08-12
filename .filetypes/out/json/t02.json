@@ -1,0 +1,53 @@
+{
+  "slug": "t02",
+  "extension": "t02",
+  "name": "TaxCut 2002 File",
+  "category": "taxcut-2002-file",
+  "developer_org": "h-r-block",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "A T02 file is a tax return created by H&R Block TaxCut 2002, a discontinued U.S. federal and state tax preparation application. It contains multiple tax forms and a user's personal and financial information entered into the forms fields for the 2002 tax year.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "h-r-block-taxcut-2002",
+        "display_name": "H&R Block TaxCut 2002"
+      }
+    ],
+    "macos": [
+      {
+        "software": "h-r-block-taxcut-2002",
+        "display_name": "H&R Block TaxCut 2002"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-07-21",
+  "sources": [
+    {
+      "url": "t02.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

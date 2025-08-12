@@ -1,0 +1,68 @@
+{
+  "slug": "3gpp2",
+  "extension": "3gpp2",
+  "name": "3GPP2 Multimedia File",
+  "category": "3gpp2-multimedia-file",
+  "developer_org": "3gpp2",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 12,
+    "source": "fileinfo"
+  },
+  "summary": "Audio and video container format created in the 3GPP2 (3rd Generation Partnership Project 2) format; contains both audio and video data; designed to extend several of the specifications from the 3GPP standard ( .3GP files) for CDMA-based mobile phones.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-windows-video",
+        "display_name": "Microsoft Windows Video",
+        "status": "discontinued"
+      },
+      {
+        "software": "adobe-flash-professional-cc",
+        "display_name": "Adobe Flash Professional CC",
+        "status": "discontinued"
+      },
+      {
+        "software": "apple-quicktime-player",
+        "display_name": "Apple QuickTime Player"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-quicktime-player",
+        "display_name": "Apple QuickTime Player"
+      },
+      {
+        "software": "adobe-flash-professional-cc",
+        "display_name": "Adobe Flash Professional CC",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-11-23",
+  "sources": [
+    {
+      "url": "3gpp2.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "slug": "sii",
+  "extension": "sii",
+  "name": "SCS Software Game Data",
+  "category": "scs-software-game-data",
+  "developer_org": "scs-software",
+  "popularity": {
+    "rating": 4.3,
+    "votes": 122,
+    "source": "fileinfo"
+  },
+  "summary": "An SII file is a game data file used by SCS Software truck driving games and simulators, such as 18 Wheels of Steel: Haulin' and Euro Truck Simulator. SII files contain a variety of game data, such as truck properties, saved game data, player settings, and mod configurations. Some SII files contain data saved as plain text , while others contain binary data.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "sii_decrypt",
+        "display_name": "SII_DECRYPT"
+      },
+      {
+        "software": "scs-software-18-wheels-of-steel-haulin",
+        "display_name": "SCS Software 18 Wheels of Steel: Haulin'"
+      },
+      {
+        "software": "scs-software-euro-truck-simulator-2",
+        "display_name": "SCS Software Euro Truck Simulator 2"
+      },
+      {
+        "software": "other-scs-software-truck-driving-simulators",
+        "display_name": "Other SCS Software truck driving simulators"
+      }
+    ],
+    "macos": [
+      {
+        "software": "scs-software-euro-truck-simulator-2",
+        "display_name": "SCS Software Euro Truck Simulator 2"
+      },
+      {
+        "software": "other-scs-software-truck-driving-simulators",
+        "display_name": "Other SCS Software truck driving simulators"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-08-21",
+  "sources": [
+    {
+      "url": "sii.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

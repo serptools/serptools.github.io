@@ -1,0 +1,57 @@
+{
+  "slug": "sbw",
+  "extension": "sbw",
+  "name": "US Treasury Savings Bonds Wizard File",
+  "category": "us-treasury-savings-bonds-wizard-file",
+  "developer_org": "us-treasury",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Financial data file created by Savings Bond Wizard, a program used to manage United States savings bonds; contains a collection of financial records, each of which include the purchase date, denomination, interest, serial number, yield, and projected values; used for tracking and calculating personal investments.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "us-treasury-savings-bond-wizard",
+        "display_name": "US Treasury Savings Bond Wizard"
+      },
+      {
+        "software": "gbonds",
+        "display_name": "GBonds"
+      }
+    ],
+    "linux": [
+      {
+        "software": "gbonds",
+        "display_name": "GBonds"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-07-15",
+  "sources": [
+    {
+      "url": "sbw.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

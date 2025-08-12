@@ -1,0 +1,35 @@
+{
+  "slug": "bca",
+  "extension": "bca",
+  "name": "BCArchive Encrypted Archive",
+  "category": "bcarchive-encrypted-archive",
+  "summary": "",
+  "developer_org": "jetico",
+  "developer_name": "Jetico",
+  "more_information": {
+    "screenshot": {
+      "url": "https://fileinfo.com/img/ss/sm/bca_12343.png",
+      "alt": "Screenshot of a .bca file in Jetico BCArchive",
+      "caption": "BCA file open in Jetico BCArchive"
+    },
+    "description": [
+      "BCArchive is a file archiving tool that can be used to compress, package, and encrypt files. This allows users to securely share their files with others, as well as retain the compressed, encrypted archives as file backups.",
+      "The archives BCArchive creates are saved as BCA files. BCA files may be encrypted using one of many encryption algorithms, including:",
+      "Each BCA file is encrypted using either a password or a public key. To decrypt a BCA file and extract the files it contains, a user must possess the password or public key used to encrypt the file."
+    ]
+  },
+  "images": [
+    {
+      "url": "https://fileinfo.com/img/ss/sm/bca_12343.png",
+      "alt": "Screenshot of a .bca file in Jetico BCArchive",
+      "caption": "BCA file open in Jetico BCArchive"
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "bca.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

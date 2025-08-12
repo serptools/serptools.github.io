@@ -1,0 +1,48 @@
+{
+  "slug": "safetext",
+  "extension": "safetext",
+  "name": "SafeText Document",
+  "category": "safetext-document",
+  "developer_org": "safetext",
+  "popularity": {
+    "rating": 2.9,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "A SAFETEXT file is a password-protected text document encrypted for security purposes by SafeText, a now-discontinued application for protecting text files. It stores the contents of a text document to ensure that only authorized users with the correct password can access its sensitive or private information.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2025-02-06",
+  "sources": [
+    {
+      "url": "safetext.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "ms-one-stub",
+  "extension": "ms-one-stub",
+  "name": "Microsoft OneNote Stub",
+  "category": "microsoft-onenote-stub",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "An MS-ONE-STUB file is a shortcut used to open a Microsoft OneNote notebook that is stored within Microsoft OneDrive. It contains a reference to the notebook that it opens. MS-ONE-STUB files are created by both OneDrive and OneDrive for Business.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-onedrive",
+        "display_name": "Microsoft OneDrive"
+      }
+    ],
+    "macos": [
+      {
+        "software": "microsoft-onedrive",
+        "display_name": "Microsoft OneDrive"
+      }
+    ],
+    "web": [
+      {
+        "software": "microsoft-onedrive",
+        "display_name": "Microsoft OneDrive"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-09-25",
+  "sources": [
+    {
+      "url": "ms-one-stub.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

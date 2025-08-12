@@ -1,0 +1,73 @@
+{
+  "slug": "vir",
+  "extension": "vir",
+  "name": "Virus-Infected File",
+  "category": "virus-infected-file",
+  "developer_org": "symantec",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 36,
+    "source": "fileinfo"
+  },
+  "summary": "A VIR file is any type of file that has been infected with a computer virus and has been renamed by an antivirus software program, such as Symantec's Norton AntiVirus or Avira AntiVir. The \".vir\" extension is typically appended to the filename (i.e. program.exe → program.exe.vir ) to indicate the file is a virus and to prevent it from being executed.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "avira-antivirus-pro",
+        "display_name": "Avira Antivirus Pro"
+      },
+      {
+        "software": "adwcleaner",
+        "display_name": "AdwCleaner"
+      },
+      {
+        "software": "symantec-norton-antivirus",
+        "display_name": "Symantec Norton AntiVirus"
+      },
+      {
+        "software": "should-not-be-opened-manually",
+        "display_name": "Should not be opened manually"
+      }
+    ],
+    "macos": [
+      {
+        "software": "avira-antivirus-pro",
+        "display_name": "Avira Antivirus Pro"
+      },
+      {
+        "software": "symantec-norton-antivirus",
+        "display_name": "Symantec Norton AntiVirus"
+      },
+      {
+        "software": "should-not-be-opened-manually",
+        "display_name": "Should not be opened manually"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2016-09-15",
+  "sources": [
+    {
+      "url": "vir.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

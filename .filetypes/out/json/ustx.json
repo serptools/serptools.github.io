@@ -1,0 +1,75 @@
+{
+  "slug": "ustx",
+  "extension": "ustx",
+  "name": "OpenUTAU Sequence Text File",
+  "category": "openutau-sequence-text-file",
+  "developer_org": "stakira",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "A USTX file is a musical sequence created by OpenUTAU, an open-source successor to the UTAU vocal synthesizer. It contains musical notes, dynamics, vibrato, pitch, and lyrics in the OpenUTAU Sequence Text (USTX) format, which is based on YAML. OpenUTAU users save \"vocaloid\" (Japanese vocal android) sequence projects as USTX files when producing songs.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "openutau",
+        "display_name": "OpenUTAU"
+      },
+      {
+        "software": "utaformatix",
+        "display_name": "UtaFormatix"
+      }
+    ],
+    "macos": [
+      {
+        "software": "openutau",
+        "display_name": "OpenUTAU"
+      }
+    ],
+    "linux": [
+      {
+        "software": "openutau",
+        "display_name": "OpenUTAU"
+      }
+    ],
+    "web": [
+      {
+        "software": "utaformatix",
+        "display_name": "UtaFormatix"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "USTX file open in OpenUTAU 0.1",
+      "alt": "USTX file open in OpenUTAU 0.1",
+      "source_url": "https://fileinfo.com/img/ss/md/ustx_13738.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2025-07-26",
+  "sources": [
+    {
+      "url": "ustx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

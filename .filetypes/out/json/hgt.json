@@ -1,0 +1,76 @@
+{
+  "slug": "hgt",
+  "extension": "hgt",
+  "name": "SRTM Elevation Data File",
+  "category": "srtm-elevation-data-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 12,
+    "source": "fileinfo"
+  },
+  "summary": "GIS data file stored in the Shuttle Radar Topography Mission (SRTM) format; contains global elevation data captured during NASA space missions; may include up to a one arcsecond resolution; used for analyzing the earth's topography and for generating topographical images.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "safe-software-fme-desktop",
+        "display_name": "Safe Software FME Desktop"
+      },
+      {
+        "software": "esri-arcgis-for-desktop",
+        "display_name": "ESRI ArcGIS for Desktop"
+      },
+      {
+        "software": "dg-terrain-viewer",
+        "display_name": "DG Terrain Viewer"
+      },
+      {
+        "software": "dg-srtm-void-killer",
+        "display_name": "DG SRTM Void Killer"
+      },
+      {
+        "software": "srtmfill",
+        "display_name": "SRTMFill",
+        "status": "discontinued"
+      },
+      {
+        "software": "vtbuilder",
+        "display_name": "VTBuilder"
+      }
+    ],
+    "linux": [
+      {
+        "software": "dg-terrain-viewer",
+        "display_name": "DG Terrain Viewer"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-11-08",
+  "sources": [
+    {
+      "url": "hgt.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

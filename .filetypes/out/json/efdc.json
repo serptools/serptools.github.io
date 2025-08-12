@@ -1,0 +1,49 @@
+{
+  "slug": "efdc",
+  "extension": "efdc",
+  "name": "EFDC Ransomware Encrypted File",
+  "category": "efdc-ransomware-encrypted-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "An EFDC file is a file that has been renamed and encrypted by EFDC ransomware, which is malware distributed by cybercriminals. It contains a normal file, such as a document, song, video, or image, that the ransomware is holding hostage. EFDC files cannot be decrypted.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "system-restore",
+        "display_name": "System Restore"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-09-13",
+  "sources": [
+    {
+      "url": "efdc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

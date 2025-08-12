@@ -1,0 +1,101 @@
+{
+  "slug": "ync",
+  "extension": "ync",
+  "name": "yEnc Encoded File",
+  "category": "yenc-encoded-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "File encoded from a binary to a text format using the yEnc encoding method; similar to a standard US-ASCII encoded file, but significantly reduces the file overhead by using 8-bit Extended ASCII encoding; also includes a CRC checksum for verifying the integrity of the file.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "smith-micro-stuffit-deluxe",
+        "display_name": "Smith Micro StuffIt Deluxe",
+        "status": "discontinued"
+      },
+      {
+        "software": "ydec",
+        "display_name": "yDec"
+      },
+      {
+        "software": "yenc32",
+        "display_name": "yEnc32"
+      },
+      {
+        "software": "yproxy-pro",
+        "display_name": "yProxy Pro"
+      },
+      {
+        "software": "yenc-tz",
+        "display_name": "yEnc TZ"
+      },
+      {
+        "software": "yydecode",
+        "display_name": "yydecode"
+      },
+      {
+        "software": "uudeview",
+        "display_name": "UUDeview"
+      }
+    ],
+    "macos": [
+      {
+        "software": "smith-micro-stuffit-deluxe-mac-16",
+        "display_name": "Smith Micro StuffIt Deluxe Mac 16",
+        "status": "discontinued"
+      },
+      {
+        "software": "yenc-tz",
+        "display_name": "yEnc TZ"
+      }
+    ],
+    "linux": [
+      {
+        "software": "yydecode",
+        "display_name": "yydecode"
+      },
+      {
+        "software": "uudeview",
+        "display_name": "UUDeview"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "YNC file icon",
+      "alt": "YNC file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/ync-3871.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-10-14",
+  "sources": [
+    {
+      "url": "ync.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

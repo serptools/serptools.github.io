@@ -1,0 +1,22 @@
+{
+  "slug": "aggr",
+  "extension": "aggr",
+  "name": "Adobe Captivate Aggregate File",
+  "category": "adobe-captivate-aggregate-file",
+  "summary": "",
+  "developer_org": "adobe-systems",
+  "developer_name": "Adobe Systems",
+  "more_information": {
+    "description": [
+      "AGGR files contain a table of contents (TOC) that use the names of the different modules ( .SWF files). Since the user navigates using the TOC, designers often use the same template for creating multiple projects and then combine them into an AGGR file. This way, the look and feel is consistent between modules.",
+      "To create an aggregator file, select File → New → Aggregator Project in Captivate. From the resulting dialog box, you can add modules by selecting the plus (+) symbol."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "aggr.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

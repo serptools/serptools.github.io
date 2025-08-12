@@ -1,0 +1,51 @@
+{
+  "slug": "xez",
+  "extension": "xez",
+  "name": "eManager Template Package",
+  "category": "emanager-template-package",
+  "developer_org": "x-genics",
+  "popularity": {
+    "rating": 3.2,
+    "votes": 19,
+    "source": "fileinfo"
+  },
+  "summary": "An XEZ file is a template package used by X-Genics eManager, a content management suite for X-Genics SmartApps. It is a renamed .ZIP file that contains a collection of eManager templates. These templates are comprised of XML files and graphics.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "rename-.xez-to-.zip-open-with-any-zip-decompression-utility",
+        "display_name": "Rename .xez to .zip ; open with any Zip-decompression utility"
+      },
+      {
+        "software": "x-genics-emanager",
+        "display_name": "X-Genics eManager"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-06-01",
+  "sources": [
+    {
+      "url": "xez.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "keb",
+  "extension": "keb",
+  "name": "Kaspersky Virus Bases File",
+  "category": "kaspersky-virus-bases-file",
+  "developer_org": "kaspersky-labs",
+  "popularity": {
+    "rating": 2.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "Data file used by Kaspersky antivirus software; stores information that helps the software detect malware such as viruses and Trojans; can be found in the \\​Kaspersky Lab\\​AVP12\\​Bases\\​ installation directory.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "kaspersky-anti-virus",
+        "display_name": "Kaspersky Anti-Virus"
+      },
+      {
+        "software": "kaspersky-internet-security",
+        "display_name": "Kaspersky Internet Security"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-06-13",
+  "sources": [
+    {
+      "url": "keb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "xms",
+  "extension": "xms",
+  "name": "Music Studio Project",
+  "category": "1.-music-studio-project",
+  "developer_org": "alexander-gross",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Project created and used by Music Studio, an iOS music production app; contains music project information, which includes audio tracks, song parameters, keyboard layout, effect settings, metronome settings, and interface settings.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "ios": [
+      {
+        "software": "alexander-gross-music-studio",
+        "display_name": "Alexander Gross Music Studio"
+      }
+    ],
+    "windows": [
+      {
+        "software": "alexander-gross-music-studio",
+        "display_name": "Alexander Gross Music Studio"
+      },
+      {
+        "software": "xms-tracker",
+        "display_name": "XMS-Tracker"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-12-29",
+  "sources": [
+    {
+      "url": "xms.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

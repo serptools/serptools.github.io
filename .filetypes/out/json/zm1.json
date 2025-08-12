@@ -1,0 +1,57 @@
+{
+  "slug": "zm1",
+  "extension": "zm1",
+  "name": "ZoneAlarm Renamed MDA File",
+  "category": "1.-zonealarm-renamed-mda-file",
+  "developer_org": "check-point",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "Microsoft Access Add-in ( .MDA ) file renamed by ZoneAlarm Mailsafe, part of the ZoneAlarm Internet Security Suite; renames the file extension so that the Access Add-in, which is an executable file type, cannot be run directly by Windows.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "zonealarm-extreme-security",
+        "display_name": "ZoneAlarm Extreme Security"
+      },
+      {
+        "software": "zsnes",
+        "display_name": "ZSNES"
+      }
+    ],
+    "linux": [
+      {
+        "software": "zsnes",
+        "display_name": "ZSNES"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2008-07-10",
+  "sources": [
+    {
+      "url": "zm1.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

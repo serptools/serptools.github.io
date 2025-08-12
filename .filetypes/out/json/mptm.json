@@ -1,0 +1,58 @@
+{
+  "slug": "mptm",
+  "extension": "mptm",
+  "name": "OpenMPT Module",
+  "category": "openmpt-module",
+  "developer_org": "olivier-lapicque",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "An MPTM file is a music module file created by OpenMPT, an open-source audio module tracker. It is saved in the OpenMPT Module (OMTM) format, which is based on the Impulse Tracker ( .IT ) format but includes extended capabilities. MPTM files store note patterns, sound samples, sequences, and other audio data.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "openmpt",
+        "display_name": "OpenMPT"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "MPTM file icon",
+      "alt": "MPTM file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/mptm-12739.png"
+    },
+    {
+      "caption": "MPTM file open in OpenMPT 1",
+      "alt": "MPTM file open in OpenMPT 1",
+      "source_url": "https://fileinfo.com/img/ss/md/mptm_12739.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-06-15",
+  "sources": [
+    {
+      "url": "mptm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

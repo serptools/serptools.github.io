@@ -1,0 +1,59 @@
+{
+  "slug": "xfdf",
+  "extension": "xfdf",
+  "name": "Adobe Acrobat XFDF File",
+  "category": "adobe-acrobat-xfdf-file",
+  "developer_org": "adobe-systems",
+  "popularity": {
+    "rating": 2.9,
+    "votes": 18,
+    "source": "fileinfo"
+  },
+  "summary": "XML Forms Data Format (XFDF) file created by Adobe Acrobat, a PDF authoring application; stores descriptions of page form elements and their values, such as the names and values for text fields; used for saving form data that can be imported into a PDF document.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "adobe-acrobat-dc",
+        "display_name": "Adobe Acrobat DC"
+      }
+    ],
+    "macos": [
+      {
+        "software": "adobe-acrobat-dc",
+        "display_name": "Adobe Acrobat DC"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "XFDF file icon",
+      "alt": "XFDF file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/xfdf-5461.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-12-21",
+  "sources": [
+    {
+      "url": "xfdf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

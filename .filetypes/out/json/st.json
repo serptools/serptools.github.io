@@ -1,0 +1,166 @@
+{
+  "slug": "st",
+  "extension": "st",
+  "name": "Atari ST Disk Image",
+  "category": "1.-atari-st-disk-image",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.1,
+    "votes": 13,
+    "source": "fileinfo"
+  },
+  "summary": "Disk image of an Atari ST program or video game; contains exact data copied from an Atari floppy disk or cartridge; may be opened on a PC using Atari emulation software.",
+  "standards": [],
+  "mime_types": [
+    "and/or",
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "hatari",
+        "display_name": "Hatari"
+      },
+      {
+        "software": "steem",
+        "display_name": "Steem"
+      },
+      {
+        "software": "aranym",
+        "display_name": "ARAnyM"
+      },
+      {
+        "software": "nostalgia",
+        "display_name": "Nostalgia"
+      },
+      {
+        "software": "xsteem",
+        "display_name": "XSteem"
+      },
+      {
+        "software": "stonx",
+        "display_name": "STonX"
+      },
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      },
+      {
+        "software": "squeak",
+        "display_name": "Squeak"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "gnu-smalltalk",
+        "display_name": "GNU Smalltalk"
+      }
+    ],
+    "macos": [
+      {
+        "software": "hatari",
+        "display_name": "Hatari"
+      },
+      {
+        "software": "nostalgia",
+        "display_name": "Nostalgia"
+      },
+      {
+        "software": "aranym",
+        "display_name": "ARAnyM"
+      },
+      {
+        "software": "squeak",
+        "display_name": "Squeak"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "hatari",
+        "display_name": "Hatari"
+      },
+      {
+        "software": "xsteem",
+        "display_name": "XSteem"
+      },
+      {
+        "software": "stonx",
+        "display_name": "STonX"
+      },
+      {
+        "software": "aranym",
+        "display_name": "ARAnyM"
+      },
+      {
+        "software": "squeak",
+        "display_name": "Squeak"
+      },
+      {
+        "software": "gnu-smalltalk",
+        "display_name": "GNU Smalltalk"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "web": [
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      }
+    ],
+    "chromeos": [
+      {
+        "software": "google-chrome-text",
+        "display_name": "Google Chrome Text"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2007-04-16",
+  "sources": [
+    {
+      "url": "st.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

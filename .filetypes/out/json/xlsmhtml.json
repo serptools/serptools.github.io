@@ -1,0 +1,59 @@
+{
+  "slug": "xlsmhtml",
+  "extension": "xlsmhtml",
+  "name": "Microsoft Excel MIME HTML Spreadsheet",
+  "category": "microsoft-excel-mime-html-spreadsheet",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 2.5,
+    "votes": 16,
+    "source": "fileinfo"
+  },
+  "summary": "An XLSMHTML file is an archived MIME HTML spreadsheet saved by Microsoft Excel (2007 and earlier), a common spreadsheet application. It contains HTML code that represents the spreadsheet in a format similar to the original .XLS file. XLSMHTML files are used for viewing published spreadsheets in a web browser.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "no-longer-supported-by-microsoft-excel",
+        "display_name": "No longer supported by Microsoft Excel"
+      }
+    ],
+    "macos": [
+      {
+        "software": "no-longer-supported-by-microsoft-excel",
+        "display_name": "No longer supported by Microsoft Excel"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "XLSMHTML file icon",
+      "alt": "XLSMHTML file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/xlsmhtml-5225.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-02-11",
+  "sources": [
+    {
+      "url": "xlsmhtml.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

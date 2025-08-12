@@ -1,0 +1,47 @@
+{
+  "slug": "sqb",
+  "extension": "sqb",
+  "name": "SQL Backup SQL Server Backup File",
+  "category": "1.-sql-backup-sql-server-backup-file",
+  "developer_org": "red-gate",
+  "popularity": {
+    "rating": 4.1,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "Backup of an MS SQL Server database file created with Red Gate SQL Backup, a SQL database backup tool; may be compressed up to 95% and encrypted using 256-bit AES encryption; can be restored using the Red Gate SQL Backup program.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "red-gate-sql-backup",
+        "display_name": "Red Gate SQL Backup"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2008-03-05",
+  "sources": [
+    {
+      "url": "sqb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

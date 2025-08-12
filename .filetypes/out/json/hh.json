@@ -1,0 +1,85 @@
+{
+  "slug": "hh",
+  "extension": "hh",
+  "name": "C++ Header File",
+  "category": "c++-header-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 30,
+    "source": "fileinfo"
+  },
+  "summary": "Contains header information referenced by a C++ source code file; may include extra variables, constants, functions, or other data used by the C++ program; typically referenced at the beginning of the source code.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-visual-studio-2022",
+        "display_name": "Microsoft Visual Studio 2022"
+      },
+      {
+        "software": "embarcadero-technologies-c++-builder",
+        "display_name": "Embarcadero Technologies C++ Builder"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "apple-xcode",
+        "display_name": "Apple Xcode"
+      },
+      {
+        "software": "freescale-codewarrior-development-tools",
+        "display_name": "Freescale CodeWarrior Development Tools",
+        "pricing": "free"
+      }
+    ],
+    "macos": [
+      {
+        "software": "macromates-textmate",
+        "display_name": "MacroMates TextMate"
+      },
+      {
+        "software": "apple-xcode",
+        "display_name": "Apple Xcode"
+      },
+      {
+        "software": "freescale-codewarrior-development-tools",
+        "display_name": "Freescale CodeWarrior Development Tools",
+        "pricing": "free"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-08-24",
+  "sources": [
+    {
+      "url": "hh.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

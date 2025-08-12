@@ -1,0 +1,106 @@
+{
+  "slug": "lit",
+  "extension": "lit",
+  "name": "eBook File",
+  "category": "1.-ebook-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 43,
+    "source": "fileinfo"
+  },
+  "summary": "Electronic version of a book or other publication saved in the Microsoft LIT format; includes digital rights management (DRM) information, which protects copyrights by limiting the systems each book can be read on.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "calibre",
+        "display_name": "Calibre"
+      },
+      {
+        "software": "bookdesigner",
+        "display_name": "BookDesigner",
+        "status": "discontinued"
+      },
+      {
+        "software": "winhugs",
+        "display_name": "WinHugs"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "hugs",
+        "display_name": "Hugs"
+      },
+      {
+        "software": "hbc-compiler",
+        "display_name": "HBC compiler"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      }
+    ],
+    "macos": [
+      {
+        "software": "calibre",
+        "display_name": "Calibre"
+      },
+      {
+        "software": "hugs",
+        "display_name": "Hugs"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "calibre",
+        "display_name": "Calibre"
+      },
+      {
+        "software": "hugs",
+        "display_name": "Hugs"
+      },
+      {
+        "software": "hbc-compiler",
+        "display_name": "HBC compiler"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-04-09",
+  "sources": [
+    {
+      "url": "lit.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

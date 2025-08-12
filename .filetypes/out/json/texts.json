@@ -1,0 +1,71 @@
+{
+  "slug": "texts",
+  "extension": "texts",
+  "name": "Gameloft In-game Text",
+  "category": "gameloft-in-game-text",
+  "developer_org": "gameloft",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "A TEXTS file contains text and binary data used to show in-game text in a Gameloft video game. Minion Rush and Sonic Runners Adventure are examples of games that use TEXTS files. TEXTS files are often accompanied by a file with the .keys extension, which is used to delineate where text strings start and stop in the TEXTS file.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "android": [
+      {
+        "software": "minion-rush",
+        "display_name": "Minion Rush"
+      },
+      {
+        "software": "sonic-runners-adventure",
+        "display_name": "Sonic Runners Adventure"
+      }
+    ],
+    "ios": [
+      {
+        "software": "minion-rush",
+        "display_name": "Minion Rush"
+      },
+      {
+        "software": "sonic-runners-adventure",
+        "display_name": "Sonic Runners Adventure"
+      }
+    ],
+    "windows": [
+      {
+        "software": "minion-rush",
+        "display_name": "Minion Rush"
+      },
+      {
+        "software": "sonic-runners-adventure",
+        "display_name": "Sonic Runners Adventure"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-03-31",
+  "sources": [
+    {
+      "url": "texts.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

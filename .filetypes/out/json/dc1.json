@@ -1,0 +1,51 @@
+{
+  "slug": "dc1",
+  "extension": "dc1",
+  "name": "DevCad Document",
+  "category": "1.-devcad-document",
+  "developer_org": "devcad",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "CAD file created by DevCad, a Windows CAD application; saves a 2D drawing for a construction or engineering design; used as the native format for saving CAD documents.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "devcad",
+        "display_name": "DevCad"
+      },
+      {
+        "software": "stata-labs-bloomba",
+        "display_name": "Stata Labs Bloomba"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-08-18",
+  "sources": [
+    {
+      "url": "dc1.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

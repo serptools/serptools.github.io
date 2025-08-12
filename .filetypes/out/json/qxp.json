@@ -1,0 +1,72 @@
+{
+  "slug": "qxp",
+  "extension": "qxp",
+  "name": "QuarkXPress Project File",
+  "category": "quarkxpress-project-file",
+  "developer_org": "quark-software",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 36,
+    "source": "fileinfo"
+  },
+  "summary": "A QXP file is a project created by QuarkXPress, a desktop publishing program. It contains project information, which includes page layout settings, text, drawn shapes, images, and page layout metadata . QXP projects may consist of a single page or multiple pages.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "quarkxpress",
+        "display_name": "QuarkXPress"
+      },
+      {
+        "software": "adobe-indesign-with-q2id-plugin",
+        "display_name": "Adobe InDesign with Q2ID Plugin"
+      }
+    ],
+    "macos": [
+      {
+        "software": "quarkxpress",
+        "display_name": "QuarkXPress"
+      },
+      {
+        "software": "adobe-indesign-with-q2id-plugin",
+        "display_name": "Adobe InDesign with Q2ID Plugin"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "QXP file icon",
+      "alt": "QXP file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/qxp-175.png"
+    },
+    {
+      "caption": "QXP file open in QuarkXPress 2020",
+      "alt": "QXP file open in QuarkXPress 2020",
+      "source_url": "https://fileinfo.com/img/ss/md/qxp_175.jpg"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-07-21",
+  "sources": [
+    {
+      "url": "qxp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

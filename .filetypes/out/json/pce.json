@@ -1,0 +1,67 @@
+{
+  "slug": "pce",
+  "extension": "pce",
+  "name": "TurboGrafx-16 ROM",
+  "category": "turbografx-16-rom",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "Game ROM used by emulators for the TurboGrafx-16 console system; saves a copy of the original video game and can be played with supporting emulation software on a PC.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "magic-engine",
+        "display_name": "Magic Engine"
+      },
+      {
+        "software": "pcejin",
+        "display_name": "pcejin"
+      },
+      {
+        "software": "openemu",
+        "display_name": "OpenEmu"
+      }
+    ],
+    "macos": [
+      {
+        "software": "magic-engine",
+        "display_name": "Magic Engine"
+      },
+      {
+        "software": "openemu",
+        "display_name": "OpenEmu"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2013-05-07",
+  "sources": [
+    {
+      "url": "pce.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

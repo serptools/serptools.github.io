@@ -1,0 +1,52 @@
+{
+  "slug": "acg",
+  "extension": "acg",
+  "name": "Agent Preview File",
+  "category": "1.-agent-preview-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "An ACG file contains a character preview created for Microsoft Agent, an interactive assistant program. It stores a preview image of a custom or preinstalled character (saved in an .ACS file) that appears on the screen to assist Windows users. ACG files are typically saved with their corresponding ACS files for which they store the preview.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-agent",
+        "display_name": "Microsoft Agent",
+        "status": "discontinued"
+      },
+      {
+        "software": "bolide-audio-comparer",
+        "display_name": "Bolide Audio Comparer"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-09-22",
+  "sources": [
+    {
+      "url": "acg.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

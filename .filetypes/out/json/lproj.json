@@ -1,0 +1,49 @@
+{
+  "slug": "lproj",
+  "extension": "lproj",
+  "name": "Localized Project Folder",
+  "category": "localized-project-folder",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.1,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "Folder containing text files and other resources for individual languages supported by a Mac OS X program; may include .STRINGS and .NIB files; stored within the Contents→Resources folder of an application package",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "opens-as-a-folder-in-mac-os-x",
+        "display_name": "Opens as a folder in Mac OS X"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2006",
+  "sources": [
+    {
+      "url": "lproj.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

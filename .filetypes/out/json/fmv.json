@@ -1,0 +1,57 @@
+{
+  "slug": "fmv",
+  "extension": "fmv",
+  "name": "FME Desktop Viewspace File",
+  "category": "1.-fme-desktop-viewspace-file",
+  "developer_org": "safe-software",
+  "popularity": {
+    "rating": 2.3,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "GIS data file used by the Universal Viewer program included with the FME Desktop application suite; stores settings for importing and converting spatial data; used for saving the \"viewspace\" of a collection of datasets.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "safe-software-fme-desktop",
+        "display_name": "Safe Software FME Desktop"
+      },
+      {
+        "software": "canvas-gfx-canvas-x-pro",
+        "display_name": "Canvas GFX Canvas X Pro"
+      },
+      {
+        "software": "coreldraw-graphics-suite-2024",
+        "display_name": "CorelDRAW Graphics Suite 2024"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-11-18",
+  "sources": [
+    {
+      "url": "fmv.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

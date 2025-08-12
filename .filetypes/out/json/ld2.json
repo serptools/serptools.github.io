@@ -1,0 +1,48 @@
+{
+  "slug": "ld2",
+  "extension": "ld2",
+  "name": "Lingoes Dictionary File",
+  "category": "lingoes-dictionary-file",
+  "developer_org": "lingoes-project",
+  "popularity": {
+    "rating": 4.2,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "File used by Lingoes, a dictionary and text translation application; contains a compiled source dictionary file and includes terms and their definitions; saved in a proprietary binary format, but can be used for storing custom dictionaries.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "lingoes",
+        "display_name": "Lingoes",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-05-05",
+  "sources": [
+    {
+      "url": "ld2.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

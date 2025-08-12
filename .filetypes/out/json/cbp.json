@@ -1,0 +1,59 @@
+{
+  "slug": "cbp",
+  "extension": "cbp",
+  "name": "Code::Blocks Project File",
+  "category": "code-blocks-project-file",
+  "developer_org": "code-blocks",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 35,
+    "source": "fileinfo"
+  },
+  "summary": "Project file created by Code::Blocks, a free, cross platform IDE for C++ development; saved in an XML format and contains build settings, compiler properties, and references to project source code files; used for saving development projects.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "code-blocks",
+        "display_name": "Code::Blocks"
+      }
+    ],
+    "macos": [
+      {
+        "software": "code-blocks",
+        "display_name": "Code::Blocks"
+      }
+    ],
+    "linux": [
+      {
+        "software": "code-blocks",
+        "display_name": "Code::Blocks"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-04-11",
+  "sources": [
+    {
+      "url": "cbp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

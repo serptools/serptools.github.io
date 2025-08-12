@@ -1,0 +1,24 @@
+{
+  "slug": "ffu",
+  "extension": "ffu",
+  "name": "Full Flash Update Image File",
+  "category": "full-flash-update-image-file",
+  "summary": "",
+  "developer_org": "microsoft",
+  "developer_name": "Microsoft",
+  "more_information": {
+    "description": [
+      "FFU images are primarily used to flash updates to Windows Phones. In order for it to be deployed to a phone, the image must be cryptographically signed for security purposes. Images shipped to retail phones for flashing are signed by Microsoft.",
+      "Since FFU images are large in size, you may need to use a separate network location or storage drive instead of a USB flash drive. You can also split the image into smaller files.",
+      "ImageApp, which is available with Windows, can be used to add new or updated packages to an existing FFU image file. However, the program cannot be used to remove packages from an image.",
+      "NOTE: The Windows Phone Recovery Tool is designed to work with Lumia phones and HTC One running Windows Phone 8 and later."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "ffu.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

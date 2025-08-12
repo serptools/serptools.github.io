@@ -1,0 +1,99 @@
+{
+  "slug": "har",
+  "extension": "har",
+  "name": "HTTP Archive FIle",
+  "category": "http-archive-file",
+  "developer_org": "world-wide-web-consortium",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 40,
+    "source": "fileinfo"
+  },
+  "summary": "A HAR file is an archive saved in the HTTP Archive (HAR) format, which is a JSON -formatted format used to save collected HTTP performance data. It contains information about webpages a web browser has loaded, which includes the tracked webpages, response times, and web browser version. HAR files also store metadata , such as the HAR format version and the creator of the file.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "http-toolkit",
+        "display_name": "HTTP Toolkit"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "har-viewer",
+        "display_name": "HAR Viewer"
+      }
+    ],
+    "macos": [
+      {
+        "software": "http-toolkit",
+        "display_name": "HTTP Toolkit"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "http-toolkit",
+        "display_name": "HTTP Toolkit"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "web": [
+      {
+        "software": "har-viewer",
+        "display_name": "HAR Viewer"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "HAR file open in Microsoft Visual Studio Code 1",
+      "alt": "HAR file open in Microsoft Visual Studio Code 1",
+      "source_url": "https://fileinfo.com/img/ss/md/har_11344.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-08-19",
+  "sources": [
+    {
+      "url": "har.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

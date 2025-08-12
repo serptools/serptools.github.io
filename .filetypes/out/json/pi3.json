@@ -1,0 +1,61 @@
+{
+  "slug": "pi3",
+  "extension": "pi3",
+  "name": "Degas High Resolution Image File",
+  "category": "degas-high-resolution-image-file",
+  "developer_org": "degas",
+  "popularity": {
+    "rating": 3.2,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Bitmap graphic format used by DEGAS, an image editor for Atari ST computers; high resolution version (640x400), but only supports 2 colors; can be opened with Degas on Atari systems or with various image viewing programs for Mac and PC.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      },
+      {
+        "software": "lemkesoft-graphicconverter",
+        "display_name": "Lemkesoft GraphicConverter"
+      }
+    ],
+    "macos": [
+      {
+        "software": "lemkesoft-graphicconverter",
+        "display_name": "Lemkesoft GraphicConverter"
+      },
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2008-02-21",
+  "sources": [
+    {
+      "url": "pi3.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

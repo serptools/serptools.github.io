@@ -1,0 +1,49 @@
+{
+  "slug": "flka",
+  "extension": "flka",
+  "name": "Folder Lock Portable Locker File",
+  "category": "folder-lock-portable-locker-file",
+  "developer_org": "newsoftwares",
+  "popularity": {
+    "rating": 3.1,
+    "votes": 14,
+    "source": "fileinfo"
+  },
+  "summary": "Encrypted archive created by Folder Lock, a program used for backing up sensitive data into \"lockers;\" stores an encrypted archive of files and can only be opened with the password set by the user; uses FAT32 file system formatting and supports up to 4GB file sizes; can be backed up to the NewSoftware's online backup service for remote backup and recovery; can also be written to external drives or CD/DVDs.",
+  "standards": [],
+  "mime_types": [
+    "cd/dvds"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "newsoftwares-folder-lock",
+        "display_name": "NewSoftwares Folder Lock"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-01-25",
+  "sources": [
+    {
+      "url": "flka.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

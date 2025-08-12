@@ -1,0 +1,72 @@
+{
+  "slug": "jsonc",
+  "extension": "jsonc",
+  "name": "JSON With Comments File",
+  "category": "json-with-comments-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "A JSONC file is a JSON file that includes comments. Several developers have independently created variants of the JSONC format. The most popular variant is developed and maintained by Microsoft.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "michael-gross-jsonc",
+        "display_name": "Michael Gross JSONC"
+      },
+      {
+        "software": "muhammad-muzzail-jsonc",
+        "display_name": "Muhammad Muzzail JSONC"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "github-atom",
+        "display_name": "GitHub Atom",
+        "status": "discontinued"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "JSONC file open in Microsoft Visual Studio Code",
+      "alt": "JSONC file open in Microsoft Visual Studio Code",
+      "source_url": "https://fileinfo.com/img/ss/md/jsonc_12994.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-11-17",
+  "sources": [
+    {
+      "url": "jsonc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

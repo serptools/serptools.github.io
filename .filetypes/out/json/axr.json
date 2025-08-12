@@ -1,0 +1,53 @@
+{
+  "slug": "axr",
+  "extension": "axr",
+  "name": "Advanced Archive Password Recovery Project",
+  "category": "advanced-archive-password-recovery-project",
+  "developer_org": "elcomsoft",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "An AXR file is a project file created by Elcomsoft Advanced Archive Password Recovery (AAPR). It contains a plain text record of a user's AAPR settings. In some cases, AXR files also contain a record of an in-process password recovery attempt, which can be used to resume that attempt.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "elcomsoft-advanced-archive-password-recovery",
+        "display_name": "Elcomsoft Advanced Archive Password Recovery"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "AXR file open in Elcomsoft Advanced Archive Password Recovery",
+      "alt": "AXR file open in Elcomsoft Advanced Archive Password Recovery",
+      "source_url": "https://fileinfo.com/img/ss/md/axr_13434.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-07-26",
+  "sources": [
+    {
+      "url": "axr.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

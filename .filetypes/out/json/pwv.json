@@ -1,0 +1,53 @@
+{
+  "slug": "pwv",
+  "extension": "pwv",
+  "name": "Password Vault Archive",
+  "category": "password-vault-archive",
+  "developer_org": "paranoia-works",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "Archive format used by the Secret Space Encryptor Android app to store passwords; contains one or more encrypted passwords, PINs, and notes.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "android": [
+      {
+        "software": "paranoia-works-secret-space-encryptor",
+        "display_name": "Paranoia Works Secret Space Encryptor"
+      }
+    ],
+    "windows": [
+      {
+        "software": "paranoia-works-secret-space-encryptor",
+        "display_name": "Paranoia Works Secret Space Encryptor"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-10-05",
+  "sources": [
+    {
+      "url": "pwv.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

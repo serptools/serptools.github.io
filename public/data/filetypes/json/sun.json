@@ -1,0 +1,35 @@
+{
+  "slug": "sun",
+  "extension": "sun",
+  "name": "Sun Raster Graphic",
+  "category": "sun-raster-graphic",
+  "summary": "",
+  "developer_org": "sun-microsystems",
+  "developer_name": "Sun Microsystems",
+  "more_information": {
+    "screenshot": {
+      "url": "https://fileinfo.com/img/ss/sm/sun_2000.jpg",
+      "alt": "Screenshot of a .sun file in qView",
+      "caption": "SUN file open in qView"
+    },
+    "description": [
+      "Sun Microsystems was a computer and software company that was founded in 1982 and bought by Oracle in 2010. The company included a proprietary operating system, SunOS, on the workstations and servers it sold.",
+      "Systems that ran SunOS often saved raster images in the Sun Raster Graphic format. These images could be compressed or uncompressed, and they could be grayscale, paletted, or full-color images. Each SUN file includes a fixed 32-byte header, which begins with a magic number ( 59a66a95 ) that identifies the file as a Sun Raster Graphic.",
+      "NOTE: Sun Raster Graphics also use the .RAS , .RS , and .SR extensions."
+    ]
+  },
+  "images": [
+    {
+      "url": "https://fileinfo.com/img/ss/sm/sun_2000.jpg",
+      "alt": "Screenshot of a .sun file in qView",
+      "caption": "SUN file open in qView"
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "sun.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

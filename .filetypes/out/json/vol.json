@@ -1,0 +1,59 @@
+{
+  "slug": "vol",
+  "extension": "vol",
+  "name": "Video Game Archive",
+  "category": "1.-video-game-archive",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 23,
+    "source": "fileinfo"
+  },
+  "summary": "A VOL file is an archive used by various video games, including Tribes and Earth Siege 2 , to store game data in a single, compressed package. It may contain textures, sounds, maps, models, scripts, and other assets needed by the game. Game developers use VOL files to organize and compress game resources, which helps reduce loading times and simplifies file management.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "dragon-unpacker",
+        "display_name": "Dragon UnPACKer"
+      },
+      {
+        "software": "gtvoltools",
+        "display_name": "GTVolTools"
+      }
+    ],
+    "macos": [
+      {
+        "software": "folder-created-in-mac-os-x-should-not-be-opened-or-edited-by-the-user.",
+        "display_name": "Folder created in Mac OS X, should not be opened or edited by the user."
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2025-05-29",
+  "sources": [
+    {
+      "url": "vol.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

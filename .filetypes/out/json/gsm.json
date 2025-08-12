@@ -1,0 +1,137 @@
+{
+  "slug": "gsm",
+  "extension": "gsm",
+  "name": "Global System for Mobile Audio",
+  "category": "1.-global-system-for-mobile-audio",
+  "developer_org": "european-telecommunications-standards-institute",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 21,
+    "source": "fileinfo"
+  },
+  "summary": "A GSM file is an audio file saved in the Global System for Mobile format. It likely contains spoken audio, such as a recorded cell phone conversation. GSM files are not common, but are most popular in Europe.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "sox",
+        "display_name": "SoX"
+      },
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      },
+      {
+        "software": "nch-switch",
+        "display_name": "NCH Switch"
+      },
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      },
+      {
+        "software": "graphisoft-archicad",
+        "display_name": "Graphisoft Archicad"
+      },
+      {
+        "software": "j2-global-communications-efax",
+        "display_name": "j2 Global Communications eFax"
+      },
+      {
+        "software": "golden-software-mapviewer",
+        "display_name": "Golden Software MapViewer"
+      }
+    ],
+    "macos": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "sox",
+        "display_name": "SoX"
+      },
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      },
+      {
+        "software": "nch-switch",
+        "display_name": "NCH Switch"
+      },
+      {
+        "software": "graphisoft-archicad",
+        "display_name": "Graphisoft Archicad"
+      },
+      {
+        "software": "j2-global-communications-efax",
+        "display_name": "j2 Global Communications eFax"
+      }
+    ],
+    "linux": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "sox",
+        "display_name": "SoX"
+      },
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      },
+      {
+        "software": "j2-global-communications-efax",
+        "display_name": "j2 Global Communications eFax"
+      }
+    ],
+    "web": [
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "GSM file open in VideoLAN VLC media player",
+      "alt": "GSM file open in VideoLAN VLC media player",
+      "source_url": "https://fileinfo.com/img/ss/md/gsm_1726.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-09-06",
+  "sources": [
+    {
+      "url": "gsm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "slug": "adx",
+  "extension": "adx",
+  "name": "Approach Index File",
+  "category": "1.-approach-index-file",
+  "developer_org": "ibm",
+  "popularity": {
+    "rating": 4.1,
+    "votes": 14,
+    "source": "fileinfo"
+  },
+  "summary": "An ADX file contains indexing information for a Lotus Approach relational database . It stores structured data to keep track of record locations. ADX files make the retrieval of specific data faster and more efficient, which decreases the time required for searches and query responses within a database.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "ibm-lotus-approach-part-of-lotus-smartsuite",
+        "display_name": "IBM Lotus Approach (part of Lotus SmartSuite)"
+      },
+      {
+        "software": "vgmstream",
+        "display_name": "vgmstream"
+      },
+      {
+        "software": "foobar2000-with-vgmstream-plug-in",
+        "display_name": "Foobar2000 with vgmstream plug-in"
+      },
+      {
+        "software": "nullsoft-winamp-with-vgmstream-plug-in",
+        "display_name": "Nullsoft Winamp with vgmstream plug-in"
+      }
+    ],
+    "web": [
+      {
+        "software": "vgmstream-web",
+        "display_name": "vgmstream-web"
+      }
+    ],
+    "macos": [
+      {
+        "software": "vgmstream",
+        "display_name": "vgmstream"
+      }
+    ],
+    "linux": [
+      {
+        "software": "vgmstream",
+        "display_name": "vgmstream"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2024-10-17",
+  "sources": [
+    {
+      "url": "adx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

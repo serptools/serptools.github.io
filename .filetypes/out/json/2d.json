@@ -1,0 +1,53 @@
+{
+  "slug": "2d",
+  "extension": "2d",
+  "name": "VersaCAD 2D Drawing File",
+  "category": "versacad-2d-drawing-file",
+  "developer_org": "archway-systems",
+  "popularity": {
+    "rating": 3.2,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "Two-dimensional drawing created by VersaCAD, a drafting and dimensioning CAD application; contains drawn objects and their measurements; used to store drafted buildings plans before construction.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "archway-systems-versacad",
+        "display_name": "Archway Systems VersaCAD"
+      }
+    ],
+    "macos": [
+      {
+        "software": "archway-systems-versacad",
+        "display_name": "Archway Systems VersaCAD"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-05-13",
+  "sources": [
+    {
+      "url": "2d.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

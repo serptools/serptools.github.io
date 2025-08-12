@@ -1,0 +1,133 @@
+{
+  "slug": "smc",
+  "extension": "smc",
+  "name": "Super Nintendo Game ROM",
+  "category": "1.-super-nintendo-game-rom",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 4.3,
+    "votes": 159,
+    "source": "fileinfo"
+  },
+  "summary": "An SMC file is a Super Nintendo (SNES) video game ROM used by SNES emulators , such as Snes9x, RetroArch, and ZSNES. It contains a game saved in the original file format used by the SNES. Using SMC files and a Super Nintendo emulator, gamers can play old Super Nintendo games on their PCs.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "snes9x",
+        "display_name": "Snes9x"
+      },
+      {
+        "software": "bizhawk",
+        "display_name": "BizHawk"
+      },
+      {
+        "software": "retroarch",
+        "display_name": "RetroArch"
+      },
+      {
+        "software": "zsnes",
+        "display_name": "ZSNES"
+      },
+      {
+        "software": "sneese",
+        "display_name": "SNEeSe"
+      },
+      {
+        "software": "snes9x-ex+",
+        "display_name": "Snes9x EX+"
+      },
+      {
+        "software": "mame",
+        "display_name": "MAME"
+      },
+      {
+        "software": "geepee32",
+        "display_name": "GeePee32"
+      },
+      {
+        "software": "solibri-office",
+        "display_name": "Solibri Office"
+      }
+    ],
+    "macos": [
+      {
+        "software": "snes9x",
+        "display_name": "Snes9x"
+      },
+      {
+        "software": "retroarch",
+        "display_name": "RetroArch"
+      },
+      {
+        "software": "solibri-office",
+        "display_name": "Solibri Office"
+      }
+    ],
+    "linux": [
+      {
+        "software": "snes9x",
+        "display_name": "Snes9x"
+      },
+      {
+        "software": "bizhawk",
+        "display_name": "BizHawk"
+      },
+      {
+        "software": "retroarch",
+        "display_name": "RetroArch"
+      },
+      {
+        "software": "zsnes",
+        "display_name": "ZSNES"
+      },
+      {
+        "software": "mame",
+        "display_name": "MAME"
+      }
+    ],
+    "ios": [
+      {
+        "software": "retroarch",
+        "display_name": "RetroArch"
+      }
+    ],
+    "android": [
+      {
+        "software": "snes9x-ex+",
+        "display_name": "Snes9x EX+"
+      },
+      {
+        "software": "retroarch",
+        "display_name": "RetroArch"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-03-31",
+  "sources": [
+    {
+      "url": "smc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

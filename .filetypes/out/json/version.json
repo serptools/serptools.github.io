@@ -1,0 +1,99 @@
+{
+  "slug": "version",
+  "extension": "version",
+  "name": "KSP-AVC Mod Metadata",
+  "category": "ksp-avc-mod-metadata",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 4.4,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "A VERSION file is a metadata file used to identify the name and hosted location of a Kerbal Space Program (KSP) mod. It lists a mod's name, location, version, and associated KSP version(s) in a JSON format. Some KSP mod managers, such as KSP-AVC, use VERSION files to retrieve, install, and update associated mods.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "ksp-avc",
+        "display_name": "KSP-AVC"
+      },
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      }
+    ],
+    "macos": [
+      {
+        "software": "ksp-avc",
+        "display_name": "KSP-AVC"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "ksp-avc",
+        "display_name": "KSP-AVC"
+      },
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "VERSION file open in Microsoft Visual Studio Code",
+      "alt": "VERSION file open in Microsoft Visual Studio Code",
+      "source_url": "https://fileinfo.com/img/ss/md/version_12919.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-09-27",
+  "sources": [
+    {
+      "url": "version.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

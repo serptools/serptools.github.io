@@ -1,0 +1,73 @@
+{
+  "slug": "pbj",
+  "extension": "pbj",
+  "name": "Pixel Bender Bytecode File",
+  "category": "1.-pixel-bender-bytecode-file",
+  "developer_org": "adobe-systems",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Image filter file created by Pixel Bender Toolkit, an application used for creating custom image filters for Flash applications, Photoshop, and other Adobe products; contains byte code (executable binary code) that has been compiled from a .PBK file; used for performing image manipulations such as blurs, pixelations, fades, and twirls.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      },
+      {
+        "software": "adobe-flash-player",
+        "display_name": "Adobe Flash Player",
+        "status": "discontinued"
+      },
+      {
+        "software": "cyberlink-powerbackup",
+        "display_name": "CyberLink PowerBackup"
+      },
+      {
+        "software": "perfect-backup",
+        "display_name": "Perfect Backup"
+      }
+    ],
+    "macos": [
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      },
+      {
+        "software": "adobe-flash-player",
+        "display_name": "Adobe Flash Player",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-08-02",
+  "sources": [
+    {
+      "url": "pbj.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

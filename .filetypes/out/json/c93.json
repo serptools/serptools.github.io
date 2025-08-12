@@ -1,0 +1,81 @@
+{
+  "slug": "c93",
+  "extension": "c93",
+  "name": "Interplay C93 Video",
+  "category": "interplay-c93-video",
+  "developer_org": "interplay",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "A C93 file is a video used in Cyberia, a video game produced by Interplay Entertainment. It contains a movie that is played within the game. C93 files were used only in the DOS version of Cyberia.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      }
+    ],
+    "macos": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      }
+    ],
+    "linux": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "C93 file open in VLC media player",
+      "alt": "C93 file open in VLC media player",
+      "source_url": "https://fileinfo.com/img/ss/md/c93_11618.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-09-02",
+  "sources": [
+    {
+      "url": "c93.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

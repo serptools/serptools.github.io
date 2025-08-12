@@ -1,0 +1,57 @@
+{
+  "slug": "wfd",
+  "extension": "wfd",
+  "name": "WaveFront Drum Kit File",
+  "category": "1.-wavefront-drum-kit-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 2.2,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "Contains audio samples for a complete drum kit; used by the Turtle Beach WaveFront synthesizer chip to recreate drum sounds; WaveFront-based synthesizers includes the Maui, Tropez, Rio, and Monterey.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "turtle-beach-wavefront-software",
+        "display_name": "Turtle Beach WaveFront software"
+      },
+      {
+        "software": "fmj-software-awave-studio",
+        "display_name": "FMJ-Software Awave Studio"
+      },
+      {
+        "software": "wayfinder-systems-wayfinder-maploader",
+        "display_name": "Wayfinder Systems Wayfinder MapLoader"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2006-12-08",
+  "sources": [
+    {
+      "url": "wfd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

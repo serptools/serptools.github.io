@@ -1,0 +1,48 @@
+{
+  "slug": "cp9",
+  "extension": "cp9",
+  "name": "ChoicePoint Encrypted File",
+  "category": "choicepoint-encrypted-file",
+  "developer_org": "choicepoint",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "A CP9 file is an email attachment encrypted using software developed by ChoicePoint in partnership with the National Safety Alliance (NSA). It contains encrypted confidential data, such as employee background checks, compliance reports, or risk assessments. CP9 files protect sensitive information by making their contents unreadable without the correct decryption software.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2025-05-01",
+  "sources": [
+    {
+      "url": "cp9.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "mca",
+  "extension": "mca",
+  "name": "Minecraft Anvil Region",
+  "category": "minecraft-anvil-region",
+  "summary": "",
+  "developer_org": "mojang",
+  "developer_name": "Mojang",
+  "more_information": {
+    "description": [
+      "Minecraft is a popular open-world exploration and construction game. The game's Java Edition allows players to examine, modify, and replace game files, including MCA files.",
+      "MCA files are stored in a world's region directories. Typically, each world contains three region directories: one each for the world's Nether, End, and Overworld. Each region directory uses its own set of MCA files, whose filenames include the coordinates at which the region is placed (e.g. r.8.20.mca ).",
+      "Just as in the MCR format, regions are divided into chunks. In the MCA format, these chunks consist of 16x16x16 groups of terrain blocks. The MCA format improved on the MCR format by including increased build height (256 or 384 blocks depending on version, compared to MCR's 128), support for more block types, and more efficient file compression. The MCA format also includes more features Minecraft modders can use to modify regions.",
+      "NOTE: Players often refer to the MCA format as the Anvil region format. Minecraft's developers arbitrarily assigned this name to the format."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "mca.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

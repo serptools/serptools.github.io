@@ -1,0 +1,51 @@
+{
+  "slug": "s3i",
+  "extension": "s3i",
+  "name": "Scream Tracker 3 Instrument",
+  "category": "scream-tracker-3-instrument",
+  "developer_org": "future-crew",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "An S3I file is an instrument used by Scream Tracker 3, a DOS-based music tracker program popular in the 1990s. It stores instrument data, including sound samples and the associated parameters, such as pitch, volume, and effects settings, that alter sounds in compositions.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "scream-tracker-3",
+        "display_name": "Scream Tracker 3"
+      },
+      {
+        "software": "openmpt",
+        "display_name": "OpenMPT"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2024-11-21",
+  "sources": [
+    {
+      "url": "s3i.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

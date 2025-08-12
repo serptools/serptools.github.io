@@ -1,0 +1,22 @@
+{
+  "slug": "dsr",
+  "extension": "dsr",
+  "name": "Modern Warfare 3 Dedicated Server Recipe File",
+  "category": "modern-warfare-3-dedicated-server-recipe-file",
+  "summary": "",
+  "developer_org": "activision",
+  "developer_name": "Activision",
+  "more_information": {
+    "description": [
+      "A DSR file is used along with a .DSPL file to configure game rules of a CODMW3 dedicated server. You can open and edit the DSPL file with a text editor such as WordPad or Notepad, however, if you edit a recipe file during a session the changes will occur in the next map.",
+      "NOTE: Default DSR files, such as Team Deathmatch, Drop Zone, and Domination, for the Steam version of CODMW3 are located in the Modern Warfare 3 directory in the \"admin\" folder."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "dsr.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

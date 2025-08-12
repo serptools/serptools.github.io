@@ -1,0 +1,49 @@
+{
+  "slug": "krab",
+  "extension": "krab",
+  "name": "GandCrab V4 Ransomware Encrypted File",
+  "category": "gandcrab-v4-ransomware-encrypted-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 15,
+    "source": "fileinfo"
+  },
+  "summary": "A KRAB file is a file encrypted by the GandCrab V4 virus, a trojan horse utilized by cybercriminals. It contains a user's file, such as a .XLSX or .MP4 file, encrypted with the Salsa20 algorithm. KRAB files became prevalent in July 2018 and are similar to .GDCB files.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "system-restore",
+        "display_name": "System Restore"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-07-17",
+  "sources": [
+    {
+      "url": "krab.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

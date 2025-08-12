@@ -1,0 +1,49 @@
+{
+  "slug": "gkh",
+  "extension": "gkh",
+  "name": "Ensoniq EPS Family Disk Image",
+  "category": "ensoniq-eps-family-disk-image",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "Disk image format used by Ensoniq synthesizers, including the EPS, VFX, SD, TS, and ASR models; stores voice and song data on disks used by the synthesizers",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "chicken-systems-ensoniq-disk-tools",
+        "display_name": "Chicken Systems Ensoniq Disk Tools"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2006",
+  "sources": [
+    {
+      "url": "gkh.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

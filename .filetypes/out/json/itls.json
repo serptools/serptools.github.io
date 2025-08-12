@@ -1,0 +1,55 @@
+{
+  "slug": "itls",
+  "extension": "itls",
+  "name": "iTunes Live Stream URL",
+  "category": "itunes-live-stream-url",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Link to a live audio stream that can be streamed by iTunes, Apple's media playback application; similar to .M3U and .PLS files, but designed specifically for iTunes.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "apple-itunes",
+        "display_name": "Apple iTunes",
+        "status": "discontinued"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-itunes",
+        "display_name": "Apple iTunes",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-12-31",
+  "sources": [
+    {
+      "url": "itls.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

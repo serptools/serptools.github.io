@@ -1,0 +1,47 @@
+{
+  "slug": "sinf",
+  "extension": "sinf",
+  "name": "iOS Application Archive File",
+  "category": "ios-application-archive-file",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "Data file used by iOS applications; contains DRM data about iTunes authorization, such as the username; often discovered by users of jailbroken iPhones or applications like iFunBox, a desktop file explorer for iPhone.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "ios": [
+      {
+        "software": "apple-ios",
+        "display_name": "Apple iOS"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-01-14",
+  "sources": [
+    {
+      "url": "sinf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

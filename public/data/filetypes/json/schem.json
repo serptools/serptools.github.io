@@ -1,0 +1,23 @@
+{
+  "slug": "schem",
+  "extension": "schem",
+  "name": "Minecraft Schematic",
+  "category": "minecraft-schematic",
+  "summary": "",
+  "developer_org": "sponge",
+  "developer_name": "Sponge",
+  "more_information": {
+    "description": [
+      "Minecraft Java Edition is the original version of Minecraft. Notably, it allows players to use a variety of unofficial add-ons and mods to enhance their gameplay. Some mods allow players to save copies of their Minecraft structures, such as homes, natural features, monuments, or even entire worlds, and export those structures as SCHEM files. Then, players can easily import those structures to another Minecraft world or share them with other players via the Internet.",
+      "Prior to Minecraft 1.13, most Minecraft mods saved schematics as SCHEMATIC files. Minecraft 1.13 introduced technical changes that required mods to start saving schematics in a different file format. Many mod developers chose the SCHEM format created by the team behind Sponge, an open-source Minecraft modding framework.",
+      "SCHEM files and SCHEMATIC files are not interchangeable. Some mods allow players to convert SCHEM files to SCHEMATIC files for use in pre-1.13 versions of Minecraft, but there is currently no easy way to convert a SCHEMATIC file to a SCHEM file."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "schem.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

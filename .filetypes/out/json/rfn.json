@@ -1,0 +1,47 @@
+{
+  "slug": "rfn",
+  "extension": "rfn",
+  "name": "RoboForm Safenote File",
+  "category": "roboform-safenote-file",
+  "developer_org": "siber-systems",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "Safenote file created by RoboForm, a program used for securely storing personal information; contains a secret text fragment, such as an ATM password or a lock key combination; used to safely save and review sensitive personal information.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "siber-systems-roboform",
+        "display_name": "Siber Systems RoboForm"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-04-01",
+  "sources": [
+    {
+      "url": "rfn.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

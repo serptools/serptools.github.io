@@ -1,0 +1,59 @@
+{
+  "slug": "presto",
+  "extension": "presto",
+  "name": "Presto Project Spreadsheet",
+  "category": "presto-project-spreadsheet",
+  "developer_org": "rib-spain",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "A PRESTO file is a project management spreadsheet created by RIB Spain Presto, a construction project management program. It contains information about a construction project's timeline, cost, and necessary materials. PRESTO files are similar to .XLSX files but are formatted specifically for use with Presto.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "rib-spain-presto",
+        "display_name": "RIB Spain Presto"
+      }
+    ],
+    "web": [
+      {
+        "software": "rib-spain-presto",
+        "display_name": "RIB Spain Presto"
+      }
+    ],
+    "android": [
+      {
+        "software": "rib-spain-presto",
+        "display_name": "RIB Spain Presto"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-06-09",
+  "sources": [
+    {
+      "url": "presto.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

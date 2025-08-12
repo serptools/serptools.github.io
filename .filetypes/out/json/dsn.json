@@ -1,0 +1,69 @@
+{
+  "slug": "dsn",
+  "extension": "dsn",
+  "name": "Database Source Name File",
+  "category": "1.-database-source-name-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 58,
+    "source": "fileinfo"
+  },
+  "summary": "A DSN file is a data file used by various database client programs to connect to a database. It describes properties, such as the data source name and directory, the connection driver, the server address, user ID, and password. DSN files are used by ODBC drivers to connect to a specified database, such as a SQL Server or Microsoft Access database.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-odbc-data-source-administrator",
+        "display_name": "Microsoft ODBC Data Source Administrator"
+      },
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      },
+      {
+        "software": "cadence-orcad-pcb-designer",
+        "display_name": "Cadence OrCAD PCB Designer"
+      },
+      {
+        "software": "altium-designer",
+        "display_name": "Altium Designer"
+      }
+    ],
+    "macos": [
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-02-22",
+  "sources": [
+    {
+      "url": "dsn.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

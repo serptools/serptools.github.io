@@ -1,0 +1,53 @@
+{
+  "slug": "comicdoc",
+  "extension": "comicdoc",
+  "name": "Comic Life Document",
+  "category": "comic-life-document",
+  "developer_org": "plasq",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 24,
+    "source": "fileinfo"
+  },
+  "summary": "Comic book or picture album created with Comic Life; used for creating comic books, storyboards, comic strips, photo layouts, and other visual documents; may be created from a template or from scratch; can include images, photos, and bendable comic lettering text.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "plasq-comic-life",
+        "display_name": "plasq Comic Life"
+      }
+    ],
+    "macos": [
+      {
+        "software": "plasq-comic-life",
+        "display_name": "plasq Comic Life"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-03-16",
+  "sources": [
+    {
+      "url": "comicdoc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "slug": "oam",
+  "extension": "oam",
+  "name": "Adobe Edge Animate Widget File",
+  "category": "adobe-edge-animate-widget-file",
+  "developer_org": "adobe-systems",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "An OAM file is an animated widget saved in the Adobe Edge Animate Widget file format. It was likely created by Adobe Edge Animate, a program that uses HTML5, CSS, and JavaScript technologies to create animated web content. OAM files are used to insert widgets into InDesign documents ( .INDD ), Dreamweaver website projects, and other content created with Adobe Creative Suite applications. They may also be referred to as Adobe Edge Animate Deployment Packages.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "adobe-edge-animate-cc",
+        "display_name": "Adobe Edge Animate CC",
+        "status": "discontinued"
+      },
+      {
+        "software": "adobe-animate-2023",
+        "display_name": "Adobe Animate 2023"
+      },
+      {
+        "software": "adobe-indesign-2023",
+        "display_name": "Adobe InDesign 2023"
+      },
+      {
+        "software": "adobe-dreamweaver-2021",
+        "display_name": "Adobe Dreamweaver 2021"
+      }
+    ],
+    "macos": [
+      {
+        "software": "adobe-edge-animate-cc",
+        "display_name": "Adobe Edge Animate CC",
+        "status": "discontinued"
+      },
+      {
+        "software": "adobe-animate-2023",
+        "display_name": "Adobe Animate 2023"
+      },
+      {
+        "software": "adobe-indesign-2023",
+        "display_name": "Adobe InDesign 2023"
+      },
+      {
+        "software": "adobe-dreamweaver-2021",
+        "display_name": "Adobe Dreamweaver 2021"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "OAM file icon",
+      "alt": "OAM file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/oam-8369.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-10-27",
+  "sources": [
+    {
+      "url": "oam.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

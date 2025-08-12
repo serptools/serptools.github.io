@@ -1,0 +1,53 @@
+{
+  "slug": "xib",
+  "extension": "xib",
+  "name": "Interface Builder File",
+  "category": "interface-builder-file",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 2.8,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "Application interface created with Interface Builder, a graphical editor for designing and testing user interfaces; saved in a text-based flat-file format, introduced in Interface Builder 3.0.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "apple-interface-builder",
+        "display_name": "Apple Interface Builder"
+      }
+    ],
+    "windows": [
+      {
+        "software": "apple-interface-builder",
+        "display_name": "Apple Interface Builder"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2008-09-17",
+  "sources": [
+    {
+      "url": "xib.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

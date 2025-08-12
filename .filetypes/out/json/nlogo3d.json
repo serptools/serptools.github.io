@@ -1,0 +1,59 @@
+{
+  "slug": "nlogo3d",
+  "extension": "nlogo3d",
+  "name": "NetLogo 3D Model File",
+  "category": "netlogo-3d-model-file",
+  "developer_org": "netlogo",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "3D model created by NetLogo, a program used for modeling natural and social phenomena, often in academic and research environments; saves the starting parameters of the simulation as well as interactive buttons and source code used to set up and run the model in the 3D space.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "netlogo",
+        "display_name": "NetLogo"
+      }
+    ],
+    "macos": [
+      {
+        "software": "netlogo",
+        "display_name": "NetLogo"
+      }
+    ],
+    "linux": [
+      {
+        "software": "netlogo",
+        "display_name": "NetLogo"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-07-31",
+  "sources": [
+    {
+      "url": "nlogo3d.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

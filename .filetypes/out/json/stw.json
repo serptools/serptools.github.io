@@ -1,0 +1,93 @@
+{
+  "slug": "stw",
+  "extension": "stw",
+  "name": "StarOffice Document Template",
+  "category": "1.-staroffice-document-template",
+  "developer_org": "oracle",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "Document template originally created by StarOffice, the predecessor to Apache OpenOffice; uses an older software file format before Apache OpenOffice adopted the newer .ODT OpenDocument format; used for writing .SDW documents from the same template.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "openoffice-writer",
+        "display_name": "OpenOffice Writer"
+      },
+      {
+        "software": "libreoffice",
+        "display_name": "LibreOffice"
+      },
+      {
+        "software": "planamesa-neooffice",
+        "display_name": "Planamesa NeoOffice",
+        "status": "discontinued"
+      },
+      {
+        "software": "tibco-statistica",
+        "display_name": "TIBCO Statistica"
+      },
+      {
+        "software": "ik-multimedia-sampletank",
+        "display_name": "IK Multimedia SampleTank"
+      }
+    ],
+    "macos": [
+      {
+        "software": "openoffice-writer",
+        "display_name": "OpenOffice Writer"
+      },
+      {
+        "software": "planamesa-neooffice",
+        "display_name": "Planamesa NeoOffice",
+        "status": "discontinued"
+      },
+      {
+        "software": "libreoffice",
+        "display_name": "LibreOffice"
+      },
+      {
+        "software": "ik-multimedia-sampletank",
+        "display_name": "IK Multimedia SampleTank"
+      }
+    ],
+    "linux": [
+      {
+        "software": "openoffice-writer",
+        "display_name": "OpenOffice Writer"
+      },
+      {
+        "software": "libreoffice",
+        "display_name": "LibreOffice"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2013-07-26",
+  "sources": [
+    {
+      "url": "stw.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

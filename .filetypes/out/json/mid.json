@@ -1,0 +1,147 @@
+{
+  "slug": "mid",
+  "extension": "mid",
+  "name": "MIDI File",
+  "category": "1.-midi-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 222,
+    "source": "fileinfo"
+  },
+  "summary": "A MID file is a standard MIDI (Musical Instrument Digital Interface) file used by music authoring and mixing programs as well as MIDI hardware devices. It contains music data, such as what notes are played, when they are played, how long each note is held, and how loud each note is played.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-windows-media-player",
+        "display_name": "Microsoft Windows Media Player"
+      },
+      {
+        "software": "nullsoft-winamp",
+        "display_name": "Nullsoft Winamp"
+      },
+      {
+        "software": "noteworthy-composer",
+        "display_name": "NoteWorthy Composer"
+      },
+      {
+        "software": "timidity++",
+        "display_name": "TiMidity++"
+      },
+      {
+        "software": "makemusic-finale",
+        "display_name": "MakeMusic Finale"
+      },
+      {
+        "software": "nch-wavepad",
+        "display_name": "NCH WavePad"
+      },
+      {
+        "software": "apple-quicktime-player",
+        "display_name": "Apple QuickTime Player"
+      },
+      {
+        "software": "apple-logic-pro",
+        "display_name": "Apple Logic Pro"
+      },
+      {
+        "software": "kmid",
+        "display_name": "KMid"
+      },
+      {
+        "software": "pitney-bowes-mapinfo",
+        "display_name": "Pitney Bowes MapInfo"
+      },
+      {
+        "software": "gdal",
+        "display_name": "GDAL"
+      },
+      {
+        "software": "feedback",
+        "display_name": "FeedBack"
+      },
+      {
+        "software": "moonscraper-chart-editor",
+        "display_name": "Moonscraper Chart Editor"
+      },
+      {
+        "software": "clone-hero",
+        "display_name": "Clone Hero"
+      },
+      {
+        "software": "guitar-hero-three-control-panel",
+        "display_name": "Guitar Hero Three Control Panel"
+      },
+      {
+        "software": "phase-shift",
+        "display_name": "Phase Shift"
+      }
+    ],
+    "android": [
+      {
+        "software": "file-viewer-for-android",
+        "display_name": "File Viewer for Android"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-quicktime-player",
+        "display_name": "Apple QuickTime Player"
+      },
+      {
+        "software": "apple-logic-pro",
+        "display_name": "Apple Logic Pro"
+      },
+      {
+        "software": "timidity++",
+        "display_name": "TiMidity++"
+      },
+      {
+        "software": "makemusic-finale",
+        "display_name": "MakeMusic Finale"
+      }
+    ],
+    "linux": [
+      {
+        "software": "timidity++",
+        "display_name": "TiMidity++"
+      },
+      {
+        "software": "kmid",
+        "display_name": "KMid"
+      },
+      {
+        "software": "gdal",
+        "display_name": "GDAL"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-06-27",
+  "sources": [
+    {
+      "url": "mid.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

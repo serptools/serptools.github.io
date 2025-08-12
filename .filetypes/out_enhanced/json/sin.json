@@ -1,0 +1,27 @@
+{
+  "slug": "sin",
+  "extension": "sin",
+  "name": "Sony Xperia Firmware File",
+  "category": "sony-xperia-firmware-file",
+  "summary": "",
+  "developer_org": "sony",
+  "developer_name": "Sony",
+  "more_information": {
+    "description": [
+      "Most users will not encounter SIN files since they are distributed in FTF files. However, some users may extract them from FTF files in order to modify and create custom firmware files for Xperia devices. Users can unpack SIN files (version 3, 4, and 5) with the UnSin tool."
+    ]
+  },
+  "common_filenames": [
+    {
+      "filename": "kernel.sin",
+      "description": "kernel.sin - Contains a compressed kernel image and is stored in an FTF file."
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "sin.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "htb",
+  "extension": "htb",
+  "name": "Audacity Help File",
+  "category": "audacity-help-file",
+  "developer_org": "audacity",
+  "popularity": {
+    "rating": 2.5,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Help file used by Audacity, a free sound editing program; stores a compressed archive of Windows help files, .HTML files, and images; used for displaying help information when selecting Help → Contents in Audacity.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "audacity",
+        "display_name": "Audacity"
+      }
+    ],
+    "macos": [
+      {
+        "software": "audacity",
+        "display_name": "Audacity"
+      }
+    ],
+    "linux": [
+      {
+        "software": "audacity",
+        "display_name": "Audacity"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-10-08",
+  "sources": [
+    {
+      "url": "htb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

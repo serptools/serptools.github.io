@@ -1,0 +1,82 @@
+{
+  "slug": "wsz",
+  "extension": "wsz",
+  "name": "Winamp Classic Skin",
+  "category": "winamp-classic-skin",
+  "developer_org": "nullsoft",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 12,
+    "source": "fileinfo"
+  },
+  "summary": "A WSZ file is a custom skin used to alter the appearance of Nullsoft Winamp, a media player available for Windows. It contains a collection of .BMP images, .CUR images, and text files that, together, comprise a skin. WSZ files are also used to apply skins to some other media players, such as VLC media player and Audacious.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "nullsoft-winamp",
+        "display_name": "Nullsoft Winamp"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "audacious",
+        "display_name": "Audacious"
+      }
+    ],
+    "macos": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      }
+    ],
+    "linux": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "audacious",
+        "display_name": "Audacious"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "WSZ file icon",
+      "alt": "WSZ file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/wsz-1668.png"
+    },
+    {
+      "caption": "WSZ file open in Nullsoft Winamp 5",
+      "alt": "WSZ file open in Nullsoft Winamp 5",
+      "source_url": "https://fileinfo.com/img/ss/md/wsz_1668.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-07-07",
+  "sources": [
+    {
+      "url": "wsz.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

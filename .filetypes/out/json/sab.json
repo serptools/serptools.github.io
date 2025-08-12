@@ -1,0 +1,129 @@
+{
+  "slug": "sab",
+  "extension": "sab",
+  "name": "ACIS SAB Model",
+  "category": "1.-acis-sab-model",
+  "developer_org": "spatial",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "A SAB file is a 3D model created in the Standard ACIS Binary (SAB) format. It contains 3D geometry and structure information for a manufactured component. SAB files are used for exchanging model information between various CAD programs.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "spatial-3d-acis-modeler",
+        "display_name": "Spatial 3D ACIS Modeler"
+      },
+      {
+        "software": "autodesk-autocad-2025",
+        "display_name": "Autodesk AutoCAD 2025"
+      },
+      {
+        "software": "imsi-turbocad-pro",
+        "display_name": "IMSI TurboCAD Pro"
+      },
+      {
+        "software": "ashlar-vellum-cobalt",
+        "display_name": "Ashlar-Vellum Cobalt"
+      },
+      {
+        "software": "autodesk-fusion-360",
+        "display_name": "Autodesk Fusion 360"
+      },
+      {
+        "software": "cadsofttools-cst-cad-navigator",
+        "display_name": "CADSoftTools CST CAD Navigator"
+      },
+      {
+        "software": "imsi-turbocad-deluxe",
+        "display_name": "IMSI TurboCAD Deluxe"
+      },
+      {
+        "software": "raven-software-star-wars-jedi-knight-jedi-academy",
+        "display_name": "Raven Software Star Wars Jedi Knight: Jedi Academy"
+      }
+    ],
+    "macos": [
+      {
+        "software": "spatial-3d-acis-modeler",
+        "display_name": "Spatial 3D ACIS Modeler"
+      },
+      {
+        "software": "autodesk-autocad-2025",
+        "display_name": "Autodesk AutoCAD 2025"
+      },
+      {
+        "software": "imsi-turbocad-deluxe",
+        "display_name": "IMSI TurboCAD Deluxe"
+      },
+      {
+        "software": "autodesk-fusion-360",
+        "display_name": "Autodesk Fusion 360"
+      },
+      {
+        "software": "cadsofttools-cst-cad-navigator",
+        "display_name": "CADSoftTools CST CAD Navigator"
+      },
+      {
+        "software": "raven-software-star-wars-jedi-knight-jedi-academy",
+        "display_name": "Raven Software Star Wars Jedi Knight: Jedi Academy"
+      }
+    ],
+    "linux": [
+      {
+        "software": "spatial-3d-acis-modeler",
+        "display_name": "Spatial 3D ACIS Modeler"
+      },
+      {
+        "software": "cadsofttools-cst-cad-navigator",
+        "display_name": "CADSoftTools CST CAD Navigator"
+      }
+    ],
+    "web": [
+      {
+        "software": "autodesk-fusion-360",
+        "display_name": "Autodesk Fusion 360"
+      }
+    ],
+    "ios": [
+      {
+        "software": "autodesk-fusion-360",
+        "display_name": "Autodesk Fusion 360"
+      }
+    ],
+    "android": [
+      {
+        "software": "autodesk-fusion-360",
+        "display_name": "Autodesk Fusion 360"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-01-26",
+  "sources": [
+    {
+      "url": "sab.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

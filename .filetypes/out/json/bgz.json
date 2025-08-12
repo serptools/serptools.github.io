@@ -1,0 +1,59 @@
+{
+  "slug": "bgz",
+  "extension": "bgz",
+  "name": "Blood Frontier Map File",
+  "category": "blood-frontier-map-file",
+  "developer_org": "wouter-van-oortmerssen",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Game map file used by Blood Frontier, a first-person shooter (FPS) game previously developed as Red Eclipse; contains data for a game level, such as terrain definitions, waypoints, weapons, and other map settings; can be used for storing single and multiplayer maps.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "blood-frontier",
+        "display_name": "Blood Frontier"
+      }
+    ],
+    "macos": [
+      {
+        "software": "blood-frontier",
+        "display_name": "Blood Frontier"
+      }
+    ],
+    "linux": [
+      {
+        "software": "blood-frontier",
+        "display_name": "Blood Frontier"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-11-15",
+  "sources": [
+    {
+      "url": "bgz.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

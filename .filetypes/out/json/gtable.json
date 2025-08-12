@@ -1,0 +1,79 @@
+{
+  "slug": "gtable",
+  "extension": "gtable",
+  "name": "Google Fusion Table Shortcut",
+  "category": "google-fusion-table-shortcut",
+  "developer_org": "google",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 19,
+    "source": "fileinfo"
+  },
+  "summary": "A GTABLE file is a shortcut that was previously used to open a fusion table created in Google Fusion Tables and stored in Google Drive . It contains a reference to the table it opened, as well as the Gmail account used to create the table. GTABLE files are now obsolete, as Google has discontinued Google Fusion Tables.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "chromeos": [
+      {
+        "software": "google-chrome-text",
+        "display_name": "Google Chrome Text"
+      }
+    ],
+    "macos": [
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "GTABLE file icon",
+      "alt": "GTABLE file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/gtable-7631.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-03-19",
+  "sources": [
+    {
+      "url": "gtable.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

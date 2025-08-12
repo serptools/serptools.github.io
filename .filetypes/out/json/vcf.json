@@ -1,0 +1,221 @@
+{
+  "slug": "vcf",
+  "extension": "vcf",
+  "name": "vCard File",
+  "category": "1.-vcard-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 1288,
+    "source": "fileinfo"
+  },
+  "summary": "A VCF file is a standard file format for storing contact information for one or more persons or a business. It typically includes a name, address, phone number, email address, and other contact information. VCF files also support custom fields, images, and other types of media.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-windows-contacts",
+        "display_name": "Microsoft Windows Contacts"
+      },
+      {
+        "software": "microsoft-people",
+        "display_name": "Microsoft People"
+      },
+      {
+        "software": "microsoft-outlook-365",
+        "display_name": "Microsoft Outlook 365"
+      },
+      {
+        "software": "palm-desktop",
+        "display_name": "Palm Desktop"
+      },
+      {
+        "software": "beiley-handy-address-book",
+        "display_name": "Beiley Handy Address Book"
+      },
+      {
+        "software": "fonlow-it-open-contacts",
+        "display_name": "Fonlow IT Open Contacts"
+      },
+      {
+        "software": "vcardorganizer",
+        "display_name": "vCardOrganizer"
+      },
+      {
+        "software": "nokia-pc-suite",
+        "display_name": "Nokia PC Suite"
+      },
+      {
+        "software": "apple-contacts",
+        "display_name": "Apple Contacts"
+      },
+      {
+        "software": "vcardexplorer",
+        "display_name": "vCardExplorer"
+      },
+      {
+        "software": "flexibits-cardhop",
+        "display_name": "Flexibits Cardhop"
+      },
+      {
+        "software": "google-contacts",
+        "display_name": "Google Contacts"
+      },
+      {
+        "software": "freshbooks",
+        "display_name": "FreshBooks"
+      },
+      {
+        "software": "androld-contacts-vcf",
+        "display_name": "AndroLd Contacts VCF"
+      },
+      {
+        "software": "vcftools",
+        "display_name": "VCFtools"
+      },
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "github-atom",
+        "display_name": "GitHub Atom",
+        "status": "discontinued"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-contacts",
+        "display_name": "Apple Contacts"
+      },
+      {
+        "software": "microsoft-outlook-365",
+        "display_name": "Microsoft Outlook 365"
+      },
+      {
+        "software": "palm-desktop",
+        "display_name": "Palm Desktop"
+      },
+      {
+        "software": "vcardexplorer",
+        "display_name": "vCardExplorer"
+      },
+      {
+        "software": "flexibits-cardhop",
+        "display_name": "Flexibits Cardhop"
+      },
+      {
+        "software": "vcftools",
+        "display_name": "VCFtools"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "github-atom",
+        "display_name": "GitHub Atom",
+        "status": "discontinued"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "web": [
+      {
+        "software": "google-contacts",
+        "display_name": "Google Contacts"
+      },
+      {
+        "software": "freshbooks",
+        "display_name": "FreshBooks"
+      }
+    ],
+    "android": [
+      {
+        "software": "google-contacts",
+        "display_name": "Google Contacts"
+      },
+      {
+        "software": "androld-contacts-vcf",
+        "display_name": "AndroLd Contacts VCF"
+      }
+    ],
+    "chromeos": [
+      {
+        "software": "google-chrome-text",
+        "display_name": "Google Chrome Text"
+      }
+    ],
+    "linux": [
+      {
+        "software": "vcftools",
+        "display_name": "VCFtools"
+      },
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      },
+      {
+        "software": "github-atom",
+        "display_name": "GitHub Atom",
+        "status": "discontinued"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "VCF file icon",
+      "alt": "VCF file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/vcf-698.png"
+    },
+    {
+      "caption": "VCF file open in Microsoft Outlook 365",
+      "alt": "VCF file open in Microsoft Outlook 365",
+      "source_url": "https://fileinfo.com/img/ss/md/vcf_698.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-01-05",
+  "sources": [
+    {
+      "url": "vcf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

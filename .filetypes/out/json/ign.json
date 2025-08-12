@@ -1,0 +1,47 @@
+{
+  "slug": "ign",
+  "extension": "ign",
+  "name": "RoboHelp Ignore List File",
+  "category": "robohelp-ignore-list-file",
+  "developer_org": "adobe-systems",
+  "popularity": {
+    "rating": 2.7,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "File created by RoboHelp, a program used for creating help documents for Windows; saves a list of words that are ignored when the help user searches the resulting help documentation; saved in a plain text format.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "adobe-robohelp",
+        "display_name": "Adobe RoboHelp"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-08-08",
+  "sources": [
+    {
+      "url": "ign.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "coot",
+  "extension": "coot",
+  "name": "Coot Ransomware Encrypted File",
+  "category": "coot-ransomware-encrypted-file",
+  "summary": "",
+  "developer_org": "n-a",
+  "developer_name": "N/A",
+  "more_information": {
+    "description": [
+      "Coot is a type of malware utilized by cybercriminals that takes your files hostage and forces you to pay the perpetrator to unlock your files. It may be introduced to your computer in various ways, including fake software downloads or malicious email attachments disguised as other types of files. Some file types that are used to distribute Coot malware are .EXE , .RAR , .ZIP , and .JS files.",
+      "When the ransomware runs on your computer, it encrypts and renames standard files that are important to you with a .coot extension. The files are typically documents, images, videos, and backup files, such as .DOCX , .GIF , and .DB files. For example, an example.xlsx file becomes example.xlsx.coot .",
+      "The virus then generates a .TXT ransom note ( _readme.txt ) in each of the folders that contain encrypted COOT files. The purpose of the ransom note is to inform you of the takeover and what you need to do to recover your files. Typically, the note provides an email address to contact and the amount of the ransom that needs to be paid (usually $980 in Bitcoin) to acquire the decryption tool."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "coot.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "slug": "sma",
+  "extension": "sma",
+  "name": "AMX Mod Plugin Source File",
+  "category": "1.-amx-mod-plugin-source-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 20,
+    "source": "fileinfo"
+  },
+  "summary": "Contains the source code of plugin created for AMX Mod or AMX Mod X; used for modifying Valve's Half-Life and similar games; must be compiled into a binary plugin file in order to be used by the program.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "amx-mod",
+        "display_name": "AMX Mod"
+      },
+      {
+        "software": "amx-mod-x",
+        "display_name": "AMX Mod X"
+      },
+      {
+        "software": "makemusic-smartmusic",
+        "display_name": "MakeMusic SmartMusic"
+      },
+      {
+        "software": "intergraph-smartplant-instrumentation",
+        "display_name": "Intergraph SmartPlant Instrumentation"
+      }
+    ],
+    "linux": [
+      {
+        "software": "amx-mod",
+        "display_name": "AMX Mod"
+      },
+      {
+        "software": "amx-mod-x",
+        "display_name": "AMX Mod X"
+      }
+    ],
+    "macos": [
+      {
+        "software": "makemusic-smartmusic",
+        "display_name": "MakeMusic SmartMusic"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2008-09-09",
+  "sources": [
+    {
+      "url": "sma.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

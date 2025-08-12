@@ -1,0 +1,53 @@
+{
+  "slug": "dmkit",
+  "extension": "dmkit",
+  "name": "Drumaxx Drum Kit",
+  "category": "drumaxx-drum-kit",
+  "developer_org": "image-line",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "A DMKIT file is a drum kit used by Drumaxx, a percussion plug-in for Image-Line FL Studio . It contains a set of sixteen drum pads that Drumaxx uses to synthesize drum sounds.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "image-line-fl-studio-with-drumaxx-plug-in-installed",
+        "display_name": "Image-Line FL Studio with Drumaxx plug-in installed"
+      }
+    ],
+    "macos": [
+      {
+        "software": "image-line-fl-studio-with-drumaxx-plug-in-installed",
+        "display_name": "Image-Line FL Studio with Drumaxx plug-in installed"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-09-01",
+  "sources": [
+    {
+      "url": "dmkit.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

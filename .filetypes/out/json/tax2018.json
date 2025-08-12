@@ -1,0 +1,69 @@
+{
+  "slug": "tax2018",
+  "extension": "tax2018",
+  "name": "TurboTax 2018 Tax Return",
+  "category": "turbotax-2018-tax-return",
+  "developer_org": "intuit",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 17,
+    "source": "fileinfo"
+  },
+  "summary": "A TAX2018 file is a United States tax return created with the 2018 version of Intuit TurboTax. It contains tax data, which includes personal information, federal IRS tax forms, and one or more state forms for the 2018 tax year. TAX2018 files may be encrypted if saved with password protection since they store sensitive personal and financial data.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "intuit-turbotax",
+        "display_name": "Intuit TurboTax"
+      },
+      {
+        "software": "intuit-turbotax-online",
+        "display_name": "Intuit TurboTax Online"
+      }
+    ],
+    "macos": [
+      {
+        "software": "intuit-turbotax",
+        "display_name": "Intuit TurboTax"
+      }
+    ],
+    "web": [
+      {
+        "software": "intuit-turbotax-online",
+        "display_name": "Intuit TurboTax Online"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "TAX2018 file icon",
+      "alt": "TAX2018 file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/tax2018-11189.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-01-17",
+  "sources": [
+    {
+      "url": "tax2018.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

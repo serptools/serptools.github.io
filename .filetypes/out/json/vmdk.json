@@ -1,0 +1,97 @@
+{
+  "slug": "vmdk",
+  "extension": "vmdk",
+  "name": "Virtual Machine Disk File",
+  "category": "virtual-machine-disk-file",
+  "developer_org": "vmware",
+  "popularity": {
+    "rating": 4.1,
+    "votes": 45,
+    "source": "fileinfo"
+  },
+  "summary": "A VMDK file is a virtual disk that stores the contents of a virtual machine created by VMware Workstation or VMware Fusion. It is typically stored within a virtual machine package ( .VMWAREVM file), and the VMware software accesses it similarly to a physical hard disk. VMDK files may be set at a fixed size or configured to grow over time using VMware's Virtual Disk Manager.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "vmware-workstation",
+        "display_name": "VMware Workstation"
+      },
+      {
+        "software": "winmount-international-winmount",
+        "display_name": "WinMount International WinMount"
+      },
+      {
+        "software": "oracle-virtualbox",
+        "display_name": "Oracle VirtualBox"
+      },
+      {
+        "software": "gilles-vollant-winimage",
+        "display_name": "Gilles Vollant WinImage"
+      },
+      {
+        "software": "aryson-vmdk-recovery",
+        "display_name": "Aryson VMDK Recovery"
+      },
+      {
+        "software": "vmware-fusion",
+        "display_name": "VMware Fusion"
+      }
+    ],
+    "macos": [
+      {
+        "software": "parallels-desktop-for-mac-20",
+        "display_name": "Parallels Desktop for Mac 20"
+      },
+      {
+        "software": "vmware-fusion",
+        "display_name": "VMware Fusion"
+      },
+      {
+        "software": "oracle-virtualbox",
+        "display_name": "Oracle VirtualBox"
+      }
+    ],
+    "linux": [
+      {
+        "software": "vmware-workstation",
+        "display_name": "VMware Workstation"
+      },
+      {
+        "software": "oracle-virtualbox",
+        "display_name": "Oracle VirtualBox"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "VMDK file icon",
+      "alt": "VMDK file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/vmdk-2777.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-09-14",
+  "sources": [
+    {
+      "url": "vmdk.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

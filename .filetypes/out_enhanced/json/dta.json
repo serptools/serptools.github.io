@@ -1,0 +1,33 @@
+{
+  "slug": "dta",
+  "extension": "dta",
+  "name": "Chain Engineering Database",
+  "category": "chain-engineering-database",
+  "summary": "",
+  "developer_org": "statacorp",
+  "developer_name": "StataCorp",
+  "more_information": {
+    "description": [
+      "The two most common DTA files are IS.dta , which is the system database, and IW.dta , which is the chain database. You can open Chain Engineering DTA files with IWIS Chain Engineering, which is only available for Windows.",
+      "You most likely will only encounter a Chain Engineering DTA file if you have the Chain Engineering program installed on your computer. If you do not have the program installed on your computer and do not specialize in industrial chain drives, your DTA file most likely stores different information.",
+      "NOTE: IWIS is a company that specializes in engineering automotive and industrial application chain drive systems."
+    ]
+  },
+  "common_filenames": [
+    {
+      "filename": "music.dta",
+      "description": "music.dta - Contains OGG and MIDI files for all of the music played in the game."
+    },
+    {
+      "filename": "player.dta",
+      "description": "player.dta - Contains sprites (graphics) for playable characters in the game."
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "dta.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

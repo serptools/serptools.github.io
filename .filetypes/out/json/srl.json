@@ -1,0 +1,137 @@
+{
+  "slug": "srl",
+  "extension": "srl",
+  "name": "Nintendo DS ROM",
+  "category": "1.-nintendo-ds-rom",
+  "developer_org": "nintendo",
+  "popularity": {
+    "rating": 2.5,
+    "votes": 10,
+    "source": "fileinfo"
+  },
+  "summary": "An SRL file is a ROM file used by the Nintendo Wii U. It contains a copy of a Nintendo DS video game. SRL files are also used to play Nintendo DS games in PC-based Nintendo DS emulators .",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "desmume",
+        "display_name": "DeSmuME"
+      },
+      {
+        "software": "ideas-emulator",
+        "display_name": "iDeaS Emulator"
+      },
+      {
+        "software": "openemu",
+        "display_name": "OpenEmu"
+      },
+      {
+        "software": "nds4droid",
+        "display_name": "nds4droid"
+      },
+      {
+        "software": "cpu-studio-nds-emulator",
+        "display_name": "CPU Studio NDS Emulator"
+      },
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "github-atom",
+        "display_name": "GitHub Atom",
+        "status": "discontinued"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      }
+    ],
+    "macos": [
+      {
+        "software": "desmume",
+        "display_name": "DeSmuME"
+      },
+      {
+        "software": "openemu",
+        "display_name": "OpenEmu"
+      },
+      {
+        "software": "gnu-emacs",
+        "display_name": "GNU Emacs"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "github-atom",
+        "display_name": "GitHub Atom",
+        "status": "discontinued"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      }
+    ],
+    "linux": [
+      {
+        "software": "desmume",
+        "display_name": "DeSmuME"
+      },
+      {
+        "software": "ideas-emulator",
+        "display_name": "iDeaS Emulator"
+      }
+    ],
+    "android": [
+      {
+        "software": "nds4droid",
+        "display_name": "nds4droid"
+      },
+      {
+        "software": "cpu-studio-nds-emulator",
+        "display_name": "CPU Studio NDS Emulator"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-02-19",
+  "sources": [
+    {
+      "url": "srl.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

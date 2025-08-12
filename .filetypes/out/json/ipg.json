@@ -1,0 +1,61 @@
+{
+  "slug": "ipg",
+  "extension": "ipg",
+  "name": "iPod Game File",
+  "category": "ipod-game-file",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 2.9,
+    "votes": 10,
+    "source": "fileinfo"
+  },
+  "summary": "Installer package for an iPod-based video game; contains installation files in a compressed .ZIP archive; can be installed on an iPod using Apple iTunes.",
+  "standards": [],
+  "mime_types": [
+    "music/itunes"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "apple-itunes-requires-an-ipod-to-run",
+        "display_name": "Apple iTunes (requires an iPod to run)"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-itunes-requires-an-ipod-to-run",
+        "display_name": "Apple iTunes (requires an iPod to run)"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "IPG file icon",
+      "alt": "IPG file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/ipg-2693.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-08-31",
+  "sources": [
+    {
+      "url": "ipg.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

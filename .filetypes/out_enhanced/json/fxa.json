@@ -1,0 +1,23 @@
+{
+  "slug": "fxa",
+  "extension": "fxa",
+  "name": "OC3 Entertainment FaceFX Actor File",
+  "category": "oc3-entertainment-facefx-actor-file",
+  "summary": "",
+  "developer_org": "o3-entertainment",
+  "developer_name": "O3 Entertainment",
+  "more_information": {
+    "description": [
+      "FXA files are designed to only store the information necessary for the animation. Therefore, they do not store any FaceFX-specific project data. This helps the files be lightweight and consume fewer resources when being played back in a game.",
+      "FaceFX animations are used by popular games such as StarCraft II: Wings of Liberty, Mass Effect 2, and Assassin's Creed 2.",
+      "NOTE: FXA files were used by FaceFX 1.0 - 1.7.x. They have been replaced by .FACEFX files in FaceFX 2009 and later."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "fxa.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

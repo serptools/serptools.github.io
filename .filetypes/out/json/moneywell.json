@@ -1,0 +1,53 @@
+{
+  "slug": "moneywell",
+  "extension": "moneywell",
+  "name": "MoneyWell Account File",
+  "category": "moneywell-account-file",
+  "developer_org": "no-thirst-software",
+  "popularity": {
+    "rating": 1.8,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Data file created by MoneyWell, a personal finance program for Mac and iOS; saves financial information for the user, such as account histories, transactions, credit card data, and loan information.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "no-thirst-moneywell",
+        "display_name": "No Thirst MoneyWell"
+      }
+    ],
+    "windows": [
+      {
+        "software": "no-thirst-moneywell",
+        "display_name": "No Thirst MoneyWell"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-12-20",
+  "sources": [
+    {
+      "url": "moneywell.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

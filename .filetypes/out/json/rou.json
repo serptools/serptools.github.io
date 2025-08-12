@@ -1,0 +1,49 @@
+{
+  "slug": "rou",
+  "extension": "rou",
+  "name": "Gerber Route File",
+  "category": "gerber-route-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "Contains routing data used in printed circuit board ( PCB ) manufacturing; saved in a standard Gerber format and includes plating and count information about the drilling tools used to create the board.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "altium-designer",
+        "display_name": "Altium Designer"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-01-26",
+  "sources": [
+    {
+      "url": "rou.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

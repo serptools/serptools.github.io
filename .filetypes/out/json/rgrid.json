@@ -1,0 +1,65 @@
+{
+  "slug": "rgrid",
+  "extension": "rgrid",
+  "name": "RepGrid File",
+  "category": "repgrid-file",
+  "developer_org": "dr.-mildred-shaw",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "An RGRID file contains grid data used by conceptual grid analysis programs, such as WebGrid, Rep Plus, Rep 5, Rep IV, RepGrid 2, and PLANET. It stores various grid data, which includes a list of elements and constructs, ratings of elements on constructs, class definitions of compound constructs, and default parameters. RGRID files are typically used by psychology students and researchers.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "rep-plus",
+        "display_name": "Rep Plus"
+      }
+    ],
+    "web": [
+      {
+        "software": "webgrid",
+        "display_name": "WebGrid"
+      }
+    ],
+    "macos": [
+      {
+        "software": "rep-plus",
+        "display_name": "Rep Plus"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "RGRID file icon",
+      "alt": "RGRID file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/rgrid-11075.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-08-31",
+  "sources": [
+    {
+      "url": "rgrid.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

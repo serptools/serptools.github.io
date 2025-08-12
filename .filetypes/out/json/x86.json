@@ -1,0 +1,49 @@
+{
+  "slug": "x86",
+  "extension": "x86",
+  "name": "Linux Executable File",
+  "category": "linux-executable-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 4.1,
+    "votes": 14,
+    "source": "fileinfo"
+  },
+  "summary": "Executable program file created for the Linux operating system; contains an application in binary format that is run as an executable; similar to the .EXE file in Microsoft Windows.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "linux": [
+      {
+        "software": "linux",
+        "display_name": "Linux"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2013-12-31",
+  "sources": [
+    {
+      "url": "x86.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

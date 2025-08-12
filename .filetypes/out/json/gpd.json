@@ -1,0 +1,88 @@
+{
+  "slug": "gpd",
+  "extension": "gpd",
+  "name": "Generic Printer Description File",
+  "category": "1.-generic-printer-description-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 16,
+    "source": "fileinfo"
+  },
+  "summary": "Text file describing a printer to the Windows operating system when printing with the Unidrv (Universal Printer Driver); uses the GPD language to describe a printer providing various types of information including: printer attributes, printer commands, printer features, printer options, printer font descriptions, and conditional statements.",
+  "standards": [],
+  "mime_types": [
+    "open/close"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-windows",
+        "display_name": "Microsoft Windows"
+      },
+      {
+        "software": "horizon",
+        "display_name": "Horizon"
+      },
+      {
+        "software": "modio",
+        "display_name": "Modio"
+      },
+      {
+        "software": "hxd",
+        "display_name": "HxD"
+      },
+      {
+        "software": "hexplorer",
+        "display_name": "HEXplorer"
+      },
+      {
+        "software": "rgb-light-photodefiner-free-viewer",
+        "display_name": "RGB Light PhotoDefiner Free Viewer",
+        "pricing": "free"
+      },
+      {
+        "software": "kandalu-photok-win",
+        "display_name": "Kandalu PhotoK Win"
+      }
+    ],
+    "macos": [
+      {
+        "software": "kandalu-kandalulite",
+        "display_name": "Kandalu KandaluLite"
+      },
+      {
+        "software": "kandalu-photok",
+        "display_name": "Kandalu PhotoK"
+      },
+      {
+        "software": "apple-quicktime-player-with-the-photodefiner-component",
+        "display_name": "Apple QuickTime Player with the PhotoDefiner component"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2013-08-15",
+  "sources": [
+    {
+      "url": "gpd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

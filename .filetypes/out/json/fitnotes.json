@@ -1,0 +1,53 @@
+{
+  "slug": "fitnotes",
+  "extension": "fitnotes",
+  "name": "FitNotes Data Backup",
+  "category": "fitnotes-data-backup",
+  "developer_org": "james-gay",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "A FITNOTES file is a backup created by FitNotes, a workout-tracking app for Android. It stores a user's data, which includes one or more workouts (including their reps and weight), body measurements, routines, and personal records. FitNotes users create FITNOTES files to preserve workout data or transfer it to another FitNotes app.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "android": [
+      {
+        "software": "james-gay-fitnotes",
+        "display_name": "James Gay FitNotes"
+      }
+    ],
+    "windows": [
+      {
+        "software": "james-gay-fitnotes",
+        "display_name": "James Gay FitNotes"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2024-01-08",
+  "sources": [
+    {
+      "url": "fitnotes.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "slug": "amv",
+  "extension": "amv",
+  "name": "Actions Media Video",
+  "category": "actions-media-video",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.1,
+    "votes": 21,
+    "source": "fileinfo"
+  },
+  "summary": "An AMV file is a video saved in the Actions Media Video file format, which is used by some Chinese portable media players. It contains a compressed, low-resolution (96x96 to 320x240 pixel) video. AMV files can be played using the desktop PC software included with AMV media players, as well as VideoLAN VLC media player.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "online-media-technologies-avs-media-player",
+        "display_name": "Online Media Technologies AVS Media Player"
+      },
+      {
+        "software": "online-media-technologies-avs-video-converter",
+        "display_name": "Online Media Technologies AVS Video Converter"
+      },
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      },
+      {
+        "software": "anymp4-video-converter",
+        "display_name": "AnyMP4 Video Converter"
+      }
+    ],
+    "macos": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      },
+      {
+        "software": "anymp4-video-converter",
+        "display_name": "AnyMP4 Video Converter"
+      }
+    ],
+    "linux": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "AMV file open in VideoLAN VLC media player",
+      "alt": "AMV file open in VideoLAN VLC media player",
+      "source_url": "https://fileinfo.com/img/ss/md/amv_2162.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-06-30",
+  "sources": [
+    {
+      "url": "amv.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

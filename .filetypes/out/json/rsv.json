@@ -1,0 +1,47 @@
+{
+  "slug": "rsv",
+  "extension": "rsv",
+  "name": "RSView32 Project File",
+  "category": "rsview32-project-file",
+  "developer_org": "rockwell-automation",
+  "popularity": {
+    "rating": 4.1,
+    "votes": 37,
+    "source": "fileinfo"
+  },
+  "summary": "File created by RSView32, a program used to monitor and control machine processes; contains project information, including graphical user interface components, program code, and machine connection settings; used to build a human-machine interface application.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "rockwell-automation-rsview32",
+        "display_name": "Rockwell Automation RSView32"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-03-22",
+  "sources": [
+    {
+      "url": "rsv.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

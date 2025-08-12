@@ -1,0 +1,69 @@
+{
+  "slug": "oti",
+  "extension": "oti",
+  "name": "OpenDocument Image Template",
+  "category": "opendocument-image-template",
+  "developer_org": "oasis",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "Image template created by programs that use OASIS's OpenDocument specification; stores the default settings for an image; can be used as the starting point for creating multiple .ODI image documents.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "openoffice-draw",
+        "display_name": "OpenOffice Draw"
+      },
+      {
+        "software": "planamesa-neooffice",
+        "display_name": "Planamesa NeoOffice",
+        "status": "discontinued"
+      }
+    ],
+    "macos": [
+      {
+        "software": "openoffice-draw",
+        "display_name": "OpenOffice Draw"
+      },
+      {
+        "software": "planamesa-neooffice",
+        "display_name": "Planamesa NeoOffice",
+        "status": "discontinued"
+      }
+    ],
+    "linux": [
+      {
+        "software": "openoffice-draw",
+        "display_name": "OpenOffice Draw"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-03-18",
+  "sources": [
+    {
+      "url": "oti.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

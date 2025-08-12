@@ -1,0 +1,77 @@
+{
+  "slug": "htmod",
+  "extension": "htmod",
+  "name": "Hardware Tycoon Game Mod File",
+  "category": "hardware-tycoon-game-mod-file",
+  "developer_org": "haxor",
+  "popularity": {
+    "rating": 2.3,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "An HTMOD file contains a game mod for Hardware Tycoon, a computer hardware company simulation game where you develop various types of hardware to dominate the computer industry. It stores one or more hardware \"packages\" that can be added to the game, such as the cost of, the performance of, the stability of, and the number of pins in a CPU . HTMOD files are created by users with the Hardware Tycoon Mod Tool and typically shared online with other users.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "hardware-tycoon",
+        "display_name": "Hardware Tycoon"
+      },
+      {
+        "software": "hardware-tycoon-mod-tool",
+        "display_name": "Hardware Tycoon Mod Tool"
+      }
+    ],
+    "macos": [
+      {
+        "software": "hardware-tycoon",
+        "display_name": "Hardware Tycoon"
+      },
+      {
+        "software": "hardware-tycoon-mod-tool",
+        "display_name": "Hardware Tycoon Mod Tool"
+      }
+    ],
+    "linux": [
+      {
+        "software": "hardware-tycoon",
+        "display_name": "Hardware Tycoon"
+      },
+      {
+        "software": "hardware-tycoon-mod-tool",
+        "display_name": "Hardware Tycoon Mod Tool"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "HTMOD file open in Hardware Tycoon Mod Tool",
+      "alt": "HTMOD file open in Hardware Tycoon Mod Tool",
+      "source_url": "https://fileinfo.com/img/ss/md/htmod_11536.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-06-03",
+  "sources": [
+    {
+      "url": "htmod.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

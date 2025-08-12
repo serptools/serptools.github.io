@@ -1,0 +1,59 @@
+{
+  "slug": "epim",
+  "extension": "epim",
+  "name": "EssentialPIM Database File",
+  "category": "essentialpim-database-file",
+  "developer_org": "astonsoft",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "File used by EssentialPIM, a personal information manager; stores your personal data, such as added tasks, notes, contacts, passwords, calendar items, and appointments.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "astonsoft-essentialpim",
+        "display_name": "Astonsoft EssentialPIM"
+      }
+    ],
+    "ios": [
+      {
+        "software": "astonsoft-essentialpim",
+        "display_name": "Astonsoft EssentialPIM"
+      }
+    ],
+    "android": [
+      {
+        "software": "astonsoft-essentialpim",
+        "display_name": "Astonsoft EssentialPIM"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-08-28",
+  "sources": [
+    {
+      "url": "epim.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "slug": "amf",
+  "extension": "amf",
+  "name": "Additive Manufacturing File",
+  "category": "1.-additive-manufacturing-file",
+  "developer_org": "american-society-for-testing-and-materials",
+  "popularity": {
+    "rating": 4.2,
+    "votes": 10,
+    "source": "fileinfo"
+  },
+  "summary": "An AMF file is an additive manufacturing file used by CAD programs to describe objects for 3D printing purposes. It contains one or more objects, which include the geometry, color, and material of the volumes that make up the object(s). AMF files also store the constellation (arrangement) of multiple objects and metadata that specifies the author, name, copyright, and special instructions for the object(s).",
+  "standards": [],
+  "mime_types": [
+    "n/a",
+    "vitamin/caig"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "autodesk-fusion-360",
+        "display_name": "Autodesk Fusion 360"
+      },
+      {
+        "software": "cnc-software-mastercam",
+        "display_name": "CNC Software Mastercam"
+      },
+      {
+        "software": "autodesk-meshmixer",
+        "display_name": "Autodesk Meshmixer"
+      },
+      {
+        "software": "nullsoft-winamp",
+        "display_name": "Nullsoft Winamp"
+      },
+      {
+        "software": "modplug-player",
+        "display_name": "ModPlug Player",
+        "status": "discontinued"
+      },
+      {
+        "software": "schism-tracker",
+        "display_name": "Schism Tracker"
+      },
+      {
+        "software": "mikmod",
+        "display_name": "MikMod"
+      },
+      {
+        "software": "open-cubic-player",
+        "display_name": "Open Cubic Player",
+        "status": "discontinued"
+      },
+      {
+        "software": "vitamin-caig-zxtune",
+        "display_name": "Vitamin/CAIG ZXTune"
+      },
+      {
+        "software": "cocomodx",
+        "display_name": "CocoModX",
+        "status": "discontinued"
+      },
+      {
+        "software": "droidsound-e",
+        "display_name": "Droidsound-E"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      }
+    ],
+    "macos": [
+      {
+        "software": "autodesk-fusion-360",
+        "display_name": "Autodesk Fusion 360"
+      },
+      {
+        "software": "autodesk-meshmixer",
+        "display_name": "Autodesk Meshmixer"
+      },
+      {
+        "software": "cocomodx",
+        "display_name": "CocoModX",
+        "status": "discontinued"
+      },
+      {
+        "software": "mikmod",
+        "display_name": "MikMod"
+      },
+      {
+        "software": "schism-tracker",
+        "display_name": "Schism Tracker"
+      },
+      {
+        "software": "open-cubic-player",
+        "display_name": "Open Cubic Player",
+        "status": "discontinued"
+      },
+      {
+        "software": "vitamin-caig-zxtune",
+        "display_name": "Vitamin/CAIG ZXTune"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      }
+    ],
+    "linux": [
+      {
+        "software": "autodesk-meshmixer",
+        "display_name": "Autodesk Meshmixer"
+      },
+      {
+        "software": "mikmod",
+        "display_name": "MikMod"
+      },
+      {
+        "software": "schism-tracker",
+        "display_name": "Schism Tracker"
+      },
+      {
+        "software": "open-cubic-player",
+        "display_name": "Open Cubic Player",
+        "status": "discontinued"
+      },
+      {
+        "software": "vitamin-caig-zxtune",
+        "display_name": "Vitamin/CAIG ZXTune"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      }
+    ],
+    "android": [
+      {
+        "software": "vitamin-caig-zxtune",
+        "display_name": "Vitamin/CAIG ZXTune"
+      },
+      {
+        "software": "droidsound-e",
+        "display_name": "Droidsound-E"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "AMF file icon",
+      "alt": "AMF file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/amf-10318.png"
+    },
+    {
+      "caption": "AMF file open in Autodesk Meshmixer 3",
+      "alt": "AMF file open in Autodesk Meshmixer 3",
+      "source_url": "https://fileinfo.com/img/ss/md/amf_10318.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-07-28",
+  "sources": [
+    {
+      "url": "amf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

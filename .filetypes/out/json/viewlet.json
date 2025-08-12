@@ -1,0 +1,74 @@
+{
+  "slug": "viewlet",
+  "extension": "viewlet",
+  "name": "Qarbon Viewlet",
+  "category": "qarbon-viewlet",
+  "developer_org": "qarbon",
+  "popularity": {
+    "rating": 2.6,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "Interactive Flash presentation created by Qarbon presentation software; contains the Flash .SWF file, an .HTML file, and the .QVP source file, which stores images, audio files, and other resources; used for storing project assets together.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "qarbon-viewletbuilder",
+        "display_name": "Qarbon ViewletBuilder"
+      },
+      {
+        "software": "adobe-flash-player",
+        "display_name": "Adobe Flash Player",
+        "status": "discontinued"
+      }
+    ],
+    "macos": [
+      {
+        "software": "qarbon-viewletbuilder",
+        "display_name": "Qarbon ViewletBuilder"
+      },
+      {
+        "software": "adobe-flash-player",
+        "display_name": "Adobe Flash Player",
+        "status": "discontinued"
+      }
+    ],
+    "linux": [
+      {
+        "software": "qarbon-viewletbuilder",
+        "display_name": "Qarbon ViewletBuilder"
+      },
+      {
+        "software": "adobe-flash-player",
+        "display_name": "Adobe Flash Player",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-08-18",
+  "sources": [
+    {
+      "url": "viewlet.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

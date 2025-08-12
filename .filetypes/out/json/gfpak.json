@@ -1,0 +1,49 @@
+{
+  "slug": "gfpak",
+  "extension": "gfpak",
+  "name": "Game Freak Resource Package",
+  "category": "game-freak-resource-package",
+  "developer_org": "game-freak",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "A GFPAK file is an archive that contains resources used by a Nintendo Switch Pokémon game. For example, a GFPAK file may contain a 3D model, textures, and other files used to show a Pokémon in-game. Pokémon Sword and Shield, Pokémon Legends: Arceus, and the Pokémon: Let's Go series all use GFPAK files.",
+  "standards": [],
+  "mime_types": [
+    "and/or"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "switch-toolbox",
+        "display_name": "Switch-Toolbox"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-10-03",
+  "sources": [
+    {
+      "url": "gfpak.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "nuproj",
+  "extension": "nuproj",
+  "name": "NuGet Build Project",
+  "category": "nuget-build-project",
+  "developer_org": "nuget",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "A NUPROJ file is a project created by Visual Studio with the NuBuild Project System extension installed. It contains a project, which includes build configuration properties. NUPROJ files are used to build .NUPKG NuGet packages from .NUSPEC files and manage them.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-visual-studio-with-nubuild-project-system",
+        "display_name": "Microsoft Visual Studio with NuBuild Project System"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-05-25",
+  "sources": [
+    {
+      "url": "nuproj.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

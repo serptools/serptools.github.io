@@ -1,0 +1,63 @@
+{
+  "slug": "prp",
+  "extension": "prp",
+  "name": "Rational Model Properties File",
+  "category": "rational-model-properties-file",
+  "developer_org": "ibm",
+  "popularity": {
+    "rating": 2.2,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Properties file used by Rational Rhapsody, a visual development program designed for systems engineers and software developers; contains a list of properties for a data model created with Rational Rhapsody; similar to a .PTY file, but is user-controlled and is created specifically for multi-user environments.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "ibm-rational-rhapsody",
+        "display_name": "IBM Rational Rhapsody"
+      },
+      {
+        "software": "ibm-rational-rose",
+        "display_name": "IBM Rational Rose",
+        "status": "discontinued"
+      }
+    ],
+    "linux": [
+      {
+        "software": "ibm-rational-rhapsody",
+        "display_name": "IBM Rational Rhapsody"
+      },
+      {
+        "software": "ibm-rational-rose",
+        "display_name": "IBM Rational Rose",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-05-27",
+  "sources": [
+    {
+      "url": "prp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

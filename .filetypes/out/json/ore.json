@@ -1,0 +1,59 @@
+{
+  "slug": "ore",
+  "extension": "ore",
+  "name": "Ore Executable File",
+  "category": "ore-executable-file",
+  "developer_org": "crait",
+  "popularity": {
+    "rating": 1.9,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "Source code file written in Ore, a lightweight programming language designed for writing cross-platform batch executables; executed by the Ore Runtime Environment, a program that runs Ore programs on multiple platforms.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "ore-runtime-environment",
+        "display_name": "Ore Runtime Environment"
+      }
+    ],
+    "macos": [
+      {
+        "software": "ore-runtime-environment",
+        "display_name": "Ore Runtime Environment"
+      }
+    ],
+    "linux": [
+      {
+        "software": "ore-runtime-environment",
+        "display_name": "Ore Runtime Environment"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-07-16",
+  "sources": [
+    {
+      "url": "ore.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

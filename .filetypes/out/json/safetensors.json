@@ -1,0 +1,71 @@
+{
+  "slug": "safetensors",
+  "extension": "safetensors",
+  "name": "Stable Diffusion Model",
+  "category": "stable-diffusion-model",
+  "developer_org": "hugging-face",
+  "popularity": {
+    "rating": 4.2,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "A SAFETENSORS file is a machine learning model created for use with Stable Diffusion, a text-to-image generator. It contains algorithms that Stable Diffusion uses to produce images. SAFETENSORS files are similar to .CKPT files, but considered safer to use because they cannot contain malicious code.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "stability-ai-stable-diffusion",
+        "display_name": "Stability AI Stable Diffusion"
+      },
+      {
+        "software": "various-stable-diffusion-variants",
+        "display_name": "Various Stable Diffusion variants"
+      }
+    ],
+    "macos": [
+      {
+        "software": "stability-ai-stable-diffusion",
+        "display_name": "Stability AI Stable Diffusion"
+      },
+      {
+        "software": "various-stable-diffusion-variants",
+        "display_name": "Various Stable Diffusion variants"
+      }
+    ],
+    "linux": [
+      {
+        "software": "stability-ai-stable-diffusion",
+        "display_name": "Stability AI Stable Diffusion"
+      },
+      {
+        "software": "various-stable-diffusion-variants",
+        "display_name": "Various Stable Diffusion variants"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-06-02",
+  "sources": [
+    {
+      "url": "safetensors.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

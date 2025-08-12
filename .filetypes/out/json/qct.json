@@ -1,0 +1,73 @@
+{
+  "slug": "qct",
+  "extension": "qct",
+  "name": "Memory-Map QuickChart File",
+  "category": "memory-map-quickchart-file",
+  "developer_org": "memory-map",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "A QCT file contains a map created by Memory-Map, a cross-platform GPS navigation program. It stores information about a map, which may include city locations, roads, elevation data, and marked routes.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "memory-map-for-windows",
+        "display_name": "Memory-Map for Windows"
+      },
+      {
+        "software": "psyberia-alpinequest",
+        "display_name": "Psyberia AlpineQuest"
+      }
+    ],
+    "macos": [
+      {
+        "software": "memory-map-for-mac",
+        "display_name": "Memory-Map for Mac"
+      }
+    ],
+    "ios": [
+      {
+        "software": "memory-map-for-ios",
+        "display_name": "Memory-Map for iOS"
+      }
+    ],
+    "android": [
+      {
+        "software": "memory-map-for-android",
+        "display_name": "Memory-Map for Android"
+      },
+      {
+        "software": "psyberia-alpinequest",
+        "display_name": "Psyberia AlpineQuest"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-07-30",
+  "sources": [
+    {
+      "url": "qct.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

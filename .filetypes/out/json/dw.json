@@ -1,0 +1,63 @@
+{
+  "slug": "dw",
+  "extension": "dw",
+  "name": "David Whittaker Audio File",
+  "category": "david-whittaker-audio-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "Audio File created to contain audio composed by David Whittaker for games on the Amiga operating system; used in Commodore Amiga games but can be played by specific players.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "deliplayer",
+        "display_name": "DeliPlayer"
+      },
+      {
+        "software": "xmplay",
+        "display_name": "XMPlay"
+      },
+      {
+        "software": "unix-amiga-delitracker-emulator-uade",
+        "display_name": "Unix Amiga Delitracker Emulator (UADE)"
+      }
+    ],
+    "linux": [
+      {
+        "software": "unix-amiga-delitracker-emulator-uade",
+        "display_name": "Unix Amiga Delitracker Emulator (UADE)"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2013-09-17",
+  "sources": [
+    {
+      "url": "dw.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

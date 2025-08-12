@@ -1,0 +1,160 @@
+{
+  "slug": "bib",
+  "extension": "bib",
+  "name": "BibTeX Bibliography Database",
+  "category": "1.-bibtex-bibliography-database",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 32,
+    "source": "fileinfo"
+  },
+  "summary": "A BIB file is a text document created by a LaTeX program, such as MiKTeX or TeXworks. It contains a list of bibliographic citations in BibTeX formatting. BIB files enable bibliographies to be searched and published using standard commands and are often used in combination with LaTeX ( .TEX ) documents.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "miktex",
+        "display_name": "MiKTeX"
+      },
+      {
+        "software": "jabref",
+        "display_name": "JabRef"
+      },
+      {
+        "software": "texniccenter",
+        "display_name": "TeXnicCenter"
+      },
+      {
+        "software": "bib2x",
+        "display_name": "Bib2x"
+      },
+      {
+        "software": "texworks",
+        "display_name": "TeXworks"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "bibdesk",
+        "display_name": "BibDesk"
+      },
+      {
+        "software": "pybliographer",
+        "display_name": "Pybliographer"
+      },
+      {
+        "software": "reftex",
+        "display_name": "RefTeX"
+      },
+      {
+        "software": "metadata",
+        "display_name": "metadata"
+      },
+      {
+        "software": "",
+        "display_name": "%"
+      },
+      {
+        "software": ".bib",
+        "display_name": ".bib"
+      }
+    ],
+    "macos": [
+      {
+        "software": "macromates-textmate",
+        "display_name": "MacroMates TextMate"
+      },
+      {
+        "software": "bibdesk",
+        "display_name": "BibDesk"
+      },
+      {
+        "software": "miktex",
+        "display_name": "MiKTeX"
+      },
+      {
+        "software": "jabref",
+        "display_name": "JabRef"
+      },
+      {
+        "software": "texworks",
+        "display_name": "TeXworks"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "bib2x",
+        "display_name": "Bib2x"
+      },
+      {
+        "software": "miktex",
+        "display_name": "MiKTeX"
+      },
+      {
+        "software": "pybliographer",
+        "display_name": "Pybliographer"
+      },
+      {
+        "software": "jabref",
+        "display_name": "JabRef"
+      },
+      {
+        "software": "texworks",
+        "display_name": "TeXworks"
+      },
+      {
+        "software": "reftex",
+        "display_name": "RefTeX"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "BIB file icon",
+      "alt": "BIB file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/bib-246.png"
+    },
+    {
+      "caption": "BIB file open in TeXworks 0.6.6 (MiKTeX 21.3)",
+      "alt": "BIB file open in TeXworks 0.6.6 (MiKTeX 21.3)",
+      "source_url": "https://fileinfo.com/img/ss/md/bib_246.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-03-29",
+  "sources": [
+    {
+      "url": "bib.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

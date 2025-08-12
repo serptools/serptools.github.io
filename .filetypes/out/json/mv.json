@@ -1,0 +1,71 @@
+{
+  "slug": "mv",
+  "extension": "mv",
+  "name": "MivaScript File",
+  "category": "1.-mivascript-file",
+  "developer_org": "miva-merchant",
+  "popularity": {
+    "rating": 3.2,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Script used by MivaScript, a Web-based programming language used for developing e-commerce websites; contains MivaScript source code, which defines a Web page with display information and and methods to accept and retrieve stored data.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "miva-merchant-script-compiler",
+        "display_name": "Miva Merchant Script Compiler"
+      },
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      }
+    ],
+    "linux": [
+      {
+        "software": "miva-merchant-script-compiler",
+        "display_name": "Miva Merchant Script Compiler"
+      },
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      }
+    ],
+    "macos": [
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-06-08",
+  "sources": [
+    {
+      "url": "mv.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

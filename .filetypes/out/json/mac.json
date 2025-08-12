@@ -1,0 +1,110 @@
+{
+  "slug": "mac",
+  "extension": "mac",
+  "name": "MacPaint Image",
+  "category": "1.-macpaint-image",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 2.8,
+    "votes": 22,
+    "source": "fileinfo"
+  },
+  "summary": "A MAC file is a bitmap image created by MacPaint, a drawing program available for old Macintosh computers. It is a black-and-white image, drawn using MacPaint's drawing tools. While MacPaint is discontinued, several modern image viewers and editors can open and convert MAC files.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      },
+      {
+        "software": "logipole-konvertor",
+        "display_name": "Logipole Konvertor"
+      },
+      {
+        "software": "deark",
+        "display_name": "Deark"
+      },
+      {
+        "software": "lemkesoft-graphicconverter",
+        "display_name": "Lemkesoft GraphicConverter"
+      },
+      {
+        "software": "tom-s-editor",
+        "display_name": "Tom's Editor"
+      },
+      {
+        "software": "minitab",
+        "display_name": "Minitab"
+      },
+      {
+        "software": "idm-ultraedit",
+        "display_name": "IDM UltraEdit"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-macpaint",
+        "display_name": "Apple MacPaint",
+        "status": "discontinued"
+      },
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      },
+      {
+        "software": "lemkesoft-graphicconverter",
+        "display_name": "Lemkesoft GraphicConverter"
+      },
+      {
+        "software": "idm-ultraedit",
+        "display_name": "IDM UltraEdit"
+      }
+    ],
+    "web": [
+      {
+        "software": "tom-s-editor",
+        "display_name": "Tom's Editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "idm-ultraedit",
+        "display_name": "IDM UltraEdit"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "MAC file open in XnViewMP",
+      "alt": "MAC file open in XnViewMP",
+      "source_url": "https://fileinfo.com/img/ss/md/mac_210.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-08-14",
+  "sources": [
+    {
+      "url": "mac.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

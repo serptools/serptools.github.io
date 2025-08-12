@@ -1,0 +1,59 @@
+{
+  "slug": "uha",
+  "extension": "uha",
+  "name": "UHarc Compressed Archive",
+  "category": "uharc-compressed-archive",
+  "developer_org": "uharc",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 80,
+    "source": "fileinfo"
+  },
+  "summary": "Windows file archive compressed using UHarc compression; may create smaller archives than .RAR compression, but decompression typically takes longer.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "uharc",
+        "display_name": "UHarc"
+      },
+      {
+        "software": "unuharc-0.6",
+        "display_name": "unUHarc 0.6"
+      },
+      {
+        "software": "filecompress",
+        "display_name": "FileCompress"
+      },
+      {
+        "software": "winuha",
+        "display_name": "WinUHA"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2007-04-02",
+  "sources": [
+    {
+      "url": "uha.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

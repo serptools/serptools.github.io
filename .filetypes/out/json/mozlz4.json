@@ -1,0 +1,59 @@
+{
+  "slug": "mozlz4",
+  "extension": "mozlz4",
+  "name": "Compressed Firefox User Profile Data File",
+  "category": "compressed-firefox-user-profile-data-file",
+  "developer_org": "mozilla",
+  "popularity": {
+    "rating": 3.1,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "A MOZLZ4 file contains Mozilla Firefox user profile data saved in the mozlz4 format. It stores various profile data and settings, which may be information about default search engines, home page configuration, toolbar layout, and saved passwords.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "mozilla-firefox-with-the-mozlz4-edit-add-on-installed",
+        "display_name": "Mozilla Firefox with the \"mozlz4-edit\" add-on installed"
+      }
+    ],
+    "macos": [
+      {
+        "software": "mozilla-firefox-with-the-mozlz4-edit-add-on-installed",
+        "display_name": "Mozilla Firefox with the \"mozlz4-edit\" add-on installed"
+      }
+    ],
+    "linux": [
+      {
+        "software": "mozilla-firefox-with-the-mozlz4-edit-add-on-installed",
+        "display_name": "Mozilla Firefox with the \"mozlz4-edit\" add-on installed"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-01-06",
+  "sources": [
+    {
+      "url": "mozlz4.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

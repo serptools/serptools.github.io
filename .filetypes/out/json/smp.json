@@ -1,0 +1,114 @@
+{
+  "slug": "smp",
+  "extension": "smp",
+  "name": "AudioCuentos Audiobook",
+  "category": "1.-audiocuentos-audiobook",
+  "developer_org": "salvat",
+  "popularity": {
+    "rating": 4.4,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "An SMP file is an encrypted .MP3 file that can be found on a memory card used by a Salvat AudioCuentos or Märchenheld Sammlung audio player. It contains a children's audiobook. SMP files can be played only by AudioCuentos and Märchenheld audio players.",
+  "standards": [],
+  "mime_types": [
+    "text/animation"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "smp2mp3",
+        "display_name": "SMP2MP3"
+      },
+      {
+        "software": "audiocube.py",
+        "display_name": "audiocube.py"
+      },
+      {
+        "software": "stellar-solutions-smileplant",
+        "display_name": "Stellar Solutions SmilePlant"
+      },
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      },
+      {
+        "software": "makemusic-smartmusic",
+        "display_name": "MakeMusic SmartMusic"
+      },
+      {
+        "software": "clark-labs-terrset",
+        "display_name": "Clark Labs TerrSet"
+      },
+      {
+        "software": "gdal",
+        "display_name": "GDAL"
+      },
+      {
+        "software": "fmj-software-awave-studio",
+        "display_name": "FMJ-Software Awave Studio"
+      },
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      },
+      {
+        "software": "corel-photoimpact",
+        "display_name": "Corel PhotoImpact"
+      }
+    ],
+    "macos": [
+      {
+        "software": "audiocube.py",
+        "display_name": "audiocube.py"
+      },
+      {
+        "software": "makemusic-smartmusic",
+        "display_name": "MakeMusic SmartMusic"
+      },
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      }
+    ],
+    "linux": [
+      {
+        "software": "audiocube.py",
+        "display_name": "audiocube.py"
+      },
+      {
+        "software": "gdal",
+        "display_name": "GDAL"
+      },
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-12-21",
+  "sources": [
+    {
+      "url": "smp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

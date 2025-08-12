@@ -1,0 +1,67 @@
+{
+  "slug": "whtt",
+  "extension": "whtt",
+  "name": "HTTrack Website Copier File",
+  "category": "httrack-website-copier-file",
+  "developer_org": "xavier-roche",
+  "popularity": {
+    "rating": 4.1,
+    "votes": 11,
+    "source": "fileinfo"
+  },
+  "summary": "A WHTT file is a website downloaded with HTTrack, a free offline browser program. It contains all the webpages, directories, and images that comprise a website. WHTT files are used to view a website when not connected to the Internet.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "winhttrack",
+        "display_name": "WinHTTrack"
+      },
+      {
+        "software": "httrack",
+        "display_name": "HTTrack"
+      }
+    ],
+    "web": [
+      {
+        "software": "webhttrack",
+        "display_name": "WebHTTrack"
+      },
+      {
+        "software": "httrack",
+        "display_name": "HTTrack"
+      }
+    ],
+    "linux": [
+      {
+        "software": "httrack",
+        "display_name": "HTTrack"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-01-11",
+  "sources": [
+    {
+      "url": "whtt.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

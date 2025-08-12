@@ -1,0 +1,47 @@
+{
+  "slug": "grade",
+  "extension": "grade",
+  "name": "GradeStat Document",
+  "category": "gradestat-document",
+  "developer_org": "gradestat",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Data file saved by GradeStat, a statistical program for exploratory data analysis; allows rapid investigation of large data sets; saved in a binary format that contains a data table along with optional plots, maps, and analysis results.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "gradestat",
+        "display_name": "GradeStat"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2008-11-08",
+  "sources": [
+    {
+      "url": "grade.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

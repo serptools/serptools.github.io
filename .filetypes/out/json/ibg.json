@@ -1,0 +1,51 @@
+{
+  "slug": "ibg",
+  "extension": "ibg",
+  "name": "ImgBurn Graph File",
+  "category": "imgburn-graph-file",
+  "developer_org": "lightning-uk",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "An IBG file contains a graph created by ImgBurn, a program used for burning data, audio, and video discs. It stores graph data about a disc read or write operation, which includes the date the disc was read or written, media type, capacity of the media, amount of data written, length of time, and write or read speed.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "dvdinfopro",
+        "display_name": "DVDInfoPro"
+      },
+      {
+        "software": "opti-drive-control",
+        "display_name": "Opti Drive Control"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-04-16",
+  "sources": [
+    {
+      "url": "ibg.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "slug": "usf",
+  "extension": "usf",
+  "name": "EVGA Precision X Skin File",
+  "category": "1.-evga-precision-x-skin-file",
+  "developer_org": "evga",
+  "popularity": {
+    "rating": 2.8,
+    "votes": 13,
+    "source": "fileinfo"
+  },
+  "summary": "Skin file used by EVGA Precision X, a program used for overclocking GPUs ; stores graphics and layout information that alter the appearance of the application's GUI ; allows users to customize the look and feel of the interface.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "evga-precision-x",
+        "display_name": "EVGA Precision X"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "nullsoft-winamp-with-64th-note-plugin",
+        "display_name": "Nullsoft Winamp with 64th Note plugin"
+      }
+    ],
+    "macos": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-04-30",
+  "sources": [
+    {
+      "url": "usf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "slug": "dpg",
+  "extension": "dpg",
+  "name": "Nintendo DS Movie File",
+  "category": "nintendo-ds-movie-file",
+  "developer_org": "moonshell",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 20,
+    "source": "fileinfo"
+  },
+  "summary": "Video container format used for playing movie files on the Nintendo DS portable gaming device; may be converted from other video formats to DPG using MoonShell or another converter program.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "moonshell",
+        "display_name": "Moonshell"
+      },
+      {
+        "software": "batchdpg",
+        "display_name": "BatchDPG"
+      },
+      {
+        "software": "4media-dpg-converter",
+        "display_name": "4Media DPG Converter",
+        "status": "discontinued"
+      },
+      {
+        "software": "aiseesoft-dpg-converter",
+        "display_name": "Aiseesoft DPG Converter"
+      },
+      {
+        "software": "dpg4x",
+        "display_name": "dpg4x"
+      }
+    ],
+    "macos": [
+      {
+        "software": "aiseesoft-dpg-converter-for-mac",
+        "display_name": "Aiseesoft DPG Converter for Mac"
+      },
+      {
+        "software": "dpg4x",
+        "display_name": "dpg4x"
+      }
+    ],
+    "linux": [
+      {
+        "software": "dpg4x",
+        "display_name": "dpg4x"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-04-18",
+  "sources": [
+    {
+      "url": "dpg.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

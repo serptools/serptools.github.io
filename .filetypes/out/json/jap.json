@@ -1,0 +1,73 @@
+{
+  "slug": "jap",
+  "extension": "jap",
+  "name": "Nonogram Puzzle File",
+  "category": "1.-nonogram-puzzle-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "File used by nonogram puzzle programs, such as QNonograms; contains a nonogram puzzle, which consists of numbers and cells in a grid.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "qnonograms",
+        "display_name": "QNonograms"
+      },
+      {
+        "software": "project64",
+        "display_name": "Project64"
+      },
+      {
+        "software": "daedalus",
+        "display_name": "Daedalus"
+      },
+      {
+        "software": "jalbum",
+        "display_name": "jAlbum"
+      }
+    ],
+    "linux": [
+      {
+        "software": "qnonograms",
+        "display_name": "QNonograms"
+      }
+    ],
+    "macos": [
+      {
+        "software": "jalbum",
+        "display_name": "jAlbum"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-09-30",
+  "sources": [
+    {
+      "url": "jap.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

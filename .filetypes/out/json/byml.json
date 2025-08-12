@@ -1,0 +1,59 @@
+{
+  "slug": "byml",
+  "extension": "byml",
+  "name": "Binary YAML File",
+  "category": "binary-yaml-file",
+  "developer_org": "nintendo",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "A BYML file is a binary file that contains YAML data. It is used to control configuration settings in a Nintendo video game. BYML files are used in several popular games, including The Legend of Zelda: Breath of the Wild, Splatoon 2, Super Mario Odyssey, and Animal Crossing: New Horizons.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "byml-v2",
+        "display_name": "byml-v2"
+      }
+    ],
+    "macos": [
+      {
+        "software": "byml-v2",
+        "display_name": "byml-v2"
+      }
+    ],
+    "linux": [
+      {
+        "software": "byml-v2",
+        "display_name": "byml-v2"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-06-21",
+  "sources": [
+    {
+      "url": "byml.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

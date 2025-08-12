@@ -1,0 +1,57 @@
+{
+  "slug": "bs4",
+  "extension": "bs4",
+  "name": "Mikogo Session Video Recording",
+  "category": "mikogo-session-video-recording",
+  "developer_org": "beamyourscreen",
+  "popularity": {
+    "rating": 2.7,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "Video file created by Mikogo, a cross-platform desktop sharing tool used for web conferencing, remote support, and other online meetings; contains video data recorded from a shared screen during an online session.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "beamyourscreen-mikogo",
+        "display_name": "BeamYourScreen Mikogo"
+      },
+      {
+        "software": "beamyourscreen-mikogo-session-player",
+        "display_name": "BeamYourScreen Mikogo Session Player"
+      }
+    ],
+    "macos": [
+      {
+        "software": "beamyourscreen-mikogo",
+        "display_name": "BeamYourScreen Mikogo"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-02-22",
+  "sources": [
+    {
+      "url": "bs4.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

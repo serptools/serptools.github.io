@@ -1,0 +1,71 @@
+{
+  "slug": "epk",
+  "extension": "epk",
+  "name": "Eaglercraft Package",
+  "category": "1.-eaglercraft-package",
+  "developer_org": "lax1dude",
+  "popularity": {
+    "rating": 4.6,
+    "votes": 186,
+    "source": "fileinfo"
+  },
+  "summary": "An EPK file is an asset package or world backup used by Eaglercraft, a fan-made version of Minecraft that can be played in a web browser. It contains textures, sounds, and other game assets, or it contains a backup of a user-created world. Eaglercraft's asset EPK file is named assets.epk .",
+  "standards": [],
+  "mime_types": [
+    "epkcompiler/run.bat"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "web": [
+      {
+        "software": "eaglercraft",
+        "display_name": "Eaglercraft"
+      },
+      {
+        "software": "ayunwebepk",
+        "display_name": "ayunWebEPK"
+      },
+      {
+        "software": "webzen-metin2",
+        "display_name": "WEBZEN Metin2"
+      }
+    ],
+    "windows": [
+      {
+        "software": "eaglercraft",
+        "display_name": "Eaglercraft"
+      },
+      {
+        "software": "epk2extract",
+        "display_name": "epk2extract"
+      },
+      {
+        "software": "eternexus",
+        "display_name": "EterNexus"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-10-10",
+  "sources": [
+    {
+      "url": "epk.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

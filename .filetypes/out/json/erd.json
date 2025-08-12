@@ -1,0 +1,63 @@
+{
+  "slug": "erd",
+  "extension": "erd",
+  "name": "Entity Relation Diagram",
+  "category": "1.-entity-relation-diagram",
+  "developer_org": "dbeaver-community",
+  "popularity": {
+    "rating": 2.8,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "An ERD file is a diagram created by DBeaver, an open source database tool used by developers, database administrators, analysts, and SQL programmers. It contains a diagram of a database or schema, which consists of data tables laid out on a grid and arrows connecting related tables. ERD files may be automatically generated or custom built by a user.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "dbeaver",
+        "display_name": "DBeaver"
+      },
+      {
+        "software": "the-transtec-group-proval",
+        "display_name": "The Transtec Group ProVAL"
+      }
+    ],
+    "macos": [
+      {
+        "software": "dbeaver",
+        "display_name": "DBeaver"
+      }
+    ],
+    "linux": [
+      {
+        "software": "dbeaver",
+        "display_name": "DBeaver"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-09-07",
+  "sources": [
+    {
+      "url": "erd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

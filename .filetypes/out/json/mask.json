@@ -1,0 +1,55 @@
+{
+  "slug": "mask",
+  "extension": "mask",
+  "name": "SpeedGrade Color Mask File",
+  "category": "speedgrade-color-mask-file",
+  "developer_org": "adobe-systems",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Color grading mask used by SpeedGrade, a program used for making color adjustments during video production; saves a shape that can be used to mask color adjustments inside or outside the shape region; allows color grades to be applied selectively to a scene or clip.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "adobe-speedgrade",
+        "display_name": "Adobe SpeedGrade",
+        "status": "discontinued"
+      }
+    ],
+    "macos": [
+      {
+        "software": "adobe-speedgrade",
+        "display_name": "Adobe SpeedGrade",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-01-31",
+  "sources": [
+    {
+      "url": "mask.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

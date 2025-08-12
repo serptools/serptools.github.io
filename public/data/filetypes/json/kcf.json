@@ -1,0 +1,22 @@
+{
+  "slug": "kcf",
+  "extension": "kcf",
+  "name": "Sony Ericsson HID Keypad Configuration",
+  "category": "sony-ericsson-hid-keypad-configuration",
+  "summary": "",
+  "developer_org": "sony-ericsson",
+  "developer_name": "Sony Ericsson",
+  "more_information": {
+    "description": [
+      "You can pair a Bluetooth-enabled Sony Ericsson cell phone with your computer to use the phone as a computer remote control. Each phone includes a default remote configuration, which maps the phone's buttons to computer functions. However, you can customize this configuration using Sony Ericsson Bluetooth Remote Control software.",
+      "After creating a custom configuration in Sony Ericsson Bluetooth Remote Control Software, you can save the configuration as an HID file and send it to your phone. Each HID file is a .TAR archive that includes a KCF file and a .JPG file. The KCF file contains XML data that specifies your custom button mapping."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "kcf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

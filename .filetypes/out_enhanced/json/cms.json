@@ -1,0 +1,28 @@
+{
+  "slug": "cms",
+  "extension": "cms",
+  "name": "Connection Manager Service Profile",
+  "category": "connection-manager-service-profile",
+  "summary": "",
+  "developer_org": "red-dot-games",
+  "developer_name": "Red Dot Games",
+  "more_information": {
+    "description": [
+      "You most likely will only encounter CMS profile files if you are a network administrator that sets up a Connection Manager for the purpose of remotely connecting to a network, such as an organizational network protected by a VPN server or an Internet Service Provider ( ISP ). For example, a network administrator at a company may set up an employee with Connection Manager to allow him to access the company network from a remote location.",
+      "The network administrator creates a profile with the CMAK application and packages it with other configuration files, such as .CMP and .INF files in an .EXE file. The administrator then distributes the package to a remote user, which allows him to connect to the network."
+    ]
+  },
+  "common_filenames": [
+    {
+      "filename": "car_[name of your car].cms",
+      "description": "car_[name of your car].cms - The naming convention for CMS files."
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "cms.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "uexp",
+  "extension": "uexp",
+  "name": "Unreal Editor Asset Export File",
+  "category": "unreal-editor-asset-export-file",
+  "summary": "",
+  "developer_org": "epic-games",
+  "developer_name": "Epic Games",
+  "more_information": {
+    "description": [
+      "A developer creating a video game with Unreal Editor can cook assets they're using in the game, which strips out some pre-processing data. When a developer does this, the asset is transformed from a single UASSET file into a set of three files: a UASSET file, a UEXP file, and a UBULK file. These files are often saved in a PAK archive.",
+      "The UEXP file contains the data used to load and show the asset in-game. The UASSET file contains the asset's file header, and the UBULK file contains the asset's bulk data."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "uexp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

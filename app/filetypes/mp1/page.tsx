@@ -1,0 +1,7 @@
+'use client';
+
+import FileTypeDetail from '../FileTypeDetail';
+
+export default function Mp1Page() {
+  return <FileTypeDetail slug="mp1" />;
+}

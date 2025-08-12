@@ -1,0 +1,59 @@
+{
+  "slug": "bonk",
+  "extension": "bonk",
+  "name": "Bonk Audio File",
+  "category": "bonk-audio-file",
+  "developer_org": "bonk",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "Audio file created in the Bonk format; supports both lossless and lossy compression and uses speech compression techniques to achieve a higher compression ratio than .MP3 , but it is not supported by standard audio players.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "freac",
+        "display_name": "freac"
+      }
+    ],
+    "macos": [
+      {
+        "software": "freac",
+        "display_name": "freac"
+      }
+    ],
+    "linux": [
+      {
+        "software": "freac",
+        "display_name": "freac"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-11-15",
+  "sources": [
+    {
+      "url": "bonk.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

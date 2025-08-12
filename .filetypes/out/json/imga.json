@@ -1,0 +1,59 @@
+{
+  "slug": "imga",
+  "extension": "imga",
+  "name": "Aleph One Image File",
+  "category": "aleph-one-image-file",
+  "developer_org": "bungie-studios",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "Image file used by Aleph One, an open source gaming engine based on the first-person shooter game Marathon 2: Durandal; contains images, including graphics for the splash screen and menus; used to customize in-game graphics.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "aleph-one",
+        "display_name": "Aleph One"
+      }
+    ],
+    "macos": [
+      {
+        "software": "aleph-one",
+        "display_name": "Aleph One"
+      }
+    ],
+    "linux": [
+      {
+        "software": "aleph-one",
+        "display_name": "Aleph One"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-04-05",
+  "sources": [
+    {
+      "url": "imga.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

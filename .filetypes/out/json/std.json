@@ -1,0 +1,92 @@
+{
+  "slug": "std",
+  "extension": "std",
+  "name": "Apache OpenOffice Drawing Template",
+  "category": "1.-apache-openoffice-drawing-template",
+  "developer_org": "apache-software-foundation",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 27,
+    "source": "fileinfo"
+  },
+  "summary": "Template created by Apache OpenOffice Draw, a vector-based drawing program; contains default drawing elements that can be used as the basis for creating new .SXD files; enables users to create multiple drawings with a similar look and feel.",
+  "standards": [],
+  "mime_types": [
+    "cd/dvd"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "openoffice-draw",
+        "display_name": "OpenOffice Draw"
+      },
+      {
+        "software": "libreoffice",
+        "display_name": "LibreOffice"
+      },
+      {
+        "software": "planamesa-neooffice",
+        "display_name": "Planamesa NeoOffice",
+        "status": "discontinued"
+      },
+      {
+        "software": "memorex-expressit-label-design-studio",
+        "display_name": "Memorex exPressit Label Design Studio",
+        "status": "discontinued"
+      },
+      {
+        "software": "promt-translator",
+        "display_name": "PROMT Translator"
+      }
+    ],
+    "macos": [
+      {
+        "software": "openoffice-draw",
+        "display_name": "OpenOffice Draw"
+      },
+      {
+        "software": "planamesa-neooffice",
+        "display_name": "Planamesa NeoOffice",
+        "status": "discontinued"
+      },
+      {
+        "software": "libreoffice",
+        "display_name": "LibreOffice"
+      }
+    ],
+    "linux": [
+      {
+        "software": "openoffice-draw",
+        "display_name": "OpenOffice Draw"
+      },
+      {
+        "software": "libreoffice",
+        "display_name": "LibreOffice"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2013-07-26",
+  "sources": [
+    {
+      "url": "std.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

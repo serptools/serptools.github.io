@@ -1,0 +1,83 @@
+{
+  "slug": "z6",
+  "extension": "z6",
+  "name": "Z-machine Z-code Version 6 File",
+  "category": "z-machine-z-code-version-6-file",
+  "developer_org": "infocom",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "Z-code file used by the Z-machine game engine , which was used for running text adventure games in the late 1970s and 80s; contains source code for the game; includes graphics referenced in the game unlike previous Z-code file versions; commonly run by a Z-machine interpreter, several programs are listed below.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "windows-frotz",
+        "display_name": "Windows Frotz"
+      },
+      {
+        "software": "zoom",
+        "display_name": "Zoom"
+      },
+      {
+        "software": "parchment",
+        "display_name": "Parchment"
+      },
+      {
+        "software": "twisty",
+        "display_name": "Twisty"
+      }
+    ],
+    "macos": [
+      {
+        "software": "zoom",
+        "display_name": "Zoom"
+      }
+    ],
+    "linux": [
+      {
+        "software": "zoom",
+        "display_name": "Zoom"
+      }
+    ],
+    "web": [
+      {
+        "software": "parchment",
+        "display_name": "Parchment"
+      }
+    ],
+    "android": [
+      {
+        "software": "twisty",
+        "display_name": "Twisty"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-07-27",
+  "sources": [
+    {
+      "url": "z6.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

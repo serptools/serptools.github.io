@@ -1,0 +1,55 @@
+{
+  "slug": "tpi",
+  "extension": "tpi",
+  "name": "EDIUS Plugin File",
+  "category": "1.-edius-plugin-file",
+  "developer_org": "thomson",
+  "popularity": {
+    "rating": 4.3,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Plugin file used by EDIUS, a video editing program; contains a plugin, which adds video editing functionality; commonly created to importing new file formats or apply video color adjustments, lighting effects, motion blurs, and other visual effects.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "thomson-edius",
+        "display_name": "Thomson EDIUS"
+      },
+      {
+        "software": "ivanview",
+        "display_name": "IvanView"
+      },
+      {
+        "software": "advanced-batch-converter",
+        "display_name": "Advanced Batch Converter"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-03-24",
+  "sources": [
+    {
+      "url": "tpi.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

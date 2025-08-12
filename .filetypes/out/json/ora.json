@@ -1,0 +1,89 @@
+{
+  "slug": "ora",
+  "extension": "ora",
+  "name": "Oracle Database Configuration File",
+  "category": "1.-oracle-database-configuration-file",
+  "developer_org": "oracle",
+  "popularity": {
+    "rating": 3.2,
+    "votes": 14,
+    "source": "fileinfo"
+  },
+  "summary": "Text file used by Oracle Database, an enterprise-level relational database management system (RDBMS); contains database configuration parameters; used for storing system-wide defaults and for fine-tuning database performance.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "oracle-database",
+        "display_name": "Oracle Database"
+      },
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "gimp",
+        "display_name": "GIMP"
+      },
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      },
+      {
+        "software": "chasys-draw-ies",
+        "display_name": "Chasys Draw IES"
+      },
+      {
+        "software": "nathive",
+        "display_name": "Nathive"
+      }
+    ],
+    "linux": [
+      {
+        "software": "oracle-database",
+        "display_name": "Oracle Database"
+      },
+      {
+        "software": "gimp",
+        "display_name": "GIMP"
+      },
+      {
+        "software": "nathive",
+        "display_name": "Nathive"
+      }
+    ],
+    "macos": [
+      {
+        "software": "gimp",
+        "display_name": "GIMP"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-04-11",
+  "sources": [
+    {
+      "url": "ora.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

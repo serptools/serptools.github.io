@@ -1,0 +1,85 @@
+{
+  "slug": "gmd",
+  "extension": "gmd",
+  "name": "Geometry Dash Level",
+  "category": "1.-geometry-dash-level",
+  "developer_org": "hjfod",
+  "popularity": {
+    "rating": 4.4,
+    "votes": 47,
+    "source": "fileinfo"
+  },
+  "summary": "A GMD file is a Geometry Dash game level created using GDShare or GDShare-mod, which are third-party level import/export tools. It contains data used to import a custom level into the Windows or macOS version of Geometry Dash.",
+  "standards": [],
+  "mime_types": [
+    "import/export"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "gdshare",
+        "display_name": "GDShare"
+      },
+      {
+        "software": "gdshare-mod",
+        "display_name": "GDShare-mod"
+      },
+      {
+        "software": "arctool",
+        "display_name": "ARCTool"
+      },
+      {
+        "software": "kuriimu",
+        "display_name": "Kuriimu"
+      },
+      {
+        "software": "yoyo-games-game-maker",
+        "display_name": "YoYo Games Game Maker"
+      },
+      {
+        "software": "infacta-groupmail",
+        "display_name": "Infacta GroupMail"
+      }
+    ],
+    "macos": [
+      {
+        "software": "gdshare",
+        "display_name": "GDShare"
+      },
+      {
+        "software": "gdshare-mod",
+        "display_name": "GDShare-mod"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "GMD file open in Microsoft Visual Studio Code",
+      "alt": "GMD file open in Microsoft Visual Studio Code",
+      "source_url": "https://fileinfo.com/img/ss/md/gmd_12189.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-11-15",
+  "sources": [
+    {
+      "url": "gmd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

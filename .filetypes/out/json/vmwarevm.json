@@ -1,0 +1,64 @@
+{
+  "slug": "vmwarevm",
+  "extension": "vmwarevm",
+  "name": "VMware Fusion Virtual Machine",
+  "category": "vmware-fusion-virtual-machine",
+  "developer_org": "vmware",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "A VMWAREVM file is a virtual machine (VM) created by VMware Fusion, a virtualization application for Macs that can run other operating systems. It stores all of the information for a virtual machine, including configuration files ( .VMX ) and virtual machine disks ( .VMDK ), required by Fusion to load and run an operating system .",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "vmware-fusion",
+        "display_name": "VMware Fusion"
+      }
+    ],
+    "windows": [
+      {
+        "software": "vmware-fusion",
+        "display_name": "VMware Fusion"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "VMWAREVM file icon",
+      "alt": "VMWAREVM file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/vmwarevm-3440.png"
+    },
+    {
+      "caption": "VMWAREVM file open in VMware Fusion 13",
+      "alt": "VMWAREVM file open in VMware Fusion 13",
+      "source_url": "https://fileinfo.com/img/ss/md/vmwarevm_3440.jpg"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-11-30",
+  "sources": [
+    {
+      "url": "vmwarevm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

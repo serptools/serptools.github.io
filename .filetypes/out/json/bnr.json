@@ -1,0 +1,61 @@
+{
+  "slug": "bnr",
+  "extension": "bnr",
+  "name": "Nintendo Wii Banner File",
+  "category": "nintendo-wii-banner-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "A BNR file contains information about a banner that visually represents a game, or \"channel,\" loaded in the Nintendo Wii menu. It stores various properties of the banner, which include the banner image appearance and the animation and sound effect associated with the banner when the channel is displayed and selected.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "dolphin",
+        "display_name": "Dolphin"
+      }
+    ],
+    "macos": [
+      {
+        "software": "dolphin",
+        "display_name": "Dolphin"
+      }
+    ],
+    "linux": [
+      {
+        "software": "dolphin",
+        "display_name": "Dolphin"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-11-04",
+  "sources": [
+    {
+      "url": "bnr.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

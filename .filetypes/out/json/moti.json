@@ -1,0 +1,53 @@
+{
+  "slug": "moti",
+  "extension": "moti",
+  "name": "Apple Motion Title Project Template",
+  "category": "apple-motion-title-project-template",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "A MOTI file is a project template created by Apple Motion, a program used to create motion graphics for videos. It contains information about a 2D or 3D title. MOTI files do not contain the actual media that makes up the title only references to the media.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "apple-motion",
+        "display_name": "Apple Motion"
+      }
+    ],
+    "windows": [
+      {
+        "software": "apple-motion",
+        "display_name": "Apple Motion"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-10-02",
+  "sources": [
+    {
+      "url": "moti.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

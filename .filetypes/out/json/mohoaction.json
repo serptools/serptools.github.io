@@ -1,0 +1,72 @@
+{
+  "slug": "mohoaction",
+  "extension": "mohoaction",
+  "name": "Moho Action Document",
+  "category": "moho-action-document",
+  "developer_org": "smith-micro",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "A MOHOACTION file is an action document created with Anime Studio, which is a program used to create drawings and animations. It contains an action, which is a movement by an animation that can be applied to other animations with similar bone structures. MOHOACTION files replaced .ANIMEACTION files with the release of version 12 of Moho Debut and Pro.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "lost-marble-moho-debut",
+        "display_name": "Lost Marble Moho Debut"
+      },
+      {
+        "software": "lost-marble-moho-pro",
+        "display_name": "Lost Marble Moho Pro"
+      }
+    ],
+    "macos": [
+      {
+        "software": "lost-marble-moho-debut",
+        "display_name": "Lost Marble Moho Debut"
+      },
+      {
+        "software": "lost-marble-moho-pro",
+        "display_name": "Lost Marble Moho Pro"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "MOHOACTION file icon",
+      "alt": "MOHOACTION file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/mohoaction-10879.png"
+    },
+    {
+      "caption": "MOHOACTION file open in Lost Marble Moho Pro 13",
+      "alt": "MOHOACTION file open in Lost Marble Moho Pro 13",
+      "source_url": "https://fileinfo.com/img/ss/md/mohoaction_10879.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-03-01",
+  "sources": [
+    {
+      "url": "mohoaction.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

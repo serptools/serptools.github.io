@@ -1,0 +1,58 @@
+{
+  "slug": "iv",
+  "extension": "iv",
+  "name": "Open Inventor Scene Graph File",
+  "category": "open-inventor-scene-graph-file",
+  "developer_org": "thermo-fisher-scientific",
+  "popularity": {
+    "rating": 4.3,
+    "votes": 27,
+    "source": "fileinfo"
+  },
+  "summary": "An IV file contains a scene graph created by Open Inventor, an object-oriented toolkit used for developing 3D scenes and animations. It is saved in a plain text format and contains \"nodes,\" \"fields,\" and their connections and properties that describe 3D objects. IV files are often compiled together into a single scene.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "thermo-fisher-scientific-open-inventor",
+        "display_name": "Thermo Fisher Scientific Open Inventor"
+      },
+      {
+        "software": "golden-software-voxler",
+        "display_name": "Golden Software Voxler",
+        "status": "discontinued"
+      }
+    ],
+    "linux": [
+      {
+        "software": "thermo-fisher-scientific-open-inventor",
+        "display_name": "Thermo Fisher Scientific Open Inventor"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-12-09",
+  "sources": [
+    {
+      "url": "iv.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

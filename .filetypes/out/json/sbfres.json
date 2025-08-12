@@ -1,0 +1,55 @@
+{
+  "slug": "sbfres",
+  "extension": "sbfres",
+  "name": "Compressed Breath of the Wild Model File",
+  "category": "compressed-breath-of-the-wild-model-file",
+  "developer_org": "nintendo",
+  "popularity": {
+    "rating": 2.6,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "An SBFRES file is a compressed 3D model, collection of textures, or mipmap used in The Legend of Zelda: Breath of the Wild. It contains data used to show an in-game character or item. SBFRES files can be converted to more common image file formats using various fan-made conversion tools.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "bfres-tool",
+        "display_name": "BFRES-Tool"
+      },
+      {
+        "software": "botw-sbfres-to-fbx",
+        "display_name": "BotW-SBFRES-to-FBX"
+      },
+      {
+        "software": "switch-toolbox",
+        "display_name": "Switch-Toolbox"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-05-06",
+  "sources": [
+    {
+      "url": "sbfres.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

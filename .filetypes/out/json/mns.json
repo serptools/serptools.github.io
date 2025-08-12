@@ -1,0 +1,47 @@
+{
+  "slug": "mns",
+  "extension": "mns",
+  "name": "AutoCAD Interface Settings File",
+  "category": "autocad-interface-settings-file",
+  "developer_org": "autodesk",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "User interface settings file used by AutoCAD, a 2D and 3D design and documentation tool; stores ASCII text properties that define how user interface elements are displayed; can be used for customizing the AutoCAD workspace layout.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "autodesk-autocad-2025",
+        "display_name": "Autodesk AutoCAD 2025"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-05-18",
+  "sources": [
+    {
+      "url": "mns.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

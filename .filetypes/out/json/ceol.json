@@ -1,0 +1,97 @@
+{
+  "slug": "ceol",
+  "extension": "ceol",
+  "name": "Bosca Ceoil Song",
+  "category": "bosca-ceoil-song",
+  "developer_org": "terry-cavanagh",
+  "popularity": {
+    "rating": 4.5,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "A CEOL file is a song created by Bosca Ceoil, a multiplatform music tracker . It contains plain text data that specifies the song's notes, patterns, instruments, beats per minute, and other data. When opened in Bosca Ceoil, CEOL files appear as a grid of editable musical notes.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "bosca-ceoil",
+        "display_name": "Bosca Ceoil"
+      },
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      }
+    ],
+    "macos": [
+      {
+        "software": "bosca-ceoil",
+        "display_name": "Bosca Ceoil"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "bosca-ceoil",
+        "display_name": "Bosca Ceoil"
+      },
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "CEOL file open in Bosca Ceoil",
+      "alt": "CEOL file open in Bosca Ceoil",
+      "source_url": "https://fileinfo.com/img/ss/md/ceol_13369.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-06-09",
+  "sources": [
+    {
+      "url": "ceol.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

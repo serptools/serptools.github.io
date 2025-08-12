@@ -1,0 +1,47 @@
+{
+  "slug": "nm",
+  "extension": "nm",
+  "name": "Space Engine Nebula Model File",
+  "category": "space-engine-nebula-model-file",
+  "developer_org": "space-engine",
+  "popularity": {
+    "rating": 4.3,
+    "votes": 12,
+    "source": "fileinfo"
+  },
+  "summary": "File used by Space Engine, a 3D space simulation engine; saves a model of a nebula, which is a gas cloud in space; used for rendering the nebula during a space simulation; located in the /​cache/​models/​nebulae/​ directory of the Space Engine installation.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "space-engine",
+        "display_name": "Space Engine"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2013-04-23",
+  "sources": [
+    {
+      "url": "nm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

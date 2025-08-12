@@ -1,0 +1,55 @@
+{
+  "slug": "isallic",
+  "extension": "isallic",
+  "name": "iSale License File",
+  "category": "isale-license-file",
+  "developer_org": "equinux",
+  "popularity": {
+    "rating": 1.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "File used by iSale, an application that helps you sell items through eBay; contains data that verifies the purchase of the iSale application and the use of the application on the computer, such as your equinux ID.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "equinux-isale",
+        "display_name": "equinux iSale",
+        "status": "discontinued"
+      }
+    ],
+    "windows": [
+      {
+        "software": "equinux-isale",
+        "display_name": "equinux iSale",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-04-22",
+  "sources": [
+    {
+      "url": "isallic.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "swm",
+  "extension": "swm",
+  "name": "Split Windows Imaging Format File",
+  "category": "split-windows-imaging-format-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 21,
+    "source": "fileinfo"
+  },
+  "summary": "File created by ImageX, a command-line program that allows users to create Windows disk images; contains one of multiple part files that have been split from a .WIM file; commonly used to create multiple smaller CD image files from a larger WIM file located on a DVD.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-imagex",
+        "display_name": "Microsoft ImageX"
+      },
+      {
+        "software": "extractnow",
+        "display_name": "ExtractNow"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-09-06",
+  "sources": [
+    {
+      "url": "swm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "slug": "8bl",
+  "extension": "8bl",
+  "name": "Photoshop Plug-in",
+  "category": "photoshop-plug-in",
+  "developer_org": "adobe-systems",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "Adds additional features to Photoshop, such as extra image filters and other effects; should be placed in Plug-ins Folder within the Photoshop application folder.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "adobe-photoshop-2025",
+        "display_name": "Adobe Photoshop 2025"
+      },
+      {
+        "software": "adobe-photoshop-elements",
+        "display_name": "Adobe Photoshop Elements"
+      }
+    ],
+    "macos": [
+      {
+        "software": "adobe-photoshop-2025",
+        "display_name": "Adobe Photoshop 2025"
+      },
+      {
+        "software": "adobe-photoshop-elements",
+        "display_name": "Adobe Photoshop Elements"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2008-07-15",
+  "sources": [
+    {
+      "url": "8bl.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

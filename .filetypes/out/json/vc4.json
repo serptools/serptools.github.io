@@ -1,0 +1,70 @@
+{
+  "slug": "vc4",
+  "extension": "vc4",
+  "name": "Virtual CD Disc Image",
+  "category": "1.-virtual-cd-disc-image",
+  "developer_org": "h+h-software",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 14,
+    "source": "fileinfo"
+  },
+  "summary": "File created by H+H Software Virtual CD disc imaging software; stores an exact copy of a disc and can be mounted without requiring the physical CD to be inserted; recognized by several disc authoring programs.",
+  "standards": [],
+  "mime_types": [
+    "c/c"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "h+h-software-virtual-cd",
+        "display_name": "H+H Software Virtual CD"
+      },
+      {
+        "software": "smart-projects-isobuster",
+        "display_name": "Smart Projects IsoBuster"
+      },
+      {
+        "software": "ezb-systems-ultraiso",
+        "display_name": "EZB Systems UltraISO"
+      },
+      {
+        "software": "magiciso",
+        "display_name": "MagicISO",
+        "status": "discontinued"
+      },
+      {
+        "software": "microsoft-visual-c++",
+        "display_name": "Microsoft Visual C++"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-02-20",
+  "sources": [
+    {
+      "url": "vc4.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

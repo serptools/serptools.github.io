@@ -1,0 +1,121 @@
+{
+  "slug": "bzw",
+  "extension": "bzw",
+  "name": "BZFlag World File",
+  "category": "bzflag-world-file",
+  "developer_org": "bzflag.org",
+  "popularity": {
+    "rating": 4.4,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "World file used by BZFlag, a 3D multi-player first person tank simulation game; contains a game world, or map, that defines 3D objects in plain text; supports land, water, meshes, and 3D shapes, such as boxes, cones, and spheres; may also be used to define game elements including teleporters and weapons.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "bzflag",
+        "display_name": "BZFlag"
+      },
+      {
+        "software": "pybzedit",
+        "display_name": "pyBZEdit"
+      },
+      {
+        "software": "ibzserver",
+        "display_name": "iBZServer"
+      },
+      {
+        "software": "blender-with-bzwtools-plug-in",
+        "display_name": "blender with BZWTools Plug-in"
+      },
+      {
+        "software": "ibzedit",
+        "display_name": "iBZEdit"
+      },
+      {
+        "software": "blender-with-bzwtools-plug-in",
+        "display_name": "Blender with BZWTools Plug-in"
+      },
+      {
+        "software": "bzedit",
+        "display_name": "BZEdit",
+        "status": "discontinued"
+      },
+      {
+        "software": "bzfed",
+        "display_name": "BzfEd"
+      }
+    ],
+    "macos": [
+      {
+        "software": "bzflag",
+        "display_name": "BZFlag"
+      },
+      {
+        "software": "ibzedit",
+        "display_name": "iBZEdit"
+      },
+      {
+        "software": "pybzedit",
+        "display_name": "pyBZEdit"
+      },
+      {
+        "software": "ibzserver",
+        "display_name": "iBZServer"
+      },
+      {
+        "software": "blender-with-bzwtools-plug-in",
+        "display_name": "Blender with BZWTools Plug-in"
+      }
+    ],
+    "linux": [
+      {
+        "software": "bzflag",
+        "display_name": "BZFlag"
+      },
+      {
+        "software": "bzedit",
+        "display_name": "BZEdit",
+        "status": "discontinued"
+      },
+      {
+        "software": "bzfed",
+        "display_name": "BzfEd"
+      },
+      {
+        "software": "pybzedit",
+        "display_name": "pyBZEdit"
+      },
+      {
+        "software": "blender-with-bzwtools-plug-in",
+        "display_name": "Blender with BZWTools Plug-in"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2016-10-19",
+  "sources": [
+    {
+      "url": "bzw.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

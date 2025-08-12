@@ -1,0 +1,63 @@
+{
+  "slug": "mcw",
+  "extension": "mcw",
+  "name": "Monitor Calibration Wizard File",
+  "category": "1.-monitor-calibration-wizard-file",
+  "developer_org": "hex2bit",
+  "popularity": {
+    "rating": 3.2,
+    "votes": 11,
+    "source": "fileinfo"
+  },
+  "summary": "Settings file created by Monitor Calibration Wizard, a program used to adjust monitor display settings; stores a monitor adjustment profile, which includes settings for brightness and color.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "hex2bit-monitor-calibration-wizard",
+        "display_name": "Hex2Bit Monitor Calibration Wizard"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-macwrite",
+        "display_name": "Apple MacWrite"
+      },
+      {
+        "software": "apple-clarisworks",
+        "display_name": "Apple ClarisWorks",
+        "status": "discontinued"
+      },
+      {
+        "software": "apple-appleworks",
+        "display_name": "Apple AppleWorks",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-02-04",
+  "sources": [
+    {
+      "url": "mcw.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

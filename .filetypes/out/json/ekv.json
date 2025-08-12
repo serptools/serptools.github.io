@@ -1,0 +1,53 @@
+{
+  "slug": "ekv",
+  "extension": "ekv",
+  "name": "Source Engine Encrypted Video Settings File",
+  "category": "source-engine-encrypted-video-settings-file",
+  "developer_org": "valve",
+  "popularity": {
+    "rating": 1.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "An EKV file is an encrypted video settings file used by some Valve Source Engine video games, such as Left 4 Dead and Portal 2. The settings an EKV file contains are applied automatically, based on the CPU, GPU, GPU memory, and memory capabilities of a player's PC or gaming console.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "valve-vice",
+        "display_name": "Valve Vice"
+      }
+    ],
+    "linux": [
+      {
+        "software": "valve-vice",
+        "display_name": "Valve Vice"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-12-28",
+  "sources": [
+    {
+      "url": "ekv.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

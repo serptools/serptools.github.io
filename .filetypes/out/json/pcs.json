@@ -1,0 +1,61 @@
+{
+  "slug": "pcs",
+  "extension": "pcs",
+  "name": "Pfaff Embroidery File",
+  "category": "1.-pfaff-embroidery-file",
+  "developer_org": "pfaff",
+  "popularity": {
+    "rating": 2.5,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "Embroidery design used by Pfaff sewing and embroidery machines; contains a pattern that can be automatically stitched by the machine onto the target material; can be edited with desktop software and then uploaded to the machine for stitching.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "pesview",
+        "display_name": "Pesview"
+      },
+      {
+        "software": "svg2embroidery",
+        "display_name": "svg2embroidery"
+      },
+      {
+        "software": "microsoft-office-365",
+        "display_name": "Microsoft Office 365"
+      }
+    ],
+    "web": [
+      {
+        "software": "svg2embroidery",
+        "display_name": "svg2embroidery"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-10-23",
+  "sources": [
+    {
+      "url": "pcs.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

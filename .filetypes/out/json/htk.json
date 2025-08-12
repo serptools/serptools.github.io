@@ -1,0 +1,97 @@
+{
+  "slug": "htk",
+  "extension": "htk",
+  "name": "Hidden Markov Model Toolkit Audio",
+  "category": "hidden-markov-model-toolkit-audio",
+  "developer_org": "cambridge-university",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "An HTK file is an audio file used by the Hidden Markov Model Toolkit, a speech recognition research toolkit developed by Cambridge University. It contains audio used to perform speech recognition analysis. HTK files are created by converting .WAV or other standard audio files into the HTK format, using the Hidden Markov Model Toolkit.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "hidden-markov-model-toolkit",
+        "display_name": "Hidden Markov Model Toolkit"
+      },
+      {
+        "software": "sox",
+        "display_name": "SoX"
+      },
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      },
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      }
+    ],
+    "macos": [
+      {
+        "software": "hidden-markov-model-toolkit",
+        "display_name": "Hidden Markov Model Toolkit"
+      },
+      {
+        "software": "sox",
+        "display_name": "SoX"
+      },
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      }
+    ],
+    "linux": [
+      {
+        "software": "hidden-markov-model-toolkit",
+        "display_name": "Hidden Markov Model Toolkit"
+      },
+      {
+        "software": "sox",
+        "display_name": "SoX"
+      },
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      }
+    ],
+    "web": [
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-08-26",
+  "sources": [
+    {
+      "url": "htk.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

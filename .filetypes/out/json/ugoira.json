@@ -1,0 +1,47 @@
+{
+  "slug": "ugoira",
+  "extension": "ugoira",
+  "name": "Ugoira Animated Image File",
+  "category": "ugoira-animated-image-file",
+  "developer_org": "pixiv",
+  "popularity": {
+    "rating": 2.4,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "A UGOIRA file is an animated image file created by pixiv, a Japanese online community of artists. It contains multiple illustrated .JPG or .PNG frames that are displayed in succession as an animation.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "bandisoft-honeyview",
+        "display_name": "Bandisoft Honeyview"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2016-06-07",
+  "sources": [
+    {
+      "url": "ugoira.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

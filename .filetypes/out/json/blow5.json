@@ -1,0 +1,59 @@
+{
+  "slug": "blow5",
+  "extension": "blow5",
+  "name": "SLOW5 Binary Data",
+  "category": "slow5-binary-data",
+  "developer_org": "hasindu-gamaarachchi-et-al.",
+  "popularity": {
+    "rating": 1.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "A BLOW5 file is a binary file that contains signal data collected using a nanopore sequencer. It is saved in the binary version of the SLOW5 file format. BLOW5 files are created by converting FAST5 files using the Slow5tools toolkit.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "slow5tools",
+        "display_name": "Slow5tools"
+      }
+    ],
+    "windows": [
+      {
+        "software": "slow5tools",
+        "display_name": "Slow5tools"
+      }
+    ],
+    "linux": [
+      {
+        "software": "slow5tools",
+        "display_name": "Slow5tools"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-05-18",
+  "sources": [
+    {
+      "url": "blow5.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "slug": "wim",
+  "extension": "wim",
+  "name": "Windows Imaging Format File",
+  "category": "windows-imaging-format-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 65,
+    "source": "fileinfo"
+  },
+  "summary": "A WIM file is saved in a file-based imaging format that was introduced with Windows Vista . It allows a single disk image to be deployed to multiple computer platforms. WIM files are used to manage files such as drivers, updates, and components without booting the operating system image.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "microsoft-imagex",
+        "display_name": "Microsoft ImageX"
+      },
+      {
+        "software": "winmount-international-winmount",
+        "display_name": "WinMount International WinMount"
+      },
+      {
+        "software": "7-zip",
+        "display_name": "7-Zip"
+      },
+      {
+        "software": "peazip",
+        "display_name": "PeaZip"
+      },
+      {
+        "software": "extractnow",
+        "display_name": "ExtractNow"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-08-02",
+  "sources": [
+    {
+      "url": "wim.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

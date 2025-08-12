@@ -1,0 +1,47 @@
+{
+  "slug": "tw3",
+  "extension": "tw3",
+  "name": "TCPWedge Configuration File",
+  "category": "tcpwedge-configuration-file",
+  "developer_org": "tal-technologies",
+  "popularity": {
+    "rating": 1.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "A TW3 file is a configuration file created by TAL Technologies TCPWedge, a program used to collect data from devices and import it into applications. It contains configuration information for connecting to an instrument on a network or over the Internet and the application the data is being sent to.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "tal-technologies-winwedge",
+        "display_name": "TAL Technologies WinWedge"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-06-12",
+  "sources": [
+    {
+      "url": "tw3.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

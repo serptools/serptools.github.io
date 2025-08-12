@@ -1,0 +1,47 @@
+{
+  "slug": "3don",
+  "extension": "3don",
+  "name": "Scrutinize 3D Mesh File",
+  "category": "scrutinize-3d-mesh-file",
+  "developer_org": "keen-edge-software",
+  "popularity": {
+    "rating": 1.8,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "3D image file used by Scrutinize, a graphical debugging program for 3D algorithms; contains 3D mesh data for a debugging session in a JSON (JavaScript Object Notation) format; used for rendering 3D model data while debugging.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "keen-edge-scrutinize",
+        "display_name": "Keen Edge Scrutinize"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-09-18",
+  "sources": [
+    {
+      "url": "3don.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

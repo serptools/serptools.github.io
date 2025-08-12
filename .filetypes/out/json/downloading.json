@@ -1,0 +1,53 @@
+{
+  "slug": "downloading",
+  "extension": "downloading",
+  "name": "Pando Incomplete Download File",
+  "category": "pando-incomplete-download-file",
+  "developer_org": "pando-networks",
+  "popularity": {
+    "rating": 4.3,
+    "votes": 1547,
+    "source": "fileinfo"
+  },
+  "summary": "A DOWNLOADING file is a placeholder file created by Pando, an Internet file sharing program. It stores the contents of a file as it is being downloaded, and it uses the .downloading extension to note the download is incomplete. After the download finishes, Pando removes the .downloading extension and replaces it with the file's actual extension.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "pando",
+        "display_name": "Pando"
+      }
+    ],
+    "macos": [
+      {
+        "software": "pando",
+        "display_name": "Pando"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-05-19",
+  "sources": [
+    {
+      "url": "downloading.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

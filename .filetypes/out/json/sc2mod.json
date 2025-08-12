@@ -1,0 +1,95 @@
+{
+  "slug": "sc2mod",
+  "extension": "sc2mod",
+  "name": "Blizzard StarCraft 2 Modification File",
+  "category": "blizzard-starcraft-2-modification-file",
+  "developer_org": "blizzard-entertainment",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "Modification archive used by StarCraft II: Wings of Liberty, a real-time strategy game where players battle as the Protoss, Terran, and Zerg races; contains information that changes the properties of gameplay; created in Blizzard's proprietary Mo'PaQ format ( .MPQ files).",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "blizzard-starcraft-2",
+        "display_name": "Blizzard StarCraft 2"
+      },
+      {
+        "software": "blizzard-starcraft-2-editor",
+        "display_name": "Blizzard StarCraft 2 Editor"
+      },
+      {
+        "software": "mpq-editor",
+        "display_name": "MPQ Editor"
+      },
+      {
+        "software": "stormlib-library",
+        "display_name": "StormLib Library"
+      },
+      {
+        "software": "mpq-extractor",
+        "display_name": "MPQ Extractor"
+      },
+      {
+        "software": "mpq-tools",
+        "display_name": "mpq-tools"
+      }
+    ],
+    "macos": [
+      {
+        "software": "blizzard-starcraft-2",
+        "display_name": "Blizzard StarCraft 2"
+      },
+      {
+        "software": "blizzard-starcraft-2-editor",
+        "display_name": "Blizzard StarCraft 2 Editor"
+      },
+      {
+        "software": "mpq-extractor",
+        "display_name": "MPQ Extractor"
+      },
+      {
+        "software": "stormlib-library",
+        "display_name": "StormLib Library"
+      }
+    ],
+    "linux": [
+      {
+        "software": "mpq-tools",
+        "display_name": "mpq-tools"
+      },
+      {
+        "software": "stormlib-library",
+        "display_name": "StormLib Library"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-08-05",
+  "sources": [
+    {
+      "url": "sc2mod.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

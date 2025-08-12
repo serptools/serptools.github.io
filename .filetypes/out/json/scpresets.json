@@ -1,0 +1,64 @@
+{
+  "slug": "scpresets",
+  "extension": "scpresets",
+  "name": "Snap Converter Presets File",
+  "category": "snap-converter-presets-file",
+  "developer_org": "sharpened-productions",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "An SCPRESETS file is a settings file created by Snap Converter, an image conversion utility for macOS. It contains saved settings used for converting single images or images in batch mode. Example settings include the target file type (e.g., JPEG, PNG, etc.), resize options, watermark settings, and file renaming options.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "snap-converter",
+        "display_name": "Snap Converter"
+      }
+    ],
+    "windows": [
+      {
+        "software": "snap-converter",
+        "display_name": "Snap Converter"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "SCPRESETS file icon",
+      "alt": "SCPRESETS file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/scpresets-10702.png"
+    },
+    {
+      "caption": "SCPRESETS file open in Snap Converter 3.0",
+      "alt": "SCPRESETS file open in Snap Converter 3.0",
+      "source_url": "https://fileinfo.com/img/ss/md/scpresets_10702.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-09-19",
+  "sources": [
+    {
+      "url": "scpresets.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

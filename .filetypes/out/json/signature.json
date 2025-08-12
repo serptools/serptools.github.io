@@ -1,0 +1,53 @@
+{
+  "slug": "signature",
+  "extension": "signature",
+  "name": "e-Filing Digital Signature File",
+  "category": "e-filing-digital-signature-file",
+  "developer_org": "government-of-india",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "A SIGNATURE file contains a digital signature used by e-Filing, a website that allows residents of India to upload their tax returns. It stores unique encrypted data that identifies a user and the legitimacy of a tax return uploaded to the e-Filing site.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "web": [
+      {
+        "software": "government-of-india-e-filing",
+        "display_name": "Government of India e-Filing"
+      }
+    ],
+    "windows": [
+      {
+        "software": "government-of-india-e-filing",
+        "display_name": "Government of India e-Filing"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-09-27",
+  "sources": [
+    {
+      "url": "signature.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

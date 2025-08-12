@@ -1,0 +1,63 @@
+{
+  "slug": "otb",
+  "extension": "otb",
+  "name": "Nokia Over The Air Bitmap Image",
+  "category": "nokia-over-the-air-bitmap-image",
+  "developer_org": "nokia",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Over The Air (OTA) image used for transmitting pictures between Nokia and Siemens mobile phones; stores a black and white bitmap image containing a maximum of 255x255 pixels; may be saved in a hexadecimal text format or a binary format.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "nokia-multimedia-player",
+        "display_name": "Nokia Multimedia Player"
+      },
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      }
+    ],
+    "macos": [
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      }
+    ],
+    "linux": [
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2016-10-10",
+  "sources": [
+    {
+      "url": "otb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

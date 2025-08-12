@@ -1,0 +1,65 @@
+{
+  "slug": "sc4model",
+  "extension": "sc4model",
+  "name": "SimCity 4 Model File",
+  "category": "simcity-4-model-file",
+  "developer_org": "electronic-arts",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 11,
+    "source": "fileinfo"
+  },
+  "summary": "File used by SimCity 4, a game where players build cities; contains a 3D model of a prop or building; used for adding custom objects to a city; can be described with a .SC4DESC file and placed within a lot using a .SC4LOT file.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "electronic-arts-simcity-4",
+        "display_name": "Electronic Arts SimCity 4"
+      },
+      {
+        "software": "electronic-arts-building-architect-tool",
+        "display_name": "Electronic Arts Building Architect Tool"
+      },
+      {
+        "software": "ilive-reader",
+        "display_name": "iLive Reader"
+      },
+      {
+        "software": "sc4tool",
+        "display_name": "SC4Tool"
+      }
+    ],
+    "macos": [
+      {
+        "software": "electronic-arts-simcity-4",
+        "display_name": "Electronic Arts SimCity 4"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-08-12",
+  "sources": [
+    {
+      "url": "sc4model.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

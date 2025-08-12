@@ -1,0 +1,65 @@
+{
+  "slug": "w3d",
+  "extension": "w3d",
+  "name": "Adobe Shockwave 3D File",
+  "category": "adobe-shockwave-3d-file",
+  "developer_org": "adobe-systems",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "File used by Adobe Director, a program used for making interactive multimedia content for the Web, CDs, and DVDs; stores a 3D scene and/or animation that was exported from a third-party 3D modeling program and then imported into Adobe Director for publishing online.",
+  "standards": [],
+  "mime_types": [
+    "and/or"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "adobe-director",
+        "display_name": "Adobe Director",
+        "status": "discontinued"
+      },
+      {
+        "software": "adobe-shockwave-player",
+        "display_name": "Adobe Shockwave Player"
+      }
+    ],
+    "macos": [
+      {
+        "software": "adobe-director",
+        "display_name": "Adobe Director",
+        "status": "discontinued"
+      },
+      {
+        "software": "adobe-shockwave-player",
+        "display_name": "Adobe Shockwave Player"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-06-25",
+  "sources": [
+    {
+      "url": "w3d.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

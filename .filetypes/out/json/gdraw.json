@@ -1,0 +1,84 @@
+{
+  "slug": "gdraw",
+  "extension": "gdraw",
+  "name": "Google Drawings Shortcut",
+  "category": "google-drawings-shortcut",
+  "developer_org": "google",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 15,
+    "source": "fileinfo"
+  },
+  "summary": "A GDRAW file is a shortcut used to open a diagram created in Google Drawings and saved within Google Drive . The file contains a reference to the diagram it opens, as well as the Gmail account used to create the diagram. GDRAW files are created by Google Drive for Desktop.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "google-drive-for-desktop",
+        "display_name": "Google Drive for Desktop"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "chromeos": [
+      {
+        "software": "chrome-os",
+        "display_name": "Chrome OS"
+      }
+    ],
+    "macos": [
+      {
+        "software": "google-drive-for-desktop",
+        "display_name": "Google Drive for Desktop"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "GDRAW file icon",
+      "alt": "GDRAW file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/gdraw-7630.png"
+    },
+    {
+      "caption": "GDRAW file open in GitHub Atom",
+      "alt": "GDRAW file open in GitHub Atom",
+      "source_url": "https://fileinfo.com/img/ss/md/gdraw_7630.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-07-30",
+  "sources": [
+    {
+      "url": "gdraw.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

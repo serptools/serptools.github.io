@@ -1,0 +1,47 @@
+{
+  "slug": "pvj",
+  "extension": "pvj",
+  "name": "ProofVision Job Ticket",
+  "category": "proofvision-job-ticket",
+  "developer_org": "k-flow",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "Job ticket created with ProofVision, a soft proofing program that ensures consistent display of color across different mediums; contains proofing information for a specific job saved in a text format.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "k-flow-proofvision",
+        "display_name": "K-Flow ProofVision"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-06-27",
+  "sources": [
+    {
+      "url": "pvj.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

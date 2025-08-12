@@ -1,0 +1,48 @@
+{
+  "slug": "fxcproj",
+  "extension": "fxcproj",
+  "name": "FX Composer Project File",
+  "category": "fx-composer-project-file",
+  "developer_org": "nvidia",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "Project file created by FX Composer, an IDE used for creating shaders, which define how to render graphics on hardware GPUs ; may contain references to 3D object files ( .DAE , .3DS , .FBX , .OBJ , .X ) as well as specifications for how the 3D objects appear; supports HLSL, COLLADA FX Cg, and CgFX languages.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "nvidia-fx-composer",
+        "display_name": "NVIDIA FX Composer",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-07-05",
+  "sources": [
+    {
+      "url": "fxcproj.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

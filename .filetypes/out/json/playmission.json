@@ -1,0 +1,48 @@
+{
+  "slug": "playmission",
+  "extension": "playmission",
+  "name": "MissionPlayer Game File",
+  "category": "missionplayer-game-file",
+  "developer_org": "immersive-education",
+  "popularity": {
+    "rating": 2.8,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Game file used by MissionPlayer, an application used to play 3D first-person perspective games created by the MissionMaker software; contains a playable game exported from a .MISSION file in MissionMaker.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "immersive-education-missionplayer",
+        "display_name": "Immersive Education MissionPlayer",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-10-11",
+  "sources": [
+    {
+      "url": "playmission.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "slug": "smx",
+  "extension": "smx",
+  "name": "SmartMusic XML File",
+  "category": "1.-smartmusic-xml-file",
+  "developer_org": "makemusic",
+  "popularity": {
+    "rating": 3.1,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "Music file used by SmartMusic, a music practice application for band, orchestra, and voice; similar to a .XML file; contains XML formatted music notation data referenced by SmartMusic when users practice vocal or instrumental takes.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "makemusic-smartmusic",
+        "display_name": "MakeMusic SmartMusic"
+      },
+      {
+        "software": "sourcemod",
+        "display_name": "SourceMod"
+      },
+      {
+        "software": "lysis-decompiler",
+        "display_name": "Lysis Decompiler"
+      }
+    ],
+    "macos": [
+      {
+        "software": "makemusic-smartmusic",
+        "display_name": "MakeMusic SmartMusic"
+      },
+      {
+        "software": "sourcemod",
+        "display_name": "SourceMod"
+      },
+      {
+        "software": "lysis-decompiler",
+        "display_name": "Lysis Decompiler"
+      }
+    ],
+    "linux": [
+      {
+        "software": "sourcemod",
+        "display_name": "SourceMod"
+      },
+      {
+        "software": "lysis-decompiler",
+        "display_name": "Lysis Decompiler"
+      }
+    ],
+    "web": [
+      {
+        "software": "lysis-decompiler",
+        "display_name": "Lysis Decompiler"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "SMX file icon",
+      "alt": "SMX file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/smx-9090.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2013-11-21",
+  "sources": [
+    {
+      "url": "smx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

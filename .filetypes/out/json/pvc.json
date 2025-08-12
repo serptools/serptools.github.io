@@ -1,0 +1,59 @@
+{
+  "slug": "pvc",
+  "extension": "pvc",
+  "name": "Panasonic VM1 Voice File",
+  "category": "1.-panasonic-vm1-voice-file",
+  "developer_org": "panasonic",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "Proprietary audio recording format used by Panasonic Voice Editing Software (for Panasonic IC Recorder RR-US361/360); may be saved to a computer using the \"Convert to Mail Transfer Format\" function in the Panasonic Voice Editing Software; also known as a VM1 file.",
+  "standards": [],
+  "mime_types": [
+    "rr-us361/360"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "panasonic-voice-editing-software-included-with-ic-recorders",
+        "display_name": "Panasonic Voice Editing Software (included with IC recorders)"
+      },
+      {
+        "software": "panasonic-mini-player-vs2_vm1_player.exe",
+        "display_name": "Panasonic Mini Player (VS2_VM1_Player.exe)"
+      }
+    ],
+    "macos": [
+      {
+        "software": "parallels-desktop-for-mac-20",
+        "display_name": "Parallels Desktop for Mac 20"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2007-06-28",
+  "sources": [
+    {
+      "url": "pvc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

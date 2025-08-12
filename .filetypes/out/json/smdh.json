@@ -1,0 +1,53 @@
+{
+  "slug": "smdh",
+  "extension": "smdh",
+  "name": "3DS Game Metadata",
+  "category": "3ds-game-metadata",
+  "developer_org": "nintendo",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "An SMDH file is a metadata file used by Nintendo 3DS video games. It contains a game's 3DS menu icons, localized titles, region-specific settings (such as a game's region-specific age rating), and other data. Outside of actual, Nintendo-published 3DS games, SMDH files are most often created for and used by homebrew games run using The Homebrew Launcher.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "smdh-creator",
+        "display_name": "SMDH Creator"
+      }
+    ],
+    "web": [
+      {
+        "software": "smdh-creator",
+        "display_name": "SMDH Creator"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-01-15",
+  "sources": [
+    {
+      "url": "smdh.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

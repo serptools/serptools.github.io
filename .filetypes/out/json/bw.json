@@ -1,0 +1,75 @@
+{
+  "slug": "bw",
+  "extension": "bw",
+  "name": "Black and White SGI Image File",
+  "category": "black-and-white-sgi-image-file",
+  "developer_org": "paul-haeberli",
+  "popularity": {
+    "rating": 2.8,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "Silicon Graphics (SGI) image file format; used for saving black and white images; native format on SGI workstations; can be uncompressed or run-length encoded (RLE).",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      },
+      {
+        "software": "imagemagick",
+        "display_name": "ImageMagick"
+      }
+    ],
+    "macos": [
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      },
+      {
+        "software": "imagemagick",
+        "display_name": "ImageMagick"
+      }
+    ],
+    "linux": [
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      },
+      {
+        "software": "imagemagick",
+        "display_name": "ImageMagick"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2016-02-08",
+  "sources": [
+    {
+      "url": "bw.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

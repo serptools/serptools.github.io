@@ -1,0 +1,55 @@
+{
+  "slug": "pwt",
+  "extension": "pwt",
+  "name": "AutoCAD Publish To Web Template",
+  "category": "1.-autocad-publish-to-web-template",
+  "developer_org": "autodesk",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "A PWT file is a web publishing template used by AutoCAD, a 2D and 3D design and drawing application. It contains settings used to publish drawings ( .DWG files) as web HTML files. PWT files include image, text, hyperlink, color, webpage title, and video animation properties that control how drawings are published.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "autodesk-autocad-2025",
+        "display_name": "Autodesk AutoCAD 2025"
+      },
+      {
+        "software": "microsoft-word-365",
+        "display_name": "Microsoft Word 365"
+      },
+      {
+        "software": "softmaker-office",
+        "display_name": "SoftMaker Office"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-01-19",
+  "sources": [
+    {
+      "url": "pwt.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "slug": "abex",
+  "extension": "abex",
+  "name": "Enhanced Android Backup",
+  "category": "enhanced-android-backup",
+  "developer_org": "camalot",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "An ABEX file is an enhanced Android backup ( .AB ) file created by Droid Explorer, a Windows program used to manage Android devices and files. In addition to typical Android backup data, ABEX files contain a header that ties the backup file to a specific Android device. ABEX files are created using Droid Explorer's Device Backup feature and stored in a folder named Android Backups .",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "camalot-droid-explorer",
+        "display_name": "Camalot Droid Explorer"
+      }
+    ],
+    "android": [
+      {
+        "software": "camalot-android-backup-extractor",
+        "display_name": "Camalot Android Backup Extractor"
+      },
+      {
+        "software": "camalot-droid-explorer",
+        "display_name": "Camalot Droid Explorer"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-12-07",
+  "sources": [
+    {
+      "url": "abex.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

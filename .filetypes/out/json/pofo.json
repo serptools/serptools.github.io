@@ -1,0 +1,47 @@
+{
+  "slug": "pofo",
+  "extension": "pofo",
+  "name": "WWE 2K Wrestler Information File",
+  "category": "wwe-2k-wrestler-information-file",
+  "developer_org": "tekken57",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "A POFO file is a data file created and used by various WWE 2K modding tools. It contains information about a wrestler, including the wrestler's name, height, and weight. It also defines the wrestler's moveset.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "tekken57-x-packer",
+        "display_name": "tekken57 X-Packer"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-11-21",
+  "sources": [
+    {
+      "url": "pofo.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

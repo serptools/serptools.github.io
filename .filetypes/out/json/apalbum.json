@@ -1,0 +1,53 @@
+{
+  "slug": "apalbum",
+  "extension": "apalbum",
+  "name": "Aperture Album File",
+  "category": "aperture-album-file",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Photo album created by Aperture, Apple's commercial digital photo editing application; saves an album of imported photos, which can be part of a larger Aperture project; usually has a cryptic filename prefix since Aperture handles the image data using a proprietary format behind the scenes.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "apple-aperture",
+        "display_name": "Apple Aperture"
+      }
+    ],
+    "windows": [
+      {
+        "software": "apple-aperture",
+        "display_name": "Apple Aperture"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-07-30",
+  "sources": [
+    {
+      "url": "apalbum.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

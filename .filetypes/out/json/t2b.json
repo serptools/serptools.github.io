@@ -1,0 +1,57 @@
+{
+  "slug": "t2b",
+  "extension": "t2b",
+  "name": "CyBook Thumbnail Image",
+  "category": "cybook-thumbnail-image",
+  "developer_org": "bookeen",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "Thumbnail image created by the CyBook black and white eBook reader device; stores a 2-bit grayscale image that supports four colors; generated automatically by the CyBook reader when viewing books; used for storing previews of book covers.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "t2b2pgm",
+        "display_name": "t2b2pgm"
+      },
+      {
+        "software": "lemkesoft-graphicconverter",
+        "display_name": "Lemkesoft GraphicConverter"
+      }
+    ],
+    "macos": [
+      {
+        "software": "lemkesoft-graphicconverter",
+        "display_name": "Lemkesoft GraphicConverter"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-06-25",
+  "sources": [
+    {
+      "url": "t2b.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "slug": "cass",
+  "extension": "cass",
+  "name": "Apple II Cassette Tape Program",
+  "category": "apple-ii-cassette-tape-program",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 2.3,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "A CASS file is a program file used to emulate a cassette-based program created for the Apple II computer. It contains a copy of the data stored on an Apple II cassette, converted for use with Virtual ][, an Apple II emulator. CASS files allow Apple II enthusiasts to run classic, cassette-based programs on modern Macs within Virtual ][.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "gerard-putter-s-virtual",
+        "display_name": "Gerard Putter's Virtual ]["
+      }
+    ],
+    "windows": [
+      {
+        "software": "gerard-putter-s-virtual",
+        "display_name": "Gerard Putter's Virtual ]["
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "CASS file icon",
+      "alt": "CASS file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/cass-11587.png"
+    },
+    {
+      "caption": "CASS file open in Virtual ][",
+      "alt": "CASS file open in Virtual ][",
+      "source_url": "https://fileinfo.com/img/ss/md/cass_11587.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-08-19",
+  "sources": [
+    {
+      "url": "cass.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

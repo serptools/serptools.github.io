@@ -1,0 +1,40 @@
+{
+  "slug": "pvm",
+  "extension": "pvm",
+  "name": "Parallels Virtual Machine",
+  "category": "parallels-virtual-machine",
+  "summary": "",
+  "developer_org": "hp",
+  "developer_name": "HP",
+  "more_information": {
+    "screenshot": {
+      "url": "https://fileinfo.com/img/ss/sm/pvm_3807.jpg",
+      "alt": "Screenshot of a .pvm file in Parallels Desktop for Mac 20",
+      "caption": "PVM file open in Parallels Desktop for Mac 20"
+    },
+    "description": [
+      "Parallels Desktop for Mac is a program that allows Mac users to run Windows, Linux, Android, and additional versions of macOS on their computers. When you create a virtual machine (VM) with Parallels Desktop for Mac, the software creates a PVM file to store its contents. To create a PVM file, select File → New... or click + in the Control Center.",
+      "Each PVM file is a macOS package that contains all the files Parallels Desktop for Mac needs to launch an operating system. One of these files is an .HDD file, which stores the files saved to your virtual machine's hard drive. For example, a Windows virtual machine's HDD file includes all the Windows program files you have added to that virtual machine. Another file located within a PVM file is the Parallels Desktop Configuration .PVS file, which contains settings for the VM.",
+      "NOTE: Since PVM files contain all of the information for a VM, you can move a VM to another computer by moving the PVM file."
+    ]
+  },
+  "images": [
+    {
+      "url": "https://fileinfo.com/img/ss/sm/pvm_3807.jpg",
+      "alt": "Screenshot of a .pvm file in Parallels Desktop for Mac 20",
+      "caption": "PVM file open in Parallels Desktop for Mac 20"
+    },
+    {
+      "url": "https://fileinfo.com/img/ss/sm/pvm_3807-2.png",
+      "alt": "PVM file open in Apple Finder",
+      "caption": "PVM file open in Apple Finder"
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "pvm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

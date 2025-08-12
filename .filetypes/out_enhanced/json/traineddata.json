@@ -1,0 +1,22 @@
+{
+  "slug": "traineddata",
+  "extension": "traineddata",
+  "name": "Tesseract OCR Model",
+  "category": "tesseract-ocr-model",
+  "summary": "",
+  "developer_org": "tesseract-ocr-community",
+  "developer_name": "Tesseract OCR Community",
+  "more_information": {
+    "description": [
+      "Optical character recognition is the process of converting text found in images to machine-encoded text. Tesseract is an OCR engine that was originally developed by Hewlett-Packard but is now maintained as an open-source project, sponsored by Google. Developers can use Tesseract to create OCR models, which are then used to recognize and convert text found in images. These models are saved as TRAINEDDATA files.",
+      "Each TRAINEDDATA file has been \"trained\" using a series of images that contain relevant text. Tesseract includes many default TRAINEDDATA files, and developers can create their own TRAINEDDATA files. These files are typically stored in the ~/​Tessearct-OCR/​tessdata directory."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "traineddata.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

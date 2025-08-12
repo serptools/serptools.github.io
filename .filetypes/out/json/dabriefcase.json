@@ -1,0 +1,51 @@
+{
+  "slug": "dabriefcase",
+  "extension": "dabriefcase",
+  "name": "RemObjects Data Abstract File Briefcase",
+  "category": "remobjects-data-abstract-file-briefcase",
+  "developer_org": "remobjects",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Developer file used by Data Abstract, a data persistence program included with the RemObjects SDK; used as an application cache and stores application data between restarts; enables applications to run more quickly since data doesn't have to be reloaded.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "remobjects-sdk",
+        "display_name": "RemObjects SDK"
+      },
+      {
+        "software": "remobjects-data-abstract",
+        "display_name": "RemObjects Data Abstract"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-11-22",
+  "sources": [
+    {
+      "url": "dabriefcase.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "slug": "odf",
+  "extension": "odf",
+  "name": "OpenDocument Formula",
+  "category": "1.-opendocument-formula",
+  "developer_org": "oasis",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 32,
+    "source": "fileinfo"
+  },
+  "summary": "An ODF file is a document created by Apache OpenOffice Math, a program used for creating math formulas. It contains one or more mathematical equations and may also contain macros . ODF files are based on the OASIS OpenDocument standard.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "openoffice-math",
+        "display_name": "OpenOffice Math"
+      },
+      {
+        "software": "libreoffice",
+        "display_name": "LibreOffice"
+      },
+      {
+        "software": "calligra-suite",
+        "display_name": "Calligra Suite"
+      },
+      {
+        "software": "planamesa-neooffice",
+        "display_name": "Planamesa NeoOffice",
+        "status": "discontinued"
+      },
+      {
+        "software": "apache-openoffice",
+        "display_name": "Apache OpenOffice"
+      },
+      {
+        "software": "odfweave",
+        "display_name": "odfWeave"
+      },
+      {
+        "software": "activision-battlezone",
+        "display_name": "Activision Battlezone"
+      },
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "microsoft-wordpad",
+        "display_name": "Microsoft WordPad"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "openoffice-math",
+        "display_name": "OpenOffice Math"
+      },
+      {
+        "software": "planamesa-neooffice",
+        "display_name": "Planamesa NeoOffice",
+        "status": "discontinued"
+      },
+      {
+        "software": "libreoffice",
+        "display_name": "LibreOffice"
+      },
+      {
+        "software": "calligra-suite",
+        "display_name": "Calligra Suite"
+      },
+      {
+        "software": "apache-openoffice",
+        "display_name": "Apache OpenOffice"
+      }
+    ],
+    "linux": [
+      {
+        "software": "openoffice-math",
+        "display_name": "OpenOffice Math"
+      },
+      {
+        "software": "libreoffice",
+        "display_name": "LibreOffice"
+      },
+      {
+        "software": "calligra-suite",
+        "display_name": "Calligra Suite"
+      },
+      {
+        "software": "apache-openoffice",
+        "display_name": "Apache OpenOffice"
+      },
+      {
+        "software": "odfweave",
+        "display_name": "odfWeave"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "ODF file icon",
+      "alt": "ODF file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/odf-719.png"
+    },
+    {
+      "caption": "ODF file open in Apache OpenOffice Math 4",
+      "alt": "ODF file open in Apache OpenOffice Math 4",
+      "source_url": "https://fileinfo.com/img/ss/md/odf_719.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-07-23",
+  "sources": [
+    {
+      "url": "odf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

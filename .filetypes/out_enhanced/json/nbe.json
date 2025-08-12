@@ -1,0 +1,23 @@
+{
+  "slug": "nbe",
+  "extension": "nbe",
+  "name": "Nessus Report File",
+  "category": "nessus-report-file",
+  "summary": "",
+  "developer_org": "tenable-network-security",
+  "developer_name": "Tenable Network Security",
+  "more_information": {
+    "description": [
+      "On Unix-based systems, NBE files can be converted to the .NESSUS format using the following command:",
+      "/opt/nessus/bin/nessus -i in.nbe -o out.nessus",
+      "NBE files can also be output to .HTML and .TXT files by replacing out.nessus with out.html or out.txt ."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "nbe.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "slug": "c4",
+  "extension": "c4",
+  "name": "JEDMICS Image File",
+  "category": "jedmics-image-file",
+  "developer_org": "jedmics",
+  "popularity": {
+    "rating": 2.2,
+    "votes": 19,
+    "source": "fileinfo"
+  },
+  "summary": "Compressed bitmap image format developed by the Joint Engineering Data Management Information and Control System (JEDMICS); used by the United States Department of Defense (DoD); also called an Edmics file.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      },
+      {
+        "software": "trix-drawingcenter",
+        "display_name": "Trix DrawingCenter"
+      },
+      {
+        "software": "cad-systems-unlimited-slick-viewplus",
+        "display_name": "CAD Systems Unlimited Slick ViewPlus"
+      }
+    ],
+    "macos": [
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-09-18",
+  "sources": [
+    {
+      "url": "c4.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

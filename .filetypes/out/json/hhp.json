@@ -1,0 +1,52 @@
+{
+  "slug": "hhp",
+  "extension": "hhp",
+  "name": "HTML Help Workshop Project",
+  "category": "html-help-workshop-project",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "An HHP file is a help project created by HTML Help Workshop, a program that helps users create help systems to distribute with software or a website. It contains help project information used to compile into a .CHM file. HHP files are created when a user saves a project in HTML Help Workshop.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-html-help-workshop",
+        "display_name": "Microsoft HTML Help Workshop",
+        "status": "discontinued"
+      },
+      {
+        "software": "helpscribble",
+        "display_name": "HelpScribble"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-04-11",
+  "sources": [
+    {
+      "url": "hhp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

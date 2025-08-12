@@ -1,0 +1,22 @@
+{
+  "slug": "pdz",
+  "extension": "pdz",
+  "name": "Playdate Compiled Code",
+  "category": "playdate-compiled-code",
+  "summary": "",
+  "developer_org": "step-function",
+  "developer_name": "Step Function",
+  "more_information": {
+    "description": [
+      "PDZ files are the final code output of a Playdate development project. After writing code and creating assets in the development environment, developers use the SDK's pdc (Playdate compiler) command-line tool to package all scripts into one binary PDZ file that is placed in a .PDX file with the game's assets.",
+      "Playdate developers typically use PDZ files to share or sideload custom games and tools onto the Playdate. For example, developers can transfer a compiled PDZ file to a Playdate console for testing or distribution. They may also test PDZ files using the Playdate Simulator, a desktop tool included with the SDK."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "pdz.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

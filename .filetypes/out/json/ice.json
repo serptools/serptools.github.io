@@ -1,0 +1,51 @@
+{
+  "slug": "ice",
+  "extension": "ice",
+  "name": "ICE Compressed Archive",
+  "category": "ice-compressed-archive",
+  "developer_org": "rapha-l-et-b-atrice-mounier",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 11,
+    "source": "fileinfo"
+  },
+  "summary": "An ICE file is a compressed archive created by ICEOWS, formerly known as ArjFolder. It contains one or more files that have been compressed and packaged together. Often, ICE files contain compressed text files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "iceows",
+        "display_name": "ICEOWS"
+      },
+      {
+        "software": "estsoft-alzip",
+        "display_name": "ESTsoft ALZip"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-02-17",
+  "sources": [
+    {
+      "url": "ice.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

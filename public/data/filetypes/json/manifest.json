@@ -1,0 +1,23 @@
+{
+  "slug": "manifest",
+  "extension": "manifest",
+  "name": "Windows Application Manifest File",
+  "category": "windows-application-manifest-file",
+  "summary": "",
+  "developer_org": "valve",
+  "developer_name": "Valve",
+  "more_information": {
+    "description": [
+      "MANIFEST files are typically only used by software developers. However, end users may also see MANIFEST files in temporary directories after opening ClickOnce applications from a link in a Web browser. You generally should not manually edit or delete these files, or the ClickOnce application may stop working.",
+      "You can visit the Manifest File Schema page to view the XML schema for MANIFEST files.",
+      "NOTE: MANIFEST files are often compiled into .CDF-MS files, which allow the underlying software to have faster access to the application parameters. Therefore, you may see CDF-MS files alongside your MANIFEST files."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "manifest.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

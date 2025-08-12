@@ -1,0 +1,54 @@
+{
+  "slug": "pxa",
+  "extension": "pxa",
+  "name": "XpressAccounts Data File",
+  "category": "1.-xpressaccounts-data-file",
+  "developer_org": "proinfocus",
+  "popularity": {
+    "rating": 1.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "File created by XpressAccounts, an accounting application for small and medium sized businesses and organizations; contains company profile information and financial records; used for saving and backing up business accounting data.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "proinfocus-xpressaccounts",
+        "display_name": "Proinfocus XpressAccounts",
+        "status": "discontinued"
+      }
+    ],
+    "macos": [
+      {
+        "software": "furnace-creek-software-pixen",
+        "display_name": "Furnace Creek Software Pixen"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-12-09",
+  "sources": [
+    {
+      "url": "pxa.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

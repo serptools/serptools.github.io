@@ -1,0 +1,65 @@
+{
+  "slug": "flic",
+  "extension": "flic",
+  "name": "FLIC Animation",
+  "category": "flic-animation",
+  "developer_org": "autodesk",
+  "popularity": {
+    "rating": 3.2,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "A FLIC file is a movie or animation created by Autodesk animation software, such as Animator Pro. It contains multiple frames with each frame consisting of an image and other data such as palettes and labels. FLIC files are similar to .FLI files but not as popular.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "corel-videostudio-2023",
+        "display_name": "Corel VideoStudio 2023"
+      },
+      {
+        "software": "river-past-video-cleaner",
+        "display_name": "River Past Video Cleaner"
+      },
+      {
+        "software": "apple-quicktime-player",
+        "display_name": "Apple QuickTime Player"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-quicktime-player",
+        "display_name": "Apple QuickTime Player"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2016-09-22",
+  "sources": [
+    {
+      "url": "flic.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

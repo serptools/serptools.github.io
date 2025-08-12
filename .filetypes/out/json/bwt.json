@@ -1,0 +1,51 @@
+{
+  "slug": "bwt",
+  "extension": "bwt",
+  "name": "BlindWrite 4 Track Information FIle",
+  "category": "blindwrite-4-track-information-file",
+  "developer_org": "vso-software",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "A BWT file is a track information file created by BlindWrite 4.x, a Windows program used to copy games and backup discs. It contains information that describes the structure of a disc image saved in a .BWI file. BWT files include information such as the artist and length of audio tracks on a CD or length of features on a DVD.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "vso-software-blindwrite",
+        "display_name": "VSO Software BlindWrite"
+      },
+      {
+        "software": "ezb-systems-ultraiso",
+        "display_name": "EZB Systems UltraISO"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-05-01",
+  "sources": [
+    {
+      "url": "bwt.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

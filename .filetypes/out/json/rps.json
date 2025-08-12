@@ -1,0 +1,51 @@
+{
+  "slug": "rps",
+  "extension": "rps",
+  "name": "3ds Max Render Preset Settings",
+  "category": "3ds-max-render-preset-settings",
+  "developer_org": "autodesk",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 29,
+    "source": "fileinfo"
+  },
+  "summary": "Contains settings for rendering scenes within Autodesk 3ds Max and Autodesk VIZ; includes room, lighting, and camera information; can be used for rendering multiple 3D scenes or objects with the same settings.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "autodesk-3ds-max-2023",
+        "display_name": "Autodesk 3ds Max 2023"
+      },
+      {
+        "software": "autodesk-viz",
+        "display_name": "Autodesk VIZ"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-04-27",
+  "sources": [
+    {
+      "url": "rps.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

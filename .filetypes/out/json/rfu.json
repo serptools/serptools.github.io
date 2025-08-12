@@ -1,0 +1,59 @@
+{
+  "slug": "rfu",
+  "extension": "rfu",
+  "name": "Remote Firmware Update",
+  "category": "remote-firmware-update",
+  "developer_org": "hp",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 15,
+    "source": "fileinfo"
+  },
+  "summary": "File created for firmware updates, used by the HP LaserJet P3010 series printer; contains firmware updates; packaged together with an associated .README file as a self-extracting .EXE file.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "hp-color-laserjet-p3010-printer",
+        "display_name": "HP Color LaserJet P3010 Printer"
+      }
+    ],
+    "macos": [
+      {
+        "software": "hp-color-laserjet-p3010-printer",
+        "display_name": "HP Color LaserJet P3010 Printer"
+      }
+    ],
+    "linux": [
+      {
+        "software": "hp-color-laserjet-p3010-printer",
+        "display_name": "HP Color LaserJet P3010 Printer"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2013-10-15",
+  "sources": [
+    {
+      "url": "rfu.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

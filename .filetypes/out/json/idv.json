@@ -1,0 +1,53 @@
+{
+  "slug": "idv",
+  "extension": "idv",
+  "name": "Inventor Design View",
+  "category": "inventor-design-view",
+  "developer_org": "autodesk",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "An IDV file is a Design View file created by Autodesk Inventor, a 3D CAD mechanical design tool. It stores a snapshot view of an assembly ( .IAM ) file, which is used to review the assembly. IDV files include component visibility, viewing angles, magnification, and colors.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "autodesk-inventor-2022",
+        "display_name": "Autodesk Inventor 2022"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "IDV file icon",
+      "alt": "IDV file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/idv-6110.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-07-22",
+  "sources": [
+    {
+      "url": "idv.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

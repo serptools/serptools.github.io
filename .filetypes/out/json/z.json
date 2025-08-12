@@ -1,0 +1,155 @@
+{
+  "slug": "z",
+  "extension": "z",
+  "name": "Unix Compressed File",
+  "category": "unix-compressed-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 95,
+    "source": "fileinfo"
+  },
+  "summary": "Compressed file used to store, or \"pack,\" files on Unix-based machines; incorporates a simple compression algorithm that is used to archive files and save disk space; can be decompressed on a Unix system by typing uncompress filename.z , where \"filename.z\" is the name of the file to decompress.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "smith-micro-stuffit-deluxe",
+        "display_name": "Smith Micro StuffIt Deluxe",
+        "status": "discontinued"
+      },
+      {
+        "software": "corel-winzip",
+        "display_name": "Corel WinZip"
+      },
+      {
+        "software": "rarlab-winrar",
+        "display_name": "RARLAB WinRAR"
+      },
+      {
+        "software": "7-zip",
+        "display_name": "7-Zip"
+      },
+      {
+        "software": "incredible-bee-archiver",
+        "display_name": "Incredible Bee Archiver"
+      },
+      {
+        "software": "the-unarchiver",
+        "display_name": "The Unarchiver"
+      },
+      {
+        "software": "uncompress",
+        "display_name": "uncompress"
+      },
+      {
+        "software": "gzip",
+        "display_name": "gzip"
+      },
+      {
+        "software": "zcat",
+        "display_name": "zcat"
+      },
+      {
+        "software": "znew",
+        "display_name": "znew"
+      },
+      {
+        "software": "unpack",
+        "display_name": "unpack"
+      },
+      {
+        "software": "archive-manager",
+        "display_name": "Archive Manager"
+      }
+    ],
+    "macos": [
+      {
+        "software": "smith-micro-stuffit-deluxe-mac-16",
+        "display_name": "Smith Micro StuffIt Deluxe Mac 16",
+        "status": "discontinued"
+      },
+      {
+        "software": "corel-winzip-mac",
+        "display_name": "Corel WinZip Mac"
+      },
+      {
+        "software": "incredible-bee-archiver",
+        "display_name": "Incredible Bee Archiver"
+      },
+      {
+        "software": "the-unarchiver",
+        "display_name": "The Unarchiver"
+      }
+    ],
+    "android": [
+      {
+        "software": "file-viewer-for-android",
+        "display_name": "File Viewer for Android"
+      }
+    ],
+    "linux": [
+      {
+        "software": "uncompress",
+        "display_name": "uncompress"
+      },
+      {
+        "software": "gzip",
+        "display_name": "gzip"
+      },
+      {
+        "software": "zcat",
+        "display_name": "zcat"
+      },
+      {
+        "software": "znew",
+        "display_name": "znew"
+      },
+      {
+        "software": "unpack",
+        "display_name": "unpack"
+      },
+      {
+        "software": "archive-manager",
+        "display_name": "Archive Manager"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "Z file icon",
+      "alt": "Z file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/z-127.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-05-16",
+  "sources": [
+    {
+      "url": "z.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

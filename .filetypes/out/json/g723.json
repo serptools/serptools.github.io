@@ -1,0 +1,73 @@
+{
+  "slug": "g723",
+  "extension": "g723",
+  "name": "G.723 ADPCM Audio",
+  "category": "g.723-adpcm-audio",
+  "developer_org": "international-telegraph-union",
+  "popularity": {
+    "rating": 2.1,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "A G723 file is an audio file saved using the G.723 codec , an encoding algorithm created by the International Telegraph Union (ITU). It likely contains spoken audio meant to be transmitted over a network. The audio G723 files contain is 8khz ADPCM audio, meant to be transmitted at either 24 or 40 kbit/s.",
+  "standards": [],
+  "mime_types": [
+    "kbit/s"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      },
+      {
+        "software": "libsndfile",
+        "display_name": "libsndfile"
+      }
+    ],
+    "macos": [
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      },
+      {
+        "software": "libsndfile",
+        "display_name": "libsndfile"
+      }
+    ],
+    "linux": [
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      },
+      {
+        "software": "libsndfile",
+        "display_name": "libsndfile"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-10-18",
+  "sources": [
+    {
+      "url": "g723.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

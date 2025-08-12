@@ -1,0 +1,65 @@
+{
+  "slug": "rge",
+  "extension": "rge",
+  "name": "Entourage File Archive",
+  "category": "entourage-file-archive",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "An RGE file is a macOS package that contains items exported from a Microsoft Entourage database. It may include email messages, tasks, contacts, notes, calendar events, and project files. Entourage users create RGE files using the program's File → Export command.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "mail-passport-pro",
+        "display_name": "Mail Passport Pro"
+      },
+      {
+        "software": "microsoft-outlook-365",
+        "display_name": "Microsoft Outlook 365"
+      },
+      {
+        "software": "apple-mail",
+        "display_name": "Apple Mail"
+      }
+    ],
+    "macos": [
+      {
+        "software": "microsoft-outlook-365",
+        "display_name": "Microsoft Outlook 365"
+      },
+      {
+        "software": "apple-mail",
+        "display_name": "Apple Mail"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-12-09",
+  "sources": [
+    {
+      "url": "rge.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

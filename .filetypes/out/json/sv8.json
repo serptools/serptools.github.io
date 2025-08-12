@@ -1,0 +1,47 @@
+{
+  "slug": "sv8",
+  "extension": "sv8",
+  "name": "BigJig 8 Saved Puzzle",
+  "category": "bigjig-8-saved-puzzle",
+  "developer_org": "lena-games",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "An SV8 file stores saved progress for a puzzle in version 8 of Lena Games BigJig, a jigsaw puzzle-solving game for Windows. It contains the progress of a puzzle a user is putting together, which includes the number of pieces and their placement on the board.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "lena-games-bigjig",
+        "display_name": "Lena Games BigJig"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-08-31",
+  "sources": [
+    {
+      "url": "sv8.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

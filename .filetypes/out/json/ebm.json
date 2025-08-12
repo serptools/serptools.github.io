@@ -1,0 +1,55 @@
+{
+  "slug": "ebm",
+  "extension": "ebm",
+  "name": "EXTRA! Basic Macro",
+  "category": "1.-extra-basic-macro",
+  "developer_org": "attachmate",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 16,
+    "source": "fileinfo"
+  },
+  "summary": "Macro that automates processes within EXTRA!, a terminal emulation program from Attachmate; contains code with functions that can be run within the program; basic macros, such as Flag.ebm, Loop.ebm, and Captu32.ebm are included with the EXTRA! software.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "attachmate-extra",
+        "display_name": "Attachmate EXTRA!"
+      },
+      {
+        "software": "embla-systems-remlogic",
+        "display_name": "Embla Systems RemLogic"
+      },
+      {
+        "software": "phitools-prana-software-suite",
+        "display_name": "PhiTools PRANA Software Suite"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2007-04-16",
+  "sources": [
+    {
+      "url": "ebm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

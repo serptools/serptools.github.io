@@ -1,0 +1,61 @@
+{
+  "slug": "pyw",
+  "extension": "pyw",
+  "name": "Python GUI Source File",
+  "category": "python-gui-source-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 16,
+    "source": "fileinfo"
+  },
+  "summary": "Python script that displays a graphical user interface ( GUI ); may contain standard Python code as well as graphical Python code; must be run using pythonw instead of python.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "pythonw",
+        "display_name": "pythonw"
+      }
+    ],
+    "macos": [
+      {
+        "software": "pythonw",
+        "display_name": "pythonw"
+      }
+    ],
+    "linux": [
+      {
+        "software": "pythonw",
+        "display_name": "pythonw"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2008-04-09",
+  "sources": [
+    {
+      "url": "pyw.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

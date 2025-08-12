@@ -1,0 +1,47 @@
+{
+  "slug": "brs",
+  "extension": "brs",
+  "name": "RoboHelp Browse Sequence File",
+  "category": "robohelp-browse-sequence-file",
+  "developer_org": "adobe-systems",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "File created by RoboHelp, an application used for creating Windows help documentation; saves a browse sequence, which allows the help readers to move through a series of help topics; included as part of a RoboHelp project ( .XPJ ).",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "adobe-robohelp",
+        "display_name": "Adobe RoboHelp"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-08-08",
+  "sources": [
+    {
+      "url": "brs.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

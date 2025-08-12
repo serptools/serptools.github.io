@@ -1,0 +1,58 @@
+{
+  "slug": "fm3",
+  "extension": "fm3",
+  "name": "FCEUX TAS Editor Movie Capture File",
+  "category": "1.-fceux-tas-editor-movie-capture-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 2.5,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "An FM3 file is a project created by the TAS Editor tool included with version 2.2.0 or later of FCEUX, an open-source Nintendo Entertainment System and Family Computer Disk System emulator . It contains information about a tool-assisted speedrun (TAS), which includes records of buttons pushed during gameplay in plain text and binary format, metadata , and TAS Editor-specific data.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "fceux",
+        "display_name": "FCEUX"
+      },
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      },
+      {
+        "software": "microsoft-excel-365",
+        "display_name": "Microsoft Excel 365"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-09-23",
+  "sources": [
+    {
+      "url": "fm3.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

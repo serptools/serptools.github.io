@@ -1,0 +1,58 @@
+{
+  "slug": "kyb",
+  "extension": "kyb",
+  "name": "Keyboard Layout",
+  "category": "keyboard-layout",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 2.3,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Defines the layout of the keyboard (what input each key produces); often used for typing in different languages or using a keyboard from a foreign country.",
+  "standards": [],
+  "mime_types": [
+    "n/a",
+    "pc/tcp"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "software-entire-connection",
+        "display_name": "Software Entire Connection"
+      },
+      {
+        "software": "ftp-software-pc-tcp",
+        "display_name": "FTP Software PC/TCP"
+      },
+      {
+        "software": "other-programs-that-support-multiple-keyboard-layouts",
+        "display_name": "Other programs that support multiple keyboard layouts"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2007-02-15",
+  "sources": [
+    {
+      "url": "kyb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

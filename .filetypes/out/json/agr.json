@@ -1,0 +1,53 @@
+{
+  "slug": "agr",
+  "extension": "agr",
+  "name": "Ableton Groove File",
+  "category": "ableton-groove-file",
+  "developer_org": "ableton",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "File used by Ableton Live, a program used for making electronic mixes and drum beats; defines the \"feel\" of a groove using timing definitions; used to modify audio clips so that they have a swing, drive, or other rythmic feel.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "ableton-live",
+        "display_name": "Ableton Live"
+      }
+    ],
+    "macos": [
+      {
+        "software": "ableton-live",
+        "display_name": "Ableton Live"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-08-16",
+  "sources": [
+    {
+      "url": "agr.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

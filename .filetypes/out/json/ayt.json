@@ -1,0 +1,81 @@
+{
+  "slug": "ayt",
+  "extension": "ayt",
+  "name": "Quran Content Archive",
+  "category": "quran-content-archive",
+  "developer_org": "king-saud-university",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "An AYT file is a Quran content archive used by Ayat, a cross-platform program that allows users to study the Quran on their computer or mobile device. It stores files, including images, audio, and database files, using a proprietary form of Zip compression. AYT files are also used by King Saud University electronic Quran, the online version of Ayat.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "king-saud-university-ayat",
+        "display_name": "King Saud University Ayat"
+      },
+      {
+        "software": "king-saud-university-electronic-quran",
+        "display_name": "King Saud University electronic Quran"
+      }
+    ],
+    "macos": [
+      {
+        "software": "king-saud-university-ayat",
+        "display_name": "King Saud University Ayat"
+      }
+    ],
+    "linux": [
+      {
+        "software": "king-saud-university-ayat",
+        "display_name": "King Saud University Ayat"
+      }
+    ],
+    "web": [
+      {
+        "software": "king-saud-university-electronic-quran",
+        "display_name": "King Saud University electronic Quran"
+      }
+    ],
+    "ios": [
+      {
+        "software": "king-saud-university-ayat",
+        "display_name": "King Saud University Ayat"
+      }
+    ],
+    "android": [
+      {
+        "software": "king-saud-university-ayat",
+        "display_name": "King Saud University Ayat"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-08-20",
+  "sources": [
+    {
+      "url": "ayt.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

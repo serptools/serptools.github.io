@@ -1,0 +1,53 @@
+{
+  "slug": "icaltodo",
+  "extension": "icaltodo",
+  "name": "iCal To Do File",
+  "category": "ical-to-do-file",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "Calendar data file used by Spotlight, a search utility included with Mac OS X; contains cached todo data used for searches; saved to the [user]/​Library/​Caches/​Metadata/​iCal/​ directory.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "apple-calendar",
+        "display_name": "Apple Calendar"
+      }
+    ],
+    "windows": [
+      {
+        "software": "apple-calendar",
+        "display_name": "Apple Calendar"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-11-11",
+  "sources": [
+    {
+      "url": "icaltodo.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

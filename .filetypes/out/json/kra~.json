@@ -1,0 +1,71 @@
+{
+  "slug": "kra~",
+  "extension": "kra~",
+  "name": "Krita Image Backup",
+  "category": "krita-image-backup",
+  "developer_org": "krita",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "A KRA~ file is a backup of a Krita image document ( .KRA file). It contains a previous version of the document, saved automatically by Krita. By default, Krita automatically saves one KRA~ file for each KRA file, in the same folder as the original document.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "krita",
+        "display_name": "Krita"
+      },
+      {
+        "software": "qview",
+        "display_name": "qView"
+      }
+    ],
+    "macos": [
+      {
+        "software": "krita",
+        "display_name": "Krita"
+      },
+      {
+        "software": "qview",
+        "display_name": "qView"
+      }
+    ],
+    "linux": [
+      {
+        "software": "krita",
+        "display_name": "Krita"
+      },
+      {
+        "software": "qview",
+        "display_name": "qView"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-05-22",
+  "sources": [
+    {
+      "url": "kra~.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

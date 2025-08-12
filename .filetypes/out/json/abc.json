@@ -1,0 +1,163 @@
+{
+  "slug": "abc",
+  "extension": "abc",
+  "name": "ABC Music Notation",
+  "category": "1.-abc-music-notation",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 4.3,
+    "votes": 36,
+    "source": "fileinfo"
+  },
+  "summary": "Music file created in the ABC musical notation language, which stores the composition in a plain text ASCII format; can be translated and laid out in an actual score and also played back using an ABC-compatible application.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "musescore",
+        "display_name": "MuseScore"
+      },
+      {
+        "software": "myriad-melody-assistant",
+        "display_name": "Myriad Melody Assistant"
+      },
+      {
+        "software": "myriad-harmony-assistant",
+        "display_name": "Myriad Harmony Assistant"
+      },
+      {
+        "software": "tabledit",
+        "display_name": "TablEdit"
+      },
+      {
+        "software": "abc2xml",
+        "display_name": "Abc2xml"
+      },
+      {
+        "software": "adobe-flash-professional-cc",
+        "display_name": "Adobe Flash Professional CC",
+        "status": "discontinued"
+      },
+      {
+        "software": "adobe-flash-player",
+        "display_name": "Adobe Flash Player",
+        "status": "discontinued"
+      },
+      {
+        "software": "cwi-abc",
+        "display_name": "CWI ABC"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "igrafx-flowcharter",
+        "display_name": "iGrafx FlowCharter"
+      },
+      {
+        "software": "igrafx-process",
+        "display_name": "iGrafx Process"
+      }
+    ],
+    "macos": [
+      {
+        "software": "musescore",
+        "display_name": "MuseScore"
+      },
+      {
+        "software": "myriad-melody-assistant",
+        "display_name": "Myriad Melody Assistant"
+      },
+      {
+        "software": "myriad-harmony-assistant",
+        "display_name": "Myriad Harmony Assistant"
+      },
+      {
+        "software": "adobe-flash-professional-cc",
+        "display_name": "Adobe Flash Professional CC",
+        "status": "discontinued"
+      },
+      {
+        "software": "adobe-flash-player",
+        "display_name": "Adobe Flash Player",
+        "status": "discontinued"
+      },
+      {
+        "software": "cwi-abc",
+        "display_name": "CWI ABC"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "musescore",
+        "display_name": "MuseScore"
+      },
+      {
+        "software": "myriad-melody-assistant",
+        "display_name": "Myriad Melody Assistant"
+      },
+      {
+        "software": "myriad-harmony-assistant",
+        "display_name": "Myriad Harmony Assistant"
+      },
+      {
+        "software": "cwi-abc",
+        "display_name": "CWI ABC"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "web": [
+      {
+        "software": "abc2xml",
+        "display_name": "Abc2xml"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-08-24",
+  "sources": [
+    {
+      "url": "abc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "jia",
+  "extension": "jia",
+  "name": "Digital Photo Navigator Album",
+  "category": "digital-photo-navigator-album",
+  "developer_org": "jvc",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Digital photo album created with JVC's Digital Photo Navigator, a photo organization program included with JVC camcorders; stores a group of photos selected by the user and can be exported in a Web page format.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "jvc-digital-photo-navigator",
+        "display_name": "JVC Digital Photo Navigator"
+      }
+    ],
+    "macos": [
+      {
+        "software": "jvc-digital-photo-navigator",
+        "display_name": "JVC Digital Photo Navigator"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2008-12-23",
+  "sources": [
+    {
+      "url": "jia.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

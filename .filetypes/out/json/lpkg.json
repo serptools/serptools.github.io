@@ -1,0 +1,65 @@
+{
+  "slug": "lpkg",
+  "extension": "lpkg",
+  "name": "Liferay Application",
+  "category": "1.-liferay-application",
+  "developer_org": "liferay",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "An LPKG file is a Zip-compressed package used to deploy applications ( plugins ) to Liferay users that can be installed on their websites. It contains .JAR files that make up the functionality of the application. LPKG files also store a .PROPERTIES file, which includes information about the application and installation requirements.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "liferay",
+        "display_name": "Liferay"
+      }
+    ],
+    "macos": [
+      {
+        "software": "liferay",
+        "display_name": "Liferay"
+      }
+    ],
+    "linux": [
+      {
+        "software": "liferay",
+        "display_name": "Liferay"
+      }
+    ],
+    "web": [
+      {
+        "software": "appspace",
+        "display_name": "Appspace"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-11-22",
+  "sources": [
+    {
+      "url": "lpkg.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "slug": "f06",
+  "extension": "f06",
+  "name": "Nastran Output File",
+  "category": "nastran-output-file",
+  "developer_org": "msc-software",
+  "popularity": {
+    "rating": 2.6,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "Output file created by MSC Nastran, a structural analysis program; contains mode shapes, static displacements, and grid point stress analysis results computed by MSC Nastran; output data helps display the performance of vital related areas such as grid point stress.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "msc-nastran",
+        "display_name": "MSC Nastran"
+      },
+      {
+        "software": "pynastran",
+        "display_name": "pynastran"
+      }
+    ],
+    "linux": [
+      {
+        "software": "msc-nastran",
+        "display_name": "MSC Nastran"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-01-24",
+  "sources": [
+    {
+      "url": "f06.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

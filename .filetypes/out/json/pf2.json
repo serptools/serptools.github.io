@@ -1,0 +1,53 @@
+{
+  "slug": "pf2",
+  "extension": "pf2",
+  "name": "GRUB Font File",
+  "category": "grub-font-file",
+  "developer_org": "colin-bennett",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 10,
+    "source": "fileinfo"
+  },
+  "summary": "A PF2 file is a font file used by GNU GRUB (GRand Unified Bootloader), a multi-boot boot loader used for running multiple operating systems on the same computer. It is saved in the PF2 format, which is a simple and compact bitmap font format that supports Unicode .",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "linux": [
+      {
+        "software": "gnu-grub",
+        "display_name": "GNU GRUB"
+      }
+    ],
+    "windows": [
+      {
+        "software": "gnu-grub",
+        "display_name": "GNU GRUB"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-04-01",
+  "sources": [
+    {
+      "url": "pf2.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

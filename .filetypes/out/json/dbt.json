@@ -1,0 +1,60 @@
+{
+  "slug": "dbt",
+  "extension": "dbt",
+  "name": "Database Text File",
+  "category": "database-text-file",
+  "developer_org": "dbase",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 12,
+    "source": "fileinfo"
+  },
+  "summary": "A DBT file contains the text for memo fields in database tables ( .DBF files) created by various database management applications, such as dBASE and Microsoft Visual FoxPro. Memo fields included in a database point to the locations of DBT files, which store the HTML-formatted text. Pointing to external DBT files reduces the DBF file size and allows memos to store more text.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "dbase",
+        "display_name": "dBase"
+      },
+      {
+        "software": "microsoft-visual-foxpro",
+        "display_name": "Microsoft Visual FoxPro",
+        "status": "discontinued"
+      },
+      {
+        "software": "swiftpage-act",
+        "display_name": "Swiftpage Act!"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-12-01",
+  "sources": [
+    {
+      "url": "dbt.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

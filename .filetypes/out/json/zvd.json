@@ -1,0 +1,48 @@
+{
+  "slug": "zvd",
+  "extension": "zvd",
+  "name": "Zyxel Voice File",
+  "category": "zyxel-voice-file",
+  "developer_org": "zyxel-communications",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 14,
+    "source": "fileinfo"
+  },
+  "summary": "A ZVD file is a voice memo created by a Zyxel Communications fax modem. Typically, ZVD files are included as part of faxes sent with Zyxel ZFax, a faxing application.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "zyxel-communications-zfax",
+        "display_name": "Zyxel Communications ZFax",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-08-21",
+  "sources": [
+    {
+      "url": "zvd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

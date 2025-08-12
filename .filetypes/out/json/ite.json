@@ -1,0 +1,61 @@
+{
+  "slug": "ite",
+  "extension": "ite",
+  "name": "iTunes Extras File",
+  "category": "itunes-extras-file",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "File bundle created for iTunes, an application used for music shopping, organization, and playback; stores a collection of Web and multimedia files, which can include HTML, CSS, JavaScript, images, audio files, and video files; acts as a self-contained website that can be navigated and played back in iTunes.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "apple-itunes",
+        "display_name": "Apple iTunes",
+        "status": "discontinued"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-itunes",
+        "display_name": "Apple iTunes",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "ITE file icon",
+      "alt": "ITE file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/ite-5261.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-08-31",
+  "sources": [
+    {
+      "url": "ite.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

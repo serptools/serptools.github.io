@@ -1,0 +1,62 @@
+{
+  "slug": "tdesktop-theme",
+  "extension": "tdesktop-theme",
+  "name": "Telegram Desktop Theme",
+  "category": "telegram-desktop-theme",
+  "developer_org": "telegram",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "A TDESKTOP-THEME file is a skin used by Telegram Desktop, the desktop version of the Telegram instant messaging application. It contains settings used to customize Telegram Desktop's appearance. For example, a TDESKTOP-THEME file may change Telegram Desktop's colors, styles, and background.",
+  "standards": [],
+  "mime_types": [
+    "and/or",
+    "t.me/desktopthemes"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "telegram",
+        "display_name": "Telegram"
+      }
+    ],
+    "macos": [
+      {
+        "software": "telegram",
+        "display_name": "Telegram"
+      }
+    ],
+    "linux": [
+      {
+        "software": "telegram",
+        "display_name": "Telegram"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-01-27",
+  "sources": [
+    {
+      "url": "tdesktop-theme.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

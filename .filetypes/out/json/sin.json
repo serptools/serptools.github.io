@@ -1,0 +1,47 @@
+{
+  "slug": "sin",
+  "extension": "sin",
+  "name": "Sony Xperia Firmware File",
+  "category": "sony-xperia-firmware-file",
+  "developer_org": "sony",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "A SIN file is a firmware file used to distribute updates to Sony Xperia smartphones and tablets. It contains data, such as a partition image or kernel image, used to update the Xperia device. SIN files are typically stored in .FTF files, which are flashed on to a device.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "unsin",
+        "display_name": "UnSin"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-05-02",
+  "sources": [
+    {
+      "url": "sin.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

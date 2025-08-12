@@ -1,0 +1,73 @@
+{
+  "slug": "switch",
+  "extension": "switch",
+  "name": "Switch Package",
+  "category": "switch-package",
+  "developer_org": "egress-software-technologies",
+  "popularity": {
+    "rating": 2.5,
+    "votes": 60,
+    "source": "fileinfo"
+  },
+  "summary": "A SWITCH file is a secure package created with Switch, a secure file management program. It contains one or more confidential files that are encrypted with AES-256 encryption . SWITCH files also include information that allows users to see when the package was opened or if unauthorized users have tried to access it.",
+  "standards": [],
+  "mime_types": [
+    "cd/dvd"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "egress-switch",
+        "display_name": "Egress Switch"
+      }
+    ],
+    "web": [
+      {
+        "software": "egress-switch-web-access",
+        "display_name": "Egress Switch Web Access"
+      }
+    ],
+    "macos": [
+      {
+        "software": "egress-switch",
+        "display_name": "Egress Switch",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "SWITCH file icon",
+      "alt": "SWITCH file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/switch-3637.png"
+    },
+    {
+      "caption": "SWITCH file open in Egress Switch",
+      "alt": "SWITCH file open in Egress Switch",
+      "source_url": "https://fileinfo.com/img/ss/md/switch_3637.jpg"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-02-15",
+  "sources": [
+    {
+      "url": "switch.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

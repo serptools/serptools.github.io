@@ -1,0 +1,47 @@
+{
+  "slug": "xr",
+  "extension": "xr",
+  "name": "Xuver 3D Scene File",
+  "category": "xuver-3d-scene-file",
+  "developer_org": "xuver-applications",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "An XR file contains a 3D scene in the Xuver 3D graphics format that is created by a Xuver plugin or converter. It can be uploaded to the Xuver online platform to view the 3D model in a virtual environment that you can walk through as an avatar and preview designs with clients.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "web": [
+      {
+        "software": "xuver-for-web",
+        "display_name": "Xuver for Web"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-05-22",
+  "sources": [
+    {
+      "url": "xr.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

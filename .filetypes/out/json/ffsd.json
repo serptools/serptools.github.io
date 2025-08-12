@@ -1,0 +1,47 @@
+{
+  "slug": "ffsd",
+  "extension": "ffsd",
+  "name": "Wii U Mii",
+  "category": "wii-u-mii",
+  "developer_org": "nintendo",
+  "popularity": {
+    "rating": 1.7,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "An FFSD file is a Mii used in a Nintendo Wii U video game. It contains an animated character that is shown in-game. Both official and player-created Wii U Miis are saved as FFSD files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "not-meant-to-be-opened-outside-the-nintendo-wii-u-games-in-which-they-are-used",
+        "display_name": "Not meant to be opened outside the Nintendo Wii U games in which they are used"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-07-08",
+  "sources": [
+    {
+      "url": "ffsd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

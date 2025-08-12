@@ -1,0 +1,36 @@
+{
+  "slug": "ani",
+  "extension": "ani",
+  "name": "Windows Animated Cursor",
+  "category": "windows-animated-cursor",
+  "summary": "",
+  "developer_org": "microsoft",
+  "developer_name": "Microsoft",
+  "more_information": {
+    "screenshot": {
+      "url": "https://fileinfo.com/img/ss/sm/ani_531.png",
+      "alt": "Screenshot of a .ani file in RealWorld Cursor Editor",
+      "caption": "ANI file open in RealWorld Cursor Editor"
+    },
+    "description": [
+      "Windows' default animated cursors, such as its wait and hourglass cursors, are stored in ANI files. These files contain all the still ICO images used to animate a cursor. When Windows shows an animated cursor, it is actually showing all an ANI file's included ICO images in sequence.",
+      "Custom Windows desktop themes often include custom animated cursors, stored in custom ANI files. These custom ANI files are structured in the same way as Windows' official ANI files.",
+      "To use an ANI file as a Windows cursor image:",
+      "NOTE: In March 2007, Microsoft reported a vulnerability in the way Windows handles ANI files that could be used to attack users' systems. This issue, which affected Windows 2000 through Windows Vista, was addressed and fixed in Security Bulletin MS07-017."
+    ]
+  },
+  "images": [
+    {
+      "url": "https://fileinfo.com/img/ss/sm/ani_531.png",
+      "alt": "Screenshot of a .ani file in RealWorld Cursor Editor",
+      "caption": "ANI file open in RealWorld Cursor Editor"
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "ani.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

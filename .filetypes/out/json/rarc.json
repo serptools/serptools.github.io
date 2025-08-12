@@ -1,0 +1,67 @@
+{
+  "slug": "rarc",
+  "extension": "rarc",
+  "name": "Wii and GameCube Resource Archive",
+  "category": "wii-and-gamecube-resource-archive",
+  "developer_org": "nintendo",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "A RARC file is an asset archive used by a Nintendo Wii or GameCube video game. It contains 3D models, images, and other resources used to show game characters, objects, and levels. Game modders sometimes extract, modify, and repackage RARC files' contents to modify a game's gameplay.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "wiimms-szs-tools",
+        "display_name": "Wiimms SZS Tools"
+      },
+      {
+        "software": "arctool",
+        "display_name": "ARCTool"
+      },
+      {
+        "software": "wexos-s-toolbox",
+        "display_name": "Wexos's Toolbox"
+      }
+    ],
+    "macos": [
+      {
+        "software": "wiimms-szs-tools",
+        "display_name": "Wiimms SZS Tools"
+      }
+    ],
+    "linux": [
+      {
+        "software": "wiimms-szs-tools",
+        "display_name": "Wiimms SZS Tools"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-06-26",
+  "sources": [
+    {
+      "url": "rarc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

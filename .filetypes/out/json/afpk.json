@@ -1,0 +1,59 @@
+{
+  "slug": "afpk",
+  "extension": "afpk",
+  "name": "Audfprint Peaks Audio Fingerprint",
+  "category": "audfprint-peaks-audio-fingerprint",
+  "developer_org": "daniel-ellis",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "An AFPK file is a precomputed audio fingerprint created by audfprint, a landmark-based audio fingerprinting utility. It contains data used to identify similar audio files. To use AFPK files, audfprint users add the files to an audfprint database.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "audfprint",
+        "display_name": "audfprint"
+      }
+    ],
+    "macos": [
+      {
+        "software": "audfprint",
+        "display_name": "audfprint"
+      }
+    ],
+    "linux": [
+      {
+        "software": "audfprint",
+        "display_name": "audfprint"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-03-15",
+  "sources": [
+    {
+      "url": "afpk.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

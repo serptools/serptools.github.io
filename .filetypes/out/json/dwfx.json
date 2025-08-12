@@ -1,0 +1,64 @@
+{
+  "slug": "dwfx",
+  "extension": "dwfx",
+  "name": "Design Web Format XPS File",
+  "category": "design-web-format-xps-file",
+  "developer_org": "autodesk",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 31,
+    "source": "fileinfo"
+  },
+  "summary": "A DWFX file is a 2D or 3D drawing created with Autodesk CAD software. It is saved in the DWFx format, which is similar to a .DWF file, but is formatted using Microsoft's XML Paper Specification (XPS). DWFX files may contain 3D design data, object properties, and metadata .",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "autodesk-autocad-2025",
+        "display_name": "Autodesk AutoCAD 2025"
+      },
+      {
+        "software": "autodesk-design-review",
+        "display_name": "Autodesk Design Review"
+      },
+      {
+        "software": "microsoft-xps-viewer",
+        "display_name": "Microsoft XPS Viewer"
+      },
+      {
+        "software": "autodesk-navisworks-freedom",
+        "display_name": "Autodesk Navisworks Freedom",
+        "pricing": "free"
+      },
+      {
+        "software": "okino-computer-graphics-polytrans",
+        "display_name": "Okino Computer Graphics PolyTrans"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-04-03",
+  "sources": [
+    {
+      "url": "dwfx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

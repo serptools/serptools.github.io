@@ -1,0 +1,73 @@
+{
+  "slug": "b4s",
+  "extension": "b4s",
+  "name": "Winamp Playlist File",
+  "category": "winamp-playlist-file",
+  "developer_org": "nullsoft",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Music playlist file used by older versions of the Winamp media player; saved in an XML format and stores a list of multimedia files and associated metadata; used for saving song lists and favorite mixes.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "nullsoft-winamp",
+        "display_name": "Nullsoft Winamp"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      }
+    ],
+    "macos": [
+      {
+        "software": "macgo-mac-media-player",
+        "display_name": "Macgo Mac Media Player"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      }
+    ],
+    "linux": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "B4S file icon",
+      "alt": "B4S file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/b4s-6101.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-10-30",
+  "sources": [
+    {
+      "url": "b4s.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

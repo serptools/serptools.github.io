@@ -1,0 +1,47 @@
+{
+  "slug": "stxt",
+  "extension": "stxt",
+  "name": "Sealed Text File",
+  "category": "sealed-text-file",
+  "developer_org": "oracle",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "An STXT file is a protected .TXT file created by Oracle Information Rights Management (IRM) document protection software. It contains a text document in a \"sealed,\" or locked, format that can only be opened by users with sufficient rights. STXT files can be viewed with the Oracle IRM Desktop software, which facilitates the authorization rights management for the digital documents.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "oracle-irm-desktop",
+        "display_name": "Oracle IRM Desktop"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-05-25",
+  "sources": [
+    {
+      "url": "stxt.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

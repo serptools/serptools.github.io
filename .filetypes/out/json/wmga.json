@@ -1,0 +1,51 @@
+{
+  "slug": "wmga",
+  "extension": "wmga",
+  "name": "Web Manga Document",
+  "category": "web-manga-document",
+  "developer_org": "manga-reader",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "Manga document used by Manga Reader, an application used to read electronic print cartoons and comic books; stores the structure of the manga document; includes URL references to page content (text, graphics, etc.) instead of the page content itself; used for distributing manga comics.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "manga-reader",
+        "display_name": "Manga Reader"
+      },
+      {
+        "software": "manga-creator",
+        "display_name": "Manga Creator"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-01-21",
+  "sources": [
+    {
+      "url": "wmga.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

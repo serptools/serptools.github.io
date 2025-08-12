@@ -1,0 +1,53 @@
+{
+  "slug": "nwelicense",
+  "extension": "nwelicense",
+  "name": "Nisus License",
+  "category": "nisus-license",
+  "developer_org": "nisus",
+  "popularity": {
+    "rating": 2.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "License referenced by Nisus Writer Pro, a rich text word processing program; contains the license verified by Nisus Writer Pro in order to use the application beyond the trial period; includes the owner name, type of use, and expiration date of the license.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "nisus-writer-pro",
+        "display_name": "Nisus Writer Pro"
+      }
+    ],
+    "windows": [
+      {
+        "software": "nisus-writer-pro",
+        "display_name": "Nisus Writer Pro"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-01-16",
+  "sources": [
+    {
+      "url": "nwelicense.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

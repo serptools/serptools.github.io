@@ -1,0 +1,115 @@
+{
+  "slug": "esi",
+  "extension": "esi",
+  "name": "EtherCAT Slave Information",
+  "category": "ethercat-slave-information",
+  "developer_org": "ethercat-technology-group",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "An ESI file is an EtherCAT Slave Information file. It contains XML used to control how data is shared between a controller and a node in an EtherCAT network. ESI files are also used to name and define nodes, so administrators can identify them within the network.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "acontis-technologies-ec-engineer",
+        "display_name": "Acontis Technologies EC-Engineer"
+      },
+      {
+        "software": "port-ethercat-design-tool",
+        "display_name": "port EtherCAT Design Tool"
+      },
+      {
+        "software": "notepad++",
+        "display_name": "Notepad++"
+      },
+      {
+        "software": "github-atom",
+        "display_name": "Github Atom",
+        "status": "discontinued"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "apple-xcode",
+        "display_name": "Apple Xcode"
+      },
+      {
+        "software": "github-atom",
+        "display_name": "GitHub Atom",
+        "status": "discontinued"
+      }
+    ],
+    "web": [
+      {
+        "software": "acontis-technologies-ec-engineer-web",
+        "display_name": "Acontis Technologies EC-Engineer Web"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-xcode",
+        "display_name": "Apple Xcode"
+      },
+      {
+        "software": "github-atom",
+        "display_name": "Github Atom",
+        "status": "discontinued"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "port-ethercat-design-tool",
+        "display_name": "port EtherCAT Design Tool"
+      },
+      {
+        "software": "github-atom",
+        "display_name": "GitHub Atom",
+        "status": "discontinued"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "ESI file open in Apple Xcode",
+      "alt": "ESI file open in Apple Xcode",
+      "source_url": "https://fileinfo.com/img/ss/md/esi_11581.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-08-17",
+  "sources": [
+    {
+      "url": "esi.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

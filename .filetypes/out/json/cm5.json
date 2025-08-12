@@ -1,0 +1,73 @@
+{
+  "slug": "cm5",
+  "extension": "cm5",
+  "name": "Clone Manager File",
+  "category": "clone-manager-file",
+  "developer_org": "sci-ed",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "CM5 is a Clone Manager molecule format used by Clone Manager, a program used for cloning simulation, enzyme operations, graphic map drawing. Each CM5 file stores molecule name and size and sequence data. It may also include description, notes, features, enzyme sites, and primer sites",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "sci-ed-clone-manager",
+        "display_name": "Sci-Ed Clone Manager"
+      },
+      {
+        "software": "gsl-biotech-snapgene",
+        "display_name": "GSL Biotech SnapGene"
+      },
+      {
+        "software": "genome-compiler",
+        "display_name": "Genome Compiler",
+        "status": "discontinued"
+      }
+    ],
+    "macos": [
+      {
+        "software": "gsl-biotech-snapgene",
+        "display_name": "GSL Biotech SnapGene"
+      },
+      {
+        "software": "genome-compiler",
+        "display_name": "Genome Compiler",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "CM5 file icon",
+      "alt": "CM5 file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/cm5-9853.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-03-22",
+  "sources": [
+    {
+      "url": "cm5.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

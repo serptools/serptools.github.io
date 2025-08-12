@@ -1,0 +1,27 @@
+{
+  "slug": "ini",
+  "extension": "ini",
+  "name": "Windows Initialization File",
+  "category": "windows-initialization-file",
+  "summary": "",
+  "developer_org": "advanced-gravis-computer-technology",
+  "developer_name": "Advanced Gravis Computer Technology",
+  "more_information": {
+    "description": [
+      "INI files can be edited with a plain text editor, but typically should not be edited or altered by regular users. INI files were partially replaced by the registry database in Windows 95. More recently, they have also been replaced by XML files."
+    ]
+  },
+  "common_filenames": [
+    {
+      "filename": "desktop.ini",
+      "description": "desktop.ini - A hidden file located in Windows folders that saves viewing options for that specific folder. This file can specify an image that is used for the folder icon as well as appearance options for files within the folder. It can be ignored, but if you delete the desktop.ini file, Windows may generate a new one. Mac OS X .DS_STORE files serve a similar purpose."
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "ini.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

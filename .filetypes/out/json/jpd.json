@@ -1,0 +1,102 @@
+{
+  "slug": "jpd",
+  "extension": "jpd",
+  "name": "Java Process Definition File",
+  "category": "1.-java-process-definition-file",
+  "developer_org": "bea-systems",
+  "popularity": {
+    "rating": 3.2,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "A JPD file is an XML-based document saved in the Java Process Definition (JPD) format, which conforms to the BEA WebLogic Integration standard. It defines the structure and logic of a business process in a Java-based application, outlining its flow, individual steps, associated actions, transitions between steps, and interactions with external systems or data sources.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "gedit",
+        "display_name": "gedit"
+      },
+      {
+        "software": "rgblight-photodefiner-free-viewer",
+        "display_name": "RGBLight PhotoDefiner Free Viewer",
+        "pricing": "free"
+      },
+      {
+        "software": "kandalu-kandalulite",
+        "display_name": "Kandalu KandaluLite"
+      },
+      {
+        "software": "apple-quicktime-player-with-the-photodefiner-component",
+        "display_name": "Apple QuickTime Player with the PhotoDefiner component"
+      }
+    ],
+    "web": [
+      {
+        "software": "bea-weblogic-workshop",
+        "display_name": "BEA WebLogic Workshop"
+      },
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "kandalu-kandalulite",
+        "display_name": "Kandalu KandaluLite"
+      },
+      {
+        "software": "apple-quicktime-player-with-the-photodefiner-component",
+        "display_name": "Apple QuickTime Player with the PhotoDefiner component"
+      }
+    ],
+    "linux": [
+      {
+        "software": "gedit",
+        "display_name": "gedit"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2025-01-21",
+  "sources": [
+    {
+      "url": "jpd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "nfc",
+  "extension": "nfc",
+  "name": "Nokia Phone Backup Copy File",
+  "category": "nokia-phone-backup-copy-file",
+  "developer_org": "nokia",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "An NFC file is a backup file created by Nokia PC Suite, a Nokia phone synchronization and management application. It stores a backup of the phone's data, which includes system and user data. NFC files are used for restoring phone states, as well as transferring data to another phone.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "nokia-pc-suite",
+        "display_name": "Nokia PC Suite"
+      },
+      {
+        "software": "nokisoft-noki",
+        "display_name": "Nokisoft Noki"
+      },
+      {
+        "software": "nbuexplorer",
+        "display_name": "NbuExplorer"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-03-08",
+  "sources": [
+    {
+      "url": "nfc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "slug": "fxml",
+  "extension": "fxml",
+  "name": "FXML Source Code File",
+  "category": "fxml-source-code-file",
+  "developer_org": "oracle",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Contains code written in the FXML programming language developed by Oracle Corporation; used to create the user interface of a JavaFX 2.0 application; based on XML which uses the .XML file extension.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "oracle-javafx-scene-builder",
+        "display_name": "Oracle JavaFX Scene Builder",
+        "status": "discontinued"
+      },
+      {
+        "software": "apache-netbeans",
+        "display_name": "Apache NetBeans"
+      },
+      {
+        "software": "eclipse-ide-for-java-developers",
+        "display_name": "Eclipse IDE for Java Developers"
+      }
+    ],
+    "macos": [
+      {
+        "software": "oracle-javafx-scene-builder",
+        "display_name": "Oracle JavaFX Scene Builder",
+        "status": "discontinued"
+      },
+      {
+        "software": "apache-netbeans",
+        "display_name": "Apache NetBeans"
+      },
+      {
+        "software": "eclipse-ide-for-java-developers",
+        "display_name": "Eclipse IDE for Java Developers"
+      }
+    ],
+    "linux": [
+      {
+        "software": "oracle-javafx-scene-builder",
+        "display_name": "Oracle JavaFX Scene Builder",
+        "status": "discontinued"
+      },
+      {
+        "software": "apache-netbeans",
+        "display_name": "Apache NetBeans"
+      },
+      {
+        "software": "eclipse-ide-for-java-developers",
+        "display_name": "Eclipse IDE for Java Developers"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2013-10-02",
+  "sources": [
+    {
+      "url": "fxml.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

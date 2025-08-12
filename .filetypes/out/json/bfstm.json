@@ -1,0 +1,51 @@
+{
+  "slug": "bfstm",
+  "extension": "bfstm",
+  "name": "BFSTM Audio Stream",
+  "category": "bfstm-audio-stream",
+  "developer_org": "nintendo",
+  "popularity": {
+    "rating": 2.6,
+    "votes": 14,
+    "source": "fileinfo"
+  },
+  "summary": "A BFSTM file is an audio file saved in the Binary caFe STreaM (BFSTM) format used by various Nintendo Wii U and Switch games. It may contain a sound effect or background music that is looped during gameplay. BFSTM files replaced .BRSTM and .BCSTM files, which are commonly used by Wii and 3DS games.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "brawlbox",
+        "display_name": "BrawlBox"
+      },
+      {
+        "software": "vgaudio",
+        "display_name": "VGAudio"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-06-12",
+  "sources": [
+    {
+      "url": "bfstm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

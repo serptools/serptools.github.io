@@ -1,0 +1,75 @@
+{
+  "slug": "asd",
+  "extension": "asd",
+  "name": "Microsoft Word AutoSave File",
+  "category": "1.-microsoft-word-autosave-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 115,
+    "source": "fileinfo"
+  },
+  "summary": "An ASD file is a temporary backup created by Microsoft Word, a word processing program used to author documents. It contains a snapshot copy of the currently opened Word document. ASD files are used for automatic backup and recovery of documents in Word in case of an unplanned disruption or program crash.",
+  "standards": [],
+  "mime_types": [
+    "10/11",
+    "8/8.1",
+    "file/folder",
+    "on/off",
+    "vista/7"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-word-365",
+        "display_name": "Microsoft Word 365"
+      },
+      {
+        "software": "preferences-file-folder",
+        "display_name": "Preferences → File/Folder"
+      },
+      {
+        "software": "create-analysis-file",
+        "display_name": "Create Analysis File"
+      },
+      {
+        "software": "ableton-live",
+        "display_name": "Ableton Live"
+      }
+    ],
+    "macos": [
+      {
+        "software": "microsoft-word-365",
+        "display_name": "Microsoft Word 365"
+      },
+      {
+        "software": "ableton-live",
+        "display_name": "Ableton Live"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-02-02",
+  "sources": [
+    {
+      "url": "asd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

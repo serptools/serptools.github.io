@@ -1,0 +1,63 @@
+{
+  "slug": "xnc",
+  "extension": "xnc",
+  "name": "Exchange NC File",
+  "category": "exchange-nc-file",
+  "developer_org": "ucamco-kicad-and-pentalogix",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "An XNC file is a text file saved in the Exchange NC (XNC) format. It contains numerical control instructions (XY coordinates) for directing a machine tool, such as a drill, for the production of Printed Circuit Boards (PCB). XNC files are designed for exchanging information between CAD and CAM programs.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "graphicode-gc-powerplace",
+        "display_name": "GraphiCode GC-PowerPlace"
+      },
+      {
+        "software": "ucamco-reference-gerber-viewer",
+        "display_name": "Ucamco Reference Gerber Viewer"
+      }
+    ],
+    "web": [
+      {
+        "software": "ucamco-reference-gerber-viewer",
+        "display_name": "Ucamco Reference Gerber Viewer"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "XNC file open in Ucamco Reference Gerber Viewer",
+      "alt": "XNC file open in Ucamco Reference Gerber Viewer",
+      "source_url": "https://fileinfo.com/img/ss/md/xnc_11282.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-05-21",
+  "sources": [
+    {
+      "url": "xnc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

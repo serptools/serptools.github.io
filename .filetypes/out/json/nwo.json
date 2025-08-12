@@ -1,0 +1,71 @@
+{
+  "slug": "nwo",
+  "extension": "nwo",
+  "name": "NWChem Output File",
+  "category": "nwchem-output-file",
+  "developer_org": "pacific-northwest-national-laboratory",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "Chemical file created by NWChem, a computational chemistry software package; contains output data from a NWChem simulation, such as the electric density of orbitals in a molecule.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "nwchem",
+        "display_name": "NWChem"
+      },
+      {
+        "software": "avogadro",
+        "display_name": "Avogadro"
+      }
+    ],
+    "macos": [
+      {
+        "software": "nwchem",
+        "display_name": "NWChem"
+      },
+      {
+        "software": "avogadro",
+        "display_name": "Avogadro"
+      }
+    ],
+    "linux": [
+      {
+        "software": "nwchem",
+        "display_name": "NWChem"
+      },
+      {
+        "software": "avogadro",
+        "display_name": "Avogadro"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-12-19",
+  "sources": [
+    {
+      "url": "nwo.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

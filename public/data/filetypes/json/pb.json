@@ -1,0 +1,41 @@
+{
+  "slug": "pb",
+  "extension": "pb",
+  "name": "PureBasic Source File",
+  "category": "purebasic-source-file",
+  "summary": "",
+  "developer_org": "google",
+  "developer_name": "Google",
+  "more_information": {
+    "screenshot": {
+      "url": "https://fileinfo.com/img/ss/sm/pb_13210.png",
+      "alt": "PB file shown in Windows File Explorer",
+      "caption": "PB file shown in Windows File Explorer"
+    },
+    "description": [
+      "In version 62 of Chrome, Google introduced a feature known as the Media Engagement Index (MEI). This feature logs when and how many times you play video and audio on websites. After you choose to play video or audio on a website a certain number of times, Chrome automatically allows that website to autoplay video and audio.",
+      "When introducing MEI, Google created a default list of websites that could always autoplay videos and audio. This list is saved in the file preloaded_data.pb . After your browser determines a site should be allowed to autoplay video and audio, the browser adds that site to preloaded_data.pb . However, preloaded_data.pb is a binary file, so users cannot simply open the file to view or edit the website list it contains.",
+      "NOTE: In Windows, a browser's PB file is stored in its MEIPreload directory."
+    ]
+  },
+  "common_filenames": [
+    {
+      "filename": "Preloaded_data.pb",
+      "description": "Preloaded_data.pb - The default name of Chromium-based browsers' PB file."
+    }
+  ],
+  "images": [
+    {
+      "url": "https://fileinfo.com/img/ss/sm/pb_13210.png",
+      "alt": "PB file shown in Windows File Explorer",
+      "caption": "PB file shown in Windows File Explorer"
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "pb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

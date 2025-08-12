@@ -1,0 +1,53 @@
+{
+  "slug": "fp7",
+  "extension": "fp7",
+  "name": "FileMaker Pro 7+ Database",
+  "category": "filemaker-pro-7+-database",
+  "developer_org": "filemaker",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 22,
+    "source": "fileinfo"
+  },
+  "summary": "Database file created by FileMaker Pro versions 7-11; stores data using tables and records with each record containing one or more fields; can also include forms, charts, and other database objects; used for organizing personal and company data.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "filemaker-pro-advanced",
+        "display_name": "FileMaker Pro Advanced"
+      }
+    ],
+    "macos": [
+      {
+        "software": "filemaker-pro-advanced",
+        "display_name": "FileMaker Pro Advanced"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-04-06",
+  "sources": [
+    {
+      "url": "fp7.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

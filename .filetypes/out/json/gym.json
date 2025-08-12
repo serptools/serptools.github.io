@@ -1,0 +1,49 @@
+{
+  "slug": "gym",
+  "extension": "gym",
+  "name": "Sega Genesis Sound File",
+  "category": "sega-genesis-sound-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 10,
+    "source": "fileinfo"
+  },
+  "summary": "Sega Genesis, aka Mega Drive for regions outside of North America, sound format created by the Genecyst emulator; contains video game audio data that was logged from the data sent to the YM2612 sound chip.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "winamp-with-the-ymamp-plug-in",
+        "display_name": "Winamp with the YMAMP plug-in"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-01-30",
+  "sources": [
+    {
+      "url": "gym.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

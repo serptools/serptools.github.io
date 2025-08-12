@@ -1,0 +1,79 @@
+{
+  "slug": "nls",
+  "extension": "nls",
+  "name": "NetLogo Source File",
+  "category": "1.-netlogo-source-file",
+  "developer_org": "netlogo",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 31,
+    "source": "fileinfo"
+  },
+  "summary": "Source code file written for NetLogo, a program used for creating agent-based models that simulate complex natural and social phenomena; stores source code that drives the model when run; written in the NetLogo language.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "netlogo",
+        "display_name": "NetLogo"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "netlogonetlogo",
+        "display_name": "NetLogoNetLogo"
+      },
+      {
+        "software": "microsoft-windows",
+        "display_name": "Microsoft Windows"
+      }
+    ],
+    "macos": [
+      {
+        "software": "netlogo",
+        "display_name": "NetLogo"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "netlogonetlogo",
+        "display_name": "NetLogoNetLogo"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-07-31",
+  "sources": [
+    {
+      "url": "nls.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

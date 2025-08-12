@@ -1,0 +1,65 @@
+{
+  "slug": "shx",
+  "extension": "shx",
+  "name": "AutoCAD Compiled Shape File",
+  "category": "1.-autocad-compiled-shape-file",
+  "developer_org": "autodesk",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 87,
+    "source": "fileinfo"
+  },
+  "summary": "An SHX file contains a shape or font compiled by Autodesk AutoCAD from an .SHP shape file or .PFB font file. It stores shape definitions, as well as font definitions for displaying custom text. SHX files support many Type 1 PostScript fonts.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "autodesk-autocad-2025",
+        "display_name": "Autodesk AutoCAD 2025"
+      },
+      {
+        "software": "motorola-pst-phone-programmer",
+        "display_name": "Motorola PST Phone Programmer"
+      },
+      {
+        "software": "motorola-rsd-lite",
+        "display_name": "Motorola RSD Lite"
+      },
+      {
+        "software": "esri-arcgis-for-desktop",
+        "display_name": "ESRI ArcGIS for Desktop"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "SHX file icon",
+      "alt": "SHX file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/shx-5256.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-04-06",
+  "sources": [
+    {
+      "url": "shx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

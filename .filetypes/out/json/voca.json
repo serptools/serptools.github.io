@@ -1,0 +1,57 @@
+{
+  "slug": "voca",
+  "extension": "voca",
+  "name": "PhotoVOCA Communication Board File",
+  "category": "photovoca-communication-board-file",
+  "developer_org": "cognable",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "A VOCA file is a digital communication board created by PhotoVOCA, an iOS app used to create digital communication boards. It is compressed with .ZIP compression and contains data which includes audio and .PNG image assets with an .XML manifest. VOCA files are saved in the PhotoVOCA 3.0 format, which is an extension of the original VOCA format released in 2010 by PhotoVOCA.",
+  "standards": [],
+  "mime_types": [
+    "elements/attributes"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "ios": [
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      }
+    ],
+    "windows": [
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-04-18",
+  "sources": [
+    {
+      "url": "voca.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

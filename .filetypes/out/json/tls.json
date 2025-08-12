@@ -1,0 +1,47 @@
+{
+  "slug": "tls",
+  "extension": "tls",
+  "name": "TuneUp Utilities Logon Screen",
+  "category": "tuneup-utilities-logon-screen",
+  "developer_org": "tuneup-corporation",
+  "popularity": {
+    "rating": 3.2,
+    "votes": 10,
+    "source": "fileinfo"
+  },
+  "summary": "Custom Windows logon screen used by Tune Styler, a desktop customization program included with TuneUp Utilities; may include a background image as well as custom fonts and buttons; overrides the default Windows startup screen when applied.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "avg-pc-tuneup-unlimited",
+        "display_name": "AVG PC TuneUp Unlimited"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-07-29",
+  "sources": [
+    {
+      "url": "tls.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

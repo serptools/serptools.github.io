@@ -1,0 +1,74 @@
+{
+  "slug": "a1",
+  "extension": "a1",
+  "name": "Compiled Free Pascal Archive",
+  "category": "compiled-free-pascal-archive",
+  "developer_org": "free-pascal",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "An A1 file is an archive created by the Free Pascal compiler on the go321v1 platform. It likely contains compiled Pascal source code . A1 files can be automatically deleted using delp, a Free Pascal file deletion tool.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "free-pascal",
+        "display_name": "Free Pascal",
+        "pricing": "free"
+      },
+      {
+        "software": "delp",
+        "display_name": "delp"
+      }
+    ],
+    "macos": [
+      {
+        "software": "free-pascal",
+        "display_name": "Free Pascal",
+        "pricing": "free"
+      },
+      {
+        "software": "delp",
+        "display_name": "delp"
+      }
+    ],
+    "linux": [
+      {
+        "software": "free-pascal",
+        "display_name": "Free Pascal",
+        "pricing": "free"
+      },
+      {
+        "software": "delp",
+        "display_name": "delp"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-10-18",
+  "sources": [
+    {
+      "url": "a1.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

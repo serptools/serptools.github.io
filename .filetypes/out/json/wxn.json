@@ -1,0 +1,47 @@
+{
+  "slug": "wxn",
+  "extension": "wxn",
+  "name": "Waixing Famicom Game ROM",
+  "category": "waixing-famicom-game-rom",
+  "developer_org": "waixing",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "A WXN file is a Famicom or Nintendo Entertainment System (NES) game ROM that has been encrypted for security purposes. It contains an encrypted duplicate of the game data originally stored in the Famicom or NES cartridge. WXN files can be decrypted into .NES ROM files, which can then be used by an NES emulator, such as Nestopia or Snes9x, to be played on a computer.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "wxndecrypt",
+        "display_name": "WXNDecrypt"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-04-04",
+  "sources": [
+    {
+      "url": "wxn.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

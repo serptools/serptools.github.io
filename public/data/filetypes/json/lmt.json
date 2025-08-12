@@ -1,0 +1,23 @@
+{
+  "slug": "lmt",
+  "extension": "lmt",
+  "name": "RPG Maker 2000/2003 Map Tree",
+  "category": "rpg-maker-2000-2003-map-tree",
+  "summary": "",
+  "developer_org": "kadokawa-games",
+  "developer_name": "Kadokawa Games",
+  "more_information": {
+    "description": [
+      "RPG Maker is a program that video game developers use to create 2D role-playing games. Over the years, various developers have released many versions of RPG Maker, including RPG Maker 2000 and RPG Maker 2003.",
+      "Game development projects created by RPG Maker 2000 and RPG Maker 2003 always include an RPG_RT.lmt file. This file contains a record of the maps a project includes, the order in which those maps should be shown in the RPG Maker project editor, and other map-related data. It is stored alongside a project's .LMU map file, named MAP###.lmu , and LDB map database file, named RPG_RT.ldb .",
+      "In some cases (most often, after RPG Maker 2000 or 2003 quit accidentally due to memory overload), RPG Maker 2000 or 2003 may show a Map Tree Data is corrupted error when you open a project. This means the LMT file associated with your game project is damaged. If you have encountered this error, refer to this tutorial , which explains how to create a new LMT file for your project."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "lmt.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

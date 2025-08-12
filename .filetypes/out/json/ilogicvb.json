@@ -1,0 +1,47 @@
+{
+  "slug": "ilogicvb",
+  "extension": "ilogicvb",
+  "name": "iLogic VB File",
+  "category": "ilogic-vb-file",
+  "developer_org": "autodesk",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "An ILOGICVB file is a file that contains iLogic rule code that is preprocessed by iLogic, a browser included with Autodesk Inventor that is used to standardize and automate design processes. It contains the code for a Visual Basic (VB.NET) program that is used to control or monitor other Inventor features, components, or parameters.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "autodesk-inventor-2022",
+        "display_name": "Autodesk Inventor 2022"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-12-27",
+  "sources": [
+    {
+      "url": "ilogicvb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

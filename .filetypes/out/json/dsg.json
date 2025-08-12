@@ -1,0 +1,65 @@
+{
+  "slug": "dsg",
+  "extension": "dsg",
+  "name": "Doom Saved Game",
+  "category": "1.-doom-saved-game",
+  "developer_org": "simon-howard",
+  "popularity": {
+    "rating": 4.3,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "Save file created and used by Chocolate Doom, a fan-made version of the Windows 95 Doom; contains saved game progress, which includes the game version, game skill, episode of the game, current level, time since the level began, amount of possessed armor, armor type, attained powers and weapons, whether the player is alive, dead, or respawning, and other game information.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "chocolate-doom",
+        "display_name": "Chocolate Doom"
+      },
+      {
+        "software": "new-wave-concepts-control-studio",
+        "display_name": "New Wave Concepts Control Studio"
+      },
+      {
+        "software": "sierra-stitch-era",
+        "display_name": "Sierra Stitch Era"
+      },
+      {
+        "software": "decker",
+        "display_name": "Decker"
+      }
+    ],
+    "macos": [
+      {
+        "software": "chocolate-doom",
+        "display_name": "Chocolate Doom"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-06-09",
+  "sources": [
+    {
+      "url": "dsg.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

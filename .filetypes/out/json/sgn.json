@@ -1,0 +1,53 @@
+{
+  "slug": "sgn",
+  "extension": "sgn",
+  "name": "Signet Bureau DRM File",
+  "category": "1.-signet-bureau-drm-file",
+  "developer_org": "signet-bureau",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 16,
+    "source": "fileinfo"
+  },
+  "summary": "An SGN file is an Encrypted Digital Rights Management (DRM) package used for securely storing and transferring 3D models. It is secured with 256-bit AES encryption and allows the 3D model developer to specify access control permissions for specific users.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "signet-bureau-sgn-viewer",
+        "display_name": "Signet Bureau SGN Viewer"
+      }
+    ],
+    "linux": [
+      {
+        "software": "slax",
+        "display_name": "Slax"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-01-28",
+  "sources": [
+    {
+      "url": "sgn.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

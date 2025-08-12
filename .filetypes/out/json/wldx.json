@@ -1,0 +1,65 @@
+{
+  "slug": "wldx",
+  "extension": "wldx",
+  "name": "World Map File",
+  "category": "world-map-file",
+  "developer_org": "wohlstand",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "World map file created by Platform Game Engine (PGE) Project, an open source game engine; contains the overhead map of a world; includes paths to different playable levels, which are specified in .LVLX and .LVL files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "wohlstand-pge-editor",
+        "display_name": "Wohlstand PGE Editor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "wohlstand-pge-editor",
+        "display_name": "Wohlstand PGE Editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "wohlstand-pge-editor",
+        "display_name": "Wohlstand PGE Editor"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "WLDX file icon",
+      "alt": "WLDX file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/wldx-9900.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-09-30",
+  "sources": [
+    {
+      "url": "wldx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

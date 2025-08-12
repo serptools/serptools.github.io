@@ -1,0 +1,47 @@
+{
+  "slug": "locpack",
+  "extension": "locpack",
+  "name": "Snowdrop Localization Package",
+  "category": "snowdrop-localization-package",
+  "developer_org": "ubisoft",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "A LOCPACK file is a localization package used by a video game developed using Ubisoft's Snowdrop game engine. It contains plain text data used to translate a game into another language. Games that use LOCPACK files include Tom Clancy's The Division and Mario + Rabbids.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "rename-.locpack-to-.csv-and-open-as-csv-file",
+        "display_name": "Rename \".locpack\" to \".csv\" and open as CSV file"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-01-12",
+  "sources": [
+    {
+      "url": "locpack.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

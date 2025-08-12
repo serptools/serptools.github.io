@@ -1,0 +1,59 @@
+{
+  "slug": "cmi",
+  "extension": "cmi",
+  "name": "Compiled OCaml Interface",
+  "category": "compiled-ocaml-interface",
+  "developer_org": "inria",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "A CMI file is a compiled OCaml interface file. It contains data type and variable definitions used by an application developed in OCaml. CMI files are created by compiling OCaml .ML or MLI files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "ocaml",
+        "display_name": "OCaml"
+      }
+    ],
+    "macos": [
+      {
+        "software": "ocaml",
+        "display_name": "OCaml"
+      }
+    ],
+    "linux": [
+      {
+        "software": "ocaml",
+        "display_name": "OCaml"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-10-22",
+  "sources": [
+    {
+      "url": "cmi.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

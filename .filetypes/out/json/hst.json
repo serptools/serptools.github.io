@@ -1,0 +1,55 @@
+{
+  "slug": "hst",
+  "extension": "hst",
+  "name": "History File",
+  "category": "history-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 20,
+    "source": "fileinfo"
+  },
+  "summary": "Contains a history of events related to a specific program; similar to a .LOG file, but may be used for a broader range of purposes.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "used-by-various-programs",
+        "display_name": "Used by various programs"
+      }
+    ],
+    "macos": [
+      {
+        "software": "used-by-various-programs",
+        "display_name": "Used by various programs"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2008-07-22",
+  "sources": [
+    {
+      "url": "hst.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

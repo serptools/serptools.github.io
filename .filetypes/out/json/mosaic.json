@@ -1,0 +1,47 @@
+{
+  "slug": "mosaic",
+  "extension": "mosaic",
+  "name": "MacOSaiX Mosaic File",
+  "category": "macosaix-mosaic-file",
+  "developer_org": "frank-m.-midgley",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "Mosaic created with MacOSaiX, a program that generates mosaics in Mac OS X; contains the original image and images used for each mosaic tile; may be created from local images or images from the Web.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "macosaix",
+        "display_name": "MacOSaiX"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2008-09-10",
+  "sources": [
+    {
+      "url": "mosaic.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

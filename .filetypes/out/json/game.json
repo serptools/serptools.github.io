@@ -1,0 +1,61 @@
+{
+  "slug": "game",
+  "extension": "game",
+  "name": "Apple Chess Saved Game",
+  "category": "1.-apple-chess-saved-game",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 4.1,
+    "votes": 50,
+    "source": "fileinfo"
+  },
+  "summary": "Chess game saved with Apple Chess, the chess program included with Mac OS X; saves the match progress so that the game can be opened and resumed at a later time; may also be used to test different strategies from a certain point in the game.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "apple-chess",
+        "display_name": "Apple Chess"
+      },
+      {
+        "software": "gamesalad-creator",
+        "display_name": "GameSalad Creator"
+      }
+    ],
+    "windows": [
+      {
+        "software": "apple-chess",
+        "display_name": "Apple Chess"
+      },
+      {
+        "software": "gamesalad-creator",
+        "display_name": "GameSalad Creator"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-04-06",
+  "sources": [
+    {
+      "url": "game.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

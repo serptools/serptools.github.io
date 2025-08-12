@@ -1,0 +1,78 @@
+{
+  "slug": "fbm",
+  "extension": "fbm",
+  "name": "Fuzzy Bitmap Image",
+  "category": "1.-fuzzy-bitmap-image",
+  "developer_org": "michael-l.-mauldin",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Graphic file format saved by FBM (Fuzzy Pixmap Manipulation), an application toolkit used to manipulate and convert images; rarely used anymore, but still may be viewed using XnView, as well as a few other programs.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "newera-graphics-converter-pro",
+        "display_name": "Newera Graphics Converter Pro"
+      },
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      },
+      {
+        "software": "xli",
+        "display_name": "xli"
+      },
+      {
+        "software": "delftship",
+        "display_name": "DELFTship"
+      },
+      {
+        "software": "free-ship",
+        "display_name": "FREE!ship",
+        "pricing": "free"
+      }
+    ],
+    "macos": [
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      }
+    ],
+    "linux": [
+      {
+        "software": "xli",
+        "display_name": "xli"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-05-14",
+  "sources": [
+    {
+      "url": "fbm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

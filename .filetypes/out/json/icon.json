@@ -1,0 +1,93 @@
+{
+  "slug": "icon",
+  "extension": "icon",
+  "name": "Icon Image",
+  "category": "icon-image",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 4.3,
+    "votes": 28,
+    "source": "fileinfo"
+  },
+  "summary": "An ICON file contains image data for a computer icon used to represent files, folders, applications, and so on. ICON files are typically saved as small, square bitmap images, ranging from 16 x 16 to 256 x 256 pixels in size.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "icon-craft",
+        "display_name": "Icon Craft"
+      },
+      {
+        "software": "iconomaker",
+        "display_name": "IconoMaker"
+      },
+      {
+        "software": "icon-processor",
+        "display_name": "Icon Processor"
+      },
+      {
+        "software": "perfect-icon",
+        "display_name": "Perfect Icon"
+      },
+      {
+        "software": "adobe-photoshop-with-iconfactory-iconbuilder-plug-in",
+        "display_name": "Adobe Photoshop with Iconfactory IconBuilder plug-in"
+      },
+      {
+        "software": "gimp",
+        "display_name": "GIMP"
+      },
+      {
+        "software": "apple-icon-composer",
+        "display_name": "Apple Icon Composer"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-icon-composer",
+        "display_name": "Apple Icon Composer"
+      },
+      {
+        "software": "adobe-photoshop-with-iconfactory-iconbuilder-plug-in",
+        "display_name": "Adobe Photoshop with Iconfactory IconBuilder plug-in"
+      },
+      {
+        "software": "gimp",
+        "display_name": "GIMP"
+      }
+    ],
+    "linux": [
+      {
+        "software": "gimp",
+        "display_name": "GIMP"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-12-20",
+  "sources": [
+    {
+      "url": "icon.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "hcu",
+  "extension": "hcu",
+  "name": "Hydrograph Units Definitons File",
+  "category": "hydrograph-units-definitons-file",
+  "developer_org": "hydrocad-software-solutions",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "File used by HydroCAD, a CAD program that helps to design water drainage solutions; contains unit definitions for the HydroCAD project in text format; represents one of several files that comprise a HydroCAD project.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "hydrocad-software-solutions-hydrocad",
+        "display_name": "HydroCAD Software Solutions HydroCAD"
+      },
+      {
+        "software": "hydrocad-software-solutions-hydrocad-sampler",
+        "display_name": "HydroCAD Software Solutions HydroCAD Sampler"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-12-19",
+  "sources": [
+    {
+      "url": "hcu.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

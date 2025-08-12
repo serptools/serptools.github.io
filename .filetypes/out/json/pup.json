@@ -1,0 +1,63 @@
+{
+  "slug": "pup",
+  "extension": "pup",
+  "name": "PlayStation 3 Update File",
+  "category": "1.-playstation-3-update-file",
+  "developer_org": "sony",
+  "popularity": {
+    "rating": 4.2,
+    "votes": 289,
+    "source": "fileinfo"
+  },
+  "summary": "A PUP file is a file or patch used to update the PlayStation 3 (PS3) system software. It may include security patches, bug fixes, and extra operating system features. PUP files are typically named PS3UPDAT.PUP .",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "ps3-pup-extractor",
+        "display_name": "PS3 PUP Extractor"
+      },
+      {
+        "software": "meant-to-be-installed-on-a-playstation-4-or-playstation-5",
+        "display_name": "Meant to be installed on a PlayStation 4 or PlayStation 5"
+      }
+    ],
+    "linux": [
+      {
+        "software": "puppy-linux",
+        "display_name": "Puppy Linux"
+      }
+    ],
+    "macos": [
+      {
+        "software": "meant-to-be-installed-on-a-playstation-4-or-playstation-5",
+        "display_name": "Meant to be installed on a PlayStation 4 or PlayStation 5"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-08-14",
+  "sources": [
+    {
+      "url": "pup.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

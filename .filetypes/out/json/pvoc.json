@@ -1,0 +1,59 @@
+{
+  "slug": "pvoc",
+  "extension": "pvoc",
+  "name": "ProVoc Database File",
+  "category": "provoc-database-file",
+  "developer_org": "arizona-software",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "A PVOC file is a ProVoc database created by iVocabulary, a macOS app used to manage and learn vocabulary words. It contains one or more libraries of vocabulary terms and definitions. PVOC files also store metadata , such as the author of the vocabulary collection and source and target languages of the terms.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "christian-beer-ivocabulary",
+        "display_name": "Christian Beer iVocabulary"
+      }
+    ],
+    "windows": [
+      {
+        "software": "christian-beer-ivocabulary",
+        "display_name": "Christian Beer iVocabulary"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "PVOC file open in Christian Beer iVocabulary 3",
+      "alt": "PVOC file open in Christian Beer iVocabulary 3",
+      "source_url": "https://fileinfo.com/img/ss/md/pvoc_11580.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-08-13",
+  "sources": [
+    {
+      "url": "pvoc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

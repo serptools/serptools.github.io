@@ -1,0 +1,49 @@
+{
+  "slug": "gero",
+  "extension": "gero",
+  "name": "GERO Ransomware Encrypted File",
+  "category": "gero-ransomware-encrypted-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "A file with the .gero extension is a file that has been renamed and encrypted by GERO ransomware , which is a variant of STOP ransomware. It could be a document, image, video, or any other file. Because the file is encrypted, you cannot open it. Typically, the .gero extension is added to the file's normal extension, resulting in a file with an extension like .docx.gero .",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "system-restore",
+        "display_name": "System Restore"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-09-28",
+  "sources": [
+    {
+      "url": "gero.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

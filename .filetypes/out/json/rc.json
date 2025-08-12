@@ -1,0 +1,73 @@
+{
+  "slug": "rc",
+  "extension": "rc",
+  "name": "Resource Script",
+  "category": "resource-script",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 69,
+    "source": "fileinfo"
+  },
+  "summary": "Developer file used by software development applications such as Visual Studio and Borland C++; saved in a plain text format and includes references to resources, such as user interface components, images, or icon files; used for compiling the resources into .RES files used by the final program build.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "microsoft-visual-studio-2022",
+        "display_name": "Microsoft Visual Studio 2022"
+      },
+      {
+        "software": "embarcadero-c++builder",
+        "display_name": "Embarcadero C++Builder"
+      },
+      {
+        "software": "borland-c++builder",
+        "display_name": "Borland C++Builder"
+      },
+      {
+        "software": "resource-hacker",
+        "display_name": "Resource Hacker"
+      },
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      }
+    ],
+    "web": [
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-06-09",
+  "sources": [
+    {
+      "url": "rc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "ic3",
+  "extension": "ic3",
+  "name": "High Resolution Imagic Graphics File",
+  "category": "high-resolution-imagic-graphics-file",
+  "developer_org": "atari",
+  "popularity": {
+    "rating": 1.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "Imagic Film and Picture graphic used by the older Atari ST systems, which were discontinued in the early 1990s; contains a high resolution color bitmap image, in contrast to the medium ( .IC2 ) and low ( .IC1 ) resolution versions.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "lemkesoft-graphicconverter",
+        "display_name": "Lemkesoft GraphicConverter"
+      }
+    ],
+    "windows": [
+      {
+        "software": "lemkesoft-graphicconverter",
+        "display_name": "Lemkesoft GraphicConverter"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-06-01",
+  "sources": [
+    {
+      "url": "ic3.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

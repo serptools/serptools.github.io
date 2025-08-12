@@ -1,0 +1,55 @@
+{
+  "slug": "a4l",
+  "extension": "a4l",
+  "name": "Authorware 4 Library",
+  "category": "authorware-4-library",
+  "developer_org": "adobe-systems",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "Contains objects such as icons, images, and sounds used by Authorware, a visual authoring tool for creating media-rich e-learning applications; may be distributed via CD, over a network, or the Web.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "adobe-authorware",
+        "display_name": "Adobe Authorware",
+        "status": "discontinued"
+      }
+    ],
+    "macos": [
+      {
+        "software": "adobe-authorware",
+        "display_name": "Adobe Authorware",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-08-04",
+  "sources": [
+    {
+      "url": "a4l.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

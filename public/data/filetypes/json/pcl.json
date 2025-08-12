@@ -1,0 +1,22 @@
+{
+  "slug": "pcl",
+  "extension": "pcl",
+  "name": "Printer Command Language Document",
+  "category": "printer-command-language-document",
+  "summary": "",
+  "developer_org": "hp",
+  "developer_name": "HP",
+  "more_information": {
+    "description": [
+      "PCL files can be created from the Windows print dialog by redirecting the print output to a file using a compatible PCL driver . They can also be created in Unix systems by redirecting the printer queue to a file.",
+      "PCL files can be printed to any HP LaserJet printer by opening the Windows command prompt and typing print file.pcl . In Unix, you can type lpr file.pcl ."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "pcl.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

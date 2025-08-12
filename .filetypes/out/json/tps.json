@@ -1,0 +1,81 @@
+{
+  "slug": "tps",
+  "extension": "tps",
+  "name": "Multi Channel Measurement File",
+  "category": "1.-multi-channel-measurement-file",
+  "developer_org": "tiepie-engineering",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 35,
+    "source": "fileinfo"
+  },
+  "summary": "Format used to store data recorded with TiePie Multi Channel software; saves data logged by the program as well as instrument settings for the measurement tools; each measurement is stored in a separate file.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "tiepie-multi-channel-software",
+        "display_name": "TiePie Multi Channel software"
+      },
+      {
+        "software": "softvelocity-clarion",
+        "display_name": "SoftVelocity Clarion"
+      },
+      {
+        "software": "tps-to-csv",
+        "display_name": "TPS to CSV"
+      },
+      {
+        "software": "daz-3d-bryce-7-pro",
+        "display_name": "DAZ 3D Bryce 7 Pro"
+      }
+    ],
+    "macos": [
+      {
+        "software": "tps-to-csv",
+        "display_name": "TPS to CSV"
+      },
+      {
+        "software": "daz-3d-bryce-7-pro",
+        "display_name": "DAZ 3D Bryce 7 Pro"
+      }
+    ],
+    "linux": [
+      {
+        "software": "tps-to-csv",
+        "display_name": "TPS to CSV"
+      }
+    ],
+    "web": [
+      {
+        "software": "code-n-web-texturepacker",
+        "display_name": "Code'n'Web TexturePacker"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-01-04",
+  "sources": [
+    {
+      "url": "tps.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "umf",
+  "extension": "umf",
+  "name": "MediaHolder Universal Media Format File",
+  "category": "mediaholder-universal-media-format-file",
+  "developer_org": "getmediaholder.com",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "Container file used by MediaHolder, an application used to download multimedia files and eBooks; stores metadata in addition to the multimedia content; may store information for the author, included file types, and hyperlink references; used as the format for downloading OnRead.com eBooks, but can be used for other types of data as well.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "getmediaholder.com-mediaholder",
+        "display_name": "GetMediaHolder.com MediaHolder"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-03-21",
+  "sources": [
+    {
+      "url": "umf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

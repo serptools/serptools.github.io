@@ -1,0 +1,89 @@
+{
+  "slug": "lbf",
+  "extension": "lbf",
+  "name": "LG Backup File",
+  "category": "lg-backup-file",
+  "developer_org": "lg-electronics",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 76,
+    "source": "fileinfo"
+  },
+  "summary": "An LBF file is a backup file created by backup software that comes pre-installed on LG Android phones. It contains a copy of the applications, contacts, messages, calendar entries, media, and settings stored on a phone. Multiple LG backup apps, including LG Backup and LG Mobile Switch, support LBF files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "lbftool",
+        "display_name": "LBFtool"
+      },
+      {
+        "software": "cellebrite-reader",
+        "display_name": "Cellebrite Reader"
+      },
+      {
+        "software": "cellebrite-physical-analyzer",
+        "display_name": "Cellebrite Physical Analyzer"
+      },
+      {
+        "software": "lg-mobile-switch",
+        "display_name": "LG Mobile Switch",
+        "status": "discontinued"
+      },
+      {
+        "software": "lg-backup",
+        "display_name": "LG Backup",
+        "status": "discontinued"
+      }
+    ],
+    "macos": [
+      {
+        "software": "lbftool",
+        "display_name": "LBFtool"
+      }
+    ],
+    "linux": [
+      {
+        "software": "lbftool",
+        "display_name": "LBFtool"
+      }
+    ],
+    "android": [
+      {
+        "software": "lg-mobile-switch",
+        "display_name": "LG Mobile Switch",
+        "status": "discontinued"
+      },
+      {
+        "software": "lg-backup",
+        "display_name": "LG Backup",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2024-01-12",
+  "sources": [
+    {
+      "url": "lbf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

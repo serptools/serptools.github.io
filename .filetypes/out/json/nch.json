@@ -1,0 +1,48 @@
+{
+  "slug": "nch",
+  "extension": "nch",
+  "name": "Outlook Express Folder File",
+  "category": "outlook-express-folder-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "An NCH file contains folder structure metadata that corresponds to a specific mailbox folder used by Microsoft Outlook Express, a discontinued email client. NCH files do not contain actual messages; instead it references .DBX files that store the actual messages. NCH file acts like a map or index for how Outlook Express arranges mail folders.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-outlook-express",
+        "display_name": "Microsoft Outlook Express",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2025-07-31",
+  "sources": [
+    {
+      "url": "nch.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

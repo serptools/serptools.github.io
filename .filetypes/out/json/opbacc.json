@@ -1,0 +1,69 @@
+{
+  "slug": "opbacc",
+  "extension": "opbacc",
+  "name": "OpenBacc Project",
+  "category": "openbacc-project",
+  "developer_org": "kracc",
+  "popularity": {
+    "rating": 1.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "An OPBACC file is a video editing project created by OpenBacc, an online video editor. It is a renamed .ZIP file that contains all the video, audio, and/or image files a user imported into their project, as well as a .JSON file that defines the project's settings.",
+  "standards": [],
+  "mime_types": [
+    "and/or"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "web": [
+      {
+        "software": "rename-.opbacc-to-.zip-open-with-any-zip-decompression-utility",
+        "display_name": "Rename .opbacc to .zip ; open with any Zip-decompression utility"
+      },
+      {
+        "software": "openbacc",
+        "display_name": "OpenBacc"
+      }
+    ],
+    "windows": [
+      {
+        "software": "rename-.opbacc-to-.zip-open-with-any-zip-decompression-utility",
+        "display_name": "Rename .opbacc to .zip ; open with any Zip-decompression utility"
+      },
+      {
+        "software": "openbacc",
+        "display_name": "OpenBacc"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "OPBACC file open in OpenBacc",
+      "alt": "OPBACC file open in OpenBacc",
+      "source_url": "https://fileinfo.com/img/ss/md/opbacc_13430.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-07-25",
+  "sources": [
+    {
+      "url": "opbacc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "fgc",
+  "extension": "fgc",
+  "name": "Greeting Card Factory Card File",
+  "category": "greeting-card-factory-card-file",
+  "developer_org": "nova-development",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "An FGC file is a greeting card file created by Greeting Card Factory, a program used to customize and send greeting cards. It contains a greeting card project, which includes the text, graphics, effects, layout information that appear in the card.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "nova-greeting-card-factory",
+        "display_name": "Nova Greeting Card Factory"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-01-31",
+  "sources": [
+    {
+      "url": "fgc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

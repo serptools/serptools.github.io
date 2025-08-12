@@ -1,0 +1,59 @@
+{
+  "slug": "bcres",
+  "extension": "bcres",
+  "name": "Nintendo 3DS Game Model",
+  "category": "nintendo-3ds-game-model",
+  "developer_org": "nintendo",
+  "popularity": {
+    "rating": 2.7,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "A BCRES file is a game data file used by a Nintendo 3DS video game. It contains an in-game model as well as related textures, animations, and camera data. BCRES files are used in several popular 3DS games, including Animal Crossing: New Leaf and New Super Mario Bros. 2.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "ohana3ds-rebirth",
+        "display_name": "Ohana3DS Rebirth"
+      },
+      {
+        "software": "spica",
+        "display_name": "SPICA"
+      },
+      {
+        "software": "everyfileexplorer",
+        "display_name": "EveryFileExplorer"
+      },
+      {
+        "software": "switch-toolbox",
+        "display_name": "Switch-Toolbox"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-05-10",
+  "sources": [
+    {
+      "url": "bcres.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

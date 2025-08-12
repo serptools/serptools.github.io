@@ -1,0 +1,61 @@
+{
+  "slug": "opd",
+  "extension": "opd",
+  "name": "OmniPage Document",
+  "category": "1.-omnipage-document",
+  "developer_org": "nuance-communications",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 14,
+    "source": "fileinfo"
+  },
+  "summary": "Document created with OmniPage scanning, OCR , and page creation software; may contain images, text, and page layout information; saved in a proprietary format that can only be opened with OmniPage or OmniPage Professional software.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "nuance-omnipage",
+        "display_name": "Nuance OmniPage"
+      },
+      {
+        "software": "nuance-omnipage-pro-x",
+        "display_name": "Nuance OmniPage Pro X"
+      },
+      {
+        "software": "diffraction-international-durango-interferometry-software",
+        "display_name": "Diffraction International Durango Interferometry Software"
+      }
+    ],
+    "macos": [
+      {
+        "software": "nuance-omnipage-pro-x",
+        "display_name": "Nuance OmniPage Pro X"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2008-05-15",
+  "sources": [
+    {
+      "url": "opd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

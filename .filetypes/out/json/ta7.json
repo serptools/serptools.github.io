@@ -1,0 +1,57 @@
+{
+  "slug": "ta7",
+  "extension": "ta7",
+  "name": "TaxAct 2017 Tax Return File",
+  "category": "taxact-2017-tax-return-file",
+  "developer_org": "taxact",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "A TA7 file is a 2017 tax return created with TaxAct 2017, a program used to prepare taxes. It contains tax information for the 2017 tax year, which includes state forms for a specific state and federal IRS tax forms. TA7 files also store the user's basic information such as name, date of birth, marital status, occupation, dependents, and social security number.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "taxact",
+        "display_name": "TaxAct"
+      },
+      {
+        "software": "taxact-online",
+        "display_name": "TaxAct Online"
+      }
+    ],
+    "web": [
+      {
+        "software": "taxact-online",
+        "display_name": "TaxAct Online"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-01-17",
+  "sources": [
+    {
+      "url": "ta7.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

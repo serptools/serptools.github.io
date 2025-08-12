@@ -1,0 +1,63 @@
+{
+  "slug": "1sc",
+  "extension": "1sc",
+  "name": "Bio-Rad Quantity One Gel Image",
+  "category": "bio-rad-quantity-one-gel-image",
+  "developer_org": "bio-rad",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "A 1SC file is an image created by Bio-Rad Quantity One, a gel electrophoresis result analyzer. It contains a digital copy of a gel electrophoresis result. 1SC files are used to analyze results and share them with other Bio-Rad users.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "bio-rad-quantity-one",
+        "display_name": "Bio-Rad Quantity One"
+      },
+      {
+        "software": "imagej",
+        "display_name": "ImageJ"
+      }
+    ],
+    "macos": [
+      {
+        "software": "imagej",
+        "display_name": "ImageJ"
+      }
+    ],
+    "linux": [
+      {
+        "software": "imagej",
+        "display_name": "ImageJ"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-08-30",
+  "sources": [
+    {
+      "url": "1sc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "mig",
+  "extension": "mig",
+  "name": "Windows Migration Backup File",
+  "category": "windows-migration-backup-file",
+  "summary": "",
+  "developer_org": "microsoft",
+  "developer_name": "Microsoft",
+  "more_information": {
+    "description": [
+      "USMT is commonly used to migrate large deployments whereas Windows Easy Transfer is used for migrating one computer at a time. MIG files can be stored remotely, locally, or directly on the destination computer during the migration process.",
+      "MIG files are used for upgrades of Windows operating systems."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "mig.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "8pbs",
+  "extension": "8pbs",
+  "name": "Adobe Photoshop Macintosh File",
+  "category": "adobe-photoshop-macintosh-file",
+  "developer_org": "adobe-systems",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "File created by the Mac version of Adobe Photoshop before Photoshop used file extensions on the Mac; stores graphics that have been created or edited with the software.",
+  "standards": [],
+  "mime_types": [
+    "type/creator"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "adobe-photoshop-2025",
+        "display_name": "Adobe Photoshop 2025"
+      }
+    ],
+    "macos": [
+      {
+        "software": "adobe-photoshop-2025",
+        "display_name": "Adobe Photoshop 2025"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-06-22",
+  "sources": [
+    {
+      "url": "8pbs.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "plw",
+  "extension": "plw",
+  "name": "32-bit Windows IDA Plugin Module",
+  "category": "1.-32-bit-windows-ida-plugin-module",
+  "developer_org": "hex-rays",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 11,
+    "source": "fileinfo"
+  },
+  "summary": "32-bit Windows plugin module used by IDA (The Interactive Disassembler), a multi-processor debugger and disassembler; contains data written in C++ that extends the functionality of the IDA tool.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "hex-rays-ida",
+        "display_name": "Hex-Rays IDA"
+      },
+      {
+        "software": "pico-technology-picolog",
+        "display_name": "Pico Technology PicoLog"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-12-02",
+  "sources": [
+    {
+      "url": "plw.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

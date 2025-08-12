@@ -1,0 +1,105 @@
+{
+  "slug": "mtv",
+  "extension": "mtv",
+  "name": "MTV Video Format File",
+  "category": "mtv-video-format-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.2,
+    "votes": 12,
+    "source": "fileinfo"
+  },
+  "summary": "An MTV file is a video saved in a specialized format used by some Chinese portable \"MP4\" video players. It contains MP3 audio and a series of images that are shown during playback, at a rate of 12 frames per second. MTV files are similar to .AMV files but use slightly different formatting.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "online-media-technologies-avs-media-player",
+        "display_name": "Online Media Technologies AVS Media Player"
+      },
+      {
+        "software": "online-media-technologies-avs-video-converter",
+        "display_name": "Online Media Technologies AVS Video Converter"
+      },
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      },
+      {
+        "software": "anymp4-video-converter",
+        "display_name": "AnyMP4 Video Converter"
+      },
+      {
+        "software": "mplayerx",
+        "display_name": "MPlayerX"
+      },
+      {
+        "software": "shedworx-smart-converter",
+        "display_name": "ShedWorx Smart Converter"
+      }
+    ],
+    "macos": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      },
+      {
+        "software": "anymp4-video-converter",
+        "display_name": "AnyMP4 Video Converter"
+      },
+      {
+        "software": "mplayerx",
+        "display_name": "MPlayerX"
+      },
+      {
+        "software": "shedworx-smart-converter",
+        "display_name": "ShedWorx Smart Converter"
+      }
+    ],
+    "linux": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-06-30",
+  "sources": [
+    {
+      "url": "mtv.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

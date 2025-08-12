@@ -1,0 +1,53 @@
+{
+  "slug": "ame",
+  "extension": "ame",
+  "name": "ABBYY FineReader Dictionary",
+  "category": "abbyy-finereader-dictionary",
+  "developer_org": "abbyy",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "An AME file is a custom dictionary created for use with ABBYY FineReader, a PDF viewing, editing, and conversion application. Users can create AME dictionaries in FineReader 12 and earlier versions. The Windows version of FineReader stores AME files in its' /​~AppData/​Roaming/​ABBYY/​FineReader/​VersionNumber/​UserDictionaries directory.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "abbyy-finereader",
+        "display_name": "ABBYY FineReader"
+      }
+    ],
+    "macos": [
+      {
+        "software": "abbyy-finereader-pro-for-mac",
+        "display_name": "ABBYY FineReader Pro for Mac"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-12-23",
+  "sources": [
+    {
+      "url": "ame.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "gld",
+  "extension": "gld",
+  "name": "MPLAB C Compiler Linker Script File",
+  "category": "1.-mplab-c-compiler-linker-script-file",
+  "developer_org": "microchip-technology",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "Linker script used by the MPLAB C Compiler, which is used to compile program logic for Digital Signal Controllers (DCSs) and other microcontroller units (MCUs); contains instructions that specify how the linker merges program code and data from multiple input files into a resulting output file.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microchip-technology-mplab-c-compiler",
+        "display_name": "Microchip Technology MPLAB C Compiler"
+      },
+      {
+        "software": "microchip-technology-mplab-ide",
+        "display_name": "Microchip Technology MPLAB IDE"
+      },
+      {
+        "software": "thermal-dynamics-ground-loop-design",
+        "display_name": "Thermal Dynamics Ground Loop Design"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-05-17",
+  "sources": [
+    {
+      "url": "gld.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

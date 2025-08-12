@@ -1,0 +1,72 @@
+{
+  "slug": "djp",
+  "extension": "djp",
+  "name": "DJL Compiler Project",
+  "category": "djl-compiler-project",
+  "developer_org": "ketron",
+  "popularity": {
+    "rating": 1.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "A DJP file is a project file created by the discontinued Ketron DJL Compiler. It contains a plain text list of the audio files included in a DJL Compiler project. DJL Compiler users typically compile DJP files as .DJL (DJLOOP) files.",
+  "standards": [],
+  "mime_types": [
+    "tempo/bpm"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "DJP file open in Ketron DJL Compiler",
+      "alt": "DJP file open in Ketron DJL Compiler",
+      "source_url": "https://fileinfo.com/img/ss/md/djp_12370.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-07-03",
+  "sources": [
+    {
+      "url": "djp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

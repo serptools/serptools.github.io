@@ -1,0 +1,77 @@
+{
+  "slug": "mxs",
+  "extension": "mxs",
+  "name": "Maxwell Studio Scene File",
+  "category": "1.-maxwell-studio-scene-file",
+  "developer_org": "next-limit",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Three-dimensional scene file created by Maxwell Render photorealistic rendering software, or by another 3D modeling program with the Maxwell Render plug-in; stores a 3D scene description that can be rendered with physically-accurate light properties in the software.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "next-limit-maxwell-render",
+        "display_name": "Next Limit Maxwell Render"
+      },
+      {
+        "software": "open-mixer-pad...",
+        "display_name": "Open Mixer Pad..."
+      },
+      {
+        "software": "corel-painter-2023",
+        "display_name": "Corel Painter 2023"
+      }
+    ],
+    "macos": [
+      {
+        "software": "next-limit-maxwell-render",
+        "display_name": "Next Limit Maxwell Render"
+      },
+      {
+        "software": "corel-painter-2023",
+        "display_name": "Corel Painter 2023"
+      }
+    ],
+    "linux": [
+      {
+        "software": "next-limit-maxwell-render",
+        "display_name": "Next Limit Maxwell Render"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "MXS file icon",
+      "alt": "MXS file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/mxs-6127.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-03-31",
+  "sources": [
+    {
+      "url": "mxs.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

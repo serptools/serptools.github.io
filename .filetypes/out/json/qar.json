@@ -1,0 +1,48 @@
+{
+  "slug": "qar",
+  "extension": "qar",
+  "name": "QlikView Extension",
+  "category": "qlikview-extension",
+  "developer_org": "qliktech-international",
+  "popularity": {
+    "rating": 2.7,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "Add-on file used by QlikView, a data analysis program used for business intelligence reporting; stores an archive of files, which specifies a new visualization or user interface component; sometimes used for integrating third-party visualizations.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "qliktech-international-qlikview",
+        "display_name": "QlikTech International QlikView",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-04-19",
+  "sources": [
+    {
+      "url": "qar.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

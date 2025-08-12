@@ -1,0 +1,63 @@
+{
+  "slug": "vsl",
+  "extension": "vsl",
+  "name": "Visio Add-on",
+  "category": "1.-visio-add-on",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Addon, or library, file used by Microsoft Visio, a business diagramming application; saves software components that extend the functionality of the program; typically created and distributed by third-party developers.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-visio-365",
+        "display_name": "Microsoft Visio 365"
+      },
+      {
+        "software": "apache-velocity",
+        "display_name": "Apache Velocity"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apache-velocity",
+        "display_name": "Apache Velocity"
+      }
+    ],
+    "linux": [
+      {
+        "software": "apache-velocity",
+        "display_name": "Apache Velocity"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2013-01-08",
+  "sources": [
+    {
+      "url": "vsl.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "slug": "rad",
+  "extension": "rad",
+  "name": "Reality Adlib Tracker Module",
+  "category": "1.-reality-adlib-tracker-module",
+  "developer_org": "reality",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "Module created by Reality AdLib Tracker, an audio tracking application; contains note and instrument information for a song; holds up to 32 patterns and 31 instruments; common size is 10k or less.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "reality-adlib-tracker",
+        "display_name": "Reality Adlib Tracker"
+      },
+      {
+        "software": "adlib-tracker-ii",
+        "display_name": "Adlib Tracker II"
+      },
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      },
+      {
+        "software": "valve-vrad",
+        "display_name": "Valve VRAD"
+      },
+      {
+        "software": "valve-source-sdk",
+        "display_name": "Valve Source SDK"
+      },
+      {
+        "software": "citrix-xenapp",
+        "display_name": "Citrix XenApp"
+      }
+    ],
+    "macos": [
+      {
+        "software": "radiance",
+        "display_name": "Radiance"
+      }
+    ],
+    "linux": [
+      {
+        "software": "radiance",
+        "display_name": "Radiance"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2013-09-17",
+  "sources": [
+    {
+      "url": "rad.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

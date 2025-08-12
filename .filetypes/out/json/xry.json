@@ -1,0 +1,51 @@
+{
+  "slug": "xry",
+  "extension": "xry",
+  "name": "XRY Data File",
+  "category": "xry-data-file",
+  "developer_org": "micro-systemation",
+  "popularity": {
+    "rating": 2.8,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Data archive created with XRY, a mobile phone data retrieval program used for forensic purposes; may contain multiple types of data downloaded from a phone, including the phone book, call list, text messages, pictures, calendars, notes, and audio files; all data is stored in a single file with an \".xry\" extension.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "micro-systemation-xry",
+        "display_name": "Micro Systemation XRY"
+      },
+      {
+        "software": "micro-systemation-xry-reader",
+        "display_name": "Micro Systemation XRY Reader"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-04-23",
+  "sources": [
+    {
+      "url": "xry.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

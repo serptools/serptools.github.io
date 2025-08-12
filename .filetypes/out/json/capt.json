@@ -1,0 +1,47 @@
+{
+  "slug": "capt",
+  "extension": "capt",
+  "name": "Capito Data File",
+  "category": "capito-data-file",
+  "developer_org": "linrock-software",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Compressed data file created and used by Capito, an application used to create instructions for software; contains XML data and images, like screenshots, that make up the step-by-step instructions created by the user; can be exported to .PDF , .HTML , .DOCX , and .PPTX files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "linrock-capito",
+        "display_name": "Linrock Capito"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-04-28",
+  "sources": [
+    {
+      "url": "capt.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

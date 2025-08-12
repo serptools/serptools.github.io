@@ -1,0 +1,53 @@
+{
+  "slug": "pjt",
+  "extension": "pjt",
+  "name": "Didger Project File",
+  "category": "1.-didger-project-file",
+  "developer_org": "golden-software",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "Project file created by Didger, a program used for converting and combining spatial data; saves input file references and data tranformation settings; supports layers, which group data sets so they can be manipulated independently; enables data conversion projects to be saved.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "golden-software-didger",
+        "display_name": "Golden Software Didger",
+        "status": "discontinued"
+      },
+      {
+        "software": "microsoft-visual-foxpro",
+        "display_name": "Microsoft Visual FoxPro",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-01-17",
+  "sources": [
+    {
+      "url": "pjt.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

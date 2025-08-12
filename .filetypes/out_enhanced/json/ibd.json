@@ -1,0 +1,22 @@
+{
+  "slug": "ibd",
+  "extension": "ibd",
+  "name": "MySQL InnoDB Table",
+  "category": "mysql-innodb-table",
+  "summary": "",
+  "developer_org": "oracle",
+  "developer_name": "Oracle",
+  "more_information": {
+    "description": [
+      "MySQL is a popular open-source database management system. InnoDB is the default database engine that MySQL uses to create, update, and otherwise manage table-based data. In most instances of MySQL, InnoDB saves users' tables in individual files, which are saved with the .ibd extension.",
+      "IBD files are often encrypted , meaning their data can be accessed only using the keys generated when a user created the database that created the IBD file. However, MySQL users can use IBD files to import even encrypted tables into other MySQL databases. When using an IBD file to import a table, you must also import the table's associated .CFG metadata file and, if the table is encrypted, CFP file, which InnoDB creates when you use the FLUSH TABLES FOR EXPORT command."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "ibd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

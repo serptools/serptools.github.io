@@ -1,0 +1,53 @@
+{
+  "slug": "lyr",
+  "extension": "lyr",
+  "name": "ArcView Layer File",
+  "category": "1.-arcview-layer-file",
+  "developer_org": "esri",
+  "popularity": {
+    "rating": 3.2,
+    "votes": 13,
+    "source": "fileinfo"
+  },
+  "summary": "Contains information available in ArcView's layer properties dialog box; may include symbols, display settings, joined table details, definition queries, labeling properties, and annotation display properties.",
+  "standards": [],
+  "mime_types": [
+    "engraver/exposer"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "esri-arcgis-for-desktop",
+        "display_name": "ESRI ArcGIS for Desktop"
+      },
+      {
+        "software": "spgprints-bestimage",
+        "display_name": "spgprints bestIMAGE"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2008-11-13",
+  "sources": [
+    {
+      "url": "lyr.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

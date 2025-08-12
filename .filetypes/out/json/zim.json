@@ -1,0 +1,103 @@
+{
+  "slug": "zim",
+  "extension": "zim",
+  "name": "OpenZIM Wiki Archive",
+  "category": "1.-openzim-wiki-archive",
+  "developer_org": "the-openzim-project",
+  "popularity": {
+    "rating": 3.1,
+    "votes": 37,
+    "source": "fileinfo"
+  },
+  "summary": "Archive created in the OpenZIM format, a standard file format for storing Wiki content offline; organizes articles, references, and other Wiki information in a compact format; supported by readers such as Kiwix and ZIMReader.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "kiwix",
+        "display_name": "Kiwix"
+      },
+      {
+        "software": "zimreader",
+        "display_name": "ZIMReader"
+      },
+      {
+        "software": "zimlib",
+        "display_name": "ZIMLib"
+      },
+      {
+        "software": "simlab-composer",
+        "display_name": "SimLab Composer"
+      },
+      {
+        "software": "simlab-cad-viewer",
+        "display_name": "SimLab CAD Viewer"
+      }
+    ],
+    "macos": [
+      {
+        "software": "kiwix",
+        "display_name": "Kiwix"
+      },
+      {
+        "software": "simlab-composer",
+        "display_name": "SimLab Composer"
+      }
+    ],
+    "linux": [
+      {
+        "software": "kiwix",
+        "display_name": "Kiwix"
+      },
+      {
+        "software": "zimreader",
+        "display_name": "ZIMReader"
+      },
+      {
+        "software": "zimlib",
+        "display_name": "ZIMLib"
+      }
+    ],
+    "android": [
+      {
+        "software": "kiwix",
+        "display_name": "Kiwix"
+      },
+      {
+        "software": "simlab-cad-viewer",
+        "display_name": "SimLab CAD Viewer"
+      }
+    ],
+    "ios": [
+      {
+        "software": "simlab-cad-viewer",
+        "display_name": "SimLab CAD Viewer"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-09-16",
+  "sources": [
+    {
+      "url": "zim.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

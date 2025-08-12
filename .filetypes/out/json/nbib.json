@@ -1,0 +1,81 @@
+{
+  "slug": "nbib",
+  "extension": "nbib",
+  "name": "PubMed Bibliographic Citation File",
+  "category": "pubmed-bibliographic-citation-file",
+  "developer_org": "u.s.-national-library-of-medicine",
+  "popularity": {
+    "rating": 4.3,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "An NBIB file is a bibliographic citation file saved in the PubMed format developed by the U.S. National Library of Medicine. It contains citation information, such as title, author, publication date, keywords, publisher, issue number, and start and end page of published medical work.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "clarivate-endnote",
+        "display_name": "Clarivate EndNote"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "proquest-refworks",
+        "display_name": "ProQuest RefWorks"
+      }
+    ],
+    "web": [
+      {
+        "software": "clarivate-endnote-web",
+        "display_name": "Clarivate EndNote Web"
+      },
+      {
+        "software": "proquest-refworks",
+        "display_name": "ProQuest RefWorks"
+      }
+    ],
+    "macos": [
+      {
+        "software": "clarivate-endnote",
+        "display_name": "Clarivate EndNote"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-09-23",
+  "sources": [
+    {
+      "url": "nbib.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

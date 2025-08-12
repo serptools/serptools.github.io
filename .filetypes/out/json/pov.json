@@ -1,0 +1,63 @@
+{
+  "slug": "pov",
+  "extension": "pov",
+  "name": "POV-Ray Raytracing Format",
+  "category": "1.-pov-ray-raytracing-format",
+  "developer_org": "persistence-of-vision-raytracer",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 10,
+    "source": "fileinfo"
+  },
+  "summary": "Three-dimensional graphic that uses the Persistence of Vision Raytracer (POV-Ray) format; supports shapes, colors, textures, rotations, light, atmospheric effects, viewing perspectives, and other 3D image properties; stored in an ASCII text format.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "pov-ray",
+        "display_name": "POV-Ray"
+      },
+      {
+        "software": "videologic-prolab-imagefolio",
+        "display_name": "VideoLogic Prolab ImageFolio"
+      }
+    ],
+    "macos": [
+      {
+        "software": "pov-ray",
+        "display_name": "POV-Ray"
+      }
+    ],
+    "linux": [
+      {
+        "software": "pov-ray",
+        "display_name": "POV-Ray"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-05-20",
+  "sources": [
+    {
+      "url": "pov.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

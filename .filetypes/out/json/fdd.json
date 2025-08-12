@@ -1,0 +1,61 @@
+{
+  "slug": "fdd",
+  "extension": "fdd",
+  "name": "Parallels Desktop Floppy Disk Image File",
+  "category": "1.-parallels-desktop-floppy-disk-image-file",
+  "developer_org": "parallels",
+  "popularity": {
+    "rating": 3.1,
+    "votes": 11,
+    "source": "fileinfo"
+  },
+  "summary": "An FDD file is a disk image created by Parallels Desktop for Mac virtualization software. It contains a floppy disk image that enables users to load virtual floppy disks without an actual floppy disk drive.",
+  "standards": [],
+  "mime_types": [
+    "cd/dvd"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "parallels-desktop-for-mac-20",
+        "display_name": "Parallels Desktop for Mac 20"
+      }
+    ],
+    "windows": [
+      {
+        "software": "formdocs",
+        "display_name": "FormDocs"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "FDD file icon",
+      "alt": "FDD file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/fdd-4631.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-09-14",
+  "sources": [
+    {
+      "url": "fdd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

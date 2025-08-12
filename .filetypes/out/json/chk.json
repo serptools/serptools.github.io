@@ -1,0 +1,88 @@
+{
+  "slug": "chk",
+  "extension": "chk",
+  "name": "InterCheck Checksum Database",
+  "category": "1.-intercheck-checksum-database",
+  "developer_org": "sophos",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 119,
+    "source": "fileinfo"
+  },
+  "summary": "A CHK file is a database file that contains virus definitions for Sophos Anti-Virus. It is updated with InterCheck, a service that checks a central virus reporting system, and can be modified by changing the InterCheck reporting level and syslog configuration settings.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "sophos-anti-virus",
+        "display_name": "Sophos Anti-Virus",
+        "status": "discontinued"
+      },
+      {
+        "software": "diy-datarecovery-chk-mate",
+        "display_name": "DIY DataRecovery CHK-Mate"
+      },
+      {
+        "software": "unchk",
+        "display_name": "UnCHK"
+      },
+      {
+        "software": "filechk",
+        "display_name": "FileCHK"
+      },
+      {
+        "software": "blizzard-starcraft",
+        "display_name": "Blizzard StarCraft"
+      }
+    ],
+    "macos": [
+      {
+        "software": "sophos-anti-virus",
+        "display_name": "Sophos Anti-Virus",
+        "status": "discontinued"
+      },
+      {
+        "software": "blizzard-starcraft",
+        "display_name": "Blizzard StarCraft"
+      }
+    ],
+    "linux": [
+      {
+        "software": "sophos-anti-virus",
+        "display_name": "Sophos Anti-Virus",
+        "status": "discontinued"
+      }
+    ],
+    "web": [
+      {
+        "software": "web-browser",
+        "display_name": "Web browser"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-02-15",
+  "sources": [
+    {
+      "url": "chk.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

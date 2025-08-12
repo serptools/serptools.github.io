@@ -1,0 +1,73 @@
+{
+  "slug": "cdb",
+  "extension": "cdb",
+  "name": "Symbian Phonebook Database",
+  "category": "1.-symbian-phonebook-database",
+  "developer_org": "nokia",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 19,
+    "source": "fileinfo"
+  },
+  "summary": "Database file created by Symbian OS mobile devices, such as Nokia phones; contains phonebook contacts, including names, addresses, and phone numbers; used to backup and synchronize contacts between a computer and a Symbian OS device.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "nokia-pc-suite",
+        "display_name": "Nokia PC Suite"
+      },
+      {
+        "software": "nokisoft-noki",
+        "display_name": "Nokisoft Noki"
+      },
+      {
+        "software": "cardscan",
+        "display_name": "CardScan"
+      },
+      {
+        "software": "cardscan-autosync",
+        "display_name": "CardScan AutoSync"
+      },
+      {
+        "software": "microsoft-activesync",
+        "display_name": "Microsoft ActiveSync"
+      }
+    ],
+    "macos": [
+      {
+        "software": "nokia-pc-suite",
+        "display_name": "Nokia PC Suite"
+      },
+      {
+        "software": "cardscan",
+        "display_name": "CardScan"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-02-15",
+  "sources": [
+    {
+      "url": "cdb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

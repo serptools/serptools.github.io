@@ -1,0 +1,65 @@
+{
+  "slug": "qry",
+  "extension": "qry",
+  "name": "Query File",
+  "category": "query-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.1,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "A QRY file is a query file that contains commands written in Structured Query Language ( SQL ) that interact with relational databases by inserting, updating, retrieving, or deleting data. Database administrators, analysts, and developers may use QRY files to store and run individual queries or a group of queries in batch form, often with database management tools like MySQL, PostgreSQL, or Microsoft SQL Server.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-sql-server-2019",
+        "display_name": "Microsoft SQL Server 2019"
+      },
+      {
+        "software": "mysql",
+        "display_name": "MySQL"
+      }
+    ],
+    "macos": [
+      {
+        "software": "mysql",
+        "display_name": "MySQL"
+      }
+    ],
+    "linux": [
+      {
+        "software": "mysql",
+        "display_name": "MySQL"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2025-04-18",
+  "sources": [
+    {
+      "url": "qry.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

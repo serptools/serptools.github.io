@@ -1,0 +1,59 @@
+{
+  "slug": "docmhtml",
+  "extension": "docmhtml",
+  "name": "Microsoft Word MIME HTML Document",
+  "category": "microsoft-word-mime-html-document",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 2.9,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "A DOCMHTML file is an archived MIME HTML document saved by earlier versions of Microsoft Word, a word processing application. It contains HTML source code that represents the document in a format similar to the original .DOC file. DOCMHTML files are used for viewing published versions of documents in a Web browser.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "no-longer-supported-by-microsoft-word",
+        "display_name": "No longer supported by Microsoft Word"
+      }
+    ],
+    "macos": [
+      {
+        "software": "no-longer-supported-by-microsoft-word",
+        "display_name": "No longer supported by Microsoft Word"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "DOCMHTML file icon",
+      "alt": "DOCMHTML file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/docmhtml-5220.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-02-05",
+  "sources": [
+    {
+      "url": "docmhtml.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

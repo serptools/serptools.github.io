@@ -1,0 +1,104 @@
+{
+  "slug": "pyon",
+  "extension": "pyon",
+  "name": "Python Object Notation File",
+  "category": "python-object-notation-file",
+  "developer_org": "nawafalqari",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "A PYON file contains simple data structures written in the Python Object Notation (PYON) format, which is identical to JSON . It is used to organize and store data used by a Python program. Using PYON Reader, Python programs can retrieve information from or update information in PYON files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "pyonr",
+        "display_name": "pyonr"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "github-atom",
+        "display_name": "GitHub Atom",
+        "status": "discontinued"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "pyonr",
+        "display_name": "pyonr"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "github-atom",
+        "display_name": "GitHub Atom",
+        "status": "discontinued"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "pyonr",
+        "display_name": "pyonr"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "github-atom",
+        "display_name": "GitHub Atom",
+        "status": "discontinued"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "PYON file open in Microsoft Visual Studio Code",
+      "alt": "PYON file open in Microsoft Visual Studio Code",
+      "source_url": "https://fileinfo.com/img/ss/md/pyon_12725.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-06-03",
+  "sources": [
+    {
+      "url": "pyon.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

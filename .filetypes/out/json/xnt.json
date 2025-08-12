@@ -1,0 +1,53 @@
+{
+  "slug": "xnt",
+  "extension": "xnt",
+  "name": "QuarkXPress Extension File",
+  "category": "quarkxpress-extension-file",
+  "developer_org": "quark-software",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "Application extension used by QuarkXPress, a program used for professional publishing; extends the functionality of the default QuarkXPress application; used for adding new components to the user interface, importing and exporting new file types, enhancing application workflows, or adding other functions.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "quarkxpress",
+        "display_name": "QuarkXPress"
+      }
+    ],
+    "macos": [
+      {
+        "software": "quarkxpress",
+        "display_name": "QuarkXPress"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-09-23",
+  "sources": [
+    {
+      "url": "xnt.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

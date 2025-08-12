@@ -1,0 +1,61 @@
+{
+  "slug": "m64",
+  "extension": "m64",
+  "name": "Mupen64 Movie File",
+  "category": "mupen64-movie-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "An M64 file contains a recording of gameplay captured by Mupen64, a cross-platform Nintendo 64 (N64) emulator . It contains user inputs recorded during gameplay so that the exact gameplay can be replayed in the software by a user. M64 files also store metadata , such as the author and description of the reply.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "mupen64",
+        "display_name": "Mupen64"
+      }
+    ],
+    "macos": [
+      {
+        "software": "mupen64",
+        "display_name": "Mupen64"
+      }
+    ],
+    "linux": [
+      {
+        "software": "mupen64",
+        "display_name": "Mupen64"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-07-20",
+  "sources": [
+    {
+      "url": "m64.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

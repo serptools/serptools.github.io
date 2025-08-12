@@ -1,0 +1,74 @@
+{
+  "slug": "moff",
+  "extension": "moff",
+  "name": "Sony Video Data File",
+  "category": "sony-video-data-file",
+  "developer_org": "sony",
+  "popularity": {
+    "rating": 2.3,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "A MOFF file is a data file used by Sony PlayMemories, a program used to manage and edit videos and images. It contains metadata about images or video referenced by PlayMemories to organize them. MOFF files may also contain GPS data recorded by an Actioncam camera (with a GPS function) that indicates where the video was captured.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "web": [
+      {
+        "software": "sony-picture-motion-browser",
+        "display_name": "Sony Picture Motion Browser",
+        "status": "discontinued"
+      }
+    ],
+    "windows": [
+      {
+        "software": "sony-playmemories",
+        "display_name": "Sony PlayMemories"
+      },
+      {
+        "software": "gpsbabel",
+        "display_name": "GPSBabel"
+      }
+    ],
+    "macos": [
+      {
+        "software": "sony-playmemories",
+        "display_name": "Sony PlayMemories"
+      },
+      {
+        "software": "gpsbabel",
+        "display_name": "GPSBabel"
+      }
+    ],
+    "linux": [
+      {
+        "software": "gpsbabel",
+        "display_name": "GPSBabel"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-02-20",
+  "sources": [
+    {
+      "url": "moff.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

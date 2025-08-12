@@ -1,0 +1,71 @@
+{
+  "slug": "gcs",
+  "extension": "gcs",
+  "name": "Cineform Studio Video Project",
+  "category": "1.-cineform-studio-video-project",
+  "developer_org": "gopro",
+  "popularity": {
+    "rating": 2.8,
+    "votes": 14,
+    "source": "fileinfo"
+  },
+  "summary": "Project file used by Cineform Studio, a video editor/converter software; once you create a project the GCS file is created.",
+  "standards": [],
+  "mime_types": [
+    "editor/converter"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "gopro-cineform-studio",
+        "display_name": "GoPro Cineform Studio",
+        "status": "discontinued"
+      },
+      {
+        "software": "dolphin",
+        "display_name": "Dolphin"
+      }
+    ],
+    "macos": [
+      {
+        "software": "gopro-cineform-studio",
+        "display_name": "GoPro Cineform Studio",
+        "status": "discontinued"
+      },
+      {
+        "software": "dolphin",
+        "display_name": "Dolphin"
+      }
+    ],
+    "linux": [
+      {
+        "software": "dolphin",
+        "display_name": "Dolphin"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2013-07-25",
+  "sources": [
+    {
+      "url": "gcs.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

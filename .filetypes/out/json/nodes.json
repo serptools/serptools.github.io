@@ -1,0 +1,86 @@
+{
+  "slug": "nodes",
+  "extension": "nodes",
+  "name": "AudioNodes Project",
+  "category": "1.-audionodes-project",
+  "developer_org": "audionodes",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "A NODES file is a project file created by AudioNodes, a music creation program. It is used to load a project and its included audio files in AudioNodes. NODES files are renamed .ZIP archives that contain the audio files imported into a project and a JSON file that specifies the project's structure and settings.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "audionodes",
+        "display_name": "AudioNodes"
+      },
+      {
+        "software": "rename-to-use-.zip-extension-open-with-any-zip-decompression-utility",
+        "display_name": "Rename to use .zip extension; open with any Zip-decompression utility"
+      }
+    ],
+    "android": [
+      {
+        "software": "open-with",
+        "display_name": "Open with"
+      },
+      {
+        "software": "stick-nodes",
+        "display_name": "Stick Nodes"
+      },
+      {
+        "software": "stick-nodes-pro",
+        "display_name": "Stick Nodes Pro"
+      }
+    ],
+    "ios": [
+      {
+        "software": "stick-nodes",
+        "display_name": "Stick Nodes"
+      },
+      {
+        "software": "stick-nodes-pro",
+        "display_name": "Stick Nodes Pro"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "NODES file icon",
+      "alt": "NODES file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/nodes-13076.png"
+    },
+    {
+      "caption": "NODES file open in AudioNodes",
+      "alt": "NODES file open in AudioNodes",
+      "source_url": "https://fileinfo.com/img/ss/md/nodes_13076.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-12-28",
+  "sources": [
+    {
+      "url": "nodes.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

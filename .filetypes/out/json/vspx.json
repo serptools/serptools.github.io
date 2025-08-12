@@ -1,0 +1,47 @@
+{
+  "slug": "vspx",
+  "extension": "vspx",
+  "name": "Visual Studio Performance Report Data File",
+  "category": "visual-studio-performance-report-data-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Developer file introduced with Visual Studio 2011; contains application performance metrics collected during a performance analysis test; generated into a report summary, which helps developers identify bottlenecks and optimize performance.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-visual-studio-2022",
+        "display_name": "Microsoft Visual Studio 2022"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-11-16",
+  "sources": [
+    {
+      "url": "vspx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

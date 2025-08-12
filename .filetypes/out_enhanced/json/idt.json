@@ -1,0 +1,22 @@
+{
+  "slug": "idt",
+  "extension": "idt",
+  "name": "Windows Installer Database Text Archive File",
+  "category": "windows-installer-database-text-archive-file",
+  "summary": "",
+  "developer_org": "microsoft",
+  "developer_name": "Microsoft",
+  "more_information": {
+    "description": [
+      "IDT files can be exported using the MsiDatabaseExport function, which is part of the Windows Installer API. IDT files can also be imported into an existing database using the MsiDatabaseImport function.",
+      "A Windows Installer database contains the data required to install a group of applications. The databases can be customized using third-party applications and relational queries, which helps tailor the installation data for specific needs."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "idt.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

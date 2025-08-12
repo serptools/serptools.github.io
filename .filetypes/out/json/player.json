@@ -1,0 +1,89 @@
+{
+  "slug": "player",
+  "extension": "player",
+  "name": "Terraria Mobile Player File",
+  "category": "1.-terraria-mobile-player-file",
+  "developer_org": "re-logic",
+  "popularity": {
+    "rating": 3.1,
+    "votes": 10,
+    "source": "fileinfo"
+  },
+  "summary": "Player profile created and used by the mobile version of Terraria, a 2D sandbox construction action and adventure game; stores a player's game progress, which includes mana points, health, and appearance.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "android": [
+      {
+        "software": "re-logic-terraria",
+        "display_name": "Re-Logic Terraria"
+      }
+    ],
+    "ios": [
+      {
+        "software": "re-logic-terraria",
+        "display_name": "Re-Logic Terraria"
+      }
+    ],
+    "windows": [
+      {
+        "software": "re-logic-terraria",
+        "display_name": "Re-Logic Terraria"
+      },
+      {
+        "software": "chucklefish-starbound",
+        "display_name": "Chucklefish Starbound"
+      },
+      {
+        "software": "starcheat",
+        "display_name": "starcheat"
+      },
+      {
+        "software": "pok-mon-type-wild",
+        "display_name": "Pokémon Type Wild"
+      }
+    ],
+    "macos": [
+      {
+        "software": "chucklefish-starbound",
+        "display_name": "Chucklefish Starbound"
+      },
+      {
+        "software": "starcheat",
+        "display_name": "starcheat"
+      }
+    ],
+    "linux": [
+      {
+        "software": "chucklefish-starbound",
+        "display_name": "Chucklefish Starbound"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-04-23",
+  "sources": [
+    {
+      "url": "player.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

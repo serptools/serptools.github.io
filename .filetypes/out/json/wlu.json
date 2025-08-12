@@ -1,0 +1,54 @@
+{
+  "slug": "wlu",
+  "extension": "wlu",
+  "name": "Windows Legacy Update",
+  "category": "1.-windows-legacy-update",
+  "developer_org": "black-wing-cat",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "A WLU file is an unofficial update file used to update the Windows 2000, Windows XP, or Windows Millennium Edition operating systems . It contains one or more updates for Windows applications and files. WLU files and their installer, WLUpdator, are available for download at Windows Legacy Update's website (win2k.org/wlu/wlu.htm).",
+  "standards": [],
+  "mime_types": [
+    "n/a",
+    "win2k.org/wlu"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "wlupdator",
+        "display_name": "WLUpdator"
+      },
+      {
+        "software": "system-restore",
+        "display_name": "System Restore"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-12-10",
+  "sources": [
+    {
+      "url": "wlu.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "slug": "mpj",
+  "extension": "mpj",
+  "name": "Minitab Project File",
+  "category": "1.-minitab-project-file",
+  "developer_org": "minitab",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 25,
+    "source": "fileinfo"
+  },
+  "summary": "Project file used by Minitab, a statistical analysis program used for business processes and quality management; contains all user work, including the data ( .MTW files), session history, graphs, and reports; used to compile multiple analysis resources together into single a project.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "minitab",
+        "display_name": "Minitab"
+      },
+      {
+        "software": "pmg-messiahstudio",
+        "display_name": "pmG messiahStudio"
+      },
+      {
+        "software": "adobe-robohelp",
+        "display_name": "Adobe RoboHelp"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "pmg-messiahstudio",
+        "display_name": "pmG messiahStudio"
+      },
+      {
+        "software": "adobe-robohelp",
+        "display_name": "Adobe RoboHelp"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "web": [
+      {
+        "software": "arduino-led-matrix-editor",
+        "display_name": "Arduino LED Matrix Editor"
+      }
+    ],
+    "chromeos": [
+      {
+        "software": "google-chrome-text",
+        "display_name": "Google Chrome Text"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-02-02",
+  "sources": [
+    {
+      "url": "mpj.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

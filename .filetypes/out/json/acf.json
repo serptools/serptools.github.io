@@ -1,0 +1,128 @@
+{
+  "slug": "acf",
+  "extension": "acf",
+  "name": "Steam Application Cache File",
+  "category": "1.-steam-application-cache-file",
+  "developer_org": "valve",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 41,
+    "source": "fileinfo"
+  },
+  "summary": "An ACF file is a cache file used by Valve Steam, a software package used for downloading games. It saves information related to the downloaded software and is used for the original download as well as game updates.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "valve-steam",
+        "display_name": "Valve Steam"
+      },
+      {
+        "software": "x-plane",
+        "display_name": "X-Plane"
+      },
+      {
+        "software": "adobe-photoshop-2025",
+        "display_name": "Adobe Photoshop 2025"
+      },
+      {
+        "software": "microsoft-agent",
+        "display_name": "Microsoft Agent",
+        "status": "discontinued"
+      },
+      {
+        "software": "microsoft-agent-character-editor",
+        "display_name": "Microsoft Agent Character Editor"
+      },
+      {
+        "software": "google-earth-pro",
+        "display_name": "Google Earth Pro"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "valve-steam",
+        "display_name": "Valve Steam"
+      },
+      {
+        "software": "x-plane",
+        "display_name": "X-Plane"
+      },
+      {
+        "software": "adobe-photoshop-2025",
+        "display_name": "Adobe Photoshop 2025"
+      },
+      {
+        "software": "google-earth-pro",
+        "display_name": "Google Earth Pro"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "x-plane",
+        "display_name": "X-Plane"
+      },
+      {
+        "software": "google-earth-pro",
+        "display_name": "Google Earth Pro"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2016-06-03",
+  "sources": [
+    {
+      "url": "acf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

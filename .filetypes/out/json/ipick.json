@@ -1,0 +1,59 @@
+{
+  "slug": "ipick",
+  "extension": "ipick",
+  "name": "iPick Football Image",
+  "category": "ipick-football-image",
+  "developer_org": "ipick-sports",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "Image used by iPick Football, an iOS and Android app used to record and share NFL weekly football picks; stores a JPEG image depicting NFL football picks (winners, confidence rankings) for a given week of the NFL season; also stores actual pick data as EXIF metadata within the JPEG image.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "android": [
+      {
+        "software": "ipick-football",
+        "display_name": "iPick Football"
+      }
+    ],
+    "ios": [
+      {
+        "software": "ipick-football",
+        "display_name": "iPick Football"
+      }
+    ],
+    "windows": [
+      {
+        "software": "ipick-football",
+        "display_name": "iPick Football"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2013-04-26",
+  "sources": [
+    {
+      "url": "ipick.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

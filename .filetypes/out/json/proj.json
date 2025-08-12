@@ -1,0 +1,59 @@
+{
+  "slug": "proj",
+  "extension": "proj",
+  "name": "Visual Studio Project File",
+  "category": "visual-studio-project-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "A PROJ file is a project file created in Microsoft Visual Studio, a software development tool used to create Windows programs and web applications. It contains XML-formatted text that defines a project's content, platform requirements, versioning information, and web server or database server settings. MSBuild (the Microsoft Build Engine) uses PROJ files to build developers' projects, transforming the projects into executable programs.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-visual-studio-2022",
+        "display_name": "Microsoft Visual Studio 2022"
+      }
+    ],
+    "macos": [
+      {
+        "software": "microsoft-visual-studio-for-mac",
+        "display_name": "Microsoft Visual Studio for Mac"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "PROJ file open in GitHub Atom",
+      "alt": "PROJ file open in GitHub Atom",
+      "source_url": "https://fileinfo.com/img/ss/md/proj_12026.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-04-16",
+  "sources": [
+    {
+      "url": "proj.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

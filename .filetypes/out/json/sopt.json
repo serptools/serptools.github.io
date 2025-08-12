@@ -1,0 +1,53 @@
+{
+  "slug": "sopt",
+  "extension": "sopt",
+  "name": "Synclavier Optical Disk Image File",
+  "category": "synclavier-optical-disk-image-file",
+  "developer_org": "synclavier-digital",
+  "popularity": {
+    "rating": 2.3,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "A SOPT file is an optical disk image format used by Synclavier, a digital music workstation. It contains data from Synclavier optical disks , which include digital audio and related information for music production. SOPT files are saved in a proprietary format specific to the Synclavier system, ensuring compatibility with its hardware and software for reading and managing audio data.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "synclavier-digital-synclavierx",
+        "display_name": "Synclavier Digital SynclavierX"
+      }
+    ],
+    "windows": [
+      {
+        "software": "synclavier-digital-synclavierx",
+        "display_name": "Synclavier Digital SynclavierX"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2024-09-10",
+  "sources": [
+    {
+      "url": "sopt.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

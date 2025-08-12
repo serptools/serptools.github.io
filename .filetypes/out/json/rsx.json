@@ -1,0 +1,53 @@
+{
+  "slug": "rsx",
+  "extension": "rsx",
+  "name": "RED Metadata XML File",
+  "category": "red-metadata-xml-file",
+  "developer_org": "red",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "Video metadata file created by RED digital camera software; saves a \"look\" for an .R3D video clip that defines how the video clip appears; enables perspectives to be saved.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "redcine-x",
+        "display_name": "REDCINE-X"
+      }
+    ],
+    "macos": [
+      {
+        "software": "redcine-x",
+        "display_name": "REDCINE-X"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-09-01",
+  "sources": [
+    {
+      "url": "rsx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

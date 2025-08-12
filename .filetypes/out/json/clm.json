@@ -1,0 +1,67 @@
+{
+  "slug": "clm",
+  "extension": "clm",
+  "name": "MagicJack Call Log File",
+  "category": "1.-magicjack-call-log-file",
+  "developer_org": "ymax",
+  "popularity": {
+    "rating": 2.5,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "File created by magicJack, a program used with a magicJack USB phone device to make phone calls; contains a call log of recent phone calls; used to store and review recent histories of phone calls.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "ymax-magicjack",
+        "display_name": "YMAX magicJack"
+      },
+      {
+        "software": "broad-institute-gene-pattern",
+        "display_name": "Broad Institute Gene Pattern"
+      }
+    ],
+    "macos": [
+      {
+        "software": "ymax-magicjack",
+        "display_name": "YMAX magicJack"
+      },
+      {
+        "software": "broad-institute-gene-pattern",
+        "display_name": "Broad Institute Gene Pattern"
+      }
+    ],
+    "linux": [
+      {
+        "software": "broad-institute-gene-pattern",
+        "display_name": "Broad Institute Gene Pattern"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-02-15",
+  "sources": [
+    {
+      "url": "clm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "rs",
+  "extension": "rs",
+  "name": "Rust Source Code File",
+  "summary": "An RS file contains Rust source code , a programming language for developing large-scale, high-performance applications. Rust developers may open and edit RS files with source code editors or compile their source code with the Rust compiler to machine code to run as a program.",
+  "developer": "Rust Foundation",
+  "developer_slug": "rust-foundation",
+  "category": "Developer Files",
+  "category_slug": "developer-files",
+  "rating": 4.0,
+  "votes": 46,
+  "last_updated": "February 15, 2024",
+  "more_information": {
+    "content": [
+      "Graydon Hoare created the Rust programming language in 2006 while working at Mozilla Research. Various significant companies, including Microsoft, Google, Meta, Discord, and Amazon, adopted the language in the 2010s for numerous purposes, resulting in the formation of the Rust Foundation in February 2021 to manage the continued development of the language.",
+      "Rust developers use RS files to store their source code, then compile it with the rustc compiler included with the Rust package. Developers may also change the .rs file extension to .rs~ during the development process to signify to themselves and others that the source code is not ready to be compiled."
+    ],
+    "screenshot": {
+      "url": "https://fileinfo.com/img/ss/sm/rs_8741.png",
+      "srcset": "https://fileinfo.com/img/ss/md/rs_8741.png 760w, https://fileinfo.com/img/ss/sm/rs_8741.png 380w",
+      "alt": "Screenshot of a .rs file in Microsoft Visual Studio Code 1.85",
+      "width": "380",
+      "height": "253",
+      "caption": "RS file open in Microsoft Visual Studio Code 1.85"
+    }
+  },
+  "how_to_open": {
+    "instructions": [
+      "You can open RS files with Rust, which allows you to edit and compile Rust source code in the files. You can install Rust on Windows, macOS, and Linux platforms or use the online version (Rust Playground).",
+      "Various source code editors also support RS files, including:",
+      "Plain text editors, such as Microsoft Notepad (Windows) and Apple TextEdit (Mac), can also open and edit RS files. However, they do not provide helpful coding features, such as syntax highlighting."
+    ],
+    "programs": [
+      {
+        "name": "Microsoft Visual Studio Code",
+        "url": "../software/microsoft/visual_studio_code.html"
+      },
+      {
+        "name": "Sublime Text",
+        "url": "../software/sublime_hq/sublime_text.html"
+      },
+      {
+        "name": "GNU Emacs",
+        "url": "../software/gnu/emacs.html"
+      }
+    ]
+  },
+  "scraped_at": "2025-08-09T21:58:55.050125",
+  "source": {
+    "url": "https://fileinfo.com/extension/rs",
+    "file": "rs.html"
+  }
+}

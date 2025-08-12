@@ -1,0 +1,53 @@
+{
+  "slug": "ic1",
+  "extension": "ic1",
+  "name": "Low Resolution Imagic Graphics File",
+  "category": "low-resolution-imagic-graphics-file",
+  "developer_org": "atari",
+  "popularity": {
+    "rating": 1.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "Imagic Film and Picture graphic used by Atari ST systems, which were released in 1985 and discontinued in 1993; stores a low resolution color bitmap image; may be stored in an uncompressed or compressed format.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "lemkesoft-graphicconverter",
+        "display_name": "Lemkesoft GraphicConverter"
+      }
+    ],
+    "windows": [
+      {
+        "software": "lemkesoft-graphicconverter",
+        "display_name": "Lemkesoft GraphicConverter"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-06-01",
+  "sources": [
+    {
+      "url": "ic1.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

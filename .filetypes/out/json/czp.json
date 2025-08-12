@@ -1,0 +1,53 @@
+{
+  "slug": "czp",
+  "extension": "czp",
+  "name": "ClozePro Archive",
+  "category": "clozepro-archive",
+  "developer_org": "crick-software",
+  "popularity": {
+    "rating": 2.6,
+    "votes": 10,
+    "source": "fileinfo"
+  },
+  "summary": "File used by Cloze Pro, a program used for preparing standardized tests and other documents for student assessment; stores a content package that can be imported into the software.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "crick-software-clozepro",
+        "display_name": "Crick Software ClozePro"
+      }
+    ],
+    "macos": [
+      {
+        "software": "crick-software-clozepro",
+        "display_name": "Crick Software ClozePro"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-07-31",
+  "sources": [
+    {
+      "url": "czp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "slug": "vss",
+  "extension": "vss",
+  "name": "Visio Stencil File",
+  "category": "visio-stencil-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 10,
+    "source": "fileinfo"
+  },
+  "summary": "A VSS file contains stencils created by Microsoft Visio, a program used to design flowcharts, drawings, and other technical diagrams. It stores a group of shapes, objects, or connectors and provides additional pre-drawn objects users can import into a .VSD or .VSDX Visio drawing.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "microsoft-visio-365",
+        "display_name": "Microsoft Visio 365"
+      },
+      {
+        "software": "nevron-software-mydraw",
+        "display_name": "Nevron Software MyDraw"
+      },
+      {
+        "software": "the-omni-group-omnigraffle",
+        "display_name": "The Omni Group OmniGraffle"
+      },
+      {
+        "software": "diagrams.net-draw.io",
+        "display_name": "diagrams.net draw.io"
+      }
+    ],
+    "macos": [
+      {
+        "software": "the-omni-group-omnigraffle",
+        "display_name": "The Omni Group OmniGraffle"
+      },
+      {
+        "software": "nevron-software-mydraw",
+        "display_name": "Nevron Software MyDraw"
+      }
+    ],
+    "web": [
+      {
+        "software": "diagrams.net-draw.io",
+        "display_name": "diagrams.net draw.io"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "VSS file icon",
+      "alt": "VSS file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/vss-523.png"
+    },
+    {
+      "caption": "VSS file open in The Omni Group OmniGraffle 7",
+      "alt": "VSS file open in The Omni Group OmniGraffle 7",
+      "source_url": "https://fileinfo.com/img/ss/md/vss_523.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-05-21",
+  "sources": [
+    {
+      "url": "vss.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

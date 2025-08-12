@@ -1,0 +1,49 @@
+{
+  "slug": "ced",
+  "extension": "ced",
+  "name": "JVC Camera Video Data File",
+  "category": "jvc-camera-video-data-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 35,
+    "source": "fileinfo"
+  },
+  "summary": "File created by some JVC cameras when the SD card is not formatted properly for the camcorder; saves data about the recorded video but cannot be played by any video software--instead, you should reformat the SD card for the camera, and then the camcorder will record video in the standard .MTS or .MOD format.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "not-meant-to-be-opened",
+        "display_name": "Not meant to be opened"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-08-30",
+  "sources": [
+    {
+      "url": "ced.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

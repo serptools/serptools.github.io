@@ -1,0 +1,39 @@
+{
+  "slug": "epub",
+  "extension": "epub",
+  "name": "EPUB eBook",
+  "category": "epub-ebook",
+  "summary": "",
+  "developer_org": "idpf",
+  "developer_name": "IDPF",
+  "more_information": {
+    "screenshot": {
+      "url": "https://fileinfo.com/img/ss/sm/epub_3541.png",
+      "alt": "Screenshot of a .epub file in Apple Books 5",
+      "caption": "EPUB file open in Apple Books 5"
+    },
+    "description": [
+      "The International Digital Publishing Forum (IDPF) initially released the EPUB format in 2007 as a replacement for the Open eBook (OEB) format. EPUB has undergone several revisions since its release, with its most recent version, 3.3, released in May 2023.",
+      "The EPUB format is Zip-based and stores resources that make up the publication, including .XML , .XHTML , .NCX , .CSS , and .SVG files. These files contain the publication's contents, including its text, chapter links, cover art, and images. Many commercial eBooks also include digital rights management ( DRM ) protection, which limits viewing to only authorized devices."
+    ]
+  },
+  "images": [
+    {
+      "url": "https://fileinfo.com/img/ss/sm/epub_3541.png",
+      "alt": "Screenshot of a .epub file in Apple Books 5",
+      "caption": "EPUB file open in Apple Books 5"
+    },
+    {
+      "url": "https://fileinfo.com/img/ss/sm/epub_3541-2.png",
+      "alt": "EPUB file renamed as a ZIP file and opened in Windows File Explorer",
+      "caption": "EPUB file renamed as a ZIP file and opened in Windows File Explorer"
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "epub.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

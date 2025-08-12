@@ -1,0 +1,76 @@
+{
+  "slug": "love",
+  "extension": "love",
+  "name": "LÖVE Game Package",
+  "category": "l-ve-game-package",
+  "developer_org": "l-ve",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 25,
+    "source": "fileinfo"
+  },
+  "summary": "A LOVE file is a game package created by LÖVE, a free framework used to develop 2D games with the Lua programming language. It is saved in a compressed .ZIP format, storing a main.lua script and other assets (e.g., scripts, graphics, sounds, and fonts). When you open a LOVE file, the LÖVE engine runs the game.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "l-ve",
+        "display_name": "LÖVE"
+      }
+    ],
+    "android": [
+      {
+        "software": "l-ve-for-android",
+        "display_name": "LÖVE for Android"
+      }
+    ],
+    "macos": [
+      {
+        "software": "l-ve",
+        "display_name": "LÖVE"
+      }
+    ],
+    "linux": [
+      {
+        "software": "l-ve",
+        "display_name": "LÖVE"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "LOVE file icon",
+      "alt": "LOVE file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/love-7181.png"
+    },
+    {
+      "caption": "LOVE file open in LÖVE 11.3 (macOS version)",
+      "alt": "LOVE file open in LÖVE 11.3 (macOS version)",
+      "source_url": "https://fileinfo.com/img/ss/md/love_7181.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-02-02",
+  "sources": [
+    {
+      "url": "love.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

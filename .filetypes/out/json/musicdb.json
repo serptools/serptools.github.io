@@ -1,0 +1,59 @@
+{
+  "slug": "musicdb",
+  "extension": "musicdb",
+  "name": "Apple Music Library",
+  "category": "apple-music-library",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "A MUSICDB file is a database used by Apple Music, a free audio player bundled with macOS. It contains information about songs stored in the Music library or library preferences or application settings for Music. MUSICDB files are packaged with the .MUSICLIBRARY file.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "apple-music",
+        "display_name": "Apple Music"
+      }
+    ],
+    "windows": [
+      {
+        "software": "apple-music",
+        "display_name": "Apple Music"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "MUSICDB file icon",
+      "alt": "MUSICDB file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/musicdb-12367.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-10-14",
+  "sources": [
+    {
+      "url": "musicdb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "slug": "sar",
+  "extension": "sar",
+  "name": "Sibelius Arrange Style",
+  "category": "1.-sibelius-arrange-style",
+  "developer_org": "sibelius",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 11,
+    "source": "fileinfo"
+  },
+  "summary": "Stores musical arrangements used by Sibelius music notation software; allows songs with similar styles to be composed from the same basic configuration; may include instruments, track configurations, meter, tempo, and other settings.",
+  "standards": [],
+  "mime_types": [
+    "64/128"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "sibelius-music-notation-software",
+        "display_name": "Sibelius music notation software"
+      },
+      {
+        "software": "sap-sapcar",
+        "display_name": "SAP SAPCAR"
+      },
+      {
+        "software": "newera-graphics-converter-pro",
+        "display_name": "Newera Graphics Converter Pro"
+      },
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      }
+    ],
+    "macos": [
+      {
+        "software": "sibelius-music-notation-software",
+        "display_name": "Sibelius music notation software"
+      },
+      {
+        "software": "sap-sapcar",
+        "display_name": "SAP SAPCAR"
+      },
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      }
+    ],
+    "linux": [
+      {
+        "software": "sap-sapcar",
+        "display_name": "SAP SAPCAR"
+      },
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2007-05-07",
+  "sources": [
+    {
+      "url": "sar.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

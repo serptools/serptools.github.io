@@ -1,0 +1,75 @@
+{
+  "slug": "smskin",
+  "extension": "smskin",
+  "name": "StarMade Skin File",
+  "category": "starmade-skin-file",
+  "developer_org": "schine",
+  "popularity": {
+    "rating": 1.7,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "An SMSKIN file contains a skin used by StarMade, an open-universe space simulation sandbox game. It contains a skin, which is a texture used to customize the appearance of a player. SMSKIN files are created from .PNG files that come default with the game or are customized by a user.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "schine-starmade",
+        "display_name": "Schine StarMade"
+      },
+      {
+        "software": "7-zip",
+        "display_name": "7-Zip"
+      },
+      {
+        "software": "corel-winzip",
+        "display_name": "Corel WinZip"
+      },
+      {
+        "software": "rarlab-winrar",
+        "display_name": "RARLAB WinRAR"
+      }
+    ],
+    "macos": [
+      {
+        "software": "corel-winzip-mac",
+        "display_name": "Corel WinZip Mac"
+      },
+      {
+        "software": "schine-starmade",
+        "display_name": "Schine StarMade"
+      }
+    ],
+    "linux": [
+      {
+        "software": "schine-starmade",
+        "display_name": "Schine StarMade"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-07-19",
+  "sources": [
+    {
+      "url": "smskin.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

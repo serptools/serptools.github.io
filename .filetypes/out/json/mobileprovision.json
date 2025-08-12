@@ -1,0 +1,59 @@
+{
+  "slug": "mobileprovision",
+  "extension": "mobileprovision",
+  "name": "Xcode Mobile Provisioning Profile",
+  "category": "xcode-mobile-provisioning-profile",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 4.1,
+    "votes": 19,
+    "source": "fileinfo"
+  },
+  "summary": "File used by Apple Xcode, a software development IDE often used for creating iPhone apps; contains a provisioning profile, which allows an app to be uploaded to a limited number of iPhones or iPads while it is still in development.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "apple-xcode",
+        "display_name": "Apple Xcode"
+      }
+    ],
+    "windows": [
+      {
+        "software": "apple-xcode",
+        "display_name": "Apple Xcode"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "MOBILEPROVISION file icon",
+      "alt": "MOBILEPROVISION file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/mobileprovision-5961.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-08-24",
+  "sources": [
+    {
+      "url": "mobileprovision.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

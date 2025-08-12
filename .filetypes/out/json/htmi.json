@@ -1,0 +1,106 @@
+{
+  "slug": "htmi",
+  "extension": "htmi",
+  "name": "HyperText Media Interoperable File",
+  "category": "hypertext-media-interoperable-file",
+  "developer_org": "hd-web-france",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 22,
+    "source": "fileinfo"
+  },
+  "summary": "An HTMI file is a text file saved in the HyperText Media Interoperable (HTMI) format. It contains text written in a format based on HTML . HTMI files are most often used to encode binary files, such as images, movies, or electronic publications, in a human-readable and -editable format and embed those files in HTML files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "chromeos": [
+      {
+        "software": "google-chrome",
+        "display_name": "Google Chrome"
+      },
+      {
+        "software": "google-chrome-text",
+        "display_name": "Google Chrome Text"
+      }
+    ],
+    "windows": [
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "web": [
+      {
+        "software": "web-browser",
+        "display_name": "web browser"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "HTMI file icon",
+      "alt": "HTMI file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/htmi-12445.png"
+    },
+    {
+      "caption": "HTMI file open in Microsoft Visual Studio Code",
+      "alt": "HTMI file open in Microsoft Visual Studio Code",
+      "source_url": "https://fileinfo.com/img/ss/md/htmi_12445.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-12-07",
+  "sources": [
+    {
+      "url": "htmi.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

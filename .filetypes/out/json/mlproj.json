@@ -1,0 +1,75 @@
+{
+  "slug": "mlproj",
+  "extension": "mlproj",
+  "name": "MATLAB Archived Project",
+  "category": "1.-matlab-archived-project",
+  "developer_org": "mathworks",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "An MLPROJ file is a MathWorks MATLAB project that has been packaged as a single compressed archive . It contains all the data needed to import and open a project in MATLAB. MLPROJ files are used to share projects among MATLAB users.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "the-mathworks-matlab",
+        "display_name": "The MathWorks MATLAB"
+      }
+    ],
+    "macos": [
+      {
+        "software": "the-mathworks-matlab",
+        "display_name": "The MathWorks MATLAB"
+      },
+      {
+        "software": "apple-xcode",
+        "display_name": "Apple Xcode"
+      },
+      {
+        "software": "xcode-open-developer-tool-create-ml",
+        "display_name": "Xcode → Open Developer Tool → Create ML"
+      },
+      {
+        "software": "open-project",
+        "display_name": "Open Project"
+      },
+      {
+        "software": "apple-create-ml",
+        "display_name": "Apple Create ML"
+      }
+    ],
+    "linux": [
+      {
+        "software": "the-mathworks-matlab",
+        "display_name": "The MathWorks MATLAB"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-04-28",
+  "sources": [
+    {
+      "url": "mlproj.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

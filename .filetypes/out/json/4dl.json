@@ -1,0 +1,53 @@
+{
+  "slug": "4dl",
+  "extension": "4dl",
+  "name": "4th Dimension Database Log File",
+  "category": "4th-dimension-database-log-file",
+  "developer_org": "4d",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Log file that stores a record of changes to a 4D database ( .4DD ) file; saved along with the database file and uses a similar filename; designed to keep track the updates made to the database.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "4d-4th-dimension",
+        "display_name": "4D 4th Dimension"
+      }
+    ],
+    "macos": [
+      {
+        "software": "4d-4th-dimension",
+        "display_name": "4D 4th Dimension"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-07-27",
+  "sources": [
+    {
+      "url": "4dl.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

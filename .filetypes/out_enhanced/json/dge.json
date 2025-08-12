@@ -1,0 +1,25 @@
+{
+  "slug": "dge",
+  "extension": "dge",
+  "name": "Enterprise Test Server Declaration Generator File",
+  "category": "enterprise-test-server-declaration-generator-file",
+  "summary": "",
+  "developer_org": "micro-focus",
+  "developer_name": "Micro Focus",
+  "more_information": {
+    "description": [
+      "DGE files are typically created when a user enters specifications in the Declaration Generator window in Enterprise Test Server and clicks SAVE AS . The files may also be created using a text editor and renaming the \".txt\" extension of a .TXT file to \".dge\".",
+      "You can run a DGE file in Enterprise Test Server by running the batch version of the Declaration Generator in the Enterprise Developer command prompt. You can call the \"dclg40n\" program with the following syntax:",
+      "dclg40n [-iIniFile -r -n]-b filename",
+      "For example, if the DGE file was example.dge , the syntax may be the following:",
+      "dclg40n -b c:\\BATCH\\EXAMPLE"
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "dge.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "bfm",
+  "extension": "bfm",
+  "name": "Terminal Reality Model File",
+  "category": "terminal-reality-model-file",
+  "developer_org": "terminal-reality",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "Game 3D model file used by games created by Terminal Reality, the makers of titles such as Bloodrayne and The Walking Dead: Survival Instinct; saves model information for 3D objects in the game; can be extracted from a .POD file, which is the game data container format for Terminal Reality games.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "br2podtools",
+        "display_name": "BR2PodTools"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2013-03-25",
+  "sources": [
+    {
+      "url": "bfm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

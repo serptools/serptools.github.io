@@ -1,0 +1,53 @@
+{
+  "slug": "avj",
+  "extension": "avj",
+  "name": "AntiVir Job File",
+  "category": "antivir-job-file",
+  "developer_org": "avira-operations",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "File used by AntiVir antivirus software for Windows; saved in a plain text format and contains the configuration information for a scheduled job, which may be for an antivirus scan or a software update.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "avira-antivirus-pro",
+        "display_name": "Avira Antivirus Pro"
+      }
+    ],
+    "macos": [
+      {
+        "software": "avira-antivirus-pro",
+        "display_name": "Avira Antivirus Pro"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-08-22",
+  "sources": [
+    {
+      "url": "avj.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

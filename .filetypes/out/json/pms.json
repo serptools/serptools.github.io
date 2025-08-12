@@ -1,0 +1,77 @@
+{
+  "slug": "pms",
+  "extension": "pms",
+  "name": "PlanetMiner Save File",
+  "category": "planetminer-save-file",
+  "developer_org": "johneda",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "A PMS file is a game save file created by PlanetMiner, a 2D interplanetary block-excavating game. It stores saved game progress in plain text, which includes a player's score, current level, number of gems collected, number of levels completed, and blocks excavated and deleted. PMS files allow players to save and resume PlanetMiner games.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "planetminer",
+        "display_name": "PlanetMiner"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "planetminer",
+        "display_name": "PlanetMiner"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "planetminer",
+        "display_name": "PlanetMiner"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "PMS file open in PlanetMiner 1.04",
+      "alt": "PMS file open in PlanetMiner 1.04",
+      "source_url": "https://fileinfo.com/img/ss/md/pms_12467.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-12-20",
+  "sources": [
+    {
+      "url": "pms.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

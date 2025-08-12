@@ -1,0 +1,53 @@
+{
+  "slug": "wand",
+  "extension": "wand",
+  "name": "GarageBand Magic Template",
+  "category": "garageband-magic-template",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 4.2,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "Template containing settings for specific genres of music available in GarageBand; enables the user to play instruments specific to the selected genre; some variations of this template file are Latin, Blues, Jazz, Country, Funk, and Reggae; referenced by program, user is typically unaware of its presence.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "apple-garageband",
+        "display_name": "Apple GarageBand"
+      }
+    ],
+    "windows": [
+      {
+        "software": "apple-garageband",
+        "display_name": "Apple GarageBand"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2013-08-15",
+  "sources": [
+    {
+      "url": "wand.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

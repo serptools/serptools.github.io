@@ -1,0 +1,81 @@
+{
+  "slug": "qoi",
+  "extension": "qoi",
+  "name": "Quite OK Image Format",
+  "category": "quite-ok-image-format",
+  "developer_org": "dominic-szablewski",
+  "popularity": {
+    "rating": 4.3,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "A QOI file is a raster image saved in the Quite OK Image Format (QOI). The image it contains is losslessly compressed and saved in a 24-bit RGB or 32-bit RGBA format. QOI files are the same size as similar .PNG files, but can be encoded and decoded more quickly.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "imagemagick",
+        "display_name": "ImageMagick"
+      },
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      },
+      {
+        "software": "irfanview",
+        "display_name": "IrfanView"
+      }
+    ],
+    "macos": [
+      {
+        "software": "imagemagick",
+        "display_name": "ImageMagick"
+      },
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      }
+    ],
+    "linux": [
+      {
+        "software": "imagemagick",
+        "display_name": "ImageMagick"
+      },
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "QOI file open in ImageMagick",
+      "alt": "QOI file open in ImageMagick",
+      "source_url": "https://fileinfo.com/img/ss/md/qoi_12795.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-07-15",
+  "sources": [
+    {
+      "url": "qoi.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

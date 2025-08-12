@@ -1,0 +1,69 @@
+{
+  "slug": "sc45",
+  "extension": "sc45",
+  "name": "SuperCard Project File",
+  "category": "supercard-project-file",
+  "developer_org": "solutions-etcetera",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Project file created by SuperCard, a high-level visual authoring tool for Mac OS X; stores a data document for the SuperCard runtime and includes user interface components, scripts, and application resources; may contain multiple windows that execute a \"stack\" in a manner similar to Apple's HyperCard technology.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "solutions-etcetera-supercard",
+        "display_name": "Solutions Etcetera SuperCard"
+      },
+      {
+        "software": "solutions-etcetera-superedit",
+        "display_name": "Solutions Etcetera SuperEdit"
+      },
+      {
+        "software": "solutions-etcetera-supercard-player",
+        "display_name": "Solutions Etcetera SuperCard Player"
+      }
+    ],
+    "windows": [
+      {
+        "software": "solutions-etcetera-supercard",
+        "display_name": "Solutions Etcetera SuperCard"
+      },
+      {
+        "software": "solutions-etcetera-superedit",
+        "display_name": "Solutions Etcetera SuperEdit"
+      },
+      {
+        "software": "solutions-etcetera-supercard-player",
+        "display_name": "Solutions Etcetera SuperCard Player"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-11-18",
+  "sources": [
+    {
+      "url": "sc45.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

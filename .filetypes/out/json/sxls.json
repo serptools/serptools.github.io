@@ -1,0 +1,47 @@
+{
+  "slug": "sxls",
+  "extension": "sxls",
+  "name": "Sealed Microsoft Excel Spreadsheet",
+  "category": "sealed-microsoft-excel-spreadsheet",
+  "developer_org": "oracle",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "An SXLS file is a protected .XLS file created by Oracle Information Rights Management (IRM) document protection software. It contains a spreadsheet that has been locked in a \"sealed\" format that can only be opened by users with the appropriate credentials.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "oracle-irm-desktop",
+        "display_name": "Oracle IRM Desktop"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-05-25",
+  "sources": [
+    {
+      "url": "sxls.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

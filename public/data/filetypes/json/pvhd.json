@@ -1,0 +1,23 @@
+{
+  "slug": "pvhd",
+  "extension": "pvhd",
+  "name": "Paragon Virtual Hard Drive",
+  "category": "paragon-virtual-hard-drive",
+  "summary": "",
+  "developer_org": "paragon-software",
+  "developer_name": "Paragon Software",
+  "more_information": {
+    "description": [
+      "The pVHD format is efficient for handling data de-duplication, incremental chains, and data synchronization. It can be used to restore individual files, hard drives, and selected partitions from a pVHD image.",
+      "You can create a PVHD file by selecting the \"Backup to Virtual Disk\" or \"Incremental Backup to Virtual Disk\" options.",
+      "NOTE: While the program still supports the old .PBF format, the pVHD format is intended to replace it."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "pvhd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

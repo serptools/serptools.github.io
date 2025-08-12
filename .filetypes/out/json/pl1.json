@@ -1,0 +1,74 @@
+{
+  "slug": "pl1",
+  "extension": "pl1",
+  "name": "PL/I Source Code",
+  "category": "1.-pl-i-source-code",
+  "developer_org": "ibm",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Program written in PL/I (Programming Language One), a language designed primarily for data processing applications; supports recursion and structured programming; designed to be highly-structured, yet is also free-form, having no reserved keywords.",
+  "standards": [],
+  "mime_types": [
+    "pl/i",
+    "vse/esa"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "ibm-pl-i-for-vse-esa",
+        "display_name": "IBM PL/I for VSE/ESA"
+      },
+      {
+        "software": "pl-i-for-gcc",
+        "display_name": "PL/I for GCC"
+      },
+      {
+        "software": "broderbund-3d-home-architect-deluxe",
+        "display_name": "Broderbund 3D Home Architect Deluxe"
+      },
+      {
+        "software": "adventure-maker",
+        "display_name": "Adventure Maker"
+      }
+    ],
+    "macos": [
+      {
+        "software": "pl-i-for-gcc",
+        "display_name": "PL/I for GCC"
+      }
+    ],
+    "linux": [
+      {
+        "software": "pl-i-for-gcc",
+        "display_name": "PL/I for GCC"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-03-30",
+  "sources": [
+    {
+      "url": "pl1.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

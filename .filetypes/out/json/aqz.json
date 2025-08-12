@@ -1,0 +1,53 @@
+{
+  "slug": "aqz",
+  "extension": "aqz",
+  "name": "Ancestral Quest Backup Database File",
+  "category": "ancestral-quest-backup-database-file",
+  "developer_org": "incline-software",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "An AQZ file is a backup database file created by Incline Software Ancestral Quest, a family tree genealogy application. It stores a family tree genealogical database, which includes the names, birthplaces, and descriptions of family members, but has been compressed to save space.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "incline-software-ancestral-quest",
+        "display_name": "Incline Software Ancestral Quest"
+      }
+    ],
+    "macos": [
+      {
+        "software": "incline-software-ancestral-quest",
+        "display_name": "Incline Software Ancestral Quest"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-12-11",
+  "sources": [
+    {
+      "url": "aqz.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

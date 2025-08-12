@@ -1,0 +1,35 @@
+{
+  "slug": "ccctask",
+  "extension": "ccctask",
+  "name": "Carbon Copy Cloner Task Configuration",
+  "category": "carbon-copy-cloner-task-configuration",
+  "summary": "",
+  "developer_org": "bombich-software",
+  "developer_name": "Bombich Software",
+  "more_information": {
+    "screenshot": {
+      "url": "https://fileinfo.com/img/ss/sm/ccctask_12100.png",
+      "alt": "Screenshot of a .ccctask file in Bombich Software Carbon Copy Cloner",
+      "caption": "CCCTASK file open in Bombich Software Carbon Copy Cloner"
+    },
+    "description": [
+      "Carbon Copy Cloner users can either manually back up their data or create tasks that automatically back up their data. These tasks are stored in CCCTASK files. Users often schedule Carbon Copy Cloner to execute CCCTASK files at regular intervals, to produce frequent backups of their data. CCCTASK files may also contain other backup-related settings, such as additional tasks to perform during and after the backup process.",
+      "Each time Carbon Copy Cloner executes a CCCTASK file, it stores a record of the task's success or failure in the app's Task History. To see the last time a CCCTASK file was used to perform a backup task, as well as whether the task was completed successfully, select History from Carbon Copy Cloner's toolbar.",
+      "NOTE: If you've encountered a CCCTASK file outside the Macintosh HD/​Library/​Application Support/​com.bombich.ccc directory, it was likely exported from Carbon Copy Cloner. Users can export CCCTASK files using Carbon Copy Cloner's Export Task... , Export Task Group... , and Export All Tasks... options."
+    ]
+  },
+  "images": [
+    {
+      "url": "https://fileinfo.com/img/ss/sm/ccctask_12100.png",
+      "alt": "Screenshot of a .ccctask file in Bombich Software Carbon Copy Cloner",
+      "caption": "CCCTASK file open in Bombich Software Carbon Copy Cloner"
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "ccctask.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

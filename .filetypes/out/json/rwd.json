@@ -1,0 +1,55 @@
+{
+  "slug": "rwd",
+  "extension": "rwd",
+  "name": "NRG Raw Wind Data File",
+  "category": "1.-nrg-raw-wind-data-file",
+  "developer_org": "nrg-systems",
+  "popularity": {
+    "rating": 4.3,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "Data file created by NRG Systems' Symphonie data loggers, which capture wind speed and direction information; can be uploaded to a PC and processed using Symphonie Data Retriever, a free program provided by NRG Systems.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "nrg-systems-symphonie-data-retriever",
+        "display_name": "NRG Systems Symphonie Data Retriever"
+      },
+      {
+        "software": "microsoft-flight-simulator-x-steam-edition",
+        "display_name": "Microsoft Flight Simulator X Steam Edition"
+      },
+      {
+        "software": "fsx-mission-rewards-decompile-utility",
+        "display_name": "FSX Mission Rewards Decompile Utility"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-07-03",
+  "sources": [
+    {
+      "url": "rwd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

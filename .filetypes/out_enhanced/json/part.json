@@ -1,0 +1,29 @@
+{
+  "slug": "part",
+  "extension": "part",
+  "name": "Partially Downloaded File",
+  "category": "partially-downloaded-file",
+  "summary": "",
+  "developer_org": "the-lego-group",
+  "developer_name": "The LEGO Group",
+  "more_information": {
+    "description": [
+      "When downloading a file with Firefox, the web browser creates a PART file in the \"Downloads\" folder on your computer. You may see the PART file if the file is currently downloading or if the download was interrupted before completion. A download interruption could be due to a lost Internet connection, the Firefox browser or computer crashing, or to you pausing the download.",
+      "As Firefox downloads the file, the program creates a PART file to store the data being downloaded. Firefox replaces the name of the file with a string of characters and appends the .part extension to the extension of the file. For example, the file example.mov would have the name ZT5KR1EL.mov.part when it is being downloaded. Once the download is complete, Firefox removes the .part extension and the file is ready to be used."
+    ]
+  },
+  "images": [
+    {
+      "url": "https://fileinfo.com/img/ss/sm/part_12901.png",
+      "alt": "Screenshot of a .part file in LEGO PartDesigner",
+      "caption": "PART file open in LEGO PartDesigner"
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "part.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

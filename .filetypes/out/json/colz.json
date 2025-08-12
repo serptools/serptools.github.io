@@ -1,0 +1,53 @@
+{
+  "slug": "colz",
+  "extension": "colz",
+  "name": "Adobe Collage File",
+  "category": "adobe-collage-file",
+  "developer_org": "adobe-systems",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "File created by Adobe Collage, an Adobe Touch App used for creating modern moodboards; may contain graphics and other content from .PDF , .PSD , and .AI files; can also include hand-drawn pen graphics and text; may be uploaded and shared on the Adobe Creative Cloud.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "adobe-photoshop-with-adobe-collage-colz-script",
+        "display_name": "Adobe Photoshop with Adobe Collage COLZ script"
+      }
+    ],
+    "macos": [
+      {
+        "software": "adobe-photoshop-with-adobe-collage-colz-script",
+        "display_name": "Adobe Photoshop with Adobe Collage COLZ script"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-07-06",
+  "sources": [
+    {
+      "url": "colz.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

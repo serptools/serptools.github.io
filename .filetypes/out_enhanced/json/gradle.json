@@ -1,0 +1,28 @@
+{
+  "slug": "gradle",
+  "extension": "gradle",
+  "name": "Gradle Script",
+  "category": "gradle-script",
+  "summary": "",
+  "developer_org": "n-a",
+  "developer_name": "N/A",
+  "more_information": {
+    "description": [
+      "The most common GRADLE file is the build.gradle file, which is used to define a project and its tasks. In Gradle, a build consists of one or more projects and each project consists of one or more tasks. Projects may represent various things depending on what you are using Gradle for, which includes deploying an application to a staging environment or building a web application. When you run a Gradle build with the gradle command, the build.gradle file in the current directory is called. You can find more information about build.gradle files at docs.gradle.org .",
+      "NOTE: Gradle is a build automation system that was designed for multi-project builds. It is predominantly used by Android Studio users to build their projects into .APK Android packages for distribution."
+    ]
+  },
+  "common_filenames": [
+    {
+      "filename": "build.gradle",
+      "description": "build.gradle - GRADLE build script used to define a project and its tasks in GRADLE."
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "gradle.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

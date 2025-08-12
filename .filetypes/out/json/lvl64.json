@@ -1,0 +1,55 @@
+{
+  "slug": "lvl64",
+  "extension": "lvl64",
+  "name": "Super Mario 64 Custom Level",
+  "category": "super-mario-64-custom-level",
+  "developer_org": "pilzinsel64",
+  "popularity": {
+    "rating": 2.4,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "An LVL64 file is a custom game level created by SM64 ROM Manager, a Super Mario 64 ROM modding tool. It contains one or more 3D objects used to replace a default Super Mario 64 level, as well as level settings. Modders can export LVL64 files from SM64 ROM Manager's Level Manager, to back up or share levels.",
+  "standards": [],
+  "mime_types": [
+    "level/area"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "sm64-rom-manager",
+        "display_name": "SM64 ROM Manager"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "LVL64 file open in SM64 ROM Manager",
+      "alt": "LVL64 file open in SM64 ROM Manager",
+      "source_url": "https://fileinfo.com/img/ss/md/lvl64_12975.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-10-31",
+  "sources": [
+    {
+      "url": "lvl64.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

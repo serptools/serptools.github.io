@@ -1,0 +1,79 @@
+{
+  "slug": "dsk",
+  "extension": "dsk",
+  "name": "Disk Image",
+  "category": "1.-disk-image",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 39,
+    "source": "fileinfo"
+  },
+  "summary": "Generic disk image format created by disk imaging programs; may be from an older program that images 3.5\" diskettes, or from a newer program that creates larger disk images; often compressed to save disk space; can be mounted to appear as a disk on the desktop for Mac or within My Computer for Windows.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "softambulance-partition-doctor",
+        "display_name": "SoftAmbulance Partition Doctor"
+      },
+      {
+        "software": "poweriso",
+        "display_name": "PowerISO"
+      },
+      {
+        "software": "r-tools-technology-r-studio",
+        "display_name": "R-Tools Technology R-Studio"
+      },
+      {
+        "software": "smart-projects-isobuster",
+        "display_name": "Smart Projects IsoBuster"
+      },
+      {
+        "software": "apple-disk-utility",
+        "display_name": "Apple Disk Utility"
+      },
+      {
+        "software": "embarcadero-delphi",
+        "display_name": "Embarcadero Delphi"
+      },
+      {
+        "software": "dske-simple-ids",
+        "display_name": "DSKE Simple IDs"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-disk-utility",
+        "display_name": "Apple Disk Utility"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-08-09",
+  "sources": [
+    {
+      "url": "dsk.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "slug": "itpc",
+  "extension": "itpc",
+  "name": "iTunes Podcast Link",
+  "category": "itunes-podcast-link",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 2.7,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "An ITPC file is a link file used by Apple iTunes. It contains information that iTunes uses to subscribe a user to a podcast. Podcast creators host ITPC files online to help users easily subscribe to their podcasts.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "apple-itunes",
+        "display_name": "Apple iTunes",
+        "status": "discontinued"
+      },
+      {
+        "software": "jriver-media-center",
+        "display_name": "JRiver Media Center"
+      }
+    ],
+    "macos": [
+      {
+        "software": "jriver-media-center",
+        "display_name": "JRiver Media Center"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-09-20",
+  "sources": [
+    {
+      "url": "itpc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

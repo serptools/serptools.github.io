@@ -1,0 +1,63 @@
+{
+  "slug": "riq",
+  "extension": "riq",
+  "name": "Heaven Studio Remix",
+  "category": "heaven-studio-remix",
+  "developer_org": "rheavenstudio",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "A RIQ file is a game level created and used by Heaven Studio, a PC port of the Nintendo DS game Rhythm Heaven. It is a renamed .ZIP file that contains a song and a level description. The level description is saved as a .JSON file; the song is likely saved as an .OGG or .WAV file.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "rename-.riq-to-.zip-extract-contents-with-any-zip-decompression-utility",
+        "display_name": "Rename .riq to .zip ; extract contents with any Zip-decompression utility"
+      },
+      {
+        "software": "heaven-studio",
+        "display_name": "Heaven Studio"
+      }
+    ],
+    "macos": [
+      {
+        "software": "heaven-studio",
+        "display_name": "Heaven Studio"
+      }
+    ],
+    "linux": [
+      {
+        "software": "heaven-studio",
+        "display_name": "Heaven Studio"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-06-12",
+  "sources": [
+    {
+      "url": "riq.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

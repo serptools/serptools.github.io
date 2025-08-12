@@ -1,0 +1,66 @@
+{
+  "slug": "gfx",
+  "extension": "gfx",
+  "name": "GFx Scaleform File",
+  "category": "gfx-scaleform-file",
+  "developer_org": "autodesk",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 21,
+    "source": "fileinfo"
+  },
+  "summary": "A GFX file is an animation file used by video games, such as Batman: Arkham Asylum and Mass Effect. It contains vector and raster graphics in a format similar to the .SWF file format. GFX files also may include ActionScript interactive actions.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "autodesk-scaleform",
+        "display_name": "Autodesk Scaleform"
+      },
+      {
+        "software": "autodesk-scaleform-mobile-sdk",
+        "display_name": "Autodesk Scaleform Mobile SDK",
+        "status": "discontinued"
+      }
+    ],
+    "ios": [
+      {
+        "software": "autodesk-scaleform-mobile-sdk",
+        "display_name": "Autodesk Scaleform Mobile SDK",
+        "status": "discontinued"
+      }
+    ],
+    "android": [
+      {
+        "software": "autodesk-scaleform-mobile-sdk",
+        "display_name": "Autodesk Scaleform Mobile SDK",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-09-20",
+  "sources": [
+    {
+      "url": "gfx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

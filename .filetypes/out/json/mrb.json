@@ -1,0 +1,49 @@
+{
+  "slug": "mrb",
+  "extension": "mrb",
+  "name": "Multiple Resolution Bitmap File",
+  "category": "multiple-resolution-bitmap-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 2.4,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Bitmap image file containing several different resolutions of an image; includes settings that mark each image for a specific resolution and type of display; prevents graphics from being stretched or appearing too big or small; also helps for mapping colors more accurately on different-looking displays.",
+  "standards": [],
+  "mime_types": [
+    "c/c"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-visual-c++",
+        "display_name": "Microsoft Visual C++"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2006",
+  "sources": [
+    {
+      "url": "mrb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

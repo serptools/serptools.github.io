@@ -1,0 +1,60 @@
+{
+  "slug": "bcup",
+  "extension": "bcup",
+  "name": "Buttercup Vault",
+  "category": "buttercup-vault",
+  "developer_org": "perry-mitchell",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "A BCUP file is an encrypted password vault created by Buttercup, an open-source password manager. It contains login credentials, payment methods, and/or notes a user has added to their vault. Because BCUP files are encrypted, users can view the credentials and other data they contain only in Buttercup.",
+  "standards": [],
+  "mime_types": [
+    "and/or"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "buttercup",
+        "display_name": "Buttercup"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "BCUP file icon",
+      "alt": "BCUP file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/bcup-13535.png"
+    },
+    {
+      "caption": "BCUP file open in Buttercup",
+      "alt": "BCUP file open in Buttercup",
+      "source_url": "https://fileinfo.com/img/ss/md/bcup_13535.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-10-27",
+  "sources": [
+    {
+      "url": "bcup.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "ldoc",
+  "extension": "ldoc",
+  "name": "CutOut Project",
+  "category": "cutout-project",
+  "developer_org": "franzis",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "An LDOC file is a project created by FRANZIS CutOut, an app for cutting out objects in images. It stores an image with layers, masks, text, and other edits a CutOut user applies to a project.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "franzis-cutout-10",
+        "display_name": "FRANZIS CutOut 10"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "LDOC file open in FRANZIS CutOut 10",
+      "alt": "LDOC file open in FRANZIS CutOut 10",
+      "source_url": "https://fileinfo.com/img/ss/md/ldoc_12951.jpg"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-10-19",
+  "sources": [
+    {
+      "url": "ldoc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "aar",
+  "extension": "aar",
+  "name": "Android Archive",
+  "category": "android-archive",
+  "developer_org": "google",
+  "popularity": {
+    "rating": 4.1,
+    "votes": 17,
+    "source": "fileinfo"
+  },
+  "summary": "An AAR file contains a software library used for developing Android apps. It is structurally similar to an .APK file (Android Package), but it allows a developer to store a reusable component that can be used across multiple different apps. Examples of reusable Android components include Activities, Services, and user interface layouts.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "android": [
+      {
+        "software": "google-android-studio",
+        "display_name": "Google Android Studio"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-11-28",
+  "sources": [
+    {
+      "url": "aar.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

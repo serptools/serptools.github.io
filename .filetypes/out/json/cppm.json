@@ -1,0 +1,156 @@
+{
+  "slug": "cppm",
+  "extension": "cppm",
+  "name": "C++ Module",
+  "category": "c++-module",
+  "developer_org": "iso-c++-standards-committee",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "A CPPM file is a C++ module, which serves as a container for organizing reusable pieces of a program written in the C++ programming language. It stores a module declaration that names the module, exported code, such as functions or classes , shared with other parts of the program, private code used internally within the module, and imports that bring in code from other modules or libraries.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-visual-studio-2022",
+        "display_name": "Microsoft Visual Studio 2022"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "code-blocks",
+        "display_name": "Code::Blocks"
+      },
+      {
+        "software": "embarcadero-technologies-c++-builder",
+        "display_name": "Embarcadero Technologies C++ Builder"
+      },
+      {
+        "software": "es-computing-editplus",
+        "display_name": "ES-Computing EditPlus"
+      },
+      {
+        "software": "bloodshedsoftware-dev-c++",
+        "display_name": "BloodshedSoftware Dev-C++"
+      },
+      {
+        "software": "gnu-compiler-collection-gcc",
+        "display_name": "GNU Compiler Collection (GCC)"
+      },
+      {
+        "software": "llvm",
+        "display_name": "LLVM"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "apple-xcode",
+        "display_name": "Apple Xcode"
+      },
+      {
+        "software": "freescale-codewarrior-development-tools",
+        "display_name": "Freescale CodeWarrior Development Tools",
+        "pricing": "free"
+      }
+    ],
+    "macos": [
+      {
+        "software": "macromates-textmate",
+        "display_name": "MacroMates TextMate"
+      },
+      {
+        "software": "apple-xcode",
+        "display_name": "Apple Xcode"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "code-blocks",
+        "display_name": "Code::Blocks"
+      },
+      {
+        "software": "freescale-codewarrior-development-tools",
+        "display_name": "Freescale CodeWarrior Development Tools",
+        "pricing": "free"
+      },
+      {
+        "software": "gnu-compiler-collection-gcc",
+        "display_name": "GNU Compiler Collection (GCC)"
+      },
+      {
+        "software": "llvm",
+        "display_name": "LLVM"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "code-blocks",
+        "display_name": "Code::Blocks"
+      },
+      {
+        "software": "gnu-compiler-collection-gcc",
+        "display_name": "GNU Compiler Collection (GCC)"
+      },
+      {
+        "software": "llvm",
+        "display_name": "LLVM"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "CPPM file icon",
+      "alt": "CPPM file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/cppm-13766.png"
+    },
+    {
+      "caption": "CPPM file open in Microsoft Visual Studio Code 1.9",
+      "alt": "CPPM file open in Microsoft Visual Studio Code 1.9",
+      "source_url": "https://fileinfo.com/img/ss/md/cppm_13766.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2024-12-10",
+  "sources": [
+    {
+      "url": "cppm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

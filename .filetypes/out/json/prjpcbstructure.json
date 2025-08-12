@@ -1,0 +1,47 @@
+{
+  "slug": "prjpcbstructure",
+  "extension": "prjpcbstructure",
+  "name": "Altium Designer PCB Project Structure",
+  "category": "altium-designer-pcb-project-structure",
+  "developer_org": "altium",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "A PRJPCBSTRUCTURE file is a project data file created by Altium Designer, a CAD application used to design printed circuit boards (PCBs). When a Designer user creates a new project ( .PRJPCB file), Designer creates an accompanying PRJPCBSTRUCTURE file. This file contains information about the project's hierarchy.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "altium-designer",
+        "display_name": "Altium Designer"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-12-19",
+  "sources": [
+    {
+      "url": "prjpcbstructure.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

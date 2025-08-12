@@ -1,0 +1,117 @@
+{
+  "slug": "trp",
+  "extension": "trp",
+  "name": "HD Video Transport Stream",
+  "category": "hd-video-transport-stream",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 49,
+    "source": "fileinfo"
+  },
+  "summary": "High definition video file saved in the MPEG-2 Part 1 transport format; used for multiplexing digital video and audio streams and synchronizing the output; includes features for error correction and is often used in digital video broadcasting (DVB).",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "cyberlink-powerdvd-21",
+        "display_name": "CyberLink PowerDVD 21"
+      },
+      {
+        "software": "nero-2022",
+        "display_name": "Nero 2022"
+      },
+      {
+        "software": "handbrake",
+        "display_name": "HandBrake"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "erightsoft-super",
+        "display_name": "eRightSoft SUPER"
+      },
+      {
+        "software": "vso-convertxtodvd",
+        "display_name": "VSO ConvertXtoDVD"
+      },
+      {
+        "software": "haenlein-dvr-studio",
+        "display_name": "Haenlein DVR-Studio"
+      },
+      {
+        "software": "codec-guide-k-lite-codec-pack",
+        "display_name": "Codec Guide K-Lite Codec Pack"
+      },
+      {
+        "software": "iskysoft-video-converter",
+        "display_name": "iSkysoft Video Converter"
+      },
+      {
+        "software": "smplayer",
+        "display_name": "SMPlayer"
+      }
+    ],
+    "macos": [
+      {
+        "software": "handbrake",
+        "display_name": "HandBrake"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "iskysoft-video-converter",
+        "display_name": "iSkysoft Video Converter"
+      }
+    ],
+    "linux": [
+      {
+        "software": "smplayer",
+        "display_name": "SMPlayer"
+      },
+      {
+        "software": "handbrake",
+        "display_name": "HandBrake"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-04-02",
+  "sources": [
+    {
+      "url": "trp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

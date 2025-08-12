@@ -1,0 +1,22 @@
+{
+  "slug": "redif",
+  "extension": "redif",
+  "name": "ReDIF Template",
+  "category": "redif-template",
+  "summary": "",
+  "developer_org": "repec",
+  "developer_name": "RePEc",
+  "more_information": {
+    "description": [
+      "REDIF files are used by Research Papers in Economics (RePEc), a group dedicated to enhance the dissemination of research in Economics and other related sciences. RePEc uses REDIF and .RDF files to store metadata about publications, which allows the publications to be more easily accessed and organized. REDIF files are used to store metadata in UTF-8 text, whereas RDF files are used to contain metadata with ISO-LATIN-1 or Windows-1252 character encoding.",
+      "REDIF files are created with ReDIF software but since they are stored in plain text can be opened and edited by any text editor. Metadata stored in the REDIF file is organized into separate lines of field_name: field value . An example of a field name and value is Author-Name: John Doe ."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "redif.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

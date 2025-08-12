@@ -1,0 +1,59 @@
+{
+  "slug": "smpkg",
+  "extension": "smpkg",
+  "name": "SmartMusic Package File",
+  "category": "smartmusic-package-file",
+  "developer_org": "makemusic",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "Music file used by SmartMusic, a music practice application for band, orchestra, and voice; similar to a .PKG file; contains data referenced by SmartMusic; should not be manually opened.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "makemusic-smartmusic",
+        "display_name": "MakeMusic SmartMusic"
+      }
+    ],
+    "macos": [
+      {
+        "software": "makemusic-smartmusic",
+        "display_name": "MakeMusic SmartMusic"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "SMPKG file icon",
+      "alt": "SMPKG file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/smpkg-9089.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2013-11-21",
+  "sources": [
+    {
+      "url": "smpkg.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "mdl",
+  "extension": "mdl",
+  "name": "MathWorks Simulink Model",
+  "category": "mathworks-simulink-model",
+  "summary": "",
+  "developer_org": "nintendo",
+  "developer_name": "Nintendo",
+  "more_information": {
+    "description": [
+      "MDL files are saved in a plain text format and typically include a list of objects. Each object contains a set of properties and values that are delimited by line breaks.",
+      "NOTE: The MDL format was replaced by the .SLX model format with the release of Simulink 2012."
+    ]
+  },
+  "images": [
+    {
+      "url": "https://fileinfo.com/img/ss/sm/mdl_1713.png",
+      "alt": "Screenshot of a .mdl file in OpenMPT 1",
+      "caption": "MDL file open in OpenMPT 1"
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "mdl.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "qtp",
+  "extension": "qtp",
+  "name": "QuickTime Preferences",
+  "category": "quicktime-preferences",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "A QTP file is a settings file used by the Windows version of Apple QuickTime Player. It stores a record of a user's QuickTime preferences. QuickTime automatically applies the preferences saved in a user's QTP file at launch.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "apple-quicktime-player",
+        "display_name": "Apple QuickTime Player"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-08-01",
+  "sources": [
+    {
+      "url": "qtp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

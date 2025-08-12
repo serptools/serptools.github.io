@@ -1,0 +1,63 @@
+{
+  "slug": "lpk",
+  "extension": "lpk",
+  "name": "ArcGIS Layer Package",
+  "category": "1.-arcgis-layer-package",
+  "developer_org": "esri",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "GIS data file used by ArcGIS Desktop, a mapping and visualization software package; contains a map layer and its data that can be imported into another map or globe; used for sharing self-contained map layers with others; can be uploaded to the ArcGIS Online service for sharing over the Internet.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "esri-arcgis-for-desktop",
+        "display_name": "ESRI ArcGIS for Desktop"
+      },
+      {
+        "software": "tecplot-360",
+        "display_name": "Tecplot 360"
+      }
+    ],
+    "macos": [
+      {
+        "software": "tecplot-360",
+        "display_name": "Tecplot 360"
+      }
+    ],
+    "linux": [
+      {
+        "software": "tecplot-360",
+        "display_name": "Tecplot 360"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-09-03",
+  "sources": [
+    {
+      "url": "lpk.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

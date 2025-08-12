@@ -1,0 +1,47 @@
+{
+  "slug": "mcxe",
+  "extension": "mcxe",
+  "name": "MedicinesComplete Data File",
+  "category": "medicinescomplete-data-file",
+  "developer_org": "clinical-biomedical-computing",
+  "popularity": {
+    "rating": 1.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "Data file used by BNF (British National Formulary) software, a platform used to deliver electronic publications; stores a \"formulary,\" which is a electronic publication; sometimes found on standalone reading CDs, which enable users to read books and journals on medical, drug, and clinical information.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "clinical-biomedical-computing-bnf",
+        "display_name": "Clinical & Biomedical Computing BNF"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-01-05",
+  "sources": [
+    {
+      "url": "mcxe.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

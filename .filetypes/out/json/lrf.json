@@ -1,0 +1,90 @@
+{
+  "slug": "lrf",
+  "extension": "lrf",
+  "name": "League of Legends Replay File",
+  "category": "1.-league-of-legends-replay-file",
+  "developer_org": "lolreplay",
+  "popularity": {
+    "rating": 4.2,
+    "votes": 45,
+    "source": "fileinfo"
+  },
+  "summary": "An LRF file is a game replay created by LOLReplay, a game replay recorder and manager for League of Legends (LoL). It is used for re-watching gameplay and sharing the replay with others online. LRF files can be opened only by LOLReplay, but still require that League of Legends be installed on the computer.",
+  "standards": [],
+  "mime_types": [
+    "c/c"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "lolreplay",
+        "display_name": "LOLReplay"
+      },
+      {
+        "software": "sony-reader",
+        "display_name": "Sony Reader"
+      },
+      {
+        "software": "calibre",
+        "display_name": "Calibre"
+      },
+      {
+        "software": "bookdesigner",
+        "display_name": "BookDesigner",
+        "status": "discontinued"
+      },
+      {
+        "software": "makelrf",
+        "display_name": "Makelrf"
+      },
+      {
+        "software": "canon-book-creator",
+        "display_name": "Canon Book Creator"
+      },
+      {
+        "software": "microsoft-c-c++",
+        "display_name": "Microsoft C/C++"
+      }
+    ],
+    "macos": [
+      {
+        "software": "sony-reader",
+        "display_name": "Sony Reader"
+      },
+      {
+        "software": "calibre",
+        "display_name": "Calibre"
+      }
+    ],
+    "linux": [
+      {
+        "software": "calibre",
+        "display_name": "Calibre"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-04-05",
+  "sources": [
+    {
+      "url": "lrf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

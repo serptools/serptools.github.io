@@ -1,0 +1,59 @@
+{
+  "slug": "asar",
+  "extension": "asar",
+  "name": "Electron Archive",
+  "category": "electron-archive",
+  "developer_org": "github",
+  "popularity": {
+    "rating": 4.2,
+    "votes": 25,
+    "source": "fileinfo"
+  },
+  "summary": "An ASAR file is an archive used to package source code for an application using Electron, an open source library used to build cross-platform programs. It is saved in a format similar to .TAR archives where files contained in the archive, such as .HTML , .JS , and .CSS files, are concatenated together without using compression.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "github-electron",
+        "display_name": "GitHub Electron"
+      }
+    ],
+    "macos": [
+      {
+        "software": "github-electron",
+        "display_name": "GitHub Electron"
+      }
+    ],
+    "linux": [
+      {
+        "software": "github-electron",
+        "display_name": "GitHub Electron"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-12-17",
+  "sources": [
+    {
+      "url": "asar.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

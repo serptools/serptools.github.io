@@ -1,0 +1,63 @@
+{
+  "slug": "unitypackage",
+  "extension": "unitypackage",
+  "name": "Unity Asset Package",
+  "category": "unity-asset-package",
+  "developer_org": "unity-technologies",
+  "popularity": {
+    "rating": 4.2,
+    "votes": 55,
+    "source": "fileinfo"
+  },
+  "summary": "A UNITYPACKAGE file is an asset package created by Unity Technologies Unity, a game development application. It contains game resource and library files, such as .ASSET , .UNITY , and .ANIM files. UNITYPACKAGE files are used to transfer game resources from one Unity project to another.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "unity-technologies-unity",
+        "display_name": "Unity Technologies Unity"
+      },
+      {
+        "software": "unity-package-extractor",
+        "display_name": "Unity Package Extractor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "unity-technologies-unity",
+        "display_name": "Unity Technologies Unity"
+      }
+    ],
+    "linux": [
+      {
+        "software": "unity-technologies-unity",
+        "display_name": "Unity Technologies Unity"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-03-30",
+  "sources": [
+    {
+      "url": "unitypackage.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

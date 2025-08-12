@@ -1,0 +1,89 @@
+{
+  "slug": "swp",
+  "extension": "swp",
+  "name": "Vi Swap File",
+  "category": "1.-vi-swap-file",
+  "developer_org": "bill-joy",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 23,
+    "source": "fileinfo"
+  },
+  "summary": "An SWP file is a swap file created by the Vi text editor or one of its variants, such as Vim (Vi iMproved) and gVim. It stores the recovery version of a file being edited in the program. SWP files also serve as lock files, so no other Vi editing session can concurrently write to the currently-open file.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "gvim",
+        "display_name": "gVim"
+      },
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      },
+      {
+        "software": "vi",
+        "display_name": "Vi"
+      },
+      {
+        "software": "microsoft-windows",
+        "display_name": "Microsoft Windows"
+      },
+      {
+        "software": "microsoft-ms-dos",
+        "display_name": "Microsoft MS-DOS"
+      }
+    ],
+    "macos": [
+      {
+        "software": "macvim",
+        "display_name": "MacVim"
+      },
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      },
+      {
+        "software": "apple-macos",
+        "display_name": "Apple macOS"
+      }
+    ],
+    "linux": [
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      },
+      {
+        "software": "vi",
+        "display_name": "Vi"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-08-31",
+  "sources": [
+    {
+      "url": "swp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

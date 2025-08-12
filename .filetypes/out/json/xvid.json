@@ -1,0 +1,109 @@
+{
+  "slug": "xvid",
+  "extension": "xvid",
+  "name": "Xvid-Encoded Video File",
+  "category": "xvid-encoded-video-file",
+  "developer_org": "xvid",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 46,
+    "source": "fileinfo"
+  },
+  "summary": "Video clip or movie encoded using Xvid, an open-source video codec published under the GNU GPL license; compresses video data using MPEG-4 technology; allows for faster data transmission and more efficient storage of video files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "roxio-creator-nxt-pro-9",
+        "display_name": "Roxio Creator NXT Pro 9"
+      },
+      {
+        "software": "microsoft-windows-media-player-with-xvid-codec",
+        "display_name": "Microsoft Windows Media Player with Xvid codec"
+      },
+      {
+        "software": "media-player-classic-with-xvid-codec",
+        "display_name": "Media Player Classic with Xvid codec"
+      },
+      {
+        "software": "coolutils-total-movie-converter",
+        "display_name": "CoolUtils Total Movie Converter"
+      },
+      {
+        "software": "roxio-toast-20",
+        "display_name": "Roxio Toast 20"
+      },
+      {
+        "software": "eltima-elmedia-player",
+        "display_name": "Eltima Elmedia Player"
+      },
+      {
+        "software": "apple-quicktime-player-with-divx-and-xvid-codec",
+        "display_name": "Apple QuickTime Player with DivX and Xvid codec"
+      },
+      {
+        "software": "xvid-for-debian",
+        "display_name": "Xvid for Debian"
+      },
+      {
+        "software": "olimsoft-oplayer",
+        "display_name": "olimsoft OPlayer"
+      }
+    ],
+    "linux": [
+      {
+        "software": "xvid-for-suse-linux",
+        "display_name": "Xvid for SuSE Linux"
+      },
+      {
+        "software": "xvid-for-debian",
+        "display_name": "Xvid for Debian"
+      }
+    ],
+    "macos": [
+      {
+        "software": "roxio-toast-20",
+        "display_name": "Roxio Toast 20"
+      },
+      {
+        "software": "eltima-elmedia-player",
+        "display_name": "Eltima Elmedia Player"
+      },
+      {
+        "software": "apple-quicktime-player-with-divx-and-xvid-codec",
+        "display_name": "Apple QuickTime Player with DivX and Xvid codec"
+      }
+    ],
+    "ios": [
+      {
+        "software": "olimsoft-oplayer",
+        "display_name": "olimsoft OPlayer"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-07-17",
+  "sources": [
+    {
+      "url": "xvid.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

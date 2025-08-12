@@ -1,0 +1,48 @@
+{
+  "slug": "safe",
+  "extension": "safe",
+  "name": "SIGLock Encrypted File",
+  "category": "siglock-encrypted-file",
+  "developer_org": "sigza-authentication-systems",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 20,
+    "source": "fileinfo"
+  },
+  "summary": "A SAFE file is an encrypted file created by SIGLock, a file encryption application for Windows used to securely store and transfer files. It contains an encrypted version of a file, such as a .PDF or .XLSX file, that can only be decrypted by the SIGLock program. SAFE files also contain locking and unlocking data such as which users can open the file, where they can open it, and when they can open it.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-03-17",
+  "sources": [
+    {
+      "url": "safe.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

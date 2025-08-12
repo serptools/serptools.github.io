@@ -1,0 +1,91 @@
+{
+  "slug": "reb",
+  "extension": "reb",
+  "name": "REBOL Script File",
+  "category": "1.-rebol-script-file",
+  "developer_org": "rebol-technologies",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Script that contains code written in the REBOL (Relative Expression Based Object Language) programming language; can be compiled into an executable program using a REBOL compiler.",
+  "standards": [],
+  "mime_types": [
+    "rebol/core",
+    "rebol/sdk",
+    "rebol/view"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "rebol-view",
+        "display_name": "REBOL/View"
+      },
+      {
+        "software": "rebol-core",
+        "display_name": "REBOL/Core"
+      },
+      {
+        "software": "rebol-sdk",
+        "display_name": "REBOL/SDK"
+      },
+      {
+        "software": "reimbursement-tracker",
+        "display_name": "Reimbursement Tracker"
+      }
+    ],
+    "macos": [
+      {
+        "software": "rebol-view",
+        "display_name": "REBOL/View"
+      },
+      {
+        "software": "rebol-core",
+        "display_name": "REBOL/Core"
+      },
+      {
+        "software": "rebol-sdk",
+        "display_name": "REBOL/SDK"
+      }
+    ],
+    "linux": [
+      {
+        "software": "rebol-view",
+        "display_name": "REBOL/View"
+      },
+      {
+        "software": "rebol-core",
+        "display_name": "REBOL/Core"
+      },
+      {
+        "software": "rebol-sdk",
+        "display_name": "REBOL/SDK"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-01-09",
+  "sources": [
+    {
+      "url": "reb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

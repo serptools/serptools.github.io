@@ -1,0 +1,90 @@
+{
+  "slug": "dlc",
+  "extension": "dlc",
+  "name": "Download Link Container File",
+  "category": "1.-download-link-container-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.1,
+    "votes": 42,
+    "source": "fileinfo"
+  },
+  "summary": "Encrypted container format used for storing downloadable content; uses client-server encryption in which links are processed locally and keys are distributed and recrypted by a Web service; can be processed by JDownloader, a Java-based download management program.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "jdownloader",
+        "display_name": "JDownloader"
+      },
+      {
+        "software": "pyload",
+        "display_name": "pyLoad"
+      },
+      {
+        "software": "freerapid-downloader",
+        "display_name": "FreeRapid Downloader",
+        "pricing": "free"
+      },
+      {
+        "software": "dial-dialux-evo",
+        "display_name": "DIAL DIALux Evo"
+      }
+    ],
+    "macos": [
+      {
+        "software": "jdownloader",
+        "display_name": "JDownloader"
+      }
+    ],
+    "linux": [
+      {
+        "software": "jdownloader",
+        "display_name": "JDownloader"
+      },
+      {
+        "software": "pyload",
+        "display_name": "pyLoad"
+      }
+    ],
+    "ios": [
+      {
+        "software": "pyload",
+        "display_name": "pyLoad"
+      }
+    ],
+    "android": [
+      {
+        "software": "pyload",
+        "display_name": "pyLoad"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2013-09-05",
+  "sources": [
+    {
+      "url": "dlc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

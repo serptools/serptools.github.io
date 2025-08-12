@@ -1,0 +1,53 @@
+{
+  "slug": "popshape",
+  "extension": "popshape",
+  "name": "PopChar Character Shape File",
+  "category": "popchar-character-shape-file",
+  "developer_org": "ergonis-software",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Character shape file used by PopChar, an OS X utility tool for accessing special characters and adding them to documents; contains a drawing of a character shape.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "ergonis-popchar",
+        "display_name": "Ergonis PopChar"
+      }
+    ],
+    "windows": [
+      {
+        "software": "ergonis-popchar",
+        "display_name": "Ergonis PopChar"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-11-23",
+  "sources": [
+    {
+      "url": "popshape.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

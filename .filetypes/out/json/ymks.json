@@ -1,0 +1,47 @@
+{
+  "slug": "ymks",
+  "extension": "ymks",
+  "name": "Yuke's SmackDown vs. Raw Animation",
+  "category": "yuke-s-smackdown-vs.-raw-animation",
+  "developer_org": "yuke-s",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "A YMKS file is an animation used in a WWE SmackDown vs. Raw video game. It contains data used to animate a wrestler's entrance, wrestling move(s), taunt(s), or victory celebration.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "svr-anim-editor",
+        "display_name": "SVR Anim Editor"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-11-21",
+  "sources": [
+    {
+      "url": "ymks.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

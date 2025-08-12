@@ -1,0 +1,47 @@
+{
+  "slug": "xbrl",
+  "extension": "xbrl",
+  "name": "XBRL Document",
+  "category": "xbrl-document",
+  "developer_org": "xbrl-international",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 12,
+    "source": "fileinfo"
+  },
+  "summary": "Document written in eXtensible Business Reporting Language (XBRL), an XML -based language; contains business and financial data, such as balance sheets, ledgers, and financial statements; used for communicating and exchanging business performance reports; commonly uses the .XML extension but occasionally appears with the XBRL extension.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "rivet-software-dragon-view-xbrl-viewer",
+        "display_name": "Rivet Software Dragon View XBRL Viewer"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-03-07",
+  "sources": [
+    {
+      "url": "xbrl.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

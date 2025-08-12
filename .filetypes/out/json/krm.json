@@ -1,0 +1,47 @@
+{
+  "slug": "krm",
+  "extension": "krm",
+  "name": "Mario Kart Wii Kart Rumble File",
+  "category": "mario-kart-wii-kart-rumble-file",
+  "developer_org": "nintendo",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "Vibration.krm is the file that controls when and how Wiimotes vibrate while playing Mario Kart Wii, a racing game for the Nintendo Wii. It contains binary data that a Wii sends to players' Wiimotes, causing the Wiimotes to vibrate in time with collisions and other in-game actions. Vibration.krm is stored in Mario Kart Wii's Common.szs file.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "krm-editor",
+        "display_name": "KRM Editor"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-03-29",
+  "sources": [
+    {
+      "url": "krm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

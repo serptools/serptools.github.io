@@ -1,0 +1,59 @@
+{
+  "slug": "koala",
+  "extension": "koala",
+  "name": "Koala Song",
+  "category": "koala-song",
+  "developer_org": "elf-audio",
+  "popularity": {
+    "rating": 2.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "A KOALA file is a song created by elf audio Koala Sampler, an Android and iOS audio sampling app. It stores audio data organized into one or more tracks, which may include imported audio, such as .MP3 files or .AAC files, recorded audio, and effects applied with Koala Sampler. KOALA files also contain metadata about the file, including the creator and audio settings.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "android": [
+      {
+        "software": "elf-audio-koala-sampler",
+        "display_name": "elf audio Koala Sampler"
+      }
+    ],
+    "ios": [
+      {
+        "software": "elf-audio-koala-sampler",
+        "display_name": "elf audio Koala Sampler"
+      }
+    ],
+    "windows": [
+      {
+        "software": "elf-audio-koala-sampler",
+        "display_name": "elf audio Koala Sampler"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-03-09",
+  "sources": [
+    {
+      "url": "koala.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

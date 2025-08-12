@@ -1,0 +1,48 @@
+{
+  "slug": "email",
+  "extension": "email",
+  "name": "Outlook Express Email Message",
+  "category": "outlook-express-email-message",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 18,
+    "source": "fileinfo"
+  },
+  "summary": "An EMAIL file is an email message created with Microsoft Outlook Express, an email and news client bundled with Internet Explorer 4.0 to 6.0. It contains a message but may also store an email attachment, which is a file sent with the message.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-outlook-express",
+        "display_name": "Microsoft Outlook Express",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-04-28",
+  "sources": [
+    {
+      "url": "email.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

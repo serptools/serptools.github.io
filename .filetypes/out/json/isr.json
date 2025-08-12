@@ -1,0 +1,53 @@
+{
+  "slug": "isr",
+  "extension": "isr",
+  "name": "GoMoku Game File",
+  "category": "gomoku-game-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 4.3,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "Game file used by Gomoku, a board game for two players, typically played on a 18x18 board; the first player to get exactly five stones in a row (horizontally, vertically, or diagonally) wins.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "gomoku-deluxe",
+        "display_name": "Gomoku Deluxe"
+      },
+      {
+        "software": "various-online-gomoku-games",
+        "display_name": "Various online Gomoku games"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2007-10-10",
+  "sources": [
+    {
+      "url": "isr.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

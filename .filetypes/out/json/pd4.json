@@ -1,0 +1,65 @@
+{
+  "slug": "pd4",
+  "extension": "pd4",
+  "name": "Windows Live Photo Gallery Information File",
+  "category": "1.-windows-live-photo-gallery-information-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "Database file used by Windows Live Photo Gallery, a program that allows users to manage home photos and movies; contains metadata describing personal images and videos, including the file name, properties, path, and thumbnail information; used to track multimedia file information.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-windows-live-photo-gallery",
+        "display_name": "Microsoft Windows Live Photo Gallery"
+      },
+      {
+        "software": "filesig-simple-carver-suite",
+        "display_name": "Filesig Simple Carver Suite"
+      },
+      {
+        "software": "sci-ed-clone-manager",
+        "display_name": "Sci-Ed Clone Manager"
+      },
+      {
+        "software": "gsl-biotech-snapgene",
+        "display_name": "GSL Biotech SnapGene"
+      }
+    ],
+    "macos": [
+      {
+        "software": "gsl-biotech-snapgene",
+        "display_name": "GSL Biotech SnapGene"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-07-16",
+  "sources": [
+    {
+      "url": "pd4.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

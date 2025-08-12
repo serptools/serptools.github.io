@@ -1,0 +1,47 @@
+{
+  "slug": "bk!",
+  "extension": "bk!",
+  "name": "WordPerfect Document Backup",
+  "category": "wordperfect-document-backup",
+  "developer_org": "corel",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "A BK! file is a temporary backup of a .WPD document created by Corel WordPerfect, a word processing application. It stores the exact same information as the WPD document to help prevent data loss. BK! files typically have the same name as the original document, with the .bk! extension added to the end (e.g., document.wpd.bk! ).",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "corel-wordperfect-2021",
+        "display_name": "Corel WordPerfect 2021"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2025-07-09",
+  "sources": [
+    {
+      "url": "bk!.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

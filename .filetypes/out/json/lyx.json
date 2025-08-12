@@ -1,0 +1,61 @@
+{
+  "slug": "lyx",
+  "extension": "lyx",
+  "name": "LyX Document",
+  "category": "lyx-document",
+  "developer_org": "lyx",
+  "popularity": {
+    "rating": 2.7,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "Document created with LyX - The Document Processor; designed to encourage writing based on the structure of the document, not its appearance; formatted using the TeX typesetting engine.",
+  "standards": [],
+  "mime_types": [
+    "lyx/mac"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "lyx",
+        "display_name": "Lyx"
+      }
+    ],
+    "macos": [
+      {
+        "software": "lyx-mac",
+        "display_name": "LyX/Mac"
+      }
+    ],
+    "linux": [
+      {
+        "software": "lyx",
+        "display_name": "Lyx"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2008-01-14",
+  "sources": [
+    {
+      "url": "lyx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "asp",
+  "extension": "asp",
+  "name": "Active Server Page",
+  "category": "active-server-page",
+  "summary": "",
+  "developer_org": "adobe-systems",
+  "developer_name": "Adobe Systems",
+  "more_information": {
+    "screenshot": {
+      "url": "https://fileinfo.com/img/ss/sm/asp_8.png",
+      "alt": "Screenshot of a .asp file in Microsoft Visual Studio Code 1",
+      "caption": "ASP file open in Microsoft Visual Studio Code 1"
+    },
+    "description": [
+      "ASP files are similar to .HTML files but are used a little differently. When a web browser requests an HTML file, the server just sends the file. However, when a web browser requests an ASP file, the server sends the request through the ASP engine, which parses the ASP file and generates plain HTML that is sent to the client's browser. Since ASP pages are processed on the server, website visitors do not see the actual ASP code, just the HTML generated from the scripts within the page. ASP pages typically use the .asp extension rather than .html .",
+      "Since the release of ASP 1.0 in 1996, there have only been two other versions, ASP 2.0 in 1997 and ASP 3.0 in 2000. In 2002, Microsoft released ASP.NET, which superseded ASP. Now ASP is commonly referred to as Classic ASP or ASP Classic. Because of the wide implementation of the ASP.NET framework, ASP pages have largely been replaced by .ASPX pages. Some advantages of ASP.NET over ASP is the use of more languages such as C#, VB.NET, J#, and Delphi.NET, as well as improved performance with compiled code, more advanced debugging, and better run-time error handling."
+    ]
+  },
+  "common_filenames": [
+    {
+      "filename": "Default.asp",
+      "description": "Default.asp - The default webpage loaded when a client browser requests a web server directory on a Microsoft IIS-based server. For example, when a client requests http://www.sampledomain.com/, the server loads http://www.sampledomain.com/Default.asp, unless it is configured to load a different file."
+    }
+  ],
+  "images": [
+    {
+      "url": "https://fileinfo.com/img/ss/sm/asp_8.png",
+      "alt": "Screenshot of a .asp file in Microsoft Visual Studio Code 1",
+      "caption": "ASP file open in Microsoft Visual Studio Code 1"
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "asp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

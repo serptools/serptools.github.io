@@ -1,0 +1,47 @@
+{
+  "slug": "puk",
+  "extension": "puk",
+  "name": "Pavuk Universal Kommand File",
+  "category": "pavuk-universal-kommand-file",
+  "developer_org": "pavuk-systems",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "A PUK file is a Pavuk Universal Kommand file used by the Pavuk Device Interface (PDI) application. It contains configuration and security tokens used to verify data transfers between an instrument and a server.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "pavuk-device-interface",
+        "display_name": "Pavuk Device Interface"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2016-04-14",
+  "sources": [
+    {
+      "url": "puk.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "slug": "brstmspm",
+  "extension": "brstmspm",
+  "name": "Super Paper Mario BRSTM Audio Stream",
+  "category": "super-paper-mario-brstm-audio-stream",
+  "developer_org": "nintendo",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "A BRSTMSPM file is a .BRSTM audio file used by Super Paper Mario. It contains music played in the game. Gamers who have extracted Super Paper Mario's BRSTM files often rename them to use the BRSTMSPM extension, so they play correctly with vgmstream.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "vgmstream",
+        "display_name": "vgmstream"
+      }
+    ],
+    "web": [
+      {
+        "software": "vgmstream-web",
+        "display_name": "vgmstream-web"
+      }
+    ],
+    "macos": [
+      {
+        "software": "vgmstream",
+        "display_name": "vgmstream"
+      }
+    ],
+    "linux": [
+      {
+        "software": "vgmstream",
+        "display_name": "vgmstream"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-10-05",
+  "sources": [
+    {
+      "url": "brstmspm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

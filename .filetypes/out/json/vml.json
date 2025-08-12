@@ -1,0 +1,60 @@
+{
+  "slug": "vml",
+  "extension": "vml",
+  "name": "Vector Markup Language File",
+  "category": "vector-markup-language-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.2,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "File created in the XML -based Vector Markup Language (VML) format; contains XML code that describes a vector image; commonly embedded within published HTML pages to display vector images.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-word-365",
+        "display_name": "Microsoft Word 365"
+      },
+      {
+        "software": "microsoft-visio-365",
+        "display_name": "Microsoft Visio 365"
+      },
+      {
+        "software": "microsoft-powerpoint-365",
+        "display_name": "Microsoft PowerPoint 365"
+      },
+      {
+        "software": "microsoft-internet-explorer",
+        "display_name": "Microsoft Internet Explorer",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-03-18",
+  "sources": [
+    {
+      "url": "vml.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

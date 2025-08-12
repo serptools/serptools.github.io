@@ -1,0 +1,21 @@
+{
+  "slug": "nw",
+  "extension": "nw",
+  "name": "Node-Webkit App Package",
+  "category": "node-webkit-app-package",
+  "summary": "",
+  "developer_org": "intel-open-source-technology-center",
+  "developer_name": "Intel Open Source Technology Center",
+  "more_information": {
+    "description": [
+      "The NW file is the same as a .ZIP file but renamed with the \"nw\" file extension. Developers of node-webkit programs can choose to package their programs with the NW and executable file, such as an .EXE or .APP file, in the same directory or merge the two files. If they merge the files, there isn't an NW file. But if they choose to just place it in the same directory as the executable file, you will need node-webkit installed to open the NW file."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "nw.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

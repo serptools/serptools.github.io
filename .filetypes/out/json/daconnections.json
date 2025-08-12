@@ -1,0 +1,51 @@
+{
+  "slug": "daconnections",
+  "extension": "daconnections",
+  "name": "RemObjects Data Abstract Connections File",
+  "category": "remobjects-data-abstract-connections-file",
+  "developer_org": "remobjects",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "Database connection file used by Data Abstract, a database development application included with the RemObjects SDK; saves connection strings, pooling settings, and timeout values for one or more databases; used by the middle-tier RemObjects application to connect to a backend database.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "remobjects-sdk",
+        "display_name": "RemObjects SDK"
+      },
+      {
+        "software": "remobjects-data-abstract",
+        "display_name": "RemObjects Data Abstract"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-11-22",
+  "sources": [
+    {
+      "url": "daconnections.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "dockzip",
+  "extension": "dockzip",
+  "name": "ObjectDock File",
+  "category": "objectdock-file",
+  "developer_org": "stardock",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Custom dock created with ObjectDock, a program that creates a dock for the Windows desktop (similar to Mac OS X); includes icons and background images used by the dock; saved in a compressed archive format.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "stardock-objectdock",
+        "display_name": "Stardock ObjectDock"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2008-09-15",
+  "sources": [
+    {
+      "url": "dockzip.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

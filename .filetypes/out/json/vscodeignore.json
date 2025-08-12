@@ -1,0 +1,83 @@
+{
+  "slug": "vscodeignore",
+  "extension": "vscodeignore",
+  "name": "Visual Studio Code Extension Ignore File",
+  "category": "visual-studio-code-extension-ignore-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "A VSCODEIGNORE file is a text file used to exclude unnecessary files when packaging a Microsoft Visual Studio Code extension. It contains a collection of glob patterns that specify what source code files will not be included in the extension's final .VSIX file. VSCODEIGNORE files allow developers to reduce their VSIX files' file sizes, before publishing the files to the Visual Studio Code Extension Marketplace.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "chromeos": [
+      {
+        "software": "google-chrome-text",
+        "display_name": "Google Chrome Text"
+      }
+    ],
+    "macos": [
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "VSCODEIGNORE file open in Microsft Visual Studio Code",
+      "alt": "VSCODEIGNORE file open in Microsft Visual Studio Code",
+      "source_url": "https://fileinfo.com/img/ss/md/vscodeignore_12330.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-09-23",
+  "sources": [
+    {
+      "url": "vscodeignore.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

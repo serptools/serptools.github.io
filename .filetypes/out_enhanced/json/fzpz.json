@@ -1,0 +1,23 @@
+{
+  "slug": "fzpz",
+  "extension": "fzpz",
+  "name": "Fritzing Part File",
+  "category": "fritzing-part-file",
+  "summary": "",
+  "developer_org": "fritzing",
+  "developer_name": "Fritzing",
+  "more_information": {
+    "description": [
+      "Fritzing is a printed circuit board (PCB) design application that allows Arduino and PCB enthusiasts to create PCB layouts. The circuits these layouts describe contain a variety or parts, which are represented by images in Fritzing.",
+      "However, Fritzing parts, or FZPZ files, are actually archives made up of five constituent files. They contain four SVG images, which serve as the part's breadboard, schematic, PCB, and icon images, and an FZP file, which is an XML file that describes the part's properties, connectors, and buses. While Fritzing parts are saved using the .fzpz file extension, they are standard Zip archives, meaning you can decompress them with any Zip decompression utility if needed. You may have to change the file's extension to .zip before you can decompress it.",
+      "To export a Fritzing part as an FZPZ file, right-click the part in your Fritzing parts bin and select Export Part ."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "fzpz.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

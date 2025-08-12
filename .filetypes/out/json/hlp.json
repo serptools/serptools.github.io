@@ -1,0 +1,71 @@
+{
+  "slug": "hlp",
+  "extension": "hlp",
+  "name": "Windows Help File",
+  "category": "windows-help-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 34,
+    "source": "fileinfo"
+  },
+  "summary": "An HLP file contains help documentation used by Windows Help, a help program included with previous versions of Windows. Typically, the documentation helps users use a specific Windows app or feature. HLP files are now uncommon, since current versions of Windows do not include Windows Help.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "adobe-robohelp",
+        "display_name": "Adobe RoboHelp"
+      },
+      {
+        "software": "microsoft-help-viewer",
+        "display_name": "Microsoft Help Viewer"
+      },
+      {
+        "software": "help-explorer-viewer",
+        "display_name": "Help Explorer Viewer"
+      },
+      {
+        "software": "ypgsoft-windows-hlp-to-rtf",
+        "display_name": "YpgSoft Windows HLP To RTF"
+      }
+    ],
+    "macos": [
+      {
+        "software": "adobe-robohelp",
+        "display_name": "Adobe RoboHelp"
+      }
+    ],
+    "linux": [
+      {
+        "software": "help-explorer-viewer",
+        "display_name": "Help Explorer Viewer"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-08-08",
+  "sources": [
+    {
+      "url": "hlp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

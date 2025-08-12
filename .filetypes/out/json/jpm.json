@@ -1,0 +1,47 @@
+{
+  "slug": "jpm",
+  "extension": "jpm",
+  "name": "JPEG 2000 Compound Image",
+  "category": "jpeg-2000-compound-image",
+  "developer_org": "joint-photographic-experts-group",
+  "popularity": {
+    "rating": 1.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "A JPM file is an image saved in a variant of the JPEG 2000 ( .JP2 ) image format. Typically, JPM files are multi-page documents comprised of multiple, layer-based images. JPM files are uncommon, so most image viewers cannot open them.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "irfanview",
+        "display_name": "IrfanView"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-06-05",
+  "sources": [
+    {
+      "url": "jpm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

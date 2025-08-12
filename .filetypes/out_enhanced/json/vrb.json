@@ -1,0 +1,21 @@
+{
+  "slug": "vrb",
+  "extension": "vrb",
+  "name": "Veeam Incremental Backup File",
+  "category": "veeam-incremental-backup-file",
+  "summary": "",
+  "developer_org": "veeam-software",
+  "developer_name": "Veeam Software",
+  "more_information": {
+    "description": [
+      "An incremental backup policy provides more efficient hard disk usage since the software only stores the changed data since the last backup. This uses less disk space than performing a full backup for each restore point of the virtual machine. If the user wants to restore from any incremental backup point, the software uses the full backup plus each incremental backup file in order to construct the state of the machine at that point."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "vrb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

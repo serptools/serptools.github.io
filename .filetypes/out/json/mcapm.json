@@ -1,0 +1,73 @@
+{
+  "slug": "mcapm",
+  "extension": "mcapm",
+  "name": "Minecraft Anvil PocketMine Data File",
+  "category": "minecraft-anvil-pocketmine-data-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "An MCAPM file is a data file saved in the PMAnvil format, which is used by PocketMine-MP server software for Minecraft: Pocket Edition. It contains information about a Minecraft map, also known as a world or level. MCAPM files contain chunks, which are segments of a map that are referenced by the game and displayed as a player moves around the map.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "pocketmine-mp",
+        "display_name": "PocketMine-MP"
+      },
+      {
+        "software": "pmanvil-converter",
+        "display_name": "pmanvil-converter"
+      }
+    ],
+    "macos": [
+      {
+        "software": "pocketmine-mp",
+        "display_name": "PocketMine-MP"
+      },
+      {
+        "software": "pmanvil-converter",
+        "display_name": "pmanvil-converter"
+      }
+    ],
+    "linux": [
+      {
+        "software": "pocketmine-mp",
+        "display_name": "PocketMine-MP"
+      },
+      {
+        "software": "pmanvil-converter",
+        "display_name": "pmanvil-converter"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-03-12",
+  "sources": [
+    {
+      "url": "mcapm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

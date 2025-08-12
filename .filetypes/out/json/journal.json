@@ -1,0 +1,67 @@
+{
+  "slug": "journal",
+  "extension": "journal",
+  "name": "Linux Journald Event Log",
+  "category": "1.-linux-journald-event-log",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "A JOURNAL file is a system and service log created by Linux. It contains a record of system- and service-level kernel, boot, and component events. Administrators can use JOURNAL files to troubleshoot startup or service issues.",
+  "standards": [],
+  "mime_types": [
+    "n/a",
+    "path/to",
+    "your/journalfile.journal"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "linux": [
+      {
+        "software": "use-c-journalctl---file-c-command-to-view-log-entries",
+        "display_name": "Use [c]journalctl --file[/c] command to view log entries"
+      }
+    ],
+    "windows": [
+      {
+        "software": "use-c-journalctl---file-c-command-to-view-log-entries",
+        "display_name": "Use [c]journalctl --file[/c] command to view log entries"
+      },
+      {
+        "software": "4d-4th-dimension",
+        "display_name": "4D 4th Dimension"
+      }
+    ],
+    "macos": [
+      {
+        "software": "4d-4th-dimension",
+        "display_name": "4D 4th Dimension"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-03-20",
+  "sources": [
+    {
+      "url": "journal.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

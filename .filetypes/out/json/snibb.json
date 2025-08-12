@@ -1,0 +1,59 @@
+{
+  "slug": "snibb",
+  "extension": "snibb",
+  "name": "Snibbetracker Module",
+  "category": "snibbetracker-module",
+  "developer_org": "harry-lundstr-m",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "A SNIBB file is an audio module created by Snibbetracker, a music tracker developed for creating and playing digital music. It contains the patterns, notes, instrument data, volume levels, and timing information that make up a music composition created in Snibbetracker. SNIBB files allow musicians to build detailed, sample-based music that can be played back using the same samples and settings every time.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "snibbetracker",
+        "display_name": "Snibbetracker"
+      }
+    ],
+    "macos": [
+      {
+        "software": "snibbetracker",
+        "display_name": "Snibbetracker"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "SNIBB file open in Snibbetracker 1.1",
+      "alt": "SNIBB file open in Snibbetracker 1.1",
+      "source_url": "https://fileinfo.com/img/ss/md/snibb_13827.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2025-06-11",
+  "sources": [
+    {
+      "url": "snibb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

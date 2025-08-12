@@ -1,0 +1,63 @@
+{
+  "slug": "ogz",
+  "extension": "ogz",
+  "name": "Cube 2 Map File",
+  "category": "cube-2-map-file",
+  "developer_org": "wouter-van-oortmerssen",
+  "popularity": {
+    "rating": 4.3,
+    "votes": 10,
+    "source": "fileinfo"
+  },
+  "summary": "An OGZ file is a map file used by games developed using the Cube 2 game engine. It contains a game map's geometry, spawn points, teleporters, item locations, and other settings. OGZ files can be used to store single-player or multiplayer maps.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "cube-2-sauerbraten",
+        "display_name": "Cube 2: Sauerbraten"
+      },
+      {
+        "software": "platinum-arts-sandbox",
+        "display_name": "Platinum Arts Sandbox"
+      }
+    ],
+    "macos": [
+      {
+        "software": "cube-2-sauerbraten",
+        "display_name": "Cube 2: Sauerbraten"
+      }
+    ],
+    "linux": [
+      {
+        "software": "cube-2-sauerbraten",
+        "display_name": "Cube 2: Sauerbraten"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-05-05",
+  "sources": [
+    {
+      "url": "ogz.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

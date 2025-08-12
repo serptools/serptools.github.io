@@ -1,0 +1,97 @@
+{
+  "slug": "bmson",
+  "extension": "bmson",
+  "name": "Be-Music Source JSON Song File",
+  "category": "be-music-source-json-song-file",
+  "developer_org": "bmson-team",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "A BMSON file is a data file used to format and play a song in Bemusic Bemuse and other rhythm games. It is saved in a JSON-based variant of the standard .BMS format. BMSON files are typically found in Bemuse song folders, alongside accompanying audio files and other song assets.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "bmsone",
+        "display_name": "BmsONE"
+      },
+      {
+        "software": "raindrop",
+        "display_name": "raindrop"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "bemusic-bemuse",
+        "display_name": "Bemusic Bemuse"
+      }
+    ],
+    "macos": [
+      {
+        "software": "bmsone",
+        "display_name": "BmsONE"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "raindrop",
+        "display_name": "raindrop"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "web": [
+      {
+        "software": "bemusic-bemuse",
+        "display_name": "Bemusic Bemuse"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-09-28",
+  "sources": [
+    {
+      "url": "bmson.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

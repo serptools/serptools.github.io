@@ -1,0 +1,21 @@
+{
+  "slug": "pcp",
+  "extension": "pcp",
+  "name": "Windows Installer Patch Creation Properties File",
+  "category": "windows-installer-patch-creation-properties-file",
+  "summary": "",
+  "developer_org": "microsoft",
+  "developer_name": "Microsoft",
+  "more_information": {
+    "description": [
+      "PCP files can be edited using Orca.exe , a tool included with the Windows Software Development Kit ( SDK ). Patch packages can be generated from PCP files using Msimp.exe and Patchwiz.dll . These programs are also included with the Windows SDK."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "pcp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

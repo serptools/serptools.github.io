@@ -1,0 +1,47 @@
+{
+  "slug": "x4k",
+  "extension": "x4k",
+  "name": "XML4King Configuration File",
+  "category": "xml4king-configuration-file",
+  "developer_org": "optimal-performance",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "File used by XML4King, a program used to convert .XLS or .CSV files from Microsoft Excel into .XML files that are usable by King Business Software; contains a collection of field mappings that map an Excel column in a source file to a field name from the King Business Software database.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "optimal-performance-xml4king",
+        "display_name": "Optimal Performance XML4King"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-01-29",
+  "sources": [
+    {
+      "url": "x4k.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

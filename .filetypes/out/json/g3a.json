@@ -1,0 +1,47 @@
+{
+  "slug": "g3a",
+  "extension": "g3a",
+  "name": "Casio Prizm Add-in File",
+  "category": "casio-prizm-add-in-file",
+  "developer_org": "casio",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 18,
+    "source": "fileinfo"
+  },
+  "summary": "Add-in file used by the Casio Prizm, a graphing calculator; often used for adding small games or handy utilities; written in C or low-level assembly language; can be packaged using the mkg3a program and then uploaded to the storage card on the Prizm.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "mkg3a",
+        "display_name": "mkg3a"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-12-19",
+  "sources": [
+    {
+      "url": "g3a.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "slug": "nkm",
+  "extension": "nkm",
+  "name": "Kontakt Multi Instrument File",
+  "category": "1.-kontakt-multi-instrument-file",
+  "developer_org": "native-instruments",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 16,
+    "source": "fileinfo"
+  },
+  "summary": "Audio file used by Kontakt, a professional audio sampling application; saves multiple software instruments and their presets; allows the instruments to be saved together whereas an .NKI file allows only one instrument to be saved.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "native-instruments-kontakt",
+        "display_name": "Native Instruments Kontakt"
+      },
+      {
+        "software": "mkds-course-modifier",
+        "display_name": "MKDS Course Modifier"
+      }
+    ],
+    "macos": [
+      {
+        "software": "native-instruments-kontakt",
+        "display_name": "Native Instruments Kontakt"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-09-21",
+  "sources": [
+    {
+      "url": "nkm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "slug": "geojson",
+  "extension": "geojson",
+  "name": "GeoJSON File",
+  "category": "geojson-file",
+  "developer_org": "geojson",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 19,
+    "source": "fileinfo"
+  },
+  "summary": "JSON file created in the GeoJSON format, a format used for geospatial data interchange; supports points, lines, polygons, and other similar primitives; used for defining objects such as roads, bodies of water, buildings, and points of interest.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "gdal",
+        "display_name": "GDAL"
+      },
+      {
+        "software": "esri-arcgis-pro",
+        "display_name": "ESRI ArcGIS Pro"
+      },
+      {
+        "software": "safe-software-fme-desktop",
+        "display_name": "Safe Software FME Desktop"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "apple-xcode",
+        "display_name": "Apple Xcode"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-xcode",
+        "display_name": "Apple Xcode"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "GEOJSON file icon",
+      "alt": "GEOJSON file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/geojson-8304.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-10-10",
+  "sources": [
+    {
+      "url": "geojson.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

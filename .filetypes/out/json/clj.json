@@ -1,0 +1,96 @@
+{
+  "slug": "clj",
+  "extension": "clj",
+  "name": "Clojure Source Code File",
+  "category": "clojure-source-code-file",
+  "developer_org": "rich-hickey",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "A CLJ file is a source code file written in Clojure, a dynamic, general-purpose programming language based on Lisp that runs on Java Virtual Machine ( JVM ), JavaScript , and Common Language Runtime (CLR) platforms. It is a compiled language that may be a standalone program containing all the code or one of many files referenced in a development project. Various programs, including Clojure CLI, Boot, and Visual Studio Code (with the Calva plugin ) support CLJ files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "clojure-cli",
+        "display_name": "Clojure CLI"
+      },
+      {
+        "software": "boot",
+        "display_name": "Boot"
+      },
+      {
+        "software": "microsoft-visual-studio-code-with-the-calva-plugin",
+        "display_name": "Microsoft Visual Studio Code with the Calva plugin"
+      },
+      {
+        "software": "sublime-text-with-the-clojure-sublimed-or-tutkain-plugins",
+        "display_name": "Sublime Text with the Clojure Sublimed or Tutkain plugins"
+      }
+    ],
+    "macos": [
+      {
+        "software": "oracle-java-virtual-machine",
+        "display_name": "Oracle Java Virtual Machine"
+      },
+      {
+        "software": "gnu-emacs-with-the-cider-plugin",
+        "display_name": "GNU Emacs with the CIDER plugin"
+      },
+      {
+        "software": "clojure-cli",
+        "display_name": "Clojure CLI"
+      },
+      {
+        "software": "boot",
+        "display_name": "Boot"
+      },
+      {
+        "software": "microsoft-visual-studio-code-with-the-calva-plugin",
+        "display_name": "Microsoft Visual Studio Code with the Calva plugin"
+      },
+      {
+        "software": "sublime-text-with-the-clojure-sublimed-or-tutkain-plugins",
+        "display_name": "Sublime Text with the Clojure Sublimed or Tutkain plugins"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "CLJ file icon",
+      "alt": "CLJ file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/clj-13519.png"
+    },
+    {
+      "caption": "CLJ file open in Microsoft Visual Studio Code 1.8",
+      "alt": "CLJ file open in Microsoft Visual Studio Code 1.8",
+      "source_url": "https://fileinfo.com/img/ss/md/clj_13519.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-10-10",
+  "sources": [
+    {
+      "url": "clj.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

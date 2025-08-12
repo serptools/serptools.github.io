@@ -1,0 +1,113 @@
+{
+  "slug": "ac",
+  "extension": "ac",
+  "name": "Autoconf Script",
+  "category": "1.-autoconf-script",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 104,
+    "source": "fileinfo"
+  },
+  "summary": "Automatic configuration script produced by GNU Autoconf; automatically configures software source code packages to adapt to several types of Posix-like systems; created by testing a software package for each feature the program might need in order to run a specific system; Autoconf then builds a list of system features that the package requires.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "linux": [
+      {
+        "software": "gnu-autoconf-requires-gnu-m4",
+        "display_name": "GNU Autoconf (requires GNU M4)"
+      },
+      {
+        "software": "inivis-ac3d",
+        "display_name": "Inivis AC3D"
+      },
+      {
+        "software": "blender",
+        "display_name": "Blender"
+      },
+      {
+        "software": "x-plane",
+        "display_name": "X-Plane"
+      },
+      {
+        "software": "flightgear",
+        "display_name": "FlightGear"
+      }
+    ],
+    "windows": [
+      {
+        "software": "gnu-autoconf-requires-gnu-m4",
+        "display_name": "GNU Autoconf (requires GNU M4)"
+      },
+      {
+        "software": "inivis-ac3d",
+        "display_name": "Inivis AC3D"
+      },
+      {
+        "software": "blender",
+        "display_name": "Blender"
+      },
+      {
+        "software": "x-plane",
+        "display_name": "X-Plane"
+      },
+      {
+        "software": "flightgear",
+        "display_name": "FlightGear"
+      },
+      {
+        "software": "incline-software-ancestral-quest",
+        "display_name": "Incline Software Ancestral Quest"
+      }
+    ],
+    "macos": [
+      {
+        "software": "inivis-ac3d",
+        "display_name": "Inivis AC3D"
+      },
+      {
+        "software": "blender",
+        "display_name": "Blender"
+      },
+      {
+        "software": "x-plane",
+        "display_name": "X-Plane"
+      },
+      {
+        "software": "flightgear",
+        "display_name": "FlightGear"
+      },
+      {
+        "software": "incline-software-ancestral-quest",
+        "display_name": "Incline Software Ancestral Quest"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2007-04-05",
+  "sources": [
+    {
+      "url": "ac.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

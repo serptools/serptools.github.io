@@ -1,0 +1,60 @@
+{
+  "slug": "rdo",
+  "extension": "rdo",
+  "name": "Xerox Rawster Document Object File",
+  "category": "xerox-rawster-document-object-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "Metafile used by the Xerox Document Assembler software for Xerox Digipath Scan and Makeready workstations and the DocuTech line of printers and scanners; defines how the printer/scanner should print or scan each page.",
+  "standards": [],
+  "mime_types": [
+    "n/a",
+    "printer/scanner"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "xerox-document-scan-or-make-ready",
+        "display_name": "Xerox Document Scan or Make Ready"
+      },
+      {
+        "software": "scenicsoft-preps-xl-4.0",
+        "display_name": "ScenicSoft Preps XL 4.0"
+      }
+    ],
+    "macos": [
+      {
+        "software": "scenicsoft-preps-xl-4.0",
+        "display_name": "ScenicSoft Preps XL 4.0"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2006-12-16",
+  "sources": [
+    {
+      "url": "rdo.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

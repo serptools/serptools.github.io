@@ -1,0 +1,75 @@
+{
+  "slug": "hip",
+  "extension": "hip",
+  "name": "Heavy Iron Studios Package",
+  "category": "1.-heavy-iron-studios-package",
+  "developer_org": "heavy-iron-studios",
+  "popularity": {
+    "rating": 4.4,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "A HIP file is an asset archive used by Scooby-Doo: Night of 100 Frights, The SpongeBob SquarePants Movie, or another Heavy Iron Studios Evil Engine video game. It contains game resources, such as 3D models, textures, audio files, and/or animations. These assets are used to display levels, characters, and in-game menus.",
+  "standards": [],
+  "mime_types": [
+    "and/or"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "industrial-park",
+        "display_name": "Industrial Park"
+      },
+      {
+        "software": "sidefx-houdini",
+        "display_name": "SideFX Houdini"
+      }
+    ],
+    "ios": [
+      {
+        "software": "watto-studios-game-extractor",
+        "display_name": "Watto Studios Game Extractor"
+      },
+      {
+        "software": "industrial-park",
+        "display_name": "Industrial Park"
+      }
+    ],
+    "macos": [
+      {
+        "software": "sidefx-houdini",
+        "display_name": "SideFX Houdini"
+      }
+    ],
+    "linux": [
+      {
+        "software": "sidefx-houdini",
+        "display_name": "SideFX Houdini"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-06-21",
+  "sources": [
+    {
+      "url": "hip.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

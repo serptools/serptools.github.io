@@ -1,0 +1,83 @@
+{
+  "slug": "mxml",
+  "extension": "mxml",
+  "name": "Flex MXML Component",
+  "category": "flex-mxml-component",
+  "developer_org": "adobe-systems",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "Component used by a Adobe Flex application; written in the MXML markup language, which is similar to XML , but was developed by Macromedia; used for laying out user interface components in the application.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "flashdevelop",
+        "display_name": "FlashDevelop"
+      },
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "notepad++",
+        "display_name": "Notepad++"
+      },
+      {
+        "software": "gvim",
+        "display_name": "gVim"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "MXML file icon",
+      "alt": "MXML file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/mxml-3732.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-05-02",
+  "sources": [
+    {
+      "url": "mxml.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

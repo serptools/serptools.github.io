@@ -1,0 +1,81 @@
+{
+  "slug": "fj",
+  "extension": "fj",
+  "name": "FlipJump Source Code File",
+  "category": "flipjump-source-code-file",
+  "developer_org": "tomhe",
+  "popularity": {
+    "rating": 4.5,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "An FJ file contains source code in the FlipJump programming language, a simple and primitive, one-instruction language. Developers may open and edit FJ files with a source code editor or compile them into executable .FJM files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "flipjump",
+        "display_name": "FlipJump"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      }
+    ],
+    "macos": [
+      {
+        "software": "flipjump",
+        "display_name": "FlipJump"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      }
+    ],
+    "linux": [
+      {
+        "software": "flipjump",
+        "display_name": "FlipJump"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "FJ file open in Microsoft Visual Studio Code 1",
+      "alt": "FJ file open in Microsoft Visual Studio Code 1",
+      "source_url": "https://fileinfo.com/img/ss/md/fj_13593.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-12-05",
+  "sources": [
+    {
+      "url": "fj.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

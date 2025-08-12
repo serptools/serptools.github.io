@@ -1,0 +1,29 @@
+{
+  "slug": "dsym",
+  "extension": "dsym",
+  "name": "Xcode Debug Symbols File",
+  "category": "xcode-debug-symbols-file",
+  "summary": "",
+  "developer_org": "oregan-developments",
+  "developer_name": "Oregan Developments",
+  "more_information": {
+    "description": [
+      "DWARF stands for \"Debugging with Attributed Record Formats.\" It is used by Xcode to generate debug symbols, which can be stripped from the final executable before distribution.",
+      "DSYM files have a \" .dSYM \" extension."
+    ]
+  },
+  "images": [
+    {
+      "url": "https://fileinfo.com/img/ss/sm/dsym_13378.png",
+      "alt": "Screenshot of a .dsym file in OpenMPT",
+      "caption": "DSYM file open in OpenMPT"
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "dsym.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

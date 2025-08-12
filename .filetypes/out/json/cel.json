@@ -1,0 +1,140 @@
+{
+  "slug": "cel",
+  "extension": "cel",
+  "name": "Affymetrix Probe Results File",
+  "category": "1.-affymetrix-probe-results-file",
+  "developer_org": "affymetrix",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 31,
+    "source": "fileinfo"
+  },
+  "summary": "A CEL file is a data file created by Affymetrix DNA microarray image analysis software. It contains the data extracted from \"probes\" on an Affymetrix GeneChip and can store thousands of data points, which may make it large in file size. CEL files can be processed by software algorithms and visualized on a 2D grid as part of an overall genome experiment.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "affymetrix-tiling-analysis-software",
+        "display_name": "Affymetrix Tiling Analysis Software"
+      },
+      {
+        "software": "the-mathworks-matlab",
+        "display_name": "The MathWorks MATLAB"
+      },
+      {
+        "software": "vsn-genstat",
+        "display_name": "VSN GenStat"
+      },
+      {
+        "software": "rmaexpress",
+        "display_name": "RMAExpress"
+      },
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      },
+      {
+        "software": "multi-aff-py",
+        "display_name": "multi-aff-py"
+      },
+      {
+        "software": "celestia",
+        "display_name": "Celestia"
+      },
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "earlier-versions-of-adobe-audition",
+        "display_name": "Earlier versions of Adobe Audition"
+      },
+      {
+        "software": "bentley-systems-microstation",
+        "display_name": "Bentley Systems MicroStation"
+      },
+      {
+        "software": "oracle-autovue",
+        "display_name": "Oracle AutoVue"
+      },
+      {
+        "software": "native-instruments-battery-3",
+        "display_name": "Native Instruments Battery 3"
+      },
+      {
+        "software": "corel-videostudio-2023",
+        "display_name": "Corel VideoStudio 2023"
+      }
+    ],
+    "macos": [
+      {
+        "software": "multi-aff-py",
+        "display_name": "multi-aff-py"
+      },
+      {
+        "software": "gnu-emacs",
+        "display_name": "GNU Emacs"
+      },
+      {
+        "software": "celestia",
+        "display_name": "Celestia"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "native-instruments-battery-3",
+        "display_name": "Native Instruments Battery 3"
+      },
+      {
+        "software": "apple-quicktime-player",
+        "display_name": "Apple QuickTime Player"
+      }
+    ],
+    "linux": [
+      {
+        "software": "multi-aff-py",
+        "display_name": "multi-aff-py"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2016-09-30",
+  "sources": [
+    {
+      "url": "cel.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

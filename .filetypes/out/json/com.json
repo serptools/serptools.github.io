@@ -1,0 +1,85 @@
+{
+  "slug": "com",
+  "extension": "com",
+  "name": "DOS Command File",
+  "category": "dos-command-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 293,
+    "source": "fileinfo"
+  },
+  "summary": "A COM file is an executable program capable of being run by MS-DOS and Windows. It is saved in a binary format and is similar to an .EXE file, but differs in that it has a maximum size of roughly 64KB and it has no header or metadata . COM files are commonly used for executing a set of instructions whereas EXE files are used for fully developed programs.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-windows",
+        "display_name": "Microsoft Windows"
+      },
+      {
+        "software": "dosbox",
+        "display_name": "DOSBox"
+      },
+      {
+        "software": "parallels-desktop-for-mac-with-windows-installed",
+        "display_name": "Parallels Desktop for Mac with Windows installed"
+      },
+      {
+        "software": "wine",
+        "display_name": "Wine"
+      },
+      {
+        "software": "winehq",
+        "display_name": "WineHQ"
+      }
+    ],
+    "linux": [
+      {
+        "software": "wine",
+        "display_name": "Wine"
+      },
+      {
+        "software": "dosbox",
+        "display_name": "DOSBox"
+      }
+    ],
+    "android": [
+      {
+        "software": "winehq",
+        "display_name": "WineHQ"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "COM file icon",
+      "alt": "COM file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/com-158.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-11-01",
+  "sources": [
+    {
+      "url": "com.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

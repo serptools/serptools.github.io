@@ -1,0 +1,30 @@
+{
+  "slug": "map",
+  "extension": "map",
+  "name": "Quake Engine Game Map",
+  "category": "quake-engine-game-map",
+  "summary": "",
+  "developer_org": "michael-schaffer-and-florian-hufsky",
+  "developer_name": "Michael Schaffer and Florian Hufsky",
+  "more_information": {
+    "description": [
+      "Developers and modders can create MAP files using several map editors, including Valve Hammer Editor. These programs can typically compile MAP files into the correct target BSP format, for use in a specific game or games.",
+      "TorquePowered.com's Torque Constructor is another popular tool that uses MAP files. It can convert maps into the .DIF (Torque Game Engine Model) format for further development. The resulting maps can be included in Torque games, which are available for PC, mobile, and console platforms.",
+      "Many game engines create game maps saved in the MAP format. Some examples include:",
+      "NOTE: Valve Hammer Editor 4, which is used to develop and create mods for Half-life, saves maps in the newer .VMF format. The program was previously called Worldcraft but is now commonly referred to as Hammer."
+    ]
+  },
+  "common_filenames": [
+    {
+      "filename": "input.map",
+      "description": "input.map - The common name for the MAP file containing the key assignments for the simulator."
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "map.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

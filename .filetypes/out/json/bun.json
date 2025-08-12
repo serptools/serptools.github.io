@@ -1,0 +1,47 @@
+{
+  "slug": "bun",
+  "extension": "bun",
+  "name": "Cakewalk Bundle File",
+  "category": "cakewalk-bundle-file",
+  "developer_org": "roland",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 22,
+    "source": "fileinfo"
+  },
+  "summary": "Audio project archive created with Cakewalk audio production software; saves project ( .WRK ) data all related audio data in a single file, called a \"bundle.\"",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "cakewalk-sonar-x3",
+        "display_name": "Cakewalk SONAR X3"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-09-29",
+  "sources": [
+    {
+      "url": "bun.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

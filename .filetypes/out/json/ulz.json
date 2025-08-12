@@ -1,0 +1,49 @@
+{
+  "slug": "ulz",
+  "extension": "ulz",
+  "name": "USBlyzer Data Capture File",
+  "category": "usblyzer-data-capture-file",
+  "developer_org": "usblyzer",
+  "popularity": {
+    "rating": 2.2,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Contains data captured by USBlyzer, a USB protocol analysis program; contains a hierarchy of connected USB devices with descriptive information about each device.",
+  "standards": [],
+  "mime_types": [
+    "i/o"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "usblyzer",
+        "display_name": "USBlyzer"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2007-12-18",
+  "sources": [
+    {
+      "url": "ulz.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

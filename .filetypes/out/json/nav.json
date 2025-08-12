@@ -1,0 +1,79 @@
+{
+  "slug": "nav",
+  "extension": "nav",
+  "name": "Id Tech 3 Bot Navigation File",
+  "category": "1.-id-tech-3-bot-navigation-file",
+  "developer_org": "valve",
+  "popularity": {
+    "rating": 4.4,
+    "votes": 21,
+    "source": "fileinfo"
+  },
+  "summary": "Navigation mesh used by games developed with the id Tech 3 game engine or a derivative of the id Tech 3 engine such as Valve's Source Engine; saves a mesh of walkable areas within a .BSP map file; allows artificial intelligence (AI) bots to know how to move around the map.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "valve-counter-strike-source",
+        "display_name": "Valve Counter-Strike: Source"
+      },
+      {
+        "software": "id-software-quake-3",
+        "display_name": "id Software Quake 3"
+      },
+      {
+        "software": "used-by-msn-programs",
+        "display_name": "Used by MSN programs"
+      }
+    ],
+    "ios": [
+      {
+        "software": "facepunch-studios-garry-s-mod",
+        "display_name": "Facepunch Studios Garry's Mod"
+      },
+      {
+        "software": "valve-counter-strike-source",
+        "display_name": "Valve Counter-Strike: Source"
+      },
+      {
+        "software": "id-software-quake-3",
+        "display_name": "id Software Quake 3"
+      }
+    ],
+    "macos": [
+      {
+        "software": "valve-counter-strike-source",
+        "display_name": "Valve Counter-Strike: Source"
+      },
+      {
+        "software": "id-software-quake-3",
+        "display_name": "id Software Quake 3"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-04-09",
+  "sources": [
+    {
+      "url": "nav.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

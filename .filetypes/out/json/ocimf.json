@@ -1,0 +1,57 @@
+{
+  "slug": "ocimf",
+  "extension": "ocimf",
+  "name": "OCIMF HVPQ File",
+  "category": "ocimf-hvpq-file",
+  "developer_org": "ocimf",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "An OCIMF file is a vessel record file used by SIRE, a ship inspection report program used to assess the safety of vessels. It contains information about a vessel gathered from a Harmonised Vessel Particulars Questionnaire (HVPQ) submitted by ship owners. OCIMF files include various vessel information, such as the name, IMO number, EMI number, REG number, USCG VIN number, flag, call sign, port of registry, ship contacts, type of hull, crew training, certificates, and deadweight tonnage.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "ocimf-particulars-editor",
+        "display_name": "OCIMF Particulars Editor"
+      },
+      {
+        "software": "ocimf-sire",
+        "display_name": "OCIMF SIRE"
+      }
+    ],
+    "web": [
+      {
+        "software": "ocimf-sire",
+        "display_name": "OCIMF SIRE"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-03-21",
+  "sources": [
+    {
+      "url": "ocimf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

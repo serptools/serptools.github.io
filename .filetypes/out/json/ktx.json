@@ -1,0 +1,89 @@
+{
+  "slug": "ktx",
+  "extension": "ktx",
+  "name": "Khronos Texture",
+  "category": "khronos-texture",
+  "developer_org": "khronos-group",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "A KTX file is an image file created by KTX Software, a library that allows OpenGL and Vulkan applications to save multiple textures and images together as one compressed image. Most commonly, KTX files contain screenshots created by iOS devices. iOS devices use KTX files to store snapshots of a user's current screen as the user switches applications.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "pixel-polygon-pico-pixel",
+        "display_name": "Pixel&Polygon Pico Pixel"
+      },
+      {
+        "software": "apple-preview",
+        "display_name": "Apple Preview"
+      },
+      {
+        "software": "filza",
+        "display_name": "Filza"
+      }
+    ],
+    "macos": [
+      {
+        "software": "macforensics-ios_ktx_to_png",
+        "display_name": "MacForensics IOS_KTX_TO_PNG"
+      },
+      {
+        "software": "pixel-polygon-pico-pixel",
+        "display_name": "Pixel&Polygon Pico Pixel"
+      },
+      {
+        "software": "apple-preview",
+        "display_name": "Apple Preview"
+      }
+    ],
+    "ios": [
+      {
+        "software": "ios-snapshot-triage-parser",
+        "display_name": "iOS-Snapshot-Triage-Parser"
+      },
+      {
+        "software": "apple-preview",
+        "display_name": "Apple Preview"
+      },
+      {
+        "software": "filza",
+        "display_name": "Filza"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "KTX file icon",
+      "alt": "KTX file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/ktx-11974.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-08-18",
+  "sources": [
+    {
+      "url": "ktx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

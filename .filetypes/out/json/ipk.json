@@ -1,0 +1,96 @@
+{
+  "slug": "ipk",
+  "extension": "ipk",
+  "name": "Itsy Package",
+  "category": "1.-itsy-package",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.2,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "An IPK file is a compressed archive primarily used for installing software on handheld devices running Linux-based operating systems, such as WebOS and select embedded systems. It is based on the Debian package ( .DEB ) format and contains the required files and installation instructions for setting up an application or system update on a compatible device.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "7-zip",
+        "display_name": "7-Zip"
+      },
+      {
+        "software": "debian-software-dpkg",
+        "display_name": "Debian software (dpkg)"
+      },
+      {
+        "software": "quickbms",
+        "display_name": "QuickBMS"
+      },
+      {
+        "software": "just-dance-2019-ipk-unpacker",
+        "display_name": "Just Dance 2019 IPK Unpacker"
+      },
+      {
+        "software": "ubiart-archive-tools",
+        "display_name": "Ubiart Archive Tools"
+      }
+    ],
+    "linux": [
+      {
+        "software": "debian-software-dpkg",
+        "display_name": "Debian software (dpkg)"
+      },
+      {
+        "software": "just-dance-2019-ipk-unpacker",
+        "display_name": "Just Dance 2019 IPK Unpacker"
+      },
+      {
+        "software": "ubiart-archive-tools",
+        "display_name": "Ubiart Archive Tools"
+      }
+    ],
+    "web": [
+      {
+        "software": "lg-webos-tv-sdk",
+        "display_name": "LG webOS TV SDK",
+        "status": "discontinued"
+      }
+    ],
+    "macos": [
+      {
+        "software": "just-dance-2019-ipk-unpacker",
+        "display_name": "Just Dance 2019 IPK Unpacker"
+      },
+      {
+        "software": "ubiart-archive-tools",
+        "display_name": "Ubiart Archive Tools"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2025-01-16",
+  "sources": [
+    {
+      "url": "ipk.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

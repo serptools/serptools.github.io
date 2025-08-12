@@ -1,0 +1,50 @@
+{
+  "slug": "lqr",
+  "extension": "lqr",
+  "name": "Squeeze-Compressed LBR File",
+  "category": "squeeze-compressed-lbr-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "An LQR file is an .LBR archive that has been compressed using Squeeze (SQ) compression . It contains a collection of files, such as those that comprise a software program, that have been packaged together for easier distribution. To retrieve the files an LQR file contains, users need both a Squeeze decompression utility and a LU expansion utility.",
+  "standards": [],
+  "mime_types": [
+    "cp/m",
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "squeez",
+        "display_name": "Squeez"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-01-31",
+  "sources": [
+    {
+      "url": "lqr.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

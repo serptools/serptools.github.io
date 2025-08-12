@@ -1,0 +1,67 @@
+{
+  "slug": "slx",
+  "extension": "slx",
+  "name": "MathWorks Simulink Model File",
+  "category": "1.-mathworks-simulink-model-file",
+  "developer_org": "mathworks",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 61,
+    "source": "fileinfo"
+  },
+  "summary": "Simulation model created with Simulink, a block diagram environment for multidomain simulation; stores a list of elements and associated values in a compressed XML format; uses Unicode UTF-8 text encoding by default.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "mathworks-simulink",
+        "display_name": "MathWorks Simulink"
+      },
+      {
+        "software": "magix-spectralayers-pro",
+        "display_name": "MAGIX SpectraLayers Pro"
+      }
+    ],
+    "macos": [
+      {
+        "software": "mathworks-simulink",
+        "display_name": "MathWorks Simulink"
+      },
+      {
+        "software": "magix-spectralayers-pro",
+        "display_name": "MAGIX SpectraLayers Pro"
+      }
+    ],
+    "linux": [
+      {
+        "software": "mathworks-simulink",
+        "display_name": "MathWorks Simulink"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2013-02-01",
+  "sources": [
+    {
+      "url": "slx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

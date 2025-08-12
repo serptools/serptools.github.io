@@ -1,0 +1,55 @@
+{
+  "slug": "pgal",
+  "extension": "pgal",
+  "name": "Photo! 3D Album Gallery",
+  "category": "photo-3d-album-gallery",
+  "developer_org": "photo",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "A PGAL file contains a gallery of pictures created by Photo! 3D Album, a program used to present pictures in a 3D environment such as an art gallery or Egyptian pyramid. It stores JPEG images imported by a user in a 3D gallery environment.",
+  "standards": [],
+  "mime_types": [
+    "cd/dvd"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "photo-3d-album",
+        "display_name": "Photo 3D Album"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "PGAL file open in Photo! 3D Album 1.2",
+      "alt": "PGAL file open in Photo! 3D Album 1.2",
+      "source_url": "https://fileinfo.com/img/ss/md/pgal_10703.jpg"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-09-20",
+  "sources": [
+    {
+      "url": "pgal.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

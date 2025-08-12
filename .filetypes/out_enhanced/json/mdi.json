@@ -1,0 +1,22 @@
+{
+  "slug": "mdi",
+  "extension": "mdi",
+  "name": "Microsoft Document Imaging File",
+  "category": "microsoft-document-imaging-file",
+  "summary": "",
+  "developer_org": "microsoft",
+  "developer_name": "Microsoft",
+  "more_information": {
+    "description": [
+      "MDI files are created and opened with Microsoft Office Document Imaging (MODI), which is included with Office XP, 2003, and 2007. Microsoft stopped including MODI with Office 2010, so you cannot open MDI files in Office 2010. Saving documents created with MODI in the .TIF format allows for better compatibility with other programs.",
+      "NOTE: Microsoft provides the \"MDI to TIFF File Converter,\" which is a command-line tool that can be used to convert MDI files to .TIFF files."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "mdi.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

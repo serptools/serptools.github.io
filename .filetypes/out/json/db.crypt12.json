@@ -1,0 +1,73 @@
+{
+  "slug": "db.crypt12",
+  "extension": "db.crypt12",
+  "name": "WhatsApp Encrypted Database File",
+  "category": "whatsapp-encrypted-database-file",
+  "developer_org": "whatsapp",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 103,
+    "source": "fileinfo"
+  },
+  "summary": "A DB.CRYPT12 file is a database file used by WhatsApp Messenger, a free smartphone messenger application. It stores an encrypted database of chat history messages.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "whatsapp-viewer",
+        "display_name": "WhatsApp Viewer"
+      },
+      {
+        "software": "whatsapp-messenger",
+        "display_name": "WhatsApp Messenger"
+      },
+      {
+        "software": "whatsapp-xtract",
+        "display_name": "WhatsApp Xtract"
+      },
+      {
+        "software": "deraills-crypt-dbconverter-for-whatsapp",
+        "display_name": "deraills Crypt-DBConverter for Whatsapp"
+      }
+    ],
+    "android": [
+      {
+        "software": "whatsapp-messenger",
+        "display_name": "WhatsApp Messenger"
+      },
+      {
+        "software": "whatsapp-xtract",
+        "display_name": "WhatsApp Xtract"
+      },
+      {
+        "software": "deraills-crypt-dbconverter-for-whatsapp",
+        "display_name": "deraills Crypt-DBConverter for Whatsapp"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-07-27",
+  "sources": [
+    {
+      "url": "db.crypt12.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

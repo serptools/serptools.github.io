@@ -1,0 +1,51 @@
+{
+  "slug": "gmt",
+  "extension": "gmt",
+  "name": "rFactor Model File",
+  "category": "rfactor-model-file",
+  "developer_org": "image-space",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "Three-dimensional model used by rFactor, a car racing simulation game; saves the 3D model for a vehicle, vehicle upgrade component, or a track; used for loading graphics in the rFactor 3D game engine.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "image-space-rfactor",
+        "display_name": "Image Space rFactor"
+      },
+      {
+        "software": "zanoza-zmodeler",
+        "display_name": "Zanoza ZModeler"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-09-01",
+  "sources": [
+    {
+      "url": "gmt.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

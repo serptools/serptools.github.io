@@ -1,0 +1,47 @@
+{
+  "slug": "bpb",
+  "extension": "bpb",
+  "name": "PowerDesigner Business Process Backup File",
+  "category": "powerdesigner-business-process-backup-file",
+  "developer_org": "sybase",
+  "popularity": {
+    "rating": 2.9,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "Backup copy of a Business Process Model ( .BPM ) file created with Sybase PowerDesigner; automatically created with a model or multi-model report is saved; can be used to restore the Process Model if the original file cannot be used.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "sybase-powerdesigner",
+        "display_name": "Sybase PowerDesigner"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-07-29",
+  "sources": [
+    {
+      "url": "bpb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

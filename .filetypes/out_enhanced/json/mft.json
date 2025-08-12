@@ -1,0 +1,22 @@
+{
+  "slug": "mft",
+  "extension": "mft",
+  "name": "Kaspersky File Table",
+  "category": "kaspersky-file-table",
+  "summary": "",
+  "developer_org": "neato",
+  "developer_name": "Neato",
+  "more_information": {
+    "description": [
+      "MFT files begin with a <kdb> tag and include sections with <parms> , <stt> , and <kdc> tags.",
+      "In Mac OS X, the default MFT file is named kavbase.mft and is located in the /​Library/​Application Support/​Kaspersky Lab/​KAV/​Bases/​ directory."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "mft.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

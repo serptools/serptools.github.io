@@ -1,0 +1,54 @@
+{
+  "slug": "mcx",
+  "extension": "mcx",
+  "name": "MICRO CADAM-X/6000 Model Data File",
+  "category": "micro-cadam-x-6000-model-data-file",
+  "developer_org": "cnc-software",
+  "popularity": {
+    "rating": 4.3,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "3D model format used by Mastercam X and X2 CAD/CAM software; used for developing 3D models of parts, molds, and fixtures; may contain solids, surfaces, and wireframe data; commonly referred to the MC-X format.",
+  "standards": [],
+  "mime_types": [
+    "cad/cam",
+    "cadam-x/6000"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "cnc-software-mastercam",
+        "display_name": "CNC Software Mastercam"
+      },
+      {
+        "software": "dassault-systemes-catia-cadam-v4-mcx-translator",
+        "display_name": "Dassault Systemes CATIA-CADAM V4 MCX Translator"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2007-09-03",
+  "sources": [
+    {
+      "url": "mcx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

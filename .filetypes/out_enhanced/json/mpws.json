@@ -1,0 +1,27 @@
+{
+  "slug": "mpws",
+  "extension": "mpws",
+  "name": "MathPiper Worksheet",
+  "category": "mathpiper-worksheet",
+  "summary": "",
+  "developer_org": "mathpiper",
+  "developer_name": "MathPiper",
+  "more_information": {
+    "description": [
+      "MathPiper is a programming language designed to be used in science, engineering, and mathematics fields. Worksheets are an integral part of MathPiper and within these worksheets are code folds, which are primarily used to calculate mathematical equations. These code folds can be executed by placing the cursor inside of it and typing Shift and Enter . The output (child fold) is then generated below the executed code fold, which is also known as a parent fold."
+    ]
+  },
+  "common_filenames": [
+    {
+      "filename": "worksheet_demo_1",
+      "description": "worksheet_demo_1 - A preloaded worksheet in MathPiperIDE."
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "mpws.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

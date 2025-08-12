@@ -1,0 +1,57 @@
+{
+  "slug": "wjf",
+  "extension": "wjf",
+  "name": "WinJournal Journal File",
+  "category": "1.-winjournal-journal-file",
+  "developer_org": "mariner-software",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Digital journal created by WinJournal, a personal journaling and blogging application; contains a collection of journal entries, including the title, date, and written text for each entry; may also include images as well as audio and video content; used for storing and organizing personal thoughts in a single location.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "mariner-winjournal",
+        "display_name": "Mariner WinJournal"
+      },
+      {
+        "software": "corel-winzip",
+        "display_name": "Corel WinZip"
+      }
+    ],
+    "macos": [
+      {
+        "software": "corel-winzip-mac",
+        "display_name": "Corel WinZip Mac"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-07-21",
+  "sources": [
+    {
+      "url": "wjf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

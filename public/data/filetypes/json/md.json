@@ -1,0 +1,70 @@
+{
+  "slug": "md",
+  "extension": "md",
+  "name": "Markdown Documentation File",
+  "summary": "An MD file is a text file written in Markdown, a lightweight markup language used to format plain text. It is saved in plain text format but may include inline symbols that define how to format the text (e.g., bold, indentations, headers, table formatting). Although MD files are saved as plain text, users typically convert them to HTML for display on webpages or documentation systems.",
+  "developer": "John Gruber",
+  "developer_slug": "john-gruber",
+  "category": "Developer Files",
+  "category_slug": "developer-files",
+  "rating": 4.0,
+  "votes": 395,
+  "last_updated": "June 24, 2025",
+  "more_information": {
+    "content": [
+      "John Gruber created Markdown in 2004, with the help of Aaron Swartz, to design a simple and readable markup language that could be easily converted to HTML. Gruber released the original Markdown Perl script alongside the specification on his website, Daring Fireball.",
+      "However, Gruber has not actively developed the official Markdown implementation or updated the original specification in many years. Since then, many others have created extended versions and implementations of Markdown, such as CommonMark and GitHub Flavored Markdown (GFM), as well as tools like Pandoc, to add features and improve consistency across platforms.",
+      "Various types of users, including software developers, technical writers, and researchers, use the Markdown language. For example, software developers may use MD files to create project documentation, such as README.md files that explain the purpose, installation, and usage of their software.",
+      "Technical writers often rely on Markdown to produce user guides, internal wikis, and developer documentation that can be easily converted to HTML or other formats using tools like MkDocs or Jekyll. Finally, researchers may use Markdown for writing papers, notes, and reports, often integrating it with platforms like R Markdown or Jupyter Notebooks.",
+      "NOTE: Markdown files may also use the .markdown extension ( .MARKDOWN files)."
+    ],
+    "screenshot": {
+      "url": "https://fileinfo.com/img/ss/sm/md_7082-2.png",
+      "srcset": "https://fileinfo.com/img/ss/md/md_7082-2.png 760w, https://fileinfo.com/img/ss/sm/md_7082-2.png 380w",
+      "alt": "Screenshot of a .md file in Caret",
+      "width": "380",
+      "height": "253",
+      "caption": "MD file open in Caret"
+    }
+  },
+  "how_to_open": {
+    "instructions": [
+      "You can open MD files with any text editor, including:",
+      "However, if you intend to edit an MD file, you may want to open it with a Markdown editor. Markdown editors provide editing and review tools that will help you apply Markdown syntax correctly. Some Markdown editors include:"
+    ],
+    "programs": [
+      {
+        "name": "Microsoft Notepad",
+        "url": "../software/microsoft/notepad.html"
+      },
+      {
+        "name": "Apple TextEdit",
+        "url": "../software/apple/textedit.html"
+      },
+      {
+        "name": "Vim",
+        "url": "../software/vim/vim.html"
+      },
+      {
+        "name": "Google Chrome Text (Chrome OS)"
+      },
+      {
+        "name": "ghostwriter (Windows, Linux)"
+      },
+      {
+        "name": "MacDown (Mac)"
+      },
+      {
+        "name": "Caret (cross-platform)"
+      },
+      {
+        "name": "StackEdit (Web)"
+      }
+    ]
+  },
+  "scraped_at": "2025-08-09T21:58:55.219067",
+  "source": {
+    "url": "https://fileinfo.com/extension/md",
+    "file": "md.html"
+  }
+}

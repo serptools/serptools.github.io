@@ -1,0 +1,53 @@
+{
+  "slug": "appdownload",
+  "extension": "appdownload",
+  "name": "Mac App Store Partially Downloaded App",
+  "category": "mac-app-store-partially-downloaded-app",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 43,
+    "source": "fileinfo"
+  },
+  "summary": "An APPDOWNLOAD file is a file created by App Store, a program included with Mac OS X 10.6.6 or later that allows users to purchase macOS (OS X) software. It saves the contents of a purchased .APP file as it's being downloaded from the store.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "apple-app-store",
+        "display_name": "Apple App Store"
+      }
+    ],
+    "windows": [
+      {
+        "software": "apple-app-store",
+        "display_name": "Apple App Store"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-11-09",
+  "sources": [
+    {
+      "url": "appdownload.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

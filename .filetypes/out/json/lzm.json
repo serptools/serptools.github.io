@@ -1,0 +1,53 @@
+{
+  "slug": "lzm",
+  "extension": "lzm",
+  "name": "Slax Module",
+  "category": "slax-module",
+  "developer_org": "slax",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "Compressed module or package file that may contain multiple files; used by Slax, a small and fast Linux operating system; often used for program installation packages.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "linux": [
+      {
+        "software": "slax",
+        "display_name": "Slax"
+      }
+    ],
+    "windows": [
+      {
+        "software": "slax",
+        "display_name": "Slax"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2008-04-18",
+  "sources": [
+    {
+      "url": "lzm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "cx5",
+  "extension": "cx5",
+  "name": "Clone Manager XML File",
+  "category": "clone-manager-xml-file",
+  "developer_org": "sci-ed",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "CX5 is a Clone Manager molecule XML format used by Clone Manager, a program used for cloning simulation, enzyme operations, graphic map drawing. Each CX5 file contains sequence data, and molecule name and size. CX5 files may also contain molecule notes, description, enzyme sites, primer sites, and features.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "sci-ed-clone-manager",
+        "display_name": "Sci-Ed Clone Manager"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-03-22",
+  "sources": [
+    {
+      "url": "cx5.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

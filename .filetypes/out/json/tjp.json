@@ -1,0 +1,57 @@
+{
+  "slug": "tjp",
+  "extension": "tjp",
+  "name": "TaskJuggler Project File",
+  "category": "1.-taskjuggler-project-file",
+  "developer_org": "taskjuggler",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "Project file created with TaskJuggler, an open source project management tool; used for managing and analyzing tasks, resources, costs, productivity, etc.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "linux": [
+      {
+        "software": "taskjuggler",
+        "display_name": "TaskJuggler"
+      },
+      {
+        "software": "uc-berkeley-tilepic",
+        "display_name": "UC Berkeley TilePic"
+      }
+    ],
+    "windows": [
+      {
+        "software": "taskjuggler",
+        "display_name": "TaskJuggler"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2007-07-22",
+  "sources": [
+    {
+      "url": "tjp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

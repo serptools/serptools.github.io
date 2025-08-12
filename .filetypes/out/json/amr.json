@@ -1,0 +1,162 @@
+{
+  "slug": "amr",
+  "extension": "amr",
+  "name": "Adaptive Multi-Rate Codec File",
+  "category": "adaptive-multi-rate-codec-file",
+  "developer_org": "ericsson",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 745,
+    "source": "fileinfo"
+  },
+  "summary": "An AMR file is an audio file saved in a compressed format developed by Ericsson. It is optimized for storing spoken audio and is used by many 3G cell phones to store voice recordings, which include MMS messages. Various media players can open AMR files, including VideoLAN VLC media player and Apple QuickTime Player.",
+  "standards": [],
+  "mime_types": [
+    "20/20"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "microsoft-media-player",
+        "display_name": "Microsoft Media Player"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "realnetworks-realplayer-20-20",
+        "display_name": "RealNetworks RealPlayer 20/20"
+      },
+      {
+        "software": "audacity",
+        "display_name": "Audacity"
+      },
+      {
+        "software": "amr-player",
+        "display_name": "AMR Player"
+      },
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      },
+      {
+        "software": "apple-quicktime-player",
+        "display_name": "Apple QuickTime Player"
+      },
+      {
+        "software": "shedworx-smart-converter",
+        "display_name": "ShedWorx Smart Converter"
+      },
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      },
+      {
+        "software": "realnetworks-realtimes-video-maker",
+        "display_name": "RealNetworks RealTimes: Video Maker"
+      },
+      {
+        "software": "realnetworks-realtimes-video-maker",
+        "display_name": "RealNetworks RealTimes Video Maker"
+      }
+    ],
+    "android": [
+      {
+        "software": "file-viewer-for-android",
+        "display_name": "File Viewer for Android"
+      },
+      {
+        "software": "realnetworks-realtimes-video-maker",
+        "display_name": "RealNetworks RealTimes Video Maker"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-quicktime-player",
+        "display_name": "Apple QuickTime Player"
+      },
+      {
+        "software": "shedworx-smart-converter",
+        "display_name": "ShedWorx Smart Converter"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "audacity",
+        "display_name": "Audacity"
+      },
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      }
+    ],
+    "linux": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "audacity",
+        "display_name": "Audacity"
+      },
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      }
+    ],
+    "web": [
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      }
+    ],
+    "ios": [
+      {
+        "software": "realnetworks-realtimes-video-maker",
+        "display_name": "RealNetworks RealTimes: Video Maker"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "AMR file icon",
+      "alt": "AMR file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/amr-670.png"
+    },
+    {
+      "caption": "AMR file open in VideoLAN VLC media player",
+      "alt": "AMR file open in VideoLAN VLC media player",
+      "source_url": "https://fileinfo.com/img/ss/md/amr_670.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-07-14",
+  "sources": [
+    {
+      "url": "amr.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

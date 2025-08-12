@@ -1,0 +1,123 @@
+{
+  "slug": "vp",
+  "extension": "vp",
+  "name": "Verilog Encrypted Source Code File",
+  "category": "1.-verilog-encrypted-source-code-file",
+  "developer_org": "accellera",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 24,
+    "source": "fileinfo"
+  },
+  "summary": "Encrypted file originally written in Verilog, a hardware description language (HDL) used to specify electronic system designs; stores the encrypted version of a Verilog source code file, which uses the .V extension; used for protecting intellectual property stored in plain text source code files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "xilinx-ise-design-suite",
+        "display_name": "Xilinx ISE Design Suite"
+      },
+      {
+        "software": "vpview32",
+        "display_name": "VpView32"
+      },
+      {
+        "software": "maja-express",
+        "display_name": "Maja Express"
+      },
+      {
+        "software": "quickvp",
+        "display_name": "QuickVP"
+      },
+      {
+        "software": "vpmage",
+        "display_name": "VPMage"
+      },
+      {
+        "software": "celestia",
+        "display_name": "Celestia"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      },
+      {
+        "software": "justinmind",
+        "display_name": "Justinmind"
+      }
+    ],
+    "web": [
+      {
+        "software": "xilinx-ise-webpack",
+        "display_name": "Xilinx ISE WebPACK"
+      },
+      {
+        "software": "xilinx-ise-design-suite",
+        "display_name": "Xilinx ISE Design Suite"
+      }
+    ],
+    "linux": [
+      {
+        "software": "xilinx-ise-design-suite",
+        "display_name": "Xilinx ISE Design Suite"
+      },
+      {
+        "software": "celestia",
+        "display_name": "Celestia"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-opengl-shader-builder",
+        "display_name": "Apple OpenGL Shader Builder",
+        "status": "discontinued"
+      },
+      {
+        "software": "celestia",
+        "display_name": "Celestia"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "justinmind",
+        "display_name": "Justinmind"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-09-30",
+  "sources": [
+    {
+      "url": "vp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

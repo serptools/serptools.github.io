@@ -1,0 +1,49 @@
+{
+  "slug": "appcache",
+  "extension": "appcache",
+  "name": "HTML5 Cache Manifest File",
+  "category": "html5-cache-manifest-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 27,
+    "source": "fileinfo"
+  },
+  "summary": "An APPCACHE file is a file used by web browsers to enable accessibility of web applications when there is no network connection. It contains copies of resources that make up web applications, such as images ( .PNG , .GIF , etc.) and .CSS , and .JS files, and are identified by URLs .",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "web": [
+      {
+        "software": "web-browser",
+        "display_name": "web browser"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-11-17",
+  "sources": [
+    {
+      "url": "appcache.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

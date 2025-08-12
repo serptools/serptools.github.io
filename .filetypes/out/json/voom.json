@@ -1,0 +1,49 @@
+{
+  "slug": "voom",
+  "extension": "voom",
+  "name": "VOOM Ransomware Encrypted File",
+  "category": "voom-ransomware-encrypted-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 1.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "A file with the .voom extension has been renamed and encrypted by VOOM ransomware . The .voom extension is added to the file's original extension, producing an extension like .jpg.voom . Because the file is encrypted, you cannot open it.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "system-restore",
+        "display_name": "System Restore"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-05-24",
+  "sources": [
+    {
+      "url": "voom.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

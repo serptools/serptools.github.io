@@ -1,0 +1,55 @@
+{
+  "slug": "p2s",
+  "extension": "p2s",
+  "name": "PCSX2 Saved State",
+  "category": "pcsx2-saved-state",
+  "developer_org": "pcsx2",
+  "popularity": {
+    "rating": 4.2,
+    "votes": 13,
+    "source": "fileinfo"
+  },
+  "summary": "File created by PCSX2, a PlayStation 2 (PS2) emulator; saves a snapshot of the state of the emulator while playing a game; allows players to load an emulated state and to continue from the state exactly as it was saved.",
+  "standards": [],
+  "mime_types": [
+    "ntsc-u/c"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "pcsx2",
+        "display_name": "PCSX2"
+      }
+    ],
+    "linux": [
+      {
+        "software": "pcsx2",
+        "display_name": "PCSX2"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-05-12",
+  "sources": [
+    {
+      "url": "p2s.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

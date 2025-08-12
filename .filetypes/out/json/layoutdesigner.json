@@ -1,0 +1,47 @@
+{
+  "slug": "layoutdesigner",
+  "extension": "layoutdesigner",
+  "name": "QuickBooks Layout Designer File",
+  "category": "quickbooks-layout-designer-file",
+  "developer_org": "intuit",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "File created by QuickBooks, a financial management application; contains a customized template of an invoice, sales receipt, estimate, credit memo, statement, or purchase order that can be used with another QuickBooks company file; created by the Layout Designer tool in QuickBooks.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "intuit-quickbooks-for-mac",
+        "display_name": "Intuit QuickBooks for Mac"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2013-10-10",
+  "sources": [
+    {
+      "url": "layoutdesigner.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

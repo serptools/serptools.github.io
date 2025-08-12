@@ -1,0 +1,47 @@
+{
+  "slug": "tt11",
+  "extension": "tt11",
+  "name": "TurboTax Canada 2011 Tax Return",
+  "category": "turbotax-canada-2011-tax-return",
+  "developer_org": "intuit",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "Tax return created with the Canadian version of TurboTax 2011; contains tax information for the 2011 tax year; includes the federal T1 form as well as other necessary forms such as the TD1 and T1-ADJ forms; also includes required provincial forms for the user's province.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "intuit-canada-turbotax",
+        "display_name": "Intuit Canada TurboTax"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-12-16",
+  "sources": [
+    {
+      "url": "tt11.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

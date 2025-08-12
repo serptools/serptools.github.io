@@ -1,0 +1,67 @@
+{
+  "slug": "pfb",
+  "extension": "pfb",
+  "name": "Printer Font Binary File",
+  "category": "printer-font-binary-file",
+  "developer_org": "adobe-systems",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 35,
+    "source": "fileinfo"
+  },
+  "summary": "Adobe Type 1 font for Windows; similar to a .PFA file, but has been encoded in binary format; requires the associated .PFM file as well; both the PFB and PFM files should be stored within the system Fonts folder in order to be active.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "coreldraw-graphics-suite-2024",
+        "display_name": "CorelDRAW Graphics Suite 2024"
+      },
+      {
+        "software": "fontforge",
+        "display_name": "FontForge"
+      },
+      {
+        "software": "autodesk-autocad-2025",
+        "display_name": "Autodesk AutoCAD 2025"
+      }
+    ],
+    "macos": [
+      {
+        "software": "fontforge",
+        "display_name": "FontForge"
+      }
+    ],
+    "linux": [
+      {
+        "software": "fontforge",
+        "display_name": "FontForge"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-09-03",
+  "sources": [
+    {
+      "url": "pfb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "vix",
+  "extension": "vix",
+  "name": "Lightworks Video Index File",
+  "category": "lightworks-video-index-file",
+  "developer_org": "editshare",
+  "popularity": {
+    "rating": 2.8,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "File created by Lightworks, a video editing application; similar to the .MXF file; contains video and audio data that describes AVCHD media files with the .MTS extension used by Lightworks; referenced by Lightworks to streamline the editing workflow.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "editshare-lightworks",
+        "display_name": "EditShare Lightworks"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-01-21",
+  "sources": [
+    {
+      "url": "vix.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

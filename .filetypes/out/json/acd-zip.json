@@ -1,0 +1,55 @@
+{
+  "slug": "acd-zip",
+  "extension": "acd-zip",
+  "name": "Sony ACID Project With Embedded Media File",
+  "category": "sony-acid-project-with-embedded-media-file",
+  "developer_org": "sony",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 10,
+    "source": "fileinfo"
+  },
+  "summary": "Audio project created by Sony ACID Xpress, MAGIX ACID Music Studio, or MAGIX ACID Pro; saved in a .ZIP format and contains an .ACD project file as well as the music compilation audio files; differs from an ACD file, which only stores references to the audio files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "magix-acid-pro-11",
+        "display_name": "MAGIX ACID Pro 11"
+      },
+      {
+        "software": "magix-acid-music-studio-11",
+        "display_name": "MAGIX ACID Music Studio 11"
+      },
+      {
+        "software": "sony-acid-xpress",
+        "display_name": "Sony ACID Xpress"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2016-09-13",
+  "sources": [
+    {
+      "url": "acd-zip.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

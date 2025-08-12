@@ -1,0 +1,94 @@
+{
+  "slug": "mbtiles",
+  "extension": "mbtiles",
+  "name": "Mapbox Tileset",
+  "category": "mapbox-tileset",
+  "developer_org": "mapbox",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "An MBTILES file is a tile-based geographic map used by Mapbox and other mapping programs. It contains a map and, usually, additional overlaid information. In mapping programs, users can zoom in upon the map an MBTILES file contains to view areas in greater detail.",
+  "standards": [],
+  "mime_types": [
+    "and/or"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "mbview",
+        "display_name": "MBView"
+      },
+      {
+        "software": "maptiler-desktop",
+        "display_name": "MapTiler Desktop"
+      },
+      {
+        "software": "mapbox-studio",
+        "display_name": "Mapbox Studio"
+      }
+    ],
+    "macos": [
+      {
+        "software": "mbview",
+        "display_name": "MBView"
+      },
+      {
+        "software": "maptiler-desktop",
+        "display_name": "MapTiler Desktop"
+      }
+    ],
+    "linux": [
+      {
+        "software": "mbview",
+        "display_name": "MBView"
+      },
+      {
+        "software": "maptiler-desktop",
+        "display_name": "MapTiler Desktop"
+      }
+    ],
+    "web": [
+      {
+        "software": "mapbox-studio",
+        "display_name": "Mapbox Studio"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "MBTILES file icon",
+      "alt": "MBTILES file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/mbtiles-12748.png"
+    },
+    {
+      "caption": "MBTILES file open in MapTiler Desktop",
+      "alt": "MBTILES file open in MapTiler Desktop",
+      "source_url": "https://fileinfo.com/img/ss/md/mbtiles_12748.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-06-20",
+  "sources": [
+    {
+      "url": "mbtiles.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

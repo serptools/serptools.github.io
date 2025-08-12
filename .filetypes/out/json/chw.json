@@ -1,0 +1,47 @@
+{
+  "slug": "chw",
+  "extension": "chw",
+  "name": "Compiled Help Index File",
+  "category": "compiled-help-index-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 14,
+    "source": "fileinfo"
+  },
+  "summary": "Help index file created when multiple Compiled HTML Help ( .CHM ) files are merged together; stores the combined table of contents for the Help content and also includes references to each CHM file; must be rebuilt each time any of the referenced CHM files are updated or the table of contents will not be valid.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "the-helpware-group-far",
+        "display_name": "The Helpware Group FAR"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-07-11",
+  "sources": [
+    {
+      "url": "chw.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

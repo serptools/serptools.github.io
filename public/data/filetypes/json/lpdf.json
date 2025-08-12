@@ -1,0 +1,32 @@
+{
+  "slug": "lpdf",
+  "extension": "lpdf",
+  "name": "Localized PDF File",
+  "category": "localized-pdf-file",
+  "summary": "",
+  "developer_org": "apple",
+  "developer_name": "Apple",
+  "more_information": {
+    "description": [
+      "LPDF files can be opened in Mac OS X with Apple Preview, the built-in previewer for PDF files.",
+      "NOTE: LPDF files are not PDF files. They are a specifically-formatted Mac OS X package that contains a PDF file as well as localization information."
+    ]
+  },
+  "common_filenames": [
+    {
+      "filename": "About Stacks.lpdf",
+      "description": "About Stacks.lpdf - Located in the users' Documents directory and explains how Document Stacks are used in Mac OS X."
+    },
+    {
+      "filename": "About Downloads.lpdf",
+      "description": "About Downloads.lpdf - Located in the users' Downloads directory and provides information about how Mac OS X manages file downloads."
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "lpdf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

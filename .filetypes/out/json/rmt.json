@@ -1,0 +1,98 @@
+{
+  "slug": "rmt",
+  "extension": "rmt",
+  "name": "Router Firmware File",
+  "category": "1.-router-firmware-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 4.4,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "Firmware file used by various routers, including Linksys routers; contains data and programs used to operate a router; used to provide firmware updates for bug fixes and security patches.",
+  "standards": [],
+  "mime_types": [
+    "n/a",
+    "xe/xl"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-internet-explorer",
+        "display_name": "Microsoft Internet Explorer",
+        "status": "discontinued"
+      },
+      {
+        "software": "mozilla-firefox",
+        "display_name": "Mozilla Firefox"
+      },
+      {
+        "software": "apple-safari",
+        "display_name": "Apple Safari"
+      },
+      {
+        "software": "raster-music-tracker",
+        "display_name": "Raster Music Tracker"
+      },
+      {
+        "software": "another-slight-atari-player",
+        "display_name": "Another Slight Atari Player"
+      }
+    ],
+    "web": [
+      {
+        "software": "web-browser",
+        "display_name": "Web browser"
+      },
+      {
+        "software": "microsoft-internet-explorer",
+        "display_name": "Microsoft Internet Explorer",
+        "status": "discontinued"
+      },
+      {
+        "software": "mozilla-firefox",
+        "display_name": "Mozilla Firefox"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-safari",
+        "display_name": "Apple Safari"
+      },
+      {
+        "software": "mozilla-firefox",
+        "display_name": "Mozilla Firefox"
+      }
+    ],
+    "linux": [
+      {
+        "software": "mozilla-firefox",
+        "display_name": "Mozilla Firefox"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-02-22",
+  "sources": [
+    {
+      "url": "rmt.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

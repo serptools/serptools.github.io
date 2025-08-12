@@ -1,0 +1,63 @@
+{
+  "slug": "jbi",
+  "extension": "jbi",
+  "name": "Motoman Robot Job File",
+  "category": "motoman-robot-job-file",
+  "developer_org": "motoman",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Job file created by Motoman robot programming software; contains instructions for motion and other actions that control the robot; can be programmed and simulated offline and then uploaded to the robot's job database.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "motoman-motopallet-eg",
+        "display_name": "Motoman MotoPallet EG"
+      },
+      {
+        "software": "motoman-motoftp",
+        "display_name": "Motoman MotoFTP"
+      },
+      {
+        "software": "motoman-fddwin32",
+        "display_name": "Motoman FDDWIN32"
+      },
+      {
+        "software": "motoman-rotsy",
+        "display_name": "Motoman ROTSY"
+      },
+      {
+        "software": "compucraft-robotworks",
+        "display_name": "Compucraft RobotWorks"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-05-20",
+  "sources": [
+    {
+      "url": "jbi.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

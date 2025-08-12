@@ -1,0 +1,22 @@
+{
+  "slug": "bcstm",
+  "extension": "bcstm",
+  "name": "BCSTM Audio Stream",
+  "category": "bcstm-audio-stream",
+  "summary": "",
+  "developer_org": "nintendo",
+  "developer_name": "Nintendo",
+  "more_information": {
+    "description": [
+      "Often, 3DS games loop BCSTM files during gameplay, to provide unbroken background music during a level or repeat a sound effect at certain intervals. For this reason, BCSTM file often contain loop indicators, which tell a game how to loop the sound the file contains. (For example, a game may loop only a portion of a BCSTM file, as specified by an indicator.)",
+      "While BCSTM files usually contain official, original game sounds, gamers sometimes create custom BCSTM files, for use in modded 3DS games. For example, Super Smash Bros. players can use Brawl Custom Song Maker to convert WAV, .MP3 , .OGG , or .FLAC files into BCSTM files, which they can insert into a game's BCSAR archive(s), using modding utilities."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "bcstm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

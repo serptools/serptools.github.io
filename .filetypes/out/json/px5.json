@@ -1,0 +1,63 @@
+{
+  "slug": "px5",
+  "extension": "px5",
+  "name": "Clone Manager Primer Collection File",
+  "category": "clone-manager-primer-collection-file",
+  "developer_org": "sci-ed",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "A PX5 file is a primer collection file created by Clone Manager, a program used for cloning simulation, enzyme operations, graphic map drawing. It contains information about two or more primers.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "sci-ed-clone-manager",
+        "display_name": "Sci-Ed Clone Manager"
+      },
+      {
+        "software": "gsl-biotech-snapgene",
+        "display_name": "GSL Biotech SnapGene"
+      }
+    ],
+    "macos": [
+      {
+        "software": "gsl-biotech-snapgene",
+        "display_name": "GSL Biotech SnapGene"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "PX5 file icon",
+      "alt": "PX5 file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/px5-9854.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-03-22",
+  "sources": [
+    {
+      "url": "px5.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

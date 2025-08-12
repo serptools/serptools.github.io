@@ -1,0 +1,53 @@
+{
+  "slug": "tcm",
+  "extension": "tcm",
+  "name": "TurboCAD Mac Drawing",
+  "category": "turbocad-mac-drawing",
+  "developer_org": "imsi",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "2D or 3D design draft created by Mac editions of the TurboCAD computer-aided design (CAD) software; stores a drawing, including the geometry and display properties; can be rotated and viewed with lighting effects and different camera angles using the software.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "imsi-turbocad-deluxe",
+        "display_name": "IMSI TurboCAD Deluxe"
+      }
+    ],
+    "windows": [
+      {
+        "software": "imsi-turbocad-deluxe",
+        "display_name": "IMSI TurboCAD Deluxe"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-06-16",
+  "sources": [
+    {
+      "url": "tcm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

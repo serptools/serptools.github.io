@@ -1,0 +1,30 @@
+{
+  "slug": "epk",
+  "extension": "epk",
+  "name": "Eaglercraft Package",
+  "category": "eaglercraft-package",
+  "summary": "",
+  "developer_org": "ymir-entertainment",
+  "developer_name": "Ymir Entertainment",
+  "more_information": {
+    "description": [
+      "Eaglercraft is a browser-based video game that is based on Minecraft Java Edition. Different versions of Eaglercraft seek to emulate different versions of Minecraft. Players can play Eaglercraft either locally or online, in single-player or multiplayer modes.",
+      "All versions of Eaglercraft include a file named assets.epk . This file contains a compiled version of Eaglercraft's game resources. If players want to add custom resources to their instance of Eaglercraft, they can do so by placing the resources in the following directory, and then running epkcompiler/run.bat to include those resources in a new assets.epk file:",
+      "eaglercraft-beta-main/​lwjgl-rundir/​resources",
+      "Additionally, in Eaglercraft's single-player mode, players can export backups of their worlds as EPK files. This allows players to load worlds again when playing at a different time or share worlds with other players. To back up a world as an EPK file, players select the world on the Select World menu and then click Backup ."
+    ]
+  },
+  "common_filenames": [
+    {
+      "filename": "Assets.epk",
+      "description": "Assets.epk - The file Eaglercraft uses to load game assets."
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "epk.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

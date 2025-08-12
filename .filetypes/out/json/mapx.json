@@ -1,0 +1,61 @@
+{
+  "slug": "mapx",
+  "extension": "mapx",
+  "name": "Mapjects Client Webparts File",
+  "category": "mapjects-client-webparts-file",
+  "developer_org": "mapjects-development",
+  "popularity": {
+    "rating": 2.7,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "File used by Mapjects GRYD, an operations visualization software package used for security management, energy management, and logistics; stores a client configuration of \"Webparts,\" which are widgets that can be mashed together to display integrated visualizations; used for configuring rich client Web interfaces.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "mapjects-gryd",
+        "display_name": "Mapjects GRYD"
+      },
+      {
+        "software": "mapjects-gryd-with-mapjects-yplug-plug-in",
+        "display_name": "Mapjects GRYD with Mapjects yPlug plug-in"
+      }
+    ],
+    "linux": [
+      {
+        "software": "mapjects-gryd",
+        "display_name": "Mapjects GRYD"
+      },
+      {
+        "software": "mapjects-gryd-with-mapjects-yplug-plug-in",
+        "display_name": "Mapjects GRYD with Mapjects yPlug plug-in"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-02-23",
+  "sources": [
+    {
+      "url": "mapx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

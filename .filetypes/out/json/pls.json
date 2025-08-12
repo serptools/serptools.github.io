@@ -1,0 +1,174 @@
+{
+  "slug": "pls",
+  "extension": "pls",
+  "name": "Multimedia Playlist File",
+  "category": "1.-multimedia-playlist-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 36,
+    "source": "fileinfo"
+  },
+  "summary": "A PLS file contains a playlist, which is a list of multimedia files that can be played back with a media player. It stores references to the locations of the multimedia files, along with metadata about the items on the list. PLS files do not store actual audio and video data, only information in plain text about the audio and video files.",
+  "standards": [],
+  "mime_types": [
+    "20/20",
+    "n/a",
+    "pl/sql"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "apple-itunes",
+        "display_name": "Apple iTunes",
+        "status": "discontinued"
+      },
+      {
+        "software": "realnetworks-realplayer-20-20",
+        "display_name": "RealNetworks RealPlayer 20/20"
+      },
+      {
+        "software": "nullsoft-winamp",
+        "display_name": "Nullsoft Winamp"
+      },
+      {
+        "software": "roxio-creator-nxt-pro-9",
+        "display_name": "Roxio Creator NXT Pro 9"
+      },
+      {
+        "software": "cyberlink-powerdvd-21",
+        "display_name": "CyberLink PowerDVD 21"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "clementine",
+        "display_name": "Clementine"
+      },
+      {
+        "software": "realnetworks-realtimes-video-maker",
+        "display_name": "RealNetworks RealTimes: Video Maker"
+      },
+      {
+        "software": "realnetworks-realtimes-video-maker",
+        "display_name": "RealNetworks RealTimes Video Maker"
+      },
+      {
+        "software": "oracle-database",
+        "display_name": "Oracle Database"
+      },
+      {
+        "software": "myob-technology-accountright",
+        "display_name": "MYOB Technology AccountRight"
+      },
+      {
+        "software": "pico-technology-picolog",
+        "display_name": "Pico Technology PicoLog"
+      }
+    ],
+    "ios": [
+      {
+        "software": "voyetra-audiostation",
+        "display_name": "Voyetra AudioStation"
+      },
+      {
+        "software": "apple-itunes",
+        "display_name": "Apple iTunes",
+        "status": "discontinued"
+      },
+      {
+        "software": "realnetworks-realplayer-20-20",
+        "display_name": "RealNetworks RealPlayer 20/20"
+      },
+      {
+        "software": "nullsoft-winamp",
+        "display_name": "Nullsoft Winamp"
+      },
+      {
+        "software": "roxio-creator-nxt-pro-9",
+        "display_name": "Roxio Creator NXT Pro 9"
+      },
+      {
+        "software": "cyberlink-powerdvd-21",
+        "display_name": "CyberLink PowerDVD 21"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "clementine",
+        "display_name": "Clementine"
+      },
+      {
+        "software": "realnetworks-realtimes-video-maker",
+        "display_name": "RealNetworks RealTimes: Video Maker"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-itunes",
+        "display_name": "Apple iTunes",
+        "status": "discontinued"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "clementine",
+        "display_name": "Clementine"
+      },
+      {
+        "software": "myob-technology-accountedge",
+        "display_name": "MYOB Technology AccountEdge"
+      }
+    ],
+    "linux": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "clementine",
+        "display_name": "Clementine"
+      },
+      {
+        "software": "oracle-database",
+        "display_name": "Oracle Database"
+      }
+    ],
+    "android": [
+      {
+        "software": "realnetworks-realtimes-video-maker",
+        "display_name": "RealNetworks RealTimes Video Maker"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-11-08",
+  "sources": [
+    {
+      "url": "pls.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "slug": "x32",
+  "extension": "x32",
+  "name": "Adobe Xtra File",
+  "category": "adobe-xtra-file",
+  "developer_org": "adobe-systems",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 32,
+    "source": "fileinfo"
+  },
+  "summary": "Application extension or \"xtra\" used by Adobe programs that were acquired from Macromedia; adds additional features, functionality, and file format support to Macromedia/Adobe software.",
+  "standards": [],
+  "mime_types": [
+    "macromedia/adobe"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "adobe-director",
+        "display_name": "Adobe Director",
+        "status": "discontinued"
+      },
+      {
+        "software": "adobe-flash-player",
+        "display_name": "Adobe Flash Player",
+        "status": "discontinued"
+      },
+      {
+        "software": "adobe-shockwave-player",
+        "display_name": "Adobe Shockwave Player"
+      },
+      {
+        "software": "adobe-authorware",
+        "display_name": "Adobe Authorware",
+        "status": "discontinued"
+      }
+    ],
+    "macos": [
+      {
+        "software": "adobe-director",
+        "display_name": "Adobe Director",
+        "status": "discontinued"
+      },
+      {
+        "software": "adobe-flash-player",
+        "display_name": "Adobe Flash Player",
+        "status": "discontinued"
+      },
+      {
+        "software": "adobe-shockwave-player",
+        "display_name": "Adobe Shockwave Player"
+      },
+      {
+        "software": "adobe-authorware",
+        "display_name": "Adobe Authorware",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-06-22",
+  "sources": [
+    {
+      "url": "x32.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

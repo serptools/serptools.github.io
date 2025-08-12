@@ -1,0 +1,97 @@
+{
+  "slug": "tldr",
+  "extension": "tldr",
+  "name": "tldraw Drawing",
+  "category": "tldraw-drawing",
+  "developer_org": "tldraw",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "A TLDR file is a whiteboard drawing created by tldraw, a free, open-source whiteboarding app. It contains JSON-formatted text that defines the drawing's lines, shapes, text, images, and other features. It also contains metadata about the drawing, such as the drawing's name and which version of tldraw created it.",
+  "standards": [],
+  "mime_types": [
+    "and/or"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      },
+      {
+        "software": "tldraw",
+        "display_name": "tldraw"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "web": [
+      {
+        "software": "tldraw",
+        "display_name": "tldraw"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "TLDR file open in tldraw",
+      "alt": "TLDR file open in tldraw",
+      "source_url": "https://fileinfo.com/img/ss/md/tldr_12818.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-07-28",
+  "sources": [
+    {
+      "url": "tldr.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

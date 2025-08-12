@@ -1,0 +1,53 @@
+{
+  "slug": "postal",
+  "extension": "postal",
+  "name": "TomTom Postal Code File",
+  "category": "tomtom-postal-code-file",
+  "developer_org": "tomtom-international",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Data file referenced by TomTom GPS navigation software; maps zip codes (or postal codes) to cities, streets, and other locations; accessed by TomTom software and should not be opened manually.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "tomtom-home",
+        "display_name": "TomTom HOME"
+      }
+    ],
+    "macos": [
+      {
+        "software": "tomtom-home",
+        "display_name": "TomTom HOME"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-05-15",
+  "sources": [
+    {
+      "url": "postal.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

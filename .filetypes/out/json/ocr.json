@@ -1,0 +1,67 @@
+{
+  "slug": "ocr",
+  "extension": "ocr",
+  "name": "Subtitle Workshop OCR Script",
+  "category": "1.-subtitle-workshop-ocr-script",
+  "developer_org": "urusoft",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "Script used by Subtitle Workshop, a movie subtitle editor; saves a list of find/replace value pairs that replace optical character recognition ( OCR ) errors with corrected text; used for making the subtitle text more accurate; can be used for multiple languages.",
+  "standards": [],
+  "mime_types": [
+    "find/replace"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "urusoft-subtitle-workshop",
+        "display_name": "URUSoft Subtitle Workshop"
+      },
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-05-09",
+  "sources": [
+    {
+      "url": "ocr.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

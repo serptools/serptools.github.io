@@ -1,0 +1,67 @@
+{
+  "slug": "mlo",
+  "extension": "mlo",
+  "name": "Monect PC Remote Layout",
+  "category": "monect-pc-remote-layout",
+  "developer_org": "monect",
+  "popularity": {
+    "rating": 3.2,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "An MLO file is a UI layout for Monect PC Remote. It contains an .XML file that defines the UI's structure and .PNG images used as UI assets. PC Remote users can download MLO files online, from the Monect Community forums. Then, they can apply them in PC Remote.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "android": [
+      {
+        "software": "change-extension-to-.zip-view-contents-as-you-would-any-zip-file",
+        "display_name": "Change extension to .zip ; view contents as you would any ZIP file"
+      },
+      {
+        "software": "monect-pc-remote",
+        "display_name": "Monect PC Remote"
+      }
+    ],
+    "windows": [
+      {
+        "software": "change-extension-to-.zip-view-contents-as-you-would-any-zip-file",
+        "display_name": "Change extension to .zip ; view contents as you would any ZIP file"
+      },
+      {
+        "software": "monect-pc-remote",
+        "display_name": "Monect PC Remote"
+      }
+    ],
+    "ios": [
+      {
+        "software": "monect-pc-remote",
+        "display_name": "Monect PC Remote"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-12-05",
+  "sources": [
+    {
+      "url": "mlo.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

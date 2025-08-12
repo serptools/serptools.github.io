@@ -1,0 +1,64 @@
+{
+  "slug": "tlb",
+  "extension": "tlb",
+  "name": "VAX/VMS Text Library",
+  "category": "1.-vax-vms-text-library",
+  "developer_org": "digital-equipment-corporation",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 46,
+    "source": "fileinfo"
+  },
+  "summary": "A TLB file is a library used by the Virtual Memory System (VMS) operating system for Virtual Address eXtension (VAX) computers. It stores plain text information, such as configuration settings, system documentation, or program libraries, to ensure the operating system functions correctly.",
+  "standards": [],
+  "mime_types": [
+    "vax/vms",
+    "vms/vax"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "hp-openvms",
+        "display_name": "HP OpenVMS"
+      },
+      {
+        "software": "microsoft-excel-365",
+        "display_name": "Microsoft Excel 365"
+      }
+    ],
+    "macos": [
+      {
+        "software": "microsoft-excel-365",
+        "display_name": "Microsoft Excel 365"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2024-11-14",
+  "sources": [
+    {
+      "url": "tlb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

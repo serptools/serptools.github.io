@@ -1,0 +1,71 @@
+{
+  "slug": "jsonlz4",
+  "extension": "jsonlz4",
+  "name": "Compressed Firefox User Profile Data File",
+  "category": "compressed-firefox-user-profile-data-file",
+  "developer_org": "mozilla",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 87,
+    "source": "fileinfo"
+  },
+  "summary": "A JSONLZ4 file contains compressed user profile data created by Mozilla Firefox, a free cross-platform web browser. It stores various profile data and settings, such as bookmarks , home page configuration, toolbar layout, and saved passwords. JSONLZ4 files are compressed with LZ4 compression to reduce their size.",
+  "standards": [],
+  "mime_types": [
+    "reader/decompressor"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "mozilla-firefox",
+        "display_name": "Mozilla Firefox"
+      },
+      {
+        "software": "firefox-bookmark-backup-reader-decompressor",
+        "display_name": "Firefox Bookmark Backup Reader/Decompressor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "mozilla-firefox",
+        "display_name": "Mozilla Firefox"
+      }
+    ],
+    "linux": [
+      {
+        "software": "mozilla-firefox",
+        "display_name": "Mozilla Firefox"
+      }
+    ],
+    "web": [
+      {
+        "software": "firefox-bookmark-backup-reader-decompressor",
+        "display_name": "Firefox Bookmark Backup Reader/Decompressor"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-04-15",
+  "sources": [
+    {
+      "url": "jsonlz4.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

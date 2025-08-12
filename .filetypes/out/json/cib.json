@@ -1,0 +1,59 @@
+{
+  "slug": "cib",
+  "extension": "cib",
+  "name": "Luminaire Data File",
+  "category": "luminaire-data-file",
+  "developer_org": "dial",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "Luminaire file used by lighting simulation tools like DIALux, a professional light planning software for indoor and outdoor lighting; contains data about the lighting specifications of a light fixture, such as power, luminous flux, and light intensity; written in the CIBSE format.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "dial-dialux-evo",
+        "display_name": "DIAL DIALux Evo"
+      },
+      {
+        "software": "reluxsuite",
+        "display_name": "ReluxSuite"
+      },
+      {
+        "software": "autodesk-3ds-max-2023",
+        "display_name": "Autodesk 3ds Max 2023"
+      },
+      {
+        "software": "oxytech-litestar-4d-open",
+        "display_name": "OxyTech LITESTAR 4D Open"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-02-13",
+  "sources": [
+    {
+      "url": "cib.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

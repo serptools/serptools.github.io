@@ -1,0 +1,47 @@
+{
+  "slug": "s2arr",
+  "extension": "s2arr",
+  "name": "SynthFont2 Arrangement File",
+  "category": "synthfont2-arrangement-file",
+  "developer_org": "kenneth-rundt",
+  "popularity": {
+    "rating": 2.3,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "An S2ARR file is an arrangement file created by SynthFont2, a program used to edit and play .MIDI files. It contains an arrangement for a MIDI file, which includes one or more SoundFont banks ( .SF2 files), instruments, and effects. S2ARR files also include playback settings, such as volume, playback range, and beats per minute (BPM).",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "synthfont2",
+        "display_name": "SynthFont2"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-09-08",
+  "sources": [
+    {
+      "url": "s2arr.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

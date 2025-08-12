@@ -1,0 +1,62 @@
+{
+  "slug": "pbs",
+  "extension": "pbs",
+  "name": "PixBuilder Studio Image",
+  "category": "1.-pixbuilder-studio-image",
+  "developer_org": "wnsoft",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "A PBS file is an image created by WnSoft PixBuilder Studio, a free image editing program for Windows. It contains one or more layers that comprise an image. PBS files can be exported from PixBuilder Studio as .BMP , .PNG , .JPG , .GIF , .TIFF , .PCX , and .TGA files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "wnsoft-pixbuilder-studio",
+        "display_name": "WnSoft PixBuilder Studio"
+      },
+      {
+        "software": "corel-paintshop-pro-2023",
+        "display_name": "Corel PaintShop Pro 2023"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "PBS file icon",
+      "alt": "PBS file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/pbs-12186.png"
+    },
+    {
+      "caption": "PBS file open in WnSoft PixBuilder Studio 2",
+      "alt": "PBS file open in WnSoft PixBuilder Studio 2",
+      "source_url": "https://fileinfo.com/img/ss/md/pbs_12186.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-07-07",
+  "sources": [
+    {
+      "url": "pbs.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

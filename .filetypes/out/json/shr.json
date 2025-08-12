@@ -1,0 +1,59 @@
+{
+  "slug": "shr",
+  "extension": "shr",
+  "name": "Unix Shell Archive File",
+  "category": "unix-shell-archive-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 2.8,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "Self-extracting archive created with the Unix shar program; contains a shell script with instructions on how to extract the contents; used on Unix systems with the Bourne shell installed.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "zipzag",
+        "display_name": "ZipZag"
+      },
+      {
+        "software": "unshar",
+        "display_name": "unshar"
+      }
+    ],
+    "linux": [
+      {
+        "software": "unshar",
+        "display_name": "unshar"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2007-09-18",
+  "sources": [
+    {
+      "url": "shr.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

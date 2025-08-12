@@ -1,0 +1,53 @@
+{
+  "slug": "warpgrid",
+  "extension": "warpgrid",
+  "name": "Paint.NET Grid Warp Grid",
+  "category": "paint.net-grid-warp-grid",
+  "developer_org": "pyrochild",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "A WARPGRID file is a distortion effect that can be applied to an image in Paint.NET, using the Grid Warp plug-in . It contains a grid whose points have been moved to warp an image. Users create and save WARPGRID files from within the Grid Warp window, available by selecting Effects → Tools → Grid Warp... from Paint.NET's menu bar (after installing the Grid Warp plug-in).",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "dotpdn-paint.net",
+        "display_name": "dotPDN paint.net"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "WARPGRID file open in Paint.NET with Grid Warp plug-in installed",
+      "alt": "WARPGRID file open in Paint.NET with Grid Warp plug-in installed",
+      "source_url": "https://fileinfo.com/img/ss/md/warpgrid_12508.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-01-13",
+  "sources": [
+    {
+      "url": "warpgrid.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

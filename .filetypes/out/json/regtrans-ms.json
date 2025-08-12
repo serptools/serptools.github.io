@@ -1,0 +1,47 @@
+{
+  "slug": "regtrans-ms",
+  "extension": "regtrans-ms",
+  "name": "Registry Transaction Log File",
+  "category": "registry-transaction-log-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 4.3,
+    "votes": 40,
+    "source": "fileinfo"
+  },
+  "summary": "File created with the Microsoft Common Log File System (CLFS), a Windows component used to create transaction logs; contains transaction read and write information about changes to the user or system registry restore data, which is stored in the NTUSER.DAT or SCHEMA.DAT files; used with a .BLF file to comprise the transaction log.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-common-log-file-system",
+        "display_name": "Microsoft Common Log File System"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-03-10",
+  "sources": [
+    {
+      "url": "regtrans-ms.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

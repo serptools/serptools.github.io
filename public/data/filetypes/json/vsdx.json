@@ -1,0 +1,35 @@
+{
+  "slug": "vsdx",
+  "extension": "vsdx",
+  "name": "Microsoft Visio Drawing",
+  "category": "microsoft-visio-drawing",
+  "summary": "",
+  "developer_org": "microsoft",
+  "developer_name": "Microsoft",
+  "more_information": {
+    "screenshot": {
+      "url": "https://fileinfo.com/img/ss/sm/vsdx_8536.png",
+      "alt": "Screenshot of a .vsdx file in LibreOffice Draw 7",
+      "caption": "VSDX file open in LibreOffice Draw 7"
+    },
+    "description": [
+      "Microsoft introduced the VSDX format with Visio 2013 to replace older formats, including the binary .VSD and XML-based .VDX files used in earlier versions. VSDX is now the default file format in Visio 2013 and later, although those versions still support opening and editing legacy VSD and VDX files.",
+      "VSDX files are based on the Open Packaging Conventions (OPC) standard, which means they are essentially .ZIP archives containing multiple .XML files and other resources. These internal components include \"document\" parts that store diagram content and metadata , as well as \"relationship\" parts that define links between elements like images, themes, and data sources. This structure makes VSDX files more flexible and easier to integrate with other software systems.",
+      "NOTE: Other related Visio file types include .VSDM macro-enabled drawings, .VSTX templates, .VSTM macro-enabled templates, .VSSX stencils, and .VSSM macro-enabled stencils. Each serves a different purpose in the Visio ecosystem."
+    ]
+  },
+  "images": [
+    {
+      "url": "https://fileinfo.com/img/ss/sm/vsdx_8536.png",
+      "alt": "Screenshot of a .vsdx file in LibreOffice Draw 7",
+      "caption": "VSDX file open in LibreOffice Draw 7"
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "vsdx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

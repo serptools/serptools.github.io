@@ -1,0 +1,47 @@
+{
+  "slug": "vib",
+  "extension": "vib",
+  "name": "VSphere Installation Bundle",
+  "category": "vsphere-installation-bundle",
+  "developer_org": "vmware",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "A VIB file is an installation bundle used by VMware vSphere. It contains a software package that can be installed on a host computer as part of an ESXi image. IT administrators manage and install VIBS using various VMware-provided tools.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "vmware-vsphere",
+        "display_name": "VMware vSphere"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-03-23",
+  "sources": [
+    {
+      "url": "vib.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

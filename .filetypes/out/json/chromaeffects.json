@@ -1,0 +1,49 @@
+{
+  "slug": "chromaeffects",
+  "extension": "chromaeffects",
+  "name": "Synapse 3 Chroma Configuration",
+  "category": "synapse-3-chroma-configuration",
+  "developer_org": "razer",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "A CHROMAEFFECTS file is a color profile created by Razer Synapse 3 Chroma Studio. It controls how the LEDs in a Razer PC and/or accessories light up. CHROMAEFFECTS files replaced .RAZERCHROMA files.",
+  "standards": [],
+  "mime_types": [
+    "and/or"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "razer-synapse-3",
+        "display_name": "Razer Synapse 3"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-08-02",
+  "sources": [
+    {
+      "url": "chromaeffects.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

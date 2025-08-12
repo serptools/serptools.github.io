@@ -1,0 +1,93 @@
+{
+  "slug": "sf",
+  "extension": "sf",
+  "name": "Minecraft JAR Signature File",
+  "category": "1.-minecraft-jar-signature-file",
+  "developer_org": "mojang",
+  "popularity": {
+    "rating": 4.1,
+    "votes": 32,
+    "source": "fileinfo"
+  },
+  "summary": "An SF file stores a digital signature used by Minecraft to verify the integrity and authenticity of the game's core files. It is named CODESIGN.SF and is located in the META-INF directory inside the Minecraft.jar file. Since Minecraft is written in Java , this type of signature file is part of Java's standard way of signing .JAR (Java Archive) files to prevent tampering.",
+  "standards": [],
+  "mime_types": [
+    "acoustique/musique"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "mojang-minecraft",
+        "display_name": "Mojang Minecraft"
+      },
+      {
+        "software": "ardour",
+        "display_name": "Ardour"
+      },
+      {
+        "software": "csound",
+        "display_name": "Csound"
+      },
+      {
+        "software": "audacity",
+        "display_name": "Audacity"
+      },
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      }
+    ],
+    "macos": [
+      {
+        "software": "mojang-minecraft",
+        "display_name": "Mojang Minecraft"
+      }
+    ],
+    "linux": [
+      {
+        "software": "mojang-minecraft",
+        "display_name": "Mojang Minecraft"
+      }
+    ],
+    "web": [
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      }
+    ],
+    "android": [
+      {
+        "software": "google-android",
+        "display_name": "Google Android"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2025-04-23",
+  "sources": [
+    {
+      "url": "sf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

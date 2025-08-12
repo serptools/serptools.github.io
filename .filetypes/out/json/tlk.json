@@ -1,0 +1,55 @@
+{
+  "slug": "tlk",
+  "extension": "tlk",
+  "name": "BioWare Aurora Engine Talk Table File",
+  "category": "bioware-aurora-engine-talk-table-file",
+  "developer_org": "bioware",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Language dialog file used by BioWare first-person shooter games; contains strings of dialog that are displayed during gameplay and allows the game to have multiple localizations for different languages; supported by BioWare's Aurora Engine and Infinity Engine technologies.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "infinity-engine-talk-table-editor",
+        "display_name": "Infinity Engine Talk Table Editor"
+      },
+      {
+        "software": "talk-table-editor",
+        "display_name": "Talk table editor"
+      },
+      {
+        "software": "talked",
+        "display_name": "TalkEd"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-03-07",
+  "sources": [
+    {
+      "url": "tlk.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

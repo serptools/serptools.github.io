@@ -1,0 +1,47 @@
+{
+  "slug": "rns",
+  "extension": "rns",
+  "name": "Reason Song File",
+  "category": "reason-song-file",
+  "developer_org": "propellerhead-software",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "Song created with Reason, an audio production program that includes composition and sound design features; stores sequencer data and virtual rack settings.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "ios": [
+      {
+        "software": "reasonstudios-reason",
+        "display_name": "ReasonStudios Reason"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-10-27",
+  "sources": [
+    {
+      "url": "rns.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "slug": "usflib",
+  "extension": "usflib",
+  "name": "Nintendo 64 Song Library",
+  "category": "nintendo-64-song-library",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 2.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "Library of Nintendo 64 song ( .MINIUSF ) files; contains a list of music from a Nintendo 64 game; must be located in the same directory as the miniUSF song files in order to load correctly.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "nullsoft-winamp-with-64th-note-plugin",
+        "display_name": "Nullsoft Winamp with 64th Note plugin"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2007-08-06",
+  "sources": [
+    {
+      "url": "usflib.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

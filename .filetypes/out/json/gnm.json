@@ -1,0 +1,59 @@
+{
+  "slug": "gnm",
+  "extension": "gnm",
+  "name": "Gnumeric Spreadsheet",
+  "category": "gnumeric-spreadsheet",
+  "developer_org": "the-gnome-project",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Spreadsheet file created by Gnumeric, an open source spreadsheet application developed by the GNOME Project; stores formatting information, charts, and other data used in the spreadsheet; similar to Excel spreadsheet files ( .XLSX ), both containing data stored in the XML format; compressed using GZIP compression.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "gnumeric",
+        "display_name": "Gnumeric"
+      }
+    ],
+    "linux": [
+      {
+        "software": "gnumeric",
+        "display_name": "Gnumeric"
+      }
+    ],
+    "android": [
+      {
+        "software": "gnumeric",
+        "display_name": "Gnumeric"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-07-21",
+  "sources": [
+    {
+      "url": "gnm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

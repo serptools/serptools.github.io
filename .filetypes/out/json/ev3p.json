@@ -1,0 +1,53 @@
+{
+  "slug": "ev3p",
+  "extension": "ev3p",
+  "name": "LEGO MINDSTORMS EV3 Program",
+  "category": "lego-mindstorms-ev3-program",
+  "developer_org": "the-lego-group",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 11,
+    "source": "fileinfo"
+  },
+  "summary": "An EV3P file is a program created by LEGO MINDSTORMS EV3, an application for building and programming LEGO MINDSTORMS EV3 robots. It stores program information, including images, sounds, and My Blocks commands that tell the EV3 robot which functions to perform. EV3P files only exist inside .EV3 project files (if users export them, they become .EV3S files).",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "lego-mindstorms-ev3",
+        "display_name": "LEGO MINDSTORMS EV3"
+      }
+    ],
+    "macos": [
+      {
+        "software": "lego-mindstorms-ev3",
+        "display_name": "LEGO MINDSTORMS EV3"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2024-03-19",
+  "sources": [
+    {
+      "url": "ev3p.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

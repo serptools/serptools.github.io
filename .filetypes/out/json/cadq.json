@@ -1,0 +1,49 @@
+{
+  "slug": "cadq",
+  "extension": "cadq",
+  "name": "CADQ Ransomware Encrypted File",
+  "category": "cadq-ransomware-encrypted-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "A CADQ file is a file that has been encrypted by Cadq ransomware , which is malware distributed by cybercriminals. It contains a file, such as a .DOCX or .JPG file, that has been renamed and encrypted by the virus. CADQ files cannot be opened, and they likely cannot be decrypted.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "emsisoft-decryptor-for-stop-djvu",
+        "display_name": "Emsisoft Decryptor for STOP Djvu"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-04-14",
+  "sources": [
+    {
+      "url": "cadq.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

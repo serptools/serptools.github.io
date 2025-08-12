@@ -1,0 +1,159 @@
+{
+  "slug": "names",
+  "extension": "names",
+  "name": "Data Set Description File",
+  "category": "data-set-description-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 2.9,
+    "votes": 10,
+    "source": "fileinfo"
+  },
+  "summary": "A NAMES file is a plain text file that contains a description of a database file with a .data file extension. It is similar to a .MANIFEST file used to store metadata about the contents packaged in a Windows application. NAMES files include various metadata, such as who collected the data, where the data was collected, past usage, citation requests, and attribute information.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "microsoft-wordpad",
+        "display_name": "Microsoft WordPad"
+      },
+      {
+        "software": "microsoft-word-365",
+        "display_name": "Microsoft Word 365"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "apple-pages",
+        "display_name": "Apple Pages"
+      },
+      {
+        "software": "leafpad",
+        "display_name": "Leafpad"
+      },
+      {
+        "software": "gedit",
+        "display_name": "gedit"
+      },
+      {
+        "software": "kwrite",
+        "display_name": "KWrite"
+      },
+      {
+        "software": "geany",
+        "display_name": "Geany"
+      },
+      {
+        "software": "microsoft-office",
+        "display_name": "Microsoft Office"
+      },
+      {
+        "software": "microsoft-word",
+        "display_name": "Microsoft Word"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "apple-pages",
+        "display_name": "Apple Pages"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "leafpad",
+        "display_name": "Leafpad"
+      },
+      {
+        "software": "gedit",
+        "display_name": "gedit"
+      },
+      {
+        "software": "kwrite",
+        "display_name": "KWrite"
+      },
+      {
+        "software": "geany",
+        "display_name": "Geany"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "ios": [
+      {
+        "software": "apple-pages",
+        "display_name": "Apple Pages"
+      },
+      {
+        "software": "microsoft-office",
+        "display_name": "Microsoft Office"
+      },
+      {
+        "software": "microsoft-word",
+        "display_name": "Microsoft Word"
+      }
+    ],
+    "android": [
+      {
+        "software": "microsoft-office",
+        "display_name": "Microsoft Office"
+      },
+      {
+        "software": "microsoft-word",
+        "display_name": "Microsoft Word"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "NAMES file open in Microsoft Notepad",
+      "alt": "NAMES file open in Microsoft Notepad",
+      "source_url": "https://fileinfo.com/img/ss/md/names_11466.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-03-24",
+  "sources": [
+    {
+      "url": "names.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

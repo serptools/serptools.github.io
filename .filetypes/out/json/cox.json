@@ -1,0 +1,53 @@
+{
+  "slug": "cox",
+  "extension": "cox",
+  "name": "Click & Create Extension",
+  "category": "click-create-extension",
+  "developer_org": "clickteam",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "A COX file is an extension created by Clickteam to add extra features to Multimedia Fusion and The Games Factory (TGF). Examples of features saved in COX files include objects, characters, and other resources than enhance the software.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "clickteam-multimedia-fusion-1.5",
+        "display_name": "Clickteam Multimedia Fusion 1.5",
+        "status": "discontinued"
+      },
+      {
+        "software": "clickteam-the-games-factory",
+        "display_name": "Clickteam The Games Factory",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-02-24",
+  "sources": [
+    {
+      "url": "cox.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "slug": "bc3",
+  "extension": "bc3",
+  "name": "FIEBDC-3 Database File",
+  "category": "fiebdc-3-database-file",
+  "developer_org": "fiebdc",
+  "popularity": {
+    "rating": 2.2,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "A BC3 file is a database file saved in the FIEBDC-3 format, which is a Spanish standard construction database exchange format. It contains a collection of data records, which may include construction materials, cost of materials, and price of labor.",
+  "standards": [],
+  "mime_types": [
+    "fiebdc-3/2004",
+    "fiebdc-3/2007",
+    "fiebdc-3/2012",
+    "fiebdc-3/2016"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "cype-arquimedes",
+        "display_name": "CYPE Arquimedes"
+      },
+      {
+        "software": "arktec-gest",
+        "display_name": "Arktec Gest"
+      },
+      {
+        "software": "arktec-constructo",
+        "display_name": "Arktec Constructo"
+      },
+      {
+        "software": "preoc-premeti",
+        "display_name": "PREOC PREMETI"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-10-22",
+  "sources": [
+    {
+      "url": "bc3.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

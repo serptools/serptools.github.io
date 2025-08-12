@@ -1,0 +1,77 @@
+{
+  "slug": "insp",
+  "extension": "insp",
+  "name": "Insta360 Panoramic Image",
+  "category": "insta360-panoramic-image",
+  "developer_org": "insta360",
+  "popularity": {
+    "rating": 3.2,
+    "votes": 19,
+    "source": "fileinfo"
+  },
+  "summary": "An INSP file is a panoramic image captured by an Insta360 camera, which is used to record 360-degree video and images. It stores an image saved in the proprietary INSP 360 format. INSP files are typically used by adventurous photographers and extreme sports enthusiasts.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "insta360-studio",
+        "display_name": "Insta360 Studio"
+      },
+      {
+        "software": "insta360-studio-2019",
+        "display_name": "Insta360 Studio 2019"
+      },
+      {
+        "software": "insta360-player",
+        "display_name": "Insta360 Player"
+      }
+    ],
+    "macos": [
+      {
+        "software": "insta360-studio",
+        "display_name": "Insta360 Studio"
+      },
+      {
+        "software": "insta360-studio-2019",
+        "display_name": "Insta360 Studio 2019"
+      }
+    ],
+    "ios": [
+      {
+        "software": "insta360-player",
+        "display_name": "Insta360 Player"
+      }
+    ],
+    "android": [
+      {
+        "software": "insta360-player",
+        "display_name": "Insta360 Player"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-04-24",
+  "sources": [
+    {
+      "url": "insp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

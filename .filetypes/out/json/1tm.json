@@ -1,0 +1,97 @@
+{
+  "slug": "1tm",
+  "extension": "1tm",
+  "name": "1tracker Module",
+  "category": "1tracker-module",
+  "developer_org": "shiru",
+  "popularity": {
+    "rating": 2.5,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "A 1TM file is an audio module created by 1tracker, a music tracker for Windows and Linux. It contains plain text information that defines the song the module contains, the instrument(s) used to play the song, and various song metadata . When opened in 1tracker, 1TM files appear as a grid that shows a song's channels and notes.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "shiru-1tracker",
+        "display_name": "Shiru 1tracker"
+      },
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "shiru-1tracker",
+        "display_name": "Shiru 1tracker"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "1TM file open in Shiru 1tracker",
+      "alt": "1TM file open in Shiru 1tracker",
+      "source_url": "https://fileinfo.com/img/ss/md/1tm_13264.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-04-13",
+  "sources": [
+    {
+      "url": "1tm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

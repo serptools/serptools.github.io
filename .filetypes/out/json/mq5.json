@@ -1,0 +1,65 @@
+{
+  "slug": "mq5",
+  "extension": "mq5",
+  "name": "MQL5 Source Code File",
+  "category": "mql5-source-code-file",
+  "developer_org": "metaquotes-software",
+  "popularity": {
+    "rating": 4.4,
+    "votes": 14,
+    "source": "fileinfo"
+  },
+  "summary": "An MQ5 file is a program written for MetaTrader, an online trading platform. It contains source code written in MetaQuotes Language 5 (MQL5), which includes classes, variables, functions, and comments that can be compiled into an .EX5 file. MQ5 files replaced .MQ4 files with the release of MetaTrader 5.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "metaquotes-metatrader",
+        "display_name": "MetaQuotes MetaTrader"
+      }
+    ],
+    "macos": [
+      {
+        "software": "metaquotes-metatrader",
+        "display_name": "MetaQuotes MetaTrader"
+      }
+    ],
+    "linux": [
+      {
+        "software": "metaquotes-metatrader",
+        "display_name": "MetaQuotes MetaTrader"
+      }
+    ],
+    "android": [
+      {
+        "software": "metaquotes-metatrader",
+        "display_name": "MetaQuotes MetaTrader"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2016-08-26",
+  "sources": [
+    {
+      "url": "mq5.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

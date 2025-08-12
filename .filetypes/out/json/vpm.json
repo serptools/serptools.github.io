@@ -1,0 +1,59 @@
+{
+  "slug": "vpm",
+  "extension": "vpm",
+  "name": "Vox Proxy Macro File",
+  "category": "1.-vox-proxy-macro-file",
+  "developer_org": "right-seat-software",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 21,
+    "source": "fileinfo"
+  },
+  "summary": "File used by Vox Proxy, a program used to create talking animated characters in presentations; contains scripted program instructions to invoke Vox Proxy functions; can be used to drive slide shows or animate talking characters.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "right-seat-vox-proxy",
+        "display_name": "Right Seat Vox Proxy"
+      },
+      {
+        "software": "right-seat-vox-proxy-player",
+        "display_name": "Right Seat Vox Proxy Player"
+      },
+      {
+        "software": "turboccc-ttsvoiceeditor",
+        "display_name": "TurboCCC TTSVoiceEditor"
+      },
+      {
+        "software": "turboccc-nonttsvoiceeditor",
+        "display_name": "TurboCCC NonTTSVoiceEditor"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-02-08",
+  "sources": [
+    {
+      "url": "vpm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

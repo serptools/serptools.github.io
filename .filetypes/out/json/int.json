@@ -1,0 +1,132 @@
+{
+  "slug": "int",
+  "extension": "int",
+  "name": "SGI Integer Image",
+  "category": "1.-sgi-integer-image",
+  "developer_org": "silicon-graphics",
+  "popularity": {
+    "rating": 3.2,
+    "votes": 23,
+    "source": "fileinfo"
+  },
+  "summary": "Basic black and white (monochrome) image format developed by Silicon Graphics; stores image data using integers that represent the contents of each pixel.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "canvas-gfx-canvas-x-pro",
+        "display_name": "Canvas GFX Canvas X Pro"
+      },
+      {
+        "software": "acd-systems-acdsee-photo-studio",
+        "display_name": "ACD Systems ACDSee Photo Studio"
+      },
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      },
+      {
+        "software": "jargo-fallout-script-editor",
+        "display_name": "Jargo Fallout Script Editor"
+      },
+      {
+        "software": "bethesda-softworks-fallout",
+        "display_name": "Bethesda Softworks Fallout"
+      },
+      {
+        "software": "bethesda-softworks-fallout-2",
+        "display_name": "Bethesda Softworks Fallout 2"
+      },
+      {
+        "software": "epic-games-unreal-engine",
+        "display_name": "Epic Games Unreal Engine"
+      },
+      {
+        "software": "mess",
+        "display_name": "MESS"
+      },
+      {
+        "software": "nostalgia",
+        "display_name": "Nostalgia"
+      },
+      {
+        "software": "bliss",
+        "display_name": "Bliss"
+      },
+      {
+        "software": "jzintv",
+        "display_name": "jzIntv"
+      }
+    ],
+    "macos": [
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      },
+      {
+        "software": "epic-games-unreal-engine",
+        "display_name": "Epic Games Unreal Engine"
+      },
+      {
+        "software": "openemu",
+        "display_name": "OpenEmu"
+      }
+    ],
+    "linux": [
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      },
+      {
+        "software": "epic-games-unreal-engine",
+        "display_name": "Epic Games Unreal Engine"
+      }
+    ],
+    "web": [
+      {
+        "software": "sony-picture-motion-browser",
+        "display_name": "Sony Picture Motion Browser",
+        "status": "discontinued"
+      }
+    ],
+    "ios": [
+      {
+        "software": "epic-games-unreal-engine",
+        "display_name": "Epic Games Unreal Engine"
+      }
+    ],
+    "android": [
+      {
+        "software": "epic-games-unreal-engine",
+        "display_name": "Epic Games Unreal Engine"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2008-09-09",
+  "sources": [
+    {
+      "url": "int.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

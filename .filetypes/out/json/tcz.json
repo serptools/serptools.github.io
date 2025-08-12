@@ -1,0 +1,47 @@
+{
+  "slug": "tcz",
+  "extension": "tcz",
+  "name": "Tiny Core File",
+  "category": "tiny-core-file",
+  "developer_org": "linux",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 14,
+    "source": "fileinfo"
+  },
+  "summary": "File created solely by Tiny Core, a Linux operating system; loaded by scripts during the Tiny Core start-up; contains packages of information needed to run the core.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "linux": [
+      {
+        "software": "tiny-core-linux",
+        "display_name": "Tiny Core Linux"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2013-08-13",
+  "sources": [
+    {
+      "url": "tcz.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

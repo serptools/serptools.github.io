@@ -1,0 +1,55 @@
+{
+  "slug": "rba",
+  "extension": "rba",
+  "name": "Rock Band Network Song Package",
+  "category": "rock-band-network-song-package",
+  "developer_org": "harmonix",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "An RBA file is a song package used to load a custom song in the video games Rock Band 2 and 3. It contains audio, MIDI , and metadata files. RBA files are primarily created using the Magma song packaging and distribution tool.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "harmonix-magma",
+        "display_name": "Harmonix Magma"
+      },
+      {
+        "software": "magma-c3",
+        "display_name": "Magma C3"
+      },
+      {
+        "software": "onyx-music-game-toolkit",
+        "display_name": "Onyx Music Game Toolkit"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-08-08",
+  "sources": [
+    {
+      "url": "rba.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

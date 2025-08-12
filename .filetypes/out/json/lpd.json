@@ -1,0 +1,82 @@
+{
+  "slug": "lpd",
+  "extension": "lpd",
+  "name": "LPD Daemon Print Permissions File",
+  "category": "1.-lpd-daemon-print-permissions-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 2.8,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "File used by IBM AIX systems and other UNIX systems; has the filename hosts.lpd and specifies print permissions for individual computers or groups of computers; allows system administrators to create fine-grained access control policies for networked printers.",
+  "standards": [],
+  "mime_types": [
+    "hmi/scada",
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      },
+      {
+        "software": "gnu-emacs",
+        "display_name": "GNU Emacs"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "national-instruments-labview",
+        "display_name": "National Instruments LabVIEW"
+      }
+    ],
+    "windows": [
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "national-instruments-labview",
+        "display_name": "National Instruments LabVIEW"
+      }
+    ],
+    "linux": [
+      {
+        "software": "national-instruments-labview",
+        "display_name": "National Instruments LabVIEW"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-07-01",
+  "sources": [
+    {
+      "url": "lpd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

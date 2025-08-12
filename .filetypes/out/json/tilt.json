@@ -1,0 +1,47 @@
+{
+  "slug": "tilt",
+  "extension": "tilt",
+  "name": "Tilt Brush Sketch",
+  "category": "tilt-brush-sketch",
+  "developer_org": "google",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "A TILT file is a digital painting created in Tilt Brush, a virtual reality painting application developed by Google. It contains a 3D image, commonly referred to as a sketch, that a user created using Tilt Brush, a VR headset, and a controller. TILT files are typically stored in a user's Documents/​Tilt Brush/​Sketches directory.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "google-tilt-brush",
+        "display_name": "Google Tilt Brush"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-06-14",
+  "sources": [
+    {
+      "url": "tilt.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

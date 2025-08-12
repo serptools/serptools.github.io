@@ -1,0 +1,47 @@
+{
+  "slug": "avatar",
+  "extension": "avatar",
+  "name": "Google Talk Avatar File",
+  "category": "google-talk-avatar-file",
+  "developer_org": "google",
+  "popularity": {
+    "rating": 4.2,
+    "votes": 36,
+    "source": "fileinfo"
+  },
+  "summary": "Profile picture used by Google Talk, an online chatting application; stores a bitmap image in a .JPG or .PNG image format; used for displaying an image alongside each name in a user's friends list, as well as during chatting sessions.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "google-talk",
+        "display_name": "Google Talk"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-07-28",
+  "sources": [
+    {
+      "url": "avatar.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

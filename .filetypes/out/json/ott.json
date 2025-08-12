@@ -1,0 +1,112 @@
+{
+  "slug": "ott",
+  "extension": "ott",
+  "name": "OpenDocument Document Template",
+  "category": "opendocument-document-template",
+  "developer_org": "oasis",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 31,
+    "source": "fileinfo"
+  },
+  "summary": "An OTT file is a document template created by the LibreOffice Writer and Apache OpenOffice Writer word processors. It stores predefined page layouts, fonts, and styles in the OpenDocument format, allowing users to quickly generate new .ODT documents with consistent formatting.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "libreoffice",
+        "display_name": "LibreOffice"
+      },
+      {
+        "software": "openoffice-writer",
+        "display_name": "OpenOffice Writer"
+      },
+      {
+        "software": "planamesa-neooffice",
+        "display_name": "Planamesa NeoOffice",
+        "status": "discontinued"
+      },
+      {
+        "software": "collabora-office",
+        "display_name": "Collabora Office"
+      }
+    ],
+    "macos": [
+      {
+        "software": "libreoffice",
+        "display_name": "LibreOffice"
+      },
+      {
+        "software": "openoffice-writer",
+        "display_name": "OpenOffice Writer"
+      },
+      {
+        "software": "planamesa-neooffice",
+        "display_name": "Planamesa NeoOffice",
+        "status": "discontinued"
+      }
+    ],
+    "linux": [
+      {
+        "software": "libreoffice",
+        "display_name": "LibreOffice"
+      },
+      {
+        "software": "openoffice-writer",
+        "display_name": "OpenOffice Writer"
+      }
+    ],
+    "ios": [
+      {
+        "software": "collabora-office",
+        "display_name": "Collabora Office"
+      }
+    ],
+    "android": [
+      {
+        "software": "collabora-office",
+        "display_name": "Collabora Office"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "OTT file icon",
+      "alt": "OTT file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/ott-720.png"
+    },
+    {
+      "caption": "OTT file open in LibreOffice Writer 24",
+      "alt": "OTT file open in LibreOffice Writer 24",
+      "source_url": "https://fileinfo.com/img/ss/md/ott_720.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2025-01-29",
+  "sources": [
+    {
+      "url": "ott.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

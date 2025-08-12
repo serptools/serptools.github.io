@@ -1,0 +1,150 @@
+{
+  "slug": "aif",
+  "extension": "aif",
+  "name": "Audio Interchange File Format",
+  "category": "1.-audio-interchange-file-format",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 106,
+    "source": "fileinfo"
+  },
+  "summary": "An AIF file is an audio file saved in the Audio Interchange File Format ( AIFF ). It contains uncompressed high-quality audio similar to a .WAV file and is commonly used to store standard CD audio.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "nullsoft-winamp",
+        "display_name": "Nullsoft Winamp"
+      },
+      {
+        "software": "microsoft-windows-media-player",
+        "display_name": "Microsoft Windows Media Player"
+      },
+      {
+        "software": "adobe-audition-2023",
+        "display_name": "Adobe Audition 2023"
+      },
+      {
+        "software": "roxio-creator-nxt-pro-9",
+        "display_name": "Roxio Creator NXT Pro 9"
+      },
+      {
+        "software": "dvdvideosoft-free-audio-converter",
+        "display_name": "DVDVideoSoft Free Audio Converter",
+        "pricing": "free"
+      },
+      {
+        "software": "apple-itunes",
+        "display_name": "Apple iTunes",
+        "status": "discontinued"
+      },
+      {
+        "software": "wolfram-research-mathematica",
+        "display_name": "Wolfram Research Mathematica"
+      },
+      {
+        "software": "apple-quicktime-player",
+        "display_name": "Apple QuickTime Player"
+      },
+      {
+        "software": "apple-music",
+        "display_name": "Apple Music"
+      },
+      {
+        "software": "roxio-toast-20",
+        "display_name": "Roxio Toast 20"
+      },
+      {
+        "software": "apple-garageband",
+        "display_name": "Apple GarageBand"
+      },
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      },
+      {
+        "software": "symbian-aif-builder",
+        "display_name": "Symbian AIF Builder"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-quicktime-player",
+        "display_name": "Apple QuickTime Player"
+      },
+      {
+        "software": "apple-music",
+        "display_name": "Apple Music"
+      },
+      {
+        "software": "roxio-toast-20",
+        "display_name": "Roxio Toast 20"
+      },
+      {
+        "software": "adobe-audition-2023",
+        "display_name": "Adobe Audition 2023"
+      },
+      {
+        "software": "apple-garageband",
+        "display_name": "Apple GarageBand"
+      },
+      {
+        "software": "wolfram-research-mathematica",
+        "display_name": "Wolfram Research Mathematica"
+      }
+    ],
+    "linux": [
+      {
+        "software": "wolfram-research-mathematica",
+        "display_name": "Wolfram Research Mathematica"
+      }
+    ],
+    "web": [
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "AIF file icon",
+      "alt": "AIF file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/aif-4.png"
+    },
+    {
+      "caption": "AIF file open in Adobe Audition 2021",
+      "alt": "AIF file open in Adobe Audition 2021",
+      "source_url": "https://fileinfo.com/img/ss/md/aif_4.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-05-27",
+  "sources": [
+    {
+      "url": "aif.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

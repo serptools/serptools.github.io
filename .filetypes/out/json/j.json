@@ -1,0 +1,101 @@
+{
+  "slug": "j",
+  "extension": "j",
+  "name": "Java Source File",
+  "category": "1.-java-source-file",
+  "developer_org": "oracle",
+  "popularity": {
+    "rating": 3.1,
+    "votes": 35,
+    "source": "fileinfo"
+  },
+  "summary": "Contains program source code written in the Java programming language; may include the source code for a complete program or may be one of many files referenced by a Java programming project.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "oracle-java-virtual-machine",
+        "display_name": "Oracle Java Virtual Machine"
+      },
+      {
+        "software": "eclipse-ide-for-java-developers",
+        "display_name": "Eclipse IDE for Java Developers"
+      },
+      {
+        "software": "gvim",
+        "display_name": "gVim"
+      },
+      {
+        "software": "javac",
+        "display_name": "javac"
+      },
+      {
+        "software": "vim",
+        "display_name": "vim"
+      },
+      {
+        "software": "picture-viewer",
+        "display_name": "picture viewer"
+      }
+    ],
+    "windows": [
+      {
+        "software": "eclipse-ide-for-java-developers",
+        "display_name": "Eclipse IDE for Java Developers"
+      },
+      {
+        "software": "gvim",
+        "display_name": "gVim"
+      },
+      {
+        "software": "javac",
+        "display_name": "javac"
+      },
+      {
+        "software": "vim",
+        "display_name": "vim"
+      },
+      {
+        "software": "arj-software-jar",
+        "display_name": "ARJ Software JAR"
+      },
+      {
+        "software": "picture-viewer",
+        "display_name": "picture viewer"
+      }
+    ],
+    "web": [
+      {
+        "software": "web-browser",
+        "display_name": "Web browser"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-08-17",
+  "sources": [
+    {
+      "url": "j.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "officeui",
+  "extension": "officeui",
+  "name": "Microsoft Office UI Customization File",
+  "category": "microsoft-office-ui-customization-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 4.3,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "An OFFICEUI file is a settings file used by Microsoft Office, an industry-standard productivity suite. It contains XML code that customizes Microsoft Office ribbons . OFFICEUI files include code that defines custom tabs, commands, groups, and other facets of Microsoft Office's UI .",
+  "standards": [],
+  "mime_types": [
+    "import/export"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-office-365",
+        "display_name": "Microsoft Office 365"
+      }
+    ],
+    "macos": [
+      {
+        "software": "microsoft-office-365",
+        "display_name": "Microsoft Office 365"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-02-16",
+  "sources": [
+    {
+      "url": "officeui.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

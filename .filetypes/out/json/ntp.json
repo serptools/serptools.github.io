@@ -1,0 +1,61 @@
+{
+  "slug": "ntp",
+  "extension": "ntp",
+  "name": "Natron Project File",
+  "category": "natron-project-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 14,
+    "source": "fileinfo"
+  },
+  "summary": "Project created by Natron, a node-based compositor used to create visual effects for film and television; contains project data, which includes nodes, output format, number of views, frame rate, and other project settings.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "natron",
+        "display_name": "Natron"
+      }
+    ],
+    "macos": [
+      {
+        "software": "natron",
+        "display_name": "Natron"
+      }
+    ],
+    "linux": [
+      {
+        "software": "natron",
+        "display_name": "Natron"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-04-09",
+  "sources": [
+    {
+      "url": "ntp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "msha",
+  "extension": "msha",
+  "name": "Microsoft Help Asset File",
+  "category": "microsoft-help-asset-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "File used by MS Help Viewer 1.x, a Visual Studio component that helps developers author help documentation for software applications; saves the help manifest, which defines the help \"Books\" (help documents), which contain \"Packages\" ( .MSHC help content files) to be installed.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-visual-studio-2022",
+        "display_name": "Microsoft Visual Studio 2022"
+      },
+      {
+        "software": "the-helpware-group-far",
+        "display_name": "The Helpware Group FAR"
+      },
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-08-13",
+  "sources": [
+    {
+      "url": "msha.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

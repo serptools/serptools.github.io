@@ -1,0 +1,55 @@
+{
+  "slug": "rzk",
+  "extension": "rzk",
+  "name": "Red Zion Key File",
+  "category": "1.-red-zion-key-file",
+  "developer_org": "red-zion",
+  "popularity": {
+    "rating": 4.3,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "Security key used for copy-protecting digital books saved in the Red Zion E-book format; contains user rights for a specific Red Zion E-Book ( .RZB ) file.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "red-zion-e-book",
+        "display_name": "Red Zion E-book"
+      },
+      {
+        "software": "red-zion-file-crypt",
+        "display_name": "Red Zion File Crypt"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2008-05-29",
+  "sources": [
+    {
+      "url": "rzk.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

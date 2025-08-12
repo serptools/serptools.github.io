@@ -1,0 +1,22 @@
+{
+  "slug": "bacpac",
+  "extension": "bacpac",
+  "name": "Compressed Microsoft SQL Database",
+  "category": "compressed-microsoft-sql-database",
+  "summary": "",
+  "developer_org": "microsoft",
+  "developer_name": "Microsoft",
+  "more_information": {
+    "description": [
+      "Database managers can use a variety of Microsoft SQL database management tools to export databases as BACPAC files. For example:",
+      "While BACPAC files are similar to .DACPAC files, the files are used for different purposes. BACPAC files are used primarily to back up or move databases from one server to another. DACPAC files are focused on capturing and deploying schema. Sometimes, DACPAC files are applied to existing databases."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "bacpac.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

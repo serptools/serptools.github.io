@@ -1,0 +1,53 @@
+{
+  "slug": "wolfquest",
+  "extension": "wolfquest",
+  "name": "WolfQuest Saved Game",
+  "category": "wolfquest-saved-game",
+  "developer_org": "minnesota-zoo",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 11,
+    "source": "fileinfo"
+  },
+  "summary": "Saved game created by WolfQuest, a 3D wildlife simulation game; contains the wolf name, world location, hunting experience, and other information about the progress in life, such as the status in a wolf pack or whether the wolf has mated; used for saving and loading game progress.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "minnesota-zoo-wolfquest",
+        "display_name": "Minnesota Zoo WolfQuest"
+      }
+    ],
+    "macos": [
+      {
+        "software": "minnesota-zoo-wolfquest",
+        "display_name": "Minnesota Zoo WolfQuest"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-06-15",
+  "sources": [
+    {
+      "url": "wolfquest.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

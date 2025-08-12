@@ -1,0 +1,48 @@
+{
+  "slug": "pjx",
+  "extension": "pjx",
+  "name": "FoxPro Project",
+  "category": "foxpro-project",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "A PJX file is a project created by Microsoft Visual FoxPro, a database management and development tool. It contains various components required to build and manage a FoxPro application, such as source code files, menus, reports, labels, forms, and library files. PJX files are accompanied by .PJT files, which contain additional project metadata and bear the same filename (e.g., an example.pjx file is accompanied by an example.pjt file).",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-visual-foxpro",
+        "display_name": "Microsoft Visual FoxPro",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2025-02-20",
+  "sources": [
+    {
+      "url": "pjx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

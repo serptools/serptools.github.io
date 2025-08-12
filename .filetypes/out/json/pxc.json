@@ -1,0 +1,47 @@
+{
+  "slug": "pxc",
+  "extension": "pxc",
+  "name": "Photodex Cache File",
+  "category": "photodex-cache-file",
+  "developer_org": "photodex",
+  "popularity": {
+    "rating": 4.1,
+    "votes": 16,
+    "source": "fileinfo"
+  },
+  "summary": "Cache file created by Photodex ProShow, a program used for creating slideshows with digital photos; stores metadata about the slideshows materials, such as images, audio, and video information; allows faster access to information while editing .PSH slideshow files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "photodex-pro-show",
+        "display_name": "Photodex Pro Show"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-04-15",
+  "sources": [
+    {
+      "url": "pxc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

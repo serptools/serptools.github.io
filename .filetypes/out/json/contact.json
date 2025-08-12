@@ -1,0 +1,51 @@
+{
+  "slug": "contact",
+  "extension": "contact",
+  "name": "Windows Contact File",
+  "category": "windows-contact-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 56,
+    "source": "fileinfo"
+  },
+  "summary": "Contact file created by Windows Contacts, a built-in contact management program included with Windows Vista and Windows 7; contains information about a person or organization, including name, picture, email address, phone number, home and work addresses, professional titles, and family members; located in the Windows \"Contacts\" folder for each Windows user.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-windows-contacts",
+        "display_name": "Microsoft Windows Contacts"
+      },
+      {
+        "software": "microsoft-windows-live-mail",
+        "display_name": "Microsoft Windows Live Mail"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-07-30",
+  "sources": [
+    {
+      "url": "contact.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

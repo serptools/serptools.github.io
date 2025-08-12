@@ -1,0 +1,47 @@
+{
+  "slug": "mym",
+  "extension": "mym",
+  "name": "MyMenuify Wii Theme File",
+  "category": "mymenuify-wii-theme-file",
+  "developer_org": "scooby74029-and-icefire",
+  "popularity": {
+    "rating": 2.5,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "An MYM file is a Zip-compressed archive that can be used to create a custom menu theme for the Nintendo Wii, which is applied using Mymenuify. It contains an .INI file and two .brlan (Binary Revolution Layout Animation) files. MYM files are created and used by Nintendo Wii modders and homebrew gamers.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "mymenu.exe",
+        "display_name": "MyMenu.exe"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-03-22",
+  "sources": [
+    {
+      "url": "mym.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

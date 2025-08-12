@@ -1,0 +1,123 @@
+{
+  "slug": "xcf.xz",
+  "extension": "xcf.xz",
+  "name": "GIMP Image XZ Archive",
+  "category": "gimp-image-xz-archive",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "An XCF.XZ file is an archive compressed with XZ compression ( .XZ ) by GIMP that contains an .XCF image. GIMP users save XCF images as XCF.XZ files to reduce their size, often when backing up or transferring images.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "gimp",
+        "display_name": "GIMP"
+      },
+      {
+        "software": "7-zip",
+        "display_name": "7-Zip"
+      },
+      {
+        "software": "rarlab-winrar",
+        "display_name": "RARLAB WinRAR"
+      },
+      {
+        "software": "extractnow",
+        "display_name": "ExtractNow"
+      },
+      {
+        "software": "apple-archive-utility",
+        "display_name": "Apple Archive Utility"
+      },
+      {
+        "software": "the-unarchiver",
+        "display_name": "The Unarchiver"
+      },
+      {
+        "software": "keka",
+        "display_name": "Keka"
+      },
+      {
+        "software": "zip-file-unarchiver",
+        "display_name": "Zip File Unarchiver"
+      },
+      {
+        "software": "tukaani-xz-utils",
+        "display_name": "Tukaani XZ Utils"
+      }
+    ],
+    "macos": [
+      {
+        "software": "corel-winzip-mac",
+        "display_name": "Corel WinZip Mac"
+      },
+      {
+        "software": "gimp",
+        "display_name": "GIMP"
+      },
+      {
+        "software": "apple-archive-utility",
+        "display_name": "Apple Archive Utility"
+      },
+      {
+        "software": "the-unarchiver",
+        "display_name": "The Unarchiver"
+      },
+      {
+        "software": "keka",
+        "display_name": "Keka"
+      },
+      {
+        "software": "zip-file-unarchiver",
+        "display_name": "Zip File Unarchiver"
+      }
+    ],
+    "linux": [
+      {
+        "software": "gimp",
+        "display_name": "GIMP"
+      },
+      {
+        "software": "tukaani-xz-utils",
+        "display_name": "Tukaani XZ Utils"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "XCF.XZ file open in GIMP 3",
+      "alt": "XCF.XZ file open in GIMP 3",
+      "source_url": "https://fileinfo.com/img/ss/md/xcf_xz_13750.jpg"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2025-06-13",
+  "sources": [
+    {
+      "url": "xcf.xz.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

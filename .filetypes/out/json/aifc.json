@@ -1,0 +1,161 @@
+{
+  "slug": "aifc",
+  "extension": "aifc",
+  "name": "Compressed Audio Interchange File",
+  "category": "compressed-audio-interchange-file",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 2.8,
+    "votes": 15,
+    "source": "fileinfo"
+  },
+  "summary": "An AIFC file is a compressed .AIFF file commonly used by media players and gaming consoles to store sounds. It is saved in the Audio Interchange File Format ( AIFF ) and compressed with one of several codecs, such as ULAW, ALAW, or G722 compression.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "microsoft-windows-media-player",
+        "display_name": "Microsoft Windows Media Player"
+      },
+      {
+        "software": "adobe-audition-2023",
+        "display_name": "Adobe Audition 2023"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "vgmstream",
+        "display_name": "vgmstream"
+      },
+      {
+        "software": "apple-itunes",
+        "display_name": "Apple iTunes",
+        "status": "discontinued"
+      },
+      {
+        "software": "audacity",
+        "display_name": "Audacity"
+      },
+      {
+        "software": "apple-music",
+        "display_name": "Apple Music"
+      },
+      {
+        "software": "apple-quicktime-player",
+        "display_name": "Apple QuickTime Player"
+      },
+      {
+        "software": "wolfram-research-mathematica",
+        "display_name": "Wolfram Research Mathematica"
+      },
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      }
+    ],
+    "web": [
+      {
+        "software": "vgmstream-web",
+        "display_name": "vgmstream-web"
+      },
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      },
+      {
+        "software": "wolfram-research-mathematica",
+        "display_name": "Wolfram Research Mathematica"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-music",
+        "display_name": "Apple Music"
+      },
+      {
+        "software": "apple-quicktime-player",
+        "display_name": "Apple QuickTime Player"
+      },
+      {
+        "software": "adobe-audition-2023",
+        "display_name": "Adobe Audition 2023"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "vgmstream",
+        "display_name": "vgmstream"
+      },
+      {
+        "software": "audacity",
+        "display_name": "Audacity"
+      },
+      {
+        "software": "wolfram-research-mathematica",
+        "display_name": "Wolfram Research Mathematica"
+      }
+    ],
+    "linux": [
+      {
+        "software": "audacity",
+        "display_name": "Audacity"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "vgmstream",
+        "display_name": "vgmstream"
+      },
+      {
+        "software": "wolfram-research-mathematica",
+        "display_name": "Wolfram Research Mathematica"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "AIFC file icon",
+      "alt": "AIFC file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/aifc-340.png"
+    },
+    {
+      "caption": "AIFC file open in Adobe Audition 2021",
+      "alt": "AIFC file open in Adobe Audition 2021",
+      "source_url": "https://fileinfo.com/img/ss/md/aifc_340.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-10-20",
+  "sources": [
+    {
+      "url": "aifc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

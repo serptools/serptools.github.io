@@ -1,0 +1,69 @@
+{
+  "slug": "save",
+  "extension": "save",
+  "name": "Nano Temporary Save File",
+  "category": "1.-nano-temporary-save-file",
+  "developer_org": "nano",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 68,
+    "source": "fileinfo"
+  },
+  "summary": "Temporary file saved by the Unix nano text editor; generated if the program receives a SIGHUP or SIGTERM message or runs out of memory; saved in the current directory with the current filename, followed by \".save;\" if the file has not been saved yet, it is saved as \" nano.save \" by default.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "linux": [
+      {
+        "software": "gnu-nano",
+        "display_name": "GNU Nano"
+      }
+    ],
+    "windows": [
+      {
+        "software": "gnu-nano",
+        "display_name": "GNU Nano"
+      },
+      {
+        "software": "electronic-arts-the-sims-4",
+        "display_name": "Electronic Arts The Sims 4"
+      }
+    ],
+    "macos": [
+      {
+        "software": "electronic-arts-the-sims-4",
+        "display_name": "Electronic Arts The Sims 4"
+      }
+    ],
+    "web": [
+      {
+        "software": "retrogames.cc",
+        "display_name": "RetroGames.cc"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-09-07",
+  "sources": [
+    {
+      "url": "save.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

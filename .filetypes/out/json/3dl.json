@@ -1,0 +1,106 @@
+{
+  "slug": "3dl",
+  "extension": "3dl",
+  "name": "iGO Landmark File",
+  "category": "1.-igo-landmark-file",
+  "developer_org": "nng",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 40,
+    "source": "fileinfo"
+  },
+  "summary": "GPS data file used by the iGO navigation software; contains points of interest, called landmarks; includes the location and associated metadata; saved to the \\​iGO\\​content\\​building\\​ directory of the navigation device's storage card.",
+  "standards": [],
+  "mime_types": [
+    "95/98",
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "transfer-to-an-nng-device-via-usb-connection",
+        "display_name": "Transfer to an NNG device via USB connection"
+      },
+      {
+        "software": "light-converse-ltd-lightconverse",
+        "display_name": "Light Converse LTD LightConverse"
+      },
+      {
+        "software": "sierra-landdesigner-3d",
+        "display_name": "Sierra LandDesigner 3D"
+      },
+      {
+        "software": "adobe-photoshop-2025",
+        "display_name": "Adobe Photoshop 2025"
+      },
+      {
+        "software": "adobe-after-effects-2025",
+        "display_name": "Adobe After Effects 2025"
+      },
+      {
+        "software": "adobe-premiere-pro-2023",
+        "display_name": "Adobe Premiere Pro 2023"
+      },
+      {
+        "software": "assimilate-scratch",
+        "display_name": "Assimilate Scratch"
+      },
+      {
+        "software": "blackmagic-design-davinci-resolve",
+        "display_name": "Blackmagic Design DaVinci Resolve"
+      }
+    ],
+    "macos": [
+      {
+        "software": "adobe-photoshop-2025",
+        "display_name": "Adobe Photoshop 2025"
+      },
+      {
+        "software": "adobe-after-effects-2025",
+        "display_name": "Adobe After Effects 2025"
+      },
+      {
+        "software": "adobe-premiere-pro-2023",
+        "display_name": "Adobe Premiere Pro 2023"
+      },
+      {
+        "software": "assimilate-scratch",
+        "display_name": "Assimilate Scratch"
+      },
+      {
+        "software": "blackmagic-design-davinci-resolve",
+        "display_name": "Blackmagic Design DaVinci Resolve"
+      }
+    ],
+    "linux": [
+      {
+        "software": "blackmagic-design-davinci-resolve",
+        "display_name": "Blackmagic Design DaVinci Resolve"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-04-05",
+  "sources": [
+    {
+      "url": "3dl.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "slug": "opf",
+  "extension": "opf",
+  "name": "FlipViewer FlipBook File",
+  "category": "1.-flipviewer-flipbook-file",
+  "developer_org": "e-book-systems",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 33,
+    "source": "fileinfo"
+  },
+  "summary": "An OPF file is a FlipBook specification file created by E-Book Systems FlipViewer. It contains XML-format data that defines and organizes a FlipBook's content.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "e-book-systems-flipviewer",
+        "display_name": "E-Book Systems FlipViewer"
+      },
+      {
+        "software": "e-book-systems-flipalbum",
+        "display_name": "E-Book Systems FlipAlbum"
+      },
+      {
+        "software": "adobe-digital-editions",
+        "display_name": "Adobe Digital Editions"
+      },
+      {
+        "software": "adobe-indesign-2023",
+        "display_name": "Adobe InDesign 2023"
+      },
+      {
+        "software": "calibre",
+        "display_name": "Calibre"
+      },
+      {
+        "software": "kde-okular",
+        "display_name": "KDE Okular"
+      },
+      {
+        "software": "geometer-plus-fbreader",
+        "display_name": "Geometer Plus FBReader"
+      }
+    ],
+    "macos": [
+      {
+        "software": "e-book-systems-mac-flipviewer",
+        "display_name": "E-Book Systems Mac FlipViewer"
+      },
+      {
+        "software": "e-book-systems-flipalbum",
+        "display_name": "E-Book Systems FlipAlbum"
+      },
+      {
+        "software": "adobe-digital-editions",
+        "display_name": "Adobe Digital Editions"
+      },
+      {
+        "software": "adobe-indesign-2023",
+        "display_name": "Adobe InDesign 2023"
+      },
+      {
+        "software": "calibre",
+        "display_name": "Calibre"
+      },
+      {
+        "software": "kde-okular",
+        "display_name": "KDE Okular"
+      },
+      {
+        "software": "geometer-plus-fbreader",
+        "display_name": "Geometer Plus FBReader"
+      }
+    ],
+    "linux": [
+      {
+        "software": "calibre",
+        "display_name": "Calibre"
+      },
+      {
+        "software": "kde-okular",
+        "display_name": "KDE Okular"
+      },
+      {
+        "software": "geometer-plus-fbreader",
+        "display_name": "Geometer Plus FBReader"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-09-28",
+  "sources": [
+    {
+      "url": "opf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

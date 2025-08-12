@@ -1,0 +1,53 @@
+{
+  "slug": "zon",
+  "extension": "zon",
+  "name": "OmniPage Zone Template File",
+  "category": "1.-omnipage-zone-template-file",
+  "developer_org": "nuance-communications",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "File used by OmniPage, a program that uses OCR technology to transform images and other files into searchable text documents; stores framed areas, or zones, of an image that should be processed with OmniPage's OCR algorithm; allows the zones to be saved and reused across multiple documents, which is helpful when processing large sets of documents that have the same page layout template.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "kofax-omnipage-ultimate",
+        "display_name": "Kofax OmniPage Ultimate"
+      }
+    ],
+    "linux": [
+      {
+        "software": "verity-collection-building-software",
+        "display_name": "Verity Collection Building software"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-07-15",
+  "sources": [
+    {
+      "url": "zon.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

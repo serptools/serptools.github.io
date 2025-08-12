@@ -1,0 +1,47 @@
+{
+  "slug": "pmq",
+  "extension": "pmq",
+  "name": "Microsoft Target Analyzer File",
+  "category": "microsoft-target-analyzer-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "File created by Target Analyzer ( ta.exe or tap.exe ), a program included in the Microsoft Windows Embedded Studio development kit; stores system-level information about a device for which the developer is targeting to run Windows XP Embedded (XPe) or Windows CE.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-windows-embedded-studio",
+        "display_name": "Microsoft Windows Embedded Studio"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-11-12",
+  "sources": [
+    {
+      "url": "pmq.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

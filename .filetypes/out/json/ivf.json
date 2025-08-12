@@ -1,0 +1,75 @@
+{
+  "slug": "ivf",
+  "extension": "ivf",
+  "name": "Indeo Video Format File",
+  "category": "indeo-video-format-file",
+  "developer_org": "intel",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "An IVF file contains video in the Indeo Video Format (IVF), also known as the \"Intel Video Format.\" It stores video data encoded with the Indeo video codec. IVF files are typically home movies created with Intel video-editing software.",
+  "standards": [],
+  "mime_types": [
+    "video/x-ivf"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-windows-media-player",
+        "display_name": "Microsoft Windows Media Player"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "coolutils-total-movie-converter",
+        "display_name": "CoolUtils Total Movie Converter"
+      }
+    ],
+    "macos": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      }
+    ],
+    "linux": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "IVF file open in VideoLAN VLC media player 3",
+      "alt": "IVF file open in VideoLAN VLC media player 3",
+      "source_url": "https://fileinfo.com/img/ss/md/ivf_145.jpg"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-12-23",
+  "sources": [
+    {
+      "url": "ivf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "slug": "lmx",
+  "extension": "lmx",
+  "name": "Landmark Exchange File",
+  "category": "landmark-exchange-file",
+  "developer_org": "nokia",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "Data file that contains descriptive information about landmarks; contains the name, description, coordinates, address, and category of each landmark; saved in a standard XML format.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "nokia-pc-suite",
+        "display_name": "Nokia PC Suite"
+      },
+      {
+        "software": "nokia-suite",
+        "display_name": "Nokia Suite"
+      },
+      {
+        "software": "nokia-multimedia-transfer",
+        "display_name": "Nokia Multimedia Transfer"
+      }
+    ],
+    "macos": [
+      {
+        "software": "nokia-multimedia-transfer",
+        "display_name": "Nokia Multimedia Transfer"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-01-07",
+  "sources": [
+    {
+      "url": "lmx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

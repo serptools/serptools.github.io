@@ -1,0 +1,47 @@
+{
+  "slug": "bepis",
+  "extension": "bepis",
+  "name": "ULTRAKILL Saved Data",
+  "category": "ultrakill-saved-data",
+  "developer_org": "hakita",
+  "popularity": {
+    "rating": 4.8,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "A BEPIS file contains saved game data used by ULTRAKILL, a first-person shooter for Windows. It stores a record of a player's general- or level-specific progress. ULTRAKILL stores BEPIS files in its ~ULTRAKILL/​saves directory.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "new-blood-interactive-ultrakill",
+        "display_name": "New Blood Interactive ULTRAKILL"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-06-09",
+  "sources": [
+    {
+      "url": "bepis.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

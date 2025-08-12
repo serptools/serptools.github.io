@@ -1,0 +1,63 @@
+{
+  "slug": "tdb",
+  "extension": "tdb",
+  "name": "Android Thumbnail Cache",
+  "category": "1.-android-thumbnail-cache",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 4.1,
+    "votes": 35,
+    "source": "fileinfo"
+  },
+  "summary": "Cache file generated on SD cards used in Android phones and tablets; contains small versions or \"thumbnails\" of images saved on the card; provides a more efficient way to browse through the images on the card since the device does not have to load each full size image.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "not-meant-to-be-opened-manually",
+        "display_name": "Not meant to be opened manually"
+      },
+      {
+        "software": "ebay-turbo-lister",
+        "display_name": "eBay Turbo Lister"
+      },
+      {
+        "software": "neurohack-transcendence",
+        "display_name": "neurohack Transcendence"
+      }
+    ],
+    "android": [
+      {
+        "software": "google-android",
+        "display_name": "Google Android"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-01-28",
+  "sources": [
+    {
+      "url": "tdb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

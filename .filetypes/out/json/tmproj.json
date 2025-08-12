@@ -1,0 +1,47 @@
+{
+  "slug": "tmproj",
+  "extension": "tmproj",
+  "name": "TextMate Project File",
+  "category": "textmate-project-file",
+  "developer_org": "macromates",
+  "popularity": {
+    "rating": 2.5,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "A TMPROJ file is a project file created by MacroMates TextMate, a macOS text editor that supports editing and syntax highlighting in many programming languages. It is saved in an XML format and contains references to project files. TMPROJ files also store the currently opened file, preferences, and editor window settings.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "macromates-textmate-version-1.5.11-and-earlier",
+        "display_name": "MacroMates TextMate (version 1.5.11 and earlier)"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-11-18",
+  "sources": [
+    {
+      "url": "tmproj.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

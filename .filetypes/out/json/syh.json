@@ -1,0 +1,49 @@
+{
+  "slug": "syh",
+  "extension": "syh",
+  "name": "Synchomatic Instrument",
+  "category": "synchomatic-instrument",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "Software instrument format used by Synchomatic, a software synthesizer with a 32-bit synthesis engine based on a custom algorithm; supports eight waveforms, one oscillator, one LFO, one envelope generator, and a programmable filter.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "neurotix-synchomatic",
+        "display_name": "Neurotix Synchomatic"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2006-12-06",
+  "sources": [
+    {
+      "url": "syh.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

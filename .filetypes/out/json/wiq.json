@@ -1,0 +1,47 @@
+{
+  "slug": "wiq",
+  "extension": "wiq",
+  "name": "Visual Studio Work Item Query File",
+  "category": "visual-studio-work-item-query-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "File used by Visual Studio, a software development application developed by Microsoft; used by software development teams for storing work items such as bugs and tasks; helps with project management because it allows work items to be assigned, queued, and tracked.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-visual-studio-2022",
+        "display_name": "Microsoft Visual Studio 2022"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-10-23",
+  "sources": [
+    {
+      "url": "wiq.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

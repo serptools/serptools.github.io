@@ -1,0 +1,75 @@
+{
+  "slug": "smsec",
+  "extension": "smsec",
+  "name": "StarMade Sector File",
+  "category": "starmade-sector-file",
+  "developer_org": "schine",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "A SMSEC file is a space sector file used by StarMade, an open-universe space simulation sandbox game. It contains an exported sector, which is a three-dimensional cube-shaped area organized into a grid that makes up the space in StarMade where a player can fly, fight, build, or trade.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "schine-starmade",
+        "display_name": "Schine StarMade"
+      },
+      {
+        "software": "7-zip",
+        "display_name": "7-Zip"
+      },
+      {
+        "software": "corel-winzip",
+        "display_name": "Corel WinZip"
+      },
+      {
+        "software": "rarlab-winrar",
+        "display_name": "RARLAB WinRAR"
+      }
+    ],
+    "macos": [
+      {
+        "software": "corel-winzip-mac",
+        "display_name": "Corel WinZip Mac"
+      },
+      {
+        "software": "schine-starmade",
+        "display_name": "Schine StarMade"
+      }
+    ],
+    "linux": [
+      {
+        "software": "schine-starmade",
+        "display_name": "Schine StarMade"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-02-01",
+  "sources": [
+    {
+      "url": "smsec.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

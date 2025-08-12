@@ -1,0 +1,71 @@
+{
+  "slug": "xbc",
+  "extension": "xbc",
+  "name": "SMART Notebook File",
+  "category": "smart-notebook-file",
+  "developer_org": "smart-technologies",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "Legacy file format used by SMART Notebook interactive whiteboard software; contains a collection of gallery items, which may include clip art images, audio files, video files, notes, and .NBK files; used for storing organized collections of classroom materials and extracting content for lectures.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "smart-technologies-notebook",
+        "display_name": "SMART Technologies Notebook"
+      },
+      {
+        "software": "smart-technologies-smart-board-software",
+        "display_name": "SMART Technologies SMART Board software"
+      }
+    ],
+    "macos": [
+      {
+        "software": "smart-technologies-notebook",
+        "display_name": "SMART Technologies Notebook"
+      },
+      {
+        "software": "smart-technologies-smart-board-software",
+        "display_name": "SMART Technologies SMART Board software"
+      }
+    ],
+    "linux": [
+      {
+        "software": "smart-technologies-notebook",
+        "display_name": "SMART Technologies Notebook"
+      },
+      {
+        "software": "smart-technologies-smart-board-software",
+        "display_name": "SMART Technologies SMART Board software"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-09-07",
+  "sources": [
+    {
+      "url": "xbc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

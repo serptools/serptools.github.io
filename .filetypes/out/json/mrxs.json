@@ -1,0 +1,72 @@
+{
+  "slug": "mrxs",
+  "extension": "mrxs",
+  "name": "MIRAX Virtual Slide File",
+  "category": "mirax-virtual-slide-file",
+  "developer_org": "carl-zeiss-microimaging",
+  "popularity": {
+    "rating": 2.1,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "An MRXS file is an image file created by MIRAX-compatible microscope digital slide scanners, such as the Carl Zeiss MIRAX series or the 3DHISTECH Pannoramic series. It stores images of multiple specimen samples from glass slides on a single digitized virtual slide. MRXS files are used to archive and analyze microscope images.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "3dhistech-pannoramic-viewer",
+        "display_name": "3DHISTECH Pannoramic Viewer",
+        "status": "discontinued"
+      },
+      {
+        "software": "aperio-technologies-imagescope",
+        "display_name": "Aperio Technologies ImageScope"
+      },
+      {
+        "software": "openslide",
+        "display_name": "OpenSlide"
+      },
+      {
+        "software": "netscope-viewer",
+        "display_name": "NetScope Viewer"
+      }
+    ],
+    "macos": [
+      {
+        "software": "openslide",
+        "display_name": "OpenSlide"
+      }
+    ],
+    "linux": [
+      {
+        "software": "openslide",
+        "display_name": "OpenSlide"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-12-08",
+  "sources": [
+    {
+      "url": "mrxs.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

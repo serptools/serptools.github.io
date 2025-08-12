@@ -1,0 +1,71 @@
+{
+  "slug": "wl1",
+  "extension": "wl1",
+  "name": "Wolfenstein 3D Shareware Game Data",
+  "category": "wolfenstein-3d-shareware-game-data",
+  "developer_org": "id-software",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "A WL1 file is a game data file used by the shareware version of Wolfenstein 3D. It may contain the game's audio tracks, maps, sprites, or other game data. Wolfenstein 3D includes nine default WL1 files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "id-software-wolfenstein-3d",
+        "display_name": "id Software Wolfenstein 3D"
+      },
+      {
+        "software": "slade",
+        "display_name": "SLADE"
+      },
+      {
+        "software": "havoc-s-wolf3d-editor",
+        "display_name": "Havoc's Wolf3D Editor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "id-software-wolfenstein-3d",
+        "display_name": "id Software Wolfenstein 3D"
+      },
+      {
+        "software": "slade",
+        "display_name": "SLADE"
+      }
+    ],
+    "linux": [
+      {
+        "software": "slade",
+        "display_name": "SLADE"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-06-23",
+  "sources": [
+    {
+      "url": "wl1.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "sa",
+  "extension": "sa",
+  "name": "Xiaomi Mobile Phone Hidden File",
+  "category": "xiaomi-mobile-phone-hidden-file",
+  "developer_org": "xiaomi",
+  "popularity": {
+    "rating": 3.1,
+    "votes": 22,
+    "source": "fileinfo"
+  },
+  "summary": "An SA file is an encrypted file that a Xiaomi mobile phone user has chosen to hide from their phone's Explorer app. It contains a picture, video, or document the user did not want others to be able to access. SA files can be accessed and opened only by providing the password(s) used to encrypt them.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "android": [
+      {
+        "software": "xiaomi-mi-file-explorer",
+        "display_name": "Xiaomi Mi File Explorer"
+      }
+    ],
+    "windows": [
+      {
+        "software": "xiaomi-mi-file-explorer",
+        "display_name": "Xiaomi Mi File Explorer"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-08-09",
+  "sources": [
+    {
+      "url": "sa.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

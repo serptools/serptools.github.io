@@ -1,0 +1,79 @@
+{
+  "slug": "fpr",
+  "extension": "fpr",
+  "name": "Audit Workbench Project",
+  "category": "1.-audit-workbench-project",
+  "developer_org": "hp",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 14,
+    "source": "fileinfo"
+  },
+  "summary": "An FPR file is a project used by HPE Security Fortify Static Code Analyzer (SCA), a suite of tools used by security professionals to scan enterprise software for security issues. It contains a project, which includes analysis results and settings such as the source code path and the build ID. FPR files are primarily created by the Audit Workbench tool available within the SCA suite.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "hpe-security-fortify-static-code-analyzer",
+        "display_name": "HPE Security Fortify Static Code Analyzer"
+      },
+      {
+        "software": "image-line-fl-studio",
+        "display_name": "Image-Line FL Studio"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "ios": [
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "android": [
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2016-12-14",
+  "sources": [
+    {
+      "url": "fpr.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

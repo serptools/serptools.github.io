@@ -1,0 +1,53 @@
+{
+  "slug": "hsk",
+  "extension": "hsk",
+  "name": "Huskey Truss & Building Supply Import File",
+  "category": "huskey-truss-building-supply-import-file",
+  "developer_org": "huskey-truss-building-supply",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "Data format used for importing product data into point-of-sale (POS) programs; typically generated from data stored in an Excel spreadsheet ( .XLS file); uses a unique syntax structure that identifies line items, and includes remarks and header information; each line item identifies the SKU code, quantity, description, price, and cost of the product.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-10-09",
+  "sources": [
+    {
+      "url": "hsk.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

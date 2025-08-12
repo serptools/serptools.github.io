@@ -1,0 +1,35 @@
+{
+  "slug": "sh",
+  "extension": "sh",
+  "name": "Bash Shell Script",
+  "category": "bash-shell-script",
+  "summary": "",
+  "developer_org": "n-a",
+  "developer_name": "N/A",
+  "more_information": {
+    "screenshot": {
+      "url": "https://fileinfo.com/img/ss/sm/sh_1517.png",
+      "alt": "Screenshot of a .sh file in Microsoft Visual Studio Code",
+      "caption": "SH file open in Microsoft Visual Studio Code"
+    },
+    "description": [
+      "Bash, or Bourne-Again SHell, is a Unix shell that replaced the Bourne shell (thus Bash's full name). Many Linux distributions include the Bash shell. Bash was also previously macOS's default login shell. (It has since been replaced by zsh. MacOS users can still manually set their shell to Bash.)",
+      "With the Bash shell, users can execute default Bash commands or execute scripts written in the Bash command language. Bash scripts are typically saved as SH files.",
+      "Some other Unix shells, such as Bourne, C shell, and Korn, also use scripts saved as SH files. One way to recognize a Bash script is to look for the string #!/bin/bash in the script's first line. Most Bash SH files include this string, which tells the shell that the script the file contains should be executed using the Bash interpreter ."
+    ]
+  },
+  "images": [
+    {
+      "url": "https://fileinfo.com/img/ss/sm/sh_1517.png",
+      "alt": "Screenshot of a .sh file in Microsoft Visual Studio Code",
+      "caption": "SH file open in Microsoft Visual Studio Code"
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "sh.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

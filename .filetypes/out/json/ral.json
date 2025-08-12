@@ -1,0 +1,52 @@
+{
+  "slug": "ral",
+  "extension": "ral",
+  "name": "WinRail Track Design File",
+  "category": "winrail-track-design-file",
+  "developer_org": "span-software",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "Railroad track design created with WinRail, a program for designing model railway layouts; defines how the tracks are positioned and includes the article numbers of the tracks used; may also contain other content such as buildings, trees, roadbeds, and other objects.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "span-software-winrail",
+        "display_name": "Span Software WinRail"
+      },
+      {
+        "software": "span-software-winrail-free-3d-layout-viewer",
+        "display_name": "Span Software WinRail Free 3D Layout Viewer",
+        "pricing": "free"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-02-13",
+  "sources": [
+    {
+      "url": "ral.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

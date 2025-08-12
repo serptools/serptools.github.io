@@ -1,0 +1,85 @@
+{
+  "slug": "dash",
+  "extension": "dash",
+  "name": "MPEG-DASH Video File",
+  "category": "1.-mpeg-dash-video-file",
+  "developer_org": "moving-picture-experts-group",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 49,
+    "source": "fileinfo"
+  },
+  "summary": "A DASH file is a video file created for high-quality video playback on sites such as YouTube and Netflix. It contains an HTTP-based segment of media content that is encoded with different bit rates, to keep a video playing through changing network conditions.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      },
+      {
+        "software": "realnetworks-realplayer-cloud",
+        "display_name": "RealNetworks RealPlayer Cloud"
+      },
+      {
+        "software": "dashencoder",
+        "display_name": "DASHEncoder"
+      }
+    ],
+    "macos": [
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      }
+    ],
+    "linux": [
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      }
+    ],
+    "android": [
+      {
+        "software": "dashlane",
+        "display_name": "Dashlane"
+      }
+    ],
+    "web": [
+      {
+        "software": "dashlane",
+        "display_name": "Dashlane"
+      }
+    ],
+    "ios": [
+      {
+        "software": "dashlane",
+        "display_name": "Dashlane"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-06-09",
+  "sources": [
+    {
+      "url": "dash.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

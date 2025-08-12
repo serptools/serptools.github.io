@@ -1,0 +1,97 @@
+{
+  "slug": "md2",
+  "extension": "md2",
+  "name": "Quake 2 3D Model",
+  "category": "1.-quake-2-3d-model",
+  "developer_org": "id-software",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "An MD2 file is a 3D model used by id Software Quake 2. Primarily, MD2 files contain models of player characters, non-player characters, but some MD2 files instead contain weapon or item models. Only Quake 2 and its expansions use MD2 files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "id-software-quake-2",
+        "display_name": "id Software Quake 2"
+      },
+      {
+        "software": "chumbalum-soft-milkshape-3d",
+        "display_name": "chUmbaLum sOft MilkShape 3D"
+      },
+      {
+        "software": "quark",
+        "display_name": "QuArK"
+      },
+      {
+        "software": "wal",
+        "display_name": "wal"
+      },
+      {
+        "software": "alcohol-120",
+        "display_name": "Alcohol 120%"
+      },
+      {
+        "software": "miso-j-to-join-the-segments",
+        "display_name": "MISO-J (to join the segments)"
+      }
+    ],
+    "macos": [
+      {
+        "software": "id-software-quake-2",
+        "display_name": "id Software Quake 2"
+      },
+      {
+        "software": "wal",
+        "display_name": "wal"
+      },
+      {
+        "software": "miso-j-to-join-the-segments",
+        "display_name": "MISO-J (to join the segments)"
+      }
+    ],
+    "linux": [
+      {
+        "software": "id-software-quake-2",
+        "display_name": "id Software Quake 2"
+      },
+      {
+        "software": "wal",
+        "display_name": "wal"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "MD2 file open in chUmbaLum sOft MilkShape 3D",
+      "alt": "MD2 file open in chUmbaLum sOft MilkShape 3D",
+      "source_url": "https://fileinfo.com/img/ss/md/md2_1199.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-05-01",
+  "sources": [
+    {
+      "url": "md2.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

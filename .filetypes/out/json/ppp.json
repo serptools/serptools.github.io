@@ -1,0 +1,68 @@
+{
+  "slug": "ppp",
+  "extension": "ppp",
+  "name": "Serif PagePlus Document",
+  "category": "1.-serif-pageplus-document",
+  "developer_org": "serif",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 44,
+    "source": "fileinfo"
+  },
+  "summary": "A PPP file is a document created by Serif PagePlus, a British desktop publishing program for Windows. It may contain text, images, charts, tables, and multiple pages. The PPP file format was discontinued in 2017, when Serif replaced PagePlus with Affinity Publisher.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "serif-pageplus",
+        "display_name": "Serif PagePlus",
+        "status": "discontinued"
+      },
+      {
+        "software": "cyberlink-powerproducer-6",
+        "display_name": "CyberLink PowerProducer 6"
+      },
+      {
+        "software": "nch-software-photopad-photo-editor",
+        "display_name": "NCH Software PhotoPad Photo Editor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "nch-software-photopad-photo-editor",
+        "display_name": "NCH Software PhotoPad Photo Editor"
+      }
+    ],
+    "android": [
+      {
+        "software": "nch-software-photopad-photo-editor",
+        "display_name": "NCH Software PhotoPad Photo Editor"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-01-03",
+  "sources": [
+    {
+      "url": "ppp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "rpm",
+  "extension": "rpm",
+  "name": "Red Hat Package Manager File",
+  "category": "red-hat-package-manager-file",
+  "summary": "",
+  "developer_org": "realnetworks",
+  "developer_name": "RealNetworks",
+  "more_information": {
+    "description": [
+      "RPM files can be converted to other formats, such as .DEB files, using a Debian program called Alien. The following Alien command converts the file package_name.rpm into a new file package_name.deb :",
+      "alien <options> package_name.rpm"
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "rpm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

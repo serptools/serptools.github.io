@@ -1,0 +1,53 @@
+{
+  "slug": "wmo",
+  "extension": "wmo",
+  "name": "World of Warcraft World Map Object",
+  "category": "world-of-warcraft-world-map-object",
+  "developer_org": "blizzard-entertainment",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "File format used to store 3D object data for World of Warcraft, an online multiplayer adventure game; commonly referred to as a \"world map object\" or WMO; may be saved as a root file or a group file.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "blizzard-world-of-warcraft",
+        "display_name": "Blizzard World of Warcraft"
+      }
+    ],
+    "macos": [
+      {
+        "software": "blizzard-world-of-warcraft",
+        "display_name": "Blizzard World of Warcraft"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-09-21",
+  "sources": [
+    {
+      "url": "wmo.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

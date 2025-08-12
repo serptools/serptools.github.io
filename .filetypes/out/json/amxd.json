@@ -1,0 +1,67 @@
+{
+  "slug": "amxd",
+  "extension": "amxd",
+  "name": "Ableton Max Patch File",
+  "category": "ableton-max-patch-file",
+  "developer_org": "ableton",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "Audio device settings file created by Ableton Max for Live, a program used for creating custom devices for Ableton Live audio software; may be an audio effect, a MIDI effect, or a custom instrument; allows music producers to extend the default Ableton Live devices.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "ableton-max-for-live",
+        "display_name": "Ableton Max for Live"
+      },
+      {
+        "software": "ableton-live",
+        "display_name": "Ableton Live"
+      }
+    ],
+    "macos": [
+      {
+        "software": "ableton-max-for-live",
+        "display_name": "Ableton Max for Live"
+      },
+      {
+        "software": "ableton-live",
+        "display_name": "Ableton Live"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "AMXD file icon",
+      "alt": "AMXD file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/amxd-6693.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-08-29",
+  "sources": [
+    {
+      "url": "amxd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

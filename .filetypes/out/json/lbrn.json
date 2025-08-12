@@ -1,0 +1,65 @@
+{
+  "slug": "lbrn",
+  "extension": "lbrn",
+  "name": "LightBurn Project",
+  "category": "lightburn-project",
+  "developer_org": "lightburn-software",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "An LBRN file contains a project created by LightBurn, a program used to create and edit designs that can be cut with a laser cutter. It stores information in XML format about the design, which includes images imported into the project, along with settings for the cuts to make the design.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "lightburn",
+        "display_name": "LightBurn"
+      }
+    ],
+    "macos": [
+      {
+        "software": "lightburn",
+        "display_name": "LightBurn"
+      }
+    ],
+    "linux": [
+      {
+        "software": "lightburn",
+        "display_name": "LightBurn"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "LBRN file open in LightBurn 0.9.07",
+      "alt": "LBRN file open in LightBurn 0.9.07",
+      "source_url": "https://fileinfo.com/img/ss/md/lbrn_11373.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-09-24",
+  "sources": [
+    {
+      "url": "lbrn.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

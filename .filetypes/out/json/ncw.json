@@ -1,0 +1,57 @@
+{
+  "slug": "ncw",
+  "extension": "ncw",
+  "name": "Native Compressed Wave File",
+  "category": "1.-native-compressed-wave-file",
+  "developer_org": "native-instruments",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 10,
+    "source": "fileinfo"
+  },
+  "summary": "Audio file created by Native Instruments' Kontakt, an audio sampling program; saves an imported wave audio file using compression methods so the file uses less disk space.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "native-instruments-kontakt",
+        "display_name": "Native Instruments Kontakt"
+      },
+      {
+        "software": "nero-2022",
+        "display_name": "Nero 2022"
+      }
+    ],
+    "macos": [
+      {
+        "software": "native-instruments-kontakt",
+        "display_name": "Native Instruments Kontakt"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-09-21",
+  "sources": [
+    {
+      "url": "ncw.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

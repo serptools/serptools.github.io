@@ -1,0 +1,67 @@
+{
+  "slug": "ilbm",
+  "extension": "ilbm",
+  "name": "Interleaved Bitmap Image",
+  "category": "interleaved-bitmap-image",
+  "developer_org": "electronic-arts",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "Bitmap image format based on the Interchange File Format ( .IFF files); originally designed for use with Amiga chipsets; stores bitplanes, which contain one bit of data for each image pixel; supports bitonal and color images, as well as RLE (Run-length encoding) compression.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "canvas-gfx-canvas-x-pro",
+        "display_name": "Canvas GFX Canvas X Pro"
+      },
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      },
+      {
+        "software": "irfanview-with-formats-plug-in",
+        "display_name": "IrfanView with FORMATS plug-in"
+      }
+    ],
+    "macos": [
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      }
+    ],
+    "linux": [
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-05-28",
+  "sources": [
+    {
+      "url": "ilbm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

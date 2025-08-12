@@ -1,0 +1,165 @@
+{
+  "slug": "scn",
+  "extension": "scn",
+  "name": "OpenTTD Scenario File",
+  "category": "1.-openttd-scenario-file",
+  "developer_org": "openttd",
+  "popularity": {
+    "rating": 3.2,
+    "votes": 28,
+    "source": "fileinfo"
+  },
+  "summary": "Game file used by OpenTTD, the open source follow-on project to Transport Tycoon; saves a game scenario, which defines the starting conditions for a map played by the user; may include the landscape, buildings, cities, train tracks, and other features.",
+  "standards": [],
+  "mime_types": [
+    "mayor/urban"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "openttd",
+        "display_name": "OpenTTD"
+      },
+      {
+        "software": "microprose-transport-tycoon",
+        "display_name": "Microprose Transport Tycoon"
+      },
+      {
+        "software": "microsoft-age-of-empires",
+        "display_name": "Microsoft Age of Empires"
+      },
+      {
+        "software": "microsoft-age-of-empires-2",
+        "display_name": "Microsoft Age of Empires 2"
+      },
+      {
+        "software": "microsoft-age-of-mythology",
+        "display_name": "Microsoft Age of Mythology"
+      },
+      {
+        "software": "microsoft-age-of-mythology-the-titans-expansion",
+        "display_name": "Microsoft Age of Mythology: The Titans Expansion"
+      },
+      {
+        "software": "cpnbuild",
+        "display_name": "CPNBUILD"
+      },
+      {
+        "software": "godot-engine",
+        "display_name": "Godot Engine"
+      },
+      {
+        "software": "maxis-simcity-2000",
+        "display_name": "Maxis SimCity 2000"
+      },
+      {
+        "software": "pinnacle-studio-earlier-versions-only",
+        "display_name": "Pinnacle Studio (earlier versions only)"
+      },
+      {
+        "software": "dvdate",
+        "display_name": "DVdate"
+      },
+      {
+        "software": "imagegrab",
+        "display_name": "ImageGrab"
+      },
+      {
+        "software": "aperio-technologies-imagescope",
+        "display_name": "Aperio Technologies ImageScope"
+      },
+      {
+        "software": "openslide",
+        "display_name": "OpenSlide"
+      },
+      {
+        "software": "imagej",
+        "display_name": "ImageJ"
+      },
+      {
+        "software": "netscope-viewer",
+        "display_name": "NetScope Viewer"
+      },
+      {
+        "software": "orbiter",
+        "display_name": "Orbiter"
+      },
+      {
+        "software": "bio-rad-image-lab",
+        "display_name": "Bio-Rad Image Lab"
+      },
+      {
+        "software": "treepaint-plus",
+        "display_name": "TreePaint Plus"
+      },
+      {
+        "software": "technology-design-td-scan",
+        "display_name": "Technology Design TD Scan"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "godot-engine",
+        "display_name": "Godot Engine"
+      },
+      {
+        "software": "maxis-simcity-2000",
+        "display_name": "Maxis SimCity 2000"
+      },
+      {
+        "software": "openslide",
+        "display_name": "OpenSlide"
+      },
+      {
+        "software": "imagej",
+        "display_name": "ImageJ"
+      },
+      {
+        "software": "bio-rad-image-lab",
+        "display_name": "Bio-Rad Image Lab"
+      }
+    ],
+    "linux": [
+      {
+        "software": "godot-engine",
+        "display_name": "Godot Engine"
+      },
+      {
+        "software": "openslide",
+        "display_name": "OpenSlide"
+      },
+      {
+        "software": "imagej",
+        "display_name": "ImageJ"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-12-12",
+  "sources": [
+    {
+      "url": "scn.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

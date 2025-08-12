@@ -1,0 +1,63 @@
+{
+  "slug": "projector",
+  "extension": "projector",
+  "name": "Screencast Transcript",
+  "category": "screencast-transcript",
+  "developer_org": "google",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "A PROJECTOR file is a transcript created by the Google Screencast app for ChromeOS. It contains a JSON-formatted record of the words a user said during a Screencast recording. Screencast combines a PROJECTOR file with an associated .WEBM video when playing back a recording; the transcript the PROJECTOR file contains appears in Screencast's Transcript pane.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "google-screencast",
+        "display_name": "Google Screencast"
+      }
+    ],
+    "chromeos": [
+      {
+        "software": "google-chrome-text",
+        "display_name": "Google Chrome Text"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "PROJECTOR file open in Google Chrome Text",
+      "alt": "PROJECTOR file open in Google Chrome Text",
+      "source_url": "https://fileinfo.com/img/ss/md/projector_12829.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-08-19",
+  "sources": [
+    {
+      "url": "projector.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

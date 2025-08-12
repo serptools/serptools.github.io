@@ -1,0 +1,114 @@
+{
+  "slug": "url",
+  "extension": "url",
+  "name": "URL Shortcut File",
+  "category": "url-shortcut-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 184,
+    "source": "fileinfo"
+  },
+  "summary": "A URL file is a shortcut that points to a specific Uniform Resource Locator . When you double-click a URL file, your computer accesses the URL the file contains. URL files most often contain https: web addresses and are used to access web pages. However, URL files can also contain mailto: , tel: , file: , or other URLs.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "double-click-to-open-url-in-associated-program",
+        "display_name": "Double-click to open URL in associated program"
+      },
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      },
+      {
+        "software": "zapek-software-engineering-stuntzurl",
+        "display_name": "Zapek Software Engineering stuntzurl"
+      }
+    ],
+    "macos": [
+      {
+        "software": "double-click-to-open-url-in-associated-program",
+        "display_name": "Double-click to open URL in associated program"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "double-click-to-open-url-in-associated-program",
+        "display_name": "Double-click to open URL in associated program"
+      },
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "android": [
+      {
+        "software": "zapek-software-engineering-stuntzurl",
+        "display_name": "Zapek Software Engineering stuntzurl"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "URL file icon",
+      "alt": "URL file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/url-181.png"
+    },
+    {
+      "caption": "URL file open in Apple TextEdit",
+      "alt": "URL file open in Apple TextEdit",
+      "source_url": "https://fileinfo.com/img/ss/md/url_181.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-12-06",
+  "sources": [
+    {
+      "url": "url.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

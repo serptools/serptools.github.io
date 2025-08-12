@@ -1,0 +1,22 @@
+{
+  "slug": "pwv",
+  "extension": "pwv",
+  "name": "Password Vault Archive",
+  "category": "password-vault-archive",
+  "summary": "",
+  "developer_org": "paranoia-works",
+  "developer_name": "Paranoia Works",
+  "more_information": {
+    "description": [
+      "The Secret Space Encryptor allows you to manage passwords and encrypt text and files. The Password Vault tool accessible in the Secret Space Encryptor is used to create PWV files. The PWV format features LZMA2 compression and EAX mode algorithm encryption for serialized vault objects. You can export and import password vaults from and to the app.",
+      "NOTE: There is no way to access your password vault without the password."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "pwv.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

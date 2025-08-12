@@ -1,0 +1,61 @@
+{
+  "slug": "uwf",
+  "extension": "uwf",
+  "name": "UltraTracker Wave File",
+  "category": "ultratracker-wave-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.2,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "A UWF file is an audio sample file used by the now-discontinued UltraTracker, an audio tracking program popular in the 1990s. It stores audio waveforms that a user can play back and manipulate with UltraTracker when creating module-based music ( .ULT files).",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "ultratracker",
+        "display_name": "UltraTracker"
+      },
+      {
+        "software": "cocomodx",
+        "display_name": "CocoModX",
+        "status": "discontinued"
+      }
+    ],
+    "macos": [
+      {
+        "software": "cocomodx",
+        "display_name": "CocoModX",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2024-11-27",
+  "sources": [
+    {
+      "url": "uwf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

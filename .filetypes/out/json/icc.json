@@ -1,0 +1,75 @@
+{
+  "slug": "icc",
+  "extension": "icc",
+  "name": "ICC Profile",
+  "category": "icc-profile",
+  "developer_org": "international-color-consortium",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 23,
+    "source": "fileinfo"
+  },
+  "summary": "An ICC file is a color profile format standardized by the International Color Consortium (ICC). It contains color settings for image-editing programs and relays information between software and peripheral devices, including monitors, printers, and scanners.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-color-control-panel",
+        "display_name": "Microsoft Color Control Panel"
+      },
+      {
+        "software": "adobe-photoshop-2025",
+        "display_name": "Adobe Photoshop 2025"
+      },
+      {
+        "software": "coreldraw-graphics-suite-2024",
+        "display_name": "CorelDRAW Graphics Suite 2024"
+      },
+      {
+        "software": "apple-colorsync-utility",
+        "display_name": "Apple ColorSync Utility"
+      }
+    ],
+    "macos": [
+      {
+        "software": "adobe-photoshop-2025",
+        "display_name": "Adobe Photoshop 2025"
+      },
+      {
+        "software": "apple-colorsync-utility",
+        "display_name": "Apple ColorSync Utility"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "ICC file open in Apple ColorSync Utility",
+      "alt": "ICC file open in Apple ColorSync Utility",
+      "source_url": "https://fileinfo.com/img/ss/md/icc_1314.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-01-26",
+  "sources": [
+    {
+      "url": "icc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

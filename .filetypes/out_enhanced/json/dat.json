@@ -1,0 +1,46 @@
+{
+  "slug": "dat",
+  "extension": "dat",
+  "name": "Data File",
+  "category": "data-file",
+  "summary": "",
+  "developer_org": "arenanet",
+  "developer_name": "ArenaNet",
+  "more_information": {
+    "description": [
+      "In old versions of Minecraft, DAT files were also used to store level \"chunks,\" which are small map pieces the game loads on-demand as a player navigates through a world. This format was introduced in the Minecraft Infdev version. The chunks used a 16 x 16 x 128 map dimension.",
+      "Minecraft version 1.3's beta release introduced a new chunk format, called Region. Regions were saved in .MCR files. The MCR format was subsequently replaced by the .MCA format, also referred to as Anvil, in patch 1.2.1.",
+      "NOTE: Different versions of Minecraft use differently-formatted DAT files. Therefore, a DAT file produced by one version of the game may not be compatible with other versions."
+    ]
+  },
+  "common_filenames": [
+    {
+      "filename": "level.dat",
+      "description": "level.dat - The Minecraft data file that stores world information, such as the player's inventory, the level generator used to create the world, and the current time of day."
+    }
+  ],
+  "images": [
+    {
+      "url": "https://fileinfo.com/img/ss/sm/dat_2328.png",
+      "alt": "Screenshot of a .dat file in VideoLAN VLC media player 3.0.12",
+      "caption": "DAT file open in VideoLAN VLC media player 3.0.12"
+    },
+    {
+      "url": "https://fileinfo.com/img/ss/sm/dat_11933.png",
+      "alt": "Screenshot of a .dat file in GitHub Atom",
+      "caption": "DAT file open in GitHub Atom"
+    },
+    {
+      "url": "https://fileinfo.com/img/ss/sm/dat_13000.png",
+      "alt": "Screenshot of a .dat file in GDColon GDSave Browser",
+      "caption": "DAT file open in GDColon GDSave Browser"
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "dat.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

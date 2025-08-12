@@ -1,0 +1,47 @@
+{
+  "slug": "brw",
+  "extension": "brw",
+  "name": "Calyx Point Borrower File",
+  "category": "calyx-point-borrower-file",
+  "developer_org": "calyx-software",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "File used by Calyx Point, a program used to create and manage mortgage loans; contains loan financial data for the borrower; used to track loan status information between a lender and borrower.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "calyx-point",
+        "display_name": "Calyx Point"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-03-08",
+  "sources": [
+    {
+      "url": "brw.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

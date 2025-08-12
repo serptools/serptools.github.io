@@ -1,0 +1,59 @@
+{
+  "slug": "wpx",
+  "extension": "wpx",
+  "name": "Printer Description File",
+  "category": "1.-printer-description-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Printer information file that contains a description of the printer's features; may be referenced when printer jobs are created and sent to the printer; often installed with Windows PostScript printers.",
+  "standards": [],
+  "mime_types": [
+    "windows/system"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "referenced-by-the-windows-operating-system",
+        "display_name": "Referenced by the Windows operating system"
+      },
+      {
+        "software": "parallels-desktop-for-mac-with-windows-installed",
+        "display_name": "Parallels Desktop for Mac with Windows installed"
+      }
+    ],
+    "web": [
+      {
+        "software": "serif-webplus",
+        "display_name": "Serif WebPlus"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2008-05-19",
+  "sources": [
+    {
+      "url": "wpx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

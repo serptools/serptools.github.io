@@ -1,0 +1,57 @@
+{
+  "slug": "eslock",
+  "extension": "eslock",
+  "name": "ES File Explorer File Manager Encrypted File",
+  "category": "es-file-explorer-file-manager-encrypted-file",
+  "developer_org": "es-app-group",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 49,
+    "source": "fileinfo"
+  },
+  "summary": "An ESLOCK file is an encrypted file created by ES File Explorer File Manager, an Android file managing app. It stores a file, such as a .JPG image or .XLSX document, that has been locked and encrypted by the user to protect its contents.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "android": [
+      {
+        "software": "es-file-explorer-file-manager-for-android",
+        "display_name": "ES File Explorer File Manager for Android"
+      },
+      {
+        "software": "roosters-lab-eslock-file-recovery",
+        "display_name": "Roosters Lab ESLock File Recovery"
+      }
+    ],
+    "windows": [
+      {
+        "software": "roosters-lab-eslock-file-recovery",
+        "display_name": "Roosters Lab ESLock File Recovery"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2016-12-07",
+  "sources": [
+    {
+      "url": "eslock.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

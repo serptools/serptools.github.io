@@ -1,0 +1,121 @@
+{
+  "slug": "j2k",
+  "extension": "j2k",
+  "name": "JPEG 2000 Image",
+  "category": "jpeg-2000-image",
+  "developer_org": "joint-photographic-experts-group",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 10,
+    "source": "fileinfo"
+  },
+  "summary": "A J2K file is a compressed bitmap image saved in the JPEG 2000 format. It supports 16-bit color and alpha transparency and may incorporate lossy or lossless compression. J2K files typically store digital photos.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "coreldraw-graphics-suite-2024",
+        "display_name": "CorelDRAW Graphics Suite 2024"
+      },
+      {
+        "software": "corel-paintshop-pro-2023",
+        "display_name": "Corel PaintShop Pro 2023"
+      },
+      {
+        "software": "adobe-photoshop-2025",
+        "display_name": "Adobe Photoshop 2025"
+      },
+      {
+        "software": "adobe-photoshop-elements",
+        "display_name": "Adobe Photoshop Elements"
+      },
+      {
+        "software": "canvas-gfx-canvas-x-pro",
+        "display_name": "Canvas GFX Canvas X Pro"
+      },
+      {
+        "software": "bionix-wallpaper",
+        "display_name": "BioniX Wallpaper"
+      },
+      {
+        "software": "apple-preview",
+        "display_name": "Apple Preview"
+      },
+      {
+        "software": "lemkesoft-graphicconverter",
+        "display_name": "Lemkesoft GraphicConverter"
+      },
+      {
+        "software": "toyviewer",
+        "display_name": "ToyViewer"
+      },
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-preview",
+        "display_name": "Apple Preview"
+      },
+      {
+        "software": "lemkesoft-graphicconverter",
+        "display_name": "Lemkesoft GraphicConverter"
+      },
+      {
+        "software": "adobe-photoshop-2025",
+        "display_name": "Adobe Photoshop 2025"
+      },
+      {
+        "software": "adobe-photoshop-elements",
+        "display_name": "Adobe Photoshop Elements"
+      },
+      {
+        "software": "toyviewer",
+        "display_name": "ToyViewer"
+      }
+    ],
+    "web": [
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "J2K file open in Apple Preview 11",
+      "alt": "J2K file open in Apple Preview 11",
+      "source_url": "https://fileinfo.com/img/ss/md/j2k_610.jpg"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-07-13",
+  "sources": [
+    {
+      "url": "j2k.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

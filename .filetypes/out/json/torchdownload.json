@@ -1,0 +1,53 @@
+{
+  "slug": "torchdownload",
+  "extension": "torchdownload",
+  "name": "Torch Partially Downloaded File",
+  "category": "torch-partially-downloaded-file",
+  "developer_org": "torch-media",
+  "popularity": {
+    "rating": 3.2,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "A TORCHDOWNLOAD file is a partially downloaded file created by the Torch web browser. It stores the contents of a file as it is being received by the browser and uses the .torchdownload extension to mark the download as incomplete until it is finished, at which point the .torchdownload extension is removed. TORCHDOWNLOAD files are similar to .CRDOWNLOAD files, which are used by the Google Chrome, Microsoft Edge, and Chromium web browsers for partial downloads.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "torch",
+        "display_name": "Torch"
+      }
+    ],
+    "macos": [
+      {
+        "software": "torch",
+        "display_name": "Torch"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-10-01",
+  "sources": [
+    {
+      "url": "torchdownload.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "terrn2",
+  "extension": "terrn2",
+  "name": "Rigs of Rods Terrain 2 File",
+  "category": "rigs-of-rods-terrain-2-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Terrain file used by Rigs of Rods (RoR), a soft-body physics vehicle simulator; contains information that describes the playable terrain in RoR, which includes the map name, the name of the associated file with geometry coordinates, height of the water surface, color of the ambient light, and starting position of the player, gravity power, and terrain version.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "rigs-of-rods",
+        "display_name": "Rigs of Rods"
+      }
+    ],
+    "macos": [
+      {
+        "software": "rigs-of-rods",
+        "display_name": "Rigs of Rods"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-07-29",
+  "sources": [
+    {
+      "url": "terrn2.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

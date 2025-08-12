@@ -1,0 +1,61 @@
+{
+  "slug": "dwdoc",
+  "extension": "dwdoc",
+  "name": "DrawWell Document",
+  "category": "drawwell-document",
+  "developer_org": "drawwell-technologies",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "Design or illustration created by DrawWell or WorksWell drawing and document creation tools; can be used for saving presentations, reports, and many other types of document designs; supports vector objects and multiple editing layers.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "drawwell-technologies-drawwell",
+        "display_name": "DrawWell Technologies DrawWell"
+      },
+      {
+        "software": "drawwell-technologies-workswell",
+        "display_name": "DrawWell Technologies WorksWell"
+      }
+    ],
+    "windows": [
+      {
+        "software": "drawwell-technologies-drawwell",
+        "display_name": "DrawWell Technologies DrawWell"
+      },
+      {
+        "software": "drawwell-technologies-workswell",
+        "display_name": "DrawWell Technologies WorksWell"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-02-23",
+  "sources": [
+    {
+      "url": "dwdoc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

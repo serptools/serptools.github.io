@@ -1,0 +1,30 @@
+{
+  "slug": "xfb",
+  "extension": "xfb",
+  "name": "Xserve RAID Firmware Binary File",
+  "category": "xserve-raid-firmware-binary-file",
+  "summary": "",
+  "developer_org": "apple",
+  "developer_name": "Apple",
+  "more_information": {
+    "description": [
+      "Be sure to backup any data on your Xserve RAID and unmount any Xserve RAID volumes from the host systems to prevent any loss of data before applying the firmware updates. Do not quit RAID Admin at any point during the firmware updating process. At the end of the update to your Xserve RAID system, the process will automatically begin a restart of Xserve RAID.",
+      "To open the XFB file (update the firmware), select System → Update Firmware and select your XFB file you want to use for the update.",
+      "The RAID Admin application can be run on Windows and Linux operating systems by executing the .JAR file included in the installation folder.",
+      "NOTE: The Xserve RAID device was discontinued by Apple in 2008 along with the RAID Admin application."
+    ]
+  },
+  "common_filenames": [
+    {
+      "filename": "firmware-1.5.1-1.51.xfb",
+      "description": "firmware-1.5.1-1.51.xfb - The name of the XFB file begins with \"firmware\" followed by the update version."
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "xfb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

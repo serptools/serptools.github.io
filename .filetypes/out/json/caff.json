@@ -1,0 +1,127 @@
+{
+  "slug": "caff",
+  "extension": "caff",
+  "name": "Core Audio File",
+  "category": "core-audio-file",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Audio file stored in the Core Audio Format (CAF), a digital audio format based on Apple's Core Audio technology; may include text annotations, channel layouts, and other information in addition to the audio data itself; more commonly uses the .CAF extension.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "goldwave",
+        "display_name": "GoldWave"
+      },
+      {
+        "software": "audacity",
+        "display_name": "Audacity"
+      },
+      {
+        "software": "apple-quicktime-player",
+        "display_name": "Apple QuickTime Player"
+      },
+      {
+        "software": "apple-garageband",
+        "display_name": "Apple GarageBand"
+      },
+      {
+        "software": "apple-logic-pro",
+        "display_name": "Apple Logic Pro"
+      },
+      {
+        "software": "apple-final-cut-express",
+        "display_name": "Apple Final Cut Express",
+        "status": "discontinued"
+      },
+      {
+        "software": "apple-final-cut-pro",
+        "display_name": "Apple Final Cut Pro"
+      },
+      {
+        "software": "shedworx-smart-converter",
+        "display_name": "ShedWorx Smart Converter"
+      },
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-quicktime-player",
+        "display_name": "Apple QuickTime Player"
+      },
+      {
+        "software": "apple-garageband",
+        "display_name": "Apple GarageBand"
+      },
+      {
+        "software": "apple-logic-pro",
+        "display_name": "Apple Logic Pro"
+      },
+      {
+        "software": "apple-final-cut-express",
+        "display_name": "Apple Final Cut Express",
+        "status": "discontinued"
+      },
+      {
+        "software": "apple-final-cut-pro",
+        "display_name": "Apple Final Cut Pro"
+      },
+      {
+        "software": "shedworx-smart-converter",
+        "display_name": "ShedWorx Smart Converter"
+      },
+      {
+        "software": "audacity",
+        "display_name": "Audacity"
+      }
+    ],
+    "linux": [
+      {
+        "software": "audacity",
+        "display_name": "Audacity"
+      }
+    ],
+    "web": [
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-03-27",
+  "sources": [
+    {
+      "url": "caff.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

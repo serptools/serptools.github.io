@@ -1,0 +1,51 @@
+{
+  "slug": "rsdk",
+  "extension": "rsdk",
+  "name": "Retro SDK Archive",
+  "category": "retro-sdk-archive",
+  "developer_org": "sega",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 15,
+    "source": "fileinfo"
+  },
+  "summary": "An RSDK file is a game asset archive used by titles developed with the Retro Engine, such as Sonic CD , Sonic Mania , and Penny’s Big Breakaway . It contains most of a game’s resources, including sprites , audio, 3D models, configuration data, level layouts, and scenario files (often stored as .BIN files). The Retro SDK (RSDK) format allows developers to bundle large amounts of data into a single, structured archive, simplifying asset management and game deployment.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "rsdkunpack",
+        "display_name": "rsdkunpack"
+      },
+      {
+        "software": "sonic-mania-rsdkv5-tools",
+        "display_name": "Sonic Mania RSDKv5 Tools"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2025-03-31",
+  "sources": [
+    {
+      "url": "rsdk.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "props",
+  "extension": "props",
+  "name": "Visual Studio Project Property File",
+  "category": "visual-studio-project-property-file",
+  "summary": "",
+  "developer_org": "microsoft",
+  "developer_name": "Microsoft",
+  "more_information": {
+    "description": [
+      "To create a project property sheet in Visual Studio 2010, select View → Other Windows → Property Pages from the menu bar . This option displays the Property Manager window in the IDE . From the Property Manager window, choose \"Add New Project Property Sheet.\"",
+      "Property sheets can be applied to multiple projects since their properties are inheritable. They are stored using XML formatting.",
+      "NOTE: Prior to Visual Studio version 2010, property sheets were stored with the .VSPROPS extension. Visual Studio 2010 automatically converts VSPROP files into PROPS files when converting projects. However, there may be small conversion incompatibilities with special characters in macros."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "props.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

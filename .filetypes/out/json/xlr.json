@@ -1,0 +1,58 @@
+{
+  "slug": "xlr",
+  "extension": "xlr",
+  "name": "Works Spreadsheet",
+  "category": "works-spreadsheet",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 30,
+    "source": "fileinfo"
+  },
+  "summary": "An XLR file is a spreadsheet or chart created with versions 6-9 of Microsoft Works, a popular productivity suite. It stores data in cells that are organized in a grid consisting of rows and columns.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-works",
+        "display_name": "Microsoft Works",
+        "status": "discontinued"
+      },
+      {
+        "software": "microsoft-excel-365",
+        "display_name": "Microsoft Excel 365"
+      }
+    ],
+    "macos": [
+      {
+        "software": "microsoft-excel-365",
+        "display_name": "Microsoft Excel 365"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2016-04-19",
+  "sources": [
+    {
+      "url": "xlr.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

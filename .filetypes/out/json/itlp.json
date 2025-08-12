@@ -1,0 +1,69 @@
+{
+  "slug": "itlp",
+  "extension": "itlp",
+  "name": "iTunes LP Album File",
+  "category": "itunes-lp-album-file",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "Bundled album file used by iTunes, a music shopping, management, and playback program; contains a DRM -free album audio as well as optional videos, photos, and other album content; supports 256kbps AAC audio and high-definition video; used for storing and playing the \"deluxe\" versions of albums downloaded from the iTunes music store.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "apple-itunes",
+        "display_name": "Apple iTunes",
+        "status": "discontinued"
+      },
+      {
+        "software": "apple-tunekit",
+        "display_name": "Apple TuneKit"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-itunes",
+        "display_name": "Apple iTunes",
+        "status": "discontinued"
+      },
+      {
+        "software": "apple-tunekit",
+        "display_name": "Apple TuneKit"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "ITLP file icon",
+      "alt": "ITLP file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/itlp-5262.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-08-31",
+  "sources": [
+    {
+      "url": "itlp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

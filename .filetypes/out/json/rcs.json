@@ -1,0 +1,52 @@
+{
+  "slug": "rcs",
+  "extension": "rcs",
+  "name": "RandomControl Scene File",
+  "category": "randomcontrol-scene-file",
+  "developer_org": "randomcontrol",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "3D scene file used by RandomControl software products such as fryrender and Arion; stores a scene exported from a 3D modeling software application (that has the fryrender or Arion plugin); used for storing the scene in a format that can be submitted to the rendering engine.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "randomcontrol-fryrender",
+        "display_name": "RandomControl fryrender"
+      },
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-09-20",
+  "sources": [
+    {
+      "url": "rcs.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

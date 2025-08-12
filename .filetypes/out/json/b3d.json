@@ -1,0 +1,79 @@
+{
+  "slug": "b3d",
+  "extension": "b3d",
+  "name": "Blitz3D Entity Model File",
+  "category": "blitz3d-entity-model-file",
+  "developer_org": "blitz-research",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 21,
+    "source": "fileinfo"
+  },
+  "summary": "3D model, or \"entity,\" file used by Blitz3D, an application and simple programming language used to created 3D games; stores model information in \"chunks;\" may contain textures, brushes, vertices, triangles, meshes, bones, or animation data.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "blitz-research-blitz3d",
+        "display_name": "Blitz Research Blitz3D"
+      },
+      {
+        "software": "ultimate-unwrap-3d",
+        "display_name": "Ultimate Unwrap 3D"
+      },
+      {
+        "software": "irrlicht",
+        "display_name": "Irrlicht"
+      },
+      {
+        "software": "blender",
+        "display_name": "Blender"
+      }
+    ],
+    "macos": [
+      {
+        "software": "irrlicht",
+        "display_name": "Irrlicht"
+      },
+      {
+        "software": "blender",
+        "display_name": "Blender"
+      }
+    ],
+    "linux": [
+      {
+        "software": "irrlicht",
+        "display_name": "Irrlicht"
+      },
+      {
+        "software": "blender",
+        "display_name": "Blender"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-10-09",
+  "sources": [
+    {
+      "url": "b3d.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

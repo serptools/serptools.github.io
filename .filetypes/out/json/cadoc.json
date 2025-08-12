@@ -1,0 +1,59 @@
+{
+  "slug": "cadoc",
+  "extension": "cadoc",
+  "name": "Clicker App Document",
+  "category": "clicker-app-document",
+  "developer_org": "crick-software",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "A CADOC file is a document created by Clicker, a literacy tool that allows teachers to create customized curriculum resources. The file contains text, images, and recorded voice notes.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "crick-software-clicker",
+        "display_name": "Crick Software Clicker"
+      }
+    ],
+    "macos": [
+      {
+        "software": "crick-software-clicker",
+        "display_name": "Crick Software Clicker"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "CADOC file icon",
+      "alt": "CADOC file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/cadoc-10247.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2016-04-15",
+  "sources": [
+    {
+      "url": "cadoc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

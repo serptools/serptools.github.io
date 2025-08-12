@@ -1,0 +1,78 @@
+{
+  "slug": "mb",
+  "extension": "mb",
+  "name": "Maya Binary Scene",
+  "category": "1.-maya-binary-scene",
+  "developer_org": "autodesk",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 52,
+    "source": "fileinfo"
+  },
+  "summary": "An MB file is an animation project created by Autodesk Maya, a 3D modeling and animation program. It contains binary data that defines a 3D scene's geometry, lighting, animation, and rendering. Maya projects can be saved as either MB or .MA files. MA files save a project's information in an ASCII text format.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "autodesk-maya-2023",
+        "display_name": "Autodesk Maya 2023"
+      },
+      {
+        "software": "kodak-easyshare",
+        "display_name": "Kodak EasyShare"
+      }
+    ],
+    "macos": [
+      {
+        "software": "autodesk-maya-2023",
+        "display_name": "Autodesk Maya 2023"
+      },
+      {
+        "software": "kodak-easyshare",
+        "display_name": "Kodak EasyShare"
+      }
+    ],
+    "linux": [
+      {
+        "software": "autodesk-maya-2023",
+        "display_name": "Autodesk Maya 2023"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "MB file icon",
+      "alt": "MB file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/mb-2832.png"
+    },
+    {
+      "caption": "MB file open in Autodesk Maya 2022",
+      "alt": "MB file open in Autodesk Maya 2022",
+      "source_url": "https://fileinfo.com/img/ss/md/mb_2832.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-07-28",
+  "sources": [
+    {
+      "url": "mb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

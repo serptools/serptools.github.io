@@ -1,0 +1,161 @@
+{
+  "slug": "nes",
+  "extension": "nes",
+  "name": "Nintendo Entertainment System (NES) ROM",
+  "category": "nintendo-entertainment-system-nes-rom",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 4.1,
+    "votes": 166,
+    "source": "fileinfo"
+  },
+  "summary": "An NES file is a Nintendo Entertainment System (NES) game ROM. Typically, it contains a complete copy of the game stored on an NES game cartridge. Gamers often use NES files to play NES games on their PCs and mobile devices, using NES emulators .",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "retroarch",
+        "display_name": "RetroArch"
+      },
+      {
+        "software": "nestopia",
+        "display_name": "Nestopia"
+      },
+      {
+        "software": "virtuanes",
+        "display_name": "VirtuaNES"
+      },
+      {
+        "software": "fceux",
+        "display_name": "FCEUX"
+      },
+      {
+        "software": "jnes",
+        "display_name": "Jnes"
+      },
+      {
+        "software": "fakenes",
+        "display_name": "FakeNES"
+      },
+      {
+        "software": "ines",
+        "display_name": "iNES"
+      },
+      {
+        "software": "mess",
+        "display_name": "MESS"
+      },
+      {
+        "software": "nesmaker",
+        "display_name": "NESmaker"
+      },
+      {
+        "software": "openemu",
+        "display_name": "OpenEmu"
+      },
+      {
+        "software": "rocknes",
+        "display_name": "RockNES"
+      },
+      {
+        "software": "delta-emulator",
+        "display_name": "Delta Emulator"
+      }
+    ],
+    "macos": [
+      {
+        "software": "retroarch",
+        "display_name": "RetroArch"
+      },
+      {
+        "software": "openemu",
+        "display_name": "OpenEmu"
+      },
+      {
+        "software": "nestopia",
+        "display_name": "Nestopia"
+      },
+      {
+        "software": "fakenes",
+        "display_name": "FakeNES"
+      },
+      {
+        "software": "rocknes",
+        "display_name": "RockNES"
+      },
+      {
+        "software": "mess",
+        "display_name": "MESS"
+      }
+    ],
+    "linux": [
+      {
+        "software": "retroarch",
+        "display_name": "RetroArch"
+      },
+      {
+        "software": "nestopia",
+        "display_name": "Nestopia"
+      },
+      {
+        "software": "fceux",
+        "display_name": "FCEUX"
+      },
+      {
+        "software": "fakenes",
+        "display_name": "FakeNES"
+      },
+      {
+        "software": "ines",
+        "display_name": "iNES"
+      },
+      {
+        "software": "mess",
+        "display_name": "MESS"
+      }
+    ],
+    "ios": [
+      {
+        "software": "retroarch",
+        "display_name": "RetroArch"
+      },
+      {
+        "software": "delta-emulator",
+        "display_name": "Delta Emulator"
+      }
+    ],
+    "android": [
+      {
+        "software": "retroarch",
+        "display_name": "RetroArch"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-04-13",
+  "sources": [
+    {
+      "url": "nes.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

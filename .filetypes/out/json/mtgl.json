@@ -1,0 +1,59 @@
+{
+  "slug": "mtgl",
+  "extension": "mtgl",
+  "name": "Maltego Graph",
+  "category": "maltego-graph",
+  "developer_org": "paterva",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "An MTGL file is a graph created by Maltego, a data mining and information gathering application that allows investigators to find and view connections between disparate data sets. It contains a visual representation of the connections between data. MTGL files can be opened only in Maltego.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "maltego",
+        "display_name": "Maltego"
+      }
+    ],
+    "macos": [
+      {
+        "software": "maltego",
+        "display_name": "Maltego"
+      }
+    ],
+    "linux": [
+      {
+        "software": "maltego",
+        "display_name": "Maltego"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-10-26",
+  "sources": [
+    {
+      "url": "mtgl.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

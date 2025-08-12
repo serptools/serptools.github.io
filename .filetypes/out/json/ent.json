@@ -1,0 +1,97 @@
+{
+  "slug": "ent",
+  "extension": "ent",
+  "name": "External Entity",
+  "category": "external-entity",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 2.9,
+    "votes": 10,
+    "source": "fileinfo"
+  },
+  "summary": "An ENT file is a plain text file that contains external entity definitions used in markup languages , such as .XML and .SGML . These entities serve as placeholders or references for content, such as special characters, text snippets, or symbols, that may appear multiple times in a document. ENT files are commonly used alongside a Document Type Definition ( .DTD ) file, which specifies the structure and rules for the markup.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "syncro-soft-oxygen-xml-editor",
+        "display_name": "SyncRO Soft oXygen XML Editor"
+      },
+      {
+        "software": "adobe-framemaker",
+        "display_name": "Adobe FrameMaker"
+      },
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "gedit",
+        "display_name": "gedit"
+      }
+    ],
+    "macos": [
+      {
+        "software": "syncro-soft-oxygen-xml-editor",
+        "display_name": "SyncRO Soft oXygen XML Editor"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "syncro-soft-oxygen-xml-editor",
+        "display_name": "SyncRO Soft oXygen XML Editor"
+      },
+      {
+        "software": "gedit",
+        "display_name": "gedit"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2025-08-01",
+  "sources": [
+    {
+      "url": "ent.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

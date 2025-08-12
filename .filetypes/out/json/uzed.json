@@ -1,0 +1,59 @@
+{
+  "slug": "uzed",
+  "extension": "uzed",
+  "name": "Zipped Unicode GEDCOM Genealogy File",
+  "category": "zipped-unicode-gedcom-genealogy-file",
+  "developer_org": "myheritage",
+  "popularity": {
+    "rating": 2.7,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "A UZED file is a Zip-compressed archive that contains a .GEDCOM genealogy file and .XML metadata file. It is used by MyHeritage Family Tree Builder, which is a free genealogy application, to store genealogy information, such as a family tree and characteristics about individuals within the family tree.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "myheritage-family-tree-builder",
+        "display_name": "MyHeritage Family Tree Builder"
+      }
+    ],
+    "macos": [
+      {
+        "software": "myheritage-family-tree-builder",
+        "display_name": "MyHeritage Family Tree Builder"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "UZED file icon",
+      "alt": "UZED file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/uzed-11713.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-10-08",
+  "sources": [
+    {
+      "url": "uzed.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

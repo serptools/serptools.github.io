@@ -1,0 +1,67 @@
+{
+  "slug": "vmo",
+  "extension": "vmo",
+  "name": "Siemens Voice Memo File",
+  "category": "1.-siemens-voice-memo-file",
+  "developer_org": "siemens",
+  "popularity": {
+    "rating": 2.2,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Audio file created by the voice recorder on some Siemens mobile phones; stores the audio in a proprietary format that can be played back on the device but not by standard audio players on the desktop computer; can be converted to the .WAV format using vmo2wav.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "vmo2wav",
+        "display_name": "vmo2wav"
+      },
+      {
+        "software": "dassault-systemes-3dvia-virtools",
+        "display_name": "Dassault Systemes 3DVIA Virtools"
+      },
+      {
+        "software": "dassault-systemes-3dvia-player",
+        "display_name": "Dassault Systemes 3DVIA Player"
+      }
+    ],
+    "macos": [
+      {
+        "software": "dassault-systemes-3dvia-player",
+        "display_name": "Dassault Systemes 3DVIA Player"
+      }
+    ],
+    "linux": [
+      {
+        "software": "dassault-systemes-3dvia-player",
+        "display_name": "Dassault Systemes 3DVIA Player"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-10-23",
+  "sources": [
+    {
+      "url": "vmo.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

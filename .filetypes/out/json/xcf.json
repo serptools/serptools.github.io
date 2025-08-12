@@ -1,0 +1,128 @@
+{
+  "slug": "xcf",
+  "extension": "xcf",
+  "name": "GIMP Image",
+  "category": "gimp-image",
+  "developer_org": "gimp",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 133,
+    "source": "fileinfo"
+  },
+  "summary": "An XCF file is the native image format used by GIMP (GNU Image Manipulation Program), a free, open-source image editor. It stores all the elements of a working image in GIMP, including layers, channels, paths, selections, guides, and text. XCF files enable users to save their entire editing progress and resume work on the image later without losing any data.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "gimp",
+        "display_name": "GIMP"
+      },
+      {
+        "software": "cinepaint",
+        "display_name": "CinePaint"
+      },
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      },
+      {
+        "software": "irfanview",
+        "display_name": "IrfanView"
+      },
+      {
+        "software": "seashore",
+        "display_name": "Seashore"
+      },
+      {
+        "software": "kolourpaint",
+        "display_name": "Kolourpaint"
+      },
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      },
+      {
+        "software": "photopea",
+        "display_name": "Photopea"
+      }
+    ],
+    "macos": [
+      {
+        "software": "gimp",
+        "display_name": "GIMP"
+      },
+      {
+        "software": "seashore",
+        "display_name": "Seashore"
+      },
+      {
+        "software": "cinepaint",
+        "display_name": "CinePaint"
+      },
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      }
+    ],
+    "linux": [
+      {
+        "software": "gimp",
+        "display_name": "GIMP"
+      },
+      {
+        "software": "cinepaint",
+        "display_name": "CinePaint"
+      },
+      {
+        "software": "kolourpaint",
+        "display_name": "Kolourpaint"
+      }
+    ],
+    "web": [
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      },
+      {
+        "software": "photopea",
+        "display_name": "Photopea"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "XCF file icon",
+      "alt": "XCF file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/xcf-1140.png"
+    },
+    {
+      "caption": "XCF file open in GIMP 3",
+      "alt": "XCF file open in GIMP 3",
+      "source_url": "https://fileinfo.com/img/ss/md/xcf_1140.jpg"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2025-06-13",
+  "sources": [
+    {
+      "url": "xcf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "xwb",
+  "extension": "xwb",
+  "name": "XACT Wave Bank",
+  "category": "xact-wave-bank",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "Collection of waves, or sound files, created with XACT (the Microsoft Cross-Platform Audio Creation Tool); logically grouped into a single file by an audio designer so it can be integrated into a video game.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-xact",
+        "display_name": "Microsoft XACT"
+      },
+      {
+        "software": "referenced-by-various-video-games",
+        "display_name": "Referenced by various video games"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-07-16",
+  "sources": [
+    {
+      "url": "xwb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

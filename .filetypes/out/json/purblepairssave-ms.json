@@ -1,0 +1,48 @@
+{
+  "slug": "purblepairssave-ms",
+  "extension": "purblepairssave-ms",
+  "name": "Purble Pairs Saved Game",
+  "category": "purble-pairs-saved-game",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 4.4,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "Saved game created by Purble Pairs, a memory game that is part of Purble Place (a free Microsoft Games for Windows game); saves the size of the memory card grid as well as the number of matches and misses; used for continuing where the player left off.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-purble-place",
+        "display_name": "Microsoft Purble Place",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-12-28",
+  "sources": [
+    {
+      "url": "purblepairssave-ms.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

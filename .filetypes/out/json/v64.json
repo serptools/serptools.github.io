@@ -1,0 +1,109 @@
+{
+  "slug": "v64",
+  "extension": "v64",
+  "name": "Doctor V64 Nintendo 64 Game ROM",
+  "category": "doctor-v64-nintendo-64-game-rom",
+  "developer_org": "bung-enterprises",
+  "popularity": {
+    "rating": 4.3,
+    "votes": 26,
+    "source": "fileinfo"
+  },
+  "summary": "A V64 file is a video game ROM image created by Doctor V64, a Nintendo 64 game data backup device created by Bung Enterprises. It contains an exact copy of the data stored on an N64 game cartridge, including game data and save files. V64 files can be used to play N64 games on a PC, using an N64 emulator .",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "project64",
+        "display_name": "Project64"
+      },
+      {
+        "software": "nemu64",
+        "display_name": "Nemu64"
+      },
+      {
+        "software": "daedalus",
+        "display_name": "Daedalus"
+      },
+      {
+        "software": "ultrahle",
+        "display_name": "UltraHLE"
+      },
+      {
+        "software": "mupen64",
+        "display_name": "Mupen64"
+      },
+      {
+        "software": "sixtyforce",
+        "display_name": "sixtyforce"
+      },
+      {
+        "software": "openemu",
+        "display_name": "OpenEmu"
+      },
+      {
+        "software": "n64oid",
+        "display_name": "N64oid"
+      },
+      {
+        "software": "m64plus-fz-emulator",
+        "display_name": "M64Plus FZ Emulator"
+      }
+    ],
+    "macos": [
+      {
+        "software": "mupen64",
+        "display_name": "Mupen64"
+      },
+      {
+        "software": "sixtyforce",
+        "display_name": "sixtyforce"
+      },
+      {
+        "software": "openemu",
+        "display_name": "OpenEmu"
+      }
+    ],
+    "linux": [
+      {
+        "software": "mupen64",
+        "display_name": "Mupen64"
+      }
+    ],
+    "android": [
+      {
+        "software": "n64oid",
+        "display_name": "N64oid"
+      },
+      {
+        "software": "m64plus-fz-emulator",
+        "display_name": "M64Plus FZ Emulator"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-07-12",
+  "sources": [
+    {
+      "url": "v64.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

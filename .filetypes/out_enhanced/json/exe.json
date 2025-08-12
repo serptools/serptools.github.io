@@ -1,0 +1,54 @@
+{
+  "slug": "exe",
+  "extension": "exe",
+  "name": "Windows Executable File",
+  "category": "windows-executable-file",
+  "summary": "",
+  "developer_org": "microsoft",
+  "developer_name": "Microsoft",
+  "more_information": {
+    "screenshot": {
+      "url": "https://fileinfo.com/img/ss/sm/exe_29.png",
+      "alt": "Screenshot of a .exe file in Microsoft Windows 11",
+      "caption": "EXE file open in Microsoft Windows 11"
+    },
+    "description": [
+      "EXE is the primary format software developers use to package and deliver Windows programs. Each EXE file contains data that Windows uses to recognize, read, and run the program the file contains. This data is saved in a compiled , binary format, sometimes called machine code. EXE files also often contain additional program resources, such as the program's icon and its GUI graphics assets.",
+      "When you double-click an EXE file in Windows, Windows runs the program the file contains. If the file includes an application installer, the installer will open and start the installation process. If the file stores an application, the application will open. Additionally, if the file contains a different kind of program (e.g., malware), that program will run.",
+      "Developers typically name EXE files such that you can tell whether they contain an installer or an application. For example, EXE files that store an installer are often named setup.exe , while EXE files that launch an app usually include the app's name (e.g. msedge.exe for Microsoft Edge ).",
+      "Developers may save Windows application installers as .MSI files instead of EXE files. MSI files are similar to EXE files, except they always contain application installers. They never store Windows applications or other programs. Windows always uses Windows Installer (a utility included with Windows) to open MSI files and install the programs they contain."
+    ]
+  },
+  "common_filenames": [
+    {
+      "filename": "setup.exe",
+      "description": "setup.exe - A common name for application installers. When opened, it begins the installation process."
+    },
+    {
+      "filename": "install.exe",
+      "description": "install.exe - Another popular name for app installers."
+    },
+    {
+      "filename": "cmd.exe",
+      "description": "cmd.exe - The shell program used by Windows 2000 and later, replacing COMMAND.COM ."
+    },
+    {
+      "filename": "COMMAND.COM",
+      "description": "cmd.exe - The shell program used by Windows 2000 and later, replacing COMMAND.COM ."
+    }
+  ],
+  "images": [
+    {
+      "url": "https://fileinfo.com/img/ss/sm/exe_29.png",
+      "alt": "Screenshot of a .exe file in Microsoft Windows 11",
+      "caption": "EXE file open in Microsoft Windows 11"
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "exe.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

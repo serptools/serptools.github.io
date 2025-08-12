@@ -1,0 +1,59 @@
+{
+  "slug": "msim",
+  "extension": "msim",
+  "name": "mSecure Password Manager Backup File",
+  "category": "msecure-password-manager-backup-file",
+  "developer_org": "mseven-software",
+  "popularity": {
+    "rating": 1.8,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "Backup file created and used by mSecure Password Manager, a digital wallet and password manager; stores an encrypted backup of a user's mSecure data, which includes passwords and other private information such as usernames and account numbers.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "android": [
+      {
+        "software": "mseven-msecure-password-manager",
+        "display_name": "mSeven mSecure Password Manager"
+      }
+    ],
+    "ios": [
+      {
+        "software": "mseven-msecure-password-manager",
+        "display_name": "mSeven mSecure Password Manager"
+      }
+    ],
+    "windows": [
+      {
+        "software": "mseven-msecure-password-manager",
+        "display_name": "mSeven mSecure Password Manager"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-12-08",
+  "sources": [
+    {
+      "url": "msim.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

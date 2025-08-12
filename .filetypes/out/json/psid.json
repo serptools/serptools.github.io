@@ -1,0 +1,77 @@
+{
+  "slug": "psid",
+  "extension": "psid",
+  "name": "PostScript Image Data File",
+  "category": "postscript-image-data-file",
+  "developer_org": "adobe-systems",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Image saved in printer-readable format, often consisting of vector graphics and text; can be loaded by supporting PostScript printers and printed directly from the file.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "adobe-illustrator-2025",
+        "display_name": "Adobe Illustrator 2025"
+      },
+      {
+        "software": "adobe-acrobat-dc",
+        "display_name": "Adobe Acrobat DC"
+      },
+      {
+        "software": "adobe-photoshop-2025",
+        "display_name": "Adobe Photoshop 2025"
+      },
+      {
+        "software": "any-printer-utility-that-supports-postscript",
+        "display_name": "Any printer utility that supports PostScript"
+      }
+    ],
+    "macos": [
+      {
+        "software": "adobe-illustrator-2025",
+        "display_name": "Adobe Illustrator 2025"
+      },
+      {
+        "software": "adobe-acrobat-dc",
+        "display_name": "Adobe Acrobat DC"
+      },
+      {
+        "software": "adobe-photoshop-2025",
+        "display_name": "Adobe Photoshop 2025"
+      },
+      {
+        "software": "any-printer-utility-that-supports-postscript",
+        "display_name": "Any printer utility that supports PostScript"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-06-15",
+  "sources": [
+    {
+      "url": "psid.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

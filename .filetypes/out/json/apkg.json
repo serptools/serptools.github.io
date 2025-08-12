@@ -1,0 +1,100 @@
+{
+  "slug": "apkg",
+  "extension": "apkg",
+  "name": "Exported Anki Flashcard Deck",
+  "category": "exported-anki-flashcard-deck",
+  "developer_org": "damien-elmes",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 416,
+    "source": "fileinfo"
+  },
+  "summary": "An APKG file is a custom deck of flashcards created for use in Anki, a flashcard-based studying program. It is a .ZIP archive that contains an .anki2 database file, images, and a media file. Users can create their own Anki flashcard decks or import others' by selecting the Create Deck or Get Shared buttons found in the app.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "anki",
+        "display_name": "Anki"
+      },
+      {
+        "software": "whiterock-software-apkg-viewer-and-converters",
+        "display_name": "Whiterock Software APKG Viewer and Converters"
+      },
+      {
+        "software": "ankimobile",
+        "display_name": "AnkiMobile"
+      },
+      {
+        "software": "ankidroid",
+        "display_name": "AnkiDroid"
+      }
+    ],
+    "web": [
+      {
+        "software": "ankiweb",
+        "display_name": "AnkiWeb"
+      }
+    ],
+    "macos": [
+      {
+        "software": "anki",
+        "display_name": "Anki"
+      }
+    ],
+    "linux": [
+      {
+        "software": "anki",
+        "display_name": "Anki"
+      }
+    ],
+    "ios": [
+      {
+        "software": "ankimobile",
+        "display_name": "AnkiMobile"
+      }
+    ],
+    "android": [
+      {
+        "software": "ankidroid",
+        "display_name": "AnkiDroid"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "APKG file icon",
+      "alt": "APKG file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/apkg-9735.png"
+    },
+    {
+      "caption": "APKG file open in Anki",
+      "alt": "APKG file open in Anki",
+      "source_url": "https://fileinfo.com/img/ss/md/apkg_9735-2.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-09-26",
+  "sources": [
+    {
+      "url": "apkg.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

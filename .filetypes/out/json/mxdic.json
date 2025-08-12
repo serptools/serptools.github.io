@@ -1,0 +1,47 @@
+{
+  "slug": "mxdic",
+  "extension": "mxdic",
+  "name": "Maxthon Dictionary File",
+  "category": "maxthon-dictionary-file",
+  "developer_org": "maxthon-international",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "Dictionary file used by the Maxthon Web browser; contains information used for spell checking Web pages and forms; used for distributing spell check data in different languages; can be double-clicked to install the dictionary if Maxthon is installed.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "maxthon",
+        "display_name": "Maxthon"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-09-17",
+  "sources": [
+    {
+      "url": "mxdic.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

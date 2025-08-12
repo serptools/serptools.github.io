@@ -1,0 +1,61 @@
+{
+  "slug": "dcmf",
+  "extension": "dcmf",
+  "name": "DiskCatalogMaker Catalog",
+  "category": "diskcatalogmaker-catalog",
+  "developer_org": "fujiwara-software",
+  "popularity": {
+    "rating": 2.2,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "A DCMF file is a catalog created by DiskCatalogMaker, a file cataloging application for macOS. It contains a database that lists files' names, locations, and other metadata . You can use DiskCatalogMaker to view and search the catalog a DCMF file contains.",
+  "standards": [],
+  "mime_types": [
+    "and/or"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "fujiwara-diskcatalogmaker",
+        "display_name": "Fujiwara DiskCatalogMaker"
+      }
+    ],
+    "windows": [
+      {
+        "software": "fujiwara-diskcatalogmaker",
+        "display_name": "Fujiwara DiskCatalogMaker"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "DCMF file open in Fujiwara DiskCatalogMaker",
+      "alt": "DCMF file open in Fujiwara DiskCatalogMaker",
+      "source_url": "https://fileinfo.com/img/ss/md/dcmf_6200.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-05-19",
+  "sources": [
+    {
+      "url": "dcmf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

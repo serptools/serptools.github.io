@@ -1,0 +1,101 @@
+{
+  "slug": "trim.nds",
+  "extension": "trim.nds",
+  "name": "Trimmed Nintendo DS Game ROM",
+  "category": "trimmed-nintendo-ds-game-rom",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "A TRIM.NDS file is a Nintendo DS video game ROM created by GodMode9 or another ROM-dumping utility. It contains the same data as the Nintendo DS game cartridge from which the file was created. TRIM.NDS files are the same as .NDS files, except that they have had unnecessary filler data removed.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "desmume",
+        "display_name": "DeSmuMe"
+      },
+      {
+        "software": "retroarch",
+        "display_name": "RetroArch"
+      },
+      {
+        "software": "openemu",
+        "display_name": "OpenEmu"
+      },
+      {
+        "software": "delta-emulator",
+        "display_name": "Delta Emulator"
+      }
+    ],
+    "macos": [
+      {
+        "software": "desmume",
+        "display_name": "DeSmuMe"
+      },
+      {
+        "software": "openemu",
+        "display_name": "OpenEmu"
+      },
+      {
+        "software": "retroarch",
+        "display_name": "RetroArch"
+      }
+    ],
+    "linux": [
+      {
+        "software": "desmume",
+        "display_name": "DeSmuMe"
+      },
+      {
+        "software": "retroarch",
+        "display_name": "RetroArch"
+      }
+    ],
+    "ios": [
+      {
+        "software": "delta-emulator",
+        "display_name": "Delta Emulator"
+      },
+      {
+        "software": "retroarch",
+        "display_name": "RetroArch"
+      }
+    ],
+    "android": [
+      {
+        "software": "retroarch",
+        "display_name": "RetroArch"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-10-07",
+  "sources": [
+    {
+      "url": "trim.nds.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

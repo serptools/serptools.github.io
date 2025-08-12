@@ -1,0 +1,59 @@
+{
+  "slug": "nxs",
+  "extension": "nxs",
+  "name": "Nexus 3D Model",
+  "category": "nexus-3d-model",
+  "developer_org": "visual-computing-lab",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "An NXS file is a 3D model created and used by the Nexus 3D model toolkit. It contains a large 3D model that has been converted from the .PLY (Polygon Model) or .OBJ (Wavefront 3D Object) format to the NXS format. NXS files are created by Nxsbuild and can be viewed with Nxsview.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "visual-computing-lab-nexus",
+        "display_name": "Visual Computing Lab Nexus"
+      }
+    ],
+    "macos": [
+      {
+        "software": "visual-computing-lab-nexus",
+        "display_name": "Visual Computing Lab Nexus"
+      }
+    ],
+    "linux": [
+      {
+        "software": "visual-computing-lab-nexus",
+        "display_name": "Visual Computing Lab Nexus"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-09-20",
+  "sources": [
+    {
+      "url": "nxs.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "colorpicker",
+  "extension": "colorpicker",
+  "name": "Color Picker Plugin",
+  "category": "color-picker-plugin",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "Plug-in for Apple's Color Picker, a color selection tool built in to Mac OS X; adds a color selection option to the Color Picker, such as crayons or an RGB color wheel.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "apple-color-picker",
+        "display_name": "Apple Color Picker"
+      }
+    ],
+    "windows": [
+      {
+        "software": "apple-color-picker",
+        "display_name": "Apple Color Picker"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-08-24",
+  "sources": [
+    {
+      "url": "colorpicker.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

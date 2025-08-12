@@ -1,0 +1,47 @@
+{
+  "slug": "wcat",
+  "extension": "wcat",
+  "name": "WinCatalog Collection File",
+  "category": "wincatalog-collection-file",
+  "developer_org": "wincatalog.com",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "File created by WinCatalog, a program used to index file information in Windows; contains an index of information about discs, hard drive files, and folders; helps users perform fast searches in place of the Windows search.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "wincatalog",
+        "display_name": "WinCatalog"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-04-18",
+  "sources": [
+    {
+      "url": "wcat.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

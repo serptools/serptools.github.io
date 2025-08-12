@@ -1,0 +1,47 @@
+{
+  "slug": "nmmm",
+  "extension": "nmmm",
+  "name": "Samsung Memo Backup File",
+  "category": "samsung-memo-backup-file",
+  "developer_org": "samsung",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "An NMMM file is a backup file that contains a copy of a user's Samsung Memo notes. It was likely created by either Samsung Kies or Samsung Smart Switch. NMMM files can no longer be opened, as no Samsung programs support them.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "no-known-program",
+        "display_name": "No known program"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-01-10",
+  "sources": [
+    {
+      "url": "nmmm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "blkrt",
+  "extension": "blkrt",
+  "name": "Block Artist Image File",
+  "category": "block-artist-image-file",
+  "developer_org": "block-artist",
+  "popularity": {
+    "rating": 1.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "A BLKRT file is a bitmap image created with Block Artist, an image creation and editing program for Windows. It is saved in the proprietary Block Artist (BLKRK) image format only supported by Block Artist.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "block-artist",
+        "display_name": "Block Artist"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-09-15",
+  "sources": [
+    {
+      "url": "blkrt.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

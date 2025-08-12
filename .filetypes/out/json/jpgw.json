@@ -1,0 +1,55 @@
+{
+  "slug": "jpgw",
+  "extension": "jpgw",
+  "name": "JPEG World File",
+  "category": "jpeg-world-file",
+  "developer_org": "esri",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 11,
+    "source": "fileinfo"
+  },
+  "summary": "GIS file used by GIS applications for georeferencing raster maps; contains location information for specifying the position of a corresponding .JPG map image in actual world coordinates; enables satellite images to be placed accurately on the globe.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "esri-arcgis-for-desktop",
+        "display_name": "ESRI ArcGIS for Desktop"
+      },
+      {
+        "software": "blue-marble-geographics-global-mapper",
+        "display_name": "Blue Marble Geographics Global Mapper"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-01-12",
+  "sources": [
+    {
+      "url": "jpgw.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

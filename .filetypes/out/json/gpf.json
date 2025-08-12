@@ -1,0 +1,63 @@
+{
+  "slug": "gpf",
+  "extension": "gpf",
+  "name": "Gecko Patch File",
+  "category": "1.-gecko-patch-file",
+  "developer_org": "nuke",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 11,
+    "source": "fileinfo"
+  },
+  "summary": "File used by Gecko OS, a program used to load Nintendo Wii games and apply cheat codes; contains data and logic that modify game content; often used by third-party homebrew developers for creating cheat codes; commonly created with hex editor programs.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "gecko-os",
+        "display_name": "Gecko OS"
+      },
+      {
+        "software": "gravity-ragnarok-online",
+        "display_name": "GRAVITY Ragnarok Online"
+      },
+      {
+        "software": "geosoft-oasis-montaj",
+        "display_name": "Geosoft Oasis montaj"
+      },
+      {
+        "software": "geosoft-oasis-montaj-viewer",
+        "display_name": "Geosoft Oasis montaj Viewer"
+      },
+      {
+        "software": "european-commission-gpf-editor",
+        "display_name": "European Commission GPF Editor"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-07-20",
+  "sources": [
+    {
+      "url": "gpf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

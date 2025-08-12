@@ -1,0 +1,47 @@
+{
+  "slug": "tt15",
+  "extension": "tt15",
+  "name": "TurboTax Canada 2015 Tax Return",
+  "category": "turbotax-canada-2015-tax-return",
+  "developer_org": "intuit",
+  "popularity": {
+    "rating": 2.6,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "A TT15 is a 2015 tax return created with the 2015 version of TurboTax Canada. It stores Canadian federal and province tax information for the 2015 tax year. It also contains data entered by the user.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "intuit-canada-turbotax",
+        "display_name": "Intuit Canada TurboTax"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-02-01",
+  "sources": [
+    {
+      "url": "tt15.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

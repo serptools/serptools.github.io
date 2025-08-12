@@ -1,0 +1,75 @@
+{
+  "slug": "waltex",
+  "extension": "waltex",
+  "name": "Walaber Texture",
+  "category": "walaber-texture",
+  "developer_org": "walaber-entertainment",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "A WALTEX file is a texture saved in a format developed by Walaber Entertainment. It contains an image shown in a video game, such as a menu button or in-game object. Several games in Disney Mobile's Where's My Water? series include WALTEX files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "wmwpy-python-module",
+        "display_name": "WMWPY Python Module"
+      },
+      {
+        "software": "where-s-my-water-2",
+        "display_name": "Where's My Water? 2"
+      }
+    ],
+    "macos": [
+      {
+        "software": "wmwpy-python-module",
+        "display_name": "WMWPY Python Module"
+      }
+    ],
+    "linux": [
+      {
+        "software": "wmwpy-python-module",
+        "display_name": "WMWPY Python Module"
+      }
+    ],
+    "ios": [
+      {
+        "software": "where-s-my-water-2",
+        "display_name": "Where's My Water? 2"
+      }
+    ],
+    "android": [
+      {
+        "software": "where-s-my-water-2",
+        "display_name": "Where's My Water? 2"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-03-03",
+  "sources": [
+    {
+      "url": "waltex.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

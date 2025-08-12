@@ -1,0 +1,53 @@
+{
+  "slug": "abcdp",
+  "extension": "abcdp",
+  "name": "Address Book CoreData Person File",
+  "category": "address-book-coredata-person-file",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Backup metadata file created by Address Book, a contact organization application bundled with OS X; contains a property list for an Address Book data card entry with information about a person.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "apple-contacts",
+        "display_name": "Apple Contacts"
+      }
+    ],
+    "windows": [
+      {
+        "software": "apple-contacts",
+        "display_name": "Apple Contacts"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-09-01",
+  "sources": [
+    {
+      "url": "abcdp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

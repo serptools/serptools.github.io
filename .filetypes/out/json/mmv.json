@@ -1,0 +1,105 @@
+{
+  "slug": "mmv",
+  "extension": "mmv",
+  "name": "MicroMV Video File",
+  "category": "1.-micromv-video-file",
+  "developer_org": "sony",
+  "popularity": {
+    "rating": 3.2,
+    "votes": 13,
+    "source": "fileinfo"
+  },
+  "summary": "An MMV file is a video file created by various Sony MicroMV digital camcorders, such as the DCR-IP5 camcorder. It contains video saved in the proprietary MicroMV (MMV) format, which utilizes 12 Mbit/s MPEG-2 compression to compress video data. Sony no longer develops the format.",
+  "standards": [],
+  "mime_types": [
+    "mbit/s"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "squared-5-mpeg-streamclip",
+        "display_name": "Squared 5 MPEG Streamclip"
+      },
+      {
+        "software": "media-player-classic",
+        "display_name": "Media Player Classic"
+      },
+      {
+        "software": "apple-imovie-10",
+        "display_name": "Apple iMovie 10"
+      },
+      {
+        "software": "apple-quicktime-player",
+        "display_name": "Apple QuickTime Player"
+      },
+      {
+        "software": "mmsstv",
+        "display_name": "MMSSTV"
+      },
+      {
+        "software": "sstv-tools",
+        "display_name": "SSTV Tools"
+      },
+      {
+        "software": "black-cat-sstv",
+        "display_name": "Black Cat SSTV"
+      },
+      {
+        "software": "not-meant-to-be-opened.",
+        "display_name": "Not meant to be opened."
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-imovie-10",
+        "display_name": "Apple iMovie 10"
+      },
+      {
+        "software": "apple-quicktime-player",
+        "display_name": "Apple QuickTime Player"
+      },
+      {
+        "software": "black-cat-sstv",
+        "display_name": "Black Cat SSTV"
+      },
+      {
+        "software": "not-meant-to-be-opened.",
+        "display_name": "Not meant to be opened."
+      }
+    ],
+    "linux": [
+      {
+        "software": "not-meant-to-be-opened.",
+        "display_name": "Not meant to be opened."
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-02-11",
+  "sources": [
+    {
+      "url": "mmv.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

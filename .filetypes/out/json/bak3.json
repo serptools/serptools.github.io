@@ -1,0 +1,77 @@
+{
+  "slug": "bak3",
+  "extension": "bak3",
+  "name": "Backup File",
+  "category": "1.-backup-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "Backup file created by multiple programs, including games such as Crytek Crysis; contains a copy of the original file, such as a scene; similar to the .BAK and .BAK2 file extensions.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "crytek-crysis",
+        "display_name": "Crytek Crysis"
+      },
+      {
+        "software": "crytek-crysis-warhead",
+        "display_name": "Crytek Crysis Warhead"
+      },
+      {
+        "software": "e-on-vue",
+        "display_name": "E-on Vue"
+      },
+      {
+        "software": "chucklefish-starbound",
+        "display_name": "Chucklefish Starbound"
+      }
+    ],
+    "macos": [
+      {
+        "software": "e-on-vue",
+        "display_name": "E-on Vue"
+      },
+      {
+        "software": "chucklefish-starbound",
+        "display_name": "Chucklefish Starbound"
+      }
+    ],
+    "linux": [
+      {
+        "software": "chucklefish-starbound",
+        "display_name": "Chucklefish Starbound"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-04-11",
+  "sources": [
+    {
+      "url": "bak3.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "slug": "bpw",
+  "extension": "bpw",
+  "name": "Bitser Password File",
+  "category": "1.-bitser-password-file",
+  "developer_org": "bitser",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "Encrypted password list created with Bitser, a Windows utility designed for creating and managing compressed archives; contains a list of usernames and passwords entered by the user.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "bitser",
+        "display_name": "Bitser"
+      },
+      {
+        "software": "esri-arcgis-for-desktop",
+        "display_name": "ESRI ArcGIS for Desktop"
+      },
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2013-04-18",
+  "sources": [
+    {
+      "url": "bpw.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

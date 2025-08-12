@@ -1,0 +1,47 @@
+{
+  "slug": "bsw",
+  "extension": "bsw",
+  "name": "StruWalker 3D Model",
+  "category": "struwalker-3d-model",
+  "developer_org": "strumis",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 12,
+    "source": "fileinfo"
+  },
+  "summary": "A BSW file is a 3D model created by StruWalker, a Building Information Modeling (BIM) program used by structural engineers to review 3D models. It contains a model of one or more steel structural parts for a building, which includes spatial elements and material information.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "struwalker",
+        "display_name": "StruWalker"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-09-14",
+  "sources": [
+    {
+      "url": "bsw.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

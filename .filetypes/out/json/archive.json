@@ -1,0 +1,51 @@
+{
+  "slug": "archive",
+  "extension": "archive",
+  "name": "Cyberpunk 2077 Mod",
+  "category": "cyberpunk-2077-mod",
+  "developer_org": "cd-projekt-red",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "An ARCHIVE file is a mod Cyberpunk 2077 gamers install to alter aspects of the game, including weapons, vehicles, and other items. It is a Zip-compressed archive that stores various assets, such as 3d models, textures, animations, and sound files, that comprise a mod.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "cd-projekt-red-cyberpunk-2077",
+        "display_name": "CD Projekt RED Cyberpunk 2077"
+      },
+      {
+        "software": "nexus-mods-vortex",
+        "display_name": "Nexus Mods Vortex"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2024-01-23",
+  "sources": [
+    {
+      "url": "archive.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

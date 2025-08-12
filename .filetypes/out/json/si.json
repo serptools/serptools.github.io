@@ -1,0 +1,87 @@
+{
+  "slug": "si",
+  "extension": "si",
+  "name": "Interleaf Archive",
+  "category": "1.-interleaf-archive",
+  "developer_org": "mindscape",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 13,
+    "source": "fileinfo"
+  },
+  "summary": "An SI file is an archive saved in the Mindscape Interleaf file format, which is a variant of the Resource Interchange Format (RIF). Most SI files contain assets used by the video game LEGO Island. For example, an SI file may contain .WAV music, .BMP graphics, and animation data used in LEGO Island.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "mindscape-lego-island",
+        "display_name": "Mindscape LEGO Island"
+      },
+      {
+        "software": "lego-island-rebuilder",
+        "display_name": "LEGO Island Rebuilder"
+      },
+      {
+        "software": "lime",
+        "display_name": "LIME"
+      },
+      {
+        "software": "siedit",
+        "display_name": "SIEdit"
+      },
+      {
+        "software": "autodesk-softimage",
+        "display_name": "Autodesk Softimage"
+      },
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      }
+    ],
+    "macos": [
+      {
+        "software": "lime",
+        "display_name": "LIME"
+      },
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      }
+    ],
+    "linux": [
+      {
+        "software": "lime",
+        "display_name": "LIME"
+      },
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-09-21",
+  "sources": [
+    {
+      "url": "si.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

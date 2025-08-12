@@ -1,0 +1,77 @@
+{
+  "slug": "mjpeg",
+  "extension": "mjpeg",
+  "name": "Motion JPEG Video",
+  "category": "motion-jpeg-video",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 14,
+    "source": "fileinfo"
+  },
+  "summary": "Video file compressed using the Motion JPEG (M-JPEG or MJPEG) format commonly created by digital cameras, webcams, and other mobile devices; consists of a sequence of .JPEG images.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "mozilla-firefox",
+        "display_name": "Mozilla Firefox"
+      },
+      {
+        "software": "aiseesoft-video-converter-ultimate",
+        "display_name": "Aiseesoft Video Converter Ultimate"
+      }
+    ],
+    "macos": [
+      {
+        "software": "mozilla-firefox",
+        "display_name": "Mozilla Firefox"
+      }
+    ],
+    "linux": [
+      {
+        "software": "mozilla-firefox",
+        "display_name": "Mozilla Firefox"
+      }
+    ],
+    "ios": [
+      {
+        "software": "mozilla-firefox",
+        "display_name": "Mozilla Firefox"
+      }
+    ],
+    "android": [
+      {
+        "software": "mozilla-firefox",
+        "display_name": "Mozilla Firefox"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-12-10",
+  "sources": [
+    {
+      "url": "mjpeg.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

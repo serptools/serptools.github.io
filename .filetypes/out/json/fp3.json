@@ -1,0 +1,84 @@
+{
+  "slug": "fp3",
+  "extension": "fp3",
+  "name": "FastReport Prepared Report",
+  "category": "1.-fastreport-prepared-report",
+  "developer_org": "fast-reports",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 31,
+    "source": "fileinfo"
+  },
+  "summary": "An FP3 file is a prepared report created by FastReport, a reporting tool often used by software developers to generate formatted documents within applications. It contains a completed report generated from an .FR3 report template, including all report content, layout, and formatting. Once the template is populated with data, FastReport saves the output as an FP3 file for viewing, sharing, or printing.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "fast-reports-fastreport-viewer",
+        "display_name": "Fast Reports FastReport Viewer"
+      },
+      {
+        "software": "fast-reports-fastconverter-fp3",
+        "display_name": "Fast Reports FastConverter FP3"
+      },
+      {
+        "software": ".fp7",
+        "display_name": ".FP7"
+      },
+      {
+        "software": ".fmp12",
+        "display_name": ".FMP12"
+      },
+      {
+        "software": "filemaker-pro-advanced",
+        "display_name": "FileMaker Pro Advanced"
+      },
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      }
+    ],
+    "macos": [
+      {
+        "software": "fast-reports-fastreport-viewer",
+        "display_name": "Fast Reports FastReport Viewer"
+      },
+      {
+        "software": "filemaker-pro-advanced",
+        "display_name": "FileMaker Pro Advanced"
+      }
+    ],
+    "linux": [
+      {
+        "software": "fast-reports-fastreport-viewer",
+        "display_name": "Fast Reports FastReport Viewer"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2025-07-17",
+  "sources": [
+    {
+      "url": "fp3.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

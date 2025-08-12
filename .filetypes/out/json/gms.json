@@ -1,0 +1,65 @@
+{
+  "slug": "gms",
+  "extension": "gms",
+  "name": "Gesture and Motion Signal File",
+  "category": "1.-gesture-and-motion-signal-file",
+  "developer_org": "gms",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 19,
+    "source": "fileinfo"
+  },
+  "summary": "The GMS file format is a minimal binary format used to organize and store gesture and motion signals. It contains gestures (human motions) that people can use to control computers.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "libgms",
+        "display_name": "LibGMS"
+      }
+    ],
+    "macos": [
+      {
+        "software": "libgms",
+        "display_name": "LibGMS"
+      }
+    ],
+    "linux": [
+      {
+        "software": "libgms",
+        "display_name": "LibGMS"
+      }
+    ],
+    "ios": [
+      {
+        "software": "facepunch-studios-garry-s-mod",
+        "display_name": "Facepunch Studios Garry's Mod"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-10-24",
+  "sources": [
+    {
+      "url": "gms.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

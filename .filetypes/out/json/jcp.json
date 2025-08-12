@@ -1,0 +1,47 @@
+{
+  "slug": "jcp",
+  "extension": "jcp",
+  "name": "JCreator Project File",
+  "category": "jcreator-project-file",
+  "developer_org": "xinox-software",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "A JCP file is a Java development project created by JCreator, a Java IDE . It contains a list of references to source code files for the project, as well as project settings and any other dependencies. A JCP file can be compiled into a Java program when complete.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "xinox-jcreator",
+        "display_name": "Xinox JCreator"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-03-22",
+  "sources": [
+    {
+      "url": "jcp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

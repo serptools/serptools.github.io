@@ -1,0 +1,47 @@
+{
+  "slug": "gvf",
+  "extension": "gvf",
+  "name": "Gensys Video Format",
+  "category": "gensys-video-format",
+  "developer_org": "gensys",
+  "popularity": {
+    "rating": 4.3,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "A GVF file is a video created by Gensys Genvision, a thermal imaging software suite. It contains thermal video captured by one or more thermal imaging cameras, connected to Genvision. It also contains thermal information associated with the video.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "gensys-gvf-viewer",
+        "display_name": "Gensys GVF Viewer"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-11-10",
+  "sources": [
+    {
+      "url": "gvf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

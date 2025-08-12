@@ -1,0 +1,47 @@
+{
+  "slug": "ocd",
+  "extension": "ocd",
+  "name": "OCAD Map File",
+  "category": "ocad-map-file",
+  "developer_org": "ocad",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "File created by OCAD map creation software; contains a map project and can be used for storing topographical maps, city maps, hiking maps, and other types of maps; can incorporate imported geospatial data to georeference the locations on the map.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "ocad",
+        "display_name": "OCAD"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2013-01-02",
+  "sources": [
+    {
+      "url": "ocd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "cah",
+  "extension": "cah",
+  "name": "5e Companion App Character File",
+  "category": "5e-companion-app-character-file",
+  "developer_org": "vladimir-pomsztein",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "A CAH file contains information about a Dungeons & Dragons (D&D) character created with 5e Companion App, an Android app for managing characters used in D&D play. It stores information in plain text, which includes attributes and skills for the character.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "android": [
+      {
+        "software": "5e-companion-app",
+        "display_name": "5e Companion App"
+      }
+    ],
+    "windows": [
+      {
+        "software": "5e-companion-app",
+        "display_name": "5e Companion App"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-06-30",
+  "sources": [
+    {
+      "url": "cah.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

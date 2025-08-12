@@ -1,0 +1,83 @@
+{
+  "slug": "ota",
+  "extension": "ota",
+  "name": "OTA Bitmap Image",
+  "category": "1.-ota-bitmap-image",
+  "developer_org": "nokia",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 15,
+    "source": "fileinfo"
+  },
+  "summary": "Over The Air (OTA) image used for sending pictures on Nokia and Siemens mobile phones; contains a monochrome bitmap image holding up to a maximum of 255x255 pixels; may be stored in a binary format or in a hexadecimal format in a text file.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      },
+      {
+        "software": "sms-picture-maker",
+        "display_name": "SMS Picture Maker"
+      },
+      {
+        "software": "gimp",
+        "display_name": "GIMP"
+      }
+    ],
+    "macos": [
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      },
+      {
+        "software": "gimp",
+        "display_name": "GIMP"
+      }
+    ],
+    "linux": [
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      },
+      {
+        "software": "gimp",
+        "display_name": "GIMP"
+      }
+    ],
+    "android": [
+      {
+        "software": "file-viewer-for-android",
+        "display_name": "File Viewer for Android"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2016-10-10",
+  "sources": [
+    {
+      "url": "ota.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

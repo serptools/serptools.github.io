@@ -1,0 +1,64 @@
+{
+  "slug": "cyberducksegment",
+  "extension": "cyberducksegment",
+  "name": "Cyberduck Download Segment",
+  "category": "cyberduck-download-segment",
+  "developer_org": "cyberduck",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "A CYBERDUCKSEGMENT file contains a segment of a file downloaded by Cyberduck, an open-source FTP and SFTP client . Cyberduck generates CYBERDUCKSEGMENT files when downloading files larger than 100 MB (if the \"Segmented downloads with multiple connections per file\" preference in Cyberduck is enabled). The client downloads the segments over multiple connections to increase download speed and then merges them automatically after completely downloading all parts of the download.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "cyberduck",
+        "display_name": "Cyberduck"
+      }
+    ],
+    "macos": [
+      {
+        "software": "cyberduck",
+        "display_name": "Cyberduck"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "CYBERDUCKSEGMENT file icon",
+      "alt": "CYBERDUCKSEGMENT file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/cyberducksegment-13644.png"
+    },
+    {
+      "caption": "CYBERDUCKSEGMENT file open in Apple Finder 13",
+      "alt": "CYBERDUCKSEGMENT file open in Apple Finder 13",
+      "source_url": "https://fileinfo.com/img/ss/md/cyberducksegment_13644.jpg"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2024-02-08",
+  "sources": [
+    {
+      "url": "cyberducksegment.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

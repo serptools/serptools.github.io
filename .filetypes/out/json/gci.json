@@ -1,0 +1,59 @@
+{
+  "slug": "gci",
+  "extension": "gci",
+  "name": "GameCube Saved Game",
+  "category": "gamecube-saved-game",
+  "developer_org": "nintendo",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 13,
+    "source": "fileinfo"
+  },
+  "summary": "A GCI file is a saved game file created while playing a Nintendo GameCube video game. It records a player's progress so they can resume their game at a later time. Most often, GCI files are used to load saved games in the Dolphin GameCube emulator .",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "dolphin",
+        "display_name": "Dolphin"
+      }
+    ],
+    "macos": [
+      {
+        "software": "dolphin",
+        "display_name": "Dolphin"
+      }
+    ],
+    "linux": [
+      {
+        "software": "dolphin",
+        "display_name": "Dolphin"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-02-01",
+  "sources": [
+    {
+      "url": "gci.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "slug": "pzf",
+  "extension": "pzf",
+  "name": "GraphPad Prism Project",
+  "category": "graphpad-prism-project",
+  "developer_org": "graphpad-software",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "A PZF file is a Prism project created by GraphPad Prism, an application used to create scientific graphs. It contains Prism project data such as analysis results and choices, graphs and layouts, tables, and notes.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "graphpad-prism",
+        "display_name": "GraphPad Prism"
+      }
+    ],
+    "ios": [
+      {
+        "software": "graphpad-prism-viewer-for-ios",
+        "display_name": "GraphPad Prism Viewer for iOS"
+      }
+    ],
+    "macos": [
+      {
+        "software": "graphpad-prism",
+        "display_name": "GraphPad Prism"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "PZF file icon",
+      "alt": "PZF file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/pzf-10309.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2016-07-22",
+  "sources": [
+    {
+      "url": "pzf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

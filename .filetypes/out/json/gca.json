@@ -1,0 +1,50 @@
+{
+  "slug": "gca",
+  "extension": "gca",
+  "name": "GCA File Archive",
+  "category": "gca-file-archive",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "File or files compressed with GCA, the predecessor to the DGCA compression utility (which creates .DGC files; has a better compression ratio than .ZIP files, but is not a widely-used compression format.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2006-12-14",
+  "sources": [
+    {
+      "url": "gca.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

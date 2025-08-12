@@ -1,0 +1,30 @@
+{
+  "slug": "qtp",
+  "extension": "qtp",
+  "name": "QuickTime Preferences",
+  "category": "quicktime-preferences",
+  "summary": "",
+  "developer_org": "apple",
+  "developer_name": "Apple",
+  "more_information": {
+    "description": [
+      "Apple QuickTime Player is a media player that is bundled with macOS and was previously available for Windows. The Windows version of QuickTime saved a user's preferences, including their internet connection speed, software update, taskbar icon display, and file association notification settings, in a QTP file. The macOS version of QuickTime does not use QTP files.",
+      "By default, QTP files are named QuickTime.qtp . QuickTime for Windows stores QTP files in the following directory:",
+      "~/​AppData/​Apple Computer/​QuickTime",
+      "NOTE: Apple discontinued the Windows version of Apple QuickTime in 2016."
+    ]
+  },
+  "common_filenames": [
+    {
+      "filename": "QuickTime.qtp",
+      "description": "QuickTime.qtp - The default name assigned to QTP files."
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "qtp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

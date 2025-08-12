@@ -1,0 +1,24 @@
+{
+  "slug": "jef",
+  "extension": "jef",
+  "name": "Janome Embroidery Format File",
+  "category": "janome-embroidery-format-file",
+  "summary": "",
+  "developer_org": "janome",
+  "developer_name": "Janome",
+  "more_information": {
+    "description": [
+      "Janome produces many embroidery machines, including the MC300, MC350, MC9500, MC11000, MC12000, and MC15000. These and other modern Janome embroidery machines accept designs saved in the JEF format. Elna machines, also produced by Janome, also accept JEF format designs.",
+      "Each JEF file is a binary file that can be read by an embroidery machine, after you transfer the file to the machine. The file specifies the coordinates to move the hoop and instructions for every stitch in the design.",
+      "You can download some sample JEF files online. For example, Janome provides sample JEF files on its Inspire Embroidery webpage.",
+      "NOTE: Older Janome embroidery machines use designs saved in the .SEW format."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "jef.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

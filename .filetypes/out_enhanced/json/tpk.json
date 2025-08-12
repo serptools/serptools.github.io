@@ -1,0 +1,22 @@
+{
+  "slug": "tpk",
+  "extension": "tpk",
+  "name": "Tizen Package",
+  "category": "tizen-package",
+  "summary": "",
+  "developer_org": "samsung",
+  "developer_name": "Samsung",
+  "more_information": {
+    "description": [
+      "Tizen is a Linux-based operating system most notably used on Samsung Galaxy and Gear smartwatches. Developers who want to create Tizen applications for Galaxy and Gear smartwatches (including watch faces) can do so using Galaxy Watch Studio. Developers who want to create applications for other Tizen devices can do so using Tizen Studio or Tizen extensions for other IDEs , such as Microsoft Visual Studio .",
+      "After a developer finishes creating a Tizen application, they must build that program into a TPK, or Tizen package, file. They can then install the TPK file on an appropriate device and run the app it contains. For example, if the TPK file contains a Galaxy Watch face, the developer can deploy it to a Galaxy Watch using Galaxy Watch Studio."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "tpk.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

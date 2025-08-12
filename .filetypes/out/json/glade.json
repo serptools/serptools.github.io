@@ -1,0 +1,59 @@
+{
+  "slug": "glade",
+  "extension": "glade",
+  "name": "Glade Project File",
+  "category": "glade-project-file",
+  "developer_org": "the-glade-project",
+  "popularity": {
+    "rating": 4.2,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "User interface design project created with Glade, a tool for developing GUIs for the GTK+ and the GNOME desktop environment; may contain windows, text, buttons, icons, and other user interface objects; each object within the interface has a set of properties, which may include actions.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "glade",
+        "display_name": "Glade"
+      }
+    ],
+    "macos": [
+      {
+        "software": "glade",
+        "display_name": "Glade"
+      }
+    ],
+    "linux": [
+      {
+        "software": "glade",
+        "display_name": "Glade"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-09-07",
+  "sources": [
+    {
+      "url": "glade.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

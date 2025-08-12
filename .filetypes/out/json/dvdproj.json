@@ -1,0 +1,53 @@
+{
+  "slug": "dvdproj",
+  "extension": "dvdproj",
+  "name": "iDVD Project File",
+  "category": "idvd-project-file",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "DVD project created with Apple iDVD, a DVD authoring program; includes a template for the DVD interface, movie chapters, and references to additional video clips or slideshows; can be burned to a DVD disc that can be played in a DVD player.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "apple-idvd",
+        "display_name": "Apple iDVD"
+      }
+    ],
+    "windows": [
+      {
+        "software": "apple-idvd",
+        "display_name": "Apple iDVD"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2008-07-01",
+  "sources": [
+    {
+      "url": "dvdproj.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

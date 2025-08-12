@@ -1,0 +1,21 @@
+{
+  "slug": "vfs",
+  "extension": "vfs",
+  "name": "Virtual File System Index",
+  "category": "virtual-file-system-index",
+  "summary": "",
+  "developer_org": "n-a",
+  "developer_name": "N/A",
+  "more_information": {
+    "description": [
+      "HP All-in-One printers may create a new VFS file on memory cards inserted into the card slot. This occurs when the \"Faster Browsing\" option is enabled. To prevent VFS files from being added on memory cards, push the \"Setup\" button on the printer, choose \"Preferences,\" then select \"Enable Faster Browsing\" and choose \"OFF.\" The VFS file that the printer creates is often named .HPIMAGE.VFS . This file stores .JPG thumbnail images created by the printer for faster browsing on the printer's LCD display."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "vfs.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

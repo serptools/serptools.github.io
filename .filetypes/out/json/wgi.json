@@ -1,0 +1,73 @@
+{
+  "slug": "wgi",
+  "extension": "wgi",
+  "name": "Wildgame Innovations Video File",
+  "category": "wildgame-innovations-video-file",
+  "developer_org": "wildgame-innovations",
+  "popularity": {
+    "rating": 2.2,
+    "votes": 18,
+    "source": "fileinfo"
+  },
+  "summary": "A WGI file is a video recorded by Wildgame Innovations software, which is used to record wild game activity in different locations for hunting purposes. The video is a collection of time-lapse images known as \"flex-time.\"",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "wildgame-innovations-software",
+        "display_name": "Wildgame Innovations software"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      }
+    ],
+    "macos": [
+      {
+        "software": "wildgame-innovations-software",
+        "display_name": "Wildgame Innovations software"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      }
+    ],
+    "linux": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "WGI file open in VLC media player",
+      "alt": "WGI file open in VLC media player",
+      "source_url": "https://fileinfo.com/img/ss/md/wgi_10269.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-03-05",
+  "sources": [
+    {
+      "url": "wgi.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

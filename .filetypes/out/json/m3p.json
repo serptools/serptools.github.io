@@ -1,0 +1,47 @@
+{
+  "slug": "m3p",
+  "extension": "m3p",
+  "name": "Mach3 Plugin File",
+  "category": "mach3-plugin-file",
+  "developer_org": "newfangled-solutions",
+  "popularity": {
+    "rating": 3.1,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "An M3P file is a plugin installer file used by Mach3, a computer numerical control (CNC) program for Windows. It is used to place a .DLL file in the \"Plugins\" folder of the Mach3 installation directory, which adds additional functionality of the Mach3 application, such as allowing an Android device to control Mach3 or enabling a user to control a mill with an Xbox 360 controller.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "newfangled-solutions-mach3",
+        "display_name": "Newfangled Solutions Mach3"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-07-26",
+  "sources": [
+    {
+      "url": "m3p.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "slug": "fnc",
+  "extension": "fnc",
+  "name": "QuickCAM 3D CNC File",
+  "category": "1.-quickcam-3d-cnc-file",
+  "developer_org": "denford",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Computer numerical control (CNC) file used by QuickCAM software; contains geometry information and instructions for a CNC milling machine; paths can be created from 3D models or 2D images.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "denford-quickcam-3d-or-quickcam-pro",
+        "display_name": "Denford QuickCAM 3D or QuickCAM Pro"
+      },
+      {
+        "software": "e-on-vue",
+        "display_name": "E-on Vue"
+      },
+      {
+        "software": "stg-interactive-frogans-player",
+        "display_name": "STG Interactive Frogans Player"
+      }
+    ],
+    "macos": [
+      {
+        "software": "e-on-vue",
+        "display_name": "E-on Vue"
+      },
+      {
+        "software": "stg-interactive-frogans-player",
+        "display_name": "STG Interactive Frogans Player"
+      }
+    ],
+    "linux": [
+      {
+        "software": "stg-interactive-frogans-player",
+        "display_name": "STG Interactive Frogans Player"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2007-10-03",
+  "sources": [
+    {
+      "url": "fnc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

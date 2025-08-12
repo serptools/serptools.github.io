@@ -1,0 +1,47 @@
+{
+  "slug": "tmproject",
+  "extension": "tmproject",
+  "name": "TextMate Project",
+  "category": "textmate-project",
+  "developer_org": "macromates",
+  "popularity": {
+    "rating": 2.8,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "A TMPROJECT file is a project created by MacroMates TextMate, a text editing program with support for many programming languages. It is saved in the XML standard and stores information about a project, which includes references to project directories and files and preferences.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "macromates-textmate-version-1.5.11-and-earlier",
+        "display_name": "MacroMates TextMate (version 1.5.11 and earlier)"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-11-18",
+  "sources": [
+    {
+      "url": "tmproject.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

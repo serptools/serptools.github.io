@@ -1,0 +1,119 @@
+{
+  "slug": "lin",
+  "extension": "lin",
+  "name": "AutoCAD Linetype File",
+  "category": "1.-autocad-linetype-file",
+  "developer_org": "autodesk",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 11,
+    "source": "fileinfo"
+  },
+  "summary": "Line type definition (also called a \"linetype\" or \"line style\") that defines the paths of a vector-based object used by AutoCAD; stores shapes information in a text-based format.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "autodesk-autocad-2025",
+        "display_name": "Autodesk AutoCAD 2025"
+      },
+      {
+        "software": "bentley-microstation",
+        "display_name": "Bentley MicroStation"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "valve-hammer-editor",
+        "display_name": "Valve Hammer Editor"
+      },
+      {
+        "software": "x-plane",
+        "display_name": "X-Plane"
+      },
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "microsoft-wordpad",
+        "display_name": "Microsoft WordPad"
+      }
+    ],
+    "macos": [
+      {
+        "software": "x-plane",
+        "display_name": "X-Plane"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "bare-bones-bbedit",
+        "display_name": "Bare Bones BBEdit"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "x-plane",
+        "display_name": "X-Plane"
+      },
+      {
+        "software": "leafpad",
+        "display_name": "Leafpad"
+      },
+      {
+        "software": "gedit",
+        "display_name": "gedit"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "web": [
+      {
+        "software": "bridge-base-online",
+        "display_name": "Bridge Base Online"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "LIN file icon",
+      "alt": "LIN file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/lin-2343.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2007-08-22",
+  "sources": [
+    {
+      "url": "lin.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

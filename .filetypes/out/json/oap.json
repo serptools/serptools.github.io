@@ -1,0 +1,53 @@
+{
+  "slug": "oap",
+  "extension": "oap",
+  "name": "OutSystems Application Package",
+  "category": "outsystems-application-package",
+  "developer_org": "outsystems",
+  "popularity": {
+    "rating": 2.3,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "An OAP file is an application package created by Service Studio, an IDE used to deploy enterprise web and mobile apps for the OutSystems Platform. It is compressed with Zip-compression and contains a manifest file that describes the package contents and a directory with all of the modules and extensions that make up an application. OAP files are typically used to share an application with other OutSystems users for collaboration purposes.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "outsystems-development-environment",
+        "display_name": "OutSystems Development Environment"
+      }
+    ],
+    "macos": [
+      {
+        "software": "outsystems-development-environment",
+        "display_name": "OutSystems Development Environment"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-03-19",
+  "sources": [
+    {
+      "url": "oap.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

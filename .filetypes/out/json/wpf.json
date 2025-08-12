@@ -1,0 +1,59 @@
+{
+  "slug": "wpf",
+  "extension": "wpf",
+  "name": "WordPerfect Form",
+  "category": "wordperfect-form",
+  "developer_org": "corel",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 10,
+    "source": "fileinfo"
+  },
+  "summary": "A WPF file is a form created by Corel WordPerfect, a word processor for Windows. It typically contains a letter, memo, or other document that a user wants to send to multiple recipients. It also contains form field codes, used to insert data such as names and addresses from a data source.",
+  "standards": [],
+  "mime_types": [
+    "and/or"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "corel-wordperfect-2021",
+        "display_name": "Corel WordPerfect 2021"
+      },
+      {
+        "software": "microsoft-word-365",
+        "display_name": "Microsoft Word 365"
+      }
+    ],
+    "macos": [
+      {
+        "software": "microsoft-word-365",
+        "display_name": "Microsoft Word 365"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-10-13",
+  "sources": [
+    {
+      "url": "wpf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

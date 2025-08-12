@@ -1,0 +1,121 @@
+{
+  "slug": "psf",
+  "extension": "psf",
+  "name": "Photoshop Proof Settings File",
+  "category": "1.-photoshop-proof-settings-file",
+  "developer_org": "adobe-systems",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 28,
+    "source": "fileinfo"
+  },
+  "summary": "Preference file that stores color settings used by Photoshop to provide accurate previews of how images will look when they are printed; can be loaded by selecting View → Proof Setup → Custom... in Photoshop.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "adobe-photoshop-2025",
+        "display_name": "Adobe Photoshop 2025"
+      },
+      {
+        "software": "adobe-photoshop-elements",
+        "display_name": "Adobe Photoshop Elements"
+      },
+      {
+        "software": "audio-overload",
+        "display_name": "Audio Overload"
+      },
+      {
+        "software": "nullsoft-winamp-with-the-highly-experimental-plugin",
+        "display_name": "Nullsoft Winamp with the Highly Experimental plugin"
+      },
+      {
+        "software": "xmplay",
+        "display_name": "XMPlay"
+      },
+      {
+        "software": "autodesk-autocad-2025",
+        "display_name": "Autodesk AutoCAD 2025"
+      },
+      {
+        "software": "giant",
+        "display_name": "GIANT"
+      },
+      {
+        "software": "arcsoft-photostudio",
+        "display_name": "ArcSoft PhotoStudio"
+      },
+      {
+        "software": "palmer-performance-pmscan",
+        "display_name": "Palmer Performance PMSCAN"
+      }
+    ],
+    "macos": [
+      {
+        "software": "adobe-photoshop-2025",
+        "display_name": "Adobe Photoshop 2025"
+      },
+      {
+        "software": "adobe-photoshop-elements",
+        "display_name": "Adobe Photoshop Elements"
+      },
+      {
+        "software": "audio-overload",
+        "display_name": "Audio Overload"
+      },
+      {
+        "software": "arcsoft-photostudio",
+        "display_name": "ArcSoft PhotoStudio"
+      }
+    ],
+    "linux": [
+      {
+        "software": "audio-overload",
+        "display_name": "Audio Overload"
+      },
+      {
+        "software": "hp-software-distributor",
+        "display_name": "HP Software Distributor"
+      }
+    ],
+    "web": [
+      {
+        "software": "spi-dynamics-webinspect-toolkit",
+        "display_name": "SPI Dynamics WebInspect Toolkit"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "PSF file icon",
+      "alt": "PSF file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/psf-1249.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-12-04",
+  "sources": [
+    {
+      "url": "psf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

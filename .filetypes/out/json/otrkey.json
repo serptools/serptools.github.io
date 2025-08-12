@@ -1,0 +1,57 @@
+{
+  "slug": "otrkey",
+  "extension": "otrkey",
+  "name": "OnlineTvRecorder Encoded Video File",
+  "category": "onlinetvrecorder-encoded-video-file",
+  "developer_org": "onlinetvrecorder.com",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Encoded video file downloaded from OnlineTvRecorder.com (OTR), a website used for recording and downloading TV shows; must be decoded with the OTRKEY Decoder program before it can be watched and can only be decoded by users with a valid OnlineTvRecorder account.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "otrkey-decoder",
+        "display_name": "OTRKey Decoder"
+      },
+      {
+        "software": "otrtool",
+        "display_name": "otrtool"
+      }
+    ],
+    "linux": [
+      {
+        "software": "otrtool",
+        "display_name": "otrtool"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-11-02",
+  "sources": [
+    {
+      "url": "otrkey.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

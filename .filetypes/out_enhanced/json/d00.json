@@ -1,0 +1,22 @@
+{
+  "slug": "d00",
+  "extension": "d00",
+  "name": "VirtualDrive Disc Image Part File",
+  "category": "virtualdrive-disc-image-part-file",
+  "summary": "",
+  "developer_org": "yamaha",
+  "developer_name": "Yamaha",
+  "more_information": {
+    "description": [
+      "D00 files save data in a format that can be burned to a disc or mounted as a virtual disc in the software when used with the other disc parts. These files are used for backups and for mounting disc data without having to insert the physical disc.",
+      "NOTE: VirtualDrive uses the .VCD extension for full disc images. When disc images are split into multiple files, the files may use the compound extensions \".vcd.d00,\" \".vcd.d01,\" etc."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "d00.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

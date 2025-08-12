@@ -1,0 +1,65 @@
+{
+  "slug": "efkpkg",
+  "extension": "efkpkg",
+  "name": "Effekseer Package",
+  "category": "effekseer-package",
+  "developer_org": "effekseer",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "An EFKPKG file is an effects package created by Effekseer, a tool used to create animations of particle effects. It stores one or more Effekseer files, such as .EFKEFC effects or .EFKPROJ projects, and their referenced resource files, such as .JPG or .PNG images. Effekseer users utilize the EFKPKG format to share effects with other users.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "effekseer",
+        "display_name": "Effekseer"
+      }
+    ],
+    "macos": [
+      {
+        "software": "effekseer",
+        "display_name": "Effekseer"
+      }
+    ],
+    "linux": [
+      {
+        "software": "effekseer",
+        "display_name": "Effekseer"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "EFKPKG file open in Effekseer 1.62",
+      "alt": "EFKPKG file open in Effekseer 1.62",
+      "source_url": "https://fileinfo.com/img/ss/md/efkpkg_12520.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-01-20",
+  "sources": [
+    {
+      "url": "efkpkg.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

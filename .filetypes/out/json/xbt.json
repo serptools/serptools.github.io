@@ -1,0 +1,71 @@
+{
+  "slug": "xbt",
+  "extension": "xbt",
+  "name": "SMART Notebook Template File",
+  "category": "smart-notebook-template-file",
+  "developer_org": "smart-technologies",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "Template of a .XBK file created with SMART Technologies' interactive whiteboard classroom software; contains the default structure and materials for a classroom lesson; used for creating lectures and other classroom lectures with a common theme.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "smart-technologies-notebook",
+        "display_name": "SMART Technologies Notebook"
+      },
+      {
+        "software": "smart-technologies-smart-board-software",
+        "display_name": "SMART Technologies SMART Board software"
+      }
+    ],
+    "macos": [
+      {
+        "software": "smart-technologies-notebook",
+        "display_name": "SMART Technologies Notebook"
+      },
+      {
+        "software": "smart-technologies-smart-board-software",
+        "display_name": "SMART Technologies SMART Board software"
+      }
+    ],
+    "linux": [
+      {
+        "software": "smart-technologies-notebook",
+        "display_name": "SMART Technologies Notebook"
+      },
+      {
+        "software": "smart-technologies-smart-board-software",
+        "display_name": "SMART Technologies SMART Board software"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-09-07",
+  "sources": [
+    {
+      "url": "xbt.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "slug": "cws",
+  "extension": "cws",
+  "name": "ChordWizard Song",
+  "category": "1.-chordwizard-song",
+  "developer_org": "chordwizard-software",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "A CWS file is a song file created by Songtrix, an application used to learn about and create music. It stores a song composition, which includes the song's style, notes, segments, credits, and structure. CWS files were replaced by .SNGX files with the release of Songtrix 4.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "chordwizard-songtrix",
+        "display_name": "ChordWizard Songtrix"
+      },
+      {
+        "software": "apple-appleworks",
+        "display_name": "Apple AppleWorks",
+        "status": "discontinued"
+      },
+      {
+        "software": "apple-clarisworks",
+        "display_name": "Apple ClarisWorks",
+        "status": "discontinued"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-appleworks",
+        "display_name": "Apple AppleWorks",
+        "status": "discontinued"
+      },
+      {
+        "software": "apple-clarisworks",
+        "display_name": "Apple ClarisWorks",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-09-06",
+  "sources": [
+    {
+      "url": "cws.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

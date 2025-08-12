@@ -1,0 +1,59 @@
+{
+  "slug": "jwpub",
+  "extension": "jwpub",
+  "name": "Jehovah's Witnesses Publication",
+  "category": "jehovah-s-witnesses-publication",
+  "developer_org": "jehovah-s-witnesses",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 98,
+    "source": "fileinfo"
+  },
+  "summary": "A JWPUB file is a digital ebook saved in the Jehovah's Witnesses Publication (JWPUB) format, which is used to save ebooks that can be read using the JW Library mobile app. It contains a digital publication, such as a bible translation, book, magazine, brochure, meeting workbook, or newsletter. JWPUB files are based on the open XML-based .EPUB format, which is commonly used to save digital books and publications.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "jw-library",
+        "display_name": "JW Library"
+      }
+    ],
+    "ios": [
+      {
+        "software": "jw-library",
+        "display_name": "JW Library"
+      }
+    ],
+    "android": [
+      {
+        "software": "jw-library",
+        "display_name": "JW Library"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-10-07",
+  "sources": [
+    {
+      "url": "jwpub.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

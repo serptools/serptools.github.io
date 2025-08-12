@@ -1,0 +1,194 @@
+{
+  "slug": "ips",
+  "extension": "ips",
+  "name": "Internal Patching System Patch File",
+  "category": "1.-internal-patching-system-patch-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 44,
+    "source": "fileinfo"
+  },
+  "summary": "Patch (or update) for a common game ROM that can contain graphics, models, and other data; used mainly for small patches less than 16MB in size; can be modified and applied to games using various IPS software utilities.",
+  "standards": [],
+  "mime_types": [
+    "create/apply",
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "ninja-rom-patcher",
+        "display_name": "NINJA ROM patcher"
+      },
+      {
+        "software": "lunar-ips-lips",
+        "display_name": "Lunar IPS (LIPS)"
+      },
+      {
+        "software": "uips---universal-ips-create-apply-utility",
+        "display_name": "UIPS - Universal IPS create/apply utility"
+      },
+      {
+        "software": "multipatch",
+        "display_name": "MultiPatch"
+      },
+      {
+        "software": "tildesoft-ips-patcher",
+        "display_name": "TildeSoft IPS Patcher"
+      },
+      {
+        "software": "jips-java-ips-patcher",
+        "display_name": "JIPS (Java IPS Patcher)"
+      },
+      {
+        "software": "axperianced-apps-rom-patcher",
+        "display_name": "Axperianced Apps ROM Patcher"
+      },
+      {
+        "software": "boris-timofeev-unipatcher",
+        "display_name": "Boris Timofeev UniPatcher"
+      },
+      {
+        "software": "settings",
+        "display_name": "Settings"
+      },
+      {
+        "software": "privacy-security-analytics-improvements",
+        "display_name": "Privacy & Security → Analytics & Improvements"
+      },
+      {
+        "software": "share-analytics",
+        "display_name": "Share Analytics"
+      },
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "mobiledit-forensic-express",
+        "display_name": "MOBILedit Forensic Express"
+      },
+      {
+        "software": "imazing",
+        "display_name": "iMazing"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      },
+      {
+        "software": "apple-files",
+        "display_name": "Apple Files"
+      },
+      {
+        "software": "ipudecoder",
+        "display_name": "IPUDecoder"
+      },
+      {
+        "software": "quickbms",
+        "display_name": "QuickBMS"
+      }
+    ],
+    "macos": [
+      {
+        "software": "multipatch",
+        "display_name": "MultiPatch"
+      },
+      {
+        "software": "tildesoft-ips-patcher",
+        "display_name": "TildeSoft IPS Patcher"
+      },
+      {
+        "software": "uips---universal-ips-create-apply-utility",
+        "display_name": "UIPS - Universal IPS create/apply utility"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "imazing",
+        "display_name": "iMazing"
+      },
+      {
+        "software": "ipudecoder",
+        "display_name": "IPUDecoder"
+      }
+    ],
+    "linux": [
+      {
+        "software": "jips-java-ips-patcher",
+        "display_name": "JIPS (Java IPS Patcher)"
+      },
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "ipudecoder",
+        "display_name": "IPUDecoder"
+      }
+    ],
+    "android": [
+      {
+        "software": "axperianced-apps-rom-patcher",
+        "display_name": "Axperianced Apps ROM Patcher"
+      },
+      {
+        "software": "boris-timofeev-unipatcher",
+        "display_name": "Boris Timofeev UniPatcher"
+      }
+    ],
+    "ios": [
+      {
+        "software": "ios-settings",
+        "display_name": "iOS Settings"
+      },
+      {
+        "software": "apple-files",
+        "display_name": "Apple Files"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-03-27",
+  "sources": [
+    {
+      "url": "ips.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

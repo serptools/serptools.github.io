@@ -1,0 +1,72 @@
+{
+  "slug": "qrm",
+  "extension": "qrm",
+  "name": "Qworum Message File",
+  "category": "qworum-message-file",
+  "developer_org": "qworum",
+  "popularity": {
+    "rating": 2.3,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Message format used by Qworum, a platform for Web mashups ; may be sent from one website to another to provide interactive services; formatted in XML and may contain RPC (remote procedure) calls.",
+  "standards": [],
+  "mime_types": [
+    "application/x-qworum+xml",
+    "application/xml"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "mozilla-firefox-with-qworum-plug-in",
+        "display_name": "Mozilla Firefox with Qworum plug-in"
+      },
+      {
+        "software": "microsoft-edge-with-qworum-plug-in",
+        "display_name": "Microsoft Edge with Qworum plug-in"
+      }
+    ],
+    "chromeos": [
+      {
+        "software": "google-chrome-with-qworum-plug-in",
+        "display_name": "Google Chrome with Qworum plug-in"
+      }
+    ],
+    "macos": [
+      {
+        "software": "mozilla-firefox-with-qworum-plug-in",
+        "display_name": "Mozilla Firefox with Qworum plug-in"
+      }
+    ],
+    "linux": [
+      {
+        "software": "mozilla-firefox-with-qworum-plug-in",
+        "display_name": "Mozilla Firefox with Qworum plug-in"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-05-05",
+  "sources": [
+    {
+      "url": "qrm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

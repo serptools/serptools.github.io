@@ -1,0 +1,79 @@
+{
+  "slug": "ipu",
+  "extension": "ipu",
+  "name": "PlayStation 2 In-Game Video",
+  "category": "playstation-2-in-game-video",
+  "developer_org": "sony",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "An IPU file is a video used by a PlayStation 2 video game. It contains a cutscene or other video played in the game. Most notably, RPGs developed by Atlus include IPU files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "pcsx2",
+        "display_name": "PCSX2"
+      },
+      {
+        "software": "ipudecoder",
+        "display_name": "IPUDecoder"
+      },
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      }
+    ],
+    "macos": [
+      {
+        "software": "ipudecoder",
+        "display_name": "IPUDecoder"
+      },
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      }
+    ],
+    "linux": [
+      {
+        "software": "pcsx2",
+        "display_name": "PCSX2"
+      },
+      {
+        "software": "ipudecoder",
+        "display_name": "IPUDecoder"
+      },
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-02-06",
+  "sources": [
+    {
+      "url": "ipu.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

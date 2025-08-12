@@ -1,0 +1,47 @@
+{
+  "slug": "mp8",
+  "extension": "mp8",
+  "name": "Multisim 8 Project",
+  "category": "multisim-8-project",
+  "developer_org": "national-instruments",
+  "popularity": {
+    "rating": 2.3,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "An MP8 file is a project created by version 8 of Multisim, a program used to design, analyze, and simulate printed circuit boards ( PCB ). It contains references to circuit designs stored in .MS8 files. MP8 files may also include simulation results, documents, and reports.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "national-instruments-multisim",
+        "display_name": "National Instruments Multisim"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-05-25",
+  "sources": [
+    {
+      "url": "mp8.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "slug": "evo",
+  "extension": "evo",
+  "name": "SeeVogh Player Video Recording",
+  "category": "1.-seevogh-player-video-recording",
+  "developer_org": "evogh",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 14,
+    "source": "fileinfo"
+  },
+  "summary": "Video recording created by SeeVogh Player, an application that allows you to record, playback, and edit SeeVogh meetings; contains a standard video recording of a meeting.",
+  "standards": [],
+  "mime_types": [
+    "audio/video",
+    "n/a",
+    "seevogh/evo"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "seevogh-player",
+        "display_name": "SeeVogh Player"
+      },
+      {
+        "software": "cyberlink-powerdvd-21",
+        "display_name": "CyberLink PowerDVD 21"
+      },
+      {
+        "software": "jriver-media-center",
+        "display_name": "JRiver Media Center"
+      },
+      {
+        "software": "microsoft-windows-media-player-with-windows-7-codec-pack",
+        "display_name": "Microsoft Windows Media Player with Windows 7 Codec Pack"
+      },
+      {
+        "software": "evodemux",
+        "display_name": "EVODemux"
+      }
+    ],
+    "macos": [
+      {
+        "software": "seevogh-player",
+        "display_name": "SeeVogh Player"
+      }
+    ],
+    "linux": [
+      {
+        "software": "seevogh-player",
+        "display_name": "SeeVogh Player"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "EVO file icon",
+      "alt": "EVO file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/evo-9871.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-02-06",
+  "sources": [
+    {
+      "url": "evo.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

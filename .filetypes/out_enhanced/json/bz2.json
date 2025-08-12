@@ -1,0 +1,22 @@
+{
+  "slug": "bz2",
+  "extension": "bz2",
+  "name": "Bzip2 Compressed File",
+  "category": "bzip2-compressed-file",
+  "summary": "",
+  "developer_org": "julian-seward",
+  "developer_name": "Julian Seward",
+  "more_information": {
+    "description": [
+      "Bzip2 is a free file compression utility that compresses files using the Burrows-Wheeler compression algorithm and Huffman encoding. After bzip2 compresses a file, it changes that file's name to filename.bz2 .",
+      "Unlike .ZIP files and other compressed archives, BZ2 files only ever contain a single compressed file. However, you can use bzip2 to compress multiple files at once, which will create a series of BZ2 files."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "bz2.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

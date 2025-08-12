@@ -1,0 +1,58 @@
+{
+  "slug": "itf",
+  "extension": "itf",
+  "name": "Image Tuner File",
+  "category": "image-tuner-file",
+  "developer_org": "glorylogic",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "An ITF file is a data file created by Glorylogic Image Tuner, a free batch image manipulation application. It contains a list of one or more images that have been set by the user to be manipulated by Image Tuner. The list includes the name, resolution, type, and location path of each image.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "glorylogic-image-tuner",
+        "display_name": "Glorylogic Image Tuner"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "ITF file icon",
+      "alt": "ITF file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/itf-11850.png"
+    },
+    {
+      "caption": "ITF file open in Glorylogic Image Tuner 8.1",
+      "alt": "ITF file open in Glorylogic Image Tuner 8.1",
+      "source_url": "https://fileinfo.com/img/ss/md/itf_11850.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-01-06",
+  "sources": [
+    {
+      "url": "itf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

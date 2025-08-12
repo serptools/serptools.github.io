@@ -1,0 +1,53 @@
+{
+  "slug": "wtml",
+  "extension": "wtml",
+  "name": "WorldWide Telescope Data File",
+  "category": "worldwide-telescope-data-file",
+  "developer_org": "american-astronomical-society",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "A WTML file is a data file used by WorldWide Telescope, a 3D program used to explore earth, planetary, and astronomical data. It contains simple or complex sets of data in XML format referenced by WorldWide Telescope.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "worldwide-telescope",
+        "display_name": "WorldWide Telescope"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "WTML file icon",
+      "alt": "WTML file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/wtml-10606.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-06-05",
+  "sources": [
+    {
+      "url": "wtml.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

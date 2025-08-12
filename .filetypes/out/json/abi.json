@@ -1,0 +1,149 @@
+{
+  "slug": "abi",
+  "extension": "abi",
+  "name": "DNA Chromatogram File",
+  "category": "1.-dna-chromatogram-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 14,
+    "source": "fileinfo"
+  },
+  "summary": "Contains DNA sequence information recorded by a DNA analysis instrument; also known as a electropherogram file or DNA trace file; can be be viewed graphically by a ABI file viewer to analyze and compare DNA sequences.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "gsl-biotech-snapgene",
+        "display_name": "GSL Biotech SnapGene"
+      },
+      {
+        "software": "bioedit",
+        "display_name": "BioEdit"
+      },
+      {
+        "software": "nucleics-qualtrace",
+        "display_name": "Nucleics QualTrace",
+        "status": "discontinued"
+      },
+      {
+        "software": "technelysium-chromas",
+        "display_name": "Technelysium Chromas"
+      },
+      {
+        "software": "gene-codes-sequencher",
+        "display_name": "Gene Codes Sequencher"
+      },
+      {
+        "software": "4peaks",
+        "display_name": "4Peaks"
+      },
+      {
+        "software": "emboss-abiview",
+        "display_name": "EMBOSS abiview"
+      },
+      {
+        "software": "abisource-abiword-version-2.4-and-earlier",
+        "display_name": "AbiSource AbiWord (version 2.4 and earlier)"
+      }
+    ],
+    "ios": [
+      {
+        "software": "heracle-biosoft-dna-baser",
+        "display_name": "Heracle BioSoft DNA Baser"
+      },
+      {
+        "software": "applied-biosystems-editview-or-3100-conversion-utility",
+        "display_name": "Applied Biosystems EditView or 3100 Conversion Utility",
+        "status": "discontinued"
+      },
+      {
+        "software": "gsl-biotech-snapgene",
+        "display_name": "GSL Biotech SnapGene"
+      },
+      {
+        "software": "bioedit",
+        "display_name": "BioEdit"
+      },
+      {
+        "software": "nucleics-qualtrace",
+        "display_name": "Nucleics QualTrace",
+        "status": "discontinued"
+      },
+      {
+        "software": "technelysium-chromas",
+        "display_name": "Technelysium Chromas"
+      },
+      {
+        "software": "gene-codes-sequencher",
+        "display_name": "Gene Codes Sequencher"
+      },
+      {
+        "software": "4peaks",
+        "display_name": "4Peaks"
+      }
+    ],
+    "macos": [
+      {
+        "software": "gsl-biotech-snapgene",
+        "display_name": "GSL Biotech SnapGene"
+      },
+      {
+        "software": "gene-codes-sequencher",
+        "display_name": "Gene Codes Sequencher"
+      },
+      {
+        "software": "4peaks",
+        "display_name": "4Peaks"
+      },
+      {
+        "software": "abisource-abiword-version-2.4-and-earlier",
+        "display_name": "AbiSource AbiWord (version 2.4 and earlier)"
+      }
+    ],
+    "linux": [
+      {
+        "software": "emboss-abiview",
+        "display_name": "EMBOSS abiview"
+      },
+      {
+        "software": "nucleics-qualtrace",
+        "display_name": "Nucleics QualTrace",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "ABI file icon",
+      "alt": "ABI file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/abi-2248.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-07-19",
+  "sources": [
+    {
+      "url": "abi.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

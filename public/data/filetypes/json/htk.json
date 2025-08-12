@@ -1,0 +1,22 @@
+{
+  "slug": "htk",
+  "extension": "htk",
+  "name": "Hidden Markov Model Toolkit Audio",
+  "category": "hidden-markov-model-toolkit-audio",
+  "summary": "",
+  "developer_org": "cambridge-university",
+  "developer_name": "Cambridge University",
+  "more_information": {
+    "description": [
+      "A Hidden Markov Model (HMM) is a statistical model used to predict the occurrence of unobservable events by analyzing their observable consequences. For example, speech recognition devices use HMMs to predict the words a person said (to the device, an unobservable event) given an audio recording of those words (a recorded consequence of the event).",
+      "Researchers use the Hidden Markov Model Toolkit to, among other things, fine-tune the HMMs that speech recognition devices use to interpret a person's speech. To do so, the researchers manipulate and experiment with audio files saved in the HTK file format. The HTK format was developed specifically for use with the Hidden Markov Model Toolkit, and it is the toolkit's default audio format."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "htk.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "pnh",
+  "extension": "pnh",
+  "name": "Project ROME Plug-in Archive",
+  "category": "project-rome-plug-in-archive",
+  "developer_org": "adobe-systems",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Plugin used by Project ROME, a content creating and publishing application; contains data that adds functionality to the program; used to expand the capabilities of the program; can be created by third-party developers.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "adobe-project-rome",
+        "display_name": "Adobe Project ROME"
+      }
+    ],
+    "macos": [
+      {
+        "software": "adobe-project-rome",
+        "display_name": "Adobe Project ROME"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-04-10",
+  "sources": [
+    {
+      "url": "pnh.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

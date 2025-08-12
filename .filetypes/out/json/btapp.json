@@ -1,0 +1,59 @@
+{
+  "slug": "btapp",
+  "extension": "btapp",
+  "name": "uTorrent App",
+  "category": "utorrent-app",
+  "developer_org": "bittorrent",
+  "popularity": {
+    "rating": 4.3,
+    "votes": 34,
+    "source": "fileinfo"
+  },
+  "summary": "A BTAPP file is an application written for uTorrent, a popular .TORRENT download program. It contains HTML and JavaScript code and can be displayed in an embedded browser window. BTAPP files may be added to the uTorrent client from within the program by selecting the specific BTAPP file and clicking \"Add\" (or \"Install\" in some versions).",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "utorrent",
+        "display_name": "uTorrent"
+      }
+    ],
+    "macos": [
+      {
+        "software": "utorrent",
+        "display_name": "uTorrent"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "BTAPP file icon",
+      "alt": "BTAPP file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/btapp-4929.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-09-24",
+  "sources": [
+    {
+      "url": "btapp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

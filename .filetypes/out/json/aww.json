@@ -1,0 +1,47 @@
+{
+  "slug": "aww",
+  "extension": "aww",
+  "name": "Ability Write Document",
+  "category": "ability-write-document",
+  "developer_org": "ability-plus-software",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 14,
+    "source": "fileinfo"
+  },
+  "summary": "Document created by Ability Write, the word processor included with the Ability Office productivity suite; similar to a Microsoft Word document and supports text, images, and advanced page formatting.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "ability-office",
+        "display_name": "Ability Office"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-11-03",
+  "sources": [
+    {
+      "url": "aww.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

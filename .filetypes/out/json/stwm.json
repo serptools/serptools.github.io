@@ -1,0 +1,59 @@
+{
+  "slug": "stwm",
+  "extension": "stwm",
+  "name": "SuperTux World Map File",
+  "category": "supertux-world-map-file",
+  "developer_org": "supertux",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Game file used by SuperTux, a 2D jump and run side scrolling game similar to the classic Super Mario games; defines a world that includes multiple levels; provides an overhead view of the world, which allows the player to move through the world as he completes levels.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "supertux",
+        "display_name": "SuperTux"
+      }
+    ],
+    "macos": [
+      {
+        "software": "supertux",
+        "display_name": "SuperTux"
+      }
+    ],
+    "linux": [
+      {
+        "software": "supertux",
+        "display_name": "SuperTux"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-10-21",
+  "sources": [
+    {
+      "url": "stwm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

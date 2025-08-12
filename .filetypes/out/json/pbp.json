@@ -1,0 +1,55 @@
+{
+  "slug": "pbp",
+  "extension": "pbp",
+  "name": "PSP Firmware Update File",
+  "category": "1.-psp-firmware-update-file",
+  "developer_org": "sony",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 110,
+    "source": "fileinfo"
+  },
+  "summary": "Firmware update image file used for updating the firmware of the Sony Playstation Portable (PSP); commonly used to install game demos on the PSP, but can also be used for installing homebrew games and applications; sometimes used to modify or hack the PSP; typically named \"EBOOT.PBP.\"",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "pbp-unpacker",
+        "display_name": "PBP Unpacker"
+      },
+      {
+        "software": "psp-brew",
+        "display_name": "PSP Brew"
+      },
+      {
+        "software": "pulseboy",
+        "display_name": "PulseBoy"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2007-08-04",
+  "sources": [
+    {
+      "url": "pbp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

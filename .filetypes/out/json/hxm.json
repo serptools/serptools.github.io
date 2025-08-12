@@ -1,0 +1,55 @@
+{
+  "slug": "hxm",
+  "extension": "hxm",
+  "name": "Descent 2 Resource Modification",
+  "category": "descent-2-resource-modification",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 2.8,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "An HXM file is a custom game data file used by a modified version of Descent 2. It contains data that modifies in-game objects' behavior. For example, an HXM file might modify enemies' stats in a specific level.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "interplay-productions-descent-2",
+        "display_name": "Interplay Productions Descent 2"
+      }
+    ],
+    "macos": [
+      {
+        "software": "interplay-productions-descent-2",
+        "display_name": "Interplay Productions Descent 2"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-08-24",
+  "sources": [
+    {
+      "url": "hxm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "private",
+  "extension": "private",
+  "name": "OpenSSL Private Key",
+  "category": "openssl-private-key",
+  "summary": "",
+  "developer_org": "the-openssl-project",
+  "developer_name": "The OpenSSL Project",
+  "more_information": {
+    "description": [
+      "OpenSSL is a software library that server, web, and network administrators use to secure network communications. Among other things, administrators can use OpenSSL to generate public and private keys for use with their web server. These keys are used to encrypt and decrypt information sent from a user's web browser to the web server.",
+      "Information sent from a web browser is encrypted using a public key (sometimes saved in a .PUBLIC file). That information is decrypted using a private key, which is sometimes saved in a file named RSA.PRIVATE . More often, however, OpenSSL private keys are saved in the .KEY or .PEM file formats.",
+      "NOTE: RSA.PRIVATE files can be 512, 758, 1024, 1536, or 2048 bits in size."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "private.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

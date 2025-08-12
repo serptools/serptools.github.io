@@ -1,0 +1,59 @@
+{
+  "slug": "neu",
+  "extension": "neu",
+  "name": "Pro/ENGINEER Neutral File",
+  "category": "pro-engineer-neutral-file",
+  "developer_org": "parametric-technology",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "File created by Pro/ENGINEER, a program used for 3D product design; contains part information, including geometry, layering, appearance, parameter data, materials, and other design information; stores parts in a neutral format so they can be imported into other CAD programs.",
+  "standards": [],
+  "mime_types": [
+    "pro/engineer"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "parametric-technology-creo",
+        "display_name": "Parametric Technology Creo"
+      },
+      {
+        "software": "okino-computer-graphics-polytrans",
+        "display_name": "Okino Computer Graphics PolyTrans"
+      }
+    ],
+    "linux": [
+      {
+        "software": "parametric-technology-creo",
+        "display_name": "Parametric Technology Creo"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-03-31",
+  "sources": [
+    {
+      "url": "neu.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

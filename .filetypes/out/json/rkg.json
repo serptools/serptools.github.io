@@ -1,0 +1,57 @@
+{
+  "slug": "rkg",
+  "extension": "rkg",
+  "name": "Mario Kart Wii Time Trial Ghost",
+  "category": "mario-kart-wii-time-trial-ghost",
+  "developer_org": "nintendo",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 20,
+    "source": "fileinfo"
+  },
+  "summary": "An RKG file is a time trial ghost used in Mario Kart Wii, a racing game for the Nintendo Wii. It contains data used to show a ghost racer that a player must beat during a timed race. RKG files specify a ghost's kart, character, drift type, and course route, which is saved as a series of controller inputs that Mario Kart Wii recreates.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "rkg-viewer",
+        "display_name": "RKG Viewer"
+      },
+      {
+        "software": "riivolution",
+        "display_name": "Riivolution"
+      }
+    ],
+    "macos": [
+      {
+        "software": "riivolution",
+        "display_name": "Riivolution"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-04-05",
+  "sources": [
+    {
+      "url": "rkg.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

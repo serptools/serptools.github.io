@@ -1,0 +1,63 @@
+{
+  "slug": "fh4",
+  "extension": "fh4",
+  "name": "FreeHand 4 Drawing File",
+  "category": "freehand-4-drawing-file",
+  "developer_org": "adobe-systems",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Image file created by FreeHand, a vector image drawing application; contains a FreeHand version 4 drawing; uses lines, points, and curves to create images that can be scaled with no loss of quality; similar to .FH3 , .FH5 , and .FH6 files created by FreeHand.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "adobe-freehand",
+        "display_name": "Adobe FreeHand",
+        "pricing": "free"
+      },
+      {
+        "software": "adobe-illustrator-2025",
+        "display_name": "Adobe Illustrator 2025"
+      }
+    ],
+    "macos": [
+      {
+        "software": "adobe-freehand",
+        "display_name": "Adobe FreeHand",
+        "pricing": "free"
+      },
+      {
+        "software": "adobe-illustrator-2025",
+        "display_name": "Adobe Illustrator 2025"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2013-11-11",
+  "sources": [
+    {
+      "url": "fh4.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

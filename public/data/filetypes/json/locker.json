@@ -1,0 +1,38 @@
+{
+  "slug": "locker",
+  "extension": "locker",
+  "name": "NordLocker Encrypted Archive",
+  "category": "nordlocker-encrypted-archive",
+  "summary": "",
+  "developer_org": "nordlocker",
+  "developer_name": "NordLocker",
+  "more_information": {
+    "screenshot": {
+      "url": "https://fileinfo.com/img/ss/sm/locker_11877.png",
+      "alt": "Screenshot of a .locker file in NordLocker 2.1",
+      "caption": "LOCKER file open in NordLocker 2.1"
+    },
+    "description": [
+      "NordLocker allows you to quickly secure your files locally in Windows or macOS, but also provides cloud storage for syncing encrypted files across multiple devices. The LOCKER file stores all of the files and folders you have imported into a specific locker in NordLocker.",
+      "To create a LOCKER file with the Windows version of NordLocker, select File → New Locker . To create a LOCKER file with the macOS version of NordLocker, select File → Create New Locker .",
+      "LOCKER files are saved by default in the following locations:",
+      "Windows - C:\\​Users\\​[username]\\​Documents\\​NordLocker\\​Lockers",
+      "macOS - /​Users/​[username]/​Nordlocker/​",
+      "LOCKER files are not only used for securing files stored on your computer. They can be shared with others as long as they are registered with NordLocker and have installed the application."
+    ]
+  },
+  "images": [
+    {
+      "url": "https://fileinfo.com/img/ss/sm/locker_11877.png",
+      "alt": "Screenshot of a .locker file in NordLocker 2.1",
+      "caption": "LOCKER file open in NordLocker 2.1"
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "locker.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

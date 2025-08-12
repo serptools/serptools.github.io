@@ -1,0 +1,22 @@
+{
+  "slug": "mshi",
+  "extension": "mshi",
+  "name": "Microsoft Help Index File",
+  "category": "microsoft-help-index-file",
+  "summary": "",
+  "developer_org": "microsoft",
+  "developer_name": "Microsoft",
+  "more_information": {
+    "description": [
+      "MSHI files are used for indexing the content in .MSHC help container files. When an MSHI file exists, it is deployed with the corresponding MSHC file within a signed .CAB archive.",
+      "NOTE: MS Help Viewer 1.x replaces the MS Help 2.x ( .HXS ) and MS Help 1.x ( .CHM ) formats."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "mshi.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

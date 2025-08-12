@@ -1,0 +1,78 @@
+{
+  "slug": "theme",
+  "extension": "theme",
+  "name": "Microsoft Plus! Desktop Theme",
+  "category": "1.-microsoft-plus-desktop-theme",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 4.1,
+    "votes": 49,
+    "source": "fileinfo"
+  },
+  "summary": "A THEME file contains a theme for Microsoft Plus!, a software enhancement to the Windows operating system. It contains settings used to customize the Windows desktop and is saved in Microsoft's .INI text-based format, which includes colors, styles, and references to image and sound files used by the theme. THEME files may be included with the Microsoft Plus! software or may be custom-made by the user.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-windows",
+        "display_name": "Microsoft Windows"
+      },
+      {
+        "software": "microsoft-plus",
+        "display_name": "Microsoft Plus!",
+        "status": "discontinued"
+      },
+      {
+        "software": "wine",
+        "display_name": "Wine"
+      },
+      {
+        "software": "comodo-internet-security",
+        "display_name": "Comodo Internet Security"
+      },
+      {
+        "software": "comodo-antivirus",
+        "display_name": "Comodo Antivirus"
+      }
+    ],
+    "linux": [
+      {
+        "software": "wine",
+        "display_name": "Wine"
+      },
+      {
+        "software": "gnome-desktop",
+        "display_name": "GNOME Desktop"
+      },
+      {
+        "software": "xfce",
+        "display_name": "XFCE"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-03-22",
+  "sources": [
+    {
+      "url": "theme.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

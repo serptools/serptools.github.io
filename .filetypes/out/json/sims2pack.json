@@ -1,0 +1,66 @@
+{
+  "slug": "sims2pack",
+  "extension": "sims2pack",
+  "name": "Downloaded Sims 2 Package File",
+  "category": "downloaded-sims-2-package-file",
+  "developer_org": "electronic-arts",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 26,
+    "source": "fileinfo"
+  },
+  "summary": "Self-installing package file downloaded from the Internet that contains data used to update The Sims 2; typically used for storing Sims (characters), Residential and Community Lots, and texture data; will install itself when opened if The Sims 2 is installed.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "electronic-arts-the-sims-2",
+        "display_name": "Electronic Arts The Sims 2"
+      },
+      {
+        "software": "sim-file-maid-2",
+        "display_name": "Sim File Maid 2",
+        "status": "discontinued"
+      },
+      {
+        "software": "ambertation-simpe",
+        "display_name": "Ambertation SimPE"
+      },
+      {
+        "software": "sims2pack-clean-installer",
+        "display_name": "Sims2Pack Clean Installer"
+      }
+    ],
+    "macos": [
+      {
+        "software": "electronic-arts-the-sims-2",
+        "display_name": "Electronic Arts The Sims 2"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-10-07",
+  "sources": [
+    {
+      "url": "sims2pack.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

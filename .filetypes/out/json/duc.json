@@ -1,0 +1,53 @@
+{
+  "slug": "duc",
+  "extension": "duc",
+  "name": "Action Replay Max DS Save File",
+  "category": "action-replay-max-ds-save-file",
+  "developer_org": "datel",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "Saved game created by the Action Replay Max DS, a hardware device used to apply cheat codes to Nintendo DS and DS Lite handheld console games; saved in Action Replay Max DS's proprietary format, but can be converted to a traditional .SAV file and loaded with a Nintendo DS emulator.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "ardstosav",
+        "display_name": "ARDStoSAV"
+      }
+    ],
+    "web": [
+      {
+        "software": "shunyweb",
+        "display_name": "Shunyweb"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-07-15",
+  "sources": [
+    {
+      "url": "duc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

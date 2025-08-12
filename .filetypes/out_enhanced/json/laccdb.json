@@ -1,0 +1,22 @@
+{
+  "slug": "laccdb",
+  "extension": "laccdb",
+  "name": "Microsoft Access Lock File",
+  "category": "microsoft-access-lock-file",
+  "summary": "",
+  "developer_org": "microsoft",
+  "developer_name": "Microsoft",
+  "more_information": {
+    "description": [
+      "Access 2007 automatically creates LACCDB files when .ACCDB files are opened. LACCDB files have the same name as their corresponding ACCDB file and are located in the same directory. When the ACCDB files are closed, the LACCDB file is automatically deleted.",
+      "NOTE: LACCDB files serve the same purpose as .LDB files from previous versions of Access."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "laccdb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

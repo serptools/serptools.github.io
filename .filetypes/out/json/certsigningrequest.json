@@ -1,0 +1,53 @@
+{
+  "slug": "certsigningrequest",
+  "extension": "certsigningrequest",
+  "name": "Apple Developer Signing Certificate Request File",
+  "category": "apple-developer-signing-certificate-request-file",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "Certificate request file created by Keychain Access, an Apple tool that manages and stores passwords and certificates; contains data referenced by Apple to request a signing certificate for iOS and Mac development.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "apple-keychain-access",
+        "display_name": "Apple Keychain Access"
+      }
+    ],
+    "windows": [
+      {
+        "software": "apple-keychain-access",
+        "display_name": "Apple Keychain Access"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-01-07",
+  "sources": [
+    {
+      "url": "certsigningrequest.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

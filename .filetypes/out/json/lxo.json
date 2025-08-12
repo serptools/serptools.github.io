@@ -1,0 +1,77 @@
+{
+  "slug": "lxo",
+  "extension": "lxo",
+  "name": "Modo 3D Image",
+  "category": "modo-3d-image",
+  "developer_org": "foundry",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 38,
+    "source": "fileinfo"
+  },
+  "summary": "An LXO file is a 3D image created by Foundry Modo, a 3D modeling, animation, and rendering program. It is used for storing 3D scenes generated in the software. LXO files can be used for rendering high-resolution images and animations on a single computer or on a network of computers.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "foundry-modo",
+        "display_name": "Foundry Modo"
+      },
+      {
+        "software": "unity-technologies-unity",
+        "display_name": "Unity Technologies Unity"
+      },
+      {
+        "software": "micromouse-accutrans-3d",
+        "display_name": "MicroMouse AccuTrans 3D"
+      }
+    ],
+    "macos": [
+      {
+        "software": "foundry-modo",
+        "display_name": "Foundry Modo"
+      },
+      {
+        "software": "unity-technologies-unity",
+        "display_name": "Unity Technologies Unity"
+      }
+    ],
+    "linux": [
+      {
+        "software": "foundry-modo",
+        "display_name": "Foundry Modo"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "LXO file icon",
+      "alt": "LXO file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/lxo-7736.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-11-13",
+  "sources": [
+    {
+      "url": "lxo.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

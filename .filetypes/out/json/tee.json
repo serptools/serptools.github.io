@@ -1,0 +1,61 @@
+{
+  "slug": "tee",
+  "extension": "tee",
+  "name": "TeeChart Template",
+  "category": "teechart-template",
+  "developer_org": "steema-software",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "A TEE file is a template created by TeeChart, a charting library used by programmers to visualize large sets of data. It contains chart settings, which are used to reproduce a chart when imported. TEE files include plot axis settings, background gradient color, and mouse zooming configuration.",
+  "standards": [],
+  "mime_types": [
+    "vcl/fmx"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "steema-teechart",
+        "display_name": "Steema TeeChart"
+      }
+    ],
+    "macos": [
+      {
+        "software": "steema-teechart",
+        "display_name": "Steema TeeChart"
+      }
+    ],
+    "linux": [
+      {
+        "software": "steema-teechart",
+        "display_name": "Steema TeeChart"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-06-27",
+  "sources": [
+    {
+      "url": "tee.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

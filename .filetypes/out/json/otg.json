@@ -1,0 +1,92 @@
+{
+  "slug": "otg",
+  "extension": "otg",
+  "name": "OpenDocument Graphic Template",
+  "category": "opendocument-graphic-template",
+  "developer_org": "oasis",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "An OTG file is a drawing template created by various vector graphics applications, such as OpenOffice Draw and LibreOffice Draw. It contains a drawing with content and a layout Draw users can replicate to create .ODG drawings. OTG files are saved in a file package in the OASIS OpenDocument standard with XML formatting.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "openoffice-draw",
+        "display_name": "OpenOffice Draw"
+      },
+      {
+        "software": "libreoffice",
+        "display_name": "LibreOffice"
+      },
+      {
+        "software": "planamesa-neooffice",
+        "display_name": "Planamesa NeoOffice",
+        "status": "discontinued"
+      }
+    ],
+    "macos": [
+      {
+        "software": "openoffice-draw",
+        "display_name": "OpenOffice Draw"
+      },
+      {
+        "software": "planamesa-neooffice",
+        "display_name": "Planamesa NeoOffice",
+        "status": "discontinued"
+      },
+      {
+        "software": "libreoffice",
+        "display_name": "LibreOffice"
+      }
+    ],
+    "linux": [
+      {
+        "software": "openoffice-draw",
+        "display_name": "OpenOffice Draw"
+      },
+      {
+        "software": "libreoffice",
+        "display_name": "LibreOffice"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "OTG file icon",
+      "alt": "OTG file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/otg-721.png"
+    },
+    {
+      "caption": "OTG file open in Apache OpenOffice Draw 4",
+      "alt": "OTG file open in Apache OpenOffice Draw 4",
+      "source_url": "https://fileinfo.com/img/ss/md/otg_721.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-06-22",
+  "sources": [
+    {
+      "url": "otg.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

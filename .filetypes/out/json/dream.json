@@ -1,0 +1,57 @@
+{
+  "slug": "dream",
+  "extension": "dream",
+  "name": "Dream Animated Wallpaper File",
+  "category": "1.-dream-animated-wallpaper-file",
+  "developer_org": "stardock",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 32,
+    "source": "fileinfo"
+  },
+  "summary": "File created by DreamMaker, a program used for creating animated desktop wallpapers in Windows; contains video playback contents as well as settings for triggered visual effects; enhances the user desktop experience.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "stardock-dreammaker",
+        "display_name": "Stardock DreamMaker"
+      },
+      {
+        "software": "stardock-deskscapes",
+        "display_name": "Stardock DeskScapes"
+      }
+    ],
+    "ios": [
+      {
+        "software": "savage-procreate-dreams",
+        "display_name": "Savage Procreate Dreams"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-01-12",
+  "sources": [
+    {
+      "url": "dream.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "slug": "rmx",
+  "extension": "rmx",
+  "name": "RealJukebox Format",
+  "category": "1.-realjukebox-format",
+  "developer_org": "realnetworks",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Copy-protected audio file used by RealPlayer, a music playback and streaming program; securely stores the audio data so that it may not be played unless the security key is found; can be linked to a particular computer or key.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "realnetworks-realplayer-cloud",
+        "display_name": "RealNetworks RealPlayer Cloud"
+      },
+      {
+        "software": "thomson-reuters-reference-manager",
+        "display_name": "Thomson Reuters Reference Manager",
+        "status": "discontinued"
+      }
+    ],
+    "macos": [
+      {
+        "software": "realnetworks-realplayer-cloud",
+        "display_name": "RealNetworks RealPlayer Cloud"
+      }
+    ],
+    "linux": [
+      {
+        "software": "realnetworks-realplayer-cloud",
+        "display_name": "RealNetworks RealPlayer Cloud"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-08-12",
+  "sources": [
+    {
+      "url": "rmx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

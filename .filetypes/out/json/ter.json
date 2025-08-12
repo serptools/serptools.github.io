@@ -1,0 +1,53 @@
+{
+  "slug": "ter",
+  "extension": "ter",
+  "name": "Terragen Terrain File",
+  "category": "terragen-terrain-file",
+  "developer_org": "planetside-software",
+  "popularity": {
+    "rating": 2.9,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "Terrain file created by Terragen, a natural scenery generation program; contains terrain data referenced by Terragen to determine altitude of the terrain; includes integer values along y, z, and x-axes specifying the length, height, depth, etc. in Terragen's heightfield format for easy terrain transfer.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "planetside-software-terragen",
+        "display_name": "Planetside Software Terragen"
+      }
+    ],
+    "macos": [
+      {
+        "software": "planetside-software-terragen",
+        "display_name": "Planetside Software Terragen"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2013-12-24",
+  "sources": [
+    {
+      "url": "ter.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "slug": "f4v",
+  "extension": "f4v",
+  "name": "Flash MP4 Video File",
+  "category": "flash-mp4-video-file",
+  "developer_org": "adobe-systems",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 89,
+    "source": "fileinfo"
+  },
+  "summary": "An F4V file is a video file saved in the video container format used by Adobe Flash. It stores video encoded in the H.264 codec , audio in the AAC+/HE-AAC/AAC v1/AAC v2 formats, and metadata . F4V files are primarily used to stream movies and TV shows online.",
+  "standards": [],
+  "mime_types": [
+    "aac+/he-aac",
+    "iso/iec",
+    "v1/aac"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "adobe-flash-player",
+        "display_name": "Adobe Flash Player",
+        "status": "discontinued"
+      },
+      {
+        "software": "adobe-flash-professional-cc",
+        "display_name": "Adobe Flash Professional CC",
+        "status": "discontinued"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "wondershare-video-converter-pro",
+        "display_name": "Wondershare Video Converter Pro"
+      },
+      {
+        "software": "j2-interactive-mx-player",
+        "display_name": "J2 Interactive MX Player"
+      }
+    ],
+    "macos": [
+      {
+        "software": "adobe-flash-player",
+        "display_name": "Adobe Flash Player",
+        "status": "discontinued"
+      },
+      {
+        "software": "adobe-flash-professional-cc",
+        "display_name": "Adobe Flash Professional CC",
+        "status": "discontinued"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "wondershare-video-converter-pro",
+        "display_name": "Wondershare Video Converter Pro"
+      }
+    ],
+    "linux": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      }
+    ],
+    "android": [
+      {
+        "software": "j2-interactive-mx-player",
+        "display_name": "J2 Interactive MX Player"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-01-14",
+  "sources": [
+    {
+      "url": "f4v.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

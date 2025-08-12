@@ -1,0 +1,69 @@
+{
+  "slug": "cine",
+  "extension": "cine",
+  "name": "Phantom Digital Video File",
+  "category": "phantom-digital-video-file",
+  "developer_org": "vision-research",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 17,
+    "source": "fileinfo"
+  },
+  "summary": "Video file captured by Phantom digital video cameras, which are manufactured by Vision Research; may include raw, uncompressed, or compressed data, but often contains raw video data so that recording performance is fast; may be adjusted for color corrections, white balance, and other adjustments in the video post production process.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "adobe-speedgrade",
+        "display_name": "Adobe SpeedGrade",
+        "status": "discontinued"
+      },
+      {
+        "software": "apple-final-cut-pro-with-glue-tools-phantom-cine-toolkit",
+        "display_name": "Apple Final Cut Pro with Glue Tools Phantom Cine Toolkit"
+      }
+    ],
+    "macos": [
+      {
+        "software": "adobe-speedgrade",
+        "display_name": "Adobe SpeedGrade",
+        "status": "discontinued"
+      },
+      {
+        "software": "apple-final-cut-pro-with-glue-tools-phantom-cine-toolkit",
+        "display_name": "Apple Final Cut Pro with Glue Tools Phantom Cine Toolkit"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "CINE file icon",
+      "alt": "CINE file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/cine-7683.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-05-02",
+  "sources": [
+    {
+      "url": "cine.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

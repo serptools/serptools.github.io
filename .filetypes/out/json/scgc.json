@@ -1,0 +1,47 @@
+{
+  "slug": "scgc",
+  "extension": "scgc",
+  "name": "myPM SCG Classic Data File",
+  "category": "mypm-scg-classic-data-file",
+  "developer_org": "midori-media",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "Data file created by myPM SCG Classic, a program that integrates with Excel to generate histograms, S curves, and project statistics of the Excel data; contains one or more SCG definitions that can be modified.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "midori-media-mypm-scg-enterprise",
+        "display_name": "Midori Media myPM SCG Enterprise"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-12-17",
+  "sources": [
+    {
+      "url": "scgc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

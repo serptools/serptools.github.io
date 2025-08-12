@@ -1,0 +1,85 @@
+{
+  "slug": "texture",
+  "extension": "texture",
+  "name": "Trainz Auran Texture File",
+  "category": "1.-trainz-auran-texture-file",
+  "developer_org": "auran",
+  "popularity": {
+    "rating": 4.2,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "A TEXTURE file contains texture information about an object used by various 3D train simulation games in the Trainz series. It stores information in the binary Auran texture format that configures the display behavior of the texture and one or more texture component images (typically .JPG , .BMP , or .TGA files). TEXTURE files may be utilized for any object that appears in the Trainz game, such as train cars, planes, ships, cars, people, animals, buildings, bridges, and trees.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "pevsoft-images2tga",
+        "display_name": "PEVSoft Images2TGA"
+      },
+      {
+        "software": "auran-trainz-railroad-simulator-2006",
+        "display_name": "Auran Trainz Railroad Simulator 2006"
+      },
+      {
+        "software": "n3v-games-trainz-railroad-simulator-2009",
+        "display_name": "N3V Games Trainz Railroad Simulator 2009"
+      },
+      {
+        "software": "n3v-games-trainz-a-new-era",
+        "display_name": "N3V Games Trainz: A New Era"
+      },
+      {
+        "software": "n3v-games-trainz-railroad-simulator-2019",
+        "display_name": "N3V Games Trainz Railroad Simulator 2019"
+      },
+      {
+        "software": "bugbear-entertainment-flatout",
+        "display_name": "Bugbear Entertainment FlatOut"
+      },
+      {
+        "software": "overkill-software-payday-the-heist",
+        "display_name": "Overkill Software Payday: The Heist"
+      },
+      {
+        "software": "overkill-software-payday-2",
+        "display_name": "Overkill Software Payday 2"
+      }
+    ],
+    "macos": [
+      {
+        "software": "n3v-games-trainz-a-new-era",
+        "display_name": "N3V Games Trainz: A New Era"
+      },
+      {
+        "software": "n3v-games-trainz-railroad-simulator-2019",
+        "display_name": "N3V Games Trainz Railroad Simulator 2019"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-09-21",
+  "sources": [
+    {
+      "url": "texture.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

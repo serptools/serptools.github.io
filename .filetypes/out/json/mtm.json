@@ -1,0 +1,104 @@
+{
+  "slug": "mtm",
+  "extension": "mtm",
+  "name": "MultiTracker Module",
+  "category": "1.-multitracker-module",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 4.3,
+    "votes": 10,
+    "source": "fileinfo"
+  },
+  "summary": "Universal audio tracker module format that is similar to a .MOD file; contains sound samples and a musical score for playback; supports up to 32 channels, which allows many samples to be played back at once.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "nullsoft-winamp",
+        "display_name": "Nullsoft Winamp"
+      },
+      {
+        "software": "jetaudio",
+        "display_name": "jetAudio"
+      },
+      {
+        "software": "modplug-player",
+        "display_name": "MODPlug Player",
+        "status": "discontinued"
+      },
+      {
+        "software": "vuplayer",
+        "display_name": "VUPlayer"
+      },
+      {
+        "software": "xmplay",
+        "display_name": "XMPlay"
+      },
+      {
+        "software": "videolan-vlc-media-player-with-vlc-codec-pack",
+        "display_name": "VideoLAN VLC media player with VLC Codec Pack"
+      },
+      {
+        "software": "cocomodx",
+        "display_name": "CocoModX",
+        "status": "discontinued"
+      },
+      {
+        "software": "ximplemod",
+        "display_name": "XimpleMOD"
+      }
+    ],
+    "macos": [
+      {
+        "software": "cocomodx",
+        "display_name": "CocoModX",
+        "status": "discontinued"
+      },
+      {
+        "software": "ximplemod",
+        "display_name": "XimpleMOD"
+      },
+      {
+        "software": "videolan-vlc-media-player-with-vlc-codec-pack",
+        "display_name": "VideoLAN VLC media player with VLC Codec Pack"
+      },
+      {
+        "software": "macrofocus-treemap",
+        "display_name": "Macrofocus TreeMap"
+      }
+    ],
+    "linux": [
+      {
+        "software": "videolan-vlc-media-player-with-vlc-codec-pack",
+        "display_name": "VideoLAN VLC media player with VLC Codec Pack"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-10-20",
+  "sources": [
+    {
+      "url": "mtm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

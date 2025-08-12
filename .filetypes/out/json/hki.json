@@ -1,0 +1,49 @@
+{
+  "slug": "hki",
+  "extension": "hki",
+  "name": "WinHKI Archive",
+  "category": "winhki-archive",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.2,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "File archive compressed with the WinHKI file compression tool; can also compress files with different types of open-source compression algorithms; includes a \"best compression ratio,\" option which provides the most efficient compression for different file types.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "winhki",
+        "display_name": "WinHKI"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2006-12-14",
+  "sources": [
+    {
+      "url": "hki.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

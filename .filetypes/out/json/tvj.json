@@ -1,0 +1,47 @@
+{
+  "slug": "tvj",
+  "extension": "tvj",
+  "name": "TrueView Job Ticket",
+  "category": "trueview-job-ticket",
+  "developer_org": "basiccolor",
+  "popularity": {
+    "rating": 2.5,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Job ticket created with TrueView, a softproofing application developed by basICColor; contains print job information that ensures color accuracy is maintained across different media and platforms.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "basiccolor-trueview",
+        "display_name": "basICColor TrueView"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-06-27",
+  "sources": [
+    {
+      "url": "tvj.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

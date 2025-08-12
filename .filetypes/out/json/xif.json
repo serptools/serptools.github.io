@@ -1,0 +1,51 @@
+{
+  "slug": "xif",
+  "extension": "xif",
+  "name": "ScanSoft Pagis File",
+  "category": "scansoft-pagis-file",
+  "developer_org": "nuance-communications",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 19,
+    "source": "fileinfo"
+  },
+  "summary": "XIF (eXtended Image Format) file originally created for the ScanSoft Pagis scanning software; designed as an extension to the .TIFF format for storing text documents as images; separates the image into four layers:",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "acd-systems-acdsee-photo-studio",
+        "display_name": "ACD Systems ACDSee Photo Studio"
+      },
+      {
+        "software": "kofax-omnipage-ultimate",
+        "display_name": "Kofax OmniPage Ultimate"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-05-10",
+  "sources": [
+    {
+      "url": "xif.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

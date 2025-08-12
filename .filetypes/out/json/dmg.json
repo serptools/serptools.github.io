@@ -1,0 +1,122 @@
+{
+  "slug": "dmg",
+  "extension": "dmg",
+  "name": "Apple Disk Image",
+  "category": "apple-disk-image",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 4.2,
+    "votes": 3410,
+    "source": "fileinfo"
+  },
+  "summary": "A DMG file is a mountable disk image primarily used to distribute software to the macOS operating system. Mac users typically download the file from the Internet and then double-click it to install an application on their computer.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "7-zip",
+        "display_name": "7-Zip"
+      },
+      {
+        "software": "peazip",
+        "display_name": "PeaZip"
+      },
+      {
+        "software": "catacombae-hfsexplorer",
+        "display_name": "Catacombae HFSExplorer"
+      },
+      {
+        "software": "reincubate-dmg-extractor",
+        "display_name": "Reincubate DMG Extractor"
+      },
+      {
+        "software": "dmg2img",
+        "display_name": "DMG2IMG"
+      },
+      {
+        "software": "diskimagemounter",
+        "display_name": "DiskImageMounter"
+      },
+      {
+        "software": "apple-disk-utility",
+        "display_name": "Apple Disk Utility"
+      },
+      {
+        "software": "roxio-toast-20",
+        "display_name": "Roxio Toast 20"
+      },
+      {
+        "software": "incredible-bee-archiver",
+        "display_name": "Incredible Bee Archiver"
+      }
+    ],
+    "macos": [
+      {
+        "software": "diskimagemounter",
+        "display_name": "DiskImageMounter"
+      },
+      {
+        "software": "apple-disk-utility",
+        "display_name": "Apple Disk Utility"
+      },
+      {
+        "software": "roxio-toast-20",
+        "display_name": "Roxio Toast 20"
+      },
+      {
+        "software": "incredible-bee-archiver",
+        "display_name": "Incredible Bee Archiver"
+      },
+      {
+        "software": "catacombae-hfsexplorer",
+        "display_name": "Catacombae HFSExplorer"
+      }
+    ],
+    "linux": [
+      {
+        "software": "catacombae-hfsexplorer",
+        "display_name": "Catacombae HFSExplorer"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "DMG file icon",
+      "alt": "DMG file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/dmg-24.png"
+    },
+    {
+      "caption": "DMG file open in macOS Big Sur (11.5.2)",
+      "alt": "DMG file open in macOS Big Sur (11.5.2)",
+      "source_url": "https://fileinfo.com/img/ss/md/dmg_24.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-09-15",
+  "sources": [
+    {
+      "url": "dmg.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

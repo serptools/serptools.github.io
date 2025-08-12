@@ -1,0 +1,63 @@
+{
+  "slug": "yfs",
+  "extension": "yfs",
+  "name": "YSFLIGHT Mission File",
+  "category": "ysflight-mission-file",
+  "developer_org": "ysflight.com",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "Game file used by YSFLIGHT, a free, cross-platform flight simulation game; stored in plain text and contains properties for mission obstacles and objectives; can specify enemy aircraft, starting positions, weather conditions, and other factors.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "ysflight",
+        "display_name": "YSFLIGHT"
+      },
+      {
+        "software": "ysflight-scenery-editor",
+        "display_name": "YSFLIGHT Scenery Editor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "ysflight",
+        "display_name": "YSFLIGHT"
+      }
+    ],
+    "linux": [
+      {
+        "software": "ysflight",
+        "display_name": "YSFLIGHT"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-01-21",
+  "sources": [
+    {
+      "url": "yfs.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

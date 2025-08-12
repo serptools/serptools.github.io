@@ -1,0 +1,53 @@
+{
+  "slug": "td0",
+  "extension": "td0",
+  "name": "Teledisk Archive",
+  "category": "1.-teledisk-archive",
+  "developer_org": "sydex",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "A TD0 file is a disk image created using Teledisk, a utility originally for archiving and duplicating floppy disks in the 1980s and 90s. It stores an exact copy of a floppy disk’s contents, including its files and low-level disk structure. TD0 files are compressed to reduce storage size, which was especially important when dealing with limited disk space in the 1980s and 90s.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "sydex-teledisk",
+        "display_name": "Sydex Teledisk",
+        "status": "discontinued"
+      },
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2025-03-20",
+  "sources": [
+    {
+      "url": "td0.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

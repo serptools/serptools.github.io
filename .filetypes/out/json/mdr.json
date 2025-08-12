@@ -1,0 +1,48 @@
+{
+  "slug": "mdr",
+  "extension": "mdr",
+  "name": "ModPlug Compressed Module",
+  "category": "modplug-compressed-module",
+  "developer_org": "olivier-lapicque",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "Compressed music module file created by ModPlug Player, an application used to play module music files; stores a module such as an .MTM , .MT2 , or .IT file that is compressed with RAR compression.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "modplug-player",
+        "display_name": "ModPlug Player",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-10-07",
+  "sources": [
+    {
+      "url": "mdr.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

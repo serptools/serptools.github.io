@@ -1,0 +1,66 @@
+{
+  "slug": "nmf",
+  "extension": "nmf",
+  "name": "ArcGIS Explorer Map File",
+  "category": "arcgis-explorer-map-file",
+  "developer_org": "esri",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 13,
+    "source": "fileinfo"
+  },
+  "summary": "Map file created by ArcGIS Explorer, a free mapping program developed by ESRI; may store terrain, coordinates, points of interest, drawn shapes, 3D environment effects, and other map objects; can also store directions, routes, and measurements; used for saving and loading custom maps as well as sharing maps online.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "esri-arcgis-explorer",
+        "display_name": "ESRI ArcGIS Explorer"
+      },
+      {
+        "software": "esri-arcgis-for-desktop",
+        "display_name": "ESRI ArcGIS for Desktop"
+      },
+      {
+        "software": "microsoft-internet-explorer-with-arcgis-explorer-plug-in",
+        "display_name": "Microsoft Internet Explorer with ArcGIS Explorer plug-in",
+        "status": "discontinued"
+      },
+      {
+        "software": "mozilla-firefox-with-arcgis-explorer-plug-in",
+        "display_name": "Mozilla Firefox with ArcGIS Explorer plug-in"
+      }
+    ],
+    "macos": [
+      {
+        "software": "mozilla-firefox-with-arcgis-explorer-plug-in",
+        "display_name": "Mozilla Firefox with ArcGIS Explorer plug-in"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-08-26",
+  "sources": [
+    {
+      "url": "nmf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

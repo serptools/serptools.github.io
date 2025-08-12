@@ -1,0 +1,73 @@
+{
+  "slug": "ssp",
+  "extension": "ssp",
+  "name": "Scala Server Page",
+  "category": "1.-scala-server-page",
+  "developer_org": "scalate",
+  "popularity": {
+    "rating": 4.3,
+    "votes": 11,
+    "source": "fileinfo"
+  },
+  "summary": "An SSP file is a webpage script created using syntax from HTML and Scala, a general-purpose programming language. It contains HTML code and embedded \"Ssp\" tags which are evaluated to page text. SSP files are used to generate static webpages.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "scalate",
+        "display_name": "Scalate"
+      },
+      {
+        "software": "bolide-slideshow-creator",
+        "display_name": "Bolide Slideshow Creator"
+      },
+      {
+        "software": "axialis-screensaver-producer",
+        "display_name": "Axialis Screensaver Producer"
+      },
+      {
+        "software": "serato-studio",
+        "display_name": "Serato Studio"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "serato-studio",
+        "display_name": "Serato Studio"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-01-11",
+  "sources": [
+    {
+      "url": "ssp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

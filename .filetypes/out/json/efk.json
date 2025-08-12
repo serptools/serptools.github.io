@@ -1,0 +1,57 @@
+{
+  "slug": "efk",
+  "extension": "efk",
+  "name": "Ensoniq KT Sound File",
+  "category": "ensoniq-kt-sound-file",
+  "developer_org": "ensoniq",
+  "popularity": {
+    "rating": 1.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "An EFK file is a sound data file used by Ensoniq KT series synthesizers. It contains digital audio samples, settings, and configurations for specific instruments or sound patches in the Ensoniq KT (EFK) format. While EFK files are obscure, musicians in the 1990s saved and loaded sounds as EFK files with Ensoniq KT synthesizers.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "chicken-systems-translator",
+        "display_name": "Chicken Systems Translator"
+      },
+      {
+        "software": "chicken-systems-ensoniq-disk-tools",
+        "display_name": "Chicken Systems Ensoniq Disk Tools"
+      }
+    ],
+    "macos": [
+      {
+        "software": "chicken-systems-translator",
+        "display_name": "Chicken Systems Translator"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2024-10-18",
+  "sources": [
+    {
+      "url": "efk.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

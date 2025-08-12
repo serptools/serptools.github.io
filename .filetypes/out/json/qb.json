@@ -1,0 +1,55 @@
+{
+  "slug": "qb",
+  "extension": "qb",
+  "name": "Diploma Question Bank File",
+  "category": "diploma-question-bank-file",
+  "developer_org": "wimba",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "Question file used by Wimba Diploma, a program used to create exam questions; contains questions referenced by exams; includes the question type, such as essay, multiple choice, and true/false; also stores location information that orders how the questions appear in the bank.",
+  "standards": [],
+  "mime_types": [
+    "true/false"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "wimba-diploma",
+        "display_name": "Wimba Diploma"
+      }
+    ],
+    "macos": [
+      {
+        "software": "wimba-diploma",
+        "display_name": "Wimba Diploma"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-06-05",
+  "sources": [
+    {
+      "url": "qb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

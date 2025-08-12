@@ -1,0 +1,47 @@
+{
+  "slug": "iec",
+  "extension": "iec",
+  "name": "IEChooser HTML File",
+  "category": "iechooser-html-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 1.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "Html.iec is a file used by IEChooser, an Internet Explorer debugging tool. This file is a dynamic link library ( DLL ).",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-iechooser",
+        "display_name": "Microsoft IEChooser"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-11-22",
+  "sources": [
+    {
+      "url": "iec.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

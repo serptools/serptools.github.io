@@ -1,0 +1,129 @@
+{
+  "slug": "for",
+  "extension": "for",
+  "name": "Fortran Source Code File",
+  "category": "fortran-source-code-file",
+  "developer_org": "iso-iec",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "A FOR file contains source code written in Fortran programming languages, such as Fortran 77 (F77), often used for scientific and numerical computations. It typically stores F77 language in a fixed-form layout inherited from 80-column punched cards early computer developers used to store programs. Users can open and edit FOR files with a text editor or IDE that provides syntax highlighting.",
+  "standards": [],
+  "mime_types": [
+    "iso/iec"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "photran",
+        "display_name": "Photran"
+      },
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "apple-xcode",
+        "display_name": "Apple Xcode"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "gedit",
+        "display_name": "gedit"
+      },
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      }
+    ],
+    "macos": [
+      {
+        "software": "macromates-textmate",
+        "display_name": "MacroMates TextMate"
+      },
+      {
+        "software": "apple-xcode",
+        "display_name": "Apple Xcode"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "photran",
+        "display_name": "Photran"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      }
+    ],
+    "linux": [
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "photran",
+        "display_name": "Photran"
+      },
+      {
+        "software": "gedit",
+        "display_name": "gedit"
+      }
+    ],
+    "web": [
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "FOR file open in Microsoft Visual Studio Code 1.9",
+      "alt": "FOR file open in Microsoft Visual Studio Code 1.9",
+      "source_url": "https://fileinfo.com/img/ss/md/for_1120.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2024-06-12",
+  "sources": [
+    {
+      "url": "for.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

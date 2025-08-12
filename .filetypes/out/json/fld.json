@@ -1,0 +1,51 @@
+{
+  "slug": "fld",
+  "extension": "fld",
+  "name": "YSFLIGHT Field File",
+  "category": "ysflight-field-file",
+  "developer_org": "ysflight.com",
+  "popularity": {
+    "rating": 2.8,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "File used by YSFLIGHT, a flight simulation game; saves the layout for an airfield and may include landing strips, towers, taxiways, and other airfield features; also stores a reference to the terrain data file; used for storing a game map data.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "ysflight",
+        "display_name": "YSFLIGHT"
+      },
+      {
+        "software": "ysflight-scenery-editor",
+        "display_name": "YSFLIGHT Scenery Editor"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-08-10",
+  "sources": [
+    {
+      "url": "fld.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

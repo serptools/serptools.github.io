@@ -1,0 +1,63 @@
+{
+  "slug": "msv",
+  "extension": "msv",
+  "name": "Memory Stick Voice File",
+  "category": "1.-memory-stick-voice-file",
+  "developer_org": "sony",
+  "popularity": {
+    "rating": 1.6,
+    "votes": 13,
+    "source": "fileinfo"
+  },
+  "summary": "Compressed audio file format used by Sony's Memory Stick IC recorders, such as the ICD-MS1 and ICD-MS515; similar to a Sony Digital Voice ( .DVF ) file, but not as common; can be opened with Sony's Digital Voice Player.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "sony-digital-voice-player",
+        "display_name": "Sony Digital Voice Player"
+      },
+      {
+        "software": "microsoft-windows-media-player-with-sony-player-plugin",
+        "display_name": "Microsoft Windows Media Player with Sony Player plugin"
+      }
+    ],
+    "android": [
+      {
+        "software": "playsport-games-motorsport-manager",
+        "display_name": "Playsport Games Motorsport Manager"
+      }
+    ],
+    "ios": [
+      {
+        "software": "playsport-games-motorsport-manager",
+        "display_name": "Playsport Games Motorsport Manager"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-07-07",
+  "sources": [
+    {
+      "url": "msv.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

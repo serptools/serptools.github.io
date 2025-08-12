@@ -1,0 +1,47 @@
+{
+  "slug": "wb4",
+  "extension": "wb4",
+  "name": "WindowBlinds Skin Settings",
+  "category": "windowblinds-skin-settings",
+  "developer_org": "stardock",
+  "popularity": {
+    "rating": 1.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "A WB4 file is a settings file used by a Stardock WindowBlinds skin . It is placed in the skin's directory after the skin is unpacked from a .WBA file. WindowBlinds uses data stored in the WB4 file to open the associated skin.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "stardock-windowblinds",
+        "display_name": "Stardock WindowBlinds"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-04-18",
+  "sources": [
+    {
+      "url": "wb4.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

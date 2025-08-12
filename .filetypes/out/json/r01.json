@@ -1,0 +1,79 @@
+{
+  "slug": "r01",
+  "extension": "r01",
+  "name": "WinRAR Split Archive Part 1",
+  "category": "winrar-split-archive-part-1",
+  "developer_org": "rarlab",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 32,
+    "source": "fileinfo"
+  },
+  "summary": "An R01 file is part one of a compressed archive split into several parts by WinRAR or RAR. It is typically created for saving a large archive on multiple disks. R01 files are followed by the .R02 file, .R03 file, and so on up to R99 depending on the size of the archive.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "rarlab-winrar",
+        "display_name": "RARLAB WinRAR"
+      },
+      {
+        "software": "corel-winzip",
+        "display_name": "Corel WinZip"
+      },
+      {
+        "software": "7-zip",
+        "display_name": "7-Zip"
+      },
+      {
+        "software": "rarlab-rar",
+        "display_name": "RARLAB RAR"
+      },
+      {
+        "software": "incredible-bee-archiver",
+        "display_name": "Incredible Bee Archiver"
+      }
+    ],
+    "linux": [
+      {
+        "software": "rarlab-rar-for-linux",
+        "display_name": "RARLAB RAR for Linux"
+      }
+    ],
+    "macos": [
+      {
+        "software": "rarlab-rar",
+        "display_name": "RARLAB RAR"
+      },
+      {
+        "software": "incredible-bee-archiver",
+        "display_name": "Incredible Bee Archiver"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-04-27",
+  "sources": [
+    {
+      "url": "r01.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "saver",
+  "extension": "saver",
+  "name": "Mac OS X Screen Saver",
+  "category": "mac-os-x-screen-saver",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "Screen saver for Mac OS X; runs when the computer has been idle for a specific amount of time; may be included with the Mac OS X operating system or created by a third-party developer.",
+  "standards": [],
+  "mime_types": [
+    "library/screen",
+    "system/library"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "apple-macos",
+        "display_name": "Apple macOS"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "SAVER file icon",
+      "alt": "SAVER file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/saver-2749.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-08-25",
+  "sources": [
+    {
+      "url": "saver.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

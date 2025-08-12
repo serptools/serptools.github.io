@@ -1,0 +1,51 @@
+{
+  "slug": "jmce",
+  "extension": "jmce",
+  "name": "JM-Crypt Encrypted File",
+  "category": "jm-crypt-encrypted-file",
+  "developer_org": "jm-crypt-security",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "File encrypted by the JM-Crypt encryption algorithm; contains a file secured by a hybrid encryption algorithm and password; similar to the .JMCR encrypted file.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "jm-crypt",
+        "display_name": "JM-Crypt"
+      },
+      {
+        "software": "jm-crypt-business",
+        "display_name": "JM-Crypt-Business"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2016-03-17",
+  "sources": [
+    {
+      "url": "jmce.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

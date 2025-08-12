@@ -1,0 +1,53 @@
+{
+  "slug": "circuit",
+  "extension": "circuit",
+  "name": "KTechlab Circuit Design File",
+  "category": "ktechlab-circuit-design-file",
+  "developer_org": "ktechlab",
+  "popularity": {
+    "rating": 4.4,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "XML-formatted circuit design file created by KTechlab, a Linux KDE program used for diagramming microcontrollers and other electronics; stores descriptions of electronic components, connections, and the circuit layout.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "linux": [
+      {
+        "software": "ktechlab",
+        "display_name": "KTechlab"
+      }
+    ],
+    "windows": [
+      {
+        "software": "ktechlab",
+        "display_name": "KTechlab"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-04-01",
+  "sources": [
+    {
+      "url": "circuit.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

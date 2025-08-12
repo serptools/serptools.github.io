@@ -1,0 +1,75 @@
+{
+  "slug": "dmp",
+  "extension": "dmp",
+  "name": "Windows Memory Dump",
+  "category": "1.-windows-memory-dump",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 4.2,
+    "votes": 535,
+    "source": "fileinfo"
+  },
+  "summary": "A DMP file is a file that contains data \"dumped\" from a program's memory space. It is often created when a program has an error or crashes and may also be saved by the program \"Savedump.exe\" on the first reboot after a crash. DMP files are usually named \"Memory.dmp.\"",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "windows-debug-tools",
+        "display_name": "Windows Debug Tools"
+      },
+      {
+        "software": "microsoft-visual-studio-2022",
+        "display_name": "Microsoft Visual Studio 2022"
+      },
+      {
+        "software": "nirsoft-bluescreenview",
+        "display_name": "NirSoft BlueScreenView"
+      },
+      {
+        "software": "luma_3ds_exception_dump_parser-crash_dump_-.dmp",
+        "display_name": "luma_3ds_exception_dump_parser crash_dump_#.dmp"
+      },
+      {
+        "software": "luma3ds-exception-parser",
+        "display_name": "Luma3DS exception parser"
+      }
+    ],
+    "macos": [
+      {
+        "software": "luma3ds-exception-parser",
+        "display_name": "Luma3DS exception parser"
+      }
+    ],
+    "linux": [
+      {
+        "software": "luma3ds-exception-parser",
+        "display_name": "Luma3DS exception parser"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-08-09",
+  "sources": [
+    {
+      "url": "dmp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

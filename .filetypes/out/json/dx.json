@@ -1,0 +1,47 @@
+{
+  "slug": "dx",
+  "extension": "dx",
+  "name": "DEC WPS Plus File",
+  "category": "dec-wps-plus-file",
+  "developer_org": "digital-equipment-corporation",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "A DX file is a document created by DEC WPS Plus, a DOS word processing program. It contains a document saved in plain text. DX files can be opened by any text editor.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "dec-wps-plus",
+        "display_name": "DEC WPS Plus"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-04-28",
+  "sources": [
+    {
+      "url": "dx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

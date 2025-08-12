@@ -1,0 +1,131 @@
+{
+  "slug": "sldprt",
+  "extension": "sldprt",
+  "name": "SolidWorks Part",
+  "category": "solidworks-part",
+  "developer_org": "dassault-systemes",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 60,
+    "source": "fileinfo"
+  },
+  "summary": "An SLDPRT file is a 3D model created by Dassault Systemes SolidWorks, a popular CAD program. It represents a part of a manufactured item. SolidWorks users combine SLDPRT files to create 3D assemblies, saved as .SLDASM files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "ptc-onshape",
+        "display_name": "PTC Onshape"
+      },
+      {
+        "software": "dassault-systemes-solidworks",
+        "display_name": "Dassault Systemes SolidWorks"
+      },
+      {
+        "software": "dassault-systemes-solidworks-edrawings-viewer",
+        "display_name": "Dassault Systemes SolidWorks eDrawings Viewer"
+      },
+      {
+        "software": "autodesk-fusion-360",
+        "display_name": "Autodesk Fusion 360"
+      },
+      {
+        "software": "adobe-acrobat-dc",
+        "display_name": "Adobe Acrobat DC"
+      },
+      {
+        "software": "okino-computer-graphics-polytrans",
+        "display_name": "Okino Computer Graphics PolyTrans"
+      },
+      {
+        "software": "cadsofttools-cst-cad-navigator",
+        "display_name": "CADSoftTools CST CAD Navigator"
+      }
+    ],
+    "macos": [
+      {
+        "software": "dassault-systemes-solidworks",
+        "display_name": "Dassault Systemes SolidWorks"
+      },
+      {
+        "software": "dassault-systemes-solidworks-edrawings-viewer",
+        "display_name": "Dassault Systemes SolidWorks eDrawings Viewer"
+      },
+      {
+        "software": "autodesk-fusion-360",
+        "display_name": "Autodesk Fusion 360"
+      },
+      {
+        "software": "cadsofttools-cst-cad-navigator",
+        "display_name": "CADSoftTools CST CAD Navigator"
+      }
+    ],
+    "linux": [
+      {
+        "software": "cadsofttools-cst-cad-navigator",
+        "display_name": "CADSoftTools CST CAD Navigator"
+      }
+    ],
+    "web": [
+      {
+        "software": "dassault-systemes-solidworks",
+        "display_name": "Dassault Systemes SolidWorks"
+      },
+      {
+        "software": "autodesk-fusion-360",
+        "display_name": "Autodesk Fusion 360"
+      }
+    ],
+    "ios": [
+      {
+        "software": "autodesk-fusion-360",
+        "display_name": "Autodesk Fusion 360"
+      },
+      {
+        "software": "dassault-systemes-solidworks-edrawings-viewer",
+        "display_name": "Dassault Systemes SolidWorks eDrawings Viewer"
+      }
+    ],
+    "android": [
+      {
+        "software": "autodesk-fusion-360",
+        "display_name": "Autodesk Fusion 360"
+      },
+      {
+        "software": "dassault-systemes-solidworks-edrawings-viewer",
+        "display_name": "Dassault Systemes SolidWorks eDrawings Viewer"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "SLDPRT file open in Dassault Systemes SolidWorks Premium 2022",
+      "alt": "SLDPRT file open in Dassault Systemes SolidWorks Premium 2022",
+      "source_url": "https://fileinfo.com/img/ss/md/sldprt_2340.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-06-14",
+  "sources": [
+    {
+      "url": "sldprt.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

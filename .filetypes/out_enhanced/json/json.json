@@ -1,0 +1,35 @@
+{
+  "slug": "json",
+  "extension": "json",
+  "name": "JavaScript Object Notation File",
+  "category": "javascript-object-notation-file",
+  "summary": "",
+  "developer_org": "douglas-crockford",
+  "developer_name": "Douglas Crockford",
+  "more_information": {
+    "screenshot": {
+      "url": "https://fileinfo.com/img/ss/sm/json_3098.png",
+      "alt": "Screenshot of a .json file in GitHub Atom",
+      "caption": "JSON file open in GitHub Atom"
+    },
+    "description": [
+      "The JSON format was originally based on a subset of JavaScript but is considered a language-independent format, being supported by many different programming APIs . JSON is commonly used in Ajax Web application programming. It is becoming increasingly popular as an alternative to XML .",
+      "While many applications use JSON for data interchange, they may not actually save .json files on the hard drive since the data interchange occurs between Internet-connected computers. However, some applications do enable users to save .json files. One example is Google+, which uses JSON files for saving Profile data. After logging in, you can choose the \"Data liberation\" page and select \"Download your Profile data.\"",
+      "Mozilla Firefox saves bookmark backups using JSON files. The files are saved to the Firefox user profile directory within a folder called bookmarkbackups . You can also make manual backups of Firefox bookmarks and import them into a different copy of Firefox. To import, open the bookmark Library, click the import/export button in the top bar, choose Restore → Choose File... , and then select your JSON backup file."
+    ]
+  },
+  "images": [
+    {
+      "url": "https://fileinfo.com/img/ss/sm/json_3098.png",
+      "alt": "Screenshot of a .json file in GitHub Atom",
+      "caption": "JSON file open in GitHub Atom"
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "json.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

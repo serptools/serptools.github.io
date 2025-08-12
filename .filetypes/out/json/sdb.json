@@ -1,0 +1,115 @@
+{
+  "slug": "sdb",
+  "extension": "sdb",
+  "name": "SAP2000 Model File",
+  "category": "1.-sap2000-model-file",
+  "developer_org": "computers-structures",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 59,
+    "source": "fileinfo"
+  },
+  "summary": "An SDB file is a 3D model created with SAP2000, a structural analysis and design program. It contains structural model definitions, material and section properties, static and/or dynamic analysis parameters, and design data.",
+  "standards": [],
+  "mime_types": [
+    "and/or"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "computers-structures-sap2000",
+        "display_name": "Computers & Structures SAP2000"
+      },
+      {
+        "software": "microsoft-compatibility-database-installer-tool",
+        "display_name": "Microsoft Compatibility Database Installer Tool"
+      },
+      {
+        "software": "integrated-data-processing-serverboss",
+        "display_name": "Integrated Data Processing ServerBoss"
+      },
+      {
+        "software": "openoffice-base",
+        "display_name": "OpenOffice Base"
+      },
+      {
+        "software": "oracle-staroffice",
+        "display_name": "Oracle StarOffice"
+      },
+      {
+        "software": "prosaldo-monkey-office",
+        "display_name": "ProSaldo MonKey Office"
+      },
+      {
+        "software": "sparkledb",
+        "display_name": "SparkleDB"
+      }
+    ],
+    "web": [
+      {
+        "software": "web-browser",
+        "display_name": "Web browser"
+      },
+      {
+        "software": "run-on-a-socialdecks-web-server",
+        "display_name": "Run on a SocialDecks Web server"
+      }
+    ],
+    "macos": [
+      {
+        "software": "openoffice-base",
+        "display_name": "OpenOffice Base"
+      },
+      {
+        "software": "oracle-staroffice",
+        "display_name": "Oracle StarOffice"
+      },
+      {
+        "software": "prosaldo-monkey-office",
+        "display_name": "ProSaldo MonKey Office"
+      },
+      {
+        "software": "sparkledb",
+        "display_name": "SparkleDB"
+      }
+    ],
+    "linux": [
+      {
+        "software": "openoffice-base",
+        "display_name": "OpenOffice Base"
+      },
+      {
+        "software": "oracle-staroffice",
+        "display_name": "Oracle StarOffice"
+      },
+      {
+        "software": "sparkledb",
+        "display_name": "SparkleDB"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-10-19",
+  "sources": [
+    {
+      "url": "sdb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

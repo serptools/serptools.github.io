@@ -1,0 +1,53 @@
+{
+  "slug": "tne",
+  "extension": "tne",
+  "name": "Manga Studio Tone File",
+  "category": "manga-studio-tone-file",
+  "developer_org": "celsys",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "A TNE file is a graphic file used by Manga Studio, an application used for creating comic books. It stores a pattern that can texturize a fill area, such as clothing, shadows, hair, or other drawn objects. TNE files can be applied to a Tone layer in a Manga drawing.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "celsys-clip-studio-paint-pro",
+        "display_name": "CELSYS Clip Studio Paint Pro"
+      }
+    ],
+    "macos": [
+      {
+        "software": "celsys-clip-studio-paint-pro",
+        "display_name": "CELSYS Clip Studio Paint Pro"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-04-19",
+  "sources": [
+    {
+      "url": "tne.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "slug": "mdc",
+  "extension": "mdc",
+  "name": "Multi Dimension Cube File",
+  "category": "1.-multi-dimension-cube-file",
+  "developer_org": "cognos",
+  "popularity": {
+    "rating": 2.8,
+    "votes": 17,
+    "source": "fileinfo"
+  },
+  "summary": "Stores multi-dimensional \"cube data\" used by Cognos business analytics software; organizes information into various dimensions, which allows data to be retrieved and processed quickly and efficiently; also referred to as a PowerPlay cube.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "cognos-software",
+        "display_name": "Cognos software"
+      },
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "libraw",
+        "display_name": "LibRaw"
+      },
+      {
+        "software": "merkaartor",
+        "display_name": "Merkaartor"
+      },
+      {
+        "software": "blender",
+        "display_name": "Blender"
+      },
+      {
+        "software": "rtcw-et-blender-model-tools",
+        "display_name": "RtCW:ET Blender Model Tools"
+      },
+      {
+        "software": "bethesda-softworks-return-to-castle-wolfenstein",
+        "display_name": "Bethesda Softworks Return to Castle Wolfenstein"
+      },
+      {
+        "software": "bethesda-softworks-wolfenstein-enemy-territory",
+        "display_name": "Bethesda Softworks Wolfenstein: Enemy Territory"
+      }
+    ],
+    "linux": [
+      {
+        "software": "cognos-software",
+        "display_name": "Cognos software"
+      },
+      {
+        "software": "libraw",
+        "display_name": "LibRaw"
+      },
+      {
+        "software": "merkaartor",
+        "display_name": "Merkaartor"
+      },
+      {
+        "software": "blender",
+        "display_name": "Blender"
+      },
+      {
+        "software": "rtcw-et-blender-model-tools",
+        "display_name": "RtCW:ET Blender Model Tools"
+      }
+    ],
+    "macos": [
+      {
+        "software": "ggs-midico",
+        "display_name": "GGS MidiCo"
+      },
+      {
+        "software": "merkaartor",
+        "display_name": "Merkaartor"
+      },
+      {
+        "software": "blender",
+        "display_name": "Blender"
+      },
+      {
+        "software": "rtcw-et-blender-model-tools",
+        "display_name": "RtCW:ET Blender Model Tools"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2007-01-27",
+  "sources": [
+    {
+      "url": "mdc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

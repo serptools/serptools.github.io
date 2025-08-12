@@ -1,0 +1,52 @@
+{
+  "slug": "mwf",
+  "extension": "mwf",
+  "name": "MapGuide Author Map Window File",
+  "category": "1.-mapguide-author-map-window-file",
+  "developer_org": "autodesk",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "File created by MapGuide Author, a program used to design maps using CAD and GIS data; contains map descriptions, such as name, styles, colors, layer settings, and a source data server address; used for storing map configurations and for contacting Autodesk MapGuide servers to download and display map data.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "autodesk-infrastructure-map-server",
+        "display_name": "Autodesk Infrastructure Map Server",
+        "status": "discontinued"
+      },
+      {
+        "software": "sdl-trados",
+        "display_name": "SDL Trados"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-07-02",
+  "sources": [
+    {
+      "url": "mwf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "ydc",
+  "extension": "ydc",
+  "name": "Yu-Gi-Oh! Card Deck File",
+  "category": "yu-gi-oh-card-deck-file",
+  "developer_org": "konami",
+  "popularity": {
+    "rating": 4.3,
+    "votes": 74,
+    "source": "fileinfo"
+  },
+  "summary": "File used by Yu-Gi-Oh! Power of Chaos, a fantasy trading card game adapted for computers; contains a card deck that has been created by a game user; allows users to save and load different assortments of card decks for game play.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "konami-yu-gi-oh-power-of-chaos",
+        "display_name": "Konami Yu-Gi-Oh! Power of Chaos"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-12-28",
+  "sources": [
+    {
+      "url": "ydc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "slug": "sjr",
+  "extension": "sjr",
+  "name": "ScratchJr Project File",
+  "category": "scratchjr-project-file",
+  "developer_org": "mit",
+  "popularity": {
+    "rating": 4.7,
+    "votes": 27,
+    "source": "fileinfo"
+  },
+  "summary": "An SJR file is a project created by ScratchJr, an app used to help young children learn how to program interactive games and stories. It is a Zip-compressed archive that contains various resource files, such as .WAV sound files, .PNG thumbnails, and data .JSON files. SJR files are used to create stories, small games, and animations.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "scratchjr",
+        "display_name": "ScratchJr"
+      }
+    ],
+    "macos": [
+      {
+        "software": "scratchjr",
+        "display_name": "ScratchJr"
+      }
+    ],
+    "ios": [
+      {
+        "software": "scratchjr",
+        "display_name": "ScratchJr"
+      }
+    ],
+    "android": [
+      {
+        "software": "scratchjr",
+        "display_name": "ScratchJr"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-06-04",
+  "sources": [
+    {
+      "url": "sjr.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

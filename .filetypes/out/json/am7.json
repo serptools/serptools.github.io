@@ -1,0 +1,53 @@
+{
+  "slug": "am7",
+  "extension": "am7",
+  "name": "AutoPlay Media Studio 7 Project",
+  "category": "autoplay-media-studio-7-project",
+  "developer_org": "indigo-rose",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "An AM7 file is a project file created with AutoPlay Media Studio 7, a Windows-based development tool used to build interactive software without advanced programming knowledge. It stores all the data needed for the project, including the layout of user interface pages, embedded media (like images and audio), and scripting actions that define how the application behaves. AM7 files also reference external resources saved in a folder, typically named CD_Root , that is stored alongside the project file.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "indigo-rose-autoplay-media-studio",
+        "display_name": "Indigo Rose AutoPlay Media Studio"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "AM7 file open in Indigo Rose AutoPlay Media Studio 9",
+      "alt": "AM7 file open in Indigo Rose AutoPlay Media Studio 9",
+      "source_url": "https://fileinfo.com/img/ss/md/am7_3129.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2025-07-17",
+  "sources": [
+    {
+      "url": "am7.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

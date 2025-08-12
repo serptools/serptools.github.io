@@ -1,0 +1,75 @@
+{
+  "slug": "zmbx",
+  "extension": "zmbx",
+  "name": "Mecabricks Zip-Compressed 3D Scene",
+  "category": "mecabricks-zip-compressed-3d-scene",
+  "developer_org": "mecabricks",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "A ZMBX file is a Zip-compressed 3D scene exported by Mecabricks, a web app for designing scenes with LEGO bricks. It contains an .MBX file that stores information about a model, including its points, positions, and textures, and its scene. LEGO enthusiasts often create scenes with Mecabricks, export them as ZMBX files, and then import them into Blender to illustrate and animate them further.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "blender-with-the-blender-lite-plugin",
+        "display_name": "Blender with the Blender Lite plugin"
+      },
+      {
+        "software": "mecabricks",
+        "display_name": "Mecabricks"
+      }
+    ],
+    "macos": [
+      {
+        "software": "blender-with-the-blender-lite-plugin",
+        "display_name": "Blender with the Blender Lite plugin"
+      }
+    ],
+    "linux": [
+      {
+        "software": "blender-with-the-blender-lite-plugin",
+        "display_name": "Blender with the Blender Lite plugin"
+      }
+    ],
+    "web": [
+      {
+        "software": "mecabricks",
+        "display_name": "Mecabricks"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "ZMBX file open in Mecabricks",
+      "alt": "ZMBX file open in Mecabricks",
+      "source_url": "https://fileinfo.com/img/ss/md/zmbx_13660.jpg"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2024-03-06",
+  "sources": [
+    {
+      "url": "zmbx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

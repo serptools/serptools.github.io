@@ -1,0 +1,29 @@
+{
+  "slug": "defs",
+  "extension": "defs",
+  "name": "BlueJ Settings File",
+  "category": "bluej-settings-file",
+  "summary": "",
+  "developer_org": "university-of-kent",
+  "developer_name": "University of Kent",
+  "more_information": {
+    "description": [
+      "There are two ways to change BlueJ configuration settings:",
+      "Once you open a DEFS file, it will contain a list of properties in the following format: property-name = value",
+      "The property name should never be changed but the values can be changed to alter the configuration."
+    ]
+  },
+  "common_filenames": [
+    {
+      "filename": "bluej.defs",
+      "description": "bluej.defs - The default settings file located in the BlueJ program."
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "defs.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "gadget",
+  "extension": "gadget",
+  "name": "Windows Gadget",
+  "category": "windows-gadget",
+  "summary": "",
+  "developer_org": "microsoft",
+  "developer_name": "Microsoft",
+  "more_information": {
+    "description": [
+      "Other types of gadgets include web gadgets and SideShow gadgets. Web gadgets can be placed on webpages, while SideShow gadgets run on mobile phones, digital picture frames, and other devices.",
+      "If you install a user-level Windows gadget, the installation files are placed in the following directory:",
+      "[user]\\​AppData\\​Local\\​Microsoft\\​Windows Sidebar\\​Gadgets\\​",
+      "The default Windows gadgets are installed to the following directories:",
+      "C:\\​Program Files\\​Windows Sidebar\\​Shared Gadgets\\​",
+      "C:\\​Program Files\\​Windows Sidebar\\​Gadgets\\​",
+      "Formerly, gadgets could be downloaded from the Windows Live Gallery, but Microsoft discontinued the gallery service.",
+      "NOTE: Since GADGET files are stored in a .ZIP format, you can rename their file extension to \".zip\" and open them with any Zip-compatible decompression utility."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "gadget.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

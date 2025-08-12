@@ -1,0 +1,79 @@
+{
+  "slug": "mba",
+  "extension": "mba",
+  "name": "MailNavigator Mail Box Archive",
+  "category": "1.-mailnavigator-mail-box-archive",
+  "developer_org": "mailnavigator",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "An MBA file is a data archive created by MailNavigator, an email and news client for Windows. It contains all of the information about a mailbox, which may include sent and received messages, message filter settings, and address book contacts. MBA files are used to store a backup of mailboxes that can be shared with other MailNavigator users or used to restore corrupt mailboxes.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "mailnavigator",
+        "display_name": "MailNavigator"
+      },
+      {
+        "software": "benetech-martus",
+        "display_name": "Benetech Martus"
+      },
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      },
+      {
+        "software": "inclusive-technology-myboard",
+        "display_name": "Inclusive Technology MyBoard"
+      }
+    ],
+    "macos": [
+      {
+        "software": "benetech-martus",
+        "display_name": "Benetech Martus"
+      }
+    ],
+    "linux": [
+      {
+        "software": "benetech-martus",
+        "display_name": "Benetech Martus"
+      }
+    ],
+    "android": [
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-10-07",
+  "sources": [
+    {
+      "url": "mba.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

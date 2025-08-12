@@ -1,0 +1,85 @@
+{
+  "slug": "bpg",
+  "extension": "bpg",
+  "name": "Better Portable Graphics Image",
+  "category": "1.-better-portable-graphics-image",
+  "developer_org": "fabrice-bellard",
+  "popularity": {
+    "rating": 4.1,
+    "votes": 87,
+    "source": "fileinfo"
+  },
+  "summary": "A BPG file is a raster image saved in the Better Portable Graphics (BPG) format. It contains an image that is similar in quality to a .JPEG . However, because the BPG format uses more efficient file compression, BPG images typically have smaller file sizes than similar-quality JPEGs.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      },
+      {
+        "software": "bpgviewer",
+        "display_name": "BPGviewer"
+      },
+      {
+        "software": "simple-bpg-image-viewer",
+        "display_name": "Simple BPG Image viewer"
+      },
+      {
+        "software": "embarcadero-delphi",
+        "display_name": "Embarcadero Delphi"
+      }
+    ],
+    "macos": [
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      },
+      {
+        "software": "simple-bpg-image-viewer",
+        "display_name": "Simple BPG Image viewer"
+      }
+    ],
+    "linux": [
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      },
+      {
+        "software": "simple-bpg-image-viewer",
+        "display_name": "Simple BPG Image viewer"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "BPG file open in XnViewMP",
+      "alt": "BPG file open in XnViewMP",
+      "source_url": "https://fileinfo.com/img/ss/md/bpg_9820.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-02-27",
+  "sources": [
+    {
+      "url": "bpg.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

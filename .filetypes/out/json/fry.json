@@ -1,0 +1,49 @@
+{
+  "slug": "fry",
+  "extension": "fry",
+  "name": "fryrender Scene File",
+  "category": "fryrender-scene-file",
+  "developer_org": "randomcontrol",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "3D scene file created by fryrender, a program used for photorealistic light rendering; contains a 3D scene that was exported from a modeling program such as 3ds Max (with the fryrender plug-in); can be processed into a .DSI spectral map file, which then is used to produce the final rendered image.",
+  "standards": [],
+  "mime_types": [
+    "softimage/xsi"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "randomcontrol-fryrender",
+        "display_name": "RandomControl fryrender"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-09-20",
+  "sources": [
+    {
+      "url": "fry.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

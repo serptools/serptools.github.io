@@ -1,0 +1,53 @@
+{
+  "slug": "nb0",
+  "extension": "nb0",
+  "name": "Device Boot Loader Image",
+  "category": "device-boot-loader-image",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 10,
+    "source": "fileinfo"
+  },
+  "summary": "System file used to \"flash\" a boot loader image onto a mobile device; contains a raw binary image that can be loaded directly into the target device's RAM; allows the device to boot and then load a separate formatted image; can be used to alter system data such as the default operating system and applications.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-windows-ce-device-emulator",
+        "display_name": "Microsoft Windows CE Device Emulator"
+      },
+      {
+        "software": "software-update-tool-lr",
+        "display_name": "Software Update Tool LR"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-02-11",
+  "sources": [
+    {
+      "url": "nb0.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

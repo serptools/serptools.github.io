@@ -1,0 +1,47 @@
+{
+  "slug": "mtp",
+  "extension": "mtp",
+  "name": "MadTracker 2 Pattern",
+  "category": "madtracker-2-pattern",
+  "developer_org": "yannick-delwiche",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 12,
+    "source": "fileinfo"
+  },
+  "summary": "An MTP file is a pattern created by MadTracker 2, an audio tracking program. It contains a song pattern that can be applied to a track in the .MT2 module. MTP files can be opened through the Pattern menu in the MadTracker interface.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "madtracker-2",
+        "display_name": "MadTracker 2"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-04-28",
+  "sources": [
+    {
+      "url": "mtp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

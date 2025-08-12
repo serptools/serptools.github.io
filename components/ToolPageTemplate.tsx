@@ -1,0 +1,110 @@
+"use client";
+
+import HeroConverter from "@/components/HeroConverter";
+import { Navbar } from "@/components/Navbar";
+import { VideoSection } from "@/components/sections/VideoSection";
+import { AboutFormatsSection } from "@/components/sections/AboutFormatsSection";
+import { FAQSection } from "@/components/sections/FAQSection";
+import { ToolsLinkHub } from "@/components/sections/ToolsLinkHub";
+import { BlogSection } from "@/components/sections/BlogSection";
+import { ChangelogSection } from "@/components/sections/ChangelogSection";
+
+type ToolInfo = {
+  title: string;
+  subtitle: string;
+  from: string;
+  to: string;
+  accept?: string;
+};
+
+type ToolPageProps = {
+  tool: ToolInfo;
+  videoSection?: {
+    embedId?: string;
+  };
+  faqs?: Array<{
+    question: string;
+    answer: string;
+  }>;
+  aboutSection?: {
+    title?: string;
+    fromFormat: {
+      name: string;
+      fullName: string;
+      description: string;
+      details?: string[];
+    };
+    toFormat: {
+      name: string;
+      fullName: string;
+      description: string;
+      details?: string[];
+    };
+  };
+  changelog?: Array<{
+    date: string;
+    changes: string[];
+  }>;
+  relatedTools?: Array<{
+    title: string;
+    href: string;
+  }>;
+  blogPosts?: Array<{
+    title: string;
+    subtitle: string;
+    description: string;
+    href: string;
+    category?: string;
+    image?: string;
+  }>;
+};
+
+export default function ToolPageTemplate({
+  tool,
+  videoSection,
+  faqs,
+  aboutSection,
+  changelog,
+  relatedTools,
+  blogPosts,
+}: ToolPageProps) {
+  return (
+    <>
+      <Navbar />
+      <main className="min-h-screen bg-background">
+        {/* Hero Section with Tool */}
+        <HeroConverter
+          title={tool.title}
+          subtitle={tool.subtitle}
+          from={tool.from}
+          to={tool.to}
+          accept={tool.accept}
+        />
+
+        {/* Video Section */}
+        {videoSection && <VideoSection embedId={videoSection.embedId} />}
+
+        {/* About the Formats Section */}
+        {aboutSection && (
+          <AboutFormatsSection
+            title={aboutSection.title}
+            fromFormat={aboutSection.fromFormat}
+            toFormat={aboutSection.toFormat}
+          />
+        )}
+
+        {/* FAQs Section */}
+        {faqs && <FAQSection faqs={faqs} />}
+
+        {/* Blog Articles Section */}
+        {blogPosts && <BlogSection blogPosts={blogPosts} />}
+
+        {/* Changelog Section */}
+        {changelog && <ChangelogSection changelog={changelog} />}
+
+        {/* Related Tools Link Hub */}
+        <ToolsLinkHub relatedTools={relatedTools} />
+      </main>
+    </>
+  );
+}

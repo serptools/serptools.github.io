@@ -1,0 +1,63 @@
+{
+  "slug": "j6i",
+  "extension": "j6i",
+  "name": "Ricoh Camera Image File",
+  "category": "ricoh-camera-image-file",
+  "developer_org": "ricoh",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 10,
+    "source": "fileinfo"
+  },
+  "summary": "A digital image captured by Ricoh digital cameras, such as the RDC-2 and RDC-7 models; based off the JPEG format but is supported by few image editing programs.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      },
+      {
+        "software": "sagethumbs",
+        "display_name": "SageThumbs"
+      }
+    ],
+    "macos": [
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      }
+    ],
+    "linux": [
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-06-10",
+  "sources": [
+    {
+      "url": "j6i.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

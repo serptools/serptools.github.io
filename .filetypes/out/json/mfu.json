@@ -1,0 +1,47 @@
+{
+  "slug": "mfu",
+  "extension": "mfu",
+  "name": "MobileFrame Update File",
+  "category": "mobileframe-update-file",
+  "developer_org": "mobileframe",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "File used by MobileFrame Desktop, an administration application for MobileFrame mobile application deployments; contains the information required to update all components of the MobileFrame system to a newer version of the software.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "mobileframe-desktop",
+        "display_name": "MobileFrame Desktop"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-02-07",
+  "sources": [
+    {
+      "url": "mfu.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

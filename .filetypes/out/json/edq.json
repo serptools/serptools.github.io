@@ -1,0 +1,49 @@
+{
+  "slug": "edq",
+  "extension": "edq",
+  "name": "Ensoniq SQ1/SQ2/KS32 Disk Image",
+  "category": "ensoniq-sq1-sq2-ks32-disk-image",
+  "developer_org": "ensoniq",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Copy of a disk formatted for an Ensoniq SQ1, SQ2, or KS32 music keyboard; can be copied to a disk and loaded on an Ensoniq keyboard; may also be opened and read on a PC using a utility like Chicken Systems Ensoniq Disk Tools.",
+  "standards": [],
+  "mime_types": [
+    "sq1/sq2"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "chicken-systems-ensoniq-disk-tools",
+        "display_name": "Chicken Systems Ensoniq Disk Tools"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-08-08",
+  "sources": [
+    {
+      "url": "edq.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

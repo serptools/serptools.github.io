@@ -1,0 +1,55 @@
+{
+  "slug": "oar",
+  "extension": "oar",
+  "name": "OpenSimulator Archive",
+  "category": "opensimulator-archive",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "Archive created by OpenSimulator, also known as \"OpenSim,\" an open source 3D application server used for creating virtual environments accessible over a network; contains \"prims,\" or items, and all asset data necessary to fully load the terrain, object textures, and their inventories on a different system.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "opensimulator",
+        "display_name": "OpenSimulator"
+      }
+    ],
+    "linux": [
+      {
+        "software": "opensimulator",
+        "display_name": "OpenSimulator"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-01-25",
+  "sources": [
+    {
+      "url": "oar.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

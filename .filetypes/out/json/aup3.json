@@ -1,0 +1,70 @@
+{
+  "slug": "aup3",
+  "extension": "aup3",
+  "name": "Audacity 3 Project File",
+  "category": "audacity-3-project-file",
+  "developer_org": "audacity",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 30,
+    "source": "fileinfo"
+  },
+  "summary": "An AUP3 file is an audio project created by Audacity, a free audio recording and editing program. It contains project information saved in an SQLite 3 database, including project settings, metadata, and all audio files used by the project. AUP3 files are created by Audacity 3 and later.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "audacity",
+        "display_name": "Audacity"
+      }
+    ],
+    "macos": [
+      {
+        "software": "audacity",
+        "display_name": "Audacity"
+      }
+    ],
+    "linux": [
+      {
+        "software": "audacity",
+        "display_name": "Audacity"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "AUP3 file icon",
+      "alt": "AUP3 file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/aup3-11971.png"
+    },
+    {
+      "caption": "AUP3 file open in Audacity 3.2",
+      "alt": "AUP3 file open in Audacity 3.2",
+      "source_url": "https://fileinfo.com/img/ss/md/aup3_11971-2.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-10-05",
+  "sources": [
+    {
+      "url": "aup3.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

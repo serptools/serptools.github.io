@@ -1,0 +1,79 @@
+{
+  "slug": "dws",
+  "extension": "dws",
+  "name": "AutoCAD Drawing Standards File",
+  "category": "1.-autocad-drawing-standards-file",
+  "developer_org": "autodesk",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "Drawing verification file used by AutoCAD, a 3D design and engineering CAD application; contains properties that must be conformed to in another drawing; used for defining drawing standards and for detecting violations during the checking process; can be used to specify standards for layer properties, dimension styles, linetypes, and text styles.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "autodesk-autocad-2025",
+        "display_name": "Autodesk AutoCAD 2025"
+      },
+      {
+        "software": "corelcad-2023",
+        "display_name": "CorelCAD 2023"
+      },
+      {
+        "software": "adobe-dreamweaver-2021",
+        "display_name": "Adobe Dreamweaver 2021"
+      },
+      {
+        "software": "dyalog",
+        "display_name": "Dyalog"
+      }
+    ],
+    "macos": [
+      {
+        "software": "corelcad-2023",
+        "display_name": "CorelCAD 2023"
+      },
+      {
+        "software": "adobe-dreamweaver-2021",
+        "display_name": "Adobe Dreamweaver 2021"
+      },
+      {
+        "software": "dyalog",
+        "display_name": "Dyalog"
+      }
+    ],
+    "linux": [
+      {
+        "software": "dyalog",
+        "display_name": "Dyalog"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-09-08",
+  "sources": [
+    {
+      "url": "dws.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

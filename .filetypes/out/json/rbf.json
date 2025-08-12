@@ -1,0 +1,79 @@
+{
+  "slug": "rbf",
+  "extension": "rbf",
+  "name": "LEGO MINDSTORMS EV3 Robot Brick File",
+  "category": "1.-lego-mindstorms-ev3-robot-brick-file",
+  "developer_org": "the-lego-group",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "An RBF file is an executable file used by the EV3 Intelligent Brick, which is a device used to control LEGO MINDSTORMS EV3 robots. It stores an EV3 Basic program, which is used to make a robot perform a function. RBF files are compiled by the built-in compiler in EV3 Explorer and executed directly on the EV3 Intelligent Brick.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "executed-on-the-ev3-intelligent-brick.",
+        "display_name": "Executed on the EV3 Intelligent Brick."
+      },
+      {
+        "software": "microsoft-windows-installer",
+        "display_name": "Microsoft Windows Installer"
+      },
+      {
+        "software": "stellar-insta-backup-gold",
+        "display_name": "Stellar Insta Backup Gold"
+      },
+      {
+        "software": "celade-redatam",
+        "display_name": "CELADE REDATAM"
+      },
+      {
+        "software": "emc-insignia-retrospect",
+        "display_name": "EMC Insignia Retrospect"
+      }
+    ],
+    "macos": [
+      {
+        "software": "executed-on-the-ev3-intelligent-brick.",
+        "display_name": "Executed on the EV3 Intelligent Brick."
+      },
+      {
+        "software": "emc-insignia-retrospect",
+        "display_name": "EMC Insignia Retrospect"
+      }
+    ],
+    "linux": [
+      {
+        "software": "executed-on-the-ev3-intelligent-brick.",
+        "display_name": "Executed on the EV3 Intelligent Brick."
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-06-04",
+  "sources": [
+    {
+      "url": "rbf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

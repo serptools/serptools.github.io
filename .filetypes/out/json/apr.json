@@ -1,0 +1,81 @@
+{
+  "slug": "apr",
+  "extension": "apr",
+  "name": "ArcView Project File",
+  "category": "1.-arcview-project-file",
+  "developer_org": "esri",
+  "popularity": {
+    "rating": 2.5,
+    "votes": 14,
+    "source": "fileinfo"
+  },
+  "summary": "Mapping project created with ArcView, a GIS (Geographical Information System) program for visualizing, managing, creating, and analyzing geographic data; saved as an Object Database in a standard text format.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "esri-arcgis-for-desktop",
+        "display_name": "ESRI ArcGIS for Desktop"
+      },
+      {
+        "software": "tatukgis-viewer",
+        "display_name": "TatukGIS Viewer"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "file-publish-settings",
+        "display_name": "File → Publish Settings"
+      },
+      {
+        "software": "export-profile...",
+        "display_name": "Export profile..."
+      },
+      {
+        "software": "import-profile...",
+        "display_name": "Import profile..."
+      },
+      {
+        "software": "adobe-animate-2023",
+        "display_name": "Adobe Animate 2023"
+      },
+      {
+        "software": "javid-software-development-apadana",
+        "display_name": "Javid Software Development Apadana"
+      }
+    ],
+    "macos": [
+      {
+        "software": "adobe-animate-2023",
+        "display_name": "Adobe Animate 2023"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2008-11-13",
+  "sources": [
+    {
+      "url": "apr.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

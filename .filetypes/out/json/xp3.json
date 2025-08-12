@@ -1,0 +1,51 @@
+{
+  "slug": "xp3",
+  "extension": "xp3",
+  "name": "KiriKiri Package File",
+  "category": "kirikiri-package-file",
+  "developer_org": "kirikiri",
+  "popularity": {
+    "rating": 4.3,
+    "votes": 23,
+    "source": "fileinfo"
+  },
+  "summary": "File used by KiriKiri, a Japanese scripting engine often used to create visual novels; stores resource files that may contain text, images, audio, and other data; used for packaging game resources that are loaded during gameplay.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "insani-xp3-kirikiri-tools",
+        "display_name": "insani XP3 / Kirikiri tools"
+      },
+      {
+        "software": "garbro",
+        "display_name": "GARbro"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-12-22",
+  "sources": [
+    {
+      "url": "xp3.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

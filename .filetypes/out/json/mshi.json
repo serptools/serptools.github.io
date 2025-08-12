@@ -1,0 +1,51 @@
+{
+  "slug": "mshi",
+  "extension": "mshi",
+  "name": "Microsoft Help Index File",
+  "category": "microsoft-help-index-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "Help documentation file created in the MS Help Viewer 1.x index format; saves a topical index that is used for browsing and searching the help documentation; used by software developers when authoring the help topics for their software titles.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "the-helpware-group-far",
+        "display_name": "The Helpware Group FAR"
+      },
+      {
+        "software": "microsoft-visual-studio-2022",
+        "display_name": "Microsoft Visual Studio 2022"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2013-04-23",
+  "sources": [
+    {
+      "url": "mshi.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

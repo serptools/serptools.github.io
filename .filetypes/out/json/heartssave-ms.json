@@ -1,0 +1,47 @@
+{
+  "slug": "heartssave-ms",
+  "extension": "heartssave-ms",
+  "name": "Microsoft Hearts Save File",
+  "category": "microsoft-hearts-save-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 10,
+    "source": "fileinfo"
+  },
+  "summary": "Saved game file created by Microsoft Hearts, a cards game included with Windows; saves the cards in each player's hand as well as the number of tricks won; allows the player to continue where he left off last.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-hearts",
+        "display_name": "Microsoft Hearts"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-12-28",
+  "sources": [
+    {
+      "url": "heartssave-ms.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

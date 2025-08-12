@@ -1,0 +1,66 @@
+{
+  "slug": "cidb",
+  "extension": "cidb",
+  "name": "iTunes CD Information File",
+  "category": "itunes-cd-information-file",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "Contains information about CDs that have been loaded using iTunes; includes album and track names downloaded from the CDDB (Compact Disc Database) as well as CD and track name for CDs that are burned by the user; named \"CD Info.cidb\" by default.",
+  "standards": [],
+  "mime_types": [
+    "appdata/roaming",
+    "computer/itunes",
+    "library/preferences",
+    "users/username"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "apple-itunes",
+        "display_name": "Apple iTunes",
+        "status": "discontinued"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-itunes",
+        "display_name": "Apple iTunes",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "CIDB file icon",
+      "alt": "CIDB file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/cidb-2812.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-08-31",
+  "sources": [
+    {
+      "url": "cidb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "slug": "dru",
+  "extension": "dru",
+  "name": "EAGLE Design Rules",
+  "category": "eagle-design-rules",
+  "developer_org": "autodesk",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "A DRU file contains design rules created by CadSoft EAGLE, an application used for designing Printed Circuit Boards ( PCB ). It stores design rules for manufacturing a PCB and includes settings for layers, distances, size, shapes, masks, and clearance.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "autodesk-eagle",
+        "display_name": "Autodesk EAGLE"
+      }
+    ],
+    "macos": [
+      {
+        "software": "autodesk-eagle",
+        "display_name": "Autodesk EAGLE"
+      }
+    ],
+    "linux": [
+      {
+        "software": "autodesk-eagle",
+        "display_name": "Autodesk EAGLE"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "DRU file icon",
+      "alt": "DRU file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/dru-9447.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-07-20",
+  "sources": [
+    {
+      "url": "dru.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

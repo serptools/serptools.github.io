@@ -1,0 +1,72 @@
+{
+  "slug": "idml",
+  "extension": "idml",
+  "name": "Adobe InDesign Markup Language File",
+  "category": "adobe-indesign-markup-language-file",
+  "developer_org": "adobe-systems",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 43,
+    "source": "fileinfo"
+  },
+  "summary": "An IDML file is a document created by InDesign, a program used to create professional page layouts. It is a Zip -compressed package that stores several directories and .XML files that make up a complete InDesign document.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "adobe-indesign-2023",
+        "display_name": "Adobe InDesign 2023"
+      },
+      {
+        "software": "adobe-idmltools",
+        "display_name": "Adobe IDMLTools"
+      }
+    ],
+    "macos": [
+      {
+        "software": "adobe-indesign-2023",
+        "display_name": "Adobe InDesign 2023"
+      },
+      {
+        "software": "adobe-idmltools",
+        "display_name": "Adobe IDMLTools"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "IDML file icon",
+      "alt": "IDML file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/idml-4804.png"
+    },
+    {
+      "caption": "IDML file open in Adobe InDesign 2021",
+      "alt": "IDML file open in Adobe InDesign 2021",
+      "source_url": "https://fileinfo.com/img/ss/md/idml_4804.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-05-11",
+  "sources": [
+    {
+      "url": "idml.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

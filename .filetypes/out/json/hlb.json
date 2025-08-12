@@ -1,0 +1,65 @@
+{
+  "slug": "hlb",
+  "extension": "hlb",
+  "name": "VMS / VAX Help Library",
+  "category": "vms-vax-help-library",
+  "developer_org": "digital-equipment-corporation",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "An HLB file is a help library used by the Virtual Memory System (VMS) operating system for Virtual Address eXtension (VAX) computers developed by Digital Equipment Corporation. It contains help documentation in a structured format that users can access via VMS/VAX system commands and then navigate to learn how to use various system features or software applications.",
+  "standards": [],
+  "mime_types": [
+    "vms/vax"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "hp-openvms",
+        "display_name": "HP OpenVMS"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2024-10-01",
+  "sources": [
+    {
+      "url": "hlb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

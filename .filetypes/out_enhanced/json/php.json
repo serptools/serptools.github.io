@@ -1,0 +1,40 @@
+{
+  "slug": "php",
+  "extension": "php",
+  "name": "PHP Source Code File",
+  "category": "php-source-code-file",
+  "summary": "",
+  "developer_org": "the-php-group",
+  "developer_name": "The PHP Group",
+  "more_information": {
+    "screenshot": {
+      "url": "https://fileinfo.com/img/ss/sm/php_130.png",
+      "alt": "Screenshot of a .php file in Adobe Dreamweaver 2021",
+      "caption": "PHP file open in Adobe Dreamweaver 2021"
+    },
+    "description": [
+      "PHP files are typically only used by web developers who are creating or modifying them when developing webpages with extended functionality. However, average users may download PHP files from a webpage using a web browser, such as Google Chrome or Mozilla Firefox.",
+      "The PHP code within the webpage is processed (parsed) by a PHP engine on the web server, which dynamically generates HTML . The HTML, which contains the webpage content, is then sent to the user's web browser. Therefore, the user never sees the actual PHP code contained in the webpage, even when viewing the page source."
+    ]
+  },
+  "common_filenames": [
+    {
+      "filename": "index.php",
+      "description": "index.php - Often the default file to be loaded when a client Web browser requests a directory from a PHP-enabled Web server. For example, if http://sampledomain.com/ is requested, http://sampledomain.com/index.php is loaded."
+    }
+  ],
+  "images": [
+    {
+      "url": "https://fileinfo.com/img/ss/sm/php_130.png",
+      "alt": "Screenshot of a .php file in Adobe Dreamweaver 2021",
+      "caption": "PHP file open in Adobe Dreamweaver 2021"
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "php.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

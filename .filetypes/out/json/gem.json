@@ -1,0 +1,84 @@
+{
+  "slug": "gem",
+  "extension": "gem",
+  "name": "RubyGems Package",
+  "category": "1.-rubygems-package",
+  "developer_org": "ruby",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 21,
+    "source": "fileinfo"
+  },
+  "summary": "Package that may contain Ruby programs and libraries; saved in a self-contained format called a \"gem;\" can be installed using the RubyGems package manager application included with the Ruby software.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "rubygems",
+        "display_name": "RubyGems"
+      },
+      {
+        "software": "gem-draw-paint-or-publisher",
+        "display_name": "GEM Draw, Paint, or Publisher"
+      },
+      {
+        "software": "coreldraw-graphics-suite-2024",
+        "display_name": "CorelDRAW Graphics Suite 2024"
+      },
+      {
+        "software": "canvas-gfx-canvas-x-pro",
+        "display_name": "Canvas GFX Canvas X Pro"
+      },
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      },
+      {
+        "software": "corel-paintshop-pro-2023",
+        "display_name": "Corel PaintShop Pro 2023"
+      }
+    ],
+    "macos": [
+      {
+        "software": "rubygems",
+        "display_name": "RubyGems"
+      },
+      {
+        "software": "maclink-plus",
+        "display_name": "MacLink Plus"
+      }
+    ],
+    "linux": [
+      {
+        "software": "rubygems",
+        "display_name": "RubyGems"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-09-21",
+  "sources": [
+    {
+      "url": "gem.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

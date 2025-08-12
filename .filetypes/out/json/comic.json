@@ -1,0 +1,59 @@
+{
+  "slug": "comic",
+  "extension": "comic",
+  "name": "Comic Life Comic",
+  "category": "comic-life-comic",
+  "developer_org": "plasq",
+  "popularity": {
+    "rating": 2.4,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "A COMIC file is a comic strip created in Comic Life 1 and 2, an application used to create comic books, picture albums, and other visual documents. It stores one or more custom page layouts, which may include text, shapes, and images.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "plasq-comic-life",
+        "display_name": "plasq Comic Life"
+      }
+    ],
+    "macos": [
+      {
+        "software": "plasq-comic-life",
+        "display_name": "plasq Comic Life"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "COMIC file open in Comic Life 2",
+      "alt": "COMIC file open in Comic Life 2",
+      "source_url": "https://fileinfo.com/img/ss/md/comic_10403.jpg"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-01-03",
+  "sources": [
+    {
+      "url": "comic.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

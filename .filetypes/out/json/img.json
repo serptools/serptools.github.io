@@ -1,0 +1,210 @@
+{
+  "slug": "img",
+  "extension": "img",
+  "name": "Disc Image Data File",
+  "category": "1.-disc-image-data-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 4.1,
+    "votes": 254,
+    "source": "fileinfo"
+  },
+  "summary": "An IMG file is a disk image file created by various disk imaging applications, such as H+H Software Virtual CD. It stores an exact copy of the data on a CD or DVD and is used for backups and burning new discs.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "h+h-software-virtual-cd",
+        "display_name": "H+H Software Virtual CD"
+      },
+      {
+        "software": "lightning-uk-imgburn",
+        "display_name": "Lightning UK! ImgBurn"
+      },
+      {
+        "software": "smart-projects-isobuster",
+        "display_name": "Smart Projects IsoBuster"
+      },
+      {
+        "software": "ezb-systems-ultraiso",
+        "display_name": "EZB Systems UltraISO"
+      },
+      {
+        "software": "magiciso",
+        "display_name": "MagicISO",
+        "status": "discontinued"
+      },
+      {
+        "software": "power-software-gburner",
+        "display_name": "Power Software gBurner"
+      },
+      {
+        "software": ".img",
+        "display_name": ".img"
+      },
+      {
+        "software": "rockstar-games-grand-theft-auto-3",
+        "display_name": "Rockstar Games Grand Theft Auto 3"
+      },
+      {
+        "software": "rockstar-games-grand-theft-auto-vice-city",
+        "display_name": "Rockstar Games Grand Theft Auto: Vice City"
+      },
+      {
+        "software": "rockstar-games-grand-theft-auto-san-andreas",
+        "display_name": "Rockstar Games Grand Theft Auto: San Andreas"
+      },
+      {
+        "software": "rockstar-games-grand-theft-auto-4",
+        "display_name": "Rockstar Games Grand Theft Auto 4"
+      },
+      {
+        "software": "img-tool",
+        "display_name": "IMG Tool"
+      },
+      {
+        "software": "sparkiv",
+        "display_name": "SparkIV"
+      },
+      {
+        "software": "openiv",
+        "display_name": "OpenIV"
+      },
+      {
+        "software": "imged",
+        "display_name": "ImgEd"
+      },
+      {
+        "software": "rawwrite",
+        "display_name": "RawWrite"
+      },
+      {
+        "software": "diskcopy",
+        "display_name": "DiskCopy"
+      },
+      {
+        "software": "oracle-vm-virtualbox",
+        "display_name": "Oracle VM VirtualBox"
+      },
+      {
+        "software": "garmin-mobile-pc",
+        "display_name": "Garmin Mobile PC"
+      },
+      {
+        "software": "cgpsmapper",
+        "display_name": "cGPSmapper"
+      },
+      {
+        "software": "mapupload",
+        "display_name": "MapUpload"
+      },
+      {
+        "software": "gps-map-manager",
+        "display_name": "GPS Map Manager"
+      },
+      {
+        "software": "mapsettoolkit",
+        "display_name": "MapSetToolKit"
+      },
+      {
+        "software": "sendmap",
+        "display_name": "Sendmap"
+      },
+      {
+        "software": "erdas-imagine",
+        "display_name": "ERDAS IMAGINE"
+      },
+      {
+        "software": "esri-arcgis-for-desktop",
+        "display_name": "ESRI ArcGIS for Desktop"
+      },
+      {
+        "software": "gdal",
+        "display_name": "GDAL"
+      },
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      },
+      {
+        "software": "netpbm",
+        "display_name": "Netpbm"
+      },
+      {
+        "software": "logipole-konvertor",
+        "display_name": "Logipole Konvertor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-disk-utility",
+        "display_name": "Apple Disk Utility"
+      },
+      {
+        "software": "roxio-toast-20",
+        "display_name": "Roxio Toast 20"
+      },
+      {
+        "software": "oracle-vm-virtualbox",
+        "display_name": "Oracle VM VirtualBox"
+      },
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      },
+      {
+        "software": "netpbm",
+        "display_name": "Netpbm"
+      }
+    ],
+    "linux": [
+      {
+        "software": "rawwrite",
+        "display_name": "RawWrite"
+      },
+      {
+        "software": "oracle-vm-virtualbox",
+        "display_name": "Oracle VM VirtualBox"
+      },
+      {
+        "software": "cgpsmapper",
+        "display_name": "cGPSmapper"
+      },
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      },
+      {
+        "software": "netpbm",
+        "display_name": "Netpbm"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-02-22",
+  "sources": [
+    {
+      "url": "img.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

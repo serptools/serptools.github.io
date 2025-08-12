@@ -1,0 +1,63 @@
+{
+  "slug": "tax13",
+  "extension": "tax13",
+  "name": "TurboTax 2013 Tax Return File",
+  "category": "turbotax-2013-tax-return-file",
+  "developer_org": "intuit",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "Alternate file extension used by TurboTax for 2013 tax returns; contains federal and state tax forms as well as data entered by the user; can be electronically submitted to the IRS and state tax authorities when completed.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "intuit-turbotax",
+        "display_name": "Intuit TurboTax"
+      },
+      {
+        "software": "intuit-turbotax-online",
+        "display_name": "Intuit TurboTax Online"
+      }
+    ],
+    "macos": [
+      {
+        "software": "intuit-turbotax",
+        "display_name": "Intuit TurboTax"
+      }
+    ],
+    "web": [
+      {
+        "software": "intuit-turbotax-online",
+        "display_name": "Intuit TurboTax Online"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2016-12-05",
+  "sources": [
+    {
+      "url": "tax13.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "slug": "replay",
+  "extension": "replay",
+  "name": "Fortnite Replay File",
+  "category": "1.-fortnite-replay-file",
+  "developer_org": "epic-games",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 144,
+    "source": "fileinfo"
+  },
+  "summary": "A REPLAY file contains a replay of gameplay in Fortnite, a sandbox survival where players cooperate to collect resources, build fortifications, and fight enemy creatures. It stores game information used by Fortnite to replay gameplay. REPLAY files allow Fortnite users to save their replays and rewatch them for entertainment or strategic purposes.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "epic-games-fortnite",
+        "display_name": "Epic Games Fortnite"
+      },
+      {
+        "software": "matcool-replaybot",
+        "display_name": "matcool ReplayBot"
+      },
+      {
+        "software": "rocket-league",
+        "display_name": "Rocket League"
+      },
+      {
+        "software": "descenders",
+        "display_name": "Descenders"
+      }
+    ],
+    "macos": [
+      {
+        "software": "epic-games-fortnite",
+        "display_name": "Epic Games Fortnite"
+      },
+      {
+        "software": "rocket-league",
+        "display_name": "Rocket League"
+      }
+    ],
+    "linux": [
+      {
+        "software": "rocket-league",
+        "display_name": "Rocket League"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-05-03",
+  "sources": [
+    {
+      "url": "replay.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

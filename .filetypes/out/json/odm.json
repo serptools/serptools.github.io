@@ -1,0 +1,101 @@
+{
+  "slug": "odm",
+  "extension": "odm",
+  "name": "OpenDocument Master Document",
+  "category": "1.-opendocument-master-document",
+  "developer_org": "oasis",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 20,
+    "source": "fileinfo"
+  },
+  "summary": "An ODM file is a master text document created by Apache OpenOffice Writer or another OpenDocument word processor. It contains several separate .ODT files that are joined together into one document. ODM files may also include a table of contents and an index.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "openoffice-writer",
+        "display_name": "OpenOffice Writer"
+      },
+      {
+        "software": "libreoffice",
+        "display_name": "LibreOffice"
+      },
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      }
+    ],
+    "macos": [
+      {
+        "software": "openoffice-writer",
+        "display_name": "OpenOffice Writer"
+      },
+      {
+        "software": "libreoffice",
+        "display_name": "LibreOffice"
+      },
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      }
+    ],
+    "linux": [
+      {
+        "software": "openoffice-writer",
+        "display_name": "OpenOffice Writer"
+      },
+      {
+        "software": "libreoffice",
+        "display_name": "LibreOffice"
+      }
+    ],
+    "ios": [
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      }
+    ],
+    "android": [
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "ODM file open in Apache OpenOffice Writer",
+      "alt": "ODM file open in Apache OpenOffice Writer",
+      "source_url": "https://fileinfo.com/img/ss/md/odm_729.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-03-17",
+  "sources": [
+    {
+      "url": "odm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

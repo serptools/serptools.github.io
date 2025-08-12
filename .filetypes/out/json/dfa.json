@@ -1,0 +1,81 @@
+{
+  "slug": "dfa",
+  "extension": "dfa",
+  "name": "DreamForge Intertainment Video",
+  "category": "dreamforge-intertainment-video",
+  "developer_org": "dreamforge-intertainment",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "A DFA file is a video used in Chronomaster or Anvil of Dawn, video games produced by DreamForge Intertainment. It contains a cutscene played within a game. DFA files are quite uncommon, so most popular media players cannot play them.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      }
+    ],
+    "macos": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      }
+    ],
+    "linux": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "ffmpeg",
+        "display_name": "FFmpeg"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "DFA file open in VLC media player",
+      "alt": "DFA file open in VLC media player",
+      "source_url": "https://fileinfo.com/img/ss/md/dfa_11630.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-09-03",
+  "sources": [
+    {
+      "url": "dfa.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

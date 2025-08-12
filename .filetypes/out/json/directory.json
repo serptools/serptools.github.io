@@ -1,0 +1,53 @@
+{
+  "slug": "directory",
+  "extension": "directory",
+  "name": "KDE Folder View Properties File",
+  "category": "kde-folder-view-properties-file",
+  "developer_org": "kde",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Contains the folder viewing settings for a directory in KDE (the K Desktop Environment); includes settings such as icon positions and view mode (icon, list, etc.); automatically created when the view settings of a folder are modified; hidden by default.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "linux": [
+      {
+        "software": "kde-k-desktop-environment",
+        "display_name": "KDE (K Desktop Environment)"
+      }
+    ],
+    "windows": [
+      {
+        "software": "kde-k-desktop-environment",
+        "display_name": "KDE (K Desktop Environment)"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2008-11-24",
+  "sources": [
+    {
+      "url": "directory.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

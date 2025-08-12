@@ -1,0 +1,59 @@
+{
+  "slug": "avchd",
+  "extension": "avchd",
+  "name": "High Definition Video File",
+  "category": "high-definition-video-file",
+  "developer_org": "sony-panasonic",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 21,
+    "source": "fileinfo"
+  },
+  "summary": "A file-based format for digital recording and playback of high-definition video; its name is an acronym which stands for Advanced Video Coding High Definition.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      }
+    ],
+    "macos": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      }
+    ],
+    "linux": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-03-31",
+  "sources": [
+    {
+      "url": "avchd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "slug": "sidecar",
+  "extension": "sidecar",
+  "name": "Blackmagic RAW Video Sidecar File",
+  "category": "blackmagic-raw-video-sidecar-file",
+  "developer_org": "blackmagic-design",
+  "popularity": {
+    "rating": 4.2,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "A SIDECAR file contains metadata about a .BRAW video file, which includes information about the digital video camera that recorded the video and edits made to the video. The purpose of the file is to store the modifications a user makes to a BRAW video with a video editor without overwriting and erasing the original metadata. Users can open SIDECAR files with a video editor that supports the BRAW format or with a text editor since SIDECAR files are saved in JSON format.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "blackmagic-raw-player",
+        "display_name": "Blackmagic RAW Player"
+      },
+      {
+        "software": "blackmagic-design-davinci-resolve",
+        "display_name": "Blackmagic Design DaVinci Resolve"
+      },
+      {
+        "software": "adobe-premiere-pro-with-the-blackmagic-raw-plugin-installed",
+        "display_name": "Adobe Premiere Pro with the Blackmagic RAW plugin installed"
+      },
+      {
+        "software": "avid-media-composer-with-the-blackmagic-raw-plugin-installed",
+        "display_name": "Avid Media Composer with the Blackmagic RAW plugin installed"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "blackmagic-raw-player",
+        "display_name": "Blackmagic RAW Player"
+      },
+      {
+        "software": "blackmagic-design-davinci-resolve",
+        "display_name": "Blackmagic Design DaVinci Resolve"
+      },
+      {
+        "software": "adobe-premiere-pro-with-the-blackmagic-raw-plugin-installed",
+        "display_name": "Adobe Premiere Pro with the Blackmagic RAW plugin installed"
+      },
+      {
+        "software": "avid-media-composer-with-the-blackmagic-raw-plugin-installed",
+        "display_name": "Avid Media Composer with the Blackmagic RAW plugin installed"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "blackmagic-raw-player",
+        "display_name": "Blackmagic RAW Player"
+      },
+      {
+        "software": "blackmagic-design-davinci-resolve",
+        "display_name": "Blackmagic Design DaVinci Resolve"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "SIDECAR file icon",
+      "alt": "SIDECAR file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/sidecar-12844.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-08-11",
+  "sources": [
+    {
+      "url": "sidecar.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

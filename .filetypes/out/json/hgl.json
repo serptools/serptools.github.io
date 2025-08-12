@@ -1,0 +1,75 @@
+{
+  "slug": "hgl",
+  "extension": "hgl",
+  "name": "HP Graphics Language File",
+  "category": "hp-graphics-language-file",
+  "developer_org": "hewlett-packard",
+  "popularity": {
+    "rating": 2.4,
+    "votes": 10,
+    "source": "fileinfo"
+  },
+  "summary": "Printer control language developed by Hewlett-Packard (often referred to as HPGL); used by plotters from HP and other manufacturers, which print images using lines instead of dots.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "corel-paintshop-pro-2023",
+        "display_name": "Corel PaintShop Pro 2023"
+      },
+      {
+        "software": "canvas-gfx-canvas-x-pro",
+        "display_name": "Canvas GFX Canvas X Pro"
+      },
+      {
+        "software": "software-companions-viewcompanion-pro",
+        "display_name": "Software Companions ViewCompanion Pro"
+      },
+      {
+        "software": "cadsofttools-abviewer",
+        "display_name": "CADSoftTools ABViewer"
+      },
+      {
+        "software": "vhf-interservice-cenon",
+        "display_name": "vhf interservice Cenon"
+      }
+    ],
+    "macos": [
+      {
+        "software": "vhf-interservice-cenon",
+        "display_name": "vhf interservice Cenon"
+      }
+    ],
+    "linux": [
+      {
+        "software": "vhf-interservice-cenon",
+        "display_name": "vhf interservice Cenon"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2013-08-20",
+  "sources": [
+    {
+      "url": "hgl.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

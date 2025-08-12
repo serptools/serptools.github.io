@@ -1,0 +1,59 @@
+{
+  "slug": "jigdo",
+  "extension": "jigdo",
+  "name": "Jigdo Download Specification",
+  "category": "jigdo-download-specification",
+  "developer_org": "richard-atterer-and-steve-mcintyre",
+  "popularity": {
+    "rating": 1.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "A JIGDO file is a download specification created by Jigdo, a disk image download and creation utility. It contains data that Jigdo uses to start creating a disk image. Jigdo users load JIGDO files by running the jigdo-lite script.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "jigdo",
+        "display_name": "Jigdo"
+      }
+    ],
+    "macos": [
+      {
+        "software": "jigdo",
+        "display_name": "Jigdo"
+      }
+    ],
+    "linux": [
+      {
+        "software": "jigdo",
+        "display_name": "Jigdo"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-05-11",
+  "sources": [
+    {
+      "url": "jigdo.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

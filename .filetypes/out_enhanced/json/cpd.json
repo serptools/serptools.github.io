@@ -1,0 +1,22 @@
+{
+  "slug": "cpd",
+  "extension": "cpd",
+  "name": "RoboHelp Cache Project Database",
+  "category": "robohelp-cache-project-database",
+  "summary": "",
+  "developer_org": "rgb-light",
+  "developer_name": "RGB Light",
+  "more_information": {
+    "description": [
+      "CPD files are saved in a Microsoft Access database ( .MDB or .ACCDB ) format and can be opened with Access. However, this is not recommended since RoboHelp uses the data in the background for caching and it could cause the program to malfunction.",
+      "NOTE: Your project cache can be cleared each time you open a help project by choosing the \"Clear project cache (.cpd) before opening any project\" option in the General tab in the application preferences."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "cpd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

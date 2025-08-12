@@ -1,0 +1,98 @@
+{
+  "slug": "cmx",
+  "extension": "cmx",
+  "name": "Corel Presentation Exchange Image",
+  "category": "corel-presentation-exchange-image",
+  "developer_org": "corel",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 21,
+    "source": "fileinfo"
+  },
+  "summary": "A CMX file is an image saved in the Corel Metafile Exchange (CMX) format and created by a Corel drawing or image editing program, such as CorelDRAW. It contains bitmap or vector image data, supporting colors in the RGB , CMYK , and Pantone color models . CMX files also store metadata that describes the image.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "coreldraw-graphics-suite-2024",
+        "display_name": "CorelDRAW Graphics Suite 2024"
+      },
+      {
+        "software": "canvas-gfx-canvas-x-pro",
+        "display_name": "Canvas GFX Canvas X Pro"
+      },
+      {
+        "software": "inkscape",
+        "display_name": "Inkscape"
+      },
+      {
+        "software": "cdrviewer-4",
+        "display_name": "CDRViewer 4"
+      },
+      {
+        "software": "sk1",
+        "display_name": "sK1"
+      }
+    ],
+    "macos": [
+      {
+        "software": "coreldraw-graphics-suite-2024",
+        "display_name": "CorelDRAW Graphics Suite 2024"
+      },
+      {
+        "software": "inkscape",
+        "display_name": "Inkscape"
+      },
+      {
+        "software": "cdrviewer-4",
+        "display_name": "CDRViewer 4"
+      }
+    ],
+    "linux": [
+      {
+        "software": "inkscape",
+        "display_name": "Inkscape"
+      },
+      {
+        "software": "sk1",
+        "display_name": "sK1"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "CMX file icon",
+      "alt": "CMX file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/cmx-2020.png"
+    },
+    {
+      "caption": "CMX file open in CorelDRAW 2024",
+      "alt": "CMX file open in CorelDRAW 2024",
+      "source_url": "https://fileinfo.com/img/ss/md/cmx_2020.jpg"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2024-05-22",
+  "sources": [
+    {
+      "url": "cmx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

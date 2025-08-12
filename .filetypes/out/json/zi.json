@@ -1,0 +1,89 @@
+{
+  "slug": "zi",
+  "extension": "zi",
+  "name": "Renamed Zip File",
+  "category": "renamed-zip-file",
+  "developer_org": "pkware",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 36,
+    "source": "fileinfo"
+  },
+  "summary": "A ZI file is a Zip archive that has been renamed from .zip to .zi . It contains one or more files compressed with Zip-compression in order to save space. ZI files are commonly used to bypass email filters that prevent the transmission of .ZIP files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "smith-micro-stuffit-deluxe",
+        "display_name": "Smith Micro StuffIt Deluxe",
+        "status": "discontinued"
+      },
+      {
+        "software": "corel-winzip",
+        "display_name": "Corel WinZip"
+      },
+      {
+        "software": "7-zip",
+        "display_name": "7-Zip"
+      },
+      {
+        "software": "pkzip",
+        "display_name": "PKZip"
+      },
+      {
+        "software": "tugzip",
+        "display_name": "TUGZip"
+      },
+      {
+        "software": "apple-archive-utility",
+        "display_name": "Apple Archive Utility"
+      },
+      {
+        "software": "unzip",
+        "display_name": "unzip"
+      }
+    ],
+    "macos": [
+      {
+        "software": "smith-micro-stuffit-deluxe-mac-16",
+        "display_name": "Smith Micro StuffIt Deluxe Mac 16",
+        "status": "discontinued"
+      },
+      {
+        "software": "apple-archive-utility",
+        "display_name": "Apple Archive Utility"
+      }
+    ],
+    "linux": [
+      {
+        "software": "unzip",
+        "display_name": "unzip"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-08-07",
+  "sources": [
+    {
+      "url": "zi.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

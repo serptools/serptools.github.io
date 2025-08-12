@@ -1,0 +1,87 @@
+{
+  "slug": "pgd",
+  "extension": "pgd",
+  "name": "PGP Disk Image",
+  "category": "1.-pgp-disk-image",
+  "developer_org": "symantec",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Encrypted disk image created by PGP, a data encryption program now owned by Symantec; saves data for a disk partition that can be mounted within a desktop environment; used for protecting sensitive files on the computer.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "symantec-drive-encryption",
+        "display_name": "Symantec Drive Encryption",
+        "status": "discontinued"
+      },
+      {
+        "software": "broadcom-symantec-pgp-desktop",
+        "display_name": "Broadcom Symantec PGP Desktop",
+        "status": "discontinued"
+      },
+      {
+        "software": "rename-.pgd-to-.zip-expand-with-any-zip-decompression-utility",
+        "display_name": "Rename .pgd to .zip ; expand with any Zip-decompression utility"
+      }
+    ],
+    "macos": [
+      {
+        "software": "symantec-drive-encryption",
+        "display_name": "Symantec Drive Encryption",
+        "status": "discontinued"
+      },
+      {
+        "software": "broadcom-symantec-pgp-desktop",
+        "display_name": "Broadcom Symantec PGP Desktop",
+        "status": "discontinued"
+      }
+    ],
+    "linux": [
+      {
+        "software": "symantec-drive-encryption",
+        "display_name": "Symantec Drive Encryption",
+        "status": "discontinued"
+      }
+    ],
+    "android": [
+      {
+        "software": "rename-.pgd-to-.zip-expand-with-any-zip-decompression-utility",
+        "display_name": "Rename .pgd to .zip ; expand with any Zip-decompression utility"
+      },
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-08-23",
+  "sources": [
+    {
+      "url": "pgd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

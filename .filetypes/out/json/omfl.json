@@ -1,0 +1,71 @@
+{
+  "slug": "omfl",
+  "extension": "omfl",
+  "name": "Open Multiple Files File List",
+  "category": "open-multiple-files-file-list",
+  "developer_org": "vovsoft",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "An OMFL file is a file list used by Open Multiple Files, a file-opening application developed by Vovsoft. It contains a plain text list of files, folders, and/or URLs that a user can open simultaneously using Open Multiple Files. OMFL files are created by selecting File → Save List Into File... in Open Multiple Files' menu bar.",
+  "standards": [],
+  "mime_types": [
+    "and/or"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "vovsoft-open-multiple-files",
+        "display_name": "Vovsoft Open Multiple Files"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "OMFL file open in Vovsoft Open Multiple Files",
+      "alt": "OMFL file open in Vovsoft Open Multiple Files",
+      "source_url": "https://fileinfo.com/img/ss/md/omfl_12032.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-04-19",
+  "sources": [
+    {
+      "url": "omfl.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

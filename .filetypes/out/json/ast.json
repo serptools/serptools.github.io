@@ -1,0 +1,125 @@
+{
+  "slug": "ast",
+  "extension": "ast",
+  "name": "ClarisWorks Assistant File",
+  "category": "1.-clarisworks-assistant-file",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 13,
+    "source": "fileinfo"
+  },
+  "summary": "Assistant for creating a new document in ClarisWorks; similar to a template , but offers additional assistance in composing the file; can be used to create business cards, calendars, newsletters, presentations, etc.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "apple-appleworks",
+        "display_name": "Apple AppleWorks",
+        "status": "discontinued"
+      },
+      {
+        "software": "apple-clarisworks",
+        "display_name": "Apple ClarisWorks",
+        "status": "discontinued"
+      },
+      {
+        "software": "vgmstream",
+        "display_name": "vgmstream"
+      },
+      {
+        "software": "foobar2000-with-vgmstream-plug-in",
+        "display_name": "Foobar2000 with vgmstream plug-in"
+      },
+      {
+        "software": "nullsoft-winamp-with-vgmstream-plug-in",
+        "display_name": "Nullsoft Winamp with vgmstream plug-in"
+      },
+      {
+        "software": "astconverter",
+        "display_name": "astConverter"
+      },
+      {
+        "software": "ability-office",
+        "display_name": "Ability Office"
+      },
+      {
+        "software": "adobe-photoshop-2025",
+        "display_name": "Adobe Photoshop 2025"
+      },
+      {
+        "software": "adobe-illustrator-2025",
+        "display_name": "Adobe Illustrator 2025"
+      },
+      {
+        "software": "adobe-acrobat-dc",
+        "display_name": "Adobe Acrobat DC"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-appleworks",
+        "display_name": "Apple AppleWorks",
+        "status": "discontinued"
+      },
+      {
+        "software": "apple-clarisworks",
+        "display_name": "Apple ClarisWorks",
+        "status": "discontinued"
+      },
+      {
+        "software": "vgmstream",
+        "display_name": "vgmstream"
+      },
+      {
+        "software": "adobe-photoshop-2025",
+        "display_name": "Adobe Photoshop 2025"
+      },
+      {
+        "software": "adobe-illustrator-2025",
+        "display_name": "Adobe Illustrator 2025"
+      },
+      {
+        "software": "adobe-acrobat-dc",
+        "display_name": "Adobe Acrobat DC"
+      }
+    ],
+    "web": [
+      {
+        "software": "vgmstream-web",
+        "display_name": "vgmstream-web"
+      }
+    ],
+    "linux": [
+      {
+        "software": "vgmstream",
+        "display_name": "vgmstream"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-08-10",
+  "sources": [
+    {
+      "url": "ast.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

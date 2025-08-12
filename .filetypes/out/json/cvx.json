@@ -1,0 +1,76 @@
+{
+  "slug": "cvx",
+  "extension": "cvx",
+  "name": "Canvas Drawing",
+  "category": "canvas-drawing",
+  "developer_org": "canvas-gfx",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 13,
+    "source": "fileinfo"
+  },
+  "summary": "A CVX file is a drawing file created by various Canvas GFX applications, such as Canvas X Draw (Windows version only) and Canvas X Geo, programs used to create technical illustrations and other drawings. It may contain both raster and vector graphics and include project drawing settings such as layers and image effects. Canvas X Draw (Windows version only) and Canvas X Geo save drawings as CVX files by default.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "canvas-gfx-canvas-x-pro",
+        "display_name": "Canvas GFX Canvas X Pro"
+      },
+      {
+        "software": "canvas-gfx-canvas-x-geo",
+        "display_name": "Canvas GFX Canvas X Geo"
+      },
+      {
+        "software": "canvas-gfx-canvas-x-draw",
+        "display_name": "Canvas GFX Canvas X Draw"
+      },
+      {
+        "software": "acd-systems-acdsee-photo-studio",
+        "display_name": "ACD Systems ACDSee Photo Studio"
+      }
+    ],
+    "macos": [
+      {
+        "software": "canvas-gfx-canvas-x-draw",
+        "display_name": "Canvas GFX Canvas X Draw"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "CVX file icon",
+      "alt": "CVX file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/cvx-935.png"
+    },
+    {
+      "caption": "CVX file open in Canvas GFX Canvas X Draw 2020",
+      "alt": "CVX file open in Canvas GFX Canvas X Draw 2020",
+      "source_url": "https://fileinfo.com/img/ss/md/cvx_935.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-07-06",
+  "sources": [
+    {
+      "url": "cvx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

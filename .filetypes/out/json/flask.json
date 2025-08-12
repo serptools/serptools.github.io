@@ -1,0 +1,47 @@
+{
+  "slug": "flask",
+  "extension": "flask",
+  "name": "FlasKMPEG Settings Profile",
+  "category": "flaskmpeg-settings-profile",
+  "developer_org": "alberto-vigat",
+  "popularity": {
+    "rating": 1.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "A FLASK file is a settings file used by FlasKMPEG, a free video conversion program. It contains video encoding settings and other custom settings. FlasKMPEG comes with a default set of FLASK files, and users can create their own FLASK files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "flaskmpeg",
+        "display_name": "FlasKMPEG"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-06-30",
+  "sources": [
+    {
+      "url": "flask.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

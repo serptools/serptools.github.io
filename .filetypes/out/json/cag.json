@@ -1,0 +1,55 @@
+{
+  "slug": "cag",
+  "extension": "cag",
+  "name": "ClipArt Gallery Package",
+  "category": "clipart-gallery-package",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Compressed clip art package created by Microsoft Clip Gallery, a program used to manage clip art images; contains categories, descriptions, thumbnail images, and the clip art graphics; used as a database for browsing clip art and importing images into documents.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-clip-gallery",
+        "display_name": "Microsoft Clip Gallery"
+      },
+      {
+        "software": "microsoft-publisher-365",
+        "display_name": "Microsoft Publisher 365"
+      },
+      {
+        "software": "microsoft-powerpoint-365",
+        "display_name": "Microsoft PowerPoint 365"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-10-15",
+  "sources": [
+    {
+      "url": "cag.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "slug": "fds",
+  "extension": "fds",
+  "name": "FME Custom Format File",
+  "category": "1.-fme-custom-format-file",
+  "developer_org": "safe-software",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "GIS data file created by FME Desktop, a suite of spatial ETL (Extract, Transform, Load) applications; stores transformed spatial data in a custom format; used for exporting custom data sets that can be imported through FME Desktop's Reader Gallery component.",
+  "standards": [],
+  "mime_types": [
+    "export/import",
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "safe-software-fme-desktop",
+        "display_name": "Safe Software FME Desktop"
+      },
+      {
+        "software": "fceux",
+        "display_name": "FCEUX"
+      },
+      {
+        "software": "nestopia",
+        "display_name": "Nestopia"
+      },
+      {
+        "software": "openemu",
+        "display_name": "OpenEmu"
+      },
+      {
+        "software": "final-draft",
+        "display_name": "Final Draft"
+      },
+      {
+        "software": "final-draft-viewer",
+        "display_name": "Final Draft Viewer"
+      },
+      {
+        "software": "free-download-manager",
+        "display_name": "Free Download Manager",
+        "pricing": "free"
+      }
+    ],
+    "macos": [
+      {
+        "software": "nestopia",
+        "display_name": "Nestopia"
+      },
+      {
+        "software": "openemu",
+        "display_name": "OpenEmu"
+      },
+      {
+        "software": "final-draft",
+        "display_name": "Final Draft"
+      },
+      {
+        "software": "final-draft-viewer",
+        "display_name": "Final Draft Viewer"
+      },
+      {
+        "software": "free-download-manager",
+        "display_name": "Free Download Manager",
+        "pricing": "free"
+      }
+    ],
+    "linux": [
+      {
+        "software": "nestopia",
+        "display_name": "Nestopia"
+      },
+      {
+        "software": "free-download-manager",
+        "display_name": "Free Download Manager",
+        "pricing": "free"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-11-18",
+  "sources": [
+    {
+      "url": "fds.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "slug": "mdm",
+  "extension": "mdm",
+  "name": "HLM Multivariate Data Matrix File",
+  "category": "1.-hlm-multivariate-data-matrix-file",
+  "developer_org": "scientific-software-international",
+  "popularity": {
+    "rating": 3.2,
+    "votes": 14,
+    "source": "fileinfo"
+  },
+  "summary": "Data file used by the Hierarchical Linear and Nonlinear Modeling (HLM) program for statistical analysis of scientific data; contains textual data recorded from a scientific observation; used as an input format for the HLM program to create summary-level and in-depth statistics.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "ssi-hlm-software",
+        "display_name": "SSI HLM software"
+      },
+      {
+        "software": "elksoft-mario-dash",
+        "display_name": "Elksoft Mario Dash"
+      },
+      {
+        "software": "blender",
+        "display_name": "Blender"
+      },
+      {
+        "software": "rtcw-et-blender-model-tools",
+        "display_name": "RtCW:ET Blender Model Tools"
+      },
+      {
+        "software": "bethesda-softworks-wolfenstein-enemy-territory",
+        "display_name": "Bethesda Softworks Wolfenstein: Enemy Territory"
+      }
+    ],
+    "macos": [
+      {
+        "software": "blender",
+        "display_name": "Blender"
+      },
+      {
+        "software": "rtcw-et-blender-model-tools",
+        "display_name": "RtCW:ET Blender Model Tools"
+      }
+    ],
+    "linux": [
+      {
+        "software": "blender",
+        "display_name": "Blender"
+      },
+      {
+        "software": "rtcw-et-blender-model-tools",
+        "display_name": "RtCW:ET Blender Model Tools"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-02-08",
+  "sources": [
+    {
+      "url": "mdm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

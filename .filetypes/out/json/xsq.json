@@ -1,0 +1,82 @@
+{
+  "slug": "xsq",
+  "extension": "xsq",
+  "name": "xLights Sequence",
+  "category": "xlights-sequence",
+  "developer_org": "xlights-team",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "An XSQ file is a lighting sequence created by xLights, a free lighting display sequence designer. It contains XML data that specifies the sequence's name, author, associated song, elements, and effects. XSQ files are often packaged in .ZIP archives, alongside other files needed to load the sequence in xLights.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "xlights",
+        "display_name": "xLights"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "xlights",
+        "display_name": "xLights"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "xlights",
+        "display_name": "xLights"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "XSQ file icon",
+      "alt": "XSQ file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/xsq-13128.png"
+    },
+    {
+      "caption": "XSQ file open in xLights",
+      "alt": "XSQ file open in xLights",
+      "source_url": "https://fileinfo.com/img/ss/md/xsq_13128.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-01-24",
+  "sources": [
+    {
+      "url": "xsq.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

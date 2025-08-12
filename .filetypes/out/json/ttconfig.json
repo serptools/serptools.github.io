@@ -1,0 +1,59 @@
+{
+  "slug": "ttconfig",
+  "extension": "ttconfig",
+  "name": "TinyTERM Enterprise Configuration File",
+  "category": "tinyterm-enterprise-configuration-file",
+  "developer_org": "century-software",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "A TTCONFIG file is a configuration file used by the iOS and Android versions of Century Software TinyTERM. It contains an exported record of a device's TinyTERM settings. TTCONFIG files are compatible across platforms, so they can be used to transfer settings from an iOS device to an Android device and vice versa.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "android": [
+      {
+        "software": "century-software-tinyterm-enterprise",
+        "display_name": "Century Software TinyTERM Enterprise"
+      }
+    ],
+    "ios": [
+      {
+        "software": "century-software-tinyterm-enterprise",
+        "display_name": "Century Software TinyTERM Enterprise"
+      }
+    ],
+    "windows": [
+      {
+        "software": "century-software-tinyterm-enterprise",
+        "display_name": "Century Software TinyTERM Enterprise"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-12-11",
+  "sources": [
+    {
+      "url": "ttconfig.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

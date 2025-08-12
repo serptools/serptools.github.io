@@ -1,0 +1,81 @@
+{
+  "slug": "fdt",
+  "extension": "fdt",
+  "name": "Final Draft 5-7 Template",
+  "category": "1.-final-draft-5-7-template",
+  "developer_org": "final-draft",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Template created by Final Draft, an application used for authoring movie, television, and stage play scripts; saves the default document text and formatting for creating a new .FDX Final Draft document; allows multiple scripts to adopt the same structure.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "final-draft",
+        "display_name": "Final Draft"
+      },
+      {
+        "software": "lucene",
+        "display_name": "Lucene"
+      },
+      {
+        "software": "formdocs",
+        "display_name": "FormDocs"
+      },
+      {
+        "software": "ibm-cognos-impromptu",
+        "display_name": "IBM Cognos Impromptu",
+        "status": "discontinued"
+      }
+    ],
+    "macos": [
+      {
+        "software": "final-draft",
+        "display_name": "Final Draft"
+      },
+      {
+        "software": "lucene",
+        "display_name": "Lucene"
+      }
+    ],
+    "linux": [
+      {
+        "software": "lucene",
+        "display_name": "Lucene"
+      },
+      {
+        "software": "ibm-cognos-impromptu",
+        "display_name": "IBM Cognos Impromptu",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-05-31",
+  "sources": [
+    {
+      "url": "fdt.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "wbx",
+  "extension": "wbx",
+  "name": "Winbox Address Book",
+  "category": "winbox-address-book",
+  "developer_org": "mikrotik",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "A WBX file is a backup file used by Winbox, a utility that allows admins to manage their MikroTik routers. It contains the contents of a Winbox address book. WBX files are most commonly named addresses.wbx .",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "mikrotik-winbox",
+        "display_name": "MikroTik Winbox"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-12-01",
+  "sources": [
+    {
+      "url": "wbx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

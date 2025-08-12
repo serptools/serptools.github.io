@@ -1,0 +1,69 @@
+{
+  "slug": "sk1",
+  "extension": "sk1",
+  "name": "sK1 Vector Graphic File",
+  "category": "sk1-vector-graphic-file",
+  "developer_org": "sk1-project",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "Drawing document created by sK1, an illustration program for Linux; contains a vector graphic, which uses paths rather than a grid of pixels to represent drawn objects; used for storing logos, brochures, maps, and other illustrations.",
+  "standards": [],
+  "mime_types": [
+    "sketch/skencil"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "inkscape",
+        "display_name": "Inkscape"
+      },
+      {
+        "software": "sk1",
+        "display_name": "sK1"
+      }
+    ],
+    "macos": [
+      {
+        "software": "inkscape",
+        "display_name": "Inkscape"
+      }
+    ],
+    "linux": [
+      {
+        "software": "sk1",
+        "display_name": "sK1"
+      },
+      {
+        "software": "inkscape",
+        "display_name": "Inkscape"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2016-10-19",
+  "sources": [
+    {
+      "url": "sk1.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

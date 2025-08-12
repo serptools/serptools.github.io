@@ -1,0 +1,63 @@
+{
+  "slug": "ksh",
+  "extension": "ksh",
+  "name": "Unix Korn Shell Script",
+  "category": "unix-korn-shell-script",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 2.7,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "Script written for the Unix operating system; contains a list of commands that can be run within a Korn Shell or Bourne-Again Shell; can be viewed and edited with a text editor.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "linux": [
+      {
+        "software": "run-within-a-korn-shell",
+        "display_name": "Run within a Korn Shell"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "windows": [
+      {
+        "software": "run-within-a-korn-shell",
+        "display_name": "Run within a Korn Shell"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-06-13",
+  "sources": [
+    {
+      "url": "ksh.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

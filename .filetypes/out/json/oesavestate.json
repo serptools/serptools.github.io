@@ -1,0 +1,53 @@
+{
+  "slug": "oesavestate",
+  "extension": "oesavestate",
+  "name": "OpenEmu Saved Game",
+  "category": "openemu-saved-game",
+  "developer_org": "openemu",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "An OESAVESTATE file is a saved game created by OpenEmu, a video game console emulator available for macOS. It is a macOS package that contains metadata about a saved game, a screenshot of the game's most recent state, and the save data used to resume the game. OESAVESTATE files can be opened only in OpenEmu and not in other emulators.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "openemu",
+        "display_name": "OpenEmu"
+      }
+    ],
+    "windows": [
+      {
+        "software": "openemu",
+        "display_name": "OpenEmu"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-12-18",
+  "sources": [
+    {
+      "url": "oesavestate.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "pfr",
+  "extension": "pfr",
+  "name": "Portable Font Resource File",
+  "category": "1.-portable-font-resource-file",
+  "developer_org": "bitstream",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "Compact, platform-independent format for representing high-quality, scalable outline fonts; based on the TrueDoc PFR Specification developed by Bitstream, Inc; used for embedding rasterized fonts into Web pages and for displaying text on digital televisions.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "bitstream-font-fusion-or-truedoc",
+        "display_name": "Bitstream Font Fusion or TrueDoc"
+      },
+      {
+        "software": "corel-paintshop-pro-2023",
+        "display_name": "Corel PaintShop Pro 2023"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2008-05-16",
+  "sources": [
+    {
+      "url": "pfr.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

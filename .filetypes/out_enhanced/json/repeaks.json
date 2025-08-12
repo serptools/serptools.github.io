@@ -1,0 +1,22 @@
+{
+  "slug": "repeaks",
+  "extension": "repeaks",
+  "name": "REAPER Peak File",
+  "category": "reaper-peak-file",
+  "summary": "",
+  "developer_org": "cockos",
+  "developer_name": "Cockos",
+  "more_information": {
+    "description": [
+      "Whenever a user imports an audio file into REAPER, REAPER creates a REPEAK file to visually represent that audio file within the program's audio editing tools. These files have no function other than displaying an audio file's waveform in REAPER, and they are not meant to be opened outside of REAPER.",
+      "If, like other REAPER users, you find your computer cluttered with REPEAK files, you can safely delete them without affecting your REAPER projects ( .RPP files). When you re-load a project, REAPER will create whatever REPEAKS files the project needs. For this reason, many REAPER users configure the program to save REPEAK files in one, designated location, so they can regularly delete the many REPEAKS files that REAPER creates and free up space on their computers."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "repeaks.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

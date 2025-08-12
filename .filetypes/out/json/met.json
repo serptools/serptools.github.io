@@ -1,0 +1,99 @@
+{
+  "slug": "met",
+  "extension": "met",
+  "name": "eMule Resource File",
+  "category": "1.-emule-resource-file",
+  "developer_org": "emule",
+  "popularity": {
+    "rating": 4.1,
+    "votes": 16,
+    "source": "fileinfo"
+  },
+  "summary": "File used by eMule, a peer-to-peer online file sharing program; contains links to download resources and their servers; may store ed2k (eDonkey Network) server addresses, filenames, file sizes, hash sets, and statistics.",
+  "standards": [],
+  "mime_types": [
+    "os/2"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "emule",
+        "display_name": "eMule"
+      },
+      {
+        "software": "emule-xtreme",
+        "display_name": "eMule Xtreme"
+      },
+      {
+        "software": "amule",
+        "display_name": "aMule"
+      },
+      {
+        "software": "coreldraw-graphics-suite-2024",
+        "display_name": "CorelDRAW Graphics Suite 2024"
+      },
+      {
+        "software": "canvas-gfx-canvas-x-pro",
+        "display_name": "Canvas GFX Canvas X Pro"
+      },
+      {
+        "software": "openoffice-impress",
+        "display_name": "OpenOffice Impress"
+      },
+      {
+        "software": "planamesa-neooffice",
+        "display_name": "Planamesa NeoOffice",
+        "status": "discontinued"
+      }
+    ],
+    "macos": [
+      {
+        "software": "amule",
+        "display_name": "aMule"
+      },
+      {
+        "software": "openoffice-impress",
+        "display_name": "OpenOffice Impress"
+      },
+      {
+        "software": "planamesa-neooffice",
+        "display_name": "Planamesa NeoOffice",
+        "status": "discontinued"
+      }
+    ],
+    "linux": [
+      {
+        "software": "amule",
+        "display_name": "aMule"
+      },
+      {
+        "software": "openoffice-impress",
+        "display_name": "OpenOffice Impress"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-02-10",
+  "sources": [
+    {
+      "url": "met.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

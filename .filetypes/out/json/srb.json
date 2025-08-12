@@ -1,0 +1,67 @@
+{
+  "slug": "srb",
+  "extension": "srb",
+  "name": "Sonic Robo Blast 2 Data File",
+  "category": "sonic-robo-blast-2-data-file",
+  "developer_org": "sonic-team-junior",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "An SRB file is an archive used by Sonic Robo Blast 2, a fan-made, open-source Sonic the Hedgehog game. It contains most of the resources used by the game, such as textures, patches, sprites, palettes, and graphics files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "sonic-robo-blast-2",
+        "display_name": "Sonic Robo Blast 2"
+      },
+      {
+        "software": "slade",
+        "display_name": "SLADE"
+      },
+      {
+        "software": "xwe",
+        "display_name": "XWE"
+      }
+    ],
+    "macos": [
+      {
+        "software": "slade",
+        "display_name": "SLADE"
+      }
+    ],
+    "linux": [
+      {
+        "software": "slade",
+        "display_name": "SLADE"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-10-05",
+  "sources": [
+    {
+      "url": "srb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

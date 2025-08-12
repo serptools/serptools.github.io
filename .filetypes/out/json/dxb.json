@@ -1,0 +1,61 @@
+{
+  "slug": "dxb",
+  "extension": "dxb",
+  "name": "Duxbury Braille File",
+  "category": "1.-duxbury-braille-file",
+  "developer_org": "duxbury-systems",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "File created by Duxbury Braille Translator, a braille translator; contains braille that can be translated into Print; can be viewed in different fonts, such as braille, simbraille, or print font; may contain tables, codes, and other document elements.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "duxbury-braille-translator",
+        "display_name": "Duxbury Braille Translator"
+      },
+      {
+        "software": "duxbury-megadots",
+        "display_name": "Duxbury MegaDots",
+        "status": "discontinued"
+      },
+      {
+        "software": "casc-braille-2000",
+        "display_name": "CASC Braille 2000",
+        "status": "discontinued"
+      },
+      {
+        "software": "autodesk-autocad-2025",
+        "display_name": "Autodesk AutoCAD 2025"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-11-13",
+  "sources": [
+    {
+      "url": "dxb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

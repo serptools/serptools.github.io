@@ -1,0 +1,53 @@
+{
+  "slug": "jspa",
+  "extension": "jspa",
+  "name": "Java Servlet Alias",
+  "category": "java-servlet-alias",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 4.1,
+    "votes": 25,
+    "source": "fileinfo"
+  },
+  "summary": "Alias or shortcut to a Java Servlet ( .JSP ) file; used by the WebWork Web application framework for online forums and related services; may execute one or more JSP pages when called.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "web": [
+      {
+        "software": "web-browser",
+        "display_name": "Web browser"
+      },
+      {
+        "software": "run-from-a-web-server-with-j2ee-installed",
+        "display_name": "Run from a Web server with J2EE installed"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-03-09",
+  "sources": [
+    {
+      "url": "jspa.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "slug": "svn-base",
+  "extension": "svn-base",
+  "name": "Subversion Base File",
+  "category": "subversion-base-file",
+  "developer_org": "the-apache-project",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 12,
+    "source": "fileinfo"
+  },
+  "summary": "File created by Subversion, an open source version control system; stores a base copy of a file that is checked out from the Subversion repository; used to compare the working copy of a project file against its latest checked out version.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "subversion",
+        "display_name": "Subversion"
+      },
+      {
+        "software": "eclipse-ide-for-java-developers",
+        "display_name": "Eclipse IDE for Java Developers"
+      },
+      {
+        "software": "microsoft-visual-studio-with-visualsvn-plug-in",
+        "display_name": "Microsoft Visual Studio with VisualSVN plug-in"
+      }
+    ],
+    "macos": [
+      {
+        "software": "subversion",
+        "display_name": "Subversion"
+      },
+      {
+        "software": "eclipse-ide-for-java-developers",
+        "display_name": "Eclipse IDE for Java Developers"
+      }
+    ],
+    "linux": [
+      {
+        "software": "subversion",
+        "display_name": "Subversion"
+      },
+      {
+        "software": "eclipse-ide-for-java-developers",
+        "display_name": "Eclipse IDE for Java Developers"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-01-04",
+  "sources": [
+    {
+      "url": "svn-base.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "slug": "pws",
+  "extension": "pws",
+  "name": "Painter Workspace File",
+  "category": "1.-painter-workspace-file",
+  "developer_org": "corel",
+  "popularity": {
+    "rating": 2.8,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "A PWS file contains a saved workspace layout for Corel Painter, a program that allows artists to create digital paintings. It stores the user interface elements' arrangement, including opened windows and their locations in the workspace. Painter users export and import PWS files to save and load workspaces customized for different painting needs.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "corel-painter-2023",
+        "display_name": "Corel Painter 2023"
+      },
+      {
+        "software": "valusoft-print-workshop",
+        "display_name": "ValuSoft Print Workshop"
+      }
+    ],
+    "macos": [
+      {
+        "software": "corel-painter-2023",
+        "display_name": "Corel Painter 2023"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "PWS file icon",
+      "alt": "PWS file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/pws-5001.png"
+    },
+    {
+      "caption": "PWS file open in Corel Painter 2023",
+      "alt": "PWS file open in Corel Painter 2023",
+      "source_url": "https://fileinfo.com/img/ss/md/pws_5001.jpg"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-07-17",
+  "sources": [
+    {
+      "url": "pws.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

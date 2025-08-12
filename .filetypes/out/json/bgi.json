@@ -1,0 +1,47 @@
+{
+  "slug": "bgi",
+  "extension": "bgi",
+  "name": "BgInfo Configuration File",
+  "category": "bginfo-configuration-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 17,
+    "source": "fileinfo"
+  },
+  "summary": "Preference file for BgInfo, a utility that keeps track of computer configuration information; stores custom settings chosen by the user within BgInfo.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-bginfo",
+        "display_name": "Microsoft BgInfo"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-08-18",
+  "sources": [
+    {
+      "url": "bgi.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

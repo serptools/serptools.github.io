@@ -1,0 +1,55 @@
+{
+  "slug": "fhd",
+  "extension": "fhd",
+  "name": "FreeHand Drawing File",
+  "category": "freehand-drawing-file",
+  "developer_org": "adobe-systems",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "Vector-based drawing image created by FreeHand, a program used to create illustrations and page layouts; contains lines and shapes, also called paths, to create drawings; can store simple shapes or complex drawings that use three-dimensional effects; used for storyboarding and multipage documents.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "adobe-freehand",
+        "display_name": "Adobe FreeHand",
+        "pricing": "free"
+      }
+    ],
+    "macos": [
+      {
+        "software": "adobe-freehand",
+        "display_name": "Adobe FreeHand",
+        "pricing": "free"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-05-13",
+  "sources": [
+    {
+      "url": "fhd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

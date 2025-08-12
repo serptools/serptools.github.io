@@ -1,0 +1,24 @@
+{
+  "slug": "tlx",
+  "extension": "tlx",
+  "name": "LG Commercial Television Configuration File",
+  "category": "lg-commercial-television-configuration-file",
+  "summary": "",
+  "developer_org": "n-a",
+  "developer_name": "N/A",
+  "more_information": {
+    "description": [
+      "Hotels, hospitals, and other businesses with publicly-accessible commercial LG TVs often configure those televisions to function in Free-To-Guest mode. FTG mode limits what channels and settings a user has access to, so they cannot use the TV in an unauthorized manner.",
+      "If a FTG TV user wants to transfer one TV's settings to another, they can do so by:",
+      "Each TLX file contains a list of channels a TV is allowed to access, as well as a list of settings that users are allowed to access. TLX files are model-specific, so a TLX file produced by one TV may not function correctly if used with a different model.",
+      "In addition to exporting and installing TLX files on LG commercial TVs, TV administrators can create, edit, and open TLX files in LG's free Free-To-Guest File Manager, which is available to download from LG.com."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "tlx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

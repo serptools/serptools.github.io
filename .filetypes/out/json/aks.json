@@ -1,0 +1,65 @@
+{
+  "slug": "aks",
+  "extension": "aks",
+  "name": "Arkos Tracker Module",
+  "category": "arkos-tracker-module",
+  "developer_org": "arkos-tracker",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "An AKS file is an audio module saved in the Arkos Tracker (AKS) format. It contains one or more audio samples, instruments, patterns, and notes that comprise the melody and related metadata (e.g., the module name and version). Arkos Tracker users save modules in the proprietary .AKS format to save their music or sound effects compositions.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "arkos-tracker-2",
+        "display_name": "Arkos Tracker 2"
+      }
+    ],
+    "macos": [
+      {
+        "software": "arkos-tracker-2",
+        "display_name": "Arkos Tracker 2"
+      }
+    ],
+    "linux": [
+      {
+        "software": "arkos-tracker-2",
+        "display_name": "Arkos Tracker 2"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "AKS file open in Arkos Tracker 2",
+      "alt": "AKS file open in Arkos Tracker 2",
+      "source_url": "https://fileinfo.com/img/ss/md/aks_13626.jpg"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2024-01-11",
+  "sources": [
+    {
+      "url": "aks.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

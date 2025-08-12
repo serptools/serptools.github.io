@@ -1,0 +1,79 @@
+{
+  "slug": "tgf",
+  "extension": "tgf",
+  "name": "Trivial Graph Format File",
+  "category": "trivial-graph-format-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "File created in the Trivial Graph Format (TGF), a plain text format used for describing simple graph structures; includes nodes and edges but does not support nested graphs or visual layout information.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "yworks-yed-graph-editor",
+        "display_name": "yWorks yEd Graph Editor"
+      },
+      {
+        "software": "wolfram-research-mathematica",
+        "display_name": "Wolfram Research Mathematica"
+      }
+    ],
+    "macos": [
+      {
+        "software": "yworks-yed-graph-editor",
+        "display_name": "yWorks yEd Graph Editor"
+      },
+      {
+        "software": "wolfram-research-mathematica",
+        "display_name": "Wolfram Research Mathematica"
+      }
+    ],
+    "linux": [
+      {
+        "software": "yworks-yed-graph-editor",
+        "display_name": "yWorks yEd Graph Editor"
+      },
+      {
+        "software": "wolfram-research-mathematica",
+        "display_name": "Wolfram Research Mathematica"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "TGF file icon",
+      "alt": "TGF file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/tgf-7303.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-09-25",
+  "sources": [
+    {
+      "url": "tgf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

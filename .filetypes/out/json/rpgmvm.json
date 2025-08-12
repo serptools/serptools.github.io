@@ -1,0 +1,63 @@
+{
+  "slug": "rpgmvm",
+  "extension": "rpgmvm",
+  "name": "RPG Maker MV Encrypted M4A File",
+  "category": "rpg-maker-mv-encrypted-m4a-file",
+  "developer_org": "enterbrain",
+  "popularity": {
+    "rating": 2.8,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "An RPGMVP file is an .M4A audio file that has been encrypted by RPG Maker MV, a program used to create role-playing games (RPG). It contains an M4A audio file that is played in the game as music, narration, or a sound effect. RPGMVM files are encrypted by RPG Maker MV when deploying a project as an executable package to be played by other users.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "petschko-rpg-maker-mv-decrypter",
+        "display_name": "Petschko RPG-Maker-MV-Decrypter"
+      },
+      {
+        "software": "petschkos-rpg-maker-mv-file-decrypter",
+        "display_name": "Petschkos RPG-Maker MV-File Decrypter"
+      }
+    ],
+    "linux": [
+      {
+        "software": "petschko-rpg-maker-mv-decrypter",
+        "display_name": "Petschko RPG-Maker-MV-Decrypter"
+      }
+    ],
+    "web": [
+      {
+        "software": "petschkos-rpg-maker-mv-file-decrypter",
+        "display_name": "Petschkos RPG-Maker MV-File Decrypter"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-04-15",
+  "sources": [
+    {
+      "url": "rpgmvm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

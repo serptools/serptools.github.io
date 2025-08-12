@@ -1,0 +1,65 @@
+{
+  "slug": "afx",
+  "extension": "afx",
+  "name": "Auto FX PhotoGraphic Edges Image",
+  "category": "auto-fx-photographic-edges-image",
+  "developer_org": "auto-fx-software",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "Image file used by Auto FX PhotoGraphic Edges, a program used for enhancing digital images with photographic effects; contains a raster image that can be overlaid onto another image as an effect; used for creating presentable photographs for clients.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "auto-fx-photographic-edges",
+        "display_name": "Auto FX PhotoGraphic Edges"
+      },
+      {
+        "software": "corel-paintshop-pro-2023",
+        "display_name": "Corel PaintShop Pro 2023"
+      },
+      {
+        "software": "adobe-photoshop-2025",
+        "display_name": "Adobe Photoshop 2025"
+      }
+    ],
+    "macos": [
+      {
+        "software": "auto-fx-photographic-edges",
+        "display_name": "Auto FX PhotoGraphic Edges"
+      },
+      {
+        "software": "adobe-photoshop-2025",
+        "display_name": "Adobe Photoshop 2025"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-08-06",
+  "sources": [
+    {
+      "url": "afx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "pol",
+  "extension": "pol",
+  "name": "Windows Policy File",
+  "category": "windows-policy-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 22,
+    "source": "fileinfo"
+  },
+  "summary": "A POL file is a file created by Group Policy Object Editor, an administration tool for Windows. It saves registry keys created while authoring an Administrative Template and can specify local or global user settings. POL files are typically named Registry.pol",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-group-policy-object-editor",
+        "display_name": "Microsoft Group Policy Object Editor"
+      },
+      {
+        "software": "registry.pol-viewer-utility",
+        "display_name": "Registry.Pol Viewer Utility"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-05-30",
+  "sources": [
+    {
+      "url": "pol.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

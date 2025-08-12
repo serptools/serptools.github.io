@@ -1,0 +1,112 @@
+{
+  "slug": "umx",
+  "extension": "umx",
+  "name": "Unreal Music Package",
+  "category": "unreal-music-package",
+  "developer_org": "epic-games",
+  "popularity": {
+    "rating": 4.4,
+    "votes": 19,
+    "source": "fileinfo"
+  },
+  "summary": "A UMX file is a music module that contains background music for Epic Games Unreal Tournament, a 3D first-person shooter (FPS) game. It is similar to an .XM or .S3M file, but saved in the proprietary Unreal Music Package (UMX) format.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "epic-games-unreal-tournament",
+        "display_name": "Epic Games Unreal Tournament"
+      },
+      {
+        "software": "epic-games-unrealed",
+        "display_name": "Epic Games UnrealEd"
+      },
+      {
+        "software": "xmplay",
+        "display_name": "XMPlay"
+      },
+      {
+        "software": "modplug-player",
+        "display_name": "MODPlug Player",
+        "status": "discontinued"
+      },
+      {
+        "software": "openmpt",
+        "display_name": "OpenMPT"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "nullsoft-winamp-with-umx-decoder",
+        "display_name": "Nullsoft Winamp with UMX Decoder"
+      },
+      {
+        "software": "ximplemod",
+        "display_name": "XimpleMOD"
+      },
+      {
+        "software": "cocomodx",
+        "display_name": "CocoModX",
+        "status": "discontinued"
+      }
+    ],
+    "macos": [
+      {
+        "software": "epic-games-unreal-tournament",
+        "display_name": "Epic Games Unreal Tournament"
+      },
+      {
+        "software": "ximplemod",
+        "display_name": "XimpleMOD"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "cocomodx",
+        "display_name": "CocoModX",
+        "status": "discontinued"
+      }
+    ],
+    "linux": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "UMX file open in OpenMPT 1",
+      "alt": "UMX file open in OpenMPT 1",
+      "source_url": "https://fileinfo.com/img/ss/md/umx_1385.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-03-30",
+  "sources": [
+    {
+      "url": "umx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

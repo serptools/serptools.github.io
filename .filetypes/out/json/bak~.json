@@ -1,0 +1,53 @@
+{
+  "slug": "bak~",
+  "extension": "bak~",
+  "name": "AbiWord Auto-Saved Document",
+  "category": "abiword-auto-saved-document",
+  "developer_org": "abisource",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "A BAK~ file is an auto-saved document created by AbiSource AbiWord, an open-source word processor. It stores a backup copy of the currently-open document that users can open to revert to the last auto-save of the document (e.g., .AWB , .AWT , etc.).",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "linux": [
+      {
+        "software": "abisource-abiword",
+        "display_name": "AbiSource AbiWord"
+      }
+    ],
+    "windows": [
+      {
+        "software": "abisource-abiword",
+        "display_name": "AbiSource AbiWord"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-03-16",
+  "sources": [
+    {
+      "url": "bak~.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

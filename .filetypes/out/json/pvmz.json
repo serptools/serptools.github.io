@@ -1,0 +1,58 @@
+{
+  "slug": "pvmz",
+  "extension": "pvmz",
+  "name": "Parallels Compressed Virtual Machine",
+  "category": "parallels-compressed-virtual-machine",
+  "developer_org": "parallels",
+  "popularity": {
+    "rating": 2.8,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "A PVMZ file is a compressed virtual machine created with Parallels Desktop emulation software. It contains all the information for a virtual machine (VM) required by Parallels Desktop for Mac to load and run an operating system , such as Windows, macOS, or Linux. PVMZ files are the same as .PVM files but are Zip-compressed to save space.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "parallels-desktop-for-mac-20",
+        "display_name": "Parallels Desktop for Mac 20"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "PVMZ file icon",
+      "alt": "PVMZ file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/pvmz-10773.png"
+    },
+    {
+      "caption": "PVMZ file open in Parallels Desktop for Mac 20",
+      "alt": "PVMZ file open in Parallels Desktop for Mac 20",
+      "source_url": "https://fileinfo.com/img/ss/md/pvmz_10773.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2024-09-18",
+  "sources": [
+    {
+      "url": "pvmz.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

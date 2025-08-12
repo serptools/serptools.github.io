@@ -1,0 +1,29 @@
+{
+  "slug": "bgi",
+  "extension": "bgi",
+  "name": "BgInfo Configuration File",
+  "category": "bginfo-configuration-file",
+  "summary": "",
+  "developer_org": "microsoft",
+  "developer_name": "Microsoft",
+  "more_information": {
+    "description": [
+      "In order for BGInfo to use a BGI configuration file instead of the default configuration (which is stored in the registry), the name of the file must be specified in the command line. I.e. \" BGInfo MyConfig.bgi \".",
+      "More information about BgInfo is available on Microsoft's TechNet BgInfo page.",
+      "BgInfo was originally developed by Sysinternals, which was acquired by Microsoft in July, 2006."
+    ]
+  },
+  "common_filenames": [
+    {
+      "filename": "MyConfig.bgi",
+      "description": "MyConfig.bgi - the standard BGI configuration filename"
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "bgi.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

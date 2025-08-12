@@ -1,0 +1,53 @@
+{
+  "slug": "dmpr",
+  "extension": "dmpr",
+  "name": "Direct Mail Project File",
+  "category": "direct-mail-project-file",
+  "developer_org": "e3-software",
+  "popularity": {
+    "rating": 4.3,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "File created by Direct Mail, an email marketing program used for sending advertisement emails; contains messages, contacts, mailing lists, and history data created in the software; can also store tracking data for analyzing the success of an email campaign.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "e3-software-direct-mail",
+        "display_name": "e3 Software Direct Mail"
+      }
+    ],
+    "windows": [
+      {
+        "software": "e3-software-direct-mail",
+        "display_name": "e3 Software Direct Mail"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-09-06",
+  "sources": [
+    {
+      "url": "dmpr.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

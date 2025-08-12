@@ -1,0 +1,85 @@
+{
+  "slug": "p7c",
+  "extension": "p7c",
+  "name": "PKCS #7 Certificate File",
+  "category": "pkcs-7-certificate-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 11,
+    "source": "fileinfo"
+  },
+  "summary": "Digital certificate file used by various applications to authenticate a Web identity; similar to a .P7B file, both of which contain a public key used to verify an entity using public-key cryptography.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-certificate-manager",
+        "display_name": "Microsoft Certificate Manager"
+      },
+      {
+        "software": "microsoft-windows-contacts",
+        "display_name": "Microsoft Windows Contacts"
+      },
+      {
+        "software": "adobe-acrobat-reader-dc",
+        "display_name": "Adobe Acrobat Reader DC"
+      },
+      {
+        "software": "adobe-acrobat-dc",
+        "display_name": "Adobe Acrobat DC"
+      },
+      {
+        "software": "apple-keychain-access",
+        "display_name": "Apple Keychain Access"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-keychain-access",
+        "display_name": "Apple Keychain Access"
+      },
+      {
+        "software": "adobe-acrobat-reader-dc",
+        "display_name": "Adobe Acrobat Reader DC"
+      },
+      {
+        "software": "adobe-acrobat-dc",
+        "display_name": "Adobe Acrobat DC"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "P7C file icon",
+      "alt": "P7C file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/p7c-5459.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-12-21",
+  "sources": [
+    {
+      "url": "p7c.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

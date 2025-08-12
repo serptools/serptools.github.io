@@ -1,0 +1,47 @@
+{
+  "slug": "gl",
+  "extension": "gl",
+  "name": "GRASP Animation",
+  "category": "grasp-animation",
+  "developer_org": "john-bridges",
+  "popularity": {
+    "rating": 2.5,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "A GL file is an animation created by GRASP (Graphical System for Presentation), an MS-DOS program used to create and play back animations. It stores a simple animation in the GRASP format that users would insert into games, presentations, and tutorials. While prominent in the 1980s and 90s, GRASP is now an obscure, no longer developed format.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "grasp",
+        "display_name": "GRASP"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-03-23",
+  "sources": [
+    {
+      "url": "gl.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

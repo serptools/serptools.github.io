@@ -1,0 +1,85 @@
+{
+  "slug": "aae",
+  "extension": "aae",
+  "name": "Sidecar Image Edit File",
+  "category": "sidecar-image-edit-file",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 246,
+    "source": "fileinfo"
+  },
+  "summary": "An AAE file is a record of the edits a user has made to an image in the iOS version of Apple Photos. It is used to non-destructively transfer edits from iOS to macOS, so a user can revert their image to its original form if needed. AAE files are stored alongside the images whose edits they contain.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "apple-photos",
+        "display_name": "Apple Photos"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-photos",
+        "display_name": "Apple Photos"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "AAE file open in Microsoft Notepad",
+      "alt": "AAE file open in Microsoft Notepad",
+      "source_url": "https://fileinfo.com/img/ss/md/aae_10137.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-05-05",
+  "sources": [
+    {
+      "url": "aae.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

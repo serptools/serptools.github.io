@@ -1,0 +1,81 @@
+{
+  "slug": "mtz",
+  "extension": "mtz",
+  "name": "MIUI Theme",
+  "category": "1.-miui-theme",
+  "developer_org": "xiaomi",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 77,
+    "source": "fileinfo"
+  },
+  "summary": "An MTZ file contains a custom theme used by a Xiaomi MIUI smartphone. It is a renamed .ZIP package that contains the theme's assets, configuration files, and metadata . MIUI users often download MTZ files via theme-related applications or the internet, to install on their smartphones.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "android": [
+      {
+        "software": "xiaomi-themes",
+        "display_name": "Xiaomi Themes"
+      },
+      {
+        "software": "chaome-theme-editor",
+        "display_name": "ChaoMe Theme Editor"
+      },
+      {
+        "software": "xioami-miui",
+        "display_name": "Xioami MIUI"
+      }
+    ],
+    "windows": [
+      {
+        "software": "xiaomi-themes",
+        "display_name": "Xiaomi Themes"
+      },
+      {
+        "software": "chaome-theme-editor",
+        "display_name": "ChaoMe Theme Editor"
+      },
+      {
+        "software": "xioami-miui",
+        "display_name": "Xioami MIUI"
+      },
+      {
+        "software": "viewpoint-media-compressor",
+        "display_name": "Viewpoint Media Compressor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "viewpoint-media-compressor",
+        "display_name": "Viewpoint Media Compressor"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-08-14",
+  "sources": [
+    {
+      "url": "mtz.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

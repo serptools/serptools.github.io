@@ -1,0 +1,58 @@
+{
+  "slug": "yrcbck",
+  "extension": "yrcbck",
+  "name": "Weblink Backup",
+  "category": "weblink-backup",
+  "developer_org": "yrc-group",
+  "popularity": {
+    "rating": 2.8,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "A YRCBCK file is a backup file created by YRC Group Weblink, a web browser for Windows. It contains a copy of a user's history, bookmark archive files ( .YRCBKM files), saved form information, and settings. Weblink users can load a YRCBCK file to import their data into another instance of Weblink.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "web": [
+      {
+        "software": "yrc-group-weblink",
+        "display_name": "YRC Group Weblink"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "YRCBCK file icon",
+      "alt": "YRCBCK file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/yrcbck-9220.png"
+    },
+    {
+      "caption": "YRCBCK file open in YRC Group Weblink",
+      "alt": "YRCBCK file open in YRC Group Weblink",
+      "source_url": "https://fileinfo.com/img/ss/md/yrcbck_9220.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-10-18",
+  "sources": [
+    {
+      "url": "yrcbck.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

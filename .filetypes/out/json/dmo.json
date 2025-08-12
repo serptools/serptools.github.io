@@ -1,0 +1,96 @@
+{
+  "slug": "dmo",
+  "extension": "dmo",
+  "name": "Cube 2 Demo File",
+  "category": "1.-cube-2-demo-file",
+  "developer_org": "wouter-van-oortmerssen",
+  "popularity": {
+    "rating": 4.5,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "A DMO file is a game demo file created by various games using the Cube 2 game engine, such as Red Eclipse, Blood Frontier, and Cube 2: Sauerbraten. It contains a recording of a single or multiplayer session, including player movements, game events, and a chat log, in the Cube 2 Demo (DMO) format. DMO files enable games running the Cube 2 engine to replicate an exact replay of the match.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "cube-2-sauerbraten",
+        "display_name": "Cube 2: Sauerbraten"
+      },
+      {
+        "software": "red-eclipse",
+        "display_name": "Red Eclipse"
+      },
+      {
+        "software": "blood-frontier",
+        "display_name": "Blood Frontier"
+      },
+      {
+        "software": "apogee-duke-nukem-3d",
+        "display_name": "Apogee Duke Nukem 3D"
+      },
+      {
+        "software": "movienizer",
+        "display_name": "Movienizer"
+      },
+      {
+        "software": "texas-instruments-derive",
+        "display_name": "Texas Instruments Derive",
+        "status": "discontinued"
+      }
+    ],
+    "macos": [
+      {
+        "software": "cube-2-sauerbraten",
+        "display_name": "Cube 2: Sauerbraten"
+      },
+      {
+        "software": "red-eclipse",
+        "display_name": "Red Eclipse"
+      },
+      {
+        "software": "blood-frontier",
+        "display_name": "Blood Frontier"
+      }
+    ],
+    "linux": [
+      {
+        "software": "cube-2-sauerbraten",
+        "display_name": "Cube 2: Sauerbraten"
+      },
+      {
+        "software": "red-eclipse",
+        "display_name": "Red Eclipse"
+      },
+      {
+        "software": "blood-frontier",
+        "display_name": "Blood Frontier"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2024-07-25",
+  "sources": [
+    {
+      "url": "dmo.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

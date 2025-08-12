@@ -1,0 +1,69 @@
+{
+  "slug": "vmss",
+  "extension": "vmss",
+  "name": "VMware Suspended State File",
+  "category": "vmware-suspended-state-file",
+  "developer_org": "vmware",
+  "popularity": {
+    "rating": 1.7,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "A VMSS file saves the state of a virtual machine (VM) when it is in a suspended state, meaning that it has been stopped temporarily. VMware virtualization software creates a VMSS file automatically when a user suspends a VM, allowing them to stop and resume a VM.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "vmware-workstation",
+        "display_name": "VMware Workstation"
+      },
+      {
+        "software": "vmware-fusion",
+        "display_name": "VMware Fusion"
+      }
+    ],
+    "macos": [
+      {
+        "software": "vmware-fusion",
+        "display_name": "VMware Fusion"
+      }
+    ],
+    "linux": [
+      {
+        "software": "vmware-workstation",
+        "display_name": "VMware Workstation"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "VMSS file open in VMware Fusion 13",
+      "alt": "VMSS file open in VMware Fusion 13",
+      "source_url": "https://fileinfo.com/img/ss/md/vmss_6970.jpg"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-12-21",
+  "sources": [
+    {
+      "url": "vmss.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "omx",
+  "extension": "omx",
+  "name": "OtsAV Media Library Information File",
+  "category": "otsav-media-library-information-file",
+  "developer_org": "ots-labs",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Media information file used by Ots audio software; contains audio analysis data for a corresponding .WAV or .MP3 file; typically created when an audio file is imported into an OtsAV media library.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "ots-labs-otsav-dj",
+        "display_name": "Ots Labs OtsAV DJ"
+      },
+      {
+        "software": "ots-labs-otsav-tv",
+        "display_name": "Ots Labs OtsAV TV"
+      },
+      {
+        "software": "ots-labs-otsav-radio",
+        "display_name": "Ots Labs OtsAV Radio"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2008-06-19",
+  "sources": [
+    {
+      "url": "omx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

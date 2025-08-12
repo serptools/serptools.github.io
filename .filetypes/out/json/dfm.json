@@ -1,0 +1,65 @@
+{
+  "slug": "dfm",
+  "extension": "dfm",
+  "name": "Midas ViewPoint Display Form",
+  "category": "1.-midas-viewpoint-display-form",
+  "developer_org": "sentel-advance",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 10,
+    "source": "fileinfo"
+  },
+  "summary": "Form created by Midas ViewPoint, an object orientated audio-visual information display channel editor and player; used for controlling how information is displayed on screens; contains ViewPoint display objects and related display forms.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "sentel-advance-midas-viewpoint",
+        "display_name": "Sentel Advance Midas ViewPoint"
+      },
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "embarcadero-delphi",
+        "display_name": "Embarcadero Delphi"
+      },
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      }
+    ],
+    "web": [
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-04-23",
+  "sources": [
+    {
+      "url": "dfm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

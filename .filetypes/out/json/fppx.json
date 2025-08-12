@@ -1,0 +1,53 @@
+{
+  "slug": "fppx",
+  "extension": "fppx",
+  "name": "Microsoft Fresh Paint Painting File",
+  "category": "microsoft-fresh-paint-painting-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 2.7,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "Native image format of Fresh Paint, a Microsoft app used to created digital oil paint artwork; stores a painting made up of paint brush, pencil, and pen strokes.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-fresh-paint",
+        "display_name": "Microsoft Fresh Paint"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "FPPX file icon",
+      "alt": "FPPX file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/fppx-10102.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-03-14",
+  "sources": [
+    {
+      "url": "fppx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

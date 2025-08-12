@@ -1,0 +1,94 @@
+{
+  "slug": "bst",
+  "extension": "bst",
+  "name": "BibTeX Style Document",
+  "category": "bibtex-style-document",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 10,
+    "source": "fileinfo"
+  },
+  "summary": "Specifies the formatting of a BibTeX ( .BIB ) document; referenced by the LaTeX document and used by the BibTeX program \"bibtex\" when generating items for the bibliography; may also be used to create HTML output from a BibTeX file.",
+  "standards": [],
+  "mime_types": [
+    "lyx/mac",
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "texworks",
+        "display_name": "TeXworks"
+      },
+      {
+        "software": "texniccenter",
+        "display_name": "TeXnicCenter"
+      },
+      {
+        "software": "protext",
+        "display_name": "proTeXt"
+      },
+      {
+        "software": "latexeditor",
+        "display_name": "LaTeXEditor"
+      },
+      {
+        "software": "latex",
+        "display_name": "LaTeX"
+      },
+      {
+        "software": "tetex",
+        "display_name": "teTeX"
+      }
+    ],
+    "macos": [
+      {
+        "software": "lyx-mac",
+        "display_name": "LyX/Mac"
+      },
+      {
+        "software": "texworks",
+        "display_name": "TeXworks"
+      }
+    ],
+    "linux": [
+      {
+        "software": "texworks",
+        "display_name": "TeXworks"
+      },
+      {
+        "software": "latex",
+        "display_name": "LaTeX"
+      },
+      {
+        "software": "tetex",
+        "display_name": "teTeX"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-05-01",
+  "sources": [
+    {
+      "url": "bst.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

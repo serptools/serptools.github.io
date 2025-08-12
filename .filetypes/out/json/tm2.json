@@ -1,0 +1,75 @@
+{
+  "slug": "tm2",
+  "extension": "tm2",
+  "name": "PlayStation 2 Texture Image Map",
+  "category": "1.-playstation-2-texture-image-map",
+  "developer_org": "sony",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "A TM2 file is an image used by a PlayStation 2 (PS2) or PlayStation Portable (PSP) video game. It contains a texture used to show or skin an in-game object. The games Final Fantasy XII, Spider-Man: The Movie, Sword Art Online: Infinity Moment, and many others used TM2 files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      },
+      {
+        "software": "noesis",
+        "display_name": "Noesis"
+      },
+      {
+        "software": "rainbow",
+        "display_name": "Rainbow"
+      },
+      {
+        "software": "another-slight-atari-player",
+        "display_name": "Another Slight Atari Player"
+      },
+      {
+        "software": "theta-music-composer",
+        "display_name": "Theta Music Composer"
+      }
+    ],
+    "macos": [
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      }
+    ],
+    "linux": [
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-07-20",
+  "sources": [
+    {
+      "url": "tm2.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

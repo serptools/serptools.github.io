@@ -1,0 +1,59 @@
+{
+  "slug": "mars",
+  "extension": "mars",
+  "name": "Adobe MARS File",
+  "category": "adobe-mars-file",
+  "developer_org": "adobe-systems",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "File created by Adobe Acrobat, a program used to create and edit PDFs; stores an XML-friendly representation of a .PDF document; used for storing PDF documents in a more open and accessible format.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "adobe-acrobat-dc",
+        "display_name": "Adobe Acrobat DC"
+      }
+    ],
+    "macos": [
+      {
+        "software": "adobe-acrobat-dc",
+        "display_name": "Adobe Acrobat DC"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "MARS file icon",
+      "alt": "MARS file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/mars-5457.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-12-21",
+  "sources": [
+    {
+      "url": "mars.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

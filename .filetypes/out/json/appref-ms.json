@@ -1,0 +1,51 @@
+{
+  "slug": "appref-ms",
+  "extension": "appref-ms",
+  "name": "Microsoft Application Reference File",
+  "category": "microsoft-application-reference-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 20,
+    "source": "fileinfo"
+  },
+  "summary": "Application reference file used by ClickOnce, a Microsoft platform used to deploy and run remote Web applications; contains a local or remote link to an application; commonly used to enable links from the Windows Start Menu.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-visual-studio-2022",
+        "display_name": "Microsoft Visual Studio 2022"
+      },
+      {
+        "software": "microsoft-clickonce",
+        "display_name": "Microsoft ClickOnce"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-01-27",
+  "sources": [
+    {
+      "url": "appref-ms.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

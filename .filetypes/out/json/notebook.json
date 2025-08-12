@@ -1,0 +1,69 @@
+{
+  "slug": "notebook",
+  "extension": "notebook",
+  "name": "SMART Notebook File",
+  "category": "smart-notebook-file",
+  "developer_org": "smart-technologies",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 175,
+    "source": "fileinfo"
+  },
+  "summary": "A NOTEBOOK file contains a notebook created by SMART Notebook software, which allows teachers to create dynamic classroom lecture materials. It may store notes, diagrams, images, audio, and video. NOTEBOOK files are used for storing and sharing digital lesson notes with teachers and students.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "smart-technologies-notebook",
+        "display_name": "SMART Technologies Notebook"
+      }
+    ],
+    "ios": [
+      {
+        "software": "mimiostudio",
+        "display_name": "MimioStudio"
+      },
+      {
+        "software": "smart-technologies-notebook",
+        "display_name": "SMART Technologies Notebook"
+      }
+    ],
+    "macos": [
+      {
+        "software": "smart-technologies-notebook",
+        "display_name": "SMART Technologies Notebook"
+      }
+    ],
+    "linux": [
+      {
+        "software": "smart-technologies-notebook",
+        "display_name": "SMART Technologies Notebook"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-03-21",
+  "sources": [
+    {
+      "url": "notebook.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

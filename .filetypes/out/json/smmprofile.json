@@ -1,0 +1,53 @@
+{
+  "slug": "smmprofile",
+  "extension": "smmprofile",
+  "name": "Satisfactory Mod Manager Profile",
+  "category": "satisfactory-mod-manager-profile",
+  "developer_org": "satisfactory-modding",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "An SMMPROFILE file is a profile created by Satisfactory Mod Manager, a mod management program for the video game Satisfactory. It contains a list of the mods a player has installed. Players can import an SMMPROFILE file to quickly install the mods the file lists.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "satisfactory-mod-manager",
+        "display_name": "Satisfactory Mod Manager"
+      }
+    ],
+    "linux": [
+      {
+        "software": "satisfactory-mod-manager",
+        "display_name": "Satisfactory Mod Manager"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-02-06",
+  "sources": [
+    {
+      "url": "smmprofile.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

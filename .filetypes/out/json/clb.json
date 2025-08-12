@@ -1,0 +1,51 @@
+{
+  "slug": "clb",
+  "extension": "clb",
+  "name": "COM+ Catalog File",
+  "category": "1.-com+-catalog-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 12,
+    "source": "fileinfo"
+  },
+  "summary": "File used by Microsoft COM+, a service on Windows operating systems that allows components to communicate with each other; contains COM+ application, class, and computer-level attributes; store information that provides consistency across computer services.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-com+",
+        "display_name": "Microsoft COM+"
+      },
+      {
+        "software": "icq",
+        "display_name": "ICQ"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-03-08",
+  "sources": [
+    {
+      "url": "clb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

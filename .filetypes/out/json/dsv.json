@@ -1,0 +1,130 @@
+{
+  "slug": "dsv",
+  "extension": "dsv",
+  "name": "DeSmuME Saved Game",
+  "category": "1.-desmume-saved-game",
+  "developer_org": "desmume",
+  "popularity": {
+    "rating": 4.4,
+    "votes": 17,
+    "source": "fileinfo"
+  },
+  "summary": "A DSV file is a saved game created by DeSmuME, a Nintendo DS emulator . It stores a player's progress up to the last time they used a game's in-game Save feature. DSV files are identical to .SAV files, except that they contain a DeSmuME-specific footer.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "desmume",
+        "display_name": "DeSmuME"
+      },
+      {
+        "software": "desmume-save-converter",
+        "display_name": "DeSmuME Save Converter"
+      },
+      {
+        "software": "daz-3d-daz-studio-4",
+        "display_name": "DAZ 3D DAZ Studio 4"
+      },
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "github-atom",
+        "display_name": "GitHub Atom",
+        "status": "discontinued"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "desmume",
+        "display_name": "DeSmuME"
+      },
+      {
+        "software": "daz-3d-daz-studio-4",
+        "display_name": "DAZ 3D DAZ Studio 4"
+      },
+      {
+        "software": "gnu-emacs",
+        "display_name": "GNU Emacs"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "github-atom",
+        "display_name": "GitHub Atom",
+        "status": "discontinued"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "vim",
+        "display_name": "Vim"
+      }
+    ],
+    "linux": [
+      {
+        "software": "desmume",
+        "display_name": "DeSmuME"
+      }
+    ],
+    "web": [
+      {
+        "software": "desmume-save-converter",
+        "display_name": "DeSmuME Save Converter"
+      }
+    ],
+    "chromeos": [
+      {
+        "software": "google-chrome-text",
+        "display_name": "Google Chrome Text"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "DSV file icon",
+      "alt": "DSV file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/dsv-3946.png"
+    },
+    {
+      "caption": "DSV file open in DeSmuME",
+      "alt": "DSV file open in DeSmuME",
+      "source_url": "https://fileinfo.com/img/ss/md/dsv_3946.jpg"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-07-19",
+  "sources": [
+    {
+      "url": "dsv.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

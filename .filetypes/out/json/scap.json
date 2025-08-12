@@ -1,0 +1,55 @@
+{
+  "slug": "scap",
+  "extension": "scap",
+  "name": "EFI Firmware File",
+  "category": "efi-firmware-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 2.9,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "Firmware file used by computers that use the EFI (Extensible Firmware Interface) or the UEFI (Unified EFI) specification; contains low-level programs that bootstrap and load the machine; often included in firmware updates ( .PKG files) for Mac OS X MacBook and MacBook Pro laptops; often uses the name firmware.scap .",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "ios": [
+      {
+        "software": "phoenix-bios-mod-tool",
+        "display_name": "Phoenix Bios Mod Tool"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-macos",
+        "display_name": "Apple macOS"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-01-13",
+  "sources": [
+    {
+      "url": "scap.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

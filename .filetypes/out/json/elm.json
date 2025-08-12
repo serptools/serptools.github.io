@@ -1,0 +1,68 @@
+{
+  "slug": "elm",
+  "extension": "elm",
+  "name": "Eternal Lands Map File",
+  "category": "1.-eternal-lands-map-file",
+  "developer_org": "eternal-lands",
+  "popularity": {
+    "rating": 4.4,
+    "votes": 10,
+    "source": "fileinfo"
+  },
+  "summary": "Game file used by Eternal Lands, a free fantasy massively multiplayer online role-playing game (MMORPG); contains information about modifiable 2D and 3D objects for the map; used in conjunction with a .BMP file, which colors the map and defines locations.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "eternal-lands",
+        "display_name": "Eternal Lands"
+      },
+      {
+        "software": "microsoft-office-365",
+        "display_name": "Microsoft Office 365"
+      },
+      {
+        "software": "microsoft-frontpage",
+        "display_name": "Microsoft FrontPage",
+        "status": "discontinued"
+      }
+    ],
+    "macos": [
+      {
+        "software": "eternal-lands",
+        "display_name": "Eternal Lands"
+      }
+    ],
+    "linux": [
+      {
+        "software": "eternal-lands",
+        "display_name": "Eternal Lands"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-01-10",
+  "sources": [
+    {
+      "url": "elm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

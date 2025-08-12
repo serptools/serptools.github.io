@@ -1,0 +1,47 @@
+{
+  "slug": "mmdc",
+  "extension": "mmdc",
+  "name": "MediaMonkey Device Configuration File",
+  "category": "mediamonkey-device-configuration-file",
+  "developer_org": "ventis-media",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "Settings file created by MediaMonkey, an application used for managing and playing music; saves a profile of a mobile device, which can be synchronized with the software to download and convert the device's music; enables settings to be remembered for different devices.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "ventis-media-mediamonkey",
+        "display_name": "Ventis Media MediaMonkey"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-12-28",
+  "sources": [
+    {
+      "url": "mmdc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

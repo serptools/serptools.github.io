@@ -1,0 +1,23 @@
+{
+  "slug": "ols",
+  "extension": "ols",
+  "name": "Microsoft Office List Shortcut",
+  "category": "microsoft-office-list-shortcut",
+  "summary": "",
+  "developer_org": "microsoft",
+  "developer_name": "Microsoft",
+  "more_information": {
+    "description": [
+      "Microsoft Publisher is a desktop publishing program that is part of the Microsoft Office suite. While using Publisher to create and publish documents, you can perform a mail (or email) merge. This allows you to import a mailing (or email) list and personalize your document for each person on the list (for example, by adding that person's name and address or a unique greeting).",
+      "As part of performing a mail merge, you must import a recipient list. Recipient lists can be imported from files saved in any of the following formats:",
+      "After you finish performing your mail merge, Microsoft Publisher will ask whether you want to save a shortcut to your imported recipient list, to make the list easier to select in the future. If you choose to save a shortcut, Publisher will create an OLS file, which links to your recipient list. The next time you perform a mail merge, you will be able to select this shortcut to more easily import the linked recipient list."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "ols.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "paq",
+  "extension": "paq",
+  "name": "Hewlett-Packard Software Restore File",
+  "category": "hewlett-packard-software-restore-file",
+  "developer_org": "hewlett-packard",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Contains data used for restoring system files or other data pre-installed on a Hewlett-Packard (HP) computer system; saved in a compressed and encrypted archive format; typically found on HP system software installer or recovery disks.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "corel-winzip",
+        "display_name": "Corel WinZip"
+      },
+      {
+        "software": "pkware-pkunzip",
+        "display_name": "PKWARE PKUNZIP"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2008-07-15",
+  "sources": [
+    {
+      "url": "paq.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

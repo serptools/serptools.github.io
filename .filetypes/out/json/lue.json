@@ -1,0 +1,53 @@
+{
+  "slug": "lue",
+  "extension": "lue",
+  "name": "Norton LiveUpdate Log File",
+  "category": "norton-liveupdate-log-file",
+  "developer_org": "symantec",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "Log file created by Norton LiveUpdate, a program that downloads and installs security updates for Symantec software; keeps track of virus definitions and other updates that have been installed.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "symantec-norton-liveupdate",
+        "display_name": "Symantec Norton LiveUpdate"
+      }
+    ],
+    "macos": [
+      {
+        "software": "symantec-norton-liveupdate",
+        "display_name": "Symantec Norton LiveUpdate"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-08-28",
+  "sources": [
+    {
+      "url": "lue.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

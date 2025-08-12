@@ -1,0 +1,69 @@
+{
+  "slug": "ibooks",
+  "extension": "ibooks",
+  "name": "Multi-Touch iBook",
+  "category": "multi-touch-ibook",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 30,
+    "source": "fileinfo"
+  },
+  "summary": "Digital book created for the macOS and iOS devices; saved in the ePub 3 format with a few proprietary Apple-specific additions; may include text, images, videos, 3D objects, presentations, and other media; supports user interaction through multi-touch gestures.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "apple-ibooks-author",
+        "display_name": "Apple iBooks Author",
+        "status": "discontinued"
+      },
+      {
+        "software": "apple-books",
+        "display_name": "Apple Books"
+      }
+    ],
+    "windows": [
+      {
+        "software": "apple-ibooks-author",
+        "display_name": "Apple iBooks Author",
+        "status": "discontinued"
+      },
+      {
+        "software": "apple-books",
+        "display_name": "Apple Books"
+      }
+    ],
+    "ios": [
+      {
+        "software": "apple-books",
+        "display_name": "Apple Books"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-02-13",
+  "sources": [
+    {
+      "url": "ibooks.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

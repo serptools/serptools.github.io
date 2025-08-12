@@ -1,0 +1,70 @@
+{
+  "slug": "vvv",
+  "extension": "vvv",
+  "name": "Virtual Volumes View Catalog",
+  "category": "virtual-volumes-view-catalog",
+  "developer_org": "fsoft",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 25,
+    "source": "fileinfo"
+  },
+  "summary": "A VVV file contains a catalog created by FSoft VVV (Virtual Volumes View), a program used to catalog content of removable volumes, such as DVDs and CDs , and files and folders in a directory. It stores an index of files and folders scanned from a removable disc or directory. VVV files also include metadata about the folders and files, allowing users to search them.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "fsoft-vvv-virtual-volumes-view",
+        "display_name": "FSoft VVV (Virtual Volumes View)"
+      }
+    ],
+    "macos": [
+      {
+        "software": "fsoft-vvv-virtual-volumes-view",
+        "display_name": "FSoft VVV (Virtual Volumes View)"
+      }
+    ],
+    "linux": [
+      {
+        "software": "fsoft-vvv-virtual-volumes-view",
+        "display_name": "FSoft VVV (Virtual Volumes View)"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "VVV file icon",
+      "alt": "VVV file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/vvv-10655.png"
+    },
+    {
+      "caption": "VVV file open in FSoft VVV (Virtual Volumes View) 1.5",
+      "alt": "VVV file open in FSoft VVV (Virtual Volumes View) 1.5",
+      "source_url": "https://fileinfo.com/img/ss/md/vvv_10655.jpg"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2024-01-08",
+  "sources": [
+    {
+      "url": "vvv.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

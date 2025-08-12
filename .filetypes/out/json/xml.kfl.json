@@ -1,0 +1,47 @@
+{
+  "slug": "xml.kfl",
+  "extension": "xml.kfl",
+  "name": "Microsoft Outlook Known Feed List",
+  "category": "microsoft-outlook-known-feed-list",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.1,
+    "votes": 8,
+    "source": "fileinfo"
+  },
+  "summary": "An XML.KFL file is a settings file used by version 2007 and 2010 of Microsoft Outlook, an email client and personal information manager. It stores information about one or more RSS feeds that are synced between an Outlook mail profile and the Internet Explorer via the Common Feed List feature.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-outlook-365",
+        "display_name": "Microsoft Outlook 365"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-07-30",
+  "sources": [
+    {
+      "url": "xml.kfl.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

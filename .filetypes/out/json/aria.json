@@ -1,0 +1,53 @@
+{
+  "slug": "aria",
+  "extension": "aria",
+  "name": "Chipsounds Sound File",
+  "category": "chipsounds-sound-file",
+  "developer_org": "plogue",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "File created by chipsounds, a program used for generating sounds similar to those on older computers, arcades, and game consoles; stores advanced sound settings for chip music; used for saving and loading audio presets.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "plogue-chipsounds",
+        "display_name": "Plogue chipsounds"
+      }
+    ],
+    "macos": [
+      {
+        "software": "plogue-chipsounds",
+        "display_name": "Plogue chipsounds"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-04-26",
+  "sources": [
+    {
+      "url": "aria.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

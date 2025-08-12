@@ -1,0 +1,59 @@
+{
+  "slug": "j3o",
+  "extension": "j3o",
+  "name": "jMonkeyEngine 3D Scene",
+  "category": "jmonkeyengine-3d-scene",
+  "developer_org": "jmonkeyengine",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "3D scene file created by the jMonkeyEngine (JME) SDK, an application suite used for developing 3D games in Java; saves 3D objects, textures, lighting properties, effects, and other 3D scene information; uses a proprietary binary format required to load the scene into the game at runtime.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "jmonkeyengine-sdk",
+        "display_name": "jMonkeyEngine SDK"
+      }
+    ],
+    "macos": [
+      {
+        "software": "jmonkeyengine-sdk",
+        "display_name": "jMonkeyEngine SDK"
+      }
+    ],
+    "linux": [
+      {
+        "software": "jmonkeyengine-sdk",
+        "display_name": "jMonkeyEngine SDK"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-07-09",
+  "sources": [
+    {
+      "url": "j3o.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

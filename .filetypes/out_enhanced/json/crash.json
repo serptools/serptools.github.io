@@ -1,0 +1,24 @@
+{
+  "slug": "crash",
+  "extension": "crash",
+  "name": "Mac OS X Crash Log File",
+  "category": "mac-os-x-crash-log-file",
+  "summary": "",
+  "developer_org": "apple",
+  "developer_name": "Apple",
+  "more_information": {
+    "description": [
+      "CRASH files can be submitted to Apple by selecting the Report... option after a crash. They also may be viewed using the built-in Mac OS X Console application. In the Mac OS X 10.6 Console application, CRASH files can be found by navigating to the following location: Log List → DIAGNOSTIC INFORMATION → User Diagnostic Reports .",
+      "CRASH files use the naming convention \" [program]_[date]_[number]_[machine name].crash .\" For example, an Apple Safari crash may be named Safari_2009-01-01_11223_my-iMac.crash .",
+      "Crash files are saved in a plain text format and are stored in the following directory: /​Library/​Logs/​DiagnosticReports",
+      "They also have a shortcut file in this directory: /​Library/​Logs/​CrashReporter"
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "crash.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

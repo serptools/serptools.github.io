@@ -1,0 +1,81 @@
+{
+  "slug": "njk",
+  "extension": "njk",
+  "name": "Nunjucks Template",
+  "category": "nunjucks-template",
+  "developer_org": "mozilla",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "An NJK file is a Mozilla Nunjucks template. It contains tags, variables, and expressions written using the Nunjucks templating language. The Nunjucks template engine processes the data an NJK file contains to produce associated JavaScript .",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "brackets",
+        "display_name": "Brackets"
+      },
+      {
+        "software": "sublime-text",
+        "display_name": "Sublime Text"
+      },
+      {
+        "software": "nunjucks",
+        "display_name": "Nunjucks"
+      }
+    ],
+    "macos": [
+      {
+        "software": "gnu-emacs",
+        "display_name": "GNU Emacs"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "brackets",
+        "display_name": "Brackets"
+      },
+      {
+        "software": "sublime-text",
+        "display_name": "Sublime Text"
+      },
+      {
+        "software": "nunjucks",
+        "display_name": "Nunjucks"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-06-26",
+  "sources": [
+    {
+      "url": "njk.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

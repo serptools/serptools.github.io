@@ -1,0 +1,118 @@
+{
+  "slug": "dtex",
+  "extension": "dtex",
+  "name": "DataTex Document",
+  "category": "datatex-document",
+  "developer_org": "spyros-fronimos",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "A DTEX file is a LaTeX document used by DataTex, a tool for creating and managing databases of LaTeX files. It contains typical LaTeX content and DataTex-specific metadata . The metadata specifies the database in which the DTEX file is stored, as well as other organizational information.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "csmathematics-datatex",
+        "display_name": "CSMathematics DataTex"
+      },
+      {
+        "software": "texworks",
+        "display_name": "TeXWorks"
+      },
+      {
+        "software": "texmaker",
+        "display_name": "Texmaker"
+      },
+      {
+        "software": "miktex",
+        "display_name": "MiKTeX"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "csmathematics-datatex",
+        "display_name": "CSMathematics DataTex"
+      },
+      {
+        "software": "texworks",
+        "display_name": "TeXWorks"
+      },
+      {
+        "software": "texmaker",
+        "display_name": "Texmaker"
+      },
+      {
+        "software": "miktex",
+        "display_name": "MiKTeX"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "csmathematics-datatex",
+        "display_name": "CSMathematics DataTex"
+      },
+      {
+        "software": "texworks",
+        "display_name": "TeXWorks"
+      },
+      {
+        "software": "texmaker",
+        "display_name": "Texmaker"
+      },
+      {
+        "software": "miktex",
+        "display_name": "MiKTeX"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "DTEX file icon",
+      "alt": "DTEX file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/dtex-13499.png"
+    },
+    {
+      "caption": "DTEX file open in DataTex",
+      "alt": "DTEX file open in DataTex",
+      "source_url": "https://fileinfo.com/img/ss/md/dtex_13499.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-09-22",
+  "sources": [
+    {
+      "url": "dtex.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

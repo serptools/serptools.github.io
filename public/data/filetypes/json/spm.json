@@ -1,0 +1,22 @@
+{
+  "slug": "spm",
+  "extension": "spm",
+  "name": "SuperTuxKart 3D Model",
+  "category": "supertuxkart-3d-model",
+  "summary": "",
+  "developer_org": "saltstack",
+  "developer_name": "SaltStack",
+  "more_information": {
+    "description": [
+      "SuperTuxKart is a kart racing game available for Windows, macOS, Linux, Android, and the Nintendo Switch. Because SuperTuxKart is an open-source project, players can download, examine, and modify the game's source code . Among other things, SuperTuxKart's source code contains 3D models used to show karts, racetracks, and other objects in-game. These models are saved as SPM files.",
+      "SPM files comprise only a portion of an in-game object. To show a finalized object, SPM files are combined with PNG files that contain textures (or skins) and XML files that detail how SuperTuxKart applies those textures. If a player wants to modify a SuperTuxKart object's appearance (e.g. they want to add larger wheels to a kart), they can do so by opening and editing the object's SPM and PNG files (and if necessary, its XML file)."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "spm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "slug": "roi",
+  "extension": "roi",
+  "name": "Report Object Instance File",
+  "category": "1.-report-object-instance-file",
+  "developer_org": "actuate",
+  "popularity": {
+    "rating": 2.7,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "An ROI file is a data file used by discontinued Actuate reporting software, such as Actuate Information Object Designer and Actuate iServer programs. It saves a snapshot of a report at a specific point in time in the proprietary Report Object Instance (ROI) format, including its data, formatting, and parameter values set when the software generated the report. When a user runs a report in the Actuate program, the software creates a temporary ROI file that stores the current state of the report and updates it automatically, allowing the user to view, analyze, and share the report without needing to regenerate it from the original data source.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      },
+      {
+        "software": "shark-finesse-shark-roi-software",
+        "display_name": "Shark Finesse Shark ROI Software"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2025-02-13",
+  "sources": [
+    {
+      "url": "roi.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

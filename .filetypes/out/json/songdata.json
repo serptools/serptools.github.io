@@ -1,0 +1,53 @@
+{
+  "slug": "songdata",
+  "extension": "songdata",
+  "name": "jOeSU Level Data",
+  "category": "joesu-level-data",
+  "developer_org": "stoozey",
+  "popularity": {
+    "rating": 1.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "A SONGDATA file is a level information file used by jOeSU, a pay-what-you-want rhythm game in which players press keyboard buttons in time to music. It contains the timing and positions at which players must press buttons during a level, or it contains additional metadata about the level. SONGDATA files are associated with particular songs, and their filenames often include the name of the song they are used with.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "joesu",
+        "display_name": "jOeSU"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "SONGDATA file open in jOeSU",
+      "alt": "SONGDATA file open in jOeSU",
+      "source_url": "https://fileinfo.com/img/ss/md/songdata_11644.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-09-09",
+  "sources": [
+    {
+      "url": "songdata.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

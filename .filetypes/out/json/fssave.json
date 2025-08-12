@@ -1,0 +1,52 @@
+{
+  "slug": "fssave",
+  "extension": "fssave",
+  "name": "Flight Simulator X Games Explorer File",
+  "category": "flight-simulator-x-games-explorer-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "An FSSAVE file is used to show a saved Microsoft Flight Simulator X game in Windows Games Explorer. It is linked to an associated .FLT file. When you click a saved game image that appears in Games Explorer, Games Explorer uses an FSSAVE file to open the associated FLT file in Flight Simulator X.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-flight-simulator-x-steam-edition",
+        "display_name": "Microsoft Flight Simulator X Steam Edition"
+      },
+      {
+        "software": "microsoft-games-explorer",
+        "display_name": "Microsoft Games Explorer",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-04-15",
+  "sources": [
+    {
+      "url": "fssave.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

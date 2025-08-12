@@ -1,0 +1,47 @@
+{
+  "slug": "vmx",
+  "extension": "vmx",
+  "name": "VMware Virtual Machine Configuration File",
+  "category": "vmware-virtual-machine-configuration-file",
+  "summary": "",
+  "developer_org": "n-a",
+  "developer_name": "N/A",
+  "more_information": {
+    "screenshot": {
+      "url": "https://fileinfo.com/img/ss/sm/vmx_2192.png",
+      "alt": "Screenshot of a .vmx file in Apple TextEdit",
+      "caption": "VMX file open in Apple TextEdit"
+    },
+    "description": [
+      "Fusion is a high-end virtualization program that allows you to run Windows, Linux, and other operating systems in macOS. When you install an operating system (OS) with Fusion, the software creates a virtual machine (VMs) to store the OS.",
+      "As Fusion creates the VM, it also creates various data files, including VMX and .VMDK files, to configure the VM. VMX files are paired with and used to load the virtual disk saved in a VMDK file.",
+      "You can find the configuration files in a VMWAREVM package by right-clicking the VMWAREVM file and selecting Show Package Contents . The VMX file is named after the name of the VM. For example, if the VM name is Windows 11 x64 , the VMX file is named Windows 11 x64.vmx .",
+      "VMX files are saved in a plain text format that stores settings in the form of property = value . For example, the setting for a VM's memory limit may be memsize = \"512\" , which means that 512MB of RAM is the maximum memory allowed for that VM.",
+      "NOTE: If you created a VM with an earlier Linux version of VMware Workstation, that machine's configuration file may be a .CFG file."
+    ]
+  },
+  "common_filenames": [
+    {
+      "filename": "[VM name].vmx",
+      "description": "[VM name].vmx - The name of the VMX file is the same name as the VM. For example, the VMX file for a \"Windows 8\" VM is Windows 8.vmx ."
+    },
+    {
+      "filename": "Windows 8.vmx",
+      "description": "[VM name].vmx - The name of the VMX file is the same name as the VM. For example, the VMX file for a \"Windows 8\" VM is Windows 8.vmx ."
+    }
+  ],
+  "images": [
+    {
+      "url": "https://fileinfo.com/img/ss/sm/vmx_2192.png",
+      "alt": "Screenshot of a .vmx file in Apple TextEdit",
+      "caption": "VMX file open in Apple TextEdit"
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "vmx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

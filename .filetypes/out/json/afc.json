@@ -1,0 +1,59 @@
+{
+  "slug": "afc",
+  "extension": "afc",
+  "name": "Mass Effect 2 Audio File",
+  "category": "mass-effect-2-audio-file",
+  "developer_org": "electronic-arts",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 18,
+    "source": "fileinfo"
+  },
+  "summary": "An AFC file is an audio file used by Mass Effect 2, a shooter game based in outer space that uses the Unreal Engine 3 gaming engine. it contains one or more game audio tracks, such as dialog audio or music. AFC files may be converted to .WAV files using ww2ogg.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "electronic-arts-mass-effect-2",
+        "display_name": "Electronic Arts Mass Effect 2"
+      },
+      {
+        "software": "gibbed-s-audio-extractor",
+        "display_name": "Gibbed's Audio Extractor"
+      },
+      {
+        "software": "ww2ogg",
+        "display_name": "ww2ogg"
+      },
+      {
+        "software": "afc2ogg",
+        "display_name": "Afc2ogg"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2016-08-24",
+  "sources": [
+    {
+      "url": "afc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

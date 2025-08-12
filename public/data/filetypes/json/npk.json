@@ -1,0 +1,44 @@
+{
+  "slug": "npk",
+  "extension": "npk",
+  "name": "MikroTik Software Package",
+  "category": "mikrotik-software-package",
+  "summary": "",
+  "developer_org": "n-track",
+  "developer_name": "n-Track",
+  "more_information": {
+    "description": [
+      "You most likely will only encounter NPK files if you own a MikroTik router. NPK files can be downloaded from the MikroTik website then uploaded to a MikroTrik router to update the RouterOS. The router needs to be rebooted before the update can be completed.",
+      "Here are some examples of NPK software package names and their contents:",
+      "NOTE: MikroTik is a Latvian company that specializes in the development of routers and wireless IPS systems."
+    ]
+  },
+  "common_filenames": [
+    {
+      "filename": "[name that describes the contents]-[version].npk",
+      "description": "[name that describes the contents]-[version].npk - NPK filenames typically feature a name that refers to its contents and a version number, such as systm-2.0.npk or farsync-1.5.npk ."
+    },
+    {
+      "filename": "systm-2.0.npk",
+      "description": "[name that describes the contents]-[version].npk - NPK filenames typically feature a name that refers to its contents and a version number, such as systm-2.0.npk or farsync-1.5.npk ."
+    },
+    {
+      "filename": "farsync-1.5.npk",
+      "description": "[name that describes the contents]-[version].npk - NPK filenames typically feature a name that refers to its contents and a version number, such as systm-2.0.npk or farsync-1.5.npk ."
+    }
+  ],
+  "images": [
+    {
+      "url": "https://fileinfo.com/img/ss/sm/npk_13366.png",
+      "alt": "Screenshot of a .npk file in n-Track Studio 9",
+      "caption": "NPK file open in n-Track Studio 9"
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "npk.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

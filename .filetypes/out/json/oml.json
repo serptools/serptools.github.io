@@ -1,0 +1,53 @@
+{
+  "slug": "oml",
+  "extension": "oml",
+  "name": "OutSystems Modeling Language File",
+  "category": "outsystems-modeling-language-file",
+  "developer_org": "outsystems",
+  "popularity": {
+    "rating": 1.3,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "An OML file contains source code written in OutSystems Modeling Language (OML), which is used to develop enterprise web and mobile applications. It stores code in a syntax similar to XML for modules that make up the functionality of OutSystems applications.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "outsystems-development-environment",
+        "display_name": "OutSystems Development Environment"
+      }
+    ],
+    "macos": [
+      {
+        "software": "outsystems-development-environment",
+        "display_name": "OutSystems Development Environment"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-01-28",
+  "sources": [
+    {
+      "url": "oml.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

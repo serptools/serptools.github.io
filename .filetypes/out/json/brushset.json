@@ -1,0 +1,53 @@
+{
+  "slug": "brushset",
+  "extension": "brushset",
+  "name": "Procreate Brush Set",
+  "category": "procreate-brush-set",
+  "developer_org": "savage-interactive",
+  "popularity": {
+    "rating": 4.5,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "A BRUSHSET file is a brush set used by Savage Procreate, an illustration app for iOS. It contains a group of Procreate brushes ( .BRUSH files). BRUSHSET files can be imported into Procreate's Brush Library.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "ios": [
+      {
+        "software": "savage-procreate",
+        "display_name": "Savage Procreate"
+      }
+    ],
+    "windows": [
+      {
+        "software": "savage-procreate",
+        "display_name": "Savage Procreate"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-04-12",
+  "sources": [
+    {
+      "url": "brushset.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

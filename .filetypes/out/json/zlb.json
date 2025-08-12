@@ -1,0 +1,79 @@
+{
+  "slug": "zlb",
+  "extension": "zlb",
+  "name": "Form•Z Symbol Library File",
+  "category": "1.-form-z-symbol-library-file",
+  "developer_org": "autodessys",
+  "popularity": {
+    "rating": 2.5,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "File used by form•Z, an application used for 3D surface modeling; contains a symbol library of reusable drafting items, such as buildings, trees, furniture, cars, or other objects; enables symbols to be exported and imported with the software.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "autodessys-form-z",
+        "display_name": "AutoDesSys form•Z"
+      },
+      {
+        "software": "windows-frotz",
+        "display_name": "Windows Frotz"
+      },
+      {
+        "software": "zoom",
+        "display_name": "Zoom"
+      },
+      {
+        "software": "spatterlight",
+        "display_name": "Spatterlight"
+      }
+    ],
+    "macos": [
+      {
+        "software": "autodessys-form-z",
+        "display_name": "AutoDesSys form•Z"
+      },
+      {
+        "software": "zoom",
+        "display_name": "Zoom"
+      },
+      {
+        "software": "spatterlight",
+        "display_name": "Spatterlight"
+      }
+    ],
+    "linux": [
+      {
+        "software": "zoom",
+        "display_name": "Zoom"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-02-20",
+  "sources": [
+    {
+      "url": "zlb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

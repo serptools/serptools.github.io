@@ -1,0 +1,47 @@
+{
+  "slug": "uce",
+  "extension": "uce",
+  "name": "Windows UCE System File",
+  "category": "windows-uce-system-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "System file used by Microsoft Windows operating system; stored in the C:\\​Windows\\​System32\\​ directory and is not meant to be opened manually by the user; uses filenames such as kanji_1.uce , korean.uce , and ShiftJIS.uce .",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-windows",
+        "display_name": "Microsoft Windows"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2013-05-21",
+  "sources": [
+    {
+      "url": "uce.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "cvi",
+  "extension": "cvi",
+  "name": "Canvas Image File",
+  "category": "1.-canvas-image-file",
+  "developer_org": "acd-systems",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "Image format used by Canvas, a technical illustration and graphics editing program; may contain both bitmap and vector graphics; sometimes used for saving proxy images, which reduces the screen redraw time for image intensive documents.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "canvas-gfx-canvas-x-pro",
+        "display_name": "Canvas GFX Canvas X Pro"
+      },
+      {
+        "software": "cassinivision",
+        "display_name": "CassiniVision"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-02-19",
+  "sources": [
+    {
+      "url": "cvi.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

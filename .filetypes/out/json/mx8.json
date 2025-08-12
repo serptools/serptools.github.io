@@ -1,0 +1,49 @@
+{
+  "slug": "mx8",
+  "extension": "mx8",
+  "name": "Mixcraft 8 Project",
+  "category": "mixcraft-8-project",
+  "developer_org": "acoustica",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "An MX8 file is an audio project created by Acoustica Mixcraft 8. It contains a song that is comprised of one or more audio tracks. It also contains a record of the imported audio, loops, and virtual instruments used in the project.",
+  "standards": [],
+  "mime_types": [
+    "and/or"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "acoustica-mixcraft",
+        "display_name": "Acoustica Mixcraft"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-10-23",
+  "sources": [
+    {
+      "url": "mx8.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

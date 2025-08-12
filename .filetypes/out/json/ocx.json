@@ -1,0 +1,47 @@
+{
+  "slug": "ocx",
+  "extension": "ocx",
+  "name": "ActiveX Control",
+  "category": "activex-control",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 158,
+    "source": "fileinfo"
+  },
+  "summary": "An OCX file contains a reusable software module, called an ActiveX control, which can be used within Windows software programs. ActiveX controls can be created for various purposes, such as user interface forms, webpage widgets, online games, and multimedia viewers.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-visual-studio-2022",
+        "display_name": "Microsoft Visual Studio 2022"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-06-19",
+  "sources": [
+    {
+      "url": "ocx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

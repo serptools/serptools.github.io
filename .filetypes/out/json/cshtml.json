@@ -1,0 +1,102 @@
+{
+  "slug": "cshtml",
+  "extension": "cshtml",
+  "name": "ASP.NET Razor Webpage",
+  "category": "asp.net-razor-webpage",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 4.1,
+    "votes": 45,
+    "source": "fileinfo"
+  },
+  "summary": "A CSHTML file is a C# HTML webpage file used by Razor, an ASP.NET view engine that generates webpages. It is similar to a standard ASP.NET webpage ( .ASP or .ASPX file) but uses slightly different syntax. CSHTML files run on a web server, which generates HTML for a client web browser.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-visual-studio-2022",
+        "display_name": "Microsoft Visual Studio 2022"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "github-atom",
+        "display_name": "GitHub Atom",
+        "status": "discontinued"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "chromeos": [
+      {
+        "software": "google-chrome-text",
+        "display_name": "Google Chrome Text"
+      }
+    ],
+    "macos": [
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "github-atom",
+        "display_name": "GitHub Atom",
+        "status": "discontinued"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "github-atom",
+        "display_name": "GitHub Atom",
+        "status": "discontinued"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "CSHTML file open in Microsoft Visual Studio Code",
+      "alt": "CSHTML file open in Microsoft Visual Studio Code",
+      "source_url": "https://fileinfo.com/img/ss/md/cshtml_7160.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-10-26",
+  "sources": [
+    {
+      "url": "cshtml.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

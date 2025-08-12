@@ -1,0 +1,22 @@
+{
+  "slug": "kux",
+  "extension": "kux",
+  "name": "Youku KUX Video",
+  "category": "youku-kux-video",
+  "summary": "",
+  "developer_org": "youku-tudou",
+  "developer_name": "Youku Tudou",
+  "more_information": {
+    "description": [
+      "Youku, which is China's answer to YouTube, allows users to download most videos that have been posted to the platform, using the platform's associated desktop and mobile applications. When users download a Youku video, the video is saved as a KUX file.",
+      "KUX files are similar to .FLV files, but contain a unique header designed to make the files playable only in Youku's video players. However, the developers behind FFmpeg have added support for the KUX format, allowing users to convert KUX files to more common video formats and play them in other media players."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "kux.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

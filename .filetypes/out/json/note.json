@@ -1,0 +1,66 @@
+{
+  "slug": "note",
+  "extension": "note",
+  "name": "Notability Note File",
+  "category": "1.-notability-note-file",
+  "developer_org": "ginger-labs",
+  "popularity": {
+    "rating": 3.2,
+    "votes": 25,
+    "source": "fileinfo"
+  },
+  "summary": "A NOTE file contains a note created by Notability, a note-taking app for macOS and iOS. It stores the contents of a note, which may include text, annotations, sketches, and images. NOTE files are saved in a proprietary format.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "ginger-labs-notability",
+        "display_name": "Ginger Labs Notability"
+      }
+    ],
+    "windows": [
+      {
+        "software": "ginger-labs-notability",
+        "display_name": "Ginger Labs Notability"
+      }
+    ],
+    "ios": [
+      {
+        "software": "ginger-labs-notability",
+        "display_name": "Ginger Labs Notability"
+      }
+    ],
+    "web": [
+      {
+        "software": "failsafe-games-notessimo",
+        "display_name": "Failsafe Games Notessimo",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-04-16",
+  "sources": [
+    {
+      "url": "note.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

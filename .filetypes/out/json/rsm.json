@@ -1,0 +1,56 @@
+{
+  "slug": "rsm",
+  "extension": "rsm",
+  "name": "ARIS Report Script Model File",
+  "category": "1.-aris-report-script-model-file",
+  "developer_org": "software-ag",
+  "popularity": {
+    "rating": 4.2,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Script used by ARIS business reporting software; generates a report when run in the software and includes information about the database at the Model level, which is a logical division of the business database (other levels are Database, Group, and Object); used for generating business intelligence reports.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "software-ag-aris",
+        "display_name": "Software AG ARIS"
+      },
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      },
+      {
+        "software": "routersim-ccna-network-visualizer",
+        "display_name": "RouterSim CCNA Network Visualizer"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-02-10",
+  "sources": [
+    {
+      "url": "rsm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

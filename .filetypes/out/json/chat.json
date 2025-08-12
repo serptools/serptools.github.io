@@ -1,0 +1,67 @@
+{
+  "slug": "chat",
+  "extension": "chat",
+  "name": "IRC Chat Configuration File",
+  "category": "irc-chat-configuration-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 17,
+    "source": "fileinfo"
+  },
+  "summary": "A CHAT file is a configuration file used by IRC clients such as mIRC. It includes the necessary settings for opening an IRC channel. These settings may include the server, port, channel name, and a password.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "mirc",
+        "display_name": "mIRC"
+      },
+      {
+        "software": "visual-irc",
+        "display_name": "Visual IRC"
+      },
+      {
+        "software": "xchat",
+        "display_name": "XChat"
+      },
+      {
+        "software": "snak",
+        "display_name": "Snak"
+      }
+    ],
+    "macos": [
+      {
+        "software": "snak",
+        "display_name": "Snak"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-03-22",
+  "sources": [
+    {
+      "url": "chat.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "slug": "rmh",
+  "extension": "rmh",
+  "name": "Rights-Managed HTML Document",
+  "category": "rights-managed-html-document",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "An RMH file is a rights-managed .HTML document created by the Rights-Managed HTML SDK. It contains MIME encapsulation of Aggregate HTML Documents (MHTML) content. RMH files are used to secure content so that only the intended recipient can view or print the MHTML content in the original format using Internet Explorer with the Rights Management add-on installed.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-internet-explorer-with-the-rights-management-add-on",
+        "display_name": "Microsoft Internet Explorer with the Rights Management add-on",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-06-20",
+  "sources": [
+    {
+      "url": "rmh.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

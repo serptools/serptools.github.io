@@ -1,0 +1,61 @@
+{
+  "slug": "hes",
+  "extension": "hes",
+  "name": "Hudson Entertainment Sound Format",
+  "category": "hudson-entertainment-sound-format",
+  "developer_org": "takashi-mamiya",
+  "popularity": {
+    "rating": 1.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "An HES file is a music file saved in the Hudson Entertainment Sound (HES) format. It contains audio ripped from a game ROM for the TurboGrafx-16 game console. HES files are saved in a format similar to the .NFS game music format.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "audio-overload",
+        "display_name": "Audio Overload"
+      },
+      {
+        "software": "nullsoft-winamp-with-the-nez-plugin",
+        "display_name": "Nullsoft Winamp with the NEZ plugin"
+      },
+      {
+        "software": "foobar2000-with-the-game-emu-player-plugin",
+        "display_name": "Foobar2000 with the Game Emu Player plugin"
+      }
+    ],
+    "macos": [
+      {
+        "software": "audio-overload",
+        "display_name": "Audio Overload"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-04-20",
+  "sources": [
+    {
+      "url": "hes.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

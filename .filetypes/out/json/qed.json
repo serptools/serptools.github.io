@@ -1,0 +1,55 @@
+{
+  "slug": "qed",
+  "extension": "qed",
+  "name": "QEMU Enhanced Disk Image",
+  "category": "qemu-enhanced-disk-image",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "A QED file is a disk image file saved in the QEMU Enhanced Disk Image (QED) format, which is a format used by QEMU virtualization software. It stores the hard drive contents of a QEMU virtual machine.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "qemu",
+        "display_name": "QEMU"
+      }
+    ],
+    "linux": [
+      {
+        "software": "qemu",
+        "display_name": "QEMU"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-05-14",
+  "sources": [
+    {
+      "url": "qed.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "slug": "ra",
+  "extension": "ra",
+  "name": "RealAudio File",
+  "category": "realaudio-file",
+  "developer_org": "realnetworks",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 37,
+    "source": "fileinfo"
+  },
+  "summary": "Audio file used by RealPlayer, an audio and video streaming program; may reference a streaming audio file online or may contain audio data; can use various codecs to compress audio with variable bit rates; uses a proprietary Real compression algorithm.",
+  "standards": [],
+  "mime_types": [
+    "20/20"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "realnetworks-realplayer-20-20",
+        "display_name": "RealNetworks RealPlayer 20/20"
+      },
+      {
+        "software": "jriver-media-center",
+        "display_name": "JRiver Media Center"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "dvdvideosoft-free-audio-converter",
+        "display_name": "DVDVideoSoft Free Audio Converter",
+        "pricing": "free"
+      },
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      },
+      {
+        "software": "realnetworks-realtimes-video-maker",
+        "display_name": "RealNetworks RealTimes: Video Maker"
+      },
+      {
+        "software": "realnetworks-realtimes-video-maker",
+        "display_name": "RealNetworks RealTimes Video Maker"
+      }
+    ],
+    "web": [
+      {
+        "software": "web-browser",
+        "display_name": "Web browser"
+      },
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "realnetworks-realplayer-20-20",
+        "display_name": "RealNetworks RealPlayer 20/20"
+      },
+      {
+        "software": "jriver-media-center",
+        "display_name": "JRiver Media Center"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "dvdvideosoft-free-audio-converter",
+        "display_name": "DVDVideoSoft Free Audio Converter",
+        "pricing": "free"
+      },
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      }
+    ],
+    "macos": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      }
+    ],
+    "linux": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      }
+    ],
+    "ios": [
+      {
+        "software": "realnetworks-realtimes-video-maker",
+        "display_name": "RealNetworks RealTimes: Video Maker"
+      }
+    ],
+    "android": [
+      {
+        "software": "realnetworks-realtimes-video-maker",
+        "display_name": "RealNetworks RealTimes Video Maker"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "RA file icon",
+      "alt": "RA file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/ra-89.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-01-15",
+  "sources": [
+    {
+      "url": "ra.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

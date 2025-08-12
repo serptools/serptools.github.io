@@ -1,0 +1,59 @@
+{
+  "slug": "csaplan",
+  "extension": "csaplan",
+  "name": "SPSS Analysis Plan File",
+  "category": "spss-analysis-plan-file",
+  "developer_org": "ibm",
+  "popularity": {
+    "rating": 1.8,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "File created by SPSS statistical analysis software; stores the parameters of an analysis plan created using the Analysis Preparation Wizard ( Analyze → Complex Samples → Prepare for Analysis... ); used to generate SPSS syntax, which contains the SPSS commands required to run the analysis.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "ibm-spss",
+        "display_name": "IBM SPSS"
+      }
+    ],
+    "macos": [
+      {
+        "software": "ibm-spss",
+        "display_name": "IBM SPSS"
+      }
+    ],
+    "linux": [
+      {
+        "software": "ibm-spss",
+        "display_name": "IBM SPSS"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-06-23",
+  "sources": [
+    {
+      "url": "csaplan.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

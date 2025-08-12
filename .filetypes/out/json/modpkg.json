@@ -1,0 +1,55 @@
+{
+  "slug": "modpkg",
+  "extension": "modpkg",
+  "name": "Minecraft Pocket Manager File",
+  "category": "minecraft-pocket-manager-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 4.1,
+    "votes": 191,
+    "source": "fileinfo"
+  },
+  "summary": "A MODPKG file is a package file used by BlockLauncher, an app that allows users to load game modifications into the Minecraft: Pocket Edition game for Android. It contains a modification to gameplay, such as unique blocks, decoration items (tables, TVs, etc.), backpacks, and other textures. MODPKG files are compressed with Zip compression",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "android": [
+      {
+        "software": "blocklauncher",
+        "display_name": "BlockLauncher"
+      }
+    ],
+    "windows": [
+      {
+        "software": "blocklauncher",
+        "display_name": "BlockLauncher"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-03-17",
+  "sources": [
+    {
+      "url": "modpkg.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

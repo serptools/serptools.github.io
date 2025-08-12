@@ -1,0 +1,67 @@
+{
+  "slug": "idap",
+  "extension": "idap",
+  "name": "Adobe InDesign Assignment Package",
+  "category": "adobe-indesign-assignment-package",
+  "developer_org": "adobe-systems",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "An IDAP file is a package used by InDesign, a desktop publishing application used to create professional page layouts. It contains a subset of an InDesign document ( .INDD file) that has been modified by an editor. IDAP files are used to import edited page content back into the original InDesign document.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "adobe-indesign-2023",
+        "display_name": "Adobe InDesign 2023"
+      },
+      {
+        "software": "adobe-incopy-2023",
+        "display_name": "Adobe InCopy 2023"
+      }
+    ],
+    "macos": [
+      {
+        "software": "adobe-indesign-2023",
+        "display_name": "Adobe InDesign 2023"
+      },
+      {
+        "software": "adobe-incopy-2023",
+        "display_name": "Adobe InCopy 2023"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "IDAP file icon",
+      "alt": "IDAP file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/idap-4817.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-12-21",
+  "sources": [
+    {
+      "url": "idap.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

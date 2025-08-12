@@ -1,0 +1,102 @@
+{
+  "slug": "drw",
+  "extension": "drw",
+  "name": "Corel Drawing File",
+  "category": "1.-corel-drawing-file",
+  "developer_org": "corel",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 44,
+    "source": "fileinfo"
+  },
+  "summary": "A DRW file is a drawing format used by Micrografx Designer and Micrografx Windows Draw programs. It contains a technical drawing if it was created by Designer and an artistic drawing if it was created by Windows Draw.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "coreldraw-technical-suite-2021",
+        "display_name": "CorelDRAW Technical Suite 2021"
+      },
+      {
+        "software": "coreldraw-graphics-suite-2024",
+        "display_name": "CorelDRAW Graphics Suite 2024"
+      },
+      {
+        "software": "corel-presentations-2021",
+        "display_name": "Corel Presentations 2021"
+      },
+      {
+        "software": "microsoft-picture-it",
+        "display_name": "Microsoft Picture It!",
+        "status": "discontinued"
+      },
+      {
+        "software": "canvas-gfx-canvas-x-pro",
+        "display_name": "Canvas GFX Canvas X Pro"
+      },
+      {
+        "software": "corel-paintshop-pro-2023",
+        "display_name": "Corel PaintShop Pro 2023"
+      },
+      {
+        "software": "apple-appleworks",
+        "display_name": "Apple AppleWorks",
+        "status": "discontinued"
+      },
+      {
+        "software": "draftware-draftview-for-personal-designer",
+        "display_name": "Draftware DraftView for Personal Designer"
+      },
+      {
+        "software": "anvil-1000md",
+        "display_name": "ANVIL-1000MD"
+      },
+      {
+        "software": "anvil-express",
+        "display_name": "ANVIL EXPRESS"
+      },
+      {
+        "software": "anvil-viewer",
+        "display_name": "ANVIL Viewer"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-appleworks",
+        "display_name": "Apple AppleWorks",
+        "status": "discontinued"
+      },
+      {
+        "software": "coreldraw-graphics-suite-2024",
+        "display_name": "CorelDRAW Graphics Suite 2024"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-02-26",
+  "sources": [
+    {
+      "url": "drw.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

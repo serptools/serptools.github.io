@@ -1,0 +1,62 @@
+{
+  "slug": "shh",
+  "extension": "shh",
+  "name": "Adobe Photoshop Shadow/Highlight Settings file",
+  "category": "adobe-photoshop-shadow-highlight-settings-file",
+  "developer_org": "adobe-systems",
+  "popularity": {
+    "rating": 2.2,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "Settings file used by Adobe Photoshop, an image-editing program; stores the amount, tonal width, and radius values from 0 to 100% for shadows and highlights; also stores adjustment values for color correction, midtone contrast, and black and white clip; used for saving and loading the preset values.",
+  "standards": [],
+  "mime_types": [
+    "shadow/highlight",
+    "shadows/highlights"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "adobe-photoshop-2025",
+        "display_name": "Adobe Photoshop 2025"
+      }
+    ],
+    "macos": [
+      {
+        "software": "adobe-photoshop-2025",
+        "display_name": "Adobe Photoshop 2025"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "SHH file icon",
+      "alt": "SHH file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/shh-5355.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-12-04",
+  "sources": [
+    {
+      "url": "shh.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

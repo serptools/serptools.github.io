@@ -1,0 +1,48 @@
+{
+  "slug": "wpost",
+  "extension": "wpost",
+  "name": "Windows Live Writer Post File",
+  "category": "windows-live-writer-post-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "Web blog post created by Windows Live Writer, a blogging program included with the Windows Live Essentials Pack; saves a blog post entry written by the user and can contain images, videos, and maps as well as the written text.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-windows-live-writer",
+        "display_name": "Microsoft Windows Live Writer",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-12-12",
+  "sources": [
+    {
+      "url": "wpost.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "slug": "fl",
+  "extension": "fl",
+  "name": "Freelancer Saved Game File",
+  "category": "1.-freelancer-saved-game-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Save file created by Freelancer, a game where players adventure through missions as mercenaries in outer space; contains a saved game state, either manually or auto-saved; used to save and load in-game progress.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-freelancer",
+        "display_name": "Microsoft Freelancer",
+        "pricing": "free"
+      },
+      {
+        "software": "fltk-fluid",
+        "display_name": "FLTK FLUID"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "chromeos": [
+      {
+        "software": "google-chrome-text",
+        "display_name": "Google Chrome Text"
+      }
+    ],
+    "macos": [
+      {
+        "software": "fltk-fluid",
+        "display_name": "FLTK FLUID"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "fltk-fluid",
+        "display_name": "FLTK FLUID"
+      },
+      {
+        "software": "microsoft-visual-studio-code",
+        "display_name": "Microsoft Visual Studio Code"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-02-24",
+  "sources": [
+    {
+      "url": "fl.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

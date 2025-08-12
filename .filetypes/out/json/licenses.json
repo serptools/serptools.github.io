@@ -1,0 +1,47 @@
+{
+  "slug": "licenses",
+  "extension": "licenses",
+  "name": "Visual Studio Licensed Classes File",
+  "category": "visual-studio-licensed-classes-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 2.8,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Binary file that contains runtime keys for licensed classes used in a Visual Studio.NET development project; referenced during the assembly process and embedded into the program with the Assembly Linker (AL.exe).",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-visual-studio-2022",
+        "display_name": "Microsoft Visual Studio 2022"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2009-01-03",
+  "sources": [
+    {
+      "url": "licenses.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

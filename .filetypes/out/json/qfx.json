@@ -1,0 +1,85 @@
+{
+  "slug": "qfx",
+  "extension": "qfx",
+  "name": "Quicken Financial Exchange File",
+  "category": "quicken-financial-exchange-file",
+  "developer_org": "intuit",
+  "popularity": {
+    "rating": 2.9,
+    "votes": 62,
+    "source": "fileinfo"
+  },
+  "summary": "Financial data format used for importing data into Quicken financial software; may include account balances, transactions, and other information recorded in a standardized format; similar to the .OFX format, but is a proprietary format used by Quicken.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "intuit-quicken",
+        "display_name": "Intuit Quicken"
+      },
+      {
+        "software": "gnucash",
+        "display_name": "GnuCash"
+      },
+      {
+        "software": "propersoft-qfx2csv",
+        "display_name": "ProperSoft QFX2CSV"
+      },
+      {
+        "software": "freshbooks",
+        "display_name": "FreshBooks"
+      }
+    ],
+    "macos": [
+      {
+        "software": "intuit-quicken",
+        "display_name": "Intuit Quicken"
+      },
+      {
+        "software": "gnucash",
+        "display_name": "GnuCash"
+      },
+      {
+        "software": "propersoft-qfx2csv",
+        "display_name": "ProperSoft QFX2CSV"
+      }
+    ],
+    "linux": [
+      {
+        "software": "gnucash",
+        "display_name": "GnuCash"
+      }
+    ],
+    "web": [
+      {
+        "software": "freshbooks",
+        "display_name": "FreshBooks"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2016-04-12",
+  "sources": [
+    {
+      "url": "qfx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

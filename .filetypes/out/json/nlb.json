@@ -1,0 +1,59 @@
+{
+  "slug": "nlb",
+  "extension": "nlb",
+  "name": "MyDraw Binary Library",
+  "category": "mydraw-binary-library",
+  "developer_org": "nevron-software",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "An NLB file is a library created by Nevron Software MyDraw, a program for designing various diagrams and technical illustrations. It stores multiple stencils, which may be shapes, connectors, or other objects inserted into a drawing. MyDraw users typically use NLX files to share design elements with other users.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "nevron-software-mydraw",
+        "display_name": "Nevron Software MyDraw"
+      }
+    ],
+    "macos": [
+      {
+        "software": "nevron-software-mydraw",
+        "display_name": "Nevron Software MyDraw"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "NLB file icon",
+      "alt": "NLB file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/nlb-12119.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-06-03",
+  "sources": [
+    {
+      "url": "nlb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "slug": "ccs",
+  "extension": "ccs",
+  "name": "CodeCharge Studio Project File",
+  "category": "1.-codecharge-studio-project-file",
+  "developer_org": "yessoftware",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Web development project created by CodeCharge Studio, a program used for rapid Web application development; saved in an XML format and stores references to project files such as .ASP , .JS , and .CCP (CodeCharge Studio page) files; also contains connection information for retrieving data from a database.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "yessoftware-codecharge-studio",
+        "display_name": "YesSoftware CodeCharge Studio"
+      },
+      {
+        "software": "visual-ccscript",
+        "display_name": "Visual CCScript"
+      }
+    ],
+    "macos": [
+      {
+        "software": "visual-ccscript",
+        "display_name": "Visual CCScript"
+      }
+    ],
+    "linux": [
+      {
+        "software": "visual-ccscript",
+        "display_name": "Visual CCScript"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-08-30",
+  "sources": [
+    {
+      "url": "ccs.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

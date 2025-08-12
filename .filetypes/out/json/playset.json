@@ -1,0 +1,47 @@
+{
+  "slug": "playset",
+  "extension": "playset",
+  "name": "Souptoys Playset File",
+  "category": "souptoys-playset-file",
+  "developer_org": "souptoys",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "Playset file containing toys that \"play\" on the Windows desktop; custom playsets created by users can be downloaded from the Souptoys website; requires Souptoys Toybox software to run.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "souptoys-toybox",
+        "display_name": "Souptoys Toybox"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2007-10-09",
+  "sources": [
+    {
+      "url": "playset.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

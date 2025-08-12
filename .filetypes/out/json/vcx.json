@@ -1,0 +1,52 @@
+{
+  "slug": "vcx",
+  "extension": "vcx",
+  "name": "Virtual Disc Definition File",
+  "category": "1.-virtual-disc-definition-file",
+  "developer_org": "h+h-software",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "File created by Virtual CD Editor, a disc editing program included with the Virtual CD software; saves the list of files that will be burned to the disc; used for creating the disc image, which is comprised of a .VC4 file and .000 , \".001,\" \".002,\" etc. data files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "h+h-software-virtual-cd",
+        "display_name": "H+H Software Virtual CD"
+      },
+      {
+        "software": "microsoft-visual-foxpro",
+        "display_name": "Microsoft Visual FoxPro",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-02-20",
+  "sources": [
+    {
+      "url": "vcx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

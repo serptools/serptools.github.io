@@ -1,0 +1,47 @@
+{
+  "slug": "nvi",
+  "extension": "nvi",
+  "name": "NVIDIA Driver File",
+  "category": "nvidia-driver-file",
+  "developer_org": "nvidia",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 23,
+    "source": "fileinfo"
+  },
+  "summary": "File used by NVIDIA video card driver update software; saved in an XML format and specifies dependencies and other settings that are required to install and update the driver; included as part of the NVIDIA Graphics Driver software.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "nvidia-graphics-driver",
+        "display_name": "NVIDIA Graphics Driver"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-06-05",
+  "sources": [
+    {
+      "url": "nvi.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

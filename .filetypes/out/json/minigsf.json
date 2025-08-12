@@ -1,0 +1,57 @@
+{
+  "slug": "minigsf",
+  "extension": "minigsf",
+  "name": "Game Boy Advance Song File",
+  "category": "game-boy-advance-song-file",
+  "developer_org": "caitsith2-and-zoopd",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "Audio file from a Game Boy Advance (GBA) game; often loaded along with a corresponding .GSFLIB file, which contains a list of songs from the corresponding GBA game; formatted similarly to a .MIDI file.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "nullsoft-winamp-with-highly-advanced-plugin",
+        "display_name": "Nullsoft Winamp with Highly Advanced plugin"
+      },
+      {
+        "software": "audio-overload",
+        "display_name": "Audio Overload"
+      }
+    ],
+    "macos": [
+      {
+        "software": "audio-overload",
+        "display_name": "Audio Overload"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-05-20",
+  "sources": [
+    {
+      "url": "minigsf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

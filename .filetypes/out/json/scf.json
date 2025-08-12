@@ -1,0 +1,109 @@
+{
+  "slug": "scf",
+  "extension": "scf",
+  "name": "Shell Command File",
+  "category": "1.-shell-command-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 15,
+    "source": "fileinfo"
+  },
+  "summary": "An SCF file is a shell command file used by Windows Explorer. Windows Explorer uses SCF files to perform certain actions, such as opening a new Windows Explorer window or showing a user's desktop.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-windows",
+        "display_name": "Microsoft Windows"
+      },
+      {
+        "software": "gsl-biotech-snapgene",
+        "display_name": "GSL Biotech SnapGene"
+      },
+      {
+        "software": "technelysium-chromas",
+        "display_name": "Technelysium Chromas"
+      },
+      {
+        "software": "dnastar-lasergene",
+        "display_name": "DNASTAR Lasergene"
+      },
+      {
+        "software": "genome-compiler",
+        "display_name": "Genome Compiler",
+        "status": "discontinued"
+      },
+      {
+        "software": "4peaks",
+        "display_name": "4Peaks"
+      },
+      {
+        "software": "emboss-abiview",
+        "display_name": "EMBOSS abiview"
+      },
+      {
+        "software": "maxis-simtown",
+        "display_name": "Maxis SimTown"
+      }
+    ],
+    "ios": [
+      {
+        "software": "heracle-biosoft-dna-baser",
+        "display_name": "Heracle BioSoft DNA Baser"
+      }
+    ],
+    "macos": [
+      {
+        "software": "gsl-biotech-snapgene",
+        "display_name": "GSL Biotech SnapGene"
+      },
+      {
+        "software": "4peaks",
+        "display_name": "4Peaks"
+      },
+      {
+        "software": "genome-compiler",
+        "display_name": "Genome Compiler",
+        "status": "discontinued"
+      },
+      {
+        "software": "maxis-simtown",
+        "display_name": "Maxis SimTown"
+      }
+    ],
+    "linux": [
+      {
+        "software": "emboss-abiview",
+        "display_name": "EMBOSS abiview"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-10-18",
+  "sources": [
+    {
+      "url": "scf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

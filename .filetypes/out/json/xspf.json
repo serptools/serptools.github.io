@@ -1,0 +1,107 @@
+{
+  "slug": "xspf",
+  "extension": "xspf",
+  "name": "XML Shareable Playlist File",
+  "category": "xml-shareable-playlist-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 59,
+    "source": "fileinfo"
+  },
+  "summary": "An XSPF file is a playlist saved in the XML Shareable Playlist Format (XSPF). It is similar to a .M3U file, but uses standard XML tags to organize and list media files included in the playlist. XSPF files are used by various audio players, such as VLC media player, AIMP, Clementine, and Audacious.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "roxio-creator-nxt-pro-9",
+        "display_name": "Roxio Creator NXT Pro 9"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "clementine",
+        "display_name": "Clementine"
+      },
+      {
+        "software": "aimp",
+        "display_name": "AIMP"
+      },
+      {
+        "software": "amarok",
+        "display_name": "Amarok"
+      },
+      {
+        "software": "audacious",
+        "display_name": "Audacious"
+      }
+    ],
+    "macos": [
+      {
+        "software": "macgo-mac-media-player",
+        "display_name": "Macgo Mac Media Player"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "clementine",
+        "display_name": "Clementine"
+      }
+    ],
+    "linux": [
+      {
+        "software": "amarok",
+        "display_name": "Amarok"
+      },
+      {
+        "software": "audacious",
+        "display_name": "Audacious"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "clementine",
+        "display_name": "Clementine"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "XSPF file icon",
+      "alt": "XSPF file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/xspf-2916.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-07-05",
+  "sources": [
+    {
+      "url": "xspf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

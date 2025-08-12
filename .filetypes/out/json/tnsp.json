@@ -1,0 +1,53 @@
+{
+  "slug": "tnsp",
+  "extension": "tnsp",
+  "name": "TI-Nspire PublishView Document",
+  "category": "ti-nspire-publishview-document",
+  "developer_org": "texas-instruments",
+  "popularity": {
+    "rating": 2.8,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "Calculator program created by TI-Nspire, a desktop application used for creating programs for TI-Nspire graphing calculators; saves a program published in a format that can be run in a Web browser by the TI-Nspire Document Player, which is available at the Texas Instruments website.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "texas-instruments-ti-nspire-software",
+        "display_name": "Texas Instruments TI-Nspire Software"
+      }
+    ],
+    "macos": [
+      {
+        "software": "texas-instruments-ti-nspire-software",
+        "display_name": "Texas Instruments TI-Nspire Software"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2016-10-18",
+  "sources": [
+    {
+      "url": "tnsp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

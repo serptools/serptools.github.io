@@ -1,0 +1,67 @@
+{
+  "slug": "ditamap",
+  "extension": "ditamap",
+  "name": "DITA Topic Map File",
+  "category": "dita-topic-map-file",
+  "developer_org": "oasis",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "Collection of DITA (Darwin Information Typing Architecture) topics created in the XML DITAMAP format; stores references to the topics specified in .DITA files using <topicref> tags; enables authors to build a hierarchical structure of related topics.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "syncro-soft-oxygen-xml-editor",
+        "display_name": "SyncRO Soft oXygen XML Editor"
+      },
+      {
+        "software": "eclipse-with-xmlbuddy-plug-in",
+        "display_name": "Eclipse with XMLBuddy plug-in"
+      },
+      {
+        "software": "justsystems-xmetal",
+        "display_name": "JustSystems XMetaL"
+      }
+    ],
+    "macos": [
+      {
+        "software": "eclipse-with-xmlbuddy-plug-in",
+        "display_name": "Eclipse with XMLBuddy plug-in"
+      }
+    ],
+    "linux": [
+      {
+        "software": "eclipse-with-xmlbuddy-plug-in",
+        "display_name": "Eclipse with XMLBuddy plug-in"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-09-24",
+  "sources": [
+    {
+      "url": "ditamap.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

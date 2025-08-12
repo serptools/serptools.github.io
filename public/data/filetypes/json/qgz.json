@@ -1,0 +1,23 @@
+{
+  "slug": "qgz",
+  "extension": "qgz",
+  "name": "Zipped QGIS Project",
+  "category": "zipped-qgis-project",
+  "summary": "",
+  "developer_org": "qgis-development-team",
+  "developer_name": "QGIS Development Team",
+  "more_information": {
+    "description": [
+      "QGIS is a free application that amateur and professional GIS analysts use to visualize, analyze, and publish geospatial information. Typically, QGIS saves users' GIS projects as QGS files, which are XML files that define the project's title, settings, and layers.",
+      "However, users can also save their QGIS projects as QGZ files. This is most convenient when the user's project includes auxiliary data. Saving a project as a QGZ file packages the project's auxiliary data into a single QGD file, which is stored in the QGZ file. Because the QGZ file contains both a project's QGS file and its auxiliary data, a user can use their one QGZ file to share their project and all its auxiliary data with other QGIS users.",
+      "NOTE: If a user's QGIS project does not contain auxiliary data, and the user chooses to save the project as a QGZ file, the QGZ file's included QGD file will be empty."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "qgz.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

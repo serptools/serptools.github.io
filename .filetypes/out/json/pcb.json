@@ -1,0 +1,73 @@
+{
+  "slug": "pcb",
+  "extension": "pcb",
+  "name": "Printed Circuit Board Design File",
+  "category": "printed-circuit-board-design-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.8,
+    "votes": 47,
+    "source": "fileinfo"
+  },
+  "summary": "Design or model of a printed circuit board ( PCB ), which provides connections to electrical components; used for creating the layout that is used for printing the physical board; saved in a standard ASCII text format.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "altium-designer",
+        "display_name": "Altium Designer"
+      },
+      {
+        "software": "zuken-cadstar",
+        "display_name": "Zuken CADSTAR"
+      },
+      {
+        "software": "autodesk-eagle",
+        "display_name": "Autodesk EAGLE"
+      },
+      {
+        "software": "zofzpcb-3d-gerber-viewer",
+        "display_name": "ZofzPCB 3D Gerber Viewer"
+      }
+    ],
+    "macos": [
+      {
+        "software": "autodesk-eagle",
+        "display_name": "Autodesk EAGLE"
+      }
+    ],
+    "linux": [
+      {
+        "software": "autodesk-eagle",
+        "display_name": "Autodesk EAGLE"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-03-16",
+  "sources": [
+    {
+      "url": "pcb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

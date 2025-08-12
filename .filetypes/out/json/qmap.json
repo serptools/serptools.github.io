@@ -1,0 +1,53 @@
+{
+  "slug": "qmap",
+  "extension": "qmap",
+  "name": "QWERUIOP Level Data File",
+  "category": "qweruiop-level-data-file",
+  "developer_org": "game-iq",
+  "popularity": {
+    "rating": 2.3,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "A QMAP file contains level data for QWERUIOP, a rhythm game developed by Game IQ. It is a Zip-compressed archive that stores playable level information, such as the beats per minute and length. QWERUIOP gamers can export and import QMAP files to share levels with other gamers.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "game-iq-qweruiop",
+        "display_name": "Game IQ QWERUIOP"
+      }
+    ],
+    "web": [
+      {
+        "software": "game-iq-qweruiop",
+        "display_name": "Game IQ QWERUIOP"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2024-06-27",
+  "sources": [
+    {
+      "url": "qmap.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

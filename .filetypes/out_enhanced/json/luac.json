@@ -1,0 +1,22 @@
+{
+  "slug": "luac",
+  "extension": "luac",
+  "name": "Compiled Lua Script",
+  "category": "compiled-lua-script",
+  "summary": "",
+  "developer_org": "puc-rio",
+  "developer_name": "PUC-Rio",
+  "more_information": {
+    "description": [
+      "Lua is a lightweight programming language developers use to add features to existing programs written in C and other languages. Developers write and save Lua programs in LUA files. After they've finished writing a program, developers can use the Lua compiler (luac) to transform their plain text LUA file into a binary LUAC file. This allows other programs to load and execute the Lua program more quickly.",
+      "VideoLAN VLC media player, a popular open-source media player, includes a number of LUAC files. They are found in sub-folders of VLC's lua folder. For example, VLC's lua/​playlist folder contains a number of LUAC files that allow VLC to stream video and audio content from various websites, such as YouTube and Twitch. Third-party VLC add-ons sometimes come packaged in LUAC files, as do fixes for VLC's existing Lua-based features."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "luac.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

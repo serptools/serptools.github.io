@@ -1,0 +1,53 @@
+{
+  "slug": "cbk",
+  "extension": "cbk",
+  "name": "Backup Configuration File",
+  "category": "backup-configuration-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "A CBK file is a backup configuration file created by various programs, such as InterSystems Cache and Devicescape Enterprise-Managed AP. It stores a backup of system files and configuration information.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "intersystems-cache",
+        "display_name": "InterSystems Cache"
+      },
+      {
+        "software": "devicescape-enterprise-managed-ap",
+        "display_name": "Devicescape Enterprise-Managed AP"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-05-04",
+  "sources": [
+    {
+      "url": "cbk.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

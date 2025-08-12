@@ -1,0 +1,106 @@
+{
+  "slug": "bkp",
+  "extension": "bkp",
+  "name": "Backup File",
+  "category": "1.-backup-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 107,
+    "source": "fileinfo"
+  },
+  "summary": "BKP files are typically backup files, which contain a redundant copy of a document, database, project, or other data. Some applications automatically create BKP files at regular intervals, to back up users' data. This allows users to restore their data if the original version of the backup file goes missing or becomes corrupted.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "program-that-created-the-bkp-file",
+        "display_name": "Program that created the BKP file"
+      },
+      {
+        "software": "zaplots-zapback",
+        "display_name": "Zaplots Zapback"
+      },
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "leafpad",
+        "display_name": "Leafpad"
+      },
+      {
+        "software": "gedit",
+        "display_name": "gedit"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "android": [
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      },
+      {
+        "software": "rhythm-software-quickedit-text-editor",
+        "display_name": "Rhythm Software QuickEdit text editor"
+      },
+      {
+        "software": "aquamarine-networks-jota-text-editor",
+        "display_name": "Aquamarine Networks Jota Text Editor"
+      }
+    ],
+    "chromeos": [
+      {
+        "software": "google-chrome-text",
+        "display_name": "Google Chrome Text"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-10-20",
+  "sources": [
+    {
+      "url": "bkp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "slug": "mbm",
+  "extension": "mbm",
+  "name": "Kerbal Space Program Texture File",
+  "category": "1.-kerbal-space-program-texture-file",
+  "developer_org": "squad",
+  "popularity": {
+    "rating": 3.2,
+    "votes": 10,
+    "source": "fileinfo"
+  },
+  "summary": "3D model texture used by Kerbal Space Program (KSP), a space program building game; saves textures referenced by the .MU mesh file; used for providing the surface appearance of space shuttles and other space objects.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "squad-kerbal-space-program",
+        "display_name": "Squad Kerbal Space Program"
+      },
+      {
+        "software": "bitmap-converter-tool-bmconv.exe",
+        "display_name": "Bitmap Converter tool (bmconv.exe)"
+      },
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      },
+      {
+        "software": "lemkesoft-graphicconverter",
+        "display_name": "Lemkesoft GraphicConverter"
+      }
+    ],
+    "macos": [
+      {
+        "software": "squad-kerbal-space-program",
+        "display_name": "Squad Kerbal Space Program"
+      },
+      {
+        "software": "lemkesoft-graphicconverter",
+        "display_name": "Lemkesoft GraphicConverter"
+      },
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-09-24",
+  "sources": [
+    {
+      "url": "mbm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "asec",
+  "extension": "asec",
+  "name": "Android Secure Application File",
+  "category": "android-secure-application-file",
+  "developer_org": "google",
+  "popularity": {
+    "rating": 4.1,
+    "votes": 256,
+    "source": "fileinfo"
+  },
+  "summary": "An ASEC file is a secure application introduced with Froyo, the version 2.2 release of the Android mobile operating system . It stores mobile application data using proprietary encryption and is saved to the .android_secure folder of a device's SD card. ASEC files can be run with the Android SDK emulator .",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "android": [
+      {
+        "software": "google-android-studio",
+        "display_name": "Google Android Studio"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2019-05-29",
+  "sources": [
+    {
+      "url": "asec.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

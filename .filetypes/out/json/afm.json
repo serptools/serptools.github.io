@@ -1,0 +1,69 @@
+{
+  "slug": "afm",
+  "extension": "afm",
+  "name": "Adobe Font Metrics File",
+  "category": "1.-adobe-font-metrics-file",
+  "developer_org": "adobe-systems",
+  "popularity": {
+    "rating": 2.9,
+    "votes": 16,
+    "source": "fileinfo"
+  },
+  "summary": "ASCII text-based font format developed by Adobe; stores font metric data for a Type 1 PostScript file; contains the master design of a specific font, which defines the way each character of the font looks.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "referenced-by-programs-that-use-system-fonts",
+        "display_name": "Referenced by programs that use system fonts"
+      },
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      },
+      {
+        "software": "passmark-osforensics",
+        "display_name": "PassMark OSForensics"
+      }
+    ],
+    "macos": [
+      {
+        "software": "referenced-by-programs-that-use-system-fonts",
+        "display_name": "Referenced by programs that use system fonts"
+      }
+    ],
+    "linux": [
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-10-19",
+  "sources": [
+    {
+      "url": "afm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

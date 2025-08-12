@@ -1,0 +1,57 @@
+{
+  "slug": "ad",
+  "extension": "ad",
+  "name": "After Dark Screensaver",
+  "category": "after-dark-screensaver",
+  "developer_org": "berkeley-systems",
+  "popularity": {
+    "rating": 3.2,
+    "votes": 30,
+    "source": "fileinfo"
+  },
+  "summary": "Screensaver run by the After Dark program; stores animations that are displayed on the screen when the system is inactive for a certain amount of time; popular After Dark screensavers include Flying Toasters and Bad Dog.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "berkeley-systems-after-dark",
+        "display_name": "Berkeley Systems After Dark"
+      },
+      {
+        "software": "berkeley-systems-after-dark-x-adx",
+        "display_name": "Berkeley Systems After Dark X (ADX)"
+      }
+    ],
+    "macos": [
+      {
+        "software": "berkeley-systems-after-dark-x-adx",
+        "display_name": "Berkeley Systems After Dark X (ADX)"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2007-02-12",
+  "sources": [
+    {
+      "url": "ad.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

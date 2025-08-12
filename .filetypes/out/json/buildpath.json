@@ -1,0 +1,73 @@
+{
+  "slug": "buildpath",
+  "extension": "buildpath",
+  "name": "Eclipse Build Path File",
+  "category": "eclipse-build-path-file",
+  "developer_org": "eclipse",
+  "popularity": {
+    "rating": 2.3,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "Developer file created by Eclipse, a free IDE supporting Java, C/C++, PHP, and many other programming languages; created as part of a project using the filename .buildpath (no filename prefix); uses XML formatting.",
+  "standards": [],
+  "mime_types": [
+    "c/c"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "eclipse",
+        "display_name": "Eclipse"
+      },
+      {
+        "software": "zend-studio",
+        "display_name": "Zend Studio"
+      }
+    ],
+    "macos": [
+      {
+        "software": "eclipse",
+        "display_name": "Eclipse"
+      },
+      {
+        "software": "zend-studio",
+        "display_name": "Zend Studio"
+      }
+    ],
+    "linux": [
+      {
+        "software": "eclipse",
+        "display_name": "Eclipse"
+      },
+      {
+        "software": "zend-studio",
+        "display_name": "Zend Studio"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-06-14",
+  "sources": [
+    {
+      "url": "buildpath.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

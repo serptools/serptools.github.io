@@ -1,0 +1,53 @@
+{
+  "slug": "qlgenerator",
+  "extension": "qlgenerator",
+  "name": "Quick Look Generator File",
+  "category": "quick-look-generator-file",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 2.4,
+    "votes": 7,
+    "source": "fileinfo"
+  },
+  "summary": "A QLGENERATOR file is a plug-in for Apple's Quick Look tool in macOS. It enables various types of files to be viewed directly in the Finder using Quick Look.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "apple-quick-look",
+        "display_name": "Apple Quick Look"
+      }
+    ],
+    "windows": [
+      {
+        "software": "apple-quick-look",
+        "display_name": "Apple Quick Look"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-03-04",
+  "sources": [
+    {
+      "url": "qlgenerator.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

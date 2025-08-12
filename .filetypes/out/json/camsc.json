@@ -1,0 +1,64 @@
+{
+  "slug": "camsc",
+  "extension": "camsc",
+  "name": "Camtasia Shortcut Set (macOS only)",
+  "category": "camtasia-shortcut-set-macos-only",
+  "developer_org": "techsmith",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "A CAMSC file contains a set of keyboard shortcuts used by the macOS version of TechSmith Camtasia, a screen recording and video editing application. It stores a list of shortcuts and their associated actions in plain text. Camtasia users type shortcuts stored in a CAMSC file to more quickly perform actions, such as adding the last used transition or to start recording.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "techsmith-camtasia",
+        "display_name": "TechSmith Camtasia"
+      }
+    ],
+    "windows": [
+      {
+        "software": "techsmith-camtasia",
+        "display_name": "TechSmith Camtasia"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "CAMSC file icon",
+      "alt": "CAMSC file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/camsc-13322.png"
+    },
+    {
+      "caption": "CAMSC file open in TechSmith Camtasia 2023",
+      "alt": "CAMSC file open in TechSmith Camtasia 2023",
+      "source_url": "https://fileinfo.com/img/ss/md/camsc_13322.jpg"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-05-18",
+  "sources": [
+    {
+      "url": "camsc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

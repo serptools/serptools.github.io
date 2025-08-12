@@ -1,0 +1,47 @@
+{
+  "slug": "kmt",
+  "extension": "kmt",
+  "name": "Mario Kart Wii Kart Mission Table",
+  "category": "mario-kart-wii-kart-mission-table",
+  "developer_org": "nintendo",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "Mission_single.kmt is a file needed to access the unfinished Mission Mode included in Mario Kart Wii. It is supposed to contain a binary list of 64 predesigned missions that can be completed in Mission Mode. While the official Mario Kart Wii game disc does not include mission_single.kmt , Mario Kart fans have created their own homebrew replacements for the file, which allow them to load and play Mission Mode.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "kmt-manager",
+        "display_name": "KMT Manager"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-02-25",
+  "sources": [
+    {
+      "url": "kmt.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

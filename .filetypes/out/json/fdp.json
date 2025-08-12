@@ -1,0 +1,58 @@
+{
+  "slug": "fdp",
+  "extension": "fdp",
+  "name": "MySafe Encrypted Data",
+  "category": "1.-mysafe-encrypted-data",
+  "developer_org": "upek",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 10,
+    "source": "fileinfo"
+  },
+  "summary": "An FDP file stores an encrypted file or folder created by the now-discontinued UPEK Protector Suite QL, a program designed to securely protect sensitive information. It is encrypted to prevent unauthorized access, ensuring the data it contains can only be opened by verified users. Individuals and organizations commonly used the FDP format to protect confidential documents, financial records, and other important files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      },
+      {
+        "software": "firelight-technologies-fmod-studio",
+        "display_name": "Firelight Technologies FMOD Studio"
+      }
+    ],
+    "macos": [
+      {
+        "software": "firelight-technologies-fmod-studio",
+        "display_name": "Firelight Technologies FMOD Studio"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2024-12-20",
+  "sources": [
+    {
+      "url": "fdp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

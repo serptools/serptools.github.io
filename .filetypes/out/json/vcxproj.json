@@ -1,0 +1,59 @@
+{
+  "slug": "vcxproj",
+  "extension": "vcxproj",
+  "name": "Visual C++ Project",
+  "category": "visual-c++-project",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 41,
+    "source": "fileinfo"
+  },
+  "summary": "A VCXPROJ file is a software development project created by Visual C++, a Microsoft Visual Studio component used to develop C++ programs. It contains XML-formatted text that defines a project's content, platform requirements, versioning information, and web server or database server settings. VCXPROJ files are used to build developers' projects using MSBuild (the Microsoft Build Engine).",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-visual-studio-2022",
+        "display_name": "Microsoft Visual Studio 2022"
+      }
+    ],
+    "macos": [
+      {
+        "software": "microsoft-visual-studio-for-mac",
+        "display_name": "Microsoft Visual Studio for Mac"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "VCXPROJ file open in Microsoft Visual Studio Code",
+      "alt": "VCXPROJ file open in Microsoft Visual Studio Code",
+      "source_url": "https://fileinfo.com/img/ss/md/vcxproj_5051.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-05-05",
+  "sources": [
+    {
+      "url": "vcxproj.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

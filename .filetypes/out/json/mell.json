@@ -1,0 +1,53 @@
+{
+  "slug": "mell",
+  "extension": "mell",
+  "name": "Mellel Word Processing File",
+  "category": "mellel-word-processing-file",
+  "developer_org": "redlex",
+  "popularity": {
+    "rating": 2.8,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Word processing document created with Mellel, a shareware word processor for Mac OS X; includes special features for educational use and creative and technical writing; also supports multilingual languages.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "redlex-mellel",
+        "display_name": "RedleX Mellel"
+      }
+    ],
+    "windows": [
+      {
+        "software": "redlex-mellel",
+        "display_name": "RedleX Mellel"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2007-11-30",
+  "sources": [
+    {
+      "url": "mell.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "slug": "d64",
+  "extension": "d64",
+  "name": "Commodore 64 1541 Disk Image",
+  "category": "commodore-64-1541-disk-image",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 11,
+    "source": "fileinfo"
+  },
+  "summary": "A D64 file contains a disk image dumped from a Commodore 64 1541 floppy disk. It stores information about a Commodore 64 game or program in D64 format, which consists of 256-byte sectors organized in multiple tracks. D64 files are supported by emulators of Commodore 64 (C64), a popular personal computer from the 1980s.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "winvice",
+        "display_name": "WinVICE"
+      },
+      {
+        "software": "ccs64",
+        "display_name": "CCS64"
+      },
+      {
+        "software": "hoxs64",
+        "display_name": "Hoxs64"
+      },
+      {
+        "software": "dirmaster",
+        "display_name": "DirMaster"
+      },
+      {
+        "software": "vice",
+        "display_name": "VICE"
+      },
+      {
+        "software": "c64-online-emulator",
+        "display_name": "C64 online emulator"
+      },
+      {
+        "software": "joerg-jahnke-mobile-c64",
+        "display_name": "Joerg Jahnke Mobile C64"
+      }
+    ],
+    "macos": [
+      {
+        "software": "vice",
+        "display_name": "VICE"
+      }
+    ],
+    "linux": [
+      {
+        "software": "vice",
+        "display_name": "VICE"
+      }
+    ],
+    "web": [
+      {
+        "software": "c64-online-emulator",
+        "display_name": "C64 online emulator"
+      }
+    ],
+    "android": [
+      {
+        "software": "joerg-jahnke-mobile-c64",
+        "display_name": "Joerg Jahnke Mobile C64"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "D64 file open in VICE 3",
+      "alt": "D64 file open in VICE 3",
+      "source_url": "https://fileinfo.com/img/ss/md/d64_1630.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-06-24",
+  "sources": [
+    {
+      "url": "d64.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

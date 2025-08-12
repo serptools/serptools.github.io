@@ -1,0 +1,61 @@
+{
+  "slug": "ggz",
+  "extension": "ggz",
+  "name": "NeptunJS Saved Game",
+  "category": "neptunjs-saved-game",
+  "developer_org": "urbain-jean-joseph-le-verrier",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "A GGZ file contains a saved game state created by NeptunJS, an online, JavaScipt-based video game console emulator . It is used to resume a saved game on NeptunJS.xyz or another website that uses the NeptunJS emulator.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "web": [
+      {
+        "software": "rename-.ggz-to-.gz-decompress-with-gzip-decompression-utility",
+        "display_name": "Rename .ggz to .gz ; decompress with Gzip decompression utility"
+      },
+      {
+        "software": "neptunjs",
+        "display_name": "NeptunJS"
+      }
+    ],
+    "windows": [
+      {
+        "software": "rename-.ggz-to-.gz-decompress-with-gzip-decompression-utility",
+        "display_name": "Rename .ggz to .gz ; decompress with Gzip decompression utility"
+      },
+      {
+        "software": "neptunjs",
+        "display_name": "NeptunJS"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-05-06",
+  "sources": [
+    {
+      "url": "ggz.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

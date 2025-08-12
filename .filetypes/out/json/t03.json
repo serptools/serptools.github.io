@@ -1,0 +1,53 @@
+{
+  "slug": "t03",
+  "extension": "t03",
+  "name": "TaxCut 2003 File",
+  "category": "taxcut-2003-file",
+  "developer_org": "h-r-block",
+  "popularity": {
+    "rating": 1.7,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "A T03 file is a tax return created by H&R Block TaxCut 2003, a U.S. federal and state tax preparation application for the 2003 tax year. It contains tax forms and personal information entered by a user.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "h-r-block-taxcut-2003",
+        "display_name": "H&R Block TaxCut 2003"
+      }
+    ],
+    "macos": [
+      {
+        "software": "h-r-block-taxcut-2003",
+        "display_name": "H&R Block TaxCut 2003"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-07-22",
+  "sources": [
+    {
+      "url": "t03.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

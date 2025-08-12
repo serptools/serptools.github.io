@@ -1,0 +1,71 @@
+{
+  "slug": "snz",
+  "extension": "snz",
+  "name": "Snappy Compressed File",
+  "category": "snappy-compressed-file",
+  "developer_org": "google",
+  "popularity": {
+    "rating": 2.5,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "An SNZ file is a compressed file created by Snappy, a file compression program developed by Google. It contains a compressed copy of a file. SNZ files are sometimes used as backup files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "snappy",
+        "display_name": "Snappy"
+      },
+      {
+        "software": "snzip",
+        "display_name": "Snzip"
+      }
+    ],
+    "macos": [
+      {
+        "software": "snappy",
+        "display_name": "Snappy"
+      },
+      {
+        "software": "snzip",
+        "display_name": "Snzip"
+      }
+    ],
+    "linux": [
+      {
+        "software": "snappy",
+        "display_name": "Snappy"
+      },
+      {
+        "software": "snzip",
+        "display_name": "Snzip"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-01-25",
+  "sources": [
+    {
+      "url": "snz.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

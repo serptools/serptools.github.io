@@ -1,0 +1,51 @@
+{
+  "slug": "bck",
+  "extension": "bck",
+  "name": "VMX Backup File",
+  "category": "vmx-backup-file",
+  "developer_org": "hp",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 11,
+    "source": "fileinfo"
+  },
+  "summary": "A BCK file is a VMS/VAX BaCKup file created on a VMS VAX or VMS Alpha system. It contains a saveset of a file or volume of files on a VMS VAX or VMS Alpha system. BCK files are created to protect against the loss or corruption of data.",
+  "standards": [],
+  "mime_types": [
+    "vax-11/vms",
+    "vax/vms",
+    "vms/vax"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "hp-openvms",
+        "display_name": "HP OpenVMS"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2017-05-04",
+  "sources": [
+    {
+      "url": "bck.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

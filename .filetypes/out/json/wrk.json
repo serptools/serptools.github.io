@@ -1,0 +1,51 @@
+{
+  "slug": "wrk",
+  "extension": "wrk",
+  "name": "Cakewalk Music Project",
+  "category": "1.-cakewalk-music-project",
+  "developer_org": "cakewalk",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Project file created by Cakewalk, an audio production application; may split the production across multiple tracks and can include MIDI data, references to audio files, fader settings, tempos, audio effects, and other settings.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "cakewalk-sonar-x3",
+        "display_name": "Cakewalk SONAR X3"
+      },
+      {
+        "software": "microsoft-sql-server-2019",
+        "display_name": "Microsoft SQL Server 2019"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-07-21",
+  "sources": [
+    {
+      "url": "wrk.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

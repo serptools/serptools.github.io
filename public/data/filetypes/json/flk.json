@@ -1,0 +1,22 @@
+{
+  "slug": "flk",
+  "extension": "flk",
+  "name": "AccountEdge Company Lock File",
+  "category": "accountedge-company-lock-file",
+  "summary": "",
+  "developer_org": "newsoftwares",
+  "developer_name": "NewSoftwares",
+  "more_information": {
+    "description": [
+      "When an MYO company file is accessed by multiple AccountEdge users, the FLK file is generated in the same location as the company file. The FLK file is created to allow one user to work on the file at a time to avoid duplicate and conflicting editing.",
+      "When ending a session, the FLK file is automatically deleted. However, if the session ends abruptly, the FLK file may persist. If this occurs, delete any FLK file(s) that are in the same location as the MYO company file."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "flk.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "msi",
+  "extension": "msi",
+  "name": "Windows Installer Package",
+  "category": "windows-installer-package",
+  "summary": "",
+  "developer_org": "microsoft",
+  "developer_name": "Microsoft",
+  "more_information": {
+    "description": [
+      "MSI files are similar to .EXE files, in that both are used to install and launch Windows programs. However, EXE files do not always contain installers and may simply launch the program they contain when double-clicked. MSI files, on the other hand, always contain installers.",
+      "Windows uses the Windows Installer program to open MSI files. This program was previously named the Microsoft Installer, which is what gave MSI files their name.",
+      "NOTE: In Windows Vista, .MSU files are used to install system updates and hotfixes."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "msi.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

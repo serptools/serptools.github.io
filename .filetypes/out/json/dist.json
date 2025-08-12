@@ -1,0 +1,57 @@
+{
+  "slug": "dist",
+  "extension": "dist",
+  "name": "Mac OS X Distribution Script",
+  "category": "mac-os-x-distribution-script",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 2.2,
+    "votes": 11,
+    "source": "fileinfo"
+  },
+  "summary": "Script that customizes the installation of a Mac OS X software program; derived from the NeXTSTEP operating system; created with PackageMaker but used by the Mac OS X Installer program.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "apple-installer",
+        "display_name": "Apple Installer"
+      },
+      {
+        "software": "macromates-textmate",
+        "display_name": "MacroMates TextMate"
+      }
+    ],
+    "windows": [
+      {
+        "software": "apple-installer",
+        "display_name": "Apple Installer"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2006-12-15",
+  "sources": [
+    {
+      "url": "dist.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

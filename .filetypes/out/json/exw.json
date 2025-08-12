@@ -1,0 +1,99 @@
+{
+  "slug": "exw",
+  "extension": "exw",
+  "name": "Euphoria Source code File",
+  "category": "euphoria-source-code-file",
+  "developer_org": "rapid-deployment-software",
+  "popularity": {
+    "rating": 2.3,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "Source code file written in the Euphoria programming language; contains code that can be executed on Windows, MS-DOS, Linux, and FreeBSD platforms using the Euphoria interpreter, which is included with the Euphoria application installation.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "openeuphoria-euphoria",
+        "display_name": "openEuphoria Euphoria"
+      },
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "microsoft-wordpad",
+        "display_name": "Microsoft WordPad"
+      },
+      {
+        "software": "gvim",
+        "display_name": "gVim"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "vi",
+        "display_name": "Vi"
+      },
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      }
+    ],
+    "macos": [
+      {
+        "software": "gnu-emacs",
+        "display_name": "GNU Emacs"
+      },
+      {
+        "software": "openeuphoria-euphoria",
+        "display_name": "openEuphoria Euphoria"
+      },
+      {
+        "software": "vi",
+        "display_name": "Vi"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "web": [
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-09-23",
+  "sources": [
+    {
+      "url": "exw.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

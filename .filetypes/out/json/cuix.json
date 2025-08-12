@@ -1,0 +1,53 @@
+{
+  "slug": "cuix",
+  "extension": "cuix",
+  "name": "AutoCAD Custom User Interface File",
+  "category": "autocad-custom-user-interface-file",
+  "developer_org": "autodesk",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 159,
+    "source": "fileinfo"
+  },
+  "summary": "Custom workspace file created by the Custom User Interface (CUI) Editor component of AutoCAD; stores window and palette settings as well as toolbar and menu configurations; may also include custom images; used for loading full or partial custom workspace layouts during a drawing session.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "autodesk-autocad-2025",
+        "display_name": "Autodesk AutoCAD 2025"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "CUIX file icon",
+      "alt": "CUIX file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/cuix-4915.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-05-18",
+  "sources": [
+    {
+      "url": "cuix.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

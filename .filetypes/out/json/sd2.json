@@ -1,0 +1,81 @@
+{
+  "slug": "sd2",
+  "extension": "sd2",
+  "name": "Sound Designer II File",
+  "category": "sound-designer-ii-file",
+  "developer_org": "avid-technology",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 10,
+    "source": "fileinfo"
+  },
+  "summary": "Audio file created in the Sound Designer II format, which was originally developed by Digidesign for Macintosh audio recording programs; can be both mono or stereo and supports various bit depths and sample rates; used for exchanging audio data between applications.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "avid-pro-tools",
+        "display_name": "Avid Pro Tools"
+      },
+      {
+        "software": "river-past-audio-converter",
+        "display_name": "River Past Audio Converter"
+      },
+      {
+        "software": "apple-itunes",
+        "display_name": "Apple iTunes",
+        "status": "discontinued"
+      },
+      {
+        "software": "apple-quicktime-player",
+        "display_name": "Apple QuickTime Player"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-quicktime-player",
+        "display_name": "Apple QuickTime Player"
+      },
+      {
+        "software": "avid-pro-tools",
+        "display_name": "Avid Pro Tools"
+      },
+      {
+        "software": "apple-itunes",
+        "display_name": "Apple iTunes",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "SD2 file icon",
+      "alt": "SD2 file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/sd2-911.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-08-31",
+  "sources": [
+    {
+      "url": "sd2.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

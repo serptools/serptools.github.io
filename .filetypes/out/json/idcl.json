@@ -1,0 +1,47 @@
+{
+  "slug": "idcl",
+  "extension": "idcl",
+  "name": "Inventor Desktop Content Library File",
+  "category": "inventor-desktop-content-library-file",
+  "developer_org": "autodesk",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "An IDCL file is a library file used by Autodesk Inventor, an application utilized to design three-dimensional prototypes. It stores tables of numerical data that represent parts, such as screws, nuts, pins, and bolts that can be inserted into Inventor assemblies ( .IAM files) as parts ( .IPT files) by Inventor users.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "autodesk-inventor-2022",
+        "display_name": "Autodesk Inventor 2022"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-08-03",
+  "sources": [
+    {
+      "url": "idcl.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

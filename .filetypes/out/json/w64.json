@@ -1,0 +1,103 @@
+{
+  "slug": "w64",
+  "extension": "w64",
+  "name": "Sony Wave64 Audio File",
+  "category": "sony-wave64-audio-file",
+  "developer_org": "sony",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 11,
+    "source": "fileinfo"
+  },
+  "summary": "A W64 file is an audio file saved in Sony's Wave64 format, which is supported by various Sony audio editing programs. The W64 format is useful for audio editing because it supports arbitrary sampling frequencies, channels, and bit depths.",
+  "standards": [],
+  "mime_types": [
+    "riff/wav"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "magix-sound-forge-pro-17",
+        "display_name": "MAGIX Sound Forge Pro 17"
+      },
+      {
+        "software": "magix-vegas-pro-21",
+        "display_name": "MAGIX VEGAS Pro 21"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "audacity",
+        "display_name": "Audacity"
+      },
+      {
+        "software": "shedworx-smart-converter",
+        "display_name": "ShedWorx Smart Converter"
+      },
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      }
+    ],
+    "macos": [
+      {
+        "software": "shedworx-smart-converter",
+        "display_name": "ShedWorx Smart Converter"
+      },
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "audacity",
+        "display_name": "Audacity"
+      }
+    ],
+    "linux": [
+      {
+        "software": "videolan-vlc-media-player",
+        "display_name": "VideoLAN VLC media player"
+      },
+      {
+        "software": "audacity",
+        "display_name": "Audacity"
+      }
+    ],
+    "web": [
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-11-29",
+  "sources": [
+    {
+      "url": "w64.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

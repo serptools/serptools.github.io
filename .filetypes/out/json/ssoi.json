@@ -1,0 +1,49 @@
+{
+  "slug": "ssoi",
+  "extension": "ssoi",
+  "name": "SSOI Ransomware Encrypted File",
+  "category": "ssoi-ransomware-encrypted-file",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 2.7,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "A file with the .ssoi extension has been renamed and encrypted by SSOI ransomware . It could be an encrypted image, video, document, or other type of file. Because the file is encrypted, you cannot open it.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "system-restore",
+        "display_name": "System Restore"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-03-29",
+  "sources": [
+    {
+      "url": "ssoi.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

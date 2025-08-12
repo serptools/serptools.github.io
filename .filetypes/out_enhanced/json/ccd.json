@@ -1,0 +1,29 @@
+{
+  "slug": "ccd",
+  "extension": "ccd",
+  "name": "CloneCD Control File",
+  "category": "clonecd-control-file",
+  "summary": "",
+  "developer_org": "nch-software",
+  "developer_name": "NCH Software",
+  "more_information": {
+    "description": [
+      "SlySoft CloneCD was a CD and DVD burning application that could be used to make exact copies of music, video, and data discs, regardless of Digital Rights Management ( DRM ) restrictions. When CloneCD created a disk image from a disc, it saved the disk image data across a number of files. The disk image's main data was saved in an IMG file, its subchannel data was saved in a .SUB file, and its control data was saved in a CCD file. The disk image's control data specified what type of data the original disc contained, as well as how that data was structured.",
+      "When creating a new disc using CloneCD, users needed to supply the IMG, CCD, and SUB files CloneCD created from the original disc. While CloneCD is now discontinued, other disc-burning applications can still be used to combine CloneCD IMG, CCD, and SUB files into usable discs."
+    ]
+  },
+  "images": [
+    {
+      "url": "https://fileinfo.com/img/ss/sm/ccd_11867.png",
+      "alt": "Screenshot of a .ccd file in NCH Software ClickCharts 5.8",
+      "caption": "CCD file open in NCH Software ClickCharts 5.8"
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "ccd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

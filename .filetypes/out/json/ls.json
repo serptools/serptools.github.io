@@ -1,0 +1,59 @@
+{
+  "slug": "ls",
+  "extension": "ls",
+  "name": "LightWave LScript Source Code",
+  "category": "lightwave-lscript-source-code",
+  "developer_org": "lightwave-digital",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "An LS file is a script containing commands in the LScript language that automate actions in LightWave 3D rendering software. Users create scripts to perform repetitive or complex tasks and add new features to the software. Examples of functions LScripts can produce include automatically drawing points and polygons and creating object motions.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "lightwave-3d",
+        "display_name": "LightWave 3D"
+      }
+    ],
+    "macos": [
+      {
+        "software": "lightwave-3d",
+        "display_name": "LightWave 3D"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "LS file icon",
+      "alt": "LS file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/ls-6379.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-11-03",
+  "sources": [
+    {
+      "url": "ls.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

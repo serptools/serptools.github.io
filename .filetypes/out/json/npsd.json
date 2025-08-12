@@ -1,0 +1,58 @@
+{
+  "slug": "npsd",
+  "extension": "npsd",
+  "name": "NPS Image Editor Document",
+  "category": "nps-image-editor-document",
+  "developer_org": "alexey",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "An NPSD file is an image file created by NPS Image Editor, a free, layer-based drawing and image editing program. It contains an image, as well as a record of the image's layers and any edits made to the image. NPSD files can be opened only in NPS Image Editor.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "nps-image-editor",
+        "display_name": "NPS Image Editor"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "NPSD file icon",
+      "alt": "NPSD file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/npsd-12417.png"
+    },
+    {
+      "caption": "NPSD file open in NPS Image Editor",
+      "alt": "NPSD file open in NPS Image Editor",
+      "source_url": "https://fileinfo.com/img/ss/md/npsd_12417.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-11-15",
+  "sources": [
+    {
+      "url": "npsd.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

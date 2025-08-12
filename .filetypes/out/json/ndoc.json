@@ -1,0 +1,77 @@
+{
+  "slug": "ndoc",
+  "extension": "ndoc",
+  "name": "Naver Word",
+  "category": "naver-word",
+  "developer_org": "nhn",
+  "popularity": {
+    "rating": 3.2,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "Online document created by Naver Word, a Web-based word processing and productivity application; supports templates, stylized text, page formatting, tables, charts, and images; can be accessed through an NDrive online storage location.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "android": [
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      },
+      {
+        "software": "nhn-naver-ndrive",
+        "display_name": "NHN Naver Ndrive"
+      }
+    ],
+    "web": [
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      }
+    ],
+    "windows": [
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      },
+      {
+        "software": "nhn-naver-ndrive",
+        "display_name": "NHN Naver Ndrive"
+      }
+    ],
+    "ios": [
+      {
+        "software": "discontinued",
+        "display_name": "Discontinued",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2011-08-10",
+  "sources": [
+    {
+      "url": "ndoc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

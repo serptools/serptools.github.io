@@ -1,0 +1,59 @@
+{
+  "slug": "xlm",
+  "extension": "xlm",
+  "name": "Microsoft Excel Macro",
+  "category": "microsoft-excel-macro",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 56,
+    "source": "fileinfo"
+  },
+  "summary": "An XLM file contains one or more macros used for automating processes in Microsoft Excel, a spreadsheet application. It is a script used to perform complex or repetitive Excel functions, such as inserting data in cells or formatting charts.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-excel-365",
+        "display_name": "Microsoft Excel 365"
+      }
+    ],
+    "macos": [
+      {
+        "software": "microsoft-excel-365",
+        "display_name": "Microsoft Excel 365"
+      }
+    ],
+    "web": [
+      {
+        "software": "microsoft-excel-365",
+        "display_name": "Microsoft Excel 365"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-02-10",
+  "sources": [
+    {
+      "url": "xlm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

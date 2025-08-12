@@ -1,0 +1,67 @@
+{
+  "slug": "u12",
+  "extension": "u12",
+  "name": "UFile 2012 Tax Return",
+  "category": "ufile-2012-tax-return",
+  "developer_org": "dr-tax-software",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "Canadian federal tax return created with UFile 2012, a tax preparation program for Canadian residents; contains Canada income tax forms and data entered by the user; may be printed and mailed or filed electronically with the Canada Revenue Agency using the program's NETFILE feature.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "dr-tax-ufile",
+        "display_name": "Dr Tax UFile"
+      },
+      {
+        "software": "intuit-canada-turbotax",
+        "display_name": "Intuit Canada TurboTax"
+      },
+      {
+        "software": "dr-tax-ufile-online",
+        "display_name": "Dr Tax UFile Online"
+      }
+    ],
+    "macos": [
+      {
+        "software": "intuit-canada-turbotax",
+        "display_name": "Intuit Canada TurboTax"
+      }
+    ],
+    "web": [
+      {
+        "software": "dr-tax-ufile-online",
+        "display_name": "Dr Tax UFile Online"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2013-02-19",
+  "sources": [
+    {
+      "url": "u12.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

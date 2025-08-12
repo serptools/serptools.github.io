@@ -1,0 +1,57 @@
+{
+  "slug": "m3",
+  "extension": "m3",
+  "name": "Blizzard MDX3 Model File",
+  "category": "blizzard-mdx3-model-file",
+  "developer_org": "blizzard-entertainment",
+  "popularity": {
+    "rating": 2.9,
+    "votes": 9,
+    "source": "fileinfo"
+  },
+  "summary": "3D model used by StarCraft II: Wings of Liberty, a sci-fi real-time strategy game; created in Blizzard's MDX3 format, which is the successor to the .MDX file format used in Warcraft 3 and the .M2 format used in World of Warcraft; used for storing models for game units and structures for the Protoss, Terran, and Zerg races; also used for other game objects.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "blizzard-starcraft-2",
+        "display_name": "Blizzard StarCraft 2"
+      },
+      {
+        "software": "autodesk-3ds-max-with-m3-import-plugin",
+        "display_name": "Autodesk 3ds Max with M3 Import plugin"
+      }
+    ],
+    "macos": [
+      {
+        "software": "blizzard-starcraft-2",
+        "display_name": "Blizzard StarCraft 2"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-08-05",
+  "sources": [
+    {
+      "url": "m3.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

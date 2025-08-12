@@ -1,0 +1,70 @@
+{
+  "slug": "bln",
+  "extension": "bln",
+  "name": "Golden Software Blanking File",
+  "category": "golden-software-blanking-file",
+  "developer_org": "golden-software",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "Comma-delimited ASCII text file used by Golden Software's visualization and mapping software products; defines polygon, polyline, and point boundaries; can be used for \"blanking\" out regions in a grid file (e.g., a blanked region on a contour map will not show contour lines).",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "golden-software-surfer",
+        "display_name": "Golden Software Surfer"
+      },
+      {
+        "software": "golden-software-grapher",
+        "display_name": "Golden Software Grapher"
+      },
+      {
+        "software": "golden-software-strater",
+        "display_name": "Golden Software Strater",
+        "status": "discontinued"
+      },
+      {
+        "software": "golden-software-voxler",
+        "display_name": "Golden Software Voxler",
+        "status": "discontinued"
+      },
+      {
+        "software": "golden-software-mapviewer",
+        "display_name": "Golden Software MapViewer"
+      },
+      {
+        "software": "golden-software-didger",
+        "display_name": "Golden Software Didger",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-01-20",
+  "sources": [
+    {
+      "url": "bln.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

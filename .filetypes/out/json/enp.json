@@ -1,0 +1,53 @@
+{
+  "slug": "enp",
+  "extension": "enp",
+  "name": "EndNote Preferences File",
+  "category": "endnote-preferences-file",
+  "developer_org": "clarivate",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "Application preferences file used by older versions of EndNote citation management software; stores the settings specified in the Edit → Preferences... menu; can be used for transferring preferences between different EndNote installations.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "clarivate-endnote",
+        "display_name": "Clarivate EndNote"
+      }
+    ],
+    "macos": [
+      {
+        "software": "clarivate-endnote",
+        "display_name": "Clarivate EndNote"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-09-23",
+  "sources": [
+    {
+      "url": "enp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "lpq",
+  "extension": "lpq",
+  "name": "Lager Network Technologies Game Resource Archive",
+  "category": "lager-network-technologies-game-resource-archive",
+  "developer_org": "lager-network-technologies",
+  "popularity": {
+    "rating": 1.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "An LPQ file is a compressed archive used by a video game developed by Lager Network Technologies. It contains images, such as .BMP , .ICO , and .DDS files, and other game resources. Fairyland Online and King of Kings 3 are examples of games that use LPQ files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "lager-network-technologies-fairyland-online",
+        "display_name": "Lager Network Technologies Fairyland Online"
+      },
+      {
+        "software": "king-of-kings-3",
+        "display_name": "King of Kings 3"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-10-10",
+  "sources": [
+    {
+      "url": "lpq.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

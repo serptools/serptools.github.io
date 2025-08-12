@@ -1,0 +1,51 @@
+{
+  "slug": "pano",
+  "extension": "pano",
+  "name": "Camera Panoramic Picture",
+  "category": "camera-panoramic-picture",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 2.9,
+    "votes": 19,
+    "source": "fileinfo"
+  },
+  "summary": "File created by Windows Camera, a photo and video recording application; contains a photo generated from several different images taken from the same vantage point and \"stitched\" together by the Camera application.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-camera",
+        "display_name": "Microsoft Camera"
+      },
+      {
+        "software": "microsoft-onedrive",
+        "display_name": "Microsoft OneDrive"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2013-11-19",
+  "sources": [
+    {
+      "url": "pano.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

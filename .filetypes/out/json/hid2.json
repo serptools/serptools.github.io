@@ -1,0 +1,67 @@
+{
+  "slug": "hid2",
+  "extension": "hid2",
+  "name": "KeepSafe File",
+  "category": "keepsafe-file",
+  "developer_org": "keepsafe",
+  "popularity": {
+    "rating": 3.2,
+    "votes": 17,
+    "source": "fileinfo"
+  },
+  "summary": "Security file created by KeepSafe, an Android and iOS application that hides your images and videos; also appears with the .HID file extension; contains a video or image that is hidden from the user until the appropriate pin is entered.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "android": [
+      {
+        "software": "keepsafe-private-photo-vault",
+        "display_name": "KeepSafe Private Photo Vault"
+      },
+      {
+        "software": "keepsafe-vault",
+        "display_name": "KeepSafe Vault"
+      }
+    ],
+    "ios": [
+      {
+        "software": "keepsafe-private-photo-vault",
+        "display_name": "KeepSafe Private Photo Vault"
+      }
+    ],
+    "windows": [
+      {
+        "software": "keepsafe-private-photo-vault",
+        "display_name": "KeepSafe Private Photo Vault"
+      },
+      {
+        "software": "keepsafe-vault",
+        "display_name": "KeepSafe Vault"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-01-15",
+  "sources": [
+    {
+      "url": "hid2.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

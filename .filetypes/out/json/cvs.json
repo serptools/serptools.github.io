@@ -1,0 +1,47 @@
+{
+  "slug": "cvs",
+  "extension": "cvs",
+  "name": "Canvas 3 Drawing File",
+  "category": "canvas-3-drawing-file",
+  "developer_org": "acd-systems",
+  "popularity": {
+    "rating": 3.1,
+    "votes": 17,
+    "source": "fileinfo"
+  },
+  "summary": "Proprietary image format used by early versions of Canvas, a drawing program designed for creating technical illustrations; may contain both vector images and raster images .",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "canvas-gfx-canvas-x-pro",
+        "display_name": "Canvas GFX Canvas X Pro"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-02-19",
+  "sources": [
+    {
+      "url": "cvs.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

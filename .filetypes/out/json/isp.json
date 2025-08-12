@@ -1,0 +1,51 @@
+{
+  "slug": "isp",
+  "extension": "isp",
+  "name": "IIS Internet Service Provider Settings",
+  "category": "iis-internet-service-provider-settings",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 4.2,
+    "votes": 10,
+    "source": "fileinfo"
+  },
+  "summary": "An ISP file is a settings file used by Microsoft Internet Information Services ( IIS ), a web server software included with Windows. It contains configuration details required to connect a server or system to an Internet Service Provider ( ISP ). ISP files may include dial-up phone numbers, login credentials, IP address configuration, and other networking details.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      },
+      {
+        "software": "microsoft-iis",
+        "display_name": "Microsoft IIS"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2025-05-08",
+  "sources": [
+    {
+      "url": "isp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

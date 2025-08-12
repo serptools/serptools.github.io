@@ -1,0 +1,51 @@
+{
+  "slug": "atl",
+  "extension": "atl",
+  "name": "Artlantis 3D Scene File",
+  "category": "artlantis-3d-scene-file",
+  "developer_org": "abvent-group",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "3D image file created by Artlantis Studio & Render, which are programs used by designers and architects for creating high-resolution 3D images; saves a 3D scene and may include multiple Artlantis objects ( .AOF files); used for rendering building interiors, landscapes, and other architectural scenes.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "abvent-group-artlantis-studio",
+        "display_name": "Abvent Group Artlantis Studio"
+      },
+      {
+        "software": "abvent-group-artlantis-render",
+        "display_name": "Abvent Group Artlantis Render"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-08-17",
+  "sources": [
+    {
+      "url": "atl.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

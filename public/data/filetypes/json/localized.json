@@ -1,0 +1,29 @@
+{
+  "slug": "localized",
+  "extension": "localized",
+  "name": "macOS Directory Localization File",
+  "category": "macos-directory-localization-file",
+  "summary": "",
+  "developer_org": "apple",
+  "developer_name": "Apple",
+  "more_information": {
+    "description": [
+      "Localization is the process of translating text and audio content for use across multiple languages. Software programs, including the macOS operating system , use a variety of localization schemes to show content to users in their preferred language.",
+      "Part of macOS's system-level localization scheme depends on LOCALIZED files. These files are hidden, blank files that macOS references when showing a directory's name to users. If a directory contains a blank LOCALIZED file, macOS can translate that directory's name into any of its system languages.",
+      "Because LOCALIZED files are hidden files that do not appear even after a user chooses to show hidden files (using the Cmd + Shift + . shortcut) on their Mac, most users will never encounter a LOCALIZED file. The most likely way a user would encounter a LOCALIZED file is by viewing the file within a different operating system installed on their Mac. For example, Parallels Desktop users who have chosen to show hidden files in Windows may see a LOCALIZED file on their Windows desktop."
+    ]
+  },
+  "common_filenames": [
+    {
+      "filename": ".localized",
+      "description": ".localized - A hidden, blank file included in many macOS system directories. Used to tell macOS that the directory's name can be localized."
+    }
+  ],
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "localized.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

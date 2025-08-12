@@ -1,0 +1,23 @@
+{
+  "slug": "fxp",
+  "extension": "fxp",
+  "name": "FX Preset",
+  "category": "fx-preset",
+  "summary": "",
+  "developer_org": "rockstar-games",
+  "developer_name": "Rockstar Games",
+  "more_information": {
+    "description": [
+      "Virtual Studio Technology is an audio plug-in interface that allows Digital Audio Workstations to install audio effects. While Steinberg developed the VST interface, many DAWs, including Steinberg Cubase, Ableton Live, Image-Line FL Studio, and LMMS, use the interface to allow users to install plug-ins.",
+      "In the past, VST plug-ins loaded effects from FXB and FXP files. FXP files contained an individual instrument, audio effect, or MIDI effect. While many DAWs used FXP files, each FXP file was linked to a specific plug-in. So, the FXP file could be loaded only from within that plug-in.",
+      "With the release of VST 3, Steinberg replaced FXP and FXB files with .VSTPRESET files. However, some DAWs still allow users to load FXP files in their associated plug-ins."
+    ]
+  },
+  "updated_at": "2025-08-09",
+  "sources": [
+    {
+      "url": "fxp.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

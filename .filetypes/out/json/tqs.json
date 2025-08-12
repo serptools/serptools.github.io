@@ -1,0 +1,63 @@
+{
+  "slug": "tqs",
+  "extension": "tqs",
+  "name": "Trivia Quiz Shell Program File",
+  "category": "trivia-quiz-shell-program-file",
+  "developer_org": "bot-production",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "A TQS file is a program file created by Trivia Quiz Shell, a freeware application used by teachers and students to facilitate learning and test knowledge. It contains a learning program built by a user and is saved in XML format. TQS files may include multiple choice questions, true-false questions, fill-in-the-blank questions, hangman games, menus, embedded images, and sounds.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "bot-production-trivia-quiz-shell",
+        "display_name": "Bot Production Trivia Quiz Shell"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-01-18",
+  "sources": [
+    {
+      "url": "tqs.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

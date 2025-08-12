@@ -1,0 +1,77 @@
+{
+  "slug": "session",
+  "extension": "session",
+  "name": "CATIA 4 Session File",
+  "category": "1.-catia-4-session-file",
+  "developer_org": "dassault-systemes",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 16,
+    "source": "fileinfo"
+  },
+  "summary": "Session file created by CATIA version 4, a program used for 3D product design and simulation; contains references to .MODEL files or copies of MODEL files, depending on the save option selected; used to save models from a work session.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "dassault-systemes-catia",
+        "display_name": "Dassault Systemes CATIA"
+      },
+      {
+        "software": "okino-computer-graphics-polytrans",
+        "display_name": "Okino Computer Graphics PolyTrans"
+      },
+      {
+        "software": "mozilla-firefox",
+        "display_name": "Mozilla Firefox"
+      },
+      {
+        "software": "session-manager",
+        "display_name": "Session Manager",
+        "status": "discontinued"
+      }
+    ],
+    "web": [
+      {
+        "software": "mozilla-firefox",
+        "display_name": "Mozilla Firefox"
+      },
+      {
+        "software": "session-manager",
+        "display_name": "Session Manager",
+        "status": "discontinued"
+      }
+    ],
+    "ios": [
+      {
+        "software": "ios-settings",
+        "display_name": "iOS Settings"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-03-31",
+  "sources": [
+    {
+      "url": "session.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

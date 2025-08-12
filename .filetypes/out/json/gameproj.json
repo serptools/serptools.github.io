@@ -1,0 +1,57 @@
+{
+  "slug": "gameproj",
+  "extension": "gameproj",
+  "name": "GameSalad Project File",
+  "category": "gamesalad-project-file",
+  "developer_org": "gamesalad",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "Game development project created by the Mac version of GameSalad Creator, a program used for making Android, iOS, Kindle, Nook, HTML5, and Mac OS X games; saves a series of \"scenes,\" \"actors,\" and \"tables,\" as well as behaviors that define how the actors interact in each scene; also saves all assets, including sounds and images.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "scirra-construct",
+        "display_name": "Scirra Construct"
+      },
+      {
+        "software": "gamesalad-creator",
+        "display_name": "GameSalad Creator"
+      }
+    ],
+    "macos": [
+      {
+        "software": "gamesalad-creator",
+        "display_name": "GameSalad Creator"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-09-06",
+  "sources": [
+    {
+      "url": "gameproj.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

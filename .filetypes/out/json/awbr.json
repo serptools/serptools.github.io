@@ -1,0 +1,71 @@
+{
+  "slug": "awbr",
+  "extension": "awbr",
+  "name": "WriteOnline WordBar File",
+  "category": "writeonline-wordbar-file",
+  "developer_org": "crick-software",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "An AWBR file is a WordBar file used by WriteOnline, a literacy tool used to help struggling writers in middle school through college. The file contains one or more word banks about subjects such as clothing, countries, and food.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "crick-software-clicker",
+        "display_name": "Crick Software Clicker"
+      },
+      {
+        "software": "crick-software-writeonline",
+        "display_name": "Crick Software WriteOnline",
+        "status": "discontinued"
+      }
+    ],
+    "macos": [
+      {
+        "software": "crick-software-clicker",
+        "display_name": "Crick Software Clicker"
+      }
+    ],
+    "ios": [
+      {
+        "software": "crick-software-writeonline",
+        "display_name": "Crick Software WriteOnline",
+        "status": "discontinued"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "AWBR file icon",
+      "alt": "AWBR file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/awbr-10246.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-04-03",
+  "sources": [
+    {
+      "url": "awbr.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

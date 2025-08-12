@@ -1,0 +1,51 @@
+{
+  "slug": "gamingroot",
+  "extension": "gamingroot",
+  "name": "Xbox Game Root File",
+  "category": "xbox-game-root-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "A GAMINGROOT file is a hidden system file used by the Xbox and Game Bar apps on Windows 10 or 11 to indicate that a particular drive is suitable for game installation. When these apps identify a drive as appropriate for storing games, they automatically create a GAMINGROOT file on it. GAMINGROOT files are unnamed and appear as .GamingRoot . Users should not delete these files since doing so could prevent games from functioning properly.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-xbox",
+        "display_name": "Microsoft Xbox"
+      },
+      {
+        "software": "microsoft-game-bar",
+        "display_name": "Microsoft Game Bar"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2024-08-21",
+  "sources": [
+    {
+      "url": "gamingroot.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

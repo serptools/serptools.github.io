@@ -1,0 +1,58 @@
+{
+  "slug": "sew",
+  "extension": "sew",
+  "name": "Home Embroidery Format",
+  "category": "home-embroidery-format",
+  "developer_org": "n-a",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 11,
+    "source": "fileinfo"
+  },
+  "summary": "CAM (computer aided manufacturing) file that contains instructions for creating embroideries with a sewing machine; includes codes such as \"stop,\" \"jump,\" and \"trim;\" used by Janome sewing machines.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "designer-s-gallery-studioplus",
+        "display_name": "Designer's Gallery StudioPlus",
+        "status": "discontinued"
+      },
+      {
+        "software": "buzz-tools-buzzxplore",
+        "display_name": "Buzz Tools BuzzXplore"
+      },
+      {
+        "software": "s-s-computing-sewwhat",
+        "display_name": "S & S Computing SewWhat!"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2015-10-01",
+  "sources": [
+    {
+      "url": "sew.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

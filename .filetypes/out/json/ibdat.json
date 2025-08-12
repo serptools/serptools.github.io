@@ -1,0 +1,47 @@
+{
+  "slug": "ibdat",
+  "extension": "ibdat",
+  "name": "IsoBuster Data File",
+  "category": "isobuster-data-file",
+  "developer_org": "smart-projects",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "An IBDAT file is a data file created by Smart Projects IsoBuster, a program used to recover data from damaged disks and file systems. It contains data blocks of a larger drive that are referenced by location paths stored in an .IBADR file. IBDAT files are created with IBADR files by IsoBuster to debug issues encountered by the program.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "smart-projects-isobuster",
+        "display_name": "Smart Projects IsoBuster"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-12-21",
+  "sources": [
+    {
+      "url": "ibdat.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "slug": "cfml",
+  "extension": "cfml",
+  "name": "ColdFusion Markup Language File",
+  "category": "coldfusion-markup-language-file",
+  "developer_org": "adobe-systems",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "Web page written in CFML (ColdFusion Markup Language), a programming language maintained by Adobe; contains tags, which define operations that are executed on a ColdFusion server when a user requests the Web page; may store database operations, embedded HTML, and other Web page elements.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "adobe-coldfusion",
+        "display_name": "Adobe ColdFusion"
+      },
+      {
+        "software": "adobe-coldfusion-builder",
+        "display_name": "Adobe ColdFusion Builder"
+      },
+      {
+        "software": "adobe-dreamweaver-2021",
+        "display_name": "Adobe Dreamweaver 2021"
+      },
+      {
+        "software": "railo",
+        "display_name": "Railo"
+      }
+    ],
+    "web": [
+      {
+        "software": "web-browser",
+        "display_name": "Web browser"
+      },
+      {
+        "software": "adobe-coldfusion",
+        "display_name": "Adobe ColdFusion"
+      },
+      {
+        "software": "adobe-coldfusion-builder",
+        "display_name": "Adobe ColdFusion Builder"
+      },
+      {
+        "software": "adobe-dreamweaver-2021",
+        "display_name": "Adobe Dreamweaver 2021"
+      },
+      {
+        "software": "railo",
+        "display_name": "Railo"
+      }
+    ],
+    "macos": [
+      {
+        "software": "adobe-coldfusion",
+        "display_name": "Adobe ColdFusion"
+      },
+      {
+        "software": "adobe-coldfusion-builder",
+        "display_name": "Adobe ColdFusion Builder"
+      },
+      {
+        "software": "adobe-dreamweaver-2021",
+        "display_name": "Adobe Dreamweaver 2021"
+      },
+      {
+        "software": "railo",
+        "display_name": "Railo"
+      }
+    ],
+    "linux": [
+      {
+        "software": "adobe-coldfusion",
+        "display_name": "Adobe ColdFusion"
+      },
+      {
+        "software": "railo",
+        "display_name": "Railo"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-06-10",
+  "sources": [
+    {
+      "url": "cfml.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

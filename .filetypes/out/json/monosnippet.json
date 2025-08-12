@@ -1,0 +1,64 @@
+{
+  "slug": "monosnippet",
+  "extension": "monosnippet",
+  "name": "Monodraw Snippet",
+  "category": "monodraw-snippet",
+  "developer_org": "helftone",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "A MONOSNIPPET file is an image template used by Helftone Monodraw, an ASCII art tool available for macOS. It contains an image element that can be added to a .MONOPIC file. Monodraw includes several default MONOSNIPPET files. Users can also create their own MONOSNIPPET files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "helftone-monodraw",
+        "display_name": "Helftone Monodraw"
+      }
+    ],
+    "windows": [
+      {
+        "software": "helftone-monodraw",
+        "display_name": "Helftone Monodraw"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "MONOSNIPPET file icon",
+      "alt": "MONOSNIPPET file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/monosnippet-13059.png"
+    },
+    {
+      "caption": "MONOSNIPPET file open in Helftone Monodraw",
+      "alt": "MONOSNIPPET file open in Helftone Monodraw",
+      "source_url": "https://fileinfo.com/img/ss/md/monosnippet_13059.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-12-13",
+  "sources": [
+    {
+      "url": "monosnippet.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

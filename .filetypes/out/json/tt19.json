@@ -1,0 +1,59 @@
+{
+  "slug": "tt19",
+  "extension": "tt19",
+  "name": "TurboTax Canada 2019 Tax Return",
+  "category": "turbotax-canada-2019-tax-return",
+  "developer_org": "intuit",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "A TT19 file is a tax return created by the 2019 version of Intuit TurboTax Canada, an application used to file tax returns in Canada. It stores tax data, which includes Canadian federal and provincial tax information and personal data entered by the user. TT19 files are similar to .TAX2019 files created by the U.S. version of TurboTax 2019.",
+  "standards": [],
+  "mime_types": [
+    "download/cd"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "intuit-canada-turbotax",
+        "display_name": "Intuit Canada TurboTax"
+      },
+      {
+        "software": "intuit-turbotax-canada-online",
+        "display_name": "Intuit TurboTax Canada Online"
+      }
+    ],
+    "web": [
+      {
+        "software": "intuit-turbotax-canada-online",
+        "display_name": "Intuit TurboTax Canada Online"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-01-29",
+  "sources": [
+    {
+      "url": "tt19.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

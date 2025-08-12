@@ -1,0 +1,86 @@
+{
+  "slug": "pfx",
+  "extension": "pfx",
+  "name": "PKCS #12 Certificate File",
+  "category": "1.-pkcs-12-certificate-file",
+  "developer_org": "rsa-laboratories",
+  "popularity": {
+    "rating": 3.4,
+    "votes": 57,
+    "source": "fileinfo"
+  },
+  "summary": "A PFX file is an encrypted security format that typically stores one or more password-protected digital certificates and private keys for authenticating a person, application, or device (including computers and web servers). PFX files were initially saved in the Personal Information Exchange (PFX) format Microsoft released in 1996 but are now saved in the PKCS #12 format, which succeeded and extended PFX (people often use the format names interchangeably). Users typically send PFX files to transfer private and public keys and other sensitive information; various security and encryption programs support PFX files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "openssl",
+        "display_name": "OpenSSL"
+      },
+      {
+        "software": "microsoft-certificate-manager",
+        "display_name": "Microsoft Certificate Manager"
+      },
+      {
+        "software": "microsoft-management-console",
+        "display_name": "Microsoft Management Console"
+      },
+      {
+        "software": "adobe-acrobat-dc",
+        "display_name": "Adobe Acrobat DC"
+      },
+      {
+        "software": "softkey-pfs-first-choice",
+        "display_name": "SoftKey PFS:First Choice",
+        "status": "discontinued"
+      }
+    ],
+    "macos": [
+      {
+        "software": "openssl",
+        "display_name": "OpenSSL"
+      },
+      {
+        "software": "adobe-acrobat-dc",
+        "display_name": "Adobe Acrobat DC"
+      }
+    ],
+    "linux": [
+      {
+        "software": "openssl",
+        "display_name": "OpenSSL"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "PFX file icon",
+      "alt": "PFX file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/pfx-2257.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2024-01-31",
+  "sources": [
+    {
+      "url": "pfx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

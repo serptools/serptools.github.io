@@ -1,0 +1,53 @@
+{
+  "slug": "vpe",
+  "extension": "vpe",
+  "name": "Photoshop Vanishing Point Export File",
+  "category": "photoshop-vanishing-point-export-file",
+  "developer_org": "adobe-systems",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 6,
+    "source": "fileinfo"
+  },
+  "summary": "File created by the Extended version of Adobe Photoshop, a professional graphics editing application; saves vanishing point planes that have been specified by a designer on a 2D image; can be imported into After Effects, which splices the 2D image into different images represented by the planes.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "adobe-after-effects-2025",
+        "display_name": "Adobe After Effects 2025"
+      }
+    ],
+    "macos": [
+      {
+        "software": "adobe-after-effects-2025",
+        "display_name": "Adobe After Effects 2025"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2013-05-07",
+  "sources": [
+    {
+      "url": "vpe.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

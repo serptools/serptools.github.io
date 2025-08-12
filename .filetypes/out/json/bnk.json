@@ -1,0 +1,105 @@
+{
+  "slug": "bnk",
+  "extension": "bnk",
+  "name": "Adlib Instrument Bank",
+  "category": "1.-adlib-instrument-bank",
+  "developer_org": "adlib",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 51,
+    "source": "fileinfo"
+  },
+  "summary": "Instrument banks accessed by Adlib Visual Composer, a music composition program; designed to be loaded with .ROL files; contains custom instrument data to accompany the ROL files that contain the notes to play the instruments that make up the scores.",
+  "standards": [],
+  "mime_types": [
+    "and/or"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "adlib-visual-composer",
+        "display_name": "AdLib Visual Composer"
+      },
+      {
+        "software": "adlib-tracker-ii",
+        "display_name": "Adlib Tracker II"
+      },
+      {
+        "software": "spotify",
+        "display_name": "Spotify"
+      },
+      {
+        "software": "eden-games-test-drive-unlimited",
+        "display_name": "Eden Games Test Drive Unlimited"
+      },
+      {
+        "software": "tdu-modding-tools",
+        "display_name": "TDU Modding Tools"
+      },
+      {
+        "software": "bnk-editor",
+        "display_name": "BNK Editor"
+      },
+      {
+        "software": "turning-technologies-examview",
+        "display_name": "Turning Technologies ExamView"
+      },
+      {
+        "software": "audiokinetic-wwise",
+        "display_name": "Audiokinetic Wwise"
+      },
+      {
+        "software": "quickbms",
+        "display_name": "QuickBMS"
+      }
+    ],
+    "macos": [
+      {
+        "software": "spotify",
+        "display_name": "Spotify"
+      }
+    ],
+    "linux": [
+      {
+        "software": "spotify",
+        "display_name": "Spotify"
+      }
+    ],
+    "ios": [
+      {
+        "software": "spotify",
+        "display_name": "Spotify"
+      }
+    ],
+    "android": [
+      {
+        "software": "spotify",
+        "display_name": "Spotify"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2013-09-18",
+  "sources": [
+    {
+      "url": "bnk.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

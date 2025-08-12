@@ -1,0 +1,144 @@
+{
+  "slug": "mcr",
+  "extension": "mcr",
+  "name": "Minecraft Region File",
+  "category": "1.-minecraft-region-file",
+  "developer_org": "mojang-specifications",
+  "popularity": {
+    "rating": 4.3,
+    "votes": 163,
+    "source": "fileinfo"
+  },
+  "summary": "Game file used by Minecraft, a sandbox block construction game; contains a 32x32 region of a Minecraft world; named as r.x.z.mcr , where \"x\" and \"z\" specify the region's coordinates; used for saving \"chunks\" of the world.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "mojang-minecraft",
+        "display_name": "Mojang Minecraft"
+      },
+      {
+        "software": "nbtexplorer",
+        "display_name": "NBTExplorer"
+      },
+      {
+        "software": "autodesk-3ds-max-2023",
+        "display_name": "Autodesk 3ds Max 2023"
+      },
+      {
+        "software": "epsxe",
+        "display_name": "ePSXe"
+      },
+      {
+        "software": "pcsx",
+        "display_name": "PCSX"
+      },
+      {
+        "software": "tecplot-360",
+        "display_name": "Tecplot 360"
+      },
+      {
+        "software": "microsoft-notepad",
+        "display_name": "Microsoft Notepad"
+      },
+      {
+        "software": "github-atom",
+        "display_name": "GitHub Atom",
+        "status": "discontinued"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "macos": [
+      {
+        "software": "mojang-minecraft",
+        "display_name": "Mojang Minecraft"
+      },
+      {
+        "software": "nbtexplorer",
+        "display_name": "NBTExplorer"
+      },
+      {
+        "software": "tecplot-360",
+        "display_name": "Tecplot 360"
+      },
+      {
+        "software": "jitbit-macro-recorder",
+        "display_name": "JitBit Macro Recorder"
+      },
+      {
+        "software": "apple-textedit",
+        "display_name": "Apple TextEdit"
+      },
+      {
+        "software": "github-atom",
+        "display_name": "GitHub Atom",
+        "status": "discontinued"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "linux": [
+      {
+        "software": "mojang-minecraft",
+        "display_name": "Mojang Minecraft"
+      },
+      {
+        "software": "nbtexplorer",
+        "display_name": "NBTExplorer"
+      },
+      {
+        "software": "epsxe",
+        "display_name": "ePSXe"
+      },
+      {
+        "software": "tecplot-360",
+        "display_name": "Tecplot 360"
+      },
+      {
+        "software": "github-atom",
+        "display_name": "GitHub Atom",
+        "status": "discontinued"
+      },
+      {
+        "software": "text-editor",
+        "display_name": "text editor"
+      }
+    ],
+    "chromeos": [
+      {
+        "software": "google-chrome-text",
+        "display_name": "Google Chrome Text"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2013-04-18",
+  "sources": [
+    {
+      "url": "mcr.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

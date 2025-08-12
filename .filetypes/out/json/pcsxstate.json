@@ -1,0 +1,47 @@
+{
+  "slug": "pcsxstate",
+  "extension": "pcsxstate",
+  "name": "PCSX Saved State File",
+  "category": "pcsx-saved-state-file",
+  "developer_org": "pcsx",
+  "popularity": {
+    "rating": 3.0,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "Saved game file created by PCSX, a variant of the PlayStation emulator ePSXe; saved by the user and contains a frozen state of the emulator at a specific point during gameplay; used for loading snapshots of gameplay.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "pcsx",
+        "display_name": "PCSX"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-06-06",
+  "sources": [
+    {
+      "url": "pcsxstate.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

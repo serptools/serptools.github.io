@@ -1,0 +1,47 @@
+{
+  "slug": "oc3",
+  "extension": "oc3",
+  "name": "openCanvas 3 Event File",
+  "category": "opencanvas-3-event-file",
+  "developer_org": "portalgraphics",
+  "popularity": {
+    "rating": 3.3,
+    "votes": 3,
+    "source": "fileinfo"
+  },
+  "summary": "File created by openCanvas 3, a drawing program that allows stroke events to be recorded and replayed; saves a recording of the stroke events that took place to create the image; does not save the image itself, which is stored in an .OCI file.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "portalgraphics-opencanvas",
+        "display_name": "Portalgraphics openCanvas"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-07-10",
+  "sources": [
+    {
+      "url": "oc3.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

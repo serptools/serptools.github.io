@@ -1,0 +1,116 @@
+{
+  "slug": "sch",
+  "extension": "sch",
+  "name": "gEDA Schematic File",
+  "category": "1.-geda-schematic-file",
+  "developer_org": "geda",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 13,
+    "source": "fileinfo"
+  },
+  "summary": "Schematic file created and used by gEDA, a collection of tools used to design PCB layouts and electronic schematics; contains data that makes up the schematic; includes the gEDA/gaf format version, pictures, and XY coordinates for nets, buses, and components.",
+  "standards": [],
+  "mime_types": [
+    "geda/gaf"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "macos": [
+      {
+        "software": "geda",
+        "display_name": "gEDA"
+      },
+      {
+        "software": "autodesk-eagle",
+        "display_name": "Autodesk EAGLE"
+      },
+      {
+        "software": "solutions-etcetera-supercard",
+        "display_name": "Solutions Etcetera SuperCard"
+      },
+      {
+        "software": "solutions-etcetera-supercard-help",
+        "display_name": "Solutions Etcetera SuperCard Help"
+      },
+      {
+        "software": "kicad",
+        "display_name": "KiCad"
+      }
+    ],
+    "windows": [
+      {
+        "software": "geda",
+        "display_name": "gEDA"
+      },
+      {
+        "software": "autodesk-eagle",
+        "display_name": "Autodesk EAGLE"
+      },
+      {
+        "software": "altium-designer",
+        "display_name": "Altium Designer"
+      },
+      {
+        "software": "altium-365-viewer",
+        "display_name": "Altium 365 Viewer"
+      },
+      {
+        "software": "kicad",
+        "display_name": "KiCad"
+      },
+      {
+        "software": "golden-software-strater",
+        "display_name": "Golden Software Strater",
+        "status": "discontinued"
+      },
+      {
+        "software": "expresssch",
+        "display_name": "ExpressSCH"
+      }
+    ],
+    "linux": [
+      {
+        "software": "geda",
+        "display_name": "gEDA"
+      },
+      {
+        "software": "autodesk-eagle",
+        "display_name": "Autodesk EAGLE"
+      },
+      {
+        "software": "kicad",
+        "display_name": "KiCad"
+      }
+    ],
+    "web": [
+      {
+        "software": "altium-365-viewer",
+        "display_name": "Altium 365 Viewer"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2014-09-25",
+  "sources": [
+    {
+      "url": "sch.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

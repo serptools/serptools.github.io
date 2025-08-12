@@ -1,0 +1,50 @@
+{
+  "slug": "wbb",
+  "extension": "wbb",
+  "name": "WinBackup Archive",
+  "category": "winbackup-archive",
+  "developer_org": "uniblue",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "Backup archive created with WinBackup, a backup utility for Windows; may contain a full system backup or an archive of files selected by the user; can be used to restore data if the original data is lost or corrupted.",
+  "standards": [],
+  "mime_types": [
+    "cd-r/rw",
+    "dvd-r/rw"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "uniblue-winbackup",
+        "display_name": "Uniblue WinBackup"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-12-28",
+  "sources": [
+    {
+      "url": "wbb.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

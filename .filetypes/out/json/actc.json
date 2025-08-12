@@ -1,0 +1,65 @@
+{
+  "slug": "actc",
+  "extension": "actc",
+  "name": "Action(s) Collection File",
+  "category": "action-s-collection-file",
+  "developer_org": "app.jibres.com",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 12,
+    "source": "fileinfo"
+  },
+  "summary": "An ACTC file is an archive used by Action(s), a program that allows users to build workflows to automate repetitive computer tasks without scripting knowledge. It contains a collection of files, including class and resource files, required to perform an action. ACTC files also store a manifest file ( .MF ) that contain information about the files stored in the ACTC file.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "action-s",
+        "display_name": "Action(s)"
+      }
+    ],
+    "macos": [
+      {
+        "software": "action-s",
+        "display_name": "Action(s)"
+      }
+    ],
+    "linux": [
+      {
+        "software": "action-s",
+        "display_name": "Action(s)"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "ACTC file icon",
+      "alt": "ACTC file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/actc-10554.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-02-21",
+  "sources": [
+    {
+      "url": "actc.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

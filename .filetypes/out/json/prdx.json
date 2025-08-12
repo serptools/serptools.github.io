@@ -1,0 +1,74 @@
+{
+  "slug": "prdx",
+  "extension": "prdx",
+  "name": "Presentations Document",
+  "category": "presentations-document",
+  "developer_org": "softmaker-software",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 5,
+    "source": "fileinfo"
+  },
+  "summary": "A PRDX file is a presentation document created by Presentations, a slide show presentations program included in the SoftMaker Office suite. It contains an ordered list of one or more slides, which may include text, images, tables, animations, drawn objects, and other media. PRDX files also store formatting and slide transition information.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "softmaker-office",
+        "display_name": "SoftMaker Office"
+      },
+      {
+        "software": "softmaker-office-hd-presentations-basic",
+        "display_name": "SoftMaker Office HD: Presentations BASIC"
+      }
+    ],
+    "linux": [
+      {
+        "software": "softmaker-office",
+        "display_name": "SoftMaker Office"
+      }
+    ],
+    "android": [
+      {
+        "software": "softmaker-office-hd-presentations-basic",
+        "display_name": "SoftMaker Office HD: Presentations BASIC"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "PRDX file icon",
+      "alt": "PRDX file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/prdx-10910.png"
+    },
+    {
+      "caption": "PRDX file open in SoftMaker Office Presentations 2018",
+      "alt": "PRDX file open in SoftMaker Office Presentations 2018",
+      "source_url": "https://fileinfo.com/img/ss/md/prdx_10910.jpg"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-04-03",
+  "sources": [
+    {
+      "url": "prdx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

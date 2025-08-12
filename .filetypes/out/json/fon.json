@@ -1,0 +1,63 @@
+{
+  "slug": "fon",
+  "extension": "fon",
+  "name": "Windows Font Library",
+  "category": "windows-font-library",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 3.6,
+    "votes": 29,
+    "source": "fileinfo"
+  },
+  "summary": "A FON file is a Windows 3.x font library file referenced by programs that access system fonts. It contains a number of fonts saved in the .FNT file format. FON files are now obsolete.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-windows-font-viewer",
+        "display_name": "Microsoft Windows Font Viewer"
+      },
+      {
+        "software": "cannot-be-opened",
+        "display_name": "Cannot be opened"
+      }
+    ],
+    "macos": [
+      {
+        "software": "cannot-be-opened",
+        "display_name": "Cannot be opened"
+      }
+    ],
+    "linux": [
+      {
+        "software": "cannot-be-opened",
+        "display_name": "Cannot be opened"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2020-10-29",
+  "sources": [
+    {
+      "url": "fon.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

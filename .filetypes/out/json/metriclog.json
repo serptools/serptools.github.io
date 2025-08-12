@@ -1,0 +1,53 @@
+{
+  "slug": "metriclog",
+  "extension": "metriclog",
+  "name": "iOS Metric Log",
+  "category": "ios-metric-log",
+  "developer_org": "apple",
+  "popularity": {
+    "rating": 2.0,
+    "votes": 1,
+    "source": "fileinfo"
+  },
+  "summary": "A METRICLOG file is a diagnostic file created by an iOS device. It contains information about a crash that occurred on the device. By default, iOS devices automatically send METRICLOG files (and other analytics and diagnostic files) to Apple for review.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "ios": [
+      {
+        "software": "ios-settings",
+        "display_name": "iOS Settings"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "METRICLOG file open in Apple TextEdit",
+      "alt": "METRICLOG file open in Apple TextEdit",
+      "source_url": "https://fileinfo.com/img/ss/md/metriclog_13589.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-12-04",
+  "sources": [
+    {
+      "url": "metriclog.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

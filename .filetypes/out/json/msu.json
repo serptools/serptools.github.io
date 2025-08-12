@@ -1,0 +1,57 @@
+{
+  "slug": "msu",
+  "extension": "msu",
+  "name": "Windows Vista Update Package",
+  "category": "windows-vista-update-package",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 4.2,
+    "votes": 187,
+    "source": "fileinfo"
+  },
+  "summary": "An MSU file is an update package used by Windows Update, an application included with Windows Vista, Windows 7, and Windows Server. It contains one or more updates for applications and files on the Windows system. MSU files are installed by the Windows Update Stand-alone Installer ( Wusa.exe ), which is run by Windows Update automatically (the user generally does not need to manually install MSU files).",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-windows-update",
+        "display_name": "Microsoft Windows Update"
+      },
+      {
+        "software": "7-zip",
+        "display_name": "7-Zip"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "MSU file icon",
+      "alt": "MSU file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/msu-3134.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-08-10",
+  "sources": [
+    {
+      "url": "msu.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

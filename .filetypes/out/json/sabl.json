@@ -1,0 +1,51 @@
+{
+  "slug": "sabl",
+  "extension": "sabl",
+  "name": "Call of Duty: Black Ops II Sound Archive",
+  "category": "call-of-duty-black-ops-ii-sound-archive",
+  "developer_org": "activision",
+  "popularity": {
+    "rating": 4.3,
+    "votes": 4,
+    "source": "fileinfo"
+  },
+  "summary": "A SABL file is an archive used by Activision Call of Duty: Black Ops II, the ninth installment in the Call of Duty first-person shooter franchise. It contains multiple audio files saved in the \"Waveform Audio File Format\" (WAV) format, and is used for sound effects in the game.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "black-ops-ii-sound-studio",
+        "display_name": "Black Ops II Sound Studio"
+      },
+      {
+        "software": "activision-call-of-duty-black-ops-ii",
+        "display_name": "Activision Call of Duty: Black Ops II"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2018-07-18",
+  "sources": [
+    {
+      "url": "sabl.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "blu",
+  "extension": "blu",
+  "name": "FileMaker Pro Runtime Extension",
+  "category": "filemaker-pro-runtime-extension",
+  "developer_org": "walkingtoyou",
+  "popularity": {
+    "rating": 4.1,
+    "votes": 10,
+    "source": "fileinfo"
+  },
+  "summary": "A BLU file is a runtime extension created by blue.project for use by FileMaker Pro, a database management system. It extends the functionality of FileMaker Pro, allowing users to add custom features or tools to their databases.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "filemaker-pro-advanced",
+        "display_name": "FileMaker Pro Advanced"
+      }
+    ],
+    "macos": [
+      {
+        "software": "filemaker-pro-advanced",
+        "display_name": "FileMaker Pro Advanced"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2024-08-30",
+  "sources": [
+    {
+      "url": "blu.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

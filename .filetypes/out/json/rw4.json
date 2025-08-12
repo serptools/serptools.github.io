@@ -1,0 +1,73 @@
+{
+  "slug": "rw4",
+  "extension": "rw4",
+  "name": "RenderWare 4 3D Model",
+  "category": "renderware-4-3d-model",
+  "developer_org": "electronic-arts",
+  "popularity": {
+    "rating": 2.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "An RW4 file is a 3D model file used in an Electronic Arts video game, such as Spore or SimCity (2013). It contains meshes, textures, lighting maps, and animations used to show a character or object in-game. RW4 files are found in .PACKAGE files.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "electronic-arts-spore",
+        "display_name": "Electronic Arts Spore"
+      },
+      {
+        "software": "electronic-arts-simcity",
+        "display_name": "Electronic Arts SimCity"
+      },
+      {
+        "software": "sporemodder-fx",
+        "display_name": "SporeModder FX"
+      },
+      {
+        "software": "sporemaster",
+        "display_name": "SporeMaster"
+      },
+      {
+        "software": "simcitypak",
+        "display_name": "SimCityPak"
+      }
+    ],
+    "macos": [
+      {
+        "software": "electronic-arts-spore",
+        "display_name": "Electronic Arts Spore"
+      },
+      {
+        "software": "electronic-arts-simcity",
+        "display_name": "Electronic Arts SimCity"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-10-22",
+  "sources": [
+    {
+      "url": "rw4.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

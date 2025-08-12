@@ -1,0 +1,70 @@
+{
+  "slug": "ecm",
+  "extension": "ecm",
+  "name": "ECM Disc Image",
+  "category": "ecm-disc-image",
+  "developer_org": "neill-corlett",
+  "popularity": {
+    "rating": 3.7,
+    "votes": 32,
+    "source": "fileinfo"
+  },
+  "summary": "Disc image created in the Error Code Modeler (ECM) format; stores the disc image by removing redundant error correction codes and checksums; allows the CD image to be reduced in size for transmission over the Internet; often used for compressing game console disc images.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "gemc",
+        "display_name": "Gemc"
+      },
+      {
+        "software": "ecm",
+        "display_name": "ECM",
+        "status": "discontinued"
+      },
+      {
+        "software": "rbcafe-ecm",
+        "display_name": "Rbcafe ECM"
+      },
+      {
+        "software": "ecm-gui",
+        "display_name": "ECM GUI"
+      }
+    ],
+    "macos": [
+      {
+        "software": "rbcafe-ecm",
+        "display_name": "Rbcafe ECM"
+      },
+      {
+        "software": "ecm-gui",
+        "display_name": "ECM GUI"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2012-03-13",
+  "sources": [
+    {
+      "url": "ecm.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "ehil",
+  "extension": "ehil",
+  "name": "HTTP Injector Lite Configuration File",
+  "category": "http-injector-lite-configuration-file",
+  "developer_org": "evozi",
+  "popularity": {
+    "rating": 3.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "An EHIL file is a configuration file used by Evozi HTTP Injector Lite, an Android app that allows users to connect to the Internet using a Virtual Private Network ( VPN ). It contains server login credentials, security/locking information, and other VPN settings. Users can import and export EHIL files in HTTP Injector Lite.",
+  "standards": [],
+  "mime_types": [
+    "security/locking"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "android": [
+      {
+        "software": "evozi-http-injector-lite",
+        "display_name": "Evozi HTTP Injector Lite"
+      }
+    ],
+    "windows": [
+      {
+        "software": "evozi-http-injector-lite",
+        "display_name": "Evozi HTTP Injector Lite"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-02-04",
+  "sources": [
+    {
+      "url": "ehil.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

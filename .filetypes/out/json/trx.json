@@ -1,0 +1,77 @@
+{
+  "slug": "trx",
+  "extension": "trx",
+  "name": "Visual Studio Test Results File",
+  "category": "1.-visual-studio-test-results-file",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 4.1,
+    "votes": 22,
+    "source": "fileinfo"
+  },
+  "summary": "Test results file created by Visual Studio, a Microsoft application used to develop Windows software; contains test results stored in an XML format; used to display test results in Visual Studio as well as save historical test case results.",
+  "standards": [],
+  "mime_types": [
+    "n/a"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "microsoft-visual-studio-2022",
+        "display_name": "Microsoft Visual Studio 2022"
+      },
+      {
+        "software": "microsoft-mstest",
+        "display_name": "Microsoft MSTest"
+      },
+      {
+        "software": "sdl-passolo",
+        "display_name": "SDL PASSOLO"
+      },
+      {
+        "software": "iea-emerald-management-suite",
+        "display_name": "IEA Emerald Management Suite"
+      }
+    ],
+    "linux": [
+      {
+        "software": "openwrt",
+        "display_name": "OpenWRT"
+      },
+      {
+        "software": "iea-emerald-management-suite",
+        "display_name": "IEA Emerald Management Suite"
+      }
+    ],
+    "web": [
+      {
+        "software": "cybercash-webauthorize",
+        "display_name": "CyberCash WebAuthorize"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2010-01-27",
+  "sources": [
+    {
+      "url": "trx.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

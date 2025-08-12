@@ -1,0 +1,53 @@
+{
+  "slug": "mkf",
+  "extension": "mkf",
+  "name": "BlackBerry Encrypted Media Key File",
+  "category": "blackberry-encrypted-media-key-file",
+  "developer_org": "research-in-motion",
+  "popularity": {
+    "rating": 2.9,
+    "votes": 18,
+    "source": "fileinfo"
+  },
+  "summary": "Info.mkf is an encryption key stored on an encrypted BlackBerry SD card . It contains an AES-256 key used to encrypt the SD card's files. Info.mkf is a hidden file, so most users will never see it.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "elcomsoft-phone-password-breaker",
+        "display_name": "Elcomsoft Phone Password Breaker"
+      }
+    ],
+    "macos": [
+      {
+        "software": "elcomsoft-phone-password-breaker",
+        "display_name": "Elcomsoft Phone Password Breaker"
+      }
+    ]
+  },
+  "images": [],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2023-01-04",
+  "sources": [
+    {
+      "url": "mkf.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

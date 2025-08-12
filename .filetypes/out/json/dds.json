@@ -1,0 +1,148 @@
+{
+  "slug": "dds",
+  "extension": "dds",
+  "name": "DirectDraw Surface Image",
+  "category": "directdraw-surface-image",
+  "developer_org": "microsoft",
+  "popularity": {
+    "rating": 4.0,
+    "votes": 391,
+    "source": "fileinfo"
+  },
+  "summary": "A DDS file is a raster image saved in the DirectDraw Surface (DDS) container format. It can store compressed and uncompressed pixel formats. DDS files are often used for texturing video game unit models but may also be used to store digital photos and Windows desktop backgrounds.",
+  "standards": [],
+  "mime_types": [
+    "s3tc/dxtn"
+  ],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "file-viewer-plus",
+        "display_name": "File Viewer Plus"
+      },
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      },
+      {
+        "software": "dotpdn-paint.net",
+        "display_name": "dotPDN paint.net"
+      },
+      {
+        "software": "imagemagick",
+        "display_name": "ImageMagick"
+      },
+      {
+        "software": "chasys-draw-ies",
+        "display_name": "Chasys Draw IES"
+      },
+      {
+        "software": "windows-texture-viewer",
+        "display_name": "Windows Texture Viewer"
+      },
+      {
+        "software": "irfanview-with-irfanview-formats-plug-in",
+        "display_name": "IrfanView with IrfanView Formats plug-in"
+      },
+      {
+        "software": "adobe-photoshop-with-nvidia-dds-plug-in",
+        "display_name": "Adobe Photoshop with NVIDIA DDS plug-in"
+      },
+      {
+        "software": "gimp-with-dds-plug-in",
+        "display_name": "GIMP with DDS plug-in"
+      },
+      {
+        "software": "apple-preview",
+        "display_name": "Apple Preview"
+      },
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      }
+    ],
+    "android": [
+      {
+        "software": "file-viewer-for-android",
+        "display_name": "File Viewer for Android"
+      }
+    ],
+    "macos": [
+      {
+        "software": "apple-preview",
+        "display_name": "Apple Preview"
+      },
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      },
+      {
+        "software": "imagemagick",
+        "display_name": "ImageMagick"
+      },
+      {
+        "software": "adobe-photoshop-with-nvidia-dds-plug-in",
+        "display_name": "Adobe Photoshop with NVIDIA DDS plug-in"
+      },
+      {
+        "software": "gimp-with-dds-plug-in",
+        "display_name": "GIMP with DDS plug-in"
+      }
+    ],
+    "linux": [
+      {
+        "software": "xnviewmp",
+        "display_name": "XnViewMP"
+      },
+      {
+        "software": "imagemagick",
+        "display_name": "ImageMagick"
+      },
+      {
+        "software": "gimp-with-dds-plug-in",
+        "display_name": "GIMP with DDS plug-in"
+      }
+    ],
+    "web": [
+      {
+        "software": "filehelper.com",
+        "display_name": "FileHelper.com"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "DDS file icon",
+      "alt": "DDS file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/dds-711.png"
+    },
+    {
+      "caption": "DDS file open in XnViewMP 0.98",
+      "alt": "DDS file open in XnViewMP 0.98",
+      "source_url": "https://fileinfo.com/img/ss/md/dds_711.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2022-06-17",
+  "sources": [
+    {
+      "url": "dds.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}

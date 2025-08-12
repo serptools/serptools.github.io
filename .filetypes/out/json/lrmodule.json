@@ -1,0 +1,67 @@
+{
+  "slug": "lrmodule",
+  "extension": "lrmodule",
+  "name": "Adobe Lightroom Module",
+  "category": "adobe-lightroom-module",
+  "developer_org": "adobe-systems",
+  "popularity": {
+    "rating": 2.5,
+    "votes": 2,
+    "source": "fileinfo"
+  },
+  "summary": "An LRMODULE file is a module used by Adobe Lightroom, a professional photo editing and organization application, or Lightroom Classic. Each LRMODULE file contains data used to load one or more Lightroom features, such as the ability to import and export photos. LRMODULE files are not meant to be manually opened by users.",
+  "standards": [],
+  "mime_types": [],
+  "related_types": [],
+  "how_to": {
+    "save_as": [],
+    "open": [
+      {
+        "mode": "native",
+        "note": "Open with an associated app listed below.",
+        "apps": []
+      }
+    ],
+    "convert": []
+  },
+  "programs_by_platform": {
+    "windows": [
+      {
+        "software": "adobe-lightroom",
+        "display_name": "Adobe Lightroom"
+      },
+      {
+        "software": "adobe-lightroom-classic",
+        "display_name": "Adobe Lightroom Classic"
+      }
+    ],
+    "macos": [
+      {
+        "software": "adobe-lightroom",
+        "display_name": "Adobe Lightroom"
+      },
+      {
+        "software": "adobe-lightroom-classic",
+        "display_name": "Adobe Lightroom Classic"
+      }
+    ]
+  },
+  "images": [
+    {
+      "caption": "LRMODULE file icon",
+      "alt": "LRMODULE file icon",
+      "source_url": "https://fileinfo.com/img/icons/files/256/lrmodule-9524.png"
+    }
+  ],
+  "verification": {
+    "verified_by": "fileinfo",
+    "verification_note": "Parsed from downloaded FileInfo page."
+  },
+  "updated_at": "2021-11-19",
+  "sources": [
+    {
+      "url": "lrmodule.html",
+      "retrieved_at": "2025-08-09"
+    }
+  ]
+}
