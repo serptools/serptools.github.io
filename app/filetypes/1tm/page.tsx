@@ -2,6 +2,6 @@
 
 import FileTypeDetail from '../FileTypeDetail';
 
-export default function 1tmPage() {
+export default function OneTmPage() {
   return <FileTypeDetail slug="1tm" />;
 }

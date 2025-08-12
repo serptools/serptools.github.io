@@ -2,6 +2,6 @@
 
 import FileTypeDetail from '../FileTypeDetail';
 
-export default function !btPage() {
+export default function ExclamationBtPage() {
   return <FileTypeDetail slug="!bt" />;
 }

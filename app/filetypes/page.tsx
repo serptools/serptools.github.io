@@ -158,10 +158,10 @@ export default function FileTypesPage() {
                     <div className="flex items-start justify-between">
                       <div className="flex-1">
                         <CardTitle className="text-lg">
-                          .{fileType.slug.toUpperCase()}
+                          {fileType.name}
                         </CardTitle>
                         <CardDescription className="mt-1">
-                          {fileType.name}
+                          {formatCategory(fileType.category)}
                         </CardDescription>
                       </div>
                       {fileType.popularity && (
@@ -172,20 +172,15 @@ export default function FileTypesPage() {
                       )}
                     </div>
                   </CardHeader>
-                  <CardContent>
-                    <div className="flex flex-col gap-2">
-                      <Badge variant="outline" className="w-fit">
-                        {formatCategory(fileType.category)}
-                      </Badge>
-                      {fileType.developer_org && (
-                        <p className="text-sm text-muted-foreground">
-                          by {fileType.developer_org.split('-').map(w => 
-                            w.charAt(0).toUpperCase() + w.slice(1)
-                          ).join(' ')}
-                        </p>
-                      )}
-                    </div>
-                  </CardContent>
+                  {fileType.developer_org && (
+                    <CardContent className="pt-2">
+                      <p className="text-sm text-muted-foreground">
+                        by {fileType.developer_org.split('-').map(w => 
+                          w.charAt(0).toUpperCase() + w.slice(1)
+                        ).join(' ')}
+                      </p>
+                    </CardContent>
+                  )}
                 </Card>
               </Link>
             ))}

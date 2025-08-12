@@ -25,6 +25,23 @@ export default function HeroConverter({
   const [busy, setBusy] = useState(false);
   const [hint, setHint] = useState("or drop files here");
   const [dropEffect, setDropEffect] = useState<string>("");
+  const [randomColor] = useState(() => {
+    const colors = [
+      "#ef4444", // red-500
+      "#f59e0b", // amber-500  
+      "#22c55e", // green-500
+      "#3b82f6", // blue-500
+      "#a855f7", // purple-500
+      "#ec4899", // pink-500
+      "#14b8a6", // teal-500
+      "#f97316", // orange-500
+      "#6366f1", // indigo-500
+      "#f43f5e", // rose-500
+      "#0ea5e9", // sky-500
+      "#84cc16", // lime-500
+    ];
+    return colors[Math.floor(Math.random() * colors.length)];
+  });
 
   function ensureWorker() {
     if (!workerRef.current) {
@@ -111,27 +128,31 @@ export default function HeroConverter({
      : `.${from}`);
 
   return (
-    <section className="min-h-[60vh] w-full bg-white">
-      <div className="mx-auto max-w-4xl px-6 pt-12 pb-8 text-center">
-        <h1 className="text-3xl sm:text-4xl font-extrabold tracking-tight">{title}</h1>
-        <p className="mt-3 text-muted-foreground">{subtitle}</p>
-
+    <section className="w-full bg-white">
+      <div className="mx-auto max-w-7xl px-6 py-8 text-center">
         <div
           ref={dropRef}
           onDragEnter={onDrag}
           onDragOver={onDrag}
           onDragLeave={onDrag}
           onDrop={onDrop}
-          className={`mt-8 mx-auto max-w-2xl border-2 border-dashed border-gray-300 rounded-2xl p-12 hover:border-gray-400 transition-colors cursor-pointer bg-gray-50/50 ${
+          className={`mt-8 mx-auto max-w-6xl border-2 border-dashed rounded-2xl p-12 hover:border-opacity-80 transition-colors cursor-pointer ${
             dropEffect ? `animate-${dropEffect}` : ""
           }`}
+          style={{
+            backgroundColor: randomColor + "15", // 15 is ~8% opacity
+            borderColor: randomColor,
+          }}
           onClick={onPick}
         >
           <div className="flex flex-col items-center space-y-6">
+            <h1 className="text-3xl sm:text-4xl font-extrabold tracking-tight">{title}</h1>
+            
             <svg
-              className="w-16 h-16 text-gray-400"
+              className="w-12 h-12"
               fill="none"
               stroke="currentColor"
+              style={{ color: randomColor }}
               viewBox="0 0 24 24"
             >
               <path
@@ -144,19 +165,22 @@ export default function HeroConverter({
             
             <Button
               size="lg"
-              className="h-14 px-8 rounded-xl bg-blue-600 hover:bg-blue-700 text-white shadow-lg"
+              className="h-12 px-8 rounded-xl text-white shadow-lg"
+              style={{
+                backgroundColor: randomColor,
+                borderColor: randomColor,
+              }}
               onClick={(e) => {
                 e.stopPropagation();
                 onPick();
               }}
               disabled={busy}
             >
-              {busy ? "Working…" : `Select ${from.toUpperCase()} files`}
+              {busy ? "Working…" : `CHOOSE FILES`}
             </Button>
 
-            <div className="text-sm text-muted-foreground">
+            <div className="text-sm" style={{ color: randomColor }}>
               <p className="font-medium">{hint}</p>
-              <p className="mt-1 text-xs">or click anywhere in this box</p>
             </div>
           </div>
 
