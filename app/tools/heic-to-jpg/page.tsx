@@ -14,6 +14,7 @@ export default function Page() {
     <ToolPageTemplate
       tool={content.tool}
       videoSection={content.videoSection}
+      useTwoColumnLayout={true}
       faqs={content.faqs}
       aboutSection={content.aboutSection}
       changelog={content.changelog}
