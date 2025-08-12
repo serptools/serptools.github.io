@@ -1,0 +1,143 @@
+{
+  "extension": "zip",
+  "name": "Windows",
+  "title": "ZIP File - What is a .zip file and how do I open it?",
+  "description": "Learn about .ZIP files and view a list of programs that open them.",
+  "summary": "A ZIP file is an archive that contains one or more files compressed or \"zipped\" with Zip compression.  It stores files separately from each other, allowing the files to be compressed using different methods and extracted without compressing or decompressing the entire archive.",
+  "category": "Compressed Files",
+  "categorySlug": "compressed",
+  "developer": "Phil Katz",
+  "popularity": {
+    "rating": 3.9,
+    "votes": 2897
+  },
+  "image": {
+    "icon": "https://fileinfo.com/img/icons/files/256/zip-128.png",
+    "screenshot": "https://fileinfo.com/img/ss/sm/zip_128.png",
+    "screenshotCaption": "ZIP file open in Microsoft Windows 11 File Explorer"
+  },
+  "whatIs": "A ZIP file is an archive that contains one or more files compressed or \"zipped\" with Zip compression.  It stores files separately from each other, allowing the files to be compressed using different methods and extracted without compressing or decompressing the entire archive.",
+  "moreInfo": "",
+  "howToOpen": "",
+  "programsThatOpen": {
+    "win": [
+      {
+        "name": "MAME",
+        "license": "Free",
+        "url": "../software/mame/mame.html"
+      },
+      {
+        "name": "ExtraMAME",
+        "license": "Free Trial",
+        "url": "https://www.wintools.net/extramame/"
+      },
+      {
+        "name": "RetroArch",
+        "license": "Free",
+        "url": "https://www.retroarch.com/"
+      }
+    ],
+    "mac": [
+      {
+        "name": "MAME",
+        "license": "Free",
+        "url": "../software/mame/mame.html"
+      },
+      {
+        "name": "MAME OS X",
+        "license": "Free",
+        "url": "../software/dave_dribin/mame_os_x.html"
+      },
+      {
+        "name": "OpenEmu",
+        "license": "Free",
+        "url": "https://openemu.org/"
+      },
+      {
+        "name": "RetroArch",
+        "license": "Free",
+        "url": "https://www.retroarch.com/"
+      }
+    ],
+    "lin": [
+      {
+        "name": "MAME",
+        "license": "Free",
+        "url": "../software/mame/mame.html"
+      },
+      {
+        "name": "RetroArch",
+        "license": "Free",
+        "url": "https://www.retroarch.com/"
+      }
+    ],
+    "web": [
+      {
+        "name": "123apps Archive Extractor",
+        "license": "Free",
+        "url": "https://extract.me/"
+      }
+    ],
+    "ios": [
+      {
+        "name": "RetroArch",
+        "license": "Free",
+        "url": "https://www.retroarch.com/"
+      }
+    ],
+    "and": [
+      {
+        "name": "RetroArch",
+        "license": "Free",
+        "url": "https://www.retroarch.com/"
+      }
+    ],
+    "cos": [
+      {
+        "name": "Chrome OS",
+        "license": "Included with OS",
+        "url": "https://www.google.com/chromebook/chrome-os/"
+      }
+    ]
+  },
+  "additionalSections": [
+    {
+      "title": "How to Convert",
+      "content": "How to convert a ZIP file\n\nMany compression utilities, such as ConeXware PowerArchiver, Corel WinZip, and 7-Zip, can convert ZIP files by extracting their contents and then compressing them in a different archive format.\nFor example, the Windows version of PowerArchiver can extract the contents of a ZIP file, then compress them as various archive types, including the following formats:\n\n .7Z - 7-Zip Compressed File\n .TAR - Consolidated Unix File Archive\n .CAB - Windows Cabinet File\n .LZH - LZH Compressed File\n .RAR - WinRAR Compressed Archive\n .PA - PowerArchiver Compressed File\n .BH - BlakHole Archive"
+    },
+    {
+      "title": "Common Filenames",
+      "content": "Common ZIP Filenames\n\nNew Compressed (zipped) Folder.zip - The name Microsoft Windows gives to new ZIP files created via the context menu (right-click and choose New → Compressed (zipped) Folder)."
+    },
+    {
+      "title": "What is a ZIP file?",
+      "content": "Zipped File\n\n\nDeveloper\nPhil Katz\n\n\nPopularity\n\n\n3.9  |  2897 Votes\n\n\n \n\n\n\n\nWhat is a ZIP file?\n\nA ZIP file is an archive that contains one or more files compressed or \"zipped\" with Zip compression.  It stores files separately from each other, allowing the files to be compressed using different methods and extracted without compressing or decompressing the entire archive.\n\n\nMore Information\n\n\n\n\nZIP file open in Microsoft Windows 11 File Explorer\n\n\nThe Zip format was created in 1989 by Phil Katz and was used in the PKZIP utility developed by PKWARE, Inc.  The format grew in popularity and is now supported by most file compression/decompression programs.\nYou may encounter ZIP files in various ways, such as receiving compressed files via email from a friend or co-worker, downloading files online, or exploring backup files that have been compressed with Zip compression.  Both Windows and macOS come with programs that can compress and decompress ZIP files.\nHow to create a ZIP file\n\nWindows users can create ZIP archives by right-clicking a file and selecting Send to → Compressed (zipped) folder.  macOS users can create ZIP archives by right-clicking a file and selecting Compress \"[filename]\".\n\n\n\n\n\n\n\nCommon ZIP Filenames\n\nNew Compressed (zipped) Folder.zip - The name Microsoft Windows gives to new ZIP files created via the context menu (right-click and choose New → Compressed (zipped) Folder).\n\n\n\nHow to open a ZIP file\n\nIn Windows, you can open a ZIP file with File Explorer, also kn"
+    },
+    {
+      "title": "Common ZIP Filenames",
+      "content": "Common ZIP Filenames\n\nNew Compressed (zipped) Folder.zip - The name Microsoft Windows gives to new ZIP files created via the context menu (right-click and choose New → Compressed (zipped) Folder)."
+    },
+    {
+      "title": "How to open a ZIP file",
+      "content": "How to open a ZIP file\n\nIn Windows, you can open a ZIP file with File Explorer, also known as \"Windows Explorer,\" simply by double-clicking the file.  You can then choose one, multiple, or all of the files to extract from the Zip archive.  In macOS, you can open a ZIP file with Apple Archive Utility by double-clicking the file.\nYou can also open ZIP files with other compression utilities, such as Corel WinZip (Windows), Corel WinZip Mac (macOS), RARLAB WinRAR (Windows), and 7-Zip (Windows)."
+    },
+    {
+      "title": "How to convert a ZIP file",
+      "content": "How to convert a ZIP file\n\nMany compression utilities, such as ConeXware PowerArchiver, Corel WinZip, and 7-Zip, can convert ZIP files by extracting their contents and then compressing them in a different archive format.\nFor example, the Windows version of PowerArchiver can extract the contents of a ZIP file, then compress them as various archive types, including the following formats:\n\n .7Z - 7-Zip Compressed File\n .TAR - Consolidated Unix File Archive\n .CAB - Windows Cabinet File\n .LZH - LZH Compressed File\n .RAR - WinRAR Compressed Archive\n .PA - PowerArchiver Compressed File\n .BH - BlakHole Archive"
+    },
+    {
+      "title": "Programs that open ZIP files",
+      "content": "Programs that open ZIP files\n\nSort\n\n\nPricing\nProgram Name\nPlatform\n\nReset\n\n\n\nX\n\n\n\n\n\n\nWindows\n\nFile Viewer Plus  —  Get it from MicrosoftFree+\nMicrosoft File ExplorerIncluded with OS\nCorel WinZipFree Trial\nRARLAB WinRARFree Trial\nPeaZipFree\nConeXWare PowerArchiverFree Trial\nSmith Micro StuffIt Deluxe  —  DiscontinuedPaid\n7-ZipFree\nB1 Free ArchiverFree\n\n\n\n\n\nMac\n\nApple Archive UtilityIncluded with OS\nCorel WinZip MacFree Trial\nSmith Micro StuffIt Deluxe Mac 16  —  DiscontinuedPaid\nIncredible Bee ArchiverPaid\nThe UnarchiverFree\nB1 Free ArchiverFree\nKekaFree\n\n\n\n\n\nLinux\n\nfunzipFree\np7zipFree\nB1 Free ArchiverFree\nFile RollerFree\nPeaZipFree\n\n\n\n\n\nWeb\n\n123apps Archive ExtractorFree\n\n\n\n\n\niOS\n\nApple FilesIncluded with OS\nCorel WinZip for iOSFree+\nPengui Zhao Zip & RAR File ExtractorFree+\nComcSoft Corporation iZipFree+\n\n\n\n\n\nAndroid\n\nFile Viewer for AndroidFree+\nCorel WinZip for AndroidFree+\nRARLAB RARFree+\nZDevs ZArchiverFree\n\n\n\n\n\nChrome OS\n\nChrome OSIncluded with OS"
+    },
+    {
+      "title": "How to open a ZIP file",
+      "content": "How to open a ZIP file\n\nYou can open a ZIP file in MAME (multiplatform) and related emulators. To open a ZIP file in MAME, place the file in MAME's Roms directory. If your ZIP file is paired with a CHD file, place the CHD file in a subdirectory named for your ZIP file (e.g. for a ZIP file named MyGame.zip, place your CHD file in Roms/​MyGame/​)."
+    },
+    {
+      "title": "Programs that open ZIP files",
+      "content": "Programs that open ZIP files\n\nSort\n\n\nPricing\nProgram Name\nPlatform\n\nReset\n\n\n\nX\n\n\n\n\n\n\nWindows\n\nMAMEFree\nExtraMAMEFree Trial\nRetroArchFree\n\n\n\n\n\nMac\n\nMAMEFree\nMAME OS XFree\nOpenEmuFree\nRetroArchFree\n\n\n\n\n\nLinux\n\nMAMEFree\nRetroArchFree\n\n\n\n\n\niOS\n\nRetroArchFree\n\n\n\n\n\nAndroid\n\nRetroArchFree"
+    }
+  ],
+  "relevantTools": [],
+  "lastUpdated": "2025-08-12"
+}

@@ -1,6 +1,7 @@
 "use client";
 
 import HeroConverter from "@/components/HeroConverter";
+import LanderHeroTwoColumn from "@/components/LanderHeroTwoColumn";
 import { Navbar } from "@/components/Navbar";
 import { VideoSection } from "@/components/sections/VideoSection";
 import { AboutFormatsSection } from "@/components/sections/AboutFormatsSection";
@@ -22,6 +23,7 @@ type ToolPageProps = {
   videoSection?: {
     embedId?: string;
   };
+  useTwoColumnLayout?: boolean;
   faqs?: Array<{
     question: string;
     answer: string;
@@ -62,6 +64,7 @@ type ToolPageProps = {
 export default function ToolPageTemplate({
   tool,
   videoSection,
+  useTwoColumnLayout = false,
   faqs,
   aboutSection,
   changelog,
@@ -73,16 +76,28 @@ export default function ToolPageTemplate({
       <Navbar />
       <main className="min-h-screen bg-background">
         {/* Hero Section with Tool */}
-        <HeroConverter
-          title={tool.title}
-          subtitle={tool.subtitle}
-          from={tool.from}
-          to={tool.to}
-          accept={tool.accept}
-        />
-
-        {/* Video Section */}
-        {videoSection && <VideoSection embedId={videoSection.embedId} />}
+        {useTwoColumnLayout && videoSection?.embedId ? (
+          <LanderHeroTwoColumn
+            title={tool.title}
+            subtitle={tool.subtitle}
+            from={tool.from}
+            to={tool.to}
+            accept={tool.accept}
+            videoEmbedId={videoSection.embedId}
+          />
+        ) : (
+          <>
+            <HeroConverter
+              title={tool.title}
+              subtitle={tool.subtitle}
+              from={tool.from}
+              to={tool.to}
+              accept={tool.accept}
+            />
+            {/* Video Section - only show if not using 2-column layout */}
+            {videoSection && <VideoSection embedId={videoSection.embedId} />}
+          </>
+        )}
 
         {/* About the Formats Section */}
         {aboutSection && (
