@@ -3,9 +3,9 @@
 import { useState } from "react";
 import { Navbar } from "@/components/Navbar";
 import { Button } from "@/components/ui/button";
-import { Card, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Input } from "@/components/ui/input";
+import { ToolCard } from "@/components/ToolCard";
 import { 
   Search, 
   FileText, 
@@ -22,7 +22,6 @@ import {
   Image,
   FileImage
 } from "lucide-react";
-import Link from "next/link";
 
 // Define tool categories
 const categories = [
@@ -305,26 +304,9 @@ export default function HomePage() {
 
           {/* Tools Grid */}
           <div className="grid gap-5 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-            {filteredTools.map((tool) => {
-              const Icon = tool.icon;
-              return (
-                <Link key={tool.id} href={tool.href}>
-                  <Card className="group h-full transition-all hover:shadow-lg hover:-translate-y-1 cursor-pointer">
-                    <CardHeader>
-                      <div className="flex items-start gap-3 mb-2">
-                        <Icon className="h-6 w-6 text-primary mt-0.5" />
-                        <CardTitle className="text-lg group-hover:text-primary transition-colors">
-                          {tool.name}
-                        </CardTitle>
-                      </div>
-                      <CardDescription className="line-clamp-2">
-                        {tool.description}
-                      </CardDescription>
-                    </CardHeader>
-                  </Card>
-                </Link>
-              );
-            })}
+            {filteredTools.map((tool) => (
+              <ToolCard key={tool.id} tool={tool} />
+            ))}
           </div>
 
           {filteredTools.length === 0 && (

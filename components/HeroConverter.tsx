@@ -111,8 +111,8 @@ export default function HeroConverter({
      : `.${from}`);
 
   return (
-    <section className="min-h-[70vh] w-full bg-white">
-      <div className="mx-auto max-w-4xl px-6 pt-16 text-center">
+    <section className="min-h-[60vh] w-full bg-white">
+      <div className="mx-auto max-w-4xl px-6 pt-12 pb-8 text-center">
         <h1 className="text-3xl sm:text-4xl font-extrabold tracking-tight">{title}</h1>
         <p className="mt-3 text-muted-foreground">{subtitle}</p>
 
@@ -122,7 +122,7 @@ export default function HeroConverter({
           onDragOver={onDrag}
           onDragLeave={onDrag}
           onDrop={onDrop}
-          className={`mt-10 mx-auto max-w-2xl border-2 border-dashed border-gray-300 rounded-2xl p-16 hover:border-gray-400 transition-colors cursor-pointer bg-gray-50/50 ${
+          className={`mt-8 mx-auto max-w-2xl border-2 border-dashed border-gray-300 rounded-2xl p-12 hover:border-gray-400 transition-colors cursor-pointer bg-gray-50/50 ${
             dropEffect ? `animate-${dropEffect}` : ""
           }`}
           onClick={onPick}
