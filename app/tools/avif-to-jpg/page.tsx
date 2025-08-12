@@ -1,15 +1,20 @@
 "use client";
 
-import HeroConverter from "@/components/HeroConverter";
-import { Navbar } from "@/components/Navbar";
+import ToolPageTemplate from "@/components/ToolPageTemplate";
+import { toolContent } from "@/config/tool-content";
 
 export default function Page() {
+  const content = toolContent["avif-to-jpg"];
+  
   return (
-    <>
-      <Navbar />
-      <main className="min-h-screen bg-background">
-        <HeroConverter title="AVIF to JPG" subtitle="Convert AVIF images to JPG format." from="avif" to="jpg" />
-      </main>
-    </>
+    <ToolPageTemplate
+      tool={content.tool}
+      videoSection={content.videoSection}
+      faqs={content.faqs}
+      aboutSection={content.aboutSection}
+      changelog={content.changelog}
+      relatedTools={content.relatedTools}
+      blogPosts={content.blogPosts}
+    />
   );
 }
