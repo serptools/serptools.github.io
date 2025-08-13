@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useRef } from "react";
 import { Card, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import Link from "next/link";
 import { LucideIcon } from "lucide-react";
@@ -32,11 +32,13 @@ const colors = [
 
 export function ToolCard({ tool }: ToolCardProps) {
   const [borderColor, setBorderColor] = useState<string>("");
+  const colorIndexRef = useRef(0);
   const Icon = tool.icon;
 
   const handleMouseEnter = () => {
-    const randomColor = colors[Math.floor(Math.random() * colors.length)];
-    setBorderColor(randomColor);
+    // Cycle through colors sequentially instead of random
+    colorIndexRef.current = (colorIndexRef.current + 1) % colors.length;
+    setBorderColor(colors[colorIndexRef.current]);
   };
 
   const handleMouseLeave = () => {

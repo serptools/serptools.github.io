@@ -27,23 +27,27 @@ export default function LanderHeroTwoColumn({
   const [busy, setBusy] = useState(false);
   const [hint, setHint] = useState("or drop files here");
   const [dropEffect, setDropEffect] = useState<string>("");
-  const [randomColor] = useState(() => {
-    const colors = [
-      "#ef4444", // red-500
-      "#f59e0b", // amber-500  
-      "#22c55e", // green-500
-      "#3b82f6", // blue-500
-      "#a855f7", // purple-500
-      "#ec4899", // pink-500
-      "#14b8a6", // teal-500
-      "#f97316", // orange-500
-      "#6366f1", // indigo-500
-      "#f43f5e", // rose-500
-      "#0ea5e9", // sky-500
-      "#84cc16", // lime-500
-    ];
-    return colors[Math.floor(Math.random() * colors.length)];
-  });
+  // Generate stable color based on tool properties
+  const colors = [
+    "#ef4444", // red-500
+    "#f59e0b", // amber-500  
+    "#22c55e", // green-500
+    "#3b82f6", // blue-500
+    "#a855f7", // purple-500
+    "#ec4899", // pink-500
+    "#14b8a6", // teal-500
+    "#f97316", // orange-500
+    "#6366f1", // indigo-500
+    "#f43f5e", // rose-500
+    "#0ea5e9", // sky-500
+    "#84cc16", // lime-500
+  ];
+  
+  // Use a stable hash based on from/to combination
+  const hashCode = (from + to).split('').reduce((hash, char) => {
+    return char.charCodeAt(0) + ((hash << 5) - hash);
+  }, 0);
+  const randomColor = colors[Math.abs(hashCode) % colors.length];
 
   function ensureWorker() {
     if (!workerRef.current) {
@@ -104,7 +108,7 @@ export default function LanderHeroTwoColumn({
   function onDrop(e: React.DragEvent) {
     e.preventDefault();
     
-    // Trigger random fun effect
+    // Trigger fun effect - cycle through based on time
     const effects = [
       "splash",
       "bounce", 
@@ -116,8 +120,9 @@ export default function LanderHeroTwoColumn({
       "confetti",
       "rejected"
     ];
-    const randomEffect = effects[Math.floor(Math.random() * effects.length)];
-    setDropEffect(randomEffect);
+    // Use timestamp to cycle through effects deterministically
+    const effectIndex = Math.floor(Date.now() / 1000) % effects.length;
+    setDropEffect(effects[effectIndex]);
     
     // Clear effect after animation
     setTimeout(() => setDropEffect(""), 1000);
