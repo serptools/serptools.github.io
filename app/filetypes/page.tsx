@@ -2,7 +2,8 @@
 
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
-import { Search } from 'lucide-react';
+import { Search, Image, Film, Music, FileText, File, Archive, Code, Database } from 'lucide-react';
+import { formatToMediaType } from '@/lib/tool-utils';
 
 interface FileType {
   slug: string;
@@ -20,26 +21,60 @@ interface FileType {
   summary?: string;
 }
 
+// Map media types to icons
+const mediaTypeIcons = {
+  image: Image,
+  video: Film,
+  audio: Music,
+  document: FileText,
+  text: Code,
+  archive: Archive,
+  database: Database,
+  other: File,
+};
+
+// Media type display names and colors
+const mediaTypeConfig = {
+  image: { name: 'Images', color: 'blue' },
+  video: { name: 'Videos', color: 'red' },
+  audio: { name: 'Audio', color: 'green' },
+  document: { name: 'Documents', color: 'orange' },
+  text: { name: 'Text/Code', color: 'purple' },
+  archive: { name: 'Archives', color: 'gray' },
+  database: { name: 'Database', color: 'indigo' },
+  other: { name: 'Other', color: 'gray' },
+};
+
 export default function FileTypesPage() {
   const [fileTypes, setFileTypes] = useState<FileType[]>([]);
   const [filteredTypes, setFilteredTypes] = useState<FileType[]>([]);
   const [searchTerm, setSearchTerm] = useState('');
   const [loading, setLoading] = useState(true);
   const [selectedLetter, setSelectedLetter] = useState<string>('');
+  const [selectedMediaType, setSelectedMediaType] = useState<string>('');
+  const [sortBy, setSortBy] = useState<'name' | 'extension'>('extension');
 
-  // Group filetypes by first letter for better organization
+  // Group filetypes by first letter and media type
   const [groupedTypes, setGroupedTypes] = useState<Record<string, FileType[]>>({});
+  const [mediaTypeCounts, setMediaTypeCounts] = useState<Record<string, number>>({});
 
   useEffect(() => {
     async function loadFileTypes() {
       try {
         const response = await fetch('/data/filetypes/index.json');
         const data = await response.json();
-        setFileTypes(data);
-        setFilteredTypes(data);
+        
+        // Add media type to each file type
+        const enrichedData = data.map((ft: FileType) => ({
+          ...ft,
+          mediaType: getMediaType(ft.extension || ft.slug)
+        }));
+        
+        setFileTypes(enrichedData);
+        setFilteredTypes(enrichedData);
         
         // Group by first character
-        const grouped = data.reduce((acc: Record<string, FileType[]>, ft: FileType) => {
+        const grouped = enrichedData.reduce((acc: Record<string, FileType[]>, ft: FileType) => {
           const firstChar = (ft.extension || ft.slug || '').charAt(0).toUpperCase();
           if (!acc[firstChar]) acc[firstChar] = [];
           acc[firstChar].push(ft);
@@ -47,6 +82,15 @@ export default function FileTypesPage() {
         }, {});
         
         setGroupedTypes(grouped);
+        
+        // Count by media type
+        const mediaCounts = enrichedData.reduce((acc: Record<string, number>, ft: any) => {
+          const mediaType = ft.mediaType || 'other';
+          acc[mediaType] = (acc[mediaType] || 0) + 1;
+          return acc;
+        }, {});
+        
+        setMediaTypeCounts(mediaCounts);
       } catch (error) {
         console.error('Failed to load file types:', error);
       } finally {
@@ -56,6 +100,22 @@ export default function FileTypesPage() {
     
     loadFileTypes();
   }, []);
+
+  // Helper function to get media type
+  function getMediaType(extension: string): string {
+    const ext = extension.toLowerCase().replace('.', '');
+    
+    // Check if it's an archive format
+    const archiveFormats = ['zip', 'rar', '7z', 'tar', 'gz', 'bz2', 'xz', 'z', 'lz', 'lzma', 'deb', 'rpm', 'dmg', 'pkg', 'cab'];
+    if (archiveFormats.includes(ext)) return 'archive';
+    
+    // Check if it's a database format
+    const dbFormats = ['db', 'sqlite', 'mdb', 'accdb', 'dbf', 'sdf', 'sql'];
+    if (dbFormats.includes(ext)) return 'database';
+    
+    // Use the existing mapping
+    return formatToMediaType[ext] || 'other';
+  }
 
   useEffect(() => {
     let filtered = fileTypes;
@@ -74,8 +134,21 @@ export default function FileTypesPage() {
       );
     }
     
+    if (selectedMediaType) {
+      filtered = filtered.filter((ft: any) => ft.mediaType === selectedMediaType);
+    }
+    
+    // Sort
+    filtered = [...filtered].sort((a, b) => {
+      if (sortBy === 'name') {
+        return a.name.localeCompare(b.name);
+      } else {
+        return (a.extension || a.slug).localeCompare(b.extension || b.slug);
+      }
+    });
+    
     setFilteredTypes(filtered);
-  }, [searchTerm, selectedLetter, fileTypes]);
+  }, [searchTerm, selectedLetter, selectedMediaType, sortBy, fileTypes]);
 
   // Get alphabet for navigation
   const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ#&'.split('');
@@ -107,9 +180,9 @@ export default function FileTypesPage() {
           </p>
         </div>
 
-        {/* Search Bar */}
-        <div className="mb-8">
-          <div className="relative max-w-2xl">
+        {/* Search and Sort Bar */}
+        <div className="mb-6 flex flex-col sm:flex-row gap-4">
+          <div className="relative flex-1 max-w-2xl">
             <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 h-5 w-5" />
             <input
               type="text"
@@ -119,10 +192,61 @@ export default function FileTypesPage() {
               className="w-full pl-10 pr-4 py-3 bg-white border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
             />
           </div>
+          <select
+            value={sortBy}
+            onChange={(e) => setSortBy(e.target.value as 'name' | 'extension')}
+            className="px-4 py-3 bg-white border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+          >
+            <option value="extension">Sort by Extension</option>
+            <option value="name">Sort by Name</option>
+          </select>
+        </div>
+
+        {/* Media Type Filters */}
+        <div className="mb-6">
+          <div className="flex flex-wrap gap-2">
+            <button
+              onClick={() => setSelectedMediaType('')}
+              className={`px-4 py-2 text-sm font-medium rounded-lg transition-colors flex items-center gap-2 ${
+                selectedMediaType === ''
+                  ? 'bg-gray-900 text-white'
+                  : 'bg-white text-gray-700 hover:bg-gray-100 border border-gray-200'
+              }`}
+            >
+              All
+              <span className="text-xs opacity-70">
+                {fileTypes.length}
+              </span>
+            </button>
+            {Object.entries(mediaTypeCounts)
+              .sort((a, b) => b[1] - a[1])
+              .map(([type, count]) => {
+                const Icon = mediaTypeIcons[type as keyof typeof mediaTypeIcons] || mediaTypeIcons.other;
+                const config = mediaTypeConfig[type as keyof typeof mediaTypeConfig] || mediaTypeConfig.other;
+                
+                return (
+                  <button
+                    key={type}
+                    onClick={() => setSelectedMediaType(type)}
+                    className={`px-4 py-2 text-sm font-medium rounded-lg transition-colors flex items-center gap-2 ${
+                      selectedMediaType === type
+                        ? 'bg-gray-900 text-white'
+                        : 'bg-white text-gray-700 hover:bg-gray-100 border border-gray-200'
+                    }`}
+                  >
+                    <Icon className="h-4 w-4" />
+                    {config.name}
+                    <span className="text-xs opacity-70">
+                      {count}
+                    </span>
+                  </button>
+                );
+              })}
+          </div>
         </div>
 
         {/* Alphabet Navigation */}
-        <div className="mb-8 flex flex-wrap gap-1">
+        <div className="mb-6 flex flex-wrap gap-1">
           <button
             onClick={() => setSelectedLetter('')}
             className={`px-3 py-1.5 text-sm font-medium rounded-md transition-colors ${
@@ -152,11 +276,11 @@ export default function FileTypesPage() {
         </div>
 
         {/* Results count */}
-        {searchTerm && (
-          <div className="mb-4 text-sm text-gray-600">
-            Found {filteredTypes.length} file type{filteredTypes.length !== 1 ? 's' : ''}
-          </div>
-        )}
+        <div className="mb-4 text-sm text-gray-600">
+          Showing {filteredTypes.length} file type{filteredTypes.length !== 1 ? 's' : ''}
+          {searchTerm && ` matching "${searchTerm}"`}
+          {selectedMediaType && ` in ${mediaTypeConfig[selectedMediaType as keyof typeof mediaTypeConfig]?.name || 'Other'}`}
+        </div>
 
         {/* File Types Grid */}
         {filteredTypes.length === 0 ? (
@@ -167,7 +291,7 @@ export default function FileTypesPage() {
           </div>
         ) : (
           <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-            {filteredTypes.map(fileType => {
+            {filteredTypes.map((fileType: any) => {
               // Clean up the name - remove redundant category info
               const displayName = fileType.name
                 .replace(fileType.category?.replace(/-/g, ' ') || '', '')
@@ -175,6 +299,7 @@ export default function FileTypesPage() {
                 .trim();
               
               const extensionDisplay = fileType.extension || fileType.slug;
+              const Icon = mediaTypeIcons[fileType.mediaType as keyof typeof mediaTypeIcons] || mediaTypeIcons.other;
               
               return (
                 <Link
@@ -183,21 +308,22 @@ export default function FileTypesPage() {
                   className="group block"
                 >
                   <div className="bg-white rounded-lg border border-gray-200 px-4 py-3 hover:border-gray-300 hover:shadow-sm transition-all">
-                    <div className="flex items-center justify-between">
+                    <div className="flex items-start justify-between">
                       <div className="flex-1 min-w-0">
-                        <div className="flex items-baseline gap-2">
+                        <div className="flex items-center gap-2 mb-1">
+                          <Icon className="h-4 w-4 text-gray-400" />
                           <span className="text-lg font-semibold text-gray-900 uppercase">
                             .{extensionDisplay}
                           </span>
-                          {fileType.developer_name && (
-                            <span className="text-xs text-gray-500 truncate">
-                              by {fileType.developer_name}
-                            </span>
-                          )}
                         </div>
-                        <p className="text-sm text-gray-600 truncate mt-0.5">
+                        <p className="text-sm text-gray-600 truncate">
                           {displayName}
                         </p>
+                        {fileType.developer_name && (
+                          <p className="text-xs text-gray-500 truncate mt-1">
+                            by {fileType.developer_name}
+                          </p>
+                        )}
                       </div>
                     </div>
                   </div>
