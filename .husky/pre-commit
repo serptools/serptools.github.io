@@ -1,0 +1,7 @@
+#!/usr/bin/env sh
+
+# Run lint
+npm run lint
+
+# Run type check
+npm run typecheck

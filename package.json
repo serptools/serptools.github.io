@@ -7,9 +7,11 @@
     "build": "next build && next-sitemap",
     "start": "next start",
     "lint": "next lint",
+    "typecheck": "tsc --noEmit",
     "gen:manifest": "node scripts/gen-manifest.mjs",
     "readme:tools": "node scripts/update-readme.mjs",
-    "postbuild": "next-sitemap"
+    "postbuild": "next-sitemap",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@next/third-parties": "^15.4.6",

@@ -1,0 +1,154 @@
+{
+  "tools": 43,
+  "conversions": [
+    "ai-to-png",
+    "ai-to-svg",
+    "arw-to-jpg",
+    "avif-to-jpeg",
+    "avif-to-jpg",
+    "avif-to-png",
+    "bmp-to-jpg",
+    "bmp-to-png",
+    "cr2-to-jpg",
+    "cr3-to-jpg",
+    "dng-to-jpg",
+    "gif-to-jpg",
+    "gif-to-png",
+    "gif-to-webp",
+    "heic-to-jpeg",
+    "heic-to-jpg",
+    "heic-to-pdf",
+    "heic-to-png",
+    "heif-to-jpg",
+    "heif-to-pdf",
+    "heif-to-png",
+    "ico-to-png",
+    "jfif-to-jpeg",
+    "jfif-to-jpg",
+    "jfif-to-pdf",
+    "jfif-to-png",
+    "jpeg-to-jpg",
+    "jpeg-to-pdf",
+    "jpeg-to-png",
+    "jpeg-to-webp",
+    "jpg-to-pdf",
+    "jpg-to-png",
+    "jpg-to-svg",
+    "jpg-to-webp",
+    "json-to-csv",
+    "pdf-to-jpg",
+    "pdf-to-png",
+    "png-to-jpg",
+    "png-to-png",
+    "png-to-webp",
+    "webp-to-png"
+  ],
+  "sourceFormats": [
+    "ai",
+    "arw",
+    "avif",
+    "bmp",
+    "cr2",
+    "cr3",
+    "dng",
+    "gif",
+    "heic",
+    "heif",
+    "ico",
+    "jfif",
+    "jpeg",
+    "jpg",
+    "json",
+    "pdf",
+    "png",
+    "webp"
+  ],
+  "targetFormats": [
+    "png",
+    "svg",
+    "jpg",
+    "jpeg",
+    "webp",
+    "pdf",
+    "csv"
+  ],
+  "matrix": {
+    "ai": [
+      "png",
+      "svg"
+    ],
+    "arw": [
+      "jpg"
+    ],
+    "avif": [
+      "jpeg",
+      "jpg",
+      "png"
+    ],
+    "bmp": [
+      "jpg",
+      "png"
+    ],
+    "cr2": [
+      "jpg"
+    ],
+    "cr3": [
+      "jpg"
+    ],
+    "dng": [
+      "jpg"
+    ],
+    "gif": [
+      "jpg",
+      "png",
+      "webp"
+    ],
+    "heic": [
+      "jpeg",
+      "jpg",
+      "pdf",
+      "png"
+    ],
+    "heif": [
+      "jpg",
+      "pdf",
+      "png"
+    ],
+    "ico": [
+      "png"
+    ],
+    "jfif": [
+      "jpeg",
+      "jpg",
+      "pdf",
+      "png"
+    ],
+    "jpeg": [
+      "jpg",
+      "pdf",
+      "png",
+      "webp"
+    ],
+    "jpg": [
+      "pdf",
+      "png",
+      "svg",
+      "webp"
+    ],
+    "json": [
+      "csv"
+    ],
+    "pdf": [
+      "jpg",
+      "png"
+    ],
+    "png": [
+      "jpg",
+      "png",
+      "webp"
+    ],
+    "webp": [
+      "png"
+    ]
+  }
+}
