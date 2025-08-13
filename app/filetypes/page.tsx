@@ -1,9 +1,9 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useRef } from 'react';
 import Link from 'next/link';
-import { Search, Image, Film, Music, FileText, File, Archive, Code, Database } from 'lucide-react';
-import { formatToMediaType } from '@/lib/tool-utils';
+import { Search, X, ChevronDown } from 'lucide-react';
+import { categoryDefinitions, getFileCategory, type FileCategory } from '@/lib/filetype-categories';
 
 interface FileType {
   slug: string;
@@ -21,42 +21,24 @@ interface FileType {
   summary?: string;
 }
 
-// Map media types to icons
-const mediaTypeIcons = {
-  image: Image,
-  video: Film,
-  audio: Music,
-  document: FileText,
-  text: Code,
-  archive: Archive,
-  database: Database,
-  other: File,
-};
-
-// Media type display names and colors
-const mediaTypeConfig = {
-  image: { name: 'Images', color: 'blue' },
-  video: { name: 'Videos', color: 'red' },
-  audio: { name: 'Audio', color: 'green' },
-  document: { name: 'Documents', color: 'orange' },
-  text: { name: 'Text/Code', color: 'purple' },
-  archive: { name: 'Archives', color: 'gray' },
-  database: { name: 'Database', color: 'indigo' },
-  other: { name: 'Other', color: 'gray' },
-};
-
 export default function FileTypesPage() {
   const [fileTypes, setFileTypes] = useState<FileType[]>([]);
   const [filteredTypes, setFilteredTypes] = useState<FileType[]>([]);
   const [searchTerm, setSearchTerm] = useState('');
   const [loading, setLoading] = useState(true);
-  const [selectedLetter, setSelectedLetter] = useState<string>('');
-  const [selectedMediaType, setSelectedMediaType] = useState<string>('');
+  const [selectedLetters, setSelectedLetters] = useState<string[]>([]);
+  const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
   const [sortBy, setSortBy] = useState<'name' | 'extension'>('extension');
+  const [categoryDropdownOpen, setCategoryDropdownOpen] = useState(false);
+  const [letterDropdownOpen, setLetterDropdownOpen] = useState(false);
+  const [categorySearchTerm, setCategorySearchTerm] = useState('');
+  const [letterSearchTerm, setLetterSearchTerm] = useState('');
+  const categoryDropdownRef = useRef<HTMLDivElement>(null);
+  const letterDropdownRef = useRef<HTMLDivElement>(null);
 
-  // Group filetypes by first letter and media type
+  // Group filetypes by first letter and category
   const [groupedTypes, setGroupedTypes] = useState<Record<string, FileType[]>>({});
-  const [mediaTypeCounts, setMediaTypeCounts] = useState<Record<string, number>>({});
+  const [categoryCounts, setCategoryCounts] = useState<Record<string, number>>({});
 
   useEffect(() => {
     async function loadFileTypes() {
@@ -64,10 +46,10 @@ export default function FileTypesPage() {
         const response = await fetch('/data/filetypes/index.json');
         const data = await response.json();
         
-        // Add media type to each file type
+        // Add file category to each file type
         const enrichedData = data.map((ft: FileType) => ({
           ...ft,
-          mediaType: getMediaType(ft.extension || ft.slug)
+          fileCategory: getFileCategory(ft.extension || ft.slug)
         }));
         
         setFileTypes(enrichedData);
@@ -83,14 +65,14 @@ export default function FileTypesPage() {
         
         setGroupedTypes(grouped);
         
-        // Count by media type
-        const mediaCounts = enrichedData.reduce((acc: Record<string, number>, ft: any) => {
-          const mediaType = ft.mediaType || 'other';
-          acc[mediaType] = (acc[mediaType] || 0) + 1;
+        // Count by category
+        const catCounts = enrichedData.reduce((acc: Record<string, number>, ft: any) => {
+          const category = ft.fileCategory || 'misc';
+          acc[category] = (acc[category] || 0) + 1;
           return acc;
         }, {});
         
-        setMediaTypeCounts(mediaCounts);
+        setCategoryCounts(catCounts);
       } catch (error) {
         console.error('Failed to load file types:', error);
       } finally {
@@ -100,22 +82,6 @@ export default function FileTypesPage() {
     
     loadFileTypes();
   }, []);
-
-  // Helper function to get media type
-  function getMediaType(extension: string): string {
-    const ext = extension.toLowerCase().replace('.', '');
-    
-    // Check if it's an archive format
-    const archiveFormats = ['zip', 'rar', '7z', 'tar', 'gz', 'bz2', 'xz', 'z', 'lz', 'lzma', 'deb', 'rpm', 'dmg', 'pkg', 'cab'];
-    if (archiveFormats.includes(ext)) return 'archive';
-    
-    // Check if it's a database format
-    const dbFormats = ['db', 'sqlite', 'mdb', 'accdb', 'dbf', 'sdf', 'sql'];
-    if (dbFormats.includes(ext)) return 'database';
-    
-    // Use the existing mapping
-    return formatToMediaType[ext] || 'other';
-  }
 
   useEffect(() => {
     let filtered = fileTypes;
@@ -128,14 +94,14 @@ export default function FileTypesPage() {
       );
     }
     
-    if (selectedLetter) {
+    if (selectedLetters.length > 0) {
       filtered = filtered.filter(ft => 
-        (ft.extension || ft.slug || '').charAt(0).toUpperCase() === selectedLetter
+        selectedLetters.includes((ft.extension || ft.slug || '').charAt(0).toUpperCase())
       );
     }
     
-    if (selectedMediaType) {
-      filtered = filtered.filter((ft: any) => ft.mediaType === selectedMediaType);
+    if (selectedCategories.length > 0) {
+      filtered = filtered.filter((ft: any) => selectedCategories.includes(ft.fileCategory));
     }
     
     // Sort
@@ -148,11 +114,30 @@ export default function FileTypesPage() {
     });
     
     setFilteredTypes(filtered);
-  }, [searchTerm, selectedLetter, selectedMediaType, sortBy, fileTypes]);
+  }, [searchTerm, selectedLetters, selectedCategories, sortBy, fileTypes]);
+
+  // Close dropdowns when clicking outside
+  useEffect(() => {
+    function handleClickOutside(event: MouseEvent) {
+      if (categoryDropdownRef.current && !categoryDropdownRef.current.contains(event.target as Node)) {
+        setCategoryDropdownOpen(false);
+      }
+      if (letterDropdownRef.current && !letterDropdownRef.current.contains(event.target as Node)) {
+        setLetterDropdownOpen(false);
+      }
+    }
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => document.removeEventListener('mousedown', handleClickOutside);
+  }, []);
 
   // Get alphabet for navigation
   const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ#&'.split('');
   const availableLetters = Object.keys(groupedTypes).sort();
+
+  // Sort categories by count (most popular first)
+  const sortedCategories = Object.entries(categoryCounts)
+    .sort((a, b) => b[1] - a[1])
+    .map(([key]) => key as FileCategory);
 
   if (loading) {
     return (
@@ -202,84 +187,219 @@ export default function FileTypesPage() {
           </select>
         </div>
 
-        {/* Media Type Filters */}
-        <div className="mb-6">
-          <div className="flex flex-wrap gap-2">
-            <button
-              onClick={() => setSelectedMediaType('')}
-              className={`px-4 py-2 text-sm font-medium rounded-lg transition-colors flex items-center gap-2 ${
-                selectedMediaType === ''
-                  ? 'bg-gray-900 text-white'
-                  : 'bg-white text-gray-700 hover:bg-gray-100 border border-gray-200'
-              }`}
+        {/* Filters Row */}
+        <div className="mb-6 flex flex-col sm:flex-row gap-4">
+          {/* Category Multi-Select */}
+          <div ref={categoryDropdownRef} className="relative flex-1 max-w-md">
+            <div
+              onClick={() => setCategoryDropdownOpen(!categoryDropdownOpen)}
+              className="w-full min-h-[48px] px-3 py-2 bg-white border border-gray-200 rounded-lg cursor-pointer hover:border-gray-300 transition-colors"
             >
-              All
-              <span className="text-xs opacity-70">
-                {fileTypes.length}
-              </span>
-            </button>
-            {Object.entries(mediaTypeCounts)
-              .sort((a, b) => b[1] - a[1])
-              .map(([type, count]) => {
-                const Icon = mediaTypeIcons[type as keyof typeof mediaTypeIcons] || mediaTypeIcons.other;
-                const config = mediaTypeConfig[type as keyof typeof mediaTypeConfig] || mediaTypeConfig.other;
-                
-                return (
-                  <button
-                    key={type}
-                    onClick={() => setSelectedMediaType(type)}
-                    className={`px-4 py-2 text-sm font-medium rounded-lg transition-colors flex items-center gap-2 ${
-                      selectedMediaType === type
-                        ? 'bg-gray-900 text-white'
-                        : 'bg-white text-gray-700 hover:bg-gray-100 border border-gray-200'
-                    }`}
-                  >
-                    <Icon className="h-4 w-4" />
-                    {config.name}
-                    <span className="text-xs opacity-70">
-                      {count}
-                    </span>
-                  </button>
-                );
-              })}
+              <div className="flex items-center justify-between">
+                <div className="flex flex-wrap gap-1 flex-1">
+                  {selectedCategories.length === 0 ? (
+                    <span className="text-gray-500">Filter by categories...</span>
+                  ) : (
+                    selectedCategories.map(cat => {
+                      const config = categoryDefinitions[cat as FileCategory];
+                      const Icon = config?.icon;
+                      return (
+                        <span
+                          key={cat}
+                          className="inline-flex items-center gap-1 px-2 py-1 bg-gray-100 rounded-md text-sm"
+                        >
+                          {Icon && <Icon className="h-3 w-3" />}
+                          {config?.name}
+                          <button
+                            onClick={(e) => {
+                              e.stopPropagation();
+                              setSelectedCategories(selectedCategories.filter(c => c !== cat));
+                            }}
+                            className="ml-1 hover:text-red-600"
+                          >
+                            <X className="h-3 w-3" />
+                          </button>
+                        </span>
+                      );
+                    })
+                  )}
+                </div>
+                <ChevronDown className={`h-4 w-4 text-gray-400 transition-transform ${
+                  categoryDropdownOpen ? 'rotate-180' : ''
+                }`} />
+              </div>
+            </div>
+            
+            {categoryDropdownOpen && (
+              <div className="absolute z-10 w-full mt-1 bg-white border border-gray-200 rounded-lg shadow-lg max-h-64 overflow-auto">
+                <div className="p-2 border-b border-gray-100">
+                  <input
+                    type="text"
+                    placeholder="Search categories..."
+                    value={categorySearchTerm}
+                    onChange={(e) => setCategorySearchTerm(e.target.value)}
+                    onClick={(e) => e.stopPropagation()}
+                    autoFocus
+                    className="w-full px-2 py-1 text-sm border border-gray-200 rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  />
+                </div>
+                <div className="p-2">
+                  {sortedCategories
+                    .filter(cat => {
+                      const config = categoryDefinitions[cat];
+                      const count = categoryCounts[cat] || 0;
+                      return config && count > 0 && 
+                        config.name.toLowerCase().includes(categorySearchTerm.toLowerCase());
+                    })
+                    .map(cat => {
+                      const config = categoryDefinitions[cat];
+                      const Icon = config?.icon;
+                      const count = categoryCounts[cat] || 0;
+                      const isSelected = selectedCategories.includes(cat);
+                      
+                      return (
+                        <button
+                          key={cat}
+                          onClick={() => {
+                            if (isSelected) {
+                              setSelectedCategories(selectedCategories.filter(c => c !== cat));
+                            } else {
+                              setSelectedCategories([...selectedCategories, cat]);
+                            }
+                          }}
+                          className={`w-full px-3 py-2 text-left rounded-md flex items-center gap-2 transition-colors ${
+                            isSelected
+                              ? 'bg-blue-50 text-blue-700'
+                              : 'hover:bg-gray-50'
+                          }`}
+                        >
+                          <div className={`w-4 h-4 border rounded flex items-center justify-center ${
+                            isSelected ? 'bg-blue-600 border-blue-600' : 'border-gray-300'
+                          }`}>
+                            {isSelected && <span className="text-white text-xs">✓</span>}
+                          </div>
+                          {Icon && <Icon className="h-4 w-4" />}
+                          <span className="flex-1">{config.name}</span>
+                          <span className="text-xs text-gray-500">{count}</span>
+                        </button>
+                      );
+                    })}
+                  {selectedCategories.length > 0 && (
+                    <button
+                      onClick={() => setSelectedCategories([])}
+                      className="w-full mt-2 px-3 py-2 text-sm text-red-600 hover:bg-red-50 rounded-md"
+                    >
+                      Clear all
+                    </button>
+                  )}
+                </div>
+              </div>
+            )}
+          </div>
+
+          {/* Letter Multi-Select */}
+          <div ref={letterDropdownRef} className="relative flex-1 max-w-md">
+            <div
+              onClick={() => setLetterDropdownOpen(!letterDropdownOpen)}
+              className="w-full min-h-[48px] px-3 py-2 bg-white border border-gray-200 rounded-lg cursor-pointer hover:border-gray-300 transition-colors"
+            >
+              <div className="flex items-center justify-between">
+                <div className="flex flex-wrap gap-1 flex-1">
+                  {selectedLetters.length === 0 ? (
+                    <span className="text-gray-500">Filter by starting letter...</span>
+                  ) : (
+                    selectedLetters.map(letter => (
+                      <span
+                        key={letter}
+                        className="inline-flex items-center gap-1 px-2 py-1 bg-gray-100 rounded-md text-sm"
+                      >
+                        {letter}
+                        <button
+                          onClick={(e) => {
+                            e.stopPropagation();
+                            setSelectedLetters(selectedLetters.filter(l => l !== letter));
+                          }}
+                          className="ml-1 hover:text-red-600"
+                        >
+                          <X className="h-3 w-3" />
+                        </button>
+                      </span>
+                    ))
+                  )}
+                </div>
+                <ChevronDown className={`h-4 w-4 text-gray-400 transition-transform ${
+                  letterDropdownOpen ? 'rotate-180' : ''
+                }`} />
+              </div>
+            </div>
+            
+            {letterDropdownOpen && (
+              <div className="absolute z-10 w-full mt-1 bg-white border border-gray-200 rounded-lg shadow-lg max-h-64 overflow-auto">
+                <div className="p-2 border-b border-gray-100">
+                  <input
+                    type="text"
+                    placeholder="Type a letter..."
+                    value={letterSearchTerm}
+                    onChange={(e) => setLetterSearchTerm(e.target.value.slice(0, 1).toUpperCase())}
+                    onClick={(e) => e.stopPropagation()}
+                    autoFocus
+                    className="w-full px-2 py-1 text-sm border border-gray-200 rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  />
+                </div>
+                <div className="p-2 grid grid-cols-6 gap-1">
+                  {alphabet
+                    .filter(letter => 
+                      availableLetters.includes(letter) &&
+                      (!letterSearchTerm || letter.startsWith(letterSearchTerm))
+                    )
+                    .map(letter => {
+                      const isSelected = selectedLetters.includes(letter);
+                      const count = groupedTypes[letter]?.length || 0;
+                      
+                      return (
+                        <button
+                          key={letter}
+                          onClick={() => {
+                            if (isSelected) {
+                              setSelectedLetters(selectedLetters.filter(l => l !== letter));
+                            } else {
+                              setSelectedLetters([...selectedLetters, letter]);
+                            }
+                          }}
+                          className={`px-2 py-2 text-center rounded-md transition-colors font-medium ${
+                            isSelected
+                              ? 'bg-blue-600 text-white'
+                              : 'bg-gray-100 hover:bg-gray-200'
+                          }`}
+                        >
+                          {letter}
+                          <div className="text-xs opacity-70">{count}</div>
+                        </button>
+                      );
+                    })}
+                </div>
+                {selectedLetters.length > 0 && (
+                  <div className="p-2 border-t border-gray-100">
+                    <button
+                      onClick={() => setSelectedLetters([])}
+                      className="w-full px-3 py-2 text-sm text-red-600 hover:bg-red-50 rounded-md"
+                    >
+                      Clear all
+                    </button>
+                  </div>
+                )}
+              </div>
+            )}
           </div>
         </div>
 
-        {/* Alphabet Navigation */}
-        <div className="mb-6 flex flex-wrap gap-1">
-          <button
-            onClick={() => setSelectedLetter('')}
-            className={`px-3 py-1.5 text-sm font-medium rounded-md transition-colors ${
-              selectedLetter === ''
-                ? 'bg-gray-900 text-white'
-                : 'bg-white text-gray-700 hover:bg-gray-100 border border-gray-200'
-            }`}
-          >
-            All
-          </button>
-          {alphabet.map(letter => (
-            <button
-              key={letter}
-              onClick={() => setSelectedLetter(letter)}
-              disabled={!availableLetters.includes(letter)}
-              className={`px-3 py-1.5 text-sm font-medium rounded-md transition-colors ${
-                selectedLetter === letter
-                  ? 'bg-gray-900 text-white'
-                  : availableLetters.includes(letter)
-                  ? 'bg-white text-gray-700 hover:bg-gray-100 border border-gray-200'
-                  : 'bg-gray-50 text-gray-300 cursor-not-allowed'
-              }`}
-            >
-              {letter}
-            </button>
-          ))}
-        </div>
 
         {/* Results count */}
         <div className="mb-4 text-sm text-gray-600">
           Showing {filteredTypes.length} file type{filteredTypes.length !== 1 ? 's' : ''}
           {searchTerm && ` matching "${searchTerm}"`}
-          {selectedMediaType && ` in ${mediaTypeConfig[selectedMediaType as keyof typeof mediaTypeConfig]?.name || 'Other'}`}
+          {selectedCategories.length > 0 && ` in ${selectedCategories.length} categor${selectedCategories.length === 1 ? 'y' : 'ies'}`}
+          {selectedLetters.length > 0 && ` starting with ${selectedLetters.join(', ')}`}
         </div>
 
         {/* File Types Grid */}
@@ -299,7 +419,8 @@ export default function FileTypesPage() {
                 .trim();
               
               const extensionDisplay = fileType.extension || fileType.slug;
-              const Icon = mediaTypeIcons[fileType.mediaType as keyof typeof mediaTypeIcons] || mediaTypeIcons.other;
+              const category = fileType.fileCategory as FileCategory;
+              const Icon = categoryDefinitions[category]?.icon || categoryDefinitions.misc.icon;
               
               return (
                 <Link
