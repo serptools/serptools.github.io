@@ -68,15 +68,27 @@ export default function LanderHeroTwoColumn({
       await new Promise<void>((resolve, reject) => {
         w.onmessage = (ev: MessageEvent<any>) => {
           if (!ev.data?.ok) return reject(new Error(ev.data?.error || "Convert failed"));
-          const blob = new Blob([ev.data.blob], { type: to === "png" ? "image/png" : "image/jpeg" });
-          const name = file.name.replace(/\.[^.]+$/, "") + "." + to;
-          saveBlob(blob, name);
+          
+          // Handle PDF pages (returns multiple blobs)
+          if (ev.data.blobs) {
+            const mimeType = to === "png" ? "image/png" : to === "jpg" || to === "jpeg" ? "image/jpeg" : "image/webp";
+            ev.data.blobs.forEach((buf: ArrayBuffer, i: number) => {
+              const blob = new Blob([buf], { type: mimeType });
+              const name = file.name.replace(/\.[^.]+$/, "") + `_page${i + 1}.${to}`;
+              saveBlob(blob, name);
+            });
+          } else {
+            // Handle single image conversion
+            const blob = new Blob([ev.data.blob], { type: to === "png" ? "image/png" : "image/jpeg" });
+            const name = file.name.replace(/\.[^.]+$/, "") + "." + to;
+            saveBlob(blob, name);
+          }
           resolve();
         };
         const op = from === "pdf" ? "pdf-pages" : "raster";
         w.postMessage(op === "raster"
           ? { op, from, to, buf }
-          : { op, buf }, // pdf -> png pages
+          : { op, to, buf }, // pdf -> jpg/png pages
         [buf]);
       });
     }

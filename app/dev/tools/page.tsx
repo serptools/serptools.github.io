@@ -1,6 +1,6 @@
 "use client";
 
-import manifest from "@/lib/tools/manifest.json";
+import manifest from "./manifest.json";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import Link from "next/link";

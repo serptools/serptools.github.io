@@ -1,0 +1,32 @@
+"use client";
+
+import ToolPageTemplate from "@/components/ToolPageTemplate";
+import { toolContent } from "@/config/tool-content";
+
+export default function Page() {
+  const slug = "webp-to-jpg";
+  const content = toolContent[slug];
+  
+  // Better approach - use defaults if content is missing
+  const toolConfig = content?.tool || {
+    title: "WebP to JPG",
+    subtitle: "Convert WebP images to JPG format",
+    from: "webp", 
+    to: "jpg"
+  };
+  
+  // Or even better - just pass the minimum required props
+  // Let ToolPageTemplate handle missing optional props
+  return (
+    <ToolPageTemplate
+      tool={toolConfig}
+      videoSection={content?.videoSection}
+      useTwoColumnLayout={true}
+      faqs={content?.faqs}
+      aboutSection={content?.aboutSection}
+      changelog={content?.changelog}
+      relatedTools={content?.relatedTools}
+      blogPosts={content?.blogPosts}
+    />
+  );
+}

@@ -2683,4 +2683,95 @@ export const toolContent: Record<string, ToolContent> = {
       },
     ],
   },
+  
+  // New converters - Quick implementations
+  "webp-to-jpg": {
+    tool: {
+      title: "WebP to JPG",
+      subtitle: "Convert WebP images to JPG format",
+      from: "webp",
+      to: "jpg",
+    },
+  },
+  
+  "pdf-to-jpg": {
+    tool: {
+      title: "PDF to JPG", 
+      subtitle: "Convert PDF pages to JPG images",
+      from: "pdf",
+      to: "jpg",
+    },
+  },
+  
+  "png-to-pdf": {
+    tool: {
+      title: "PNG to PDF",
+      subtitle: "Convert PNG images to PDF documents",
+      from: "png",
+      to: "pdf",
+    },
+  },
+  
+  "webp-to-gif": {
+    tool: {
+      title: "WebP to GIF",
+      subtitle: "Convert WebP images to animated GIF format",
+      from: "webp",
+      to: "gif",
+    },
+  },
+  
+  "png-to-gif": {
+    tool: {
+      title: "PNG to GIF",
+      subtitle: "Convert PNG images to GIF format",
+      from: "png",
+      to: "gif",
+    },
+  },
+  
+  "bmp-to-pdf": {
+    tool: {
+      title: "BMP to PDF",
+      subtitle: "Convert BMP images to PDF documents",
+      from: "bmp",
+      to: "pdf",
+    },
+  },
+  
+  "ico-to-jpg": {
+    tool: {
+      title: "ICO to JPG",
+      subtitle: "Convert ICO icons to JPG images",
+      from: "ico",
+      to: "jpg",
+    },
+  },
+  
+  "jpeg-to-gif": {
+    tool: {
+      title: "JPEG to GIF",
+      subtitle: "Convert JPEG images to GIF format",
+      from: "jpeg",
+      to: "gif",
+    },
+  },
+  
+  "svg-to-png": {
+    tool: {
+      title: "SVG to PNG",
+      subtitle: "Convert SVG vector graphics to PNG images",
+      from: "svg",
+      to: "png",
+    },
+  },
+  
+  "svg-to-jpg": {
+    tool: {
+      title: "SVG to JPG",
+      subtitle: "Convert SVG vector graphics to JPG images",
+      from: "svg",
+      to: "jpg",
+    },
+  },
 };
