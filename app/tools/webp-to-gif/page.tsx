@@ -1,7 +1,7 @@
 "use client";
 
 import ToolPageTemplate from "@/components/ToolPageTemplate";
-import { toolContent } from "@/config/tool-content";
+import { toolContent } from '@/lib/tool-content';
 
 export default function Page() {
   const content = toolContent["webp-to-gif"];

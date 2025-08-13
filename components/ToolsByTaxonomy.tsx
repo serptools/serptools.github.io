@@ -1,13 +1,11 @@
 "use client";
 
-import { Tool } from '@/config/tools';
+import type { Tool, OperationType, MediaType } from '@/types/tools';
 import { 
   operationDefinitions, 
   mediaTypeDefinitions, 
-  formatToMediaType,
-  OperationType, 
-  MediaType 
-} from '@/config/tool-taxonomy';
+  formatToMediaType
+} from '@/lib/tool-utils';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import Link from 'next/link';
 import { ArrowRightLeft, Minimize2, Combine, Download, Image, Film, Music, FileText } from 'lucide-react';

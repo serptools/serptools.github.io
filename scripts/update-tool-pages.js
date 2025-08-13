@@ -30,7 +30,7 @@ const tools = [
 const pageTemplate = (toolKey) => `"use client";
 
 import ToolPageTemplate from "@/components/ToolPageTemplate";
-import { toolContent } from "@/config/tool-content";
+import { toolContent } from '@/data/tools.json';
 
 export default function Page() {
   const content = toolContent["${toolKey}"];

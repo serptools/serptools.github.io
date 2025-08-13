@@ -1,6 +1,6 @@
 "use client";
 
-import { Tool } from '@/config/tools';
+import { Tool } from '@/lib/tool-utils';
 import { categoryDefinitions, MainCategory } from '@/config/tool-categories';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import Link from 'next/link';
