@@ -24,15 +24,16 @@ interface FileType {
 export default function FileTypesPage() {
   const [fileTypes, setFileTypes] = useState<FileType[]>([]);
   const [filteredTypes, setFilteredTypes] = useState<FileType[]>([]);
+  const [displayedTypes, setDisplayedTypes] = useState<FileType[]>([]);
   const [searchTerm, setSearchTerm] = useState('');
   const [loading, setLoading] = useState(true);
   const [selectedLetters, setSelectedLetters] = useState<string[]>([]);
   const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
-  const [sortBy, setSortBy] = useState<'name' | 'extension'>('extension');
   const [categoryDropdownOpen, setCategoryDropdownOpen] = useState(false);
   const [letterDropdownOpen, setLetterDropdownOpen] = useState(false);
   const [categorySearchTerm, setCategorySearchTerm] = useState('');
   const [letterSearchTerm, setLetterSearchTerm] = useState('');
+  const [displayCount, setDisplayCount] = useState(100); // Start with 100 items
   const categoryDropdownRef = useRef<HTMLDivElement>(null);
   const letterDropdownRef = useRef<HTMLDivElement>(null);
 
@@ -46,12 +47,28 @@ export default function FileTypesPage() {
         const response = await fetch('/data/filetypes/index.json');
         const data = await response.json();
         
-        // Add file category to each file type
-        const enrichedData = data.map((ft: FileType) => ({
-          ...ft,
-          fileCategory: getFileCategory(ft.extension || ft.slug)
-        }));
+        // Process data in chunks to avoid blocking
+        const chunkSize = 1000;
+        let enrichedData: FileType[] = [];
         
+        for (let i = 0; i < data.length; i += chunkSize) {
+          const chunk = data.slice(i, i + chunkSize);
+          const enrichedChunk = chunk.map((ft: FileType) => ({
+            ...ft,
+            fileCategory: getFileCategory(ft.extension || ft.slug)
+          }));
+          enrichedData = [...enrichedData, ...enrichedChunk];
+          
+          // Allow UI to update between chunks
+          if (i === 0) {
+            // Set initial data quickly
+            setFileTypes(enrichedChunk);
+            setFilteredTypes(enrichedChunk);
+            setLoading(false);
+          }
+        }
+        
+        // Set complete data
         setFileTypes(enrichedData);
         setFilteredTypes(enrichedData);
         
@@ -75,7 +92,6 @@ export default function FileTypesPage() {
         setCategoryCounts(catCounts);
       } catch (error) {
         console.error('Failed to load file types:', error);
-      } finally {
         setLoading(false);
       }
     }
@@ -104,17 +120,23 @@ export default function FileTypesPage() {
       filtered = filtered.filter((ft: any) => selectedCategories.includes(ft.fileCategory));
     }
     
-    // Sort
+    // Sort by extension (default)
     filtered = [...filtered].sort((a, b) => {
-      if (sortBy === 'name') {
-        return a.name.localeCompare(b.name);
-      } else {
-        return (a.extension || a.slug).localeCompare(b.extension || b.slug);
-      }
+      return (a.extension || a.slug).localeCompare(b.extension || b.slug);
     });
     
     setFilteredTypes(filtered);
-  }, [searchTerm, selectedLetters, selectedCategories, sortBy, fileTypes]);
+  }, [searchTerm, selectedLetters, selectedCategories, fileTypes]);
+
+  // Update displayed types based on pagination
+  useEffect(() => {
+    setDisplayedTypes(filteredTypes.slice(0, displayCount));
+  }, [filteredTypes, displayCount]);
+
+  // Reset display count when filters change
+  useEffect(() => {
+    setDisplayCount(100);
+  }, [searchTerm, selectedLetters, selectedCategories]);
 
   // Close dropdowns when clicking outside
   useEffect(() => {
@@ -165,32 +187,22 @@ export default function FileTypesPage() {
           </p>
         </div>
 
-        {/* Search and Sort Bar */}
-        <div className="mb-6 flex flex-col sm:flex-row gap-4">
-          <div className="relative flex-1 max-w-2xl">
+        {/* Search and Filters Bar - All on one line */}
+        <div className="mb-6 flex flex-col lg:flex-row gap-4">
+          {/* Search Input */}
+          <div className="relative flex-1 max-w-md">
             <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 h-5 w-5" />
             <input
               type="text"
               placeholder="Search extensions..."
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
-              className="w-full pl-10 pr-4 py-3 bg-white border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+              className="w-full pl-10 pr-4 py-3 bg-white border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent h-[48px]"
             />
           </div>
-          <select
-            value={sortBy}
-            onChange={(e) => setSortBy(e.target.value as 'name' | 'extension')}
-            className="px-4 py-3 bg-white border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
-          >
-            <option value="extension">Sort by Extension</option>
-            <option value="name">Sort by Name</option>
-          </select>
-        </div>
 
-        {/* Filters Row */}
-        <div className="mb-6 flex flex-col sm:flex-row gap-4">
           {/* Category Multi-Select */}
-          <div ref={categoryDropdownRef} className="relative flex-1 max-w-md">
+          <div ref={categoryDropdownRef} className="relative w-full lg:w-80">
             <div
               onClick={() => setCategoryDropdownOpen(!categoryDropdownOpen)}
               className="w-full min-h-[48px] px-3 py-2 bg-white border border-gray-200 rounded-lg cursor-pointer hover:border-gray-300 transition-colors"
@@ -298,7 +310,7 @@ export default function FileTypesPage() {
           </div>
 
           {/* Letter Multi-Select */}
-          <div ref={letterDropdownRef} className="relative flex-1 max-w-md">
+          <div ref={letterDropdownRef} className="relative w-full lg:w-80">
             <div
               onClick={() => setLetterDropdownOpen(!letterDropdownOpen)}
               className="w-full min-h-[48px] px-3 py-2 bg-white border border-gray-200 rounded-lg cursor-pointer hover:border-gray-300 transition-colors"
@@ -396,7 +408,7 @@ export default function FileTypesPage() {
 
         {/* Results count */}
         <div className="mb-4 text-sm text-gray-600">
-          Showing {filteredTypes.length} file type{filteredTypes.length !== 1 ? 's' : ''}
+          Showing {displayedTypes.length} of {filteredTypes.length} file type{filteredTypes.length !== 1 ? 's' : ''}
           {searchTerm && ` matching "${searchTerm}"`}
           {selectedCategories.length > 0 && ` in ${selectedCategories.length} categor${selectedCategories.length === 1 ? 'y' : 'ies'}`}
           {selectedLetters.length > 0 && ` starting with ${selectedLetters.join(', ')}`}
@@ -410,8 +422,9 @@ export default function FileTypesPage() {
             </div>
           </div>
         ) : (
-          <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-            {filteredTypes.map((fileType: any) => {
+          <>
+            <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+              {displayedTypes.map((fileType: any) => {
               // Clean up the name - remove redundant category info
               const displayName = fileType.name
                 .replace(fileType.category?.replace(/-/g, ' ') || '', '')
@@ -451,7 +464,20 @@ export default function FileTypesPage() {
                 </Link>
               );
             })}
-          </div>
+            </div>
+            
+            {/* Load More Button */}
+            {displayedTypes.length < filteredTypes.length && (
+              <div className="mt-8 text-center">
+                <button
+                  onClick={() => setDisplayCount(prev => Math.min(prev + 100, filteredTypes.length))}
+                  className="px-6 py-3 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors font-medium"
+                >
+                  Load More ({filteredTypes.length - displayedTypes.length} remaining)
+                </button>
+              </div>
+            )}
+          </>
         )}
       </div>
     </div>

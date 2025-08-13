@@ -15,6 +15,7 @@ export interface FileTypeRawData {
     votes: number;
   };
   more_information?: {
+    content?: string[];
     description?: string[];
     screenshot?: {
       url: string;
@@ -45,6 +46,13 @@ export interface FileTypeRawData {
     caption: string;
   }>;
   updated_at?: string;
+  common_filenames?: string[];
+  how_to_convert?: {
+    instructions?: string[];
+  };
+  last_updated?: string;
+  rating?: number;
+  votes?: number;
   sources?: Array<{
     url: string;
     retrieved_at: string;

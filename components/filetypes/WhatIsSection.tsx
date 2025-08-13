@@ -14,7 +14,11 @@ export default function WhatIsSection({ extension, whatIs }: WhatIsSectionProps)
         What is a .{extension} file?
       </h3>
       <div className="prose prose-gray max-w-none">
-        <p className="text-gray-700 leading-relaxed">{whatIs}</p>
+        {whatIs.split('\n\n').map((paragraph, idx) => (
+          <p key={idx} className="text-gray-700 leading-relaxed mb-4 last:mb-0">
+            {paragraph}
+          </p>
+        ))}
       </div>
     </section>
   );

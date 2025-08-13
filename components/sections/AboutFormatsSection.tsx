@@ -14,16 +14,18 @@ type AboutFormatsSectionProps = {
 };
 
 export function AboutFormatsSection({
-  title = "Understanding the File Formats",
+  title,
   fromFormat,
   toFormat,
 }: AboutFormatsSectionProps) {
   return (
     <section className="py-20 bg-gradient-to-b from-gray-50 to-white">
       <div className="mx-auto max-w-5xl px-6">
-        <h2 className="text-3xl font-bold text-center mb-12 text-gray-900">
-          {title}
-        </h2>
+        {title && (
+          <h2 className="text-3xl font-bold text-center mb-12 text-gray-900">
+            {title}
+          </h2>
+        )}
         <div className="grid md:grid-cols-2 gap-8">
           {/* From Format */}
           <Card className="p-8 border-gray-200 hover:shadow-lg transition-shadow duration-300">
