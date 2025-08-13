@@ -2,10 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
-import { Badge } from '@/components/ui/badge';
-import { Input } from '@/components/ui/input';
-import { Search, FileText, Star } from 'lucide-react';
+import { Search } from 'lucide-react';
 
 interface FileType {
   slug: string;
@@ -19,6 +16,7 @@ interface FileType {
   };
   updated_at?: string;
   developer_org?: string;
+  developer_name?: string;
   summary?: string;
 }
 
@@ -27,8 +25,10 @@ export default function FileTypesPage() {
   const [filteredTypes, setFilteredTypes] = useState<FileType[]>([]);
   const [searchTerm, setSearchTerm] = useState('');
   const [loading, setLoading] = useState(true);
-  const [categories, setCategories] = useState<string[]>([]);
-  const [selectedCategory, setSelectedCategory] = useState<string>('');
+  const [selectedLetter, setSelectedLetter] = useState<string>('');
+
+  // Group filetypes by first letter for better organization
+  const [groupedTypes, setGroupedTypes] = useState<Record<string, FileType[]>>({});
 
   useEffect(() => {
     async function loadFileTypes() {
@@ -38,9 +38,15 @@ export default function FileTypesPage() {
         setFileTypes(data);
         setFilteredTypes(data);
         
-        // Extract unique categories
-        const uniqueCategories = [...new Set(data.map((ft: FileType) => ft.category))] as string[];
-        setCategories(uniqueCategories.sort());
+        // Group by first character
+        const grouped = data.reduce((acc: Record<string, FileType[]>, ft: FileType) => {
+          const firstChar = (ft.extension || ft.slug || '').charAt(0).toUpperCase();
+          if (!acc[firstChar]) acc[firstChar] = [];
+          acc[firstChar].push(ft);
+          return acc;
+        }, {});
+        
+        setGroupedTypes(grouped);
       } catch (error) {
         console.error('Failed to load file types:', error);
       } finally {
@@ -62,26 +68,28 @@ export default function FileTypesPage() {
       );
     }
     
-    if (selectedCategory) {
-      filtered = filtered.filter(ft => ft.category === selectedCategory);
+    if (selectedLetter) {
+      filtered = filtered.filter(ft => 
+        (ft.extension || ft.slug || '').charAt(0).toUpperCase() === selectedLetter
+      );
     }
     
     setFilteredTypes(filtered);
-  }, [searchTerm, selectedCategory, fileTypes]);
+  }, [searchTerm, selectedLetter, fileTypes]);
 
-  const formatCategory = (category: string) => {
-    return category.split('-').map(word => 
-      word.charAt(0).toUpperCase() + word.slice(1)
-    ).join(' ');
-  };
+  // Get alphabet for navigation
+  const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ#&'.split('');
+  const availableLetters = Object.keys(groupedTypes).sort();
 
   if (loading) {
     return (
-      <div className="container mx-auto px-4 py-8">
-        <div className="flex items-center justify-center min-h-[400px]">
-          <div className="text-center">
-            <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary mx-auto"></div>
-            <p className="mt-4 text-muted-foreground">Loading file types...</p>
+      <div className="min-h-screen bg-gray-50">
+        <div className="container mx-auto px-4 py-16">
+          <div className="flex items-center justify-center">
+            <div className="text-center">
+              <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-gray-900 mx-auto"></div>
+              <p className="mt-4 text-gray-500">Loading file types...</p>
+            </div>
           </div>
         </div>
       </div>
@@ -89,104 +97,116 @@ export default function FileTypesPage() {
   }
 
   return (
-    <div className="container mx-auto px-4 py-8">
-      <div className="mb-8">
-        <h1 className="text-4xl font-bold mb-4">File Extensions Database</h1>
-        <p className="text-lg text-muted-foreground">
-          Browse our comprehensive database of {fileTypes.length} file extensions. 
-          Learn about different file types, their uses, and compatible software.
-        </p>
-      </div>
+    <div className="min-h-screen bg-gray-50">
+      <div className="container mx-auto px-4 py-8 max-w-7xl">
+        {/* Header */}
+        <div className="mb-8">
+          <h1 className="text-3xl font-bold text-gray-900 mb-2">File Extensions</h1>
+          <p className="text-gray-600">
+            Browse {fileTypes.length.toLocaleString()} file types and their associated programs
+          </p>
+        </div>
 
-      <div className="flex flex-col lg:flex-row gap-6 mb-8">
-        <div className="flex-1">
-          <div className="relative">
-            <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-muted-foreground h-4 w-4" />
-            <Input
+        {/* Search Bar */}
+        <div className="mb-8">
+          <div className="relative max-w-2xl">
+            <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 h-5 w-5" />
+            <input
               type="text"
-              placeholder="Search file extensions (e.g., doc, pdf, jpg)..."
+              placeholder="Search extensions..."
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
-              className="pl-10"
+              className="w-full pl-10 pr-4 py-3 bg-white border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
             />
           </div>
         </div>
-        
-        <div className="lg:w-64">
-          <select
-            value={selectedCategory}
-            onChange={(e) => setSelectedCategory(e.target.value)}
-            className="w-full px-3 py-2 border border-input bg-background rounded-md"
-          >
-            <option value="">All Categories</option>
-            {categories.map(cat => (
-              <option key={cat} value={cat}>
-                {formatCategory(cat)}
-              </option>
-            ))}
-          </select>
-        </div>
-      </div>
 
-      {filteredTypes.length === 0 ? (
-        <Card>
-          <CardContent className="py-12">
+        {/* Alphabet Navigation */}
+        <div className="mb-8 flex flex-wrap gap-1">
+          <button
+            onClick={() => setSelectedLetter('')}
+            className={`px-3 py-1.5 text-sm font-medium rounded-md transition-colors ${
+              selectedLetter === ''
+                ? 'bg-gray-900 text-white'
+                : 'bg-white text-gray-700 hover:bg-gray-100 border border-gray-200'
+            }`}
+          >
+            All
+          </button>
+          {alphabet.map(letter => (
+            <button
+              key={letter}
+              onClick={() => setSelectedLetter(letter)}
+              disabled={!availableLetters.includes(letter)}
+              className={`px-3 py-1.5 text-sm font-medium rounded-md transition-colors ${
+                selectedLetter === letter
+                  ? 'bg-gray-900 text-white'
+                  : availableLetters.includes(letter)
+                  ? 'bg-white text-gray-700 hover:bg-gray-100 border border-gray-200'
+                  : 'bg-gray-50 text-gray-300 cursor-not-allowed'
+              }`}
+            >
+              {letter}
+            </button>
+          ))}
+        </div>
+
+        {/* Results count */}
+        {searchTerm && (
+          <div className="mb-4 text-sm text-gray-600">
+            Found {filteredTypes.length} file type{filteredTypes.length !== 1 ? 's' : ''}
+          </div>
+        )}
+
+        {/* File Types Grid */}
+        {filteredTypes.length === 0 ? (
+          <div className="bg-white rounded-lg border border-gray-200 p-12">
             <div className="text-center">
-              <FileText className="mx-auto h-12 w-12 text-muted-foreground mb-4" />
-              <h3 className="text-lg font-semibold mb-2">No file types found</h3>
-              <p className="text-muted-foreground">
-                Try adjusting your search or filters
-              </p>
+              <p className="text-gray-500">No file types found matching your criteria</p>
             </div>
-          </CardContent>
-        </Card>
-      ) : (
-        <>
-          <div className="mb-4 text-sm text-muted-foreground">
-            Showing {filteredTypes.length} of {fileTypes.length} file types
           </div>
-          
-          <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
-            {filteredTypes.map(fileType => (
-              <Link 
-                key={fileType.slug} 
-                href={`/filetypes/${fileType.slug}`}
-                className="block hover:no-underline"
-              >
-                <Card className="h-full hover:shadow-lg transition-shadow cursor-pointer">
-                  <CardHeader>
-                    <div className="flex items-start justify-between">
-                      <div className="flex-1">
-                        <CardTitle className="text-lg">
-                          {fileType.name}
-                        </CardTitle>
-                        <CardDescription className="mt-1">
-                          {formatCategory(fileType.category)}
-                        </CardDescription>
-                      </div>
-                      {fileType.popularity && (
-                        <div className="flex items-center gap-1 text-sm">
-                          <Star className="h-4 w-4 fill-yellow-400 text-yellow-400" />
-                          <span>{fileType.popularity.rating.toFixed(1)}</span>
+        ) : (
+          <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+            {filteredTypes.map(fileType => {
+              // Clean up the name - remove redundant category info
+              const displayName = fileType.name
+                .replace(fileType.category?.replace(/-/g, ' ') || '', '')
+                .replace(/\s+/g, ' ')
+                .trim();
+              
+              const extensionDisplay = fileType.extension || fileType.slug;
+              
+              return (
+                <Link
+                  key={fileType.slug}
+                  href={`/filetypes/${fileType.slug}`}
+                  className="group block"
+                >
+                  <div className="bg-white rounded-lg border border-gray-200 px-4 py-3 hover:border-gray-300 hover:shadow-sm transition-all">
+                    <div className="flex items-center justify-between">
+                      <div className="flex-1 min-w-0">
+                        <div className="flex items-baseline gap-2">
+                          <span className="text-lg font-semibold text-gray-900 uppercase">
+                            .{extensionDisplay}
+                          </span>
+                          {fileType.developer_name && (
+                            <span className="text-xs text-gray-500 truncate">
+                              by {fileType.developer_name}
+                            </span>
+                          )}
                         </div>
-                      )}
+                        <p className="text-sm text-gray-600 truncate mt-0.5">
+                          {displayName}
+                        </p>
+                      </div>
                     </div>
-                  </CardHeader>
-                  {fileType.developer_org && (
-                    <CardContent className="pt-2">
-                      <p className="text-sm text-muted-foreground">
-                        by {fileType.developer_org.split('-').map(w => 
-                          w.charAt(0).toUpperCase() + w.slice(1)
-                        ).join(' ')}
-                      </p>
-                    </CardContent>
-                  )}
-                </Card>
-              </Link>
-            ))}
+                  </div>
+                </Link>
+              );
+            })}
           </div>
-        </>
-      )}
+        )}
+      </div>
     </div>
   );
 }
