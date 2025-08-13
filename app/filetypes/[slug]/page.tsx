@@ -2,53 +2,19 @@ import { notFound } from 'next/navigation';
 import fs from 'fs';
 import path from 'path';
 import FileTypePageTemplate from '@/components/FileTypePageTemplate';
+import { transformFileTypeData } from '@/lib/filetype-transformer';
+import type { FileTypeRawData, FileTypeTemplateData } from '@/types/filetypes';
 
-interface FileTypeData {
-  extension: string;
-  name: string;
-  title: string;
-  description: string;
-  summary: string;
-  developer?: string;
-  popularity?: {
-    rating: number;
-    votes: number;
-  };
-  image: {
-    icon?: string;
-    screenshot?: string;
-    screenshotCaption?: string;
-  };
-  whatIs: string;
-  moreInfo: string;
-  howToOpen: string;
-  programsThatOpen: Record<string, Array<{
-    name: string;
-    license?: string;
-    url?: string;
-  }>>;
-  additionalSections: Array<{
-    title: string;
-    content: string;
-  }>;
-  relevantTools: Array<{
-    category: string;
-    description: string;
-    tools: Array<{
-      title: string;
-      href: string;
-      description: string;
-    }>;
-  }>;
-  lastUpdated: string;
-}
+// Types are now imported from @/types/filetypes
 
-async function getFileTypeData(slug: string): Promise<FileTypeData | null> {
+async function getFileTypeData(slug: string): Promise<FileTypeTemplateData | null> {
   try {
     const filePath = path.join(process.cwd(), 'public', 'data', 'filetypes', 'individual', `${slug}.json`);
     const fileContent = fs.readFileSync(filePath, 'utf-8');
-    return JSON.parse(fileContent);
+    const rawData: FileTypeRawData = JSON.parse(fileContent);
+    return transformFileTypeData(rawData);
   } catch (error) {
+    console.error(`Error loading filetype ${slug}:`, error);
     return null;
   }
 }
