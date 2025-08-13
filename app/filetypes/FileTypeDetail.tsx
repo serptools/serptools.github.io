@@ -84,7 +84,7 @@ function FileTypeDetail({ slug }: FileTypeDetailProps) {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch(`/data/filetypes/json/${slug}.json`);
+        const response = await fetch(`/data/filetypes/individual/${slug}.json`);
         if (response.ok) {
           const data = await response.json();
           setFileType(data);

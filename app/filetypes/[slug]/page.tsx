@@ -45,7 +45,7 @@ interface FileTypeData {
 
 async function getFileTypeData(slug: string): Promise<FileTypeData | null> {
   try {
-    const filePath = path.join(process.cwd(), 'public', 'data', 'filetypes', 'json', `${slug}.json`);
+    const filePath = path.join(process.cwd(), 'public', 'data', 'filetypes', 'individual', `${slug}.json`);
     const fileContent = fs.readFileSync(filePath, 'utf-8');
     return JSON.parse(fileContent);
   } catch (error) {
