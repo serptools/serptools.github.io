@@ -13,7 +13,7 @@ interface HowToOpenSectionProps {
   programsThatOpen: Record<string, Program[]>;
 }
 
-const platformIcons: Record<string, JSX.Element> = {
+const platformIcons: Record<string, React.JSX.Element> = {
   win: <Monitor className="w-4 h-4" />,
   mac: <Monitor className="w-4 h-4" />,
   lin: <Monitor className="w-4 h-4" />,
