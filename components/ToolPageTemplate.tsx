@@ -2,7 +2,6 @@
 
 import HeroConverter from "@/components/HeroConverter";
 import LanderHeroTwoColumn from "@/components/LanderHeroTwoColumn";
-import { Navbar } from "@/components/Navbar";
 import { VideoSection } from "@/components/sections/VideoSection";
 import { AboutFormatsSection } from "@/components/sections/AboutFormatsSection";
 import { FAQSection } from "@/components/sections/FAQSection";
@@ -72,9 +71,7 @@ export default function ToolPageTemplate({
   blogPosts,
 }: ToolPageProps) {
   return (
-    <>
-      <Navbar />
-      <main className="min-h-screen bg-background">
+    <main className="min-h-screen bg-background">
         {/* Hero Section with Tool */}
         {useTwoColumnLayout && videoSection?.embedId ? (
           <>
@@ -126,7 +123,6 @@ export default function ToolPageTemplate({
 
         {/* Related Tools Link Hub */}
         <ToolsLinkHub relatedTools={relatedTools} />
-      </main>
-    </>
+    </main>
   );
 }

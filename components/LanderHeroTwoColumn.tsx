@@ -24,6 +24,7 @@ export default function LanderHeroTwoColumn({
   const inputRef = useRef<HTMLInputElement | null>(null);
   const dropRef = useRef<HTMLDivElement | null>(null);
   const workerRef = useRef<Worker | null>(null);
+  const iframeRef = useRef<HTMLIFrameElement | null>(null);
   const [busy, setBusy] = useState(false);
   const [hint, setHint] = useState("or drop files here");
   const [dropEffect, setDropEffect] = useState<string>("");
@@ -65,6 +66,16 @@ export default function LanderHeroTwoColumn({
 
   async function handleFiles(files: FileList | null) {
     if (!files || !files.length) return;
+    
+    // Trigger video autoplay when files are processed
+    if (iframeRef.current) {
+      // Use postMessage API to control YouTube iframe
+      iframeRef.current.contentWindow?.postMessage(
+        '{"event":"command","func":"playVideo","args":""}',
+        '*'
+      );
+    }
+    
     const w = ensureWorker();
     setBusy(true);
     for (const file of Array.from(files)) {
@@ -156,8 +167,9 @@ export default function LanderHeroTwoColumn({
           <div className="order-2 lg:order-1">
             <div className="relative w-full rounded-xl overflow-hidden bg-gray-900" style={{ aspectRatio: '16/9' }}>
               <iframe
+                ref={iframeRef}
                 className="absolute top-0 left-0 w-full h-full"
-                src={`https://www.youtube.com/embed/${videoEmbedId}`}
+                src={`https://www.youtube.com/embed/${videoEmbedId}?enablejsapi=1&mute=1`}
                 title="How It Works"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

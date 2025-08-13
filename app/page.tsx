@@ -94,7 +94,13 @@ export default function HomePage() {
     
     tools.forEach(tool => {
       if (!categoryMap.has(tool.category)) {
-        const catName = tool.category.charAt(0).toUpperCase() + tool.category.slice(1) + 's';
+        // Use proper category names without pluralization
+        let catName = tool.category.charAt(0).toUpperCase() + tool.category.slice(1);
+        if (tool.category === 'combine') catName = 'Combine';
+        else if (tool.category === 'compress') catName = 'Compress';
+        else if (tool.category === 'convert') catName = 'Convert';
+        else if (tool.category === 'download') catName = 'Download';
+        
         categoryMap.set(tool.category, { 
           id: tool.category, 
           name: catName, 
@@ -117,9 +123,7 @@ export default function HomePage() {
   });
 
   return (
-    <>
-      <Navbar />
-      <main className="min-h-screen bg-background">
+    <main className="min-h-screen bg-background">
         {/* Hero Section */}
         <section className="relative overflow-hidden border-b">
           <div className="absolute inset-0 bg-grid-black/[0.02] dark:bg-grid-white/[0.02]" />
@@ -204,7 +208,6 @@ export default function HomePage() {
             </div>
           </div>
         </section>
-      </main>
-    </>
+    </main>
   );
 }

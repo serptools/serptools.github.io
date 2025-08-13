@@ -59,7 +59,7 @@ export default function FileTypePageTemplate({ data }: { data: FileTypeData }) {
   });
   
   return (
-    <div className="min-h-screen bg-gray-50">
+    <main className="min-h-screen bg-gray-50">
       {/* Breadcrumb */}
       <FileTypeBreadcrumb extension={data.extension} />
 
@@ -115,6 +115,6 @@ export default function FileTypePageTemplate({ data }: { data: FileTypeData }) {
           />
         </div>
       </div>
-    </div>
+    </main>
   );
 }
