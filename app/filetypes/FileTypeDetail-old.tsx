@@ -238,6 +238,7 @@ export default function FileTypeDetail({ slug }: FileTypeDetailProps) {
               <CardContent>
                 {fileType.more_information.screenshot && (
                   <figure className="mb-6">
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img 
                       src={fileType.more_information.screenshot.url} 
                       alt={fileType.more_information.screenshot.alt}

@@ -100,7 +100,7 @@ export function ToolsLinkHub({ relatedTools }: ToolsLinkHubProps) {
         <div className="mt-16 pt-8 border-t border-gray-200">
           <div className="text-center">
             <p className="text-sm text-gray-600 mb-4">
-              Can't find what you're looking for?
+              Can&apos;t find what you&apos;re looking for?
             </p>
             <a
               href="/tools"

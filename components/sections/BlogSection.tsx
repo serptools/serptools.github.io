@@ -34,6 +34,7 @@ export function BlogSection({ blogPosts }: BlogSectionProps) {
             >
               {post.image ? (
                 <div className="aspect-[16/10] bg-gray-100">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
                     src={post.image}
                     alt={post.title}

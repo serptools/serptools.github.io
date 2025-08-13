@@ -408,6 +408,7 @@ function FileTypeDetail({ slug }: FileTypeDetailProps) {
                     <div className="space-y-6">
                       {fileType.more_information.screenshot && (
                         <figure className="mb-6">
+                          {/* eslint-disable-next-line @next/next/no-img-element */}
                           <img
                             src={fileType.more_information.screenshot.url}
                             srcSet={fileType.more_information.screenshot.srcset}
@@ -499,6 +500,7 @@ function FileTypeDetail({ slug }: FileTypeDetailProps) {
                               <div key={index} className="flex items-center justify-between p-3 bg-gray-50 dark:bg-gray-700/50 rounded-lg">
                                 <div className="flex items-center gap-3">
                                   {program.icon && (
+                                    /* eslint-disable-next-line @next/next/no-img-element */
                                     <img
                                       src={program.icon}
                                       alt={program.name}
