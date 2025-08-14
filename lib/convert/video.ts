@@ -43,8 +43,12 @@ export async function convertVideo(
   
   // Set up progress callback
   if (options.onProgress) {
-    ff.on('progress', (event) => {
-      options.onProgress?.(event);
+    ff.on('progress', (event: any) => {
+      // Convert FFmpeg progress event to expected format
+      options.onProgress?.({
+        ratio: event.progress || 0,
+        time: event.time || 0
+      });
     });
   }
   
@@ -128,6 +132,11 @@ export async function convertVideo(
   // Read output file
   const data = await ff.readFile(outputName);
   
+  // Ensure we have a Uint8Array
+  if (!(data instanceof Uint8Array)) {
+    throw new Error('Unexpected output format from FFmpeg');
+  }
+  
   console.log(`Output file size: ${data.length} bytes`);
   
   // Cleanup
@@ -141,8 +150,18 @@ export async function convertVideo(
     console.warn('Cleanup error:', cleanupErr);
   }
   
-  // Return the Uint8Array buffer
-  return data instanceof Uint8Array ? data.buffer : data;
+  // Return the ArrayBuffer (handle both ArrayBuffer and SharedArrayBuffer)
+  const buffer = data.buffer.slice(data.byteOffset, data.byteOffset + data.byteLength);
+  
+  // Ensure we return an ArrayBuffer, not SharedArrayBuffer
+  if (buffer instanceof SharedArrayBuffer) {
+    const ab = new ArrayBuffer(buffer.byteLength);
+    const view = new Uint8Array(ab);
+    view.set(new Uint8Array(buffer));
+    return ab;
+  }
+  
+  return buffer;
 }
 
 export async function cleanupFFmpeg() {

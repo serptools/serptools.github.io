@@ -6,6 +6,10 @@ import { toolContent } from '@/lib/tool-content';
 export default function Page() {
   const content = toolContent["avif-to-jpg"];
   
+  if (!content) {
+    return <div>Tool content not found</div>;
+  }
+  
   return (
     <ToolPageTemplate
       tool={content.tool}
