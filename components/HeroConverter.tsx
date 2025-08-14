@@ -80,17 +80,33 @@ export default function HeroConverter({
               saveBlob(blob, name);
             });
           } else {
-            // Handle single image conversion
-            const blob = new Blob([ev.data.blob], { type: to === "png" ? "image/png" : "image/jpeg" });
+            // Handle single file conversion (image/video/audio)
+            let mimeType = "application/octet-stream";
+            if (to === "png") mimeType = "image/png";
+            else if (to === "jpg" || to === "jpeg") mimeType = "image/jpeg";
+            else if (to === "webp") mimeType = "image/webp";
+            else if (to === "gif") mimeType = "image/gif";
+            else if (to === "mp4") mimeType = "video/mp4";
+            else if (to === "webm") mimeType = "video/webm";
+            else if (to === "avi") mimeType = "video/x-msvideo";
+            else if (to === "mov") mimeType = "video/quicktime";
+            else if (to === "mp3") mimeType = "audio/mpeg";
+            else if (to === "wav") mimeType = "audio/wav";
+            else if (to === "ogg") mimeType = "audio/ogg";
+            
+            const blob = new Blob([ev.data.blob], { type: mimeType });
             const name = file.name.replace(/\.[^.]+$/, "") + "." + to;
             saveBlob(blob, name);
           }
           resolve();
         };
-        const op = from === "pdf" ? "pdf-pages" : "raster";
-        w.postMessage(op === "raster"
-          ? { op, from, to, buf }
-          : { op, to, buf }, // pdf -> jpg/png pages
+        const isVideo = ["mkv", "mp4", "webm", "avi", "mov"].includes(from) || 
+                        ["mp4", "webm", "avi", "mov", "gif", "mp3", "wav", "ogg"].includes(to);
+        const op = from === "pdf" ? "pdf-pages" : isVideo ? "video" : "raster";
+        w.postMessage(
+          op === "pdf-pages" ? { op, to, buf } :
+          op === "video" ? { op, from, to, buf } :
+          { op, from, to, buf },
         [buf]);
       });
     }
@@ -142,6 +158,11 @@ export default function HeroConverter({
     (from === "pdf" ? ".pdf"
      : from === "jpg" ? ".jpg,.jpeg"
      : from === "jpeg" ? ".jpeg,.jpg"
+     : from === "mkv" ? ".mkv"
+     : from === "mp4" ? ".mp4"
+     : from === "webm" ? ".webm"
+     : from === "avi" ? ".avi"
+     : from === "mov" ? ".mov"
      : `.${from}`);
 
   return (
