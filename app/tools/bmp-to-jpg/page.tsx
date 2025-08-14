@@ -1,15 +1,27 @@
 "use client";
 
-import HeroConverter from "@/components/HeroConverter";
-import { Navbar } from "@/components/Navbar";
+import ToolPageTemplate from "@/components/ToolPageTemplate";
+import { toolContent } from '@/lib/tool-content';
 
 export default function Page() {
+  const content = toolContent["bmp-to-jpg"];
+  
+  if (!content) {
+    // Fallback to basic converter if no content exists
+    return (
+      <div>Tool content not found for bmp-to-jpg</div>
+    );
+  }
+  
   return (
-    <>
-      <Navbar />
-      <main className="min-h-screen bg-background">
-        <HeroConverter title="BMP to JPG" subtitle="Convert BMP images to JPG format." from="bmp" to="jpg" />
-      </main>
-    </>
+    <ToolPageTemplate
+      tool={content.tool}
+      videoSection={content.videoSection}
+      faqs={content.faqs}
+      aboutSection={content.aboutSection}
+      changelog={content.changelog}
+      relatedTools={content.relatedTools}
+      blogPosts={content.blogPosts}
+    />
   );
 }

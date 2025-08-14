@@ -99,7 +99,7 @@ async function getCategoryData(categorySlug: string): Promise<CategoryInfo | nul
     }
 
     // Read all file type data files
-    const dataDir = path.join(process.cwd(), 'public', 'data', 'filetypes');
+    const dataDir = path.join(process.cwd(), 'public', 'data', 'files');
     const files = fs.readdirSync(dataDir).filter(file => file.endsWith('.json'));
     
     const fileTypes: FileTypeData[] = [];

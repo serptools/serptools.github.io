@@ -1,14 +1,27 @@
 "use client";
 
-import HeroConverter from "@/components/HeroConverter";
+import ToolPageTemplate from "@/components/ToolPageTemplate";
+import { toolContent } from '@/lib/tool-content';
 
 export default function Page() {
+  const content = toolContent["mkv-to-gif"];
+  
+  if (!content) {
+    // Fallback to basic converter if no content exists
+    return (
+      <div>Tool content not found for mkv-to-gif</div>
+    );
+  }
+  
   return (
-    <HeroConverter
-      title="MKV to GIF"
-      subtitle="Convert MKV video files to animated GIF. Fast, private, in-browser conversion."
-      from="mkv"
-      to="gif"
+    <ToolPageTemplate
+      tool={content.tool}
+      videoSection={content.videoSection}
+      faqs={content.faqs}
+      aboutSection={content.aboutSection}
+      changelog={content.changelog}
+      relatedTools={content.relatedTools}
+      blogPosts={content.blogPosts}
     />
   );
 }

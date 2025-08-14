@@ -1,15 +1,27 @@
 "use client";
 
-import HeroConverter from "@/components/HeroConverter";
-import { Navbar } from "@/components/Navbar";
+import ToolPageTemplate from "@/components/ToolPageTemplate";
+import { toolContent } from '@/lib/tool-content';
 
 export default function Page() {
+  const content = toolContent["gif-to-webp"];
+  
+  if (!content) {
+    // Fallback to basic converter if no content exists
+    return (
+      <div>Tool content not found for gif-to-webp</div>
+    );
+  }
+  
   return (
-    <>
-      <Navbar />
-      <main className="min-h-screen bg-background">
-        <HeroConverter title="GIF to WebP" subtitle="Convert animated GIFs to WebP format." from="gif" to="webp" />
-      </main>
-    </>
+    <ToolPageTemplate
+      tool={content.tool}
+      videoSection={content.videoSection}
+      faqs={content.faqs}
+      aboutSection={content.aboutSection}
+      changelog={content.changelog}
+      relatedTools={content.relatedTools}
+      blogPosts={content.blogPosts}
+    />
   );
 }

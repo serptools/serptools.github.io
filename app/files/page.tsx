@@ -37,14 +37,14 @@ export default function FileTypesPage() {
   const categoryDropdownRef = useRef<HTMLDivElement>(null);
   const letterDropdownRef = useRef<HTMLDivElement>(null);
 
-  // Group filetypes by first letter and category
+  // Group files by first letter and category
   const [groupedTypes, setGroupedTypes] = useState<Record<string, FileType[]>>({});
   const [categoryCounts, setCategoryCounts] = useState<Record<string, number>>({});
 
   useEffect(() => {
     async function loadFileTypes() {
       try {
-        const response = await fetch('/data/filetypes/index.json');
+        const response = await fetch('/data/files/index.json');
         const data = await response.json();
         
         // Process data in chunks to avoid blocking
@@ -438,7 +438,7 @@ export default function FileTypesPage() {
               return (
                 <Link
                   key={fileType.slug}
-                  href={`/filetypes/${fileType.slug}`}
+                  href={`/files/${fileType.slug}`}
                   className="group block"
                 >
                   <div className="bg-white rounded-lg border border-gray-200 px-4 py-3 hover:border-gray-300 hover:shadow-sm transition-all">

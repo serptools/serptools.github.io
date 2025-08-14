@@ -10,7 +10,7 @@ export function Navbar() {
 
   const navLinks = [
     { href: "/", label: "Tools" },
-    { href: "/filetypes", label: "File Types" },
+    { href: "/files", label: "File Types" },
   ];
 
   return (

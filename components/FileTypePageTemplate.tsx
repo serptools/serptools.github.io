@@ -1,13 +1,13 @@
 'use client';
 
 import React from 'react';
-import FileTypeBreadcrumb from './filetypes/FileTypeBreadcrumb';
-import FileTypeHero from './filetypes/FileTypeHero';
-import WhatIsSection from './filetypes/WhatIsSection';
-import TechnicalInfoSection from './filetypes/TechnicalInfoSection';
-import AdditionalSection from './filetypes/AdditionalSection';
-import HowToOpenSection from './filetypes/HowToOpenSection';
-import FileTypeSidebar from './filetypes/FileTypeSidebar';
+import FileTypeBreadcrumb from './files/FileTypeBreadcrumb';
+import FileTypeHero from './files/FileTypeHero';
+import WhatIsSection from './files/WhatIsSection';
+import TechnicalInfoSection from './files/TechnicalInfoSection';
+import AdditionalSection from './files/AdditionalSection';
+import HowToOpenSection from './files/HowToOpenSection';
+import FileTypeSidebar from './files/FileTypeSidebar';
 
 interface FileTypeData {
   extension: string;

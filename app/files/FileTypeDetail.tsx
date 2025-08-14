@@ -84,7 +84,7 @@ function FileTypeDetail({ slug }: FileTypeDetailProps) {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch(`/data/filetypes/individual/${slug}.json`);
+        const response = await fetch(`/data/files/individual/${slug}.json`);
         if (response.ok) {
           const data = await response.json();
           setFileType(data);
@@ -125,7 +125,7 @@ function FileTypeDetail({ slug }: FileTypeDetailProps) {
               File Type Not Found
             </h1>
             <Link 
-              href="/filetypes" 
+              href="/files" 
               className="text-blue-600 dark:text-blue-400 hover:underline"
             >
               ← Back to File Types
@@ -222,7 +222,7 @@ function FileTypeDetail({ slug }: FileTypeDetailProps) {
                 Home
               </Link>
               <ChevronRight className="w-4 h-4 text-gray-400" />
-              <Link href="/filetypes" className="text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-300">
+              <Link href="/files" className="text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-300">
                 File Types
               </Link>
               <ChevronRight className="w-4 h-4 text-gray-400" />
@@ -637,7 +637,7 @@ function FileTypeDetail({ slug }: FileTypeDetailProps) {
 
                 <div className="mt-6 pt-6 border-t border-gray-200 dark:border-gray-700">
                   <Link
-                    href="/filetypes"
+                    href="/files"
                     className="flex items-center text-blue-600 dark:text-blue-400 hover:underline"
                   >
                     <ArrowLeft className="w-4 h-4 mr-2" />

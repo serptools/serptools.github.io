@@ -22,7 +22,7 @@ async function getCategoryCounts(): Promise<Record<string, number>> {
   const counts: Record<string, number> = {};
   
   try {
-    const dataDir = path.join(process.cwd(), 'public', 'data', 'filetypes');
+    const dataDir = path.join(process.cwd(), 'public', 'data', 'files');
     const files = fs.readdirSync(dataDir).filter(file => file.endsWith('.json'));
     
     for (const file of files) {
@@ -164,7 +164,7 @@ export default async function CategoriesPage() {
           <nav className="flex items-center space-x-2 text-sm">
             <Link href="/" className="text-gray-500 hover:text-gray-700">Home</Link>
             <ChevronRight className="w-4 h-4 text-gray-400" />
-            <Link href="/filetypes" className="text-gray-500 hover:text-gray-700">File Types</Link>
+            <Link href="/files" className="text-gray-500 hover:text-gray-700">File Types</Link>
             <ChevronRight className="w-4 h-4 text-gray-400" />
             <span className="text-gray-900 font-medium">Categories</span>
           </nav>
@@ -192,7 +192,7 @@ export default async function CategoriesPage() {
             return (
               <Link
                 key={category.slug}
-                href={`/filetypes/categories/${category.slug}`}
+                href={`/files/categories/${category.slug}`}
                 className="bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow p-6 border border-gray-200 group"
               >
                 <div className="flex items-start space-x-4">
@@ -226,7 +226,7 @@ export default async function CategoriesPage() {
             {['.pdf', '.jpg', '.png', '.docx', '.mp4', '.zip', '.json', '.csv', '.svg', '.gif', '.webp', '.jpeg'].map(ext => (
               <Link
                 key={ext}
-                href={`/filetypes/${ext.slice(1)}`}
+                href={`/files/${ext.slice(1)}`}
                 className="text-center px-4 py-3 bg-white rounded-lg border border-gray-200 hover:border-blue-500 hover:bg-blue-50 transition-colors"
               >
                 <span className="text-lg font-semibold text-blue-600">{ext}</span>

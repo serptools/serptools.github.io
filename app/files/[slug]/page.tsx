@@ -8,7 +8,7 @@ import type { FileTypeRawData, FileTypeTemplateData } from '@/types';
 
 async function getFileTypeData(slug: string): Promise<FileTypeTemplateData | null> {
   try {
-    const filePath = path.join(process.cwd(), 'public', 'data', 'filetypes', 'individual', `${slug}.json`);
+    const filePath = path.join(process.cwd(), 'public', 'data', 'files', 'individual', `${slug}.json`);
     const fileContent = fs.readFileSync(filePath, 'utf-8');
     const rawData: FileTypeRawData = JSON.parse(fileContent);
     return transformFileTypeData(rawData);
@@ -20,7 +20,7 @@ async function getFileTypeData(slug: string): Promise<FileTypeTemplateData | nul
 
 export async function generateStaticParams() {
   try {
-    const indexPath = path.join(process.cwd(), 'public', 'data', 'filetypes', 'index.json');
+    const indexPath = path.join(process.cwd(), 'public', 'data', 'files', 'index.json');
     const indexContent = fs.readFileSync(indexPath, 'utf-8');
     const fileTypes = JSON.parse(indexContent);
     

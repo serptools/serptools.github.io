@@ -1,14 +1,27 @@
 "use client";
 
-import HeroConverter from "@/components/HeroConverter";
+import ToolPageTemplate from "@/components/ToolPageTemplate";
+import { toolContent } from '@/lib/tool-content';
 
 export default function Page() {
+  const content = toolContent["mkv-to-mp3"];
+  
+  if (!content) {
+    // Fallback to basic converter if no content exists
+    return (
+      <div>Tool content not found for mkv-to-mp3</div>
+    );
+  }
+  
   return (
-    <HeroConverter
-      title="MKV to MP3"
-      subtitle="Extract audio from MKV video files to MP3 format. Fast, private, in-browser conversion."
-      from="mkv"
-      to="mp3"
+    <ToolPageTemplate
+      tool={content.tool}
+      videoSection={content.videoSection}
+      faqs={content.faqs}
+      aboutSection={content.aboutSection}
+      changelog={content.changelog}
+      relatedTools={content.relatedTools}
+      blogPosts={content.blogPosts}
     />
   );
 }

@@ -4,8 +4,8 @@ const fs = require('fs');
 const path = require('path');
 
 // Read all JSON files from the data directory
-const dataDir = path.join(process.cwd(), 'public', 'data', 'filetypes', 'json');
-const appDir = path.join(process.cwd(), 'app', 'filetypes');
+const dataDir = path.join(process.cwd(), 'public', 'data', 'files', 'json');
+const appDir = path.join(process.cwd(), 'app', 'files');
 
 // Template for each file type page
 const pageTemplate = (slug) => `'use client';
