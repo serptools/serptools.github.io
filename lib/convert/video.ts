@@ -1,37 +1,32 @@
+// Load FFmpeg.wasm for video conversion
 import { FFmpeg } from '@ffmpeg/ffmpeg';
-import { toBlobURL, fetchFile } from '@ffmpeg/util';
+import { fetchFile } from '@ffmpeg/util';
 
 let ffmpeg: FFmpeg | null = null;
-let loadingPromise: Promise<void> | null = null;
-
-const CDN_BASE = 'https://unpkg.com/@ffmpeg/core@0.12.6/dist/esm';
+let loaded = false;
 
 async function loadFFmpeg(): Promise<FFmpeg> {
-  if (ffmpeg) return ffmpeg;
+  if (ffmpeg && loaded) return ffmpeg;
   
-  if (loadingPromise) {
-    await loadingPromise;
-    return ffmpeg!;
-  }
-
-  loadingPromise = (async () => {
+  if (!ffmpeg) {
     ffmpeg = new FFmpeg();
     
-    const coreURL = await toBlobURL(`${CDN_BASE}/ffmpeg-core.js`, 'text/javascript');
-    const wasmURL = await toBlobURL(`${CDN_BASE}/ffmpeg-core.wasm`, 'application/wasm');
+    // Load FFmpeg with CDN URLs
+    const baseURL = 'https://unpkg.com/@ffmpeg/core@0.12.6/dist/umd';
     
     ffmpeg.on('log', ({ message }) => {
       console.log('[FFmpeg]', message);
     });
     
     await ffmpeg.load({
-      coreURL,
-      wasmURL,
+      coreURL: `${baseURL}/ffmpeg-core.js`,
+      wasmURL: `${baseURL}/ffmpeg-core.wasm`,
     });
-  })();
+    
+    loaded = true;
+  }
   
-  await loadingPromise;
-  return ffmpeg!;
+  return ffmpeg;
 }
 
 export async function convertVideo(
@@ -113,13 +108,13 @@ export async function convertVideo(
     await ff.deleteFile('palette.png');
   }
   
-  return (data as Uint8Array).buffer;
+  return data.buffer;
 }
 
 export async function cleanupFFmpeg() {
   if (ffmpeg) {
     ffmpeg.terminate();
     ffmpeg = null;
-    loadingPromise = null;
+    loaded = false;
   }
 }

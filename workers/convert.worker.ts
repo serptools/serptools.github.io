@@ -30,9 +30,14 @@ self.onmessage = async (e: MessageEvent<Job>) => {
     }
 
     if (job.op === "video") {
-      const { convertVideo } = await import("../lib/convert/video");
-      const outputBuffer = await convertVideo(job.buf, job.from, job.to, { quality: job.quality });
-      self.postMessage({ ok: true, blob: outputBuffer }, [outputBuffer]);
+      try {
+        const { convertVideo } = await import("../lib/convert/video");
+        const outputBuffer = await convertVideo(job.buf, job.from, job.to, { quality: job.quality });
+        self.postMessage({ ok: true, blob: outputBuffer }, [outputBuffer]);
+      } catch (videoErr: any) {
+        console.error('Video conversion error:', videoErr);
+        self.postMessage({ ok: false, error: `Video conversion failed: ${videoErr?.message || videoErr}` });
+      }
       return;
     }
 
