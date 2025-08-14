@@ -1155,7 +1155,122 @@
     "route": "/tools/jpg-to-pdf",
     "from": "jpg",
     "to": "pdf",
-    "isActive": true
+    "isActive": true,
+    "content": {
+      "tool": {
+        "title": "JPG to PDF",
+        "subtitle": "Convert JPG images to PDF documents",
+        "from": "jpg",
+        "to": "pdf"
+      },
+      "videoSection": {
+        "embedId": "jpg-to-pdf-tutorial"
+      },
+      "faqs": [
+        {
+          "question": "What is JPG format?",
+          "answer": "The most widely used lossy compression format for digital images"
+        },
+        {
+          "question": "Why convert JPG to PDF?",
+          "answer": "Converting from JPG to PDF can provide benefits like document preservation, cross-platform, print-ready."
+        },
+        {
+          "question": "Will I lose quality during conversion?",
+          "answer": "The conversion maintains optimal quality. We use high-quality settings to ensure the best possible output while keeping file sizes reasonable."
+        },
+        {
+          "question": "Is my data secure?",
+          "answer": "Yes! All conversions happen locally in your browser. Your files never leave your device and aren't uploaded to any server, ensuring complete privacy and security."
+        },
+        {
+          "question": "Can I convert multiple files at once?",
+          "answer": "Yes! You can select and convert multiple files simultaneously. Each file is processed individually and downloaded automatically when ready."
+        },
+        {
+          "question": "What's the maximum file size?",
+          "answer": "Since processing happens in your browser, the limit depends on your device's available memory. Most modern devices can handle files up to several hundred megabytes."
+        }
+      ],
+      "aboutSection": {
+        "title": "JPG vs PDF: Understanding the Formats",
+        "fromFormat": {
+          "name": "JPG",
+          "fullName": "Joint Photographic Experts Group",
+          "description": "The most widely used lossy compression format for digital images",
+          "details": [
+            "Excellent compression",
+            "Universal compatibility",
+            "Good for photographs",
+            "No transparency support",
+            "Lossy compression"
+          ]
+        },
+        "toFormat": {
+          "name": "PDF",
+          "fullName": "Portable Document Format",
+          "description": "Universal document format by Adobe",
+          "details": [
+            "Document preservation",
+            "Cross-platform",
+            "Print-ready",
+            "Security features",
+            "Mixed content support"
+          ]
+        }
+      },
+      "changelog": [
+        {
+          "date": "January 2025",
+          "changes": [
+            "Launched JPG to PDF converter",
+            "Added batch processing support",
+            "Implemented privacy-first browser conversion"
+          ]
+        }
+      ],
+      "relatedTools": [
+        {
+          "title": "JPEG to PDF",
+          "href": "/tools/jpeg-to-pdf"
+        },
+        {
+          "title": "PDF to JPG",
+          "href": "/tools/pdf-to-jpg"
+        },
+        {
+          "title": "JPG to PNG",
+          "href": "/tools/jpg-to-png"
+        },
+        {
+          "title": "JPG to WEBP",
+          "href": "/tools/jpg-to-webp"
+        }
+      ],
+      "blogPosts": [
+        {
+          "title": "Converting JPG to PDF: Complete Guide",
+          "subtitle": "Conversion Tutorial",
+          "description": "Step-by-step guide to converting JPG files to PDF format with best practices and tips.",
+          "href": "#",
+          "category": "HOW TO CONVERT FILES"
+        },
+        {
+          "title": "JPG vs PDF: Which Format to Choose?",
+          "subtitle": "Format Comparison",
+          "description": "Detailed comparison of JPG and PDF formats, including use cases, advantages, and limitations.",
+          "href": "#",
+          "category": "FORMAT GUIDES"
+        },
+        {
+          "title": "Batch Convert JPG Files",
+          "subtitle": "Productivity Tips",
+          "description": "Learn how to efficiently convert multiple JPG files at once, saving time and effort.",
+          "href": "#",
+          "category": "PRODUCTIVITY"
+        }
+      ]
+    }
   },
   {
     "id": "jpeg-to-pdf",
@@ -1295,7 +1410,122 @@
     "route": "/tools/jpg-to-png",
     "from": "jpg",
     "to": "png",
-    "isActive": true
+    "isActive": true,
+    "content": {
+      "tool": {
+        "title": "JPG to PNG",
+        "subtitle": "Convert JPG to PNG with transparency",
+        "from": "jpg",
+        "to": "png"
+      },
+      "videoSection": {
+        "embedId": "jpg-to-png-tutorial"
+      },
+      "faqs": [
+        {
+          "question": "What is JPG format?",
+          "answer": "The most widely used lossy compression format for digital images"
+        },
+        {
+          "question": "Why convert JPG to PNG?",
+          "answer": "Converting from JPG to PNG can provide benefits like lossless compression, transparency support, better for graphics."
+        },
+        {
+          "question": "Will I lose quality during conversion?",
+          "answer": "Converting from JPG to PNG won't improve quality beyond the original, but it will preserve the current quality without further loss."
+        },
+        {
+          "question": "Is my data secure?",
+          "answer": "Yes! All conversions happen locally in your browser. Your files never leave your device and aren't uploaded to any server, ensuring complete privacy and security."
+        },
+        {
+          "question": "Can I convert multiple files at once?",
+          "answer": "Yes! You can select and convert multiple files simultaneously. Each file is processed individually and downloaded automatically when ready."
+        },
+        {
+          "question": "What's the maximum file size?",
+          "answer": "Since processing happens in your browser, the limit depends on your device's available memory. Most modern devices can handle files up to several hundred megabytes."
+        }
+      ],
+      "aboutSection": {
+        "title": "JPG vs PNG: Understanding the Formats",
+        "fromFormat": {
+          "name": "JPG",
+          "fullName": "Joint Photographic Experts Group",
+          "description": "The most widely used lossy compression format for digital images",
+          "details": [
+            "Excellent compression",
+            "Universal compatibility",
+            "Good for photographs",
+            "No transparency support",
+            "Lossy compression"
+          ]
+        },
+        "toFormat": {
+          "name": "PNG",
+          "fullName": "Portable Network Graphics",
+          "description": "Lossless compression format with transparency support",
+          "details": [
+            "Lossless compression",
+            "Transparency support",
+            "Better for graphics",
+            "Larger file sizes",
+            "Web-friendly"
+          ]
+        }
+      },
+      "changelog": [
+        {
+          "date": "January 2025",
+          "changes": [
+            "Launched JPG to PNG converter",
+            "Added batch processing support",
+            "Implemented privacy-first browser conversion"
+          ]
+        }
+      ],
+      "relatedTools": [
+        {
+          "title": "JPEG to PNG",
+          "href": "/tools/jpeg-to-png"
+        },
+        {
+          "title": "PNG to JPG",
+          "href": "/tools/png-to-jpg"
+        },
+        {
+          "title": "JPG to WEBP",
+          "href": "/tools/jpg-to-webp"
+        },
+        {
+          "title": "JPG to GIF",
+          "href": "/tools/jpg-to-gif"
+        }
+      ],
+      "blogPosts": [
+        {
+          "title": "Converting JPG to PNG: Complete Guide",
+          "subtitle": "Conversion Tutorial",
+          "description": "Step-by-step guide to converting JPG files to PNG format with best practices and tips.",
+          "href": "#",
+          "category": "HOW TO CONVERT FILES"
+        },
+        {
+          "title": "JPG vs PNG: Which Format to Choose?",
+          "subtitle": "Format Comparison",
+          "description": "Detailed comparison of JPG and PNG formats, including use cases, advantages, and limitations.",
+          "href": "#",
+          "category": "FORMAT GUIDES"
+        },
+        {
+          "title": "Batch Convert JPG Files",
+          "subtitle": "Productivity Tips",
+          "description": "Learn how to efficiently convert multiple JPG files at once, saving time and effort.",
+          "href": "#",
+          "category": "PRODUCTIVITY"
+        }
+      ]
+    }
   },
   {
     "id": "png-to-jpg",
@@ -1305,7 +1535,118 @@
     "route": "/tools/png-to-jpg",
     "from": "png",
     "to": "jpg",
-    "isActive": true
+    "isActive": true,
+    "content": {
+      "tool": {
+        "title": "PNG to JPG",
+        "subtitle": "Convert PNG images to JPG format",
+        "from": "png",
+        "to": "jpg"
+      },
+      "videoSection": {
+        "embedId": "png-to-jpg-tutorial"
+      },
+      "faqs": [
+        {
+          "question": "What is PNG format?",
+          "answer": "Lossless compression format with transparency support"
+        },
+        {
+          "question": "Why convert PNG to JPG?",
+          "answer": "Converting from PNG to JPG can provide benefits like excellent compression, universal compatibility, good for photographs."
+        },
+        {
+          "question": "Will I lose quality during conversion?",
+          "answer": "Converting from lossless PNG to JPG involves compression, which may result in some quality loss. We use optimal settings to minimize any visible differences."
+        },
+        {
+          "question": "Is my data secure?",
+          "answer": "Yes! All conversions happen locally in your browser. Your files never leave your device and aren't uploaded to any server, ensuring complete privacy and security."
+        },
+        {
+          "question": "Can I convert multiple files at once?",
+          "answer": "Yes! You can select and convert multiple files simultaneously. Each file is processed individually and downloaded automatically when ready."
+        },
+        {
+          "question": "What's the maximum file size?",
+          "answer": "Since processing happens in your browser, the limit depends on your device's available memory. Most modern devices can handle files up to several hundred megabytes."
+        }
+      ],
+      "aboutSection": {
+        "title": "PNG vs JPG: Understanding the Formats",
+        "fromFormat": {
+          "name": "PNG",
+          "fullName": "Portable Network Graphics",
+          "description": "Lossless compression format with transparency support",
+          "details": [
+            "Lossless compression",
+            "Transparency support",
+            "Better for graphics",
+            "Larger file sizes",
+            "Web-friendly"
+          ]
+        },
+        "toFormat": {
+          "name": "JPG",
+          "fullName": "Joint Photographic Experts Group",
+          "description": "The most widely used lossy compression format for digital images",
+          "details": [
+            "Excellent compression",
+            "Universal compatibility",
+            "Good for photographs",
+            "No transparency support",
+            "Lossy compression"
+          ]
+        }
+      },
+      "changelog": [
+        {
+          "date": "January 2025",
+          "changes": [
+            "Launched PNG to JPG converter",
+            "Added batch processing support",
+            "Implemented privacy-first browser conversion"
+          ]
+        }
+      ],
+      "relatedTools": [
+        {
+          "title": "JPG to PNG",
+          "href": "/tools/jpg-to-png"
+        },
+        {
+          "title": "PNG to WEBP",
+          "href": "/tools/png-to-webp"
+        },
+        {
+          "title": "PNG to GIF",
+          "href": "/tools/png-to-gif"
+        }
+      ],
+      "blogPosts": [
+        {
+          "title": "Converting PNG to JPG: Complete Guide",
+          "subtitle": "Conversion Tutorial",
+          "description": "Step-by-step guide to converting PNG files to JPG format with best practices and tips.",
+          "href": "#",
+          "category": "HOW TO CONVERT FILES"
+        },
+        {
+          "title": "PNG vs JPG: Which Format to Choose?",
+          "subtitle": "Format Comparison",
+          "description": "Detailed comparison of PNG and JPG formats, including use cases, advantages, and limitations.",
+          "href": "#",
+          "category": "FORMAT GUIDES"
+        },
+        {
+          "title": "Batch Convert PNG Files",
+          "subtitle": "Productivity Tips",
+          "description": "Learn how to efficiently convert multiple PNG files at once, saving time and effort.",
+          "href": "#",
+          "category": "PRODUCTIVITY"
+        }
+      ]
+    }
   },
   {
     "id": "jpeg-to-png",
@@ -1705,7 +2046,118 @@
     "route": "/tools/png-to-webp",
     "from": "png",
     "to": "webp",
-    "isActive": true
+    "isActive": true,
+    "content": {
+      "tool": {
+        "title": "PNG to WebP",
+        "subtitle": "Convert PNG to WebP format",
+        "from": "png",
+        "to": "webp"
+      },
+      "videoSection": {
+        "embedId": "png-to-webp-tutorial"
+      },
+      "faqs": [
+        {
+          "question": "What is PNG format?",
+          "answer": "Lossless compression format with transparency support"
+        },
+        {
+          "question": "Why convert PNG to WEBP?",
+          "answer": "Converting from PNG to WEBP can provide benefits like 25-35% smaller than jpeg/png, supports animation, transparency support."
+        },
+        {
+          "question": "Will I lose quality during conversion?",
+          "answer": "Converting from lossless PNG to WEBP involves compression, which may result in some quality loss. We use optimal settings to minimize any visible differences."
+        },
+        {
+          "question": "Is my data secure?",
+          "answer": "Yes! All conversions happen locally in your browser. Your files never leave your device and aren't uploaded to any server, ensuring complete privacy and security."
+        },
+        {
+          "question": "Can I convert multiple files at once?",
+          "answer": "Yes! You can select and convert multiple files simultaneously. Each file is processed individually and downloaded automatically when ready."
+        },
+        {
+          "question": "What's the maximum file size?",
+          "answer": "Since processing happens in your browser, the limit depends on your device's available memory. Most modern devices can handle files up to several hundred megabytes."
+        }
+      ],
+      "aboutSection": {
+        "title": "PNG vs WEBP: Understanding the Formats",
+        "fromFormat": {
+          "name": "PNG",
+          "fullName": "Portable Network Graphics",
+          "description": "Lossless compression format with transparency support",
+          "details": [
+            "Lossless compression",
+            "Transparency support",
+            "Better for graphics",
+            "Larger file sizes",
+            "Web-friendly"
+          ]
+        },
+        "toFormat": {
+          "name": "WEBP",
+          "fullName": "Web Picture Format",
+          "description": "Modern format by Google with superior compression",
+          "details": [
+            "25-35% smaller than JPEG/PNG",
+            "Supports animation",
+            "Transparency support",
+            "Both lossy and lossless",
+            "Growing browser support"
+          ]
+        }
+      },
+      "changelog": [
+        {
+          "date": "January 2025",
+          "changes": [
+            "Launched PNG to WebP converter",
+            "Added batch processing support",
+            "Implemented privacy-first browser conversion"
+          ]
+        }
+      ],
+      "relatedTools": [
+        {
+          "title": "WEBP to PNG",
+          "href": "/tools/webp-to-png"
+        },
+        {
+          "title": "PNG to JPG",
+          "href": "/tools/png-to-jpg"
+        },
+        {
+          "title": "PNG to GIF",
+          "href": "/tools/png-to-gif"
+        }
+      ],
+      "blogPosts": [
+        {
+          "title": "Converting PNG to WEBP: Complete Guide",
+          "subtitle": "Conversion Tutorial",
+          "description": "Step-by-step guide to converting PNG files to WEBP format with best practices and tips.",
+          "href": "#",
+          "category": "HOW TO CONVERT FILES"
+        },
+        {
+          "title": "PNG vs WEBP: Which Format to Choose?",
+          "subtitle": "Format Comparison",
+          "description": "Detailed comparison of PNG and WEBP formats, including use cases, advantages, and limitations.",
+          "href": "#",
+          "category": "FORMAT GUIDES"
+        },
+        {
+          "title": "Batch Convert PNG Files",
+          "subtitle": "Productivity Tips",
+          "description": "Learn how to efficiently convert multiple PNG files at once, saving time and effort.",
+          "href": "#",
+          "category": "PRODUCTIVITY"
+        }
+      ]
+    }
   },
   {
     "id": "jpg-to-webp",
@@ -1715,7 +2167,122 @@
     "route": "/tools/jpg-to-webp",
     "from": "jpg",
     "to": "webp",
-    "isActive": true
+    "isActive": true,
+    "content": {
+      "tool": {
+        "title": "JPG to WebP",
+        "subtitle": "Convert JPG to WebP format",
+        "from": "jpg",
+        "to": "webp"
+      },
+      "videoSection": {
+        "embedId": "jpg-to-webp-tutorial"
+      },
+      "faqs": [
+        {
+          "question": "What is JPG format?",
+          "answer": "The most widely used lossy compression format for digital images"
+        },
+        {
+          "question": "Why convert JPG to WEBP?",
+          "answer": "Converting from JPG to WEBP can provide benefits like 25-35% smaller than jpeg/png, supports animation, transparency support."
+        },
+        {
+          "question": "Will I lose quality during conversion?",
+          "answer": "Some quality loss may occur when converting between compressed formats. We optimize settings to maintain the best possible quality during conversion."
+        },
+        {
+          "question": "Is my data secure?",
+          "answer": "Yes! All conversions happen locally in your browser. Your files never leave your device and aren't uploaded to any server, ensuring complete privacy and security."
+        },
+        {
+          "question": "Can I convert multiple files at once?",
+          "answer": "Yes! You can select and convert multiple files simultaneously. Each file is processed individually and downloaded automatically when ready."
+        },
+        {
+          "question": "What's the maximum file size?",
+          "answer": "Since processing happens in your browser, the limit depends on your device's available memory. Most modern devices can handle files up to several hundred megabytes."
+        }
+      ],
+      "aboutSection": {
+        "title": "JPG vs WEBP: Understanding the Formats",
+        "fromFormat": {
+          "name": "JPG",
+          "fullName": "Joint Photographic Experts Group",
+          "description": "The most widely used lossy compression format for digital images",
+          "details": [
+            "Excellent compression",
+            "Universal compatibility",
+            "Good for photographs",
+            "No transparency support",
+            "Lossy compression"
+          ]
+        },
+        "toFormat": {
+          "name": "WEBP",
+          "fullName": "Web Picture Format",
+          "description": "Modern format by Google with superior compression",
+          "details": [
+            "25-35% smaller than JPEG/PNG",
+            "Supports animation",
+            "Transparency support",
+            "Both lossy and lossless",
+            "Growing browser support"
+          ]
+        }
+      },
+      "changelog": [
+        {
+          "date": "January 2025",
+          "changes": [
+            "Launched JPG to WebP converter",
+            "Added batch processing support",
+            "Implemented privacy-first browser conversion"
+          ]
+        }
+      ],
+      "relatedTools": [
+        {
+          "title": "JPEG to WEBP",
+          "href": "/tools/jpeg-to-webp"
+        },
+        {
+          "title": "WEBP to JPG",
+          "href": "/tools/webp-to-jpg"
+        },
+        {
+          "title": "JPG to PNG",
+          "href": "/tools/jpg-to-png"
+        },
+        {
+          "title": "JPG to GIF",
+          "href": "/tools/jpg-to-gif"
+        }
+      ],
+      "blogPosts": [
+        {
+          "title": "Converting JPG to WEBP: Complete Guide",
+          "subtitle": "Conversion Tutorial",
+          "description": "Step-by-step guide to converting JPG files to WEBP format with best practices and tips.",
+          "href": "#",
+          "category": "HOW TO CONVERT FILES"
+        },
+        {
+          "title": "JPG vs WEBP: Which Format to Choose?",
+          "subtitle": "Format Comparison",
+          "description": "Detailed comparison of JPG and WEBP formats, including use cases, advantages, and limitations.",
+          "href": "#",
+          "category": "FORMAT GUIDES"
+        },
+        {
+          "title": "Batch Convert JPG Files",
+          "subtitle": "Productivity Tips",
+          "description": "Learn how to efficiently convert multiple JPG files at once, saving time and effort.",
+          "href": "#",
+          "category": "PRODUCTIVITY"
+        }
+      ]
+    }
   },
   {
     "id": "jpeg-to-webp",
@@ -1725,7 +2292,114 @@
     "route": "/tools/jpeg-to-webp",
     "from": "jpeg",
     "to": "webp",
-    "isActive": true
+    "isActive": true,
+    "content": {
+      "tool": {
+        "title": "JPEG to WebP",
+        "subtitle": "Convert JPEG to WebP format",
+        "from": "jpeg",
+        "to": "webp"
+      },
+      "videoSection": {
+        "embedId": "jpeg-to-webp-tutorial"
+      },
+      "faqs": [
+        {
+          "question": "What is JPEG format?",
+          "answer": "Same as JPG, just a different extension name"
+        },
+        {
+          "question": "Why convert JPEG to WEBP?",
+          "answer": "Converting from JPEG to WEBP can provide benefits like 25-35% smaller than jpeg/png, supports animation, transparency support."
+        },
+        {
+          "question": "Will I lose quality during conversion?",
+          "answer": "Some quality loss may occur when converting between compressed formats. We optimize settings to maintain the best possible quality during conversion."
+        },
+        {
+          "question": "Is my data secure?",
+          "answer": "Yes! All conversions happen locally in your browser. Your files never leave your device and aren't uploaded to any server, ensuring complete privacy and security."
+        },
+        {
+          "question": "Can I convert multiple files at once?",
+          "answer": "Yes! You can select and convert multiple files simultaneously. Each file is processed individually and downloaded automatically when ready."
+        },
+        {
+          "question": "What's the maximum file size?",
+          "answer": "Since processing happens in your browser, the limit depends on your device's available memory. Most modern devices can handle files up to several hundred megabytes."
+        }
+      ],
+      "aboutSection": {
+        "title": "JPEG vs WEBP: Understanding the Formats",
+        "fromFormat": {
+          "name": "JPEG",
+          "fullName": "Joint Photographic Experts Group",
+          "description": "Same as JPG, just a different extension name",
+          "details": [
+            "Identical to JPG format",
+            "Universal support",
+            "Lossy compression",
+            "Good for photos",
+            "Small file sizes"
+          ]
+        },
+        "toFormat": {
+          "name": "WEBP",
+          "fullName": "Web Picture Format",
+          "description": "Modern format by Google with superior compression",
+          "details": [
+            "25-35% smaller than JPEG/PNG",
+            "Supports animation",
+            "Transparency support",
+            "Both lossy and lossless",
+            "Growing browser support"
+          ]
+        }
+      },
+      "changelog": [
+        {
+          "date": "January 2025",
+          "changes": [
+            "Launched JPEG to WebP converter",
+            "Added batch processing support",
+            "Implemented privacy-first browser conversion"
+          ]
+        }
+      ],
+      "relatedTools": [
+        {
+          "title": "JPG to WEBP",
+          "href": "/tools/jpg-to-webp"
+        },
+        {
+          "title": "WEBP to JPEG",
+          "href": "/tools/webp-to-jpeg"
+        }
+      ],
+      "blogPosts": [
+        {
+          "title": "Converting JPEG to WEBP: Complete Guide",
+          "subtitle": "Conversion Tutorial",
+          "description": "Step-by-step guide to converting JPEG files to WEBP format with best practices and tips.",
+          "href": "#",
+          "category": "HOW TO CONVERT FILES"
+        },
+        {
+          "title": "JPEG vs WEBP: Which Format to Choose?",
+          "subtitle": "Format Comparison",
+          "description": "Detailed comparison of JPEG and WEBP formats, including use cases, advantages, and limitations.",
+          "href": "#",
+          "category": "FORMAT GUIDES"
+        },
+        {
+          "title": "Batch Convert JPEG Files",
+          "subtitle": "Productivity Tips",
+          "description": "Learn how to efficiently convert multiple JPEG files at once, saving time and effort.",
+          "href": "#",
+          "category": "PRODUCTIVITY"
+        }
+      ]
+    }
   },
   {
     "id": "gif-to-webp",
@@ -1735,7 +2409,118 @@
     "route": "/tools/gif-to-webp",
     "from": "gif",
     "to": "webp",
-    "isActive": true
+    "isActive": true,
+    "content": {
+      "tool": {
+        "title": "GIF to WebP",
+        "subtitle": "Convert animated GIFs to WebP",
+        "from": "gif",
+        "to": "webp"
+      },
+      "videoSection": {
+        "embedId": "gif-to-webp-tutorial"
+      },
+      "faqs": [
+        {
+          "question": "What is GIF format?",
+          "answer": "Legacy format known for animations and simple graphics"
+        },
+        {
+          "question": "Why convert GIF to WEBP?",
+          "answer": "Converting from GIF to WEBP can provide benefits like 25-35% smaller than jpeg/png, supports animation, transparency support."
+        },
+        {
+          "question": "Will I lose quality during conversion?",
+          "answer": "The conversion maintains optimal quality. We use high-quality settings to ensure the best possible output while keeping file sizes reasonable."
+        },
+        {
+          "question": "Is my data secure?",
+          "answer": "Yes! All conversions happen locally in your browser. Your files never leave your device and aren't uploaded to any server, ensuring complete privacy and security."
+        },
+        {
+          "question": "Can I convert multiple files at once?",
+          "answer": "Yes! You can select and convert multiple files simultaneously. Each file is processed individually and downloaded automatically when ready."
+        },
+        {
+          "question": "What's the maximum file size?",
+          "answer": "Since processing happens in your browser, the limit depends on your device's available memory. Most modern devices can handle files up to several hundred megabytes."
+        }
+      ],
+      "aboutSection": {
+        "title": "GIF vs WEBP: Understanding the Formats",
+        "fromFormat": {
+          "name": "GIF",
+          "fullName": "Graphics Interchange Format",
+          "description": "Legacy format known for animations and simple graphics",
+          "details": [
+            "Animation support",
+            "256 color limit",
+            "Lossless compression",
+            "Small file sizes for simple images",
+            "Universal support"
+          ]
+        },
+        "toFormat": {
+          "name": "WEBP",
+          "fullName": "Web Picture Format",
+          "description": "Modern format by Google with superior compression",
+          "details": [
+            "25-35% smaller than JPEG/PNG",
+            "Supports animation",
+            "Transparency support",
+            "Both lossy and lossless",
+            "Growing browser support"
+          ]
+        }
+      },
+      "changelog": [
+        {
+          "date": "January 2025",
+          "changes": [
+            "Launched GIF to WebP converter",
+            "Added batch processing support",
+            "Implemented privacy-first browser conversion"
+          ]
+        }
+      ],
+      "relatedTools": [
+        {
+          "title": "WEBP to GIF",
+          "href": "/tools/webp-to-gif"
+        },
+        {
+          "title": "GIF to JPG",
+          "href": "/tools/gif-to-jpg"
+        },
+        {
+          "title": "GIF to PNG",
+          "href": "/tools/gif-to-png"
+        }
+      ],
+      "blogPosts": [
+        {
+          "title": "Converting GIF to WEBP: Complete Guide",
+          "subtitle": "Conversion Tutorial",
+          "description": "Step-by-step guide to converting GIF files to WEBP format with best practices and tips.",
+          "href": "#",
+          "category": "HOW TO CONVERT FILES"
+        },
+        {
+          "title": "GIF vs WEBP: Which Format to Choose?",
+          "subtitle": "Format Comparison",
+          "description": "Detailed comparison of GIF and WEBP formats, including use cases, advantages, and limitations.",
+          "href": "#",
+          "category": "FORMAT GUIDES"
+        },
+        {
+          "title": "Batch Convert GIF Files",
+          "subtitle": "Productivity Tips",
+          "description": "Learn how to efficiently convert multiple GIF files at once, saving time and effort.",
+          "href": "#",
+          "category": "PRODUCTIVITY"
+        }
+      ]
+    }
   },
   {
     "id": "avif-to-png",
@@ -2019,7 +2804,110 @@
     "route": "/tools/avif-to-jpeg",
     "from": "avif",
     "to": "jpeg",
-    "isActive": true
+    "isActive": true,
+    "content": {
+      "tool": {
+        "title": "AVIF to JPEG",
+        "subtitle": "Convert AVIF to JPEG format",
+        "from": "avif",
+        "to": "jpeg"
+      },
+      "videoSection": {
+        "embedId": "avif-to-jpeg-tutorial"
+      },
+      "faqs": [
+        {
+          "question": "What is AVIF format?",
+          "answer": "Next-generation image format with exceptional compression"
+        },
+        {
+          "question": "Why convert AVIF to JPEG?",
+          "answer": "Converting from AVIF to JPEG can provide benefits like identical to jpg format, universal support, lossy compression."
+        },
+        {
+          "question": "Will I lose quality during conversion?",
+          "answer": "The conversion maintains optimal quality. We use high-quality settings to ensure the best possible output while keeping file sizes reasonable."
+        },
+        {
+          "question": "Is my data secure?",
+          "answer": "Yes! All conversions happen locally in your browser. Your files never leave your device and aren't uploaded to any server, ensuring complete privacy and security."
+        },
+        {
+          "question": "Can I convert multiple files at once?",
+          "answer": "Yes! You can select and convert multiple files simultaneously. Each file is processed individually and downloaded automatically when ready."
+        },
+        {
+          "question": "What's the maximum file size?",
+          "answer": "Since processing happens in your browser, the limit depends on your device's available memory. Most modern devices can handle files up to several hundred megabytes."
+        }
+      ],
+      "aboutSection": {
+        "title": "AVIF vs JPEG: Understanding the Formats",
+        "fromFormat": {
+          "name": "AVIF",
+          "fullName": "AV1 Image File Format",
+          "description": "Next-generation image format with exceptional compression",
+          "details": [
+            "50% smaller than JPEG",
+            "HDR support",
+            "Transparency support",
+            "Based on AV1 video codec",
+            "Growing browser support"
+          ]
+        },
+        "toFormat": {
+          "name": "JPEG",
+          "fullName": "Joint Photographic Experts Group",
+          "description": "Same as JPG, just a different extension name",
+          "details": [
+            "Identical to JPG format",
+            "Universal support",
+            "Lossy compression",
+            "Good for photos",
+            "Small file sizes"
+          ]
+        }
+      },
+      "changelog": [
+        {
+          "date": "January 2025",
+          "changes": [
+            "Launched AVIF to JPEG converter",
+            "Added batch processing support",
+            "Implemented privacy-first browser conversion"
+          ]
+        }
+      ],
+      "relatedTools": [
+        {
+          "title": "JPEG to AVIF",
+          "href": "/tools/jpeg-to-avif"
+        }
+      ],
+      "blogPosts": [
+        {
+          "title": "Converting AVIF to JPEG: Complete Guide",
+          "subtitle": "Conversion Tutorial",
+          "description": "Step-by-step guide to converting AVIF files to JPEG format with best practices and tips.",
+          "href": "#",
+          "category": "HOW TO CONVERT FILES"
+        },
+        {
+          "title": "AVIF vs JPEG: Which Format to Choose?",
+          "subtitle": "Format Comparison",
+          "description": "Detailed comparison of AVIF and JPEG formats, including use cases, advantages, and limitations.",
+          "href": "#",
+          "category": "FORMAT GUIDES"
+        },
+        {
+          "title": "Batch Convert AVIF Files",
+          "subtitle": "Productivity Tips",
+          "description": "Learn how to efficiently convert multiple AVIF files at once, saving time and effort.",
+          "href": "#",
+          "category": "PRODUCTIVITY"
+        }
+      ]
+    }
   },
   {
     "id": "bmp-to-jpg",
@@ -2029,7 +2917,118 @@
     "route": "/tools/bmp-to-jpg",
     "from": "bmp",
     "to": "jpg",
-    "isActive": true
+    "isActive": true,
+    "content": {
+      "tool": {
+        "title": "BMP to JPG",
+        "subtitle": "Convert BMP images to JPG",
+        "from": "bmp",
+        "to": "jpg"
+      },
+      "videoSection": {
+        "embedId": "bmp-to-jpg-tutorial"
+      },
+      "faqs": [
+        {
+          "question": "What is BMP format?",
+          "answer": "Uncompressed raster graphics format by Microsoft"
+        },
+        {
+          "question": "Why convert BMP to JPG?",
+          "answer": "Converting from BMP to JPG can provide benefits like excellent compression, universal compatibility, good for photographs."
+        },
+        {
+          "question": "Will I lose quality during conversion?",
+          "answer": "Converting from lossless BMP to JPG involves compression, which may result in some quality loss. We use optimal settings to minimize any visible differences."
+        },
+        {
+          "question": "Is my data secure?",
+          "answer": "Yes! All conversions happen locally in your browser. Your files never leave your device and aren't uploaded to any server, ensuring complete privacy and security."
+        },
+        {
+          "question": "Can I convert multiple files at once?",
+          "answer": "Yes! You can select and convert multiple files simultaneously. Each file is processed individually and downloaded automatically when ready."
+        },
+        {
+          "question": "What's the maximum file size?",
+          "answer": "Since processing happens in your browser, the limit depends on your device's available memory. Most modern devices can handle files up to several hundred megabytes."
+        }
+      ],
+      "aboutSection": {
+        "title": "BMP vs JPG: Understanding the Formats",
+        "fromFormat": {
+          "name": "BMP",
+          "fullName": "Bitmap Image File",
+          "description": "Uncompressed raster graphics format by Microsoft",
+          "details": [
+            "No compression",
+            "Large file sizes",
+            "Perfect quality",
+            "Simple structure",
+            "Windows native format"
+          ]
+        },
+        "toFormat": {
+          "name": "JPG",
+          "fullName": "Joint Photographic Experts Group",
+          "description": "The most widely used lossy compression format for digital images",
+          "details": [
+            "Excellent compression",
+            "Universal compatibility",
+            "Good for photographs",
+            "No transparency support",
+            "Lossy compression"
+          ]
+        }
+      },
+      "changelog": [
+        {
+          "date": "January 2025",
+          "changes": [
+            "Launched BMP to JPG converter",
+            "Added batch processing support",
+            "Implemented privacy-first browser conversion"
+          ]
+        }
+      ],
+      "relatedTools": [
+        {
+          "title": "JPG to BMP",
+          "href": "/tools/jpg-to-bmp"
+        },
+        {
+          "title": "BMP to PNG",
+          "href": "/tools/bmp-to-png"
+        },
+        {
+          "title": "BMP to WEBP",
+          "href": "/tools/bmp-to-webp"
+        }
+      ],
+      "blogPosts": [
+        {
+          "title": "Converting BMP to JPG: Complete Guide",
+          "subtitle": "Conversion Tutorial",
+          "description": "Step-by-step guide to converting BMP files to JPG format with best practices and tips.",
+          "href": "#",
+          "category": "HOW TO CONVERT FILES"
+        },
+        {
+          "title": "BMP vs JPG: Which Format to Choose?",
+          "subtitle": "Format Comparison",
+          "description": "Detailed comparison of BMP and JPG formats, including use cases, advantages, and limitations.",
+          "href": "#",
+          "category": "FORMAT GUIDES"
+        },
+        {
+          "title": "Batch Convert BMP Files",
+          "subtitle": "Productivity Tips",
+          "description": "Learn how to efficiently convert multiple BMP files at once, saving time and effort.",
+          "href": "#",
+          "category": "PRODUCTIVITY"
+        }
+      ]
+    }
   },
   {
     "id": "bmp-to-png",
@@ -2039,7 +3038,118 @@
     "route": "/tools/bmp-to-png",
     "from": "bmp",
     "to": "png",
-    "isActive": true
+    "isActive": true,
+    "content": {
+      "tool": {
+        "title": "BMP to PNG",
+        "subtitle": "Convert BMP images to PNG",
+        "from": "bmp",
+        "to": "png"
+      },
+      "videoSection": {
+        "embedId": "bmp-to-png-tutorial"
+      },
+      "faqs": [
+        {
+          "question": "What is BMP format?",
+          "answer": "Uncompressed raster graphics format by Microsoft"
+        },
+        {
+          "question": "Why convert BMP to PNG?",
+          "answer": "Converting from BMP to PNG can provide benefits like lossless compression, transparency support, better for graphics."
+        },
+        {
+          "question": "Will I lose quality during conversion?",
+          "answer": "The conversion maintains optimal quality. We use high-quality settings to ensure the best possible output while keeping file sizes reasonable."
+        },
+        {
+          "question": "Is my data secure?",
+          "answer": "Yes! All conversions happen locally in your browser. Your files never leave your device and aren't uploaded to any server, ensuring complete privacy and security."
+        },
+        {
+          "question": "Can I convert multiple files at once?",
+          "answer": "Yes! You can select and convert multiple files simultaneously. Each file is processed individually and downloaded automatically when ready."
+        },
+        {
+          "question": "What's the maximum file size?",
+          "answer": "Since processing happens in your browser, the limit depends on your device's available memory. Most modern devices can handle files up to several hundred megabytes."
+        }
+      ],
+      "aboutSection": {
+        "title": "BMP vs PNG: Understanding the Formats",
+        "fromFormat": {
+          "name": "BMP",
+          "fullName": "Bitmap Image File",
+          "description": "Uncompressed raster graphics format by Microsoft",
+          "details": [
+            "No compression",
+            "Large file sizes",
+            "Perfect quality",
+            "Simple structure",
+            "Windows native format"
+          ]
+        },
+        "toFormat": {
+          "name": "PNG",
+          "fullName": "Portable Network Graphics",
+          "description": "Lossless compression format with transparency support",
+          "details": [
+            "Lossless compression",
+            "Transparency support",
+            "Better for graphics",
+            "Larger file sizes",
+            "Web-friendly"
+          ]
+        }
+      },
+      "changelog": [
+        {
+          "date": "January 2025",
+          "changes": [
+            "Launched BMP to PNG converter",
+            "Added batch processing support",
+            "Implemented privacy-first browser conversion"
+          ]
+        }
+      ],
+      "relatedTools": [
+        {
+          "title": "PNG to BMP",
+          "href": "/tools/png-to-bmp"
+        },
+        {
+          "title": "BMP to JPG",
+          "href": "/tools/bmp-to-jpg"
+        },
+        {
+          "title": "BMP to WEBP",
+          "href": "/tools/bmp-to-webp"
+        }
+      ],
+      "blogPosts": [
+        {
+          "title": "Converting BMP to PNG: Complete Guide",
+          "subtitle": "Conversion Tutorial",
+          "description": "Step-by-step guide to converting BMP files to PNG format with best practices and tips.",
+          "href": "#",
+          "category": "HOW TO CONVERT FILES"
+        },
+        {
+          "title": "BMP vs PNG: Which Format to Choose?",
+          "subtitle": "Format Comparison",
+          "description": "Detailed comparison of BMP and PNG formats, including use cases, advantages, and limitations.",
+          "href": "#",
+          "category": "FORMAT GUIDES"
+        },
+        {
+          "title": "Batch Convert BMP Files",
+          "subtitle": "Productivity Tips",
+          "description": "Learn how to efficiently convert multiple BMP files at once, saving time and effort.",
+          "href": "#",
+          "category": "PRODUCTIVITY"
+        }
+      ]
+    }
   },
   {
     "id": "ico-to-png",
@@ -2049,7 +3159,110 @@
     "route": "/tools/ico-to-png",
     "from": "ico",
     "to": "png",
-    "isActive": true
+    "isActive": true,
+    "content": {
+      "tool": {
+        "title": "ICO to PNG",
+        "subtitle": "Convert ICO icons to PNG",
+        "from": "ico",
+        "to": "png"
+      },
+      "videoSection": {
+        "embedId": "ico-to-png-tutorial"
+      },
+      "faqs": [
+        {
+          "question": "What is ICO format?",
+          "answer": "Container format for Windows icons"
+        },
+        {
+          "question": "Why convert ICO to PNG?",
+          "answer": "Converting from ICO to PNG can provide benefits like lossless compression, transparency support, better for graphics."
+        },
+        {
+          "question": "Will I lose quality during conversion?",
+          "answer": "The conversion maintains optimal quality. We use high-quality settings to ensure the best possible output while keeping file sizes reasonable."
+        },
+        {
+          "question": "Is my data secure?",
+          "answer": "Yes! All conversions happen locally in your browser. Your files never leave your device and aren't uploaded to any server, ensuring complete privacy and security."
+        },
+        {
+          "question": "Can I convert multiple files at once?",
+          "answer": "Yes! You can select and convert multiple files simultaneously. Each file is processed individually and downloaded automatically when ready."
+        },
+        {
+          "question": "What's the maximum file size?",
+          "answer": "Since processing happens in your browser, the limit depends on your device's available memory. Most modern devices can handle files up to several hundred megabytes."
+        }
+      ],
+      "aboutSection": {
+        "title": "ICO vs PNG: Understanding the Formats",
+        "fromFormat": {
+          "name": "ICO",
+          "fullName": "Icon File",
+          "description": "Container format for Windows icons",
+          "details": [
+            "Multiple resolutions",
+            "Transparency support",
+            "Used for favicons",
+            "Windows application icons",
+            "Small file sizes"
+          ]
+        },
+        "toFormat": {
+          "name": "PNG",
+          "fullName": "Portable Network Graphics",
+          "description": "Lossless compression format with transparency support",
+          "details": [
+            "Lossless compression",
+            "Transparency support",
+            "Better for graphics",
+            "Larger file sizes",
+            "Web-friendly"
+          ]
+        }
+      },
+      "changelog": [
+        {
+          "date": "January 2025",
+          "changes": [
+            "Launched ICO to PNG converter",
+            "Added batch processing support",
+            "Implemented privacy-first browser conversion"
+          ]
+        }
+      ],
+      "relatedTools": [
+        {
+          "title": "PNG to ICO",
+          "href": "/tools/png-to-ico"
+        }
+      ],
+      "blogPosts": [
+        {
+          "title": "Converting ICO to PNG: Complete Guide",
+          "subtitle": "Conversion Tutorial",
+          "description": "Step-by-step guide to converting ICO files to PNG format with best practices and tips.",
+          "href": "#",
+          "category": "HOW TO CONVERT FILES"
+        },
+        {
+          "title": "ICO vs PNG: Which Format to Choose?",
+          "subtitle": "Format Comparison",
+          "description": "Detailed comparison of ICO and PNG formats, including use cases, advantages, and limitations.",
+          "href": "#",
+          "category": "FORMAT GUIDES"
+        },
+        {
+          "title": "Batch Convert ICO Files",
+          "subtitle": "Productivity Tips",
+          "description": "Learn how to efficiently convert multiple ICO files at once, saving time and effort.",
+          "href": "#",
+          "category": "PRODUCTIVITY"
+        }
+      ]
+    }
   },
   {
     "id": "gif-to-jpg",
@@ -2059,7 +3272,118 @@
     "route": "/tools/gif-to-jpg",
     "from": "gif",
     "to": "jpg",
-    "isActive": true
+    "isActive": true,
+    "content": {
+      "tool": {
+        "title": "GIF to JPG",
+        "subtitle": "Extract first frame as JPG",
+        "from": "gif",
+        "to": "jpg"
+      },
+      "videoSection": {
+        "embedId": "gif-to-jpg-tutorial"
+      },
+      "faqs": [
+        {
+          "question": "What is GIF format?",
+          "answer": "Legacy format known for animations and simple graphics"
+        },
+        {
+          "question": "Why convert GIF to JPG?",
+          "answer": "Converting from GIF to JPG can provide benefits like excellent compression, universal compatibility, good for photographs."
+        },
+        {
+          "question": "Will I lose quality during conversion?",
+          "answer": "The conversion maintains optimal quality. We use high-quality settings to ensure the best possible output while keeping file sizes reasonable."
+        },
+        {
+          "question": "Is my data secure?",
+          "answer": "Yes! All conversions happen locally in your browser. Your files never leave your device and aren't uploaded to any server, ensuring complete privacy and security."
+        },
+        {
+          "question": "Can I convert multiple files at once?",
+          "answer": "Yes! You can select and convert multiple files simultaneously. Each file is processed individually and downloaded automatically when ready."
+        },
+        {
+          "question": "What's the maximum file size?",
+          "answer": "Since processing happens in your browser, the limit depends on your device's available memory. Most modern devices can handle files up to several hundred megabytes."
+        }
+      ],
+      "aboutSection": {
+        "title": "GIF vs JPG: Understanding the Formats",
+        "fromFormat": {
+          "name": "GIF",
+          "fullName": "Graphics Interchange Format",
+          "description": "Legacy format known for animations and simple graphics",
+          "details": [
+            "Animation support",
+            "256 color limit",
+            "Lossless compression",
+            "Small file sizes for simple images",
+            "Universal support"
+          ]
+        },
+        "toFormat": {
+          "name": "JPG",
+          "fullName": "Joint Photographic Experts Group",
+          "description": "The most widely used lossy compression format for digital images",
+          "details": [
+            "Excellent compression",
+            "Universal compatibility",
+            "Good for photographs",
+            "No transparency support",
+            "Lossy compression"
+          ]
+        }
+      },
+      "changelog": [
+        {
+          "date": "January 2025",
+          "changes": [
+            "Launched GIF to JPG converter",
+            "Added batch processing support",
+            "Implemented privacy-first browser conversion"
+          ]
+        }
+      ],
+      "relatedTools": [
+        {
+          "title": "JPG to GIF",
+          "href": "/tools/jpg-to-gif"
+        },
+        {
+          "title": "GIF to PNG",
+          "href": "/tools/gif-to-png"
+        },
+        {
+          "title": "GIF to WEBP",
+          "href": "/tools/gif-to-webp"
+        }
+      ],
+      "blogPosts": [
+        {
+          "title": "Converting GIF to JPG: Complete Guide",
+          "subtitle": "Conversion Tutorial",
+          "description": "Step-by-step guide to converting GIF files to JPG format with best practices and tips.",
+          "href": "#",
+          "category": "HOW TO CONVERT FILES"
+        },
+        {
+          "title": "GIF vs JPG: Which Format to Choose?",
+          "subtitle": "Format Comparison",
+          "description": "Detailed comparison of GIF and JPG formats, including use cases, advantages, and limitations.",
+          "href": "#",
+          "category": "FORMAT GUIDES"
+        },
+        {
+          "title": "Batch Convert GIF Files",
+          "subtitle": "Productivity Tips",
+          "description": "Learn how to efficiently convert multiple GIF files at once, saving time and effort.",
+          "href": "#",
+          "category": "PRODUCTIVITY"
+        }
+      ]
+    }
   },
   {
     "id": "gif-to-png",
@@ -2719,7 +4043,110 @@
     "route": "/tools/cr2-to-jpg",
     "from": "cr2",
     "to": "jpg",
-    "isActive": true
+    "isActive": true,
+    "content": {
+      "tool": {
+        "title": "CR2 to JPG",
+        "subtitle": "Convert Canon CR2 RAW to JPG",
+        "from": "cr2",
+        "to": "jpg"
+      },
+      "videoSection": {
+        "embedId": "cr2-to-jpg-tutorial"
+      },
+      "faqs": [
+        {
+          "question": "What is CR2 format?",
+          "answer": "Canon's proprietary RAW image format"
+        },
+        {
+          "question": "Why convert CR2 to JPG?",
+          "answer": "Converting from CR2 to JPG can provide benefits like excellent compression, universal compatibility, good for photographs."
+        },
+        {
+          "question": "Will I lose quality during conversion?",
+          "answer": "The conversion maintains optimal quality. We use high-quality settings to ensure the best possible output while keeping file sizes reasonable."
+        },
+        {
+          "question": "Is my data secure?",
+          "answer": "Yes! All conversions happen locally in your browser. Your files never leave your device and aren't uploaded to any server, ensuring complete privacy and security."
+        },
+        {
+          "question": "Can I convert multiple files at once?",
+          "answer": "Yes! You can select and convert multiple files simultaneously. Each file is processed individually and downloaded automatically when ready."
+        },
+        {
+          "question": "What's the maximum file size?",
+          "answer": "Since processing happens in your browser, the limit depends on your device's available memory. Most modern devices can handle files up to several hundred megabytes."
+        }
+      ],
+      "aboutSection": {
+        "title": "CR2 vs JPG: Understanding the Formats",
+        "fromFormat": {
+          "name": "CR2",
+          "fullName": "Canon Raw Version 2",
+          "description": "Canon's proprietary RAW image format",
+          "details": [
+            "Unprocessed sensor data",
+            "Non-destructive editing",
+            "High quality",
+            "Large file sizes",
+            "Professional photography"
+          ]
+        },
+        "toFormat": {
+          "name": "JPG",
+          "fullName": "Joint Photographic Experts Group",
+          "description": "The most widely used lossy compression format for digital images",
+          "details": [
+            "Excellent compression",
+            "Universal compatibility",
+            "Good for photographs",
+            "No transparency support",
+            "Lossy compression"
+          ]
+        }
+      },
+      "changelog": [
+        {
+          "date": "January 2025",
+          "changes": [
+            "Launched CR2 to JPG converter",
+            "Added batch processing support",
+            "Implemented privacy-first browser conversion"
+          ]
+        }
+      ],
+      "relatedTools": [
+        {
+          "title": "JPG to CR2",
+          "href": "/tools/jpg-to-cr2"
+        }
+      ],
+      "blogPosts": [
+        {
+          "title": "Converting CR2 to JPG: Complete Guide",
+          "subtitle": "Conversion Tutorial",
+          "description": "Step-by-step guide to converting CR2 files to JPG format with best practices and tips.",
+          "href": "#",
+          "category": "HOW TO CONVERT FILES"
+        },
+        {
+          "title": "CR2 vs JPG: Which Format to Choose?",
+          "subtitle": "Format Comparison",
+          "description": "Detailed comparison of CR2 and JPG formats, including use cases, advantages, and limitations.",
+          "href": "#",
+          "category": "FORMAT GUIDES"
+        },
+        {
+          "title": "Batch Convert CR2 Files",
+          "subtitle": "Productivity Tips",
+          "description": "Learn how to efficiently convert multiple CR2 files at once, saving time and effort.",
+          "href": "#",
+          "category": "PRODUCTIVITY"
+        }
+      ]
+    }
   },
   {
     "id": "cr3-to-jpg",
@@ -2729,7 +4156,110 @@
     "route": "/tools/cr3-to-jpg",
     "from": "cr3",
     "to": "jpg",
-    "isActive": true
+    "isActive": true,
+    "content": {
+      "tool": {
+        "title": "CR3 to JPG",
+        "subtitle": "Convert Canon CR3 RAW to JPG",
+        "from": "cr3",
+        "to": "jpg"
+      },
+      "videoSection": {
+        "embedId": "cr3-to-jpg-tutorial"
+      },
+      "faqs": [
+        {
+          "question": "What is CR3 format?",
+          "answer": "Canon's latest RAW format with improved features"
+        },
+        {
+          "question": "Why convert CR3 to JPG?",
+          "answer": "Converting from CR3 to JPG can provide benefits like excellent compression, universal compatibility, good for photographs."
+        },
+        {
+          "question": "Will I lose quality during conversion?",
+          "answer": "The conversion maintains optimal quality. We use high-quality settings to ensure the best possible output while keeping file sizes reasonable."
+        },
+        {
+          "question": "Is my data secure?",
+          "answer": "Yes! All conversions happen locally in your browser. Your files never leave your device and aren't uploaded to any server, ensuring complete privacy and security."
+        },
+        {
+          "question": "Can I convert multiple files at once?",
+          "answer": "Yes! You can select and convert multiple files simultaneously. Each file is processed individually and downloaded automatically when ready."
+        },
+        {
+          "question": "What's the maximum file size?",
+          "answer": "Since processing happens in your browser, the limit depends on your device's available memory. Most modern devices can handle files up to several hundred megabytes."
+        }
+      ],
+      "aboutSection": {
+        "title": "CR3 vs JPG: Understanding the Formats",
+        "fromFormat": {
+          "name": "CR3",
+          "fullName": "Canon Raw Version 3",
+          "description": "Canon's latest RAW format with improved features",
+          "details": [
+            "Better compression than CR2",
+            "C-RAW option",
+            "HEIF-based container",
+            "Metadata support",
+            "Professional quality"
+          ]
+        },
+        "toFormat": {
+          "name": "JPG",
+          "fullName": "Joint Photographic Experts Group",
+          "description": "The most widely used lossy compression format for digital images",
+          "details": [
+            "Excellent compression",
+            "Universal compatibility",
+            "Good for photographs",
+            "No transparency support",
+            "Lossy compression"
+          ]
+        }
+      },
+      "changelog": [
+        {
+          "date": "January 2025",
+          "changes": [
+            "Launched CR3 to JPG converter",
+            "Added batch processing support",
+            "Implemented privacy-first browser conversion"
+          ]
+        }
+      ],
+      "relatedTools": [
+        {
+          "title": "JPG to CR3",
+          "href": "/tools/jpg-to-cr3"
+        }
+      ],
+      "blogPosts": [
+        {
+          "title": "Converting CR3 to JPG: Complete Guide",
+          "subtitle": "Conversion Tutorial",
+          "description": "Step-by-step guide to converting CR3 files to JPG format with best practices and tips.",
+          "href": "#",
+          "category": "HOW TO CONVERT FILES"
+        },
+        {
+          "title": "CR3 vs JPG: Which Format to Choose?",
+          "subtitle": "Format Comparison",
+          "description": "Detailed comparison of CR3 and JPG formats, including use cases, advantages, and limitations.",
+          "href": "#",
+          "category": "FORMAT GUIDES"
+        },
+        {
+          "title": "Batch Convert CR3 Files",
+          "subtitle": "Productivity Tips",
+          "description": "Learn how to efficiently convert multiple CR3 files at once, saving time and effort.",
+          "href": "#",
+          "category": "PRODUCTIVITY"
+        }
+      ]
+    }
   },
   {
     "id": "dng-to-jpg",
@@ -2739,7 +4269,110 @@
     "route": "/tools/dng-to-jpg",
     "from": "dng",
     "to": "jpg",
-    "isActive": true
+    "isActive": true,
+    "content": {
+      "tool": {
+        "title": "DNG to JPG",
+        "subtitle": "Convert Adobe DNG to JPG",
+        "from": "dng",
+        "to": "jpg"
+      },
+      "videoSection": {
+        "embedId": "dng-to-jpg-tutorial"
+      },
+      "faqs": [
+        {
+          "question": "What is DNG format?",
+          "answer": "Adobe's open-source RAW image format"
+        },
+        {
+          "question": "Why convert DNG to JPG?",
+          "answer": "Converting from DNG to JPG can provide benefits like excellent compression, universal compatibility, good for photographs."
+        },
+        {
+          "question": "Will I lose quality during conversion?",
+          "answer": "The conversion maintains optimal quality. We use high-quality settings to ensure the best possible output while keeping file sizes reasonable."
+        },
+        {
+          "question": "Is my data secure?",
+          "answer": "Yes! All conversions happen locally in your browser. Your files never leave your device and aren't uploaded to any server, ensuring complete privacy and security."
+        },
+        {
+          "question": "Can I convert multiple files at once?",
+          "answer": "Yes! You can select and convert multiple files simultaneously. Each file is processed individually and downloaded automatically when ready."
+        },
+        {
+          "question": "What's the maximum file size?",
+          "answer": "Since processing happens in your browser, the limit depends on your device's available memory. Most modern devices can handle files up to several hundred megabytes."
+        }
+      ],
+      "aboutSection": {
+        "title": "DNG vs JPG: Understanding the Formats",
+        "fromFormat": {
+          "name": "DNG",
+          "fullName": "Digital Negative",
+          "description": "Adobe's open-source RAW image format",
+          "details": [
+            "Universal RAW format",
+            "Lossless compression",
+            "Metadata preservation",
+            "Wide software support",
+            "Archival quality"
+          ]
+        },
+        "toFormat": {
+          "name": "JPG",
+          "fullName": "Joint Photographic Experts Group",
+          "description": "The most widely used lossy compression format for digital images",
+          "details": [
+            "Excellent compression",
+            "Universal compatibility",
+            "Good for photographs",
+            "No transparency support",
+            "Lossy compression"
+          ]
+        }
+      },
+      "changelog": [
+        {
+          "date": "January 2025",
+          "changes": [
+            "Launched DNG to JPG converter",
+            "Added batch processing support",
+            "Implemented privacy-first browser conversion"
+          ]
+        }
+      ],
+      "relatedTools": [
+        {
+          "title": "JPG to DNG",
+          "href": "/tools/jpg-to-dng"
+        }
+      ],
+      "blogPosts": [
+        {
+          "title": "Converting DNG to JPG: Complete Guide",
+          "subtitle": "Conversion Tutorial",
+          "description": "Step-by-step guide to converting DNG files to JPG format with best practices and tips.",
+          "href": "#",
+          "category": "HOW TO CONVERT FILES"
+        },
+        {
+          "title": "DNG vs JPG: Which Format to Choose?",
+          "subtitle": "Format Comparison",
+          "description": "Detailed comparison of DNG and JPG formats, including use cases, advantages, and limitations.",
+          "href": "#",
+          "category": "FORMAT GUIDES"
+        },
+        {
+          "title": "Batch Convert DNG Files",
+          "subtitle": "Productivity Tips",
+          "description": "Learn how to efficiently convert multiple DNG files at once, saving time and effort.",
+          "href": "#",
+          "category": "PRODUCTIVITY"
+        }
+      ]
+    }
   },
   {
     "id": "arw-to-jpg",
@@ -2749,7 +4382,110 @@
     "route": "/tools/arw-to-jpg",
     "from": "arw",
     "to": "jpg",
-    "isActive": true
+    "isActive": true,
+    "content": {
+      "tool": {
+        "title": "ARW to JPG",
+        "subtitle": "Convert Sony ARW RAW to JPG",
+        "from": "arw",
+        "to": "jpg"
+      },
+      "videoSection": {
+        "embedId": "arw-to-jpg-tutorial"
+      },
+      "faqs": [
+        {
+          "question": "What is ARW format?",
+          "answer": "Sony's proprietary RAW image format"
+        },
+        {
+          "question": "Why convert ARW to JPG?",
+          "answer": "Converting from ARW to JPG can provide benefits like excellent compression, universal compatibility, good for photographs."
+        },
+        {
+          "question": "Will I lose quality during conversion?",
+          "answer": "The conversion maintains optimal quality. We use high-quality settings to ensure the best possible output while keeping file sizes reasonable."
+        },
+        {
+          "question": "Is my data secure?",
+          "answer": "Yes! All conversions happen locally in your browser. Your files never leave your device and aren't uploaded to any server, ensuring complete privacy and security."
+        },
+        {
+          "question": "Can I convert multiple files at once?",
+          "answer": "Yes! You can select and convert multiple files simultaneously. Each file is processed individually and downloaded automatically when ready."
+        },
+        {
+          "question": "What's the maximum file size?",
+          "answer": "Since processing happens in your browser, the limit depends on your device's available memory. Most modern devices can handle files up to several hundred megabytes."
+        }
+      ],
+      "aboutSection": {
+        "title": "ARW vs JPG: Understanding the Formats",
+        "fromFormat": {
+          "name": "ARW",
+          "fullName": "Sony Alpha Raw",
+          "description": "Sony's proprietary RAW image format",
+          "details": [
+            "Uncompressed sensor data",
+            "14-bit color depth",
+            "Non-destructive editing",
+            "Professional quality",
+            "Sony camera specific"
+          ]
+        },
+        "toFormat": {
+          "name": "JPG",
+          "fullName": "Joint Photographic Experts Group",
+          "description": "The most widely used lossy compression format for digital images",
+          "details": [
+            "Excellent compression",
+            "Universal compatibility",
+            "Good for photographs",
+            "No transparency support",
+            "Lossy compression"
+          ]
+        }
+      },
+      "changelog": [
+        {
+          "date": "January 2025",
+          "changes": [
+            "Launched ARW to JPG converter",
+            "Added batch processing support",
+            "Implemented privacy-first browser conversion"
+          ]
+        }
+      ],
+      "relatedTools": [
+        {
+          "title": "JPG to ARW",
+          "href": "/tools/jpg-to-arw"
+        }
+      ],
+      "blogPosts": [
+        {
+          "title": "Converting ARW to JPG: Complete Guide",
+          "subtitle": "Conversion Tutorial",
+          "description": "Step-by-step guide to converting ARW files to JPG format with best practices and tips.",
+          "href": "#",
+          "category": "HOW TO CONVERT FILES"
+        },
+        {
+          "title": "ARW vs JPG: Which Format to Choose?",
+          "subtitle": "Format Comparison",
+          "description": "Detailed comparison of ARW and JPG formats, including use cases, advantages, and limitations.",
+          "href": "#",
+          "category": "FORMAT GUIDES"
+        },
+        {
+          "title": "Batch Convert ARW Files",
+          "subtitle": "Productivity Tips",
+          "description": "Learn how to efficiently convert multiple ARW files at once, saving time and effort.",
+          "href": "#",
+          "category": "PRODUCTIVITY"
+        }
+      ]
+    }
   },
   {
     "id": "jpg-to-svg",
@@ -2896,7 +4632,107 @@
       "optimize",
       "image"
     ],
-    "priority": 8
+    "priority": 8,
+    "content": {
+      "tool": {
+        "title": "PNG Optimizer",
+        "subtitle": "Optimize and compress PNG files without quality loss. Reduce file sizes while maintaining image quality.",
+        "from": "png",
+        "to": "png"
+      },
+      "videoSection": {
+        "embedId": "png-to-png-tutorial"
+      },
+      "faqs": [
+        {
+          "question": "Why optimize PNG files?",
+          "answer": "Optimizing PNG files reduces their size without visible quality loss, making them faster to load on websites, easier to share via email, and taking up less storage space."
+        },
+        {
+          "question": "How much can file size be reduced?",
+          "answer": "Typically 20-80% size reduction depending on the original file. Our optimizer uses smart compression algorithms to maintain visual quality while minimizing file size."
+        },
+        {
+          "question": "Will optimization affect image quality?",
+          "answer": "Our optimizer uses lossless compression techniques when possible, ensuring no visible quality loss. You can also adjust compression levels to balance size and quality."
+        },
+        {
+          "question": "Is my data secure?",
+          "answer": "Yes! All conversions happen locally in your browser. Your files never leave your device and aren't uploaded to any server, ensuring complete privacy and security."
+        },
+        {
+          "question": "Can I convert multiple files at once?",
+          "answer": "Yes! You can select and convert multiple files simultaneously. Each file is processed individually and downloaded automatically when ready."
+        },
+        {
+          "question": "What's the maximum file size?",
+          "answer": "Since processing happens in your browser, the limit depends on your device's available memory. Most modern devices can handle files up to several hundred megabytes."
+        }
+      ],
+      "aboutSection": {
+        "title": "PNG Optimization: Reducing File Sizes Intelligently",
+        "fromFormat": {
+          "name": "Original PNG",
+          "fullName": "Portable Network Graphics",
+          "description": "Your original file before optimization",
+          "details": [
+            "Original quality preserved",
+            "Metadata maintained",
+            "Full resolution",
+            "Unoptimized file size",
+            "May contain redundant data"
+          ]
+        },
+        "toFormat": {
+          "name": "Optimized PNG",
+          "fullName": "Portable Network Graphics",
+          "description": "Your file after smart optimization",
+          "details": [
+            "Reduced file size",
+            "Maintained visual quality",
+            "Faster loading times",
+            "Optimized for web use",
+            "Efficient compression"
+          ]
+        }
+      },
+      "changelog": [
+        {
+          "date": "January 2025",
+          "changes": [
+            "Launched PNG Optimizer converter",
+            "Added batch processing support",
+            "Implemented privacy-first browser conversion"
+          ]
+        }
+      ],
+      "relatedTools": [
+        {
+          "title": "PNG to JPG",
+          "href": "/tools/png-to-jpg"
+        },
+        {
+          "title": "PNG to WEBP",
+          "href": "/tools/png-to-webp"
+        }
+      ],
+      "blogPosts": [
+        {
+          "title": "How to Optimize PNG Files for Web",
+          "subtitle": "Optimization Guide",
+          "description": "Learn the best practices for optimizing PNG files to improve website performance and user experience.",
+          "href": "#",
+          "category": "OPTIMIZATION GUIDES"
+        },
+        {
+          "title": "PNG Compression Techniques Explained",
+          "subtitle": "Technical Deep Dive",
+          "description": "Understanding different compression methods and how to choose the right settings for your needs.",
+          "href": "#",
+          "category": "TECHNICAL GUIDES"
+        }
+      ]
+    }
   },
   {
     "id": "csv-combiner",
@@ -3312,8 +5148,125 @@
     "from": "mkv",
     "to": "mp4",
     "isActive": true,
-    "tags": ["mkv", "mp4", "video", "convert", "movie"],
-    "priority": 7
+    "tags": [
+      "mkv",
+      "mp4",
+      "video",
+      "convert",
+      "movie"
+    ],
+    "priority": 7,
+    "content": {
+      "tool": {
+        "title": "MKV to MP4",
+        "subtitle": "Convert MKV video files to MP4 format",
+        "from": "mkv",
+        "to": "mp4"
+      },
+      "videoSection": {
+        "embedId": "mkv-to-mp4-tutorial"
+      },
+      "faqs": [
+        {
+          "question": "What is MKV format?",
+          "answer": "Open-source container format supporting multiple streams"
+        },
+        {
+          "question": "Why convert MKV to MP4?",
+          "answer": "Converting from MKV to MP4 can provide benefits like universal compatibility, good compression, streaming support."
+        },
+        {
+          "question": "Will I lose quality during conversion?",
+          "answer": "The conversion maintains optimal quality. We use high-quality settings to ensure the best possible output while keeping file sizes reasonable."
+        },
+        {
+          "question": "Is my data secure?",
+          "answer": "Yes! All conversions happen locally in your browser. Your files never leave your device and aren't uploaded to any server, ensuring complete privacy and security."
+        },
+        {
+          "question": "Can I convert multiple files at once?",
+          "answer": "Yes! You can select and convert multiple files simultaneously. Each file is processed individually and downloaded automatically when ready."
+        },
+        {
+          "question": "What's the maximum file size?",
+          "answer": "Since processing happens in your browser, the limit depends on your device's available memory. Most modern devices can handle files up to several hundred megabytes."
+        }
+      ],
+      "aboutSection": {
+        "title": "MKV vs MP4: Understanding the Formats",
+        "fromFormat": {
+          "name": "MKV",
+          "fullName": "Matroska Video",
+          "description": "Open-source container format supporting multiple streams",
+          "details": [
+            "Multiple audio/subtitle tracks",
+            "Chapter markers",
+            "High quality",
+            "Open source",
+            "Flexible container"
+          ]
+        },
+        "toFormat": {
+          "name": "MP4",
+          "fullName": "MPEG-4 Part 14",
+          "description": "The most widely supported video container format",
+          "details": [
+            "Universal compatibility",
+            "Good compression",
+            "Streaming support",
+            "Metadata support",
+            "H.264/H.265 codec support"
+          ]
+        }
+      },
+      "changelog": [
+        {
+          "date": "January 2025",
+          "changes": [
+            "Launched MKV to MP4 converter",
+            "Added batch processing support",
+            "Implemented privacy-first browser conversion"
+          ]
+        }
+      ],
+      "relatedTools": [
+        {
+          "title": "MP4 to MKV",
+          "href": "/tools/mp4-to-mkv"
+        },
+        {
+          "title": "MKV to WEBM",
+          "href": "/tools/mkv-to-webm"
+        },
+        {
+          "title": "MKV to AVI",
+          "href": "/tools/mkv-to-avi"
+        }
+      ],
+      "blogPosts": [
+        {
+          "title": "Converting MKV to MP4: Complete Guide",
+          "subtitle": "Conversion Tutorial",
+          "description": "Step-by-step guide to converting MKV files to MP4 format with best practices and tips.",
+          "href": "#",
+          "category": "HOW TO CONVERT FILES"
+        },
+        {
+          "title": "MKV vs MP4: Which Format to Choose?",
+          "subtitle": "Format Comparison",
+          "description": "Detailed comparison of MKV and MP4 formats, including use cases, advantages, and limitations.",
+          "href": "#",
+          "category": "FORMAT GUIDES"
+        },
+        {
+          "title": "Batch Convert MKV Files",
+          "subtitle": "Productivity Tips",
+          "description": "Learn how to efficiently convert multiple MKV files at once, saving time and effort.",
+          "href": "#",
+          "category": "PRODUCTIVITY"
+        }
+      ]
+    }
   },
   {
     "id": "mkv-to-webm",
@@ -3324,8 +5277,125 @@
     "from": "mkv",
     "to": "webm",
     "isActive": true,
-    "tags": ["mkv", "webm", "video", "convert", "web"],
-    "priority": 6
+    "tags": [
+      "mkv",
+      "webm",
+      "video",
+      "convert",
+      "web"
+    ],
+    "priority": 6,
+    "content": {
+      "tool": {
+        "title": "MKV to WebM",
+        "subtitle": "Convert MKV video files to WebM format",
+        "from": "mkv",
+        "to": "webm"
+      },
+      "videoSection": {
+        "embedId": "mkv-to-webm-tutorial"
+      },
+      "faqs": [
+        {
+          "question": "What is MKV format?",
+          "answer": "Open-source container format supporting multiple streams"
+        },
+        {
+          "question": "Why convert MKV to WEBM?",
+          "answer": "Converting from MKV to WEBM can provide benefits like royalty-free, web-optimized, vp8/vp9 codecs."
+        },
+        {
+          "question": "Will I lose quality during conversion?",
+          "answer": "The conversion maintains optimal quality. We use high-quality settings to ensure the best possible output while keeping file sizes reasonable."
+        },
+        {
+          "question": "Is my data secure?",
+          "answer": "Yes! All conversions happen locally in your browser. Your files never leave your device and aren't uploaded to any server, ensuring complete privacy and security."
+        },
+        {
+          "question": "Can I convert multiple files at once?",
+          "answer": "Yes! You can select and convert multiple files simultaneously. Each file is processed individually and downloaded automatically when ready."
+        },
+        {
+          "question": "What's the maximum file size?",
+          "answer": "Since processing happens in your browser, the limit depends on your device's available memory. Most modern devices can handle files up to several hundred megabytes."
+        }
+      ],
+      "aboutSection": {
+        "title": "MKV vs WEBM: Understanding the Formats",
+        "fromFormat": {
+          "name": "MKV",
+          "fullName": "Matroska Video",
+          "description": "Open-source container format supporting multiple streams",
+          "details": [
+            "Multiple audio/subtitle tracks",
+            "Chapter markers",
+            "High quality",
+            "Open source",
+            "Flexible container"
+          ]
+        },
+        "toFormat": {
+          "name": "WEBM",
+          "fullName": "Web Media",
+          "description": "Open-source format optimized for web streaming",
+          "details": [
+            "Royalty-free",
+            "Web-optimized",
+            "VP8/VP9 codecs",
+            "HTML5 support",
+            "Good compression"
+          ]
+        }
+      },
+      "changelog": [
+        {
+          "date": "January 2025",
+          "changes": [
+            "Launched MKV to WebM converter",
+            "Added batch processing support",
+            "Implemented privacy-first browser conversion"
+          ]
+        }
+      ],
+      "relatedTools": [
+        {
+          "title": "WEBM to MKV",
+          "href": "/tools/webm-to-mkv"
+        },
+        {
+          "title": "MKV to MP4",
+          "href": "/tools/mkv-to-mp4"
+        },
+        {
+          "title": "MKV to AVI",
+          "href": "/tools/mkv-to-avi"
+        }
+      ],
+      "blogPosts": [
+        {
+          "title": "Converting MKV to WEBM: Complete Guide",
+          "subtitle": "Conversion Tutorial",
+          "description": "Step-by-step guide to converting MKV files to WEBM format with best practices and tips.",
+          "href": "#",
+          "category": "HOW TO CONVERT FILES"
+        },
+        {
+          "title": "MKV vs WEBM: Which Format to Choose?",
+          "subtitle": "Format Comparison",
+          "description": "Detailed comparison of MKV and WEBM formats, including use cases, advantages, and limitations.",
+          "href": "#",
+          "category": "FORMAT GUIDES"
+        },
+        {
+          "title": "Batch Convert MKV Files",
+          "subtitle": "Productivity Tips",
+          "description": "Learn how to efficiently convert multiple MKV files at once, saving time and effort.",
+          "href": "#",
+          "category": "PRODUCTIVITY"
+        }
+      ]
+    }
   },
   {
     "id": "mkv-to-avi",
@@ -3336,8 +5406,125 @@
     "from": "mkv",
     "to": "avi",
     "isActive": true,
-    "tags": ["mkv", "avi", "video", "convert", "legacy"],
-    "priority": 5
+    "tags": [
+      "mkv",
+      "avi",
+      "video",
+      "convert",
+      "legacy"
+    ],
+    "priority": 5,
+    "content": {
+      "tool": {
+        "title": "MKV to AVI",
+        "subtitle": "Convert MKV video files to AVI format",
+        "from": "mkv",
+        "to": "avi"
+      },
+      "videoSection": {
+        "embedId": "mkv-to-avi-tutorial"
+      },
+      "faqs": [
+        {
+          "question": "What is MKV format?",
+          "answer": "Open-source container format supporting multiple streams"
+        },
+        {
+          "question": "Why convert MKV to AVI?",
+          "answer": "Converting from MKV to AVI can provide benefits like wide compatibility, simple structure, large file sizes."
+        },
+        {
+          "question": "Will I lose quality during conversion?",
+          "answer": "The conversion maintains optimal quality. We use high-quality settings to ensure the best possible output while keeping file sizes reasonable."
+        },
+        {
+          "question": "Is my data secure?",
+          "answer": "Yes! All conversions happen locally in your browser. Your files never leave your device and aren't uploaded to any server, ensuring complete privacy and security."
+        },
+        {
+          "question": "Can I convert multiple files at once?",
+          "answer": "Yes! You can select and convert multiple files simultaneously. Each file is processed individually and downloaded automatically when ready."
+        },
+        {
+          "question": "What's the maximum file size?",
+          "answer": "Since processing happens in your browser, the limit depends on your device's available memory. Most modern devices can handle files up to several hundred megabytes."
+        }
+      ],
+      "aboutSection": {
+        "title": "MKV vs AVI: Understanding the Formats",
+        "fromFormat": {
+          "name": "MKV",
+          "fullName": "Matroska Video",
+          "description": "Open-source container format supporting multiple streams",
+          "details": [
+            "Multiple audio/subtitle tracks",
+            "Chapter markers",
+            "High quality",
+            "Open source",
+            "Flexible container"
+          ]
+        },
+        "toFormat": {
+          "name": "AVI",
+          "fullName": "Audio Video Interleave",
+          "description": "Legacy Microsoft video container format",
+          "details": [
+            "Wide compatibility",
+            "Simple structure",
+            "Large file sizes",
+            "Multiple codec support",
+            "Windows native"
+          ]
+        }
+      },
+      "changelog": [
+        {
+          "date": "January 2025",
+          "changes": [
+            "Launched MKV to AVI converter",
+            "Added batch processing support",
+            "Implemented privacy-first browser conversion"
+          ]
+        }
+      ],
+      "relatedTools": [
+        {
+          "title": "AVI to MKV",
+          "href": "/tools/avi-to-mkv"
+        },
+        {
+          "title": "MKV to MP4",
+          "href": "/tools/mkv-to-mp4"
+        },
+        {
+          "title": "MKV to WEBM",
+          "href": "/tools/mkv-to-webm"
+        }
+      ],
+      "blogPosts": [
+        {
+          "title": "Converting MKV to AVI: Complete Guide",
+          "subtitle": "Conversion Tutorial",
+          "description": "Step-by-step guide to converting MKV files to AVI format with best practices and tips.",
+          "href": "#",
+          "category": "HOW TO CONVERT FILES"
+        },
+        {
+          "title": "MKV vs AVI: Which Format to Choose?",
+          "subtitle": "Format Comparison",
+          "description": "Detailed comparison of MKV and AVI formats, including use cases, advantages, and limitations.",
+          "href": "#",
+          "category": "FORMAT GUIDES"
+        },
+        {
+          "title": "Batch Convert MKV Files",
+          "subtitle": "Productivity Tips",
+          "description": "Learn how to efficiently convert multiple MKV files at once, saving time and effort.",
+          "href": "#",
+          "category": "PRODUCTIVITY"
+        }
+      ]
+    }
   },
   {
     "id": "mkv-to-mov",
@@ -3348,8 +5535,125 @@
     "from": "mkv",
     "to": "mov",
     "isActive": true,
-    "tags": ["mkv", "mov", "video", "convert", "quicktime"],
-    "priority": 5
+    "tags": [
+      "mkv",
+      "mov",
+      "video",
+      "convert",
+      "quicktime"
+    ],
+    "priority": 5,
+    "content": {
+      "tool": {
+        "title": "MKV to MOV",
+        "subtitle": "Convert MKV video files to MOV format",
+        "from": "mkv",
+        "to": "mov"
+      },
+      "videoSection": {
+        "embedId": "mkv-to-mov-tutorial"
+      },
+      "faqs": [
+        {
+          "question": "What is MKV format?",
+          "answer": "Open-source container format supporting multiple streams"
+        },
+        {
+          "question": "Why convert MKV to MOV?",
+          "answer": "Converting from MKV to MOV can provide benefits like apple ecosystem, professional editing, multiple tracks."
+        },
+        {
+          "question": "Will I lose quality during conversion?",
+          "answer": "The conversion maintains optimal quality. We use high-quality settings to ensure the best possible output while keeping file sizes reasonable."
+        },
+        {
+          "question": "Is my data secure?",
+          "answer": "Yes! All conversions happen locally in your browser. Your files never leave your device and aren't uploaded to any server, ensuring complete privacy and security."
+        },
+        {
+          "question": "Can I convert multiple files at once?",
+          "answer": "Yes! You can select and convert multiple files simultaneously. Each file is processed individually and downloaded automatically when ready."
+        },
+        {
+          "question": "What's the maximum file size?",
+          "answer": "Since processing happens in your browser, the limit depends on your device's available memory. Most modern devices can handle files up to several hundred megabytes."
+        }
+      ],
+      "aboutSection": {
+        "title": "MKV vs MOV: Understanding the Formats",
+        "fromFormat": {
+          "name": "MKV",
+          "fullName": "Matroska Video",
+          "description": "Open-source container format supporting multiple streams",
+          "details": [
+            "Multiple audio/subtitle tracks",
+            "Chapter markers",
+            "High quality",
+            "Open source",
+            "Flexible container"
+          ]
+        },
+        "toFormat": {
+          "name": "MOV",
+          "fullName": "QuickTime Movie",
+          "description": "Apple's multimedia container format",
+          "details": [
+            "Apple ecosystem",
+            "Professional editing",
+            "Multiple tracks",
+            "High quality",
+            "QuickTime compatible"
+          ]
+        }
+      },
+      "changelog": [
+        {
+          "date": "January 2025",
+          "changes": [
+            "Launched MKV to MOV converter",
+            "Added batch processing support",
+            "Implemented privacy-first browser conversion"
+          ]
+        }
+      ],
+      "relatedTools": [
+        {
+          "title": "MOV to MKV",
+          "href": "/tools/mov-to-mkv"
+        },
+        {
+          "title": "MKV to MP4",
+          "href": "/tools/mkv-to-mp4"
+        },
+        {
+          "title": "MKV to WEBM",
+          "href": "/tools/mkv-to-webm"
+        }
+      ],
+      "blogPosts": [
+        {
+          "title": "Converting MKV to MOV: Complete Guide",
+          "subtitle": "Conversion Tutorial",
+          "description": "Step-by-step guide to converting MKV files to MOV format with best practices and tips.",
+          "href": "#",
+          "category": "HOW TO CONVERT FILES"
+        },
+        {
+          "title": "MKV vs MOV: Which Format to Choose?",
+          "subtitle": "Format Comparison",
+          "description": "Detailed comparison of MKV and MOV formats, including use cases, advantages, and limitations.",
+          "href": "#",
+          "category": "FORMAT GUIDES"
+        },
+        {
+          "title": "Batch Convert MKV Files",
+          "subtitle": "Productivity Tips",
+          "description": "Learn how to efficiently convert multiple MKV files at once, saving time and effort.",
+          "href": "#",
+          "category": "PRODUCTIVITY"
+        }
+      ]
+    }
   },
   {
     "id": "mkv-to-gif",
@@ -3360,8 +5664,125 @@
     "from": "mkv",
     "to": "gif",
     "isActive": true,
-    "tags": ["mkv", "gif", "video", "animation", "convert"],
-    "priority": 6
+    "tags": [
+      "mkv",
+      "gif",
+      "video",
+      "animation",
+      "convert"
+    ],
+    "priority": 6,
+    "content": {
+      "tool": {
+        "title": "MKV to GIF",
+        "subtitle": "Convert MKV video to animated GIF",
+        "from": "mkv",
+        "to": "gif"
+      },
+      "videoSection": {
+        "embedId": "mkv-to-gif-tutorial"
+      },
+      "faqs": [
+        {
+          "question": "What is MKV format?",
+          "answer": "Open-source container format supporting multiple streams"
+        },
+        {
+          "question": "Why convert MKV to GIF?",
+          "answer": "Converting from MKV to GIF can provide benefits like animation support, 256 color limit, lossless compression."
+        },
+        {
+          "question": "Will I lose quality during conversion?",
+          "answer": "The conversion maintains optimal quality. We use high-quality settings to ensure the best possible output while keeping file sizes reasonable."
+        },
+        {
+          "question": "Is my data secure?",
+          "answer": "Yes! All conversions happen locally in your browser. Your files never leave your device and aren't uploaded to any server, ensuring complete privacy and security."
+        },
+        {
+          "question": "Can I convert multiple files at once?",
+          "answer": "Yes! You can select and convert multiple files simultaneously. Each file is processed individually and downloaded automatically when ready."
+        },
+        {
+          "question": "What's the maximum file size?",
+          "answer": "Since processing happens in your browser, the limit depends on your device's available memory. Most modern devices can handle files up to several hundred megabytes."
+        }
+      ],
+      "aboutSection": {
+        "title": "MKV vs GIF: Understanding the Formats",
+        "fromFormat": {
+          "name": "MKV",
+          "fullName": "Matroska Video",
+          "description": "Open-source container format supporting multiple streams",
+          "details": [
+            "Multiple audio/subtitle tracks",
+            "Chapter markers",
+            "High quality",
+            "Open source",
+            "Flexible container"
+          ]
+        },
+        "toFormat": {
+          "name": "GIF",
+          "fullName": "Graphics Interchange Format",
+          "description": "Legacy format known for animations and simple graphics",
+          "details": [
+            "Animation support",
+            "256 color limit",
+            "Lossless compression",
+            "Small file sizes for simple images",
+            "Universal support"
+          ]
+        }
+      },
+      "changelog": [
+        {
+          "date": "January 2025",
+          "changes": [
+            "Launched MKV to GIF converter",
+            "Added batch processing support",
+            "Implemented privacy-first browser conversion"
+          ]
+        }
+      ],
+      "relatedTools": [
+        {
+          "title": "GIF to MKV",
+          "href": "/tools/gif-to-mkv"
+        },
+        {
+          "title": "MKV to MP4",
+          "href": "/tools/mkv-to-mp4"
+        },
+        {
+          "title": "MKV to WEBM",
+          "href": "/tools/mkv-to-webm"
+        }
+      ],
+      "blogPosts": [
+        {
+          "title": "Converting MKV to GIF: Complete Guide",
+          "subtitle": "Conversion Tutorial",
+          "description": "Step-by-step guide to converting MKV files to GIF format with best practices and tips.",
+          "href": "#",
+          "category": "HOW TO CONVERT FILES"
+        },
+        {
+          "title": "MKV vs GIF: Which Format to Choose?",
+          "subtitle": "Format Comparison",
+          "description": "Detailed comparison of MKV and GIF formats, including use cases, advantages, and limitations.",
+          "href": "#",
+          "category": "FORMAT GUIDES"
+        },
+        {
+          "title": "Batch Convert MKV Files",
+          "subtitle": "Productivity Tips",
+          "description": "Learn how to efficiently convert multiple MKV files at once, saving time and effort.",
+          "href": "#",
+          "category": "PRODUCTIVITY"
+        }
+      ]
+    }
   },
   {
     "id": "mkv-to-mp3",
@@ -3372,8 +5793,125 @@
     "from": "mkv",
     "to": "mp3",
     "isActive": true,
-    "tags": ["mkv", "mp3", "audio", "extract", "convert"],
-    "priority": 7
+    "tags": [
+      "mkv",
+      "mp3",
+      "audio",
+      "extract",
+      "convert"
+    ],
+    "priority": 7,
+    "content": {
+      "tool": {
+        "title": "MKV to MP3",
+        "subtitle": "Extract audio from MKV to MP3",
+        "from": "mkv",
+        "to": "mp3"
+      },
+      "videoSection": {
+        "embedId": "mkv-to-mp3-tutorial"
+      },
+      "faqs": [
+        {
+          "question": "What is MKV format?",
+          "answer": "Open-source container format supporting multiple streams"
+        },
+        {
+          "question": "Why convert MKV to MP3?",
+          "answer": "Converting from MKV to MP3 can provide benefits like universal support, small file sizes, good quality."
+        },
+        {
+          "question": "Will I lose quality during conversion?",
+          "answer": "The conversion maintains optimal quality. We use high-quality settings to ensure the best possible output while keeping file sizes reasonable."
+        },
+        {
+          "question": "Is my data secure?",
+          "answer": "Yes! All conversions happen locally in your browser. Your files never leave your device and aren't uploaded to any server, ensuring complete privacy and security."
+        },
+        {
+          "question": "Can I convert multiple files at once?",
+          "answer": "Yes! You can select and convert multiple files simultaneously. Each file is processed individually and downloaded automatically when ready."
+        },
+        {
+          "question": "What's the maximum file size?",
+          "answer": "Since processing happens in your browser, the limit depends on your device's available memory. Most modern devices can handle files up to several hundred megabytes."
+        }
+      ],
+      "aboutSection": {
+        "title": "MKV vs MP3: Understanding the Formats",
+        "fromFormat": {
+          "name": "MKV",
+          "fullName": "Matroska Video",
+          "description": "Open-source container format supporting multiple streams",
+          "details": [
+            "Multiple audio/subtitle tracks",
+            "Chapter markers",
+            "High quality",
+            "Open source",
+            "Flexible container"
+          ]
+        },
+        "toFormat": {
+          "name": "MP3",
+          "fullName": "MPEG-1 Audio Layer 3",
+          "description": "The most popular lossy audio compression format",
+          "details": [
+            "Universal support",
+            "Small file sizes",
+            "Good quality",
+            "Metadata support",
+            "Streaming friendly"
+          ]
+        }
+      },
+      "changelog": [
+        {
+          "date": "January 2025",
+          "changes": [
+            "Launched MKV to MP3 converter",
+            "Added batch processing support",
+            "Implemented privacy-first browser conversion"
+          ]
+        }
+      ],
+      "relatedTools": [
+        {
+          "title": "MP3 to MKV",
+          "href": "/tools/mp3-to-mkv"
+        },
+        {
+          "title": "MKV to MP4",
+          "href": "/tools/mkv-to-mp4"
+        },
+        {
+          "title": "MKV to WEBM",
+          "href": "/tools/mkv-to-webm"
+        }
+      ],
+      "blogPosts": [
+        {
+          "title": "Converting MKV to MP3: Complete Guide",
+          "subtitle": "Conversion Tutorial",
+          "description": "Step-by-step guide to converting MKV files to MP3 format with best practices and tips.",
+          "href": "#",
+          "category": "HOW TO CONVERT FILES"
+        },
+        {
+          "title": "MKV vs MP3: Which Format to Choose?",
+          "subtitle": "Format Comparison",
+          "description": "Detailed comparison of MKV and MP3 formats, including use cases, advantages, and limitations.",
+          "href": "#",
+          "category": "FORMAT GUIDES"
+        },
+        {
+          "title": "Batch Convert MKV Files",
+          "subtitle": "Productivity Tips",
+          "description": "Learn how to efficiently convert multiple MKV files at once, saving time and effort.",
+          "href": "#",
+          "category": "PRODUCTIVITY"
+        }
+      ]
+    }
   },
   {
     "id": "mkv-to-wav",
@@ -3384,8 +5922,125 @@
     "from": "mkv",
     "to": "wav",
     "isActive": true,
-    "tags": ["mkv", "wav", "audio", "extract", "uncompressed"],
-    "priority": 5
+    "tags": [
+      "mkv",
+      "wav",
+      "audio",
+      "extract",
+      "uncompressed"
+    ],
+    "priority": 5,
+    "content": {
+      "tool": {
+        "title": "MKV to WAV",
+        "subtitle": "Extract audio from MKV to WAV",
+        "from": "mkv",
+        "to": "wav"
+      },
+      "videoSection": {
+        "embedId": "mkv-to-wav-tutorial"
+      },
+      "faqs": [
+        {
+          "question": "What is MKV format?",
+          "answer": "Open-source container format supporting multiple streams"
+        },
+        {
+          "question": "Why convert MKV to WAV?",
+          "answer": "Converting from MKV to WAV can provide benefits like uncompressed audio, perfect quality, large file sizes."
+        },
+        {
+          "question": "Will I lose quality during conversion?",
+          "answer": "The conversion maintains optimal quality. We use high-quality settings to ensure the best possible output while keeping file sizes reasonable."
+        },
+        {
+          "question": "Is my data secure?",
+          "answer": "Yes! All conversions happen locally in your browser. Your files never leave your device and aren't uploaded to any server, ensuring complete privacy and security."
+        },
+        {
+          "question": "Can I convert multiple files at once?",
+          "answer": "Yes! You can select and convert multiple files simultaneously. Each file is processed individually and downloaded automatically when ready."
+        },
+        {
+          "question": "What's the maximum file size?",
+          "answer": "Since processing happens in your browser, the limit depends on your device's available memory. Most modern devices can handle files up to several hundred megabytes."
+        }
+      ],
+      "aboutSection": {
+        "title": "MKV vs WAV: Understanding the Formats",
+        "fromFormat": {
+          "name": "MKV",
+          "fullName": "Matroska Video",
+          "description": "Open-source container format supporting multiple streams",
+          "details": [
+            "Multiple audio/subtitle tracks",
+            "Chapter markers",
+            "High quality",
+            "Open source",
+            "Flexible container"
+          ]
+        },
+        "toFormat": {
+          "name": "WAV",
+          "fullName": "Waveform Audio File Format",
+          "description": "Uncompressed audio format with perfect quality",
+          "details": [
+            "Uncompressed audio",
+            "Perfect quality",
+            "Large file sizes",
+            "Professional standard",
+            "Windows native"
+          ]
+        }
+      },
+      "changelog": [
+        {
+          "date": "January 2025",
+          "changes": [
+            "Launched MKV to WAV converter",
+            "Added batch processing support",
+            "Implemented privacy-first browser conversion"
+          ]
+        }
+      ],
+      "relatedTools": [
+        {
+          "title": "WAV to MKV",
+          "href": "/tools/wav-to-mkv"
+        },
+        {
+          "title": "MKV to MP4",
+          "href": "/tools/mkv-to-mp4"
+        },
+        {
+          "title": "MKV to WEBM",
+          "href": "/tools/mkv-to-webm"
+        }
+      ],
+      "blogPosts": [
+        {
+          "title": "Converting MKV to WAV: Complete Guide",
+          "subtitle": "Conversion Tutorial",
+          "description": "Step-by-step guide to converting MKV files to WAV format with best practices and tips.",
+          "href": "#",
+          "category": "HOW TO CONVERT FILES"
+        },
+        {
+          "title": "MKV vs WAV: Which Format to Choose?",
+          "subtitle": "Format Comparison",
+          "description": "Detailed comparison of MKV and WAV formats, including use cases, advantages, and limitations.",
+          "href": "#",
+          "category": "FORMAT GUIDES"
+        },
+        {
+          "title": "Batch Convert MKV Files",
+          "subtitle": "Productivity Tips",
+          "description": "Learn how to efficiently convert multiple MKV files at once, saving time and effort.",
+          "href": "#",
+          "category": "PRODUCTIVITY"
+        }
+      ]
+    }
   },
   {
     "id": "mkv-to-ogg",
@@ -3396,7 +6051,124 @@
     "from": "mkv",
     "to": "ogg",
     "isActive": true,
-    "tags": ["mkv", "ogg", "audio", "extract", "vorbis"],
-    "priority": 4
+    "tags": [
+      "mkv",
+      "ogg",
+      "audio",
+      "extract",
+      "vorbis"
+    ],
+    "priority": 4,
+    "content": {
+      "tool": {
+        "title": "MKV to OGG",
+        "subtitle": "Extract audio from MKV to OGG",
+        "from": "mkv",
+        "to": "ogg"
+      },
+      "videoSection": {
+        "embedId": "mkv-to-ogg-tutorial"
+      },
+      "faqs": [
+        {
+          "question": "What is MKV format?",
+          "answer": "Open-source container format supporting multiple streams"
+        },
+        {
+          "question": "Why convert MKV to OGG?",
+          "answer": "Converting from MKV to OGG can provide benefits like open source, better than mp3, smaller files."
+        },
+        {
+          "question": "Will I lose quality during conversion?",
+          "answer": "The conversion maintains optimal quality. We use high-quality settings to ensure the best possible output while keeping file sizes reasonable."
+        },
+        {
+          "question": "Is my data secure?",
+          "answer": "Yes! All conversions happen locally in your browser. Your files never leave your device and aren't uploaded to any server, ensuring complete privacy and security."
+        },
+        {
+          "question": "Can I convert multiple files at once?",
+          "answer": "Yes! You can select and convert multiple files simultaneously. Each file is processed individually and downloaded automatically when ready."
+        },
+        {
+          "question": "What's the maximum file size?",
+          "answer": "Since processing happens in your browser, the limit depends on your device's available memory. Most modern devices can handle files up to several hundred megabytes."
+        }
+      ],
+      "aboutSection": {
+        "title": "MKV vs OGG: Understanding the Formats",
+        "fromFormat": {
+          "name": "MKV",
+          "fullName": "Matroska Video",
+          "description": "Open-source container format supporting multiple streams",
+          "details": [
+            "Multiple audio/subtitle tracks",
+            "Chapter markers",
+            "High quality",
+            "Open source",
+            "Flexible container"
+          ]
+        },
+        "toFormat": {
+          "name": "OGG",
+          "fullName": "Ogg Vorbis",
+          "description": "Open-source audio format with good compression",
+          "details": [
+            "Open source",
+            "Better than MP3",
+            "Smaller files",
+            "No patents",
+            "Good streaming"
+          ]
+        }
+      },
+      "changelog": [
+        {
+          "date": "January 2025",
+          "changes": [
+            "Launched MKV to OGG converter",
+            "Added batch processing support",
+            "Implemented privacy-first browser conversion"
+          ]
+        }
+      ],
+      "relatedTools": [
+        {
+          "title": "OGG to MKV",
+          "href": "/tools/ogg-to-mkv"
+        },
+        {
+          "title": "MKV to MP4",
+          "href": "/tools/mkv-to-mp4"
+        },
+        {
+          "title": "MKV to WEBM",
+          "href": "/tools/mkv-to-webm"
+        }
+      ],
+      "blogPosts": [
+        {
+          "title": "Converting MKV to OGG: Complete Guide",
+          "subtitle": "Conversion Tutorial",
+          "description": "Step-by-step guide to converting MKV files to OGG format with best practices and tips.",
+          "href": "#",
+          "category": "HOW TO CONVERT FILES"
+        },
+        {
+          "title": "MKV vs OGG: Which Format to Choose?",
+          "subtitle": "Format Comparison",
+          "description": "Detailed comparison of MKV and OGG formats, including use cases, advantages, and limitations.",
+          "href": "#",
+          "category": "FORMAT GUIDES"
+        },
+        {
+          "title": "Batch Convert MKV Files",
+          "subtitle": "Productivity Tips",
+          "description": "Learn how to efficiently convert multiple MKV files at once, saving time and effort.",
+          "href": "#",
+          "category": "PRODUCTIVITY"
+        }
+      ]
+    }
   }
 ]
