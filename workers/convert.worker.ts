@@ -3,7 +3,7 @@ import { decodeToRGBA } from "../lib/convert/decode";
 import { encodeFromRGBA } from "../lib/convert/encode";
 
 type RasterJob = { op: "raster"; from: string; to: string; quality?: number; buf: ArrayBuffer };
-type PdfJob    = { op: "pdf-pages"; page?: number; buf: ArrayBuffer };
+type PdfJob    = { op: "pdf-pages"; page?: number; to?: string; buf: ArrayBuffer };
 type Job = RasterJob | PdfJob;
 
 declare const self: DedicatedWorkerGlobalScope;
@@ -23,7 +23,7 @@ self.onmessage = async (e: MessageEvent<Job>) => {
 
     if (job.op === "pdf-pages") {
       const { renderPdfPages } = await import("../lib/convert/pdf");
-      const bufs = await renderPdfPages(job.buf, job.page);
+      const bufs = await renderPdfPages(job.buf, job.page, job.to);
       self.postMessage({ ok: true, blobs: bufs }, bufs as unknown as Transferable[]);
       return;
     }

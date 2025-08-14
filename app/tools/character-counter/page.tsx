@@ -1,7 +1,11 @@
 "use client";
 
-import ToolPageTemplate from "@/components/ToolPageTemplate";
-import { toolContent } from "@/config/tool-content";
+import CharacterCounter from "@/components/tools/CharacterCounter";
+import { FAQSection } from "@/components/sections/FAQSection";
+import { BlogSection } from "@/components/sections/BlogSection";
+import { ChangelogSection } from "@/components/sections/ChangelogSection";
+import { ToolsLinkHub } from "@/components/sections/ToolsLinkHub";
+import { toolContent } from '@/lib/tool-content';
 
 export default function Page() {
   const content = toolContent["character-counter"];
@@ -11,14 +15,21 @@ export default function Page() {
   }
   
   return (
-    <ToolPageTemplate
-      tool={content.tool}
-      videoSection={content.videoSection}
-      faqs={content.faqs}
-      aboutSection={content.aboutSection}
-      changelog={content.changelog}
-      relatedTools={content.relatedTools}
-      blogPosts={content.blogPosts}
-    />
+    <main className="min-h-screen bg-background">
+        {/* Custom Character Counter Component */}
+        <CharacterCounter />
+        
+        {/* FAQs Section */}
+        {content.faqs && <FAQSection faqs={content.faqs} />}
+        
+        {/* Blog Articles Section */}
+        {content.blogPosts && <BlogSection blogPosts={content.blogPosts} />}
+        
+        {/* Changelog Section */}
+        {content.changelog && <ChangelogSection changelog={content.changelog} />}
+        
+        {/* Related Tools Link Hub */}
+        <ToolsLinkHub relatedTools={content.relatedTools} />
+    </main>
   );
 }

@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Navbar } from "@/components/Navbar";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
@@ -8,249 +8,122 @@ import { Input } from "@/components/ui/input";
 import { ToolCard } from "@/components/ToolCard";
 import { 
   Search, 
-  FileText, 
-  Combine, 
-  Calculator, 
-  Type, 
-  FileJson, 
-  Upload, 
-  Table, 
-  Hash,
   Sparkles,
   ArrowRight,
-  Filter,
   Image,
-  FileImage
+  FileImage,
+  FileJson,
+  Table,
+  Type
 } from "lucide-react";
+import toolsData from '@/data/tools.json';
 
-// Define tool categories
-const categories = [
-  { id: "all", name: "All Tools", count: 0 },
-  { id: "converter", name: "Converters", count: 0 },
-  { id: "combiner", name: "Combiners", count: 0 },
-  { id: "counter", name: "Counters", count: 0 },
-  { id: "generator", name: "Generators", count: 0 },
-  { id: "formatter", name: "Formatters", count: 0 },
-];
+// Icon mapping for tools
+const iconMap: { [key: string]: any } = {
+  'heic-to-jpg': Image,
+  'heic-to-jpeg': Image,
+  'heic-to-png': Image,
+  'heic-to-pdf': FileImage,
+  'heif-to-jpg': Image,
+  'heif-to-png': Image,
+  'heif-to-pdf': FileImage,
+  'pdf-to-jpg': FileImage,
+  'pdf-to-png': FileImage,
+  'jpg-to-pdf': FileImage,
+  'jpeg-to-pdf': FileImage,
+  'jpg-to-png': Image,
+  'png-to-jpg': Image,
+  'jpeg-to-png': Image,
+  'jpeg-to-jpg': Image,
+  'webp-to-png': Image,
+  'png-to-webp': Image,
+  'jpg-to-webp': Image,
+  'jpeg-to-webp': Image,
+  'gif-to-webp': Image,
+  'webp-to-jpg': Image,
+  'webp-to-jpeg': Image,
+  'avif-to-png': Image,
+  'avif-to-jpg': Image,
+  'avif-to-jpeg': Image,
+  'bmp-to-jpg': Image,
+  'bmp-to-png': Image,
+  'ico-to-png': Image,
+  'gif-to-jpg': Image,
+  'gif-to-png': Image,
+  'jfif-to-jpg': Image,
+  'jfif-to-jpeg': Image,
+  'jfif-to-png': Image,
+  'jfif-to-pdf': FileImage,
+  'cr2-to-jpg': Image,
+  'cr3-to-jpg': Image,
+  'dng-to-jpg': Image,
+  'arw-to-jpg': Image,
+  'jpg-to-svg': FileImage,
+  'png-optimizer': Image,
+  'csv-combiner': Table,
+  'json-to-csv': FileJson,
+  'character-counter': Type,
+};
 
-// Define tools data
-const tools = [
-  {
-    id: "csv-combiner",
-    name: "CSV Combiner",
-    description: "Combine multiple CSV files into one. Merge data from different sources easily.",
-    category: "combiner",
-    icon: Table,
-    href: "/tools/csv-combiner",
-    tags: ["csv", "merge", "data"],
-    isNew: true,
-    isPopular: false,
-  },
-  {
-    id: "json-to-csv",
-    name: "JSON to CSV Converter",
-    description: "Convert JSON data to CSV format. Perfect for data analysis and spreadsheets.",
-    category: "converter",
-    icon: FileJson,
-    href: "/tools/json-to-csv",
-    tags: ["json", "csv", "convert"],
-    isNew: true,
-    isPopular: true,
-  },
-  {
-    id: "character-counter",
-    name: "Character Counter",
-    description: "Count characters, words, sentences, and paragraphs in your text instantly.",
-    category: "counter",
-    icon: Type,
-    href: "/tools/character-counter",
-    tags: ["text", "count", "words"],
-    isNew: true,
-    isPopular: true,
-  },
-  {
-    id: "heic-to-jpg",
-    name: "HEIC to JPG",
-    description: "Convert HEIC photos to JPG privately, in your browser.",
-    category: "converter",
-    icon: Image,
-    href: "/tools/heic-to-jpg",
-    tags: ["heic", "jpg", "image", "convert"],
-    isNew: true,
-    isPopular: false,
-  },
-  {
-    id: "pdf-to-jpg",
-    name: "PDF to JPG",
-    description: "Convert each PDF page into a JPG in your browser.",
-    category: "converter",
-    icon: FileImage,
-    href: "/tools/pdf-to-jpg",
-    tags: ["pdf", "jpg", "image", "convert"],
-    isNew: true,
-    isPopular: false,
-  },
-  {
-    id: "webp-to-png",
-    name: "WebP to PNG",
-    description: "Convert WebP images to PNG in your browser.",
-    category: "converter",
-    icon: Image,
-    href: "/tools/webp-to-png",
-    tags: ["webp", "png", "image", "convert"],
-    isNew: true,
-    isPopular: false,
-  },
-  {
-    id: "jpeg-to-png",
-    name: "JPEG to PNG",
-    description: "Convert JPEG images to PNG format with transparency support.",
-    category: "converter",
-    icon: Image,
-    href: "/tools/jpeg-to-png",
-    tags: ["jpeg", "png", "image", "convert"],
-    isNew: false,
-    isPopular: true,
-  },
-  {
-    id: "gif-to-png",
-    name: "GIF to PNG",
-    description: "Extract frames from animated GIFs as PNG images.",
-    category: "converter",
-    icon: Image,
-    href: "/tools/gif-to-png",
-    tags: ["gif", "png", "image", "convert", "animation"],
-    isNew: false,
-    isPopular: false,
-  },
-  {
-    id: "jpg-to-svg",
-    name: "JPG to SVG",
-    description: "Convert JPG images to scalable vector graphics format.",
-    category: "converter",
-    icon: FileImage,
-    href: "/tools/jpg-to-svg",
-    tags: ["jpg", "svg", "vector", "image", "convert"],
-    isNew: false,
-    isPopular: false,
-  },
-  {
-    id: "heic-to-jpeg",
-    name: "HEIC to JPEG",
-    description: "Convert iPhone HEIC photos to JPEG format privately.",
-    category: "converter",
-    icon: Image,
-    href: "/tools/heic-to-jpeg",
-    tags: ["heic", "jpeg", "image", "convert", "iphone"],
-    isNew: false,
-    isPopular: false,
-  },
-  {
-    id: "avif-to-png",
-    name: "AVIF to PNG",
-    description: "Convert modern AVIF images to PNG format.",
-    category: "converter",
-    icon: Image,
-    href: "/tools/avif-to-png",
-    tags: ["avif", "png", "image", "convert"],
-    isNew: true,
-    isPopular: false,
-  },
-  {
-    id: "jfif-to-jpg",
-    name: "JFIF to JPG",
-    description: "Convert JFIF format images to standard JPG files.",
-    category: "converter",
-    icon: Image,
-    href: "/tools/jfif-to-jpg",
-    tags: ["jfif", "jpg", "image", "convert"],
-    isNew: false,
-    isPopular: false,
-  },
-  {
-    id: "heic-to-pdf",
-    name: "HEIC to PDF",
-    description: "Convert HEIC images to PDF documents.",
-    category: "converter",
-    icon: FileImage,
-    href: "/tools/heic-to-pdf",
-    tags: ["heic", "pdf", "document", "convert"],
-    isNew: false,
-    isPopular: false,
-  },
-  {
-    id: "pdf-to-png",
-    name: "PDF to PNG",
-    description: "Convert PDF pages to high-quality PNG images.",
-    category: "converter",
-    icon: FileImage,
-    href: "/tools/pdf-to-png",
-    tags: ["pdf", "png", "image", "convert"],
-    isNew: false,
-    isPopular: true,
-  },
-  {
-    id: "jpeg-to-pdf",
-    name: "JPEG to PDF",
-    description: "Convert JPEG images to PDF documents.",
-    category: "converter",
-    icon: FileImage,
-    href: "/tools/jpeg-to-pdf",
-    tags: ["jpeg", "pdf", "document", "convert"],
-    isNew: false,
-    isPopular: false,
-  },
-  {
-    id: "heic-to-png",
-    name: "HEIC to PNG",
-    description: "Convert HEIC photos to PNG format with transparency.",
-    category: "converter",
-    icon: Image,
-    href: "/tools/heic-to-png",
-    tags: ["heic", "png", "image", "convert", "iphone"],
-    isNew: false,
-    isPopular: false,
-  },
-  {
-    id: "jpeg-to-jpg",
-    name: "JPEG to JPG",
-    description: "Optimize and convert JPEG images to JPG format.",
-    category: "converter",
-    icon: Image,
-    href: "/tools/jpeg-to-jpg",
-    tags: ["jpeg", "jpg", "image", "convert", "optimize"],
-    isNew: false,
-    isPopular: false,
-  },
-];
+// Process tools from JSON data
+const processedTools = toolsData
+  .filter((tool: any) => tool.isActive)
+  .map((tool: any) => ({
+    id: tool.id,
+    name: tool.name,
+    description: tool.description,
+    category: tool.operation || 'converter',
+    icon: iconMap[tool.id] || Image,
+    href: tool.route,
+    tags: [tool.from, tool.to].filter(Boolean).concat(tool.keywords || []),
+    isNew: tool.isNew || false,
+    isPopular: tool.isPopular || false,
+  }));
 
-// Update category counts
-categories.forEach(category => {
-  if (category.id === "all") {
-    category.count = tools.length;
-  } else {
-    category.count = tools.filter(tool => tool.category === category.id).length;
-  }
-});
 
 export default function HomePage() {
   const [selectedCategory, setSelectedCategory] = useState("all");
   const [searchQuery, setSearchQuery] = useState("");
-  const [showFilters, setShowFilters] = useState(false);
+  const [tools, setTools] = useState(processedTools);
+  const [categories, setCategories] = useState<any[]>([]);
+
+  useEffect(() => {
+    // Create categories from tools
+    const categoryMap = new Map();
+    categoryMap.set('all', { id: 'all', name: 'All Tools', count: tools.length });
+    
+    tools.forEach(tool => {
+      if (!categoryMap.has(tool.category)) {
+        // Use proper category names without pluralization
+        let catName = tool.category.charAt(0).toUpperCase() + tool.category.slice(1);
+        if (tool.category === 'combine') catName = 'Combine';
+        else if (tool.category === 'compress') catName = 'Compress';
+        else if (tool.category === 'convert') catName = 'Convert';
+        else if (tool.category === 'download') catName = 'Download';
+        
+        categoryMap.set(tool.category, { 
+          id: tool.category, 
+          name: catName, 
+          count: 0 
+        });
+      }
+      categoryMap.get(tool.category).count++;
+    });
+    
+    setCategories(Array.from(categoryMap.values()));
+  }, [tools]);
 
   // Filter tools based on category and search
   const filteredTools = tools.filter(tool => {
     const matchesCategory = selectedCategory === "all" || tool.category === selectedCategory;
     const matchesSearch = tool.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
                          tool.description.toLowerCase().includes(searchQuery.toLowerCase()) ||
-                         tool.tags.some(tag => tag.toLowerCase().includes(searchQuery.toLowerCase()));
+                         tool.tags.some((tag: string) => tag?.toLowerCase().includes(searchQuery.toLowerCase()));
     return matchesCategory && matchesSearch;
   });
 
   return (
-    <>
-      <Navbar />
-      <main className="min-h-screen bg-background">
+    <main className="min-h-screen bg-background">
         {/* Hero Section */}
         <section className="relative overflow-hidden border-b">
           <div className="absolute inset-0 bg-grid-black/[0.02] dark:bg-grid-white/[0.02]" />
@@ -335,7 +208,6 @@ export default function HomePage() {
             </div>
           </div>
         </section>
-      </main>
-    </>
+    </main>
   );
 }

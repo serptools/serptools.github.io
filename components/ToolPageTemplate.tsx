@@ -2,7 +2,6 @@
 
 import HeroConverter from "@/components/HeroConverter";
 import LanderHeroTwoColumn from "@/components/LanderHeroTwoColumn";
-import { Navbar } from "@/components/Navbar";
 import { VideoSection } from "@/components/sections/VideoSection";
 import { AboutFormatsSection } from "@/components/sections/AboutFormatsSection";
 import { FAQSection } from "@/components/sections/FAQSection";
@@ -64,7 +63,7 @@ type ToolPageProps = {
 export default function ToolPageTemplate({
   tool,
   videoSection,
-  useTwoColumnLayout = false,
+  useTwoColumnLayout = true, // Default to true for two-column layout
   faqs,
   aboutSection,
   changelog,
@@ -72,19 +71,26 @@ export default function ToolPageTemplate({
   blogPosts,
 }: ToolPageProps) {
   return (
-    <>
-      <Navbar />
-      <main className="min-h-screen bg-background">
+    <main className="min-h-screen bg-background">
         {/* Hero Section with Tool */}
         {useTwoColumnLayout && videoSection?.embedId ? (
-          <LanderHeroTwoColumn
-            title={tool.title}
-            subtitle={tool.subtitle}
-            from={tool.from}
-            to={tool.to}
-            accept={tool.accept}
-            videoEmbedId={videoSection.embedId}
-          />
+          <>
+            <LanderHeroTwoColumn
+              title={tool.title}
+              subtitle={tool.subtitle}
+              from={tool.from}
+              to={tool.to}
+              accept={tool.accept}
+              videoEmbedId={videoSection.embedId}
+            />
+            {/* About the Formats Section - Right after 2-column hero */}
+            {aboutSection && (
+              <AboutFormatsSection
+                fromFormat={aboutSection.fromFormat}
+                toFormat={aboutSection.toFormat}
+              />
+            )}
+          </>
         ) : (
           <>
             <HeroConverter
@@ -94,18 +100,16 @@ export default function ToolPageTemplate({
               to={tool.to}
               accept={tool.accept}
             />
+            {/* About the Formats Section - Right after regular hero */}
+            {aboutSection && (
+              <AboutFormatsSection
+                fromFormat={aboutSection.fromFormat}
+                toFormat={aboutSection.toFormat}
+              />
+            )}
             {/* Video Section - only show if not using 2-column layout */}
             {videoSection && <VideoSection embedId={videoSection.embedId} />}
           </>
-        )}
-
-        {/* About the Formats Section */}
-        {aboutSection && (
-          <AboutFormatsSection
-            title={aboutSection.title}
-            fromFormat={aboutSection.fromFormat}
-            toFormat={aboutSection.toFormat}
-          />
         )}
 
         {/* FAQs Section */}
@@ -119,7 +123,6 @@ export default function ToolPageTemplate({
 
         {/* Related Tools Link Hub */}
         <ToolsLinkHub relatedTools={relatedTools} />
-      </main>
-    </>
+    </main>
   );
 }
