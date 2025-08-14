@@ -138,8 +138,21 @@ export default function HeroConverter({
             else if (to === "wav") mimeType = "audio/wav";
             else if (to === "ogg") mimeType = "audio/ogg";
             
+            // Ensure we have valid data
+            if (!ev.data.blob || ev.data.blob.byteLength === 0) {
+              console.error('Received empty blob data');
+              setCurrentFile({
+                name: file.name,
+                progress: 0,
+                status: 'error',
+                message: 'Conversion produced empty file'
+              });
+              return reject(new Error('Empty output'));
+            }
+            
             const blob = new Blob([ev.data.blob], { type: mimeType });
             const name = file.name.replace(/\.[^.]+$/, "") + "." + to;
+            console.log(`Saving ${name}, size: ${blob.size} bytes, type: ${mimeType}`);
             saveBlob(blob, name);
             
             setCurrentFile({

@@ -128,14 +128,21 @@ export async function convertVideo(
   // Read output file
   const data = await ff.readFile(outputName);
   
+  console.log(`Output file size: ${data.length} bytes`);
+  
   // Cleanup
-  await ff.deleteFile(inputName);
-  await ff.deleteFile(outputName);
-  if (toFormat === 'gif') {
-    await ff.deleteFile('palette.png');
+  try {
+    await ff.deleteFile(inputName);
+    await ff.deleteFile(outputName);
+    if (toFormat === 'gif') {
+      await ff.deleteFile('palette.png');
+    }
+  } catch (cleanupErr) {
+    console.warn('Cleanup error:', cleanupErr);
   }
   
-  return data.buffer;
+  // Return the Uint8Array buffer
+  return data instanceof Uint8Array ? data.buffer : data;
 }
 
 export async function cleanupFFmpeg() {

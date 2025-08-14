@@ -50,7 +50,8 @@ self.onmessage = async (e: MessageEvent<Job>) => {
           }
         });
         
-        self.postMessage({ ok: true, blob: outputBuffer }, [outputBuffer]);
+        // Don't transfer the buffer, just send it normally
+        self.postMessage({ ok: true, blob: outputBuffer });
       } catch (videoErr: any) {
         console.error('Video conversion error:', videoErr);
         self.postMessage({ ok: false, error: `Video conversion failed: ${videoErr?.message || videoErr}` });
