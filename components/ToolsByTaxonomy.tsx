@@ -1,6 +1,6 @@
 "use client";
 
-import type { Tool, OperationType, MediaType } from '@/types/tools';
+import type { Tool, OperationType, MediaType } from '@/types';
 import { 
   operationDefinitions, 
   mediaTypeDefinitions, 
@@ -25,6 +25,13 @@ const mediaIcons = {
   text: FileText,
 };
 
+interface ToolWithMedia extends Tool {
+  mediaTypes?: {
+    source?: MediaType;
+    target?: MediaType;
+  };
+}
+
 interface ToolsByTaxonomyProps {
   tools: Tool[];
   groupBy?: 'operation' | 'media';
@@ -39,7 +46,7 @@ export function ToolsByTaxonomy({
   selectedMediaType 
 }: ToolsByTaxonomyProps) {
   // Add media types to tools
-  const toolsWithMedia = tools.map(tool => ({
+  const toolsWithMedia: ToolWithMedia[] = tools.map(tool => ({
     ...tool,
     mediaTypes: {
       source: tool.from ? formatToMediaType[tool.from.toLowerCase()] : undefined,
@@ -67,7 +74,7 @@ export function ToolsByTaxonomy({
       }
       acc[tool.operation].push(tool);
       return acc;
-    }, {} as Record<OperationType, Tool[]>);
+    }, {} as Record<OperationType, ToolWithMedia[]>);
 
     // Sort tools by priority within each operation
     Object.keys(toolsByOperation).forEach(operation => {

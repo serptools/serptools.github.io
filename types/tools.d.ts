@@ -34,16 +34,59 @@ export interface AboutSection {
   relatedTools?: RelatedTool[];
 }
 
+// Tool info for page templates
+export interface ToolInfo {
+  title: string;
+  subtitle: string;
+  from: string;
+  to: string;
+  accept?: string;
+}
+
+// Video section data
+export interface VideoSectionData {
+  embedId?: string;
+}
+
+// Format info for about section
+export interface FormatInfo {
+  name: string;
+  fullName: string;
+  description: string;
+  details?: string[];
+}
+
+// About formats section
+export interface AboutFormatsSection {
+  title?: string;
+  fromFormat: FormatInfo;
+  toFormat: FormatInfo;
+}
+
+// Changelog entry
+export interface ChangelogEntry {
+  date: string;
+  changes: string[];
+}
+
+// Blog post
+export interface BlogPost {
+  title: string;
+  subtitle?: string;
+  description?: string;
+  href: string;
+  category?: string;
+}
+
 // Tool content structure (landing page data)
 export interface ToolContent {
-  tool: {
-    title: string;
-    subtitle: string;
-    from?: string;
-    to?: string;
-  };
+  tool: ToolInfo;
+  videoSection?: VideoSectionData;
   faqs: FAQ[];
-  aboutSection: AboutSection;
+  aboutSection: AboutFormatsSection;
+  changelog?: ChangelogEntry[];
+  relatedTools?: RelatedTool[];
+  blogPosts?: BlogPost[];
 }
 
 // Main tool interface

@@ -195,7 +195,6 @@ export const extensionToCategory: Record<string, FileCategory> = {
   
   // Developer Files
   'js': 'developer',
-  'ts': 'developer',
   'jsx': 'developer',
   'tsx': 'developer',
   'py': 'developer',

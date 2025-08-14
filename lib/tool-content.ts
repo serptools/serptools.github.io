@@ -1,6 +1,6 @@
 // Helper to get tool content from the tools data
 import toolsData from '@/data/tools.json';
-import type { Tool, ToolContent } from '@/types/tools';
+import type { Tool, ToolContent } from '@/types';
 
 const tools = toolsData as Tool[];
 

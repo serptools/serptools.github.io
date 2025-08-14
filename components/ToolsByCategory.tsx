@@ -1,18 +1,25 @@
 "use client";
 
-import { Tool } from '@/lib/tool-utils';
-import { categoryDefinitions, MainCategory } from '@/config/tool-categories';
+import type { Tool } from '@/types';
+import { tools } from '@/lib/tool-utils';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import Link from 'next/link';
-import { ArrowRightLeft, Minimize2, Combine, Edit, BarChart, Sparkles } from 'lucide-react';
+import { ArrowRightLeft, Minimize2, Combine, Download } from 'lucide-react';
 
 const categoryIcons = {
   convert: ArrowRightLeft,
   compress: Minimize2,
   combine: Combine,
-  edit: Edit,
-  analyze: BarChart,
-  generate: Sparkles,
+  download: Download,
+};
+
+type MainCategory = 'convert' | 'compress' | 'combine' | 'download';
+
+const categoryDefinitions = {
+  convert: { name: 'Convert', color: 'blue' },
+  compress: { name: 'Compress', color: 'green' },
+  combine: { name: 'Combine', color: 'purple' },
+  download: { name: 'Download', color: 'red' },
 };
 
 interface ToolsByCategoryProps {
@@ -23,16 +30,17 @@ interface ToolsByCategoryProps {
 export function ToolsByCategory({ tools, selectedCategory }: ToolsByCategoryProps) {
   // Group tools by category
   const toolsByCategory = tools.reduce((acc, tool) => {
-    if (!acc[tool.category]) {
-      acc[tool.category] = [];
+    const category = tool.operation as MainCategory;
+    if (!acc[category]) {
+      acc[category] = [];
     }
-    acc[tool.category].push(tool);
+    acc[category].push(tool);
     return acc;
   }, {} as Record<MainCategory, Tool[]>);
 
   // Sort tools by priority within each category
   Object.keys(toolsByCategory).forEach(category => {
-    toolsByCategory[category as MainCategory].sort((a, b) => 
+    toolsByCategory[category as MainCategory].sort((a: Tool, b: Tool) => 
       (b.priority || 0) - (a.priority || 0)
     );
   });
@@ -58,7 +66,6 @@ export function ToolsByCategory({ tools, selectedCategory }: ToolsByCategoryProp
               </div>
               <div>
                 <h2 className="text-2xl font-bold">{categoryInfo.name} Tools</h2>
-                <p className="text-muted-foreground">{categoryInfo.description}</p>
               </div>
               <span className="ml-auto px-3 py-1 rounded-full bg-muted text-sm font-medium">
                 {categoryTools.length} tools
@@ -66,7 +73,7 @@ export function ToolsByCategory({ tools, selectedCategory }: ToolsByCategoryProp
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
-              {categoryTools.map(tool => (
+              {categoryTools.map((tool: Tool) => (
                 <Link key={tool.id} href={tool.route}>
                   <Card className="h-full hover:shadow-lg transition-all hover:-translate-y-0.5 cursor-pointer">
                     <CardHeader className="pb-3">
@@ -83,16 +90,11 @@ export function ToolsByCategory({ tools, selectedCategory }: ToolsByCategoryProp
                       <p className="text-sm text-muted-foreground line-clamp-2">
                         {tool.description}
                       </p>
-                      {tool.subcategory && (
+                      {tool.from && tool.to && (
                         <div className="mt-3 flex items-center gap-2">
-                          <span className="text-xs px-2 py-1 rounded-full bg-muted">
-                            {tool.subcategory.replace(/-/g, ' ')}
+                          <span className="text-xs text-muted-foreground">
+                            {tool.from.toUpperCase()} → {tool.to.toUpperCase()}
                           </span>
-                          {tool.from && tool.to && (
-                            <span className="text-xs text-muted-foreground">
-                              {tool.from.toUpperCase()} → {tool.to.toUpperCase()}
-                            </span>
-                          )}
                         </div>
                       )}
                     </CardContent>

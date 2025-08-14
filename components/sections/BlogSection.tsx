@@ -1,7 +1,7 @@
 type BlogPost = {
   title: string;
-  subtitle: string;
-  description: string;
+  subtitle?: string;
+  description?: string;
   href: string;
   category?: string;
   image?: string;

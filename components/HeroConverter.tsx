@@ -241,7 +241,7 @@ export default function HeroConverter({
             <AlertTriangle className="h-4 w-4" />
             <AlertDescription>
               <strong>Note:</strong> Video conversion runs in your browser using WebAssembly. 
-              Large files (>50MB) may take several minutes. For MKV→MP4/MOV, we use fast remuxing when possible.
+              Large files (&gt;50MB) may take several minutes. For MKV→MP4/MOV, we use fast remuxing when possible.
             </AlertDescription>
           </Alert>
         )}

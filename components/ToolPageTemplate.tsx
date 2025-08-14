@@ -8,56 +8,25 @@ import { FAQSection } from "@/components/sections/FAQSection";
 import { ToolsLinkHub } from "@/components/sections/ToolsLinkHub";
 import { BlogSection } from "@/components/sections/BlogSection";
 import { ChangelogSection } from "@/components/sections/ChangelogSection";
-
-type ToolInfo = {
-  title: string;
-  subtitle: string;
-  from: string;
-  to: string;
-  accept?: string;
-};
+import type { 
+  ToolInfo, 
+  VideoSectionData,
+  FAQ,
+  AboutFormatsSection as AboutFormatsSectionData,
+  ChangelogEntry,
+  RelatedTool,
+  BlogPost 
+} from "@/types";
 
 type ToolPageProps = {
   tool: ToolInfo;
-  videoSection?: {
-    embedId?: string;
-  };
+  videoSection?: VideoSectionData;
   useTwoColumnLayout?: boolean;
-  faqs?: Array<{
-    question: string;
-    answer: string;
-  }>;
-  aboutSection?: {
-    title?: string;
-    fromFormat: {
-      name: string;
-      fullName: string;
-      description: string;
-      details?: string[];
-    };
-    toFormat: {
-      name: string;
-      fullName: string;
-      description: string;
-      details?: string[];
-    };
-  };
-  changelog?: Array<{
-    date: string;
-    changes: string[];
-  }>;
-  relatedTools?: Array<{
-    title: string;
-    href: string;
-  }>;
-  blogPosts?: Array<{
-    title: string;
-    subtitle: string;
-    description: string;
-    href: string;
-    category?: string;
-    image?: string;
-  }>;
+  faqs?: FAQ[];
+  aboutSection?: AboutFormatsSectionData;
+  changelog?: ChangelogEntry[];
+  relatedTools?: RelatedTool[];
+  blogPosts?: BlogPost[];
 };
 
 export default function ToolPageTemplate({

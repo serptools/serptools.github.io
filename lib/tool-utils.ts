@@ -1,5 +1,5 @@
-import type { Tool, OperationType, MediaType } from '@/types/tools';
-import type { OperationDefinitions, MediaTypeDefinitions } from '@/types/taxonomy';
+import type { Tool, OperationType, MediaType } from '@/types';
+import type { OperationDefinitions, MediaTypeDefinitions } from '@/types';
 import toolsData from '@/data/tools.json';
 
 // Cast the imported JSON to our Tool type
@@ -157,7 +157,7 @@ export const formatToMediaType: Record<string, MediaType> = {
   'wav': 'audio',
   'flac': 'audio',
   'aac': 'audio',
-  'ogg': 'audio',
+  'oga': 'audio',
   'wma': 'audio',
   'm4a': 'audio',
   'opus': 'audio',
@@ -236,7 +236,6 @@ export const formatToMediaType: Record<string, MediaType> = {
   'html': 'text',
   'css': 'text',
   'js': 'text',
-  'ts': 'text',
   'jsx': 'text',
   'tsx': 'text',
   'py': 'text',

@@ -1,4 +1,4 @@
-import type { FileTypeRawData, FileTypeTemplateData } from '@/types/filetypes';
+import type { FileTypeRawData, FileTypeTemplateData } from '@/types';
 import toolsData from '@/data/tools.json';
 
 /**

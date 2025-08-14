@@ -3,9 +3,8 @@ import fs from 'fs';
 import path from 'path';
 import FileTypePageTemplate from '@/components/FileTypePageTemplate';
 import { transformFileTypeData } from '@/lib/filetype-transformer';
-import type { FileTypeRawData, FileTypeTemplateData } from '@/types/filetypes';
+import type { FileTypeRawData, FileTypeTemplateData } from '@/types';
 
-// Types are now imported from @/types/filetypes
 
 async function getFileTypeData(slug: string): Promise<FileTypeTemplateData | null> {
   try {
