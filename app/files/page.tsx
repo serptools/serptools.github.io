@@ -3,7 +3,7 @@
 import { useEffect, useState, useRef } from 'react';
 import Link from 'next/link';
 import { Search, X, ChevronDown } from 'lucide-react';
-import { categoryDefinitions, getFileCategory, type FileCategory } from '@/lib/filetype-categories';
+import { categoryDefinitions, getFileCategory, type FileCategory } from '@/lib/files-categories';
 
 interface FileType {
   slug: string;

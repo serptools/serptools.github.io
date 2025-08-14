@@ -1,15 +1,21 @@
 "use client";
 
 import ToolPageTemplate from "@/components/ToolPageTemplate";
+import HeroConverter from "@/components/HeroConverter";
 import { toolContent } from '@/lib/tool-content';
 
 export default function Page() {
   const content = toolContent["mkv-to-gif"];
   
   if (!content) {
-    // Fallback to basic converter if no content exists
+    // Fallback to HeroConverter for tools without content
     return (
-      <div>Tool content not found for mkv-to-gif</div>
+      <HeroConverter
+        title="MKV to GIF"
+        subtitle="Convert MKV video to animated GIF"
+        from="mkv"
+        to="gif"
+      />
     );
   }
   

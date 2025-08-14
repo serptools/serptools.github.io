@@ -1,15 +1,21 @@
 "use client";
 
 import ToolPageTemplate from "@/components/ToolPageTemplate";
+import HeroConverter from "@/components/HeroConverter";
 import { toolContent } from '@/lib/tool-content';
 
 export default function Page() {
   const content = toolContent["jpg-to-webp"];
   
   if (!content) {
-    // Fallback to basic converter if no content exists
+    // Fallback to HeroConverter for tools without content
     return (
-      <div>Tool content not found for jpg-to-webp</div>
+      <HeroConverter
+        title="JPG to WebP"
+        subtitle="Convert JPG to WebP format"
+        from="jpg"
+        to="webp"
+      />
     );
   }
   

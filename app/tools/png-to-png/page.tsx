@@ -1,15 +1,21 @@
 "use client";
 
 import ToolPageTemplate from "@/components/ToolPageTemplate";
+import HeroConverter from "@/components/HeroConverter";
 import { toolContent } from '@/lib/tool-content';
 
 export default function Page() {
   const content = toolContent["png-to-png"];
   
   if (!content) {
-    // Fallback to basic converter if no content exists
+    // Fallback to HeroConverter for tools without content
     return (
-      <div>Tool content not found for png-to-png</div>
+      <HeroConverter
+        title="PNG Optimizer"
+        subtitle="Compress and optimize PNG files"
+        from="png"
+        to="png"
+      />
     );
   }
   

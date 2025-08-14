@@ -2,7 +2,7 @@ import { notFound } from 'next/navigation';
 import fs from 'fs';
 import path from 'path';
 import FileTypePageTemplate from '@/components/FileTypePageTemplate';
-import { transformFileTypeData } from '@/lib/filetype-transformer';
+import { transformFileTypeData } from '@/lib/files-transformer';
 import type { FileTypeRawData, FileTypeTemplateData } from '@/types';
 
 
