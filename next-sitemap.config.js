@@ -2,12 +2,19 @@
 module.exports = {
   siteUrl: 'https://serptools.github.io',
   generateRobotsTxt: true,
-  generateIndexSitemap: false,
+  generateIndexSitemap: true,  // Enable sitemap index
+  sitemapSize: 50,  // Split into smaller sitemaps (50 URLs each for better organization)
   outDir: 'out',
   changefreq: 'weekly',
   priority: 0.7,
   exclude: ['/dev/*'],
+  additionalSitemaps: [
+    // Add any additional sitemaps if needed
+  ],
   robotsTxtOptions: {
+    additionalSitemaps: [
+      'https://serptools.github.io/sitemap.xml',  // Main sitemap index
+    ],
     policies: [
       {
         userAgent: '*',
