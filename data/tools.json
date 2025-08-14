@@ -3302,5 +3302,101 @@
         }
       ]
     }
+  },
+  {
+    "id": "mkv-to-mp4",
+    "name": "MKV to MP4",
+    "description": "Convert MKV video files to MP4 format",
+    "operation": "convert",
+    "route": "/tools/mkv-to-mp4",
+    "from": "mkv",
+    "to": "mp4",
+    "isActive": true,
+    "tags": ["mkv", "mp4", "video", "convert", "movie"],
+    "priority": 7
+  },
+  {
+    "id": "mkv-to-webm",
+    "name": "MKV to WebM",
+    "description": "Convert MKV video files to WebM format",
+    "operation": "convert",
+    "route": "/tools/mkv-to-webm",
+    "from": "mkv",
+    "to": "webm",
+    "isActive": true,
+    "tags": ["mkv", "webm", "video", "convert", "web"],
+    "priority": 6
+  },
+  {
+    "id": "mkv-to-avi",
+    "name": "MKV to AVI",
+    "description": "Convert MKV video files to AVI format",
+    "operation": "convert",
+    "route": "/tools/mkv-to-avi",
+    "from": "mkv",
+    "to": "avi",
+    "isActive": true,
+    "tags": ["mkv", "avi", "video", "convert", "legacy"],
+    "priority": 5
+  },
+  {
+    "id": "mkv-to-mov",
+    "name": "MKV to MOV",
+    "description": "Convert MKV video files to MOV format",
+    "operation": "convert",
+    "route": "/tools/mkv-to-mov",
+    "from": "mkv",
+    "to": "mov",
+    "isActive": true,
+    "tags": ["mkv", "mov", "video", "convert", "quicktime"],
+    "priority": 5
+  },
+  {
+    "id": "mkv-to-gif",
+    "name": "MKV to GIF",
+    "description": "Convert MKV video to animated GIF",
+    "operation": "convert",
+    "route": "/tools/mkv-to-gif",
+    "from": "mkv",
+    "to": "gif",
+    "isActive": true,
+    "tags": ["mkv", "gif", "video", "animation", "convert"],
+    "priority": 6
+  },
+  {
+    "id": "mkv-to-mp3",
+    "name": "MKV to MP3",
+    "description": "Extract audio from MKV to MP3",
+    "operation": "convert",
+    "route": "/tools/mkv-to-mp3",
+    "from": "mkv",
+    "to": "mp3",
+    "isActive": true,
+    "tags": ["mkv", "mp3", "audio", "extract", "convert"],
+    "priority": 7
+  },
+  {
+    "id": "mkv-to-wav",
+    "name": "MKV to WAV",
+    "description": "Extract audio from MKV to WAV",
+    "operation": "convert",
+    "route": "/tools/mkv-to-wav",
+    "from": "mkv",
+    "to": "wav",
+    "isActive": true,
+    "tags": ["mkv", "wav", "audio", "extract", "uncompressed"],
+    "priority": 5
+  },
+  {
+    "id": "mkv-to-ogg",
+    "name": "MKV to OGG",
+    "description": "Extract audio from MKV to OGG",
+    "operation": "convert",
+    "route": "/tools/mkv-to-ogg",
+    "from": "mkv",
+    "to": "ogg",
+    "isActive": true,
+    "tags": ["mkv", "ogg", "audio", "extract", "vorbis"],
+    "priority": 4
   }
 ]

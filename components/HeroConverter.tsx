@@ -2,7 +2,10 @@
 
 import { useRef, useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
-import { saveBlob } from "@/components/saveAs"; // you already added this earlier
+import { saveBlob } from "@/components/saveAs";
+import { VideoProgress } from "@/components/VideoProgress";
+import { Alert, AlertDescription } from "@/components/ui/alert";
+import { AlertTriangle } from "lucide-react";
 
 type Props = {
   title: string;              // e.g., "PDF to JPG"
@@ -25,6 +28,12 @@ export default function HeroConverter({
   const [busy, setBusy] = useState(false);
   const [hint, setHint] = useState("or drop files here");
   const [dropEffect, setDropEffect] = useState<string>("");
+  const [currentFile, setCurrentFile] = useState<{
+    name: string;
+    progress: number;
+    status: 'loading' | 'processing' | 'completed' | 'error';
+    message?: string;
+  } | null>(null);
   // Generate stable color based on tool properties
   const colors = [
     "#ef4444", // red-500
@@ -65,11 +74,46 @@ export default function HeroConverter({
     if (!files || !files.length) return;
     const w = ensureWorker();
     setBusy(true);
+    
     for (const file of Array.from(files)) {
+      // Check file size for video files
+      const isVideo = ["mkv", "mp4", "webm", "avi", "mov"].includes(from);
+      const sizeMB = file.size / (1024 * 1024);
+      
+      if (isVideo && sizeMB > 100) {
+        console.warn(`Large file warning: ${file.name} is ${sizeMB.toFixed(1)}MB`);
+      }
+      
+      setCurrentFile({
+        name: file.name,
+        progress: 0,
+        status: 'loading',
+        message: 'Loading FFmpeg...'
+      });
+      
       const buf = await file.arrayBuffer();
       await new Promise<void>((resolve, reject) => {
         w.onmessage = (ev: MessageEvent<any>) => {
-          if (!ev.data?.ok) return reject(new Error(ev.data?.error || "Convert failed"));
+          // Handle progress messages
+          if (ev.data?.type === 'progress') {
+            setCurrentFile({
+              name: file.name,
+              progress: ev.data.progress || 0,
+              status: ev.data.status || 'processing',
+              message: ev.data.status === 'loading' ? 'Loading FFmpeg...' : undefined
+            });
+            return;
+          }
+          
+          if (!ev.data?.ok) {
+            setCurrentFile({
+              name: file.name,
+              progress: 0,
+              status: 'error',
+              message: ev.data?.error || "Convert failed"
+            });
+            return reject(new Error(ev.data?.error || "Convert failed"));
+          }
           
           // Handle PDF pages (returns multiple blobs)
           if (ev.data.blobs) {
@@ -80,17 +124,53 @@ export default function HeroConverter({
               saveBlob(blob, name);
             });
           } else {
-            // Handle single image conversion
-            const blob = new Blob([ev.data.blob], { type: to === "png" ? "image/png" : "image/jpeg" });
+            // Handle single file conversion (image/video/audio)
+            let mimeType = "application/octet-stream";
+            if (to === "png") mimeType = "image/png";
+            else if (to === "jpg" || to === "jpeg") mimeType = "image/jpeg";
+            else if (to === "webp") mimeType = "image/webp";
+            else if (to === "gif") mimeType = "image/gif";
+            else if (to === "mp4") mimeType = "video/mp4";
+            else if (to === "webm") mimeType = "video/webm";
+            else if (to === "avi") mimeType = "video/x-msvideo";
+            else if (to === "mov") mimeType = "video/quicktime";
+            else if (to === "mp3") mimeType = "audio/mpeg";
+            else if (to === "wav") mimeType = "audio/wav";
+            else if (to === "ogg") mimeType = "audio/ogg";
+            
+            // Ensure we have valid data
+            if (!ev.data.blob || ev.data.blob.byteLength === 0) {
+              console.error('Received empty blob data');
+              setCurrentFile({
+                name: file.name,
+                progress: 0,
+                status: 'error',
+                message: 'Conversion produced empty file'
+              });
+              return reject(new Error('Empty output'));
+            }
+            
+            const blob = new Blob([ev.data.blob], { type: mimeType });
             const name = file.name.replace(/\.[^.]+$/, "") + "." + to;
+            console.log(`Saving ${name}, size: ${blob.size} bytes, type: ${mimeType}`);
             saveBlob(blob, name);
+            
+            setCurrentFile({
+              name: file.name,
+              progress: 100,
+              status: 'completed',
+              message: 'Conversion complete!'
+            });
           }
           resolve();
         };
-        const op = from === "pdf" ? "pdf-pages" : "raster";
-        w.postMessage(op === "raster"
-          ? { op, from, to, buf }
-          : { op, to, buf }, // pdf -> jpg/png pages
+        const isVideo = ["mkv", "mp4", "webm", "avi", "mov"].includes(from) || 
+                        ["mp4", "webm", "avi", "mov", "gif", "mp3", "wav", "ogg"].includes(to);
+        const op = from === "pdf" ? "pdf-pages" : isVideo ? "video" : "raster";
+        w.postMessage(
+          op === "pdf-pages" ? { op, to, buf } :
+          op === "video" ? { op, from, to, buf } :
+          { op, from, to, buf },
         [buf]);
       });
     }
@@ -142,11 +222,41 @@ export default function HeroConverter({
     (from === "pdf" ? ".pdf"
      : from === "jpg" ? ".jpg,.jpeg"
      : from === "jpeg" ? ".jpeg,.jpg"
+     : from === "mkv" ? ".mkv"
+     : from === "mp4" ? ".mp4"
+     : from === "webm" ? ".webm"
+     : from === "avi" ? ".avi"
+     : from === "mov" ? ".mov"
      : `.${from}`);
+
+  const isVideoTool = ["mkv", "mp4", "webm", "avi", "mov"].includes(from) || 
+                      ["mp4", "webm", "avi", "mov", "gif", "mp3", "wav", "ogg"].includes(to);
 
   return (
     <section className="w-full bg-white">
       <div className="mx-auto max-w-7xl px-6 py-8 text-center">
+        {/* Show warning for video tools */}
+        {isVideoTool && !busy && (
+          <Alert className="mb-6 max-w-2xl mx-auto">
+            <AlertTriangle className="h-4 w-4" />
+            <AlertDescription>
+              <strong>Note:</strong> Video conversion runs in your browser using WebAssembly. 
+              Large files (>50MB) may take several minutes. For MKV→MP4/MOV, we use fast remuxing when possible.
+            </AlertDescription>
+          </Alert>
+        )}
+        
+        {/* Show progress when converting */}
+        {currentFile && busy && (
+          <div className="mb-6 max-w-2xl mx-auto">
+            <VideoProgress
+              fileName={currentFile.name}
+              progress={currentFile.progress}
+              status={currentFile.status}
+              message={currentFile.message}
+            />
+          </div>
+        )}
         <div
           ref={dropRef}
           onDragEnter={onDrag}

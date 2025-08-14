@@ -4,7 +4,8 @@ import { encodeFromRGBA } from "../lib/convert/encode";
 
 type RasterJob = { op: "raster"; from: string; to: string; quality?: number; buf: ArrayBuffer };
 type PdfJob    = { op: "pdf-pages"; page?: number; to?: string; buf: ArrayBuffer };
-type Job = RasterJob | PdfJob;
+type VideoJob  = { op: "video"; from: string; to: string; quality?: number; buf: ArrayBuffer };
+type Job = RasterJob | PdfJob | VideoJob;
 
 declare const self: DedicatedWorkerGlobalScope;
 
@@ -25,6 +26,36 @@ self.onmessage = async (e: MessageEvent<Job>) => {
       const { renderPdfPages } = await import("../lib/convert/pdf");
       const bufs = await renderPdfPages(job.buf, job.page, job.to);
       self.postMessage({ ok: true, blobs: bufs }, bufs as unknown as Transferable[]);
+      return;
+    }
+
+    if (job.op === "video") {
+      try {
+        const { convertVideo } = await import("../lib/convert/video");
+        
+        // Send loading status
+        self.postMessage({ type: 'progress', status: 'loading', progress: 0 });
+        
+        const outputBuffer = await convertVideo(job.buf, job.from, job.to, { 
+          quality: job.quality,
+          onProgress: (event) => {
+            // FFmpeg progress events have ratio (0-1) and time
+            const percent = Math.round((event.ratio || 0) * 100);
+            self.postMessage({ 
+              type: 'progress', 
+              status: 'processing', 
+              progress: percent,
+              time: event.time 
+            });
+          }
+        });
+        
+        // Don't transfer the buffer, just send it normally
+        self.postMessage({ ok: true, blob: outputBuffer });
+      } catch (videoErr: any) {
+        console.error('Video conversion error:', videoErr);
+        self.postMessage({ ok: false, error: `Video conversion failed: ${videoErr?.message || videoErr}` });
+      }
       return;
     }
 
