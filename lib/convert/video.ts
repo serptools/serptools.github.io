@@ -36,9 +36,17 @@ export async function convertVideo(
   options: {
     quality?: number;
     audioOnly?: boolean;
+    onProgress?: (progress: { ratio: number; time: number }) => void;
   } = {}
 ): Promise<ArrayBuffer> {
   const ff = await loadFFmpeg();
+  
+  // Set up progress callback
+  if (options.onProgress) {
+    ff.on('progress', (event) => {
+      options.onProgress?.(event);
+    });
+  }
   
   const inputName = `input.${fromFormat}`;
   const outputName = `output.${toFormat}`;
@@ -49,8 +57,20 @@ export async function convertVideo(
   // Build FFmpeg command based on output format
   let args: string[] = ['-i', inputName];
   
+  // For MKV to MOV/MP4 with H.264, we can use copy codec (super fast)
+  const canUseCopyCodec = 
+    fromFormat === 'mkv' && 
+    ['mov', 'mp4'].includes(toFormat);
+  
+  if (canUseCopyCodec) {
+    // Just copy streams without re-encoding (FAST - like your 2 second example)
+    args.push('-c', 'copy');
+    if (toFormat === 'mp4') {
+      args.push('-movflags', '+faststart');
+    }
+  }
   // Audio extraction (mp3, wav, ogg)
-  if (['mp3', 'wav', 'ogg'].includes(toFormat)) {
+  else if (['mp3', 'wav', 'ogg'].includes(toFormat)) {
     if (toFormat === 'mp3') {
       args.push('-acodec', 'libmp3lame', '-b:a', '192k');
     } else if (toFormat === 'wav') {
@@ -60,21 +80,28 @@ export async function convertVideo(
     }
     args.push('-vn'); // No video
   }
-  // Video conversions
+  // Video conversions - optimized for speed
   else if (toFormat === 'mp4') {
-    args.push('-c:v', 'libx264', '-preset', 'medium', '-crf', '23');
+    // Use ultrafast preset for speed, higher CRF for smaller file
+    args.push('-c:v', 'libx264', '-preset', 'ultrafast', '-crf', '28');
     args.push('-c:a', 'aac', '-b:a', '128k');
     args.push('-movflags', '+faststart');
+    // Limit resolution for faster processing
+    args.push('-vf', 'scale=\'min(1280,iw)\':\'min(720,ih)\':force_original_aspect_ratio=decrease');
   } else if (toFormat === 'webm') {
-    args.push('-c:v', 'libvpx-vp9', '-crf', '30', '-b:v', '0');
-    args.push('-c:a', 'libopus', '-b:a', '128k');
+    // Use faster VP8 instead of VP9
+    args.push('-c:v', 'libvpx', '-crf', '30', '-b:v', '1M');
+    args.push('-c:a', 'libvorbis', '-b:a', '128k');
+    args.push('-vf', 'scale=\'min(1280,iw)\':\'min(720,ih)\':force_original_aspect_ratio=decrease');
   } else if (toFormat === 'avi') {
-    args.push('-c:v', 'mpeg4', '-vtag', 'xvid', '-qscale:v', '5');
-    args.push('-c:a', 'libmp3lame', '-b:a', '192k');
+    args.push('-c:v', 'mpeg4', '-vtag', 'xvid', '-qscale:v', '8');
+    args.push('-c:a', 'libmp3lame', '-b:a', '128k');
+    args.push('-vf', 'scale=\'min(1280,iw)\':\'min(720,ih)\':force_original_aspect_ratio=decrease');
   } else if (toFormat === 'mov') {
-    args.push('-c:v', 'libx264', '-preset', 'medium', '-crf', '23');
+    args.push('-c:v', 'libx264', '-preset', 'ultrafast', '-crf', '28');
     args.push('-c:a', 'aac', '-b:a', '128k');
     args.push('-movflags', '+faststart');
+    args.push('-vf', 'scale=\'min(1280,iw)\':\'min(720,ih)\':force_original_aspect_ratio=decrease');
   } else if (toFormat === 'gif') {
     // Generate palette for better quality
     const paletteName = 'palette.png';

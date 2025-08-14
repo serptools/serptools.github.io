@@ -32,7 +32,24 @@ self.onmessage = async (e: MessageEvent<Job>) => {
     if (job.op === "video") {
       try {
         const { convertVideo } = await import("../lib/convert/video");
-        const outputBuffer = await convertVideo(job.buf, job.from, job.to, { quality: job.quality });
+        
+        // Send loading status
+        self.postMessage({ type: 'progress', status: 'loading', progress: 0 });
+        
+        const outputBuffer = await convertVideo(job.buf, job.from, job.to, { 
+          quality: job.quality,
+          onProgress: (event) => {
+            // FFmpeg progress events have ratio (0-1) and time
+            const percent = Math.round((event.ratio || 0) * 100);
+            self.postMessage({ 
+              type: 'progress', 
+              status: 'processing', 
+              progress: percent,
+              time: event.time 
+            });
+          }
+        });
+        
         self.postMessage({ ok: true, blob: outputBuffer }, [outputBuffer]);
       } catch (videoErr: any) {
         console.error('Video conversion error:', videoErr);
