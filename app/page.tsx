@@ -14,7 +14,9 @@ import {
   FileImage,
   FileJson,
   Table,
-  Type
+  Type,
+  Video,
+  Music
 } from "lucide-react";
 import toolsData from '@/data/tools.json';
 
@@ -63,6 +65,14 @@ const iconMap: { [key: string]: any } = {
   'csv-combiner': Table,
   'json-to-csv': FileJson,
   'character-counter': Type,
+  'mkv-to-mp4': Video,
+  'mkv-to-webm': Video,
+  'mkv-to-avi': Video,
+  'mkv-to-mov': Video,
+  'mkv-to-gif': Image,
+  'mkv-to-mp3': Music,
+  'mkv-to-wav': Music,
+  'mkv-to-ogg': Music,
 };
 
 // Process tools from JSON data
