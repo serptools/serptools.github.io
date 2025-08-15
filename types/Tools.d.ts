@@ -118,3 +118,28 @@ export interface Tool {
 export interface FormatMediaMapping {
   [format: string]: MediaType;
 }
+
+// Operation definition
+export interface OperationDefinition {
+  name: string;
+  description: string;
+  color: string;
+}
+
+// Operation definitions type
+export type OperationDefinitions = {
+  [K in OperationType]: OperationDefinition;
+};
+
+// Media type definition
+export interface MediaTypeDefinition {
+  name: string;
+  pluralName: string;
+  description: string;
+  color: string;
+}
+
+// Media type definitions type
+export type MediaTypeDefinitions = {
+  [K in MediaType]: MediaTypeDefinition;
+};
