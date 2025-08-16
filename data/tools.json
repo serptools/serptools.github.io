@@ -4735,6 +4735,137 @@
     }
   },
   {
+    "id": "batch-compress-png",
+    "name": "Batch PNG Compressor",
+    "description": "Compress multiple PNG files at once and download as ZIP",
+    "operation": "compress",
+    "route": "/tools/batch-compress-png",
+    "from": "png",
+    "to": "png",
+    "isActive": true,
+    "tags": [
+      "png",
+      "batch",
+      "compress",
+      "zip",
+      "multiple",
+      "bulk"
+    ],
+    "priority": 9,
+    "content": {
+      "tool": {
+        "title": "Batch PNG Compressor",
+        "subtitle": "Compress multiple PNG files at once. Upload multiple PNGs and download them all as a compressed ZIP file.",
+        "from": "png",
+        "to": "png",
+        "accept": ".png,image/png"
+      },
+      "videoSection": {
+        "embedId": "batch-png-compress-tutorial"
+      },
+      "faqs": [
+        {
+          "question": "How many PNG files can I compress at once?",
+          "answer": "You can compress up to 100 PNG files in a single batch. Each file can be up to 50MB in size. All files are processed locally in your browser for maximum privacy."
+        },
+        {
+          "question": "How much compression can I expect?",
+          "answer": "Typically 20-70% file size reduction depending on the original images. Our compressor uses advanced algorithms to minimize file size while maintaining visual quality."
+        },
+        {
+          "question": "What's included in the ZIP download?",
+          "answer": "The ZIP file contains all your compressed PNG files with '_compressed' added to their original filenames. The folder structure is preserved if you upload from multiple directories."
+        },
+        {
+          "question": "Is batch compression faster than individual files?",
+          "answer": "Yes! Batch processing is much more efficient than compressing files one by one. You can start the process and let it run while you do other tasks."
+        },
+        {
+          "question": "Can I adjust compression settings?",
+          "answer": "The compressor automatically optimizes each image for the best balance of quality and file size. Advanced settings may be added in future updates."
+        },
+        {
+          "question": "Is my data secure during batch processing?",
+          "answer": "Absolutely! All compression happens locally in your browser. Your images never leave your device and aren't uploaded to any server."
+        }
+      ],
+      "aboutSection": {
+        "title": "Batch PNG Compression: Efficiency at Scale",
+        "fromFormat": {
+          "name": "Original PNGs",
+          "fullName": "Multiple PNG Files",
+          "description": "Your collection of PNG images before compression",
+          "details": [
+            "Original quality preserved",
+            "Full resolution maintained",
+            "Unoptimized file sizes",
+            "Individual file processing",
+            "Manual download required"
+          ]
+        },
+        "toFormat": {
+          "name": "Compressed ZIP",
+          "fullName": "Batch Compressed PNGs",
+          "description": "All your PNG files compressed and packaged in a single ZIP",
+          "details": [
+            "20-70% size reduction",
+            "Batch processing efficiency",
+            "Single ZIP download",
+            "Preserved visual quality",
+            "Organized file structure"
+          ]
+        }
+      },
+      "changelog": [
+        {
+          "date": "January 2025",
+          "changes": [
+            "Launched Batch PNG Compressor",
+            "Added ZIP packaging feature",
+            "Implemented parallel processing for faster compression"
+          ]
+        }
+      ],
+      "relatedTools": [
+        {
+          "title": "PNG Optimizer",
+          "href": "/tools/png-to-png"
+        },
+        {
+          "title": "PNG to JPG",
+          "href": "/tools/png-to-jpg"
+        },
+        {
+          "title": "PNG to WEBP",
+          "href": "/tools/png-to-webp"
+        }
+      ],
+      "blogPosts": [
+        {
+          "title": "Batch Processing PNG Files: Complete Guide",
+          "subtitle": "Bulk Optimization",
+          "description": "Learn how to efficiently compress hundreds of PNG files at once while maintaining quality.",
+          "href": "#",
+          "category": "BATCH PROCESSING"
+        },
+        {
+          "title": "PNG Compression for Web Performance",
+          "subtitle": "Optimization Guide",
+          "description": "Best practices for compressing PNG images to improve website loading times.",
+          "href": "#",
+          "category": "WEB OPTIMIZATION"
+        },
+        {
+          "title": "Automating Image Compression Workflows",
+          "subtitle": "Productivity Tips",
+          "description": "Set up automated workflows for compressing large batches of images efficiently.",
+          "href": "#",
+          "category": "PRODUCTIVITY"
+        }
+      ]
+    }
+  },
+  {
     "id": "csv-combiner",
     "name": "CSV Combiner",
     "description": "Combine multiple CSV files into one",
