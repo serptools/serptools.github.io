@@ -73,6 +73,7 @@ const iconMap: { [key: string]: any } = {
   'mkv-to-mp3': Music,
   'mkv-to-wav': Music,
   'mkv-to-ogg': Music,
+  'batch-compress-png': Image,
 };
 
 // Process tools from JSON data
@@ -110,6 +111,7 @@ export default function HomePage() {
         else if (tool.category === 'compress') catName = 'Compress';
         else if (tool.category === 'convert') catName = 'Convert';
         else if (tool.category === 'download') catName = 'Download';
+        else if (tool.category === 'bulk') catName = 'Bulk Operations';
         
         categoryMap.set(tool.category, { 
           id: tool.category, 

@@ -4738,7 +4738,7 @@
     "id": "batch-compress-png",
     "name": "Batch PNG Compressor",
     "description": "Compress multiple PNG files at once and download as ZIP",
-    "operation": "compress",
+    "operation": "bulk",
     "route": "/tools/batch-compress-png",
     "from": "png",
     "to": "png",
