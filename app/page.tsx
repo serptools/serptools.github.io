@@ -1,11 +1,11 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { Navbar } from "@/components/Navbar";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { Input } from "@/components/ui/input";
 import { ToolCard } from "@/components/ToolCard";
+import { ToolsSearchBar } from "@/components/ToolsSearchBar";
+import { ToolsLinkHub } from "@/components/sections/ToolsLinkHub";
 import { 
   Search, 
   Sparkles,
@@ -73,6 +73,7 @@ const iconMap: { [key: string]: any } = {
   'mkv-to-mp3': Music,
   'mkv-to-wav': Music,
   'mkv-to-ogg': Music,
+  'batch-compress-png': Image,
 };
 
 // Process tools from JSON data
@@ -110,6 +111,7 @@ export default function HomePage() {
         else if (tool.category === 'compress') catName = 'Compress';
         else if (tool.category === 'convert') catName = 'Convert';
         else if (tool.category === 'download') catName = 'Download';
+        else if (tool.category === 'bulk') catName = 'Bulk Operations';
         
         categoryMap.set(tool.category, { 
           id: tool.category, 
@@ -146,44 +148,20 @@ export default function HomePage() {
               <h1 className="mb-4 text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl">
                 Tools that work like you want them to
               </h1>
-    
-              
-              {/* Search Bar */}
-              <div className="relative mx-auto max-w-xl">
-                <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
-                <Input
-                  type="search"
-                  placeholder="Search tools..."
-                  className="w-full pl-10 pr-4 py-6 text-base"
-                  value={searchQuery}
-                  onChange={(e) => setSearchQuery(e.target.value)}
-                />
-              </div>
             </div>
           </div>
         </section>
 
         {/* Main Content */}
         <section className="container py-12">
-          {/* Filter Bar */}
-          <div className="mb-8">
-            {/* Filter Categories - Always Visible */}
-            <div className="flex flex-wrap gap-2">
-              {categories.map((category) => (
-                <Button
-                  key={category.id}
-                  onClick={() => setSelectedCategory(category.id)}
-                  variant={selectedCategory === category.id ? "default" : "outline"}
-                  size="sm"
-                >
-                  {category.name}
-                  <span className="ml-2 text-xs opacity-70">
-                    ({category.count})
-                  </span>
-                </Button>
-              ))}
-            </div>
-          </div>
+          {/* Search and Filter Bar */}
+          <ToolsSearchBar
+            searchQuery={searchQuery}
+            setSearchQuery={setSearchQuery}
+            categories={categories}
+            selectedCategory={selectedCategory}
+            setSelectedCategory={setSelectedCategory}
+          />
 
           {/* Tools Grid */}
           <div className="grid gap-5 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
@@ -218,6 +196,9 @@ export default function HomePage() {
             </div>
           </div>
         </section>
+
+        {/* Footer with all tools */}
+        <ToolsLinkHub />
     </main>
   );
 }

@@ -36,19 +36,44 @@ self.onmessage = async (e: MessageEvent<Job>) => {
         // Send loading status
         self.postMessage({ type: 'progress', status: 'loading', progress: 0 });
         
+        // Start a fake progress timer since FFmpeg progress isn't working reliably
+        let fakeProgress = 10; // Start at 10%
+        self.postMessage({ 
+          type: 'progress', 
+          status: 'processing', 
+          progress: fakeProgress
+        });
+        
+        const progressInterval = setInterval(() => {
+          fakeProgress = Math.min(fakeProgress + 10, 90); // Go up to 90%
+          console.log('[Worker] Sending progress:', fakeProgress);
+          self.postMessage({ 
+            type: 'progress', 
+            status: 'processing', 
+            progress: fakeProgress
+          });
+        }, 1000); // Update every second
+        
         const outputBuffer = await convertVideo(job.buf, job.from, job.to, { 
           quality: job.quality,
           onProgress: (event) => {
-            // FFmpeg progress events have ratio (0-1) and time
+            // If we get real progress, use it
             const percent = Math.round((event.ratio || 0) * 100);
-            self.postMessage({ 
-              type: 'progress', 
-              status: 'processing', 
-              progress: percent,
-              time: event.time 
-            });
+            if (percent > fakeProgress) {
+              clearInterval(progressInterval);
+              self.postMessage({ 
+                type: 'progress', 
+                status: 'processing', 
+                progress: percent,
+                time: event.time 
+              });
+            }
           }
         });
+        
+        // Clear the interval and send 100%
+        clearInterval(progressInterval);
+        self.postMessage({ type: 'progress', status: 'processing', progress: 100 });
         
         // Don't transfer the buffer, just send it normally
         self.postMessage({ ok: true, blob: outputBuffer });

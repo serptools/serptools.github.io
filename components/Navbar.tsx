@@ -9,7 +9,7 @@ export function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navLinks = [
-    { href: "/", label: "Tools" },
+    { href: "/tools", label: "Tools" },
     { href: "/files", label: "Files" },
   ];
 

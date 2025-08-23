@@ -28,7 +28,7 @@ export function VideoProgress({ fileName, progress, status, message }: VideoProg
   const getStatusText = () => {
     switch (status) {
       case 'loading':
-        return 'Loading FFmpeg...';
+        return `Processing ${Math.round(progress)}%`;
       case 'processing':
         return message || `Processing ${Math.round(progress)}%`;
       case 'completed':

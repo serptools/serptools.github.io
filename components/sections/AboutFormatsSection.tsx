@@ -1,4 +1,5 @@
 import { Card } from "@/components/ui/card";
+import Link from "next/link";
 
 type FormatInfo = {
   name: string;
@@ -28,20 +29,21 @@ export function AboutFormatsSection({
         )}
         <div className="grid md:grid-cols-2 gap-8">
           {/* From Format */}
-          <Card className="p-8 border-gray-200 hover:shadow-lg transition-shadow duration-300">
-            <div className="mb-6">
-              <div className="inline-flex items-center justify-center w-12 h-12 rounded-lg bg-blue-100 mb-4">
-                <span className="text-blue-600 font-bold text-lg">
-                  {fromFormat.name.substring(0, 2).toUpperCase()}
-                </span>
+          <Link href={`/files/${fromFormat.name.toLowerCase()}`} className="block">
+            <Card className="p-8 border-gray-200 hover:shadow-lg transition-shadow duration-300 cursor-pointer">
+              <div className="mb-6">
+                <div className="inline-flex items-center justify-center w-12 h-12 rounded-lg bg-blue-100 mb-4">
+                  <span className="text-blue-600 font-bold text-lg">
+                    {fromFormat.name.substring(0, 2).toUpperCase()}
+                  </span>
+                </div>
+                <h3 className="text-xl font-semibold mb-2 text-gray-900">
+                  {fromFormat.name.toUpperCase()} Format
+                </h3>
+                <p className="text-sm text-gray-500 font-medium">
+                  {fromFormat.fullName}
+                </p>
               </div>
-              <h3 className="text-xl font-semibold mb-2 text-gray-900">
-                {fromFormat.name.toUpperCase()} Format
-              </h3>
-              <p className="text-sm text-gray-500 font-medium">
-                {fromFormat.fullName}
-              </p>
-            </div>
             <p className="text-gray-600 leading-relaxed mb-6">
               {fromFormat.description}
             </p>
@@ -67,23 +69,25 @@ export function AboutFormatsSection({
                 ))}
               </ul>
             )}
-          </Card>
+            </Card>
+          </Link>
 
           {/* To Format */}
-          <Card className="p-8 border-gray-200 hover:shadow-lg transition-shadow duration-300">
-            <div className="mb-6">
-              <div className="inline-flex items-center justify-center w-12 h-12 rounded-lg bg-purple-100 mb-4">
-                <span className="text-purple-600 font-bold text-lg">
-                  {toFormat.name.substring(0, 2).toUpperCase()}
-                </span>
+          <Link href={`/files/${toFormat.name.toLowerCase()}`} className="block">
+            <Card className="p-8 border-gray-200 hover:shadow-lg transition-shadow duration-300 cursor-pointer">
+              <div className="mb-6">
+                <div className="inline-flex items-center justify-center w-12 h-12 rounded-lg bg-purple-100 mb-4">
+                  <span className="text-purple-600 font-bold text-lg">
+                    {toFormat.name.substring(0, 2).toUpperCase()}
+                  </span>
+                </div>
+                <h3 className="text-xl font-semibold mb-2 text-gray-900">
+                  {toFormat.name.toUpperCase()} Format
+                </h3>
+                <p className="text-sm text-gray-500 font-medium">
+                  {toFormat.fullName}
+                </p>
               </div>
-              <h3 className="text-xl font-semibold mb-2 text-gray-900">
-                {toFormat.name.toUpperCase()} Format
-              </h3>
-              <p className="text-sm text-gray-500 font-medium">
-                {toFormat.fullName}
-              </p>
-            </div>
             <p className="text-gray-600 leading-relaxed mb-6">
               {toFormat.description}
             </p>
@@ -109,7 +113,8 @@ export function AboutFormatsSection({
                 ))}
               </ul>
             )}
-          </Card>
+            </Card>
+          </Link>
         </div>
       </div>
     </section>

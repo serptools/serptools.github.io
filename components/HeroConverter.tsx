@@ -13,6 +13,7 @@ type Props = {
   from: string;               // "pdf"
   to: string;                 // "jpg"
   accept?: string;            // optional override accept attr
+  videoEmbedId?: string;      // YouTube embed ID for video
 };
 
 export default function HeroConverter({
@@ -21,10 +22,12 @@ export default function HeroConverter({
   from,
   to,
   accept,
+  videoEmbedId,
 }: Props) {
   const inputRef = useRef<HTMLInputElement | null>(null);
   const dropRef = useRef<HTMLDivElement | null>(null);
   const workerRef = useRef<Worker | null>(null);
+  const iframeRef = useRef<HTMLIFrameElement | null>(null);
   const [busy, setBusy] = useState(false);
   const [hint, setHint] = useState("or drop files here");
   const [dropEffect, setDropEffect] = useState<string>("");
@@ -87,8 +90,8 @@ export default function HeroConverter({
       setCurrentFile({
         name: file.name,
         progress: 0,
-        status: 'loading',
-        message: 'Loading FFmpeg...'
+        status: 'processing',
+        message: undefined
       });
       
       const buf = await file.arrayBuffer();
@@ -99,8 +102,8 @@ export default function HeroConverter({
             setCurrentFile({
               name: file.name,
               progress: ev.data.progress || 0,
-              status: ev.data.status || 'processing',
-              message: ev.data.status === 'loading' ? 'Loading FFmpeg...' : undefined
+              status: 'processing',
+              message: undefined
             });
             return;
           }
@@ -235,16 +238,6 @@ export default function HeroConverter({
   return (
     <section className="w-full bg-white">
       <div className="mx-auto max-w-7xl px-6 py-8 text-center">
-        {/* Show warning for video tools */}
-        {isVideoTool && !busy && (
-          <Alert className="mb-6 max-w-2xl mx-auto">
-            <AlertTriangle className="h-4 w-4" />
-            <AlertDescription>
-              <strong>Note:</strong> Video conversion runs in your browser using WebAssembly. 
-              Large files (&gt;50MB) may take several minutes. For MKV→MP4/MOV, we use fast remuxing when possible.
-            </AlertDescription>
-          </Alert>
-        )}
         
         {/* Show progress when converting */}
         {currentFile && busy && (

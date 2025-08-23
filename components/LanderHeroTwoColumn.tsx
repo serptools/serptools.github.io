@@ -3,6 +3,7 @@
 import { useRef, useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { saveBlob } from "@/components/saveAs";
+import { detectCapabilities, type Capabilities } from "@/lib/capabilities";
 
 type Props = {
   title: string;              // e.g., "PDF to JPG"
@@ -10,7 +11,7 @@ type Props = {
   from: string;               // "pdf"
   to: string;                 // "jpg"
   accept?: string;            // optional override accept attr
-  videoEmbedId: string;       // YouTube embed ID for video
+  videoEmbedId?: string;      // YouTube embed ID for video (optional, defaults to bbkhxMpIH4w)
 };
 
 export default function LanderHeroTwoColumn({
@@ -19,15 +20,16 @@ export default function LanderHeroTwoColumn({
   from,
   to,
   accept,
-  videoEmbedId,
+  videoEmbedId = "bbkhxMpIH4w",
 }: Props) {
   const inputRef = useRef<HTMLInputElement | null>(null);
   const dropRef = useRef<HTMLDivElement | null>(null);
   const workerRef = useRef<Worker | null>(null);
-  const iframeRef = useRef<HTMLIFrameElement | null>(null);
   const [busy, setBusy] = useState(false);
   const [hint, setHint] = useState("or drop files here");
   const [dropEffect, setDropEffect] = useState<string>("");
+  const [capabilities, setCapabilities] = useState<Capabilities | null>(null);
+  const [videoPlaying, setVideoPlaying] = useState(false);
   // Generate stable color based on tool properties
   const colors = [
     "#ef4444", // red-500
@@ -56,9 +58,19 @@ export default function LanderHeroTwoColumn({
         new URL("../workers/convert.worker.ts", import.meta.url),
         { type: "module" }
       );
+      
+      // Add error handler for worker
+      workerRef.current.onerror = (error) => {
+        console.error('Worker error:', error);
+      };
     }
     return workerRef.current;
   }
+
+  // Detect capabilities on mount
+  useEffect(() => {
+    setCapabilities(detectCapabilities());
+  }, []);
 
   function onPick() {
     inputRef.current?.click();
@@ -67,14 +79,8 @@ export default function LanderHeroTwoColumn({
   async function handleFiles(files: FileList | null) {
     if (!files || !files.length) return;
     
-    // Trigger video autoplay when files are processed
-    if (iframeRef.current) {
-      // Use postMessage API to control YouTube iframe
-      iframeRef.current.contentWindow?.postMessage(
-        '{"event":"command","func":"playVideo","args":""}',
-        '*'
-      );
-    }
+    // Start playing video when file is dropped
+    setVideoPlaying(true);
     
     const w = ensureWorker();
     setBusy(true);
@@ -82,7 +88,19 @@ export default function LanderHeroTwoColumn({
       const buf = await file.arrayBuffer();
       await new Promise<void>((resolve, reject) => {
         w.onmessage = (ev: MessageEvent<any>) => {
-          if (!ev.data?.ok) return reject(new Error(ev.data?.error || "Convert failed"));
+          // Safety check for malformed messages
+          if (!ev.data) {
+            console.error('Received malformed worker message:', ev);
+            return reject(new Error("Malformed worker response"));
+          }
+          
+          // Handle progress updates for video conversion
+          if (ev.data.type === 'progress') {
+            // You could update UI progress here if needed
+            return;
+          }
+          
+          if (!ev.data.ok) return reject(new Error(ev.data.error || "Convert failed"));
           
           // Handle PDF pages (returns multiple blobs)
           if (ev.data.blobs) {
@@ -93,17 +111,64 @@ export default function LanderHeroTwoColumn({
               saveBlob(blob, name);
             });
           } else {
-            // Handle single image conversion
-            const blob = new Blob([ev.data.blob], { type: to === "png" ? "image/png" : "image/jpeg" });
+            // Determine MIME type based on output format
+            let mimeType: string;
+            const videoFormats = ['mp4', 'm4v'];
+            const audioFormats = ['mp3', 'wav', 'ogg', 'aac', 'm4a', 'opus', 'flac'];
+            
+            if (videoFormats.includes(to)) {
+              mimeType = 'video/mp4';
+            } else if (audioFormats.includes(to)) {
+              mimeType = `audio/${to === 'm4a' ? 'mp4' : to}`;
+            } else if (to === 'webm') {
+              mimeType = 'video/webm';
+            } else if (to === 'gif') {
+              mimeType = 'image/gif';
+            } else if (to === 'png') {
+              mimeType = 'image/png';
+            } else if (to === 'jpg' || to === 'jpeg') {
+              mimeType = 'image/jpeg';
+            } else {
+              // Default for other video/audio formats
+              mimeType = to.startsWith('video/') ? to : `video/${to}`;
+            }
+            
+            const blob = new Blob([ev.data.blob], { type: mimeType });
             const name = file.name.replace(/\.[^.]+$/, "") + "." + to;
             saveBlob(blob, name);
           }
           resolve();
         };
-        const op = from === "pdf" ? "pdf-pages" : "raster";
+        
+        // Add worker error handler
+        w.onerror = (error) => {
+          reject(new Error(`Worker error: ${error.message || error}`));
+        };
+        
+        // Determine operation type based on format
+        const videoFormats = ['mp4', 'mkv', 'avi', 'webm', 'mov', 'flv', 'ts', 'mts', 'm2ts', 'm4v', 'mpeg', 'mpg', 'vob', '3gp', 'f4v', 'hevc', 'divx', 'mjpeg', 'mpeg2', 'asf', 'wmv', 'mxf'];
+        const audioFormats = ['mp3', 'wav', 'ogg', 'aac', 'm4a', 'opus', 'flac', 'wma', 'aiff', 'mp2'];
+        
+        let op: string;
+        if (from === "pdf") {
+          op = "pdf-pages";
+        } else if (videoFormats.includes(from) || audioFormats.includes(to)) {
+          // Check if video conversion is supported before attempting
+          if (!capabilities?.supportsVideoConversion) {
+            throw new Error(`Video conversion not supported: ${capabilities?.reason || 'Unknown reason'}`);
+          }
+          op = "video";
+        } else {
+          op = "raster";
+        }
+        
+        console.log(`Converting ${from} to ${to} using operation: ${op}`);
+        
         w.postMessage(op === "raster"
           ? { op, from, to, buf }
-          : { op, to, buf }, // pdf -> jpg/png pages
+          : op === "pdf-pages" 
+            ? { op, to, buf } // pdf -> jpg/png pages
+            : { op, from, to, buf }, // video conversion
         [buf]);
       });
     }
@@ -165,16 +230,39 @@ export default function LanderHeroTwoColumn({
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-stretch">
           {/* Video Column */}
           <div className="order-2 lg:order-1">
-            <div className="relative w-full rounded-xl overflow-hidden bg-gray-900" style={{ aspectRatio: '16/9' }}>
-              <iframe
-                ref={iframeRef}
-                className="absolute top-0 left-0 w-full h-full"
-                src={`https://www.youtube.com/embed/${videoEmbedId}?enablejsapi=1&mute=1`}
-                title="How It Works"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              />
+            <div className="relative w-full rounded-xl overflow-hidden bg-gradient-to-br from-gray-800 to-gray-900" style={{ aspectRatio: '16/9' }}>
+              {videoEmbedId ? (
+                <iframe
+                  className="absolute inset-0 w-full h-full"
+                  src={`https://www.youtube.com/embed/${videoEmbedId}?${videoPlaying ? 'autoplay=1&' : ''}mute=1&loop=1&playlist=${videoEmbedId}&controls=1&showinfo=0&rel=0&modestbranding=1`}
+                  title="Tool Demo Video"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  style={{ border: 'none' }}
+                />
+              ) : (
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <div className="text-center">
+                    <div className="relative">
+                      <svg className="w-20 h-20 text-gray-600 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                      </svg>
+                      {busy && (
+                        <div className="absolute inset-0 flex items-center justify-center">
+                          <div className="animate-spin rounded-full h-20 w-20 border-4 border-gray-600 border-t-blue-500"></div>
+                        </div>
+                      )}
+                    </div>
+                    <p className="text-gray-400 text-sm font-medium">
+                      {busy ? 'Converting your file...' : 'Drop a file to see the conversion in action'}
+                    </p>
+                    <p className="text-gray-500 text-xs mt-2">
+                      No uploads • 100% private • Processed locally
+                    </p>
+                  </div>
+                </div>
+              )}
             </div>
           </div>
 
@@ -231,6 +319,26 @@ export default function LanderHeroTwoColumn({
                 <div className="text-sm" style={{ color: randomColor }}>
                   <p className="font-medium">{hint}</p>
                 </div>
+                
+                {/* Video conversion warning */}
+                {capabilities && !capabilities.supportsVideoConversion && (
+                  (from && ['mp4', 'mkv', 'avi', 'webm', 'mov'].includes(from) || 
+                   to && ['mp3', 'wav', 'aac', 'm4a', 'ogg'].includes(to)) && (
+                    <div className="mt-4 p-3 bg-amber-50 border border-amber-200 rounded-lg">
+                      <div className="flex items-start space-x-2">
+                        <svg className="w-5 h-5 text-amber-600 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                          <path fillRule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clipRule="evenodd" />
+                        </svg>
+                        <div>
+                          <p className="text-sm font-medium text-amber-800">Video conversion temporarily disabled</p>
+                          <p className="text-xs text-amber-700 mt-1">
+                            {capabilities.reason}. Deploy to a server environment to enable video processing.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  )
+                )}
               </div>
 
               <input

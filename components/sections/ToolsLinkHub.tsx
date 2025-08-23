@@ -1,3 +1,7 @@
+"use client";
+
+import toolsData from '@/data/tools.json';
+
 type ToolsLinkHubProps = {
   relatedTools?: Array<{
     title: string;
@@ -5,99 +9,211 @@ type ToolsLinkHubProps = {
   }>;
 };
 
-const allTools = {
-  "Image Converters": [
-    { title: "JPG to PNG", href: "/tools/jpg-to-png" },
-    { title: "PNG to JPG", href: "/tools/png-to-jpg" },
-    { title: "HEIC to JPG", href: "/tools/heic-to-jpg" },
-    { title: "WebP to PNG", href: "/tools/webp-to-png" },
-    { title: "AVIF to JPG", href: "/tools/avif-to-jpg" },
-    { title: "BMP to JPG", href: "/tools/bmp-to-jpg" },
-    { title: "GIF to JPG", href: "/tools/gif-to-jpg" },
-    { title: "ICO to PNG", href: "/tools/ico-to-png" },
-  ],
-  "Modern Formats": [
-    { title: "AVIF to PNG", href: "/tools/avif-to-png" },
-    { title: "AVIF to JPEG", href: "/tools/avif-to-jpeg" },
-    { title: "HEIF to JPG", href: "/tools/heif-to-jpg" },
-    { title: "HEIF to PNG", href: "/tools/heif-to-png" },
-    { title: "HEIC to PNG", href: "/tools/heic-to-png" },
-    { title: "HEIC to JPEG", href: "/tools/heic-to-jpeg" },
-    { title: "WebP to PNG", href: "/tools/webp-to-png" },
-    { title: "JPEG to WebP", href: "/tools/jpeg-to-webp" },
-  ],
-  "PDF Tools": [
-    { title: "PDF to JPG", href: "/tools/pdf-to-jpg" },
-    { title: "PDF to PNG", href: "/tools/pdf-to-png" },
-    { title: "JPG to PDF", href: "/tools/jpg-to-pdf" },
-    { title: "PNG to PDF", href: "/tools/png-to-pdf" },
-    { title: "HEIC to PDF", href: "/tools/heic-to-pdf" },
-    { title: "HEIF to PDF", href: "/tools/heif-to-pdf" },
-    { title: "JFIF to PDF", href: "/tools/jfif-to-pdf" },
-    { title: "JPEG to PDF", href: "/tools/jpeg-to-pdf" },
-  ],
-  "RAW Formats": [
-    { title: "CR2 to JPG", href: "/tools/cr2-to-jpg" },
-    { title: "CR3 to JPG", href: "/tools/cr3-to-jpg" },
-    { title: "ARW to JPG", href: "/tools/arw-to-jpg" },
-    { title: "DNG to JPG", href: "/tools/dng-to-jpg" },
-    { title: "AI to PNG", href: "/tools/ai-to-png" },
-    { title: "AI to SVG", href: "/tools/ai-to-svg" },
-    { title: "JPG to SVG", href: "/tools/jpg-to-svg" },
-  ],
-  "Data Tools": [
-    { title: "JSON to CSV", href: "/tools/json-to-csv" },
-    { title: "CSV Combiner", href: "/tools/csv-combiner" },
-    { title: "Character Counter", href: "/tools/character-counter" },
-  ],
-  "Legacy Formats": [
-    { title: "JFIF to JPG", href: "/tools/jfif-to-jpg" },
-    { title: "JFIF to JPEG", href: "/tools/jfif-to-jpeg" },
-    { title: "JFIF to PNG", href: "/tools/jfif-to-png" },
-    { title: "BMP to PNG", href: "/tools/bmp-to-png" },
-    { title: "GIF to PNG", href: "/tools/gif-to-png" },
-    { title: "GIF to WebP", href: "/tools/gif-to-webp" },
-  ],
-  "Utility Tools": [
-    { title: "JPEG to JPG", href: "/tools/jpeg-to-jpg" },
-    { title: "JPEG to PNG", href: "/tools/jpeg-to-png" },
-    { title: "JPG to WebP", href: "/tools/jpg-to-webp" },
-    { title: "PNG to WebP", href: "/tools/png-to-webp" },
-    { title: "PNG Optimizer", href: "/tools/png-to-png" },
-  ],
+interface Tool {
+  id: string;
+  name: string;
+  route: string;
+  tags?: string[];
+  priority?: number;
+  isActive: boolean;
+  from?: string;
+  to?: string;
+}
+
+// Define better categories based on format types
+const CATEGORY_MAP: Record<string, string> = {
+  'heic': 'Image Formats',
+  'jpg': 'Image Formats',
+  'jpeg': 'Image Formats',
+  'png': 'Image Formats',
+  'webp': 'Image Formats',
+  'gif': 'Image Formats',
+  'bmp': 'Image Formats',
+  'svg': 'Image Formats',
+  'ico': 'Image Formats',
+  'tiff': 'Image Formats',
+  
+  'mp4': 'Video Formats',
+  'mkv': 'Video Formats',
+  'avi': 'Video Formats',
+  'mov': 'Video Formats',
+  'webm': 'Video Formats',
+  'flv': 'Video Formats',
+  'wmv': 'Video Formats',
+  'mpeg': 'Video Formats',
+  'm4v': 'Video Formats',
+  'ts': 'Video Formats',
+  
+  'mp3': 'Audio Formats',
+  'wav': 'Audio Formats',
+  'ogg': 'Audio Formats',
+  'aac': 'Audio Formats',
+  'm4a': 'Audio Formats',
+  'flac': 'Audio Formats',
+  'opus': 'Audio Formats',
+  
+  'pdf': 'Document Formats',
+  'doc': 'Document Formats',
+  'docx': 'Document Formats',
+  'txt': 'Document Formats',
+  'rtf': 'Document Formats',
+  
+  'csv': 'Data Formats',
+  'json': 'Data Formats',
+  'xml': 'Data Formats',
+  'yaml': 'Data Formats',
+  
+  'zip': 'Archive Formats',
+  'rar': 'Archive Formats',
+  '7z': 'Archive Formats',
+  'tar': 'Archive Formats',
+  'gz': 'Archive Formats',
 };
 
+// Generate dynamic tools from tools.json
+function generateAllTools() {
+  const allTools = (toolsData as Tool[]).filter(tool => tool.isActive);
+  
+  // Group tools by smart categories
+  const groupedTools = allTools.reduce((groups, tool) => {
+    // Try to categorize based on from/to formats
+    let category = 'Other Tools';
+    
+    // Check primary tag first
+    const primaryTag = tool.tags?.[0];
+    if (primaryTag && CATEGORY_MAP[primaryTag]) {
+      category = CATEGORY_MAP[primaryTag];
+    }
+    // Check from format
+    else if (tool.from && CATEGORY_MAP[tool.from]) {
+      category = CATEGORY_MAP[tool.from];
+    }
+    // Check to format
+    else if (tool.to && CATEGORY_MAP[tool.to]) {
+      category = CATEGORY_MAP[tool.to];
+    }
+    // Check any tag for categorization
+    else if (tool.tags) {
+      for (const tag of tool.tags) {
+        if (CATEGORY_MAP[tag]) {
+          category = CATEGORY_MAP[tag];
+          break;
+        }
+      }
+    }
+    
+    if (!groups[category]) {
+      groups[category] = [];
+    }
+    groups[category].push({
+      title: tool.name,
+      href: tool.route
+    });
+    return groups;
+  }, {} as Record<string, Array<{ title: string; href: string }>>);
+
+  // Sort tools within each group by priority (higher first) then name
+  Object.values(groupedTools).forEach(tools => {
+    tools.sort((a, b) => {
+      const toolA = allTools.find(t => t.route === a.href);
+      const toolB = allTools.find(t => t.route === b.href);
+      
+      const priorityA = toolA?.priority || 0;
+      const priorityB = toolB?.priority || 0;
+      
+      if (priorityA !== priorityB) {
+        return priorityB - priorityA;
+      }
+      return a.title.localeCompare(b.title);
+    });
+  });
+
+  // Sort categories to put most important ones first
+  const categoryOrder = [
+    'Image Formats',
+    'Video Formats', 
+    'Audio Formats',
+    'Document Formats',
+    'Data Formats',
+    'Archive Formats',
+    'Other Tools'
+  ];
+  
+  const sortedGroups: Record<string, Array<{ title: string; href: string }>> = {};
+  categoryOrder.forEach(cat => {
+    if (groupedTools[cat]) {
+      sortedGroups[cat] = groupedTools[cat];
+    }
+  });
+  
+  // Add any remaining categories
+  Object.keys(groupedTools).forEach(cat => {
+    if (!sortedGroups[cat]) {
+      sortedGroups[cat] = groupedTools[cat];
+    }
+  });
+
+  return sortedGroups;
+}
+
 export function ToolsLinkHub({ relatedTools }: ToolsLinkHubProps) {
+  const allTools = generateAllTools();
+  
   return (
-    <section className="py-20 bg-gradient-to-b from-gray-100 to-gray-50 border-t border-gray-200">
+    <section className="py-16 bg-gradient-to-b from-gray-100 to-gray-50 border-t border-gray-200">
       <div className="mx-auto max-w-7xl px-6">
-        <h2 className="text-3xl font-bold text-center mb-12 text-gray-900">
+        <h2 className="text-2xl font-bold text-center mb-10 text-gray-900">
           All Conversion Tools
         </h2>
         
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-x-8 gap-y-10">
-          {Object.entries(allTools).map(([category, tools]) => (
-            <div key={category}>
-              <h3 className="font-semibold text-xs text-gray-500 uppercase tracking-wider mb-4">
-                {category}
-              </h3>
-              <ul className="space-y-2.5">
-                {tools.map((tool) => (
-                  <li key={tool.href}>
-                    <a
-                      href={tool.href}
-                      className="text-sm text-gray-700 hover:text-blue-600 transition-colors duration-150 hover:underline"
-                    >
-                      {tool.title}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ))}
+        <div className="space-y-12">
+          {Object.entries(allTools).map(([category, tools]) => {
+            // For categories with many tools, use a more compact multi-column layout
+            const isLargeCategory = tools.length > 15;
+            
+            return (
+              <div key={category} className="border-b border-gray-200 pb-8 last:border-0">
+                <h3 className="font-semibold text-sm text-gray-600 uppercase tracking-wider mb-4">
+                  {category} ({tools.length})
+                </h3>
+                
+                {isLargeCategory ? (
+                  // Multi-column layout for large categories
+                  <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-x-6 gap-y-2">
+                    {tools.map((tool) => (
+                      <a
+                        key={tool.href}
+                        href={tool.href}
+                        className="text-sm text-gray-700 hover:text-blue-600 transition-colors duration-150 hover:underline block py-1"
+                      >
+                        {tool.title}
+                      </a>
+                    ))}
+                  </div>
+                ) : (
+                  // Inline layout for smaller categories
+                  <div className="flex flex-wrap gap-x-6 gap-y-2">
+                    {tools.map((tool, index) => (
+                      <span key={tool.href} className="flex items-center">
+                        <a
+                          href={tool.href}
+                          className="text-sm text-gray-700 hover:text-blue-600 transition-colors duration-150 hover:underline"
+                        >
+                          {tool.title}
+                        </a>
+                        {index < tools.length - 1 && (
+                          <span className="text-gray-400 ml-6">•</span>
+                        )}
+                      </span>
+                    ))}
+                  </div>
+                )}
+              </div>
+            );
+          })}
         </div>
 
-        <div className="mt-16 pt-8 border-t border-gray-200">
+        <div className="mt-12 pt-8 border-t border-gray-200">
           <div className="text-center">
             <p className="text-sm text-gray-600 mb-4">
               Can&apos;t find what you&apos;re looking for?
