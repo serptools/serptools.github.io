@@ -8,6 +8,7 @@ import { FAQSection } from "@/components/sections/FAQSection";
 import { ToolsLinkHub } from "@/components/sections/ToolsLinkHub";
 import { BlogSection } from "@/components/sections/BlogSection";
 import { ChangelogSection } from "@/components/sections/ChangelogSection";
+import { RelatedToolsSection } from "@/components/sections/RelatedToolsSection";
 import type { 
   ToolInfo, 
   VideoSectionData,
@@ -89,6 +90,15 @@ export default function ToolPageTemplate({
 
         {/* Changelog Section */}
         {changelog && <ChangelogSection changelog={changelog} />}
+
+        {/* Related Tools Section - shows tools for both source and target formats */}
+        {tool.from && tool.to && (
+          <RelatedToolsSection 
+            currentFrom={tool.from} 
+            currentTo={tool.to}
+            currentPath={`/tools/${tool.from.toLowerCase()}-to-${tool.to.toLowerCase()}`}
+          />
+        )}
 
         {/* Related Tools Link Hub */}
         <ToolsLinkHub relatedTools={relatedTools} />
