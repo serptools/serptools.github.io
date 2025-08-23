@@ -24,7 +24,7 @@ export function detectCapabilities(): Capabilities {
   if (!envSupportsVideo) {
     reason = 'Video conversion disabled in static build mode';
   } else if (!hasSharedArrayBuffer) {
-    reason = 'SharedArrayBuffer not available - requires proper security headers';
+    reason = 'SharedArrayBuffer not available - CORS headers required';
   } else {
     supportsVideoConversion = true;
   }
@@ -105,15 +105,15 @@ export function getStaticIncompatibilityReason(from: string, to: string): string
   if (isStaticCompatible(from, to)) return null;
   
   if (VIDEO_FORMATS.includes(from)) {
-    return `${from.toUpperCase()} video processing requires FFmpeg.wasm and SharedArrayBuffer`;
+    return `${from.toUpperCase()} video processing requires FFmpeg.wasm (server mode only)`;
   }
   
   if (AUDIO_FORMATS.includes(to)) {
-    return `Audio extraction to ${to.toUpperCase()} requires FFmpeg.wasm video processing`;
+    return `Audio extraction to ${to.toUpperCase()} requires FFmpeg.wasm (server mode only)`;
   }
   
   if (VIDEO_FORMATS.includes(to)) {
-    return `Video conversion to ${to.toUpperCase()} requires FFmpeg.wasm and SharedArrayBuffer`;
+    return `Video conversion to ${to.toUpperCase()} requires FFmpeg.wasm (server mode only)`;
   }
   
   return 'Video/audio processing not supported in static builds';

@@ -13,26 +13,42 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  // Only add headers for server builds
-  ...(!isStatic && {
-    async headers() {
-      return [
-        {
-          source: '/(.*)',
-          headers: [
-            {
-              key: 'Cross-Origin-Embedder-Policy',
-              value: 'require-corp',
-            },
-            {
-              key: 'Cross-Origin-Opener-Policy',
-              value: 'same-origin',
-            },
-          ],
-        },
-      ];
-    },
-  }),
+  // Apply CORS headers only to video conversion routes (they don't have YouTube embeds anyway)
+  async headers() {
+    if (isStatic) {
+      return []
+    }
+    return [
+      {
+        // Apply CORS headers to MKV conversion routes
+        source: '/tools/mkv-to-:path*',
+        headers: [
+          {
+            key: 'Cross-Origin-Embedder-Policy',
+            value: 'require-corp',
+          },
+          {
+            key: 'Cross-Origin-Opener-Policy', 
+            value: 'same-origin',
+          },
+        ],
+      },
+      {
+        // Apply CORS headers to MP4 conversion routes
+        source: '/tools/mp4-to-:path*',
+        headers: [
+          {
+            key: 'Cross-Origin-Embedder-Policy',
+            value: 'require-corp',
+          },
+          {
+            key: 'Cross-Origin-Opener-Policy', 
+            value: 'same-origin',
+          },
+        ],
+      },
+    ]
+  },
   // Environment variables to pass to client
   env: {
     BUILD_MODE: isStatic ? 'static' : 'server',

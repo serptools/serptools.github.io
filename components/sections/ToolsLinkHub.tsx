@@ -1,3 +1,5 @@
+"use client";
+
 import toolsData from '@/data/tools.json';
 
 type ToolsLinkHubProps = {

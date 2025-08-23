@@ -18,8 +18,8 @@ async function loadFFmpeg(): Promise<FFmpeg> {
   if (!ffmpeg) {
     ffmpeg = new FFmpeg();
     
-    // Load FFmpeg with CDN URLs
-    const baseURL = 'https://unpkg.com/@ffmpeg/core@0.12.6/dist/umd';
+    // Load FFmpeg with multi-threading support (requires SharedArrayBuffer)
+    const baseURL = 'https://unpkg.com/@ffmpeg/core-mt@0.12.6/dist/esm';
     
     ffmpeg.on('log', ({ message }) => {
       console.log('[FFmpeg]', message);
@@ -28,6 +28,7 @@ async function loadFFmpeg(): Promise<FFmpeg> {
     await ffmpeg.load({
       coreURL: `${baseURL}/ffmpeg-core.js`,
       wasmURL: `${baseURL}/ffmpeg-core.wasm`,
+      workerURL: `${baseURL}/ffmpeg-core.worker.js`,
     });
     
     loaded = true;
@@ -48,13 +49,18 @@ export async function convertVideo(
 ): Promise<ArrayBuffer> {
   const ff = await loadFFmpeg();
   
+  // Remove any existing listeners - ff.off requires a handler function
+  // We'll just use removeAllListeners or skip this for now
+  // ff.off('progress', handler);
+  
   // Set up progress callback
   if (options.onProgress) {
-    ff.on('progress', (event: any) => {
-      // Convert FFmpeg progress event to expected format
+    ff.on('progress', ({ progress, time }: { progress: number; time: number }) => {
+      console.log('[FFmpeg Progress]', progress, time);
+      // Progress is 0-1, convert to percentage
       options.onProgress?.({
-        ratio: event.progress || 0,
-        time: event.time || 0
+        ratio: progress || 0,
+        time: time || 0
       });
     });
   }
@@ -206,7 +212,13 @@ export async function convertVideo(
     ];
   }
   
+  // Add progress reporting for better feedback
+  args.push('-progress', 'pipe:1', '-nostats');
+  
   args.push(outputName);
+  
+  // Log the command for debugging
+  console.log('[FFmpeg Command]', args.join(' '));
   
   // Execute conversion
   await ff.exec(args);

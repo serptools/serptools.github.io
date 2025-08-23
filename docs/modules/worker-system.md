@@ -1,774 +1,1150 @@
 # Worker System
 
-Web Worker implementation for offloading CPU-intensive tasks from the main thread.
+Web Worker implementation for offloading CPU-intensive tasks from the main thread, enabling fast, browser-native file conversion and processing.
 
 ## Overview
 
-The worker system provides background processing for file conversions, preventing UI freezes during intensive operations. It handles message passing, error management, progress reporting, and resource cleanup.
+The worker system provides background processing for file conversions, preventing UI freezes during intensive operations. It handles message passing, error management, progress reporting, and resource cleanup. The system is designed to work in both static and server deployment modes with different capability sets.
 
 ## Worker Architecture
 
 ### System Components
 
 ```
-Main Thread                    Worker Thread                   Libraries
+Main Thread                    Worker Thread                   Libraries/APIs
      │                              │                              │
-  UI Events ──────────────▶  Message Handler ────────────▶  FFmpeg.wasm
+Components/UI ──────────────▶  Message Handler ────────────▶  FFmpeg.wasm
      │                              │                              │
-  Progress ◀──────────────  Progress Events  ◀────────────    PDF.js
+Progress UI ◀───────────────  Progress Events  ◀────────────    PDF.js
      │                              │                              │
-  Results  ◀──────────────   Process Files   ◀────────────  Image Codecs
+File Downloads ◀────────────   Process Files   ◀────────────  Browser APIs
+     │                              │                              │
+Error Handling ◀────────────   Error Messages  ◀────────────  Canvas/ImageBitmap
 ```
 
 ### Worker Types
 
-| Worker | Purpose | Operations |
-|--------|---------|------------|
-| `convert.worker.ts` | File conversion | Image, video, PDF processing |
-| `compress.worker.ts` | ZIP compression | Create ZIP archives |
-| `optimize.worker.ts` | Image optimization | Compress and resize images |
+| Worker | Purpose | Operations | Capabilities |
+|--------|---------|------------|--------------|
+| `convert.worker.ts` | File conversion | Image, video, PDF processing | Raster images, video (FFmpeg), PDF pages |
+| `compress.worker.ts` | Image compression | PNG compression via Canvas API | Lossy PNG compression, format conversion |
 
 ## Main Worker Implementation
 
-### Worker Entry Point
+### Convert Worker (`convert.worker.ts`)
+
+The main conversion worker handles three types of operations: raster image conversion, PDF page rendering, and video conversion.
 
 ```typescript
-// workers/convert.worker.ts
+/// <reference lib="webworker" />
+import { decodeToRGBA } from "../lib/convert/decode";
+import { encodeFromRGBA } from "../lib/convert/encode";
+
+type RasterJob = { op: "raster"; from: string; to: string; quality?: number; buf: ArrayBuffer };
+type PdfJob    = { op: "pdf-pages"; page?: number; to?: string; buf: ArrayBuffer };
+type VideoJob  = { op: "video"; from: string; to: string; quality?: number; buf: ArrayBuffer };
+type Job = RasterJob | PdfJob | VideoJob;
+
 declare const self: DedicatedWorkerGlobalScope;
 
-// Message handler
-self.addEventListener('message', async (event: MessageEvent<WorkerMessage>) => {
-  const { id, type, payload } = event.data;
-  
+self.onmessage = async (e: MessageEvent<Job>) => {
   try {
-    const result = await handleMessage(type, payload);
-    
-    self.postMessage({
-      id,
-      type: 'success',
-      payload: result
-    }, getTransferables(result));
-    
-  } catch (error) {
-    self.postMessage({
-      id,
-      type: 'error',
-      payload: {
-        message: error?.message || 'Operation failed',
-        code: error?.code || 'UNKNOWN_ERROR'
-      }
-    });
-  }
-});
+    const job = e.data;
 
-async function handleMessage(type: string, payload: any): Promise<any> {
-  switch (type) {
-    case 'convert':
-      return handleConvert(payload);
-    case 'compress':
-      return handleCompress(payload);
-    case 'optimize':
-      return handleOptimize(payload);
-    default:
-      throw new Error(`Unknown message type: ${type}`);
+    if (job.op === "raster") {
+      const rgba = await decodeToRGBA(job.from, job.buf);
+      const blob = await encodeFromRGBA(job.to, rgba, job.quality ?? 0.85);
+      const arr = await blob.arrayBuffer();
+      // Transfer the ArrayBuffer to avoid copying
+      self.postMessage({ ok: true, blob: arr }, [arr]);
+      return;
+    }
+
+    if (job.op === "pdf-pages") {
+      const { renderPdfPages } = await import("../lib/convert/pdf");
+      const bufs = await renderPdfPages(job.buf, job.page, job.to);
+      self.postMessage({ ok: true, blobs: bufs }, bufs as unknown as Transferable[]);
+      return;
+    }
+
+    if (job.op === "video") {
+      const { convertVideo } = await import("../lib/convert/video");
+      
+      // Send loading status
+      self.postMessage({ type: 'progress', status: 'loading', progress: 0 });
+      
+      const outputBuffer = await convertVideo(job.buf, job.from, job.to, { 
+        quality: job.quality,
+        onProgress: (event) => {
+          const percent = Math.round((event.ratio || 0) * 100);
+          self.postMessage({ 
+            type: 'progress', 
+            status: 'processing', 
+            progress: percent,
+            time: event.time 
+          });
+        }
+      });
+      
+      self.postMessage({ ok: true, blob: outputBuffer });
+    }
+
+    self.postMessage({ ok: false, error: "Unknown op" });
+  } catch (err: any) {
+    self.postMessage({ ok: false, error: err?.message || String(err) });
   }
-}
+};
+```
+
+### Compress Worker (`compress.worker.ts`)
+
+Handles PNG compression using Canvas API workarounds since true PNG compression requires native libraries.
+
+```typescript
+/// <reference lib="webworker" />
+
+type CompressJob = { op: "compress-png"; buf: ArrayBuffer; quality?: number };
+
+self.onmessage = async (e: MessageEvent<CompressJob>) => {
+  try {
+    const job = e.data;
+
+    if (job.op === "compress-png") {
+      // Use Canvas API to apply lossy compression
+      const compressed = await compressPNGViaCanvas(job.buf, job.quality ?? 0.85);
+      
+      // Transfer the ArrayBuffer to avoid copying
+      self.postMessage({ ok: true, blob: compressed }, [compressed]);
+      return;
+    }
+
+    self.postMessage({ ok: false, error: "Unknown operation" });
+  } catch (err: any) {
+    self.postMessage({ ok: false, error: err?.message || String(err) });
+  }
+};
 ```
 
 ### Message Protocol
 
+The workers use a simple, direct message protocol:
+
 ```typescript
-// Incoming message
-interface WorkerMessage {
-  id: string;                    // Unique message ID
-  type: 'convert' | 'compress' | 'optimize';
-  payload: {
-    operation: string;
-    data: ArrayBuffer | ArrayBuffer[];
-    options?: any;
-  };
+// Job types sent to convert worker
+type RasterJob = { 
+  op: "raster"; 
+  from: string; 
+  to: string; 
+  quality?: number; 
+  buf: ArrayBuffer 
+};
+
+type PdfJob = { 
+  op: "pdf-pages"; 
+  page?: number; 
+  to?: string; 
+  buf: ArrayBuffer 
+};
+
+type VideoJob = { 
+  op: "video"; 
+  from: string; 
+  to: string; 
+  quality?: number; 
+  buf: ArrayBuffer 
+};
+
+// Response messages from workers
+interface SuccessResponse {
+  ok: true;
+  blob: ArrayBuffer;        // Single result
+  blobs?: ArrayBuffer[];    // Multiple results (PDF pages)
 }
 
-// Outgoing message
-interface WorkerResponse {
-  id: string;                    // Matching message ID
-  type: 'success' | 'error' | 'progress';
-  payload: any;
+interface ErrorResponse {
+  ok: false;
+  error: string;
+}
+
+interface ProgressResponse {
+  type: 'progress';
+  status: 'loading' | 'processing';
+  progress: number;         // 0-100
+  time?: number;           // FFmpeg time info
 }
 ```
 
 ## Conversion Operations
 
-### Operation Router
+### Raster Image Conversion
+
+Uses browser-native image processing with Canvas API for maximum compatibility:
 
 ```typescript
-async function handleConvert(payload: ConvertPayload): Promise<ArrayBuffer> {
-  const { operation, from, to, data, options } = payload;
-  
-  switch (operation) {
-    case 'raster':
-      return convertImage(data, from, to, options);
-      
-    case 'video':
-      return convertVideo(data, from, to, options);
-      
-    case 'pdf-pages':
-      return convertPdfToImages(data, from, to, options);
-      
-    default:
-      throw new Error(`Unknown operation: ${operation}`);
+// Decode: Supports browser-native formats + HEIC/HEIF
+export async function decodeToRGBA(ext: string, buf: ArrayBuffer): Promise<RGBA> {
+  const e = (ext || "").toLowerCase();
+
+  if (e === "heic" || e === "heif") {
+    return decodeHeifToRGBA(buf);
   }
+
+  // Browser-native decoders: jpg/jpeg/png/webp/gif/bmp/avif/ico
+  const blob = new Blob([buf]);
+  const bitmap = await createImageBitmap(blob).catch(() => {
+    throw new Error("This format isn't natively supported by your browser.");
+  });
+  return bitmapToRGBA(bitmap);
+}
+
+// Encode: Convert RGBA to target format
+export async function encodeFromRGBA(
+  toExt: string,
+  rgba: RGBA,
+  quality = 0.85
+): Promise<Blob> {
+  const useOffscreen = typeof OffscreenCanvas !== "undefined";
+  const canvas: any = useOffscreen
+    ? new OffscreenCanvas(rgba.width, rgba.height)
+    : Object.assign(document.createElement("canvas"), { width: rgba.width, height: rgba.height });
+
+  const ctx = canvas.getContext("2d")!;
+  ctx.putImageData(new ImageData(new Uint8ClampedArray(rgba.data), rgba.width, rgba.height), 0, 0);
+
+  const mime =
+    toExt === "jpg" || toExt === "jpeg" ? "image/jpeg" :
+    toExt === "webp" ? "image/webp" :
+    toExt === "avif" ? "image/avif" :
+    "image/png";
+
+  return canvas.convertToBlob({
+    type: mime,
+    quality: mime === "image/png" ? undefined : quality,
+  });
 }
 ```
 
-### Image Conversion
+### PDF to Image Conversion
+
+Uses PDF.js for rendering PDF pages to images:
 
 ```typescript
-async function convertImage(
-  buffer: ArrayBuffer,
-  from: string,
-  to: string,
-  options: ImageOptions = {}
+export async function renderPdfPages(buf: ArrayBuffer, page?: number, format?: string) {
+  const doc = await (pdfjsLib as any).getDocument({ data: buf }).promise;
+  const out: Array<ArrayBuffer> = [];
+  const pages = page ? [page] : Array.from({ length: doc.numPages }, (_, i) => i + 1);
+  
+  // Determine output format
+  const mimeType = format === "jpg" || format === "jpeg" ? "image/jpeg" : "image/png";
+  const quality = mimeType === "image/jpeg" ? 0.9 : undefined;
+
+  for (const p of pages) {
+    const pg = await doc.getPage(p);
+    const viewport = pg.getViewport({ scale: 2 });
+    const useOffscreen = typeof OffscreenCanvas !== "undefined";
+    const canvas: any = useOffscreen
+      ? new OffscreenCanvas(viewport.width, viewport.height)
+      : Object.assign(document.createElement("canvas"), { width: viewport.width, height: viewport.height });
+
+    const ctx = canvas.getContext("2d")!;
+    
+    // Fill white background for JPEG (no transparency support)
+    if (mimeType === "image/jpeg") {
+      ctx.fillStyle = "white";
+      ctx.fillRect(0, 0, viewport.width, viewport.height);
+    }
+    
+    await pg.render({ canvasContext: ctx as any, viewport }).promise;
+
+    const blob: Blob = canvas.convertToBlob
+      ? await canvas.convertToBlob({ type: mimeType, quality })
+      : await new Promise((resolve) => (canvas as HTMLCanvasElement).toBlob((b)=>resolve(b!), mimeType, quality));
+
+    out.push(await blob.arrayBuffer());
+  }
+
+  await doc.destroy();
+  return out;
+}
+```
+
+### Video Conversion
+
+Uses FFmpeg.wasm for comprehensive video processing with capability detection:
+
+```typescript
+export async function convertVideo(
+  inputBuffer: ArrayBuffer,
+  fromFormat: string,
+  toFormat: string,
+  options: {
+    quality?: number;
+    onProgress?: (progress: { ratio: number; time: number }) => void;
+  } = {}
 ): Promise<ArrayBuffer> {
-  // Dynamic imports for code splitting
-  const { decodeToRGBA } = await import('../lib/convert/decode');
-  const { encodeFromRGBA } = await import('../lib/convert/encode');
+  // Check capabilities first
+  const capabilities = detectCapabilities();
+  if (!capabilities.supportsVideoConversion) {
+    throw new Error(`Video conversion not supported: ${capabilities.reason}`);
+  }
   
-  // Report progress
-  self.postMessage({ type: 'progress', payload: { stage: 'decoding', progress: 0 }});
+  const ff = await loadFFmpeg();
   
-  // Decode to RGBA
-  const imageData = await decodeToRGBA(buffer, from);
+  // Set up progress callback
+  if (options.onProgress) {
+    ff.on('progress', (event: any) => {
+      options.onProgress?.({
+        ratio: event.progress || 0,
+        time: event.time || 0
+      });
+    });
+  }
   
-  self.postMessage({ type: 'progress', payload: { stage: 'decoding', progress: 50 }});
+  // Build optimized FFmpeg command for fast conversion
+  const inputName = `input.${fromFormat}`;
+  let outputName = `output.${toFormat}`;
   
-  // Apply transformations if needed
-  const processed = await applyTransformations(imageData, options);
+  await ff.writeFile(inputName, new Uint8Array(inputBuffer));
   
-  self.postMessage({ type: 'progress', payload: { stage: 'encoding', progress: 75 }});
+  let args: string[] = ['-i', inputName];
   
-  // Encode to target format
-  const result = await encodeFromRGBA(processed, to, options);
+  // Optimized encoding settings per format
+  if (toFormat === 'mp4') {
+    args.push('-c:v', 'libx264', '-preset', 'ultrafast', '-crf', '28');
+    args.push('-c:a', 'aac', '-b:a', '128k');
+    args.push('-movflags', '+faststart');
+    args.push('-vf', 'scale=\'min(1280,iw)\':\'min(720,ih)\':force_original_aspect_ratio=decrease');
+  }
+  // ... more format-specific optimizations
   
-  self.postMessage({ type: 'progress', payload: { stage: 'complete', progress: 100 }});
+  args.push(outputName);
   
-  return result;
+  await ff.exec(args);
+  
+  const data = await ff.readFile(outputName);
+  
+  // Cleanup
+  await ff.deleteFile(inputName);
+  await ff.deleteFile(outputName);
+  
+  return data.buffer.slice(data.byteOffset, data.byteOffset + data.byteLength);
 }
 ```
 
 ## Worker Management
 
-### Worker Pool
+### Component-Based Worker Usage
+
+The current implementation uses a simple, direct approach where each converter component manages its own worker instance:
 
 ```typescript
-class WorkerPool {
-  private workers: Worker[] = [];
-  private available: Worker[] = [];
-  private queue: QueuedTask[] = [];
-  private tasks: Map<string, TaskInfo> = new Map();
-  
-  constructor(
-    private workerUrl: URL,
-    private size: number = navigator.hardwareConcurrency || 4
-  ) {
-    this.initialize();
-  }
-  
-  private initialize() {
-    for (let i = 0; i < this.size; i++) {
-      const worker = new Worker(this.workerUrl, { type: 'module' });
-      this.setupWorker(worker);
-      this.workers.push(worker);
-      this.available.push(worker);
+// From Converter.tsx
+export default function Converter({ title, from, to, ...props }) {
+  const workerRef = useRef<Worker | null>(null);
+  const [items, setItems] = useState<Item[]>([]);
+  const [busy, setBusy] = useState(false);
+
+  function ensureWorker() {
+    if (!workerRef.current) {
+      workerRef.current = new Worker(
+        new URL("../workers/convert.worker.ts", import.meta.url), 
+        { type: "module" }
+      );
     }
+    return workerRef.current;
   }
-  
-  private setupWorker(worker: Worker) {
-    worker.onmessage = (event) => {
-      const { id, type, payload } = event.data;
-      const task = this.tasks.get(id);
+
+  async function convertAll() {
+    if (!items.length) return;
+    setBusy(true);
+    
+    const worker = ensureWorker();
+    
+    for (const item of items) {
+      if (item.status !== "queued") continue;
       
-      if (!task) return;
+      setItems(prev => prev.map(x => 
+        x.id === item.id ? { ...x, status: "converting" } : x
+      ));
       
-      switch (type) {
-        case 'success':
-          task.resolve(payload);
-          this.completeTask(id, worker);
-          break;
+      try {
+        await new Promise<void>((resolve, reject) => {
+          const handleMessage = (e: MessageEvent) => {
+            if (e.data.id === item.id) {
+              if (e.data.error) {
+                setItems(prev => prev.map(x => 
+                  x.id === item.id 
+                    ? { ...x, status: "error", message: e.data.error } 
+                    : x
+                ));
+                reject(e.data.error);
+              } else if (e.data.blob) {
+                const outputName = item.file.name.replace(/\.[^.]+$/, `.${to}`);
+                saveBlob(e.data.blob, outputName);
+                setItems(prev => prev.map(x => 
+                  x.id === item.id ? { ...x, status: "done" } : x
+                ));
+                resolve();
+              }
+              worker.removeEventListener("message", handleMessage);
+            }
+          };
           
-        case 'error':
-          task.reject(new Error(payload.message));
-          this.completeTask(id, worker);
-          break;
-          
-        case 'progress':
-          task.onProgress?.(payload);
-          break;
+          worker.addEventListener("message", handleMessage);
+          worker.postMessage({
+            id: item.id,
+            op: "raster", // or "video"/"pdf-pages"
+            from,
+            to,
+            buf: await item.file.arrayBuffer(),
+            quality: to === "jpg" || to === "jpeg" ? quality / 100 : undefined,
+          });
+        });
+      } catch (err) {
+        console.error(`Error converting ${item.file.name}:`, err);
       }
-    };
-    
-    worker.onerror = (error) => {
-      console.error('Worker error:', error);
-      this.handleWorkerError(worker);
-    };
-  }
-  
-  async execute<T>(
-    type: string,
-    payload: any,
-    onProgress?: (progress: any) => void
-  ): Promise<T> {
-    const id = generateId();
-    
-    return new Promise((resolve, reject) => {
-      const task: TaskInfo = {
-        id,
-        type,
-        payload,
-        resolve,
-        reject,
-        onProgress
-      };
-      
-      this.tasks.set(id, task);
-      this.scheduleTask(task);
-    });
-  }
-  
-  private scheduleTask(task: TaskInfo) {
-    const worker = this.available.pop();
-    
-    if (worker) {
-      this.executeTask(task, worker);
-    } else {
-      this.queue.push(task);
     }
-  }
-  
-  private executeTask(task: TaskInfo, worker: Worker) {
-    const message: WorkerMessage = {
-      id: task.id,
-      type: task.type,
-      payload: task.payload
-    };
     
-    const transferables = getTransferables(task.payload);
-    worker.postMessage(message, transferables);
-  }
-  
-  private completeTask(id: string, worker: Worker) {
-    this.tasks.delete(id);
-    
-    // Process next queued task
-    const nextTask = this.queue.shift();
-    if (nextTask) {
-      this.executeTask(nextTask, worker);
-    } else {
-      this.available.push(worker);
-    }
-  }
-  
-  terminate() {
-    this.workers.forEach(worker => worker.terminate());
-    this.workers = [];
-    this.available = [];
-    this.queue = [];
-    this.tasks.clear();
+    setBusy(false);
   }
 }
 ```
 
-### Worker Lifecycle
+### Advanced Video Progress Handling
+
+The video converter components implement comprehensive progress tracking:
 
 ```typescript
-class ManagedWorker {
-  private worker: Worker | null = null;
-  private idleTimeout: NodeJS.Timeout | null = null;
-  private lastActivity: number = Date.now();
-  private readonly IDLE_TIMEOUT = 60000; // 1 minute
-  
-  async start(): Promise<void> {
-    if (this.worker) return;
+// From HeroConverter.tsx
+function VideoConverter() {
+  const [currentFile, setCurrentFile] = useState<{
+    id: string;
+    name: string;
+    status: 'queued' | 'loading' | 'processing' | 'completed' | 'error';
+    progress: number;
+  } | null>(null);
+
+  const worker = useMemo(() => {
+    const w = new Worker(new URL("../workers/convert.worker.ts", import.meta.url), { type: "module" });
     
-    this.worker = new Worker(
-      new URL('../workers/convert.worker.ts', import.meta.url),
-      { type: 'module' }
-    );
-    
-    this.setupHandlers();
-    this.resetIdleTimeout();
-  }
-  
-  private setupHandlers() {
-    if (!this.worker) return;
-    
-    this.worker.onmessage = this.handleMessage.bind(this);
-    this.worker.onerror = this.handleError.bind(this);
-  }
-  
-  async execute(message: any): Promise<any> {
-    await this.start();
-    this.lastActivity = Date.now();
-    this.resetIdleTimeout();
-    
-    return new Promise((resolve, reject) => {
-      const id = generateId();
-      const timeout = setTimeout(() => {
-        reject(new Error('Worker timeout'));
-      }, 30000);
-      
-      const handler = (event: MessageEvent) => {
-        if (event.data.id !== id) return;
+    w.onmessage = (ev) => {
+      // Handle progress messages
+      if (ev.data?.type === 'progress') {
+        setCurrentFile(prev => prev && {
+          ...prev,
+          status: ev.data.status,
+          progress: ev.data.progress || 0,
+        });
+      } else if (ev.data?.ok && ev.data?.blob) {
+        // Handle successful conversion
+        setCurrentFile(prev => prev && {
+          ...prev,
+          status: 'completed',
+          progress: 100,
+        });
         
-        clearTimeout(timeout);
-        this.worker!.removeEventListener('message', handler);
-        
-        if (event.data.type === 'success') {
-          resolve(event.data.payload);
-        } else {
-          reject(new Error(event.data.payload.message));
-        }
-      };
-      
-      this.worker!.addEventListener('message', handler);
-      this.worker!.postMessage({ ...message, id });
+        const outputName = currentFile?.name.replace(/\.[^.]+$/, `.${toFormat}`) || 'converted';
+        saveBlob(ev.data.blob, outputName);
+      } else if (ev.data?.error) {
+        // Handle errors
+        setCurrentFile(prev => prev && {
+          ...prev,
+          status: 'error',
+          progress: 0,
+        });
+        setError(ev.data.error);
+      }
+    };
+    
+    return w;
+  }, []);
+
+  const startConversion = async (file: File) => {
+    const fileId = crypto.randomUUID();
+    
+    setCurrentFile({
+      id: fileId,
+      name: file.name,
+      status: 'loading',
+      progress: 0,
     });
-  }
-  
-  private resetIdleTimeout() {
-    if (this.idleTimeout) {
-      clearTimeout(this.idleTimeout);
+
+    try {
+      const buffer = await file.arrayBuffer();
+      
+      worker.postMessage({
+        id: fileId,
+        op: "video",
+        from: fromFormat,
+        to: toFormat,
+        buf: buffer,
+        quality: quality / 100
+      });
+    } catch (error) {
+      setCurrentFile(prev => prev && { ...prev, status: 'error' });
+      setError(error instanceof Error ? error.message : 'Conversion failed');
     }
-    
-    this.idleTimeout = setTimeout(() => {
-      this.terminate();
-    }, this.IDLE_TIMEOUT);
-  }
-  
-  terminate() {
-    if (this.idleTimeout) {
-      clearTimeout(this.idleTimeout);
-      this.idleTimeout = null;
+  };
+}
+```
+
+### Worker Cleanup and Resource Management
+
+```typescript
+// Component cleanup pattern
+useEffect(() => {
+  return () => {
+    // Clean up worker on component unmount
+    if (workerRef.current) {
+      workerRef.current.terminate();
+      workerRef.current = null;
     }
-    
-    if (this.worker) {
-      this.worker.terminate();
-      this.worker = null;
-    }
+  };
+}, []);
+
+// FFmpeg cleanup in video conversion
+export async function cleanupFFmpeg() {
+  if (ffmpeg) {
+    ffmpeg.terminate();
+    ffmpeg = null;
+    loaded = false;
   }
 }
 ```
 
 ## Progress Reporting
 
-### Progress Events
+### Video Progress System
+
+The VideoProgress component provides rich progress feedback for video conversions:
 
 ```typescript
-interface ProgressEvent {
-  stage: 'initialize' | 'processing' | 'encoding' | 'complete';
-  progress: number;        // 0-100
+interface VideoProgressProps {
+  fileName: string;
+  progress: number;
+  status: 'loading' | 'processing' | 'completed' | 'error';
   message?: string;
-  current?: number;        // Current item
-  total?: number;          // Total items
-  eta?: number;            // Estimated time remaining (ms)
 }
 
-// In worker
-function reportProgress(event: ProgressEvent) {
-  self.postMessage({
-    type: 'progress',
-    payload: event
-  });
-}
+export function VideoProgress({ fileName, progress, status, message }: VideoProgressProps) {
+  const getStatusIcon = () => {
+    switch (status) {
+      case 'loading':
+        return <Loader2 className="h-4 w-4 animate-spin text-blue-500" />;
+      case 'processing':
+        return <Loader2 className="h-4 w-4 animate-spin text-blue-500" />;
+      case 'completed':
+        return <CheckCircle className="h-4 w-4 text-green-500" />;
+      case 'error':
+        return <XCircle className="h-4 w-4 text-red-500" />;
+    }
+  };
 
-// Example usage
-async function processWithProgress(data: ArrayBuffer) {
-  reportProgress({ stage: 'initialize', progress: 0 });
-  
-  const startTime = Date.now();
-  const totalSteps = 100;
-  
-  for (let i = 0; i < totalSteps; i++) {
-    // Process chunk
-    await processChunk(data, i);
-    
-    const progress = ((i + 1) / totalSteps) * 100;
-    const elapsed = Date.now() - startTime;
-    const eta = (elapsed / (i + 1)) * (totalSteps - i - 1);
-    
-    reportProgress({
-      stage: 'processing',
-      progress,
-      current: i + 1,
-      total: totalSteps,
-      eta
-    });
-  }
-  
-  reportProgress({ stage: 'complete', progress: 100 });
+  const getStatusText = () => {
+    switch (status) {
+      case 'loading':
+        return 'Loading FFmpeg...';
+      case 'processing':
+        return message || `Processing ${Math.round(progress)}%`;
+      case 'completed':
+        return 'Conversion complete!';
+      case 'error':
+        return message || 'Conversion failed';
+    }
+  };
+
+  return (
+    <Card className="p-4 mb-3">
+      <div className="space-y-3">
+        <div className="flex items-center justify-between">
+          <div className="flex items-center gap-2">
+            {getStatusIcon()}
+            <span className="text-sm font-medium truncate max-w-[200px]" title={fileName}>
+              {fileName}
+            </span>
+          </div>
+          <span className="text-sm text-muted-foreground">
+            {getStatusText()}
+          </span>
+        </div>
+        
+        <Progress 
+          value={progress} 
+          className="h-2"
+          indicatorClassName={getProgressColor()}
+        />
+      </div>
+    </Card>
+  );
 }
 ```
 
-### Progress Aggregation
+### Multi-File Progress Tracking
+
+For batch conversions, the system tracks overall progress across multiple files:
 
 ```typescript
-class ProgressAggregator {
-  private progresses: Map<string, number> = new Map();
-  private weights: Map<string, number> = new Map();
-  
-  setProgress(id: string, progress: number, weight = 1) {
-    this.progresses.set(id, progress);
-    this.weights.set(id, weight);
-  }
-  
-  getOverallProgress(): number {
-    if (this.progresses.size === 0) return 0;
-    
-    let totalWeight = 0;
-    let weightedProgress = 0;
-    
-    this.progresses.forEach((progress, id) => {
-      const weight = this.weights.get(id) || 1;
-      totalWeight += weight;
-      weightedProgress += progress * weight;
+export function MultiFileProgress({ files }: MultiFileProgressProps) {
+  if (files.length === 0) return null;
+
+  const totalProgress = files.reduce((acc, file) => acc + file.progress, 0) / files.length;
+  const completedCount = files.filter(f => f.status === 'completed').length;
+  const errorCount = files.filter(f => f.status === 'error').length;
+  const processingCount = files.filter(f => f.status === 'processing' || f.status === 'loading').length;
+
+  return (
+    <div className="space-y-4">
+      {/* Overall Progress */}
+      <Card className="p-4 bg-muted/50">
+        <div className="space-y-2">
+          <div className="flex justify-between items-center">
+            <h3 className="text-sm font-semibold">Overall Progress</h3>
+            <div className="flex gap-4 text-xs">
+              {completedCount > 0 && (
+                <span className="text-green-600">✓ {completedCount} completed</span>
+              )}
+              {processingCount > 0 && (
+                <span className="text-blue-600">⟳ {processingCount} processing</span>
+              )}
+              {errorCount > 0 && (
+                <span className="text-red-600">✗ {errorCount} failed</span>
+              )}
+            </div>
+          </div>
+          <Progress value={totalProgress} className="h-2" />
+          <div className="text-xs text-muted-foreground text-right">
+            {Math.round(totalProgress)}% complete
+          </div>
+        </div>
+      </Card>
+
+      {/* Individual File Progress */}
+      <div className="space-y-2">
+        {files.map((file) => (
+          <VideoProgress
+            key={file.id}
+            fileName={file.name}
+            progress={file.progress}
+            status={file.status}
+            message={file.message}
+          />
+        ))}
+      </div>
+    </div>
+  );
+}
+```
+
+### FFmpeg Progress Integration
+
+Video conversion progress is seamlessly integrated with FFmpeg's progress events:
+
+```typescript
+// In video conversion worker
+const outputBuffer = await convertVideo(job.buf, job.from, job.to, { 
+  quality: job.quality,
+  onProgress: (event) => {
+    // FFmpeg progress events have ratio (0-1) and time
+    const percent = Math.round((event.ratio || 0) * 100);
+    self.postMessage({ 
+      type: 'progress', 
+      status: 'processing', 
+      progress: percent,
+      time: event.time 
     });
-    
-    return weightedProgress / totalWeight;
   }
-  
-  reset() {
-    this.progresses.clear();
-    this.weights.clear();
-  }
+});
+
+// In FFmpeg video conversion library
+if (options.onProgress) {
+  ff.on('progress', (event: any) => {
+    options.onProgress?.({
+      ratio: event.progress || 0,
+      time: event.time || 0
+    });
+  });
 }
 ```
 
 ## Memory Management
 
-### Resource Cleanup
+### Transferable Objects for Performance
+
+The system uses ArrayBuffer transfers to avoid memory copying:
 
 ```typescript
-// In worker
-let resources: Map<string, any> = new Map();
+// In convert worker - transfer ArrayBuffers to avoid copying
+if (job.op === "raster") {
+  const rgba = await decodeToRGBA(job.from, job.buf);
+  const blob = await encodeFromRGBA(job.to, rgba, job.quality ?? 0.85);
+  const arr = await blob.arrayBuffer();
+  // Transfer the ArrayBuffer to avoid copying
+  self.postMessage({ ok: true, blob: arr }, [arr]);
+  return;
+}
 
-self.addEventListener('message', async (event) => {
-  if (event.data.type === 'cleanup') {
-    await cleanup();
-    return;
-  }
-  
-  // Regular processing
-});
+// In compress worker
+if (job.op === "compress-png") {
+  const compressed = await compressPNGViaCanvas(job.buf, job.quality ?? 0.85);
+  // Transfer the ArrayBuffer to avoid copying
+  self.postMessage({ ok: true, blob: compressed }, [compressed]);
+  return;
+}
 
-async function cleanup() {
-  // Clean up FFmpeg
-  if (resources.has('ffmpeg')) {
-    const ffmpeg = resources.get('ffmpeg');
-    ffmpeg.terminate();
-    resources.delete('ffmpeg');
-  }
-  
-  // Clean up large buffers
-  resources.clear();
-  
-  // Suggest garbage collection
-  if (typeof gc !== 'undefined') {
-    gc();
-  }
-  
-  self.postMessage({ type: 'cleanup-complete' });
+// PDF pages handling
+if (job.op === "pdf-pages") {
+  const { renderPdfPages } = await import("../lib/convert/pdf");
+  const bufs = await renderPdfPages(job.buf, job.page, job.to);
+  self.postMessage({ ok: true, blobs: bufs }, bufs as unknown as Transferable[]);
+  return;
 }
 ```
 
-### Memory Monitoring
+### FFmpeg Resource Management
+
+Proper cleanup of FFmpeg instances and temporary files:
 
 ```typescript
-class MemoryMonitor {
-  private maxMemory = 500 * 1024 * 1024; // 500MB
-  private checkInterval = 5000; // 5 seconds
-  private interval: NodeJS.Timer | null = null;
+// Singleton FFmpeg instance with proper lifecycle management
+let ffmpeg: FFmpeg | null = null;
+let loaded = false;
+
+async function loadFFmpeg(): Promise<FFmpeg> {
+  if (ffmpeg && loaded) return ffmpeg;
   
-  start() {
-    this.interval = setInterval(() => {
-      this.checkMemory();
-    }, this.checkInterval);
-  }
-  
-  stop() {
-    if (this.interval) {
-      clearInterval(this.interval);
-      this.interval = null;
-    }
-  }
-  
-  private checkMemory() {
-    if (!performance.memory) return;
+  if (!ffmpeg) {
+    ffmpeg = new FFmpeg();
     
-    const used = performance.memory.usedJSHeapSize;
-    const limit = performance.memory.jsHeapSizeLimit;
+    // Load FFmpeg with multi-threading support
+    const baseURL = 'https://unpkg.com/@ffmpeg/core-mt@0.12.6/dist/esm';
     
-    if (used > this.maxMemory) {
-      console.warn('High memory usage:', {
-        used: Math.round(used / 1024 / 1024) + 'MB',
-        limit: Math.round(limit / 1024 / 1024) + 'MB',
-        percentage: Math.round((used / limit) * 100) + '%'
-      });
-      
-      // Trigger cleanup
-      this.requestCleanup();
-    }
+    await ffmpeg.load({
+      coreURL: `${baseURL}/ffmpeg-core.js`,
+      wasmURL: `${baseURL}/ffmpeg-core.wasm`,
+      workerURL: `${baseURL}/ffmpeg-core.worker.js`,
+    });
+    
+    loaded = true;
   }
   
-  private requestCleanup() {
-    self.postMessage({ type: 'memory-warning' });
+  return ffmpeg;
+}
+
+// Cleanup after each conversion
+export async function convertVideo(...args): Promise<ArrayBuffer> {
+  // ... conversion logic ...
+  
+  // Always cleanup temporary files
+  try {
+    await ff.deleteFile(inputName);
+    await ff.deleteFile(outputName);
+    if (toFormat === 'gif') {
+      await ff.deleteFile('palette.png');
+    }
+  } catch (cleanupErr) {
+    console.warn('Cleanup error:', cleanupErr);
+  }
+  
+  return buffer;
+}
+
+// Global cleanup function
+export async function cleanupFFmpeg() {
+  if (ffmpeg) {
+    ffmpeg.terminate();
+    ffmpeg = null;
+    loaded = false;
   }
 }
+```
+
+### SharedArrayBuffer Handling
+
+The system properly handles both ArrayBuffer and SharedArrayBuffer:
+
+```typescript
+// In video conversion - handle SharedArrayBuffer correctly
+const data = await ff.readFile(outputName);
+
+// Return the ArrayBuffer (handle both ArrayBuffer and SharedArrayBuffer)
+const buffer = data.buffer.slice(data.byteOffset, data.byteOffset + data.byteLength);
+
+// Ensure we return an ArrayBuffer, not SharedArrayBuffer
+if (buffer instanceof SharedArrayBuffer) {
+  const ab = new ArrayBuffer(buffer.byteLength);
+  const view = new Uint8Array(ab);
+  view.set(new Uint8Array(buffer));
+  return ab;
+}
+
+return buffer;
 ```
 
 ## Error Handling
 
-### Error Types
+### Simple Error Response Pattern
+
+The workers use a straightforward error handling approach:
 
 ```typescript
-enum WorkerErrorCode {
-  INITIALIZATION_FAILED = 'INITIALIZATION_FAILED',
-  INVALID_MESSAGE = 'INVALID_MESSAGE',
-  OPERATION_FAILED = 'OPERATION_FAILED',
-  TIMEOUT = 'TIMEOUT',
-  OUT_OF_MEMORY = 'OUT_OF_MEMORY',
-  UNSUPPORTED_FORMAT = 'UNSUPPORTED_FORMAT'
-}
-
-class WorkerError extends Error {
-  constructor(
-    message: string,
-    public code: WorkerErrorCode,
-    public details?: any
-  ) {
-    super(message);
-    this.name = 'WorkerError';
-  }
-}
-```
-
-### Error Recovery
-
-```typescript
-class ResilientWorker {
-  private retryCount = 0;
-  private maxRetries = 3;
-  private worker: Worker | null = null;
-  
-  async execute(message: any): Promise<any> {
-    try {
-      return await this.tryExecute(message);
-    } catch (error) {
-      if (this.retryCount < this.maxRetries) {
-        this.retryCount++;
-        console.warn(`Retry ${this.retryCount}/${this.maxRetries}`, error);
-        
-        // Restart worker
-        await this.restart();
-        
-        // Retry
-        return this.execute(message);
-      }
-      
-      throw error;
+// In both convert and compress workers
+self.onmessage = async (e: MessageEvent<Job>) => {
+  try {
+    const job = e.data;
+    
+    // Process job...
+    if (job.op === "unknown") {
+      self.postMessage({ ok: false, error: "Unknown operation" });
+      return;
     }
+    
+    // Success response
+    self.postMessage({ ok: true, blob: result });
+    
+  } catch (err: any) {
+    // Simple error response
+    self.postMessage({ ok: false, error: err?.message || String(err) });
   }
-  
-  private async restart() {
-    this.terminate();
-    await new Promise(resolve => setTimeout(resolve, 1000));
-    await this.initialize();
-  }
-  
-  private terminate() {
-    if (this.worker) {
-      this.worker.terminate();
-      this.worker = null;
+};
+```
+
+### Component Error Handling
+
+Components handle worker errors through message event listeners:
+
+```typescript
+// In Converter component
+const handleMessage = (e: MessageEvent) => {
+  if (e.data.id === item.id) {
+    if (e.data.error) {
+      setItems(prev => prev.map(x => 
+        x.id === item.id 
+          ? { ...x, status: "error" as const, message: e.data.error } 
+          : x
+      ));
+      reject(e.data.error);
+    } else if (e.data.blob) {
+      // Success handling...
     }
+    worker.removeEventListener("message", handleMessage);
+  }
+};
+
+// In HeroConverter component
+w.onmessage = (ev) => {
+  if (ev.data?.error) {
+    setCurrentFile(prev => prev && {
+      ...prev,
+      status: 'error',
+      progress: 0,
+    });
+    setError(ev.data.error);
+  }
+  // Handle other message types...
+};
+```
+
+### Video Conversion Error Handling
+
+Video conversion includes specific error handling for FFmpeg operations:
+
+```typescript
+// In convert worker video handling
+if (job.op === "video") {
+  try {
+    const { convertVideo } = await import("../lib/convert/video");
+    
+    const outputBuffer = await convertVideo(job.buf, job.from, job.to, { 
+      quality: job.quality,
+      onProgress: (event) => { /* progress handling */ }
+    });
+    
+    self.postMessage({ ok: true, blob: outputBuffer });
+  } catch (videoErr: any) {
+    console.error('Video conversion error:', videoErr);
+    self.postMessage({ 
+      ok: false, 
+      error: `Video conversion failed: ${videoErr?.message || videoErr}` 
+    });
+  }
+  return;
+}
+
+// In video conversion library
+export async function convertVideo(...): Promise<ArrayBuffer> {
+  // Check capabilities before starting
+  const capabilities = detectCapabilities();
+  if (!capabilities.supportsVideoConversion) {
+    throw new Error(`Video conversion not supported: ${capabilities.reason}`);
+  }
+  
+  // FFmpeg operations with error handling
+  try {
+    const ff = await loadFFmpeg();
+    await ff.writeFile(inputName, new Uint8Array(inputBuffer));
+    await ff.exec(args);
+    const data = await ff.readFile(outputName);
+    return processResult(data);
+  } catch (ffmpegError) {
+    throw new Error(`FFmpeg operation failed: ${ffmpegError.message}`);
   }
 }
 ```
 
-## Testing
+## Capability Detection
 
-### Worker Testing
+### Runtime Environment Detection
+
+The system includes sophisticated capability detection for different deployment modes:
 
 ```typescript
-// __tests__/convert.worker.test.ts
-import { WorkerTestHarness } from '../test-utils/worker-harness';
+export interface Capabilities {
+  supportsVideoConversion: boolean;
+  supportsSharedArrayBuffer: boolean;
+  buildMode: 'static' | 'server';
+  reason?: string;
+}
 
-describe('Convert Worker', () => {
-  let harness: WorkerTestHarness;
+export function detectCapabilities(): Capabilities {
+  // Check environment variables first
+  const buildMode = process.env.BUILD_MODE as 'static' | 'server' || 'static';
+  const envSupportsVideo = process.env.SUPPORTS_VIDEO_CONVERSION === 'true';
   
-  beforeEach(() => {
-    harness = new WorkerTestHarness('convert.worker.ts');
-  });
+  // Runtime SharedArrayBuffer detection
+  const hasSharedArrayBuffer = typeof SharedArrayBuffer !== 'undefined';
   
-  afterEach(() => {
-    harness.terminate();
-  });
+  // Determine video conversion support
+  let supportsVideoConversion = false;
+  let reason: string | undefined;
   
-  it('should convert image format', async () => {
-    const input = await loadTestImage('test.jpg');
-    
-    const result = await harness.execute({
-      type: 'convert',
-      payload: {
-        operation: 'raster',
-        from: 'jpg',
-        to: 'png',
-        data: input
-      }
-    });
-    
-    expect(result).toBeInstanceOf(ArrayBuffer);
-    expect(isPNG(result)).toBe(true);
-  });
+  if (!envSupportsVideo) {
+    reason = 'Video conversion disabled in static build mode';
+  } else if (!hasSharedArrayBuffer) {
+    reason = 'SharedArrayBuffer not available - CORS headers required';
+  } else {
+    supportsVideoConversion = true;
+  }
   
-  it('should report progress', async () => {
-    const progressEvents: any[] = [];
-    
-    harness.onProgress((event) => {
-      progressEvents.push(event);
-    });
-    
-    await harness.execute({
-      type: 'convert',
-      payload: { /* ... */ }
-    });
-    
-    expect(progressEvents.length).toBeGreaterThan(0);
-    expect(progressEvents[progressEvents.length - 1].progress).toBe(100);
-  });
-});
+  return {
+    supportsVideoConversion,
+    supportsSharedArrayBuffer: hasSharedArrayBuffer,
+    buildMode,
+    reason,
+  };
+}
 ```
 
-### Test Harness
+### Format Compatibility Matrix
 
 ```typescript
-export class WorkerTestHarness {
-  private worker: Worker;
-  private onProgressCallback?: (event: any) => void;
-  
-  constructor(workerPath: string) {
-    this.worker = new Worker(
-      new URL(workerPath, import.meta.url),
-      { type: 'module' }
-    );
-  }
-  
-  execute(message: any): Promise<any> {
-    return new Promise((resolve, reject) => {
-      const id = Math.random().toString(36);
-      
-      const handler = (event: MessageEvent) => {
-        if (event.data.id !== id) return;
-        
-        switch (event.data.type) {
-          case 'success':
-            this.worker.removeEventListener('message', handler);
-            resolve(event.data.payload);
-            break;
-            
-          case 'error':
-            this.worker.removeEventListener('message', handler);
-            reject(new Error(event.data.payload.message));
-            break;
-            
-          case 'progress':
-            this.onProgressCallback?.(event.data.payload);
-            break;
-        }
-      };
-      
-      this.worker.addEventListener('message', handler);
-      this.worker.postMessage({ ...message, id });
-    });
-  }
-  
-  onProgress(callback: (event: any) => void) {
-    this.onProgressCallback = callback;
-  }
-  
-  terminate() {
-    this.worker.terminate();
-  }
+// Define formats that require video conversion (FFmpeg.wasm)
+export const VIDEO_FORMATS = [
+  'mp4', 'mkv', 'avi', 'webm', 'mov', 'flv', 'ts', 'mts', 'm2ts', 'm4v', 
+  'mpeg', 'mpg', 'vob', '3gp', 'f4v', 'hevc', 'divx', 'mjpeg', 'mpeg2', 
+  'asf', 'wmv', 'mxf', 'ogv', 'rm', 'rmvb', 'swf'
+];
+
+export const AUDIO_FORMATS = [
+  'mp3', 'wav', 'ogg', 'aac', 'm4a', 'opus', 'flac', 'wma', 'aiff', 'mp2'
+];
+
+// Formats that work with browser-native processing (static-safe)
+export const STATIC_SAFE_FORMATS = [
+  'jpg', 'jpeg', 'png', 'webp', 'gif', 'bmp', 'svg', 'ico', 'tiff', 'avif', 'pdf'
+];
+
+// Check if a conversion requires video processing
+export function requiresVideoConversion(from: string, to: string): boolean {
+  return VIDEO_FORMATS.includes(from) || 
+         AUDIO_FORMATS.includes(to) ||
+         VIDEO_FORMATS.includes(to);
 }
 ```
 
 ## Performance Optimization
 
-### Transferable Objects
+### Optimized FFmpeg Commands
+
+The video conversion system uses performance-optimized FFmpeg settings:
 
 ```typescript
-function getTransferables(data: any): Transferable[] {
-  const transferables: Transferable[] = [];
-  
-  if (data instanceof ArrayBuffer) {
-    transferables.push(data);
-  } else if (data instanceof Uint8Array) {
-    transferables.push(data.buffer);
-  } else if (Array.isArray(data)) {
-    data.forEach(item => {
-      if (item instanceof ArrayBuffer) {
-        transferables.push(item);
-      }
-    });
-  } else if (typeof data === 'object' && data !== null) {
-    Object.values(data).forEach(value => {
-      if (value instanceof ArrayBuffer) {
-        transferables.push(value);
-      }
-    });
+// For container-to-container conversions with compatible codecs
+const canUseCopyCodec = 
+  (fromFormat === 'mkv' && ['mov', 'mp4', 'm4v'].includes(toFormat)) ||
+  (fromFormat === 'mp4' && ['mkv', 'mov', 'm4v', 'ts', 'mts', 'm2ts'].includes(toFormat));
+
+if (canUseCopyCodec) {
+  // Just copy streams without re-encoding (FAST)
+  args.push('-c', 'copy');
+  if (['mp4', 'm4v'].includes(toFormat)) {
+    args.push('-movflags', '+faststart');
   }
-  
-  return transferables;
+}
+
+// Optimized MP4 encoding for speed
+else if (toFormat === 'mp4') {
+  // Use ultrafast preset for speed, higher CRF for smaller file
+  args.push('-c:v', 'libx264', '-preset', 'ultrafast', '-crf', '28');
+  args.push('-c:a', 'aac', '-b:a', '128k');
+  args.push('-movflags', '+faststart');
+  // Limit resolution for faster processing
+  args.push('-vf', 'scale=\'min(1280,iw)\':\'min(720,ih)\':force_original_aspect_ratio=decrease');
 }
 ```
 
-### Code Splitting
+### Canvas-Based PNG Compression
+
+The compress worker uses multiple strategies for optimal PNG compression:
 
 ```typescript
-// Lazy load heavy dependencies
-async function loadFFmpeg() {
-  const { FFmpeg } = await import('@ffmpeg/ffmpeg');
-  return new FFmpeg();
-}
-
-async function loadPDFJS() {
-  const pdfjsLib = await import('pdfjs-dist');
-  return pdfjsLib;
-}
-
-// Cache loaded modules
-const moduleCache = new Map<string, any>();
-
-async function getModule(name: string) {
-  if (!moduleCache.has(name)) {
-    const module = await loadModule(name);
-    moduleCache.set(name, module);
+async function compressPNGViaCanvas(buf: ArrayBuffer, quality: number): Promise<ArrayBuffer> {
+  const blob = new Blob([buf], { type: 'image/png' });
+  const imageBitmap = await createImageBitmap(blob);
+  
+  // Strategy 1: If no transparency, convert to JPEG for better compression
+  if (!hasTransparency) {
+    const jpegQuality = quality * 0.5; // Half the quality for more compression
+    const jpegBlob = await canvas.convertToBlob({
+      type: 'image/jpeg',
+      quality: jpegQuality
+    });
+    // Convert back to PNG to maintain format consistency
+    return await convertBackToPNG(jpegBlob);
   }
-  return moduleCache.get(name);
+  
+  // Strategy 2: Try WebP if available
+  try {
+    const webpQuality = quality * 0.4; // Very aggressive WebP compression
+    const webpBlob = await canvas.convertToBlob({
+      type: 'image/webp',
+      quality: webpQuality
+    });
+    return await convertBackToPNG(webpBlob);
+  } catch (e) {
+    // WebP not supported, continue with other methods
+  }
+  
+  // Strategy 3: Aggressive color reduction (quantization)
+  const colorBits = Math.max(2, Math.floor(quality * 4)); // 2-4 bits per channel
+  const colorLevels = Math.pow(2, colorBits);
+  const colorStep = 256 / colorLevels;
+  
+  for (let i = 0; i < data.length; i += 4) {
+    data[i] = Math.round(data[i] / colorStep) * colorStep;     // R
+    data[i + 1] = Math.round(data[i + 1] / colorStep) * colorStep; // G
+    data[i + 2] = Math.round(data[i + 2] / colorStep) * colorStep; // B
+    // Keep alpha channel unchanged for transparency
+  }
+}
+```
+
+### OffscreenCanvas Usage
+
+The system uses OffscreenCanvas when available for better performance:
+
+```typescript
+// In both image processing and PDF rendering
+const useOffscreen = typeof OffscreenCanvas !== "undefined";
+const canvas: any = useOffscreen
+  ? new OffscreenCanvas(width, height)
+  : Object.assign(document.createElement("canvas"), { width, height });
+
+// Consistent API between OffscreenCanvas and regular Canvas
+if (canvas.convertToBlob) {
+  return canvas.convertToBlob({ type: mimeType, quality });
+} else {
+  return new Promise<Blob>((resolve, reject) => {
+    (canvas as HTMLCanvasElement).toBlob(
+      (b) => (b ? resolve(b) : reject(new Error("toBlob failed"))),
+      mimeType,
+      quality
+    );
+  });
 }
 ```
 
 ## Best Practices
 
-1. **Use Transferables**: Always transfer ArrayBuffers
-2. **Report Progress**: Keep users informed
-3. **Handle Errors**: Graceful error recovery
-4. **Clean Resources**: Free memory after use
-5. **Pool Workers**: Reuse workers for efficiency
-6. **Test Thoroughly**: Test worker communication
-7. **Monitor Performance**: Track memory and CPU usage
+### 1. Use Transferable Objects
+Always transfer ArrayBuffers to avoid memory copying:
+
+```typescript
+// ✅ Good - Transfer ownership
+self.postMessage({ ok: true, blob: arr }, [arr]);
+
+// ❌ Bad - Copies memory
+self.postMessage({ ok: true, blob: arr });
+```
+
+### 2. Dynamic Imports for Code Splitting
+Load heavy dependencies only when needed:
+
+```typescript
+// ✅ Good - Lazy load
+if (job.op === "pdf-pages") {
+  const { renderPdfPages } = await import("../lib/convert/pdf");
+  const bufs = await renderPdfPages(job.buf, job.page, job.to);
+}
+
+// ❌ Bad - Always loads at startup
+import { renderPdfPages } from "../lib/convert/pdf";
+```
+
+### 3. Proper Resource Cleanup
+Always clean up temporary resources:
+
+```typescript
+// ✅ Good - Cleanup in finally block
+try {
+  await ff.exec(args);
+  const data = await ff.readFile(outputName);
+  return data.buffer;
+} finally {
+  await ff.deleteFile(inputName);
+  await ff.deleteFile(outputName);
+}
+```
+
+### 4. Capability Detection
+Check capabilities before attempting operations:
+
+```typescript
+// ✅ Good - Check first
+const capabilities = detectCapabilities();
+if (!capabilities.supportsVideoConversion) {
+  throw new Error(`Video conversion not supported: ${capabilities.reason}`);
+}
+```
+
+### 5. Progressive Enhancement
+Design for static compatibility first, enhance with video features:
+
+```typescript
+// ✅ Good - Works in static mode, enhanced in server mode
+const isVideoFormat = VIDEO_FORMATS.includes(fromFormat);
+if (isVideoFormat && !capabilities.supportsVideoConversion) {
+  showStaticModeMessage();
+  return;
+}
+```
+
+## Troubleshooting
+
+### Common Issues
+
+1. **SharedArrayBuffer not available**: Requires proper CORS headers (`Cross-Origin-Embedder-Policy` and `Cross-Origin-Opener-Policy`)
+
+2. **Video conversion fails**: Check that `SUPPORTS_VIDEO_CONVERSION=true` is set and SharedArrayBuffer is available
+
+3. **Worker not loading**: Ensure worker files are properly bundled and accessible via `new URL()`
+
+4. **Memory leaks**: Always transfer ArrayBuffers and clean up FFmpeg temporary files
+
+5. **Progress not updating**: Ensure progress callbacks are properly connected between worker and UI
 
 ## See Also
 
-- [Worker Pattern](../patterns/worker-pattern.md) - Implementation patterns
-- [Conversion System](conversion-system.md) - Conversion architecture
-- [Performance Guide](../recipes/optimize-performance.md) - Optimization tips
-- [Testing Guide](../recipes/testing-guide.md) - Testing strategies
+- [Capability Detection](capability-detection.md) - Environment capability detection
+- [Conversion System](conversion-system.md) - Overall conversion architecture  
+- [Tool System](tool-system.md) - Integration with tool pages
+- [Video Conversion Recipe](../recipes/enable-video-mode.md) - Setting up video conversion

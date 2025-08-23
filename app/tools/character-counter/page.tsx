@@ -19,6 +19,8 @@ export default function Page() {
         {/* Custom Character Counter Component */}
         <CharacterCounter />
         
+        {/* Related Tools Section - Character counter doesn't have from/to formats */}
+        
         {/* FAQs Section */}
         {content.faqs && <FAQSection faqs={content.faqs} />}
         
@@ -28,8 +30,8 @@ export default function Page() {
         {/* Changelog Section */}
         {content.changelog && <ChangelogSection changelog={content.changelog} />}
         
-        {/* Related Tools Link Hub */}
-        <ToolsLinkHub relatedTools={content.relatedTools} />
+        {/* Footer with all tools */}
+        <ToolsLinkHub />
     </main>
   );
 }

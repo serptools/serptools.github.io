@@ -11,7 +11,7 @@ type Props = {
   from: string;               // "pdf"
   to: string;                 // "jpg"
   accept?: string;            // optional override accept attr
-  videoEmbedId: string;       // YouTube embed ID for video
+  videoEmbedId?: string;      // YouTube embed ID for video (optional, defaults to bbkhxMpIH4w)
 };
 
 export default function LanderHeroTwoColumn({
@@ -20,7 +20,7 @@ export default function LanderHeroTwoColumn({
   from,
   to,
   accept,
-  videoEmbedId,
+  videoEmbedId = "bbkhxMpIH4w",
 }: Props) {
   const inputRef = useRef<HTMLInputElement | null>(null);
   const dropRef = useRef<HTMLDivElement | null>(null);
@@ -29,6 +29,7 @@ export default function LanderHeroTwoColumn({
   const [hint, setHint] = useState("or drop files here");
   const [dropEffect, setDropEffect] = useState<string>("");
   const [capabilities, setCapabilities] = useState<Capabilities | null>(null);
+  const [videoPlaying, setVideoPlaying] = useState(false);
   // Generate stable color based on tool properties
   const colors = [
     "#ef4444", // red-500
@@ -78,7 +79,8 @@ export default function LanderHeroTwoColumn({
   async function handleFiles(files: FileList | null) {
     if (!files || !files.length) return;
     
-    // Files are being processed - the UI will show this via the busy state
+    // Start playing video when file is dropped
+    setVideoPlaying(true);
     
     const w = ensureWorker();
     setBusy(true);
@@ -229,27 +231,38 @@ export default function LanderHeroTwoColumn({
           {/* Video Column */}
           <div className="order-2 lg:order-1">
             <div className="relative w-full rounded-xl overflow-hidden bg-gradient-to-br from-gray-800 to-gray-900" style={{ aspectRatio: '16/9' }}>
-              <div className="absolute inset-0 flex items-center justify-center">
-                <div className="text-center">
-                  <div className="relative">
-                    <svg className="w-20 h-20 text-gray-600 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                    </svg>
-                    {busy && (
-                      <div className="absolute inset-0 flex items-center justify-center">
-                        <div className="animate-spin rounded-full h-20 w-20 border-4 border-gray-600 border-t-blue-500"></div>
-                      </div>
-                    )}
+              {videoEmbedId ? (
+                <iframe
+                  className="absolute inset-0 w-full h-full"
+                  src={`https://www.youtube.com/embed/${videoEmbedId}?${videoPlaying ? 'autoplay=1&' : ''}mute=1&loop=1&playlist=${videoEmbedId}&controls=1&showinfo=0&rel=0&modestbranding=1`}
+                  title="Tool Demo Video"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  style={{ border: 'none' }}
+                />
+              ) : (
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <div className="text-center">
+                    <div className="relative">
+                      <svg className="w-20 h-20 text-gray-600 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                      </svg>
+                      {busy && (
+                        <div className="absolute inset-0 flex items-center justify-center">
+                          <div className="animate-spin rounded-full h-20 w-20 border-4 border-gray-600 border-t-blue-500"></div>
+                        </div>
+                      )}
+                    </div>
+                    <p className="text-gray-400 text-sm font-medium">
+                      {busy ? 'Converting your file...' : 'Drop a file to see the conversion in action'}
+                    </p>
+                    <p className="text-gray-500 text-xs mt-2">
+                      No uploads • 100% private • Processed locally
+                    </p>
                   </div>
-                  <p className="text-gray-400 text-sm font-medium">
-                    {busy ? 'Converting your file...' : 'Drop a file to see the conversion in action'}
-                  </p>
-                  <p className="text-gray-500 text-xs mt-2">
-                    No uploads • 100% private • Processed locally
-                  </p>
                 </div>
-              </div>
+              )}
             </div>
           </div>
 

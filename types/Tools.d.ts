@@ -41,6 +41,7 @@ export interface ToolInfo {
   from: string;
   to: string;
   accept?: string;
+  requiresFFmpeg?: boolean;
 }
 
 // Video section data
@@ -109,6 +110,7 @@ export interface Tool {
   priority?: number;
   isBeta?: boolean;
   isNew?: boolean;
+  requiresFFmpeg?: boolean;
   
   // Landing page content
   content?: ToolContent;

@@ -1,10 +1,10 @@
 # Capability Detection
 
-Runtime detection system for determining available features based on deployment mode.
+Runtime detection system for determining available features based on deployment mode and environment configuration.
 
 ## Overview
 
-The capability detection system determines which features are available at runtime based on browser capabilities, deployment mode (static vs server), and security context. This enables the application to gracefully handle different environments.
+The capability detection system determines which features are available at runtime based on build mode (static vs server) and environment configuration. The system is designed to provide graceful fallbacks and clear messaging when features are unavailable, particularly for FFmpeg-based video/audio conversion tools.
 
 ## Core Detection
 
@@ -15,10 +15,7 @@ The capability detection system determines which features are available at runti
 export interface Capabilities {
   supportsVideoConversion: boolean;
   supportsSharedArrayBuffer: boolean;
-  isSecureContext: boolean;
   buildMode: 'static' | 'server';
-  browserName?: string;
-  browserVersion?: string;
   reason?: string;
 }
 ```
@@ -27,553 +24,476 @@ export interface Capabilities {
 
 ```typescript
 export function detectCapabilities(): Capabilities {
-  // Check browser features
-  const hasSharedArrayBuffer = typeof SharedArrayBuffer !== 'undefined';
-  const hasCrossOriginIsolation = typeof window !== 'undefined' && 
-    window.crossOriginIsolated === true;
-  const isSecureContext = typeof window !== 'undefined' && 
-    window.isSecureContext === true;
-  
-  // Check build mode
+  // Check environment variables first
   const buildMode = process.env.BUILD_MODE as 'static' | 'server' || 'static';
   const envSupportsVideo = process.env.SUPPORTS_VIDEO_CONVERSION === 'true';
   
-  // Determine video support
-  const supportsVideoConversion = 
-    hasSharedArrayBuffer && 
-    hasCrossOriginIsolation &&
-    isSecureContext &&
-    buildMode === 'server' &&
-    envSupportsVideo;
+  // Runtime SharedArrayBuffer detection
+  const hasSharedArrayBuffer = typeof SharedArrayBuffer !== 'undefined';
   
-  // Get browser info
-  const browserInfo = detectBrowser();
+  // Determine video conversion support
+  let supportsVideoConversion = false;
+  let reason: string | undefined;
   
-  // Generate reason if not supported
-  const reason = !supportsVideoConversion 
-    ? generateReason({
-        hasSharedArrayBuffer,
-        hasCrossOriginIsolation,
-        isSecureContext,
-        buildMode,
-        envSupportsVideo
-      })
-    : undefined;
+  if (!envSupportsVideo) {
+    reason = 'Video conversion disabled in static build mode';
+  } else if (!hasSharedArrayBuffer) {
+    reason = 'SharedArrayBuffer not available - CORS headers required';
+  } else {
+    supportsVideoConversion = true;
+  }
   
   return {
     supportsVideoConversion,
     supportsSharedArrayBuffer: hasSharedArrayBuffer,
-    isSecureContext,
     buildMode,
-    ...browserInfo,
-    reason
+    reason,
   };
 }
 ```
 
-## Feature Requirements
+### Helper Functions
 
-### Video Conversion Requirements
+```typescript
+export function isVideoConversionSupported(): boolean {
+  return detectCapabilities().supportsVideoConversion;
+}
 
-| Requirement | Description | How to Enable |
-|-------------|-------------|---------------|
-| SharedArrayBuffer | Required by FFmpeg.wasm | Set COOP/COEP headers |
-| Secure Context | HTTPS or localhost | Use HTTPS |
-| Server Mode | Not static export | Use server deployment |
-| Cross-Origin Isolation | Security requirement | Configure headers |
+export function getVideoConversionError(): string {
+  const caps = detectCapabilities();
+  return caps.reason || 'Video conversion not supported';
+}
+```
 
-### Header Configuration
+## Environment Configuration
 
-Required headers for video support:
+### Build Modes
+
+The system operates in two distinct build modes:
+
+#### Static Mode (Default)
+```bash
+BUILD_MODE=static
+SUPPORTS_VIDEO_CONVERSION=false
+```
+
+- **Default for production builds**
+- **Video/audio conversion disabled**
+- **Uses Next.js static export**
+- **Compatible with static hosting (Netlify, Vercel, GitHub Pages)**
+- **All image conversions work normally**
+
+#### Server Mode
+```bash
+BUILD_MODE=server  
+SUPPORTS_VIDEO_CONVERSION=true
+```
+
+- **Development and server deployments**
+- **Video/audio conversion enabled**
+- **Requires SharedArrayBuffer support**
+- **Needs CORS headers for cross-origin isolation**
+
+### Next.js Configuration
+
+```javascript
+// next.config.mjs
+const isStatic = process.env.BUILD_MODE === 'static' || process.env.NODE_ENV === 'production';
+
+const nextConfig = {
+  // Static export for static builds
+  ...(isStatic && { 
+    output: 'export',
+    trailingSlash: true,
+  }),
+  
+  // CORS headers for video conversion routes
+  async headers() {
+    if (isStatic) return [];
+    return [
+      {
+        source: '/tools/mkv-to-:path*',
+        headers: [
+          { key: 'Cross-Origin-Embedder-Policy', value: 'require-corp' },
+          { key: 'Cross-Origin-Opener-Policy', value: 'same-origin' },
+        ],
+      },
+      {
+        source: '/tools/mp4-to-:path*',
+        headers: [
+          { key: 'Cross-Origin-Embedder-Policy', value: 'require-corp' },
+          { key: 'Cross-Origin-Opener-Policy', value: 'same-origin' },
+        ],
+      },
+    ]
+  },
+  
+  // Environment variables for client
+  env: {
+    BUILD_MODE: isStatic ? 'static' : 'server',
+    SUPPORTS_VIDEO_CONVERSION: isStatic ? 'false' : 'true',
+  },
+}
+```
+
+## Format Compatibility
+
+### Format Categories
+
+The system categorizes file formats into three groups:
+
+#### Video Formats (Require FFmpeg)
+```typescript
+export const VIDEO_FORMATS = [
+  // Video containers
+  'mp4', 'mkv', 'avi', 'webm', 'mov', 'flv', 'ts', 'mts', 'm2ts', 'm4v', 
+  'mpeg', 'mpg', 'vob', '3gp', 'f4v', 'hevc', 'divx', 'mjpeg', 'mpeg2', 
+  'asf', 'wmv', 'mxf', 'ogv', 'rm', 'rmvb', 'swf'
+];
+```
+
+#### Audio Formats (Require FFmpeg)
+```typescript
+export const AUDIO_FORMATS = [
+  // Audio formats (extracted from video or converted)
+  'mp3', 'wav', 'ogg', 'aac', 'm4a', 'opus', 'flac', 'wma', 'aiff', 'mp2'
+];
+```
+
+#### Static-Safe Formats (Work in Both Modes)
+```typescript
+export const STATIC_SAFE_FORMATS = [
+  // Images (browser createImageBitmap support)
+  'jpg', 'jpeg', 'png', 'webp', 'gif', 'bmp', 'svg', 'ico', 'tiff', 'avif',
+  // Documents (special handling)
+  'pdf'
+];
+```
+
+### Compatibility Checking
+
+```typescript
+export function requiresVideoConversion(from: string, to: string): boolean {
+  return VIDEO_FORMATS.includes(from) || 
+         AUDIO_FORMATS.includes(to) ||
+         VIDEO_FORMATS.includes(to);
+}
+
+export function isStaticCompatible(from: string, to: string): boolean {
+  // PDF to image conversions work (special PDF.js handling)
+  if (from === 'pdf' && STATIC_SAFE_FORMATS.includes(to)) {
+    return true;
+  }
+  
+  // Image to image conversions work (browser native)
+  if (STATIC_SAFE_FORMATS.includes(from) && STATIC_SAFE_FORMATS.includes(to)) {
+    return true;
+  }
+  
+  // Anything requiring video conversion won't work
+  return !requiresVideoConversion(from, to);
+}
+
+export function getStaticIncompatibilityReason(from: string, to: string): string | null {
+  if (isStaticCompatible(from, to)) return null;
+  
+  if (VIDEO_FORMATS.includes(from)) {
+    return `${from.toUpperCase()} video processing requires FFmpeg.wasm (server mode only)`;
+  }
+  
+  if (AUDIO_FORMATS.includes(to)) {
+    return `Audio extraction to ${to.toUpperCase()} requires FFmpeg.wasm (server mode only)`;
+  }
+  
+  if (VIDEO_FORMATS.includes(to)) {
+    return `Video conversion to ${to.toUpperCase()} requires FFmpeg.wasm (server mode only)`;
+  }
+  
+  return 'Video/audio processing not supported in static builds';
+}
+```
+
+## Component Integration
+
+### Two-Column Layout with Capability Detection
+
+```typescript
+// components/LanderHeroTwoColumn.tsx
+import { detectCapabilities, type Capabilities } from "@/lib/capabilities";
+
+export default function LanderHeroTwoColumn({
+  title, subtitle, from, to, accept, videoEmbedId
+}: Props) {
+  const [capabilities, setCapabilities] = useState<Capabilities | null>(null);
+
+  useEffect(() => {
+    // Detect capabilities on mount
+    setCapabilities(detectCapabilities());
+  }, []);
+
+  const handleConvert = async (file: File) => {
+    try {
+      if (!capabilities?.supportsVideoConversion) {
+        throw new Error(`Video conversion not supported: ${capabilities?.reason || 'Unknown reason'}`);
+      }
+      
+      // Proceed with conversion...
+    } catch (error) {
+      // Handle capability errors
+    }
+  };
+
+  return (
+    <div>
+      {/* Conversion interface */}
+      
+      {/* Capability warning */}
+      {capabilities && !capabilities.supportsVideoConversion && (
+        <Alert className="mb-6" variant="destructive">
+          <AlertTriangle className="h-4 w-4" />
+          <AlertDescription className="font-medium">
+            <strong>Video conversion not available:</strong>{" "}
+            {capabilities.reason}. Deploy to a server environment to enable video processing.
+          </AlertDescription>
+        </Alert>
+      )}
+    </div>
+  );
+}
+```
+
+### Tool Page Template Logic
+
+```typescript
+// components/ToolPageTemplate.tsx
+export default function ToolPageTemplate({ tool, videoSection, useTwoColumnLayout }: ToolPageProps) {
+  // If tool requires FFmpeg, always use single column layout (full dropzone)
+  const shouldUseTwoColumn = useTwoColumnLayout && videoSection?.embedId && !tool.requiresFFmpeg;
+  
+  return (
+    <main>
+      {shouldUseTwoColumn ? (
+        <LanderHeroTwoColumn {...props} videoEmbedId={videoSection.embedId} />
+      ) : (
+        <HeroConverter {...props} />
+      )}
+    </main>
+  );
+}
+```
+
+### Video Conversion Implementation
+
+```typescript
+// lib/convert/video.ts
+import { detectCapabilities } from '../capabilities';
+
+async function loadFFmpeg(): Promise<FFmpeg> {
+  // Check capabilities before loading FFmpeg
+  const capabilities = detectCapabilities();
+  if (!capabilities.supportsVideoConversion) {
+    throw new Error(`Video conversion not supported: ${capabilities.reason}`);
+  }
+  
+  if (!ffmpeg) {
+    ffmpeg = new FFmpeg();
+    
+    // Load FFmpeg with multi-threading support (requires SharedArrayBuffer)
+    const baseURL = 'https://unpkg.com/@ffmpeg/core-mt@0.12.6/dist/esm';
+    
+    await ffmpeg.load({
+      coreURL: `${baseURL}/ffmpeg-core.js`,
+      wasmURL: `${baseURL}/ffmpeg-core.wasm`,
+      workerURL: `${baseURL}/ffmpeg-core.worker.js`,
+    });
+  }
+  
+  return ffmpeg;
+}
+```
+
+## Tool Metadata System
+
+### Tool Definition with FFmpeg Flag
+
+```typescript
+// data/tools.json (excerpt)
+{
+  "id": "mp4-to-mp3",
+  "name": "MP4 to MP3",
+  "description": "Convert MP4 video files to MP3 format",
+  "operation": "convert",
+  "from": "mp4",
+  "to": "mp3",
+  "requiresFFmpeg": true,
+  "isActive": true,
+  // ... other properties
+}
+```
+
+### Tool Content Processing
+
+```typescript
+// lib/tool-content.ts
+const toolRequiresFFmpeg: Record<string, boolean> = {};
+
+toolsData.forEach((tool: Tool) => {
+  if (tool.content) {
+    // Add requiresFFmpeg flag to the tool content if it exists
+    if (tool.requiresFFmpeg) {
+      tool.content.tool.requiresFFmpeg = true;
+    }
+  }
+  
+  // Track which tools require FFmpeg
+  toolRequiresFFmpeg[tool.id] = tool.requiresFFmpeg || false;
+});
+
+export function requiresFFmpeg(toolId: string): boolean {
+  return toolRequiresFFmpeg[toolId];
+}
+```
+
+## Browser Feature Detection
+
+### SharedArrayBuffer Detection
+
+The system primarily relies on SharedArrayBuffer availability as the key indicator for FFmpeg support:
+
+```typescript
+// Runtime detection
+const hasSharedArrayBuffer = typeof SharedArrayBuffer !== 'undefined';
+```
+
+### CORS Headers for Cross-Origin Isolation
+
+Required headers for SharedArrayBuffer in production:
 
 ```
 Cross-Origin-Embedder-Policy: require-corp
 Cross-Origin-Opener-Policy: same-origin
 ```
 
-## Format Compatibility
-
-### Static-Compatible Formats
-
-Formats that work without special requirements:
-
-```typescript
-export const STATIC_COMPATIBLE_FORMATS = {
-  image: ['jpg', 'jpeg', 'png', 'webp', 'gif', 'bmp', 'ico', 'avif'],
-  document: ['pdf'] // PDF to image only
-};
-
-export function isStaticCompatible(from: string, to: string): boolean {
-  const imageFormats = STATIC_COMPATIBLE_FORMATS.image;
-  
-  // Image to image
-  if (imageFormats.includes(from) && imageFormats.includes(to)) {
-    return true;
-  }
-  
-  // PDF to image
-  if (from === 'pdf' && imageFormats.includes(to)) {
-    return true;
-  }
-  
-  return false;
-}
-```
-
-### Server-Required Formats
-
-Formats needing server mode:
-
-```typescript
-export const SERVER_REQUIRED_FORMATS = {
-  video: ['mp4', 'mkv', 'avi', 'webm', 'mov', 'flv', 'wmv', 'm4v'],
-  audio: ['mp3', 'wav', 'ogg', 'aac', 'm4a', 'wma', 'flac', 'opus']
-};
-
-export function requiresVideoConversion(from: string, to: string): boolean {
-  const { video, audio } = SERVER_REQUIRED_FORMATS;
-  
-  return video.includes(from) || 
-         video.includes(to) || 
-         audio.includes(from) || 
-         audio.includes(to);
-}
-```
-
-## Browser Detection
-
-### User Agent Parsing
-
-```typescript
-function detectBrowser(): {
-  browserName?: string;
-  browserVersion?: string;
-} {
-  if (typeof navigator === 'undefined') {
-    return {};
-  }
-  
-  const ua = navigator.userAgent;
-  
-  // Chrome/Chromium
-  if (ua.includes('Chrome/')) {
-    const version = ua.match(/Chrome\/(\d+)/)?.[1];
-    return { browserName: 'Chrome', browserVersion: version };
-  }
-  
-  // Firefox
-  if (ua.includes('Firefox/')) {
-    const version = ua.match(/Firefox\/(\d+)/)?.[1];
-    return { browserName: 'Firefox', browserVersion: version };
-  }
-  
-  // Safari
-  if (ua.includes('Safari/') && !ua.includes('Chrome')) {
-    const version = ua.match(/Version\/(\d+)/)?.[1];
-    return { browserName: 'Safari', browserVersion: version };
-  }
-  
-  // Edge
-  if (ua.includes('Edg/')) {
-    const version = ua.match(/Edg\/(\d+)/)?.[1];
-    return { browserName: 'Edge', browserVersion: version };
-  }
-  
-  return { browserName: 'Unknown' };
-}
-```
-
-### Feature Support by Browser
-
-```typescript
-export const BROWSER_SUPPORT = {
-  SharedArrayBuffer: {
-    Chrome: 68,
-    Firefox: 79,
-    Safari: 15.2,
-    Edge: 79
-  },
-  OffscreenCanvas: {
-    Chrome: 69,
-    Firefox: 105,
-    Safari: 16.4,
-    Edge: 79
-  },
-  WebCodecs: {
-    Chrome: 94,
-    Firefox: null, // Not supported
-    Safari: null,  // Not supported
-    Edge: 94
-  }
-};
-
-export function checkBrowserSupport(
-  feature: keyof typeof BROWSER_SUPPORT,
-  browserName: string,
-  browserVersion: string
-): boolean {
-  const minVersion = BROWSER_SUPPORT[feature][browserName];
-  if (!minVersion) return false;
-  
-  return parseInt(browserVersion) >= minVersion;
-}
-```
-
-## Runtime Checks
-
-### Component-Level Detection
-
-```typescript
-// In React components
-export function useCapabilities() {
-  const [capabilities, setCapabilities] = useState<Capabilities | null>(null);
-  
-  useEffect(() => {
-    // Detect on client side only
-    setCapabilities(detectCapabilities());
-  }, []);
-  
-  return capabilities;
-}
-
-// Usage
-function VideoConverter() {
-  const capabilities = useCapabilities();
-  
-  if (!capabilities) {
-    return <LoadingSpinner />;
-  }
-  
-  if (!capabilities.supportsVideoConversion) {
-    return <VideoNotSupported reason={capabilities.reason} />;
-  }
-  
-  return <VideoConverterUI />;
-}
-```
-
-### Worker-Level Detection
-
-```typescript
-// In workers
-self.addEventListener('message', async (event) => {
-  const { op } = event.data;
-  
-  if (op === 'video') {
-    // Check capabilities in worker
-    if (typeof SharedArrayBuffer === 'undefined') {
-      self.postMessage({
-        ok: false,
-        error: 'SharedArrayBuffer not available in worker'
-      });
-      return;
-    }
-  }
-  
-  // Process normally
-});
-```
+These are automatically applied to video conversion routes in server mode.
 
 ## Fallback Strategies
 
 ### Graceful Degradation
 
+1. **Static Mode**: All image conversions work, video/audio conversions show capability warnings
+2. **Missing SharedArrayBuffer**: Clear error messages explaining CORS requirements
+3. **Tool Layout**: FFmpeg-requiring tools use single-column layout (no YouTube embeds)
+
+### Error Messaging
+
 ```typescript
-export function getAvailableOperation(
-  preferredOp: string,
-  capabilities: Capabilities
-): string {
-  // If video requested but not available
-  if (preferredOp === 'video' && !capabilities.supportsVideoConversion) {
-    // Check if we can use image fallback
-    if (isImageFormat(from) && isImageFormat(to)) {
-      return 'raster';
-    }
-    
-    // No fallback available
-    throw new Error('Video conversion not available in static mode');
+// Clear, user-friendly error messages
+const reasons = {
+  static: 'Video conversion disabled in static build mode',
+  cors: 'SharedArrayBuffer not available - CORS headers required',
+  unknown: 'Video conversion not supported'
+};
+```
+
+## Performance Considerations
+
+### Lazy Loading
+
+- FFmpeg libraries (>10MB) only load when needed
+- Capability detection happens on component mount
+- Video conversion tools conditionally load heavy dependencies
+
+### Memory Management
+
+```typescript
+// lib/convert/video.ts
+export async function cleanupFFmpeg() {
+  if (ffmpeg) {
+    ffmpeg.terminate();
+    ffmpeg = null;
+    loaded = false;
   }
-  
-  return preferredOp;
 }
 ```
 
-### Alternative Suggestions
+### Efficient Format Checking
 
-```typescript
-export function getSuggestedAlternatives(
-  from: string,
-  to: string,
-  capabilities: Capabilities
-): Alternative[] {
-  const alternatives: Alternative[] = [];
-  
-  if (!capabilities.supportsVideoConversion) {
-    // Suggest server version
-    alternatives.push({
-      type: 'deployment',
-      title: 'Use Server Version',
-      description: 'Video conversion requires server deployment',
-      url: 'https://server.serptools.com'
-    });
-    
-    // Suggest similar tools that work
-    if (from === 'mp4' && to === 'mp3') {
-      alternatives.push({
-        type: 'tool',
-        title: 'Try Audio Extractor',
-        description: 'Extract audio from video files',
-        url: '/tools/audio-extractor'
-      });
-    }
-  }
-  
-  return alternatives;
-}
+- Pre-computed format arrays for fast lookups
+- Simple boolean checks for compatibility
+- Minimal runtime overhead
+
+## Development vs Production
+
+### Development Environment
+```bash
+npm run dev          # BUILD_MODE=server, video enabled
+npm run dev:static   # BUILD_MODE=static, video disabled (testing)
 ```
 
-## Error Messages
-
-### User-Friendly Explanations
-
-```typescript
-function generateReason(checks: CapabilityChecks): string {
-  const reasons: string[] = [];
-  
-  if (!checks.hasSharedArrayBuffer) {
-    reasons.push('Your browser doesn\'t support SharedArrayBuffer');
-  }
-  
-  if (!checks.hasCrossOriginIsolation) {
-    reasons.push('The page is not cross-origin isolated');
-  }
-  
-  if (!checks.isSecureContext) {
-    reasons.push('HTTPS is required for this feature');
-  }
-  
-  if (checks.buildMode === 'static') {
-    reasons.push('This feature requires server deployment');
-  }
-  
-  if (reasons.length === 0) {
-    return 'Unknown compatibility issue';
-  }
-  
-  return reasons.join('. ') + '.';
-}
-```
-
-### Technical Details
-
-```typescript
-export function getDetailedDiagnostics(): Diagnostics {
-  return {
-    headers: {
-      coep: document.featurePolicy?.allowedFeatures().includes('cross-origin-isolated'),
-      coop: window.crossOriginIsolated
-    },
-    features: {
-      sharedArrayBuffer: typeof SharedArrayBuffer !== 'undefined',
-      webAssembly: typeof WebAssembly !== 'undefined',
-      serviceWorker: 'serviceWorker' in navigator,
-      webWorker: typeof Worker !== 'undefined'
-    },
-    context: {
-      secure: window.isSecureContext,
-      protocol: window.location.protocol,
-      origin: window.location.origin
-    },
-    build: {
-      mode: process.env.BUILD_MODE,
-      videoSupport: process.env.SUPPORTS_VIDEO_CONVERSION
-    }
-  };
-}
+### Production Builds
+```bash
+npm run build        # BUILD_MODE=static, optimized for static hosting
+npm run build:server # BUILD_MODE=server, full feature set
 ```
 
 ## Testing Capabilities
 
-### Mock Capabilities
-
-```typescript
-// For testing
-export function mockCapabilities(
-  overrides: Partial<Capabilities> = {}
-): Capabilities {
-  return {
-    supportsVideoConversion: true,
-    supportsSharedArrayBuffer: true,
-    isSecureContext: true,
-    buildMode: 'server',
-    browserName: 'Chrome',
-    browserVersion: '120',
-    ...overrides
-  };
-}
-
-// In tests
-describe('VideoConverter', () => {
-  it('should show fallback in static mode', () => {
-    const capabilities = mockCapabilities({
-      supportsVideoConversion: false,
-      buildMode: 'static'
-    });
-    
-    const { getByText } = render(
-      <CapabilityContext.Provider value={capabilities}>
-        <VideoConverter />
-      </CapabilityContext.Provider>
-    );
-    
-    expect(getByText(/not available in static mode/)).toBeInTheDocument();
-  });
-});
-```
-
 ### Manual Testing
 
 ```javascript
-// Browser console tests
-console.log('SharedArrayBuffer:', typeof SharedArrayBuffer !== 'undefined');
-console.log('CrossOriginIsolated:', crossOriginIsolated);
-console.log('SecureContext:', isSecureContext);
-console.log('Headers:', performance.getEntriesByType('navigation')[0].serverTiming);
+// Browser console
+import { detectCapabilities } from '@/lib/capabilities';
+const caps = detectCapabilities();
+console.log('Capabilities:', caps);
+
+// Check specific conversions
+import { requiresVideoConversion, isStaticCompatible } from '@/lib/capabilities';
+console.log('MP4->MP3 requires video:', requiresVideoConversion('mp4', 'mp3'));
+console.log('JPG->PNG static compatible:', isStaticCompatible('jpg', 'png'));
 ```
 
-## Performance Impact
-
-### Lazy Loading Based on Capabilities
-
-```typescript
-export async function loadConverter(
-  format: string,
-  capabilities: Capabilities
-) {
-  // Only load heavy libraries if supported
-  if (requiresVideoConversion(format) && !capabilities.supportsVideoConversion) {
-    throw new Error('Video conversion not supported');
-  }
-  
-  if (requiresVideoConversion(format)) {
-    return import('../lib/convert/video');
-  }
-  
-  return import('../lib/convert/image');
-}
-```
-
-### Conditional Rendering
-
-```typescript
-function ToolGrid() {
-  const capabilities = useCapabilities();
-  const [tools, setTools] = useState<Tool[]>([]);
-  
-  useEffect(() => {
-    if (capabilities) {
-      // Filter tools based on capabilities
-      const availableTools = getAllTools().filter(tool =>
-        isToolAvailable(tool, capabilities)
-      );
-      setTools(availableTools);
-    }
-  }, [capabilities]);
-  
-  return (
-    <div className="grid">
-      {tools.map(tool => (
-        <ToolCard key={tool.id} tool={tool} />
-      ))}
-    </div>
-  );
-}
-```
-
-## Configuration
-
-### Environment Variables
+### Environment Testing
 
 ```bash
-# .env.local
-BUILD_MODE=server
-SUPPORTS_VIDEO_CONVERSION=true
-NEXT_PUBLIC_SHOW_CAPABILITY_WARNING=true
+# Test static mode
+BUILD_MODE=static npm run dev
+
+# Test server mode  
+BUILD_MODE=server npm run dev
+
+# Check environment variables
+echo $BUILD_MODE $SUPPORTS_VIDEO_CONVERSION
 ```
 
-### Runtime Configuration
+## Architecture Benefits
 
-```typescript
-export const CAPABILITY_CONFIG = {
-  // Show detailed error messages
-  verbose: process.env.NODE_ENV === 'development',
-  
-  // Check capabilities on mount
-  checkOnMount: true,
-  
-  // Recheck interval (ms)
-  recheckInterval: 60000,
-  
-  // Cache duration (ms)
-  cacheDuration: 300000
-};
-```
+### Clean Separation
+- Environment configuration drives capability detection
+- Format compatibility is pre-defined and testable
+- Component logic is simplified with clear capability checks
 
-## Monitoring
+### User Experience
+- Immediate feedback on feature availability
+- No confusing failures during conversion attempts
+- Clear guidance on how to enable missing features
 
-### Analytics Integration
-
-```typescript
-export function trackCapabilities(capabilities: Capabilities) {
-  if (typeof window !== 'undefined' && window.gtag) {
-    window.gtag('event', 'capability_detection', {
-      supports_video: capabilities.supportsVideoConversion,
-      build_mode: capabilities.buildMode,
-      browser: capabilities.browserName,
-      browser_version: capabilities.browserVersion,
-      has_shared_array_buffer: capabilities.supportsSharedArrayBuffer,
-      is_secure_context: capabilities.isSecureContext
-    });
-  }
-}
-```
-
-### Error Reporting
-
-```typescript
-export function reportCapabilityError(
-  error: Error,
-  capabilities: Capabilities
-) {
-  console.error('Capability error:', {
-    error: error.message,
-    capabilities,
-    diagnostics: getDetailedDiagnostics()
-  });
-  
-  // Send to error tracking service
-  if (window.Sentry) {
-    window.Sentry.captureException(error, {
-      contexts: {
-        capabilities
-      }
-    });
-  }
-}
-```
+### Deployment Flexibility
+- Single codebase supports both static and server deployments
+- Automatic feature detection based on build configuration
+- No runtime configuration needed
 
 ## Best Practices
 
-1. **Always Check**: Never assume capabilities
-2. **Cache Results**: Avoid repeated detection
-3. **Provide Fallbacks**: Graceful degradation
-4. **Clear Messaging**: Explain limitations to users
-5. **Test Both Modes**: Verify static and server builds
-6. **Monitor Usage**: Track capability distribution
+1. **Always Check**: Use `detectCapabilities()` before attempting video operations
+2. **Clear Messaging**: Provide specific reasons when features are unavailable  
+3. **Graceful Fallbacks**: Show helpful alternatives when possible
+4. **Performance**: Only load heavy libraries when capabilities allow
+5. **Testing**: Test both static and server modes during development
+6. **Documentation**: Keep format lists up-to-date as new tools are added
 
 ## See Also
 
-- [Enable Video Mode](../recipes/enable-video-mode.md) - Configuration guide
-- [Conversion System](conversion-system.md) - Conversion architecture
-- [Worker Pattern](../patterns/worker-pattern.md) - Worker implementation
-- [Quick Reference](../quick-reference.md) - Common tasks
+- [Conversion System](conversion-system.md) - FFmpeg integration details
+- [Tool System](tool-system.md) - Tool metadata and structure
+- [Build Configuration](../recipes/enable-video-mode.md) - Setting up server mode
+- [Quick Reference](../quick-reference.md) - Common capability checks

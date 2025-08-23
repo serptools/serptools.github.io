@@ -40,10 +40,13 @@ export default function ToolPageTemplate({
   relatedTools,
   blogPosts,
 }: ToolPageProps) {
+  // If tool requires FFmpeg, always use single column layout (full dropzone)
+  const shouldUseTwoColumn = useTwoColumnLayout && videoSection?.embedId && !tool.requiresFFmpeg;
+  
   return (
     <main className="min-h-screen bg-background">
         {/* Hero Section with Tool */}
-        {useTwoColumnLayout && videoSection?.embedId ? (
+        {shouldUseTwoColumn ? (
           <>
             <LanderHeroTwoColumn
               title={tool.title}
@@ -77,9 +80,17 @@ export default function ToolPageTemplate({
                 toFormat={aboutSection.toFormat}
               />
             )}
-            {/* Video Section - only show if not using 2-column layout */}
-            {videoSection && <VideoSection embedId={videoSection.embedId} />}
+            {/* NO VIDEO for FFmpeg tools - they can't support YouTube embeds anyway */}
           </>
+        )}
+
+        {/* Related Tools Section - right after format cards */}
+        {tool.from && tool.to && (
+          <RelatedToolsSection 
+            currentFrom={tool.from} 
+            currentTo={tool.to}
+            currentPath={`/tools/${tool.from.toLowerCase()}-to-${tool.to.toLowerCase()}`}
+          />
         )}
 
         {/* FAQs Section */}
@@ -91,17 +102,8 @@ export default function ToolPageTemplate({
         {/* Changelog Section */}
         {changelog && <ChangelogSection changelog={changelog} />}
 
-        {/* Related Tools Section - shows tools for both source and target formats */}
-        {tool.from && tool.to && (
-          <RelatedToolsSection 
-            currentFrom={tool.from} 
-            currentTo={tool.to}
-            currentPath={`/tools/${tool.from.toLowerCase()}-to-${tool.to.toLowerCase()}`}
-          />
-        )}
-
-        {/* Related Tools Link Hub */}
-        <ToolsLinkHub relatedTools={relatedTools} />
+        {/* Footer with all tools */}
+        <ToolsLinkHub />
     </main>
   );
 }
