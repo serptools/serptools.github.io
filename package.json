@@ -3,8 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build && next-sitemap",
+    "dev": "BUILD_MODE=server next dev",
+    "dev:static": "BUILD_MODE=static next dev",
+    "build": "BUILD_MODE=static next build && next-sitemap",
+    "build:server": "BUILD_MODE=server next build",
     "start": "next start",
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
