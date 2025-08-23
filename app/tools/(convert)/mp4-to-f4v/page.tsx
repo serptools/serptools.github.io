@@ -1,7 +1,7 @@
 "use client";
 
 import ToolPageTemplate from "@/components/ToolPageTemplate";
-import HeroConverter from "@/components/HeroConverter";
+import LanderHeroTwoColumn from "@/components/LanderHeroTwoColumn";
 import { toolContent } from '@/lib/tool-content';
 
 export default function Page() {
@@ -10,11 +10,12 @@ export default function Page() {
   if (!content) {
     // Fallback to HeroConverter for tools without content
     return (
-      <HeroConverter
+      <LanderHeroTwoColumn
         title="MP4 to F4V"
         subtitle="Convert MP4 video files to F4V format"
         from="mp4"
         to="f4v"
+        videoEmbedId="dQw4w9WgXcQ"
       />
     );
   }

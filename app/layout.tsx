@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { GTM } from "@/components/GoogleTagManager";
 import { Navbar } from "@/components/Navbar";
+import { ToolsLinkHub } from "@/components/sections/ToolsLinkHub";
 import "./globals.css";
 
 const inter = Inter({
@@ -25,6 +26,7 @@ export default function RootLayout({
         <GTM />
         <Navbar />
         {children}
+        <ToolsLinkHub />
       </body>
     </html>
   );

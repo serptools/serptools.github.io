@@ -1,3 +1,5 @@
+import toolsData from '@/data/tools.json';
+
 type ToolsLinkHubProps = {
   relatedTools?: Array<{
     title: string;
@@ -5,69 +7,54 @@ type ToolsLinkHubProps = {
   }>;
 };
 
-const allTools = {
-  "Image Converters": [
-    { title: "JPG to PNG", href: "/tools/jpg-to-png" },
-    { title: "PNG to JPG", href: "/tools/png-to-jpg" },
-    { title: "HEIC to JPG", href: "/tools/heic-to-jpg" },
-    { title: "WebP to PNG", href: "/tools/webp-to-png" },
-    { title: "AVIF to JPG", href: "/tools/avif-to-jpg" },
-    { title: "BMP to JPG", href: "/tools/bmp-to-jpg" },
-    { title: "GIF to JPG", href: "/tools/gif-to-jpg" },
-    { title: "ICO to PNG", href: "/tools/ico-to-png" },
-  ],
-  "Modern Formats": [
-    { title: "AVIF to PNG", href: "/tools/avif-to-png" },
-    { title: "AVIF to JPEG", href: "/tools/avif-to-jpeg" },
-    { title: "HEIF to JPG", href: "/tools/heif-to-jpg" },
-    { title: "HEIF to PNG", href: "/tools/heif-to-png" },
-    { title: "HEIC to PNG", href: "/tools/heic-to-png" },
-    { title: "HEIC to JPEG", href: "/tools/heic-to-jpeg" },
-    { title: "WebP to PNG", href: "/tools/webp-to-png" },
-    { title: "JPEG to WebP", href: "/tools/jpeg-to-webp" },
-  ],
-  "PDF Tools": [
-    { title: "PDF to JPG", href: "/tools/pdf-to-jpg" },
-    { title: "PDF to PNG", href: "/tools/pdf-to-png" },
-    { title: "JPG to PDF", href: "/tools/jpg-to-pdf" },
-    { title: "PNG to PDF", href: "/tools/png-to-pdf" },
-    { title: "HEIC to PDF", href: "/tools/heic-to-pdf" },
-    { title: "HEIF to PDF", href: "/tools/heif-to-pdf" },
-    { title: "JFIF to PDF", href: "/tools/jfif-to-pdf" },
-    { title: "JPEG to PDF", href: "/tools/jpeg-to-pdf" },
-  ],
-  "RAW Formats": [
-    { title: "CR2 to JPG", href: "/tools/cr2-to-jpg" },
-    { title: "CR3 to JPG", href: "/tools/cr3-to-jpg" },
-    { title: "ARW to JPG", href: "/tools/arw-to-jpg" },
-    { title: "DNG to JPG", href: "/tools/dng-to-jpg" },
-    { title: "AI to PNG", href: "/tools/ai-to-png" },
-    { title: "AI to SVG", href: "/tools/ai-to-svg" },
-    { title: "JPG to SVG", href: "/tools/jpg-to-svg" },
-  ],
-  "Data Tools": [
-    { title: "JSON to CSV", href: "/tools/json-to-csv" },
-    { title: "CSV Combiner", href: "/tools/csv-combiner" },
-    { title: "Character Counter", href: "/tools/character-counter" },
-  ],
-  "Legacy Formats": [
-    { title: "JFIF to JPG", href: "/tools/jfif-to-jpg" },
-    { title: "JFIF to JPEG", href: "/tools/jfif-to-jpeg" },
-    { title: "JFIF to PNG", href: "/tools/jfif-to-png" },
-    { title: "BMP to PNG", href: "/tools/bmp-to-png" },
-    { title: "GIF to PNG", href: "/tools/gif-to-png" },
-    { title: "GIF to WebP", href: "/tools/gif-to-webp" },
-  ],
-  "Utility Tools": [
-    { title: "JPEG to JPG", href: "/tools/jpeg-to-jpg" },
-    { title: "JPEG to PNG", href: "/tools/jpeg-to-png" },
-    { title: "JPG to WebP", href: "/tools/jpg-to-webp" },
-    { title: "PNG to WebP", href: "/tools/png-to-webp" },
-    { title: "PNG Optimizer", href: "/tools/png-to-png" },
-  ],
-};
+interface Tool {
+  id: string;
+  name: string;
+  route: string;
+  tags?: string[];
+  priority?: number;
+  isActive: boolean;
+}
+
+// Generate dynamic tools from tools.json
+function generateAllTools() {
+  const allTools = (toolsData as Tool[]).filter(tool => tool.isActive);
+  
+  // Group tools by their primary tag
+  const groupedTools = allTools.reduce((groups, tool) => {
+    const primaryTag = tool.tags?.[0] || 'Other';
+    if (!groups[primaryTag]) {
+      groups[primaryTag] = [];
+    }
+    groups[primaryTag].push({
+      title: tool.name,
+      href: tool.route
+    });
+    return groups;
+  }, {} as Record<string, Array<{ title: string; href: string }>>);
+
+  // Sort tools within each group by priority (higher first) then name
+  Object.values(groupedTools).forEach(tools => {
+    tools.sort((a, b) => {
+      const toolA = allTools.find(t => t.route === a.href);
+      const toolB = allTools.find(t => t.route === b.href);
+      
+      const priorityA = toolA?.priority || 0;
+      const priorityB = toolB?.priority || 0;
+      
+      if (priorityA !== priorityB) {
+        return priorityB - priorityA;
+      }
+      return a.title.localeCompare(b.title);
+    });
+  });
+
+  return groupedTools;
+}
 
 export function ToolsLinkHub({ relatedTools }: ToolsLinkHubProps) {
+  const allTools = generateAllTools();
+  
   return (
     <section className="py-20 bg-gradient-to-b from-gray-100 to-gray-50 border-t border-gray-200">
       <div className="mx-auto max-w-7xl px-6">

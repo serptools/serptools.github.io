@@ -13,6 +13,7 @@ type Props = {
   from: string;               // "pdf"
   to: string;                 // "jpg"
   accept?: string;            // optional override accept attr
+  videoEmbedId?: string;      // YouTube embed ID for video
 };
 
 export default function HeroConverter({
@@ -21,10 +22,12 @@ export default function HeroConverter({
   from,
   to,
   accept,
+  videoEmbedId,
 }: Props) {
   const inputRef = useRef<HTMLInputElement | null>(null);
   const dropRef = useRef<HTMLDivElement | null>(null);
   const workerRef = useRef<Worker | null>(null);
+  const iframeRef = useRef<HTMLIFrameElement | null>(null);
   const [busy, setBusy] = useState(false);
   const [hint, setHint] = useState("or drop files here");
   const [dropEffect, setDropEffect] = useState<string>("");

@@ -1,20 +1,21 @@
 "use client";
 
 import ToolPageTemplate from "@/components/ToolPageTemplate";
-import HeroConverter from "@/components/HeroConverter";
+import LanderHeroTwoColumn from "@/components/LanderHeroTwoColumn";
 import { toolContent } from '@/lib/tool-content';
 
 export default function Page() {
   const content = toolContent["mp4-to-mkv"];
   
   if (!content) {
-    // Fallback to HeroConverter for tools without content
+    // Fallback to LanderHeroTwoColumn with placeholder video
     return (
-      <HeroConverter
+      <LanderHeroTwoColumn
         title="MP4 to MKV"
         subtitle="Convert MP4 video files to MKV format"
         from="mp4"
         to="mkv"
+        videoEmbedId="dQw4w9WgXcQ"
       />
     );
   }

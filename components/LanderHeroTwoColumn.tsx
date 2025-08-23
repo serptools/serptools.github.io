@@ -240,7 +240,7 @@ export default function LanderHeroTwoColumn({
               <iframe
                 ref={iframeRef}
                 className="absolute top-0 left-0 w-full h-full"
-                src={`https://www.youtube.com/embed/${videoEmbedId}?enablejsapi=1&mute=1`}
+                src={`https://www.youtube.com/embed/${videoEmbedId || 'dQw4w9WgXcQ'}?enablejsapi=1&mute=1`}
                 title="How It Works"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

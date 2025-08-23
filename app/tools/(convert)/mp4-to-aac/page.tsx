@@ -1,7 +1,7 @@
 "use client";
 
 import ToolPageTemplate from "@/components/ToolPageTemplate";
-import HeroConverter from "@/components/HeroConverter";
+import LanderHeroTwoColumn from "@/components/LanderHeroTwoColumn";
 import { toolContent } from '@/lib/tool-content';
 
 export default function Page() {
@@ -10,11 +10,12 @@ export default function Page() {
   if (!content) {
     // Fallback to HeroConverter for tools without content
     return (
-      <HeroConverter
+      <LanderHeroTwoColumn
         title="MP4 to AAC"
         subtitle="Convert MP4 video files to AAC format"
         from="mp4"
         to="aac"
+        videoEmbedId="dQw4w9WgXcQ"
       />
     );
   }
