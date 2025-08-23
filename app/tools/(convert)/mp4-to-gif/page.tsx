@@ -15,7 +15,7 @@ export default function Page() {
         subtitle="Convert MP4 video files to GIF format"
         from="mp4"
         to="gif"
-        videoEmbedId="dQw4w9WgXcQ"
+        videoEmbedId=""
       />
     );
   }
