@@ -8,10 +8,10 @@ importers:
 
   .:
     devDependencies:
-      '@serptools/eslint-config':
+      '@serp-tools/eslint-config':
         specifier: workspace:*
         version: link:packages/eslint-config
-      '@serptools/typescript-config':
+      '@serp-tools/typescript-config':
         specifier: workspace:*
         version: link:packages/typescript-config
       prettier:
@@ -26,7 +26,7 @@ importers:
 
   apps/web:
     dependencies:
-      '@serptools/ui':
+      '@serp-tools/ui':
         specifier: workspace:*
         version: link:../../packages/ui
       lucide-react:
@@ -45,10 +45,10 @@ importers:
         specifier: ^19.1.1
         version: 19.1.1(react@19.1.1)
     devDependencies:
-      '@serptools/eslint-config':
+      '@serp-tools/eslint-config':
         specifier: workspace:^
         version: link:../../packages/eslint-config
-      '@serptools/typescript-config':
+      '@serp-tools/typescript-config':
         specifier: workspace:*
         version: link:../../packages/typescript-config
       '@types/node':
@@ -156,10 +156,10 @@ importers:
         specifier: ^3.25.76
         version: 3.25.76
     devDependencies:
-      '@serptools/eslint-config':
+      '@serp-tools/eslint-config':
         specifier: workspace:*
         version: link:../eslint-config
-      '@serptools/typescript-config':
+      '@serp-tools/typescript-config':
         specifier: workspace:*
         version: link:../typescript-config
       '@tailwindcss/postcss':

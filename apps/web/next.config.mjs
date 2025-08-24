@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  transpilePackages: ["@serptools/ui"],
+  transpilePackages: ["@serp-tools/ui"],
 };
 
 export default nextConfig;

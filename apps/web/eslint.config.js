@@ -1,4 +1,4 @@
-import { nextJsConfig } from "@serptools/eslint-config/next-js";
+import { nextJsConfig } from "@serp-tools/eslint-config/next-js";
 
 /** @type {import("eslint").Linter.Config} */
 export default nextJsConfig;

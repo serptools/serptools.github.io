@@ -1,10 +1,10 @@
 {
-  "extends": "@serptools/typescript-config/nextjs.json",
+  "extends": "@serp-tools/typescript-config/nextjs.json",
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
       "@/*": ["./*"],
-      "@serptools/ui/*": ["../../packages/ui/src/*"]
+      "@serp-tools/ui/*": ["../../packages/ui/src/*"]
     },
     "plugins": [
       {

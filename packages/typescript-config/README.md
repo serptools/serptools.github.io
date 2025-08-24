@@ -1,3 +1,3 @@
-# `@serptools/typescript-config`
+# `@serp-tools/typescript-config`
 
 Shared typescript configuration for the workspace.

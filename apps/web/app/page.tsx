@@ -1,4 +1,4 @@
-import { Button } from "@serptools/ui/components/button";
+import { Button } from "@serp-tools/ui/components/button";
 
 export default function Page() {
   return (
