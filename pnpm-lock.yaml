@@ -24,7 +24,41 @@ importers:
         specifier: 5.7.3
         version: 5.7.3
 
-  apps/web:
+  apps/files:
+    dependencies:
+      '@serp-tools/ui':
+        specifier: workspace:*
+        version: link:../../packages/ui
+      next:
+        specifier: ^15.5.0
+        version: 15.5.0(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
+      react:
+        specifier: ^19.1.1
+        version: 19.1.1
+      react-dom:
+        specifier: ^19.1.1
+        version: 19.1.1(react@19.1.1)
+    devDependencies:
+      '@serp-tools/eslint-config':
+        specifier: workspace:^
+        version: link:../../packages/eslint-config
+      '@serp-tools/typescript-config':
+        specifier: workspace:*
+        version: link:../../packages/typescript-config
+      '@types/node':
+        specifier: ^20.19.9
+        version: 20.19.11
+      '@types/react':
+        specifier: ^19.1.9
+        version: 19.1.11
+      '@types/react-dom':
+        specifier: ^19.1.7
+        version: 19.1.7(@types/react@19.1.11)
+      typescript:
+        specifier: ^5.9.2
+        version: 5.9.2
+
+  apps/tools:
     dependencies:
       '@serp-tools/ui':
         specifier: workspace:*
