@@ -11,13 +11,14 @@
   },
   "dependencies": {
     "@serp-tools/ui": "workspace:*",
+    "@serp-tools/ui-next": "workspace:*",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "next": "^15.5.0"
   },
   "devDependencies": {
     "@types/node": "^20.19.9",
-    "@types/react": "^19.1.9",
+    "@types/react": "^19.1.11",
     "@types/react-dom": "^19.1.7",
     "@serp-tools/eslint-config": "workspace:^",
     "@serp-tools/typescript-config": "workspace:*",
