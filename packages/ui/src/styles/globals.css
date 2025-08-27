@@ -121,7 +121,14 @@
   * {
     @apply border-border outline-ring/50;
   }
+
   body {
     @apply bg-background text-foreground;
+  }
+}
+
+@layer utilities {
+  .container {
+    @apply container mx-auto px-4 sm:px-6;
   }
 }
