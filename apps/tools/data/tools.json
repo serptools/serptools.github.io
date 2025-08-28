@@ -4,7 +4,7 @@
     "name": "HEIC to JPG",
     "description": "Convert HEIC photos to JPG format",
     "operation": "convert",
-    "route": "/tools/heic-to-jpg",
+    "route": "/heic-to-jpg",
     "from": "heic",
     "to": "jpg",
     "isActive": true,
@@ -96,19 +96,19 @@
       "relatedTools": [
         {
           "title": "HEIC to PNG",
-          "href": "/tools/heic-to-png"
+          "href": "/heic-to-png"
         },
         {
           "title": "HEIC to PDF",
-          "href": "/tools/heic-to-pdf"
+          "href": "/heic-to-pdf"
         },
         {
           "title": "HEIF to JPG",
-          "href": "/tools/heif-to-jpg"
+          "href": "/heif-to-jpg"
         },
         {
           "title": "HEIC to JPEG",
-          "href": "/tools/heic-to-jpeg"
+          "href": "/heic-to-jpeg"
         }
       ],
       "blogPosts": [
@@ -141,7 +141,7 @@
     "name": "HEIC to JPEG",
     "description": "Convert HEIC photos to JPEG format",
     "operation": "convert",
-    "route": "/tools/heic-to-jpeg",
+    "route": "/heic-to-jpeg",
     "from": "heic",
     "to": "jpeg",
     "isActive": true,
@@ -226,19 +226,19 @@
       "relatedTools": [
         {
           "title": "HEIC to JPG",
-          "href": "/tools/heic-to-jpg"
+          "href": "/heic-to-jpg"
         },
         {
           "title": "HEIC to PNG",
-          "href": "/tools/heic-to-png"
+          "href": "/heic-to-png"
         },
         {
           "title": "HEIC to PDF",
-          "href": "/tools/heic-to-pdf"
+          "href": "/heic-to-pdf"
         },
         {
           "title": "JPEG to HEIC",
-          "href": "/tools/jpeg-to-heic"
+          "href": "/jpeg-to-heic"
         }
       ],
       "blogPosts": [
@@ -271,7 +271,7 @@
     "name": "HEIC to PNG",
     "description": "Convert HEIC photos to PNG format",
     "operation": "convert",
-    "route": "/tools/heic-to-png",
+    "route": "/heic-to-png",
     "from": "heic",
     "to": "png",
     "isActive": true,
@@ -356,19 +356,19 @@
       "relatedTools": [
         {
           "title": "HEIC to JPG",
-          "href": "/tools/heic-to-jpg"
+          "href": "/heic-to-jpg"
         },
         {
           "title": "PNG to HEIC",
-          "href": "/tools/png-to-heic"
+          "href": "/png-to-heic"
         },
         {
           "title": "HEIF to PNG",
-          "href": "/tools/heif-to-png"
+          "href": "/heif-to-png"
         },
         {
           "title": "PNG Optimizer",
-          "href": "/tools/optimize-png"
+          "href": "/optimize-png"
         }
       ],
       "blogPosts": [
@@ -401,7 +401,7 @@
     "name": "HEIC to PDF",
     "description": "Convert HEIC photos to PDF documents",
     "operation": "convert",
-    "route": "/tools/heic-to-pdf",
+    "route": "/heic-to-pdf",
     "from": "heic",
     "to": "pdf",
     "isActive": true,
@@ -486,19 +486,19 @@
       "relatedTools": [
         {
           "title": "HEIC to JPG",
-          "href": "/tools/heic-to-jpg"
+          "href": "/heic-to-jpg"
         },
         {
           "title": "JPG to PDF",
-          "href": "/tools/jpg-to-pdf"
+          "href": "/jpg-to-pdf"
         },
         {
           "title": "PDF Merger",
-          "href": "/tools/merge-pdf"
+          "href": "/merge-pdf"
         },
         {
           "title": "PDF Compressor",
-          "href": "/tools/compress-pdf"
+          "href": "/compress-pdf"
         }
       ],
       "blogPosts": [
@@ -531,7 +531,7 @@
     "name": "HEIF to JPG",
     "description": "Convert HEIF images to JPG format",
     "operation": "convert",
-    "route": "/tools/heif-to-jpg",
+    "route": "/heif-to-jpg",
     "from": "heif",
     "to": "jpg",
     "isActive": true,
@@ -616,19 +616,19 @@
       "relatedTools": [
         {
           "title": "HEIF to PNG",
-          "href": "/tools/heif-to-png"
+          "href": "/heif-to-png"
         },
         {
           "title": "HEIC to JPG",
-          "href": "/tools/heic-to-jpg"
+          "href": "/heic-to-jpg"
         },
         {
           "title": "HEIF to PDF",
-          "href": "/tools/heif-to-pdf"
+          "href": "/heif-to-pdf"
         },
         {
           "title": "JPG to HEIF",
-          "href": "/tools/jpg-to-heif"
+          "href": "/jpg-to-heif"
         }
       ],
       "blogPosts": [
@@ -661,7 +661,7 @@
     "name": "HEIF to PNG",
     "description": "Convert HEIF images to PNG format",
     "operation": "convert",
-    "route": "/tools/heif-to-png",
+    "route": "/heif-to-png",
     "from": "heif",
     "to": "png",
     "isActive": true,
@@ -746,19 +746,19 @@
       "relatedTools": [
         {
           "title": "HEIF to JPG",
-          "href": "/tools/heif-to-jpg"
+          "href": "/heif-to-jpg"
         },
         {
           "title": "PNG to HEIF",
-          "href": "/tools/png-to-heif"
+          "href": "/png-to-heif"
         },
         {
           "title": "HEIC to PNG",
-          "href": "/tools/heic-to-png"
+          "href": "/heic-to-png"
         },
         {
           "title": "HEIF to PDF",
-          "href": "/tools/heif-to-pdf"
+          "href": "/heif-to-pdf"
         }
       ],
       "blogPosts": [
@@ -791,7 +791,7 @@
     "name": "HEIF to PDF",
     "description": "Convert HEIF images to PDF documents",
     "operation": "convert",
-    "route": "/tools/heif-to-pdf",
+    "route": "/heif-to-pdf",
     "from": "heif",
     "to": "pdf",
     "isActive": true,
@@ -876,19 +876,19 @@
       "relatedTools": [
         {
           "title": "HEIF to JPG",
-          "href": "/tools/heif-to-jpg"
+          "href": "/heif-to-jpg"
         },
         {
           "title": "HEIC to PDF",
-          "href": "/tools/heic-to-pdf"
+          "href": "/heic-to-pdf"
         },
         {
           "title": "JPG to PDF",
-          "href": "/tools/jpg-to-pdf"
+          "href": "/jpg-to-pdf"
         },
         {
           "title": "PDF Merger",
-          "href": "/tools/merge-pdf"
+          "href": "/merge-pdf"
         }
       ],
       "blogPosts": [
@@ -921,7 +921,7 @@
     "name": "PDF to JPG",
     "description": "Convert PDF pages to JPG images",
     "operation": "convert",
-    "route": "/tools/pdf-to-jpg",
+    "route": "/pdf-to-jpg",
     "from": "pdf",
     "to": "jpg",
     "isActive": true,
@@ -984,11 +984,11 @@
       "relatedTools": [
         {
           "title": "PDF to PNG",
-          "href": "/tools/pdf-to-png"
+          "href": "/pdf-to-png"
         },
         {
           "title": "JPG to PDF",
-          "href": "/tools/jpg-to-pdf"
+          "href": "/jpg-to-pdf"
         },
         {
           "title": "PDF to Text",
@@ -1022,7 +1022,7 @@
     "name": "PDF to PNG",
     "description": "Convert PDF pages to PNG images",
     "operation": "convert",
-    "route": "/tools/pdf-to-png",
+    "route": "/pdf-to-png",
     "from": "pdf",
     "to": "png",
     "isActive": true,
@@ -1107,19 +1107,19 @@
       "relatedTools": [
         {
           "title": "PDF to JPG",
-          "href": "/tools/pdf-to-jpg"
+          "href": "/pdf-to-jpg"
         },
         {
           "title": "PNG to PDF",
-          "href": "/tools/png-to-pdf"
+          "href": "/png-to-pdf"
         },
         {
           "title": "PDF Splitter",
-          "href": "/tools/split-pdf"
+          "href": "/split-pdf"
         },
         {
           "title": "PNG Compressor",
-          "href": "/tools/compress-png"
+          "href": "/compress-png"
         }
       ],
       "blogPosts": [
@@ -1152,7 +1152,7 @@
     "name": "JPG to PDF",
     "description": "Convert JPG images to PDF documents",
     "operation": "convert",
-    "route": "/tools/jpg-to-pdf",
+    "route": "/jpg-to-pdf",
     "from": "jpg",
     "to": "pdf",
     "isActive": true,
@@ -1232,19 +1232,19 @@
       "relatedTools": [
         {
           "title": "JPEG to PDF",
-          "href": "/tools/jpeg-to-pdf"
+          "href": "/jpeg-to-pdf"
         },
         {
           "title": "PDF to JPG",
-          "href": "/tools/pdf-to-jpg"
+          "href": "/pdf-to-jpg"
         },
         {
           "title": "JPG to PNG",
-          "href": "/tools/jpg-to-png"
+          "href": "/jpg-to-png"
         },
         {
           "title": "JPG to WEBP",
-          "href": "/tools/jpg-to-webp"
+          "href": "/jpg-to-webp"
         }
       ],
       "blogPosts": [
@@ -1277,7 +1277,7 @@
     "name": "JPEG to PDF",
     "description": "Convert JPEG images to PDF documents",
     "operation": "convert",
-    "route": "/tools/jpeg-to-pdf",
+    "route": "/jpeg-to-pdf",
     "from": "jpeg",
     "to": "pdf",
     "isActive": true,
@@ -1362,19 +1362,19 @@
       "relatedTools": [
         {
           "title": "JPG to PDF",
-          "href": "/tools/jpg-to-pdf"
+          "href": "/jpg-to-pdf"
         },
         {
           "title": "PNG to PDF",
-          "href": "/tools/png-to-pdf"
+          "href": "/png-to-pdf"
         },
         {
           "title": "PDF Merger",
-          "href": "/tools/merge-pdf"
+          "href": "/merge-pdf"
         },
         {
           "title": "PDF Compressor",
-          "href": "/tools/compress-pdf"
+          "href": "/compress-pdf"
         }
       ],
       "blogPosts": [
@@ -1407,7 +1407,7 @@
     "name": "JPG to PNG",
     "description": "Convert JPG to PNG with transparency",
     "operation": "convert",
-    "route": "/tools/jpg-to-png",
+    "route": "/jpg-to-png",
     "from": "jpg",
     "to": "png",
     "isActive": true,
@@ -1487,19 +1487,19 @@
       "relatedTools": [
         {
           "title": "JPEG to PNG",
-          "href": "/tools/jpeg-to-png"
+          "href": "/jpeg-to-png"
         },
         {
           "title": "PNG to JPG",
-          "href": "/tools/png-to-jpg"
+          "href": "/png-to-jpg"
         },
         {
           "title": "JPG to WEBP",
-          "href": "/tools/jpg-to-webp"
+          "href": "/jpg-to-webp"
         },
         {
           "title": "JPG to GIF",
-          "href": "/tools/jpg-to-gif"
+          "href": "/jpg-to-gif"
         }
       ],
       "blogPosts": [
@@ -1532,7 +1532,7 @@
     "name": "PNG to JPG",
     "description": "Convert PNG images to JPG format",
     "operation": "convert",
-    "route": "/tools/png-to-jpg",
+    "route": "/png-to-jpg",
     "from": "png",
     "to": "jpg",
     "isActive": true,
@@ -1612,15 +1612,15 @@
       "relatedTools": [
         {
           "title": "JPG to PNG",
-          "href": "/tools/jpg-to-png"
+          "href": "/jpg-to-png"
         },
         {
           "title": "PNG to WEBP",
-          "href": "/tools/png-to-webp"
+          "href": "/png-to-webp"
         },
         {
           "title": "PNG to GIF",
-          "href": "/tools/png-to-gif"
+          "href": "/png-to-gif"
         }
       ],
       "blogPosts": [
@@ -1653,7 +1653,7 @@
     "name": "JPEG to PNG",
     "description": "Convert JPEG to PNG format",
     "operation": "convert",
-    "route": "/tools/jpeg-to-png",
+    "route": "/jpeg-to-png",
     "from": "jpeg",
     "to": "png",
     "isActive": true,
@@ -1738,19 +1738,19 @@
       "relatedTools": [
         {
           "title": "PNG to JPEG",
-          "href": "/tools/png-to-jpeg"
+          "href": "/png-to-jpeg"
         },
         {
           "title": "JPEG to WebP",
-          "href": "/tools/jpeg-to-webp"
+          "href": "/jpeg-to-webp"
         },
         {
           "title": "JPEG to JPG",
-          "href": "/tools/jpeg-to-jpg"
+          "href": "/jpeg-to-jpg"
         },
         {
           "title": "PNG Optimizer",
-          "href": "/tools/optimize-png"
+          "href": "/optimize-png"
         }
       ],
       "blogPosts": [
@@ -1783,7 +1783,7 @@
     "name": "JPEG to JPG",
     "description": "Convert JPEG to JPG format",
     "operation": "convert",
-    "route": "/tools/jpeg-to-jpg",
+    "route": "/jpeg-to-jpg",
     "from": "jpeg",
     "to": "jpg",
     "isActive": true,
@@ -1868,19 +1868,19 @@
       "relatedTools": [
         {
           "title": "JPG to JPEG",
-          "href": "/tools/jpg-to-jpeg"
+          "href": "/jpg-to-jpeg"
         },
         {
           "title": "JPEG to PNG",
-          "href": "/tools/jpeg-to-png"
+          "href": "/jpeg-to-png"
         },
         {
           "title": "JPG Optimizer",
-          "href": "/tools/optimize-jpg"
+          "href": "/optimize-jpg"
         },
         {
           "title": "Bulk Rename",
-          "href": "/tools/bulk-rename"
+          "href": "/bulk-rename"
         }
       ],
       "blogPosts": [
@@ -1913,7 +1913,7 @@
     "name": "WebP to PNG",
     "description": "Convert WebP images to PNG",
     "operation": "convert",
-    "route": "/tools/webp-to-png",
+    "route": "/webp-to-png",
     "from": "webp",
     "to": "png",
     "isActive": true,
@@ -1998,19 +1998,19 @@
       "relatedTools": [
         {
           "title": "PNG to WebP",
-          "href": "/tools/png-to-webp"
+          "href": "/png-to-webp"
         },
         {
           "title": "WebP to JPG",
-          "href": "/tools/webp-to-jpg"
+          "href": "/webp-to-jpg"
         },
         {
           "title": "AVIF to PNG",
-          "href": "/tools/avif-to-png"
+          "href": "/avif-to-png"
         },
         {
           "title": "PNG Compressor",
-          "href": "/tools/compress-png"
+          "href": "/compress-png"
         }
       ],
       "blogPosts": [
@@ -2043,7 +2043,7 @@
     "name": "PNG to WebP",
     "description": "Convert PNG to WebP format",
     "operation": "convert",
-    "route": "/tools/png-to-webp",
+    "route": "/png-to-webp",
     "from": "png",
     "to": "webp",
     "isActive": true,
@@ -2123,15 +2123,15 @@
       "relatedTools": [
         {
           "title": "WEBP to PNG",
-          "href": "/tools/webp-to-png"
+          "href": "/webp-to-png"
         },
         {
           "title": "PNG to JPG",
-          "href": "/tools/png-to-jpg"
+          "href": "/png-to-jpg"
         },
         {
           "title": "PNG to GIF",
-          "href": "/tools/png-to-gif"
+          "href": "/png-to-gif"
         }
       ],
       "blogPosts": [
@@ -2164,7 +2164,7 @@
     "name": "JPG to WebP",
     "description": "Convert JPG to WebP format",
     "operation": "convert",
-    "route": "/tools/jpg-to-webp",
+    "route": "/jpg-to-webp",
     "from": "jpg",
     "to": "webp",
     "isActive": true,
@@ -2244,19 +2244,19 @@
       "relatedTools": [
         {
           "title": "JPEG to WEBP",
-          "href": "/tools/jpeg-to-webp"
+          "href": "/jpeg-to-webp"
         },
         {
           "title": "WEBP to JPG",
-          "href": "/tools/webp-to-jpg"
+          "href": "/webp-to-jpg"
         },
         {
           "title": "JPG to PNG",
-          "href": "/tools/jpg-to-png"
+          "href": "/jpg-to-png"
         },
         {
           "title": "JPG to GIF",
-          "href": "/tools/jpg-to-gif"
+          "href": "/jpg-to-gif"
         }
       ],
       "blogPosts": [
@@ -2289,7 +2289,7 @@
     "name": "JPEG to WebP",
     "description": "Convert JPEG to WebP format",
     "operation": "convert",
-    "route": "/tools/jpeg-to-webp",
+    "route": "/jpeg-to-webp",
     "from": "jpeg",
     "to": "webp",
     "isActive": true,
@@ -2369,11 +2369,11 @@
       "relatedTools": [
         {
           "title": "JPG to WEBP",
-          "href": "/tools/jpg-to-webp"
+          "href": "/jpg-to-webp"
         },
         {
           "title": "WEBP to JPEG",
-          "href": "/tools/webp-to-jpeg"
+          "href": "/webp-to-jpeg"
         }
       ],
       "blogPosts": [
@@ -2406,7 +2406,7 @@
     "name": "GIF to WebP",
     "description": "Convert animated GIFs to WebP",
     "operation": "convert",
-    "route": "/tools/gif-to-webp",
+    "route": "/gif-to-webp",
     "from": "gif",
     "to": "webp",
     "isActive": true,
@@ -2486,15 +2486,15 @@
       "relatedTools": [
         {
           "title": "WEBP to GIF",
-          "href": "/tools/webp-to-gif"
+          "href": "/webp-to-gif"
         },
         {
           "title": "GIF to JPG",
-          "href": "/tools/gif-to-jpg"
+          "href": "/gif-to-jpg"
         },
         {
           "title": "GIF to PNG",
-          "href": "/tools/gif-to-png"
+          "href": "/gif-to-png"
         }
       ],
       "blogPosts": [
@@ -2527,7 +2527,7 @@
     "name": "AVIF to PNG",
     "description": "Convert AVIF images to PNG",
     "operation": "convert",
-    "route": "/tools/avif-to-png",
+    "route": "/avif-to-png",
     "from": "avif",
     "to": "png",
     "isActive": true,
@@ -2612,19 +2612,19 @@
       "relatedTools": [
         {
           "title": "AVIF to JPG",
-          "href": "/tools/avif-to-jpg"
+          "href": "/avif-to-jpg"
         },
         {
           "title": "PNG to AVIF",
-          "href": "/tools/png-to-avif"
+          "href": "/png-to-avif"
         },
         {
           "title": "AVIF to WebP",
-          "href": "/tools/avif-to-webp"
+          "href": "/avif-to-webp"
         },
         {
           "title": "WebP to PNG",
-          "href": "/tools/webp-to-png"
+          "href": "/webp-to-png"
         }
       ],
       "blogPosts": [
@@ -2657,7 +2657,7 @@
     "name": "AVIF to JPG",
     "description": "Convert AVIF to JPG format",
     "operation": "convert",
-    "route": "/tools/avif-to-jpg",
+    "route": "/avif-to-jpg",
     "from": "avif",
     "to": "jpg",
     "isActive": true,
@@ -2756,19 +2756,19 @@
       "relatedTools": [
         {
           "title": "AVIF to PNG",
-          "href": "/tools/avif-to-png"
+          "href": "/avif-to-png"
         },
         {
           "title": "JPG to AVIF",
-          "href": "/tools/jpg-to-avif"
+          "href": "/jpg-to-avif"
         },
         {
           "title": "HEIC to JPG",
-          "href": "/tools/heic-to-jpg"
+          "href": "/heic-to-jpg"
         },
         {
           "title": "WebP to JPG",
-          "href": "/tools/webp-to-jpg"
+          "href": "/webp-to-jpg"
         }
       ],
       "blogPosts": [
@@ -2801,7 +2801,7 @@
     "name": "AVIF to JPEG",
     "description": "Convert AVIF to JPEG format",
     "operation": "convert",
-    "route": "/tools/avif-to-jpeg",
+    "route": "/avif-to-jpeg",
     "from": "avif",
     "to": "jpeg",
     "isActive": true,
@@ -2881,7 +2881,7 @@
       "relatedTools": [
         {
           "title": "JPEG to AVIF",
-          "href": "/tools/jpeg-to-avif"
+          "href": "/jpeg-to-avif"
         }
       ],
       "blogPosts": [
@@ -2914,7 +2914,7 @@
     "name": "BMP to JPG",
     "description": "Convert BMP images to JPG",
     "operation": "convert",
-    "route": "/tools/bmp-to-jpg",
+    "route": "/bmp-to-jpg",
     "from": "bmp",
     "to": "jpg",
     "isActive": true,
@@ -2994,15 +2994,15 @@
       "relatedTools": [
         {
           "title": "JPG to BMP",
-          "href": "/tools/jpg-to-bmp"
+          "href": "/jpg-to-bmp"
         },
         {
           "title": "BMP to PNG",
-          "href": "/tools/bmp-to-png"
+          "href": "/bmp-to-png"
         },
         {
           "title": "BMP to WEBP",
-          "href": "/tools/bmp-to-webp"
+          "href": "/bmp-to-webp"
         }
       ],
       "blogPosts": [
@@ -3035,7 +3035,7 @@
     "name": "BMP to PNG",
     "description": "Convert BMP images to PNG",
     "operation": "convert",
-    "route": "/tools/bmp-to-png",
+    "route": "/bmp-to-png",
     "from": "bmp",
     "to": "png",
     "isActive": true,
@@ -3115,15 +3115,15 @@
       "relatedTools": [
         {
           "title": "PNG to BMP",
-          "href": "/tools/png-to-bmp"
+          "href": "/png-to-bmp"
         },
         {
           "title": "BMP to JPG",
-          "href": "/tools/bmp-to-jpg"
+          "href": "/bmp-to-jpg"
         },
         {
           "title": "BMP to WEBP",
-          "href": "/tools/bmp-to-webp"
+          "href": "/bmp-to-webp"
         }
       ],
       "blogPosts": [
@@ -3156,7 +3156,7 @@
     "name": "ICO to PNG",
     "description": "Convert ICO icons to PNG",
     "operation": "convert",
-    "route": "/tools/ico-to-png",
+    "route": "/ico-to-png",
     "from": "ico",
     "to": "png",
     "isActive": true,
@@ -3236,7 +3236,7 @@
       "relatedTools": [
         {
           "title": "PNG to ICO",
-          "href": "/tools/png-to-ico"
+          "href": "/png-to-ico"
         }
       ],
       "blogPosts": [
@@ -3269,7 +3269,7 @@
     "name": "GIF to JPG",
     "description": "Extract first frame as JPG",
     "operation": "convert",
-    "route": "/tools/gif-to-jpg",
+    "route": "/gif-to-jpg",
     "from": "gif",
     "to": "jpg",
     "isActive": true,
@@ -3349,15 +3349,15 @@
       "relatedTools": [
         {
           "title": "JPG to GIF",
-          "href": "/tools/jpg-to-gif"
+          "href": "/jpg-to-gif"
         },
         {
           "title": "GIF to PNG",
-          "href": "/tools/gif-to-png"
+          "href": "/gif-to-png"
         },
         {
           "title": "GIF to WEBP",
-          "href": "/tools/gif-to-webp"
+          "href": "/gif-to-webp"
         }
       ],
       "blogPosts": [
@@ -3390,7 +3390,7 @@
     "name": "GIF to PNG",
     "description": "Extract GIF frames as PNG",
     "operation": "convert",
-    "route": "/tools/gif-to-png",
+    "route": "/gif-to-png",
     "from": "gif",
     "to": "png",
     "isActive": true,
@@ -3475,19 +3475,19 @@
       "relatedTools": [
         {
           "title": "PNG to GIF",
-          "href": "/tools/png-to-gif"
+          "href": "/png-to-gif"
         },
         {
           "title": "GIF to JPG",
-          "href": "/tools/gif-to-jpg"
+          "href": "/gif-to-jpg"
         },
         {
           "title": "GIF to WebP",
-          "href": "/tools/gif-to-webp"
+          "href": "/gif-to-webp"
         },
         {
           "title": "GIF Compressor",
-          "href": "/tools/compress-gif"
+          "href": "/compress-gif"
         }
       ],
       "blogPosts": [
@@ -3520,7 +3520,7 @@
     "name": "JFIF to JPG",
     "description": "Convert JFIF to JPG format",
     "operation": "convert",
-    "route": "/tools/jfif-to-jpg",
+    "route": "/jfif-to-jpg",
     "from": "jfif",
     "to": "jpg",
     "isActive": true,
@@ -3605,19 +3605,19 @@
       "relatedTools": [
         {
           "title": "JFIF to PNG",
-          "href": "/tools/jfif-to-png"
+          "href": "/jfif-to-png"
         },
         {
           "title": "JFIF to JPEG",
-          "href": "/tools/jfif-to-jpeg"
+          "href": "/jfif-to-jpeg"
         },
         {
           "title": "JFIF to PDF",
-          "href": "/tools/jfif-to-pdf"
+          "href": "/jfif-to-pdf"
         },
         {
           "title": "JPG Optimizer",
-          "href": "/tools/optimize-jpg"
+          "href": "/optimize-jpg"
         }
       ],
       "blogPosts": [
@@ -3650,7 +3650,7 @@
     "name": "JFIF to JPEG",
     "description": "Convert JFIF to JPEG format",
     "operation": "convert",
-    "route": "/tools/jfif-to-jpeg",
+    "route": "/jfif-to-jpeg",
     "from": "jfif",
     "to": "jpeg",
     "isActive": true,
@@ -3735,19 +3735,19 @@
       "relatedTools": [
         {
           "title": "JFIF to JPG",
-          "href": "/tools/jfif-to-jpg"
+          "href": "/jfif-to-jpg"
         },
         {
           "title": "JFIF to PNG",
-          "href": "/tools/jfif-to-png"
+          "href": "/jfif-to-png"
         },
         {
           "title": "JPEG to JPG",
-          "href": "/tools/jpeg-to-jpg"
+          "href": "/jpeg-to-jpg"
         },
         {
           "title": "JFIF to PDF",
-          "href": "/tools/jfif-to-pdf"
+          "href": "/jfif-to-pdf"
         }
       ],
       "blogPosts": [
@@ -3780,7 +3780,7 @@
     "name": "JFIF to PNG",
     "description": "Convert JFIF to PNG format",
     "operation": "convert",
-    "route": "/tools/jfif-to-png",
+    "route": "/jfif-to-png",
     "from": "jfif",
     "to": "png",
     "isActive": true,
@@ -3865,19 +3865,19 @@
       "relatedTools": [
         {
           "title": "JFIF to JPG",
-          "href": "/tools/jfif-to-jpg"
+          "href": "/jfif-to-jpg"
         },
         {
           "title": "PNG to JFIF",
-          "href": "/tools/png-to-jfif"
+          "href": "/png-to-jfif"
         },
         {
           "title": "JFIF to JPEG",
-          "href": "/tools/jfif-to-jpeg"
+          "href": "/jfif-to-jpeg"
         },
         {
           "title": "PNG Optimizer",
-          "href": "/tools/optimize-png"
+          "href": "/optimize-png"
         }
       ],
       "blogPosts": [
@@ -3910,7 +3910,7 @@
     "name": "JFIF to PDF",
     "description": "Convert JFIF to PDF documents",
     "operation": "convert",
-    "route": "/tools/jfif-to-pdf",
+    "route": "/jfif-to-pdf",
     "from": "jfif",
     "to": "pdf",
     "isActive": true,
@@ -3995,19 +3995,19 @@
       "relatedTools": [
         {
           "title": "JPG to PDF",
-          "href": "/tools/jpg-to-pdf"
+          "href": "/jpg-to-pdf"
         },
         {
           "title": "JFIF to JPG",
-          "href": "/tools/jfif-to-jpg"
+          "href": "/jfif-to-jpg"
         },
         {
           "title": "PDF Merger",
-          "href": "/tools/merge-pdf"
+          "href": "/merge-pdf"
         },
         {
           "title": "PDF Compressor",
-          "href": "/tools/compress-pdf"
+          "href": "/compress-pdf"
         }
       ],
       "blogPosts": [
@@ -4040,7 +4040,7 @@
     "name": "CR2 to JPG",
     "description": "Convert Canon CR2 RAW to JPG",
     "operation": "convert",
-    "route": "/tools/cr2-to-jpg",
+    "route": "/cr2-to-jpg",
     "from": "cr2",
     "to": "jpg",
     "isActive": true,
@@ -4120,7 +4120,7 @@
       "relatedTools": [
         {
           "title": "JPG to CR2",
-          "href": "/tools/jpg-to-cr2"
+          "href": "/jpg-to-cr2"
         }
       ],
       "blogPosts": [
@@ -4153,7 +4153,7 @@
     "name": "CR3 to JPG",
     "description": "Convert Canon CR3 RAW to JPG",
     "operation": "convert",
-    "route": "/tools/cr3-to-jpg",
+    "route": "/cr3-to-jpg",
     "from": "cr3",
     "to": "jpg",
     "isActive": true,
@@ -4233,7 +4233,7 @@
       "relatedTools": [
         {
           "title": "JPG to CR3",
-          "href": "/tools/jpg-to-cr3"
+          "href": "/jpg-to-cr3"
         }
       ],
       "blogPosts": [
@@ -4266,7 +4266,7 @@
     "name": "DNG to JPG",
     "description": "Convert Adobe DNG to JPG",
     "operation": "convert",
-    "route": "/tools/dng-to-jpg",
+    "route": "/dng-to-jpg",
     "from": "dng",
     "to": "jpg",
     "isActive": true,
@@ -4346,7 +4346,7 @@
       "relatedTools": [
         {
           "title": "JPG to DNG",
-          "href": "/tools/jpg-to-dng"
+          "href": "/jpg-to-dng"
         }
       ],
       "blogPosts": [
@@ -4379,7 +4379,7 @@
     "name": "ARW to JPG",
     "description": "Convert Sony ARW RAW to JPG",
     "operation": "convert",
-    "route": "/tools/arw-to-jpg",
+    "route": "/arw-to-jpg",
     "from": "arw",
     "to": "jpg",
     "isActive": true,
@@ -4459,7 +4459,7 @@
       "relatedTools": [
         {
           "title": "JPG to ARW",
-          "href": "/tools/jpg-to-arw"
+          "href": "/jpg-to-arw"
         }
       ],
       "blogPosts": [
@@ -4492,7 +4492,7 @@
     "name": "JPG to SVG",
     "description": "Convert JPG to vector SVG",
     "operation": "convert",
-    "route": "/tools/jpg-to-svg",
+    "route": "/jpg-to-svg",
     "from": "jpg",
     "to": "svg",
     "isActive": true,
@@ -4581,15 +4581,15 @@
         },
         {
           "title": "SVG to PNG",
-          "href": "/tools/svg-to-png"
+          "href": "/svg-to-png"
         },
         {
           "title": "SVG Optimizer",
-          "href": "/tools/optimize-svg"
+          "href": "/optimize-svg"
         },
         {
           "title": "AI to SVG",
-          "href": "/tools/ai-to-svg"
+          "href": "/ai-to-svg"
         }
       ],
       "blogPosts": [
@@ -4622,7 +4622,7 @@
     "name": "PNG Optimizer",
     "description": "Compress and optimize PNG files",
     "operation": "compress",
-    "route": "/tools/png-to-png",
+    "route": "/png-to-png",
     "from": "png",
     "to": "png",
     "isActive": true,
@@ -4709,11 +4709,11 @@
       "relatedTools": [
         {
           "title": "PNG to JPG",
-          "href": "/tools/png-to-jpg"
+          "href": "/png-to-jpg"
         },
         {
           "title": "PNG to WEBP",
-          "href": "/tools/png-to-webp"
+          "href": "/png-to-webp"
         }
       ],
       "blogPosts": [
@@ -4739,7 +4739,7 @@
     "name": "Batch PNG Compressor",
     "description": "Compress multiple PNG files at once and download as ZIP",
     "operation": "bulk",
-    "route": "/tools/batch-compress-png",
+    "route": "/batch-compress-png",
     "from": "png",
     "to": "png",
     "isActive": true,
@@ -4829,15 +4829,15 @@
       "relatedTools": [
         {
           "title": "PNG Optimizer",
-          "href": "/tools/png-to-png"
+          "href": "/png-to-png"
         },
         {
           "title": "PNG to JPG",
-          "href": "/tools/png-to-jpg"
+          "href": "/png-to-jpg"
         },
         {
           "title": "PNG to WEBP",
-          "href": "/tools/png-to-webp"
+          "href": "/png-to-webp"
         }
       ],
       "blogPosts": [
@@ -4870,7 +4870,7 @@
     "name": "CSV Combiner",
     "description": "Combine multiple CSV files into one",
     "operation": "combine",
-    "route": "/tools/csv-combiner",
+    "route": "/csv-combiner",
     "from": "csv",
     "to": "csv",
     "isActive": true,
@@ -4966,7 +4966,7 @@
         },
         {
           "title": "JSON to CSV",
-          "href": "/tools/json-to-csv"
+          "href": "/json-to-csv"
         },
         {
           "title": "Excel to CSV",
@@ -5007,7 +5007,7 @@
     "name": "JSON to CSV",
     "description": "Convert JSON data to CSV format",
     "operation": "convert",
-    "route": "/tools/json-to-csv",
+    "route": "/json-to-csv",
     "from": "json",
     "to": "csv",
     "isActive": true,
@@ -5106,11 +5106,11 @@
         },
         {
           "title": "JSON Formatter",
-          "href": "/tools/json-formatter"
+          "href": "/json-formatter"
         },
         {
           "title": "CSV Combiner",
-          "href": "/tools/csv-combiner"
+          "href": "/csv-combiner"
         }
       ],
       "blogPosts": [
@@ -5143,7 +5143,7 @@
     "name": "Character Counter",
     "description": "Count characters, words, and lines",
     "operation": "convert",
-    "route": "/tools/character-counter",
+    "route": "/character-counter",
     "isActive": true,
     "tags": [
       "text",
@@ -5234,15 +5234,15 @@
       "relatedTools": [
         {
           "title": "Word Counter",
-          "href": "/tools/word-counter"
+          "href": "/word-counter"
         },
         {
           "title": "Text Analyzer",
-          "href": "/tools/text-analyzer"
+          "href": "/text-analyzer"
         },
         {
           "title": "Lorem Ipsum Generator",
-          "href": "/tools/lorem-ipsum"
+          "href": "/lorem-ipsum"
         }
       ],
       "blogPosts": [
@@ -5275,7 +5275,7 @@
     "name": "MKV to MP4",
     "description": "Convert MKV video files to MP4 format",
     "operation": "convert",
-    "route": "/tools/mkv-to-mp4",
+    "route": "/mkv-to-mp4",
     "from": "mkv",
     "to": "mp4",
     "isActive": true,
@@ -5363,15 +5363,15 @@
       "relatedTools": [
         {
           "title": "MP4 to MKV",
-          "href": "/tools/mp4-to-mkv"
+          "href": "/mp4-to-mkv"
         },
         {
           "title": "MKV to WEBM",
-          "href": "/tools/mkv-to-webm"
+          "href": "/mkv-to-webm"
         },
         {
           "title": "MKV to AVI",
-          "href": "/tools/mkv-to-avi"
+          "href": "/mkv-to-avi"
         }
       ],
       "blogPosts": [
@@ -5406,7 +5406,7 @@
     "name": "MKV to WebM",
     "description": "Convert MKV video files to WebM format",
     "operation": "convert",
-    "route": "/tools/mkv-to-webm",
+    "route": "/mkv-to-webm",
     "from": "mkv",
     "to": "webm",
     "isActive": true,
@@ -5494,15 +5494,15 @@
       "relatedTools": [
         {
           "title": "WEBM to MKV",
-          "href": "/tools/webm-to-mkv"
+          "href": "/webm-to-mkv"
         },
         {
           "title": "MKV to MP4",
-          "href": "/tools/mkv-to-mp4"
+          "href": "/mkv-to-mp4"
         },
         {
           "title": "MKV to AVI",
-          "href": "/tools/mkv-to-avi"
+          "href": "/mkv-to-avi"
         }
       ],
       "blogPosts": [
@@ -5537,7 +5537,7 @@
     "name": "MKV to AVI",
     "description": "Convert MKV video files to AVI format",
     "operation": "convert",
-    "route": "/tools/mkv-to-avi",
+    "route": "/mkv-to-avi",
     "from": "mkv",
     "to": "avi",
     "isActive": true,
@@ -5625,15 +5625,15 @@
       "relatedTools": [
         {
           "title": "AVI to MKV",
-          "href": "/tools/avi-to-mkv"
+          "href": "/avi-to-mkv"
         },
         {
           "title": "MKV to MP4",
-          "href": "/tools/mkv-to-mp4"
+          "href": "/mkv-to-mp4"
         },
         {
           "title": "MKV to WEBM",
-          "href": "/tools/mkv-to-webm"
+          "href": "/mkv-to-webm"
         }
       ],
       "blogPosts": [
@@ -5668,7 +5668,7 @@
     "name": "MKV to MOV",
     "description": "Convert MKV video files to MOV format",
     "operation": "convert",
-    "route": "/tools/mkv-to-mov",
+    "route": "/mkv-to-mov",
     "from": "mkv",
     "to": "mov",
     "isActive": true,
@@ -5756,15 +5756,15 @@
       "relatedTools": [
         {
           "title": "MOV to MKV",
-          "href": "/tools/mov-to-mkv"
+          "href": "/mov-to-mkv"
         },
         {
           "title": "MKV to MP4",
-          "href": "/tools/mkv-to-mp4"
+          "href": "/mkv-to-mp4"
         },
         {
           "title": "MKV to WEBM",
-          "href": "/tools/mkv-to-webm"
+          "href": "/mkv-to-webm"
         }
       ],
       "blogPosts": [
@@ -5799,7 +5799,7 @@
     "name": "MKV to GIF",
     "description": "Convert MKV video to animated GIF",
     "operation": "convert",
-    "route": "/tools/mkv-to-gif",
+    "route": "/mkv-to-gif",
     "from": "mkv",
     "to": "gif",
     "isActive": true,
@@ -5887,15 +5887,15 @@
       "relatedTools": [
         {
           "title": "GIF to MKV",
-          "href": "/tools/gif-to-mkv"
+          "href": "/gif-to-mkv"
         },
         {
           "title": "MKV to MP4",
-          "href": "/tools/mkv-to-mp4"
+          "href": "/mkv-to-mp4"
         },
         {
           "title": "MKV to WEBM",
-          "href": "/tools/mkv-to-webm"
+          "href": "/mkv-to-webm"
         }
       ],
       "blogPosts": [
@@ -5930,7 +5930,7 @@
     "name": "MKV to MP3",
     "description": "Extract audio from MKV to MP3",
     "operation": "convert",
-    "route": "/tools/mkv-to-mp3",
+    "route": "/mkv-to-mp3",
     "from": "mkv",
     "to": "mp3",
     "isActive": true,
@@ -6018,15 +6018,15 @@
       "relatedTools": [
         {
           "title": "MP3 to MKV",
-          "href": "/tools/mp3-to-mkv"
+          "href": "/mp3-to-mkv"
         },
         {
           "title": "MKV to MP4",
-          "href": "/tools/mkv-to-mp4"
+          "href": "/mkv-to-mp4"
         },
         {
           "title": "MKV to WEBM",
-          "href": "/tools/mkv-to-webm"
+          "href": "/mkv-to-webm"
         }
       ],
       "blogPosts": [
@@ -6061,7 +6061,7 @@
     "name": "MKV to WAV",
     "description": "Extract audio from MKV to WAV",
     "operation": "convert",
-    "route": "/tools/mkv-to-wav",
+    "route": "/mkv-to-wav",
     "from": "mkv",
     "to": "wav",
     "isActive": true,
@@ -6149,15 +6149,15 @@
       "relatedTools": [
         {
           "title": "WAV to MKV",
-          "href": "/tools/wav-to-mkv"
+          "href": "/wav-to-mkv"
         },
         {
           "title": "MKV to MP4",
-          "href": "/tools/mkv-to-mp4"
+          "href": "/mkv-to-mp4"
         },
         {
           "title": "MKV to WEBM",
-          "href": "/tools/mkv-to-webm"
+          "href": "/mkv-to-webm"
         }
       ],
       "blogPosts": [
@@ -6192,7 +6192,7 @@
     "name": "MKV to OGG",
     "description": "Extract audio from MKV to OGG",
     "operation": "convert",
-    "route": "/tools/mkv-to-ogg",
+    "route": "/mkv-to-ogg",
     "from": "mkv",
     "to": "ogg",
     "isActive": true,
@@ -6280,15 +6280,15 @@
       "relatedTools": [
         {
           "title": "OGG to MKV",
-          "href": "/tools/ogg-to-mkv"
+          "href": "/ogg-to-mkv"
         },
         {
           "title": "MKV to MP4",
-          "href": "/tools/mkv-to-mp4"
+          "href": "/mkv-to-mp4"
         },
         {
           "title": "MKV to WEBM",
-          "href": "/tools/mkv-to-webm"
+          "href": "/mkv-to-webm"
         }
       ],
       "blogPosts": [
@@ -6323,7 +6323,7 @@
     "name": "MP4 to MKV",
     "description": "Convert MP4 video files to MKV format",
     "operation": "convert",
-    "route": "/tools/mp4-to-mkv",
+    "route": "/mp4-to-mkv",
     "from": "mp4",
     "to": "mkv",
     "isActive": true,
@@ -6411,19 +6411,19 @@
       "relatedTools": [
         {
           "title": "MKV to MP4",
-          "href": "/tools/mkv-to-mp4"
+          "href": "/mkv-to-mp4"
         },
         {
           "title": "MP4 to MOV",
-          "href": "/tools/mp4-to-mov"
+          "href": "/mp4-to-mov"
         },
         {
           "title": "MP4 to WebM",
-          "href": "/tools/mp4-to-webm"
+          "href": "/mp4-to-webm"
         },
         {
           "title": "MP4 to AVI",
-          "href": "/tools/mp4-to-avi"
+          "href": "/mp4-to-avi"
         }
       ],
       "blogPosts": [
@@ -6457,7 +6457,7 @@
     "name": "MP4 to MOV",
     "description": "Convert MP4 video files to MOV format",
     "operation": "convert",
-    "route": "/tools/mp4-to-mov",
+    "route": "/mp4-to-mov",
     "from": "mp4",
     "to": "mov",
     "isActive": true,
@@ -6546,19 +6546,19 @@
       "relatedTools": [
         {
           "title": "MOV to MP4",
-          "href": "/tools/mov-to-mp4"
+          "href": "/mov-to-mp4"
         },
         {
           "title": "MP4 to M4V",
-          "href": "/tools/mp4-to-m4v"
+          "href": "/mp4-to-m4v"
         },
         {
           "title": "MP4 to MKV",
-          "href": "/tools/mp4-to-mkv"
+          "href": "/mp4-to-mkv"
         },
         {
           "title": "MOV to AVI",
-          "href": "/tools/mov-to-avi"
+          "href": "/mov-to-avi"
         }
       ],
       "blogPosts": [
@@ -6592,7 +6592,7 @@
     "name": "MP4 to AVI",
     "description": "Convert MP4 video files to AVI format",
     "operation": "convert",
-    "route": "/tools/mp4-to-avi",
+    "route": "/mp4-to-avi",
     "from": "mp4",
     "to": "avi",
     "isActive": true,
@@ -6681,19 +6681,19 @@
       "relatedTools": [
         {
           "title": "AVI to MP4",
-          "href": "/tools/avi-to-mp4"
+          "href": "/avi-to-mp4"
         },
         {
           "title": "MP4 to WMV",
-          "href": "/tools/mp4-to-wmv"
+          "href": "/mp4-to-wmv"
         },
         {
           "title": "MP4 to MOV",
-          "href": "/tools/mp4-to-mov"
+          "href": "/mp4-to-mov"
         },
         {
           "title": "AVI to WebM",
-          "href": "/tools/avi-to-webm"
+          "href": "/avi-to-webm"
         }
       ],
       "blogPosts": [
@@ -6727,7 +6727,7 @@
     "name": "MP4 to WebM",
     "description": "Convert MP4 video files to WebM format",
     "operation": "convert",
-    "route": "/tools/mp4-to-webm",
+    "route": "/mp4-to-webm",
     "from": "mp4",
     "to": "webm",
     "isActive": true,
@@ -6816,19 +6816,19 @@
       "relatedTools": [
         {
           "title": "WebM to MP4",
-          "href": "/tools/webm-to-mp4"
+          "href": "/webm-to-mp4"
         },
         {
           "title": "MP4 to OGV",
-          "href": "/tools/mp4-to-ogv"
+          "href": "/mp4-to-ogv"
         },
         {
           "title": "WebM to AVI",
-          "href": "/tools/webm-to-avi"
+          "href": "/webm-to-avi"
         },
         {
           "title": "MP4 to FLV",
-          "href": "/tools/mp4-to-flv"
+          "href": "/mp4-to-flv"
         }
       ],
       "blogPosts": [
@@ -6862,7 +6862,7 @@
     "name": "MP4 to MP3",
     "description": "Extract MP3 audio from MP4 video files",
     "operation": "convert",
-    "route": "/tools/mp4-to-mp3",
+    "route": "/mp4-to-mp3",
     "from": "mp4",
     "to": "mp3",
     "isActive": true,
@@ -6950,19 +6950,19 @@
       "relatedTools": [
         {
           "title": "MP3 to MP4",
-          "href": "/tools/mp3-to-mp4"
+          "href": "/mp3-to-mp4"
         },
         {
           "title": "MP4 to WAV",
-          "href": "/tools/mp4-to-wav"
+          "href": "/mp4-to-wav"
         },
         {
           "title": "MP4 to AAC",
-          "href": "/tools/mp4-to-aac"
+          "href": "/mp4-to-aac"
         },
         {
           "title": "MP4 to M4A",
-          "href": "/tools/mp4-to-m4a"
+          "href": "/mp4-to-m4a"
         }
       ],
       "blogPosts": [
@@ -6996,7 +6996,7 @@
     "name": "MP4 to WAV",
     "description": "Extract WAV audio from MP4 video files",
     "operation": "convert",
-    "route": "/tools/mp4-to-wav",
+    "route": "/mp4-to-wav",
     "from": "mp4",
     "to": "wav",
     "isActive": true,
@@ -7084,19 +7084,19 @@
       "relatedTools": [
         {
           "title": "WAV to MP4",
-          "href": "/tools/wav-to-mp4"
+          "href": "/wav-to-mp4"
         },
         {
           "title": "MP4 to FLAC",
-          "href": "/tools/mp4-to-flac"
+          "href": "/mp4-to-flac"
         },
         {
           "title": "MP4 to AIFF",
-          "href": "/tools/mp4-to-aiff"
+          "href": "/mp4-to-aiff"
         },
         {
           "title": "WAV to MP3",
-          "href": "/tools/wav-to-mp3"
+          "href": "/wav-to-mp3"
         }
       ],
       "blogPosts": [
@@ -7130,7 +7130,7 @@
     "name": "MP4 to AAC",
     "description": "Extract AAC audio from MP4 video files",
     "operation": "convert",
-    "route": "/tools/mp4-to-aac",
+    "route": "/mp4-to-aac",
     "from": "mp4",
     "to": "aac",
     "isActive": true,
@@ -7218,19 +7218,19 @@
       "relatedTools": [
         {
           "title": "AAC to MP4",
-          "href": "/tools/aac-to-mp4"
+          "href": "/aac-to-mp4"
         },
         {
           "title": "MP4 to M4A",
-          "href": "/tools/mp4-to-m4a"
+          "href": "/mp4-to-m4a"
         },
         {
           "title": "AAC to MP3",
-          "href": "/tools/aac-to-mp3"
+          "href": "/aac-to-mp3"
         },
         {
           "title": "MP4 to Opus",
-          "href": "/tools/mp4-to-opus"
+          "href": "/mp4-to-opus"
         }
       ],
       "blogPosts": [
@@ -7264,7 +7264,7 @@
     "name": "MP4 to M4A",
     "description": "Extract M4A audio from MP4 video files",
     "operation": "convert",
-    "route": "/tools/mp4-to-m4a",
+    "route": "/mp4-to-m4a",
     "from": "mp4",
     "to": "m4a",
     "isActive": true,
@@ -7353,19 +7353,19 @@
       "relatedTools": [
         {
           "title": "M4A to MP4",
-          "href": "/tools/m4a-to-mp4"
+          "href": "/m4a-to-mp4"
         },
         {
           "title": "MP4 to AAC",
-          "href": "/tools/mp4-to-aac"
+          "href": "/mp4-to-aac"
         },
         {
           "title": "M4A to MP3",
-          "href": "/tools/m4a-to-mp3"
+          "href": "/m4a-to-mp3"
         },
         {
           "title": "MP4 to M4V",
-          "href": "/tools/mp4-to-m4v"
+          "href": "/mp4-to-m4v"
         }
       ],
       "blogPosts": [
@@ -7399,7 +7399,7 @@
     "name": "MP4 to GIF",
     "description": "Convert MP4 video to animated GIF",
     "operation": "convert",
-    "route": "/tools/mp4-to-gif",
+    "route": "/mp4-to-gif",
     "from": "mp4",
     "to": "gif",
     "isActive": true,
@@ -7487,19 +7487,19 @@
       "relatedTools": [
         {
           "title": "GIF to MP4",
-          "href": "/tools/gif-to-mp4"
+          "href": "/gif-to-mp4"
         },
         {
           "title": "Video to GIF",
-          "href": "/tools/video-to-gif"
+          "href": "/video-to-gif"
         },
         {
           "title": "GIF Optimizer",
-          "href": "/tools/optimize-gif"
+          "href": "/optimize-gif"
         },
         {
           "title": "MP4 to WebM",
-          "href": "/tools/mp4-to-webm"
+          "href": "/mp4-to-webm"
         }
       ],
       "blogPosts": [
@@ -7533,7 +7533,7 @@
     "name": "MP4 to OGG",
     "description": "Extract OGG audio from MP4 video files",
     "operation": "convert",
-    "route": "/tools/mp4-to-ogg",
+    "route": "/mp4-to-ogg",
     "from": "mp4",
     "to": "ogg",
     "isActive": true,
@@ -7621,19 +7621,19 @@
       "relatedTools": [
         {
           "title": "OGG to MP4",
-          "href": "/tools/ogg-to-mp4"
+          "href": "/ogg-to-mp4"
         },
         {
           "title": "MP4 to Opus",
-          "href": "/tools/mp4-to-opus"
+          "href": "/mp4-to-opus"
         },
         {
           "title": "OGG to MP3",
-          "href": "/tools/ogg-to-mp3"
+          "href": "/ogg-to-mp3"
         },
         {
           "title": "MP4 to WebM",
-          "href": "/tools/mp4-to-webm"
+          "href": "/mp4-to-webm"
         }
       ],
       "blogPosts": [
@@ -7667,7 +7667,7 @@
     "name": "MP4 to FLAC",
     "description": "Extract FLAC audio from MP4 video files",
     "operation": "convert",
-    "route": "/tools/mp4-to-flac",
+    "route": "/mp4-to-flac",
     "from": "mp4",
     "to": "flac",
     "isActive": true,
@@ -7755,19 +7755,19 @@
       "relatedTools": [
         {
           "title": "FLAC to MP4",
-          "href": "/tools/flac-to-mp4"
+          "href": "/flac-to-mp4"
         },
         {
           "title": "MP4 to WAV",
-          "href": "/tools/mp4-to-wav"
+          "href": "/mp4-to-wav"
         },
         {
           "title": "FLAC to MP3",
-          "href": "/tools/flac-to-mp3"
+          "href": "/flac-to-mp3"
         },
         {
           "title": "MP4 to AIFF",
-          "href": "/tools/mp4-to-aiff"
+          "href": "/mp4-to-aiff"
         }
       ],
       "blogPosts": [
@@ -7801,7 +7801,7 @@
     "name": "MP4 to Opus",
     "description": "Extract Opus audio from MP4 video files",
     "operation": "convert",
-    "route": "/tools/mp4-to-opus",
+    "route": "/mp4-to-opus",
     "from": "mp4",
     "to": "opus",
     "isActive": true,
@@ -7890,19 +7890,19 @@
       "relatedTools": [
         {
           "title": "Opus to MP4",
-          "href": "/tools/opus-to-mp4"
+          "href": "/opus-to-mp4"
         },
         {
           "title": "MP4 to OGG",
-          "href": "/tools/mp4-to-ogg"
+          "href": "/mp4-to-ogg"
         },
         {
           "title": "Opus to MP3",
-          "href": "/tools/opus-to-mp3"
+          "href": "/opus-to-mp3"
         },
         {
           "title": "MP4 to AAC",
-          "href": "/tools/mp4-to-aac"
+          "href": "/mp4-to-aac"
         }
       ],
       "blogPosts": [
@@ -7936,7 +7936,7 @@
     "name": "MP4 to M4V",
     "description": "Convert MP4 video files to M4V format",
     "operation": "convert",
-    "route": "/tools/mp4-to-m4v",
+    "route": "/mp4-to-m4v",
     "from": "mp4",
     "to": "m4v",
     "isActive": true,
@@ -8025,19 +8025,19 @@
       "relatedTools": [
         {
           "title": "M4V to MP4",
-          "href": "/tools/m4v-to-mp4"
+          "href": "/m4v-to-mp4"
         },
         {
           "title": "MP4 to MOV",
-          "href": "/tools/mp4-to-mov"
+          "href": "/mp4-to-mov"
         },
         {
           "title": "M4V to AVI",
-          "href": "/tools/m4v-to-avi"
+          "href": "/m4v-to-avi"
         },
         {
           "title": "MP4 to M4A",
-          "href": "/tools/mp4-to-m4a"
+          "href": "/mp4-to-m4a"
         }
       ],
       "blogPosts": [
@@ -8071,7 +8071,7 @@
     "name": "MP4 to TS",
     "description": "Convert MP4 video files to TS format",
     "operation": "convert",
-    "route": "/tools/mp4-to-ts",
+    "route": "/mp4-to-ts",
     "from": "mp4",
     "to": "ts",
     "isActive": true,
@@ -8160,19 +8160,19 @@
       "relatedTools": [
         {
           "title": "TS to MP4",
-          "href": "/tools/ts-to-mp4"
+          "href": "/ts-to-mp4"
         },
         {
           "title": "MP4 to M2TS",
-          "href": "/tools/mp4-to-m2ts"
+          "href": "/mp4-to-m2ts"
         },
         {
           "title": "TS to AVI",
-          "href": "/tools/ts-to-avi"
+          "href": "/ts-to-avi"
         },
         {
           "title": "MP4 to MTS",
-          "href": "/tools/mp4-to-mts"
+          "href": "/mp4-to-mts"
         }
       ],
       "blogPosts": [
@@ -8206,7 +8206,7 @@
     "name": "MP4 to FLV",
     "description": "Convert MP4 video files to FLV format",
     "operation": "convert",
-    "route": "/tools/mp4-to-flv",
+    "route": "/mp4-to-flv",
     "from": "mp4",
     "to": "flv",
     "isActive": true,
@@ -8295,19 +8295,19 @@
       "relatedTools": [
         {
           "title": "FLV to MP4",
-          "href": "/tools/flv-to-mp4"
+          "href": "/flv-to-mp4"
         },
         {
           "title": "MP4 to SWF",
-          "href": "/tools/mp4-to-swf"
+          "href": "/mp4-to-swf"
         },
         {
           "title": "FLV to AVI",
-          "href": "/tools/flv-to-avi"
+          "href": "/flv-to-avi"
         },
         {
           "title": "MP4 to WebM",
-          "href": "/tools/mp4-to-webm"
+          "href": "/mp4-to-webm"
         }
       ],
       "blogPosts": [
@@ -8341,7 +8341,7 @@
     "name": "MP4 to WMA",
     "description": "Extract audio from MP4 videos and convert to WMA format",
     "operation": "convert",
-    "route": "/tools/mp4-to-wma",
+    "route": "/mp4-to-wma",
     "from": "mp4",
     "to": "wma",
     "isActive": true,
@@ -8430,19 +8430,19 @@
       "relatedTools": [
         {
           "title": "WMA to MP3",
-          "href": "/tools/wma-to-mp3"
+          "href": "/wma-to-mp3"
         },
         {
           "title": "MP4 to MP3",
-          "href": "/tools/mp4-to-mp3"
+          "href": "/mp4-to-mp3"
         },
         {
           "title": "WMA to AAC",
-          "href": "/tools/wma-to-aac"
+          "href": "/wma-to-aac"
         },
         {
           "title": "MP4 to WAV",
-          "href": "/tools/mp4-to-wav"
+          "href": "/mp4-to-wav"
         }
       ],
       "blogPosts": [
@@ -8476,7 +8476,7 @@
     "name": "MP4 to AIFF",
     "description": "Extract audio from MP4 videos and convert to AIFF format",
     "operation": "convert",
-    "route": "/tools/mp4-to-aiff",
+    "route": "/mp4-to-aiff",
     "from": "mp4",
     "to": "aiff",
     "isActive": true,
@@ -8566,19 +8566,19 @@
       "relatedTools": [
         {
           "title": "AIFF to MP3",
-          "href": "/tools/aiff-to-mp3"
+          "href": "/aiff-to-mp3"
         },
         {
           "title": "MP4 to WAV",
-          "href": "/tools/mp4-to-wav"
+          "href": "/mp4-to-wav"
         },
         {
           "title": "AIFF to AAC",
-          "href": "/tools/aiff-to-aac"
+          "href": "/aiff-to-aac"
         },
         {
           "title": "WAV to AIFF",
-          "href": "/tools/wav-to-aiff"
+          "href": "/wav-to-aiff"
         }
       ],
       "blogPosts": [
@@ -8612,7 +8612,7 @@
     "name": "MP4 to MP2",
     "description": "Extract audio from MP4 videos and convert to MP2 format",
     "operation": "convert",
-    "route": "/tools/mp4-to-mp2",
+    "route": "/mp4-to-mp2",
     "from": "mp4",
     "to": "mp2",
     "isActive": true,
@@ -8702,19 +8702,19 @@
       "relatedTools": [
         {
           "title": "MP2 to MP3",
-          "href": "/tools/mp2-to-mp3"
+          "href": "/mp2-to-mp3"
         },
         {
           "title": "MP4 to MP3",
-          "href": "/tools/mp4-to-mp3"
+          "href": "/mp4-to-mp3"
         },
         {
           "title": "MP2 to AAC",
-          "href": "/tools/mp2-to-aac"
+          "href": "/mp2-to-aac"
         },
         {
           "title": "WAV to MP2",
-          "href": "/tools/wav-to-mp2"
+          "href": "/wav-to-mp2"
         }
       ],
       "blogPosts": [
@@ -8748,7 +8748,7 @@
     "name": "MP4 to MPEG",
     "description": "Convert MP4 video files to MPEG format",
     "operation": "convert",
-    "route": "/tools/mp4-to-mpeg",
+    "route": "/mp4-to-mpeg",
     "from": "mp4",
     "to": "mpeg",
     "isActive": true,
@@ -8837,19 +8837,19 @@
       "relatedTools": [
         {
           "title": "MPEG to MP4",
-          "href": "/tools/mpeg-to-mp4"
+          "href": "/mpeg-to-mp4"
         },
         {
           "title": "MP4 to MPG",
-          "href": "/tools/mp4-to-mpg"
+          "href": "/mp4-to-mpg"
         },
         {
           "title": "MPEG to AVI",
-          "href": "/tools/mpeg-to-avi"
+          "href": "/mpeg-to-avi"
         },
         {
           "title": "MP4 to VOB",
-          "href": "/tools/mp4-to-vob"
+          "href": "/mp4-to-vob"
         }
       ],
       "blogPosts": [
@@ -8883,7 +8883,7 @@
     "name": "MP4 to MPG",
     "description": "Convert MP4 video files to MPG format",
     "operation": "convert",
-    "route": "/tools/mp4-to-mpg",
+    "route": "/mp4-to-mpg",
     "from": "mp4",
     "to": "mpg",
     "isActive": true,
@@ -8972,19 +8972,19 @@
       "relatedTools": [
         {
           "title": "MPG to MP4",
-          "href": "/tools/mpg-to-mp4"
+          "href": "/mpg-to-mp4"
         },
         {
           "title": "MP4 to MPEG",
-          "href": "/tools/mp4-to-mpeg"
+          "href": "/mp4-to-mpeg"
         },
         {
           "title": "MPG to AVI",
-          "href": "/tools/mpg-to-avi"
+          "href": "/mpg-to-avi"
         },
         {
           "title": "MP4 to VOB",
-          "href": "/tools/mp4-to-vob"
+          "href": "/mp4-to-vob"
         }
       ],
       "blogPosts": [
@@ -9018,7 +9018,7 @@
     "name": "MP4 to VOB",
     "description": "Convert MP4 video files to VOB format",
     "operation": "convert",
-    "route": "/tools/mp4-to-vob",
+    "route": "/mp4-to-vob",
     "from": "mp4",
     "to": "vob",
     "isActive": true,
@@ -9107,19 +9107,19 @@
       "relatedTools": [
         {
           "title": "VOB to MP4",
-          "href": "/tools/vob-to-mp4"
+          "href": "/vob-to-mp4"
         },
         {
           "title": "MP4 to MPEG",
-          "href": "/tools/mp4-to-mpeg"
+          "href": "/mp4-to-mpeg"
         },
         {
           "title": "VOB to AVI",
-          "href": "/tools/vob-to-avi"
+          "href": "/vob-to-avi"
         },
         {
           "title": "MP4 to MPG",
-          "href": "/tools/mp4-to-mpg"
+          "href": "/mp4-to-mpg"
         }
       ],
       "blogPosts": [
@@ -9153,7 +9153,7 @@
     "name": "MP4 to 3GP",
     "description": "Convert MP4 video files to 3GP format",
     "operation": "convert",
-    "route": "/tools/mp4-to-3gp",
+    "route": "/mp4-to-3gp",
     "from": "mp4",
     "to": "3gp",
     "isActive": true,
@@ -9242,19 +9242,19 @@
       "relatedTools": [
         {
           "title": "3GP to MP4",
-          "href": "/tools/3gp-to-mp4"
+          "href": "/3gp-to-mp4"
         },
         {
           "title": "MP4 to F4V",
-          "href": "/tools/mp4-to-f4v"
+          "href": "/mp4-to-f4v"
         },
         {
           "title": "3GP to AVI",
-          "href": "/tools/3gp-to-avi"
+          "href": "/3gp-to-avi"
         },
         {
           "title": "MP4 Compressor",
-          "href": "/tools/compress-mp4"
+          "href": "/compress-mp4"
         }
       ],
       "blogPosts": [
@@ -9288,7 +9288,7 @@
     "name": "MP4 to F4V",
     "description": "Convert MP4 video files to F4V format",
     "operation": "convert",
-    "route": "/tools/mp4-to-f4v",
+    "route": "/mp4-to-f4v",
     "from": "mp4",
     "to": "f4v",
     "isActive": true,
@@ -9377,19 +9377,19 @@
       "relatedTools": [
         {
           "title": "F4V to MP4",
-          "href": "/tools/f4v-to-mp4"
+          "href": "/f4v-to-mp4"
         },
         {
           "title": "MP4 to FLV",
-          "href": "/tools/mp4-to-flv"
+          "href": "/mp4-to-flv"
         },
         {
           "title": "F4V to AVI",
-          "href": "/tools/f4v-to-avi"
+          "href": "/f4v-to-avi"
         },
         {
           "title": "FLV to F4V",
-          "href": "/tools/flv-to-f4v"
+          "href": "/flv-to-f4v"
         }
       ],
       "blogPosts": [
@@ -9423,7 +9423,7 @@
     "name": "MP4 to MTS",
     "description": "Convert MP4 video files to MTS format",
     "operation": "convert",
-    "route": "/tools/mp4-to-mts",
+    "route": "/mp4-to-mts",
     "from": "mp4",
     "to": "mts",
     "isActive": true,
@@ -9512,19 +9512,19 @@
       "relatedTools": [
         {
           "title": "MTS to MP4",
-          "href": "/tools/mts-to-mp4"
+          "href": "/mts-to-mp4"
         },
         {
           "title": "MP4 to M2TS",
-          "href": "/tools/mp4-to-m2ts"
+          "href": "/mp4-to-m2ts"
         },
         {
           "title": "MTS to AVI",
-          "href": "/tools/mts-to-avi"
+          "href": "/mts-to-avi"
         },
         {
           "title": "M2TS to MTS",
-          "href": "/tools/m2ts-to-mts"
+          "href": "/m2ts-to-mts"
         }
       ],
       "blogPosts": [
@@ -9558,7 +9558,7 @@
     "name": "MP4 to M2TS",
     "description": "Convert MP4 video files to M2TS format",
     "operation": "convert",
-    "route": "/tools/mp4-to-m2ts",
+    "route": "/mp4-to-m2ts",
     "from": "mp4",
     "to": "m2ts",
     "isActive": true,
@@ -9647,19 +9647,19 @@
       "relatedTools": [
         {
           "title": "M2TS to MP4",
-          "href": "/tools/m2ts-to-mp4"
+          "href": "/m2ts-to-mp4"
         },
         {
           "title": "MP4 to MTS",
-          "href": "/tools/mp4-to-mts"
+          "href": "/mp4-to-mts"
         },
         {
           "title": "M2TS to AVI",
-          "href": "/tools/m2ts-to-avi"
+          "href": "/m2ts-to-avi"
         },
         {
           "title": "MTS to M2TS",
-          "href": "/tools/mts-to-m2ts"
+          "href": "/mts-to-m2ts"
         }
       ],
       "blogPosts": [
@@ -9693,7 +9693,7 @@
     "name": "MP4 to HEVC",
     "description": "Convert MP4 video files to HEVC format",
     "operation": "convert",
-    "route": "/tools/mp4-to-hevc",
+    "route": "/mp4-to-hevc",
     "from": "mp4",
     "to": "hevc",
     "isActive": true,
@@ -9782,19 +9782,19 @@
       "relatedTools": [
         {
           "title": "HEVC to MP4",
-          "href": "/tools/hevc-to-mp4"
+          "href": "/hevc-to-mp4"
         },
         {
           "title": "Compress Video",
-          "href": "/tools/compress-video"
+          "href": "/compress-video"
         },
         {
           "title": "MP4 to H264",
-          "href": "/tools/mp4-to-h264"
+          "href": "/mp4-to-h264"
         },
         {
           "title": "4K Video Compressor",
-          "href": "/tools/compress-4k-video"
+          "href": "/compress-4k-video"
         }
       ],
       "blogPosts": [
@@ -9828,7 +9828,7 @@
     "name": "MP4 to DivX",
     "description": "Convert MP4 video files to DivX format",
     "operation": "convert",
-    "route": "/tools/mp4-to-divx",
+    "route": "/mp4-to-divx",
     "from": "mp4",
     "to": "divx",
     "isActive": true,
@@ -9917,19 +9917,19 @@
       "relatedTools": [
         {
           "title": "DivX to MP4",
-          "href": "/tools/divx-to-mp4"
+          "href": "/divx-to-mp4"
         },
         {
           "title": "MP4 to XviD",
-          "href": "/tools/mp4-to-xvid"
+          "href": "/mp4-to-xvid"
         },
         {
           "title": "DivX to AVI",
-          "href": "/tools/divx-to-avi"
+          "href": "/divx-to-avi"
         },
         {
           "title": "MP4 to MPEG",
-          "href": "/tools/mp4-to-mpeg"
+          "href": "/mp4-to-mpeg"
         }
       ],
       "blogPosts": [
@@ -9963,7 +9963,7 @@
     "name": "MP4 to MJPEG",
     "description": "Convert MP4 video files to MJPEG format",
     "operation": "convert",
-    "route": "/tools/mp4-to-mjpeg",
+    "route": "/mp4-to-mjpeg",
     "from": "mp4",
     "to": "mjpeg",
     "isActive": true,
@@ -10052,19 +10052,19 @@
       "relatedTools": [
         {
           "title": "MJPEG to MP4",
-          "href": "/tools/mjpeg-to-mp4"
+          "href": "/mjpeg-to-mp4"
         },
         {
           "title": "MP4 to AVI",
-          "href": "/tools/mp4-to-avi"
+          "href": "/mp4-to-avi"
         },
         {
           "title": "Video Frame Extractor",
-          "href": "/tools/extract-frames"
+          "href": "/extract-frames"
         },
         {
           "title": "JPEG to Video",
-          "href": "/tools/images-to-video"
+          "href": "/images-to-video"
         }
       ],
       "blogPosts": [
@@ -10098,7 +10098,7 @@
     "name": "MP4 to MPEG2",
     "description": "Convert MP4 video files to MPEG-2 format",
     "operation": "convert",
-    "route": "/tools/mp4-to-mpeg2",
+    "route": "/mp4-to-mpeg2",
     "from": "mp4",
     "to": "mpeg2",
     "isActive": true,
@@ -10187,19 +10187,19 @@
       "relatedTools": [
         {
           "title": "MPEG2 to MP4",
-          "href": "/tools/mpeg2-to-mp4"
+          "href": "/mpeg2-to-mp4"
         },
         {
           "title": "MP4 to VOB",
-          "href": "/tools/mp4-to-vob"
+          "href": "/mp4-to-vob"
         },
         {
           "title": "MPEG2 to AVI",
-          "href": "/tools/mpeg2-to-avi"
+          "href": "/mpeg2-to-avi"
         },
         {
           "title": "MP4 to MPEG",
-          "href": "/tools/mp4-to-mpeg"
+          "href": "/mp4-to-mpeg"
         }
       ],
       "blogPosts": [
@@ -10233,7 +10233,7 @@
     "name": "MP4 to ASF",
     "description": "Convert MP4 video files to ASF format",
     "operation": "convert",
-    "route": "/tools/mp4-to-asf",
+    "route": "/mp4-to-asf",
     "from": "mp4",
     "to": "asf",
     "isActive": true,
@@ -10322,19 +10322,19 @@
       "relatedTools": [
         {
           "title": "ASF to MP4",
-          "href": "/tools/asf-to-mp4"
+          "href": "/asf-to-mp4"
         },
         {
           "title": "MP4 to WMV",
-          "href": "/tools/mp4-to-wmv"
+          "href": "/mp4-to-wmv"
         },
         {
           "title": "ASF to AVI",
-          "href": "/tools/asf-to-avi"
+          "href": "/asf-to-avi"
         },
         {
           "title": "WMV to ASF",
-          "href": "/tools/wmv-to-asf"
+          "href": "/wmv-to-asf"
         }
       ],
       "blogPosts": [
