@@ -5,7 +5,7 @@ import { Button } from "@serp-tools/ui/components/button";
 import { Badge } from "@serp-tools/ui/components/badge";
 import { ToolCard } from "@/components/ToolCard";
 import { ToolsSearchBar } from "@/components/ToolsSearchBar";
-import { ToolsLinkHub } from "@/components/ToolsLinkHub";
+import { ToolsLinkHub } from "@/components/sections/ToolsLinkHub";
 import {
   Sparkles,
   ArrowRight,
