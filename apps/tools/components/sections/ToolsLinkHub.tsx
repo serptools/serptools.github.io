@@ -217,8 +217,8 @@ export function ToolsLinkHub({ relatedTools }: ToolsLinkHubProps) {
             <p className="text-sm text-gray-600 mb-4">
               Can&apos;t find what you&apos;re looking for?
             </p>
-            <a
-              href="/tools"
+            <Link
+              href="/"
               className="inline-flex items-center px-6 py-3 bg-blue-600 text-white rounded-lg font-semibold text-sm hover:bg-blue-700 transition-colors"
             >
               Browse All Tools
@@ -235,7 +235,7 @@ export function ToolsLinkHub({ relatedTools }: ToolsLinkHubProps) {
                   d="M13 7l5 5m0 0l-5 5m5-5H6"
                 />
               </svg>
-            </a>
+            </Link>
           </div>
         </div>
       </div>
