@@ -1,6 +1,7 @@
 {
   "$schema": "https://turbo.build/schema.json",
   "ui": "tui",
+  "globalEnv": ["NODE_ENV", "BUILD_MODE", "SUPPORTS_VIDEO_CONVERSION"],
   "tasks": {
     "build": {
       "dependsOn": ["^build"],
