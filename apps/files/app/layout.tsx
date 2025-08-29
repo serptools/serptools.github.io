@@ -1,4 +1,4 @@
-import { AppLayout } from "@serp-tools/ui-next/components/app-layout";
+import { AppLayout } from "@serp-tools/app-core/components/app-layout";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {

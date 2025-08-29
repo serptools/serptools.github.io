@@ -26,12 +26,12 @@ importers:
 
   apps/files:
     dependencies:
+      '@serp-tools/app-core':
+        specifier: workspace:*
+        version: link:../../packages/app-core
       '@serp-tools/ui':
         specifier: workspace:*
         version: link:../../packages/ui
-      '@serp-tools/ui-next':
-        specifier: workspace:*
-        version: link:../../packages/ui-next
       lucide-react:
         specifier: ^0.541.0
         version: 0.541.0(react@19.1.1)
@@ -69,12 +69,12 @@ importers:
       '@ffmpeg/ffmpeg':
         specifier: ^0.12.15
         version: 0.12.15
+      '@serp-tools/app-core':
+        specifier: workspace:*
+        version: link:../../packages/app-core
       '@serp-tools/ui':
         specifier: workspace:*
         version: link:../../packages/ui
-      '@serp-tools/ui-next':
-        specifier: workspace:*
-        version: link:../../packages/ui-next
       '@zip.js/zip.js':
         specifier: ^2.7.72
         version: 2.7.72
@@ -112,6 +112,52 @@ importers:
       '@types/react-dom':
         specifier: ^19.1.8
         version: 19.1.8(@types/react@19.1.11)
+      typescript:
+        specifier: ^5.9.2
+        version: 5.9.2
+
+  packages/app-core:
+    dependencies:
+      '@next/third-parties':
+        specifier: ^15.5.0
+        version: 15.5.0(next@15.5.0(react-dom@19.1.1(react@19.1.1))(react@19.1.1))(react@19.1.1)
+      '@serp-tools/ui':
+        specifier: workspace:*
+        version: link:../ui
+      lucide-react:
+        specifier: ^0.541.0
+        version: 0.541.0(react@19.1.1)
+      next:
+        specifier: ^15.5.0
+        version: 15.5.0(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
+      next-themes:
+        specifier: ^0.4.6
+        version: 0.4.6(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
+      react:
+        specifier: ^19.1.1
+        version: 19.1.1
+      react-dom:
+        specifier: ^19.1.1
+        version: 19.1.1(react@19.1.1)
+    devDependencies:
+      '@serp-tools/eslint-config':
+        specifier: workspace:^
+        version: link:../eslint-config
+      '@serp-tools/typescript-config':
+        specifier: workspace:*
+        version: link:../typescript-config
+      '@types/node':
+        specifier: ^20.19.9
+        version: 20.19.11
+      '@types/react':
+        specifier: ^19.1.11
+        version: 19.1.11
+      '@types/react-dom':
+        specifier: ^19.1.8
+        version: 19.1.8(@types/react@19.1.11)
+      eslint:
+        specifier: ^9.34.0
+        version: 9.34.0(jiti@2.5.1)
       typescript:
         specifier: ^5.9.2
         version: 5.9.2
@@ -235,52 +281,6 @@ importers:
       tailwindcss:
         specifier: ^4.1.12
         version: 4.1.12
-      typescript:
-        specifier: ^5.9.2
-        version: 5.9.2
-
-  packages/ui-next:
-    dependencies:
-      '@next/third-parties':
-        specifier: ^15.5.0
-        version: 15.5.0(next@15.5.0(react-dom@19.1.1(react@19.1.1))(react@19.1.1))(react@19.1.1)
-      '@serp-tools/ui':
-        specifier: workspace:*
-        version: link:../ui
-      lucide-react:
-        specifier: ^0.541.0
-        version: 0.541.0(react@19.1.1)
-      next:
-        specifier: ^15.5.0
-        version: 15.5.0(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
-      next-themes:
-        specifier: ^0.4.6
-        version: 0.4.6(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
-      react:
-        specifier: ^19.1.1
-        version: 19.1.1
-      react-dom:
-        specifier: ^19.1.1
-        version: 19.1.1(react@19.1.1)
-    devDependencies:
-      '@serp-tools/eslint-config':
-        specifier: workspace:^
-        version: link:../eslint-config
-      '@serp-tools/typescript-config':
-        specifier: workspace:*
-        version: link:../typescript-config
-      '@types/node':
-        specifier: ^20.19.9
-        version: 20.19.11
-      '@types/react':
-        specifier: ^19.1.11
-        version: 19.1.11
-      '@types/react-dom':
-        specifier: ^19.1.8
-        version: 19.1.8(@types/react@19.1.11)
-      eslint:
-        specifier: ^9.34.0
-        version: 9.34.0(jiti@2.5.1)
       typescript:
         specifier: ^5.9.2
         version: 5.9.2
