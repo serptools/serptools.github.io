@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import toolsData from '@/data/tools.json';
+import toolsData from '@serp-tools/app-core/data/tools.json';
 
 type ToolsLinkHubProps = {
   relatedTools?: Array<{

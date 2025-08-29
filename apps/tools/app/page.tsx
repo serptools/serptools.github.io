@@ -17,7 +17,7 @@ import {
   Video,
   Music
 } from "lucide-react";
-import toolsData from '@/data/tools.json';
+import toolsData from '@serp-tools/app-core/data/tools.json';
 
 // Icon mapping for tools
 const iconMap: { [key: string]: any } = {

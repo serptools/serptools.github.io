@@ -1,5 +1,5 @@
 // Helper to get tool content from the tools data
-import toolsData from '@/data/tools.json';
+import toolsData from '@serp-tools/app-core/data/tools.json';
 import type { Tool, ToolContent } from '@/types';
 
 const tools = toolsData as Tool[];

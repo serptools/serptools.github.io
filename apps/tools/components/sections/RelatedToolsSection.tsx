@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Card } from "@serp-tools/ui/components/card";
-import toolsData from "@/data/tools.json";
+import toolsData from "@serp-tools/app-core/data/tools.json";
 
 type Tool = {
   id: string;

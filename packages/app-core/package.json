@@ -26,6 +26,7 @@
   },
   "exports": {
     "./components/*": "./src/components/*.tsx",
-    "./lib/*": "./src/lib/*.ts"
+    "./lib/*": "./src/lib/*.ts",
+    "./data/*": "./src/data/*"
   }
 }
