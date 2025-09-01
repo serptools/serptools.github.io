@@ -18,15 +18,15 @@ interface FileTypeHeroProps {
   };
 }
 
-export default function FileTypeHero({ 
-  extension, 
-  name, 
-  summary, 
+export default function FileTypeHero({
+  extension,
+  name,
+  summary,
   category,
   categorySlug,
-  developer, 
-  popularity, 
-  image 
+  developer,
+  popularity,
+  image
 }: FileTypeHeroProps) {
   return (
     <div className="bg-gradient-to-b from-blue-50 to-white">
@@ -44,12 +44,12 @@ export default function FileTypeHero({
               .{extension.toUpperCase()} File Extension
             </h1>
             <h2 className="text-xl text-gray-600 mb-4">{name}</h2>
-            
+
             <div className="flex items-center space-x-4 text-sm text-gray-600 mb-4">
               {category && categorySlug && (
                 <>
-                  <Link 
-                    href={`/files/categories/${categorySlug}`}
+                  <Link
+                    href={`/categories/${categorySlug}`}
                     className="inline-flex items-center space-x-1 text-blue-600 hover:text-blue-700"
                   >
                     <FolderOpen className="w-4 h-4" />
@@ -72,7 +72,7 @@ export default function FileTypeHero({
                 </div>
               )}
             </div>
-            
+
             <p className="text-gray-700 leading-relaxed">{summary}</p>
           </div>
         </div>

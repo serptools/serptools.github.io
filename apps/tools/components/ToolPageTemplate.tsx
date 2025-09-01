@@ -88,7 +88,7 @@ export default function ToolPageTemplate({
         <RelatedToolsSection
           currentFrom={tool.from}
           currentTo={tool.to}
-          currentPath={`/tools/${tool.from.toLowerCase()}-to-${tool.to.toLowerCase()}`}
+          currentPath={`/${tool.from.toLowerCase()}-to-${tool.to.toLowerCase()}`}
         />
       )}
 

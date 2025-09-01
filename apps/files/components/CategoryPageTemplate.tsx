@@ -34,9 +34,9 @@ export default function CategoryPageTemplate({ data }: { data: CategoryData }) {
       <div className="bg-white border-b">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
           <nav className="flex items-center space-x-2 text-sm">
-            <Link href="/" className="text-gray-500 hover:text-gray-700">Home</Link>
+            <a href="/" className="text-gray-500 hover:text-gray-700">Home</a>
             <ChevronRight className="w-4 h-4 text-gray-400" />
-            <Link href="/files" className="text-gray-500 hover:text-gray-700">File Types</Link>
+            <Link href="/" className="text-gray-500 hover:text-gray-700">File Types</Link>
             <ChevronRight className="w-4 h-4 text-gray-400" />
             <span className="text-gray-900 font-medium">{data.name}</span>
           </nav>
@@ -89,7 +89,7 @@ export default function CategoryPageTemplate({ data }: { data: CategoryData }) {
             {data.fileTypes.map((fileType) => (
               <Link
                 key={fileType.extension}
-                href={`/files/${fileType.extension}`}
+                href={`/${fileType.extension}`}
                 className="bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow p-6 border border-gray-200"
               >
                 <div className="flex items-start space-x-4">
@@ -147,7 +147,7 @@ export default function CategoryPageTemplate({ data }: { data: CategoryData }) {
                   <tr key={fileType.extension} className="hover:bg-gray-50">
                     <td className="px-6 py-4 whitespace-nowrap">
                       <Link
-                        href={`/files/${fileType.extension}`}
+                        href={`/${fileType.extension}`}
                         className="text-blue-600 hover:text-blue-700 font-medium"
                       >
                         .{fileType.extension}
@@ -188,7 +188,7 @@ export default function CategoryPageTemplate({ data }: { data: CategoryData }) {
               .map(category => (
                 <Link
                   key={category}
-                  href={`/files/categories/${category}`}
+                  href={`/categories/${category}`}
                   className="flex items-center space-x-2 px-4 py-2 bg-white rounded-lg border border-gray-200 hover:border-blue-500 hover:bg-blue-50 transition-colors"
                 >
                   <FolderOpen className="w-4 h-4 text-gray-400" />
