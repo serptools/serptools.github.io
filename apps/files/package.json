@@ -1,0 +1,28 @@
+{
+  "name": "files",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack --port 3001",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint --max-warnings 0",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@serp-tools/ui": "workspace:*",
+    "@serp-tools/app-core": "workspace:*",
+    "lucide-react": "^0.541.0",
+    "next": "^15.5.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@serp-tools/eslint-config": "workspace:^",
+    "@serp-tools/typescript-config": "workspace:*",
+    "@types/node": "^20.19.9",
+    "@types/react": "^19.1.11",
+    "@types/react-dom": "^19.1.7",
+    "typescript": "^5.9.2"
+  }
+}
