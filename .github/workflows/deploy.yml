@@ -40,7 +40,7 @@ jobs:
       - name: Prepare deployment artifact
         run: |
           mkdir -p _site/tools _site/files
-          cp -r apps/tools/out/* _site/tools/
+          cp -r apps/tools/out/* _site/
           cp -r apps/files/out/* _site/files/
           # Add a .nojekyll file to the root of the site to prevent Jekyll from running
           touch _site/.nojekyll
