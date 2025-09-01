@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import { Menu, X } from "lucide-react";
 import { Button } from "@serp-tools/ui/components/button";
 import { useState } from "react";
@@ -9,8 +8,8 @@ export function AppHeader() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navLinks = [
-    { href: "/#tools", label: "Tools" },
-    { href: "/#files", label: "Files" },
+    { href: "/", label: "Tools" },
+    { href: "/files", label: "Files" },
   ];
 
   return (
@@ -18,9 +17,9 @@ export function AppHeader() {
       <div className="container">
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
-          <Link href="/" className="flex items-center space-x-2">
+          <a href="/" className="flex items-center space-x-2">
             <span className="text-2xl font-bold text-primary">SERP Tools</span>
-          </Link>
+          </a>
 
           {/* Desktop Navigation */}
           <nav
@@ -28,13 +27,13 @@ export function AppHeader() {
             className="hidden md:flex md:items-center md:space-x-6"
           >
             {navLinks.map((link) => (
-              <Link
+              <a
                 key={link.href}
                 href={link.href}
                 className="text-sm font-medium text-muted-foreground transition-colors hover:text-primary"
               >
                 {link.label}
-              </Link>
+              </a>
             ))}
           </nav>
 
@@ -65,14 +64,14 @@ export function AppHeader() {
           >
             <div className="space-y-1">
               {navLinks.map((link) => (
-                <Link
+                <a
                   key={link.href}
                   href={link.href}
                   className="block px-4 py-2 text-sm font-medium text-muted-foreground transition-colors hover:bg-accent hover:text-primary"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   {link.label}
-                </Link>
+                </a>
               ))}
             </div>
           </nav>
