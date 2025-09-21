@@ -1,6 +1,8 @@
 import extensionsData from '@serp-tools/app-core/data/extensions.json';
 import categoriesData from '@/data/categories.json';
 import topicsData from '@/data/topics.json';
+// @ts-ignore - Dynamic local data file
+import localExtensionsData from '../data/local-extensions.json';
 import {
   Shield,
   Lock,
@@ -84,10 +86,27 @@ export const categoryIconMap: { [key: string]: LucideIcon } = {
   'MapPin': MapPin
 };
 
-// Get all active extensions
+// Get all active extensions (merging core and local)
 export function getAllExtensions(): ProcessedExtension[] {
-  return extensionsData
-    .filter((extension: any) => extension.isActive)
+  // Combine core and local extensions
+  const allExtensions = [...extensionsData, ...localExtensionsData];
+
+  // Remove duplicates (local takes precedence)
+  const uniqueExtensions = allExtensions.reduce((acc: any[], extension: any) => {
+    const existingIndex = acc.findIndex(e => e.id === extension.id);
+    if (existingIndex === -1) {
+      acc.push(extension);
+    } else {
+      // Local extensions override core ones
+      if (localExtensionsData.some((local: any) => local.id === extension.id)) {
+        acc[existingIndex] = extension;
+      }
+    }
+    return acc;
+  }, []);
+
+  return uniqueExtensions
+    .filter((extension: any) => extension.isActive !== false) // Default to active if not specified
     .map((extension: any) => ({
       id: extension.id,
       slug: extension.slug,
@@ -115,9 +134,15 @@ export function getExtensionsByCategory(category: string): ProcessedExtension[] 
 
 // Get a single extension by ID
 export function getExtensionById(id: string): ProcessedExtension | null {
-  const extension = extensionsData.find((ext: any) => ext.id === id);
+  // Check local extensions first
+  let extension = localExtensionsData.find((ext: any) => ext.id === id);
 
-  if (!extension || !extension.isActive) {
+  // If not found locally, check core extensions
+  if (!extension) {
+    extension = extensionsData.find((ext: any) => ext.id === id);
+  }
+
+  if (!extension || extension.isActive === false) {
     return null;
   }
 
@@ -195,9 +220,15 @@ export function getAllCategorySlugs(): string[] {
 
 // Get all extension IDs for static generation
 export function getAllExtensionIds(): string[] {
-  return extensionsData
-    .filter((extension: any) => extension.isActive)
-    .map((extension: any) => extension.id);
+  const allExtensions = [...extensionsData, ...localExtensionsData];
+
+  // Remove duplicates
+  const uniqueIds = new Set(allExtensions.map((ext: any) => ext.id));
+
+  return Array.from(uniqueIds).filter(id => {
+    const ext = allExtensions.find((e: any) => e.id === id);
+    return ext && ext.isActive !== false;
+  });
 }
 
 // Get extensions by topic

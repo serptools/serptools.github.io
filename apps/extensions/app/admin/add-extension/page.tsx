@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import { Button } from "@serp-tools/ui/components/button";
 import { Badge } from "@serp-tools/ui/components/badge";
-import { ArrowLeft, Loader2, Copy, Check } from "lucide-react";
+import { ArrowLeft, Loader2, Copy, Check, Save, ExternalLink } from "lucide-react";
 import Link from 'next/link';
 
 export default function AddExtensionPage() {
@@ -14,6 +14,9 @@ export default function AddExtensionPage() {
   const [result, setResult] = useState<any>(null);
   const [error, setError] = useState('');
   const [copied, setCopied] = useState(false);
+  const [saving, setSaving] = useState(false);
+  const [saved, setSaved] = useState(false);
+  const [pageUrl, setPageUrl] = useState('');
 
   const handleAnalyze = async () => {
     setIsLoading(true);
@@ -49,6 +52,33 @@ export default function AddExtensionPage() {
       navigator.clipboard.writeText(JSON.stringify(result, null, 2));
       setCopied(true);
       setTimeout(() => setCopied(false), 2000);
+    }
+  };
+
+  const handleSave = async () => {
+    if (!result) return;
+
+    setSaving(true);
+    setError('');
+
+    try {
+      const response = await fetch('/api/extensions/save', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(result)
+      });
+
+      if (!response.ok) {
+        throw new Error('Failed to save extension');
+      }
+
+      const data = await response.json();
+      setSaved(true);
+      setPageUrl(data.pageUrl);
+    } catch (err) {
+      setError(err instanceof Error ? err.message : 'Failed to save');
+    } finally {
+      setSaving(false);
     }
   };
 
@@ -130,23 +160,44 @@ export default function AddExtensionPage() {
             <div className="rounded-lg border p-6 space-y-4">
               <div className="flex items-center justify-between mb-4">
                 <h2 className="text-xl font-semibold">Analysis Result</h2>
-                <Button
-                  variant="outline"
-                  size="sm"
-                  onClick={copyToClipboard}
-                >
-                  {copied ? (
-                    <>
-                      <Check className="mr-1 h-3 w-3" />
-                      Copied!
-                    </>
-                  ) : (
-                    <>
-                      <Copy className="mr-1 h-3 w-3" />
-                      Copy JSON
-                    </>
+                <div className="flex gap-2">
+                  <Button
+                    variant="outline"
+                    size="sm"
+                    onClick={copyToClipboard}
+                  >
+                    {copied ? (
+                      <>
+                        <Check className="mr-1 h-3 w-3" />
+                        Copied!
+                      </>
+                    ) : (
+                      <>
+                        <Copy className="mr-1 h-3 w-3" />
+                        Copy JSON
+                      </>
+                    )}
+                  </Button>
+                  {!saved && (
+                    <Button
+                      size="sm"
+                      onClick={handleSave}
+                      disabled={saving}
+                    >
+                      {saving ? (
+                        <>
+                          <Loader2 className="mr-1 h-3 w-3 animate-spin" />
+                          Saving...
+                        </>
+                      ) : (
+                        <>
+                          <Save className="mr-1 h-3 w-3" />
+                          Save & Create Page
+                        </>
+                      )}
+                    </Button>
                   )}
-                </Button>
+                </div>
               </div>
 
               <div className="space-y-3">
@@ -192,14 +243,31 @@ export default function AddExtensionPage() {
                 </pre>
               </div>
 
-              <div className="mt-6 p-4 bg-yellow-50 dark:bg-yellow-950 rounded-lg">
-                <p className="text-sm">
-                  <strong>Next Step:</strong> Copy this JSON and add it to the extensions data file at{' '}
-                  <code className="px-2 py-1 bg-muted rounded">
-                    @serp-tools/app-core/data/extensions.json
-                  </code>
-                </p>
-              </div>
+              {saved ? (
+                <div className="mt-6 p-4 bg-green-50 dark:bg-green-950 rounded-lg">
+                  <p className="text-sm font-medium mb-2 text-green-600 dark:text-green-400">
+                    ✓ Extension saved successfully!
+                  </p>
+                  <div className="flex items-center gap-2">
+                    <Link href={pageUrl} className="text-sm underline text-green-600 dark:text-green-400">
+                      View Extension Page
+                    </Link>
+                    <ExternalLink className="h-3 w-3" />
+                  </div>
+                  <p className="text-xs mt-2 text-muted-foreground">
+                    The extension is now live and accessible at {pageUrl}
+                  </p>
+                </div>
+              ) : (
+                <div className="mt-6 p-4 bg-yellow-50 dark:bg-yellow-950 rounded-lg">
+                  <p className="text-sm">
+                    <strong>Next Step:</strong> Click "Save & Create Page" to make this extension live, or copy the JSON to add it manually to{' '}
+                    <code className="px-2 py-1 bg-muted rounded">
+                      @serp-tools/app-core/data/extensions.json
+                    </code>
+                  </p>
+                </div>
+              )}
             </div>
           )}
         </div>

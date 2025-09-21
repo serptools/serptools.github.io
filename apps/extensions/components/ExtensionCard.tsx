@@ -7,6 +7,7 @@ import { LucideIcon } from "lucide-react";
 interface ExtensionCardProps {
   extension: {
     id: string;
+    slug: string;
     name: string;
     description: string;
     href: string;
@@ -52,7 +53,7 @@ export function ExtensionCard({ extension }: ExtensionCardProps) {
   };
 
   return (
-    <a href={`/extensions/${extension.id}`}>
+    <a href={`/extensions/detail/${extension.slug}/${extension.id}/`}>
       <Card
         className="group h-full transition-all hover:shadow-lg hover:-translate-y-0.5 cursor-pointer border-2"
         style={{

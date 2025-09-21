@@ -5,9 +5,11 @@ export interface ProcessedExtension {
   slug: string;
   name: string;
   description: string;
+  overview?: string; // Longer description
   category: string;
   topics?: string[]; // Topics/use-cases this extension relates to
   icon: LucideIcon;
+  logoUrl?: string; // Actual logo from Chrome Web Store
   href: string | null;
   tags: string[];
   isNew: boolean;
@@ -17,6 +19,24 @@ export interface ProcessedExtension {
   url?: string;
   chromeStoreUrl?: string;
   firefoxAddonUrl?: string;
+  // New rich data fields
+  version?: string;
+  lastUpdated?: string;
+  size?: string;
+  developer?: {
+    name: string;
+    verified: boolean;
+    website?: string;
+  };
+  permissions?: string[];
+  languages?: string[];
+  screenshots?: string[];
+  features?: string[];
+  reviews?: {
+    total: number;
+    average: number;
+    distribution: Record<number, number>;
+  };
 }
 
 export interface Category {

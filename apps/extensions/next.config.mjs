@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
+  // output: 'export', // Removed to enable API routes
   transpilePackages: ["@serp-tools/ui"],
   trailingSlash: true,
 };
