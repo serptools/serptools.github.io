@@ -2,7 +2,7 @@
 
 import { useState, useRef } from "react";
 import { Card, CardDescription, CardHeader, CardTitle } from "@serp-tools/ui/components/card";
-import { LucideIcon, Star, Users } from "lucide-react";
+import { LucideIcon } from "lucide-react";
 
 interface ExtensionCardProps {
   extension: {
@@ -68,43 +68,13 @@ export function ExtensionCard({ extension }: ExtensionCardProps) {
               className="h-6 w-6 mt-0.5 transition-colors duration-300"
               style={{ color: borderColor || undefined }}
             />
-            <div className="flex-1 min-w-0">
-              <CardTitle className="text-lg group-hover:text-primary transition-colors">
-                {extension.name}
-              </CardTitle>
-              <div className="flex items-center gap-3 mt-1">
-                {extension.rating && (
-                  <div className="flex items-center gap-1">
-                    <Star className="h-3 w-3 text-yellow-500 fill-current" />
-                    <span className="text-sm text-gray-600">{extension.rating}</span>
-                  </div>
-                )}
-                {extension.users && (
-                  <div className="flex items-center gap-1">
-                    <Users className="h-3 w-3 text-gray-400" />
-                    <span className="text-sm text-gray-600">{extension.users}</span>
-                  </div>
-                )}
-              </div>
-            </div>
+            <CardTitle className="text-lg group-hover:text-primary transition-colors">
+              {extension.name}
+            </CardTitle>
           </div>
           <CardDescription className="line-clamp-2">
             {extension.description}
           </CardDescription>
-          {(extension.isPopular || extension.isNew) && (
-            <div className="flex gap-2 mt-2">
-              {extension.isPopular && (
-                <span className="inline-block px-2 py-1 bg-blue-100 text-blue-800 text-xs font-semibold rounded">
-                  Popular
-                </span>
-              )}
-              {extension.isNew && (
-                <span className="inline-block px-2 py-1 bg-green-100 text-green-800 text-xs font-semibold rounded">
-                  New
-                </span>
-              )}
-            </div>
-          )}
         </CardHeader>
       </Card>
     </a>
