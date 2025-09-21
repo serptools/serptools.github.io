@@ -127,7 +127,7 @@ export default function HomePage() {
       </section>
 
       {/* Main Content */}
-      <section className="container py-12">
+      <section className="container max-w-6xl py-12">
         {/* Search and Filter Bar */}
         <ExtensionsSearchBar
           searchQuery={searchQuery}
