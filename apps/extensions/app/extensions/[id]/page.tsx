@@ -1,19 +1,37 @@
 import { Button } from "@serp-tools/ui/components/button";
 import { ExternalLink, Shield, Lock, CheckSquare, ShoppingCart, Coins, Moon, Bookmark, Palette, Code, Video, Clipboard, Gauge, Puzzle, DollarSign } from "lucide-react";
+import type { LucideIcon } from "lucide-react";
 import extensionsData from '@serp-tools/app-core/data/extensions.json';
 import { notFound } from 'next/navigation';
 
+interface ExtensionData {
+  id: string;
+  slug: string;
+  name: string;
+  description: string;
+  category?: string;
+  chromeStoreUrl?: string;
+  firefoxAddonUrl?: string;
+  url?: string;
+  tags?: string[];
+  isNew?: boolean;
+  isPopular?: boolean;
+  rating?: number;
+  users?: string;
+  isActive?: boolean;
+}
+
 // Generate static params for all extensions
 export async function generateStaticParams() {
-  return extensionsData
-    .filter((extension: any) => extension.isActive)
-    .map((extension: any) => ({
+  return (extensionsData as ExtensionData[])
+    .filter((extension) => extension.isActive)
+    .map((extension) => ({
       id: extension.id,
     }));
 }
 
 // Icon mapping for extensions using slug
-const iconMap: { [key: string]: any } = {
+const iconMap: { [key: string]: LucideIcon } = {
   'ublock-origin': Shield,
   'lastpass': Lock,
   'grammarly': CheckSquare,
@@ -40,7 +58,7 @@ interface PageProps {
 export default async function SingleExtensionPage({ params }: PageProps) {
   const { id } = await params;
   // Find the extension by ID from the JSON data
-  const extensionData = extensionsData.find((ext: any) => ext.id === id);
+  const extensionData = (extensionsData as ExtensionData[]).find((ext) => ext.id === id);
 
   // If extension not found, return 404
   if (!extensionData) {
@@ -66,14 +84,14 @@ export default async function SingleExtensionPage({ params }: PageProps) {
   const Icon = extension.icon;
 
   // Get related extensions from same category
-  const alternatives = extensionsData
-    .filter((ext: any) =>
+  const alternatives = (extensionsData as ExtensionData[])
+    .filter((ext) =>
       ext.category === extension.category &&
       ext.id !== extension.id &&
       ext.isActive
     )
     .slice(0, 10)
-    .map((ext: any) => ({
+    .map((ext) => ({
       id: ext.id,
       name: ext.name,
       description: ext.description,
