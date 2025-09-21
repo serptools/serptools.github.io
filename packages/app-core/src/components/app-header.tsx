@@ -10,6 +10,7 @@ export function AppHeader() {
   const navLinks = [
     { href: "/", label: "Tools" },
     { href: "/files", label: "Files" },
+    { href: "/extensions", label: "Extensions" },
   ];
 
   return (
@@ -18,7 +19,7 @@ export function AppHeader() {
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
           <a href="/" className="flex items-center space-x-2">
-            <span className="text-2xl font-bold text-primary">SERP Tools</span>
+            <span className="text-2xl font-bold text-primary">SERP</span>
           </a>
 
           {/* Desktop Navigation */}
@@ -56,26 +57,24 @@ export function AppHeader() {
         </div>
 
         {/* Mobile Menu */}
-        {isMenuOpen && (
-          <nav
-            id="mobile-navigation"
-            aria-label="Mobile navigation"
-            className="border-t py-4 md:hidden"
-          >
-            <div className="space-y-1">
-              {navLinks.map((link) => (
-                <a
-                  key={link.href}
-                  href={link.href}
-                  className="block px-4 py-2 text-sm font-medium text-muted-foreground transition-colors hover:bg-accent hover:text-primary"
-                  onClick={() => setIsMenuOpen(false)}
-                >
-                  {link.label}
-                </a>
-              ))}
-            </div>
-          </nav>
-        )}
+        <nav
+          id="mobile-navigation"
+          aria-label="Mobile navigation"
+          className={`border-t py-4 md:hidden ${isMenuOpen ? 'block' : 'hidden'}`}
+        >
+          <div className="space-y-1">
+            {navLinks.map((link) => (
+              <a
+                key={link.href}
+                href={link.href}
+                className="block px-4 py-2 text-sm font-medium text-muted-foreground transition-colors hover:bg-accent hover:text-primary"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                {link.label}
+              </a>
+            ))}
+          </div>
+        </nav>
       </div>
     </header>
   );
