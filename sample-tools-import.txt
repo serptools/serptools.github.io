@@ -1,0 +1,60 @@
+# Enhanced Sample Tool Import List
+# This demonstrates fuzzy matching for various input formats
+
+# Standard format - baseline examples
+jpeg to rw2
+jpeg to xbm  
+jpg to dot
+jpg to ktx
+jpg to ktx2
+
+# Format variations that should be detected as duplicates/similar
+convert jpg to png
+convert jpeg to webp
+change gif to mp4
+transform pdf to doc
+
+# Number separator variations
+jpg 2 png
+jpeg 2 webp
+mp4 2 gif
+pdf 2 doc
+
+# Arrow format variations  
+jpg -> png
+jpeg → webp
+gif=>mp4
+pdf >= doc
+
+# Other separator formats
+jpg into png
+jpeg,webp
+gif:mp4
+pdf|doc
+mp3;wav
+
+# With file type suffixes (should be cleaned)
+jpg to png file
+convert jpeg to webp image
+mp4 to gif video
+wav to mp3 audio
+
+# Format aliases that should match (jpg vs jpeg)
+jpg to heic
+jpeg to heic
+jfif to png
+
+# Space separated (fallback format)
+png raf
+png rw2
+
+# Comments and blank lines (should be ignored)
+# This is a comment
+
+# Additional real-world examples
+bmp to tiff
+tif to jpg
+mpeg to mp4
+mpg to webm
+mov to avi
+qt to mp4

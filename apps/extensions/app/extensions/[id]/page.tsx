@@ -32,14 +32,15 @@ const iconMap: { [key: string]: any } = {
 };
 
 interface PageProps {
-  params: {
+  params: Promise<{
     id: string;
-  };
+  }>;
 }
 
-export default function SingleExtensionPage({ params }: PageProps) {
+export default async function SingleExtensionPage({ params }: PageProps) {
+  const { id } = await params;
   // Find the extension by ID from the JSON data
-  const extensionData = extensionsData.find((ext: any) => ext.id === params.id);
+  const extensionData = extensionsData.find((ext: any) => ext.id === id);
 
   // If extension not found, return 404
   if (!extensionData) {
