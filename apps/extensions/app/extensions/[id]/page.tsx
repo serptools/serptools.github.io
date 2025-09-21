@@ -1,19 +1,37 @@
 import { Button } from "@serp-tools/ui/components/button";
 import { ExternalLink, Shield, Lock, CheckSquare, ShoppingCart, Coins, Moon, Bookmark, Palette, Code, Video, Clipboard, Gauge, Puzzle, DollarSign } from "lucide-react";
+import type { LucideIcon } from "lucide-react";
 import extensionsData from '@serp-tools/app-core/data/extensions.json';
 import { notFound } from 'next/navigation';
 
+interface ExtensionData {
+  id: string;
+  slug: string;
+  name: string;
+  description: string;
+  category?: string;
+  chromeStoreUrl?: string;
+  firefoxAddonUrl?: string;
+  url?: string;
+  tags?: string[];
+  isNew?: boolean;
+  isPopular?: boolean;
+  rating?: number;
+  users?: string;
+  isActive?: boolean;
+}
+
 // Generate static params for all extensions
 export async function generateStaticParams() {
-  return extensionsData
-    .filter((extension: any) => extension.isActive)
-    .map((extension: any) => ({
+  return (extensionsData as ExtensionData[])
+    .filter((extension) => extension.isActive)
+    .map((extension) => ({
       id: extension.id,
     }));
 }
 
 // Icon mapping for extensions using slug
-const iconMap: { [key: string]: any } = {
+const iconMap: { [key: string]: LucideIcon } = {
   'ublock-origin': Shield,
   'lastpass': Lock,
   'grammarly': CheckSquare,
@@ -32,14 +50,15 @@ const iconMap: { [key: string]: any } = {
 };
 
 interface PageProps {
-  params: {
+  params: Promise<{
     id: string;
-  };
+  }>;
 }
 
-export default function SingleExtensionPage({ params }: PageProps) {
+export default async function SingleExtensionPage({ params }: PageProps) {
+  const { id } = await params;
   // Find the extension by ID from the JSON data
-  const extensionData = extensionsData.find((ext: any) => ext.id === params.id);
+  const extensionData = (extensionsData as ExtensionData[]).find((ext) => ext.id === id);
 
   // If extension not found, return 404
   if (!extensionData) {
@@ -65,14 +84,14 @@ export default function SingleExtensionPage({ params }: PageProps) {
   const Icon = extension.icon;
 
   // Get related extensions from same category
-  const alternatives = extensionsData
-    .filter((ext: any) =>
+  const alternatives = (extensionsData as ExtensionData[])
+    .filter((ext) =>
       ext.category === extension.category &&
       ext.id !== extension.id &&
       ext.isActive
     )
     .slice(0, 10)
-    .map((ext: any) => ({
+    .map((ext) => ({
       id: ext.id,
       name: ext.name,
       description: ext.description,
@@ -108,68 +127,71 @@ export default function SingleExtensionPage({ params }: PageProps) {
           </div>
 
           {/* Content Section */}
-          <div className="prose prose-sm prose-neutral dark:prose-invert max-w-none">
-            <p>{extension.description}</p>
+          <div className="prose prose-neutral dark:prose-invert max-w-none">
+            <p className="lead">{extension.description}</p>
 
             {extension.tags && extension.tags.length > 0 && (
               <>
-                <p><strong>Features:</strong></p>
+                <h3>Features</h3>
                 <ul>
                   {extension.tags.map((tag: string, index: number) => (
                     <li key={index}>
-                      <p>{tag.charAt(0).toUpperCase() + tag.slice(1).replace(/-/g, ' ')}</p>
+                      {tag.charAt(0).toUpperCase() + tag.slice(1).replace(/-/g, ' ')}
                     </li>
                   ))}
                 </ul>
               </>
             )}
 
-            {/* Additional info */}
-            <div className="not-prose mt-6 space-y-2">
+            <h3>Details</h3>
+            <ul>
               {extension.rating && (
-                <p className="text-sm text-muted-foreground">
+                <li>
                   <strong>Rating:</strong> {extension.rating} / 5 stars
-                </p>
+                </li>
               )}
               {extension.users && (
-                <p className="text-sm text-muted-foreground">
+                <li>
                   <strong>Users:</strong> {extension.users}
-                </p>
+                </li>
               )}
               {extension.category && (
-                <p className="text-sm text-muted-foreground">
+                <li>
                   <strong>Category:</strong> {extension.category.charAt(0).toUpperCase() + extension.category.slice(1)}
-                </p>
+                </li>
               )}
-            </div>
+            </ul>
 
             {/* Store Links */}
-            <div className="not-prose mt-6 space-y-2">
-              {extension.chromeStoreUrl && (
-                <p className="text-sm">
-                  <a
-                    href={extension.chromeStoreUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-primary hover:underline"
-                  >
-                    Available on Chrome Web Store →
-                  </a>
-                </p>
-              )}
-              {extension.firefoxAddonUrl && (
-                <p className="text-sm">
-                  <a
-                    href={extension.firefoxAddonUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-primary hover:underline"
-                  >
-                    Available on Firefox Add-ons →
-                  </a>
-                </p>
-              )}
-            </div>
+            {(extension.chromeStoreUrl || extension.firefoxAddonUrl) && (
+              <>
+                <h3>Download</h3>
+                <ul>
+                  {extension.chromeStoreUrl && (
+                    <li>
+                      <a
+                        href={extension.chromeStoreUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Available on Chrome Web Store →
+                      </a>
+                    </li>
+                  )}
+                  {extension.firefoxAddonUrl && (
+                    <li>
+                      <a
+                        href={extension.firefoxAddonUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Available on Firefox Add-ons →
+                      </a>
+                    </li>
+                  )}
+                </ul>
+              </>
+            )}
           </div>
         </article>
 

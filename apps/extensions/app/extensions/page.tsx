@@ -10,7 +10,6 @@ import {
   ArrowRight,
   Shield,
   Lock,
-  Eye,
   ShoppingCart,
   Coins,
   Moon,
@@ -21,13 +20,13 @@ import {
   Video,
   Clipboard,
   Gauge,
-  Globe,
   Puzzle
 } from "lucide-react";
+import type { LucideIcon } from "lucide-react";
 import extensionsData from '@serp-tools/app-core/data/extensions.json';
 
 // Icon mapping for extensions using slug
-const iconMap: { [key: string]: any } = {
+const iconMap: { [key: string]: LucideIcon } = {
   'ublock-origin': Shield,
   'lastpass': Lock,
   'grammarly': CheckSquare,
@@ -45,17 +44,34 @@ const iconMap: { [key: string]: any } = {
   'momentum': Gauge,
 };
 
+interface ExtensionData {
+  id: string;
+  slug: string;
+  name: string;
+  description: string;
+  category?: string;
+  chromeStoreUrl?: string;
+  firefoxAddonUrl?: string;
+  url?: string;
+  tags?: string[];
+  isNew?: boolean;
+  isPopular?: boolean;
+  rating?: number;
+  users?: string;
+  isActive?: boolean;
+}
+
 // Process extensions from JSON data - use the Chrome extension ID directly
-const processedExtensions = extensionsData
-  .filter((extension: any) => extension.isActive)
-  .map((extension: any) => ({
+const processedExtensions = (extensionsData as ExtensionData[])
+  .filter((extension) => extension.isActive)
+  .map((extension) => ({
     id: extension.id, // Use the Chrome extension ID directly
     slug: extension.slug,
     name: extension.name,
     description: extension.description,
     category: extension.category || 'other',
     icon: iconMap[extension.slug] || Puzzle,
-    href: extension.chromeStoreUrl || extension.firefoxAddonUrl || extension.url,
+    href: extension.chromeStoreUrl || extension.firefoxAddonUrl || extension.url || '#',
     tags: extension.tags || [],
     isNew: extension.isNew || false,
     isPopular: extension.isPopular || false,
@@ -67,8 +83,13 @@ const processedExtensions = extensionsData
 export default function HomePage() {
   const [selectedCategory, setSelectedCategory] = useState("all");
   const [searchQuery, setSearchQuery] = useState("");
-  const [extensions, setExtensions] = useState(processedExtensions);
-  const [categories, setCategories] = useState<any[]>([]);
+  const [extensions] = useState(processedExtensions);
+  interface Category {
+    id: string;
+    name: string;
+    count: number;
+  }
+  const [categories, setCategories] = useState<Category[]>([]);
 
   useEffect(() => {
     // Create categories from extensions
@@ -127,7 +148,7 @@ export default function HomePage() {
       </section>
 
       {/* Main Content */}
-      <section className="container py-12">
+      <section className="container max-w-6xl py-12">
         {/* Search and Filter Bar */}
         <ExtensionsSearchBar
           searchQuery={searchQuery}
