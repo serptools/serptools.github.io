@@ -1,0 +1,44 @@
+# Sample Tool Import List
+# This demonstrates the format for batch importing tools
+
+# Image format conversions - exactly like the user's example
+jpeg to rw2
+jpeg to xbm  
+jpg to dot
+jpg to ktx
+jpg to ktx2
+jpg to odt
+jpg to orf
+jpg to pam
+jpg to pcd
+jpg to raf
+jpg to rw2
+jpg to sk
+jpg to wbmp
+jpg to xbm
+png to dot
+png to raf
+png to rw2
+
+# Additional format variations (different syntax supported)
+webp -> avif
+gif → jxl
+bmp,tiff
+raw:dng
+cr2 to jpg
+nef to png
+
+# Video conversions
+mp4 to webm
+avi to mp4
+mkv to gif
+
+# Audio conversions  
+wav to mp3
+flac to aac
+m4a to ogg
+
+# Document conversions
+txt to pdf
+doc to html
+md to pdf

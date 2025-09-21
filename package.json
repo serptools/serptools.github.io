@@ -10,7 +10,9 @@
     "serptools": "cd packages/app-core && npm run cli",
     "tools:generate": "cd packages/app-core && npm run generate",
     "tools:validate": "cd packages/app-core && npm run validate",
-    "tools:stats": "cd packages/app-core && npm run stats"
+    "tools:stats": "cd packages/app-core && npm run stats",
+    "tools:import": "cd packages/app-core && npm run import",
+    "tools:libraries": "cd packages/app-core && npm run libraries"
   },
   "devDependencies": {
     "@serp-tools/eslint-config": "workspace:*",

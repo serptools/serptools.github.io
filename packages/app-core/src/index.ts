@@ -20,6 +20,30 @@ export {
   type ToolMetrics 
 } from './lib/tool-registry';
 
+// Batch Import System
+export {
+  BatchToolImporter,
+  createBatchToolImporter,
+  type ImportToolRequest,
+  type ImportAnalysisResult,
+  type ImportExecutionResult
+} from './lib/batch-importer';
+
+// Library Integration System
+export {
+  ConversionLibraryManager,
+  ImageMagickLibrary,
+  FFmpegLibrary,
+  VertShLibrary,
+  CanvasLibrary,
+  createLibraryManager,
+  getConversionRecommendations,
+  generateLibraryMatrix,
+  type ConversionLibrary,
+  type LibraryCapability,
+  type LibraryManager
+} from './lib/library-integration';
+
 // Plugin System
 export {
   PluginManager,

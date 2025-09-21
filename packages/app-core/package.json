@@ -13,7 +13,9 @@
     "cli": "tsx src/cli.ts",
     "generate": "tsx src/cli.ts generate",
     "validate": "tsx src/cli.ts validate",
-    "stats": "tsx src/cli.ts stats"
+    "stats": "tsx src/cli.ts stats",
+    "import": "tsx src/cli.ts import",
+    "libraries": "tsx src/cli.ts libraries"
   },
   "dependencies": {
     "@next/third-parties": "^15.5.0",

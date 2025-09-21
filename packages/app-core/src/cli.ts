@@ -12,6 +12,8 @@ import chalk from 'chalk';
 import inquirer from 'inquirer';
 import { ToolGenerator, createToolGenerator, Tool } from './lib/tool-generator.js';
 import { ToolRegistryManager, createRegistryManager } from './lib/tool-registry.js';
+import { BatchToolImporter, createBatchToolImporter } from './lib/batch-importer.js';
+import { createLibraryManager, getConversionRecommendations, generateLibraryMatrix } from './lib/library-integration.js';
 import path from 'path';
 
 const DEFAULT_TOOLS_DIR = './apps/tools/app';
@@ -325,6 +327,214 @@ program
 
     } catch (error) {
       console.error(chalk.red('❌ Sync failed:'), error);
+      process.exit(1);
+    }
+  });
+
+// Batch import command
+program
+  .command('import')
+  .description('Batch import tools from a file or input')
+  .option('-f, --file <file>', 'Import from file')
+  .option('-i, --input <input>', 'Import from direct input string')
+  .option('--dry-run', 'Analyze without creating tools')
+  .option('--skip-existing', 'Skip tools that already exist')
+  .option('--generate-content', 'Generate basic content for new tools')
+  .option('--report <file>', 'Save report to file')
+  .action(async (options) => {
+    try {
+      console.log(chalk.blue('📥 Batch Tool Import'));
+
+      if (!options.file && !options.input) {
+        console.error(chalk.red('❌ Please provide either --file or --input'));
+        process.exit(1);
+      }
+
+      const registryManager = createRegistryManager(DEFAULT_REGISTRY_PATH);
+      const importer = createBatchToolImporter(registryManager);
+
+      let input: string;
+      if (options.file) {
+        console.log(chalk.gray(`Reading from file: ${options.file}`));
+        const fs = await import('fs/promises');
+        input = await fs.readFile(options.file, 'utf-8');
+      } else {
+        input = options.input;
+      }
+
+      // Parse input
+      console.log(chalk.gray('Parsing import requests...'));
+      const requests = importer.parseImportList(input);
+      console.log(chalk.cyan(`Found ${requests.length} conversion requests`));
+
+      // Analyze requests
+      console.log(chalk.gray('Analyzing against existing tools...'));
+      const analysis = await importer.analyzeImportRequests(requests);
+
+      console.log(chalk.cyan(`\n📊 Analysis Results:`));
+      console.log(`  Total requests: ${analysis.total}`);
+      console.log(`  Existing tools: ${analysis.existing.length}`);
+      console.log(`  New tools: ${analysis.new.length}`);
+      console.log(`  Conflicts: ${analysis.conflicts.length}`);
+
+      // Show existing tools
+      if (analysis.existing.length > 0) {
+        console.log(chalk.yellow(`\n⚠️  Existing Tools (${analysis.existing.length}):`));
+        analysis.existing.slice(0, 5).forEach(({ request, existingTool, match }) => {
+          console.log(`  ${match === 'exact' ? '🎯' : '🔍'} ${request.from} → ${request.to} (${match} match: ${existingTool.name})`);
+        });
+        if (analysis.existing.length > 5) {
+          console.log(`  ... and ${analysis.existing.length - 5} more`);
+        }
+      }
+
+      // Show conflicts
+      if (analysis.conflicts.length > 0) {
+        console.log(chalk.red(`\n❌ Conflicts (${analysis.conflicts.length}):`));
+        analysis.conflicts.forEach(({ request, issue }) => {
+          console.log(`  ${request.from} → ${request.to}: ${issue}`);
+        });
+      }
+
+      // Execute import if not dry run
+      let execution;
+      if (!options.dryRun && analysis.new.length > 0) {
+        console.log(chalk.blue(`\n🚀 Creating ${analysis.new.length} new tools...`));
+        
+        execution = await importer.executeImport(analysis.new, {
+          skipExisting: options.skipExisting,
+          generateContent: options.generateContent,
+          dryRun: false
+        });
+
+        console.log(chalk.green(`✅ Import completed:`));
+        console.log(`  Created: ${execution.created.length}`);
+        console.log(`  Skipped: ${execution.skipped.length}`);
+        console.log(`  Errors: ${execution.errors.length}`);
+
+        if (execution.errors.length > 0) {
+          console.log(chalk.red(`\n❌ Errors:`));
+          execution.errors.forEach(({ tool, error }) => {
+            console.log(`  ${tool.from} → ${tool.to}: ${error}`);
+          });
+        }
+      } else if (options.dryRun) {
+        console.log(chalk.yellow('\n🔍 Dry run completed - no tools were created'));
+      }
+
+      // Generate and save report
+      const report = importer.generateImportReport(analysis, execution);
+      
+      if (options.report) {
+        const fs = await import('fs/promises');
+        await fs.writeFile(options.report, report);
+        console.log(chalk.green(`\n📝 Report saved to: ${options.report}`));
+      } else {
+        console.log('\n' + report);
+      }
+
+    } catch (error) {
+      console.error(chalk.red('❌ Import failed:'), error);
+      process.exit(1);
+    }
+  });
+
+// Libraries command
+program
+  .command('libraries')
+  .description('Show available conversion libraries and their capabilities')
+  .option('--check-availability', 'Check which libraries are currently available')
+  .option('--matrix', 'Show conversion compatibility matrix')
+  .option('--recommend <conversion>', 'Get library recommendations for a conversion (format: "jpg:png")')
+  .action(async (options) => {
+    try {
+      console.log(chalk.blue('📚 Conversion Libraries'));
+
+      const manager = createLibraryManager();
+      const libraries = manager.getAllLibraries();
+
+      if (options.recommend) {
+        const [from, to] = options.recommend.split(':');
+        if (!from || !to) {
+          console.error(chalk.red('❌ Conversion format should be "from:to" (e.g., "jpg:png")'));
+          process.exit(1);
+        }
+
+        console.log(chalk.cyan(`\n🎯 Recommendations for ${from} → ${to}:`));
+        const recommendations = await getConversionRecommendations(from, to);
+        
+        if (recommendations.recommended) {
+          console.log(chalk.green(`\n✅ Recommended: ${recommendations.recommended.name}`));
+          console.log(`   ${recommendations.recommended.description}`);
+          console.log(`   Platform: ${recommendations.recommended.capabilities.platform}`);
+          console.log(`   License: ${recommendations.recommended.capabilities.license}`);
+        }
+
+        if (recommendations.alternatives.length > 0) {
+          console.log(chalk.yellow(`\n🔄 Alternatives:`));
+          recommendations.alternatives.forEach(lib => {
+            console.log(`   • ${lib.name} (${lib.capabilities.platform})`);
+          });
+        }
+
+        if (recommendations.unsupported) {
+          console.log(chalk.red('\n❌ This conversion is not supported by any available library'));
+        }
+
+        return;
+      }
+
+      if (options.matrix) {
+        console.log(chalk.cyan('\n📊 Conversion Compatibility Matrix:'));
+        const { matrix } = generateLibraryMatrix();
+        
+        // Show a sample of the matrix (top formats)
+        const topFormats = ['jpg', 'png', 'gif', 'webp', 'mp4', 'pdf'];
+        console.log('\nFormat compatibility (sample):');
+        console.log('FROM \\ TO   ' + topFormats.map(f => f.padEnd(8)).join(''));
+        console.log('─'.repeat(80));
+        
+        topFormats.forEach(from => {
+          const row = from.padEnd(10) + topFormats.map(to => {
+            const libs = matrix[from]?.[to];
+            return libs ? `${libs.length}libs`.padEnd(8) : '─'.padEnd(8);
+          }).join('');
+          console.log(row);
+        });
+        console.log('\nNote: Numbers indicate available libraries for each conversion');
+        return;
+      }
+
+      console.log(chalk.cyan(`\n📋 Available Libraries (${libraries.length}):`));
+
+      for (const library of libraries) {
+        console.log(`\n${chalk.bold(library.name)} (${library.id})`);
+        console.log(`   ${library.description}`);
+        console.log(`   Platform: ${library.capabilities.platform}`);
+        console.log(`   License: ${library.capabilities.license}`);
+        console.log(`   Input formats: ${library.capabilities.supportedFormats.input.slice(0, 10).join(', ')}${library.capabilities.supportedFormats.input.length > 10 ? '...' : ''}`);
+        console.log(`   Output formats: ${library.capabilities.supportedFormats.output.slice(0, 10).join(', ')}${library.capabilities.supportedFormats.output.length > 10 ? '...' : ''}`);
+        console.log(`   Operations: ${library.capabilities.operations.join(', ')}`);
+        
+        if (library.capabilities.homepage) {
+          console.log(`   Homepage: ${library.capabilities.homepage}`);
+        }
+      }
+
+      if (options.checkAvailability) {
+        console.log(chalk.cyan('\n🔍 Checking library availability...'));
+        const availability = await manager.checkLibraryAvailability();
+        
+        console.log('\nAvailability Status:');
+        for (const [id, available] of availability) {
+          const library = manager.getLibrary(id);
+          const status = available ? chalk.green('✅ Available') : chalk.red('❌ Unavailable');
+          console.log(`  ${library?.name}: ${status}`);
+        }
+      }
+
+    } catch (error) {
+      console.error(chalk.red('❌ Libraries command failed:'), error);
       process.exit(1);
     }
   });
