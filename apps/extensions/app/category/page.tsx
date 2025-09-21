@@ -26,7 +26,7 @@ import {
 } from "lucide-react";
 import extensionsData from '@serp-tools/app-core/data/extensions.json';
 
-// Icon mapping for extensions using slug
+// Icon mapping for extensions
 const iconMap: { [key: string]: any } = {
   'ublock-origin': Shield,
   'lastpass': Lock,
@@ -45,16 +45,15 @@ const iconMap: { [key: string]: any } = {
   'momentum': Gauge,
 };
 
-// Process extensions from JSON data - use the Chrome extension ID directly
+// Process extensions from JSON data
 const processedExtensions = extensionsData
   .filter((extension: any) => extension.isActive)
   .map((extension: any) => ({
-    id: extension.id, // Use the Chrome extension ID directly
-    slug: extension.slug,
+    id: extension.id,
     name: extension.name,
     description: extension.description,
     category: extension.category || 'other',
-    icon: iconMap[extension.slug] || Puzzle,
+    icon: iconMap[extension.id] || Puzzle,
     href: extension.chromeStoreUrl || extension.firefoxAddonUrl || extension.url,
     tags: extension.tags || [],
     isNew: extension.isNew || false,

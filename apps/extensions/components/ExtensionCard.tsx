@@ -52,7 +52,7 @@ export function ExtensionCard({ extension }: ExtensionCardProps) {
   };
 
   return (
-    <a href={extension.href} target="_blank" rel="noopener noreferrer">
+    <a href={`/extensions/${extension.id}`}>
       <Card
         className="group h-full transition-all hover:shadow-lg hover:-translate-y-0.5 cursor-pointer border-2"
         style={{
