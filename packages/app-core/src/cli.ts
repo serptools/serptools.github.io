@@ -341,17 +341,37 @@ program
   .option('--skip-existing', 'Skip tools that already exist')
   .option('--generate-content', 'Generate basic content for new tools')
   .option('--report <file>', 'Save report to file')
+  .option('--test-parsing', 'Test parsing capabilities with sample inputs')
   .action(async (options) => {
     try {
       console.log(chalk.blue('📥 Batch Tool Import'));
 
-      if (!options.file && !options.input) {
-        console.error(chalk.red('❌ Please provide either --file or --input'));
-        process.exit(1);
-      }
-
       const registryManager = createRegistryManager(DEFAULT_REGISTRY_PATH);
       const importer = createBatchToolImporter(registryManager);
+
+      // Test parsing capabilities
+      if (options.testParsing) {
+        console.log(chalk.cyan('\n🧪 Testing Parsing Capabilities:'));
+        const testResults = importer.testParsingCapabilities();
+        
+        console.log(chalk.green('\n✅ Successful Parses:'));
+        testResults.filter(r => r.success).forEach(({ input, parsed }) => {
+          console.log(`   "${input}" → ${parsed.from} to ${parsed.to}`);
+        });
+
+        console.log(chalk.red('\n❌ Failed Parses:'));
+        testResults.filter(r => !r.success).forEach(({ input }) => {
+          console.log(`   "${input}" → (not parsed)`);
+        });
+
+        console.log(chalk.blue(`\n📊 Summary: ${testResults.filter(r => r.success).length}/${testResults.length} successful`));
+        return;
+      }
+
+      if (!options.file && !options.input) {
+        console.error(chalk.red('❌ Please provide either --file or --input, or use --test-parsing'));
+        process.exit(1);
+      }
 
       let input: string;
       if (options.file) {
@@ -363,12 +383,12 @@ program
       }
 
       // Parse input
-      console.log(chalk.gray('Parsing import requests...'));
+      console.log(chalk.gray('Parsing import requests with enhanced fuzzy matching...'));
       const requests = importer.parseImportList(input);
       console.log(chalk.cyan(`Found ${requests.length} conversion requests`));
 
-      // Analyze requests
-      console.log(chalk.gray('Analyzing against existing tools...'));
+      // Analyze requests with enhanced duplicate detection
+      console.log(chalk.gray('Analyzing against existing tools (includes fuzzy matching)...'));
       const analysis = await importer.analyzeImportRequests(requests);
 
       console.log(chalk.cyan(`\n📊 Analysis Results:`));
@@ -377,14 +397,29 @@ program
       console.log(`  New tools: ${analysis.new.length}`);
       console.log(`  Conflicts: ${analysis.conflicts.length}`);
 
-      // Show existing tools
+      // Show existing tools with match types
       if (analysis.existing.length > 0) {
-        console.log(chalk.yellow(`\n⚠️  Existing Tools (${analysis.existing.length}):`));
-        analysis.existing.slice(0, 5).forEach(({ request, existingTool, match }) => {
-          console.log(`  ${match === 'exact' ? '🎯' : '🔍'} ${request.from} → ${request.to} (${match} match: ${existingTool.name})`);
-        });
-        if (analysis.existing.length > 5) {
-          console.log(`  ... and ${analysis.existing.length - 5} more`);
+        const exactMatches = analysis.existing.filter(e => e.match === 'exact');
+        const similarMatches = analysis.existing.filter(e => e.match === 'similar');
+
+        if (exactMatches.length > 0) {
+          console.log(chalk.green(`\n🎯 Exact Matches (${exactMatches.length}):`));
+          exactMatches.slice(0, 3).forEach(({ request, existingTool }) => {
+            console.log(`  ${request.from} → ${request.to} (matches: ${existingTool.name})`);
+          });
+          if (exactMatches.length > 3) {
+            console.log(`  ... and ${exactMatches.length - 3} more exact matches`);
+          }
+        }
+
+        if (similarMatches.length > 0) {
+          console.log(chalk.yellow(`\n🔍 Fuzzy/Similar Matches (${similarMatches.length}):`));
+          similarMatches.slice(0, 3).forEach(({ request, existingTool }) => {
+            console.log(`  ${request.from} → ${request.to} (similar to: ${existingTool.name})`);
+          });
+          if (similarMatches.length > 3) {
+            console.log(`  ... and ${similarMatches.length - 3} more similar matches`);
+          }
         }
       }
 
@@ -429,7 +464,7 @@ program
         const fs = await import('fs/promises');
         await fs.writeFile(options.report, report);
         console.log(chalk.green(`\n📝 Report saved to: ${options.report}`));
-      } else {
+      } else if (!options.testParsing) {
         console.log('\n' + report);
       }
 

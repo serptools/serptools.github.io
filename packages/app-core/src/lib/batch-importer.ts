@@ -64,7 +64,7 @@ export class BatchToolImporter {
   }
 
   /**
-   * Parse a batch import list from various formats
+   * Parse a batch import list from various formats with fuzzy matching
    */
   parseImportList(input: string): ImportToolRequest[] {
     const requests: ImportToolRequest[] = [];
@@ -72,58 +72,77 @@ export class BatchToolImporter {
 
     for (const line of lines) {
       const trimmed = line.trim();
-      if (!trimmed) continue;
+      if (!trimmed || trimmed.startsWith('#')) continue; // Skip empty lines and comments
 
-      // Handle different formats
-      let from: string, to: string;
-
-      // Format: "jpeg to rw2" or "jpg to ktx"
-      const toMatch = trimmed.match(/^(\w+)\s+to\s+(\w+)$/i);
-      if (toMatch) {
-        from = toMatch[1].toLowerCase();
-        to = toMatch[2].toLowerCase();
-      }
-      // Format: "jpeg -> rw2" or "jpg → ktx"
-      else {
-        const arrowMatch = trimmed.match(/^(\w+)\s*[-→>]+\s*(\w+)$/i);
-        if (arrowMatch) {
-          from = arrowMatch[1].toLowerCase();
-          to = arrowMatch[2].toLowerCase();
+      const parsed = this.parseConversionLine(trimmed);
+      if (parsed) {
+        // Validate formats
+        if (!this.isValidFormat(parsed.from) || !this.isValidFormat(parsed.to)) {
+          continue;
         }
-        // Format: "jpeg,rw2" or "jpg:ktx"
-        else {
-          const separatorMatch = trimmed.match(/^(\w+)[,:;|]+(\w+)$/i);
-          if (separatorMatch) {
-            from = separatorMatch[1].toLowerCase();
-            to = separatorMatch[2].toLowerCase();
-          } else {
-            continue; // Skip lines we can't parse
-          }
-        }
-      }
 
-      // Validate formats
-      if (!this.isValidFormat(from) || !this.isValidFormat(to)) {
-        continue;
+        // Generate operation type
+        const operation = this.determineOperation(parsed.from, parsed.to);
+        
+        requests.push({
+          from: parsed.from,
+          to: parsed.to,
+          operation,
+          priority: 5,
+          tags: [parsed.from, parsed.to, operation]
+        });
       }
-
-      // Generate operation type
-      const operation = this.determineOperation(from, to);
-      
-      requests.push({
-        from,
-        to,
-        operation,
-        priority: 5,
-        tags: [from, to, operation]
-      });
     }
 
     return requests;
   }
 
   /**
-   * Analyze import requests against existing tools
+   * Parse a single conversion line with multiple format support
+   * Handles: "jpg to png", "convert jpg to png", "jpg 2 png", "jpg->png", etc.
+   */
+  private parseConversionLine(line: string): { from: string; to: string } | null {
+    // Remove common prefixes and clean up
+    let cleaned = line
+      .toLowerCase()
+      .replace(/^(convert|change|transform|turn)\s+/i, '') // Remove action words
+      .replace(/\s+(file|image|video|audio|document)?\s*$/i, '') // Remove file type suffixes
+      .trim();
+
+    // Handle different separator patterns
+    const patterns = [
+      // "jpeg to rw2", "jpg to ktx" - most common
+      /^(\w+)\s+to\s+(\w+)$/i,
+      // "jpeg → rw2", "jpg -> ktx", "jpg=>png" - arrow formats
+      /^(\w+)\s*[-→>=]+\s*(\w+)$/i,
+      // "jpeg 2 png", "jpg 2 ktx" - number separator
+      /^(\w+)\s+2\s+(\w+)$/i,
+      // "jpeg into png", "jpg into ktx" - into separator  
+      /^(\w+)\s+into\s+(\w+)$/i,
+      // "jpeg,rw2", "jpg:ktx", "jpg|png" - punctuation separators
+      /^(\w+)[,:;|]+(\w+)$/i,
+      // "jpeg rw2", "jpg ktx" - space separated (fallback)
+      /^(\w+)\s+(\w+)$/i
+    ];
+
+    for (const pattern of patterns) {
+      const match = cleaned.match(pattern);
+      if (match) {
+        return {
+          from: match[1].toLowerCase(),
+          to: match[2].toLowerCase()
+        };
+      }
+    }
+
+    return null;
+  }
+
+    return requests;
+  }
+
+  /**
+   * Analyze import requests against existing tools with enhanced duplicate detection
    */
   async analyzeImportRequests(requests: ImportToolRequest[]): Promise<ImportAnalysisResult> {
     const existingTools = await this.registryManager.getAllTools();
@@ -163,6 +182,17 @@ export class BatchToolImporter {
         continue;
       }
 
+      // Enhanced fuzzy matching for different naming patterns
+      const fuzzyMatch = this.findFuzzyMatch(request, existingTools);
+      if (fuzzyMatch) {
+        existing.push({
+          request,
+          existingTool: fuzzyMatch.tool,
+          match: fuzzyMatch.matchType as 'exact' | 'similar'
+        });
+        continue;
+      }
+
       // Validate request
       const validationIssues = this.validateImportRequest(request);
       if (validationIssues.length > 0) {
@@ -182,6 +212,94 @@ export class BatchToolImporter {
       new: newRequests,
       conflicts
     };
+  }
+
+  /**
+   * Find fuzzy matches for tools that might be duplicates with different naming
+   */
+  private findFuzzyMatch(request: ImportToolRequest, existingTools: Tool[]): { tool: Tool; matchType: string } | null {
+    for (const tool of existingTools) {
+      // Check for format aliases (e.g., jpg vs jpeg)
+      const fromMatch = this.areFormatsEquivalent(request.from, tool.from || '');
+      const toMatch = this.areFormatsEquivalent(request.to, tool.to || '');
+
+      if (fromMatch && toMatch) {
+        return { tool, matchType: 'similar' };
+      }
+
+      // Check tool name patterns for semantic matches
+      if (this.isSemanticMatch(request, tool)) {
+        return { tool, matchType: 'similar' };
+      }
+    }
+
+    return null;
+  }
+
+  /**
+   * Check if two formats are equivalent (e.g., jpg vs jpeg)
+   */
+  private areFormatsEquivalent(format1: string, format2: string): boolean {
+    if (format1 === format2) return true;
+
+    // Define format aliases
+    const aliases: Record<string, string[]> = {
+      'jpg': ['jpeg', 'jfif'],
+      'jpeg': ['jpg', 'jfif'],
+      'jfif': ['jpg', 'jpeg'],
+      'tiff': ['tif'],
+      'tif': ['tiff'],
+      'mpeg': ['mpg'],
+      'mpg': ['mpeg'],
+      'mov': ['qt'],
+      'qt': ['mov']
+    };
+
+    const format1Aliases = aliases[format1.toLowerCase()] || [];
+    const format2Aliases = aliases[format2.toLowerCase()] || [];
+
+    return format1Aliases.includes(format2.toLowerCase()) || 
+           format2Aliases.includes(format1.toLowerCase());
+  }
+
+  /**
+   * Check if request semantically matches existing tool based on name patterns
+   */
+  private isSemanticMatch(request: ImportToolRequest, tool: Tool): boolean {
+    const toolName = tool.name.toLowerCase();
+    const toolId = tool.id.toLowerCase();
+    
+    // Generate expected patterns for the request
+    const expectedPatterns = [
+      `${request.from} to ${request.to}`,
+      `${request.from}-to-${request.to}`,
+      `${request.from}2${request.to}`,
+      `${request.from} ${request.to}`,
+      `convert ${request.from} to ${request.to}`,
+      `${request.from} converter`,
+      `${request.to} converter`
+    ];
+
+    // Check if tool name or ID matches any expected pattern
+    for (const pattern of expectedPatterns) {
+      if (toolName.includes(pattern) || toolId.includes(pattern.replace(/\s+/g, '-'))) {
+        return true;
+      }
+    }
+
+    // Check reverse patterns (in case formats are swapped)
+    const reversePatterns = [
+      `${request.to} to ${request.from}`,
+      `${request.to}-to-${request.from}`
+    ];
+
+    for (const pattern of reversePatterns) {
+      if (toolName.includes(pattern) || toolId.includes(pattern.replace(/\s+/g, '-'))) {
+        return true;
+      }
+    }
+
+    return false;
   }
 
   /**
@@ -262,7 +380,7 @@ export class BatchToolImporter {
   }
 
   /**
-   * Generate import statistics
+   * Generate import statistics with enhanced duplicate detection info
    */
   generateImportReport(analysis: ImportAnalysisResult, execution?: ImportExecutionResult): string {
     let report = `# Batch Tool Import Report\n\n`;
@@ -275,9 +393,25 @@ export class BatchToolImporter {
 
     if (analysis.existing.length > 0) {
       report += `## Existing Tools\n`;
-      analysis.existing.forEach(({ request, existingTool, match }) => {
-        report += `- \`${request.from} → ${request.to}\` - ${match} match with "${existingTool.name}" (${existingTool.id})\n`;
-      });
+      
+      // Group by match type for better organization
+      const exactMatches = analysis.existing.filter(e => e.match === 'exact');
+      const similarMatches = analysis.existing.filter(e => e.match === 'similar');
+
+      if (exactMatches.length > 0) {
+        report += `\n### Exact Matches (${exactMatches.length})\n`;
+        exactMatches.forEach(({ request, existingTool }) => {
+          report += `- \`${request.from} → ${request.to}\` - **exact match** with "${existingTool.name}" (${existingTool.id})\n`;
+        });
+      }
+
+      if (similarMatches.length > 0) {
+        report += `\n### Similar/Fuzzy Matches (${similarMatches.length})\n`;
+        similarMatches.forEach(({ request, existingTool }) => {
+          report += `- \`${request.from} → ${request.to}\` - **fuzzy match** with "${existingTool.name}" (${existingTool.id})\n`;
+        });
+      }
+      
       report += `\n`;
     }
 
@@ -312,6 +446,66 @@ export class BatchToolImporter {
     }
 
     return report;
+  }
+
+  /**
+   * Test the parsing capabilities with sample inputs
+   */
+  testParsingCapabilities(): { input: string; parsed: any; success: boolean }[] {
+    const testCases = [
+      // Basic formats
+      'jpg to png',
+      'jpeg to webp',
+      
+      // With prefixes
+      'convert jpg to png',
+      'convert jpeg to webp',
+      'change gif to mp4',
+      'transform pdf to doc',
+      'turn mp3 to wav',
+      
+      // Number separator
+      'jpg 2 png',
+      'jpeg 2 webp',
+      'mp4 2 gif',
+      
+      // Arrow formats  
+      'jpg -> png',
+      'jpeg → webp',
+      'gif=>mp4',
+      'pdf >= doc',
+      
+      // Other separators
+      'jpg into png',
+      'jpeg,webp',
+      'gif:mp4',
+      'pdf|doc',
+      'mp3;wav',
+      
+      // With suffixes
+      'jpg to png file',
+      'convert jpeg to webp image',
+      'mp4 to gif video',
+      
+      // Space separated (fallback)
+      'jpg png',
+      'jpeg webp',
+      
+      // Should fail
+      'invalid input',
+      'jpg to',
+      'to png',
+      ''
+    ];
+
+    return testCases.map(input => {
+      const parsed = this.parseConversionLine(input);
+      return {
+        input,
+        parsed,
+        success: parsed !== null
+      };
+    });
   }
 
   /**
