@@ -24,7 +24,7 @@ import {
   Globe,
   Puzzle
 } from "lucide-react";
-import extensionsData from '@serp-tools/app-core/data/extensions.json';
+import { getAllExtensions } from '@/lib/extensions';
 
 // Icon mapping for extensions using slug
 const iconMap: { [key: string]: any } = {
@@ -45,9 +45,9 @@ const iconMap: { [key: string]: any } = {
   'momentum': Gauge,
 };
 
-// Process extensions from JSON data - use the Chrome extension ID directly
-const processedExtensions = extensionsData
-  .filter((extension: any) => extension.isActive)
+// Process extensions from merged data (core + local)
+const processedExtensions = getAllExtensions()
+  .filter((extension: any) => extension.isActive !== false) // Include all unless explicitly inactive
   .map((extension: any) => ({
     id: extension.id, // Use the Chrome extension ID directly
     slug: extension.slug,
