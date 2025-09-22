@@ -1,0 +1,44 @@
+{
+  "slug": "switch",
+  "extension": "switch",
+  "name": "Switch Package",
+  "summary": "A SWITCH file is a secure package created with Switch, a secure file management program. It contains one or more confidential files that are encrypted with AES-256 encryption. SWITCH files also include information that allows users to see when the package was opened or if unauthorized users have tried to access it.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#switch_package_moreinfo"
+      },
+      {
+        "name": "Program List",
+        "url": "#switch_package_apps"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:49.228Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:49.228Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "ebuild",
+  "extension": "ebuild",
+  "name": "Portage eBuild Script",
+  "summary": "Installer script for Portage, a package management system used by Gentoo Linux; contains compilation and installation procedures for software packages; used by the Portage emerge tool, which installs the software.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#portage_ebuild_script_moreinfo"
+      },
+      {
+        "name": "Program List",
+        "url": "#portage_ebuild_script_apps"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:54.319Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:54.319Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

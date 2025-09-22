@@ -1,0 +1,47 @@
+{
+  "slug": "bz",
+  "extension": "bz",
+  "name": "Bzip Compressed File",
+  "summary": "File archive compressed with Bzip compression; often created on Unix systems with the standard bzip utility; incorporates the Burrows-Wheeler algorithm as well as Run-Length Encoding (RLE), which compresses better than Gzip (.GZIP files), although it does not compress as quickly.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#bzip_compressed_file_moreinfo"
+      },
+      {
+        "name": "Program List",
+        "url": "#bzip_compressed_file_apps"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:29:03.568Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:29:03.568Z"
+    }
+  ],
+  "mime": [
+    "application/x-bzip"
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

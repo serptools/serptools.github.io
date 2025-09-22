@@ -1,0 +1,44 @@
+{
+  "slug": "lg2",
+  "extension": "lg2",
+  "name": "Message Queuing Message State File",
+  "summary": "An LG2 file is a log file created by Microsoft Message Queuing (MSMQ), a technology implemented in Windows for asynchronous communication between applications across different networks. It contains information about the state of a Queueing Message log (QMLog) .MQ file that is currently being written to by MSMQ. LG2 files temporarily store message information, along with .LG1 files, in case the MQ file becomes corrupt during the writing process.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#message_queuing_message_state_file_moreinfo"
+      },
+      {
+        "name": "Common Filenames",
+        "url": "#message_queuing_message_state_file_filenames"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:49.119Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:49.119Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

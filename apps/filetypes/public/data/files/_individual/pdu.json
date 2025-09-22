@@ -1,0 +1,44 @@
+{
+  "slug": "pdu",
+  "extension": "pdu",
+  "name": "LG Backup Extracted MMS Message",
+  "summary": "A PDU file is an MMS message extracted from an LG backup (.LBF) file. PDU files are stored in .ZIP archives. You can extract PDU files from an LBF file using a hex editor, such as HxD. However, there is no known way to open PDU files and view their contents.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#lg_backup_extracted_mms_message_moreinfo"
+      },
+      {
+        "name": "How to Open",
+        "url": "#lg_backup_extracted_mms_message_open"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:52.188Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:52.188Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

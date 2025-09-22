@@ -1,0 +1,44 @@
+{
+  "slug": "lpd",
+  "extension": "lpd",
+  "name": "LPD Daemon Print Permissions File",
+  "summary": "File used by IBM AIX systems and other UNIX systems; has the filename hosts.lpd and specifies print permissions for individual computers or groups of computers; allows system administrators to create fine-grained access control policies for networked printers.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#lpd_daemon_print_permissions_file_moreinfo"
+      },
+      {
+        "name": "Program List",
+        "url": "#lpd_daemon_print_permissions_file_apps"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:29:01.092Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:29:01.092Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

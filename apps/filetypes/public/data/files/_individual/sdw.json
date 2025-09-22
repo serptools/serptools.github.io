@@ -1,0 +1,47 @@
+{
+  "slug": "sdw",
+  "extension": "sdw",
+  "name": "MrSID World File",
+  "summary": "GIS file created for MrSID .SID raster images; contains georeferencing information that maps the raster image data in the SID file to real-world coordinates; contains the units of measurement for the image pixels as well as the coordinates of the upper-left hand pixel.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#mrsid_world_file_moreinfo"
+      },
+      {
+        "name": "Program List",
+        "url": "#mrsid_world_file_apps"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:59.394Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:59.394Z"
+    }
+  ],
+  "mime": [
+    "application/vnd.stardivision.writer"
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

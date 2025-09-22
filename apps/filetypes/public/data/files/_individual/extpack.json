@@ -1,0 +1,44 @@
+{
+  "slug": "extpack",
+  "extension": "extpack",
+  "name": "Oracle VM VirtualBox Extension Pack",
+  "summary": "A VBOX-EXTPACK contains an extension pack used by Oracle VM VirtualBox, a virtualization program for running guest operating systems. It contains data that extends the base functionality of the software, which may include VirtualBox Remote Desktop Protocol (VRDP) support, virtual USB 2.0 and 3.0 devices, host webcam passthrough, and Intel PXE boot ROM.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#oracle_vm_virtualbox_extension_pack_moreinfo"
+      },
+      {
+        "name": "Program List",
+        "url": "#oracle_vm_virtualbox_extension_pack_apps"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:29:05.294Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:29:05.294Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

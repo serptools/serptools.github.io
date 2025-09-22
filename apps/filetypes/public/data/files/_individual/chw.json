@@ -1,0 +1,44 @@
+{
+  "slug": "chw",
+  "extension": "chw",
+  "name": "Compiled Help Index File",
+  "summary": "Help index file created when multiple Compiled HTML Help (.CHM) files are merged together; stores the combined table of contents for the Help content and also includes references to each CHM file; must be rebuilt each time any of the referenced CHM files are updated or the table of contents will not be valid.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#compiled_help_index_file_moreinfo"
+      },
+      {
+        "name": "Program List",
+        "url": "#compiled_help_index_file_apps"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:59.305Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:59.305Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

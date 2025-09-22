@@ -1,0 +1,44 @@
+{
+  "slug": "bbsettings",
+  "extension": "bbsettings",
+  "name": "Blockbench Settings",
+  "summary": "A BBSETTINGS file is a record of a user's Blockbench settings. It contains JSON data that Blockbench uses to retrieve and apply the user's settings. Users can save their current settings as a BBSETTINGS file from Blockbench's Settings window.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#blockbench_settings_moreinfo"
+      },
+      {
+        "name": "How to Open",
+        "url": "#blockbench_settings_open"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:50.593Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:50.593Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

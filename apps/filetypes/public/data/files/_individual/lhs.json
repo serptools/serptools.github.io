@@ -1,0 +1,44 @@
+{
+  "slug": "lhs",
+  "extension": "lhs",
+  "name": "Literate Haskell Script",
+  "summary": "Source code of a program written in Haskell, a functional programming language, with literate formatting; similar to a standard Haskell Script (.HS file), but includes commentary, where only lines starting with \">\" are considered to be program code.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#literate_haskell_script_moreinfo"
+      },
+      {
+        "name": "Program List",
+        "url": "#literate_haskell_script_apps"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:55.932Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:55.932Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

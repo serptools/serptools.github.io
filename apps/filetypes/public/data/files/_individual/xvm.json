@@ -1,0 +1,47 @@
+{
+  "slug": "xvm",
+  "extension": "xvm",
+  "name": "VMware Console Configuration File",
+  "summary": "Settings file used by VMware virtualization software; contains connection information used for connecting to a remote VMware server; stores parameters such as the connection port, login options, and the remote .VMX file to load; used for starting remote console sessions.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#vmware_console_configuration_file_moreinfo"
+      },
+      {
+        "name": "Program List",
+        "url": "#vmware_console_configuration_file_apps"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:45.767Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:45.767Z"
+    }
+  ],
+  "mime": [
+    "application/xv+xml"
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

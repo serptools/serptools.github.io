@@ -1,0 +1,44 @@
+{
+  "slug": "chip",
+  "extension": "chip",
+  "name": "Microarray Annotation File",
+  "summary": "A CHIP file is a microarray annotation file used by Gene Set Enrichment Analysis (GSEA) software. It contains a spreadsheet that maps microarray features (i.e. probe sets) to gene symbols and titles. CHIP files are used to convert the non-symbol gene identifiers contained in some gene expression data files to symbol identifiers.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#microarray_annotation_file_moreinfo"
+      },
+      {
+        "name": "How to Open",
+        "url": "#microarray_annotation_file_open"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:29:04.784Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:29:04.784Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

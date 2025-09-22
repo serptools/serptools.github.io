@@ -1,0 +1,44 @@
+{
+  "slug": "srec",
+  "extension": "srec",
+  "name": "S-record File",
+  "summary": "An SREC file is a data file saved in the Motorola S-record format. It contains ASCII hexadecimal values used to represent binary data. Most often, SREC files contain firmware that is meant to be flashed onto a microcontroller or other erasable programmable read-only memory (EPROM) device.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#s-record_file_moreinfo"
+      },
+      {
+        "name": "How to Open",
+        "url": "#s-record_file_open"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:57.678Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:57.678Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

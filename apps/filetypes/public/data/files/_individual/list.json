@@ -1,0 +1,47 @@
+{
+  "slug": "list",
+  "extension": "list",
+  "name": "APT List File",
+  "summary": "FIle created by APT, an Advanced Package Tool used to manage applications; holds a list of package sources that software can be downloaded from; contains information detailing the archive type indicating whether it contains binary or source packages.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#apt_list_file_moreinfo"
+      },
+      {
+        "name": "Common Filenames",
+        "url": "#apt_list_file_filenames"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:55.749Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:55.749Z"
+    }
+  ],
+  "mime": [
+    "text/plain"
+  ],
+  "category": "document",
+  "related": [],
+  "containers": []
+}

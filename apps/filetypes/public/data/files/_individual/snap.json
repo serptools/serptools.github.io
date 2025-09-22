@@ -1,0 +1,44 @@
+{
+  "slug": "snap",
+  "extension": "snap",
+  "name": "Snap Application Package",
+  "summary": "A SNAP file is a compressed software package created by Snapcraft, which is an app store used by developers to package and distribute apps for Linux. It contains an entire filesystem that is mounted by the snapd tool to run an application in Linux without being developed for Linux.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#snap_application_package_moreinfo"
+      },
+      {
+        "name": "Program List",
+        "url": "#snap_application_package_apps"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:29:04.960Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:29:04.960Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

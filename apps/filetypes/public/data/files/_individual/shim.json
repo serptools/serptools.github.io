@@ -1,0 +1,44 @@
+{
+  "slug": "shim",
+  "extension": "shim",
+  "name": "Scoop Shim File",
+  "summary": "A SHIM file is a plain text file created by Scoop, a command-line program installer for Windows. It contains the path to an installed program and arguments used to run the program. Scoop creates a SHIM file each time a user installs a program.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#scoop_shim_file_moreinfo"
+      },
+      {
+        "name": "How to Open",
+        "url": "#scoop_shim_file_open"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:57.920Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:57.920Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

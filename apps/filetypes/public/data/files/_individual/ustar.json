@@ -1,0 +1,47 @@
+{
+  "slug": "ustar",
+  "extension": "ustar",
+  "name": "Uniform Standard Tape Archive Format File",
+  "summary": "Archive file created using USTAR formatting, which defines a small extension to the .TAR format; stores a collection of files in an uncompressed format; extends the TAR specification with a longer header definition, support for longer archived filenames, and support for more information about each file in the archive.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#uniform_standard_tape_archive_format_file_moreinfo"
+      },
+      {
+        "name": "Program List",
+        "url": "#uniform_standard_tape_archive_format_file_apps"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:29:02.785Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:29:02.785Z"
+    }
+  ],
+  "mime": [
+    "application/x-ustar"
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

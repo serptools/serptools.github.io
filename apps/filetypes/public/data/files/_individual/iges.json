@@ -1,0 +1,47 @@
+{
+  "slug": "iges",
+  "extension": "iges",
+  "name": "IGES Drawing",
+  "summary": "An IGES file is a data file used to exchange 2D or 3D design information between CAD programs, such as Autodesk AutoCAD and ACD Systems Canvas. It typically contains surface information for a model but may also store wireframe, solid model, and circuit diagram information. IGES files are saved in ASCII text format and are based on the Initial Graphics Exchange Specification (IGES) standard.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#iges_drawing_moreinfo"
+      },
+      {
+        "name": "How to Open",
+        "url": "#iges_drawing_open"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:29:01.884Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:29:01.884Z"
+    }
+  ],
+  "mime": [
+    "model/iges"
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "op",
+  "extension": "op",
+  "name": "OpenPAT Report",
+  "summary": "Report created by OpenPAT (Open Performance Analysis Toolkit) tools, a cross-platform program analysis toolkit that helps identify hotspots, bottlenecks, buffer overflows, and other data and control flow information; contains a report of an instrumented program to show an analysis to the user; stores information, depending on the tool it's generated from, such as hotspot, coverage, or control_flow.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#openpat_report_moreinfo"
+      },
+      {
+        "name": "Program List",
+        "url": "#openpat_report_apps"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:46.587Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:46.587Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "squashfs",
+  "extension": "squashfs",
+  "name": "Squashfs File System",
+  "summary": "A SQUASHFS file is a compressed file used by Squashfs, a read-only file system software for Linux. It stores file system data in a highly compressed read-only format. The SQUASHFS format supports files, inodes, and directories. SQUASHFS files are optimized for archiving and read-only file system use.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#squashfs_file_system_moreinfo"
+      },
+      {
+        "name": "How to Open",
+        "url": "#squashfs_file_system_open"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:45.805Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:45.805Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

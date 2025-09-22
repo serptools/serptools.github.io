@@ -1,0 +1,44 @@
+{
+  "slug": "ytdl",
+  "extension": "ytdl",
+  "name": "Youtube-dl Download Progress File",
+  "summary": "A YTDL file is a JSON file created by youtube-dl (or a fork of that program). It contains data that youtube-dl uses to track which segments of a video it has already downloaded. After youtube-dl finishes a download, it automatically deletes that download's YTDL file.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#youtube-dl_download_progress_file_moreinfo"
+      },
+      {
+        "name": "How to Open",
+        "url": "#youtube-dl_download_progress_file_open"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:29:02.108Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:29:02.108Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "msf",
+  "extension": "msf",
+  "name": "Mail Summary File",
+  "summary": "Index of mail messages stored in various e-mail programs' mailboxes; contains mail headers and summaries but not complete messages.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#mail_summary_file_moreinfo"
+      },
+      {
+        "name": "Program List",
+        "url": "#mail_summary_file_apps"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:50.354Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:50.354Z"
+    }
+  ],
+  "mime": [
+    "application/vnd.epson.msf"
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

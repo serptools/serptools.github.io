@@ -1,0 +1,47 @@
+{
+  "slug": "pbm",
+  "extension": "pbm",
+  "name": "Portable Bitmap Image",
+  "summary": "A PBM file is a black-and-white image saved in the Portable Bitmap format. It consists of a plain text header and a grid of 0s and 1s that specify the color of each of the image's pixels. 0s represent white pixels; 1s represent black pixels.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#portable_bitmap_image_moreinfo"
+      },
+      {
+        "name": "How to Open",
+        "url": "#portable_bitmap_image_open"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:45.459Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:45.459Z"
+    }
+  ],
+  "mime": [
+    "image/x-portable-bitmap"
+  ],
+  "category": "image_raster",
+  "related": [],
+  "containers": []
+}

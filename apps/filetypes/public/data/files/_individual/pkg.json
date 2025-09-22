@@ -1,0 +1,47 @@
+{
+  "slug": "pkg",
+  "extension": "pkg",
+  "name": "Symbian Package File",
+  "summary": "A PKG file is a configuration file required to build a Symbian OS installer (.SIS file). It contains plain text information that defines how a SIS creation program, such as CreateSIS and Easy SIS Creator, builds a SIS file. For example, PKG files typically define an application's supported languages, vendor name, software dependencies, files to copy, and digital signature details.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#symbian_package_file_moreinfo"
+      },
+      {
+        "name": "How to Open",
+        "url": "#symbian_package_file_open"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:29:02.001Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:29:02.001Z"
+    }
+  ],
+  "mime": [
+    "application/octet-stream"
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

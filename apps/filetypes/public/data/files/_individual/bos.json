@@ -1,0 +1,44 @@
+{
+  "slug": "bos",
+  "extension": "bos",
+  "name": "Build Options Specification File",
+  "summary": "A BOS file is a build options specification file used by clearmake, a utility that comes with Rational ClearCase used to build executable programs. It contains macro definitions and ClearCase special targets saved in plain text. BOS files are commonly used to store temporary macros (like CFLAGS=/Zi) that should not be permanently included in the makefile.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#build_options_specification_file_moreinfo"
+      },
+      {
+        "name": "Program List",
+        "url": "#build_options_specification_file_apps"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:55.653Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:55.653Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

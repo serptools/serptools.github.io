@@ -1,0 +1,44 @@
+{
+  "slug": "shd",
+  "extension": "shd",
+  "name": "Windows Print Job Shadow File",
+  "summary": "File created by Windows when a user submits a print job; stores header information for a print job, but does not store the actual spooled document data; allows the print job settings to be \"shadowed\" so that the job can be resubmitted again if there is an interruption.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#windows_print_job_shadow_file_moreinfo"
+      },
+      {
+        "name": "Program List",
+        "url": "#windows_print_job_shadow_file_apps"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:29:00.120Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:29:00.120Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

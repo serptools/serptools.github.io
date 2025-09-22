@@ -1,0 +1,44 @@
+{
+  "slug": "menu",
+  "extension": "menu",
+  "name": "Sublime Text Menu File",
+  "summary": "Resource file used by Sublime Text, a text editor mainly used to edit source code; contains menu data, such as menu and item elements and caption and command attributes; describes the appearance and behavior of Sublime Text menus.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#sublime_text_menu_file_moreinfo"
+      },
+      {
+        "name": "Common Filenames",
+        "url": "#sublime_text_menu_file_filenames"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:56.619Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:56.619Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

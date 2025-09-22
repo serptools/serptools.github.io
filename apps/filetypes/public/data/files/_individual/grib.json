@@ -1,0 +1,44 @@
+{
+  "slug": "grib",
+  "extension": "grib",
+  "name": "Gridded Binary File",
+  "summary": "A GRIB file is a data file that contains meteorological information used by various climate applications, such as Unidata Integrated Data Viewer and GDAL. It stores data in a grid structure, supporting multiple layers of information, such as temperature, wind speed, and pressure, which makes it a common choice for representing large-scale weather patterns. Meteorological agencies and researchers widely use the format for storing and sharing weather forecasts, climate data, and atmospheric models for numerical weather prediction and analysis (using mathematical models to predict future conditions based on current conditions).",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#gridded_binary_file_moreinfo"
+      },
+      {
+        "name": "How to Open",
+        "url": "#gridded_binary_file_open"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:29:01.237Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:29:01.237Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

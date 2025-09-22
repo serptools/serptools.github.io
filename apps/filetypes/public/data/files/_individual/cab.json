@@ -1,0 +1,47 @@
+{
+  "slug": "cab",
+  "extension": "cab",
+  "name": "Windows Cabinet File",
+  "summary": "A CAB file is an archive saved in the Windows Cabinet archive format. The CAB format supports the .ZIP, Quantum, and LZX data compression algorithms. CAB files contain compressed data and are used for Windows software installations, such as system files, network components, and device drivers.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#windows_cabinet_file_moreinfo"
+      },
+      {
+        "name": "How to Open",
+        "url": "#windows_cabinet_file_open"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:53.887Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:53.887Z"
+    }
+  ],
+  "mime": [
+    "application/vnd.ms-cab-compressed"
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

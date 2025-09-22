@@ -1,0 +1,44 @@
+{
+  "slug": "vmss",
+  "extension": "vmss",
+  "name": "VMware Suspended State File",
+  "summary": "A VMSS file saves the state of a virtual machine (VM) when it is in a suspended state, meaning that it has been stopped temporarily. VMware virtualization software creates a VMSS file automatically when a user suspends a VM, allowing them to stop and resume a VM.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#vmware_suspended_state_file_moreinfo"
+      },
+      {
+        "name": "Common Filenames",
+        "url": "#vmware_suspended_state_file_filenames"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:29:05.225Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:29:05.225Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

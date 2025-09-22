@@ -1,0 +1,44 @@
+{
+  "slug": "nuspec",
+  "extension": "nuspec",
+  "name": "NuGet Specification File",
+  "summary": "File used by NuGet, a Microsoft Visual Studio extension used for managing third-party libraries for .NET projects; saved in an XML format and contains information that is used to build a NuGet package (.NUPKG file), which subsequently can be added as a Visual Studio project library.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#nuget_specification_file_moreinfo"
+      },
+      {
+        "name": "Program List",
+        "url": "#nuget_specification_file_apps"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:52.741Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:52.741Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

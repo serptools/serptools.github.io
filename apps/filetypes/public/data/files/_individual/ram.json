@@ -1,0 +1,47 @@
+{
+  "slug": "ram",
+  "extension": "ram",
+  "name": "Real Audio Metadata File",
+  "summary": "Link file used by RealPlayer, a program used for streaming Internet audio and video; saved in plain text and contains a hyperlink to a corresponding .RA file, which can be streamed; includes a \"pnm\" or \"rtsp\" URL, which are the protocols used to access and play RealAudio data.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#real_audio_metadata_file_moreinfo"
+      },
+      {
+        "name": "Program List",
+        "url": "#real_audio_metadata_file_apps"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:29:02.266Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:29:02.266Z"
+    }
+  ],
+  "mime": [
+    "audio/x-pn-realaudio"
+  ],
+  "category": "audio",
+  "related": [],
+  "containers": []
+}

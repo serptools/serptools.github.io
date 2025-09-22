@@ -1,0 +1,47 @@
+{
+  "slug": "yang",
+  "extension": "yang",
+  "name": "YANG Module",
+  "summary": "A YANG file is a data model written in the Yet Another Next Generation (YANG) data modeling language. It contains network element configuration data or state data structured using an XML tree format. YANG files are used to define how data is sent over network management protocols, such as Network Configuration Protocol (NETCONF) and RESTCONF.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#yang_module_moreinfo"
+      },
+      {
+        "name": "How to Open",
+        "url": "#yang_module_open"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:53.621Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:53.621Z"
+    }
+  ],
+  "mime": [
+    "application/yang"
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

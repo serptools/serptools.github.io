@@ -1,0 +1,44 @@
+{
+  "slug": "tlm",
+  "extension": "tlm",
+  "name": "Telemetry Data File",
+  "summary": "A TLM file contains telemetry data recorded by an aircraft (e.g., planes) or spacecraft (e.g., satellites) in a binary format proprietary to the manufacturer of the craft. It may store various data, including scientific data recorded by measurement instruments, temperature readings from parts of the satellite or aircraft, or image data from the satellite or aircraft's cameras. Software available from the craft manufacturer allows users to display, analyze, and distribute the data.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#telemetry_data_file_moreinfo"
+      },
+      {
+        "name": "How to Open",
+        "url": "#telemetry_data_file_open"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:47.263Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:47.263Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

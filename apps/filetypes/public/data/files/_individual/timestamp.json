@@ -1,0 +1,44 @@
+{
+  "slug": "timestamp",
+  "extension": "timestamp",
+  "name": "Geodatabase Timestamp File",
+  "summary": "A TIMESTAMP file is a data file created by ESRI mapping software, such as ArcMap or ArcCatalog. It contains information about edits that have been made to a file geodatabase (.GDB file), which stores geographic information. TIMESTAMP files should never be modified or deleted, otherwise the geodatabase it is associated with will become corrupt.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#geodatabase_timestamp_file_moreinfo"
+      },
+      {
+        "name": "Common Filenames",
+        "url": "#geodatabase_timestamp_file_filenames"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:54.875Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:54.875Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

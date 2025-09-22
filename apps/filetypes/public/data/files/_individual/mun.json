@@ -1,0 +1,44 @@
+{
+  "slug": "mun",
+  "extension": "mun",
+  "name": "Windows System Resource Archive",
+  "summary": "A MUN file is a compressed file that contains Windows system resources, including the icons used by a system-level Windows program. Most MUN files are found in the C:/​Windows/​SystemResources directory, though some are found in application-specific directories. Typically, MUN files have filenames that end in .exe.mun or .dll.mun.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#windows_system_resource_archive_moreinfo"
+      },
+      {
+        "name": "How to Open",
+        "url": "#windows_system_resource_archive_open"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:45.398Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:45.398Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

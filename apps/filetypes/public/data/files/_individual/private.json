@@ -1,0 +1,44 @@
+{
+  "slug": "private",
+  "extension": "private",
+  "name": "OpenSSL Private Key",
+  "summary": "RSA.PRIVATE is a private cryptographic key created by the OpenSSL command line utility. It contains a string of text used to decrypt information sent from a web browser to a web server. Server and web administrators typically generate RSA.PRIVATE while installing an SSL certificate on a web server.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#openssl_private_key_moreinfo"
+      },
+      {
+        "name": "How to Open",
+        "url": "#openssl_private_key_open"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:52.936Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:52.936Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

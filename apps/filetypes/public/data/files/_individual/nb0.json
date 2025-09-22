@@ -1,0 +1,44 @@
+{
+  "slug": "nb0",
+  "extension": "nb0",
+  "name": "Device Boot Loader Image",
+  "summary": "System file used to \"flash\" a boot loader image onto a mobile device; contains a raw binary image that can be loaded directly into the target device's RAM; allows the device to boot and then load a separate formatted image; can be used to alter system data such as the default operating system and applications.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#device_boot_loader_image_moreinfo"
+      },
+      {
+        "name": "Program List",
+        "url": "#device_boot_loader_image_apps"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:29:02.306Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:29:02.306Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

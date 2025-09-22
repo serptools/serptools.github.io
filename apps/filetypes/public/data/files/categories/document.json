@@ -1,0 +1,631 @@
+{
+  "name": "Document",
+  "slug": "document",
+  "count": 78,
+  "items": [
+    {
+      "slug": "appcache",
+      "extension": "appcache",
+      "name": "HTML5 Cache Manifest File",
+      "category": "document",
+      "summary": "An APPCACHE file is a file used by web browsers to enable accessibility of web applications when there is no network connection. It contains copies of resources that make up web applications, such as images (.PNG, .GIF, etc.) and .CSS, and .JS files, and are identified by URLs.",
+      "popularity": 0
+    },
+    {
+      "slug": "asm",
+      "extension": "asm",
+      "name": "What are ASM files and how to open them",
+      "category": "document",
+      "summary": "Having problems opening an ASM file?",
+      "popularity": 0
+    },
+    {
+      "slug": "c",
+      "extension": "c",
+      "name": "What are ODX-C files and how to open them",
+      "category": "document",
+      "summary": "Having problems opening an ODX-C file?",
+      "popularity": 0
+    },
+    {
+      "slug": "cc",
+      "extension": "cc",
+      "name": "C++ Source Code File",
+      "category": "document",
+      "summary": "A CC file is a source code file for a C++ program. It may contain all the code for a single program or part of the code within a programming project (one of several CC files). Users often view and edit code in a CC file with a source code editor, then compile the language into machine code via a compiler, which the computer's operating system can understand to run the compiled program.",
+      "popularity": 0
+    },
+    {
+      "slug": "coffee",
+      "extension": "coffee",
+      "name": "CoffeeScript JavaScript File",
+      "category": "document",
+      "summary": "JavaScript file written in CoffeeScript, a programming language that compiles and transcompiles to JavaScript; saved in a text format and contains code that is similar to JavaScript, but modified to be more readable.",
+      "popularity": 0
+    },
+    {
+      "slug": "conf",
+      "extension": "conf",
+      "name": "Unix Configuration File",
+      "category": "document",
+      "summary": "A CONF file is a configuration or \"config\" file used on Unix and Linux based systems. It stores settings used to configure system processes and applications. CONF files are similar to .CFG files found on Windows and Macintosh systems.",
+      "popularity": 0
+    },
+    {
+      "slug": "cpp",
+      "extension": "cpp",
+      "name": "What are CPP files and how to open them",
+      "category": "document",
+      "summary": "Having problems opening a CPP file?",
+      "popularity": 0
+    },
+    {
+      "slug": "css",
+      "extension": "css",
+      "name": "What are CSS files and how to open them",
+      "category": "document",
+      "summary": "Having problems opening a CSS file?",
+      "popularity": 0
+    },
+    {
+      "slug": "csv",
+      "extension": "csv",
+      "name": "What are CSV files and how to open them",
+      "category": "document",
+      "summary": "Having problems opening a CSV file?",
+      "popularity": 0
+    },
+    {
+      "slug": "curl",
+      "extension": "curl",
+      "name": "What are CURL files and how to open them",
+      "category": "document",
+      "summary": "Having problems opening a CURL file?",
+      "popularity": 0
+    },
+    {
+      "slug": "cxx",
+      "extension": "cxx",
+      "name": "What are CXX files and how to open them",
+      "category": "document",
+      "summary": "Having problems opening a CXX file?",
+      "popularity": 0
+    },
+    {
+      "slug": "def",
+      "extension": "def",
+      "name": "M.U.G.E.N Character Definition File",
+      "category": "document",
+      "summary": "A DEF file is a game data file used by M.U.G.E.N (or just Mugen), a free sprite-based game engine used for making 2D fighting games. It contains the definition for a character, which includes the character name and version information. DEF files also store the character specification files (.CNS, .SFF, .CMD, .SND, and .AIR) used by the engine.",
+      "popularity": 0
+    },
+    {
+      "slug": "dic",
+      "extension": "dic",
+      "name": "What are DIC files and how to open them",
+      "category": "document",
+      "summary": "Having problems opening a DIC file?",
+      "popularity": 0
+    },
+    {
+      "slug": "dsc",
+      "extension": "dsc",
+      "name": "Kingsoft Design Science Equation File",
+      "category": "document",
+      "summary": "A DSC file is a settings file used by WPS Office (previously known as Kingsoft Office), an office suite which includes the Writer, Spreadsheets, and Presentation applications. It stores the settings for the Design Science Equation Editor, which includes the window size, interface style, and zoom magnification.",
+      "popularity": 0
+    },
+    {
+      "slug": "etx",
+      "extension": "etx",
+      "name": "TeX Font Encoding File",
+      "category": "document",
+      "summary": "Font file used by TeX and LaTeX typesetting systems; saved in a plain text format and contains markup that describes how a font is encoded for its appearance; allows font customization for TeX documents.",
+      "popularity": 0
+    },
+    {
+      "slug": "f",
+      "extension": "f",
+      "name": "Freeze Compressed File",
+      "category": "document",
+      "summary": "Unix file archive compressed with the \"freeze\" file compression program; part of the freeze/melt/fcat compression utilities package; has mostly been replaced by the GNU zip suite that includes gzip, gunzip, and zcat.",
+      "popularity": 0
+    },
+    {
+      "slug": "f77",
+      "extension": "f77",
+      "name": "Fortran 77 Source Code File",
+      "category": "document",
+      "summary": "An F77 file contains source code written in the Fortran 77 (F77) programming language. It is used to compile a Fortran 77 program using the language's compiler, which is also named F77.",
+      "popularity": 0
+    },
+    {
+      "slug": "f90",
+      "extension": "f90",
+      "name": "Fortran 90 Source Code File",
+      "category": "document",
+      "summary": "Source code file written in the Fortran 90 (F90) language, a programming language suitable for numerical and scientific computing; often edited with text editors that provide syntax highlighting; can be a program module or an entire program.",
+      "popularity": 0
+    },
+    {
+      "slug": "flx",
+      "extension": "flx",
+      "name": "FelixCAD Drawing",
+      "category": "document",
+      "summary": "2D or 3D CAD drawing format used by FelixCAD, a free design and drafting program; used for designing three-dimensional objects and structures; similar to the .DWG format used by AutoCAD.",
+      "popularity": 0
+    },
+    {
+      "slug": "for",
+      "extension": "for",
+      "name": "Fortran Source Code File",
+      "category": "document",
+      "summary": "A FOR file contains source code written in Fortran programming languages, such as Fortran 77 (F77), often used for scientific and numerical computations. It typically stores F77 language in a fixed-form layout inherited from 80-column punched cards early computer developers used to store programs. Users can open and edit FOR files with a text editor or IDE that provides syntax highlighting.",
+      "popularity": 0
+    },
+    {
+      "slug": "ged",
+      "extension": "ged",
+      "name": "What are GED files and how to open them",
+      "category": "document",
+      "summary": "Having problems opening a GED file?",
+      "popularity": 0
+    },
+    {
+      "slug": "gv",
+      "extension": "gv",
+      "name": "Graphviz DOT File",
+      "category": "document",
+      "summary": "Document that contains a text description of graphs of nodes and edges; written in the DOT language and can be read by Graphviz compatible software programs.",
+      "popularity": 0
+    },
+    {
+      "slug": "h",
+      "extension": "h",
+      "name": "What are H files and how to open them",
+      "category": "document",
+      "summary": "Having problems opening a H file?",
+      "popularity": 0
+    },
+    {
+      "slug": "hbs",
+      "extension": "hbs",
+      "name": "Handlebars Template",
+      "category": "document",
+      "summary": "An HBS file is a template file created by Handlebars, a web template system. It contains a template written in HTML code and embedded with Handlebars expressions. An HBS file performs the same function as a .HANDLEBARS file.",
+      "popularity": 0
+    },
+    {
+      "slug": "hh",
+      "extension": "hh",
+      "name": "C++ Header File",
+      "category": "document",
+      "summary": "Contains header information referenced by a C++ source code file; may include extra variables, constants, functions, or other data used by the C++ program; typically referenced at the beginning of the source code.",
+      "popularity": 0
+    },
+    {
+      "slug": "htc",
+      "extension": "htc",
+      "name": "HTML Component File",
+      "category": "document",
+      "summary": "File used by Internet Explorer, a common Web browser that displays the content of Web pages; contains definitions for HTML Components that define dynamic behavior within Web pages; designed to contain functions that are reusable across multiple .HTML pages; stored in plain text format.",
+      "popularity": 0
+    },
+    {
+      "slug": "htm",
+      "extension": "htm",
+      "name": "Hypertext Markup Language File",
+      "category": "document",
+      "summary": "An HTM file is a webpage written using Hypertext Markup Language (HTML). It contains tags and text that define the webpage's layout and content. HTM files are the same as .HTML files.",
+      "popularity": 0
+    },
+    {
+      "slug": "html",
+      "extension": "html",
+      "name": "Hypertext Markup Language File",
+      "category": "document",
+      "summary": "An HTML file contains Hypertext Markup Language (HTML) that formats the structure of a webpage. It is stored in a standard text format and contains tags that define the page layout and content of the webpage, including the text, tables, images, and hyperlinks displayed on the webpage. HTML files are widely used online and displayed in web browsers.",
+      "popularity": 0
+    },
+    {
+      "slug": "ics",
+      "extension": "ics",
+      "name": "Calendar File",
+      "category": "document",
+      "summary": "An ICS file is a calendar file saved in a universal calendar format used by several email and calendar programs, including Microsoft Outlook, Google Calendar, and Apple Calendar. It allows users to share calendar information on the web and over email. For example, when users send a meeting request to others, they can share ICS files with them, who can import the meeting's details into their calendars.",
+      "popularity": 0
+    },
+    {
+      "slug": "ifb",
+      "extension": "ifb",
+      "name": "What are IFB files and how to open them",
+      "category": "document",
+      "summary": "Having problems opening an IFB file?",
+      "popularity": 0
+    },
+    {
+      "slug": "in",
+      "extension": "in",
+      "name": "Autoconf Input File",
+      "category": "document",
+      "summary": "An IN file is an input file referenced by GNU Autoconf when building an application. One or more .in or .h.in files may be referenced by an Autoconf script (.AC file) when the configure process is run. IN files define variables, such as an app's version number and release date, which are referenced during program installation. IN files may also be used to check for the presence or absence of features in a specific installation.",
+      "popularity": 0
+    },
+    {
+      "slug": "ini",
+      "extension": "ini",
+      "name": "Windows Initialization File",
+      "category": "document",
+      "summary": "An INI file is a configuration file used by Windows programs to initialize program settings. It contains sections for settings and preferences (delimited by a string in square brackets) with each section containing one or more name and value parameters.",
+      "popularity": 0
+    },
+    {
+      "slug": "jad",
+      "extension": "jad",
+      "name": "What are JAD files and how to open them",
+      "category": "document",
+      "summary": "Having problems opening a JAD file?",
+      "popularity": 0
+    },
+    {
+      "slug": "jade",
+      "extension": "jade",
+      "name": "What are JADE files and how to open them",
+      "category": "document",
+      "summary": "Having problems opening a JADE file?",
+      "popularity": 0
+    },
+    {
+      "slug": "java",
+      "extension": "java",
+      "name": "Java Source Code File",
+      "category": "document",
+      "summary": "A JAVA file is a source code file written in the Java programming language, which was originally developed by Sun Microsystems but is now maintained by Oracle. It uses an object-oriented approach, where structured data types, called classes, are used to instantiate objects at runtime.",
+      "popularity": 0
+    },
+    {
+      "slug": "jsx",
+      "extension": "jsx",
+      "name": "What are JSX files and how to open them",
+      "category": "document",
+      "summary": "Having problems opening a JSX file?",
+      "popularity": 0
+    },
+    {
+      "slug": "less",
+      "extension": "less",
+      "name": "LESS Style Sheet",
+      "category": "document",
+      "summary": "Webpage style sheet used by LESS, a dynamic style sheet language that extends standard CSS with features such as variables, mixins, operations, and functions; requires the LESS JavaScript library (less.js) to be included in the head section of the HTML page in order for styles in referenced LESS files to be processed.",
+      "popularity": 0
+    },
+    {
+      "slug": "list",
+      "extension": "list",
+      "name": "APT List File",
+      "category": "document",
+      "summary": "FIle created by APT, an Advanced Package Tool used to manage applications; holds a list of package sources that software can be downloaded from; contains information detailing the archive type indicating whether it contains binary or source packages.",
+      "popularity": 0
+    },
+    {
+      "slug": "log",
+      "extension": "log",
+      "name": "Log File",
+      "category": "document",
+      "summary": "A LOG file is a log used by various operating systems and programs. It typically contains a plain text log of certain events with their timestamps. LOG files may be created by the operating system to keep track of system events or by a software installation program to list location and names of installed files.",
+      "popularity": 0
+    },
+    {
+      "slug": "lua",
+      "extension": "lua",
+      "name": "What are LUA files and how to open them",
+      "category": "document",
+      "summary": "Having problems opening a LUA file?",
+      "popularity": 0
+    },
+    {
+      "slug": "man",
+      "extension": "man",
+      "name": "What are MAN files and how to open them",
+      "category": "document",
+      "summary": "Having problems opening a MAN file?",
+      "popularity": 0
+    },
+    {
+      "slug": "manifest",
+      "extension": "manifest",
+      "name": "What are MANIFEST files and how to open them",
+      "category": "document",
+      "summary": "Having problems opening a MANIFEST file?",
+      "popularity": 0
+    },
+    {
+      "slug": "markdown",
+      "extension": "markdown",
+      "name": "Markdown Documentation File",
+      "category": "document",
+      "summary": "A MARKDOWN file is a text file created using one of several possible dialects of the Markdown language. It uses plain text formatting but contains inline text symbols that specify how to format the text (e.g., **bold** for bold text, or other markups for italics, indentation, headers, etc.). MARKDOWN files are designed for writing documentation in plain text that can be easily converted to HTML.",
+      "popularity": 0
+    },
+    {
+      "slug": "md",
+      "extension": "md",
+      "name": "What are MD files and how to open them",
+      "category": "document",
+      "summary": "Having problems opening a MD file?",
+      "popularity": 0
+    },
+    {
+      "slug": "mdx",
+      "extension": "mdx",
+      "name": "What are MDX files and how to open them",
+      "category": "document",
+      "summary": "Having problems opening a MDX file?",
+      "popularity": 0
+    },
+    {
+      "slug": "me",
+      "extension": "me",
+      "name": "Readme Text File",
+      "category": "document",
+      "summary": "ME files are Readme files, which contain basic documentation for a software program. Typically, these files are named READ.ME. Most ME files are plain text files, so you can open them in any text editor.",
+      "popularity": 0
+    },
+    {
+      "slug": "mjs",
+      "extension": "mjs",
+      "name": "Node.js ES Module File",
+      "category": "document",
+      "summary": "An MJS file is a source code file containing an ES Module (ECMAScript Module) for use with a Node.js application. MJS files are written in JavaScript, and may also use the .JS extension outside of the Node.js context. ES Modules allow web and application developers to organize code into smaller reusable components.",
+      "popularity": 0
+    },
+    {
+      "slug": "mkd",
+      "extension": "mkd",
+      "name": "Markdown Documentation File",
+      "category": "document",
+      "summary": "An MKD file is a text file created using one of several possible dialects of the Markdown language. It is saved in plain text format but includes inline text symbols that define how to format the text (e.g., bold, indentations, headers, table formatting). MKD files may also be saved as .MD, .MARKDOWN, or .MDOWN files",
+      "popularity": 0
+    },
+    {
+      "slug": "mml",
+      "extension": "mml",
+      "name": "What are MML files and how to open them",
+      "category": "document",
+      "summary": "Having problems opening a MML file?",
+      "popularity": 0
+    },
+    {
+      "slug": "ms",
+      "extension": "ms",
+      "name": "Windows 8 Account Picture File",
+      "category": "document",
+      "summary": "File used by the Windows 8 operating system; saves the user's account picture, which is the image that appears on the Windows 8 Start screen in the upper right-hand corner; often contains a picture of the person captured with the computer's webcam.",
+      "popularity": 0
+    },
+    {
+      "slug": "nfo",
+      "extension": "nfo",
+      "name": "What are NFO files and how to open them",
+      "category": "document",
+      "summary": "Having problems opening a NFO file?",
+      "popularity": 0
+    },
+    {
+      "slug": "opml",
+      "extension": "opml",
+      "name": "Outline Processor Markup Language File",
+      "category": "document",
+      "summary": "Outline document written in OPML (Outline Processor Markup Language); used to exchange lists of Web feeds (such as .RSS files) between Web feed aggregators; also used for other general outlining purposes.",
+      "popularity": 0
+    },
+    {
+      "slug": "p",
+      "extension": "p",
+      "name": "Python Pickle File",
+      "category": "document",
+      "summary": "A P file is a pickle file created by pickle, a Python module used for converting Python objects to a byte representation for storage on disk or transfer over a network. It allows for objects to be conveniently stored or transmitted without first having to convert the data to another format. P files can be \"unpickled\" and loaded back into program memory during runtime.",
+      "popularity": 0
+    },
+    {
+      "slug": "pas",
+      "extension": "pas",
+      "name": "What are PAS files and how to open them",
+      "category": "document",
+      "summary": "Having problems opening a PAS file?",
+      "popularity": 0
+    },
+    {
+      "slug": "pde",
+      "extension": "pde",
+      "name": "What are PDE files and how to open them",
+      "category": "document",
+      "summary": "Having problems opening a PDE file?",
+      "popularity": 0
+    },
+    {
+      "slug": "rtx",
+      "extension": "rtx",
+      "name": "What are RTX files and how to open them",
+      "category": "document",
+      "summary": "Having problems opening a RTX file?",
+      "popularity": 0
+    },
+    {
+      "slug": "s",
+      "extension": "s",
+      "name": "Source Code File",
+      "category": "document",
+      "summary": "An S file is a generic source code file that contains the source for a computer program. It may be written in a number of different programming languages, but is commonly used for storing Assembly code.",
+      "popularity": 0
+    },
+    {
+      "slug": "sass",
+      "extension": "sass",
+      "name": "Syntactically Awesome StyleSheets File",
+      "category": "document",
+      "summary": "A SASS file is a Syntactically Awesome StyleSheets file. It contains Sass syntax, which is an extension of cascading style sheets (CSS) used to format the layout of webpages.",
+      "popularity": 0
+    },
+    {
+      "slug": "scss",
+      "extension": "scss",
+      "name": "Sass Cascading Style Sheet",
+      "category": "document",
+      "summary": "An SCSS file is a style sheet that contains Sass language. It is similar to a .CSS file but with added capabilities, such as variables, nested rules, and mix-ins. SCSS files are used to format webpage contents.",
+      "popularity": 0
+    },
+    {
+      "slug": "sfv",
+      "extension": "sfv",
+      "name": "What are SFV files and how to open them",
+      "category": "document",
+      "summary": "Having problems opening a SFV file?",
+      "popularity": 0
+    },
+    {
+      "slug": "sgm",
+      "extension": "sgm",
+      "name": "VisualBoyAdvance Saved Game",
+      "category": "document",
+      "summary": "Saved state file created by VisualBoyAdvance, a Game Boy emulator; contains a snapshot of the game state, which can be saved at any time during gameplay; used for saving and loading in-game progress.",
+      "popularity": 0
+    },
+    {
+      "slug": "sgml",
+      "extension": "sgml",
+      "name": "Standard Generalized Markup Language File",
+      "category": "document",
+      "summary": "Document written in Standard Generalized Markup Language (SGML); includes tags that describe the information's structure and content; may contain multiple types of information, such as text, graphics, database information, and even audio and video data.",
+      "popularity": 0
+    },
+    {
+      "slug": "shtml",
+      "extension": "shtml",
+      "name": "What are SHTML files and how to open them",
+      "category": "document",
+      "summary": "Having problems opening a SHTML file?",
+      "popularity": 0
+    },
+    {
+      "slug": "t",
+      "extension": "t",
+      "name": "What are T files and how to open them",
+      "category": "document",
+      "summary": "Having problems opening a T file?",
+      "popularity": 0
+    },
+    {
+      "slug": "text",
+      "extension": "text",
+      "name": "What are TEXT files and how to open them",
+      "category": "document",
+      "summary": "Having problems opening a TEXT file?",
+      "popularity": 0
+    },
+    {
+      "slug": "tr",
+      "extension": "tr",
+      "name": "What are TR files and how to open them",
+      "category": "document",
+      "summary": "Having problems opening a TR file?",
+      "popularity": 0
+    },
+    {
+      "slug": "tsv",
+      "extension": "tsv",
+      "name": "Tab-Separated Values File",
+      "category": "document",
+      "summary": "A TSV file contains a plain text data table saved in the tab-separated values format. The table is divided into columns, separated by tabs, and rows, separated by line breaks. Commonly, users open TSV files with Microsoft Excel, Google Sheets, and other spreadsheet applications, to view the data they contain as a spreadsheet.",
+      "popularity": 0
+    },
+    {
+      "slug": "ttl",
+      "extension": "ttl",
+      "name": "AGT Game Title File",
+      "category": "document",
+      "summary": "File used by Adventure Game Toolkit (AGT) interpreters; contains game title data referenced by AGT games; includes the author's name, name of the game, and copyright statement that are displayed before the game begins.",
+      "popularity": 0
+    },
+    {
+      "slug": "txt",
+      "extension": "txt",
+      "name": "Plain Text File",
+      "category": "document",
+      "summary": "A TXT file is a standard text document that contains plain text. It can be opened and edited in any text-editing or word-processing program. TXT files are most often created by Microsoft Notepad and Apple TextEdit, which are basic text editors that come bundled with Windows and macOS, respectively.",
+      "popularity": 0
+    },
+    {
+      "slug": "uu",
+      "extension": "uu",
+      "name": "Uuencoded File",
+      "category": "document",
+      "summary": "File created by uuencode, a Unix program used for converting binary data to text; contains the textual encoding of an original binary file; often used to email a binary file in a text format so that the file does not become corrupted.",
+      "popularity": 0
+    },
+    {
+      "slug": "vcard",
+      "extension": "vcard",
+      "name": "What are VCARD files and how to open them",
+      "category": "document",
+      "summary": "Having problems opening a VCARD file?",
+      "popularity": 0
+    },
+    {
+      "slug": "vcf",
+      "extension": "vcf",
+      "name": "vCard File",
+      "category": "document",
+      "summary": "A VCF file is a standard file format for storing contact information for one or more persons or a business. It typically includes a name, address, phone number, email address, and other contact information. VCF files also support custom fields, images, and other types of media.",
+      "popularity": 0
+    },
+    {
+      "slug": "vcs",
+      "extension": "vcs",
+      "name": "What are VCS files and how to open them",
+      "category": "document",
+      "summary": "Having problems opening a VCS file?",
+      "popularity": 0
+    },
+    {
+      "slug": "vtt",
+      "extension": "vtt",
+      "name": "What are VTT files and how to open them",
+      "category": "document",
+      "summary": "Having problems opening a VTT file?",
+      "popularity": 0
+    },
+    {
+      "slug": "wml",
+      "extension": "wml",
+      "name": "What are WML files and how to open them",
+      "category": "document",
+      "summary": "Having problems opening a WML file?",
+      "popularity": 0
+    },
+    {
+      "slug": "yaml",
+      "extension": "yaml",
+      "name": "What are YAML files and how to open them",
+      "category": "document",
+      "summary": "Having problems opening a YAML file?",
+      "popularity": 0
+    },
+    {
+      "slug": "yml",
+      "extension": "yml",
+      "name": "YAML Document",
+      "category": "document",
+      "summary": "A YML file is a text document that contains data formatted using YAML (YAML Ain't Markup Language), a human-readable data format used for data serialization. It is used for reading and writing data independent of a specific programming language. Because YAML syntax is language-agnostic, YML files can be incorporated into programs written in most popular programming languages, including C/C++, Ruby, Python, Java, Perl, C#, PHP, and others.",
+      "popularity": 0
+    },
+    {
+      "slug": "ymp",
+      "extension": "ymp",
+      "name": "YaST Metapackage File",
+      "category": "document",
+      "summary": "Installer package format used by openSUSE; allows one-click program installation from the Internet; includes metadata about the package, such as version information, system requirements, and installation details.",
+      "popularity": 0
+    }
+  ]
+}

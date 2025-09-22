@@ -1,0 +1,44 @@
+{
+  "slug": "log1",
+  "extension": "log1",
+  "name": "Windows Registry Hive Log File",
+  "summary": "Log file used by the Windows registry; contains a trace of changes that have been made to the user's registry over time; typically found in the user's directory or under the %SystemRoot%\\​System32\\​config directory in Windows; saved in a binary format and as a hidden file in Windows.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#windows_registry_hive_log_file_moreinfo"
+      },
+      {
+        "name": "Program List",
+        "url": "#windows_registry_hive_log_file_apps"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:54.266Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:54.266Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

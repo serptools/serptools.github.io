@@ -1,0 +1,47 @@
+{
+  "slug": "ova",
+  "extension": "ova",
+  "name": "Open Virtual Appliance",
+  "summary": "An OVA file is a virtual appliance used by virtualization applications such as VMware Workstation and Oracle VM Virtualbox. It is a package that contains files used to describe a virtual machine, which includes an .OVF descriptor file, optional manifest (.MF) and certificate files, and other related files.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#open_virtual_appliance_moreinfo"
+      },
+      {
+        "name": "Program List",
+        "url": "#open_virtual_appliance_apps"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:29:05.707Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:29:05.707Z"
+    }
+  ],
+  "mime": [
+    "application/x-virtualbox-ova"
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

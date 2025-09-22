@@ -1,0 +1,47 @@
+{
+  "slug": "paw",
+  "extension": "paw",
+  "name": "Pawaa File",
+  "summary": "File created in the pawaaFILE format, a format developed by Pawaa Software for secure storage and transmission of files, particularly in enterprise environments; encapsulates any file with an encryption layer and a usage policy so that the file is protected from unwanted access; also enforces audit trails and expiration dates so the file has additional levels of distribution control.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#pawaa_file_moreinfo"
+      },
+      {
+        "name": "Program List",
+        "url": "#pawaa_file_apps"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:57.398Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:57.398Z"
+    }
+  ],
+  "mime": [
+    "application/vnd.pawaafile"
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

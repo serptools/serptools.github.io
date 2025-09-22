@@ -1,0 +1,44 @@
+{
+  "slug": "cyi",
+  "extension": "cyi",
+  "name": "Clustify Input File",
+  "summary": "A CYI file is a plain text file used by Clustify, a document clustering application developed by Hot Neuron. It stores information that acts as an input list, telling Clustify which documents to process during a clustering or deduplication task. Each line in a CYI file typically includes the path to a document, along with optional metadata, such as a document ID or custodian name.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#clustify_input_file_moreinfo"
+      },
+      {
+        "name": "How to Open",
+        "url": "#clustify_input_file_open"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:59.025Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:59.025Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

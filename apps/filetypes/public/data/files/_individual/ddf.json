@@ -1,0 +1,47 @@
+{
+  "slug": "ddf",
+  "extension": "ddf",
+  "name": "Diamond Directive File",
+  "summary": "A DDF file is a plain text file that contains compression and packaging instructions for creating a Windows Cabinet archive (.CAB file) with the Microsoft Makecab utility. It stores various properties, including which files to include in the CAB archive and the compression settings to apply. DDF files are only meant for instructional purposes, acting as a guide during the packaging process, and are not embedded within the final CAB file.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#diamond_directive_file_moreinfo"
+      },
+      {
+        "name": "How to Open",
+        "url": "#diamond_directive_file_open"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:29:02.338Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:29:02.338Z"
+    }
+  ],
+  "mime": [
+    "application/vnd.syncml.dmddf+xml"
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

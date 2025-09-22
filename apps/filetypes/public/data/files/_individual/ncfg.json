@@ -1,0 +1,44 @@
+{
+  "slug": "ncfg",
+  "extension": "ncfg",
+  "name": "ArcGIS Explorer Configuration File",
+  "summary": "Application configuration file used by ArcGIS Explorer, a free GIS program developed by ESRI; contains settings that customize the program, including the user interface, splash screen, logo, application title, and application permissions; allows users to control the appearance and behavior of ArcGIS Explorer.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#arcgis_explorer_configuration_file_moreinfo"
+      },
+      {
+        "name": "Program List",
+        "url": "#arcgis_explorer_configuration_file_apps"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:55.097Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:55.097Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

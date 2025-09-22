@@ -1,0 +1,47 @@
+{
+  "slug": "lnk",
+  "extension": "lnk",
+  "name": "Windows Shortcut",
+  "summary": "An LNK file is a Windows shortcut, which points to and is used to open another file, folder, or application. It contains information about the object to which it points, including the object's type, location, and filename. You can create a shortcut to a file, folder, or application by right-clicking that object and selecting Create shortcut. (In Windows 11, you must first select Show more options.)",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#windows_shortcut_moreinfo"
+      },
+      {
+        "name": "How to Open",
+        "url": "#windows_shortcut_open"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:55.518Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:55.518Z"
+    }
+  ],
+  "mime": [
+    "application/x-ms-shortcut"
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

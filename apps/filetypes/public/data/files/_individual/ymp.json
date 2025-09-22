@@ -1,0 +1,47 @@
+{
+  "slug": "ymp",
+  "extension": "ymp",
+  "name": "YaST Metapackage File",
+  "summary": "Installer package format used by openSUSE; allows one-click program installation from the Internet; includes metadata about the package, such as version information, system requirements, and installation details.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#yast_metapackage_file_moreinfo"
+      },
+      {
+        "name": "Program List",
+        "url": "#yast_metapackage_file_apps"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:55.495Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:55.495Z"
+    }
+  ],
+  "mime": [
+    "text/x-suse-ymp"
+  ],
+  "category": "document",
+  "related": [],
+  "containers": []
+}

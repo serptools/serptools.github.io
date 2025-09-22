@@ -1,0 +1,47 @@
+{
+  "slug": "rp9",
+  "extension": "rp9",
+  "name": "RetroPlatform Disk Image Archive",
+  "summary": "Packaging format used by RetroPlatform, the technology used in the Amiga Forever and C64 Forever emulators; contains one or more disk image files (i.e. .ADF or .D64 files) and a manifest.xml file; compressed as a .ZIP archive, which is renamed to \".rp9.\"",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#retroplatform_disk_image_archive_moreinfo"
+      },
+      {
+        "name": "Program List",
+        "url": "#retroplatform_disk_image_archive_apps"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:45.089Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:45.089Z"
+    }
+  ],
+  "mime": [
+    "application/vnd.cloanto.rp9"
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

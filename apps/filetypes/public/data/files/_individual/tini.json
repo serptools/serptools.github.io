@@ -1,0 +1,44 @@
+{
+  "slug": "tini",
+  "extension": "tini",
+  "name": "Chrome OS Crostini Backup",
+  "summary": "A TINI file is a backup of a Linux environment created in Crostini, a Chrome OS app that allows users to run Linux in Chrome. It contains a copy of all the data saved within a user's Crostini environment. TINI files are gzipped TAR files, so they can be opened in other operating systems using any .TGZ or .TAR.GZ decompression utility.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#chrome_os_crostini_backup_moreinfo"
+      },
+      {
+        "name": "How to Open",
+        "url": "#chrome_os_crostini_backup_open"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:55.349Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:55.349Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

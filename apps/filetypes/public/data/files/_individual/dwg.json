@@ -1,0 +1,47 @@
+{
+  "slug": "dwg",
+  "extension": "dwg",
+  "name": "AutoCAD Drawing",
+  "summary": "A DWG file is a 2D or 3D drawing created by Autodesk AutoCAD or exported by another CAD program. It contains vector image data, which defines the shapes and lines in a drawing, and metadata, which includes details like layer information, dimensions, and additional drawing properties.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#autocad_drawing_moreinfo"
+      },
+      {
+        "name": "How to Open",
+        "url": "#autocad_drawing_open"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:54.093Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:54.093Z"
+    }
+  ],
+  "mime": [
+    "image/vnd.dwg"
+  ],
+  "category": "image_raster",
+  "related": [],
+  "containers": []
+}

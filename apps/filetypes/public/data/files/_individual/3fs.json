@@ -1,0 +1,44 @@
+{
+  "slug": "3fs",
+  "extension": "3fs",
+  "name": "Puppy Linux Save State File",
+  "summary": "File containing a file system snapshot saved in the third extended file system (EXT3) in Puppy Linux; stores the state of the file system at a certain point in time and can be used for resetting the file system back to that state; saved to an external file system partition, since Puppy Linux can run off of a CD or .ISO file.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#puppy_linux_save_state_file_moreinfo"
+      },
+      {
+        "name": "Program List",
+        "url": "#puppy_linux_save_state_file_apps"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:51.083Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:51.083Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

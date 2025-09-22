@@ -1,0 +1,44 @@
+{
+  "slug": "options",
+  "extension": "options",
+  "name": "SE-SOFT Configuration File",
+  "summary": "Settings file used by SE-SOFT's SE-DesktopApps, such as SE-Explorer, SE-Launcher, and SE-Player; saves configuration options in an XML format; used for saving program defaults and user-selected options.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#se-soft_configuration_file_moreinfo"
+      },
+      {
+        "name": "Program List",
+        "url": "#se-soft_configuration_file_apps"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:29:00.101Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:29:00.101Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

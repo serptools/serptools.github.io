@@ -1,0 +1,44 @@
+{
+  "slug": "ndf",
+  "extension": "ndf",
+  "name": "SQL Server Secondary Database File",
+  "summary": "Secondary database file used by Microsoft SQL Server; created when the primary .MDF database becomes too large (such as when there is no disk space left); may also be manually added to the SQL Server File Group to distribute data between the two files.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#sql_server_secondary_database_file_moreinfo"
+      },
+      {
+        "name": "Program List",
+        "url": "#sql_server_secondary_database_file_apps"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:29:01.646Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:29:01.646Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

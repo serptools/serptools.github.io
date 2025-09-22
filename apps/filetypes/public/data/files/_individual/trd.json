@@ -1,0 +1,44 @@
+{
+  "slug": "trd",
+  "extension": "trd",
+  "name": "TrID Definitions Package",
+  "summary": "Database of file type definitions used by TrID, a software utility that can identify file types based on their binary signatures; saved as a separate file and can be updated by downloading new versions of the definitions library.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#trid_definitions_package_moreinfo"
+      },
+      {
+        "name": "Program List",
+        "url": "#trid_definitions_package_apps"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:29:02.621Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:29:02.621Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "panic",
+  "extension": "panic",
+  "name": "Kernel Panic File",
+  "summary": "File created by the Unix kernel when it detects a fatal error and cannot recover; contains information about the state of the machine when the panic occurred, such as program and memory dump information; used to report and debug computer crashes in Linux and Mac OS X systems; saved in a plain text format.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#kernel_panic_file_moreinfo"
+      },
+      {
+        "name": "Program List",
+        "url": "#kernel_panic_file_apps"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:48.852Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:48.852Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

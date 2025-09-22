@@ -1,0 +1,44 @@
+{
+  "slug": "wbcat",
+  "extension": "wbcat",
+  "name": "Windows Backup Catalog",
+  "summary": "A WBCAT file is a backup information file created by Windows Backup and Restore. It is stored within a backup and contains a catalog of that backup's files. Backup and Restore uses WBCAT files to restore files to the correct locations during the file restore process.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#windows_backup_catalog_moreinfo"
+      },
+      {
+        "name": "Common Filenames",
+        "url": "#windows_backup_catalog_filenames"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:54.025Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:54.025Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

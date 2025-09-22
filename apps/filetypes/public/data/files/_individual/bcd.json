@@ -1,0 +1,44 @@
+{
+  "slug": "bcd",
+  "extension": "bcd",
+  "name": "Windows Boot Configuration Data File",
+  "summary": "Windows boot configuration format introduced with Windows Vista; replaces the older boot.ini format used by the NTLDR program; supports underlying firmware abstraction so that multiple systems can be supported.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#windows_boot_configuration_data_file_moreinfo"
+      },
+      {
+        "name": "Program List",
+        "url": "#windows_boot_configuration_data_file_apps"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:58.519Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:58.519Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

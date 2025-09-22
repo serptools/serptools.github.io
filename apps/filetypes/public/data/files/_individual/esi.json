@@ -1,0 +1,44 @@
+{
+  "slug": "esi",
+  "extension": "esi",
+  "name": "EtherCAT Slave Information",
+  "summary": "An ESI file is an EtherCAT Slave Information file. It contains XML used to control how data is shared between a controller and a node in an EtherCAT network. ESI files are also used to name and define nodes, so administrators can identify them within the network.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#ethercat_slave_information_moreinfo"
+      },
+      {
+        "name": "How to Open",
+        "url": "#ethercat_slave_information_open"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:29:04.980Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:29:04.980Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

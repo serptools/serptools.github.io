@@ -1,0 +1,44 @@
+{
+  "slug": "schemas",
+  "extension": "schemas",
+  "name": "GConf Schema Definition File",
+  "summary": "File used by GConf, a GNOME Desktop configuration tool; contains specifications for how application preference keys are defined, but does not contain actual application preferences; enables application settings to be generated in the GConf framework; saved to the /​etc/​gconf/​schemas/​ directory and often installed with application packages.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#gconf_schema_definition_file_moreinfo"
+      },
+      {
+        "name": "Program List",
+        "url": "#gconf_schema_definition_file_apps"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:58.510Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:58.510Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

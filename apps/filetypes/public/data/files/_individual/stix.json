@@ -1,0 +1,44 @@
+{
+  "slug": "stix",
+  "extension": "stix",
+  "name": "Structured Threat Information eXpression File",
+  "summary": "A STIX file is an XML file saved in the Structured Threat Information eXpression (STIX) format. It is created by various computer security organizations so it can be shared for analysis and archived. STIX files contain information about security threats, which include any indicators of compromise such as IP addresses that are suspected to be malicious.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#structured_threat_information_expression_file_moreinfo"
+      },
+      {
+        "name": "Program List",
+        "url": "#structured_threat_information_expression_file_apps"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:46.085Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:46.085Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

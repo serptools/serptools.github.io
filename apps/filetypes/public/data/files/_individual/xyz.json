@@ -1,0 +1,47 @@
+{
+  "slug": "xyz",
+  "extension": "xyz",
+  "name": "Molecule Specification File",
+  "summary": "File used by various chemistry programs, such as TINKER and UniChem; contains a description of a molecule, including the number of atoms, element symbol, and X, Y, and Z coordinates; stored in a plain text format.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#molecule_specification_file_moreinfo"
+      },
+      {
+        "name": "Program List",
+        "url": "#molecule_specification_file_apps"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:44.523Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:44.523Z"
+    }
+  ],
+  "mime": [
+    "chemical/x-xyz"
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

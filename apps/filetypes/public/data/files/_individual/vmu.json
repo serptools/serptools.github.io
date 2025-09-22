@@ -1,0 +1,44 @@
+{
+  "slug": "vmu",
+  "extension": "vmu",
+  "name": "NanoZoomer Uncompressed Virtual Microscope Specimen",
+  "summary": "A VMU file is a whole slide image created by Hamamatsu NanoZoomer, a pathology slide scanning device. It is an archive that contains an index file and two or more .JPEG images. In contrast to .VMS files, VMU files are not compressed, so they are often quite large.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#nanozoomer_uncompressed_virtual_microscope_specimen_moreinfo"
+      },
+      {
+        "name": "How to Open",
+        "url": "#nanozoomer_uncompressed_virtual_microscope_specimen_open"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:29:05.429Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:29:05.429Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "jic",
+  "extension": "jic",
+  "name": "JTAG Indirect Configuration File",
+  "summary": "A JIC file is a configuration file used in electronics development (most notably Intel's Quartus Prime development software) to program devices through the Joint Test Action Group (JTAG) interface. It contains data for programming non-volatile memory devices, such as flash memory, which store configuration information for Intel (formerly Altera) FPGAs. Hardware developers and embedded systems engineers commonly use JIC files when working with Intel programmable logic devices.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#jtag_indirect_configuration_file_moreinfo"
+      },
+      {
+        "name": "How to Open",
+        "url": "#jtag_indirect_configuration_file_open"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:51.064Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:51.064Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

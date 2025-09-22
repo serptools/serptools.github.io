@@ -1,0 +1,47 @@
+{
+  "slug": "webapp",
+  "extension": "webapp",
+  "name": "Firefox Web App Manifest File",
+  "summary": "Web app manifest file used by Firefox OS apps to identify important details of an app; contains information in JSON format about an app, which includes the name, developer, launch path, description, and icon(s); also contains a list of web APIs that the app requires.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#firefox_web_app_manifest_file_moreinfo"
+      },
+      {
+        "name": "Common Filenames",
+        "url": "#firefox_web_app_manifest_file_filenames"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:56.163Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:56.163Z"
+    }
+  ],
+  "mime": [
+    "application/x-web-app-manifest+json"
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

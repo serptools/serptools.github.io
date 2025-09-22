@@ -1,0 +1,44 @@
+{
+  "slug": "qlv",
+  "extension": "qlv",
+  "name": "QGIS layerVersion Save File",
+  "summary": "A QLV file contains information about one or more edits made to layers in QGIS (with the \"layerVersion\" plugin installed), an open-source, cross-platform GIS application. It stores one or more edits that have been made to layers in XML format along with Cyclic Redundancy Code (CRC) checksums for validating the data.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#qgis_layerversion_save_file_moreinfo"
+      },
+      {
+        "name": "How to Open",
+        "url": "#qgis_layerversion_save_file_open"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:46.375Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:46.375Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

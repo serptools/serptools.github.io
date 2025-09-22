@@ -1,0 +1,44 @@
+{
+  "slug": "log2",
+  "extension": "log2",
+  "name": "Windows Registry Hive Log 2 File",
+  "summary": "Log file created by the Windows registry during setup; stores trace information created during setup that is not modified again; commonly found under a user's directory or under %SystemRoot%\\​System32\\​config\\​; saved as a hidden file in Windows.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#windows_registry_hive_log_2_file_moreinfo"
+      },
+      {
+        "name": "Program List",
+        "url": "#windows_registry_hive_log_2_file_apps"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:46.177Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:46.177Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

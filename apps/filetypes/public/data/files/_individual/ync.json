@@ -1,0 +1,44 @@
+{
+  "slug": "ync",
+  "extension": "ync",
+  "name": "yEnc Encoded File",
+  "summary": "File encoded from a binary to a text format using the yEnc encoding method; similar to a standard US-ASCII encoded file, but significantly reduces the file overhead by using 8-bit Extended ASCII encoding; also includes a CRC checksum for verifying the integrity of the file.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#yenc_encoded_file_moreinfo"
+      },
+      {
+        "name": "Program List",
+        "url": "#yenc_encoded_file_apps"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:52.212Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:52.212Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

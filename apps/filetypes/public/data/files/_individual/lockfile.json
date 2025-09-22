@@ -1,0 +1,44 @@
+{
+  "slug": "lockfile",
+  "extension": "lockfile",
+  "name": "Mac OS X PLIST Lock File",
+  "summary": "Lock file used by the application preferences component of Mac OS X 10.7 Lion; saved as an empty file alongside a corresponding .PLIST file (e.g., the lock file for com.myapp.plist is com.myapp.plist.lockfile; used for marking access to a program's PLIST file when an application is open.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#mac_os_x_plist_lock_file_moreinfo"
+      },
+      {
+        "name": "Program List",
+        "url": "#mac_os_x_plist_lock_file_apps"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:55.661Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:55.661Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

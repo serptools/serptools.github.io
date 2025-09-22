@@ -1,0 +1,44 @@
+{
+  "slug": "xep",
+  "extension": "xep",
+  "name": "eManager File Packaging Information",
+  "summary": "An XEP file is a metadata file used by X-Genics eManager. It defines eManager components and the location where they will be unpacked.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#emanager_file_packaging_information_moreinfo"
+      },
+      {
+        "name": "How to Open",
+        "url": "#emanager_file_packaging_information_open"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:56.010Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:56.010Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

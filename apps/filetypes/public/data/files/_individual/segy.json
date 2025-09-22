@@ -1,0 +1,44 @@
+{
+  "slug": "segy",
+  "extension": "segy",
+  "name": "SEG-Y Data File",
+  "summary": "A SEGY file is a data file saved in the SEG-Y format, which was developed by the Society of Exploration Geophysicists. It contains geophysical data, such as the coordinates of reflected seismic waves, surface elevation, and water depth. SEGY files also store metadata, which includes the date and time of the data acquisition, projection zone and method, type of instrument used to acquire the data, and the sweep frequency and length.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#seg-y_data_file_moreinfo"
+      },
+      {
+        "name": "Program List",
+        "url": "#seg-y_data_file_apps"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:46.544Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:46.544Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

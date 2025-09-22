@@ -1,0 +1,44 @@
+{
+  "slug": "mpdconf",
+  "extension": "mpdconf",
+  "name": "Music Player Daemon File",
+  "summary": "File used by Music Player Daemon (MPD), a server-side Unix-based music playback program; contains user-level settings for the player, including the remote host, connection port, music directory, playlist directory, audio stream settings, and user login information.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#music_player_daemon_file_moreinfo"
+      },
+      {
+        "name": "Program List",
+        "url": "#music_player_daemon_file_apps"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:29:01.885Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:29:01.885Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

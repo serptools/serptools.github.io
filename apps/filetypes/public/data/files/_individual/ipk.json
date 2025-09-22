@@ -1,0 +1,47 @@
+{
+  "slug": "ipk",
+  "extension": "ipk",
+  "name": "Itsy Package",
+  "summary": "An IPK file is a compressed archive primarily used for installing software on handheld devices running Linux-based operating systems, such as WebOS and select embedded systems. It is based on the Debian package (.DEB) format and contains the required files and installation instructions for setting up an application or system update on a compatible device.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#itsy_package_moreinfo"
+      },
+      {
+        "name": "How to Open",
+        "url": "#itsy_package_open"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:53.067Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:53.067Z"
+    }
+  ],
+  "mime": [
+    "application/vnd.shana.informed.package"
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

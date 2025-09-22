@@ -1,0 +1,44 @@
+{
+  "slug": "tbc",
+  "extension": "tbc",
+  "name": "Time-base Corrected Video",
+  "summary": "A TBC file is an .LDS (LaserDisc Sample) file that has been converted into a PAL or NTSC video using the ld-decode application. It contains a stream of 16-bit unsigned values, each of which represents a single grayscale value. With a significant amount of effort, TBC files can be used to create .MP4 replicas of the video contained on a LaserDisc.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#time-base_corrected_video_moreinfo"
+      },
+      {
+        "name": "How to Open",
+        "url": "#time-base_corrected_video_open"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:54.085Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:54.085Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

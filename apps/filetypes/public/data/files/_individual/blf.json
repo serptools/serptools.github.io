@@ -1,0 +1,44 @@
+{
+  "slug": "blf",
+  "extension": "blf",
+  "name": "CLFS Base Log File",
+  "summary": "Log file created by the Common Log File System (CLFS), a Microsoft Windows component used for creating transaction logs; contains metadata that is used to manage access to the log data; can be created using the CLFS (API); used with \"containers,\" which are associated files that hold the log data.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#clfs_base_log_file_moreinfo"
+      },
+      {
+        "name": "Program List",
+        "url": "#clfs_base_log_file_apps"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:57.766Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:57.766Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

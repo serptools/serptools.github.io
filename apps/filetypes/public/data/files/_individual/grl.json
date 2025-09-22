@@ -1,0 +1,44 @@
+{
+  "slug": "grl",
+  "extension": "grl",
+  "name": "Windows Update Status File",
+  "summary": "Status file used by Windows Update; stores information about the current Windows configuration; named either \"active.grl\" or \"pending.grl\" and is stored in the \\windows\\winsxs directory by default.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#windows_update_status_file_moreinfo"
+      },
+      {
+        "name": "Program List",
+        "url": "#windows_update_status_file_apps"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:29:04.346Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:29:04.346Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

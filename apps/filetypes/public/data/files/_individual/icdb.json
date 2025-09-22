@@ -1,0 +1,44 @@
+{
+  "slug": "icdb",
+  "extension": "icdb",
+  "name": "Icaros Thumbnail Database",
+  "summary": "An ICDB file is a thumbnail database created by Icaros, a program used to show thumbnail images for videos in Windows File Explorer. It contains cached thumbnails. Icaros uses ICDB files to load thumbnails if they are not present in File Explorer's thumbnail cache.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#icaros_thumbnail_database_moreinfo"
+      },
+      {
+        "name": "How to Open",
+        "url": "#icaros_thumbnail_database_open"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:45.851Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:45.851Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

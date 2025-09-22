@@ -1,0 +1,44 @@
+{
+  "slug": "trash",
+  "extension": "trash",
+  "name": "ChromeOS Trash Storage",
+  "summary": "On ChromeOS devices, the .Trash folder is a hidden folder that stores trashed files and metadata about those files. This folder is similar to the ~/​Trash folder found on Linux systems. ChromeOS uses the files and metadata stored in the .Trash folder to allow users to restore trashed files from its primary Trash folder.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#chromeos_trash_storage_moreinfo"
+      },
+      {
+        "name": "How to Open",
+        "url": "#chromeos_trash_storage_open"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:53.897Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:53.897Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

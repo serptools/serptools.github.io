@@ -1,0 +1,44 @@
+{
+  "slug": "sparsebundle",
+  "extension": "sparsebundle",
+  "name": "Mac OS X Sparse Bundle",
+  "summary": "Macintosh disk image format introduced in Mac OS X 10.5 Leopard; based off the .SPARSEIMAGE format, but is made up of \"bands\" instead of individual files; contains mountable directories saved in 8MB chunks.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#mac_os_x_sparse_bundle_moreinfo"
+      },
+      {
+        "name": "Program List",
+        "url": "#mac_os_x_sparse_bundle_apps"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:55.560Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:55.560Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

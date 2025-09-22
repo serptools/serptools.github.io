@@ -1,0 +1,44 @@
+{
+  "slug": "vacb",
+  "extension": "vacb",
+  "name": "Virtual Address Control Block File",
+  "summary": "A VACB file is a virtual address control block file. It typically contains cached information about a file's name and location. Memory dump extraction utilities such as Volatility can extract VACB files from Windows memory dumps.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#virtual_address_control_block_file_moreinfo"
+      },
+      {
+        "name": "How to Open",
+        "url": "#virtual_address_control_block_file_open"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:54.976Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:54.976Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

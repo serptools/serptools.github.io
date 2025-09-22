@@ -1,0 +1,47 @@
+{
+  "slug": "pac",
+  "extension": "pac",
+  "name": "Proxy Auto-Config File",
+  "summary": "A PAC file is a configuration file used by web browsers to select an appropriate proxy server. It contains one or more JavaScript functions with one of them named FindProxyForURL, which defines rules for choosing a proxy server based on a given URL. PAC files are used for controlling and load-balancing Internet traffic, especially in corporate environments.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#proxy_auto-config_file_moreinfo"
+      },
+      {
+        "name": "Program List",
+        "url": "#proxy_auto-config_file_apps"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:29:00.877Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:29:00.877Z"
+    }
+  ],
+  "mime": [
+    "application/x-ns-proxy-autoconfig"
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

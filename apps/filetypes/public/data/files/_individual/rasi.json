@@ -1,0 +1,44 @@
+{
+  "slug": "rasi",
+  "extension": "rasi",
+  "name": "Rofi Configuration File",
+  "summary": "A RASI file is a plain text configuration or theme file used to modify Rofi, a Linux application launcher. It contains settings that determine how Rofi appears and functions. RASI files are stored in the ~/​.config/​rofi directory.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#rofi_configuration_file_moreinfo"
+      },
+      {
+        "name": "Common Filenames",
+        "url": "#rofi_configuration_file_filenames"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:29:03.881Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:29:03.881Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

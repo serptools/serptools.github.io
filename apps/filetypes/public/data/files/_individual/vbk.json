@@ -1,0 +1,44 @@
+{
+  "slug": "vbk",
+  "extension": "vbk",
+  "name": "Veeam Backup File",
+  "summary": "Backup file created by Veeam virtual machine (VM) backup and recovery software; contains a full recovery backup of the VM and is the largest of the files created for any backup; allows a full restore of the state of the machine when it was last backed up.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#veeam_backup_file_moreinfo"
+      },
+      {
+        "name": "Program List",
+        "url": "#veeam_backup_file_apps"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:56.136Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:56.136Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

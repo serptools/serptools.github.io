@@ -1,0 +1,19 @@
+{
+  "name": "filetypes-mvp",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "fetch": "bash scripts/fetch.sh",
+    "parse": "node scripts/parse-fileorg.mjs",
+    "enrich:mime": "node scripts/enrich-mime.mjs",
+    "build": "npm run parse && npm run enrich:mime && node scripts/combine.mjs",
+    "all": "npm run fetch && npm run build",
+    "fetch:zyte": "python3 scripts/fetch_zyte_api.py"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "mime-db": "^1.53.0",
+    "yaml": "^2.5.0"
+  }
+}

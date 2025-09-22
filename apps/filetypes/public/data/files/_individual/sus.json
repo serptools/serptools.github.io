@@ -1,0 +1,47 @@
+{
+  "slug": "sus",
+  "extension": "sus",
+  "name": "Transactionware GM Suspended Transaction",
+  "summary": "A SUS file is a suspended transaction saved by SAP Transactionware General Merchandise. Transactionware GM creates SUS files when a transaction meets its suspension parameters or does not process due to power failure. Users can resume suspended transactions in Transactionware GM.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#transactionware_gm_suspended_transaction_moreinfo"
+      },
+      {
+        "name": "Common Filenames",
+        "url": "#transactionware_gm_suspended_transaction_filenames"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:50.241Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:50.241Z"
+    }
+  ],
+  "mime": [
+    "application/vnd.sus-calendar"
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

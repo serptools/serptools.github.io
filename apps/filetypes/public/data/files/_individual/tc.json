@@ -1,0 +1,44 @@
+{
+  "slug": "tc",
+  "extension": "tc",
+  "name": "TrueCrypt Volume",
+  "summary": "A TC file is an encrypted volume created by TrueCrypt, a now-discontinued open-source disk encryption program. TC files function as virtual disks, securely storing files with real-time encryption (inaccessible without the correct password or key) and allowing users to access their contents when they mount them in TrueCrypt.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#truecrypt_volume_moreinfo"
+      },
+      {
+        "name": "How to Open",
+        "url": "#truecrypt_volume_open"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:59.913Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:59.913Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

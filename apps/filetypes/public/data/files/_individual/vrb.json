@@ -1,0 +1,44 @@
+{
+  "slug": "vrb",
+  "extension": "vrb",
+  "name": "Veeam Incremental Backup File",
+  "summary": "Backup file created by Veeam Software's backup and recovery software for virtual machines (VMs); stores incremental backup data since the initial full backup was performed (and stored in a .VBK file); may be saved with several other VRB files, which contain the sequence of incremental backups since the full backup.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#veeam_incremental_backup_file_moreinfo"
+      },
+      {
+        "name": "Program List",
+        "url": "#veeam_incremental_backup_file_apps"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:59.534Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:59.534Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

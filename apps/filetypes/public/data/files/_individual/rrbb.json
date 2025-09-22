@@ -1,0 +1,44 @@
+{
+  "slug": "rrbb",
+  "extension": "rrbb",
+  "name": "RRBB Ransomware Encrypted File",
+  "summary": "A file with the .rrbb extension has been maliciously encrypted by RRBB ransomware. As part of the encryption process, the ransomware adds .rrbb to the file's original extension, producing an extension like .docx.rrbb. There is currently no way to decrypt RRBB files.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#rrbb_ransomware_encrypted_file_moreinfo"
+      },
+      {
+        "name": "How to Open",
+        "url": "#rrbb_ransomware_encrypted_file_open"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:47.725Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:47.725Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

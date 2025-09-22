@@ -1,0 +1,44 @@
+{
+  "slug": "mdimporter",
+  "extension": "mdimporter",
+  "name": "Metadata Importer",
+  "summary": "Data plugin file created for the Spotlight search tool; returns metadata contained with a file to the Spotlight tool so file data can be searched and retrieved; not meant to be opened manually.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#metadata_importer_moreinfo"
+      },
+      {
+        "name": "Program List",
+        "url": "#metadata_importer_apps"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:29:05.059Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:29:05.059Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

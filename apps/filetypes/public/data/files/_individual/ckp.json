@@ -1,0 +1,44 @@
+{
+  "slug": "ckp",
+  "extension": "ckp",
+  "name": "SQL Server Checkpoint File",
+  "summary": "Database file created by SQL Server, a relational database application; created by SQL Server when performing a restore so that the restore operation can be restarted if a failure occurs; stores database log information that is written during the restore.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#sql_server_checkpoint_file_moreinfo"
+      },
+      {
+        "name": "Program List",
+        "url": "#sql_server_checkpoint_file_apps"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:58.191Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:58.191Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

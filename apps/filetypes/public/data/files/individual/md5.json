@@ -1,0 +1,13 @@
+{
+  "slug": "md5",
+  "extension": "md5",
+  "name": "Android System File",
+  "summary": "File used by firmware update and kernel flashing applications like Odin and Heimdall for Samsung Android devices; contains a .TAR archive that has been verified with an MD5 checksum; the TAR file contains firmware and other system data, while the .MD5 extension verifies that no data is corrupted.",
+  "last_updated": "2025-09-22T06:55:51.916Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:55:51.916Z"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "mbox",
+  "extension": "mbox",
+  "name": "Email Mailbox",
+  "summary": "An MBOX file is an email mailbox, saved in a mail storage format that lists an entire inbox's messages in a single text file. It saves messages in a concatenated format where each message is listed after another, starting with the From header. MBOX files were originally used only by Unix hosts, but other email applications, including Apple Mail and Mozilla Thunderbird, now also support them.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#email_mailbox_moreinfo"
+      },
+      {
+        "name": "Common Filenames",
+        "url": "#email_mailbox_filenames"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:29:02.169Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:29:02.169Z"
+    }
+  ],
+  "mime": [
+    "application/mbox"
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

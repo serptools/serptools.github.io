@@ -1,0 +1,44 @@
+{
+  "slug": "caction",
+  "extension": "caction",
+  "name": "Automator Converter Action",
+  "summary": "Conversion action performed by Automator, an Apple OS X program; bridges actions whose types of provided data (AMProvides property) and accepted data (AMAccepts) do not match; installed in the same system directories ACTION files are located, e.g., /​System/​Library/​Automator folder; users are usually unaware of this file because Automator converts between actions automatically and does not display the conversion actions.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#automator_converter_action_moreinfo"
+      },
+      {
+        "name": "Program List",
+        "url": "#automator_converter_action_apps"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:58.233Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:58.233Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

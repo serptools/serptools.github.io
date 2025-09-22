@@ -1,0 +1,13 @@
+{
+  "slug": "faces",
+  "extension": "faces",
+  "name": "JavaServer FacesServlet Pointer",
+  "summary": "The .faces extension is used by some versions of JavaServer Faces to invoke the FacesServlet servlet. However, FACES files do not actually exist. When developers specify a path to a FACES file (e.g. http://localhost:8080/webapp/page.faces), JavaServer Faces searches for and renders the FacesServlet components included in an app's corresponding WebContent .XHTML file (e.g. Webapp/WebContent/page.xhtml).",
+  "last_updated": "2025-09-22T06:55:49.467Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:55:49.467Z"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "hin",
+  "extension": "hin",
+  "name": "HyperChem Input File",
+  "summary": "Chemistry file format used by HyperChem, a molecular modeling program; contains multiple records of atoms, atom properties, and bonds; also stores information about the Viewer's Coordinate System, which is referenced by the program when opening the file to restore the previous view of the molecular system.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#hyperchem_input_file_moreinfo"
+      },
+      {
+        "name": "Program List",
+        "url": "#hyperchem_input_file_apps"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:54.679Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:54.679Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

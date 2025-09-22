@@ -1,0 +1,44 @@
+{
+  "slug": "spec",
+  "extension": "spec",
+  "name": "RPM Specification File",
+  "summary": "File used by rpmbuild, a program used for building .RPM (Red Hat Package Manager) packages, which are used for installing Linux programs; includes the package name, version, copyright information, a summary, references to program files, and instructions for creating and installing the package.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#rpm_specification_file_moreinfo"
+      },
+      {
+        "name": "Program List",
+        "url": "#rpm_specification_file_apps"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:29:02.394Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:29:02.394Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

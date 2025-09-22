@@ -1,0 +1,44 @@
+{
+  "slug": "uzip",
+  "extension": "uzip",
+  "name": "FreeBSD Compressed Disk Image",
+  "summary": "Compressed disk image created by mkuzip, a FreeBSD compression utility; compresses a disk image, such as a .UFS file, so that it can be read during runtime by the FreeBSD geom_uzip utility; used to reduce the disk image file size at the expense of additional CPU time when reading the image.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#freebsd_compressed_disk_image_moreinfo"
+      },
+      {
+        "name": "Program List",
+        "url": "#freebsd_compressed_disk_image_apps"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:29:03.625Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:29:03.625Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

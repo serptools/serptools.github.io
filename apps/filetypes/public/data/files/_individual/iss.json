@@ -1,0 +1,44 @@
+{
+  "slug": "iss",
+  "extension": "iss",
+  "name": "Inno Setup Script",
+  "summary": "An ISS file is a script used by Inno Setup, a free program used to create Windows program installers. It contains a series of plain text commands that specify where and how a Windows program is installed. ISS files are compiled to create .EXE files.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#inno_setup_script_moreinfo"
+      },
+      {
+        "name": "How to Open",
+        "url": "#inno_setup_script_open"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:53.105Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:53.105Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

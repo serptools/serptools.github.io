@@ -1,0 +1,44 @@
+{
+  "slug": "xbk",
+  "extension": "xbk",
+  "name": "XenServer Backup File",
+  "summary": "Backup file created by Citrix virtualization software; saves the configuration for a virtual server host so that it can be restored and restarted if it unexpectedly quits; does not include the virtual machines running on the server.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#xenserver_backup_file_moreinfo"
+      },
+      {
+        "name": "Program List",
+        "url": "#xenserver_backup_file_apps"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:54.273Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:54.273Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

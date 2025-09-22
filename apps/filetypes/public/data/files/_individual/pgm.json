@@ -1,0 +1,47 @@
+{
+  "slug": "pgm",
+  "extension": "pgm",
+  "name": "Portable Gray Map Image",
+  "summary": "A PGM file is a grayscale image file saved in the portable gray map (PGM) format and encoded with one or two bytes (8 or 16 bits) per pixel. It contains header information and a grid of numbers representing different shades of gray, from black (0) to white (up to 65,536). PGM files are typically stored in ASCII text format but also have a binary representation.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#portable_gray_map_image_moreinfo"
+      },
+      {
+        "name": "How to Open",
+        "url": "#portable_gray_map_image_open"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:55.023Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:55.023Z"
+    }
+  ],
+  "mime": [
+    "image/x-portable-graymap"
+  ],
+  "category": "image_raster",
+  "related": [],
+  "containers": []
+}

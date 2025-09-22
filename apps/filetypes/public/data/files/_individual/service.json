@@ -1,0 +1,44 @@
+{
+  "slug": "service",
+  "extension": "service",
+  "name": "Systemd Service Unit File",
+  "summary": "A SERVICE file is a service unit file included with systemd, an init (initialization) system used by various Linux distributions to bootstrap user space and manage processes. It contains information about how to manage a server application or service, including how to start or stop the service and when it should be automatically started.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#systemd_service_unit_file_moreinfo"
+      },
+      {
+        "name": "Program List",
+        "url": "#systemd_service_unit_file_apps"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:47.291Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:47.291Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

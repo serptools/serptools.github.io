@@ -1,0 +1,47 @@
+{
+  "slug": "m4u",
+  "extension": "m4u",
+  "name": "MPEG-4 Playlist",
+  "summary": "Playlist used by some video player programs; contains links to MPEG-4 movies and video clips, but does not contain the video files themselves; similar to an .M3U file, which stores a playlist for .MP3 files.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#mpeg-4_playlist_moreinfo"
+      },
+      {
+        "name": "Program List",
+        "url": "#mpeg-4_playlist_apps"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:58.237Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:58.237Z"
+    }
+  ],
+  "mime": [
+    "video/vnd.mpegurl"
+  ],
+  "category": "video",
+  "related": [],
+  "containers": []
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "desklink",
+  "extension": "desklink",
+  "name": "Desktop Shortcut",
+  "summary": "File that enables Windows users to create shortcuts on the desktop when right-clicking a file or folder and selecting the SendTo → Desktop (create shortcut) option; does not contain any data, but exists as an empty file that notifies Windows to display the menu option.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#desktop_shortcut_moreinfo"
+      },
+      {
+        "name": "Program List",
+        "url": "#desktop_shortcut_apps"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:47.179Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:47.179Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

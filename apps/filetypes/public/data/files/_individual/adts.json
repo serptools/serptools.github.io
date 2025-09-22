@@ -1,0 +1,47 @@
+{
+  "slug": "adts",
+  "extension": "adts",
+  "name": "Audio Data Transport Stream File",
+  "summary": "Audio file created in the Audio Data Transport Stream (ADTS) format; stores a series of audio frames, each of which includes a segment of the overall audio data to be transported; often used for streaming .AAC audio on the Internet.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#audio_data_transport_stream_file_moreinfo"
+      },
+      {
+        "name": "Program List",
+        "url": "#audio_data_transport_stream_file_apps"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:29:01.169Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:29:01.169Z"
+    }
+  ],
+  "mime": [
+    "audio/aac"
+  ],
+  "category": "audio",
+  "related": [],
+  "containers": []
+}

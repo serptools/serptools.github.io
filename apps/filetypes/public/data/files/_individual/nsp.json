@@ -1,0 +1,44 @@
+{
+  "slug": "nsp",
+  "extension": "nsp",
+  "name": "Nintendo Submission Package",
+  "summary": "An NSP file is a game package used by the Nintendo Switch console and Switch emulators, such as Yuzu or Ryujinx. It stores multiple files, which may include the game ROM, .JPG game icon, game updates, and game metadata. NSP files are typically used for storing backup dumps of Switch games and are similar to .XCI files.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#nintendo_submission_package_moreinfo"
+      },
+      {
+        "name": "Program List",
+        "url": "#nintendo_submission_package_apps"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:29:00.262Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:29:00.262Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

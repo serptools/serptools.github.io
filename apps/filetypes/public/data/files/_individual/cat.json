@@ -1,0 +1,47 @@
+{
+  "slug": "cat",
+  "extension": "cat",
+  "name": "Windows Catalog File",
+  "summary": "File used by the Windows operating system; specifies that a group of files are from a verifiable source; used for security purposes and contains a digital signature, the catalog version, and an effective date; often used for verifying new software update files.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#windows_catalog_file_moreinfo"
+      },
+      {
+        "name": "Program List",
+        "url": "#windows_catalog_file_apps"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:29:00.905Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:29:00.905Z"
+    }
+  ],
+  "mime": [
+    "application/vnd.ms-pki.seccat"
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

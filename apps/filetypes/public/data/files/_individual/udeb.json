@@ -1,0 +1,47 @@
+{
+  "slug": "udeb",
+  "extension": "udeb",
+  "name": "Debian Package File",
+  "summary": "Package format used by Debian, an open source computer operating system based on the Linux kernel; contains a minimal amount of essential software files; commonly used in bootstrapping Debian; saved in the same format as .DEB files, but cannot be installed on a traditional Debian system.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#debian_package_file_moreinfo"
+      },
+      {
+        "name": "Program List",
+        "url": "#debian_package_file_apps"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:44.941Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:44.941Z"
+    }
+  ],
+  "mime": [
+    "application/x-debian-package"
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

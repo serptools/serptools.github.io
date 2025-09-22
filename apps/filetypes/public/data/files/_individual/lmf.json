@@ -1,0 +1,44 @@
+{
+  "slug": "lmf",
+  "extension": "lmf",
+  "name": "Quartus II Library Mapping File",
+  "summary": "An LMF file is a mapping data file used by Quartus II, a program that allows developers to analyze and optimize hardware description language (HDL) designs. It contains the names and I/O ports of Quartus II logic functions and the corresponding cells, components, and modules stored in other Quartus II files that the functions replace when a file is opened or compiled. LMF files enable family-specific macrofunctions in Quartus II.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#quartus_ii_library_mapping_file_moreinfo"
+      },
+      {
+        "name": "Program List",
+        "url": "#quartus_ii_library_mapping_file_apps"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:58.155Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:58.155Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

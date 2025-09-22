@@ -1,0 +1,44 @@
+{
+  "slug": "mdmp",
+  "extension": "mdmp",
+  "name": "Windows Minidump",
+  "summary": "An MDMP file is a compressed data file created by Windows after a program error or crash. It contains data \"dumped\" from the program's memory space, which includes information about the error that can be used for debugging. MDMP files are commonly created along with an uncompressed .HDMP file and can be sent to Microsoft as part of a bug reporting process.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#windows_minidump_moreinfo"
+      },
+      {
+        "name": "Program List",
+        "url": "#windows_minidump_apps"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:29:03.669Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:29:03.669Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

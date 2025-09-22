@@ -1,0 +1,44 @@
+{
+  "slug": "op2",
+  "extension": "op2",
+  "name": "Nastran Output File",
+  "summary": "Output file created by MSC Nastran, a structural analysis program; similar to the .F06 file but smaller in size and written in Binary format instead of ASCII; output data helps display the performance of vital areas of the model such as grid point stress; contains mode shapes, static displacements, and grid point stress analysis results computed by MSC Nastran.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#nastran_output_file_moreinfo"
+      },
+      {
+        "name": "Program List",
+        "url": "#nastran_output_file_apps"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:29:01.449Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:29:01.449Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "crl",
+  "extension": "crl",
+  "name": "Certificate Revocation List File",
+  "summary": "Data file typically used by Web servers and encryption software; contains a blacklist of revoked digital certificates; stores information about the certificates, such as the issuer and the revocation date; enables security administrators to block untrusted entities.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#certificate_revocation_list_file_moreinfo"
+      },
+      {
+        "name": "Program List",
+        "url": "#certificate_revocation_list_file_apps"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:29:04.656Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:29:04.656Z"
+    }
+  ],
+  "mime": [
+    "application/pkix-crl"
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

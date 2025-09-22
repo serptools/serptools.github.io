@@ -1,0 +1,47 @@
+{
+  "slug": "xspf",
+  "extension": "xspf",
+  "name": "XML Shareable Playlist File",
+  "summary": "An XSPF file is a playlist saved in the XML Shareable Playlist Format (XSPF). It is similar to a .M3U file, but uses standard XML tags to organize and list media files included in the playlist. XSPF files are used by various audio players, such as VLC media player, AIMP, Clementine, and Audacious.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#xml_shareable_playlist_file_moreinfo"
+      },
+      {
+        "name": "Program List",
+        "url": "#xml_shareable_playlist_file_apps"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:29:05.095Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:29:05.095Z"
+    }
+  ],
+  "mime": [
+    "application/xspf+xml"
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "002",
+  "extension": "002",
+  "name": "7-Zip Split Archive Part 2 File",
+  "summary": "A 7Z.002 file is the second part of a multi-volume .7Z archive. It must always be paired with an accompanying .7Z.001 file to extract the files it contains. If the 7Z.002 file is part of a large multi-volume archive, it must also be matched with additional 7Z.### files (7Z.003, 7Z.004, and so on).",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#7-zip_split_archive_part_2_file_moreinfo"
+      },
+      {
+        "name": "How to Open",
+        "url": "#7-zip_split_archive_part_2_file_open"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:29:05.511Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:29:05.511Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

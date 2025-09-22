@@ -1,0 +1,44 @@
+{
+  "slug": "cf",
+  "extension": "cf",
+  "name": "Sendmail Configuration File",
+  "summary": "Preference file used to configure the Unix sendmail program; defines the SMTP server, mail relay hosts, and hundreds of other settings; saved in a text format and is compiled by the Unix M4 macro processor each time sendmail is run.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#sendmail_configuration_file_moreinfo"
+      },
+      {
+        "name": "Program List",
+        "url": "#sendmail_configuration_file_apps"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:50.490Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:50.490Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

@@ -1,0 +1,13 @@
+{
+  "slug": "pcap2",
+  "extension": "pcap2",
+  "name": "Packet Capture Data Part 2",
+  "summary": "A PCAP2 file is the second part of a packet capture created by Wireshark, a free program used for network data analysis. It is always paired with a corresponding .PCAP file, which contains the packet capture's first part. Multipart packet captures may also include PCAP3, PCAP4, etc. files, depending on how many parts the data was split into.",
+  "last_updated": "2025-09-22T06:55:50.842Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:55:50.842Z"
+    }
+  ]
+}

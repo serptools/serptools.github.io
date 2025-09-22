@@ -1,0 +1,13 @@
+{
+  "slug": "sidecar",
+  "extension": "sidecar",
+  "name": "Blackmagic RAW Video Sidecar File",
+  "summary": "A SIDECAR file contains metadata about a .BRAW video file, which includes information about the digital video camera that recorded the video and edits made to the video. The purpose of the file is to store the modifications a user makes to a BRAW video with a video editor without overwriting and erasing the original metadata. Users can open SIDECAR files with a video editor that supports the BRAW format or with a text editor since SIDECAR files are saved in JSON format.",
+  "last_updated": "2025-09-22T06:55:34.039Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:55:34.039Z"
+    }
+  ]
+}

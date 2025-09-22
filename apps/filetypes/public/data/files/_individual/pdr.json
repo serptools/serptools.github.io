@@ -1,0 +1,44 @@
+{
+  "slug": "pdr",
+  "extension": "pdr",
+  "name": "Windows Port Driver",
+  "summary": "Driver file that allows certain USB devices, such as USB flash drives, to be recognized and used by a Windows-based computer; similar to a virtual device driver (.VXD file) used by other hardware.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#windows_port_driver_moreinfo"
+      },
+      {
+        "name": "Program List",
+        "url": "#windows_port_driver_apps"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:58.282Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:58.282Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

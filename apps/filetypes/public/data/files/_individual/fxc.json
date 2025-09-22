@@ -1,0 +1,44 @@
+{
+  "slug": "fxc",
+  "extension": "fxc",
+  "name": "FilePackager Configuration",
+  "summary": "Configuration file used by FilePackager, a program used for creating self-extracting archives; may contain references to files to be included in the archive, file associations, registry alterations, and commands for setting up desktop and Windows program menu shortcuts.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#filepackager_configuration_moreinfo"
+      },
+      {
+        "name": "Program List",
+        "url": "#filepackager_configuration_apps"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:55.089Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:55.089Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

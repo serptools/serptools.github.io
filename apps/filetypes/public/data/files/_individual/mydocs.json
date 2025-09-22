@@ -1,0 +1,44 @@
+{
+  "slug": "mydocs",
+  "extension": "mydocs",
+  "name": "Send To My Documents",
+  "summary": "A MYDOCS file is a file used by older versions of Microsoft Windows to enable the \"Send To → My Documents\" option that appears when you right-click a file or folder. It stores information as a Windows Shell Shortcut (also known as a .LNK file), including the target folder path (the location of the My Documents directory), along with optional settings like the working directory and icon information. MYDOCS files do not contain any user data or documents, they simply enable a specific menu action.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#send_to_my_documents_moreinfo"
+      },
+      {
+        "name": "How to Open",
+        "url": "#send_to_my_documents_open"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:53.461Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:53.461Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

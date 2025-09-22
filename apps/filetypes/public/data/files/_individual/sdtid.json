@@ -1,0 +1,44 @@
+{
+  "slug": "sdtid",
+  "extension": "sdtid",
+  "name": "SecurID Soft Token File",
+  "summary": "An SDTID file is a soft token file used by RSA SecurID Software Token, an application used to authenticate a user's identity and manage their access to a network. It contains token data which includes the token profile name, device type, token code duration, token code digit length, authentication type, delivery method, and device specific attributes. SDTID files are typically encrypted with 128-bit (AES) encryption and distributed in .ZIP files.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#securid_soft_token_file_moreinfo"
+      },
+      {
+        "name": "Common Filenames",
+        "url": "#securid_soft_token_file_filenames"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:29:04.121Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:29:04.121Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

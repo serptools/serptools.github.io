@@ -1,0 +1,47 @@
+{
+  "slug": "str",
+  "extension": "str",
+  "name": "dBASE Structure List Object File",
+  "summary": "An STR file defines the structure of a database (.DBF file) created by dBASE, a database management application. It contains a text-based list of all the objects in the database file, including the number of fields, names of each field, and specifications (width and height) of each database field. dBASE uses STR files to create printed archive index tables and document the structure of each table.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#dbase_structure_list_object_file_moreinfo"
+      },
+      {
+        "name": "How to Open",
+        "url": "#dbase_structure_list_object_file_open"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:58.978Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:58.978Z"
+    }
+  ],
+  "mime": [
+    "application/vnd.pg.format"
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

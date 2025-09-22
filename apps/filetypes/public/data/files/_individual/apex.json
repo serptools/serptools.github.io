@@ -1,0 +1,44 @@
+{
+  "slug": "apex",
+  "extension": "apex",
+  "name": "Android Pony Express Package File",
+  "summary": "An APEX file is a Zip-compressed package that Google and other Android device manufacturers use for distributing updates to low-level system libraries on Android devices. APEX files contain an apex_manifest.json, AndroidManifest.xml, apex_payload.img, and apex_pubkey file used to update one or more components in Android. The files in an APEX archive are packaged using Google’s Android Pony EXpress (APEX) specification, which Google introduced with Android Q (Android 10) in September 2019.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#android_pony_express_package_file_moreinfo"
+      },
+      {
+        "name": "Program List",
+        "url": "#android_pony_express_package_file_apps"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:47.450Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:47.450Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

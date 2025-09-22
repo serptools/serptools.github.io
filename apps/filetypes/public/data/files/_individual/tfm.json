@@ -1,0 +1,47 @@
+{
+  "slug": "tfm",
+  "extension": "tfm",
+  "name": "TeX Font Metric File",
+  "summary": "Font file created for typesetting fonts in TeX and LaTeX documents; does not contain the font glyphs (characters) themselves, but contains information about a font, such as the height and width of the glyphs; required by TeX typesetting and allows a font in a separate file to be typeset in a TeX document.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#tex_font_metric_file_moreinfo"
+      },
+      {
+        "name": "Program List",
+        "url": "#tex_font_metric_file_apps"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:57.562Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:57.562Z"
+    }
+  ],
+  "mime": [
+    "application/x-tex-tfm"
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "jigdo",
+  "extension": "jigdo",
+  "name": "Jigdo Download Specification",
+  "summary": "A JIGDO file is a download specification created by Jigdo, a disk image download and creation utility. It contains data that Jigdo uses to start creating a disk image. Jigdo users load JIGDO files by running the jigdo-lite script.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#jigdo_download_specification_moreinfo"
+      },
+      {
+        "name": "How to Open",
+        "url": "#jigdo_download_specification_open"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:51.042Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:51.042Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

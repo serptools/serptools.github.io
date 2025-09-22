@@ -1,0 +1,47 @@
+{
+  "slug": "p7b",
+  "extension": "p7b",
+  "name": "PKCS #7 Certificate File",
+  "summary": "Security file that stores secure certificates used to authenticate a person or device, such as a computer or Web server; similar to a Base-64 (.CER) certificate, but uses different formatting; can be installed using the Certificate Import Wizard by right-clicking the file and selecting \"Install Certificate.\"",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#pkcs__7_certificate_file_moreinfo"
+      },
+      {
+        "name": "Program List",
+        "url": "#pkcs__7_certificate_file_apps"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:50.938Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:50.938Z"
+    }
+  ],
+  "mime": [
+    "application/x-pkcs7-certificates"
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "luac",
+  "extension": "luac",
+  "name": "Compiled Lua Script",
+  "summary": "A LUAC file is a compiled version of a Lua program (.LUA file). It contains binary data used to execute a program written in the Lua programming language. Most popularly, LUAC files are used to add additional features to VideoLAN VLC media player.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#compiled_lua_script_moreinfo"
+      },
+      {
+        "name": "How to Open",
+        "url": "#compiled_lua_script_open"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:29:01.507Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:29:01.507Z"
+    }
+  ],
+  "mime": [
+    "application/x-lua-bytecode"
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "dlc",
+  "extension": "dlc",
+  "name": "Download Link Container File",
+  "summary": "Encrypted container format used for storing downloadable content; uses client-server encryption in which links are processed locally and keys are distributed and recrypted by a Web service; can be processed by JDownloader, a Java-based download management program.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#download_link_container_file_moreinfo"
+      },
+      {
+        "name": "Program List",
+        "url": "#download_link_container_file_apps"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:29:04.545Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:29:04.545Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

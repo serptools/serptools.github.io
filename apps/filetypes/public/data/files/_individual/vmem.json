@@ -1,0 +1,44 @@
+{
+  "slug": "vmem",
+  "extension": "vmem",
+  "name": "VMware Virtual Machine Memory File",
+  "summary": "A VMEM file stores backup memory for a virtual machine (VM) created by VMware Workstation or VMware Fusion while the VM is running. It is only present when the VM is running or if the VM crashes and is not meant to be opened by a user.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#vmware_virtual_machine_memory_file_moreinfo"
+      },
+      {
+        "name": "Common Filenames",
+        "url": "#vmware_virtual_machine_memory_file_filenames"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:29:00.937Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:29:00.937Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

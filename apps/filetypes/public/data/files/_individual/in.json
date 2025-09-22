@@ -1,0 +1,47 @@
+{
+  "slug": "in",
+  "extension": "in",
+  "name": "Autoconf Input File",
+  "summary": "An IN file is an input file referenced by GNU Autoconf when building an application. One or more .in or .h.in files may be referenced by an Autoconf script (.AC file) when the configure process is run. IN files define variables, such as an app's version number and release date, which are referenced during program installation. IN files may also be used to check for the presence or absence of features in a specific installation.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#autoconf_input_file_moreinfo"
+      },
+      {
+        "name": "Common Filenames",
+        "url": "#autoconf_input_file_filenames"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:58.634Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:58.634Z"
+    }
+  ],
+  "mime": [
+    "text/plain"
+  ],
+  "category": "document",
+  "related": [],
+  "containers": []
+}

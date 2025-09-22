@@ -1,0 +1,44 @@
+{
+  "slug": "rlib",
+  "extension": "rlib",
+  "name": "Static Rust Library",
+  "summary": "An RLIB file is a static code library used by Rust programs. It contains compiled Rust functions that a Rust program can access and use. Each RLIB file also contains rustc-specific metadata that allows the Rust compiler to understand the functions the file contains.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#static_rust_library_moreinfo"
+      },
+      {
+        "name": "How to Open",
+        "url": "#static_rust_library_open"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:51.369Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:51.369Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "ppd",
+  "extension": "ppd",
+  "name": "PostScript Printer Description File",
+  "summary": "File that serves as a driver for a PostScript printer; describes the font, paper sizes, DPI resolution, memory configuration, and other features and capabilities supported by the printer.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#postscript_printer_description_file_moreinfo"
+      },
+      {
+        "name": "Program List",
+        "url": "#postscript_printer_description_file_apps"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:29:04.163Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:29:04.163Z"
+    }
+  ],
+  "mime": [
+    "application/vnd.cups-ppd"
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "dmp",
+  "extension": "dmp",
+  "name": "Windows Memory Dump",
+  "summary": "A DMP file is a file that contains data \"dumped\" from a program's memory space. It is often created when a program has an error or crashes and may also be saved by the program \"Savedump.exe\" on the first reboot after a crash. DMP files are usually named \"Memory.dmp.\"",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#windows_memory_dump_moreinfo"
+      },
+      {
+        "name": "Program List",
+        "url": "#windows_memory_dump_apps"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:53.037Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:53.037Z"
+    }
+  ],
+  "mime": [
+    "application/vnd.tcpdump.pcap"
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

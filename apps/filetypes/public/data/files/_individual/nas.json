@@ -1,0 +1,44 @@
+{
+  "slug": "nas",
+  "extension": "nas",
+  "name": "Nastran Input File",
+  "summary": "Input file used by MSC Nastran, a structural analysis program; contains input bulk data definitions referenced by MSC Nastran to analyze the stress and strain of component and system level models of structures; data appears in the FORTRAN programming language, which was originally developed by IBM, and stands for Formula Translating System; includes information such as the name of the bulk data, the number of grids, and the node locations of the elements that make up the models.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#nastran_input_file_moreinfo"
+      },
+      {
+        "name": "Program List",
+        "url": "#nastran_input_file_apps"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:44.374Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:44.374Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

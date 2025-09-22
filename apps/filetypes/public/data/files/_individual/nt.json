@@ -1,0 +1,47 @@
+{
+  "slug": "nt",
+  "extension": "nt",
+  "name": "Windows NT Startup File",
+  "summary": "System file used by Microsoft Windows NT and later for the system boot process; contains settings and scripts that load resources for the operating system; must not be modified, moved, or deleted or the computer may not be able to start up.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#windows_nt_startup_file_moreinfo"
+      },
+      {
+        "name": "Program List",
+        "url": "#windows_nt_startup_file_apps"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:52.239Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:52.239Z"
+    }
+  ],
+  "mime": [
+    "application/n-triples"
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

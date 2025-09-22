@@ -1,0 +1,47 @@
+{
+  "slug": "mpkg",
+  "extension": "mpkg",
+  "name": "macOS Meta-Package",
+  "summary": "An MPKG file is a macOS meta-package. It contains multiple macOS packages (.PKG files), which are used to install applications. Bundling related PKG files within an MPKG file makes those packages easier to distribute and install as a group.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#macos_meta-package_moreinfo"
+      },
+      {
+        "name": "How to Open",
+        "url": "#macos_meta-package_open"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:49.645Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:49.645Z"
+    }
+  ],
+  "mime": [
+    "application/vnd.apple.installer+xml"
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

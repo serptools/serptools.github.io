@@ -1,0 +1,44 @@
+{
+  "slug": "avro",
+  "extension": "avro",
+  "name": "Avro Data File",
+  "summary": "An AVRO file is a data file created by Apache Avro, an open source data serialization system used by Apache Hadoop. It contains data serialized in a compact binary format and schema in JSON format that defines the data types. AVRO files may also store markers if the datasets are too large and need to be split into subsets when processed by Apache MapReduce in Apache Hadoop.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#avro_data_file_moreinfo"
+      },
+      {
+        "name": "Program List",
+        "url": "#avro_data_file_apps"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:47.017Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:47.017Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

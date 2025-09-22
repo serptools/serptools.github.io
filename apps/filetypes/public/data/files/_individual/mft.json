@@ -1,0 +1,47 @@
+{
+  "slug": "mft",
+  "extension": "mft",
+  "name": "Kaspersky File Table",
+  "summary": "XML data file used by Kaspersky Anti-Virus and Internet Security computer protection applications; contains references to files used for scanning and detecting viruses; often contains references to .KDC and .STT files.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#kaspersky_file_table_moreinfo"
+      },
+      {
+        "name": "Program List",
+        "url": "#kaspersky_file_table_apps"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:29:04.099Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:29:04.099Z"
+    }
+  ],
+  "mime": [
+    "application/rpki-manifest"
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "ppkg",
+  "extension": "ppkg",
+  "name": "Windows Provisioning Package",
+  "summary": "A PPKG file is a provisioning package created for use with Windows 10 or 11. It contains settings used to configure a Windows 10 or 11 device. IT administrators in small- to medium-sized organizations often use PPKG files to configure users' devices using standard, organization-level settings.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#windows_provisioning_package_moreinfo"
+      },
+      {
+        "name": "How to Open",
+        "url": "#windows_provisioning_package_open"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:29:00.653Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:29:00.653Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

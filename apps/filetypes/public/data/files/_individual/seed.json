@@ -1,0 +1,47 @@
+{
+  "slug": "seed",
+  "extension": "seed",
+  "name": "Linux Preseed File",
+  "summary": "Installer file included on Linux OS disks, such as an Ubuntu Linux installation CD; saved in a text format with four fields per line; each line includes the name of the program that should run the command, and the variable's name, type, and value.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#linux_preseed_file_moreinfo"
+      },
+      {
+        "name": "Program List",
+        "url": "#linux_preseed_file_apps"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:52.984Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:52.984Z"
+    }
+  ],
+  "mime": [
+    "application/vnd.fdsn.seed"
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

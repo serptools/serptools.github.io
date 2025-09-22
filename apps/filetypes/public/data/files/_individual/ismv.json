@@ -1,0 +1,44 @@
+{
+  "slug": "ismv",
+  "extension": "ismv",
+  "name": "IIS Smooth Streaming Video File",
+  "summary": "Video file encoded for Smooth Streaming on a Microsoft IIS Web server; saves an MPEG-4 (.MP4) file in a fragmented format, which stores the video in smaller parts within the overall video container; provides a suitable format for streaming because the video can be requested one fragment at a time.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#iis_smooth_streaming_video_file_moreinfo"
+      },
+      {
+        "name": "Program List",
+        "url": "#iis_smooth_streaming_video_file_apps"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:52.789Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:52.789Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

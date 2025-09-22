@@ -1,0 +1,44 @@
+{
+  "slug": "drpm",
+  "extension": "drpm",
+  "name": "Delta RPM File",
+  "summary": "File used by Linux operating systems for installing software; similar to an .RPM file, but is significantly smaller in file size because it only includes the files required since a prior RPM package was installed.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#delta_rpm_file_moreinfo"
+      },
+      {
+        "name": "Program List",
+        "url": "#delta_rpm_file_apps"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:53.886Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:53.886Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}

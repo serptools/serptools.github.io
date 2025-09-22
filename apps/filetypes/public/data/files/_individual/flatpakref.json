@@ -1,0 +1,44 @@
+{
+  "slug": "flatpakref",
+  "extension": "flatpakref",
+  "name": "Linux Flatpak Application Package Reference File",
+  "summary": "A FLATPAKREF file is an application package reference file used to distribute and install an app on a Linux-based platform. It contains plain text information about an app that the App Store or Package Manager references to know the package to install and the repository from where to download it. FLATPAKREF files include the application's ID, a base64-encoded version of a GnuPG Key (GPG Key) for securing data transmissions, and metadata to be displayed in the app store it is published on to describe the app to a user.",
+  "programs": {
+    "unspecified": [
+      {
+        "name": "File Types",
+        "url": "/filetypes/"
+      },
+      {
+        "name": "Software",
+        "url": "/apps/"
+      },
+      {
+        "name": "Help Center",
+        "url": "/help/"
+      },
+      {
+        "name": "Random Extension",
+        "url": "/random"
+      },
+      {
+        "name": "More Information",
+        "url": "#linux_flatpak_application_package_reference_file_moreinfo"
+      },
+      {
+        "name": "How to Open",
+        "url": "#linux_flatpak_application_package_reference_file_open"
+      }
+    ]
+  },
+  "last_updated": "2025-09-22T06:28:50.024Z",
+  "sources": [
+    {
+      "url": "file.org",
+      "retrieved_at": "2025-09-22T06:28:50.024Z"
+    }
+  ],
+  "category": "other",
+  "related": [],
+  "containers": []
+}
