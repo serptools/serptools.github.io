@@ -76,6 +76,21 @@ export function ExtensionCard({ extension }: ExtensionCardProps) {
           <CardDescription className="line-clamp-2">
             {extension.description}
           </CardDescription>
+          {(extension.rating || extension.users) && (
+            <div className="flex items-center gap-3 mt-3 text-sm text-muted-foreground">
+              {extension.rating && (
+                <div className="flex items-center gap-1">
+                  <span>★</span>
+                  <span>{extension.rating.toFixed(1)}</span>
+                </div>
+              )}
+              {extension.users && (
+                <div className="flex items-center gap-1">
+                  <span>{extension.users}</span>
+                </div>
+              )}
+            </div>
+          )}
         </CardHeader>
       </Card>
     </a>
