@@ -17,6 +17,21 @@ export const scraperConfig = {
   // Batch processing
   defaultBatchSize: 10,
   
+  // Concurrency settings
+  concurrency: {
+    enabled: false,           // Enable parallel scraping
+    maxWorkers: 5,            // Number of concurrent requests per source
+    useProxy: false,          // Use proxy rotation
+  },
+  
+  // Zyte proxy configuration
+  zyte: {
+    enabled: false,           // Enable Zyte proxy
+    apiKey: process.env.ZYTE_API_KEY || '',
+    apiUrl: 'https://api.zyte.com/v1/extract',
+    proxyUrl: `http://${process.env.ZYTE_API_KEY}:@proxy.zyte.com:8011`,
+  },
+  
   // Data directories
   dataDir: './public/data/files',
   individualDir: './public/data/files/individual',

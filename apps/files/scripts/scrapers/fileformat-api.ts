@@ -12,7 +12,9 @@ import {
   getCurrentTimestamp,
   applyRateLimit,
   withRetry,
-  validateScrapedData
+  validateScrapedData,
+  fetchWithProxy,
+  ProxyConfig
 } from '../utils/scraper-utils';
 
 const FILEFORMAT_CONFIG: ScraperConfig = {
@@ -26,16 +28,19 @@ const FILEFORMAT_CONFIG: ScraperConfig = {
 /**
  * Fetch file type information from fileformat.com API
  */
-export async function fetchFileFormat(extension: string): Promise<ScraperResult> {
+export async function fetchFileFormat(extension: string, proxyConfig?: ProxyConfig): Promise<ScraperResult> {
   const normalized = normalizeExtension(extension);
   
   console.log(`Fetching fileformat.com API for .${normalized}...`);
   
   try {
-    await applyRateLimit(FILEFORMAT_CONFIG);
+    // Skip rate limiting when using concurrent workers with proxy
+    if (!proxyConfig?.useProxy) {
+      await applyRateLimit(FILEFORMAT_CONFIG);
+    }
     
     const data = await withRetry(
-      async () => await callFileFormatApi(normalized),
+      async () => await callFileFormatApi(normalized, proxyConfig),
       FILEFORMAT_CONFIG
     );
     
@@ -70,7 +75,7 @@ export async function fetchFileFormat(extension: string): Promise<ScraperResult>
  * that shows the expected structure. You may need to adjust based on the
  * actual API documentation.
  */
-async function callFileFormatApi(extension: string): Promise<ScrapedFileData> {
+async function callFileFormatApi(extension: string, proxyConfig?: ProxyConfig): Promise<ScrapedFileData> {
   // Try the API endpoint
   // The actual endpoint might be different - common patterns:
   // - https://api.fileformat.com/v1/format/{extension}
@@ -87,13 +92,13 @@ async function callFileFormatApi(extension: string): Promise<ScrapedFileData> {
   
   for (const url of endpoints) {
     try {
-      const response = await fetch(url, {
+      const response = await fetchWithProxy(url, {
         headers: {
           'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
           'Accept': 'application/json'
         },
         signal: AbortSignal.timeout(FILEFORMAT_CONFIG.timeout)
-      });
+      }, proxyConfig);
       
       if (response.ok) {
         const json = await response.json();
@@ -113,6 +118,8 @@ async function callFileFormatApi(extension: string): Promise<ScrapedFileData> {
   }
   
   // If API doesn't work, try scraping the website
+  console.log(`API endpoints failed, trying web scraping for .${extension}...`);
+  return await scrapeFileFormatWebsite(extension, proxyConfig);
   console.log(`API endpoints failed, trying web scraping for .${extension}...`);
   return await scrapeFileFormatWebsite(extension);
 }
@@ -186,15 +193,15 @@ function parseFileFormatResponse(json: any, extension: string, url: string): Scr
 /**
  * Scrape fileformat.com website as fallback using Cheerio
  */
-async function scrapeFileFormatWebsite(extension: string): Promise<ScrapedFileData> {
+async function scrapeFileFormatWebsite(extension: string, proxyConfig?: ProxyConfig): Promise<ScrapedFileData> {
   const url = `https://docs.fileformat.com/extension/${extension}/`;
   
-  const response = await fetch(url, {
+  const response = await fetchWithProxy(url, {
     headers: {
       'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
     },
     signal: AbortSignal.timeout(FILEFORMAT_CONFIG.timeout)
-  });
+  }, proxyConfig);
   
   if (!response.ok) {
     throw new Error(`HTTP ${response.status}: ${response.statusText}`);

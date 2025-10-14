@@ -4,6 +4,59 @@
 
 import { ScraperConfig } from '../types';
 
+export interface ProxyConfig {
+  useProxy: boolean;
+  apiKey?: string;
+}
+
+/**
+ * Make HTTP request with optional Zyte proxy
+ */
+export async function fetchWithProxy(
+  url: string,
+  options: RequestInit = {},
+  proxyConfig?: ProxyConfig
+): Promise<Response> {
+  if (proxyConfig?.useProxy && proxyConfig.apiKey) {
+    // Use Zyte Smart Proxy Manager
+    const proxyUrl = `http://${proxyConfig.apiKey}:@proxy.zyte.com:8011`;
+    
+    // For Node.js fetch with proxy, we need to use a proxy agent
+    // Since we're using native fetch, we'll use Zyte API instead
+    const zyteResponse = await fetch('https://api.zyte.com/v1/extract', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Authorization': `Basic ${Buffer.from(proxyConfig.apiKey + ':').toString('base64')}`
+      },
+      body: JSON.stringify({
+        url: url,
+        httpResponseBody: true,
+        httpResponseHeaders: true
+      })
+    });
+    
+    if (!zyteResponse.ok) {
+      // Fallback to direct request if Zyte fails
+      console.warn('Zyte API failed, falling back to direct request');
+      return fetch(url, options);
+    }
+    
+    const zyteData = await zyteResponse.json();
+    const htmlContent = Buffer.from(zyteData.httpResponseBody, 'base64').toString('utf-8');
+    
+    // Create a mock Response object
+    return new Response(htmlContent, {
+      status: zyteData.statusCode || 200,
+      statusText: 'OK',
+      headers: zyteData.httpResponseHeaders || {}
+    });
+  }
+  
+  // Direct request without proxy
+  return fetch(url, options);
+}
+
 /**
  * Sleep for a specified duration
  */

@@ -12,7 +12,9 @@ import {
   getCurrentTimestamp,
   applyRateLimit,
   withRetry,
-  validateScrapedData
+  validateScrapedData,
+  fetchWithProxy,
+  ProxyConfig
 } from '../utils/scraper-utils';
 
 const FILEINFO_CONFIG: ScraperConfig = {
@@ -26,17 +28,20 @@ const FILEINFO_CONFIG: ScraperConfig = {
 /**
  * Scrape file type information from fileinfo.com
  */
-export async function scrapeFileInfo(extension: string): Promise<ScraperResult> {
+export async function scrapeFileInfo(extension: string, proxyConfig?: ProxyConfig): Promise<ScraperResult> {
   const normalized = normalizeExtension(extension);
   const url = `${FILEINFO_CONFIG.baseUrl}/extension/${normalized}`;
   
   console.log(`Scraping fileinfo.com for .${normalized}...`);
   
   try {
-    await applyRateLimit(FILEINFO_CONFIG);
+    // Skip rate limiting when using concurrent workers with proxy
+    if (!proxyConfig?.useProxy) {
+      await applyRateLimit(FILEINFO_CONFIG);
+    }
     
     const data = await withRetry(
-      async () => await fetchAndParseFileInfo(url, normalized),
+      async () => await fetchAndParseFileInfo(url, normalized, proxyConfig),
       FILEINFO_CONFIG
     );
     
@@ -67,13 +72,13 @@ export async function scrapeFileInfo(extension: string): Promise<ScraperResult> 
 /**
  * Fetch and parse data from fileinfo.com using Cheerio
  */
-async function fetchAndParseFileInfo(url: string, extension: string): Promise<ScrapedFileData> {
-  const response = await fetch(url, {
+async function fetchAndParseFileInfo(url: string, extension: string, proxyConfig?: ProxyConfig): Promise<ScrapedFileData> {
+  const response = await fetchWithProxy(url, {
     headers: {
       'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
     },
     signal: AbortSignal.timeout(FILEINFO_CONFIG.timeout)
-  });
+  }, proxyConfig);
   
   if (!response.ok) {
     throw new Error(`HTTP ${response.status}: ${response.statusText}`);

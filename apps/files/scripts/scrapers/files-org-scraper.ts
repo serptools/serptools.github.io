@@ -12,7 +12,9 @@ import {
   getCurrentTimestamp,
   applyRateLimit,
   withRetry,
-  validateScrapedData
+  validateScrapedData,
+  fetchWithProxy,
+  ProxyConfig
 } from '../utils/scraper-utils';
 
 const FILES_ORG_CONFIG: ScraperConfig = {
@@ -26,17 +28,20 @@ const FILES_ORG_CONFIG: ScraperConfig = {
 /**
  * Scrape file type information from file.org
  */
-export async function scrapeFilesOrg(extension: string): Promise<ScraperResult> {
+export async function scrapeFilesOrg(extension: string, proxyConfig?: ProxyConfig): Promise<ScraperResult> {
   const normalized = normalizeExtension(extension);
   const url = `${FILES_ORG_CONFIG.baseUrl}/extension/${normalized}`;
   
   console.log(`Scraping file.org for .${normalized}...`);
   
   try {
-    await applyRateLimit(FILES_ORG_CONFIG);
+    // Skip rate limiting when using concurrent workers with proxy
+    if (!proxyConfig?.useProxy) {
+      await applyRateLimit(FILES_ORG_CONFIG);
+    }
     
     const data = await withRetry(
-      async () => await fetchAndParseFilesOrg(url, normalized),
+      async () => await fetchAndParseFilesOrg(url, normalized, proxyConfig),
       FILES_ORG_CONFIG
     );
     
@@ -67,13 +72,13 @@ export async function scrapeFilesOrg(extension: string): Promise<ScraperResult> 
 /**
  * Fetch and parse data from file.org using Cheerio
  */
-async function fetchAndParseFilesOrg(url: string, extension: string): Promise<ScrapedFileData> {
-  const response = await fetch(url, {
+async function fetchAndParseFilesOrg(url: string, extension: string, proxyConfig?: ProxyConfig): Promise<ScrapedFileData> {
+  const response = await fetchWithProxy(url, {
     headers: {
       'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
     },
     signal: AbortSignal.timeout(FILES_ORG_CONFIG.timeout)
-  });
+  }, proxyConfig);
   
   if (!response.ok) {
     throw new Error(`HTTP ${response.status}: ${response.statusText}`);

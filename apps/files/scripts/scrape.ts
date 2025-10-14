@@ -20,6 +20,8 @@ interface ScraperOptions {
   outputDir?: string;
   updateExisting?: boolean;
   batchSize?: number;
+  concurrency?: number;  // Number of parallel workers
+  useZyteProxy?: boolean; // Enable Zyte proxy rotation
 }
 
 /**
@@ -31,7 +33,9 @@ export async function scrapeFileTypes(options: ScraperOptions = {}): Promise<voi
     sources = ['fileinfo', 'files.org', 'fileformat'],
     outputDir = path.join(process.cwd(), 'public', 'data', 'files', 'individual'),
     updateExisting = false,
-    batchSize = 10
+    batchSize = 10,
+    concurrency = 1,
+    useZyteProxy = false
   } = options;
   
   console.log('='.repeat(60));
@@ -41,6 +45,8 @@ export async function scrapeFileTypes(options: ScraperOptions = {}): Promise<voi
   console.log(`Extensions: ${extensions.length > 0 ? extensions.join(', ') : 'all'}`);
   console.log(`Output directory: ${outputDir}`);
   console.log(`Update existing: ${updateExisting}`);
+  console.log(`Concurrency: ${concurrency} worker(s)`);
+  console.log(`Zyte Proxy: ${useZyteProxy ? 'enabled' : 'disabled'}`);
   console.log('='.repeat(60));
   
   // Ensure output directory exists
@@ -92,7 +98,7 @@ export async function scrapeFileTypes(options: ScraperOptions = {}): Promise<voi
     console.log(`Batch ${i + 1}/${batches.length} (${batch.length} extensions)`);
     console.log('='.repeat(60));
     
-    const results = await processBatch(batch, sources);
+    const results = await processBatch(batch, sources, concurrency, useZyteProxy);
     
     // Save results
     for (const result of results) {
@@ -121,16 +127,23 @@ export async function scrapeFileTypes(options: ScraperOptions = {}): Promise<voi
  */
 export async function processSingleExtension(
   extension: string,
-  sources: ('fileinfo' | 'files.org' | 'fileformat')[]
+  sources: ('fileinfo' | 'files.org' | 'fileformat')[],
+  useZyteProxy: boolean = false
 ): Promise<MergedFileData | null> {
   const normalized = normalizeExtension(extension);
   
   console.log(`\nProcessing .${normalized}...`);
   
+  // Set proxy configuration globally if Zyte is enabled
+  const proxyConfig = useZyteProxy ? {
+    useProxy: true,
+    apiKey: process.env.ZYTE_API_KEY || ''
+  } : undefined;
+  
   const results = await Promise.allSettled([
-    sources.includes('fileinfo') ? scrapeFileInfo(normalized) : Promise.resolve(null),
-    sources.includes('files.org') ? scrapeFilesOrg(normalized) : Promise.resolve(null),
-    sources.includes('fileformat') ? fetchFileFormat(normalized) : Promise.resolve(null)
+    sources.includes('fileinfo') ? scrapeFileInfo(normalized, proxyConfig) : Promise.resolve(null),
+    sources.includes('files.org') ? scrapeFilesOrg(normalized, proxyConfig) : Promise.resolve(null),
+    sources.includes('fileformat') ? fetchFileFormat(normalized, proxyConfig) : Promise.resolve(null)
   ]);
   
   // Collect successful results
@@ -153,36 +166,75 @@ export async function processSingleExtension(
 }
 
 /**
- * Process a batch of extensions
+ * Process a batch of extensions with optional concurrency
  */
 async function processBatch(
   extensions: string[],
-  sources: ('fileinfo' | 'files.org' | 'fileformat')[]
+  sources: ('fileinfo' | 'files.org' | 'fileformat')[],
+  concurrency: number = 1,
+  useZyteProxy: boolean = false
 ): Promise<Array<{ success: boolean; extension: string; data?: MergedFileData }>> {
   const results: Array<{ success: boolean; extension: string; data?: MergedFileData }> = [];
   
-  for (const ext of extensions) {
-    try {
-      const data = await processSingleExtension(ext, sources);
-      
-      if (data) {
-        results.push({
-          success: true,
-          extension: ext,
-          data
-        });
-      } else {
+  if (concurrency <= 1) {
+    // Sequential processing (original behavior)
+    for (const ext of extensions) {
+      try {
+        const data = await processSingleExtension(ext, sources, useZyteProxy);
+        
+        if (data) {
+          results.push({
+            success: true,
+            extension: ext,
+            data
+          });
+        } else {
+          results.push({
+            success: false,
+            extension: ext
+          });
+        }
+      } catch (error) {
+        console.error(`  ❌ Error processing .${ext}:`, error);
         results.push({
           success: false,
           extension: ext
         });
       }
-    } catch (error) {
-      console.error(`  ❌ Error processing .${ext}:`, error);
-      results.push({
-        success: false,
-        extension: ext
-      });
+    }
+  } else {
+    // Parallel processing with concurrency limit
+    console.log(`  ⚡ Processing ${extensions.length} extensions with ${concurrency} concurrent workers...`);
+    
+    const chunks: string[][] = [];
+    for (let i = 0; i < extensions.length; i += concurrency) {
+      chunks.push(extensions.slice(i, i + concurrency));
+    }
+    
+    for (const chunk of chunks) {
+      const chunkResults = await Promise.allSettled(
+        chunk.map(ext => processSingleExtension(ext, sources, useZyteProxy))
+      );
+      
+      for (let i = 0; i < chunk.length; i++) {
+        const result = chunkResults[i];
+        const ext = chunk[i];
+        
+        if (result.status === 'fulfilled' && result.value) {
+          results.push({
+            success: true,
+            extension: ext,
+            data: result.value
+          });
+        } else {
+          const error = result.status === 'rejected' ? result.reason : 'No data collected';
+          console.error(`  ❌ Error processing .${ext}:`, error);
+          results.push({
+            success: false,
+            extension: ext
+          });
+        }
+      }
     }
   }
   
@@ -226,7 +278,9 @@ async function main() {
   const options: ScraperOptions = {
     sources: ['fileinfo', 'files.org', 'fileformat'],
     updateExisting: false,
-    batchSize: 10
+    batchSize: 10,
+    concurrency: 1,
+    useZyteProxy: false
   };
   
   for (let i = 0; i < args.length; i++) {
@@ -242,6 +296,10 @@ async function main() {
       options.updateExisting = true;
     } else if (arg === '--batch-size' || arg === '-b') {
       options.batchSize = parseInt(args[++i], 10);
+    } else if (arg === '--concurrency' || arg === '-c') {
+      options.concurrency = parseInt(args[++i], 10);
+    } else if (arg === '--zyte-proxy' || arg === '-z') {
+      options.useZyteProxy = true;
     } else if (arg === '--help' || arg === '-h') {
       console.log(`
 File Type Scraper
@@ -255,15 +313,32 @@ Options:
   -o, --output <dir>            Output directory for JSON files
   -u, --update                  Update existing files
   -b, --batch-size <n>          Number of extensions per batch (default: 10)
+  -c, --concurrency <n>         Number of parallel workers (default: 1, max: 10)
+  -z, --zyte-proxy              Enable Zyte rotating proxy (requires ZYTE_API_KEY env var)
   -h, --help                    Show this help message
 
 Examples:
   npm run scrape -e pdf,docx,xlsx
   npm run scrape -s fileinfo,fileformat -u
   npm run scrape -e txt -s fileinfo
+  npm run scrape -u -c 5 -z               # Fast A-Z with 5 workers + Zyte proxy
+  ZYTE_API_KEY=your_key npm run scrape -u -c 10 -z  # Max speed with proxy
       `);
       process.exit(0);
     }
+  }
+  
+  // Validate and cap concurrency
+  if (options.concurrency && options.concurrency > 10) {
+    console.warn('⚠️  Concurrency capped at 10 to avoid overwhelming servers');
+    options.concurrency = 10;
+  }
+  
+  // Check for Zyte API key if proxy is enabled
+  if (options.useZyteProxy && !process.env.ZYTE_API_KEY) {
+    console.error('❌ Error: ZYTE_API_KEY environment variable is required when using --zyte-proxy');
+    console.log('   Set it with: export ZYTE_API_KEY=your_api_key');
+    process.exit(1);
   }
   
   await scrapeFileTypes(options);
