@@ -4,10 +4,10 @@
  * This scraper extracts file type information from file.org
  */
 
+import * as cheerio from 'cheerio';
 import { ScraperConfig, ScrapedFileData, ScraperResult } from '../types';
 import {
   cleanText,
-  extractTextFromHtml,
   normalizeExtension,
   getCurrentTimestamp,
   applyRateLimit,
@@ -65,7 +65,7 @@ export async function scrapeFilesOrg(extension: string): Promise<ScraperResult> 
 }
 
 /**
- * Fetch and parse data from file.org
+ * Fetch and parse data from file.org using Cheerio
  */
 async function fetchAndParseFilesOrg(url: string, extension: string): Promise<ScrapedFileData> {
   const response = await fetch(url, {
@@ -80,6 +80,7 @@ async function fetchAndParseFilesOrg(url: string, extension: string): Promise<Sc
   }
   
   const html = await response.text();
+  const $ = cheerio.load(html);
   
   const data: ScrapedFileData = {
     extension,
@@ -93,136 +94,93 @@ async function fetchAndParseFilesOrg(url: string, extension: string): Promise<Sc
   };
   
   // Extract title/name
-  const titleMatch = html.match(/<h1[^>]*>\.([A-Z]+)\s+-\s+([^<]+)<\/h1>/i);
-  if (titleMatch) {
-    data.name = cleanText(titleMatch[2]);
-  } else {
-    // Try alternative pattern
-    const altTitleMatch = html.match(/<h1[^>]*>([^<]+)<\/h1>/i);
-    if (altTitleMatch) {
-      data.name = cleanText(altTitleMatch[1]).replace(/^\./, '').replace(/\s+File$/, ' File');
+  const h1Text = $('h1').first().text();
+  if (h1Text) {
+    // file.org typically uses format ".EXT - File Name"
+    const nameMatch = h1Text.match(/^\.?[A-Z]+\s*[-–]\s*(.+)$/i);
+    if (nameMatch) {
+      data.name = cleanText(nameMatch[1]);
+    } else {
+      data.name = cleanText(h1Text).replace(/^\./, '').replace(/\s+File$/, ' File');
     }
   }
   
   // Extract description/summary
-  const descMatch = html.match(/<div class="extension-description"[^>]*>\s*<p>([^<]+)<\/p>/i);
-  if (descMatch) {
-    data.summary = cleanText(descMatch[1]);
+  const descText = $('.extension-description p').first().text();
+  if (descText) {
+    data.summary = cleanText(descText);
   } else {
-    // Try meta description
-    const metaDescMatch = html.match(/<meta name="description" content="([^"]+)"/i);
-    if (metaDescMatch) {
-      data.summary = cleanText(metaDescMatch[1]);
+    // Try meta description as fallback
+    const metaDesc = $('meta[name="description"]').attr('content');
+    if (metaDesc) {
+      data.summary = cleanText(metaDesc);
     }
   }
   
   // Extract category
-  const categoryMatch = html.match(/<span class="category"[^>]*>([^<]+)<\/span>/i);
-  if (categoryMatch) {
-    data.category = cleanText(categoryMatch[1]);
+  const categoryText = $('.category').first().text();
+  if (categoryText) {
+    data.category = cleanText(categoryText);
   }
   
   // Extract developer
-  const developerMatch = html.match(/Developer:\s*<[^>]*>([^<]+)<\//i);
+  const developerMatch = $('body:contains("Developer:")').text().match(/Developer:\s*([^\n]+)/i);
   if (developerMatch) {
     data.developer = cleanText(developerMatch[1]);
     data.developer_name = data.developer;
   }
   
   // Extract more information sections
-  const sections = extractSections(html);
-  if (sections.moreInfo.length > 0) {
-    data.more_information = {
-      content: sections.moreInfo
-    };
+  const moreInfoContent: string[] = [];
+  const technicalContent: string[] = [];
+  const howToOpenContent: string[] = [];
+  
+  // Look for section headers and content
+  $('h2, h3').each((_, elem) => {
+    const heading = cleanText($(elem).text()).toLowerCase();
+    const contentElem = $(elem).next();
+    
+    if (contentElem.is('p') || contentElem.is('div')) {
+      const text = cleanText(contentElem.text());
+      if (text && text.length > 20) {
+        if (heading.includes('what is') || heading.includes('about') || heading.includes('description')) {
+          moreInfoContent.push(text);
+        } else if (heading.includes('technical') || heading.includes('format') || heading.includes('specification')) {
+          technicalContent.push(text);
+        } else if (heading.includes('how to open') || heading.includes('programs')) {
+          howToOpenContent.push(text);
+        }
+      }
+    }
+  });
+  
+  // Also extract from all paragraphs as fallback
+  $('p').each((_, elem) => {
+    const text = cleanText($(elem).text());
+    if (text && text.length > 50 && !moreInfoContent.includes(text)) {
+      moreInfoContent.push(text);
+    }
+  });
+  
+  if (moreInfoContent.length > 0) {
+    data.more_information = { content: moreInfoContent };
   }
   
-  if (sections.technical.length > 0) {
-    data.technical_info = {
-      content: sections.technical
-    };
+  if (technicalContent.length > 0) {
+    data.technical_info = { content: technicalContent };
   }
   
-  // Extract how to open
-  if (sections.howToOpen.length > 0) {
-    data.how_to_open = {
-      instructions: sections.howToOpen
-    };
+  if (howToOpenContent.length > 0) {
+    data.how_to_open = { instructions: howToOpenContent };
   }
   
   // Extract programs
-  const programs = extractPrograms(html);
-  if (programs.length > 0 && data.how_to_open) {
-    data.how_to_open.programs = programs;
-  }
-  
-  // Extract MIME type
-  const mimeMatch = html.match(/MIME Type:\s*<[^>]*>([^<]+)<\//i);
-  if (mimeMatch) {
-    data.mime_type = cleanText(mimeMatch[1]);
-  }
-  
-  return data;
-}
-
-/**
- * Extract different sections from HTML
- */
-function extractSections(html: string): {
-  moreInfo: string[];
-  technical: string[];
-  howToOpen: string[];
-} {
-  const sections = {
-    moreInfo: [] as string[],
-    technical: [] as string[],
-    howToOpen: [] as string[]
-  };
-  
-  // Extract all section content
-  const sectionMatches = Array.from(html.matchAll(/<div class="section"[^>]*>\s*<h2>([^<]+)<\/h2>([\s\S]*?)<\/div>/gi));
-  
-  for (const match of sectionMatches) {
-    const title = cleanText(match[1]).toLowerCase();
-    const content = extractTextFromHtml(match[2]);
-    
-    if (!content || content.length < 10) continue;
-    
-    if (title.includes('what is') || title.includes('about') || title.includes('description')) {
-      sections.moreInfo.push(content);
-    } else if (title.includes('technical') || title.includes('format') || title.includes('specification')) {
-      sections.technical.push(content);
-    } else if (title.includes('how to open') || title.includes('programs')) {
-      sections.howToOpen.push(content);
-    }
-  }
-  
-  // Also extract from paragraphs
-  const paragraphs = Array.from(html.matchAll(/<p[^>]*>([\s\S]*?)<\/p>/gi));
-  
-  for (const match of paragraphs) {
-    const text = extractTextFromHtml(match[1]);
-    if (text && text.length > 50 && !sections.moreInfo.includes(text)) {
-      sections.moreInfo.push(text);
-    }
-  }
-  
-  return sections;
-}
-
-/**
- * Extract program names from HTML
- */
-function extractPrograms(html: string): Array<{ name: string; url?: string }> {
   const programs: Array<{ name: string; url?: string }> = [];
   const seen = new Set<string>();
   
-  // Extract from program lists
-  const programMatches = Array.from(html.matchAll(/<li[^>]*>\s*<a href="([^"]*)"[^>]*>([^<]+)<\/a>/gi));
-  
-  for (const match of programMatches) {
-    const name = cleanText(match[2]);
-    const url = match[1];
+  $('li a').each((_, elem) => {
+    const name = cleanText($(elem).text());
+    const url = $(elem).attr('href');
     
     if (name && name.length > 2 && name.length < 100) {
       const key = name.toLowerCase();
@@ -231,9 +189,19 @@ function extractPrograms(html: string): Array<{ name: string; url?: string }> {
         programs.push({ name, url: url || undefined });
       }
     }
+  });
+  
+  if (programs.length > 0 && data.how_to_open) {
+    data.how_to_open.programs = programs;
   }
   
-  return programs;
+  // Extract MIME type
+  const mimeMatch = $('body:contains("MIME Type:")').text().match(/MIME Type:\s*([^\n]+)/i);
+  if (mimeMatch) {
+    data.mime_type = cleanText(mimeMatch[1]);
+  }
+  
+  return data;
 }
 
 /**

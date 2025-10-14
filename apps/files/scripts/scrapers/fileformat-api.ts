@@ -4,6 +4,7 @@
  * This client interacts with the fileformat.com API to get file type information
  */
 
+import * as cheerio from 'cheerio';
 import { ScraperConfig, ScrapedFileData, ScraperResult } from '../types';
 import {
   cleanText,
@@ -183,7 +184,7 @@ function parseFileFormatResponse(json: any, extension: string, url: string): Scr
 }
 
 /**
- * Scrape fileformat.com website as fallback
+ * Scrape fileformat.com website as fallback using Cheerio
  */
 async function scrapeFileFormatWebsite(extension: string): Promise<ScrapedFileData> {
   const url = `https://docs.fileformat.com/extension/${extension}/`;
@@ -200,6 +201,7 @@ async function scrapeFileFormatWebsite(extension: string): Promise<ScrapedFileDa
   }
   
   const html = await response.text();
+  const $ = cheerio.load(html);
   
   const data: ScrapedFileData = {
     extension,
@@ -213,39 +215,34 @@ async function scrapeFileFormatWebsite(extension: string): Promise<ScrapedFileDa
   };
   
   // Extract title
-  const titleMatch = html.match(/<h1[^>]*>([^<]+)<\/h1>/i);
-  if (titleMatch) {
-    data.name = cleanText(titleMatch[1]).replace(/^\./, '').replace(/\s+File$/, ' File');
+  const h1Text = $('h1').first().text();
+  if (h1Text) {
+    data.name = cleanText(h1Text).replace(/^\./, '').replace(/\s+File$/, ' File');
   }
   
   // Extract description from meta tag
-  const metaDescMatch = html.match(/<meta name="description" content="([^"]+)"/i);
-  if (metaDescMatch) {
-    data.summary = cleanText(metaDescMatch[1]);
+  const metaDesc = $('meta[name="description"]').attr('content');
+  if (metaDesc) {
+    data.summary = cleanText(metaDesc);
   }
   
   // Extract category
-  const categoryMatch = html.match(/<span class="category"[^>]*>([^<]+)<\/span>/i);
-  if (categoryMatch) {
-    data.category = cleanText(categoryMatch[1]);
+  const categoryText = $('.category').first().text();
+  if (categoryText) {
+    data.category = cleanText(categoryText);
   }
   
   // Extract main content
-  const contentMatch = html.match(/<div class="content"[^>]*>([\s\S]*?)<\/div>/i);
-  if (contentMatch) {
-    const paragraphs = Array.from(contentMatch[1].matchAll(/<p[^>]*>([^<]+)<\/p>/gi));
-    const content: string[] = [];
-    
-    for (const match of paragraphs) {
-      const text = cleanText(match[1]);
-      if (text && text.length > 20) {
-        content.push(text);
-      }
+  const content: string[] = [];
+  $('.content p, article p').each((_, elem) => {
+    const text = cleanText($(elem).text());
+    if (text && text.length > 20) {
+      content.push(text);
     }
-    
-    if (content.length > 0) {
-      data.more_information = { content };
-    }
+  });
+  
+  if (content.length > 0) {
+    data.more_information = { content };
   }
   
   return data;

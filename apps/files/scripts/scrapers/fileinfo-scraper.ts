@@ -4,10 +4,10 @@
  * This scraper extracts file type information from fileinfo.com
  */
 
+import * as cheerio from 'cheerio';
 import { ScraperConfig, ScrapedFileData, ScraperResult } from '../types';
 import {
   cleanText,
-  extractTextFromHtml,
   normalizeExtension,
   getCurrentTimestamp,
   applyRateLimit,
@@ -65,12 +65,9 @@ export async function scrapeFileInfo(extension: string): Promise<ScraperResult> 
 }
 
 /**
- * Fetch and parse data from fileinfo.com
+ * Fetch and parse data from fileinfo.com using Cheerio
  */
 async function fetchAndParseFileInfo(url: string, extension: string): Promise<ScrapedFileData> {
-  // Note: In a real implementation, this would use fetch() or axios
-  // For now, we'll create a placeholder that shows the structure
-  
   const response = await fetch(url, {
     headers: {
       'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
@@ -83,9 +80,7 @@ async function fetchAndParseFileInfo(url: string, extension: string): Promise<Sc
   }
   
   const html = await response.text();
-  
-  // Parse the HTML (this would use cheerio or similar in real implementation)
-  // For now, we'll use regex patterns to extract information
+  const $ = cheerio.load(html);
   
   const data: ScrapedFileData = {
     extension,
@@ -98,100 +93,99 @@ async function fetchAndParseFileInfo(url: string, extension: string): Promise<Sc
     scraped_at: getCurrentTimestamp()
   };
   
-  // Extract title/name
-  const titleMatch = html.match(/<h1[^>]*>([^<]+)<\/h1>/i);
-  if (titleMatch) {
-    data.name = cleanText(titleMatch[1]).replace(/^\./, '').replace(/\s+File$/, ' File');
+  // Extract title/name - fileinfo.com uses h1 with the format ".EXT - File Name"
+  const h1Text = $('h1').first().text();
+  if (h1Text) {
+    // Remove the extension prefix if present
+    const nameMatch = h1Text.match(/^\.?[A-Za-z0-9]+\s*[-–]\s*(.+)$/);
+    if (nameMatch) {
+      data.name = cleanText(nameMatch[1]);
+    } else {
+      data.name = cleanText(h1Text);
+    }
   }
   
-  // Extract summary/description
-  const summaryMatch = html.match(/<div class="infoBox"[^>]*>\s*<p>([^<]+)<\/p>/i);
-  if (summaryMatch) {
-    data.summary = cleanText(summaryMatch[1]);
+  // Extract summary/description from the main info box
+  const infoBoxText = $('.infoBox p').first().text();
+  if (infoBoxText) {
+    data.summary = cleanText(infoBoxText);
   }
   
   // Extract category
-  const categoryMatch = html.match(/<a href="\/filetypes\/[^"]+">([^<]+)<\/a>/i);
-  if (categoryMatch) {
-    data.category = cleanText(categoryMatch[1]);
+  const categoryLink = $('a[href*="/filetypes/"]').first();
+  if (categoryLink.length) {
+    data.category = cleanText(categoryLink.text());
   }
   
   // Extract developer
-  const developerMatch = html.match(/Developer:<\/strong>\s*<a[^>]*>([^<]+)<\/a>/i);
-  if (developerMatch) {
-    data.developer = cleanText(developerMatch[1]);
-    data.developer_name = data.developer;
+  const developerSection = $('td:contains("Developer:")').next('td');
+  if (developerSection.length) {
+    const developerLink = developerSection.find('a').first();
+    if (developerLink.length) {
+      data.developer = cleanText(developerLink.text());
+      data.developer_name = data.developer;
+    }
   }
   
   // Extract rating and votes
-  const ratingMatch = html.match(/class="rating"[^>]*>([0-9.]+)<\/span>/i);
-  const votesMatch = html.match(/\(([0-9,]+)\s+votes?\)/i);
-  
-  if (ratingMatch) {
-    data.rating = parseFloat(ratingMatch[1]);
+  const ratingText = $('.rating').first().text();
+  if (ratingText) {
+    const rating = parseFloat(ratingText);
+    if (!isNaN(rating)) {
+      data.rating = rating;
+    }
   }
   
+  const votesMatch = $('body').text().match(/\(([0-9,]+)\s+votes?\)/i);
   if (votesMatch) {
     data.votes = parseInt(votesMatch[1].replace(/,/g, ''));
   }
   
   // Extract more information sections
-  const moreInfoMatch = html.match(/<div class="moreInfo"[^>]*>([\s\S]*?)<\/div>/i);
-  if (moreInfoMatch) {
-    const content = extractContentSections(moreInfoMatch[1]);
-    if (content.length > 0) {
-      data.more_information = {
-        content
-      };
+  const moreInfoContent: string[] = [];
+  $('.moreInfo p').each((_, elem) => {
+    const text = cleanText($(elem).text());
+    if (text && text.length > 10) {
+      moreInfoContent.push(text);
     }
+  });
+  
+  if (moreInfoContent.length > 0) {
+    data.more_information = { content: moreInfoContent };
   }
   
   // Extract how to open section
-  const howToOpenMatch = html.match(/<div class="howToOpen"[^>]*>([\s\S]*?)<\/div>/i);
-  if (howToOpenMatch) {
-    const instructions = extractContentSections(howToOpenMatch[1]);
-    if (instructions.length > 0) {
-      data.how_to_open = {
-        instructions
-      };
+  const howToOpenContent: string[] = [];
+  $('section:contains("How to open"), .howToOpen, div:contains("open")').find('p').each((_, elem) => {
+    const text = cleanText($(elem).text());
+    if (text && text.length > 20) {
+      howToOpenContent.push(text);
     }
+  });
+  
+  if (howToOpenContent.length > 0) {
+    data.how_to_open = { instructions: howToOpenContent };
   }
   
   // Extract programs
-  const programsMatch = Array.from(html.matchAll(/<li[^>]*>\s*<a[^>]*>([^<]+)<\/a>/gi));
   const programs: Array<{ name: string; url?: string }> = [];
-  
-  for (const match of programsMatch) {
-    const programName = cleanText(match[1]);
-    if (programName && programName.length > 2) {
-      programs.push({ name: programName });
+  $('ul li a, .programs a').each((_, elem) => {
+    const programName = cleanText($(elem).text());
+    const programUrl = $(elem).attr('href');
+    
+    if (programName && programName.length > 2 && programName.length < 100) {
+      programs.push({ 
+        name: programName,
+        url: programUrl || undefined
+      });
     }
-  }
+  });
   
   if (programs.length > 0 && data.how_to_open) {
     data.how_to_open.programs = programs;
   }
   
   return data;
-}
-
-/**
- * Extract content sections from HTML
- */
-function extractContentSections(html: string): string[] {
-  const sections: string[] = [];
-  
-  // Extract paragraphs
-  const paragraphMatches = Array.from(html.matchAll(/<p[^>]*>([\s\S]*?)<\/p>/gi));
-  
-  for (const match of paragraphMatches) {
-    const text = extractTextFromHtml(match[1]);
-    if (text && text.length > 10) {
-      sections.push(text);
-    }
-  }
-  
-  return sections;
 }
 
 /**
