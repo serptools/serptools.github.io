@@ -10,7 +10,8 @@
     "typecheck": "tsc --noEmit",
     "scrape": "tsx scripts/scrape.ts",
     "test-scraper": "tsx scripts/test-scraper.ts",
-    "generate-indexes": "tsx scripts/generate-indexes.ts"
+    "generate-indexes": "tsx scripts/generate-indexes.ts",
+    "example": "tsx scripts/example.ts"
   },
   "dependencies": {
     "@serp-tools/app-core": "workspace:*",
