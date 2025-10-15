@@ -86,6 +86,12 @@ npm run scrape -- -e pdf,docx -u
 
 # Scrape with custom batch size
 npm run scrape -- -e pdf,doc,xls,ppt -b 2
+
+# With concurrency (5 workers)
+npm run scrape -- -e pdf,docx,xlsx -c 5
+
+# With Zyte proxy for maximum speed
+ZYTE_API_KEY=your_key npm run scrape -- -u -c 10 -z
 ```
 
 #### Testing (`npm run test-scraper`)
@@ -110,6 +116,23 @@ npm run test-scraper test-batch pdf,docx,xlsx
 # Validate existing data
 npm run test-scraper validate ./public/data/files/individual
 ```
+
+#### Testing Zyte Proxy (`npm run test-zyte`)
+
+Before running bulk scrapes with Zyte, test your API key:
+
+```bash
+# Test Zyte API integration
+ZYTE_API_KEY=your_key npm run test-zyte
+```
+
+This will verify:
+- API key is valid
+- Zyte service is accessible
+- HTML content is being extracted correctly
+- Your quota has sufficient credits
+
+If the test passes, you can proceed with production scraping using the `-z` flag.
 
 ## Data Schema
 

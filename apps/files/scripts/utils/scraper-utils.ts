@@ -18,39 +18,59 @@ export async function fetchWithProxy(
   proxyConfig?: ProxyConfig
 ): Promise<Response> {
   if (proxyConfig?.useProxy && proxyConfig.apiKey) {
-    // Use Zyte Smart Proxy Manager
-    const proxyUrl = `http://${proxyConfig.apiKey}:@proxy.zyte.com:8011`;
-    
-    // For Node.js fetch with proxy, we need to use a proxy agent
-    // Since we're using native fetch, we'll use Zyte API instead
-    const zyteResponse = await fetch('https://api.zyte.com/v1/extract', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        'Authorization': `Basic ${Buffer.from(proxyConfig.apiKey + ':').toString('base64')}`
-      },
-      body: JSON.stringify({
-        url: url,
-        httpResponseBody: true,
-        httpResponseHeaders: true
-      })
-    });
-    
-    if (!zyteResponse.ok) {
-      // Fallback to direct request if Zyte fails
-      console.warn('Zyte API failed, falling back to direct request');
+    try {
+      // Use Zyte API Automatic Extraction
+      // Documentation: https://docs.zyte.com/zyte-api/usage/extract.html
+      const zyteResponse = await fetch('https://api.zyte.com/v1/extract', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Authorization': `Basic ${Buffer.from(proxyConfig.apiKey + ':').toString('base64')}`
+        },
+        body: JSON.stringify({
+          url: url,
+          httpResponseBody: true,
+          httpResponseHeaders: true,
+          // Use browser rendering for better compatibility
+          browserHtml: true,
+          // Add custom headers if provided
+          customHttpRequestHeaders: options.headers ? 
+            Object.entries(options.headers).map(([name, value]) => ({ name, value: String(value) })) : 
+            undefined
+        }),
+        signal: options.signal
+      });
+      
+      if (!zyteResponse.ok) {
+        const errorText = await zyteResponse.text();
+        console.warn(`Zyte API error (${zyteResponse.status}): ${errorText.slice(0, 200)}`);
+        console.warn('Falling back to direct request');
+        return fetch(url, options);
+      }
+      
+      const zyteData = await zyteResponse.json();
+      
+      // Extract HTML content - check both browserHtml and httpResponseBody
+      let htmlContent = '';
+      if (zyteData.browserHtml) {
+        htmlContent = zyteData.browserHtml;
+      } else if (zyteData.httpResponseBody) {
+        htmlContent = Buffer.from(zyteData.httpResponseBody, 'base64').toString('utf-8');
+      } else {
+        throw new Error('No content in Zyte response');
+      }
+      
+      // Create a Response object with the extracted content
+      return new Response(htmlContent, {
+        status: zyteData.statusCode || 200,
+        statusText: 'OK',
+        headers: new Headers(zyteData.httpResponseHeaders || {})
+      });
+    } catch (error) {
+      const errorMsg = error instanceof Error ? error.message : String(error);
+      console.warn(`Zyte proxy error: ${errorMsg}, falling back to direct request`);
       return fetch(url, options);
     }
-    
-    const zyteData = await zyteResponse.json();
-    const htmlContent = Buffer.from(zyteData.httpResponseBody, 'base64').toString('utf-8');
-    
-    // Create a mock Response object
-    return new Response(htmlContent, {
-      status: zyteData.statusCode || 200,
-      statusText: 'OK',
-      headers: zyteData.httpResponseHeaders || {}
-    });
   }
   
   // Direct request without proxy

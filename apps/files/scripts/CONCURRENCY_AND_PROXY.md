@@ -39,14 +39,26 @@ npm run scrape -- -u -c 10
 ### Enable Zyte Proxy
 
 1. **Get your Zyte API key** from https://www.zyte.com/
+   - Sign up for Zyte API (formerly Crawlera)
+   - Get your API key from the dashboard
+   - Ensure you have sufficient credits/quota
+
 2. **Set the environment variable:**
    ```bash
    export ZYTE_API_KEY=your_api_key_here
    ```
+
 3. **Run with proxy enabled:**
    ```bash
    npm run scrape -- -u -z
    ```
+
+**Note**: The scraper uses Zyte's Automatic Extraction API which:
+- Handles browser rendering automatically
+- Bypasses bot detection and CAPTCHAs
+- Rotates IPs automatically
+- Costs credits per request (check your Zyte plan)
+- Falls back to direct requests if Zyte fails
 
 ### Combined: Maximum Speed
 
@@ -59,6 +71,9 @@ npm run scrape -- -u -c 10 -z
 
 # Or inline:
 ZYTE_API_KEY=your_key npm run scrape -- -u -c 10 -z
+
+# Start with fewer workers to test
+ZYTE_API_KEY=your_key npm run scrape -- -e pdf,docx,txt -c 3 -z
 ```
 
 ## Command Line Options
@@ -210,7 +225,27 @@ export ZYTE_API_KEY=your_actual_api_key
 ```
 
 ### "Zyte API failed, falling back to direct request"
-Your Zyte quota might be exceeded or there's an API issue. The scraper continues with direct requests.
+This can happen for several reasons:
+
+**Common Causes:**
+1. **API Key Invalid**: Verify your key is correct
+2. **Quota Exceeded**: Check your Zyte dashboard for remaining credits
+3. **API Error**: Zyte API may be experiencing issues
+4. **Network Issues**: Connection problems to Zyte servers
+5. **Request Format**: The API request format may need adjustment
+
+**Solution:**
+The scraper automatically falls back to direct requests, so it will continue working. To resolve:
+- Check your Zyte dashboard at https://app.zyte.com/
+- Verify API key is active and has credits
+- Review error messages in console for specific codes
+- Try with a single extension first: `npm run scrape -- -e pdf -z`
+- Check if browserHtml feature is enabled in your Zyte plan
+
+**If seeing many retries:**
+- Start with lower concurrency: `-c 3` instead of `-c 10`
+- Test a single extension to verify Zyte is working
+- Consider using concurrency without Zyte first
 
 ### Slow Performance with Concurrency
 - Increase batch size: `-b 50` or `-b 100`
@@ -221,6 +256,13 @@ Your Zyte quota might be exceeded or there's an API issue. The scraper continues
 - Reduce concurrency: `-c 3` instead of `-c 10`
 - Enable Zyte proxy: `-z`
 - Increase batch size to process fewer batches
+
+### Too Many Retries
+If you see many "Retry attempt" messages:
+- The target websites may be blocking requests
+- Enable Zyte proxy to bypass blocks: `-z`
+- Reduce concurrency to be more respectful: `-c 3`
+- Check if your IP is blocked (try different network)
 
 ## Examples
 

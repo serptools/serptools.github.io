@@ -10,6 +10,7 @@
     "typecheck": "tsc --noEmit",
     "scrape": "tsx scripts/scrape.ts",
     "test-scraper": "tsx scripts/test-scraper.ts",
+    "test-zyte": "tsx scripts/test-zyte.ts",
     "generate-indexes": "tsx scripts/generate-indexes.ts",
     "example": "tsx scripts/example.ts"
   },
